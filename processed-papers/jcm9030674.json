@@ -1,0 +1,924 @@
+{
+    "filename": "pdf.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1606902,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.3390/jcm9030674",
+            "url": "https://www.mdpi.com/2077-0383/9/3/674/pdf"
+        },
+        "title": "Optimization Method for Forecasting Confirmed Cases of COVID-19 in China",
+        "keywords": [
+            "COVID-19",
+            "adaptive neuro-fuzzy inference system (ANFIS)",
+            "forecasting",
+            "salp swarm algorithm (SSA)",
+            "flower pollination algorithm (FPA)"
+        ],
+        "author": "Mohammed A. A. Al-qaness, Ahmed A. Ewees, Hong Fan, Mohamed Abd El Abd El Aziz",
+        "date": 2020,
+        "affiliations": [
+            "State Key Laboratory for Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Wuhan 430079, China; alqaness@whu.edu.cn",
+            "Department of e-Systems, University of Bisha, Bisha 61922, Saudi Arabia; ewees@du.edu.eg",
+            "Department of Computer, Damietta University, Damietta 34517, Egypt",
+            "Department of Mathematics, Faculty of Science, Zagazig University, Zagazig 44519, Egypt;"
+        ],
+        "journal": "Journal of Clinical Medicine",
+        "volume": "9",
+        "abstract": "In December 2019, a novel coronavirus, called COVID-19, was discovered in Wuhan, China, and has spread to different cities in China as well as to 24 other countries. The number of confirmed cases is increasing daily and reached 34,598 on 8 February 2020. In the current study, we present a new forecasting model to estimate and forecast the number of confirmed cases of COVID-19 in the upcoming ten days based on the previously confirmed cases recorded in China. The proposed model is an improved adaptive neuro-fuzzy inference system (ANFIS) using an enhanced flower pollination algorithm (FPA) by using the salp swarm algorithm (SSA). In general, SSA is employed to improve FPA to avoid its drawbacks (i.e., getting trapped at the local optima). The main idea of the proposed model, called FPASSA-ANFIS, is to improve the performance of ANFIS by determining the parameters of ANFIS using FPASSA. The FPASSA-ANFIS model is evaluated using the World Health Organization (WHO) official data of the outbreak of the COVID-19 to forecast the confirmed cases of the upcoming ten days. More so, the FPASSA-ANFIS model is compared to several existing models, and it showed better performance in terms of Mean Absolute Percentage Error (MAPE), Root Mean Squared Relative Error (RMSRE), Root Mean Squared Relative Error (RMSRE), coefficient of determination (    R 2    ), and computing time. Furthermore, we tested the proposed model using two different datasets of weekly influenza confirmed cases in two countries, namely the USA and China. The outcomes also showed good performances.",
+        "references": "@article{chen-a,\n  author = {Chen, Y. and Liu, Q. and Guo, D.},\n  title = {Emerging coronaviruses: Genome structure, replication, and pathogenesis},\n  journal = {J. Med. Virol. 2020},\n  doi = {doi: 10.1002/jmv.25681},\n  language = {}\n}\n@article{ge2013a,\n  author = {Ge, X.Y. and Li, J.L. and Yang, X.L. and Chmura, A.A. and Zhu, G. and Epstein, J.H. and Mazet, J.K. and Hu, B. and Zhang, W. and Peng, C.},\n  title = {Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor},\n  journal = {Nature},\n  date = {2013},\n  volume = {503},\n  pages = {535\u2013538},\n  more-authors = {true},\n  language = {}\n}\n@article{wang2006a,\n  author = {Wang, L.F. and Shi, Z. and Zhang, S. and Field, H. and Daszak, P. and Eaton, B.T.},\n  title = {Review of bats and SARS},\n  journal = {Emerg. Infect. Dis},\n  date = {2006},\n  volume = {12},\n  pages = {1834},\n  language = {}\n}\n@article{cauchemez2013a,\n  author = {Cauchemez, S. and Van Kerkhove, M. and Riley, S. and Donnelly, C. and Fraser, C. and Ferguson, N.},\n  title = {Transmission scenarios for Middle East Respiratory Syndrome Coronavirus (MERS-CoV) and how to tell them apart},\n  journal = {Euro Surveill. Bull. Eur. Sur Les Mal. Transm. Eur. Commun. Dis. Bull},\n  date = {2013},\n  volume = {18},\n  pages = {20503},\n  language = {}\n}\n@book{organization2019a,\n  author = {Organization, W.H.},\n  title = {Novel Coronavirus},\n  date = {2019-01-27},\n  volume = {2020},\n  url = {https://www.who.int/},\n  publisher = {on},\n  number = {2020},\n  language = {}\n}\n@article{lu-a,\n  author = {Lu, R. and Zhao, X. and Li, J. and Niu, P. and Yang, B. and Wu, H. and Wang, W. and Song, H. and Huang, B. and Zhu, N.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: Implications for virus origins and receptor binding},\n  journal = {Lancet},\n  volume = {2020},\n  pages = {565\u2013574},\n  more-authors = {true},\n  number = {395},\n  language = {}\n}\n@book{cheng2019a,\n  author = {Cheng, Z.J. and Shan, J.},\n  date = {2019},\n  title = {Novel Coronavirus: Where We are and What We Know},\n  publisher = {Infection 2020},\n  doi = {doi: 10.1007/s15010-020-01401-y},\n  language = {}\n}\n@book{guan-a,\n  author = {Guan, W.J. and Ni, Z.Y. and Hu, Y. and Liang, W.H. and Ou, C.Q. and He, J.X. and Liu, L. and Shan, H. and Lei, C.L. and Hui, D.S.},\n  title = {Clinical characteristics of 2019 novel coronavirus infection in China},\n  publisher = {medRxiv 2020},\n  doi = {doi: 10.1101/2020.02.06.20020974},\n  url = {https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974.full.pdf},\n  more-authors = {true},\n  unmatched-accessed = {(accessed on 9 February 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@article{zhao2019a,\n  author = {Zhao, S. and Musa, S.S. and Lin, Q. and Ran, J. and Yang, G. and Wang, W. and Lou, Y. and Yang, L. and Gao, D. and He, D.},\n  title = {Estimating the Unreported Number of Novel Coronavirus},\n  date = {2019},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {388},\n  more-authors = {true},\n  source = {Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak},\n  number = {9},\n  language = {}\n}\n@article{nishiura2019a,\n  author = {Nishiura, H. and Kobayashi, T. and Yang, Y. and Hayashi, K. and Miyama, T. and Kinoshita, R. and Linton, N.M. and Jung, Sm and Yuan, B. and Suzuki, A.},\n  title = {The Rate of Underascertainment of Novel Coronavirus},\n  date = {2019},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {419},\n  more-authors = {true},\n  source = {Infection: Estimation Using Japanese Passengers Data on Evacuation Flights},\n  number = {9},\n  language = {}\n}\n@article{tang-a,\n  author = {Tang, B. and Wang, X. and Li, Q. and Bragazzi, N.L. and Tang, S. and Xiao, Y. and Wu, J.},\n  title = {Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {462},\n  number = {9},\n  language = {}\n}\n@article{thompson-a,\n  author = {Thompson, R.N.},\n  title = {Novel Coronavirus Outbreak in Wuhan, China, 2020: Intense Surveillance Is Vital for Preventing Sustained Transmission in New Locations},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {498},\n  number = {9},\n  language = {}\n}\n@article{jung2019a,\n  author = {Jung, S.M. and Akhmetzhanov, A.R. and Hayashi, K. and Linton, N.M. and Yang, Y. and Yuan, B. and Kobayashi, T. and Kinoshita, R. and Nishiura, H.},\n  title = {Real time estimation of the risk of death from novel coronavirus},\n  date = {2019},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {523},\n  source = {infection: Inference using exported cases},\n  number = {9},\n  language = {}\n}\n@article{defelice2017a,\n  author = {DeFelice, N.B. and Little, E. and Campbell, S.R. and Shaman, J.},\n  title = {Ensemble forecast of human West Nile virus cases and mosquito infection rates},\n  journal = {Nat. Commun},\n  date = {2017},\n  volume = {8},\n  pages = {1\u20136},\n  language = {}\n}\n@article{ture2006a,\n  author = {Ture, M. and Kurt, I.},\n  title = {Comparison of four different time series methods to forecast hepatitis A virus infection},\n  journal = {Expert Syst. Appl},\n  date = {2006},\n  volume = {31},\n  pages = {41\u201346},\n  language = {}\n}\n@article{shaman2012a,\n  author = {Shaman, J. and Karspeck, A.},\n  title = {Forecasting seasonal outbreaks of influenza},\n  journal = {Proc. Natl. Acad. Sci. USA},\n  date = {2012},\n  volume = {109},\n  pages = {20425\u201320430},\n  language = {}\n}\n@article{shaman2013a,\n  author = {Shaman, J. and Karspeck, A. and Yang, W. and Tamerius, J. and Lipsitch, M.},\n  title = {Real-time influenza forecasts during the 2012\u20132013 season},\n  journal = {Nat. Commun},\n  date = {2013},\n  volume = {4},\n  pages = {1\u201310},\n  language = {}\n}\n@misc{shaman2014a,\n  author = {Shaman, J. and Yang, W. and Kandula, S.PLoS Curr},\n  date = {2014},\n  volume = {6},\n  doi = {doi: 10.1371/currents.outbreaks.3408774290b1a0f2dd7cae877c8b8ff6}\n}\n@article{massad2005a,\n  author = {Massad, E. and Burattini, M.N. and Lopez, L.F. and Coutinho, F.A.},\n  title = {Forecasting versus projection models in epidemiology: The case of the SARS epidemics},\n  journal = {Med. Hypotheses},\n  date = {2005},\n  volume = {65},\n  pages = {17\u201322},\n  language = {}\n}\n@article{ong2010a,\n  author = {Ong, J.B.S. and Mark, I. and Chen, C. and Cook, A.R. and Lee, H.C. and Lee, V.J. and Lin, R.T.P. and Tambyah, P.A. and Goh, L.G.},\n  title = {Real-time epidemic monitoring and forecasting of H1N1-2009 using influenza-like illness from general practice and family doctor clinics in Singapore},\n  journal = {PLoS ONE},\n  date = {2010},\n  volume = {5},\n  doi = {doi: 10.1371/journal.pone.0010036},\n  language = {}\n}\n@article{nah2016a,\n  author = {Nah, K. and Otsuki, S. and Chowell, G. and Nishiura, H.},\n  title = {Predicting the international spread of Middle East respiratory syndrome (MERS)},\n  journal = {BMC Infect. Dis},\n  date = {2016},\n  volume = {16},\n  pages = {356},\n  language = {}\n}\n@article{jang1993a,\n  author = {Jang, J.S.},\n  title = {ANFIS: Adaptive-network-based fuzzy inference system},\n  journal = {IEEE Trans. Syst. Man Cybern},\n  date = {1993},\n  volume = {23},\n  pages = {665\u2013685},\n  language = {}\n}\n@article{wei2016a,\n  author = {Wei, L.Y.},\n  title = {A hybrid ANFIS model based on empirical mode decomposition for stock time series forecasting},\n  journal = {Appl. Soft Comput},\n  date = {2016},\n  volume = {42},\n  pages = {368\u2013376},\n  language = {}\n}\n@article{cheng2013a,\n  author = {Cheng, C.H. and Wei, L.Y. and Liu, J.W. and Chen, T.L.},\n  title = {OWA-based ANFIS model for TAIEX forecasting},\n  journal = {Econ. Model},\n  date = {2013},\n  volume = {30},\n  pages = {442\u2013448},\n  language = {}\n}\n@article{pousinho2012a,\n  author = {Pousinho, H.M.I. and Mendes, V. and Catal\u00e3o, J.Pd S.},\n  title = {Short-term electricity prices forecasting in a competitive market by a hybrid PSO\u2013ANFIS approach},\n  journal = {Int. J. Electr. Power Energy Syst},\n  date = {2012},\n  volume = {39},\n  pages = {29\u201335},\n  language = {}\n}\n@article{svalina2013a,\n  author = {Svalina, I. and Galzina, V. and Lujic, R. and \u0160Imunovic, G.},\n  title = {An adaptive network-based fuzzy inference system (ANFIS) for the forecasting: The case of close price indices},\n  journal = {Expert Syst. Appl},\n  date = {2013},\n  volume = {40},\n  pages = {6055\u20136063},\n  language = {}\n}\n@article{ekici2011a,\n  author = {Ekici, B.B. and Aksoy, U.T.},\n  title = {Prediction of building energy needs in early stage of design by using ANFIS},\n  journal = {Expert Syst. Appl},\n  date = {2011},\n  volume = {38},\n  pages = {5352\u20135358},\n  language = {}\n}\n@article{cheng2010a,\n  author = {Cheng, C.H. and Wei, L.Y.},\n  title = {One step-ahead ANFIS time series model for forecasting electricity loads},\n  journal = {Optim. Eng},\n  date = {2010},\n  volume = {11},\n  pages = {303\u2013317},\n  language = {}\n}\n@article{kumar2014a,\n  author = {Kumar, D.T. and Soleimani, H. and Kannan, G.},\n  title = {Forecasting return products in an integrated forward/reverse supply chain utilizing an ANFIS},\n  journal = {Int. J. Appl. Math. Comput. Sci},\n  date = {2014},\n  volume = {24},\n  pages = {669\u2013682},\n  language = {}\n}\n@article{ho2011a,\n  author = {Ho, Y.C. and Tsai, C.T.},\n  title = {Comparing ANFIS and SEM in linear and nonlinear forecasting of new product development performance},\n  journal = {Expert Syst. Appl},\n  date = {2011},\n  volume = {38},\n  pages = {6498\u20136507},\n  language = {}\n}\n@article{catal2010a,\n  author = {Catal\u00e3o, J.Pd S. and Pousinho, H.M.I. and Mendes, V.M.F.},\n  title = {Hybrid wavelet-PSO-ANFIS approach for short-term electricity prices forecasting},\n  journal = {IEEE Trans. Power Syst},\n  date = {2010},\n  volume = {26},\n  pages = {137\u2013144},\n  language = {}\n}\n@article{bagheri-a,\n  author = {Bagheri, A. and Peyhani, H.M. and Akbari, M.},\n  title = {Financial forecasting using ANFIS networks with quantum-behaved particle swarm optimization},\n  journal = {Expert Syst. Appl},\n  volume = {2014},\n  pages = {6235\u20136250},\n  number = {41},\n  language = {}\n}\n@inproceedings{ewees2017a,\n  author = {Ewees, A.A. and El Aziz, M.A. and Elhoseny, M.},\n  title = {Social-spider optimization algorithm for improving ANFIS to predict biochar yield},\n  booktitle = {Proceedings of the 2017 8th International Conference on Computing, Communication and Networking Technologies (ICCCNT)},\n  pages = \"3\u20135\" # \"pp. 1\u20136.\",\n  date = {2017-07},\n  unmatched-pages = {pp. 1\u20136.},\n  language = {},\n  address = {Delhi, India}\n}\n@article{al-qaness2018a,\n  author = {Al-Qaness, M.A. and Elaziz, M.A. and Ewees, A.A.},\n  title = {Oil consumption forecasting using optimized adaptive neuro-fuzzy inference system based on sine cosine algorithm},\n  journal = {IEEE Access},\n  date = {2018},\n  volume = {6},\n  pages = {68394\u201368402},\n  language = {}\n}\n@article{al-qaness2019a,\n  author = {Al-qaness, M.A. and Abd Elaziz, M. and Ewees, A.A. and Cui, X.},\n  title = {A Modified Adaptive Neuro-Fuzzy Inference System Using Multi-Verse Optimizer Algorithm for Oil Consumption Forecasting},\n  journal = {Electronics},\n  date = {2019},\n  volume = {8},\n  pages = {1071},\n  language = {}\n}\n@inproceedings{el2017a,\n  author = {El Aziz, M.A. and Hemdan, A.M. and Ewees, A.A. and Elhoseny, M. and Shehab, A. and Hassanien, A.E. and Xiong, S.},\n  title = {Prediction of biochar yield using adaptive neuro-fuzzy inference system with particle swarm optimization},\n  booktitle = {Proceedings of the 2017 IEEE PES PowerAfrica},\n  pages = \"27\u201330\" # \"pp. 115\u2013120.\",\n  date = {2017-06},\n  unmatched-pages = {pp. 115\u2013120.},\n  language = {},\n  address = {Accra, Ghana}\n}\n@article{elaziz2019a,\n  author = {Elaziz, M.A. and Ewees, A.A. and Alameer, Z.},\n  title = {Improving adaptive neuro-fuzzy inference system based on a modified salp swarm algorithm using genetic algorithm to forecast crude oil price},\n  journal = {Nat. Resour. Res},\n  date = {2019},\n  pages = {1\u201316},\n  doi = {doi: 10.1007/s11053-019-09587-1},\n  language = {}\n}\n@incollection{yang2012a,\n  author = {Yang, X.S.},\n  title = {Flower pollination algorithm for global optimization},\n  booktitle = {International Conference on Unconventional Computing and Natural Computation},\n  date = {2012},\n  pages = {240\u2013249},\n  publisher = {Berlin, Germany},\n  language = {},\n  address = {Springer}\n}\n@article{alam2015a,\n  author = {Alam, D. and Yousri, D. and Eteiba, M.},\n  title = {Flower pollination algorithm based solar PV parameter estimation},\n  journal = {Energy Convers. Manag},\n  date = {2015},\n  volume = {101},\n  pages = {410\u2013422},\n  language = {}\n}\n@article{ram2017a,\n  author = {Ram, J.P. and Babu, T.S. and Dragicevic, T. and Rajasekar, N.},\n  title = {A new hybrid bee pollinator flower pollination algorithm for solar PV parameter estimation},\n  journal = {Energy Convers. Manag},\n  date = {2017},\n  volume = {135},\n  pages = {463\u2013476},\n  language = {}\n}\n@article{abdel-raouf2014a,\n  author = {Abdel-Raouf, O. and El-Henawy, I. and Abdel-Baset, M.},\n  title = {A novel hybrid flower pollination algorithm with chaotic harmony search for solving sudoku puzzles},\n  journal = {Int. J. Mod. Educ. Comput. Sci},\n  date = {2014},\n  volume = {6},\n  pages = {38},\n  language = {}\n}\n@incollection{rodrigues2015a,\n  author = {Rodrigues, D. and Yang, X.S. and De Souza, A.N. and Papa, J.P.},\n  title = {Binary flower pollination algorithm and its application to feature selection},\n  booktitle = {Recent Advances in Swarm Intelligence and Evolutionary Computation},\n  date = {2015},\n  pages = {85\u2013100},\n  publisher = {Berlin, Germany},\n  language = {},\n  address = {Springer}\n}\n@book{salgotra2020a,\n  author = {Salgotra, R. and Singh, U. and Saha, S. and Nagar, A.K.},\n  title = {Improved Flower Pollination Algorithm for Linear Antenna Design Problems. In Soft Computing for Problem Solving},\n  date = {2020},\n  pages = {79\u201389},\n  publisher = {Berlin, Germany},\n  language = {},\n  address = {Springer}\n}\n@article{priya2019a,\n  author = {Priya, K. and Rajasekar, N.},\n  title = {Application of flower pollination algorithm for enhanced proton exchange membrane fuel cell modelling},\n  journal = {Int. J. Hydrog. Energy},\n  date = {2019},\n  volume = {44},\n  pages = {18438\u201318449},\n  language = {}\n}\n@article{nguyen2019a,\n  author = {Nguyen, T.T. and Pan, J.S. and Dao, T.K.},\n  title = {An improved flower pollination algorithm for optimizing layouts of nodes in wireless sensor network},\n  journal = {IEEE Access},\n  date = {2019},\n  volume = {7},\n  pages = {75985\u201375998},\n  language = {}\n}\n@inproceedings{ahmed2017a,\n  author = {Ahmed, K. and Ewees, A.A. and Hassanien, A.E.},\n  title = {Prediction and management system for forest fires based on hybrid flower pollination optimization algorithm and adaptive neuro-fuzzy inference system},\n  booktitle = {Proceedings of the 2017 Eighth International Conference on Intelligent Computing and Information Systems (ICICIS)},\n  pages = \"5\u20137\" # \"pp. 299\u2013304.\",\n  date = {2017-12},\n  unmatched-pages = {pp. 299\u2013304.},\n  language = {},\n  address = {Cairo, Egypt}\n}\n@article{al-betar2019a,\n  author = {Al-Betar, M.A. and Awadallah, M.A. and Doush, I.A. and Hammouri, A.I. and Mafarja, M. and Alyasseri, Z.A.A.},\n  title = {Island flower pollination algorithm for global optimization},\n  journal = {J. Supercomput},\n  date = {2019},\n  volume = {75},\n  pages = {5280\u20135323},\n  language = {}\n}\n@article{mirjalili2017a,\n  author = {Mirjalili, S. and Gandomi, A.H. and Mirjalili, S.Z. and Saremi, S. and Faris, H. and Mirjalili, S.M.},\n  title = {Salp Swarm Algorithm: A bio-inspired optimizer for engineering design problems},\n  journal = {Adv. Eng. Softw},\n  date = {2017},\n  volume = {114},\n  pages = {163\u2013191},\n  language = {}\n}\n@article{tubishat-a,\n  author = {Tubishat, M. and Idris, N. and Shuib, L. and Abushariah, M.A. and Mirjalili, S.},\n  title = {Improved Salp Swarm Algorithm based on opposition based learning and novel local search algorithm for feature selection},\n  journal = {Expert Syst. Appl},\n  volume = {2020},\n  pages = {113122},\n  number = {145},\n  language = {}\n}\n@article{neggaz-a,\n  author = {Neggaz, N. and Ewees, A.A. and Elaziz, M.A. and Mafarja, M.},\n  title = {Boosting salp swarm algorithm by sine cosine algorithm and disrupt operator for feature selection},\n  journal = {Expert Syst. Appl},\n  volume = {2020},\n  pages = {113103},\n  number = {145},\n  language = {}\n}\n@incollection{panda2020a,\n  author = {Panda, N. and Majhi, S.K.},\n  title = {How effective is the salp swarm algorithm in data classification},\n  booktitle = {Computational Intelligence in Pattern Recognition},\n  date = {2020},\n  pages = {579\u2013588},\n  publisher = {Berlin, Germany},\n  language = {},\n  address = {Springer}\n}\n@article{alwerfali2019a,\n  author = {Alwerfali, H.S.N. and Elaziz, M.A. and Al-Qaness, M.A. and Abbasi, A.A. and Lu, S. and Liu, F. and Li, L.},\n  title = {A Multilevel Image Thresholding Based on Hybrid Salp Swarm Algorithm and Fuzzy Entropy},\n  journal = {IEEE Access},\n  date = {2019},\n  volume = {7},\n  pages = {181405\u2013181422},\n  language = {}\n}\n@article{alresheedi2019a,\n  author = {Alresheedi, S.S. and Lu, S. and Elaziz, M.A. and Ewees, A.A.},\n  title = {Improved multiobjective salp swarm optimization for virtual machine placement in cloud computing},\n  journal = {Hum.-Centric Comput. Inf. Sci},\n  date = {2019},\n  volume = {9},\n  pages = {15},\n  language = {}\n}\n@article{abualigah2019a,\n  author = {Abualigah, L. and Shehab, M. and Alshinwan, M. and Alabool, H.},\n  title = {Salp swarm algorithm: A comprehensive survey},\n  journal = {Neural Comput. Appl},\n  date = {2019},\n  doi = {doi: 10.1007/s00521-019-04629-4},\n  language = {}\n}\n@incollection{ahmed2016a,\n  author = {Ahmed, K. and Ewees, A.A. and El Aziz, M.A. and Hassanien, A.E. and Gaber, T. and Tsai, P.W. and Pan, J.S.},\n  title = {A hybrid krill-ANFIS model for wind speed forecasting},\n  booktitle = {International Conference on Advanced Intelligent Systems and Informatics},\n  date = {2016},\n  pages = {365\u2013372},\n  publisher = {Berlin, Germany},\n  language = {},\n  address = {Springer}\n}\n@article{alameer2019a,\n  author = {Alameer, Z. and Elaziz, M.A. and Ewees, A.A. and Ye, H. and Jianhua, Z.},\n  title = {Forecasting copper prices using hybrid adaptive neuro-fuzzy inference system and genetic algorithms},\n  journal = {Nat. Resour. Res},\n  date = {2019},\n  volume = {28},\n  pages = {1385\u20131401},\n  language = {}\n}\n",
+        "links": [
+            "http://www.mdpi.com/journal/jcm",
+            "https://www.who.int/influenza",
+            "http://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/",
+            "https://www.cdc.gov/flu/weekly/"
+        ],
+        "emails": [
+            "ewees@du.edu.eg",
+            "abd_el_aziz_m@yahoo.com",
+            "hfan3@whu.edu.cn",
+            "alqaness@whu.edu.cn"
+        ],
+        "pages": "674",
+        "references_ris": "TY  - JOUR\nAU  - Chen, Y.\nAU  - Liu, Q.\nAU  - Guo, D.\nTI  - Emerging coronaviruses: Genome structure, replication, and pathogenesis\nT2  - J. Med. Virol. 2020\nDO  - 10.1002/jmv.25681\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ge, X.Y.\nAU  - Li, J.L.\nAU  - Yang, X.L.\nAU  - Chmura, A.A.\nAU  - Zhu, G.\nAU  - Epstein, J.H.\nAU  - Mazet, J.K.\nAU  - Hu, B.\nAU  - Zhang, W.\nAU  - Peng, C.\nTI  - Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor\nT2  - Nature\nPY  - 2013\nDA  - 2013\nVL  - 503\nSP  - 535\nEP  - 538\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, L.F.\nAU  - Shi, Z.\nAU  - Zhang, S.\nAU  - Field, H.\nAU  - Daszak, P.\nAU  - Eaton, B.T.\nTI  - Review of bats and SARS\nT2  - Emerg. Infect. Dis\nPY  - 2006\nDA  - 2006\nVL  - 12\nSP  - 1834\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cauchemez, S.\nAU  - Van Kerkhove, M.\nAU  - Riley, S.\nAU  - Donnelly, C.\nAU  - Fraser, C.\nAU  - Ferguson, N.\nTI  - Transmission scenarios for Middle East Respiratory Syndrome Coronavirus (MERS-CoV) and how to tell them apart\nT2  - Euro Surveill. Bull. Eur. Sur Les Mal. Transm. Eur. Commun. Dis. Bull\nPY  - 2013\nDA  - 2013\nVL  - 18\nSP  - 20503\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Organization, W.H.\nTI  - Novel Coronavirus\nPY  - 2019\nDA  - 2019/01/27\nVL  - 2020\nUR  - https://www.who.int/\nPB  - on\nIS  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lu, R.\nAU  - Zhao, X.\nAU  - Li, J.\nAU  - Niu, P.\nAU  - Yang, B.\nAU  - Wu, H.\nAU  - Wang, W.\nAU  - Song, H.\nAU  - Huang, B.\nAU  - Zhu, N.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: Implications for virus origins and receptor binding\nT2  - Lancet\nVL  - 2020\nSP  - 565\nEP  - 574\nC1  - true\nIS  - 395\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Cheng, Z.J.\nAU  - Shan, J.\nPY  - 2019\nDA  - 2019\nTI  - Novel Coronavirus: Where We are and What We Know\nPB  - Infection 2020\nDO  - 10.1007/s15010-020-01401-y\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Guan, W.J.\nAU  - Ni, Z.Y.\nAU  - Hu, Y.\nAU  - Liang, W.H.\nAU  - Ou, C.Q.\nAU  - He, J.X.\nAU  - Liu, L.\nAU  - Shan, H.\nAU  - Lei, C.L.\nAU  - Hui, D.S.\nTI  - Clinical characteristics of 2019 novel coronavirus infection in China\nPB  - medRxiv 2020\nDO  - 10.1101/2020.02.06.20020974\nUR  - https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974.full.pdf\nC1  - true\nC1  - (accessed on 9 February 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - JOUR\nAU  - Zhao, S.\nAU  - Musa, S.S.\nAU  - Lin, Q.\nAU  - Ran, J.\nAU  - Yang, G.\nAU  - Wang, W.\nAU  - Lou, Y.\nAU  - Yang, L.\nAU  - Gao, D.\nAU  - He, D.\nTI  - Estimating the Unreported Number of Novel Coronavirus\nPY  - 2019\nDA  - 2019\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 388\nC1  - true\nT2  - Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Kobayashi, T.\nAU  - Yang, Y.\nAU  - Hayashi, K.\nAU  - Miyama, T.\nAU  - Kinoshita, R.\nAU  - Linton, N.M.\nAU  - Jung, Sm\nAU  - Yuan, B.\nAU  - Suzuki, A.\nTI  - The Rate of Underascertainment of Novel Coronavirus\nPY  - 2019\nDA  - 2019\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 419\nC1  - true\nT2  - Infection: Estimation Using Japanese Passengers Data on Evacuation Flights\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tang, B.\nAU  - Wang, X.\nAU  - Li, Q.\nAU  - Bragazzi, N.L.\nAU  - Tang, S.\nAU  - Xiao, Y.\nAU  - Wu, J.\nTI  - Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 462\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thompson, R.N.\nTI  - Novel Coronavirus Outbreak in Wuhan, China, 2020: Intense Surveillance Is Vital for Preventing Sustained Transmission in New Locations\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 498\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jung, S.M.\nAU  - Akhmetzhanov, A.R.\nAU  - Hayashi, K.\nAU  - Linton, N.M.\nAU  - Yang, Y.\nAU  - Yuan, B.\nAU  - Kobayashi, T.\nAU  - Kinoshita, R.\nAU  - Nishiura, H.\nTI  - Real time estimation of the risk of death from novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 523\nT2  - infection: Inference using exported cases\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - DeFelice, N.B.\nAU  - Little, E.\nAU  - Campbell, S.R.\nAU  - Shaman, J.\nTI  - Ensemble forecast of human West Nile virus cases and mosquito infection rates\nT2  - Nat. Commun\nPY  - 2017\nDA  - 2017\nVL  - 8\nSP  - 1\nEP  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ture, M.\nAU  - Kurt, I.\nTI  - Comparison of four different time series methods to forecast hepatitis A virus infection\nT2  - Expert Syst. Appl\nPY  - 2006\nDA  - 2006\nVL  - 31\nSP  - 41\nEP  - 46\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shaman, J.\nAU  - Karspeck, A.\nTI  - Forecasting seasonal outbreaks of influenza\nT2  - Proc. Natl. Acad. Sci. USA\nPY  - 2012\nDA  - 2012\nVL  - 109\nSP  - 20425\nEP  - 20430\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shaman, J.\nAU  - Karspeck, A.\nAU  - Yang, W.\nAU  - Tamerius, J.\nAU  - Lipsitch, M.\nTI  - Real-time influenza forecasts during the 2012\u20132013 season\nT2  - Nat. Commun\nPY  - 2013\nDA  - 2013\nVL  - 4\nSP  - 1\nEP  - 10\nLA  - \nER  - \n\nTY  - GEN\nAU  - Shaman, J.\nAU  - Yang, W.\nAU  - Kandula, S.PLoS Curr\nPY  - 2014\nDA  - 2014\nVL  - 6\nDO  - 10.1371/currents.outbreaks.3408774290b1a0f2dd7cae877c8b8ff6\nER  - \n\nTY  - JOUR\nAU  - Massad, E.\nAU  - Burattini, M.N.\nAU  - Lopez, L.F.\nAU  - Coutinho, F.A.\nTI  - Forecasting versus projection models in epidemiology: The case of the SARS epidemics\nT2  - Med. Hypotheses\nPY  - 2005\nDA  - 2005\nVL  - 65\nSP  - 17\nEP  - 22\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ong, J.B.S.\nAU  - Mark, I.\nAU  - Chen, C.\nAU  - Cook, A.R.\nAU  - Lee, H.C.\nAU  - Lee, V.J.\nAU  - Lin, R.T.P.\nAU  - Tambyah, P.A.\nAU  - Goh, L.G.\nTI  - Real-time epidemic monitoring and forecasting of H1N1-2009 using influenza-like illness from general practice and family doctor clinics in Singapore\nT2  - PLoS ONE\nPY  - 2010\nDA  - 2010\nVL  - 5\nDO  - 10.1371/journal.pone.0010036\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nah, K.\nAU  - Otsuki, S.\nAU  - Chowell, G.\nAU  - Nishiura, H.\nTI  - Predicting the international spread of Middle East respiratory syndrome (MERS)\nT2  - BMC Infect. Dis\nPY  - 2016\nDA  - 2016\nVL  - 16\nSP  - 356\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jang, J.S.\nTI  - ANFIS: Adaptive-network-based fuzzy inference system\nT2  - IEEE Trans. Syst. Man Cybern\nPY  - 1993\nDA  - 1993\nVL  - 23\nSP  - 665\nEP  - 685\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wei, L.Y.\nTI  - A hybrid ANFIS model based on empirical mode decomposition for stock time series forecasting\nT2  - Appl. Soft Comput\nPY  - 2016\nDA  - 2016\nVL  - 42\nSP  - 368\nEP  - 376\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cheng, C.H.\nAU  - Wei, L.Y.\nAU  - Liu, J.W.\nAU  - Chen, T.L.\nTI  - OWA-based ANFIS model for TAIEX forecasting\nT2  - Econ. Model\nPY  - 2013\nDA  - 2013\nVL  - 30\nSP  - 442\nEP  - 448\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pousinho, H.M.I.\nAU  - Mendes, V.\nAU  - Catal\u00e3o, J.Pd S.\nTI  - Short-term electricity prices forecasting in a competitive market by a hybrid PSO\u2013ANFIS approach\nT2  - Int. J. Electr. Power Energy Syst\nPY  - 2012\nDA  - 2012\nVL  - 39\nSP  - 29\nEP  - 35\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Svalina, I.\nAU  - Galzina, V.\nAU  - Lujic, R.\nAU  - \u0160Imunovic, G.\nTI  - An adaptive network-based fuzzy inference system (ANFIS) for the forecasting: The case of close price indices\nT2  - Expert Syst. Appl\nPY  - 2013\nDA  - 2013\nVL  - 40\nSP  - 6055\nEP  - 6063\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ekici, B.B.\nAU  - Aksoy, U.T.\nTI  - Prediction of building energy needs in early stage of design by using ANFIS\nT2  - Expert Syst. Appl\nPY  - 2011\nDA  - 2011\nVL  - 38\nSP  - 5352\nEP  - 5358\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cheng, C.H.\nAU  - Wei, L.Y.\nTI  - One step-ahead ANFIS time series model for forecasting electricity loads\nT2  - Optim. Eng\nPY  - 2010\nDA  - 2010\nVL  - 11\nSP  - 303\nEP  - 317\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kumar, D.T.\nAU  - Soleimani, H.\nAU  - Kannan, G.\nTI  - Forecasting return products in an integrated forward/reverse supply chain utilizing an ANFIS\nT2  - Int. J. Appl. Math. Comput. Sci\nPY  - 2014\nDA  - 2014\nVL  - 24\nSP  - 669\nEP  - 682\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ho, Y.C.\nAU  - Tsai, C.T.\nTI  - Comparing ANFIS and SEM in linear and nonlinear forecasting of new product development performance\nT2  - Expert Syst. Appl\nPY  - 2011\nDA  - 2011\nVL  - 38\nSP  - 6498\nEP  - 6507\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Catal\u00e3o, J.Pd S.\nAU  - Pousinho, H.M.I.\nAU  - Mendes, V.M.F.\nTI  - Hybrid wavelet-PSO-ANFIS approach for short-term electricity prices forecasting\nT2  - IEEE Trans. Power Syst\nPY  - 2010\nDA  - 2010\nVL  - 26\nSP  - 137\nEP  - 144\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bagheri, A.\nAU  - Peyhani, H.M.\nAU  - Akbari, M.\nTI  - Financial forecasting using ANFIS networks with quantum-behaved particle swarm optimization\nT2  - Expert Syst. Appl\nVL  - 2014\nSP  - 6235\nEP  - 6250\nIS  - 41\nLA  - \nER  - \n\nTY  - CONF\nAU  - Ewees, A.A.\nAU  - El Aziz, M.A.\nAU  - Elhoseny, M.\nTI  - Social-spider optimization algorithm for improving ANFIS to predict biochar yield\nT2  - Proceedings of the 2017 8th International Conference on Computing, Communication and Networking Technologies (ICCCNT)\nSP  - \"3\nEP  - 5\" # \"pp. 1\nPY  - 2017\nDA  - 2017/07\nC1  - pp. 1\u20136.\nLA  - \nCY  - Delhi, India\nER  - \n\nTY  - JOUR\nAU  - Al-Qaness, M.A.\nAU  - Elaziz, M.A.\nAU  - Ewees, A.A.\nTI  - Oil consumption forecasting using optimized adaptive neuro-fuzzy inference system based on sine cosine algorithm\nT2  - IEEE Access\nPY  - 2018\nDA  - 2018\nVL  - 6\nSP  - 68394\nEP  - 68402\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Al-qaness, M.A.\nAU  - Abd Elaziz, M.\nAU  - Ewees, A.A.\nAU  - Cui, X.\nTI  - A Modified Adaptive Neuro-Fuzzy Inference System Using Multi-Verse Optimizer Algorithm for Oil Consumption Forecasting\nT2  - Electronics\nPY  - 2019\nDA  - 2019\nVL  - 8\nSP  - 1071\nLA  - \nER  - \n\nTY  - CONF\nAU  - El Aziz, M.A.\nAU  - Hemdan, A.M.\nAU  - Ewees, A.A.\nAU  - Elhoseny, M.\nAU  - Shehab, A.\nAU  - Hassanien, A.E.\nAU  - Xiong, S.\nTI  - Prediction of biochar yield using adaptive neuro-fuzzy inference system with particle swarm optimization\nT2  - Proceedings of the 2017 IEEE PES PowerAfrica\nSP  - \"27\nEP  - 30\" # \"pp. 115\nPY  - 2017\nDA  - 2017/06\nC1  - pp. 115\u2013120.\nLA  - \nCY  - Accra, Ghana\nER  - \n\nTY  - JOUR\nAU  - Elaziz, M.A.\nAU  - Ewees, A.A.\nAU  - Alameer, Z.\nTI  - Improving adaptive neuro-fuzzy inference system based on a modified salp swarm algorithm using genetic algorithm to forecast crude oil price\nT2  - Nat. Resour. Res\nPY  - 2019\nDA  - 2019\nSP  - 1\nEP  - 16\nDO  - 10.1007/s11053-019-09587-1\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Yang, X.S.\nTI  - Flower pollination algorithm for global optimization\nT2  - International Conference on Unconventional Computing and Natural Computation\nPY  - 2012\nDA  - 2012\nSP  - 240\nEP  - 249\nPB  - Berlin, Germany\nLA  - \nCY  - Springer\nER  - \n\nTY  - JOUR\nAU  - Alam, D.\nAU  - Yousri, D.\nAU  - Eteiba, M.\nTI  - Flower pollination algorithm based solar PV parameter estimation\nT2  - Energy Convers. Manag\nPY  - 2015\nDA  - 2015\nVL  - 101\nSP  - 410\nEP  - 422\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ram, J.P.\nAU  - Babu, T.S.\nAU  - Dragicevic, T.\nAU  - Rajasekar, N.\nTI  - A new hybrid bee pollinator flower pollination algorithm for solar PV parameter estimation\nT2  - Energy Convers. Manag\nPY  - 2017\nDA  - 2017\nVL  - 135\nSP  - 463\nEP  - 476\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Abdel-Raouf, O.\nAU  - El-Henawy, I.\nAU  - Abdel-Baset, M.\nTI  - A novel hybrid flower pollination algorithm with chaotic harmony search for solving sudoku puzzles\nT2  - Int. J. Mod. Educ. Comput. Sci\nPY  - 2014\nDA  - 2014\nVL  - 6\nSP  - 38\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Rodrigues, D.\nAU  - Yang, X.S.\nAU  - De Souza, A.N.\nAU  - Papa, J.P.\nTI  - Binary flower pollination algorithm and its application to feature selection\nT2  - Recent Advances in Swarm Intelligence and Evolutionary Computation\nPY  - 2015\nDA  - 2015\nSP  - 85\nEP  - 100\nPB  - Berlin, Germany\nLA  - \nCY  - Springer\nER  - \n\nTY  - BOOK\nAU  - Salgotra, R.\nAU  - Singh, U.\nAU  - Saha, S.\nAU  - Nagar, A.K.\nTI  - Improved Flower Pollination Algorithm for Linear Antenna Design Problems. In Soft Computing for Problem Solving\nPY  - 2020\nDA  - 2020\nSP  - 79\nEP  - 89\nPB  - Berlin, Germany\nLA  - \nCY  - Springer\nER  - \n\nTY  - JOUR\nAU  - Priya, K.\nAU  - Rajasekar, N.\nTI  - Application of flower pollination algorithm for enhanced proton exchange membrane fuel cell modelling\nT2  - Int. J. Hydrog. Energy\nPY  - 2019\nDA  - 2019\nVL  - 44\nSP  - 18438\nEP  - 18449\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nguyen, T.T.\nAU  - Pan, J.S.\nAU  - Dao, T.K.\nTI  - An improved flower pollination algorithm for optimizing layouts of nodes in wireless sensor network\nT2  - IEEE Access\nPY  - 2019\nDA  - 2019\nVL  - 7\nSP  - 75985\nEP  - 75998\nLA  - \nER  - \n\nTY  - CONF\nAU  - Ahmed, K.\nAU  - Ewees, A.A.\nAU  - Hassanien, A.E.\nTI  - Prediction and management system for forest fires based on hybrid flower pollination optimization algorithm and adaptive neuro-fuzzy inference system\nT2  - Proceedings of the 2017 Eighth International Conference on Intelligent Computing and Information Systems (ICICIS)\nSP  - \"5\nEP  - 7\" # \"pp. 299\nPY  - 2017\nDA  - 2017/12\nC1  - pp. 299\u2013304.\nLA  - \nCY  - Cairo, Egypt\nER  - \n\nTY  - JOUR\nAU  - Al-Betar, M.A.\nAU  - Awadallah, M.A.\nAU  - Doush, I.A.\nAU  - Hammouri, A.I.\nAU  - Mafarja, M.\nAU  - Alyasseri, Z.A.A.\nTI  - Island flower pollination algorithm for global optimization\nT2  - J. Supercomput\nPY  - 2019\nDA  - 2019\nVL  - 75\nSP  - 5280\nEP  - 5323\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Mirjalili, S.\nAU  - Gandomi, A.H.\nAU  - Mirjalili, S.Z.\nAU  - Saremi, S.\nAU  - Faris, H.\nAU  - Mirjalili, S.M.\nTI  - Salp Swarm Algorithm: A bio-inspired optimizer for engineering design problems\nT2  - Adv. Eng. Softw\nPY  - 2017\nDA  - 2017\nVL  - 114\nSP  - 163\nEP  - 191\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tubishat, M.\nAU  - Idris, N.\nAU  - Shuib, L.\nAU  - Abushariah, M.A.\nAU  - Mirjalili, S.\nTI  - Improved Salp Swarm Algorithm based on opposition based learning and novel local search algorithm for feature selection\nT2  - Expert Syst. Appl\nVL  - 2020\nSP  - 113122\nIS  - 145\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Neggaz, N.\nAU  - Ewees, A.A.\nAU  - Elaziz, M.A.\nAU  - Mafarja, M.\nTI  - Boosting salp swarm algorithm by sine cosine algorithm and disrupt operator for feature selection\nT2  - Expert Syst. Appl\nVL  - 2020\nSP  - 113103\nIS  - 145\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Panda, N.\nAU  - Majhi, S.K.\nTI  - How effective is the salp swarm algorithm in data classification\nT2  - Computational Intelligence in Pattern Recognition\nPY  - 2020\nDA  - 2020\nSP  - 579\nEP  - 588\nPB  - Berlin, Germany\nLA  - \nCY  - Springer\nER  - \n\nTY  - JOUR\nAU  - Alwerfali, H.S.N.\nAU  - Elaziz, M.A.\nAU  - Al-Qaness, M.A.\nAU  - Abbasi, A.A.\nAU  - Lu, S.\nAU  - Liu, F.\nAU  - Li, L.\nTI  - A Multilevel Image Thresholding Based on Hybrid Salp Swarm Algorithm and Fuzzy Entropy\nT2  - IEEE Access\nPY  - 2019\nDA  - 2019\nVL  - 7\nSP  - 181405\nEP  - 181422\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Alresheedi, S.S.\nAU  - Lu, S.\nAU  - Elaziz, M.A.\nAU  - Ewees, A.A.\nTI  - Improved multiobjective salp swarm optimization for virtual machine placement in cloud computing\nT2  - Hum.-Centric Comput. Inf. Sci\nPY  - 2019\nDA  - 2019\nVL  - 9\nSP  - 15\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Abualigah, L.\nAU  - Shehab, M.\nAU  - Alshinwan, M.\nAU  - Alabool, H.\nTI  - Salp swarm algorithm: A comprehensive survey\nT2  - Neural Comput. Appl\nPY  - 2019\nDA  - 2019\nDO  - 10.1007/s00521-019-04629-4\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Ahmed, K.\nAU  - Ewees, A.A.\nAU  - El Aziz, M.A.\nAU  - Hassanien, A.E.\nAU  - Gaber, T.\nAU  - Tsai, P.W.\nAU  - Pan, J.S.\nTI  - A hybrid krill-ANFIS model for wind speed forecasting\nT2  - International Conference on Advanced Intelligent Systems and Informatics\nPY  - 2016\nDA  - 2016\nSP  - 365\nEP  - 372\nPB  - Berlin, Germany\nLA  - \nCY  - Springer\nER  - \n\nTY  - JOUR\nAU  - Alameer, Z.\nAU  - Elaziz, M.A.\nAU  - Ewees, A.A.\nAU  - Ye, H.\nAU  - Jianhua, Z.\nTI  - Forecasting copper prices using hybrid adaptive neuro-fuzzy inference system and genetic algorithms\nT2  - Nat. Resour. Res\nPY  - 2019\nDA  - 2019\nVL  - 28\nSP  - 1385\nEP  - 1401\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "The dataset of the COVID-19"
+            },
+            {
+                "id": "2",
+                "caption": "Parameters\u2019 setting"
+            },
+            {
+                "id": "3",
+                "caption": "Computational results for datasets of confirmed influenza cases"
+            },
+            {
+                "id": "4",
+                "caption": "Computational results for COVID-19"
+            },
+            {
+                "id": "5",
+                "caption": "Forecasted confirmed cases of the COVID-19 by the proposed method"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "ANFIS model structure"
+            },
+            {
+                "id": "2",
+                "caption": "The proposed FPASSA-ANFIS method"
+            },
+            {
+                "id": "3",
+                "caption": "The real data (target) against the forecasted data (output) for all methods"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/75d21924c73abfa5090a2e49499a1480.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-010.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-011.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/75d21924c73abfa5090a2e49499a1480/img-012.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "A large family of viruses, called coronaviruses, are severe pathogens for human beings, which infect respiratory, hepatic, gastrointestinal, and neurologic diseases. They are distributed among humans, birds, livestock, mice, bats, and other wild animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The outbreaks of two previous coronaviruses, SARS-CoV and MERS-CoV in 2003 and 2012, respectively, have approved the transmission from animal to animal, and human to human [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. In December 2019, the World Health Organization (WHO) received notifications from China for many cases of respiratory illness that were linked to some people who had visited a seafood market in Wuhan [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Currently, Wuhan city suffers from the spreading of a novel coronavirus, called COVID-19 (previously, it was called 2019-nCoV). In [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], the authors concluded that COVID-19 likely originated in bats, because it is more similar to two bat-derived coronavirus strains. However, the source of the COVID-19 is not confirmed yet, and it"
+        ],
+        "methods": [
+            "2.1. Adaptive Neuro-Fuzzy Inference System (ANFIS)<br/><br/>The principles of the ANFIS are given in this section. The ANFIS model links the fuzzy logic and neural networks [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. It generates a mapping between the input and output by applying IF-THEN rules (it is also called Takagi\u2013Sugeno inference model). Figure 1 illustrates the ANFIS model where, y and x define the inputs to Layer 1 whereas, O1i is its output of node i that is computed as follows: O1i = \u03bcAi (x), i = 1, 2, O1i = \u03bcBi\u22122 (y), i = 3, 4    (1)    \u03bc(x)    =    e\u2212(    x\u2212\u03c1i \u03b1i    )2 ,    (2)<br/><br/>where \u03bc denotes the generalized Gaussian membership functions. Ai and Bi define the membership values of \u03bc. \u03b1i and \u03c1i denote the premise parameters set."
+        ],
+        "method": [
+            "ANFIS PSO GA ABC FPA FPASSA    RMSE    MAE    MAPE    RMSRE    Time<br/><br/>4.5. Influence of FPASSA to Forecast COVID-19<br/><br/>Comparison results between the proposed FPASSA and other models to forecast COVID-19 are given in Table 4. It can be concluded that the FPASSA outperforms other models. For example, by analyzing the results of RMSE, MAE, MAPE, RMSRE, and CPU time(s) it can be observed that the FPASSA achieves the smallest value among the comparison algorithms, and this indicates the high quality of the FPASSA. Meanwhile, the FPA allocates the second rank, which provides better results than the rest of the methods.<br/><br/>Moreover, the value of R2 refers to the high correlation between the prediction obtained by the proposed FPASSA method and the original COVID-19, which has nearly 0.97. This can also be noticed from Figure 3, which depicts the training of the algorithms using the historical data of the COVID-19 as well as their forecasting values for ten days."
+        ],
+        "conclusions": [
+            "This paper proposed a modified version for the flower pollination algorithm (FPA) using the salp swarm algorithm (SSA). This modified version, called FPASSA, is applied to improve the performance of the ANFIS through determining the optimal value for its parameters. The developed FPASSA-ANFIS model is applied as a forecasting technique for a novel coronavirus, called COVID-19, that was discovered in Wuhan, China at the end of last year and January of the current year. The proposed FPASSA-ANFIS model has a high ability to predict the number of confirmed cases within ten days. Besides, FPASSA-ANFIS outperforms other forecasting models in terms of RMSE, MAE, MAPE, RMSRE, and R2. Furthermore, two datasets of weekly influenza confirmed cases in the USA and"
+        ],
+        "funding": [
+            "This research was supported by the National Natural Science Foundation of China (Grant Nos. ,91746206, 41471323)."
+        ],
+        "disclosures": [
+            "The authors declare no conflict of interest."
+        ],
+        "objectives": [
+            "This paper aims to assess the ability of the FPASSA to forecast the COVID-19 by comparing its performance with other methods, namely the ANFIS and the trained ANFIS models using PSO, GA, ABC, FPA, and FPASSA"
+        ]
+    },
+    "structured_content": {
+        "1. Introduction": [
+            "A large family of viruses, called coronaviruses, are severe pathogens for human beings, which infect respiratory, hepatic, gastrointestinal, and neurologic diseases. They are distributed among humans, birds, livestock, mice, bats, and other wild animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The outbreaks of two previous coronaviruses, SARS-CoV and MERS-CoV in 2003 and 2012, respectively, have approved the transmission from animal to animal, and human to human [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. In December 2019, the World Health Organization (WHO) received notifications from China for many cases of respiratory illness that were linked to some people who had visited a seafood market in Wuhan [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Currently, Wuhan city suffers from the spreading of a novel coronavirus, called COVID-19 (previously, it was called 2019-nCoV). In [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], the authors concluded that COVID-19 likely originated in bats, because it is more similar to two bat-derived coronavirus strains. However, the source of the COVID-19 is not confirmed yet, and it",
+            "J. Clin. Med. 2020, 9, 674 requires more investigation. Most of the reported cases are in Wuhan city; therefore, at 10:00 am on 23 January 2020, Wuhan was put on lockdown, in which no people were allowed to go in or out, so, the authorities stopped all public transportation, including airports, trains, metro, and public buses to avoid the spread of COVID-19. Moreover, several cities in Hubei province were put on lockdown. However, many confirmed cases have been recorded in other Chinese cities and about 24 countries globally (up to 3 February 2020) but less than Wuhan city. On 30 January 2020, the Centers for Disease Control and Prevention (CDC) confirmed the human to human transmission of COVID-19. According to the CDC, the virus can be spread by the air, close personal contact, touching surfaces, or objects that contain viral particles, and rarely from fecal contamination. One of the serious problems of the COVID-19 is its incubation period which is up to 14 days as mentioned by [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], and during this period it can spread to others. Moreover, in [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], a Chinese team concludes that the median incubation period is 3 days and it ranged from 0 to 24 days, and the median age is 47.0 years. Therefore, the confirmed cases have increased daily, specifically in China. The spread of such a virus is very dangerous and requires more strict policies and plans, which have already been implemented in many Chinese cities, especially in Hubei province. Thus, it is very critical to forecast the confirmed cases in the upcoming days to enact the necessary protection plans.",
+            "Zhao et al [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] proposed a mathematical model to estimate the real number of COVID-19 cases in the first half of January 2020, which had not been reported. They concluded that the number of unreported cases resulted in 469 cases from 1 to 15 January 2020. In addition, they estimated that after 17 January 2020, the cases had increased 21-fold. Nishiura et al [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] proposed an estimation model for the infection rate of COVID-19 in Wuhan, China using the data of 565 Japanese citizens who had been evacuated from Wuhan from 29 to 31 January 2020. They conclude that the estimated rate is 9.5%, and the death rate is 0.3% to 0.6%. However, the number of Japanese citizens who had been evacuated from Wuhan is small and insufficient to estimate the infection and death rate. Tang et al [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] proposed a mathematical model to estimate the transmission risk of COVID-19. They concluded that the basic reproduction number could be 6.47. They also predicted the number of confirmed cases in seven days (23 to 29 January 2020). Moreover, they expected that the peak would be reached after two weeks (from 23 January 2020). In [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], data of 47 patients were used to estimate sustained human-to-human transmission of COVID-19. The author concluded that the transmission is 0.4, and if the time of symptom to hospitalization is half of the tested data, the transmission will be only 0.012. In [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], the authors presented an estimation model for the risk of death from COVID-19. Their estimation results for two different scenarios are 5.1% and 8.4%. They also estimated the reproduction number for both two scenarios as 2.1 and 3.2, respectively. The estimation results showed that the COVID-19 might cause a pandemic.",
+            "Previously, many studies were presented for forecasting some epidemics, for example, DeFelice et al [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] proposed a compartmental model to forecast spillover transmission risk and human West Nile virus (WNV) cases. The proposed model was applied using the historical data of WNY outbreaks of Long Island, New York, for 2001\u20132014. In [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], a comparison of several time series forecasting models is proposed to forecast hepatitis A virus infection. The authors used 13 years of data of Turkey to test four time series forecasting models, namely multi-layer perceptron (MLP), time-delay neural networks, radial basis function (RBF), and auto-regressive integrated moving average (ARIMA). The comparison outcomes showed that the MLP outperformed other models. In [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], the authors proposed a forecasting model based on ensemble adjustment Kalman filter for seasonal outbreaks of influenza. They evaluated the proposed model using the influenza seasons data of New York City for six years (2003\u20132008). In addition, Shaman et al [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] proposed weekly forecasts for seasonal influenza based on susceptible-infected-recovered-susceptible, ensemble adjustment Kalman filter, and influenza-like illness. Moreover, in [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], the authors employed a dynamic model with Bayesian inference to forecast the outbreaks of Ebola in several African countries, namely, Liberia, Sierra Leone, and Guinea. Massad et al [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>] proposed a mathematical model to analyze and forecast the infection of the SARS epidemic. They concluded that the reproduction number for two different",
+            "communities, Hong Kong and Toronto, were 1.2 and 1.32, respectively. Ong et al [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] proposed a monitoring and forecasting model for influenza A (H1N1-2009). Furthermore, Nah et al [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] proposed a probability-based model to predict the spread of the MERS.",
+            "The Adaptive Neuro-Fuzzy Inference System (ANFIS) [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] is widely applied in time series prediction and forecasting problems, and it showed good performance in many existing applications. It offers flexibility in determining nonlinearity in the time series data, as well as combining the properties of both artificial neural networks (ANN) and fuzzy logic systems. It has been applied in various forecasting applications, for example, in [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>], a stock price forecasting model was proposed using ANFIS and empirical mode decomposition. Chen et al [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>] proposed a TAIEX time series forecasting model based on a hybrid of ANFIS and ordered weighted averaging (OWA). In [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], another time series forecasting method was presented for electricity prices based on ANFIS. Svalina et al [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>] proposed an ANFIS based forecasting model for close price indices for a stock market for five days. Ekici and Aksoy [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>] presented an ANFIS based building energy consumption forecasting model. More so, ANFIS is also applied to forecast electricity loads [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>]. Kumar et al [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] proposed an ANFIS based model to forecast return products. Ho and Tsai [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>] applied ANFIS to forecast product development performance. However, estimating ANFIS parameters is a challenge that needs to be improved. Therefore, in previous studies, some individual swarm intelligence (SI) methods have been applied to the ANFIS parameters to enhance time series forecasting because these parameters have a significant effect on the performance of ANFIS. The SI methods include the particle swarm optimization (PSO) [<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>,<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>], social-spider optimization [<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>], sine-cosine algorithm (SCA) [<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>], and multi-verse optimizer (MVO) [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>]. For example, in [<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>] SCA algorithm was applied to improve the ANFIS model to forecast oil consumption in three countries, namely, Canada, Germany, and Japan. In the same context, in [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>], The MVO algorithm was used to enhance the ANFIS model to forecast oil consumption in two countries. In addition, in [<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>] the PSO was used with ANFIS to predict biochar yield. However, individual SI algorithms may stock at local optima. Therefore, one solution is to apply hybrid SI algorithms to avoid this problem. In [<a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>], a hybrid of two SI algorithms, namely GA and SSA, was presented to improve the ANFIS model. The proposed new model called GA-SSA-ANFIS was applied to forecast crude oil prices for long-term time series data. However, the previously mentioned methods suffer from some limitations that can affect the performance of the forecasting output such as slow convergence and the ability to balance between exploration and exploitation phases can influence the quality of the final output. This motivated us to propose an alternative forecasting method dependent on the hybridization concept. This concept avoids the limitations of traditional SI techniques by combining the strengths of different techniques, and this produces new SI techniques that are better than traditional ones.",
+            "In the current study, we propose an improved ANFIS model based on a modified flower pollination algorithm (FPA) using the salp swarm algorithm (SSA). The FPA is an optimization algorithm proposed by Yang [<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>], which was inspired by the flow pollination process of the flowering plants. The FPA was employed in various optimization applications, for example to estimate solar PV parameter [<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>,<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>], solving sudoku puzzles [<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>], feature selection [<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>], antenna design [<a class=\"ref-link\" id=\"c43\" href=\"#r43\">43</a>], and other applications [<a class=\"ref-link\" id=\"c44\" href=\"#r44\">44</a>\u2013<a class=\"ref-link\" id=\"c47\" href=\"#r47\">47</a>]. Moreover, SSA is also an optimization algorithm proposed by Mirjalili et al [<a class=\"ref-link\" id=\"c48\" href=\"#r48\">48</a>] inspired by the behavior of salp chains. In recent years, the SSA was utilized to solve different optimization problems, such as feature selection [<a class=\"ref-link\" id=\"c49\" href=\"#r49\">49</a>,<a class=\"ref-link\" id=\"c50\" href=\"#r50\">50</a>], data classification [<a class=\"ref-link\" id=\"c51\" href=\"#r51\">51</a>], image segmentation [<a class=\"ref-link\" id=\"c52\" href=\"#r52\">52</a>], and others [<a class=\"ref-link\" id=\"c53\" href=\"#r53\">53</a>,<a class=\"ref-link\" id=\"c54\" href=\"#r54\">54</a>].",
+            "The proposed method called FPASSA is a hybrid of FPA and SSA, in which the SSA is applied as a local search method for FPA. The proposed FPASSA starts by receiving the historical COVID-19 dataset. Then a set of solutions is generated where each of them represents the value for the parameters of the ANFIS model. Then the quality of each solution is calculated using the fitness value, and the solution that has the best fitness value is chosen to represent the best solution. Then the probability of each solution is computed. Then the current solution will be updated, either using global or local strategy in FPA. However, in the case of local strategy, the operators of SSA or FPA will be used according to the probability of the fitness value for each solution. The process of updating the solutions is repeated until reaching the stop condition, and the best parameter configurations are used to forecast the number of confirmed cases of COVID-19.",
+            "The main contribution points of the current study are as follows: 1. We propose an efficient forecasting model to forecast the confirmed cases of the COVID-19 in China for the upcoming ten days based on previously confirmed cases.",
+            "2. An improved ANFIS model is proposed using a modified FPA algorithm, using SSA. 3. We compare the proposed model with the original ANFIS and existing modified ANFIS models, such as PSO, GA, ABC, and FPA.",
+            "The rest of this study is organized as follows. The preliminaries of ANFIS, FPA, and SSA are described in Section 2. Section 3 presents the proposed FPASSA, and Section 4 presents the experimental setup and results. We conclude this study in Section 5."
+        ],
+        "2. Material and Methods": [
+            "The principles of the ANFIS are given in this section. The ANFIS model links the fuzzy logic and neural networks [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. It generates a mapping between the input and output by applying IF-THEN rules (it is also called Takagi\u2013Sugeno inference model). Figure 1 illustrates the ANFIS model where, y and x define the inputs to Layer 1 whereas, O1i is its output of node i that is computed as follows: O1i = \u03bcAi (x), i = 1, 2, O1i = \u03bcBi\u22122 (y), i = 3, 4",
+            "where \u03bc denotes the generalized Gaussian membership functions. Ai and Bi define the membership values of \u03bc. \u03b1i and \u03c1i denote the premise parameters set.",
+            "The output of Layer 2 (it is also known as the firing strength of a rule) is calculated as follows: O2i = \u03bcAi (x) \u00d7 \u03bcBi\u22122 (y)",
+            "Meanwhile, the output of Layer 3 (it is also known as the normalized firing strength) is calculated as follows: O3i wi \u03c9i \u22112(i=1)",
+            "The output of Layer 4 (it is also known as an adaptive node) is calculated as follows: O4,i = wi fi = wi(pi x + qiy + ri)",
+            "where ri, qi, and pi define the consequent parameters of the node i. Layer 5 contains only one node; its output is computed as: O5 = \u2211 wi fi (6)",
+            "Flower Pollination Algorithm is an optimization method proposed by Yang [<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>]. It simulates the transfer of flowers\u2019 pollen by pollinators in nature. This algorithm utilizes the two types of pollination (i.e., self-pollination and cross-pollination). In self-pollination, the pollination occurs with no pollinators, whereas, in cross-pollination, the pollens are moved between different plants. In more detail, the self-pollination can be represented as a local pollination while the cross-pollination can be called global pollination.",
+            "The global pollination or cross-pollination can be mathematically formed as follows: xit+1 = xit + L(xit \u2212 F\u2217)",
+            "where xit defines the pollen i at iteration t. L denotes the pollination\u2019s strength or the step size. F\u2217 is the target position or best solution. In some cases, insects can fly with different distance steps for a long space; therefore, Levy fly distribution is applied to simulate this movement.",
+            "where \u03bb = 1.5. \u0393(\u03bb) denotes the gamma function. This distribution is available for large steps s > 0. The self-pollination or local pollination can be mathematically formed as follows: xit+1 = xit + (xtj \u2212 xkt )",
+            "where xit and xik represent pollens from different flower in the same plant. in the range [0,1] The process of pollination can be done using cross-pollination or self-pollination. Therefore, the random variable p, in the range [0, 1], is used to determine this process.",
+            "SSA is an optimization technique introduced by [<a class=\"ref-link\" id=\"c48\" href=\"#r48\">48</a>]. It simulates the Salps\u2019 behavior in nature. This behavior is called salp chain. The mathematical model of SSA begins by splinting its population into a leader group and followers group. The leader is the front salp, whereas, the followers are the other salps. The search space is determined in n-dimensions with n variables. Equation (10) works to update the salps\u2019 positions.",
+            "where x1j denotes the leader\u2019s position in j-th dimension. Fj is the target position. ubj and lbj represent the max and min bounds, respectively. c2 and c3 denote random numbers in [0, 1]. c1 is an important parameter; it balances between the exploration and exploitation phases. It is computed as follows: c1",
+            "where the current loop number is t and the max loop\u2019 number is tmax. Then, the followers\u2019 position is updated as follows: xij (xij",
+            "where xij defines the i-th position of the follower in j-th dimension. i > 1."
+        ],
+        "3. The Proposed Method": [
+            "This section explains the proposed FPASSA-ANFIS method. It is a time series method for forecasting the confirmed cases of the COVID-19, as given in Figure 2.",
+            "The FPASSA-ANFIS utilizes the improved FPA to train the ANFIS model by optimizing its parameters. The FPASSA-ANFIS contains five layers as the classic ANFIS model. Layer 1 contains the input variables (the historical COVID-19 confirmed cases). Whereas Layer 5 produces the forecasted values. In the learning phase, the FPASSA is used to select the best weights between Layer 4 and Layer 5.",
+            "The FPASSA-ANFIS starts by formatting the input data in a time series form. In our case, the autocorrelation function (ACF) was considered. ACF is one of the methods applied to find patterns in the data; it presents information about the correlation between points separated by various time lags. Therefore, in this paper, the variables with ACF greater than 0.2 are considered i.e., 5-lags.",
+            "Besides, the training data contains 75% of the dataset, whereas the testing data contains 25% of them. The number of clusters is defined by the fuzzy c-mean (FCM) method to construct the ANFIS model.",
+            "The parameters of the ANFIS model are prepared by the FPASSA algorithm. In the training phase, the calculation error (as in Equation (13)) between the real data and the predicted data is used to evaluate the parameters\u2019 quality.",
+            "where T is the real data, and P is the predicted data. Ns is the sample length. The smaller values of the objective function indicate good ANFIS\u2019s parameter.",
+            "On the other hand, the updating phase of the followers\u2019 positions in the SSA algorithm is applied to improve the global pollination phase in the FPA algorithm. In this improvement, there is a random variable (r) used to switch between both phases. If r > 0.5, then the operators of the SSA is used; otherwise, the operators of the FPA are used. In general, The FPASSA starts by constructing the population (X); afterward, the objective function is calculated for each solution. The solution with the lowest error value is saved to the next iteration. This sequence is repeated until meeting the stop condition, which in this paper, is the maximum number of iterations. Then the best solution is passed to train the parameters of the ANFIS model.",
+            "After finishing the training phase, the testing phase is started with the best solution to compute the final output. The performance of the proposed method is evaluated by comparing the real data with the predicted data using the performance measures. Finally, the FPASSA produces a foretasted value for confirmed cases of COVID-19 in China in the next day. The steps of the proposed FPASSA are presented in Algorithm 1.",
+            "Algorithm 1 Proposed FPASSA algorithm Input: Historical COVID-19 dataset, size of population N, total number of iterations tmax. Divide the data into training and testing sets.",
+            "Using Fuzzy c-mean method to determine the number of membership functions.",
+            "Constructing the ANFIS network.",
+            "Set the initial value for N solutions (X).",
+            "Set t = 1.",
+            "while t > tmax do Calculate the objective value for each Xi. if rand > p then Apply the Global operators of FPA.",
+            "else if r > 0.5 then Using the operators of FPA to update Xi. else Using the operators of SSA.",
+            "Return the best solution that represents the best configuration for ANFIS.",
+            "Apply the testing set to the best ANFIS model.",
+            "Forecasting the COVID-19 for the next ten days."
+        ],
+        "4. Experiment": [
+            "This section presents the description of the used dataset, the performance measures, the parameter setting for all methods, the experiment results, and discussions."
+        ],
+        "4.1. Datasets Description": [
+            "The main dataset of this study is COVID-19 dataset. It was collected from the WHO website (https: //www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/). It contains the daily confirmed cases in China from 21 January 2020 to 18 February 2020, as shown in Table 1. We used 75% from the dataset to train the model while the rest is used to test it.",
+            "Moreover, we evaluated the performance of the proposed method using two datasets of weekly influenza confirmed cases. The first one is called DS1; it was collected from the Centers for Disease Control and Prevention (CDC) (https://www.cdc.gov/flu/weekly/). It starts from week number 40 in 2015 and continues until week number 6 in 2020. Whereas, the second one is called DS2. It was collected from the WHO website (https://www.who.int/influenza). It contains the data of weekly influenza confirmed cases in China from week number 1 in 2016 to week number 8 in 2020.",
+            "21/1/2020 22/1/2020 23/1/2020 24/1/2020 25/1/2020 26/1/2020 27/1/2020 28/1/2020 29/1/2020 30/1/2020",
+            "31/1/2020 1/2/2020 2/2/2020 3/2/2020 4/2/2020 5/2/2020 6/2/2020 7/2/2020 8/2/2020 9/2/2020",
+            "10/2/2020 11/2/2020 12/2/2020 13/2/2020 14/2/2020 15/2/2020 16/2/2020 17/2/2020 18/2/2020",
+            "4.2. Performance Measures The quality of the proposed method is evaluated using a set of performance metrics as follows:",
+            "where Yp and Y are the predicted and original values, respectively.",
+            "\u2022 Mean Absolute Error (MAE):",
+            "\u2022 Mean Absolute Percentage Error (MAPE):",
+            "Ns represents the sample size of the data. \u2022 Coefficient of Determination (R2): R2",
+            "where Y represents the average of Y.",
+            "The lowest value of RMSE, MAE, MAPE, and RMSRE refers to the best method. The higher value of R2 indicates better correlation for the method."
+        ],
+        "4.3. Parameter Settings": [
+            "This paper aims to assess the ability of the FPASSA to forecast the COVID-19 by comparing its performance with other methods, namely the ANFIS and the trained ANFIS models using PSO, GA, ABC, FPA, and FPASSA. The parameters\u2019 setting for these models is listed in Table 2.",
+            "The common parameters, such as population size, are set to 25 and 100 iterations are applied. Besides, each algorithm is performed for 30 independent runs to fair comparisons. The selected parameters are chosen because they produced good behavior in previous experiments, such as [<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>,<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>,<a class=\"ref-link\" id=\"c55\" href=\"#r55\">55</a>,<a class=\"ref-link\" id=\"c56\" href=\"#r56\">56</a>].",
+            "Max. epochs = 100, Error goal = 0, Initial step = 0.01, Decrease rate = 0.9, Increase rate = 1.1 Crossover type = 1, wMax = 0.9, wMin = 0.2, C1 = 2, C2 = 2 cp = 1, mp = 0.01 a = 1, employed bees = N/2, onlooker bees = N/2 Standard gamma = 1.5, Swich probablity = 0.8 Standard gamma = 1.5, Swich probablity = 0.8, C2 \u2208 [0, 1], C3 \u2208 [0, 1]"
+        ],
+        "4.4. Performance of FPASSA to Forecast DS1 and DS2": [
+            "In this section, the performance of the proposed FPASSA to predict the DS1 and DS2 is discussed. It can be concluded from Table 3 that the performance of FPASSA outperformed the compared methods in all measures, whereas the FPA is ranked second. The results of DS2 indicate that the FPASSA is ranked first in terms of RMSE, MAPE, R2, and the CPU time. Whereas, the PSO is ranked second, followed by the FPA, GA, then ABC. These results denote that the proposed method can optimize the parameters of the ANFIS model effectively and produce good results in terms of the performance measures."
+        ],
+        "Method": [],
+        "4.5. Influence of FPASSA to Forecast COVID-19": [
+            "Comparison results between the proposed FPASSA and other models to forecast COVID-19 are given in Table 4. It can be concluded that the FPASSA outperforms other models. For example, by analyzing the results of RMSE, MAE, MAPE, RMSRE, and CPU time(s) it can be observed that the FPASSA achieves the smallest value among the comparison algorithms, and this indicates the high quality of the FPASSA. Meanwhile, the FPA allocates the second rank, which provides better results than the rest of the methods.",
+            "Moreover, the value of R2 refers to the high correlation between the prediction obtained by the proposed FPASSA method and the original COVID-19, which has nearly 0.97. This can also be noticed from Figure 3, which depicts the training of the algorithms using the historical data of the COVID-19 as well as their forecasting values for ten days.",
+            "(a) ANFIS (b) PSO (c) GA (d) ABC Figure 3. Cont.",
+            "Table 5 depicts the forecasting value for the confirmed cases of the COVID-19 in China from 19/2/2020 to 28/2/2020. From these results, it can be noticed that the outbreak will reach its highest level on the day 28/2/2020. The average percentage of the increase over the forecasted period is 10%, the highest percentage is 12% on 28/2/2020, and the lowest percentage is 8.7% on 19/2/2020.",
+            "19/2/2020 20/2/2020 21/2/2020 22/2/2020 23/2/2020 24/2/2020 25/2/2020 26/2/2020 27/2/2020 28/2/2020",
+            "From the previous results, it can be concluded that the proposed FPASSA-ANFIS has a high ability to forecast the COVID-19 dataset. These results avoid the limitations of traditional ANFIS because of the combination with the modified FPA method. Moreover, the operators of SSA are combined with the local strategy of FPA to enhance their exploitation ability. However, the time computational of the proposed FPASSA method still requires more improvements."
+        ],
+        "5. Conclusions": [
+            "This paper proposed a modified version for the flower pollination algorithm (FPA) using the salp swarm algorithm (SSA). This modified version, called FPASSA, is applied to improve the performance of the ANFIS through determining the optimal value for its parameters. The developed FPASSA-ANFIS model is applied as a forecasting technique for a novel coronavirus, called COVID-19, that was discovered in Wuhan, China at the end of last year and January of the current year. The proposed FPASSA-ANFIS model has a high ability to predict the number of confirmed cases within ten days. Besides, FPASSA-ANFIS outperforms other forecasting models in terms of RMSE, MAE, MAPE, RMSRE, and R2. Furthermore, two datasets of weekly influenza confirmed cases in the USA and",
+            "China were used to evaluate the proposed method, and the evaluation outcomes showed its good performance. According to the promising results obtained by the proposed FPASSA-ANFIS, it can be applied in different forecasting applications.",
+            "Author Contributions: Data curation, M.A.A.A.-q.; Formal analysis, M.A.A.A.-q., A.A.E., and M.A.E.; Funding acquisition, H.F.; Methodology, M.A.A.A.-q., A.A.E., and M.A.E.; Software, M.A.E; Supervision, H.F.; Validation, H.F.; Visualization, A.A.E.; Writing\u2014original draft, M.A.A.A.-q., A.A.E., and M.A.E.; Writing\u2014review & editing, H.F. All authors have read and agree to the published version of the manuscript.",
+            "Funding: This research was supported by the National Natural Science Foundation of China (Grant Nos. ,91746206, 41471323).",
+            "Conflicts of Interest: The authors declare no conflict of interest."
+        ],
+        "References": [
+            "1. Chen, Y.; Liu, Q.; Guo, D. Emerging coronaviruses: Genome structure, replication, and pathogenesis. J. Med. Virol. 2020, doi:10.1002/jmv.25681.",
+            "2. Ge, X.Y.; Li, J.L.; Yang, X.L.; Chmura, A.A.; Zhu, G.; Epstein, J.H.; Mazet, J.K.; Hu, B.; Zhang, W.; Peng, C.; et al Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. Nature 2013, 503, 535\u2013538.",
+            "3. Wang, L.F.; Shi, Z.; Zhang, S.; Field, H.; Daszak, P.; Eaton, B.T. Review of bats and SARS. Emerg. Infect. Dis. 2006, 12, 1834.",
+            "4. Cauchemez, S.; Van Kerkhove, M.; Riley, S.; Donnelly, C.; Fraser, C.; Ferguson, N. Transmission scenarios for Middle East Respiratory Syndrome Coronavirus (MERS-CoV) and how to tell them apart. Euro Surveill. Bull. Eur. Sur Les Mal. Transm. Eur. Commun. Dis. Bull. 2013, 18, 20503.",
+            "5. Organization, W.H. Novel Coronavirus (2019-nCoV) 2020, 2020. Available online:https://www.who.int/ (accessed on 27 January 2020).",
+            "6. Lu, R.; Zhao, X.; Li, J.; Niu, P.; Yang, B.; Wu, H.; Wang, W.; Song, H.; Huang, B.; Zhu, N.; et al Genomic characterisation and epidemiology of 2019 novel coronavirus: Implications for virus origins and receptor binding. Lancet 2020, 395, 565\u2013574.",
+            "7. Cheng, Z.J.; Shan, J. 2019 Novel Coronavirus: Where We are and What We Know. Infection 2020, doi:10.1007/s15010-020-01401-y.",
+            "8. Guan, W.J.; Ni, Z.Y.; Hu, Y.; Liang, W.H.; Ou, C.Q.; He, J.X.; Liu, L.; Shan, H.; Lei, C.L.; Hui, D.S.; et al Clinical characteristics of 2019 novel coronavirus infection in China. medRxiv 2020, doi:10.1101/2020.02.06.20020974. Available online: https://www.medrxiv.org/content/early/2020/02/09/ 2020.02.06.20020974.full.pdf (accessed on 9 February 2020).",
+            "9. Zhao, S.; Musa, S.S.; Lin, Q.; Ran, J.; Yang, G.; Wang, W.; Lou, Y.; Yang, L.; Gao, D.; He, D.; et al Estimating the Unreported Number of Novel Coronavirus (2019-nCoV) Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak. J. Clin. Med. 2020, 9, 388.",
+            "10. Nishiura, H.; Kobayashi, T.; Yang, Y.; Hayashi, K.; Miyama, T.; Kinoshita, R.; Linton, N.M.; Jung, S.m.; Yuan, B.; Suzuki, A.; et al The Rate of Underascertainment of Novel Coronavirus (2019-nCoV) Infection: Estimation Using Japanese Passengers Data on Evacuation Flights. J. Clin. Med. 2020, 9, 419.",
+            "11. Tang, B.; Wang, X.; Li, Q.; Bragazzi, N.L.; Tang, S.; Xiao, Y.; Wu, J. Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions. J. Clin. Med. 2020, 9, 462.",
+            "12. Thompson, R.N. Novel Coronavirus Outbreak in Wuhan, China, 2020: Intense Surveillance Is Vital for Preventing Sustained Transmission in New Locations. J. Clin. Med. 2020, 9, 498.",
+            "13. Jung, S.M.; Akhmetzhanov, A.R.; Hayashi, K.; Linton, N.M.; Yang, Y.; Yuan, B.; Kobayashi, T.; Kinoshita, R.; Nishiura, H. Real time estimation of the risk of death from novel coronavirus (2019-nCoV) infection: Inference using exported cases. J. Clin. Med. 2020, 9, 523.",
+            "14. DeFelice, N.B.; Little, E.; Campbell, S.R.; Shaman, J. Ensemble forecast of human West Nile virus cases and mosquito infection rates. Nat. Commun. 2017, 8, 1\u20136.",
+            "15. Ture, M.; Kurt, I. Comparison of four different time series methods to forecast hepatitis A virus infection. Expert Syst. Appl. 2006, 31, 41\u201346.",
+            "16. Shaman, J.; Karspeck, A. Forecasting seasonal outbreaks of influenza. Proc. Natl. Acad. Sci. USA 2012, 109, 20425\u201320430.",
+            "17. Shaman, J.; Karspeck, A.; Yang, W.; Tamerius, J.; Lipsitch, M. Real-time influenza forecasts during the",
+            "2012\u20132013 season. Nat. Commun. 2013, 4, 1\u201310.",
+            "18. Shaman, J.; Yang, W.; Kandula, S.",
+            "Inference and forecast of the current West",
+            "African Ebola outbreak in Guinea, Sierra Leone and Liberia.",
+            "PLoS Curr. 2014, 6, doi:10.1371/currents.outbreaks.3408774290b1a0f2dd7cae877c8b8ff6.",
+            "19. Massad, E.; Burattini, M.N.; Lopez, L.F.; Coutinho, F.A. Forecasting versus projection models in epidemiology: The case of the SARS epidemics. Med. Hypotheses 2005, 65, 17\u201322.",
+            "20. Ong, J.B.S.; Mark, I.; Chen, C.; Cook, A.R.; Lee, H.C.; Lee, V.J.; Lin, R.T.P.; Tambyah, P.A.; Goh, L.G. Real-time epidemic monitoring and forecasting of H1N1-2009 using influenza-like illness from general practice and family doctor clinics in Singapore. PLoS ONE 2010, 5, doi:10.1371/journal.pone.0010036.",
+            "21. Nah, K.; Otsuki, S.; Chowell, G.; Nishiura, H. Predicting the international spread of Middle East respiratory syndrome (MERS). BMC Infect. Dis. 2016, 16, 356.",
+            "22. Jang, J.S. ANFIS: Adaptive-network-based fuzzy inference system. IEEE Trans. Syst. Man Cybern. 1993, 23, 665\u2013685.",
+            "23. Wei, L.Y. A hybrid ANFIS model based on empirical mode decomposition for stock time series forecasting.",
+            "Appl. Soft Comput. 2016, 42, 368\u2013376.",
+            "24. Cheng, C.H.; Wei, L.Y.; Liu, J.W.; Chen, T.L. OWA-based ANFIS model for TAIEX forecasting. Econ. Model.",
+            "2013, 30, 442\u2013448.",
+            "25. Pousinho, H.M.I.; Mendes, V.; Catal\u00e3o, J.P.d.S. Short-term electricity prices forecasting in a competitive market by a hybrid PSO\u2013ANFIS approach. Int. J. Electr. Power Energy Syst. 2012, 39, 29\u201335.",
+            "26. Svalina, I.; Galzina, V.; Lujic, R.; \u0160Imunovic, G. An adaptive network-based fuzzy inference system (ANFIS)",
+            "for the forecasting: The case of close price indices. Expert Syst. Appl. 2013, 40, 6055\u20136063.",
+            "27. Ekici, B.B.; Aksoy, U.T. Prediction of building energy needs in early stage of design by using ANFIS. Expert",
+            "Syst. Appl. 2011, 38, 5352\u20135358.",
+            "28. Cheng, C.H.; Wei, L.Y. One step-ahead ANFIS time series model for forecasting electricity loads. Optim. Eng.",
+            "2010, 11, 303\u2013317.",
+            "29. Kumar, D.T.; Soleimani, H.; Kannan, G. Forecasting return products in an integrated forward/reverse supply chain utilizing an ANFIS. Int. J. Appl. Math. Comput. Sci. 2014, 24, 669\u2013682.",
+            "30. Ho, Y.C.; Tsai, C.T. Comparing ANFIS and SEM in linear and nonlinear forecasting of new product development performance. Expert Syst. Appl. 2011, 38, 6498\u20136507.",
+            "31. Catal\u00e3o, J.P.d.S.; Pousinho, H.M.I.; Mendes, V.M.F. Hybrid wavelet-PSO-ANFIS approach for short-term electricity prices forecasting. IEEE Trans. Power Syst. 2010, 26, 137\u2013144.",
+            "32. Bagheri, A.; Peyhani, H.M.; Akbari, M. Financial forecasting using ANFIS networks with quantum-behaved particle swarm optimization. Expert Syst. Appl. 2014, 41, 6235\u20136250.",
+            "33. Ewees, A.A.; El Aziz, M.A.; Elhoseny, M. Social-spider optimization algorithm for improving ANFIS to predict biochar yield. In Proceedings of the 2017 8th International Conference on Computing, Communication and Networking Technologies (ICCCNT), Delhi, India, 3\u20135 July 2017; pp. 1\u20136.",
+            "34. Al-Qaness, M.A.; Elaziz, M.A.; Ewees, A.A. Oil consumption forecasting using optimized adaptive neuro-fuzzy inference system based on sine cosine algorithm. IEEE Access 2018, 6, 68394\u201368402.",
+            "35. Al-qaness, M.A.; Abd Elaziz, M.; Ewees, A.A.; Cui, X. A Modified Adaptive Neuro-Fuzzy Inference System",
+            "Using Multi-Verse Optimizer Algorithm for Oil Consumption Forecasting. Electronics 2019, 8, 1071.",
+            "36. El Aziz, M.A.; Hemdan, A.M.; Ewees, A.A.; Elhoseny, M.; Shehab, A.; Hassanien, A.E.; Xiong, S. Prediction of biochar yield using adaptive neuro-fuzzy inference system with particle swarm optimization. In Proceedings of the 2017 IEEE PES PowerAfrica, Accra, Ghana, 27\u201330 June 2017; pp. 115\u2013120.",
+            "37. Elaziz, M.A.; Ewees, A.A.; Alameer, Z. Improving adaptive neuro-fuzzy inference system based on a modified salp swarm algorithm using genetic algorithm to forecast crude oil price. Nat. Resour. Res. 2019, 1\u201316, doi:10.1007/s11053-019-09587-1.",
+            "38. Yang, X.S. Flower pollination algorithm for global optimization. In International Conference on Unconventional",
+            "Computing and Natural Computation; Springer: Berlin, Germany, 2012; pp. 240\u2013249.",
+            "39. Alam, D.; Yousri, D.; Eteiba, M. Flower pollination algorithm based solar PV parameter estimation. Energy",
+            "Convers. Manag. 2015, 101, 410\u2013422.",
+            "40. Ram, J.P.; Babu, T.S.; Dragicevic, T.; Rajasekar, N. A new hybrid bee pollinator flower pollination algorithm for solar PV parameter estimation. Energy Convers. Manag. 2017, 135, 463\u2013476.",
+            "41. Abdel-Raouf, O.; El-Henawy, I.; Abdel-Baset, M. A novel hybrid flower pollination algorithm with chaotic harmony search for solving sudoku puzzles. Int. J. Mod. Educ. Comput. Sci. 2014, 6, 38.",
+            "42. Rodrigues, D.; Yang, X.S.; De Souza, A.N.; Papa, J.P. Binary flower pollination algorithm and its application to feature selection. In Recent Advances in Swarm Intelligence and Evolutionary Computation; Springer: Berlin, Germany, 2015; pp. 85\u2013100.",
+            "43. Salgotra, R.; Singh, U.; Saha, S.; Nagar, A.K. Improved Flower Pollination Algorithm for Linear Antenna Design Problems. In Soft Computing for Problem Solving; Springer: Berlin, Germany, 2020; pp. 79\u201389.",
+            "44. Priya, K.; Rajasekar, N. Application of flower pollination algorithm for enhanced proton exchange membrane fuel cell modelling. Int. J. Hydrog. Energy 2019, 44, 18438\u201318449.",
+            "45. Nguyen, T.T.; Pan, J.S.; Dao, T.K. An improved flower pollination algorithm for optimizing layouts of nodes in wireless sensor network. IEEE Access 2019, 7, 75985\u201375998.",
+            "46. Ahmed, K.; Ewees, A.A.; Hassanien, A.E. Prediction and management system for forest fires based on hybrid flower pollination optimization algorithm and adaptive neuro-fuzzy inference system. In Proceedings of the 2017 Eighth International Conference on Intelligent Computing and Information Systems (ICICIS), Cairo, Egypt, 5\u20137 December 2017; pp. 299\u2013304.",
+            "47. Al-Betar, M.A.; Awadallah, M.A.; Doush, I.A.; Hammouri, A.I.; Mafarja, M.; Alyasseri, Z.A.A. Island flower pollination algorithm for global optimization. J. Supercomput. 2019, 75, 5280\u20135323.",
+            "48. Mirjalili, S.; Gandomi, A.H.; Mirjalili, S.Z.; Saremi, S.; Faris, H.; Mirjalili, S.M. Salp Swarm Algorithm: A bio-inspired optimizer for engineering design problems. Adv. Eng. Softw. 2017, 114, 163\u2013191.",
+            "49. Tubishat, M.; Idris, N.; Shuib, L.; Abushariah, M.A.; Mirjalili, S. Improved Salp Swarm Algorithm based on opposition based learning and novel local search algorithm for feature selection. Expert Syst. Appl. 2020, 145, 113122.",
+            "50. Neggaz, N.; Ewees, A.A.; Elaziz, M.A.; Mafarja, M. Boosting salp swarm algorithm by sine cosine algorithm and disrupt operator for feature selection. Expert Syst. Appl. 2020, 145, 113103.",
+            "51. Panda, N.; Majhi, S.K. How effective is the salp swarm algorithm in data classification. In Computational Intelligence in Pattern Recognition; Springer: Berlin, Germany, 2020; pp. 579\u2013588.",
+            "52. Alwerfali, H.S.N.; Elaziz, M.A.; Al-Qaness, M.A.; Abbasi, A.A.; Lu, S.; Liu, F.; Li, L. A Multilevel Image Thresholding Based on Hybrid Salp Swarm Algorithm and Fuzzy Entropy. IEEE Access 2019, 7, 181405\u2013181422.",
+            "53. Alresheedi, S.S.; Lu, S.; Elaziz, M.A.; Ewees, A.A. Improved multiobjective salp swarm optimization for virtual machine placement in cloud computing. Hum.-Centric Comput. Inf. Sci. 2019, 9, 15.",
+            "54. Abualigah, L.; Shehab, M.; Alshinwan, M.; Alabool, H. Salp swarm algorithm: A comprehensive survey. Neural Comput. Appl. 2019, doi:10.1007/s00521-019-04629-4.",
+            "55. Ahmed, K.; Ewees, A.A.; El Aziz, M.A.; Hassanien, A.E.; Gaber, T.; Tsai, P.W.; Pan, J.S. A hybrid krill-ANFIS model for wind speed forecasting. In International Conference on Advanced Intelligent Systems and Informatics; Springer: Berlin, Germany, 2016; pp. 365\u2013372.",
+            "56. Alameer, Z.; Elaziz, M.A.; Ewees, A.A.; Ye, H.; Jianhua, Z. Forecasting copper prices using hybrid adaptive neuro-fuzzy inference system and genetic algorithms. Nat. Resour. Res. 2019, 28, 1385\u20131401."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "bat-derived coronavirus strains",
+            "number": 2,
+            "context": "Currently, Wuhan city suffers from the spreading of a novel coronavirus, called COVID-19 (previously, it was called 2019-nCoV). <mark class=\"stats\">In [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], the authors concluded that COVID-19 likely originated in bats, because it is more similar to two bat-derived coronavirus strains</mark>. However, the source of the COVID-19 is not confirmed yet, and it"
+        },
+        {
+            "participant": "cases",
+            "number": 469,
+            "context": "Zhao et al [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] proposed a mathematical model to estimate the real number of COVID-19 cases in the first half of January 2020, which had not been reported. <mark class=\"stats\">They concluded that the number of unreported cases resulted in 469 cases from 1 to 15 January 2020</mark>. In addition, they estimated that after 17 January 2020, the cases had increased 21-fold"
+        },
+        {
+            "participant": "patients",
+            "number": 47,
+            "context": "Moreover, they expected that the peak would be reached after two weeks (from 23 January 2020). <mark class=\"stats\">In [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], data of 47 patients were used to estimate sustained human-to-human transmission of COVID-19</mark>. The author concluded that the transmission is 0.4, and if the time of symptom to hospitalization is half of the tested data, the transmission will be only 0.012"
+        },
+        {
+            "participant": "datasets",
+            "number": 2,
+            "context": "We used 75% from the dataset to train the model while the rest is used to test it. <mark class=\"stats\">Moreover, we evaluated the performance of the proposed method using two datasets of weekly influenza confirmed cases</mark>. The first one is called DS1; it was collected from the Centers for Disease Control and Prevention (CDC) (https://www.cdc.gov/flu/weekly/)"
+        },
+        {
+            "participant": "datasets",
+            "number": 2,
+            "context": "Besides, FPASSA-ANFIS outperforms other forecasting models in terms of RMSE, MAE, MAPE, RMSRE, and R2. <mark class=\"stats\">Furthermore, two datasets of weekly influenza confirmed cases in the USA and</mark>. China were used to evaluate the proposed method, and the evaluation outcomes showed its good performance"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "World Health Organization",
+        "sine-cosine algorithm",
+        "fpassa anfis model",
+        "radial basis function",
+        "fuzzy c-mean",
+        "ordered weighted averaging",
+        "MERS",
+        "COVID-19",
+        "particle swarm optimization",
+        "epidemiology",
+        "flower pollination algorithm",
+        "Root Mean Squared Relative Error",
+        "anfis model",
+        "adaptive neuro fuzzy inference system",
+        "auto-regressive integrated moving average",
+        "artificial neural networks",
+        "East Respiratory syndrome",
+        "swarm intelligence",
+        "multi-verse optimizer",
+        "coronavirus",
+        "Root Mean Square Error",
+        "multi-layer perceptron",
+        "autocorrelation function",
+        "Centers for Disease Control and Prevention",
+        "SARS",
+        "forecasting",
+        "salp swarm algorithm",
+        "FPASSA",
+        "Adaptive Neuro-Fuzzy Inference System",
+        "global optimization",
+        "West Nile virus",
+        "Mean Absolute Error",
+        "novel coronavirus",
+        "Mean Absolute Percentage Error"
+    ],
+    "keyword_relevance": {
+        "Adaptive Neuro-Fuzzy Inference System": 0.175,
+        "flower pollination algorithm": 0.16875,
+        "salp swarm algorithm": 0.14375,
+        "FPASSA": 0.08541666666666667,
+        "COVID-19": 0.07708333333333334,
+        "forecasting": 0.07291666666666667,
+        "particle swarm optimization": 0.029166666666666667,
+        "Root Mean Squared Relative Error": 0.025,
+        "coronavirus": 0.025,
+        "Mean Absolute Percentage Error": 0.022916666666666665,
+        "Root Mean Square Error": 0.01875,
+        "swarm intelligence": 0.016666666666666666,
+        "Mean Absolute Error": 0.014583333333333334,
+        "World Health Organization": 0.0125,
+        "novel coronavirus": 0.0125,
+        "sine-cosine algorithm": 0.010416666666666666,
+        "Centers for Disease Control and Prevention": 0.010416666666666666,
+        "SARS": 0.010416666666666666,
+        "MERS": 0.008333333333333333,
+        "autocorrelation function": 0.008333333333333333,
+        "ordered weighted averaging": 0.00625,
+        "artificial neural networks": 0.00625,
+        "multi-verse optimizer": 0.00625,
+        "multi-layer perceptron": 0.00625,
+        "West Nile virus": 0.00625,
+        "radial basis function": 0.004166666666666667,
+        "fuzzy c-mean": 0.004166666666666667,
+        "epidemiology": 0.004166666666666667,
+        "auto-regressive integrated moving average": 0.004166666666666667,
+        "global optimization": 0.004166666666666667,
+        "fpassa anfis model": 0.0,
+        "anfis model": 0.0,
+        "adaptive neuro fuzzy inference system": 0.0,
+        "East Respiratory syndrome": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> A large family of viruses, called coronaviruses, are severe pathogens for human beings, which infect respiratory, hepatic, gastrointestinal, and neurologic diseases.",
+        "They are distributed among humans, birds, livestock, mice, bats, and other wild animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+        "Wuhan city suffers from the spreading of a novel coronavirus, called COVID-19.",
+        "The source of the COVID-19 is not confirmed yet, and it",
+        "<h2 style=\"display: inline\">Objectives:</h2> This paper aims to assess the ability of the FPASSA to forecast the COVID-19 by comparing its performance with other methods, namely the ANFIS and the trained ANFIS models using PSO, GA, ABC, FPA, and FPASSA.",
+        "<h2 style=\"display: inline\">Methods:</h2> The ANFIS model links the fuzzy logic and neural networks [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>].",
+        "It generates a mapping between the input and output by applying IF- rules.",
+        "Figure 1 illustrates the ANFIS model where, y and x define the inputs to Layer 1 whereas, O1i is its output of node i that is computed as follows: O1i = \u03bcAi (x), i = 1, 2, O1i = \u03bcBi\u22122 (y), i = 3, 4 (1) \u03bc(x) = e\u2212( x\u2212\u03c1i \u03b1i )2 , (2).",
+        "Ai and Bi define the membership values of \u03bc. \u03b1i and \u03c1i denote the premise parameters set",
+        "<h2 style=\"display: inline\">Conclusion:</h2> This paper proposed a modified version for the flower pollination algorithm (FPA) using the salp swarm algorithm (SSA).",
+        "This modified version, called FPASSA, is applied to improve the performance of the ANFIS through determining the optimal value for its parameters.",
+        "The proposed FPASSA-ANFIS model has a high ability to predict the number of confirmed cases within ten days.",
+        "Two datasets of weekly influenza confirmed cases in the USA and"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A large family of viruses, called coronaviruses, are severe pathogens for human beings, which infect respiratory, hepatic, gastrointestinal, and neurologic diseases.",
+            "They are distributed among humans, birds, livestock, mice, bats, and other wild animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "Wuhan city suffers from the spreading of a novel coronavirus, called COVID-19.",
+            "The source of the COVID-19 is not confirmed yet, and it"
+        ],
+        "Objectives": [
+            "This paper aims to assess the ability of the FPASSA to forecast the COVID-19 by comparing its performance with other methods, namely the ANFIS and the trained ANFIS models using PSO, GA, ABC, FPA, and FPASSA."
+        ],
+        "Methods": [
+            "The ANFIS model links the fuzzy logic and neural networks [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>].",
+            "It generates a mapping between the input and output by applying IF- rules.",
+            "Figure 1 illustrates the ANFIS model where, y and x define the inputs to Layer 1 whereas, O1i is its output of node i that is computed as follows: O1i = \u03bcAi (x), i = 1, 2, O1i = \u03bcBi\u22122 (y), i = 3, 4 (1) \u03bc(x) = e\u2212( x\u2212\u03c1i \u03b1i )2 , (2).",
+            "Ai and Bi define the membership values of \u03bc. \u03b1i and \u03c1i denote the premise parameters set"
+        ],
+        "Conclusion": [
+            "This paper proposed a modified version for the flower pollination algorithm (FPA) using the salp swarm algorithm (SSA).",
+            "This modified version, called FPASSA, is applied to improve the performance of the ANFIS through determining the optimal value for its parameters.",
+            "The proposed FPASSA-ANFIS model has a high ability to predict the number of confirmed cases within ten days.",
+            "Two datasets of weekly influenza confirmed cases in the USA and"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Chen_et+al_0000_a",
+            "entry": "1. Chen, Y.; Liu, Q.; Guo, D. Emerging coronaviruses: Genome structure, replication, and pathogenesis. J. Med. Virol. 2020, doi:10.1002/jmv.25681.",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25681",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25681",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25681"
+        },
+        {
+            "id": "2",
+            "alt_id": "Ge_et+al_2013_a",
+            "entry": "2. Ge, X.Y.; Li, J.L.; Yang, X.L.; Chmura, A.A.; Zhu, G.; Epstein, J.H.; Mazet, J.K.; Hu, B.; Zhang, W.; Peng, C.; et al. Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. Nature 2013, 503, 535\u2013538.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ge%2C%20X.Y.%20Li%2C%20J.L.%20Yang%2C%20X.L.%20Chmura%2C%20A.A.%20Isolation%20and%20characterization%20of%20a%20bat%20SARS-like%20coronavirus%20that%20uses%20the%20ACE2%20receptor%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ge%2C%20X.Y.%20Li%2C%20J.L.%20Yang%2C%20X.L.%20Chmura%2C%20A.A.%20Isolation%20and%20characterization%20of%20a%20bat%20SARS-like%20coronavirus%20that%20uses%20the%20ACE2%20receptor%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ge%2C%20X.Y.%20Li%2C%20J.L.%20Yang%2C%20X.L.%20Chmura%2C%20A.A.%20Isolation%20and%20characterization%20of%20a%20bat%20SARS-like%20coronavirus%20that%20uses%20the%20ACE2%20receptor%202013"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wang_et+al_2006_a",
+            "entry": "3. Wang, L.F.; Shi, Z.; Zhang, S.; Field, H.; Daszak, P.; Eaton, B.T. Review of bats and SARS. Emerg. Infect. Dis. 2006, 12, 1834.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20L.F.%20Shi%2C%20Z.%20Zhang%2C%20S.%20Field%2C%20H.%20Review%20of%20bats%20and%20SARS%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20L.F.%20Shi%2C%20Z.%20Zhang%2C%20S.%20Field%2C%20H.%20Review%20of%20bats%20and%20SARS%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20L.F.%20Shi%2C%20Z.%20Zhang%2C%20S.%20Field%2C%20H.%20Review%20of%20bats%20and%20SARS%202006"
+        },
+        {
+            "id": "4",
+            "alt_id": "Cauchemez_et+al_2013_a",
+            "entry": "4. Cauchemez, S.; Van Kerkhove, M.; Riley, S.; Donnelly, C.; Fraser, C.; Ferguson, N. Transmission scenarios for Middle East Respiratory Syndrome Coronavirus (MERS-CoV) and how to tell them apart. Euro Surveill. Bull. Eur. Sur Les Mal. Transm. Eur. Commun. Dis. Bull. 2013, 18, 20503.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cauchemez%2C%20S.%20Van%20Kerkhove%2C%20M.%20Riley%2C%20S.%20Donnelly%2C%20C.%20Transmission%20scenarios%20for%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20%28MERS-CoV%29%20and%20how%20to%20tell%20them%20apart%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cauchemez%2C%20S.%20Van%20Kerkhove%2C%20M.%20Riley%2C%20S.%20Donnelly%2C%20C.%20Transmission%20scenarios%20for%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20%28MERS-CoV%29%20and%20how%20to%20tell%20them%20apart%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cauchemez%2C%20S.%20Van%20Kerkhove%2C%20M.%20Riley%2C%20S.%20Donnelly%2C%20C.%20Transmission%20scenarios%20for%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20%28MERS-CoV%29%20and%20how%20to%20tell%20them%20apart%202013"
+        },
+        {
+            "id": "5",
+            "alt_id": "Organization_2019_a",
+            "entry": "5. Organization, W.H. Novel Coronavirus (2019-nCoV) 2020, 2020. Available online:https://www.who.int/ (accessed on 27 January 2020).",
+            "url": "https://www.who.int/"
+        },
+        {
+            "id": "6",
+            "alt_id": "Lu_et+al_2019_a",
+            "entry": "6. Lu, R.; Zhao, X.; Li, J.; Niu, P.; Yang, B.; Wu, H.; Wang, W.; Song, H.; Huang, B.; Zhu, N.; et al. Genomic characterisation and epidemiology of 2019 novel coronavirus: Implications for virus origins and receptor binding. Lancet 2020, 395, 565\u2013574.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lu%20R%20Zhao%20X%20Li%20J%20Niu%20P%20Yang%20B%20Wu%20H%20Wang%20W%20Song%20H%20Huang%20B%20Zhu%20N%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20Implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020%20395%20565574",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lu%20R%20Zhao%20X%20Li%20J%20Niu%20P%20Yang%20B%20Wu%20H%20Wang%20W%20Song%20H%20Huang%20B%20Zhu%20N%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20Implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020%20395%20565574",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lu%20R%20Zhao%20X%20Li%20J%20Niu%20P%20Yang%20B%20Wu%20H%20Wang%20W%20Song%20H%20Huang%20B%20Zhu%20N%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20Implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020%20395%20565574"
+        },
+        {
+            "id": "7",
+            "alt_id": "Cheng_2019_a",
+            "entry": "7. Cheng, Z.J.; Shan, J. 2019 Novel Coronavirus: Where We are and What We Know. Infection 2020, doi:10.1007/s15010-020-01401-y.",
+            "crossref": "https://dx.doi.org/10.1007/s15010-020-01401-y",
+            "scite": "https://scite.ai/reports/10.1007/s15010-020-01401-y"
+        },
+        {
+            "id": "8",
+            "alt_id": "Guan_et+al_2019_a",
+            "entry": "8. Guan, W.J.; Ni, Z.Y.; Hu, Y.; Liang, W.H.; Ou, C.Q.; He, J.X.; Liu, L.; Shan, H.; Lei, C.L.; Hui, D.S.; et al. Clinical characteristics of 2019 novel coronavirus infection in China. medRxiv 2020, doi:10.1101/2020.02.06.20020974. Available online: https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974.full.pdf (accessed on 9 February 2020).",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.06.20020974",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.06.20020974"
+        },
+        {
+            "id": "9",
+            "alt_id": "Zhao_et+al_2019_a",
+            "entry": "9. Zhao, S.; Musa, S.S.; Lin, Q.; Ran, J.; Yang, G.; Wang, W.; Lou, Y.; Yang, L.; Gao, D.; He, D.; et al. Estimating the Unreported Number of Novel Coronavirus (2019-nCoV) Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak. J. Clin. Med. 2020, 9, 388.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhao%2C%20S.%20Musa%2C%20S.S.%20Lin%2C%20Q.%20Ran%2C%20J.%20Estimating%20the%20Unreported%20Number%20of%20Novel%20Coronavirus%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhao%2C%20S.%20Musa%2C%20S.S.%20Lin%2C%20Q.%20Ran%2C%20J.%20Estimating%20the%20Unreported%20Number%20of%20Novel%20Coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhao%2C%20S.%20Musa%2C%20S.S.%20Lin%2C%20Q.%20Ran%2C%20J.%20Estimating%20the%20Unreported%20Number%20of%20Novel%20Coronavirus%202019"
+        },
+        {
+            "id": "10",
+            "alt_id": "Nishiura_et+al_2019_a",
+            "entry": "10. Nishiura, H.; Kobayashi, T.; Yang, Y.; Hayashi, K.; Miyama, T.; Kinoshita, R.; Linton, N.M.; Jung, S.m.; Yuan, B.; Suzuki, A.; et al. The Rate of Underascertainment of Novel Coronavirus (2019-nCoV) Infection: Estimation Using Japanese Passengers Data on Evacuation Flights. J. Clin. Med. 2020, 9, 419.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%2C%20H.%20Kobayashi%2C%20T.%20Yang%2C%20Y.%20Hayashi%2C%20K.%20The%20Rate%20of%20Underascertainment%20of%20Novel%20Coronavirus%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%2C%20H.%20Kobayashi%2C%20T.%20Yang%2C%20Y.%20Hayashi%2C%20K.%20The%20Rate%20of%20Underascertainment%20of%20Novel%20Coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%2C%20H.%20Kobayashi%2C%20T.%20Yang%2C%20Y.%20Hayashi%2C%20K.%20The%20Rate%20of%20Underascertainment%20of%20Novel%20Coronavirus%202019"
+        },
+        {
+            "id": "11",
+            "alt_id": "Tang_et+al_2019_a",
+            "entry": "11. Tang, B.; Wang, X.; Li, Q.; Bragazzi, N.L.; Tang, S.; Xiao, Y.; Wu, J. Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions. J. Clin. Med. 2020, 9, 462.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tang%20B%20Wang%20X%20Li%20Q%20Bragazzi%20NL%20Tang%20S%20Xiao%20Y%20Wu%20J%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20J%20Clin%20Med%202020%209%20462",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tang%20B%20Wang%20X%20Li%20Q%20Bragazzi%20NL%20Tang%20S%20Xiao%20Y%20Wu%20J%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20J%20Clin%20Med%202020%209%20462",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tang%20B%20Wang%20X%20Li%20Q%20Bragazzi%20NL%20Tang%20S%20Xiao%20Y%20Wu%20J%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20J%20Clin%20Med%202020%209%20462"
+        },
+        {
+            "id": "12",
+            "alt_id": "Thompson_2020_a",
+            "entry": "12. Thompson, R.N. Novel Coronavirus Outbreak in Wuhan, China, 2020: Intense Surveillance Is Vital for Preventing Sustained Transmission in New Locations. J. Clin. Med. 2020, 9, 498.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thompson%20RN%20Novel%20Coronavirus%20Outbreak%20in%20Wuhan%20China%202020%20Intense%20Surveillance%20Is%20Vital%20for%20Preventing%20Sustained%20Transmission%20in%20New%20Locations%20J%20Clin%20Med%202020%209%20498",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thompson%20RN%20Novel%20Coronavirus%20Outbreak%20in%20Wuhan%20China%202020%20Intense%20Surveillance%20Is%20Vital%20for%20Preventing%20Sustained%20Transmission%20in%20New%20Locations%20J%20Clin%20Med%202020%209%20498",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thompson%20RN%20Novel%20Coronavirus%20Outbreak%20in%20Wuhan%20China%202020%20Intense%20Surveillance%20Is%20Vital%20for%20Preventing%20Sustained%20Transmission%20in%20New%20Locations%20J%20Clin%20Med%202020%209%20498"
+        },
+        {
+            "id": "13",
+            "alt_id": "Jung_et+al_2019_a",
+            "entry": "13. Jung, S.M.; Akhmetzhanov, A.R.; Hayashi, K.; Linton, N.M.; Yang, Y.; Yuan, B.; Kobayashi, T.; Kinoshita, R.; Nishiura, H. Real time estimation of the risk of death from novel coronavirus (2019-nCoV) infection: Inference using exported cases. J. Clin. Med. 2020, 9, 523.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jung%2C%20S.M.%20Akhmetzhanov%2C%20A.R.%20Hayashi%2C%20K.%20Linton%2C%20N.M.%20Real%20time%20estimation%20of%20the%20risk%20of%20death%20from%20novel%20coronavirus%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jung%2C%20S.M.%20Akhmetzhanov%2C%20A.R.%20Hayashi%2C%20K.%20Linton%2C%20N.M.%20Real%20time%20estimation%20of%20the%20risk%20of%20death%20from%20novel%20coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jung%2C%20S.M.%20Akhmetzhanov%2C%20A.R.%20Hayashi%2C%20K.%20Linton%2C%20N.M.%20Real%20time%20estimation%20of%20the%20risk%20of%20death%20from%20novel%20coronavirus%202019"
+        },
+        {
+            "id": "14",
+            "alt_id": "Defelice_et+al_2017_a",
+            "entry": "14. DeFelice, N.B.; Little, E.; Campbell, S.R.; Shaman, J. Ensemble forecast of human West Nile virus cases and mosquito infection rates. Nat. Commun. 2017, 8, 1\u20136.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=DeFelice%2C%20N.B.%20Little%2C%20E.%20Campbell%2C%20S.R.%20Shaman%2C%20J.%20Ensemble%20forecast%20of%20human%20West%20Nile%20virus%20cases%20and%20mosquito%20infection%20rates%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=DeFelice%2C%20N.B.%20Little%2C%20E.%20Campbell%2C%20S.R.%20Shaman%2C%20J.%20Ensemble%20forecast%20of%20human%20West%20Nile%20virus%20cases%20and%20mosquito%20infection%20rates%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=DeFelice%2C%20N.B.%20Little%2C%20E.%20Campbell%2C%20S.R.%20Shaman%2C%20J.%20Ensemble%20forecast%20of%20human%20West%20Nile%20virus%20cases%20and%20mosquito%20infection%20rates%202017"
+        },
+        {
+            "id": "15",
+            "alt_id": "Ture_2006_a",
+            "entry": "15. Ture, M.; Kurt, I. Comparison of four different time series methods to forecast hepatitis A virus infection. Expert Syst. Appl. 2006, 31, 41\u201346.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ture%2C%20M.%20Kurt%2C%20I.%20Comparison%20of%20four%20different%20time%20series%20methods%20to%20forecast%20hepatitis%20A%20virus%20infection%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ture%2C%20M.%20Kurt%2C%20I.%20Comparison%20of%20four%20different%20time%20series%20methods%20to%20forecast%20hepatitis%20A%20virus%20infection%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ture%2C%20M.%20Kurt%2C%20I.%20Comparison%20of%20four%20different%20time%20series%20methods%20to%20forecast%20hepatitis%20A%20virus%20infection%202006"
+        },
+        {
+            "id": "16",
+            "alt_id": "Shaman_2012_a",
+            "entry": "16. Shaman, J.; Karspeck, A. Forecasting seasonal outbreaks of influenza. Proc. Natl. Acad. Sci. USA 2012, 109, 20425\u201320430.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shaman%2C%20J.%20Karspeck%2C%20A.%20Forecasting%20seasonal%20outbreaks%20of%20influenza%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Shaman%2C%20J.%20Karspeck%2C%20A.%20Forecasting%20seasonal%20outbreaks%20of%20influenza%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Shaman%2C%20J.%20Karspeck%2C%20A.%20Forecasting%20seasonal%20outbreaks%20of%20influenza%202012"
+        },
+        {
+            "id": "17",
+            "alt_id": "Shaman_et+al_2013_a",
+            "entry": "17. Shaman, J.; Karspeck, A.; Yang, W.; Tamerius, J.; Lipsitch, M. Real-time influenza forecasts during the 2012\u20132013 season. Nat. Commun. 2013, 4, 1\u201310.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shaman%20J%20Karspeck%20A%20Yang%20W%20Tamerius%20J%20Lipsitch%20M%20Realtime%20influenza%20forecasts%20during%20the%2020122013%20season%20Nat%20Commun%202013%204%20110",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Shaman%20J%20Karspeck%20A%20Yang%20W%20Tamerius%20J%20Lipsitch%20M%20Realtime%20influenza%20forecasts%20during%20the%2020122013%20season%20Nat%20Commun%202013%204%20110",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Shaman%20J%20Karspeck%20A%20Yang%20W%20Tamerius%20J%20Lipsitch%20M%20Realtime%20influenza%20forecasts%20during%20the%2020122013%20season%20Nat%20Commun%202013%204%20110"
+        },
+        {
+            "id": "18",
+            "alt_id": "Shaman_et+al_2014_a",
+            "entry": "18. Shaman, J.; Yang, W.; Kandula, S. PLoS Curr. 2014, 6, doi:10.1371/currents.outbreaks.3408774290b1a0f2dd7cae877c8b8ff6.",
+            "crossref": "https://dx.doi.org/10.1371/currents.outbreaks.3408774290b1a0f2dd7cae877c8b8ff6",
+            "scite": "https://scite.ai/reports/10.1371/currents.outbreaks.3408774290b1a0f2dd7cae877c8b8ff6"
+        },
+        {
+            "id": "19",
+            "alt_id": "Massad_et+al_2005_a",
+            "entry": "19. Massad, E.; Burattini, M.N.; Lopez, L.F.; Coutinho, F.A. Forecasting versus projection models in epidemiology: The case of the SARS epidemics. Med. Hypotheses 2005, 65, 17\u201322.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Massad%2C%20E.%20Burattini%2C%20M.N.%20Lopez%2C%20L.F.%20Coutinho%2C%20F.A.%20Forecasting%20versus%20projection%20models%20in%20epidemiology%3A%20The%20case%20of%20the%20SARS%20epidemics%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Massad%2C%20E.%20Burattini%2C%20M.N.%20Lopez%2C%20L.F.%20Coutinho%2C%20F.A.%20Forecasting%20versus%20projection%20models%20in%20epidemiology%3A%20The%20case%20of%20the%20SARS%20epidemics%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Massad%2C%20E.%20Burattini%2C%20M.N.%20Lopez%2C%20L.F.%20Coutinho%2C%20F.A.%20Forecasting%20versus%20projection%20models%20in%20epidemiology%3A%20The%20case%20of%20the%20SARS%20epidemics%202005"
+        },
+        {
+            "id": "20",
+            "alt_id": "Ong_et+al_2010_a",
+            "entry": "20. Ong, J.B.S.; Mark, I.; Chen, C.; Cook, A.R.; Lee, H.C.; Lee, V.J.; Lin, R.T.P.; Tambyah, P.A.; Goh, L.G. Real-time epidemic monitoring and forecasting of H1N1-2009 using influenza-like illness from general practice and family doctor clinics in Singapore. PLoS ONE 2010, 5, doi:10.1371/journal.pone.0010036.",
+            "crossref": "https://dx.doi.org/10.1371/journal.pone.0010036",
+            "scite": "https://scite.ai/reports/10.1371/journal.pone.0010036",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pone.0010036"
+        },
+        {
+            "id": "21",
+            "alt_id": "Nah_et+al_2016_a",
+            "entry": "21. Nah, K.; Otsuki, S.; Chowell, G.; Nishiura, H. Predicting the international spread of Middle East respiratory syndrome (MERS). BMC Infect. Dis. 2016, 16, 356.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nah%2C%20K.%20Otsuki%2C%20S.%20Chowell%2C%20G.%20Nishiura%2C%20H.%20Predicting%20the%20international%20spread%20of%20Middle%20East%20respiratory%20syndrome%20%28MERS%29%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nah%2C%20K.%20Otsuki%2C%20S.%20Chowell%2C%20G.%20Nishiura%2C%20H.%20Predicting%20the%20international%20spread%20of%20Middle%20East%20respiratory%20syndrome%20%28MERS%29%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nah%2C%20K.%20Otsuki%2C%20S.%20Chowell%2C%20G.%20Nishiura%2C%20H.%20Predicting%20the%20international%20spread%20of%20Middle%20East%20respiratory%20syndrome%20%28MERS%29%202016"
+        },
+        {
+            "id": "22",
+            "alt_id": "Jang_1993_a",
+            "entry": "22. Jang, J.S. ANFIS: Adaptive-network-based fuzzy inference system. IEEE Trans. Syst. Man Cybern. 1993, 23, 665\u2013685.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jang%2C%20J.S.%20ANFIS%3A%20Adaptive-network-based%20fuzzy%20inference%20system%201993",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jang%2C%20J.S.%20ANFIS%3A%20Adaptive-network-based%20fuzzy%20inference%20system%201993",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jang%2C%20J.S.%20ANFIS%3A%20Adaptive-network-based%20fuzzy%20inference%20system%201993"
+        },
+        {
+            "id": "23",
+            "alt_id": "Wei_2016_a",
+            "entry": "23. Wei, L.Y. A hybrid ANFIS model based on empirical mode decomposition for stock time series forecasting. Appl. Soft Comput. 2016, 42, 368\u2013376.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wei%2C%20L.Y.%20A%20hybrid%20ANFIS%20model%20based%20on%20empirical%20mode%20decomposition%20for%20stock%20time%20series%20forecasting%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wei%2C%20L.Y.%20A%20hybrid%20ANFIS%20model%20based%20on%20empirical%20mode%20decomposition%20for%20stock%20time%20series%20forecasting%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wei%2C%20L.Y.%20A%20hybrid%20ANFIS%20model%20based%20on%20empirical%20mode%20decomposition%20for%20stock%20time%20series%20forecasting%202016"
+        },
+        {
+            "id": "24",
+            "alt_id": "Cheng_et+al_2013_a",
+            "entry": "24. Cheng, C.H.; Wei, L.Y.; Liu, J.W.; Chen, T.L. OWA-based ANFIS model for TAIEX forecasting. Econ. Model. 2013, 30, 442\u2013448.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cheng%2C%20C.H.%20Wei%2C%20L.Y.%20Liu%2C%20J.W.%20Chen%2C%20T.L.%20OWA-based%20ANFIS%20model%20for%20TAIEX%20forecasting%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cheng%2C%20C.H.%20Wei%2C%20L.Y.%20Liu%2C%20J.W.%20Chen%2C%20T.L.%20OWA-based%20ANFIS%20model%20for%20TAIEX%20forecasting%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cheng%2C%20C.H.%20Wei%2C%20L.Y.%20Liu%2C%20J.W.%20Chen%2C%20T.L.%20OWA-based%20ANFIS%20model%20for%20TAIEX%20forecasting%202013"
+        },
+        {
+            "id": "25",
+            "alt_id": "Pousinho_et+al_2012_a",
+            "entry": "25. Pousinho, H.M.I.; Mendes, V.; Catal\u00e3o, J.P.d.S. Short-term electricity prices forecasting in a competitive market by a hybrid PSO\u2013ANFIS approach. Int. J. Electr. Power Energy Syst. 2012, 39, 29\u201335.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pousinho%2C%20H.M.I.%20Mendes%2C%20V.%20Catal%C3%A3o%2C%20J.Pd%20S.%20Short-term%20electricity%20prices%20forecasting%20in%20a%20competitive%20market%20by%20a%20hybrid%20PSO%E2%80%93ANFIS%20approach%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pousinho%2C%20H.M.I.%20Mendes%2C%20V.%20Catal%C3%A3o%2C%20J.Pd%20S.%20Short-term%20electricity%20prices%20forecasting%20in%20a%20competitive%20market%20by%20a%20hybrid%20PSO%E2%80%93ANFIS%20approach%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pousinho%2C%20H.M.I.%20Mendes%2C%20V.%20Catal%C3%A3o%2C%20J.Pd%20S.%20Short-term%20electricity%20prices%20forecasting%20in%20a%20competitive%20market%20by%20a%20hybrid%20PSO%E2%80%93ANFIS%20approach%202012"
+        },
+        {
+            "id": "26",
+            "alt_id": "Svalina_et+al_2013_a",
+            "entry": "26. Svalina, I.; Galzina, V.; Lujic, R.; \u0160Imunovic, G. An adaptive network-based fuzzy inference system (ANFIS) for the forecasting: The case of close price indices. Expert Syst. Appl. 2013, 40, 6055\u20136063.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Svalina%2C%20I.%20Galzina%2C%20V.%20Lujic%2C%20R.%20%C5%A0Imunovic%2C%20G.%20An%20adaptive%20network-based%20fuzzy%20inference%20system%20%28ANFIS%29%20for%20the%20forecasting%3A%20The%20case%20of%20close%20price%20indices%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Svalina%2C%20I.%20Galzina%2C%20V.%20Lujic%2C%20R.%20%C5%A0Imunovic%2C%20G.%20An%20adaptive%20network-based%20fuzzy%20inference%20system%20%28ANFIS%29%20for%20the%20forecasting%3A%20The%20case%20of%20close%20price%20indices%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Svalina%2C%20I.%20Galzina%2C%20V.%20Lujic%2C%20R.%20%C5%A0Imunovic%2C%20G.%20An%20adaptive%20network-based%20fuzzy%20inference%20system%20%28ANFIS%29%20for%20the%20forecasting%3A%20The%20case%20of%20close%20price%20indices%202013"
+        },
+        {
+            "id": "27",
+            "alt_id": "Ekici_2011_a",
+            "entry": "27. Ekici, B.B.; Aksoy, U.T. Prediction of building energy needs in early stage of design by using ANFIS. Expert Syst. Appl. 2011, 38, 5352\u20135358.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ekici%2C%20B.B.%20Aksoy%2C%20U.T.%20Prediction%20of%20building%20energy%20needs%20in%20early%20stage%20of%20design%20by%20using%20ANFIS%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ekici%2C%20B.B.%20Aksoy%2C%20U.T.%20Prediction%20of%20building%20energy%20needs%20in%20early%20stage%20of%20design%20by%20using%20ANFIS%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ekici%2C%20B.B.%20Aksoy%2C%20U.T.%20Prediction%20of%20building%20energy%20needs%20in%20early%20stage%20of%20design%20by%20using%20ANFIS%202011"
+        },
+        {
+            "id": "28",
+            "alt_id": "Cheng_2010_a",
+            "entry": "28. Cheng, C.H.; Wei, L.Y. One step-ahead ANFIS time series model for forecasting electricity loads. Optim. Eng. 2010, 11, 303\u2013317.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cheng%2C%20C.H.%20Wei%2C%20L.Y.%20One%20step-ahead%20ANFIS%20time%20series%20model%20for%20forecasting%20electricity%20loads%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cheng%2C%20C.H.%20Wei%2C%20L.Y.%20One%20step-ahead%20ANFIS%20time%20series%20model%20for%20forecasting%20electricity%20loads%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cheng%2C%20C.H.%20Wei%2C%20L.Y.%20One%20step-ahead%20ANFIS%20time%20series%20model%20for%20forecasting%20electricity%20loads%202010"
+        },
+        {
+            "id": "29",
+            "alt_id": "Kumar_et+al_2014_a",
+            "entry": "29. Kumar, D.T.; Soleimani, H.; Kannan, G. Forecasting return products in an integrated forward/reverse supply chain utilizing an ANFIS. Int. J. Appl. Math. Comput. Sci. 2014, 24, 669\u2013682.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kumar%2C%20D.T.%20Soleimani%2C%20H.%20Kannan%2C%20G.%20Forecasting%20return%20products%20in%20an%20integrated%20forward/reverse%20supply%20chain%20utilizing%20an%20ANFIS%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kumar%2C%20D.T.%20Soleimani%2C%20H.%20Kannan%2C%20G.%20Forecasting%20return%20products%20in%20an%20integrated%20forward/reverse%20supply%20chain%20utilizing%20an%20ANFIS%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kumar%2C%20D.T.%20Soleimani%2C%20H.%20Kannan%2C%20G.%20Forecasting%20return%20products%20in%20an%20integrated%20forward/reverse%20supply%20chain%20utilizing%20an%20ANFIS%202014"
+        },
+        {
+            "id": "30",
+            "alt_id": "Ho_2011_a",
+            "entry": "30. Ho, Y.C.; Tsai, C.T. Comparing ANFIS and SEM in linear and nonlinear forecasting of new product development performance. Expert Syst. Appl. 2011, 38, 6498\u20136507.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ho%2C%20Y.C.%20Tsai%2C%20C.T.%20Comparing%20ANFIS%20and%20SEM%20in%20linear%20and%20nonlinear%20forecasting%20of%20new%20product%20development%20performance%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ho%2C%20Y.C.%20Tsai%2C%20C.T.%20Comparing%20ANFIS%20and%20SEM%20in%20linear%20and%20nonlinear%20forecasting%20of%20new%20product%20development%20performance%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ho%2C%20Y.C.%20Tsai%2C%20C.T.%20Comparing%20ANFIS%20and%20SEM%20in%20linear%20and%20nonlinear%20forecasting%20of%20new%20product%20development%20performance%202011"
+        },
+        {
+            "id": "31",
+            "alt_id": "Catal\u00e3o_et+al_2010_a",
+            "entry": "31. Catal\u00e3o, J.P.d.S.; Pousinho, H.M.I.; Mendes, V.M.F. Hybrid wavelet-PSO-ANFIS approach for short-term electricity prices forecasting. IEEE Trans. Power Syst. 2010, 26, 137\u2013144.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Catal%C3%A3o%2C%20J.Pd%20S.%20Pousinho%2C%20H.M.I.%20Mendes%2C%20V.M.F.%20Hybrid%20wavelet-PSO-ANFIS%20approach%20for%20short-term%20electricity%20prices%20forecasting%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Catal%C3%A3o%2C%20J.Pd%20S.%20Pousinho%2C%20H.M.I.%20Mendes%2C%20V.M.F.%20Hybrid%20wavelet-PSO-ANFIS%20approach%20for%20short-term%20electricity%20prices%20forecasting%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Catal%C3%A3o%2C%20J.Pd%20S.%20Pousinho%2C%20H.M.I.%20Mendes%2C%20V.M.F.%20Hybrid%20wavelet-PSO-ANFIS%20approach%20for%20short-term%20electricity%20prices%20forecasting%202010"
+        },
+        {
+            "id": "32",
+            "alt_id": "Bagheri_et+al_0000_a",
+            "entry": "32. Bagheri, A.; Peyhani, H.M.; Akbari, M. Financial forecasting using ANFIS networks with quantum-behaved particle swarm optimization. Expert Syst. Appl. 2014, 41, 6235\u20136250.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bagheri%2C%20A.%20Peyhani%2C%20H.M.%20Akbari%2C%20M.%20Financial%20forecasting%20using%20ANFIS%20networks%20with%20quantum-behaved%20particle%20swarm%20optimization",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bagheri%2C%20A.%20Peyhani%2C%20H.M.%20Akbari%2C%20M.%20Financial%20forecasting%20using%20ANFIS%20networks%20with%20quantum-behaved%20particle%20swarm%20optimization",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bagheri%2C%20A.%20Peyhani%2C%20H.M.%20Akbari%2C%20M.%20Financial%20forecasting%20using%20ANFIS%20networks%20with%20quantum-behaved%20particle%20swarm%20optimization"
+        },
+        {
+            "id": "33",
+            "alt_id": "Ewees_et+al_2017_a",
+            "entry": "33. Ewees, A.A.; El Aziz, M.A.; Elhoseny, M. Social-spider optimization algorithm for improving ANFIS to predict biochar yield. In Proceedings of the 2017 8th International Conference on Computing, Communication and Networking Technologies (ICCCNT), Delhi, India, 3\u20135 July 2017; pp. 1\u20136.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ewees%2C%20A.A.%20El%20Aziz%2C%20M.A.%20Elhoseny%2C%20M.%20Social-spider%20optimization%20algorithm%20for%20improving%20ANFIS%20to%20predict%20biochar%20yield%202017-07",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ewees%2C%20A.A.%20El%20Aziz%2C%20M.A.%20Elhoseny%2C%20M.%20Social-spider%20optimization%20algorithm%20for%20improving%20ANFIS%20to%20predict%20biochar%20yield%202017-07",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ewees%2C%20A.A.%20El%20Aziz%2C%20M.A.%20Elhoseny%2C%20M.%20Social-spider%20optimization%20algorithm%20for%20improving%20ANFIS%20to%20predict%20biochar%20yield%202017-07"
+        },
+        {
+            "id": "34",
+            "alt_id": "Al-Qaness_et+al_2018_a",
+            "entry": "34. Al-Qaness, M.A.; Elaziz, M.A.; Ewees, A.A. Oil consumption forecasting using optimized adaptive neuro-fuzzy inference system based on sine cosine algorithm. IEEE Access 2018, 6, 68394\u201368402.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Al-Qaness%2C%20M.A.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Oil%20consumption%20forecasting%20using%20optimized%20adaptive%20neuro-fuzzy%20inference%20system%20based%20on%20sine%20cosine%20algorithm%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Al-Qaness%2C%20M.A.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Oil%20consumption%20forecasting%20using%20optimized%20adaptive%20neuro-fuzzy%20inference%20system%20based%20on%20sine%20cosine%20algorithm%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Al-Qaness%2C%20M.A.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Oil%20consumption%20forecasting%20using%20optimized%20adaptive%20neuro-fuzzy%20inference%20system%20based%20on%20sine%20cosine%20algorithm%202018"
+        },
+        {
+            "id": "35",
+            "alt_id": "Al-Qaness_et+al_2019_a",
+            "entry": "35. Al-qaness, M.A.; Abd Elaziz, M.; Ewees, A.A.; Cui, X. A Modified Adaptive Neuro-Fuzzy Inference System Using Multi-Verse Optimizer Algorithm for Oil Consumption Forecasting. Electronics 2019, 8, 1071.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Al-qaness%2C%20M.A.%20Abd%20Elaziz%2C%20M.%20Ewees%2C%20A.A.%20Cui%2C%20X.%20A%20Modified%20Adaptive%20Neuro-Fuzzy%20Inference%20System%20Using%20Multi-Verse%20Optimizer%20Algorithm%20for%20Oil%20Consumption%20Forecasting%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Al-qaness%2C%20M.A.%20Abd%20Elaziz%2C%20M.%20Ewees%2C%20A.A.%20Cui%2C%20X.%20A%20Modified%20Adaptive%20Neuro-Fuzzy%20Inference%20System%20Using%20Multi-Verse%20Optimizer%20Algorithm%20for%20Oil%20Consumption%20Forecasting%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Al-qaness%2C%20M.A.%20Abd%20Elaziz%2C%20M.%20Ewees%2C%20A.A.%20Cui%2C%20X.%20A%20Modified%20Adaptive%20Neuro-Fuzzy%20Inference%20System%20Using%20Multi-Verse%20Optimizer%20Algorithm%20for%20Oil%20Consumption%20Forecasting%202019"
+        },
+        {
+            "id": "36",
+            "alt_id": "El_et+al_2017_a",
+            "entry": "36. El Aziz, M.A.; Hemdan, A.M.; Ewees, A.A.; Elhoseny, M.; Shehab, A.; Hassanien, A.E.; Xiong, S. Prediction of biochar yield using adaptive neuro-fuzzy inference system with particle swarm optimization. In Proceedings of the 2017 IEEE PES PowerAfrica, Accra, Ghana, 27\u201330 June 2017; pp. 115\u2013120.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=El%20Aziz%2C%20M.A.%20Hemdan%2C%20A.M.%20Ewees%2C%20A.A.%20Elhoseny%2C%20M.%20Prediction%20of%20biochar%20yield%20using%20adaptive%20neuro-fuzzy%20inference%20system%20with%20particle%20swarm%20optimization%202017-06",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=El%20Aziz%2C%20M.A.%20Hemdan%2C%20A.M.%20Ewees%2C%20A.A.%20Elhoseny%2C%20M.%20Prediction%20of%20biochar%20yield%20using%20adaptive%20neuro-fuzzy%20inference%20system%20with%20particle%20swarm%20optimization%202017-06",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=El%20Aziz%2C%20M.A.%20Hemdan%2C%20A.M.%20Ewees%2C%20A.A.%20Elhoseny%2C%20M.%20Prediction%20of%20biochar%20yield%20using%20adaptive%20neuro-fuzzy%20inference%20system%20with%20particle%20swarm%20optimization%202017-06"
+        },
+        {
+            "id": "37",
+            "alt_id": "Elaziz_et+al_2019_a",
+            "entry": "37. Elaziz, M.A.; Ewees, A.A.; Alameer, Z. Improving adaptive neuro-fuzzy inference system based on a modified salp swarm algorithm using genetic algorithm to forecast crude oil price. Nat. Resour. Res. 2019, 1\u201316, doi:10.1007/s11053-019-09587-1.",
+            "crossref": "https://dx.doi.org/10.1007/s11053-019-09587-1",
+            "scite": "https://scite.ai/reports/10.1007/s11053-019-09587-1",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1007/s11053-019-09587-1"
+        },
+        {
+            "id": "38",
+            "alt_id": "Yang_2012_a",
+            "entry": "38. Yang, X.S. Flower pollination algorithm for global optimization. In International Conference on Unconventional Computing and Natural Computation; Springer: Berlin, Germany, 2012; pp. 240\u2013249.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yang%2C%20X.S.%20Flower%20pollination%20algorithm%20for%20global%20optimization%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yang%2C%20X.S.%20Flower%20pollination%20algorithm%20for%20global%20optimization%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yang%2C%20X.S.%20Flower%20pollination%20algorithm%20for%20global%20optimization%202012"
+        },
+        {
+            "id": "39",
+            "alt_id": "Alam_et+al_2015_a",
+            "entry": "39. Alam, D.; Yousri, D.; Eteiba, M. Flower pollination algorithm based solar PV parameter estimation. Energy Convers. Manag. 2015, 101, 410\u2013422.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Alam%2C%20D.%20Yousri%2C%20D.%20Eteiba%2C%20M.%20Flower%20pollination%20algorithm%20based%20solar%20PV%20parameter%20estimation%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Alam%2C%20D.%20Yousri%2C%20D.%20Eteiba%2C%20M.%20Flower%20pollination%20algorithm%20based%20solar%20PV%20parameter%20estimation%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Alam%2C%20D.%20Yousri%2C%20D.%20Eteiba%2C%20M.%20Flower%20pollination%20algorithm%20based%20solar%20PV%20parameter%20estimation%202015"
+        },
+        {
+            "id": "40",
+            "alt_id": "Ram_et+al_2017_a",
+            "entry": "40. Ram, J.P.; Babu, T.S.; Dragicevic, T.; Rajasekar, N. A new hybrid bee pollinator flower pollination algorithm for solar PV parameter estimation. Energy Convers. Manag. 2017, 135, 463\u2013476.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ram%2C%20J.P.%20Babu%2C%20T.S.%20Dragicevic%2C%20T.%20Rajasekar%2C%20N.%20A%20new%20hybrid%20bee%20pollinator%20flower%20pollination%20algorithm%20for%20solar%20PV%20parameter%20estimation%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ram%2C%20J.P.%20Babu%2C%20T.S.%20Dragicevic%2C%20T.%20Rajasekar%2C%20N.%20A%20new%20hybrid%20bee%20pollinator%20flower%20pollination%20algorithm%20for%20solar%20PV%20parameter%20estimation%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ram%2C%20J.P.%20Babu%2C%20T.S.%20Dragicevic%2C%20T.%20Rajasekar%2C%20N.%20A%20new%20hybrid%20bee%20pollinator%20flower%20pollination%20algorithm%20for%20solar%20PV%20parameter%20estimation%202017"
+        },
+        {
+            "id": "41",
+            "alt_id": "Abdel-Raouf_et+al_2014_a",
+            "entry": "41. Abdel-Raouf, O.; El-Henawy, I.; Abdel-Baset, M. A novel hybrid flower pollination algorithm with chaotic harmony search for solving sudoku puzzles. Int. J. Mod. Educ. Comput. Sci. 2014, 6, 38.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Abdel-Raouf%2C%20O.%20El-Henawy%2C%20I.%20Abdel-Baset%2C%20M.%20A%20novel%20hybrid%20flower%20pollination%20algorithm%20with%20chaotic%20harmony%20search%20for%20solving%20sudoku%20puzzles%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Abdel-Raouf%2C%20O.%20El-Henawy%2C%20I.%20Abdel-Baset%2C%20M.%20A%20novel%20hybrid%20flower%20pollination%20algorithm%20with%20chaotic%20harmony%20search%20for%20solving%20sudoku%20puzzles%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Abdel-Raouf%2C%20O.%20El-Henawy%2C%20I.%20Abdel-Baset%2C%20M.%20A%20novel%20hybrid%20flower%20pollination%20algorithm%20with%20chaotic%20harmony%20search%20for%20solving%20sudoku%20puzzles%202014"
+        },
+        {
+            "id": "42",
+            "alt_id": "Rodrigues_et+al_2015_a",
+            "entry": "42. Rodrigues, D.; Yang, X.S.; De Souza, A.N.; Papa, J.P. Binary flower pollination algorithm and its application to feature selection. In Recent Advances in Swarm Intelligence and Evolutionary Computation; Springer: Berlin, Germany, 2015; pp. 85\u2013100.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Rodrigues%2C%20D.%20Yang%2C%20X.S.%20De%20Souza%2C%20A.N.%20Papa%2C%20J.P.%20Binary%20flower%20pollination%20algorithm%20and%20its%20application%20to%20feature%20selection%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Rodrigues%2C%20D.%20Yang%2C%20X.S.%20De%20Souza%2C%20A.N.%20Papa%2C%20J.P.%20Binary%20flower%20pollination%20algorithm%20and%20its%20application%20to%20feature%20selection%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Rodrigues%2C%20D.%20Yang%2C%20X.S.%20De%20Souza%2C%20A.N.%20Papa%2C%20J.P.%20Binary%20flower%20pollination%20algorithm%20and%20its%20application%20to%20feature%20selection%202015"
+        },
+        {
+            "id": "43",
+            "alt_id": "Salgotra_et+al_2020_a",
+            "entry": "43. Salgotra, R.; Singh, U.; Saha, S.; Nagar, A.K. Improved Flower Pollination Algorithm for Linear Antenna Design Problems. In Soft Computing for Problem Solving; Springer: Berlin, Germany, 2020; pp. 79\u201389.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Salgotra%2C%20R.%20Singh%2C%20U.%20Saha%2C%20S.%20Nagar%2C%20A.K.%20Improved%20Flower%20Pollination%20Algorithm%20for%20Linear%20Antenna%20Design%20Problems.%20In%20Soft%20Computing%20for%20Problem%20Solving%202020"
+        },
+        {
+            "id": "44",
+            "alt_id": "Priya_2019_a",
+            "entry": "44. Priya, K.; Rajasekar, N. Application of flower pollination algorithm for enhanced proton exchange membrane fuel cell modelling. Int. J. Hydrog. Energy 2019, 44, 18438\u201318449.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Priya%2C%20K.%20Rajasekar%2C%20N.%20Application%20of%20flower%20pollination%20algorithm%20for%20enhanced%20proton%20exchange%20membrane%20fuel%20cell%20modelling%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Priya%2C%20K.%20Rajasekar%2C%20N.%20Application%20of%20flower%20pollination%20algorithm%20for%20enhanced%20proton%20exchange%20membrane%20fuel%20cell%20modelling%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Priya%2C%20K.%20Rajasekar%2C%20N.%20Application%20of%20flower%20pollination%20algorithm%20for%20enhanced%20proton%20exchange%20membrane%20fuel%20cell%20modelling%202019"
+        },
+        {
+            "id": "45",
+            "alt_id": "Nguyen_et+al_2019_a",
+            "entry": "45. Nguyen, T.T.; Pan, J.S.; Dao, T.K. An improved flower pollination algorithm for optimizing layouts of nodes in wireless sensor network. IEEE Access 2019, 7, 75985\u201375998.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nguyen%2C%20T.T.%20Pan%2C%20J.S.%20Dao%2C%20T.K.%20An%20improved%20flower%20pollination%20algorithm%20for%20optimizing%20layouts%20of%20nodes%20in%20wireless%20sensor%20network%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nguyen%2C%20T.T.%20Pan%2C%20J.S.%20Dao%2C%20T.K.%20An%20improved%20flower%20pollination%20algorithm%20for%20optimizing%20layouts%20of%20nodes%20in%20wireless%20sensor%20network%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nguyen%2C%20T.T.%20Pan%2C%20J.S.%20Dao%2C%20T.K.%20An%20improved%20flower%20pollination%20algorithm%20for%20optimizing%20layouts%20of%20nodes%20in%20wireless%20sensor%20network%202019"
+        },
+        {
+            "id": "46",
+            "alt_id": "Ahmed_et+al_2017_a",
+            "entry": "46. Ahmed, K.; Ewees, A.A.; Hassanien, A.E. Prediction and management system for forest fires based on hybrid flower pollination optimization algorithm and adaptive neuro-fuzzy inference system. In Proceedings of the 2017 Eighth International Conference on Intelligent Computing and Information Systems (ICICIS), Cairo, Egypt, 5\u20137 December 2017; pp. 299\u2013304.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ahmed%2C%20K.%20Ewees%2C%20A.A.%20Hassanien%2C%20A.E.%20Prediction%20and%20management%20system%20for%20forest%20fires%20based%20on%20hybrid%20flower%20pollination%20optimization%20algorithm%20and%20adaptive%20neuro-fuzzy%20inference%20system%202017-12",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ahmed%2C%20K.%20Ewees%2C%20A.A.%20Hassanien%2C%20A.E.%20Prediction%20and%20management%20system%20for%20forest%20fires%20based%20on%20hybrid%20flower%20pollination%20optimization%20algorithm%20and%20adaptive%20neuro-fuzzy%20inference%20system%202017-12",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ahmed%2C%20K.%20Ewees%2C%20A.A.%20Hassanien%2C%20A.E.%20Prediction%20and%20management%20system%20for%20forest%20fires%20based%20on%20hybrid%20flower%20pollination%20optimization%20algorithm%20and%20adaptive%20neuro-fuzzy%20inference%20system%202017-12"
+        },
+        {
+            "id": "47",
+            "alt_id": "Al-Betar_et+al_2019_a",
+            "entry": "47. Al-Betar, M.A.; Awadallah, M.A.; Doush, I.A.; Hammouri, A.I.; Mafarja, M.; Alyasseri, Z.A.A. Island flower pollination algorithm for global optimization. J. Supercomput. 2019, 75, 5280\u20135323.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Al-Betar%2C%20M.A.%20Awadallah%2C%20M.A.%20Doush%2C%20I.A.%20Hammouri%2C%20A.I.%20Island%20flower%20pollination%20algorithm%20for%20global%20optimization%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Al-Betar%2C%20M.A.%20Awadallah%2C%20M.A.%20Doush%2C%20I.A.%20Hammouri%2C%20A.I.%20Island%20flower%20pollination%20algorithm%20for%20global%20optimization%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Al-Betar%2C%20M.A.%20Awadallah%2C%20M.A.%20Doush%2C%20I.A.%20Hammouri%2C%20A.I.%20Island%20flower%20pollination%20algorithm%20for%20global%20optimization%202019"
+        },
+        {
+            "id": "48",
+            "alt_id": "Mirjalili_et+al_2017_a",
+            "entry": "48. Mirjalili, S.; Gandomi, A.H.; Mirjalili, S.Z.; Saremi, S.; Faris, H.; Mirjalili, S.M. Salp Swarm Algorithm: A bio-inspired optimizer for engineering design problems. Adv. Eng. Softw. 2017, 114, 163\u2013191.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Mirjalili%2C%20S.%20Gandomi%2C%20A.H.%20Mirjalili%2C%20S.Z.%20Saremi%2C%20S.%20Salp%20Swarm%20Algorithm%3A%20A%20bio-inspired%20optimizer%20for%20engineering%20design%20problems%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Mirjalili%2C%20S.%20Gandomi%2C%20A.H.%20Mirjalili%2C%20S.Z.%20Saremi%2C%20S.%20Salp%20Swarm%20Algorithm%3A%20A%20bio-inspired%20optimizer%20for%20engineering%20design%20problems%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Mirjalili%2C%20S.%20Gandomi%2C%20A.H.%20Mirjalili%2C%20S.Z.%20Saremi%2C%20S.%20Salp%20Swarm%20Algorithm%3A%20A%20bio-inspired%20optimizer%20for%20engineering%20design%20problems%202017"
+        },
+        {
+            "id": "49",
+            "alt_id": "Tubishat_et+al_0000_a",
+            "entry": "49. Tubishat, M.; Idris, N.; Shuib, L.; Abushariah, M.A.; Mirjalili, S. Improved Salp Swarm Algorithm based on opposition based learning and novel local search algorithm for feature selection. Expert Syst. Appl. 2020, 145, 113122.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tubishat%2C%20M.%20Idris%2C%20N.%20Shuib%2C%20L.%20Abushariah%2C%20M.A.%20Improved%20Salp%20Swarm%20Algorithm%20based%20on%20opposition%20based%20learning%20and%20novel%20local%20search%20algorithm%20for%20feature%20selection",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tubishat%2C%20M.%20Idris%2C%20N.%20Shuib%2C%20L.%20Abushariah%2C%20M.A.%20Improved%20Salp%20Swarm%20Algorithm%20based%20on%20opposition%20based%20learning%20and%20novel%20local%20search%20algorithm%20for%20feature%20selection",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tubishat%2C%20M.%20Idris%2C%20N.%20Shuib%2C%20L.%20Abushariah%2C%20M.A.%20Improved%20Salp%20Swarm%20Algorithm%20based%20on%20opposition%20based%20learning%20and%20novel%20local%20search%20algorithm%20for%20feature%20selection"
+        },
+        {
+            "id": "50",
+            "alt_id": "Neggaz_et+al_0000_a",
+            "entry": "50. Neggaz, N.; Ewees, A.A.; Elaziz, M.A.; Mafarja, M. Boosting salp swarm algorithm by sine cosine algorithm and disrupt operator for feature selection. Expert Syst. Appl. 2020, 145, 113103.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Neggaz%2C%20N.%20Ewees%2C%20A.A.%20Elaziz%2C%20M.A.%20Mafarja%2C%20M.%20Boosting%20salp%20swarm%20algorithm%20by%20sine%20cosine%20algorithm%20and%20disrupt%20operator%20for%20feature%20selection",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Neggaz%2C%20N.%20Ewees%2C%20A.A.%20Elaziz%2C%20M.A.%20Mafarja%2C%20M.%20Boosting%20salp%20swarm%20algorithm%20by%20sine%20cosine%20algorithm%20and%20disrupt%20operator%20for%20feature%20selection",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Neggaz%2C%20N.%20Ewees%2C%20A.A.%20Elaziz%2C%20M.A.%20Mafarja%2C%20M.%20Boosting%20salp%20swarm%20algorithm%20by%20sine%20cosine%20algorithm%20and%20disrupt%20operator%20for%20feature%20selection"
+        },
+        {
+            "id": "51",
+            "alt_id": "Panda_2020_a",
+            "entry": "51. Panda, N.; Majhi, S.K. How effective is the salp swarm algorithm in data classification. In Computational Intelligence in Pattern Recognition; Springer: Berlin, Germany, 2020; pp. 579\u2013588.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Panda%2C%20N.%20Majhi%2C%20S.K.%20How%20effective%20is%20the%20salp%20swarm%20algorithm%20in%20data%20classification%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Panda%2C%20N.%20Majhi%2C%20S.K.%20How%20effective%20is%20the%20salp%20swarm%20algorithm%20in%20data%20classification%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Panda%2C%20N.%20Majhi%2C%20S.K.%20How%20effective%20is%20the%20salp%20swarm%20algorithm%20in%20data%20classification%202020"
+        },
+        {
+            "id": "52",
+            "alt_id": "Alwerfali_et+al_2019_a",
+            "entry": "52. Alwerfali, H.S.N.; Elaziz, M.A.; Al-Qaness, M.A.; Abbasi, A.A.; Lu, S.; Liu, F.; Li, L. A Multilevel Image Thresholding Based on Hybrid Salp Swarm Algorithm and Fuzzy Entropy. IEEE Access 2019, 7, 181405\u2013181422.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Alwerfali%2C%20H.S.N.%20Elaziz%2C%20M.A.%20Al-Qaness%2C%20M.A.%20Abbasi%2C%20A.A.%20A%20Multilevel%20Image%20Thresholding%20Based%20on%20Hybrid%20Salp%20Swarm%20Algorithm%20and%20Fuzzy%20Entropy%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Alwerfali%2C%20H.S.N.%20Elaziz%2C%20M.A.%20Al-Qaness%2C%20M.A.%20Abbasi%2C%20A.A.%20A%20Multilevel%20Image%20Thresholding%20Based%20on%20Hybrid%20Salp%20Swarm%20Algorithm%20and%20Fuzzy%20Entropy%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Alwerfali%2C%20H.S.N.%20Elaziz%2C%20M.A.%20Al-Qaness%2C%20M.A.%20Abbasi%2C%20A.A.%20A%20Multilevel%20Image%20Thresholding%20Based%20on%20Hybrid%20Salp%20Swarm%20Algorithm%20and%20Fuzzy%20Entropy%202019"
+        },
+        {
+            "id": "53",
+            "alt_id": "Alresheedi_et+al_2019_a",
+            "entry": "53. Alresheedi, S.S.; Lu, S.; Elaziz, M.A.; Ewees, A.A. Improved multiobjective salp swarm optimization for virtual machine placement in cloud computing. Hum.-Centric Comput. Inf. Sci. 2019, 9, 15.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Alresheedi%2C%20S.S.%20Lu%2C%20S.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Improved%20multiobjective%20salp%20swarm%20optimization%20for%20virtual%20machine%20placement%20in%20cloud%20computing%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Alresheedi%2C%20S.S.%20Lu%2C%20S.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Improved%20multiobjective%20salp%20swarm%20optimization%20for%20virtual%20machine%20placement%20in%20cloud%20computing%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Alresheedi%2C%20S.S.%20Lu%2C%20S.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Improved%20multiobjective%20salp%20swarm%20optimization%20for%20virtual%20machine%20placement%20in%20cloud%20computing%202019"
+        },
+        {
+            "id": "54",
+            "alt_id": "Abualigah_et+al_2019_a",
+            "entry": "54. Abualigah, L.; Shehab, M.; Alshinwan, M.; Alabool, H. Salp swarm algorithm: A comprehensive survey. Neural Comput. Appl. 2019, doi:10.1007/s00521-019-04629-4.",
+            "crossref": "https://dx.doi.org/10.1007/s00521-019-04629-4",
+            "scite": "https://scite.ai/reports/10.1007/s00521-019-04629-4",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1007/s00521-019-04629-4"
+        },
+        {
+            "id": "55",
+            "alt_id": "Ahmed_et+al_2016_a",
+            "entry": "55. Ahmed, K.; Ewees, A.A.; El Aziz, M.A.; Hassanien, A.E.; Gaber, T.; Tsai, P.W.; Pan, J.S. A hybrid krill-ANFIS model for wind speed forecasting. In International Conference on Advanced Intelligent Systems and Informatics; Springer: Berlin, Germany, 2016; pp. 365\u2013372.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ahmed%2C%20K.%20Ewees%2C%20A.A.%20El%20Aziz%2C%20M.A.%20Hassanien%2C%20A.E.%20A%20hybrid%20krill-ANFIS%20model%20for%20wind%20speed%20forecasting%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ahmed%2C%20K.%20Ewees%2C%20A.A.%20El%20Aziz%2C%20M.A.%20Hassanien%2C%20A.E.%20A%20hybrid%20krill-ANFIS%20model%20for%20wind%20speed%20forecasting%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ahmed%2C%20K.%20Ewees%2C%20A.A.%20El%20Aziz%2C%20M.A.%20Hassanien%2C%20A.E.%20A%20hybrid%20krill-ANFIS%20model%20for%20wind%20speed%20forecasting%202016"
+        },
+        {
+            "id": "56",
+            "alt_id": "Alameer_et+al_2019_a",
+            "entry": "56. Alameer, Z.; Elaziz, M.A.; Ewees, A.A.; Ye, H.; Jianhua, Z. Forecasting copper prices using hybrid adaptive neuro-fuzzy inference system and genetic algorithms. Nat. Resour. Res. 2019, 28, 1385\u20131401. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Alameer%2C%20Z.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Ye%2C%20H.%20Forecasting%20copper%20prices%20using%20hybrid%20adaptive%20neuro-fuzzy%20inference%20system%20and%20genetic%20algorithms%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Alameer%2C%20Z.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Ye%2C%20H.%20Forecasting%20copper%20prices%20using%20hybrid%20adaptive%20neuro-fuzzy%20inference%20system%20and%20genetic%20algorithms%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Alameer%2C%20Z.%20Elaziz%2C%20M.A.%20Ewees%2C%20A.A.%20Ye%2C%20H.%20Forecasting%20copper%20prices%20using%20hybrid%20adaptive%20neuro-fuzzy%20inference%20system%20and%20genetic%20algorithms%202019"
+        }
+    ],
+    "facts": [
+        "previously confirmed cases recorded in China",
+        "the World Health Organization received notifications from China for many cases of respiratory illness that were linked to some people who had visited a seafood market",
+        "Wuhan city suffers from the spreading of a novel coronavirus",
+        "the authors concluded that COVID-19 likely originated in bats",
+        "The developed FPASSA-ANFIS model is applied as a forecasting technique for a novel coronavirus",
+        "that was discovered in Wuhan",
+        "a high ability to predict the number of confirmed cases within ten days",
+        "This paper aims to assess the ability of the FPASSA to forecast the COVID-19 by comparing its performance",
+        "an improved ANFIS model based on a modified flower pollination algorithm using the salp swarm algorithm",
+        "ten days based on previously confirmed cases"
+    ],
+    "claims": [
+        "In the current study, we present a new forecasting model to estimate and forecast the number of confirmed cases of COVID-19 in the upcoming ten days based on the previously confirmed cases recorded in China",
+        "In the current study, we propose an improved ANFIS model based on a modified flower pollination algorithm (FPA) using the salp swarm algorithm (SSA)",
+        "We propose an efficient forecasting model to forecast the confirmed cases of the COVID-19 in China for the upcoming ten days based on previously confirmed cases",
+        "We evaluated the performance of the proposed method using two datasets of weekly influenza confirmed cases",
+        "This paper aims to assess the ability of the FPASSA to forecast the COVID-19 by comparing its performance with other methods, namely the ANFIS and the trained ANFIS models using PSO, GA, ABC, FPA, and FPASSA",
+        "This paper proposed a modified version for the flower pollination algorithm (FPA) using the salp swarm algorithm (SSA)"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "This paper aims to assess the ability of the FPASSA to forecast the COVID-19 by comparing its performance with other methods, namely the Adaptive Neuro-Fuzzy Inference System and the trained Adaptive Neuro-Fuzzy Inference System models using particle swarm optimization, GA, ABC, flower pollination algorithm, and FPASSA",
+        "This paper proposed a modified version for the flower pollination algorithm (FPA) using the salp swarm algorithm (SSA)",
+        "The developed FPASSA-Adaptive Neuro-Fuzzy Inference System model is applied as a forecasting technique for a novel coronavirus, called COVID-19, that was discovered in Wuhan, China at the end of last year and January of the current year",
+        "The proposed FPASSA-Adaptive Neuro-Fuzzy Inference System model has a high ability to predict the number of confirmed cases within ten days"
+    ],
+    "top_statements": [
+        "A large family of viruses, called coronaviruses, are severe pathogens for human beings, which infect respiratory, hepatic, gastrointestinal, and neurologic diseases",
+        "This paper aims to assess the ability of the FPASSA to forecast the COVID-19 by comparing its performance with other methods, namely the Adaptive Neuro-Fuzzy Inference System and the trained Adaptive Neuro-Fuzzy Inference System models using particle swarm optimization, GA, ABC, flower pollination algorithm, and FPASSA",
+        "This paper proposed a modified version for the flower pollination algorithm (FPA) using the salp swarm algorithm (SSA)",
+        "The developed FPASSA-Adaptive Neuro-Fuzzy Inference System model is applied as a forecasting technique for a novel coronavirus, called COVID-19, that was discovered in Wuhan, China at the end of last year and January of the current year",
+        "The proposed FPASSA-Adaptive Neuro-Fuzzy Inference System model has a high ability to predict the number of confirmed cases within ten days"
+    ],
+    "headline": "The developed FPASSA-Adaptive Neuro-Fuzzy Inference System model is applied as a forecasting technique for a novel coronavirus, called COVID-19, that was discovered in Wuhan, China at the end of last year and January of the current year",
+    "contexts": [],
+    "abbreviations": {
+        "ANFIS": "Adaptive Neuro-Fuzzy Inference System",
+        "FPA": "flower pollination algorithm",
+        "SSA": "salp swarm algorithm",
+        "WHO": "World Health Organization",
+        "MAPE": "Mean Absolute Percentage Error",
+        "RMSRE": "Root Mean Squared Relative Error",
+        "CDC": "Centers for Disease Control and Prevention",
+        "WNV": "West Nile virus",
+        "MLP": "multi-layer perceptron",
+        "RBF": "radial basis function",
+        "ARIMA": "auto-regressive integrated moving average",
+        "ANN": "artificial neural networks",
+        "OWA": "ordered weighted averaging",
+        "SI": "swarm intelligence",
+        "PSO": "particle swarm optimization",
+        "SCA": "sine-cosine algorithm",
+        "MVO": "multi-verse optimizer",
+        "ACF": "autocorrelation function",
+        "FCM": "fuzzy c-mean",
+        "RMSE": "Root Mean Square Error",
+        "MAE": "Mean Absolute Error"
+    }
+}

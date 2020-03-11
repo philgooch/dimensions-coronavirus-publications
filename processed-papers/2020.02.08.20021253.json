@@ -1,0 +1,354 @@
+{
+    "filename": "2020.02.08.20021253.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 128620,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.08.20021253",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/17/2020.02.08.20021253.full.pdf"
+        },
+        "title": "Estimation of the Time-Varying Reproduction Number of COVID-19 Outbreak in China",
+        "author": "Chong You, Yuhao Deng, Wenjie Hu, Jiarui Sun, Qiushi Lin, Feng Zhou, Cheng Heng Pang, Yuan Zhang, Zhengchao Chen, Xiao-Hua Zhou",
+        "date": 2020,
+        "affiliations": [
+            "Beijing International Center for Mathematical Research, Peking University, China",
+            "School of Mathematical Sciences, Peking University, China",
+            "Department of Biostatistics, School of Public Health, Peking University, China",
+            "Faculty of Science and Engineering, University of Nottingham Ningbo China, China",
+            "National Research Institute for Health and Family Planning, China",
+            "Beijing Obstetrics and Gynecology Hospital, Capital Medical University, China",
+            "National Health Commission of China.",
+            "National Health Commission (NHC) of China had confirmed a total of 44730 cases of novel coronavirus-infected pneumonia (NCP) associated with the COVID-19 in Mainland China, including 1114 fatalities and 4771 recoveries."
+        ],
+        "abstract": "Background: The 2019-nCoV outbreak in Wuhan, China has attracted world-wide attention. As of February 11, 2020, a total of 44730 cases of novel coronavirus-infected pneumonia associated with COVID-19 were confirmed by the National Health Commission of China.\nMethods: Three approaches, namely Poisson likelihood-based method (ML), exponential growth rate-based method (EGR) and stochastic Susceptible-Infected-Removed dynamic model-based method (SIR), were implemented to estimate the basic and controlled reproduction numbers.\nResults: A total of 71 chains of transmission together with dates of symptoms onset and 67 dates of infections were identified among 5405 confirmed cases outside Hubei as reported by February 2, 2020. Based on this information, we find the serial interval having an average of 4.41 days with a standard deviation of 3.17 days and the infectious period having an average of 10.91 days with a standard deviation of 3.95 days.\nConclusions: The controlled reproduction number is declining. It is lower than one in most regions of China, but is still larger than one in Hubei Province. Sustained efforts are needed to further reduce the Rc to below one in order to end the current epidemic.",
+        "references": "@book{king2010a,\n  author = {King, A.A. and Ionides, E.L. and Breto, C.M. and Ellner, S. and Kendall, B. and Wearing, H. and Ferrari, M.J. and Lavine, M. and Reuman, D.C.},\n  date = {2010},\n  title = {pomp: Statistical inference for partially observed Markov processes},\n  publisher = {R},\n  language = {}\n}\n@techreport{unknown-a,\n  title = {the People's Republic of China},\n  url = {http://www.nhc.gov.cn/xcs/zhengcwj/list_gzbd.shtml},\n  language = {},\n  institution = {National Health Commission of}\n}\n",
+        "emails": [
+            "azhou@math.pku.edu.cn"
+        ],
+        "cited_by": 1,
+        "references_ris": "TY  - BOOK\nAU  - King, A.A.\nAU  - Ionides, E.L.\nAU  - Breto, C.M.\nAU  - Ellner, S.\nAU  - Kendall, B.\nAU  - Wearing, H.\nAU  - Ferrari, M.J.\nAU  - Lavine, M.\nAU  - Reuman, D.C.\nPY  - 2010\nDA  - 2010\nTI  - pomp: Statistical inference for partially observed Markov processes\nPB  - R\nLA  - \nER  - \n\nTY  - RPRT\nTI  - the People's Republic of China\nUR  - http://www.nhc.gov.cn/xcs/zhengcwj/list_gzbd.shtml\nLA  - \nC1  - National Health Commission of\nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "3",
+                "caption": "Estimates and 95% confidence intervals of basic reproduction number in some selected provinces (or cities) of China, from Jan 21 to Jan 28, 2020"
+            },
+            {
+                "id": "4",
+                "caption": "Estimates and 95% confidence intervals of controlled reproduction number in some selected provinces (or cities) of China, from Jan 29 to Feb 5, 2020"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Histogram of serial interval with the average of 4.27 days before correction. We can see that some serial intervals are negative which is certainly impossible by definition. However, noting that the serial intervals were approximated from the dates of symptoms onset, this suggests that the negative values could be caused by different lengths of incubation period between individuals. Here a simple correction is implemented by resetting the negative values to zeros. This shifts the average of the serial intervals to 4.41 days and the standard deviation to 3.17 days after corrections, see table 1. Note that the serial interval of SARS-nCoV in Hongkong was 8.4 days on average.[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] In addition, a total of 67 cases in the collected data were able to identify the corresponding dates of infection"
+            },
+            {
+                "id": "2",
+                "caption": "Histogram of infectious period with the average of 10.91 days"
+            },
+            {
+                "id": "3",
+                "caption": "Visualization of daily numbers of new confirmed case along with date, as obvious change of rate occurred on January 29 as expected"
+            },
+            {
+                "id": "4",
+                "caption": "The estimated controlled reproduction number in (a) China, (b) Hubei, (c) Other provinces except Hubei, (d) Beijing, (e) Shanghai, (f) Guangdong, (g) Zhejiang, (h) Hunan, and (i) Henan. The dashed line is the 95% confidence interval. 5. Conclusion Despite the continuous increase in new confirmed cases on a daily basis, the estimated controlled reproduction numbers \u0734\u0bd6 produced by all three methods in all different regions are significantly smaller compared with the basic reproduction numbers \u0734\u0b34. As discussed in"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.08.20021253.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-007.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-010.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.20021253.full/img-011.png"
+        ]
+    },
+    "sections": {
+        "background": [
+            "The 2019-nCoV outbreak in Wuhan, China has attracted world-wide attention. As of February 11, 2020, a total of 44730 cases of novel coronavirus-infected pneumonia associated with COVID-19 were confirmed by the National Health Commission of China."
+        ],
+        "methods": [
+            "Three approaches, namely Poisson likelihood-based method (ML), exponential growth rate-based method (EGR) and stochastic Susceptible-Infected-Removed dynamic model-based method (SIR), were implemented to estimate the basic and controlled reproduction numbers.",
+            "The basic reproduction number can be estimated through a variety of models.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] In this section, we have compared three most popular estimates of \u0734\u0b34/\u0734\u0bd6 as shown below.<br/><br/>(1) Poisson Likelihood-based (ML) method<br/><br/>Let \u0730\u0be7 be the number of reported new confirmed cases on day \u202b\u0750\u202c. Suppose that the serial interval has a maximum of \u0747 days and the number of new cases generated by an infected individual is assumed to follow a Poisson distribution with parameter \u0734\u0b34.6 The probability that the serial interval of an individual in \u0746 days is \u202b\u0753\u202c\u0bdd, which can be estimated from the empirical distribution of serial interval or by setting up a discretized Gamma prior on it. Thus, the likelihood function can be reduced into a thinned Poisson    \u202b\u072e\u202c\u123a\u0734,    \u202b\u0753\u202c\u123b    \u0d4c    \u0bcd    \u0dd1 \u0be7\u0b40\u0b35    \u0741 \u07e4 \u0b3f\u0c13\u0cdf    \u0bc7\u0cdf \u0be7    \u0730\u0be7!"
+        ],
+        "results": [
+            "A total of 71 chains of transmission together with dates of symptoms onset and 67 dates of infections were identified among 5405 confirmed cases outside Hubei as reported by February 2, 2020. Based on this information, we find the serial interval having an average of 4.41 days with a standard deviation of 3.17 days and the infectious period having an average of 10.91 days with a standard deviation of 3.95 days.",
+            "In this section we have estimated the basic reproduction number \u0734\u0b34 and the controlled reproduction number \u0734\u0bd6. Since January 19, 2020, various containment measures have been strictly implemented, especially after the State Council agreed to include NCP into the Management of the Infectious Diseases Law and the Health and Quarantine Law on January 20. Based on an average10.91-day infectious period estimate from our collected data, we expect a flatter rate of increment starting on January 29. Figure 3 plots the number of daily new cases in a log-scale against date, and, as anticipated, the trend supports our guess.<br/><br/>Therefore, the quantities \u0734\u0b34 and \u0734\u0bd6 are estimated based on collected data in two separate periods, i.e., from January 21 (the starting date of daily updates of confirmed cases nationwide) to January 28, and from January 29 to February 5 (the end date of this study) respectively.<br/><br/>The estimates of \u0734\u0b34 and \u0734\u0bd6 by Poisson likelihood (ML) and exponential growth rate (EGR)"
+        ],
+        "conclusions": [
+            "The controlled reproduction number is declining. It is lower than one in most regions of China, but is still larger than one in Hubei Province. Sustained efforts are needed to further reduce the \u0734\u0bd6 to below one in order to end the current epidemic."
+        ],
+        "introduction": [
+            "On December 29, 2019, Wuhan, the capital city of Hubei Province in Central China, has reported four cases of pneumonia with unknown etiology. Since then, the outbreak has rapidly worsened over a short span of time and has received considerable global attention. On January 7, 2020, the pathogen of the current outbreak was identified as a novel coronavirus (2019-nCoV), and its gene sequence was quickly submitted to WHO (The coronavirus was renamed COVID-19 by WHO on February 12).[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] On January 30, WHO announced the listing of this novel coronavirus-infected pneumonia (NCP) as a \u201cpublic health emergency of international concern\u201d. As of February 11, 2020, the National Health Commission (NHC) of China had confirmed a total of 44730 cases of novel coronavirus-infected pneumonia (NCP) associated with the COVID-19 in Mainland China, including 1114 fatalities and 4771 recoveries.<br/><br/>Since January 19, 2020, strict containment measures, including travel restrictions, contact tracing, entry or exit screening, non-hospital isolation, quarantine, awareness campaigns and others, have been implemented by the Wuhan Government and quickly adopted by other cities within China with the aim to minimize virus transmission via human-to-human contact. Similar measures were previously employed in China in 2009 to tackle the outbreak of H1N1 including mandatory quarantine of anyone who has had close contact with confirmed patients."
+        ],
+        "discussion": [
+            "The dataset used in this study is based on the confirmed cases reported by NHC China. However, during the period of data collection, the official guidelines for diagnosis and treatment were updated four times. The criteria of confirmation have evolved from the original \u201cwhole genome sequencing of the respiratory excretion\u201d to \u201cpositive viral nucleic acid results by the RT-PCR of the respiratory excretion or viral gene sequence\u201d, and, most currently, the inclusion of positive nucleic acid results of the blood sample. In the meanwhile, the confirmation process is simplified by removing the accreditation process by the national expert committee for confirmed cases. The fourth edition granted the accrediting authority to the municipalities.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] In addition, the medical resources in Hubei Province especially in Wuhan have been enhanced remarkably. All of these changes might result in a temporary surge of confirmed cases and lead to an overestimation of \u0734\u0bd6, especially in Hubei Province."
+        ],
+        "acknowledgments": [
+            "We thank Taojun Hu, Xueqing Liu and Yuying Li from School of Public Health, Peking University for assistance of data collection.<br/><br/>1. Huang, C., Wang, Y., Li, X., Ren, L., Zhao, J., Hu, Y., ... & Cheng, Z. (2020). Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. The Lancet. 2. Wang, C., Horby, P. W., Hayden, F. G., & Gao, G. F. (2020). A novel coronavirus outbreak of global health concern. The Lancet. 3. Lipsitch M, Cohen T, Cooper B, et al Transmission dynamics and control of severe acute respiratory syndrome. Science 2003; 300: 1966\u201370. 4. Anderson, R. M., Anderson, B., & May, R. M. (1992). Infectious diseases of humans: dynamics and control. Oxford university press."
+        ]
+    },
+    "structured_content": {
+        "Background": [
+            "The 2019-nCoV outbreak in Wuhan, China has attracted world-wide attention. As of February 11, 2020, a total of 44730 cases of novel coronavirus-infected pneumonia associated with COVID-19 were confirmed by the National Health Commission of China."
+        ],
+        "Methods": [
+            "The basic reproduction number can be estimated through a variety of models.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] In this section, we have compared three most popular estimates of \u0734\u0b34/\u0734\u0bd6 as shown below.",
+            "Let \u0730\u0be7 be the number of reported new confirmed cases on day \u202b\u0750\u202c. Suppose that the serial interval has a maximum of \u0747 days and the number of new cases generated by an infected individual is assumed to follow a Poisson distribution with parameter \u0734\u0b34.6 The probability that the serial interval of an individual in \u0746 days is \u202b\u0753\u202c\u0bdd, which can be estimated from the empirical distribution of serial interval or by setting up a discretized Gamma prior on it. Thus, the likelihood function can be reduced into a thinned Poisson",
+            "\u0730\u0be7\u0b3f\u0bdd \u202b\u0753\u202c\u0bdd .",
+            "The reproduction number \u0734 can be estimated by maximizing the likelihood function. Note that if the empirical distribution of serial interval is used or \u202b\u0753\u202c\u0bdd\u202b \u074f\u202care given, then",
+            "At the early period of an epidemic, the number of infected cases rises exponentially. Suppose the exponential epidemic growth rate (Malthusian coefficient) is \u202b\u074e\u202c, which can be estimated by fitting a least square line to the daily number of reported new confirmed cases in a log-scale, namely, log \u123a\u0730\u0be7\u123b. Let \u0742\u0bc0\u123a\u202b\u0750\u202c\u123b denote the probability density function of serial interval. Hence the reproduction number can be calculated according to the Euler-Lotka equation in a moment generating form[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]",
+            "Here we consider a stochastic Susceptible-Infected-Removed (SIR) model rather than a standard deterministic one. The major advantage of using a stochastic dynamic model is that it affords improved accounting for real variabilities and increases opportunity for quantifying uncertainties.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] Let \u0735\u123a\u202b\u0750\u202c\u123b, \u202b\u072b\u202c\u123a\u202b\u0750\u202c\u123b and \u0734\u123a\u202b\u0750\u202c\u123b denote the number of susceptible, infectious and recovered population at time \u202b \u0750\u202crespectively, and note that \u0730 \u0d4c \u0735\u123a\u202b\u0750\u202c\u123b \u0d45 \u202b\u072b\u202c\u123a\u202b\u0750\u202c\u123b \u0d45 \u0734\u123a\u202b\u0750\u202c\u123b. Suppose that the infectious period of an individual is a random variable \u0736 \u202b\u074c\u0754\u0727 \u05fd\u202c\u123a\u07db\u123b, then the reproduction number \u0734 \u0d4c \u07da\u202b\u0727\u202c\u123a\u0736\u123b \u0d4c \u07da/ \u07db , where \u07db and \u07da are the recovery rate and transmission rate respectively in the system of ordinary differential equation (ODE) below,",
+            "\u07db\u202b\u072b\u202c.",
+            "The maximum likelihood method is used to estimate model parameters where the likelihood is obtained by sequential Monte Carlo method, and parameters are estimated using the",
+            "Iterated Filtering algorithm (IF2)[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] implemented as mif in the R package pomp[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] with \u0735\u123a0\u123b equals the population of the region, \u0734\u123a0\u123b \u0d4c 0, \u202b\u072b\u202c\u123a0\u123b is 10 times the average number of confirmed cases from Day 0 to Day 7 and \u07db \u0d4c 10.91 obtained from the collected data described ahead."
+        ],
+        "Results": [
+            "In this section we have estimated the basic reproduction number \u0734\u0b34 and the controlled reproduction number \u0734\u0bd6. Since January 19, 2020, various containment measures have been strictly implemented, especially after the State Council agreed to include NCP into the Management of the Infectious Diseases Law and the Health and Quarantine Law on January 20. Based on an average10.91-day infectious period estimate from our collected data, we expect a flatter rate of increment starting on January 29. Figure 3 plots the number of daily new cases in a log-scale against date, and, as anticipated, the trend supports our guess.",
+            "Therefore, the quantities \u0734\u0b34 and \u0734\u0bd6 are estimated based on collected data in two separate periods, i.e., from January 21 (the starting date of daily updates of confirmed cases nationwide) to January 28, and from January 29 to February 5 (the end date of this study) respectively.",
+            "The estimates of \u0734\u0b34 and \u0734\u0bd6 by Poisson likelihood (ML) and exponential growth rate (EGR)",
+            "in selected regions of China are listed in Table 3 and Table 4. Despite the disagreement between different estimation methods, all three methods indicate notable reductions from \u0734\u0b34 to \u0734\u0bd6 which suggests an improvement in the current situation. This is possibly due to the effective interventions and prompt actions by the local and central governments to minimize further spreading. We also notice that EGR yields smaller estimates of \u0734\u0bd6 compared to other methods. This might be because the number of infected patients does not grow exponentially after such strict containment measures.",
+            "Furthermore, the time-varying controlled reproduction number \u0734\u0bd6\u123a\u202b\u0750\u202c\u123b can be estimated through the Poisson likelihood (ML) method where \u202b \u0750\u202cis from Feb 1 to Feb 10, 2020. For each Day \u202b\u0750\u202c, the number of daily reported new cases from Day \u202b \u0750\u202c\u0d46 7 to Day \u202b \u0750\u202cis used to estimate \u0734\u0de0\u0bd6\u123a\u202b\u0750\u202c\u123b. Figure 4 plots the estimated controlled reproduction number \u0734\u0de0\u0bd6\u123a\u202b\u0750\u202c\u123b along with its 95% CI for selected regions of China. Note that the estimated \u0734\u0de0\u0bd6\u123a\u202b\u0750\u202c\u123b reflects the average spreading ability of the epidemic in a short period prior to Day \u202b\u0750\u202c. As a result, the real-time \u0734\u0bd6\u123a\u202b\u0750\u202c\u123b might be overestimated if the general trend of \u0734\u0bd6\u123a\u202b\u0750\u202c\u123b is declining."
+        ],
+        "Conclusions": [
+            "The controlled reproduction number is declining. It is lower than one in most regions of China, but is still larger than one in Hubei Province. Sustained efforts are needed to further reduce the \u0734\u0bd6 to below one in order to end the current epidemic."
+        ],
+        "1. Introduction": [
+            "On December 29, 2019, Wuhan, the capital city of Hubei Province in Central China, has reported four cases of pneumonia with unknown etiology. Since then, the outbreak has rapidly worsened over a short span of time and has received considerable global attention. On January 7, 2020, the pathogen of the current outbreak was identified as a novel coronavirus (2019-nCoV), and its gene sequence was quickly submitted to WHO (The coronavirus was renamed COVID-19 by WHO on February 12).[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] On January 30, WHO announced the listing of this novel coronavirus-infected pneumonia (NCP) as a \u201cpublic health emergency of international concern\u201d. As of February 11, 2020, the National Health Commission (NHC) of China had confirmed a total of 44730 cases of novel coronavirus-infected pneumonia (NCP) associated with the COVID-19 in Mainland China, including 1114 fatalities and 4771 recoveries.",
+            "Since January 19, 2020, strict containment measures, including travel restrictions, contact tracing, entry or exit screening, non-hospital isolation, quarantine, awareness campaigns and others, have been implemented by the Wuhan Government and quickly adopted by other cities within China with the aim to minimize virus transmission via human-to-human contact. Similar measures were previously employed in China in 2009 to tackle the outbreak of H1N1 including mandatory quarantine of anyone who has had close contact with confirmed patients.",
+            "This article investigates the change in the basic reproduction number \u0734\u0b34 and controlled reproduction number \u0734\u0bd6 since the outbreak of COVID-19. We have found that the estimated",
+            "controlled reproduction numbers \u0734\u0bd6 in all different regions are significantly smaller compared with the basic reproduction numbers \u0734\u0b34, but \u0734\u0bd6 is still greater than one in Hubei",
+            "Province.",
+            "Data were collected from provincial/municipal health commissions in China as well as through ministry of health in other countries and regions with details of each confirmed case including case ID, region, age, gender, date of symptom onset, date of diagnosis, history of traveling to or residing in Wuhan, and, if any, related remarks such as contact identification, cases and case-related information. In addition, the collected dataset also contains date of infection and chains of transmission of infection which can be inferred from travel or residency history in Wuhan and other relevant information, if available, as follows:",
+            "(1) If the individual has not been to Hubei Province recently, but were exposed within a four-day period (i.e., the individual has had contact with a confirmed case of NCP on a certain day), then the corresponding date of infection is inferred as the middle of the exposure period;",
+            "(2) If the individual has travelled to Hubei Province but has returned within four days, then the date of infection is inferred as the middle of the travelling period;",
+            "(3) If the individual has not been to Hubei Province recently, but in close contact with an imported case from Hubei, then the individual is identified to be infected by this imported case;",
+            "(4) If the individual has not been to Hubei Province recently, but in close contact with a local case who was clearly infected before that individual, then this individual is identified to be infected by the corresponding local case.",
+            "Note: if the individual has been to Hubei Province, the transmission history would not be recorded despite the existence of contact tracing information."
+        ],
+        "3. Inference about the Serial Interval and Infectious Period": [
+            "In this study, serial interval is defined as the time difference between dates of infection of successive cases in a chain of transmission (different textbooks may have different definitions). Infectious period is the duration of which an infected individual can transmit pathogens to a susceptible host. In this study, infectious period is defined as the time difference between date of infection and date of diagnosis as there is strong evidence showing that a diseased individual remains contagious even during the incubation period, and would be immediately isolated upon positive diagnosis hence losing the transmissibility. Both are key quantities that depict an epidemic and are essential to estimate the basic/controlled reproductive number, \u0734\u0b34 /\u0734\u0bd6 . Among 139 chains of transmission identified from 5405 confirmed cases outside Hubei as recorded by February 2, 2020, none of them have their dates of infection acquired, but 71 of them have their dates of symptoms onset available.",
+            "Hence, the corresponding serial intervals were approximated by the differences in dates of symptom onset rather than the actual dates of infection, see Figure 1.",
+            "We found that there were no significant demographical differences between the subset of cases used to estimate serial interval and infectious period and the cases in the full dataset. Therefore, the inference made on serial interval and infectious period based on the corresponding subsets should be able to represent the full dataset.",
+            "The reproduction number \u0734\u0b34is defined as the (average) number of new infections generated by one infected individual during the entire infectious period in a fully susceptible population.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] It can be also understood as the average number of infections caused by a typical individual during the early stage of an outbreak when nearly all individuals in the population are susceptible. The basic reproduction number reflects the ability of an infection spreading under no control. When the size of susceptible population is limited, the quantity, effective reproduction number \u0734\u0bd8 , is used instead of \u0734\u0b34 . Similarly, the quantity, controlled reproduction number \u0734\u0bd6, should be used to describe the ability of disease spreading when interventions (such as quarantine, isolation, or traffic control) are taking place. Hence a good measure of any intervention is to reduce \u0734\u0bd6. Note that the disease will decline and eventually die out if \u0734\u0bd6 \u0d51 1."
+        ],
+        "5. Conclusion": [
+            "Despite the continuous increase in new confirmed cases on a daily basis, the estimated controlled reproduction numbers \u0734\u0bd6 produced by all three methods in all different regions are significantly smaller compared with the basic reproduction numbers \u0734\u0b34. As discussed in",
+            "Section 4, the real-time controlled reproduction number may be even lower than the estimated values in Figure 3. Nonetheless, additional effort is needed to further reduce \u0734\u0bd6 below one in",
+            "Hubei Province."
+        ],
+        "6. Discussion": [
+            "The dataset used in this study is based on the confirmed cases reported by NHC China. However, during the period of data collection, the official guidelines for diagnosis and treatment were updated four times. The criteria of confirmation have evolved from the original \u201cwhole genome sequencing of the respiratory excretion\u201d to \u201cpositive viral nucleic acid results by the RT-PCR of the respiratory excretion or viral gene sequence\u201d, and, most currently, the inclusion of positive nucleic acid results of the blood sample. In the meanwhile, the confirmation process is simplified by removing the accreditation process by the national expert committee for confirmed cases. The fourth edition granted the accrediting authority to the municipalities.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] In addition, the medical resources in Hubei Province especially in Wuhan have been enhanced remarkably. All of these changes might result in a temporary surge of confirmed cases and lead to an overestimation of \u0734\u0bd6, especially in Hubei Province.",
+            "Furthermore, the current containment measures mainly aim to cut the transmission from human to human via droplets of respiratory. However, other transmission pathways, including fecal-oral transmission and aerosol transmission, could not yet be excluded based on current evidence. If other transmission mechanisms do exist, the \u0734\u0bd6 values would remain high in the future unless further measures would intersect these transmission pathways."
+        ],
+        "Acknowledgments": [
+            "We thank Taojun Hu, Xueqing Liu and Yuying Li from School of Public Health, Peking University for assistance of data collection.",
+            "1. Huang, C., Wang, Y., Li, X., Ren, L., Zhao, J., Hu, Y., ... & Cheng, Z. (2020). Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. The Lancet. 2. Wang, C., Horby, P. W., Hayden, F. G., & Gao, G. F. (2020). A novel coronavirus outbreak of global health concern. The Lancet. 3. Lipsitch M, Cohen T, Cooper B, et al Transmission dynamics and control of severe acute respiratory syndrome. Science 2003; 300: 1966\u201370. 4. Anderson, R. M., Anderson, B., & May, R. M. (1992). Infectious diseases of humans: dynamics and control. Oxford university press.",
+            "5. Nikbakht, R., Baneshi, M. R., Bahrampour, A., & Hosseinnataj, A. (2019). Comparison of methods to Estimate Basic Reproduction Number (R0) of influenza, Using Canada 2009 and 2017-18 A (H1N1) Data. Journal of research in medical sciences: the official journal of Isfahan University of Medical Sciences, 24. 6. Forsberg White, L., & Pagano, M. (2008). A likelihood based method for real time estimation of the serial interval and reproductive number of an epidemic. Statistics in medicine, 27(16), 2999-3016. 7. Wallinga, J., & Lipsitch, M. (2007). How generation intervals shape the relationship between growth rates and reproductive numbers. Proceedings of the Royal Society B: Biological Sciences, 274(1609), 599-604. 8. King Aaron A., Domenech de Cell\u00e8s Matthieu, Magpantay Felicia M. G. and Rohani Pejman. (2015). Avoidable errors in the modelling of outbreaks of emerging pathogens, with special reference to Ebola. Proc. R. Soc. B. 282 9. Ionides, E. L., Nguyen, D., Atchade, Y., Stoev, S. & King, A. A. (2015). Inference for dynamic and latent variable models via iterated, perturbed Bayes maps, Proceedings of the National Academy of Sciences of the U.S.A. 112, 719\u2013724. 10. King, A. A., Ionides, E. L., Breto, C. M., Ellner, S., Kendall, B., Wearing, H., Ferrari, M. J., Lavine, M. & Reuman, D. C. (2010). pomp: Statistical inference for partially observed Markov processes (R package). 11. National Health Commission of the People's Republic of China, http://www.nhc.gov.cn/xcs/zhengcwj/list_gzbd.shtml"
+        ],
+        "Tables": [
+            "Table 1: numerical summary of serial intervals.",
+            "Table 2: numerical summary of infectious period."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 44730,
+            "context": "Background: The 2019-nCoV outbreak in Wuhan, China has attracted world-wide attention. <mark class=\"stats\">As of February 11, 2020, a total of 44730 cases of novel coronavirus-infected pneumonia associated with COVID-19 were confirmed by the National Health Commission of China</mark>. Methods: Three approaches, namely Poisson likelihood-based method (ML), exponential growth rate-based method (EGR) and stochastic Susceptible-Infected-Removed dynamic model-based method (SIR), were implemented to estimate the basic and controlled reproduction numbers"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 5405,
+            "context": "Methods: Three approaches, namely Poisson likelihood-based method (ML), exponential growth rate-based method (EGR) and stochastic Susceptible-Infected-Removed dynamic model-based method (SIR), were implemented to estimate the basic and controlled reproduction numbers. <mark class=\"stats\">Results: A total of 71 chains of transmission together with dates of symptoms onset and 67 dates of infections were identified among 5405 confirmed cases outside Hubei as reported by February 2, 2020</mark>. Based on this information, we find the serial interval having an average of 4.41 days with a standard deviation of 3.17 days and the infectious period having an average of 10.91 days with a standard deviation of 3.95 days"
+        },
+        {
+            "participant": "cases",
+            "number": 4,
+            "context": "Sustained efforts are needed to further reduce the Rc to below one in order to end the current epidemic. <mark class=\"stats\">On December 29, 2019, Wuhan, the capital city of Hubei Province in Central China, has reported four cases of pneumonia with unknown etiology</mark>. Since then, the outbreak has rapidly worsened over a short span of time and has received considerable global attention"
+        },
+        {
+            "participant": "cases",
+            "number": 44730,
+            "context": "On January 30, WHO announced the listing of this novel coronavirus-infected pneumonia (NCP) as a \u201cpublic health emergency of international concern\u201d. <mark class=\"stats\">As of February 11, 2020, the National Health Commission (NHC) of China had confirmed a total of 44730 cases of novel coronavirus-infected pneumonia (NCP) associated with the COVID-19 in Mainland China, including 1114 fatalities and 4771 recoveries</mark>. Since January 19, 2020, strict containment measures, including travel restrictions, contact tracing, entry or exit screening, non-hospital isolation, quarantine, awareness campaigns and others, have been implemented by the Wuhan Government and quickly adopted by other cities within China with the aim to minimize virus transmission via human-to-human contact"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 5405,
+            "context": "Both are key quantities that depict an epidemic and are essential to estimate the basic/controlled reproductive number, \u0734\u0b34 /\u0734\u0bd6. <mark class=\"stats\">Among 139 chains of transmission identified from 5405 confirmed cases outside Hubei as recorded by February 2, 2020, none of them have their dates of infection acquired, but 71 of them have their dates of symptoms onset available</mark>. Hence, the corresponding serial intervals were approximated by the differences in dates of symptom onset rather than the actual dates of infection, see Figure 1"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The maximum likelihood method is used to estimate model parameters where the likelihood is obtained by sequential Monte Carlo method, and parameters are estimated using the</mark>",
+                "tests": [
+                    {
+                        "test": "maximum likelihood method"
+                    },
+                    {
+                        "test": "Monte Carlo method"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "exponential growth rate-based method",
+        "nucleic acid result",
+        "coronavirus",
+        "gene sequence",
+        "pneumonia",
+        "hubei province",
+        "novel coronavirus-infected pneumonia",
+        "ordinary differential equation",
+        "current epidemic",
+        "sustained effort",
+        "Susceptible-Infected-Removed dynamic model-based method",
+        "COVID-19",
+        "novel coronavirus",
+        "standard deviation",
+        "reproduction number",
+        "world wide attention",
+        "ncov outbreak",
+        "National Health Commission"
+    ],
+    "keyword_relevance": {
+        "reproduction number": 0.3,
+        "exponential growth rate-based method": 0.0875,
+        "coronavirus": 0.0875,
+        "novel coronavirus-infected pneumonia": 0.0875,
+        "novel coronavirus": 0.075,
+        "Susceptible-Infected-Removed dynamic model-based method": 0.0625,
+        "COVID-19": 0.0625,
+        "National Health Commission": 0.0625,
+        "pneumonia": 0.05,
+        "standard deviation": 0.0375,
+        "nucleic acid result": 0.025,
+        "gene sequence": 0.025,
+        "ordinary differential equation": 0.025,
+        "current epidemic": 0.0125,
+        "hubei province": 0.0,
+        "sustained effort": 0.0,
+        "world wide attention": 0.0,
+        "ncov outbreak": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> On December 29, 2019, Wuhan, the capital city of Hubei Province in Central China, has reported four cases of pneumonia with unknown etiology.",
+        "As of February 11, 2020, the National Health Commission (NHC) of China had confirmed a total of 44730 cases of novel coronavirus-infected pneumonia (NCP) associated with the COVID-19 in Mainland China, including 1114 fatalities and 4771 recoveries.",
+        "As of February 11, 2020, a total of 44730 cases of novel coronavirus-infected pneumonia associated with COVID-19 were confirmed by the National Health Commission of China",
+        "<h2 style=\"display: inline\">Methods:</h2> Namely Poisson likelihood-based method (ML), exponential growth rate-based method (EGR) and stochastic Susceptible-Infected-Removed dynamic model-based method (SIR), were implemented to estimate the basic and controlled reproduction numbers.",
+        "Let \u0730\u0be7 be the number of reported new confirmed cases on day \u202b\u0750\u202c.",
+        "Suppose that the serial interval has a maximum of \u0747 days and the number of new cases generated by an infected individual is assumed to follow a Poisson distribution with parameter \u0734\u0b34.6.",
+        "<h2 style=\"display: inline\">Results:</h2> A total of 71 chains of transmission together with dates of symptoms onset and 67 dates of infections were identified among 5405 confirmed cases outside Hubei as reported by February 2, 2020",
+        "Based on this information, the authors find the serial interval having an average of 4.41 days with a standard deviation of 3.17 days and the infectious period having an average of 10.91 days with a standard deviation of 3.95 days.",
+        "The quantities \u0734\u0b34 and \u0734\u0bd6 are estimated based on collected data in two separate periods, i.e., from January 21 to January 28, and from January 29 to February 5 respectively.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The dataset used in this study is based on the confirmed cases reported by NHC China.",
+        "The fourth edition granted the accrediting authority to the municipalities.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] In addition, the medical resources in Hubei Province especially in Wuhan have been enhanced remarkably.",
+        "All of these changes might result in a temporary surge of confirmed cases and lead to an overestimation of \u0734\u0bd6, especially in Hubei Province.The controlled reproduction number is declining.",
+        "Sustained efforts are needed to further reduce the \u0734\u0bd6 to below one in order to end the current epidemic"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "On December 29, 2019, Wuhan, the capital city of Hubei Province in Central China, has reported four cases of pneumonia with unknown etiology.",
+            "As of February 11, 2020, the National Health Commission (NHC) of China had confirmed a total of 44730 cases of novel coronavirus-infected pneumonia (NCP) associated with the COVID-19 in Mainland China, including 1114 fatalities and 4771 recoveries.",
+            "As of February 11, 2020, a total of 44730 cases of novel coronavirus-infected pneumonia associated with COVID-19 were confirmed by the National Health Commission of China"
+        ],
+        "Methods": [
+            "Namely Poisson likelihood-based method (ML), exponential growth rate-based method (EGR) and stochastic Susceptible-Infected-Removed dynamic model-based method (SIR), were implemented to estimate the basic and controlled reproduction numbers.",
+            "Let \u0730\u0be7 be the number of reported new confirmed cases on day \u202b\u0750\u202c.",
+            "Suppose that the serial interval has a maximum of \u0747 days and the number of new cases generated by an infected individual is assumed to follow a Poisson distribution with parameter \u0734\u0b34.6."
+        ],
+        "Results": [
+            "A total of 71 chains of transmission together with dates of symptoms onset and 67 dates of infections were identified among 5405 confirmed cases outside Hubei as reported by February 2, 2020",
+            "Based on this information, the authors find the serial interval having an average of 4.41 days with a standard deviation of 3.17 days and the infectious period having an average of 10.91 days with a standard deviation of 3.95 days.",
+            "The quantities \u0734\u0b34 and \u0734\u0bd6 are estimated based on collected data in two separate periods, i.e., from January 21 to January 28, and from January 29 to February 5 respectively."
+        ],
+        "Conclusion": [
+            "The dataset used in this study is based on the confirmed cases reported by NHC China.",
+            "The fourth edition granted the accrediting authority to the municipalities.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] In addition, the medical resources in Hubei Province especially in Wuhan have been enhanced remarkably.",
+            "All of these changes might result in a temporary surge of confirmed cases and lead to an overestimation of \u0734\u0bd6, especially in Hubei Province.The controlled reproduction number is declining.",
+            "Sustained efforts are needed to further reduce the \u0734\u0bd6 to below one in order to end the current epidemic"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "10",
+            "alt_id": "King_et+al_2010_a",
+            "entry": "10. King, A. A., Ionides, E. L., Breto, C. M., Ellner, S., Kendall, B., Wearing, H., Ferrari, M. J., Lavine, M. & Reuman, D. C. (2010). pomp: Statistical inference for partially observed Markov processes (R package).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=King%2C%20A.A.%20Ionides%2C%20E.L.%20Breto%2C%20C.M.%20Ellner%2C%20S.%20pomp%3A%20Statistical%20inference%20for%20partially%20observed%20Markov%20processes%202010"
+        },
+        {
+            "id": "11",
+            "alt_id": "11._0000_a",
+            "entry": "11. National Health Commission of the People's Republic of China, http://www.nhc.gov.cn/xcs/zhengcwj/list_gzbd.shtml ",
+            "url": "http://www.nhc.gov.cn/xcs/zhengcwj/list_gzbd.shtml"
+        }
+    ],
+    "facts": [
+        "China has attracted world-wide attention",
+        "67 dates of infections were identified among 5405 confirmed cases outside Hubei",
+        "the serial interval having an average of 4.41 days with a standard deviation",
+        "the infectious period having an average of 10.91 days with a standard deviation",
+        "Since the outbreak has rapidly worsened over a short span of time",
+        "the pathogen of the current outbreak was identified as a novel coronavirus",
+        "its gene sequence was quickly submitted to WHO.[1,2",
+        "the National Health Commission of China had confirmed a total of 44730 cases",
+        "coronavirus-infected pneumonia associated with the COVID-19 in Mainland China",
+        "Similar measures were previously employed in China",
+        "The basic reproduction number can be estimated through a variety of models.[5",
+        "confirmed cases on day \u202b\u0750\u202c. Suppose that the serial interval has a maximum of \u0747 days",
+        "the number of new cases generated by an infected individual is assumed to follow a",
+        "which can be estimated from the empirical distribution of serial interval",
+        "the likelihood function can be reduced into a thinned Poisson \u202b\u0753\u202c\u123b \u0bcd \u0741 \u07e4 \u0b3f\u0c13\u0cdf \u0bc7\u0cdf \u0be7 \u0730\u0be7",
+        "a flatter rate of increment starting on January 29",
+        "the quantities \u0734\u0b34 and \u0734\u0bd6 are estimated based on collected data in two separate periods",
+        "The dataset used in this study is based on the confirmed cases reported by",
+        "The criteria of confirmation have evolved from the original \u201cwhole genome sequencing of the respiratory excretion",
+        "All of these changes might result in a temporary surge of confirmed cases",
+        "Suppose that the serial interval has a maximum of \u0747 days",
+        "The quantities \u0734\u0b34 and \u0734\u0bd6 are estimated based on collected data in two separate periods",
+        "that the estimated controlled reproduction numbers \u0734\u0bd6 in all different regions are significantly smaller compared with the basic reproduction numbers"
+    ],
+    "claims": [
+        "Based on this information, we find the serial interval having an average of 4.41 days with a standard deviation of 3.17 days and the infectious period having an average of 10.91 days with a standard deviation of 3.95 days",
+        "We have found that the estimated controlled reproduction numbers \u0734\u0bd6 in all different regions are significantly smaller compared with the basic reproduction numbers \u0734\u0b34, but \u0734\u0bd6 is still greater than one in Hubei",
+        "We found that there were no significant demographical differences between the subset of cases used to estimate serial interval and infectious period and the cases in the full dataset"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "On January 7, 2020, the pathogen of the current outbreak was identified as a novel coronavirus (2019-nCoV), and its gene sequence was quickly submitted to WHO (The coronavirus was renamed COVID-19 by WHO on February 12).[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "We have found that the estimated controlled reproduction numbers \u0734\u0bd6 in all different regions are significantly smaller compared with the basic reproduction numbers \u0734\u0b34, but \u0734\u0bd6 is still greater than one in Hubei",
+        "The quantities \u0734\u0b34 and \u0734\u0bd6 are estimated based on collected data in two separate periods, i.e., from January 21 to January 28, and from January 29 to February 5 respectively",
+        "The dataset used in this study is based on the confirmed cases reported by National Health Commission China",
+        "The criteria of confirmation have evolved from the original \u201cwhole genome sequencing of the respiratory excretion\u201d to \u201cpositive viral nucleic acid results by the RT-PCR of the respiratory excretion or viral gene sequence\u201d, and, most currently, the inclusion of positive nucleic acid results of the blood sample",
+        "The medical resources in Hubei Province especially in Wuhan have been enhanced remarkably. All of these changes might result in a temporary surge of confirmed cases and lead to an overestimation of \u0734\u0bd6, especially in Hubei Province"
+    ],
+    "top_statements": [
+        "On December 29, 2019, Wuhan, the capital city of Hubei Province in Central China, has reported four cases of pneumonia with unknown etiology",
+        "On January 7, 2020, the pathogen of the current outbreak was identified as a novel coronavirus (2019-nCoV), and its gene sequence was quickly submitted to WHO (The coronavirus was renamed COVID-19 by WHO on February 12).[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "We have found that the estimated controlled reproduction numbers \u0734\u0bd6 in all different regions are significantly smaller compared with the basic reproduction numbers \u0734\u0b34, but \u0734\u0bd6 is still greater than one in Hubei",
+        "The quantities \u0734\u0b34 and \u0734\u0bd6 are estimated based on collected data in two separate periods, i.e., from January 21 to January 28, and from January 29 to February 5 respectively",
+        "The dataset used in this study is based on the confirmed cases reported by National Health Commission China",
+        "The criteria of confirmation have evolved from the original \u201cwhole genome sequencing of the respiratory excretion\u201d to \u201cpositive viral nucleic acid results by the RT-PCR of the respiratory excretion or viral gene sequence\u201d, and, most currently, the inclusion of positive nucleic acid results of the blood sample"
+    ],
+    "headline": "On January 7, 2020, the pathogen of the current outbreak was identified as a novel coronavirus, and its gene sequence was quickly submitted to WHO.1,2",
+    "contexts": [],
+    "abbreviations": {
+        "EGR": "exponential growth rate-based method",
+        "SIR": "Susceptible-Infected-Removed dynamic model-based method",
+        "NCP": "novel coronavirus-infected pneumonia",
+        "NHC": "National Health Commission",
+        "ODE": "ordinary differential equation"
+    }
+}

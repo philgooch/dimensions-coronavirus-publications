@@ -1,0 +1,511 @@
+{
+    "filename": "21656499.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1266082,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.26434/chemrxiv.11831163.v1",
+            "url": "https://chemrxiv.org/articles/D3Targets-2019-nCoV_A_Web_Server_to_Identify_Potential_Targets_for_Antivirals_Against_2019-nCoV/11831163/files/21656499.pdf"
+        },
+        "author": "Yulong Shi, Xinben Zhang, Kaijie Mu, Cheng Peng, Zhengdan Zhu, Xiaoyu Wang, Yanqing Yang, Zhijian Xu, weiliang zhu",
+        "date": 2020,
+        "title": "D3Targets-2019-nCoV: A Web Server to Identify Potential Targets for Antivirals Against 2019-nCoV",
+        "affiliations": [
+            "CAS Key Laboratory of Receptor Research; Drug Discovery and Design Center, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China",
+            "School of Pharmacy, University of Chinese Academy of Sciences, No.19A Yuquan Road, Beijing, 100049, PR China",
+            "Nano Science and Technology Institute, University of Science and Technology of China, Suzhou, Jiangsu, 215123, China."
+        ],
+        "abstract": "&lt;p&gt;2019-nCoV has caused more than 560 deaths as of 6 February 2020 worldwide, mostly in China. Although there are no effective drugs approved, many clinical trials are incoming or ongoing in China which utilize traditional chinese medicine or modern medicine. Moreover, many groups are working on the cytopathic effect assay to fight against 2019-nCoV, which will result in compounds with good activity yet unknown targets. Identifying potential drug targets will be of great importance to understand the underlying mechanism of how the drug works. Here, we &lt;a&gt;&lt;/a&gt;&lt;a&gt;compiled&lt;/a&gt; the 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets. Each submitted compound will be docked to these binding pockets by the docking software smina and the docking results will be presented in ascending order of compound-target interaction energy (kcal/mol). We hope the computational tool will shed some light on the potential drug target for the identified antivirals. D3Targets-2019-nCoV is available free of charge at https://www.d3pharma.com/D3Targets-2019-nCoV/D3Docking/index.php.&lt;/p&gt;",
+        "references": "@article{zhu2020a,\n  author = {Zhu, N. and Zhang, D. and Wang, W. and Li, X. and Yang, B. and Song, J. and Zhao, X. and Huang, B. and Shi, W. and Lu, R. and Niu, P. and Zhan, F. and Ma, X. and Wang, D. and Xu, W. and Wu, G. and Gao, G.F. and Tan, W.},\n  title = {A Novel Coronavirus from Patients with Pneumonia in China, 2019},\n  journal = {The New England journal of medicine},\n  date = {2020},\n  language = {}\n}\n@article{zhou2020a,\n  author = {Zhou, P. and Yang, X.-L. and Wang, X.-G. and Hu, B. and Zhang, L. and Zhang, W. and Si, H.-R. and Zhu, Y. and Li, B. and Huang, C.-L. and Chen, H.-D. and Chen, J. and Luo, Y. and Guo, H. and Jiang, R.-D. and Liu, M.-Q. and Chen, Y. and Shen, X.-R. and Wang, X. and Zheng, X.S. and Zhao, K. and Chen, Q.-J. and Deng, F. and Liu, L.-L. and Yan, B. and Zhan, F.-X. and Wang, Y.-Y. and Xiao, G.-F. and Shi, Z.-L.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  date = {2020},\n  language = {}\n}\n@article{wu2020a,\n  author = {Wu, F. and Zhao, S. and Yu, B. and Chen, Y.-M. and Wang, W. and Song, Z.-G. and Hu, Y. and Tao, Z.-W. and Tian, J.-H. and Pei, Y.-Y. and Yuan, M.-L. and Zhang, Y.-L. and Dai, F.-H. and Liu, Y. and Wang, Q.-M. and Zheng, J.-J. and Xu, L. and Holmes, E.C. and Zhang, Y.-Z.},\n  title = {A new coronavirus associated with human respiratory disease in China},\n  journal = {Nature},\n  date = {2020},\n  language = {}\n}\n@article{holshue2019a,\n  author = {},\n  journal = {I. T., First Case of},\n  date = {2019},\n  title = {Novel Coronavirus in the United States},\n  editor = {Med, N.Engl J.},\n  language = {}\n}\n@misc{burley2018a,\n  author = {Burley, S.K. and Berman, H.M. and Bhikadiya, C. and Bi, C. and Chen, L. and Di Costanzo, L. and Christie, C. and Dalenberg, K. and Duarte, J.M. and Dutta, S. and Feng, Z. and Ghosh, S. and Goodsell, D.S. and Green, R.K. and Guranovi\u0107, V. and Guzenko, D. and Hudson, B.P. and Kalro, T. and Liang, Y. and Lowe, R. and Namkoong, H. and Peisach, E. and Periskova, I. and Prli\u0107, A. and Randle, C. and Rose, A. and Rose, P. and Sala, R. and Sekharan, M. and Shao, C. and Tan, L. and Tao, Y.-P. and Valasatava, Y. and Voigt, M. and Westbrook, J. and Woo, J. and Yang, H. and Young, J. and Zhuravleva, M. and Zardecki, C.},\n  title = {RCSB Protein Data Bank: biological macromolecular structures enabling research and education in fundamental biology, biomedicine, biotechnology and energy. Nucleic Acids Res},\n  date = {2018},\n  volume = {47},\n  pages = {464\u2013474},\n  number = {1},\n  language = {}\n}\n@article{waterhouse2018a,\n  author = {Waterhouse, A. and Bertoni, M. and Bienert, S. and Studer, G. and Tauriello, G. and Gumienny, R. and Heer, F.T. and de Beer, T.A.P. and Rempfer, C. and Bordoli, L. and Lepore, R. and Schwede, T.},\n  title = {SWISS-MODEL: homology modelling of protein structures and complexes},\n  journal = {Nucleic Acids Res},\n  date = {2018},\n  volume = {46},\n  pages = {296\u2013303},\n  number = {1},\n  language = {}\n}\n@article{ofarrell2003a,\n  author = {O'Farrell, D. and Trowbridge, R. and Rowlands, D. and Jager, J.},\n  title = {Substrate complexes of hepatitis C virus RNA polymerase (HC-J4): structural evidence for nucleotide import and de-novo initiation},\n  journal = {J. Mol. Biol},\n  date = {2003},\n  volume = {326},\n  pages = {1025\u201335},\n  number = {4},\n  language = {}\n}\n@article{hoffmann2019a,\n  author = {Hoffmann, M. and Kleine-Weber, H. and Krueger, N. and Mueller, M.A. and Drosten, C. and Poehlmann, S.},\n  title = {The novel coronavirus 2019},\n  date = {2019},\n  journal = {bioRxiv},\n  volume = {2020},\n  source = {uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells},\n  number = {2020},\n  language = {}\n}\n@book{kim-a,\n  author = {Kim, D.E. and Chivian, D. and Baker, D.},\n  title = {Protein structure prediction and analysis using the Robetta server. Nucleic Acids Res},\n  publisher = {2004, 32 (Web Server issue},\n  pages = {526\u201331},\n  language = {}\n}\n@article{chen2019a,\n  author = {Chen, Z. and Zhang, X. and Peng, C. and Wang, J. and Xu, Z. and Chen, K. and Shi, J. and Zhu, W.},\n  title = {D3Pockets: A Method and Web Server for Systematic Analysis of Protein Pocket Dynamics},\n  journal = {J. Chem. Inf. Model},\n  date = {2019},\n  volume = {59},\n  pages = {3353\u20133358},\n  number = {8},\n  language = {}\n}\n@article{wang2020a,\n  author = {Wang, J. and Peng, C. and Yu, Y. and Chen, Z. and Xu, Z. and Cai, T. and Shao, Q. and Shi, J. and Zhu, W.},\n  title = {Exploring Conformational Change of Adenylate Kinase by Replica Exchange Molecular Dynamic Simulation},\n  journal = {Biophys. J},\n  date = {2020},\n  language = {}\n}\n@incollection{aliev2014a,\n  author = {Aliev, A.E. and Kulke, M. and Khaneja, H.S. and Chudasama, V. and Sheppard, T.D. and Lanigan, R.M.},\n  title = {Motional timescale predictions by molecular dynamics simulations: case study using proline and hydroxyproline sidechain dynamics},\n  source = {Proteins},\n  date = {2014},\n  volume = {82},\n  pages = {195\u2013215},\n  number = {2},\n  language = {}\n}\n@article{hess1997a,\n  author = {Hess, B. and Bekker, H. and Berendsen, H.J.C. and Fraaije, J.G.E.M.},\n  title = {LINCS: A linear constraint solver for molecular simulations},\n  journal = {J. Comput. Chem},\n  date = {1997},\n  volume = {18},\n  pages = {14631472},\n  number = {12},\n  language = {}\n}\n@article{darden1993a,\n  author = {Darden, T. and York, D. and Pedersen, L.},\n  title = {Particle mesh Ewald: An N\u22c5 log (N) method for Ewald sums in large systems},\n  journal = {J. Chem. Phys},\n  date = {1993},\n  volume = {98},\n  pages = {10089},\n  language = {}\n}\n@article{dolinsky2004a,\n  author = {Dolinsky, T.J. and Nielsen, J.E. and McCammon, J.A. and Baker, N.A.},\n  title = {PDB2PQR: an automated pipeline for the setup of Poisson\u2013Boltzmann electrostatics calculations},\n  journal = {Nucleic Acids Res},\n  date = {2004},\n  volume = {32},\n  pages = {665\u2013667},\n  number = {2},\n  language = {}\n}\n@article{morris2009a,\n  author = {Morris, G.M. and Huey, R. and Lindstrom, W. and Sanner, M.F. and Belew, R.K. and Goodsell, D.S. and Olson, A.J.},\n  title = {AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility},\n  journal = {J. Comput. Chem},\n  date = {2009},\n  volume = {30},\n  pages = {2785\u20132791},\n  number = {16},\n  language = {}\n}\n@article{koes2013a,\n  author = {Koes, D.R. and Baumgartner, M.P. and Camacho, C.J.},\n  title = {Lessons Learned in Empirical Scoring with smina from the CSAR 2011 Benchmarking Exercise},\n  journal = {J. Chem. Inf. Model},\n  date = {2013},\n  volume = {53},\n  pages = {1893\u20131904},\n  number = {8},\n  language = {}\n}\n@article{trott2010a,\n  author = {Trott, O. and Olson, A.J.},\n  title = {AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading},\n  journal = {J. Comput. Chem},\n  date = {2010},\n  volume = {31},\n  pages = {455\u2013461},\n  number = {2},\n  language = {}\n}\n@misc{xu-a,\n  author = {Xu, Z. and Peng, C. and Shi, Y. and Zhu, Z. and Mu, K. and Wang, X. and Zhu, W.},\n  title = {Nelfinavir was predicted to be a potential inhibitor of 2019-nCoV main protease by an integrative approach combining homology modelling, molecular docking and binding free energy calculation. bioRxiv 2020, 2020.01.27.921627},\n  language = {}\n}\n@misc{schrodinger2019a,\n  author = {Schrodinger, L.L.C.},\n  title = {The PyMOL Molecular Graphics System, Version 2.4},\n  date = {2019},\n  language = {}\n}\n@article{oboyle2011a,\n  author = {O'Boyle, N.M. and Banck, M. and James, C.A. and Morley, C. and Vandermeersch, T. and Hutchison, G.R.},\n  title = {Open Babel: An open chemical toolbox},\n  journal = {J. Cheminform},\n  date = {2011},\n  volume = {3},\n  pages = {33},\n  number = {1},\n  language = {}\n}\n@article{agostini2018a,\n  author = {Agostini, M.L. and Andres, E.L. and Sims, A.C. and Graham, R.L. and Sheahan, T.P. and Lu, X. and Smith, E.C. and Case, J.B. and Feng, J.Y. and Jordan, R. and Ray, A.S. and Cihlar, T. and Siegel, D. and Mackman, R.L. and Clarke, M.O. and Baric, R.S. and Denison, M.R.},\n  title = {Coronavirus Susceptibility to the Antiviral Remdesivir (GS-5734) Is Mediated by the Viral Polymerase and the Proofreading Exoribonuclease},\n  journal = {mBio},\n  date = {2018},\n  volume = {9},\n  pages = {23},\n  unmatched-author = {Wang, M.; Cao, R.; Zhang, L.; Yang, X.; Liu, J.; Xu, M.; Shi, Z.; Hu, Z.; Zhong, W.; Xiao, G.,},\n  source = {Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus},\n  number = {2},\n  language = {}\n}\n@article{warren2016a,\n  author = {Warren, T.K. and Jordan, R. and Lo, M.K. and Ray, A.S. and Mackman, R.L. and Soloveva, V. and Siegel, D. and Perron, M. and Bannister, R. and Hui, H.C. and Larson, N. and Strickley, R. and Wells, J. and Stuthman, K.S. and Van Tongeren, S.A. and Garza, N.L. and Donnelly, G. and Shurtleff, A.C. and Retterer, C.J. and Gharaibeh, D. and Zamani, R. and Kenny, T. and Eaton, B.P. and Grimes, E. and Welch, L.S. and Gomba, L. and Wilhelmsen, C.L. and Nichols, D.K. and Nuss, J.E. and Nagle, E.R. and Kugelman, J.R. and Palacios, G. and Doerffler, E. and Neville, S. and Carra, E. and Clarke, M.O. and Zhang, L. and Lew, W. and Ross, B. and Wang, Q. and Chun, K. and Wolfe, L. and Babusis, D. and Park, Y. and Stray, K.M. and Trancheva, I. and Feng, J.Y. and Barauskas, O. and Xu, Y. and Wong, P. and Braun, M.R. and Flint, M. and McMullan, L.K. and Chen, S.-S. and Fearns, R. and Swaminathan, S. and Mayers, D.L. and Spiropoulou, C.F. and Lee, W.A. and Nichol, S.T. and Cihlar, T. and Bavari, S.},\n  title = {Therapeutic efficacy of the small molecule GS-5734 against Ebola virus in rhesus monkeys},\n  journal = {Nature},\n  date = {2016},\n  volume = {531},\n  pages = {381\u2013385},\n  number = {7594},\n  language = {}\n}\n",
+        "links": [
+            "https://www.d3pharma.com/D3Pocket/index.php",
+            "http://www.chictr.org.cn/enIndex.aspx",
+            "https://www.d3pharma.com/D3Targets-2019-nCoV/D3Docking/index.php"
+        ],
+        "emails": [
+            "zjxu@simm.ac.cn",
+            "wlzhu@simm.ac.cn"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Zhu, N.\nAU  - Zhang, D.\nAU  - Wang, W.\nAU  - Li, X.\nAU  - Yang, B.\nAU  - Song, J.\nAU  - Zhao, X.\nAU  - Huang, B.\nAU  - Shi, W.\nAU  - Lu, R.\nAU  - Niu, P.\nAU  - Zhan, F.\nAU  - Ma, X.\nAU  - Wang, D.\nAU  - Xu, W.\nAU  - Wu, G.\nAU  - Gao, G.F.\nAU  - Tan, W.\nTI  - A Novel Coronavirus from Patients with Pneumonia in China, 2019\nT2  - The New England journal of medicine\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nAU  - Yang, X.-L.\nAU  - Wang, X.-G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nAU  - Si, H.-R.\nAU  - Zhu, Y.\nAU  - Li, B.\nAU  - Huang, C.-L.\nAU  - Chen, H.-D.\nAU  - Chen, J.\nAU  - Luo, Y.\nAU  - Guo, H.\nAU  - Jiang, R.-D.\nAU  - Liu, M.-Q.\nAU  - Chen, Y.\nAU  - Shen, X.-R.\nAU  - Wang, X.\nAU  - Zheng, X.S.\nAU  - Zhao, K.\nAU  - Chen, Q.-J.\nAU  - Deng, F.\nAU  - Liu, L.-L.\nAU  - Yan, B.\nAU  - Zhan, F.-X.\nAU  - Wang, Y.-Y.\nAU  - Xiao, G.-F.\nAU  - Shi, Z.-L.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, F.\nAU  - Zhao, S.\nAU  - Yu, B.\nAU  - Chen, Y.-M.\nAU  - Wang, W.\nAU  - Song, Z.-G.\nAU  - Hu, Y.\nAU  - Tao, Z.-W.\nAU  - Tian, J.-H.\nAU  - Pei, Y.-Y.\nAU  - Yuan, M.-L.\nAU  - Zhang, Y.-L.\nAU  - Dai, F.-H.\nAU  - Liu, Y.\nAU  - Wang, Q.-M.\nAU  - Zheng, J.-J.\nAU  - Xu, L.\nAU  - Holmes, E.C.\nAU  - Zhang, Y.-Z.\nTI  - A new coronavirus associated with human respiratory disease in China\nT2  - Nature\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nT2  - I. T., First Case of\nPY  - 2019\nDA  - 2019\nTI  - Novel Coronavirus in the United States\nA2  - Med, N.Engl J.\nLA  - \nER  - \n\nTY  - GEN\nAU  - Burley, S.K.\nAU  - Berman, H.M.\nAU  - Bhikadiya, C.\nAU  - Bi, C.\nAU  - Chen, L.\nAU  - Di Costanzo, L.\nAU  - Christie, C.\nAU  - Dalenberg, K.\nAU  - Duarte, J.M.\nAU  - Dutta, S.\nAU  - Feng, Z.\nAU  - Ghosh, S.\nAU  - Goodsell, D.S.\nAU  - Green, R.K.\nAU  - Guranovi\u0107, V.\nAU  - Guzenko, D.\nAU  - Hudson, B.P.\nAU  - Kalro, T.\nAU  - Liang, Y.\nAU  - Lowe, R.\nAU  - Namkoong, H.\nAU  - Peisach, E.\nAU  - Periskova, I.\nAU  - Prli\u0107, A.\nAU  - Randle, C.\nAU  - Rose, A.\nAU  - Rose, P.\nAU  - Sala, R.\nAU  - Sekharan, M.\nAU  - Shao, C.\nAU  - Tan, L.\nAU  - Tao, Y.-P.\nAU  - Valasatava, Y.\nAU  - Voigt, M.\nAU  - Westbrook, J.\nAU  - Woo, J.\nAU  - Yang, H.\nAU  - Young, J.\nAU  - Zhuravleva, M.\nAU  - Zardecki, C.\nTI  - RCSB Protein Data Bank: biological macromolecular structures enabling research and education in fundamental biology, biomedicine, biotechnology and energy. Nucleic Acids Res\nPY  - 2018\nDA  - 2018\nVL  - 47\nSP  - 464\nEP  - 474\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Waterhouse, A.\nAU  - Bertoni, M.\nAU  - Bienert, S.\nAU  - Studer, G.\nAU  - Tauriello, G.\nAU  - Gumienny, R.\nAU  - Heer, F.T.\nAU  - de Beer, T.A.P.\nAU  - Rempfer, C.\nAU  - Bordoli, L.\nAU  - Lepore, R.\nAU  - Schwede, T.\nTI  - SWISS-MODEL: homology modelling of protein structures and complexes\nT2  - Nucleic Acids Res\nPY  - 2018\nDA  - 2018\nVL  - 46\nSP  - 296\nEP  - 303\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - O'Farrell, D.\nAU  - Trowbridge, R.\nAU  - Rowlands, D.\nAU  - Jager, J.\nTI  - Substrate complexes of hepatitis C virus RNA polymerase (HC-J4): structural evidence for nucleotide import and de-novo initiation\nT2  - J. Mol. Biol\nPY  - 2003\nDA  - 2003\nVL  - 326\nSP  - 1025\nEP  - 35\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hoffmann, M.\nAU  - Kleine-Weber, H.\nAU  - Krueger, N.\nAU  - Mueller, M.A.\nAU  - Drosten, C.\nAU  - Poehlmann, S.\nTI  - The novel coronavirus 2019\nPY  - 2019\nDA  - 2019\nT2  - bioRxiv\nVL  - 2020\nT2  - uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells\nIS  - 2020\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Kim, D.E.\nAU  - Chivian, D.\nAU  - Baker, D.\nTI  - Protein structure prediction and analysis using the Robetta server. Nucleic Acids Res\nPB  - 2004, 32 (Web Server issue\nSP  - 526\nEP  - 31\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, Z.\nAU  - Zhang, X.\nAU  - Peng, C.\nAU  - Wang, J.\nAU  - Xu, Z.\nAU  - Chen, K.\nAU  - Shi, J.\nAU  - Zhu, W.\nTI  - D3Pockets: A Method and Web Server for Systematic Analysis of Protein Pocket Dynamics\nT2  - J. Chem. Inf. Model\nPY  - 2019\nDA  - 2019\nVL  - 59\nSP  - 3353\nEP  - 3358\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.\nAU  - Peng, C.\nAU  - Yu, Y.\nAU  - Chen, Z.\nAU  - Xu, Z.\nAU  - Cai, T.\nAU  - Shao, Q.\nAU  - Shi, J.\nAU  - Zhu, W.\nTI  - Exploring Conformational Change of Adenylate Kinase by Replica Exchange Molecular Dynamic Simulation\nT2  - Biophys. J\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Aliev, A.E.\nAU  - Kulke, M.\nAU  - Khaneja, H.S.\nAU  - Chudasama, V.\nAU  - Sheppard, T.D.\nAU  - Lanigan, R.M.\nTI  - Motional timescale predictions by molecular dynamics simulations: case study using proline and hydroxyproline sidechain dynamics\nT2  - Proteins\nPY  - 2014\nDA  - 2014\nVL  - 82\nSP  - 195\nEP  - 215\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hess, B.\nAU  - Bekker, H.\nAU  - Berendsen, H.J.C.\nAU  - Fraaije, J.G.E.M.\nTI  - LINCS: A linear constraint solver for molecular simulations\nT2  - J. Comput. Chem\nPY  - 1997\nDA  - 1997\nVL  - 18\nSP  - 14631472\nIS  - 12\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Darden, T.\nAU  - York, D.\nAU  - Pedersen, L.\nTI  - Particle mesh Ewald: An N\u22c5 log (N) method for Ewald sums in large systems\nT2  - J. Chem. Phys\nPY  - 1993\nDA  - 1993\nVL  - 98\nSP  - 10089\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Dolinsky, T.J.\nAU  - Nielsen, J.E.\nAU  - McCammon, J.A.\nAU  - Baker, N.A.\nTI  - PDB2PQR: an automated pipeline for the setup of Poisson\u2013Boltzmann electrostatics calculations\nT2  - Nucleic Acids Res\nPY  - 2004\nDA  - 2004\nVL  - 32\nSP  - 665\nEP  - 667\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Morris, G.M.\nAU  - Huey, R.\nAU  - Lindstrom, W.\nAU  - Sanner, M.F.\nAU  - Belew, R.K.\nAU  - Goodsell, D.S.\nAU  - Olson, A.J.\nTI  - AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility\nT2  - J. Comput. Chem\nPY  - 2009\nDA  - 2009\nVL  - 30\nSP  - 2785\nEP  - 2791\nIS  - 16\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Koes, D.R.\nAU  - Baumgartner, M.P.\nAU  - Camacho, C.J.\nTI  - Lessons Learned in Empirical Scoring with smina from the CSAR 2011 Benchmarking Exercise\nT2  - J. Chem. Inf. Model\nPY  - 2013\nDA  - 2013\nVL  - 53\nSP  - 1893\nEP  - 1904\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Trott, O.\nAU  - Olson, A.J.\nTI  - AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading\nT2  - J. Comput. Chem\nPY  - 2010\nDA  - 2010\nVL  - 31\nSP  - 455\nEP  - 461\nIS  - 2\nLA  - \nER  - \n\nTY  - GEN\nAU  - Xu, Z.\nAU  - Peng, C.\nAU  - Shi, Y.\nAU  - Zhu, Z.\nAU  - Mu, K.\nAU  - Wang, X.\nAU  - Zhu, W.\nTI  - Nelfinavir was predicted to be a potential inhibitor of 2019-nCoV main protease by an integrative approach combining homology modelling, molecular docking and binding free energy calculation. bioRxiv 2020, 2020.01.27.921627\nLA  - \nER  - \n\nTY  - GEN\nAU  - Schrodinger, L.L.C.\nTI  - The PyMOL Molecular Graphics System, Version 2.4\nPY  - 2019\nDA  - 2019\nLA  - \nER  - \n\nTY  - JOUR\nAU  - O'Boyle, N.M.\nAU  - Banck, M.\nAU  - James, C.A.\nAU  - Morley, C.\nAU  - Vandermeersch, T.\nAU  - Hutchison, G.R.\nTI  - Open Babel: An open chemical toolbox\nT2  - J. Cheminform\nPY  - 2011\nDA  - 2011\nVL  - 3\nSP  - 33\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Agostini, M.L.\nAU  - Andres, E.L.\nAU  - Sims, A.C.\nAU  - Graham, R.L.\nAU  - Sheahan, T.P.\nAU  - Lu, X.\nAU  - Smith, E.C.\nAU  - Case, J.B.\nAU  - Feng, J.Y.\nAU  - Jordan, R.\nAU  - Ray, A.S.\nAU  - Cihlar, T.\nAU  - Siegel, D.\nAU  - Mackman, R.L.\nAU  - Clarke, M.O.\nAU  - Baric, R.S.\nAU  - Denison, M.R.\nTI  - Coronavirus Susceptibility to the Antiviral Remdesivir (GS-5734) Is Mediated by the Viral Polymerase and the Proofreading Exoribonuclease\nT2  - mBio\nPY  - 2018\nDA  - 2018\nVL  - 9\nSP  - 23\nC1  - Wang, M.; Cao, R.; Zhang, L.; Yang, X.; Liu, J.; Xu, M.; Shi, Z.; Hu, Z.; Zhong, W.; Xiao, G.,\nT2  - Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Warren, T.K.\nAU  - Jordan, R.\nAU  - Lo, M.K.\nAU  - Ray, A.S.\nAU  - Mackman, R.L.\nAU  - Soloveva, V.\nAU  - Siegel, D.\nAU  - Perron, M.\nAU  - Bannister, R.\nAU  - Hui, H.C.\nAU  - Larson, N.\nAU  - Strickley, R.\nAU  - Wells, J.\nAU  - Stuthman, K.S.\nAU  - Van Tongeren, S.A.\nAU  - Garza, N.L.\nAU  - Donnelly, G.\nAU  - Shurtleff, A.C.\nAU  - Retterer, C.J.\nAU  - Gharaibeh, D.\nAU  - Zamani, R.\nAU  - Kenny, T.\nAU  - Eaton, B.P.\nAU  - Grimes, E.\nAU  - Welch, L.S.\nAU  - Gomba, L.\nAU  - Wilhelmsen, C.L.\nAU  - Nichols, D.K.\nAU  - Nuss, J.E.\nAU  - Nagle, E.R.\nAU  - Kugelman, J.R.\nAU  - Palacios, G.\nAU  - Doerffler, E.\nAU  - Neville, S.\nAU  - Carra, E.\nAU  - Clarke, M.O.\nAU  - Zhang, L.\nAU  - Lew, W.\nAU  - Ross, B.\nAU  - Wang, Q.\nAU  - Chun, K.\nAU  - Wolfe, L.\nAU  - Babusis, D.\nAU  - Park, Y.\nAU  - Stray, K.M.\nAU  - Trancheva, I.\nAU  - Feng, J.Y.\nAU  - Barauskas, O.\nAU  - Xu, Y.\nAU  - Wong, P.\nAU  - Braun, M.R.\nAU  - Flint, M.\nAU  - McMullan, L.K.\nAU  - Chen, S.-S.\nAU  - Fearns, R.\nAU  - Swaminathan, S.\nAU  - Mayers, D.L.\nAU  - Spiropoulou, C.F.\nAU  - Lee, W.A.\nAU  - Nichol, S.T.\nAU  - Cihlar, T.\nAU  - Bavari, S.\nTI  - Therapeutic efficacy of the small molecule GS-5734 against Ebola virus in rhesus monkeys\nT2  - Nature\nPY  - 2016\nDA  - 2016\nVL  - 531\nSP  - 381\nEP  - 385\nIS  - 7594\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "The coming or ongoing clinical studies against 2019-nCoV from Chinese"
+            },
+            {
+                "id": "2",
+                "caption": "Info on the D3Targets-2019-nCoV database"
+            },
+            {
+                "id": "3",
+                "caption": "Top 10 potential binding pockets and their docking scores for NTP"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Pocket stability in 2019-nCoV Mpro. The protein and the binding pockets are shown in PyMOL.[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]"
+            },
+            {
+                "id": "2",
+                "caption": "Pocket correlation in 2019-nCoV Mpro. 3.3 Input and output"
+            },
+            {
+                "id": "3",
+                "caption": "Graphical interface for input and output of D3Targets-2019-nCoV. 3.4 Case study. In order to explore the prediction power of D3Targets-2019-nCoV, remdesivir is used as an example, which is a RdRp inhibitor and is reported to be effective in inhibiting SARS-Cov and 2019-nCoV in vitro[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>, <a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]. It should be noted that remdesivir is a prodrug, and the active form is the transformed nucleoside triphosphate (NTP, Figure ).[<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>] Therefore, NTP is submitted to D3Targets-2019-nCoV for the target prediction"
+            },
+            {
+                "id": "4",
+                "caption": "Remdesivir is converted to its pharmacologically active NTP in human cells"
+            },
+            {
+                "id": "5",
+                "caption": "Binding mode of NTP to the RdRp from the docking simulation"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/a5fbf2f66b00c43bf77928a336155480.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/a5fbf2f66b00c43bf77928a336155480/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/a5fbf2f66b00c43bf77928a336155480/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/a5fbf2f66b00c43bf77928a336155480/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/a5fbf2f66b00c43bf77928a336155480/img-004.png"
+        ]
+    },
+    "sections": {
+        "methods": [
+            "2.1 Homology modelling. 21 severe acute respiratory syndrome-related coronavirus (SARS-CoV) 3D structures were downloaded from protein data bank[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] (PDB IDs: 5Y3E, 2XYR, 2H85, 5NFY, 6JYT, 6NUR, 1UW7, 1QZ8, 2AHM, 1YSY, 1Z1I, 2Z9J, 3E9S, 2HSX, 5X5B, 5X58, 5X29, 2MM4, 1YO4, 2OFZ, 2JIB) and served as templates to build the corresponding 2019-nCoV models in SWISS-MODEL server by \u201cuser template\u201d mode.[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]<br/><br/>Magnesium ions (Mg2+) are essential for the RNA-dependent RNA polymerase (RdRp). Therefore, for 2019-nCoV RdRp, we modelled two Mg2+ from the superimposition of the HCV RdRp (PDB ID: 1NB67) palm domain to 2019-nCoV RdRp palm domain.<br/><br/>Transmembrane protease serine 2 is a potential target against 2019-nCoV, with its inhibitor camostat mesylate blocking entry of 2019-nCoV into human cells.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] We model the protein by robetta.9<br/><br/>2.2 Experimental structures. Human ACE2 already has electron microscopy structure."
+        ],
+        "results": [
+            "<strong>Results and discussion</strong><br/><br/>3.1 Overview of the D3Targets-2019-nCoV database. The 2019-nCoV structurerelated proteins and other important proteins on the D3Targets-2019-nCoV database are summarized in Table 2, involving the protein name, number of pockets, pocket code with ligand, etc. The database contains a total of 20 proteins, including proteins in different oligomer states and open / close states.    Prote in    Num ber 1    Protein Name<br/><br/>Host translation inhibitor nsp[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]<br/><br/>Papain-like proteinase-Monomer    Protein ID<br/><br/>Number of Pockets a<br/><br/>Pocket Code with Ligand b    PDB ID c    Organism"
+        ],
+        "acknowledgments": [
+            "This work was supported by the National Key R&D Program of China (2016YFA0502301 & 2017YFB0202601)."
+        ],
+        "funding": [
+            "This work was supported by the National Key R&D Program of China (2016YFA0502301 & 2017YFB0202601)"
+        ],
+        "introduction": [
+            "2019-nCoV1-3 has caused more than 360 deaths as of 3 February 2020 worldwide, mostly in China. However, no drug has been approved to be effective, although there are some promising results. For example, intravenous treatment of remdesivir is very helpful to improve the clinical condition for the first confirmed patient of 2019-nCoV infection in the United States, although the safety and efficacy are still need to be tested in randomized controlled trials.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] In addition, there are many incoming or ongoing clinical studies in China (Table 1), probably from the experience to combat severe acute respiratory syndrome-related coronavirus (SARS-CoV). However, most of the targets are unknown. Moreover, many groups are working on the cytopathic effect assay to fight against 2019-nCoV, which will result in compounds with good activity yet unknown targets. Identifying potential drug targets will be of great importance to understand the underlying mechanism of how the drug works. Here, we constructed a docking web server, namely D3Targets-2019-nCoV, including the 3D structures of the",
+            "2019-nCoV proteins and the related human proteins from homology modelling or crystal experiments. Each submitted active compound will be docked to all the models and we hope that the docking results will shed some light on the potential target identification."
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "2019-nCoV has caused more than 560 deaths as of 6 February 2020 worldwide, mostly in China. Although there are no effective drugs approved, many clinical trials are incoming or ongoing in China which utilize traditional chinese medicine or modern medicine. Moreover, many groups are working on the cytopathic effect assay to fight against 2019-nCoV, which will result in compounds with good activity yet unknown targets. Identifying potential drug targets will be of great importance to understand the underlying mechanism of how the drug works. Here, we compiled the 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets. Each submitted compound will be docked to these binding pockets by the docking software smina and the docking results will be presented in ascending order of compound-target interaction energy (kcal/mol). We hope the computational tool will shed some light on the potential drug target for the identified antivirals. D3Targets2019-nCoV is available free of charge at https://www.d3pharma.com/D3Targets-2019nCoV/D3Docking/index.php."
+        ],
+        "1. Introduction": [
+            "2019-nCoV1-3 has caused more than 360 deaths as of 3 February 2020 worldwide, mostly in China. However, no drug has been approved to be effective, although there are some promising results. For example, intravenous treatment of remdesivir is very helpful to improve the clinical condition for the first confirmed patient of 2019-nCoV infection in the United States, although the safety and efficacy are still need to be tested in randomized controlled trials.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] In addition, there are many incoming or ongoing clinical studies in China (Table 1), probably from the experience to combat severe acute respiratory syndrome-related coronavirus (SARS-CoV). However, most of the targets are unknown. Moreover, many groups are working on the cytopathic effect assay to fight against 2019-nCoV, which will result in compounds with good activity yet unknown targets. Identifying potential drug targets will be of great importance to understand the underlying mechanism of how the drug works. Here, we constructed a docking web server, namely D3Targets-2019-nCoV, including the 3D structures of the",
+            "2019-nCoV proteins and the related human proteins from homology modelling or crystal experiments. Each submitted active compound will be docked to all the models and we hope that the docking results will shed some light on the potential target identification.",
+            "TCM clinical prescription combined with the western medicine treatment Recombinant cytokine gene-derived protein injection Traditional Chinese Medicine + basic western medical therapies Oral Gubiao Jiedu Ling Chinese medicine (Traditional Chinese Medicine) Lopinavir/litonavir (LPV/r) + emtritabine (FTC)/ Tenofovir alafenamide Fumarate tablets (TAF) in combination TCM decoctions+basic conventional therapy",
+            "ChiCTR2000029386 2020-01-28 ChiCTR2000029381 2020-01-27 ChiCTR2000029308 2020-01-23",
+            "TCM standard decoctions+basic western medical therapies Conventional medicine + TCM TCM syndrome differentiation treatment + Western medicine treatment Traditional Chinese medicine Lian-Hua Qing-Wen Capsule/Granule (TCM)+Routine treatment Tanreqing Injection (TCM) Critical Treatment in Critical Period + Ankylosaurus+M1 (type I macrophage) suppression therapy Combined Treatment of Chinese medicine and western medicine Traditional Chinese medicine treatment Ribavirin + Interferon alpha-1b; lopinavir / ritonavir + interferon alpha-1b; Ribavirin + LPV/r+Interferon alpha1b Adjunctive Corticosteroid Therapy Xuebijing Injiection (TCM) Lopinavir-ritonavir tablets + interferon-\u03b12b a Access to http://www.chictr.org.cn/enIndex.aspx on 2020-02-03."
+        ],
+        "2. Materials and methods": [
+            "2.1 Homology modelling. 21 severe acute respiratory syndrome-related coronavirus (SARS-CoV) 3D structures were downloaded from protein data bank[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] (PDB IDs: 5Y3E, 2XYR, 2H85, 5NFY, 6JYT, 6NUR, 1UW7, 1QZ8, 2AHM, 1YSY, 1Z1I, 2Z9J, 3E9S, 2HSX, 5X5B, 5X58, 5X29, 2MM4, 1YO4, 2OFZ, 2JIB) and served as templates to build the corresponding 2019-nCoV models in SWISS-MODEL server by \u201cuser template\u201d mode.[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]",
+            "Magnesium ions (Mg2+) are essential for the RNA-dependent RNA polymerase (RdRp). Therefore, for 2019-nCoV RdRp, we modelled two Mg2+ from the superimposition of the HCV RdRp (PDB ID: 1NB67) palm domain to 2019-nCoV RdRp palm domain.",
+            "Transmembrane protease serine 2 is a potential target against 2019-nCoV, with its inhibitor camostat mesylate blocking entry of 2019-nCoV into human cells.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] We model the protein by robetta.[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]",
+            "2.2 Experimental structures. Human ACE2 already has electron microscopy structure.",
+            "Therefore, it is downloaded from PDB (PDB ID: 6ACG) and used for molecular docking.",
+            "2.3 Detection of potential binding pockets. Since most of the drug binding pockets of",
+            "2019-nCoV proteins are unknown and very difficult to be obtained from experiments in a short time, we applied the D3Pockets web server[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]",
+            "(https://www.d3pharma.com/D3Pocket/index.php) to systematically analyze the potential binding pockets of each protein. Due to the irregular shape of the predicted binding pockets, we used cuboid pseudo-pocket volume (PPV) to characterize the size of protein pockets by Eq 1. Once submitting hydrogenated homology-modeled proteins on the D3pockets web server, the PPV and coordinates of predicted binding pockets in proteins could be calculated, among which pockets with the PPV greater than 200 \u00c53 are selected for molecular docking.",
+            "It is critical to choose appropriate docking box parameters for accurate prediction in molecular docking. Based on the coordinate file of predicted binding pockets by",
+            "D3pockets, the center of the docking box is obtained by Eq 2, and the size of the docking box is obtained by Eq 3.",
+            "where  ,  ,   are the three-dimensional coordinate center of the docking box.  ,  , are the width of the docking box.",
+            "2.4 Molecular dynamics of 2019-nCoV Mpro. The details of velocity-scaling optimized replica exchange molecular dynamics (vsREMD) method have been described in our previous study.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] Briefly, in the vsREMD, a set of replicas are simulated in explicit solvent environment at different temperatures, but exchange between neighboring replicas solely utilizes the sum of intra-protein interaction (Ppp) and protein-solvent interaction (Ppw) as the criterion by the following equation:",
+            "where \u03b2 is the inverse of temperature 1/kBT. To obtain the correct ensemble after exchange moves between replica 1 and replica 2, the vsREMD uses Eq.5 & 6 below to rescale uniformly the velocities of all particles,",
+            "where  (1) and  ( 1 )  are the velocities and kinetic energies of replica 1 before exchange, respectively;  \u0302 (1\u21922) is the velocities replica 1 after exchange. The same meaning for replica 2.",
+            "The initial structure of the 2019-nCoV Mpro was obtained from homology modelling with 1Z1I as template. AMBER99SB*-ILDNP12 force field was used to model the protein. The simulation system was solvated in a cubic box of TIP3P water molecules with a 10.0 \u00c5 buffer along each dimension. To remove bad contacts formed during the system preparation, the simulation system was minimized using steepest descent algorithm. Then the system was heated to 300 K from 0 K in 2 ns with a harmonic restraint (10 kcal\u00b7mol-1\u00b7\u00c5-2) for the solute. The bonds connecting hydrogen atoms was constrained by the LINCS algorithm[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] and the time step was set to 2.0 fs.",
+            "The long-range electrostatic interactions were treated by Particle mesh Ewald (PME)[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] with the non-bonded cutoff of 12 \u00c5. The vsREMD was run at 24 different temperatures from 300 to 450 K (300.0, 305.3, 310.8, 316.3, 321.9, 327.6, 333.5, 339.4, 345.4, 351.6, 357.8, 364.2, 370.7, 377.3, 384.0, 390.8, 397.8, 404.8, 412.0, 419.4, 426.8, 434.4, 442.1, 450.0). Exchanges were attempted every 1000 steps. For each replica, the overall simulation time lasted for 50 ns.",
+            "2.5 Molecular docking. Hydrogens were added to the homology models by pdb2pqr (-ff=amber --ffout=amber --chain --with-ph=7).[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] The homology models are converted to pdbqt format by prepare_receptor4.py script in MGLToos version 1.5.6.16 The pockets generated from D3Pockets are used to define the grid. For each small molecule submitted for identifying potential targets, prepare_ligand4.py script in MGLToos version 1.5.6 is used to convert its sdf or mol[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] files to pdbqt format.[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] All the docking simulations will be performed by smina,[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] which is a fork of AutoDock Vina[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>] with improving scoring and minimization. The random seed was explicitly set to 1 (seed). The exhaustiveness of the global search was set to 8 (exhaustiveness) and at most 1 binding mode was generated for each small molecule against one homolog model (num_modes).",
+            "For the docking against RdRp, the interaction between Mg2+ and oxygen could not be handled by the default scoring function. Hence, a custom scoring function (-0.3 atom_type_gaussian(t1=Magnesium, t2=OxygenXSAcceptor, o=0, _w=3, _c=8)) is applied."
+        ],
+        "3. Results and discussion": [
+            "3.1 Overview of the D3Targets-2019-nCoV database. The 2019-nCoV structurerelated proteins and other important proteins on the D3Targets-2019-nCoV database are summarized in Table 2, involving the protein name, number of pockets, pocket code with ligand, etc. The database contains a total of 20 proteins, including proteins in different oligomer states and open / close states.",
+            "The input small molecule file should be in sdf or mol[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] format. Although we could generate 3D structures from the 2D coordinates by Open Babel[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>], the chiral properties might be wrong in the conversion process. Therefore, we strongly recommend the users submitting 3D chemical structure, especially for the compounds with at least one chiral center.",
+            "To make the result only visible to a specific user, the user should register, which is free of charge. Otherwise, the docking result will be publicly visible. After registration, the user can login to upload the small molecule. In the case of the users are interested in some proteins, the target list is customized to be selected manually, while the default is to select all the proteins.",
+            "The output is presented in ascending order of compound-target interaction energy (kcal/mol). The docking results could be download from the server as an archive file.",
+            "Table 3 shows the top 10 binding pockets and corresponding docking scores for NTP. As the target of remdesivir, RdRp has a score of -10.71 kcal/mol in Pocket 1, which ranks 1st among all protein pockets (20 proteins, 208 pockets), demonstrating the predictive power of D3Targets-2019-nCoV. However, it should be noted that docking score alone does not perform very well in our experience and we recommend the users to check the top 10% docking results carefully to find the real target. Table 3. Top 10 potential binding pockets and their docking scores for NTP.",
+            "The superiority to use the docking method to predict the target is that docking result shows the binding mode of the compound into the target, which is very useful for the mutagenesis validation. According to the binding mode of NTP to the RdRp (Figure), hydrogen bonds and electrostatic interactions play an important role in the high affinity. In detail, the hydrogen bonds between NTP and some crucial residues in RdRp, such as GLU-811, TRP-800 and SER-814, may determine the ability to suppress 2019-nCoV. Besides, there is a strong electrostatic attraction between the phosphate group of NTP with two Mg2+, which may be helpful to explain the preference of RdRp for nucleotide analogs. The docking result of NTP is in consistent with the experiment, demonstrating the accuracy and robustness of D3Targets-2019-nCoV in exploring drug targets."
+        ],
+        "4. Conclusions": [
+            "2019-nCoV has caused more than 560 deaths as of 6 February 2020 worldwide, mostly in China. Although there are no effective drugs approved, many clinical trials are incoming or ongoing in China which utilize traditional chinese medicine or modern medicine. Moreover, many groups are working on the cytopathic effect assay to fight against 2019-nCoV, which will result in compounds with good activity yet unknown targets. Therefore, identifying potential drug targets will be of great importance to develop effective drugs. Here, we compiled 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets. We run vsREMD simulation on Mpro, a promising target against 2019-nCoV, and find two pockets of high druggability. Each submitted compound will be docked to these binding pockets by smina and the docking results will be presented in ascending order of compound-target interaction energy (kcal/mol). When testing an antiviral against 2019-nCoV, i.e., remdesivir, the proposed target RdRp ranks 1st, demonstrating the usefulness of the computational tool. We hope D3Targets-2019-nCoV will shed some light on the potential drug target for the identified antivirals, which is available free of charge at https://www.d3pharma.com/D3Targets-2019-nCoV/D3Docking/index.php."
+        ],
+        "Acknowledgments": [
+            "This work was supported by the National Key R&D Program of China (2016YFA0502301 & 2017YFB0202601)."
+        ],
+        "References": [
+            "1. Zhu, N.; Zhang, D.; Wang, W.; Li, X.; Yang, B.; Song, J.; Zhao, X.; Huang, B.; Shi, W.; Lu, R.; Niu, P.; Zhan, F.; Ma, X.; Wang, D.; Xu, W.; Wu, G.; Gao, G. F.; Tan, W., A Novel Coronavirus from Patients with Pneumonia in China, 2019. The New England journal of medicine 2020. 2. Zhou, P.; Yang, X.-L.; Wang, X.-G.; Hu, B.; Zhang, L.; Zhang, W.; Si, H.-R.; Zhu, Y.; Li, B.; Huang, C.-L.; Chen, H.-D.; Chen, J.; Luo, Y.; Guo, H.; Jiang, R.-D.; Liu, M.-Q.; Chen, Y.; Shen, X.-R.; Wang, X.; Zheng, X.S.; Zhao, K.; Chen, Q.-J.; Deng, F.; Liu, L.-L.; Yan, B.; Zhan, F.-X.; Wang, Y.-Y.; Xiao, G.-F.; Shi, Z.-L., A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020. 3. Wu, F.; Zhao, S.; Yu, B.; Chen, Y.-M.; Wang, W.; Song, Z.-G.; Hu, Y.; Tao, Z.-W.; Tian, J.-H.; Pei, Y.-Y.; Yuan, M.-L.; Zhang, Y.-L.; Dai, F.-H.; Liu, Y.; Wang, Q.-M.; Zheng, J.-J.; Xu, L.; Holmes, E. C.; Zhang, Y.-Z., A new coronavirus associated with human respiratory disease in China. Nature 2020. 4. Holshue, M. L.; DeBolt, C.; Lindquist, S.; Lofy, K. H.; Wiesman, J.; Bruce, H.; Spitters, C.; Ericson, K.; Wilkerson, S.; Tural, A.; Diaz, G.; Cohn, A.; Fox, L.; Patel, A.; Gerber, S. I.; Kim, L.; Tong, S.; Lu, X.; Lindstrom, S.; Pallansch, M. A.; Weldon, W. C.; Biggs, H. M.; Uyeki, T. M.; Pillai, S. K.; Washington State -nCo, V. C. I. T., First Case of 2019 Novel Coronavirus in the United States. N. Engl. J. Med. 2020. 5. Burley, S. K.; Berman, H. M.; Bhikadiya, C.; Bi, C.; Chen, L.; Di Costanzo, L.; Christie, C.; Dalenberg, K.; Duarte, J. M.; Dutta, S.; Feng, Z.; Ghosh, S.; Goodsell, D. S.; Green, R. K.; Guranovi\u0107, V.; Guzenko, D.; Hudson, B. P.; Kalro, T.; Liang, Y.; Lowe, R.; Namkoong, H.; Peisach, E.; Periskova, I.; Prli\u0107, A.; Randle, C.; Rose, A.; Rose, P.; Sala, R.; Sekharan, M.; Shao, C.; Tan, L.; Tao, Y.-P.; Valasatava, Y.; Voigt, M.; Westbrook, J.; Woo, J.; Yang, H.; Young, J.; Zhuravleva, M.; Zardecki, C., RCSB Protein Data Bank: biological macromolecular structures enabling research and education in fundamental biology, biomedicine, biotechnology and energy. Nucleic Acids Res. 2018, 47 (D1), D464-D474. 6. Waterhouse, A.; Bertoni, M.; Bienert, S.; Studer, G.; Tauriello, G.; Gumienny, R.; Heer, F. T.; de Beer, T. A P.; Rempfer, C.; Bordoli, L.; Lepore, R.; Schwede, T., SWISS-MODEL: homology modelling of protein structures and complexes. Nucleic Acids Res. 2018, 46 (W1), W296-W303.",
+            "7. O'Farrell, D.; Trowbridge, R.; Rowlands, D.; Jager, J., Substrate complexes of hepatitis C virus RNA polymerase (HC-J4): structural evidence for nucleotide import and de-novo initiation. J. Mol. Biol. 2003, 326 (4), 1025-35. 8. Hoffmann, M.; Kleine-Weber, H.; Krueger, N.; Mueller, M. A.; Drosten, C.; Poehlmann, S., The novel coronavirus 2019 (2019-nCoV) uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells. bioRxiv 2020, 2020.01.31.929042. 9. Kim, D. E.; Chivian, D.; Baker, D., Protein structure prediction and analysis using the Robetta server. Nucleic Acids Res. 2004, 32 (Web Server issue), W526-31. 10. Chen, Z.; Zhang, X.; Peng, C.; Wang, J.; Xu, Z.; Chen, K.; Shi, J.; Zhu, W., D3Pockets: A Method and Web Server for Systematic Analysis of Protein Pocket Dynamics. J. Chem. Inf. Model. 2019, 59 (8), 3353-3358. 11. Wang, J.; Peng, C.; Yu, Y.; Chen, Z.; Xu, Z.; Cai, T.; Shao, Q.; Shi, J.; Zhu, W., Exploring Conformational Change of Adenylate Kinase by Replica Exchange Molecular Dynamic Simulation. Biophys. J. 2020. 12. Aliev, A. E.; Kulke, M.; Khaneja, H. S.; Chudasama, V.; Sheppard, T. D.; Lanigan, R. M., Motional timescale predictions by molecular dynamics simulations: case study using proline and hydroxyproline sidechain dynamics. Proteins 2014, 82 (2), 195-215. 13. Hess, B.; Bekker, H.; Berendsen, H. J. C.; Fraaije, J. G. E. M., LINCS: A linear constraint solver for molecular simulations. J. Comput. Chem. 1997, 18 (12), 14631472. 14. Darden, T.; York, D.; Pedersen, L., Particle mesh Ewald: An N\u22c5 log (N) method for Ewald sums in large systems. J. Chem. Phys. 1993, 98, 10089. 15. Dolinsky, T. J.; Nielsen, J. E.; McCammon, J. A.; Baker, N. A., PDB2PQR: an automated pipeline for the setup of Poisson\u2013Boltzmann electrostatics calculations. Nucleic Acids Res. 2004, 32 (suppl_2), W665-W667. 16. Morris, G. M.; Huey, R.; Lindstrom, W.; Sanner, M. F.; Belew, R. K.; Goodsell, D. S.; Olson, A. J., AutoDock[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] and AutoDockTools[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]: Automated docking with selective receptor flexibility. J. Comput. Chem. 2009, 30 (16), 2785-2791. 17. Koes, D. R.; Baumgartner, M. P.; Camacho, C. J., Lessons Learned in Empirical Scoring with smina from the CSAR 2011 Benchmarking Exercise. J. Chem. Inf. Model. 2013, 53 (8), 1893-1904. 18. Trott, O.; Olson, A. J., AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. J. Comput. Chem. 2010, 31 (2), 455-461. 19. Xu, Z.; Peng, C.; Shi, Y.; Zhu, Z.; Mu, K.; Wang, X.; Zhu, W., Nelfinavir was predicted to be a potential inhibitor of 2019-nCoV main protease by an integrative approach combining homology modelling, molecular docking and binding free energy calculation. bioRxiv 2020, 2020.01.27.921627. 20. Schrodinger, LLC, The PyMOL Molecular Graphics System, Version 2.4. 2019. 21. O'Boyle, N. M.; Banck, M.; James, C. A.; Morley, C.; Vandermeersch, T.; Hutchison, G. R., Open Babel: An open chemical toolbox. J. Cheminform. 2011, 3 (1), 33.",
+            "22. Agostini, M. L.; Andres, E. L.; Sims, A. C.; Graham, R. L.; Sheahan, T. P.; Lu, X.; Smith, E. C.; Case, J. B.; Feng, J. Y.; Jordan, R.; Ray, A. S.; Cihlar, T.; Siegel, D.; Mackman, R. L.; Clarke, M. O.; Baric, R. S.; Denison, M. R., Coronavirus Susceptibility to the Antiviral Remdesivir (GS-5734) Is Mediated by the Viral Polymerase and the Proofreading Exoribonuclease. mBio 2018, 9 (2). 23. Wang, M.; Cao, R.; Zhang, L.; Yang, X.; Liu, J.; Xu, M.; Shi, Z.; Hu, Z.; Zhong, W.; Xiao, G., Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro. Cell Res. 2020. 24. Warren, T. K.; Jordan, R.; Lo, M. K.; Ray, A. S.; Mackman, R. L.; Soloveva, V.; Siegel, D.; Perron, M.; Bannister, R.; Hui, H. C.; Larson, N.; Strickley, R.; Wells, J.; Stuthman, K. S.; Van Tongeren, S. A.; Garza, N. L.; Donnelly, G.; Shurtleff, A. C.; Retterer, C. J.; Gharaibeh, D.; Zamani, R.; Kenny, T.; Eaton, B. P.; Grimes, E.; Welch, L. S.; Gomba, L.; Wilhelmsen, C. L.; Nichols, D. K.; Nuss, J. E.; Nagle, E. R.; Kugelman, J. R.; Palacios, G.; Doerffler, E.; Neville, S.; Carra, E.; Clarke, M. O.; Zhang, L.; Lew, W.; Ross, B.; Wang, Q.; Chun, K.; Wolfe, L.; Babusis, D.; Park, Y.; Stray, K. M.; Trancheva, I.; Feng, J. Y.; Barauskas, O.; Xu, Y.; Wong, P.; Braun, M. R.; Flint, M.; McMullan, L. K.; Chen, S.-S.; Fearns, R.; Swaminathan, S.; Mayers, D. L.; Spiropoulou, C. F.; Lee, W. A.; Nichol, S. T.; Cihlar, T.; Bavari, S., Therapeutic efficacy of the small molecule GS-5734 against Ebola virus in rhesus monkeys. Nature 2016, 531 (7594), 381-385."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "related human proteins",
+            "number": 3,
+            "context": "Identifying potential drug targets will be of great importance to understand the underlying mechanism of how the drug works. <mark class=\"stats\">Here, we &lt;a&gt;&lt;/a&gt;&lt;a&gt;compiled&lt;/a&gt; the 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets</mark>. Each submitted compound will be docked to these binding pockets by the docking software smina and the docking results will be presented in ascending order of compound-target interaction energy (kcal/mol)"
+        },
+        {
+            "participant": "related human proteins",
+            "number": 3,
+            "context": "&lt;p&gt;2019-nCoV has caused more than 560 deaths as of 6 February 2020 worldwide, mostly in China. <mark class=\"stats\">Here, we &lt;a&gt;&lt;/a&gt;&lt;a&gt;compiled&lt;/a&gt; the 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets</mark>. Each submitted compound will be docked to these binding pockets by the docking software smina and the docking results will be presented in ascending order of compound-target interaction energy (kcal/mol)"
+        },
+        {
+            "participant": "proteins",
+            "number": 20,
+            "context": "The 2019-nCoV structurerelated proteins and other important proteins on the D3Targets-2019-nCoV database are summarized in Table 2, involving the protein name, number of pockets, pocket code with ligand, etc. <mark class=\"stats\">The database contains a total of 20 proteins, including proteins in different oligomer states and open / close states</mark>. Num ber 1"
+        },
+        {
+            "participant": "proteins",
+            "number": 20,
+            "context": "Table 3 shows the top 10 binding pockets and corresponding docking scores for NTP. <mark class=\"stats\">As the target of remdesivir, RdRp has a score of -10.71 kcal/mol in Pocket 1, which ranks 1st among all protein pockets (20 proteins, 208 pockets), demonstrating the predictive power of D3Targets-2019-nCoV</mark>. However, it should be noted that docking score alone does not perform very well in our experience and we recommend the users to check the top 10% docking results carefully to find the real target"
+        },
+        {
+            "participant": "related human proteins",
+            "number": 3,
+            "context": "Therefore, identifying potential drug targets will be of great importance to develop effective drugs. <mark class=\"stats\">Here, we compiled 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets</mark>. We run vsREMD simulation on Mpro, a promising target against 2019-nCoV, and find two pockets of high druggability"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "RNA-dependent RNA polymerase",
+        "human protein",
+        "dynamics",
+        "unknown target",
+        "velocity-scaling optimized replica exchange molecular dynamics",
+        "pseudo-pocket volume",
+        "underlying mechanism",
+        "good activity",
+        "nucleic acids res",
+        "united states",
+        "Particle mesh Ewald",
+        "remdesivir",
+        "potential drug target",
+        "Traditional Chinese medicine Lian-Hua Qing-Wen Capsule/Granule",
+        "coronavirus",
+        "molecular dynamic simulation",
+        "docking result",
+        "homology modelling",
+        "web server",
+        "great importance",
+        "cytopathic effect assay",
+        "pneumonia",
+        "novel coronavirus",
+        "3d structure"
+    ],
+    "keyword_relevance": {
+        "RNA-dependent RNA polymerase": 0.14432989690721648,
+        "Traditional Chinese medicine Lian-Hua Qing-Wen Capsule/Granule": 0.09278350515463918,
+        "docking result": 0.08247422680412371,
+        "velocity-scaling optimized replica exchange molecular dynamics": 0.07216494845360824,
+        "coronavirus": 0.07216494845360824,
+        "web server": 0.061855670103092786,
+        "pseudo-pocket volume": 0.05154639175257732,
+        "remdesivir": 0.05154639175257732,
+        "potential drug target": 0.05154639175257732,
+        "dynamics": 0.041237113402061855,
+        "homology modelling": 0.041237113402061855,
+        "human protein": 0.030927835051546393,
+        "unknown target": 0.030927835051546393,
+        "good activity": 0.030927835051546393,
+        "Particle mesh Ewald": 0.030927835051546393,
+        "great importance": 0.030927835051546393,
+        "cytopathic effect assay": 0.030927835051546393,
+        "underlying mechanism": 0.020618556701030927,
+        "novel coronavirus": 0.020618556701030927,
+        "pneumonia": 0.010309278350515464,
+        "nucleic acids res": 0.0,
+        "united states": 0.0,
+        "molecular dynamic simulation": 0.0,
+        "3d structure": 0.0
+    },
+    "species": [],
+    "summary": [
+        "2019-nCoV1-3 has caused more than 360 deaths as of 3 February 2020 worldwide, mostly in China.",
+        "The authors constructed a docking web server, namely D3Targets-2019-nCoV, including the 3D structures of the",
+        "2019-nCoV proteins and the related human proteins from homology modelling or crystal experiments.",
+        "Each submitted active compound will be docked to all the models and the authors hope that the docking results will shed some light on the potential target identification.",
+        "2019-nCoV proteins are unknown and very difficult to be obtained from experiments in a short time, the authors applied the D3Pockets web server[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] to systematically analyze the potential binding pockets of each protein.",
+        "Once submitting hydrogenated homology-modeled proteins on the D3pockets web server, the PPV and coordinates of predicted binding pockets in proteins could be calculated, among which pockets with the PPV greater than 200 \u00c53 are selected for molecular docking.",
+        "For each small molecule submitted for identifying potential targets, prepare_ligand4.py script in MGLToos version 1.5.6 is used to convert its sdf or mol[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] files to pdbqt format.[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] All the docking simulations will be performed by smina,[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] which is a fork of AutoDock Vina[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>] with improving scoring and minimization.",
+        "Human protease serine 2 a Number of Pockets: the number of potential binding pockets on the protein with the PPV greater than 200 \u00c53.",
+        "3.2 Two potential allosteric binding pocket in 2019-nCoV Mpro.",
+        "2019-nCoV Mpro is a promising target to treat the disease.[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>] Based on the vsREMD simulation trajectories at 300 K, the authors applied D3Pockets to explore the dynamic properties of potential pockets in 2019-nCoV Mpro.",
+        "One can conclude that Pockets 2 and 3 are two potential allosteric binding pockets, which are included in the D3Targets-2019-nCoV web server.",
+        "Table 3 shows the top 10 binding pockets and corresponding docking scores for NTP.",
+        "As the target of remdesivir, RdRp has a score of -10.71 kcal/mol in Pocket 1, which ranks 1st among all protein pockets (20 proteins, 208 pockets), demonstrating the predictive power of D3Targets-2019-nCoV.",
+        "Top 10 potential binding pockets and their docking scores for NTP.",
+        "The docking result of NTP is in consistent with the experiment, demonstrating the accuracy and robustness of D3Targets-2019-nCoV in exploring drug targets.",
+        "The authors compiled 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets.",
+        "The authors run vsREMD simulation on Mpro, a promising target against 2019-nCoV, and find two pockets of high druggability.",
+        "Each submitted compound will be docked to these binding pockets by smina and the docking results will be presented in ascending order of compound-target interaction energy."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "2019-nCoV1-3 has caused more than 360 deaths as of 3 February 2020 worldwide, mostly in China.",
+            "The authors constructed a docking web server, namely D3Targets-2019-nCoV, including the 3D structures of the",
+            "2019-nCoV proteins and the related human proteins from homology modelling or crystal experiments.",
+            "Each submitted active compound will be docked to all the models and the authors hope that the docking results will shed some light on the potential target identification."
+        ],
+        "Results": [
+            "2019-nCoV proteins are unknown and very difficult to be obtained from experiments in a short time, the authors applied the D3Pockets web server[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] to systematically analyze the potential binding pockets of each protein.",
+            "Once submitting hydrogenated homology-modeled proteins on the D3pockets web server, the PPV and coordinates of predicted binding pockets in proteins could be calculated, among which pockets with the PPV greater than 200 \u00c53 are selected for molecular docking.",
+            "For each small molecule submitted for identifying potential targets, prepare_ligand4.py script in MGLToos version 1.5.6 is used to convert its sdf or mol[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] files to pdbqt format.[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] All the docking simulations will be performed by smina,[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] which is a fork of AutoDock Vina[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>] with improving scoring and minimization.",
+            "Human protease serine 2 a Number of Pockets: the number of potential binding pockets on the protein with the PPV greater than 200 \u00c53.",
+            "3.2 Two potential allosteric binding pocket in 2019-nCoV Mpro.",
+            "2019-nCoV Mpro is a promising target to treat the disease.[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>] Based on the vsREMD simulation trajectories at 300 K, the authors applied D3Pockets to explore the dynamic properties of potential pockets in 2019-nCoV Mpro.",
+            "One can conclude that Pockets 2 and 3 are two potential allosteric binding pockets, which are included in the D3Targets-2019-nCoV web server.",
+            "Table 3 shows the top 10 binding pockets and corresponding docking scores for NTP.",
+            "As the target of remdesivir, RdRp has a score of -10.71 kcal/mol in Pocket 1, which ranks 1st among all protein pockets (20 proteins, 208 pockets), demonstrating the predictive power of D3Targets-2019-nCoV.",
+            "Top 10 potential binding pockets and their docking scores for NTP."
+        ],
+        "Conclusion": [
+            "The docking result of NTP is in consistent with the experiment, demonstrating the accuracy and robustness of D3Targets-2019-nCoV in exploring drug targets.",
+            "The authors compiled 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets.",
+            "The authors run vsREMD simulation on Mpro, a promising target against 2019-nCoV, and find two pockets of high druggability.",
+            "Each submitted compound will be docked to these binding pockets by smina and the docking results will be presented in ascending order of compound-target interaction energy."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Zhu_et+al_2020_a",
+            "entry": "1. Zhu, N.; Zhang, D.; Wang, W.; Li, X.; Yang, B.; Song, J.; Zhao, X.; Huang, B.; Shi, W.; Lu, R.; Niu, P.; Zhan, F.; Ma, X.; Wang, D.; Xu, W.; Wu, G.; Gao, G. F.; Tan, W., A Novel Coronavirus from Patients with Pneumonia in China, 2019. The New England journal of medicine 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhu%20N%20Zhang%20D%20Wang%20W%20Li%20X%20Yang%20B%20Song%20J%20Zhao%20X%20Huang%20B%20Shi%20W%20Lu%20R%20Niu%20P%20Zhan%20F%20Ma%20X%20Wang%20D%20Xu%20W%20Wu%20G%20Gao%20G%20F%20Tan%20W%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20The%20New%20England%20journal%20of%20medicine%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhu%20N%20Zhang%20D%20Wang%20W%20Li%20X%20Yang%20B%20Song%20J%20Zhao%20X%20Huang%20B%20Shi%20W%20Lu%20R%20Niu%20P%20Zhan%20F%20Ma%20X%20Wang%20D%20Xu%20W%20Wu%20G%20Gao%20G%20F%20Tan%20W%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20The%20New%20England%20journal%20of%20medicine%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhu%20N%20Zhang%20D%20Wang%20W%20Li%20X%20Yang%20B%20Song%20J%20Zhao%20X%20Huang%20B%20Shi%20W%20Lu%20R%20Niu%20P%20Zhan%20F%20Ma%20X%20Wang%20D%20Xu%20W%20Wu%20G%20Gao%20G%20F%20Tan%20W%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20The%20New%20England%20journal%20of%20medicine%202020"
+        },
+        {
+            "id": "2",
+            "alt_id": "Zhou_et+al_2020_a",
+            "entry": "2. Zhou, P.; Yang, X.-L.; Wang, X.-G.; Hu, B.; Zhang, L.; Zhang, W.; Si, H.-R.; Zhu, Y.; Li, B.; Huang, C.-L.; Chen, H.-D.; Chen, J.; Luo, Y.; Guo, H.; Jiang, R.-D.; Liu, M.-Q.; Chen, Y.; Shen, X.-R.; Wang, X.; Zheng, X.S.; Zhao, K.; Chen, Q.-J.; Deng, F.; Liu, L.-L.; Yan, B.; Zhan, F.-X.; Wang, Y.-Y.; Xiao, G.-F.; Shi, Z.-L., A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wu_et+al_2020_a",
+            "entry": "3. Wu, F.; Zhao, S.; Yu, B.; Chen, Y.-M.; Wang, W.; Song, Z.-G.; Hu, Y.; Tao, Z.-W.; Tian, J.-H.; Pei, Y.-Y.; Yuan, M.-L.; Zhang, Y.-L.; Dai, F.-H.; Liu, Y.; Wang, Q.-M.; Zheng, J.-J.; Xu, L.; Holmes, E. C.; Zhang, Y.-Z., A new coronavirus associated with human respiratory disease in China. Nature 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%2C%20F.%20Zhao%2C%20S.%20Yu%2C%20B.%20Chen%2C%20Y.-M.%20A%20new%20coronavirus%20associated%20with%20human%20respiratory%20disease%20in%20China%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%2C%20F.%20Zhao%2C%20S.%20Yu%2C%20B.%20Chen%2C%20Y.-M.%20A%20new%20coronavirus%20associated%20with%20human%20respiratory%20disease%20in%20China%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%2C%20F.%20Zhao%2C%20S.%20Yu%2C%20B.%20Chen%2C%20Y.-M.%20A%20new%20coronavirus%20associated%20with%20human%20respiratory%20disease%20in%20China%202020"
+        },
+        {
+            "id": "4",
+            "alt_id": "Holshue_2019_a",
+            "entry": "4. Holshue, M. L.; DeBolt, C.; Lindquist, S.; Lofy, K. H.; Wiesman, J.; Bruce, H.; Spitters, C.; Ericson, K.; Wilkerson, S.; Tural, A.; Diaz, G.; Cohn, A.; Fox, L.; Patel, A.; Gerber, S. I.; Kim, L.; Tong, S.; Lu, X.; Lindstrom, S.; Pallansch, M. A.; Weldon, W. C.; Biggs, H. M.; Uyeki, T. M.; Pillai, S. K.; Washington State -nCo, V. C. I. T., First Case of 2019 Novel Coronavirus in the United States. N. Engl. J. Med. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Holshue%20M%20L%20DeBolt%20C%20Lindquist%20S%20Lofy%20K%20H%20Wiesman%20J%20Bruce%20H%20Spitters%20C%20Ericson%20K%20Wilkerson%20S%20Tural%20A%20Diaz%20G%20Cohn%20A%20Fox%20L%20Patel%20A%20Gerber%20S%20I%20Kim%20L%20Tong%20S%20Lu%20X%20Lindstrom%20S%20Pallansch%20M%20A%20Weldon%20W%20C%20Biggs%20H%20M%20Uyeki%20T%20M%20Pillai%20S%20K%20Washington%20State%20nCo%20V%20C%20I%20T%20First%20Case%20of%202019%20Novel%20Coronavirus%20in%20the%20United%20States%20N%20Engl%20J%20Med%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Holshue%20M%20L%20DeBolt%20C%20Lindquist%20S%20Lofy%20K%20H%20Wiesman%20J%20Bruce%20H%20Spitters%20C%20Ericson%20K%20Wilkerson%20S%20Tural%20A%20Diaz%20G%20Cohn%20A%20Fox%20L%20Patel%20A%20Gerber%20S%20I%20Kim%20L%20Tong%20S%20Lu%20X%20Lindstrom%20S%20Pallansch%20M%20A%20Weldon%20W%20C%20Biggs%20H%20M%20Uyeki%20T%20M%20Pillai%20S%20K%20Washington%20State%20nCo%20V%20C%20I%20T%20First%20Case%20of%202019%20Novel%20Coronavirus%20in%20the%20United%20States%20N%20Engl%20J%20Med%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Holshue%20M%20L%20DeBolt%20C%20Lindquist%20S%20Lofy%20K%20H%20Wiesman%20J%20Bruce%20H%20Spitters%20C%20Ericson%20K%20Wilkerson%20S%20Tural%20A%20Diaz%20G%20Cohn%20A%20Fox%20L%20Patel%20A%20Gerber%20S%20I%20Kim%20L%20Tong%20S%20Lu%20X%20Lindstrom%20S%20Pallansch%20M%20A%20Weldon%20W%20C%20Biggs%20H%20M%20Uyeki%20T%20M%20Pillai%20S%20K%20Washington%20State%20nCo%20V%20C%20I%20T%20First%20Case%20of%202019%20Novel%20Coronavirus%20in%20the%20United%20States%20N%20Engl%20J%20Med%202020"
+        },
+        {
+            "id": "5",
+            "alt_id": "Burley_et+al_2018_a",
+            "entry": "5. Burley, S. K.; Berman, H. M.; Bhikadiya, C.; Bi, C.; Chen, L.; Di Costanzo, L.; Christie, C.; Dalenberg, K.; Duarte, J. M.; Dutta, S.; Feng, Z.; Ghosh, S.; Goodsell, D. S.; Green, R. K.; Guranovi\u0107, V.; Guzenko, D.; Hudson, B. P.; Kalro, T.; Liang, Y.; Lowe, R.; Namkoong, H.; Peisach, E.; Periskova, I.; Prli\u0107, A.; Randle, C.; Rose, A.; Rose, P.; Sala, R.; Sekharan, M.; Shao, C.; Tan, L.; Tao, Y.-P.; Valasatava, Y.; Voigt, M.; Westbrook, J.; Woo, J.; Yang, H.; Young, J.; Zhuravleva, M.; Zardecki, C., RCSB Protein Data Bank: biological macromolecular structures enabling research and education in fundamental biology, biomedicine, biotechnology and energy. Nucleic Acids Res. 2018, 47 (D1), D464-D474.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Burley%2C%20S.K.%20Berman%2C%20H.M.%20Bhikadiya%2C%20C.%20Bi%2C%20C.%20RCSB%20Protein%20Data%20Bank%3A%20biological%20macromolecular%20structures%20enabling%20research%20and%20education%20in%20fundamental%20biology%2C%20biomedicine%2C%20biotechnology%20and%20energy.%20Nucleic%20Acids%20Res%202018"
+        },
+        {
+            "id": "6",
+            "alt_id": "Waterhouse_et+al_2018_a",
+            "entry": "6. Waterhouse, A.; Bertoni, M.; Bienert, S.; Studer, G.; Tauriello, G.; Gumienny, R.; Heer, F. T.; de Beer, T. A P.; Rempfer, C.; Bordoli, L.; Lepore, R.; Schwede, T., SWISS-MODEL: homology modelling of protein structures and complexes. Nucleic Acids Res. 2018, 46 (W1), W296-W303.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Waterhouse%2C%20A.%20Bertoni%2C%20M.%20Bienert%2C%20S.%20Studer%2C%20G.%20SWISS-MODEL%3A%20homology%20modelling%20of%20protein%20structures%20and%20complexes%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Waterhouse%2C%20A.%20Bertoni%2C%20M.%20Bienert%2C%20S.%20Studer%2C%20G.%20SWISS-MODEL%3A%20homology%20modelling%20of%20protein%20structures%20and%20complexes%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Waterhouse%2C%20A.%20Bertoni%2C%20M.%20Bienert%2C%20S.%20Studer%2C%20G.%20SWISS-MODEL%3A%20homology%20modelling%20of%20protein%20structures%20and%20complexes%202018"
+        },
+        {
+            "id": "7",
+            "alt_id": "O'Farrell_et+al_2003_a",
+            "entry": "7. O'Farrell, D.; Trowbridge, R.; Rowlands, D.; Jager, J., Substrate complexes of hepatitis C virus RNA polymerase (HC-J4): structural evidence for nucleotide import and de-novo initiation. J. Mol. Biol. 2003, 326 (4), 1025-35.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=O%27Farrell%2C%20D.%20Trowbridge%2C%20R.%20Rowlands%2C%20D.%20Jager%2C%20J.%20Substrate%20complexes%20of%20hepatitis%20C%20virus%20RNA%20polymerase%20%28HC-J4%29%3A%20structural%20evidence%20for%20nucleotide%20import%20and%20de-novo%20initiation%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=O%27Farrell%2C%20D.%20Trowbridge%2C%20R.%20Rowlands%2C%20D.%20Jager%2C%20J.%20Substrate%20complexes%20of%20hepatitis%20C%20virus%20RNA%20polymerase%20%28HC-J4%29%3A%20structural%20evidence%20for%20nucleotide%20import%20and%20de-novo%20initiation%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=O%27Farrell%2C%20D.%20Trowbridge%2C%20R.%20Rowlands%2C%20D.%20Jager%2C%20J.%20Substrate%20complexes%20of%20hepatitis%20C%20virus%20RNA%20polymerase%20%28HC-J4%29%3A%20structural%20evidence%20for%20nucleotide%20import%20and%20de-novo%20initiation%202003"
+        },
+        {
+            "id": "8",
+            "alt_id": "Hoffmann_et+al_2019_a",
+            "entry": "8. Hoffmann, M.; Kleine-Weber, H.; Krueger, N.; Mueller, M. A.; Drosten, C.; Poehlmann, S., The novel coronavirus 2019 (2019-nCoV) uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells. bioRxiv 2020, 2020.01.31.929042.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hoffmann%20M%20KleineWeber%20H%20Krueger%20N%20Mueller%20M%20A%20Drosten%20C%20Poehlmann%20S%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%202020%2020200131929042",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hoffmann%20M%20KleineWeber%20H%20Krueger%20N%20Mueller%20M%20A%20Drosten%20C%20Poehlmann%20S%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%202020%2020200131929042",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hoffmann%20M%20KleineWeber%20H%20Krueger%20N%20Mueller%20M%20A%20Drosten%20C%20Poehlmann%20S%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%202020%2020200131929042"
+        },
+        {
+            "id": "9",
+            "alt_id": "Kim_et+al_0000_a",
+            "entry": "9. Kim, D. E.; Chivian, D.; Baker, D., Protein structure prediction and analysis using the Robetta server. Nucleic Acids Res. 2004, 32 (Web Server issue), W526-31.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kim%2C%20D.E.%20Chivian%2C%20D.%20Baker%2C%20D.%20Protein%20structure%20prediction%20and%20analysis%20using%20the%20Robetta%20server.%20Nucleic%20Acids%20Res"
+        },
+        {
+            "id": "10",
+            "alt_id": "Chen_et+al_2019_a",
+            "entry": "10. Chen, Z.; Zhang, X.; Peng, C.; Wang, J.; Xu, Z.; Chen, K.; Shi, J.; Zhu, W., D3Pockets: A Method and Web Server for Systematic Analysis of Protein Pocket Dynamics. J. Chem. Inf. Model. 2019, 59 (8), 3353-3358.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20Z.%20Zhang%2C%20X.%20Peng%2C%20C.%20Wang%2C%20J.%20D3Pockets%3A%20A%20Method%20and%20Web%20Server%20for%20Systematic%20Analysis%20of%20Protein%20Pocket%20Dynamics%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20Z.%20Zhang%2C%20X.%20Peng%2C%20C.%20Wang%2C%20J.%20D3Pockets%3A%20A%20Method%20and%20Web%20Server%20for%20Systematic%20Analysis%20of%20Protein%20Pocket%20Dynamics%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20Z.%20Zhang%2C%20X.%20Peng%2C%20C.%20Wang%2C%20J.%20D3Pockets%3A%20A%20Method%20and%20Web%20Server%20for%20Systematic%20Analysis%20of%20Protein%20Pocket%20Dynamics%202019"
+        },
+        {
+            "id": "11",
+            "alt_id": "Wang_et+al_2020_a",
+            "entry": "11. Wang, J.; Peng, C.; Yu, Y.; Chen, Z.; Xu, Z.; Cai, T.; Shao, Q.; Shi, J.; Zhu, W., Exploring Conformational Change of Adenylate Kinase by Replica Exchange Molecular Dynamic Simulation. Biophys. J. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.%20Peng%2C%20C.%20Yu%2C%20Y.%20Chen%2C%20Z.%20Exploring%20Conformational%20Change%20of%20Adenylate%20Kinase%20by%20Replica%20Exchange%20Molecular%20Dynamic%20Simulation%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.%20Peng%2C%20C.%20Yu%2C%20Y.%20Chen%2C%20Z.%20Exploring%20Conformational%20Change%20of%20Adenylate%20Kinase%20by%20Replica%20Exchange%20Molecular%20Dynamic%20Simulation%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.%20Peng%2C%20C.%20Yu%2C%20Y.%20Chen%2C%20Z.%20Exploring%20Conformational%20Change%20of%20Adenylate%20Kinase%20by%20Replica%20Exchange%20Molecular%20Dynamic%20Simulation%202020"
+        },
+        {
+            "id": "12",
+            "alt_id": "Aliev_et+al_2014_a",
+            "entry": "12. Aliev, A. E.; Kulke, M.; Khaneja, H. S.; Chudasama, V.; Sheppard, T. D.; Lanigan, R. M., Motional timescale predictions by molecular dynamics simulations: case study using proline and hydroxyproline sidechain dynamics. Proteins 2014, 82 (2), 195-215.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Aliev%2C%20A.E.%20Kulke%2C%20M.%20Khaneja%2C%20H.S.%20Chudasama%2C%20V.%20Motional%20timescale%20predictions%20by%20molecular%20dynamics%20simulations%3A%20case%20study%20using%20proline%20and%20hydroxyproline%20sidechain%20dynamics%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Aliev%2C%20A.E.%20Kulke%2C%20M.%20Khaneja%2C%20H.S.%20Chudasama%2C%20V.%20Motional%20timescale%20predictions%20by%20molecular%20dynamics%20simulations%3A%20case%20study%20using%20proline%20and%20hydroxyproline%20sidechain%20dynamics%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Aliev%2C%20A.E.%20Kulke%2C%20M.%20Khaneja%2C%20H.S.%20Chudasama%2C%20V.%20Motional%20timescale%20predictions%20by%20molecular%20dynamics%20simulations%3A%20case%20study%20using%20proline%20and%20hydroxyproline%20sidechain%20dynamics%202014"
+        },
+        {
+            "id": "13",
+            "alt_id": "Hess_et+al_1997_a",
+            "entry": "13. Hess, B.; Bekker, H.; Berendsen, H. J. C.; Fraaije, J. G. E. M., LINCS: A linear constraint solver for molecular simulations. J. Comput. Chem. 1997, 18 (12), 14631472.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hess%2C%20B.%20Bekker%2C%20H.%20Berendsen%2C%20H.J.C.%20Fraaije%2C%20J.G.E.M.%20LINCS%3A%20A%20linear%20constraint%20solver%20for%20molecular%20simulations%201997",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hess%2C%20B.%20Bekker%2C%20H.%20Berendsen%2C%20H.J.C.%20Fraaije%2C%20J.G.E.M.%20LINCS%3A%20A%20linear%20constraint%20solver%20for%20molecular%20simulations%201997",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hess%2C%20B.%20Bekker%2C%20H.%20Berendsen%2C%20H.J.C.%20Fraaije%2C%20J.G.E.M.%20LINCS%3A%20A%20linear%20constraint%20solver%20for%20molecular%20simulations%201997"
+        },
+        {
+            "id": "14",
+            "alt_id": "Darden_et+al_1993_a",
+            "entry": "14. Darden, T.; York, D.; Pedersen, L., Particle mesh Ewald: An N\u22c5 log (N) method for Ewald sums in large systems. J. Chem. Phys. 1993, 98, 10089.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Darden%2C%20T.%20York%2C%20D.%20Pedersen%2C%20L.%20Particle%20mesh%20Ewald%3A%20An%20N%E2%8B%85%20log%20%28N%29%20method%20for%20Ewald%20sums%20in%20large%20systems%201993",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Darden%2C%20T.%20York%2C%20D.%20Pedersen%2C%20L.%20Particle%20mesh%20Ewald%3A%20An%20N%E2%8B%85%20log%20%28N%29%20method%20for%20Ewald%20sums%20in%20large%20systems%201993",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Darden%2C%20T.%20York%2C%20D.%20Pedersen%2C%20L.%20Particle%20mesh%20Ewald%3A%20An%20N%E2%8B%85%20log%20%28N%29%20method%20for%20Ewald%20sums%20in%20large%20systems%201993"
+        },
+        {
+            "id": "15",
+            "alt_id": "Dolinsky_et+al_2004_a",
+            "entry": "15. Dolinsky, T. J.; Nielsen, J. E.; McCammon, J. A.; Baker, N. A., PDB2PQR: an automated pipeline for the setup of Poisson\u2013Boltzmann electrostatics calculations. Nucleic Acids Res. 2004, 32 (suppl_2), W665-W667.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Dolinsky%2C%20T.J.%20Nielsen%2C%20J.E.%20McCammon%2C%20J.A.%20Baker%2C%20N.A.%20PDB2PQR%3A%20an%20automated%20pipeline%20for%20the%20setup%20of%20Poisson%E2%80%93Boltzmann%20electrostatics%20calculations%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Dolinsky%2C%20T.J.%20Nielsen%2C%20J.E.%20McCammon%2C%20J.A.%20Baker%2C%20N.A.%20PDB2PQR%3A%20an%20automated%20pipeline%20for%20the%20setup%20of%20Poisson%E2%80%93Boltzmann%20electrostatics%20calculations%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Dolinsky%2C%20T.J.%20Nielsen%2C%20J.E.%20McCammon%2C%20J.A.%20Baker%2C%20N.A.%20PDB2PQR%3A%20an%20automated%20pipeline%20for%20the%20setup%20of%20Poisson%E2%80%93Boltzmann%20electrostatics%20calculations%202004"
+        },
+        {
+            "id": "16",
+            "alt_id": "Morris_et+al_2009_a",
+            "entry": "16. Morris, G. M.; Huey, R.; Lindstrom, W.; Sanner, M. F.; Belew, R. K.; Goodsell, D. S.; Olson, A. J., AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility. J. Comput. Chem. 2009, 30 (16), 2785-2791.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Morris%2C%20G.M.%20Huey%2C%20R.%20Lindstrom%2C%20W.%20Sanner%2C%20M.F.%20AutoDock4%20and%20AutoDockTools4%3A%20Automated%20docking%20with%20selective%20receptor%20flexibility%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Morris%2C%20G.M.%20Huey%2C%20R.%20Lindstrom%2C%20W.%20Sanner%2C%20M.F.%20AutoDock4%20and%20AutoDockTools4%3A%20Automated%20docking%20with%20selective%20receptor%20flexibility%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Morris%2C%20G.M.%20Huey%2C%20R.%20Lindstrom%2C%20W.%20Sanner%2C%20M.F.%20AutoDock4%20and%20AutoDockTools4%3A%20Automated%20docking%20with%20selective%20receptor%20flexibility%202009"
+        },
+        {
+            "id": "17",
+            "alt_id": "Koes_et+al_2013_a",
+            "entry": "17. Koes, D. R.; Baumgartner, M. P.; Camacho, C. J., Lessons Learned in Empirical Scoring with smina from the CSAR 2011 Benchmarking Exercise. J. Chem. Inf. Model. 2013, 53 (8), 1893-1904.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Koes%20D%20R%20Baumgartner%20M%20P%20Camacho%20C%20J%20Lessons%20Learned%20in%20Empirical%20Scoring%20with%20smina%20from%20the%20CSAR%202011%20Benchmarking%20Exercise%20J%20Chem%20Inf%20Model%202013%2053%208%2018931904",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Koes%20D%20R%20Baumgartner%20M%20P%20Camacho%20C%20J%20Lessons%20Learned%20in%20Empirical%20Scoring%20with%20smina%20from%20the%20CSAR%202011%20Benchmarking%20Exercise%20J%20Chem%20Inf%20Model%202013%2053%208%2018931904",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Koes%20D%20R%20Baumgartner%20M%20P%20Camacho%20C%20J%20Lessons%20Learned%20in%20Empirical%20Scoring%20with%20smina%20from%20the%20CSAR%202011%20Benchmarking%20Exercise%20J%20Chem%20Inf%20Model%202013%2053%208%2018931904"
+        },
+        {
+            "id": "18",
+            "alt_id": "Trott_2010_a",
+            "entry": "18. Trott, O.; Olson, A. J., AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. J. Comput. Chem. 2010, 31 (2), 455-461.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Trott%2C%20O.%20Olson%2C%20A.J.%20AutoDock%20Vina%3A%20Improving%20the%20speed%20and%20accuracy%20of%20docking%20with%20a%20new%20scoring%20function%2C%20efficient%20optimization%2C%20and%20multithreading%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Trott%2C%20O.%20Olson%2C%20A.J.%20AutoDock%20Vina%3A%20Improving%20the%20speed%20and%20accuracy%20of%20docking%20with%20a%20new%20scoring%20function%2C%20efficient%20optimization%2C%20and%20multithreading%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Trott%2C%20O.%20Olson%2C%20A.J.%20AutoDock%20Vina%3A%20Improving%20the%20speed%20and%20accuracy%20of%20docking%20with%20a%20new%20scoring%20function%2C%20efficient%20optimization%2C%20and%20multithreading%202010"
+        },
+        {
+            "id": "19",
+            "alt_id": "Xu_et+al_2019_a",
+            "entry": "19. Xu, Z.; Peng, C.; Shi, Y.; Zhu, Z.; Mu, K.; Wang, X.; Zhu, W., Nelfinavir was predicted to be a potential inhibitor of 2019-nCoV main protease by an integrative approach combining homology modelling, molecular docking and binding free energy calculation. bioRxiv 2020, 2020.01.27.921627.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xu%20Z%20Peng%20C%20Shi%20Y%20Zhu%20Z%20Mu%20K%20Wang%20X%20Zhu%20W%20Nelfinavir%20was%20predicted%20to%20be%20a%20potential%20inhibitor%20of%202019nCoV%20main%20protease%20by%20an%20integrative%20approach%20combining%20homology%20modelling%20molecular%20docking%20and%20binding%20free%20energy%20calculation%20bioRxiv%202020%2020200127921627"
+        },
+        {
+            "id": "20",
+            "alt_id": "Schrodinger_2019_a",
+            "entry": "20. Schrodinger, LLC, The PyMOL Molecular Graphics System, Version 2.4. 2019.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Schrodinger%2C%20L.L.C.%20The%20PyMOL%20Molecular%20Graphics%20System%2C%20Version%202.4%202019"
+        },
+        {
+            "id": "21",
+            "alt_id": "O'Boyle_et+al_2011_a",
+            "entry": "21. O'Boyle, N. M.; Banck, M.; James, C. A.; Morley, C.; Vandermeersch, T.; Hutchison, G. R., Open Babel: An open chemical toolbox. J. Cheminform. 2011, 3 (1), 33.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=O%27Boyle%2C%20N.M.%20Banck%2C%20M.%20James%2C%20C.A.%20Morley%2C%20C.%20Open%20Babel%3A%20An%20open%20chemical%20toolbox%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=O%27Boyle%2C%20N.M.%20Banck%2C%20M.%20James%2C%20C.A.%20Morley%2C%20C.%20Open%20Babel%3A%20An%20open%20chemical%20toolbox%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=O%27Boyle%2C%20N.M.%20Banck%2C%20M.%20James%2C%20C.A.%20Morley%2C%20C.%20Open%20Babel%3A%20An%20open%20chemical%20toolbox%202011"
+        },
+        {
+            "id": "22",
+            "alt_id": "Agostini_et+al_2018_a",
+            "entry": "22. Agostini, M. L.; Andres, E. L.; Sims, A. C.; Graham, R. L.; Sheahan, T. P.; Lu, X.; Smith, E. C.; Case, J. B.; Feng, J. Y.; Jordan, R.; Ray, A. S.; Cihlar, T.; Siegel, D.; Mackman, R. L.; Clarke, M. O.; Baric, R. S.; Denison, M. R., Coronavirus Susceptibility to the Antiviral Remdesivir (GS-5734) Is Mediated by the Viral Polymerase and the Proofreading Exoribonuclease. mBio 2018, 9 (2). 23. Wang, M.; Cao, R.; Zhang, L.; Yang, X.; Liu, J.; Xu, M.; Shi, Z.; Hu, Z.; Zhong, W.; Xiao, G., Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro. Cell Res. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Agostini%2C%20M.L.%20Andres%2C%20E.L.%20Sims%2C%20A.C.%20Graham%2C%20R.L.%20Coronavirus%20Susceptibility%20to%20the%20Antiviral%20Remdesivir%20%28GS-5734%29%20Is%20Mediated%20by%20the%20Viral%20Polymerase%20and%20the%20Proofreading%20Exoribonuclease%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Agostini%2C%20M.L.%20Andres%2C%20E.L.%20Sims%2C%20A.C.%20Graham%2C%20R.L.%20Coronavirus%20Susceptibility%20to%20the%20Antiviral%20Remdesivir%20%28GS-5734%29%20Is%20Mediated%20by%20the%20Viral%20Polymerase%20and%20the%20Proofreading%20Exoribonuclease%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Agostini%2C%20M.L.%20Andres%2C%20E.L.%20Sims%2C%20A.C.%20Graham%2C%20R.L.%20Coronavirus%20Susceptibility%20to%20the%20Antiviral%20Remdesivir%20%28GS-5734%29%20Is%20Mediated%20by%20the%20Viral%20Polymerase%20and%20the%20Proofreading%20Exoribonuclease%202018"
+        },
+        {
+            "id": "24",
+            "alt_id": "Warren_et+al_2016_a",
+            "entry": "24. Warren, T. K.; Jordan, R.; Lo, M. K.; Ray, A. S.; Mackman, R. L.; Soloveva, V.; Siegel, D.; Perron, M.; Bannister, R.; Hui, H. C.; Larson, N.; Strickley, R.; Wells, J.; Stuthman, K. S.; Van Tongeren, S. A.; Garza, N. L.; Donnelly, G.; Shurtleff, A. C.; Retterer, C. J.; Gharaibeh, D.; Zamani, R.; Kenny, T.; Eaton, B. P.; Grimes, E.; Welch, L. S.; Gomba, L.; Wilhelmsen, C. L.; Nichols, D. K.; Nuss, J. E.; Nagle, E. R.; Kugelman, J. R.; Palacios, G.; Doerffler, E.; Neville, S.; Carra, E.; Clarke, M. O.; Zhang, L.; Lew, W.; Ross, B.; Wang, Q.; Chun, K.; Wolfe, L.; Babusis, D.; Park, Y.; Stray, K. M.; Trancheva, I.; Feng, J. Y.; Barauskas, O.; Xu, Y.; Wong, P.; Braun, M. R.; Flint, M.; McMullan, L. K.; Chen, S.-S.; Fearns, R.; Swaminathan, S.; Mayers, D. L.; Spiropoulou, C. F.; Lee, W. A.; Nichol, S. T.; Cihlar, T.; Bavari, S., Therapeutic efficacy of the small molecule GS-5734 against Ebola virus in rhesus monkeys. Nature 2016, 531 (7594), 381-385. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Warren%2C%20T.K.%20Jordan%2C%20R.%20Lo%2C%20M.K.%20Ray%2C%20A.S.%20Therapeutic%20efficacy%20of%20the%20small%20molecule%20GS-5734%20against%20Ebola%20virus%20in%20rhesus%20monkeys%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Warren%2C%20T.K.%20Jordan%2C%20R.%20Lo%2C%20M.K.%20Ray%2C%20A.S.%20Therapeutic%20efficacy%20of%20the%20small%20molecule%20GS-5734%20against%20Ebola%20virus%20in%20rhesus%20monkeys%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Warren%2C%20T.K.%20Jordan%2C%20R.%20Lo%2C%20M.K.%20Ray%2C%20A.S.%20Therapeutic%20efficacy%20of%20the%20small%20molecule%20GS-5734%20against%20Ebola%20virus%20in%20rhesus%20monkeys%202016"
+        }
+    ],
+    "facts": [
+        "lt;p&gt;2019-nCoV has caused more than 560 deaths",
+        "many groups are working on the cytopathic effect",
+        "which will result in compounds with good activity",
+        "Identifying potential drug targets will be of great importance to understand the underlying mechanism of",
+        "which resulted in 208 binding pockets",
+        "Each submitted compound will be docked to these binding pockets by the docking software smina",
+        "the docking results will be presented in ascending order of compound-target interaction energy",
+        "the computational tool will shed some light on the potential drug target for the identified antivirals",
+        "the safety and efficacy are still need to be tested in randomized controlled trials.[4",
+        "most of the targets are unknown. many groups are working on the cytopathic effect",
+        "that the docking results will shed some light on the potential target identification",
+        "21 severe acute respiratory syndrome-related coronavirus 3D structures were downloaded from protein data bank[5",
+        "Magnesium ions are essential for the RNA-dependent RNA polymerase",
+        "other important proteins on the D3Targets-2019-nCoV database are summarized in Table 2",
+        "The database contains a total of 20 proteins",
+        "difficult to be obtained from experiments in a short time",
+        "among which pockets with the PPV",
+        "greater than 200 \u00c53 are selected for molecular docking",
+        "For each small molecule submitted for identifying potential targets",
+        "the docking simulations will be performed by smina,[17",
+        "which is a fork of AutoDock Vina[18",
+        "applied D3Pockets to explore the dynamic properties of potential pockets in 2019-nCoV Mpro",
+        "which are included in the D3Targets-2019-nCoV web server",
+        "RdRp has a score of -10.71",
+        "which ranks 1st among all protein pockets",
+        "Each submitted compound will be docked to these binding pockets by smina"
+    ],
+    "claims": [
+        "For 2019-nCoV RdRp, we modelled two Mg2+ from the superimposition of the HCV RdRp (PDB ID: 1NB67) palm domain to 2019-nCoV RdRp palm domain",
+        "We model the protein by robetta.9"
+    ],
+    "findings": [
+        "Human protease serine 2 a Number of Pockets: the number of potential binding pockets on the protein with the PPV greater than 200 \u00c53. b Pocket code with ligand: For each protein, all ligand binding sites of homologous proteins with sequence similarities greater than 80% are mapped to the pocket codes generated by the D3Pockets. c PDB ID: For 2019-nCoV proteins and Cathepsin L, the PDB ID refers to the template used for homology modeling"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Many groups are working on the cytopathic effect assay to fight against 2019-nCoV, which will result in compounds with good activity yet unknown targets",
+        "Identifying potential drug targets will be of great importance to understand the underlying mechanism of how the drug works",
+        "Once submitting hydrogenated homology-modeled proteins on the D3pockets web server, the pseudo-pocket volume and coordinates of predicted binding pockets in proteins could be calculated, among which pockets with the pseudo-pocket volume greater than 200 \u00c53 are selected for molecular docking",
+        "Based on the velocity-scaling optimized replica exchange molecular dynamics simulation trajectories at 300 K, we applied D3Pockets to explore the dynamic properties of potential pockets in 2019-nCoV Mpro",
+        "As the target of remdesivir, RNA-dependent RNA polymerase has a score of -10.71 kcal/mol in Pocket 1, which ranks 1st among all protein pockets (20 proteins, 208 pockets), demonstrating the predictive power of D3Targets-2019-nCoV",
+        "We compiled 3D structures of 17 2019-nCoV proteins and 3 related human proteins, which resulted in 208 binding pockets",
+        "Each submitted compound will be docked to these binding pockets by smina and the docking results will be presented in ascending order of compound-target interaction energy"
+    ],
+    "top_statements": [
+        "2019-nCoV1-3 has caused more than 360 deaths as of 3 February 2020 worldwide, mostly in China",
+        "Many groups are working on the cytopathic effect assay to fight against 2019-nCoV, which will result in compounds with good activity yet unknown targets",
+        "Identifying potential drug targets will be of great importance to understand the underlying mechanism of how the drug works",
+        "Once submitting hydrogenated homology-modeled proteins on the D3pockets web server, the pseudo-pocket volume and coordinates of predicted binding pockets in proteins could be calculated, among which pockets with the pseudo-pocket volume greater than 200 \u00c53 are selected for molecular docking",
+        "Based on the velocity-scaling optimized replica exchange molecular dynamics simulation trajectories at 300 K, we applied D3Pockets to explore the dynamic properties of potential pockets in 2019-nCoV Mpro",
+        "As the target of remdesivir, RNA-dependent RNA polymerase has a score of -10.71 kcal/mol in Pocket 1, which ranks 1st among all protein pockets (20 proteins, 208 pockets), demonstrating the predictive power of D3Targets-2019-nCoV"
+    ],
+    "headline": "Many groups are working on the cytopathic effect assay to fight against 2019-nCoV, which will result in compounds with good activity yet unknown targets",
+    "contexts": [],
+    "abbreviations": {
+        "TCM": "Traditional Chinese medicine Lian-Hua Qing-Wen Capsule/Granule",
+        "RdRp": "RNA-dependent RNA polymerase",
+        "PPV": "pseudo-pocket volume",
+        "vsREMD": "velocity-scaling optimized replica exchange molecular dynamics",
+        "PME": "Particle mesh Ewald"
+    }
+}

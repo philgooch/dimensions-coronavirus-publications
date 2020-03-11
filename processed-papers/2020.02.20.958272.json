@@ -1,0 +1,823 @@
+{
+    "filename": "2020.02.20.958272.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 591943,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.20.958272",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/21/2020.02.20.958272.full.pdf"
+        },
+        "title": "A Multiscale and Comparative Model for Receptor Binding of 2019 Novel Coronavirus and the Implication of its Life Cycle in Host Cells",
+        "author": "Zhaoqian Su, Yinghao Wu",
+        "date": 2020,
+        "affiliations": [
+            "Department of Systems and Computational Biology, Albert Einstein College of"
+        ],
+        "abstract": "ABSTRACTThe respiratory syndrome caused by a new type of coronavirus has been emerging from China and caused more than 1000 death globally since December 2019. This new virus, called 2019 novel coronavirus (2019-nCoV) uses the same receptor called Angiotensinconverting enzyme 2 (ACE2) to attack humans as the coronavirus that caused the severe acute respiratory syndrome (SARS) seventeen years ago. Both viruses recognize ACE2 through the spike proteins (S-protein) on their surfaces. It was found that the S-protein from the SARS coronavirus (SARS-CoV) bind stronger to ACE2 than 2019-nCoV. However, function of a bio-system is often under kinetic, rather than thermodynamic, control. To address this issue, we constructed a structural model for complex formed between ACE2 and the S-protein from 2019-nCoV, so that the rate of their association can be estimated and compared with the binding of S-protein from SARS-CoV by a multiscale simulation method. Our simulation results suggest that the association of new virus to the receptor is slower than SARS, which is consistent with the experimental data obtained very recently. We further integrated this difference of association rate between virus and receptor into a mathematical model which describes the life cycle of virus in host cells and its interplay with the innate immune system. Interestingly, we found that the slower association between virus and receptor can result in longer incubation period, while still maintaining a relatively higher level of viral concentration in human body. Our computational study therefore provides, from the molecular level, one possible explanation that the new disease by far spread much faster than SARS.",
+        "references": "@misc{huang2020a,\n  author = {Huang, C.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet},\n  date = {2020},\n  pages = {395\u201310223},\n  more-authors = {true},\n  language = {},\n  address = {London, England}\n}\n@misc{chan2020a,\n  author = {Chan, J.F.-W.},\n  title = {A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet},\n  date = {2020},\n  pages = {395\u201310223},\n  more-authors = {true},\n  language = {},\n  address = {London, England}\n}\n@book{carlos2019a,\n  author = {Carlos, W.G.},\n  date = {2019},\n  title = {Coronavirus. American journal of respiratory and critical care medicine, 2020},\n  pages = \"p. P7-P8.\" # \"395(10221): p. 311-311.\",\n  publisher = {The, L., Emerging understandings of 2019-nCoV. Lancet},\n  more-authors = {true},\n  unmatched-pages = {395(10221): p. 311-311.},\n  language = {},\n  address = {London, England}\n}\n@article{wu-a,\n  author = {Wu, F.},\n  title = {A new coronavirus associated with human respiratory disease in China},\n  journal = {Nature},\n  pages = {2020\u201310},\n  more-authors = {true},\n  language = {}\n}\n@misc{lu-a,\n  author = {Lu, R.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet},\n  pages = {2020\u20130140},\n  more-authors = {true},\n  language = {},\n  address = {London, England}\n}\n@article{qin2019a,\n  author = {Qin, P.},\n  title = {Characteristics of the Life Cycle of Porcine Deltacoronavirus (PDCoV) In Vitro: Replication Kinetics, Cellular Ultrastructure and Virion Morphology, and Evidence of Inducing Autophagy},\n  journal = {Viruses},\n  date = {2019},\n  pages = {11\u20135},\n  more-authors = {true},\n  language = {}\n}\n@article{qinfen2004a,\n  author = {Qinfen, Z.},\n  title = {The life cycle of SARS coronavirus in Vero E6 cells},\n  journal = {Journal of medical virology},\n  date = {2004},\n  pages = {73\u20133},\n  more-authors = {true},\n  language = {}\n}\n@article{habibzadeh-a,\n  author = {Habibzadeh, P. and Stoneman, E.K.},\n  title = {The Novel Coronavirus: A Bird's Eye View},\n  journal = {The international journal of occupational and environmental medicine},\n  volume = {2020},\n  pages = {11\u20132},\n  language = {}\n}\n@article{han2020a,\n  author = {Han, W.},\n  title = {The course of clinical diagnosis and treatment of a case infected with coronavirus disease 2019},\n  journal = {Journal of medical virology},\n  date = {2020},\n  pages = {10\u20131002},\n  booktitle = {Special Expert Group for Control of the Epidemic of Novel Coronavirus Pneumonia of the},\n  more-authors = {true},\n  language = {}\n}\n@misc{unknown2020a,\n  title = {Chinese Preventive Medicine, A., An update on the epidemiological characteristics of novel coronavirus pneumonia COVID-19. Zhonghua liu xing bing xue za zhi = Zhonghua liuxingbingxue zazhi},\n  date = {2020},\n  pages = {41\u20132},\n  language = {}\n}\n@article{lipsitch2020a,\n  author = {Lipsitch, M. and Swerdlow, D.L. and Finelli, L.},\n  title = {Defining the Epidemiology of Covid-19 Studies Needed},\n  journal = {The New England journal of medicine},\n  date = {2020},\n  pages = {10\u20131056},\n  language = {}\n}\n@article{zhang-a,\n  author = {Zhang, L. and Liu, Y.},\n  title = {Potential Interventions for Novel Coronavirus in China: A Systematic},\n  journal = {Review. Journal of medical virology},\n  pages = {2020\u201310},\n  language = {}\n}\n@article{gallagher2001a,\n  author = {Gallagher, T.M. and Buchmeier, M.J.},\n  title = {Coronavirus spike proteins in viral entry and pathogenesis},\n  journal = {Virology},\n  date = {2001},\n  pages = {279\u20132},\n  language = {}\n}\n@article{belouzard2012a,\n  author = {Belouzard, S.},\n  title = {Mechanisms of coronavirus cell entry mediated by the viral spike protein},\n  journal = {Viruses},\n  date = {2012},\n  pages = {4\u20136},\n  more-authors = {true},\n  language = {}\n}\n@article{li2016a,\n  author = {Li, F. and Structure, Function},\n  title = {and Evolution of Coronavirus Spike Proteins},\n  journal = {Annual review of virology},\n  date = {2016},\n  pages = {3\u20131},\n  language = {}\n}\n@article{li2005a,\n  author = {Li, F.},\n  title = {Structure of SARS coronavirus spike receptor-binding domain complexed with receptor},\n  unknown = {Science (New},\n  journal = {Y.)},\n  date = {2005},\n  pages = {309\u20135742},\n  unmatched-author = {York, N.},\n  more-authors = {true},\n  language = {}\n}\n@article{du2009a,\n  author = {Du, L.},\n  title = {The spike protein of SARS-CoV--a target for vaccine and therapeutic development},\n  journal = {Nature reviews. Microbiology},\n  date = {2009},\n  volume = {7},\n  pages = {226\u2013236},\n  more-authors = {true},\n  number = {3},\n  language = {}\n}\n@article{zhou-a,\n  author = {Zhou, P.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  pages = {2020\u201310},\n  more-authors = {true},\n  language = {}\n}\n@article{hattne2005a,\n  author = {Hattne, J. and Fange, D. and Elf, J.},\n  title = {Stochastic reaction-diffusion simulation with MesoRD},\n  journal = {Bioinformatics},\n  date = {2005},\n  volume = {21},\n  pages = {2923\u20134},\n  number = {12},\n  language = {}\n}\n@article{ander2004a,\n  author = {Ander, M.},\n  title = {a framework to simulate cellular processes that combines stochastic approximation with diffusion and localisation: analysis of simple networks},\n  journal = {Syst Biol (Stevenage)},\n  date = {2004},\n  pages = {1\u20131},\n  more-authors = {true},\n  language = {}\n}\n@article{rodriguez2006a,\n  author = {Rodriguez, J.V.},\n  title = {Spatial stochastic modelling of the phosphoenolpyruvatedependent phosphotransferase (PTS) pathway in Escherichia coli},\n  journal = {Bioinformatics},\n  date = {2006},\n  pages = {22\u201315},\n  more-authors = {true},\n  language = {}\n}\n@article{ando2010a,\n  author = {Ando, T. and Skolnick, J.},\n  title = {Crowding and hydrodynamic interactions likely dominate in vivo macromolecular motion},\n  journal = {Proceedings of the National Academy of Sciences of the United States of America},\n  date = {2010},\n  pages = {107\u201343},\n  language = {}\n}\n@article{mcguffee2010a,\n  author = {McGuffee, S.R. and Elcock, A.H. and Diffusion},\n  title = {Crowding & Protein Stability in a Dynamic Molecular Model of the Bacterial Cytoplasm},\n  journal = {Plos Computational Biology},\n  date = {2010},\n  volume = {6},\n  pages = {61\u2013283},\n  unmatched-author = {Chakraborty, A. K. and A. Kosmrlj,},\n  source = {Statistical mechanical concepts in immunology},\n  unmatched-journal = {Annual review of physical chemistry,},\n  number = {3},\n  language = {}\n}\n@article{wang2015a,\n  author = {Wang, S.},\n  title = {Manipulating the selection forces during affinity maturation to generate cross-reactive HIV antibodies},\n  journal = {Cell},\n  date = {2015},\n  pages = {160\u20134},\n  more-authors = {true},\n  language = {}\n}\n@article{wrapp-a,\n  author = {Wrapp, D.},\n  title = {Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation},\n  journal = {Science (New York, N. Y.)},\n  pages = {2020\u20132507},\n  more-authors = {true},\n  language = {}\n}\n@article{gabdoulline2002a,\n  author = {Gabdoulline, R.R. and Wade, R.C.},\n  title = {Biomolecular diffusional association},\n  journal = {Curr Opin Struct Biol},\n  date = {2002},\n  pages = {12\u20132},\n  language = {}\n}\n@article{zhou2010a,\n  author = {Zhou, H.X.},\n  title = {Rate theories for biologists},\n  journal = {Q Rev Biophys},\n  date = {2010},\n  pages = {43\u20132},\n  language = {}\n}\n@article{everett1999a,\n  author = {Everett, H. and McFadden, G.},\n  title = {Apoptosis: an innate immune response to virus infection},\n  journal = {Trends Microbiol},\n  date = {1999},\n  pages = {7\u20134},\n  language = {}\n}\n@article{loo2011a,\n  author = {Loo, Y.M. and Gale, Jr, M.},\n  title = {Immune signaling by RIG-I-like receptors},\n  journal = {Immunity},\n  date = {2011},\n  volume = {34},\n  pages = {680\u201392},\n  number = {5},\n  language = {}\n}\n@article{subramanian2013a,\n  author = {Subramanian, N.},\n  title = {The adaptor MAVS promotes NLRP3 mitochondrial localization and inflammasome activation},\n  journal = {Cell},\n  date = {2013},\n  pages = {153\u20132},\n  more-authors = {true},\n  language = {}\n}\n@article{koshiba2013a,\n  author = {Koshiba, T.},\n  title = {Mitochondrial-mediated antiviral immunity},\n  journal = {Biochim Biophys Acta},\n  date = {2013},\n  pages = {1833\u20131},\n  language = {}\n}\n@article{sasaki2013a,\n  author = {Sasaki, O.},\n  title = {A structural perspective of the MAVS-regulatory mechanism on the mitochondrial outer membrane using bioluminescence resonance energy transfer},\n  journal = {Biochim Biophys Acta},\n  date = {2013},\n  pages = {1833\u20135},\n  more-authors = {true},\n  language = {}\n}\n@misc{heymann-a,\n  author = {Heymann, D.L.},\n  title = {COVID- 19: what is next for public health? Lancet},\n  pages = {2020\u20130140},\n  more-authors = {true},\n  language = {},\n  address = {London, England}\n}\n@misc{chen2020a,\n  author = {Chen, N.},\n  title = {Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet},\n  date = {2020},\n  pages = {395\u201310223},\n  more-authors = {true},\n  language = {},\n  address = {London, England}\n}\n@article{li2020a,\n  author = {Li, Q.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel CoronavirusInfected Pneumonia},\n  journal = {The New England journal of medicine},\n  date = {2020},\n  pages = {10\u20131056},\n  more-authors = {true},\n  language = {}\n}\n@article{roy2010a,\n  author = {Roy, A. and Kucukural, A. and Zhang, Y.},\n  title = {I-TASSER: a unified platform for automated protein structure and function prediction},\n  journal = {Nat Protoc},\n  date = {2010},\n  pages = {5\u20134},\n  language = {}\n}\n@article{wan-a,\n  author = {Wan, Y.},\n  title = {Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS},\n  journal = {Journal of virology},\n  pages = {2020\u20130012720},\n  more-authors = {true},\n  language = {}\n}\n@article{guerler2013a,\n  author = {Guerler, A. and Govindarajoo, B. and Zhang, Y.},\n  title = {Mapping monomeric threading to proteinprotein structure prediction},\n  journal = {J Chem Inf Model},\n  date = {2013},\n  pages = {53\u20133},\n  language = {}\n}\n@article{mukherjee2011a,\n  author = {Mukherjee, S. and Zhang, Y.},\n  title = {Protein-protein complex structure predictions by multimeric threading and template recombination},\n  journal = {Structure},\n  date = {2011},\n  pages = {955\u201366},\n  language = {}\n}\n@article{xie2017a,\n  author = {Xie, Z.R. and Chen, J. and Wu, Y.},\n  title = {Predicting Protein-protein Association Rates using Coarsegrained Simulation and Machine Learning},\n  journal = {Sci Rep},\n  date = {2017},\n  pages = {7\u201346622},\n  language = {}\n}\n@article{chen2017a,\n  author = {Chen, J. and Almo, S.C. and Wu, Y.},\n  title = {General principles of binding between cell surface receptors and multi-specific ligands: A computational study},\n  journal = {PLoS Comput Biol},\n  date = {2017},\n  pages = {13\u201310},\n  language = {}\n}\n@article{chen2016a,\n  author = {Chen, J. and Xie, Z.R. and Wu, Y.},\n  title = {Elucidating the general principles of cell adhesion with a coarse-grained simulation model},\n  journal = {Mol Biosyst},\n  date = {2016},\n  pages = {12\u20131},\n  language = {}\n}\n@article{xie2014a,\n  author = {Xie, Z.-R. and Chen, J. and Wu, Y.},\n  title = {A coarse-grained model for the simulations of biomolecular interactions in cellular environments},\n  journal = {Journal of Chemical Physics},\n  date = {2014},\n  pages = {140\u2013054112},\n  language = {}\n}\n@article{gillespie-a,\n  author = {Gillespie, D.T.},\n  title = {Stochastic simulation of chemical kinetics, in Annual Review of},\n  journal = {Physical Chemistry. 2007, Annual Reviews: Palo Alto},\n  pages = {35\u201355},\n  language = {}\n}\n",
+        "emails": [
+            "E-mail:yinghao.wu@einstein.yu.edu"
+        ],
+        "references_ris": "TY  - GEN\nAU  - Huang, C.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet\nPY  - 2020\nDA  - 2020\nSP  - 395\nEP  - 10223\nC1  - true\nLA  - \nCY  - London, England\nER  - \n\nTY  - GEN\nAU  - Chan, J.F.-W.\nTI  - A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet\nPY  - 2020\nDA  - 2020\nSP  - 395\nEP  - 10223\nC1  - true\nLA  - \nCY  - London, England\nER  - \n\nTY  - BOOK\nAU  - Carlos, W.G.\nPY  - 2019\nDA  - 2019\nTI  - Coronavirus. American journal of respiratory and critical care medicine, 2020\nSP  - \"p. P7\nEP  - P8.\" # \"395(10221): p. 311\nPB  - The, L., Emerging understandings of 2019-nCoV. Lancet\nC1  - true\nC1  - 395(10221): p. 311-311.\nLA  - \nCY  - London, England\nER  - \n\nTY  - JOUR\nAU  - Wu, F.\nTI  - A new coronavirus associated with human respiratory disease in China\nT2  - Nature\nSP  - 2020\nEP  - 10\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Lu, R.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet\nSP  - 2020\nEP  - 0140\nC1  - true\nLA  - \nCY  - London, England\nER  - \n\nTY  - JOUR\nAU  - Qin, P.\nTI  - Characteristics of the Life Cycle of Porcine Deltacoronavirus (PDCoV) In Vitro: Replication Kinetics, Cellular Ultrastructure and Virion Morphology, and Evidence of Inducing Autophagy\nT2  - Viruses\nPY  - 2019\nDA  - 2019\nSP  - 11\nEP  - 5\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Qinfen, Z.\nTI  - The life cycle of SARS coronavirus in Vero E6 cells\nT2  - Journal of medical virology\nPY  - 2004\nDA  - 2004\nSP  - 73\nEP  - 3\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Habibzadeh, P.\nAU  - Stoneman, E.K.\nTI  - The Novel Coronavirus: A Bird's Eye View\nT2  - The international journal of occupational and environmental medicine\nVL  - 2020\nSP  - 11\nEP  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Han, W.\nTI  - The course of clinical diagnosis and treatment of a case infected with coronavirus disease 2019\nT2  - Journal of medical virology\nPY  - 2020\nDA  - 2020\nSP  - 10\nEP  - 1002\nT2  - Special Expert Group for Control of the Epidemic of Novel Coronavirus Pneumonia of the\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nTI  - Chinese Preventive Medicine, A., An update on the epidemiological characteristics of novel coronavirus pneumonia COVID-19. Zhonghua liu xing bing xue za zhi = Zhonghua liuxingbingxue zazhi\nPY  - 2020\nDA  - 2020\nSP  - 41\nEP  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lipsitch, M.\nAU  - Swerdlow, D.L.\nAU  - Finelli, L.\nTI  - Defining the Epidemiology of Covid-19 Studies Needed\nT2  - The New England journal of medicine\nPY  - 2020\nDA  - 2020\nSP  - 10\nEP  - 1056\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, L.\nAU  - Liu, Y.\nTI  - Potential Interventions for Novel Coronavirus in China: A Systematic\nT2  - Review. Journal of medical virology\nSP  - 2020\nEP  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gallagher, T.M.\nAU  - Buchmeier, M.J.\nTI  - Coronavirus spike proteins in viral entry and pathogenesis\nT2  - Virology\nPY  - 2001\nDA  - 2001\nSP  - 279\nEP  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Belouzard, S.\nTI  - Mechanisms of coronavirus cell entry mediated by the viral spike protein\nT2  - Viruses\nPY  - 2012\nDA  - 2012\nSP  - 4\nEP  - 6\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, F.\nAU  - Structure, Function\nTI  - and Evolution of Coronavirus Spike Proteins\nT2  - Annual review of virology\nPY  - 2016\nDA  - 2016\nSP  - 3\nEP  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, F.\nTI  - Structure of SARS coronavirus spike receptor-binding domain complexed with receptor\nC1  - Science (New\nT2  - Y.)\nPY  - 2005\nDA  - 2005\nSP  - 309\nEP  - 5742\nC1  - York, N.\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Du, L.\nTI  - The spike protein of SARS-CoV--a target for vaccine and therapeutic development\nT2  - Nature reviews. Microbiology\nPY  - 2009\nDA  - 2009\nVL  - 7\nSP  - 226\nEP  - 236\nC1  - true\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nSP  - 2020\nEP  - 10\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hattne, J.\nAU  - Fange, D.\nAU  - Elf, J.\nTI  - Stochastic reaction-diffusion simulation with MesoRD\nT2  - Bioinformatics\nPY  - 2005\nDA  - 2005\nVL  - 21\nSP  - 2923\nEP  - 4\nIS  - 12\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ander, M.\nTI  - a framework to simulate cellular processes that combines stochastic approximation with diffusion and localisation: analysis of simple networks\nT2  - Syst Biol (Stevenage)\nPY  - 2004\nDA  - 2004\nSP  - 1\nEP  - 1\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rodriguez, J.V.\nTI  - Spatial stochastic modelling of the phosphoenolpyruvatedependent phosphotransferase (PTS) pathway in Escherichia coli\nT2  - Bioinformatics\nPY  - 2006\nDA  - 2006\nSP  - 22\nEP  - 15\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ando, T.\nAU  - Skolnick, J.\nTI  - Crowding and hydrodynamic interactions likely dominate in vivo macromolecular motion\nT2  - Proceedings of the National Academy of Sciences of the United States of America\nPY  - 2010\nDA  - 2010\nSP  - 107\nEP  - 43\nLA  - \nER  - \n\nTY  - JOUR\nAU  - McGuffee, S.R.\nAU  - Elcock, A.H.\nAU  - Diffusion\nTI  - Crowding & Protein Stability in a Dynamic Molecular Model of the Bacterial Cytoplasm\nT2  - Plos Computational Biology\nPY  - 2010\nDA  - 2010\nVL  - 6\nSP  - 61\nEP  - 283\nC1  - Chakraborty, A. K. and A. Kosmrlj,\nT2  - Statistical mechanical concepts in immunology\nC1  - Annual review of physical chemistry,\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, S.\nTI  - Manipulating the selection forces during affinity maturation to generate cross-reactive HIV antibodies\nT2  - Cell\nPY  - 2015\nDA  - 2015\nSP  - 160\nEP  - 4\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wrapp, D.\nTI  - Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation\nT2  - Science (New York, N. Y.)\nSP  - 2020\nEP  - 2507\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gabdoulline, R.R.\nAU  - Wade, R.C.\nTI  - Biomolecular diffusional association\nT2  - Curr Opin Struct Biol\nPY  - 2002\nDA  - 2002\nSP  - 12\nEP  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, H.X.\nTI  - Rate theories for biologists\nT2  - Q Rev Biophys\nPY  - 2010\nDA  - 2010\nSP  - 43\nEP  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Everett, H.\nAU  - McFadden, G.\nTI  - Apoptosis: an innate immune response to virus infection\nT2  - Trends Microbiol\nPY  - 1999\nDA  - 1999\nSP  - 7\nEP  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Loo, Y.M.\nAU  - Gale, Jr, M.\nTI  - Immune signaling by RIG-I-like receptors\nT2  - Immunity\nPY  - 2011\nDA  - 2011\nVL  - 34\nSP  - 680\nEP  - 92\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Subramanian, N.\nTI  - The adaptor MAVS promotes NLRP3 mitochondrial localization and inflammasome activation\nT2  - Cell\nPY  - 2013\nDA  - 2013\nSP  - 153\nEP  - 2\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Koshiba, T.\nTI  - Mitochondrial-mediated antiviral immunity\nT2  - Biochim Biophys Acta\nPY  - 2013\nDA  - 2013\nSP  - 1833\nEP  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sasaki, O.\nTI  - A structural perspective of the MAVS-regulatory mechanism on the mitochondrial outer membrane using bioluminescence resonance energy transfer\nT2  - Biochim Biophys Acta\nPY  - 2013\nDA  - 2013\nSP  - 1833\nEP  - 5\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Heymann, D.L.\nTI  - COVID- 19: what is next for public health? Lancet\nSP  - 2020\nEP  - 0140\nC1  - true\nLA  - \nCY  - London, England\nER  - \n\nTY  - GEN\nAU  - Chen, N.\nTI  - Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet\nPY  - 2020\nDA  - 2020\nSP  - 395\nEP  - 10223\nC1  - true\nLA  - \nCY  - London, England\nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel CoronavirusInfected Pneumonia\nT2  - The New England journal of medicine\nPY  - 2020\nDA  - 2020\nSP  - 10\nEP  - 1056\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Roy, A.\nAU  - Kucukural, A.\nAU  - Zhang, Y.\nTI  - I-TASSER: a unified platform for automated protein structure and function prediction\nT2  - Nat Protoc\nPY  - 2010\nDA  - 2010\nSP  - 5\nEP  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wan, Y.\nTI  - Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS\nT2  - Journal of virology\nSP  - 2020\nEP  - 0012720\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Guerler, A.\nAU  - Govindarajoo, B.\nAU  - Zhang, Y.\nTI  - Mapping monomeric threading to proteinprotein structure prediction\nT2  - J Chem Inf Model\nPY  - 2013\nDA  - 2013\nSP  - 53\nEP  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Mukherjee, S.\nAU  - Zhang, Y.\nTI  - Protein-protein complex structure predictions by multimeric threading and template recombination\nT2  - Structure\nPY  - 2011\nDA  - 2011\nSP  - 955\nEP  - 66\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xie, Z.R.\nAU  - Chen, J.\nAU  - Wu, Y.\nTI  - Predicting Protein-protein Association Rates using Coarsegrained Simulation and Machine Learning\nT2  - Sci Rep\nPY  - 2017\nDA  - 2017\nSP  - 7\nEP  - 46622\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, J.\nAU  - Almo, S.C.\nAU  - Wu, Y.\nTI  - General principles of binding between cell surface receptors and multi-specific ligands: A computational study\nT2  - PLoS Comput Biol\nPY  - 2017\nDA  - 2017\nSP  - 13\nEP  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, J.\nAU  - Xie, Z.R.\nAU  - Wu, Y.\nTI  - Elucidating the general principles of cell adhesion with a coarse-grained simulation model\nT2  - Mol Biosyst\nPY  - 2016\nDA  - 2016\nSP  - 12\nEP  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xie, Z.-R.\nAU  - Chen, J.\nAU  - Wu, Y.\nTI  - A coarse-grained model for the simulations of biomolecular interactions in cellular environments\nT2  - Journal of Chemical Physics\nPY  - 2014\nDA  - 2014\nSP  - 140\nEP  - 054112\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gillespie, D.T.\nTI  - Stochastic simulation of chemical kinetics, in Annual Review of\nT2  - Physical Chemistry. 2007, Annual Reviews: Palo Alto\nSP  - 35\nEP  - 55\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [
+            "In summary, it is important to point out that the life cycles of different coronaviruses can also be caused by many other factors such as the difference in the assembling pathways of these viruses. Additionally, the infectious response of each individual is also a case-dependent issue, relying on the expression levels of ACE2 receptors and the heterogeneity of immune response in different patients. Nevertheless, our multiscale computational model highlights the potential role of binding kinetics between human receptor and S-proteins from different coronavirus in, and provided the possible mechanism from the molecular level to their impacts on, regulating the dynamics of the entire viral life cycle."
+        ],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "A mesoscopic model is constructed to simulate the kinetic process about how 3 viruses are captured by the cell surface receptors on plasma membrane (a). The plasma 4 membrane is represented by a flat surface below the extracellular region, which contains 5 a number of ACE2 receptors (pink). The space above the plasma membrane represents 6 the extracellular region which contains a number of coronaviruses (golden). Each virus is 7 simplified as a spherical rigid body with trimeric S-proteins uniformly distributed on its 8 surface (green dots). Each S-protein monomer can interact with an ACE2 receptor on the 9 plasma membrane. The rate of their association was estimated by Monte-Carlo 10 simulations based on the structure models of complexes between ACE2 and RBD 11 domains from S-proteins of different coronavirus (b). The proteins in the figure are coded 12 by different color index"
+            },
+            {
+                "id": "2",
+                "caption": "We used structure-based kinetic Monte-Carlo simulations to estimate the association between ACE2 and S-proteins from SARS-CoV and 2019-nCoV. For each system, 200 simulation trajectories were generated. Based on these trajectories, the calculated probabilities of association are plotted in (a). We found that the association between ACE2 and SARS-CoV S-proteins (right column) is faster than the association between ACE2 and 2019-nCoV S-protein (left column). We then fed the information into the rigid-body-based simulations. The simulations show the total numbers of viruses that were captured by host cells increased as a function of simulation time (b). Moreover, we found that during the early stage of simulations, more SARS-CoV (black curve) attach to host cells than 2019-nCoV (red curve)"
+            },
+            {
+                "id": "3",
+                "caption": "A mathematical model was proposed to delineate the simplified process of viral life cycle, including its replication and packaging in host cells, the inflammatory signaling pathways due to the detection of foreign pathogens, and the follow-up inflammatory responses which lead to the apoptosis of infected cells and the removal of viruses by the recruitment of immune cells. The meaning of each variable in the diagram is specified on the right. The system can further be described by a set of ordinary differential equations, as written from Equation (1) to Equation (7) in the main text"
+            },
+            {
+                "id": "4",
+                "caption": "Given predefined weights for all the rate parameters and the initial values for 2 each variable in the model, the dynamics of the system is evolved as a function of time by 3 solving the mathematical model numerically with a stochastic simulation algorithm. The 4 figure suggests that the dynamics of the system can be divided into three stages (a). We 5 further applied the model to two comparative systems. A relatively fast viral binding rate 6 kb was adopted in the first system to represent the binding process of SARS, while a 7 relatively slow rate was adopted in the second to represent the binding process of 20198 nCoV. As shown in (b), we found that the first stage in the simulation of 2019-nCoV (red 9 curve) is longer than the simulation of SARS (black curve), while the level of free virus 10 at the end of the first period in 2019-nCoV is relatively higher than the corresponding 11 level of free virus in SARS"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.20.958272.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.20.958272.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.20.958272.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.20.958272.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.20.958272.full/img-004.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "The coronavirus disease 2019 (COVID-19) has emerged at the end of year 2019 from Wuhan, a city in China, as a new infectious disease [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. It has been found that the disease is caused by a new member of coronavirus family, 2019-nCoV [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Like others in the same virus family, such as the coronavirus causing SARS [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], 2019-nCoV is a single and positive-stranded RNA virus enveloped by lipid bilayer. The virus can capture and enter host cells in human through targeting specific receptors on their surface. Upon entry, the viral genome is released through membrane fusion. The released RNA genome of the virus is then replicated and translated into various types of viral proteins. The replicated RNA genome and synthesized viral proteins are finally assembled together into new viruses, before they escape and attack other cells [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. As a result, the infections of"
+        ],
+        "results": [
+            "<strong>Results and Discussions</strong><br/><br/>A rigid-body (RB) based model is first constructed to simulate the kinetic process about how viruses are captured by the cell surface receptors on plasma membrane. In brief, within a three-dimensional simulation box, the plasma membrane is represented by a flat surface below the extracellular region. The area of the square is 1 \u03bcm2, while the height of the simulation box is 500 nm. A number of ACE2 receptors (200) are initially placed on the membrane surface (pink in Figure 1a). They are represented by rigid bodies of cylinders and their binding sites are located on top of the cylinders (red dots in<br/><br/>Figure 1a). The height of each cylinder is 10nm and its radius is 5nm. On the other hand, space above the plasma membrane represents the extracellular region. A number of coronaviruses are located in this area (golden in Figure 1a). Each virus is simplified as a spherical rigid body with a given radius (40nm). Trimeric S-proteins are uniformly distributed on the spherical surface of each virus (green dots in Figure 1a). Each S-"
+        ],
+        "methods": [
+            "Given predefined weights for all the simulation parameters and the initial values for each element, the dynamics of the system is evolved as a function of time. The simulation results of the mathematical model are summarized in Figure 4. As shown by the red curve in Figure 4a, the change of free virus in the system can be divided into three stages. It first decreases from its initial value. After reaching the minimal level, the number of virus then bounces back in the second phase until it drops again and finally vanishes at the end of the third phase. Relative to the free virus, the number of virus captured by host cells equals 0 at the beginning of the simulation. It increases in the first stage and diminishes in the second, as shown by the blue curve in the figure. In the third phase, very few viruses bound to host cells are detected in the system. Corresponding to the change of virus, the number of healthy cells is plotted as the black curve. The curve shows that the level of healthy cells reduces from the beginning and rises only after all free viruses are removed from the systems. Based on these kinetic profiles, the dynamics of the system can thus be interpreted as follows. In the first stage of simulation, free viruses invade into the healthy cells by binding to the receptors on their surface. We suggest that this stage corresponds to the incubation period. In the second stage, new viruses are assembled in and released from the infected cells. At the same moment, the viral genomes left in the infected cells stimulate the immune response. As a result, the total amount of virus is gradually lowered in the third phase, indicating that these viruses are cleared up by the innate immune system. After the removal of all viruses, the healthy cells in the system grow again, representing the recovery of the patient.",
+            "Construct the structural models for the complexes between receptors and viral S-proteins<br/><br/>The atomic structures of complex between ACE receptor and different viral S-<br/><br/>proteins are needed for the simulations of their association. The structural models of these protein complexes were prepared as follows. The complex structure between human<br/><br/>ACE2 and the RBD domain from the S-protein of SARS was determined by the x-ray crystallography experiment (PDB id 2AJF) [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. On the other hand, the structural model of the complex between human ACE2 and the RBD domain from the S-protein of 2019-<br/><br/>nCoV was constructed by computational modeling. In detail, the atomic structure of<br/><br/>2019-nCoV S-protein RBD domain was first predicted by I-TASSER [<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>] based on the newly released sequence of 2019-nCoV [<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>]. In parallel, the backbone model of the complex between human ACE2 and the RBD domain from 2019-nCoV S-protein was generated using the template-based structure prediction tool COTH [<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>, <a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]. We then superimposed the predicted atomic coordinates of 2019-nCoV S-protein RBD domain onto its relative backbone position in the complex model, and also aligned the atomic coordinates of human ACE2 from the crystal structure onto the relative backbone position in the complex model. As a result, the structural comparison of these two protein complexes is plotted in Figure 1b."
+        ],
+        "conclusions": [
+            "The recent outbreak of COVID-19 has drawn substantial attention especially after it spread to more than thirty countries and became a Public Health Emergency of<br/><br/>International Concern (PHEIC) [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>, <a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>]. The disease is caused by a new type of positive-stranded RNA virus, known as 2019-nCoV. Similar as the coronavirus that leads to SARS, it has been confirmed that the S-protein in 2019-nCoV also mediates its recognition with the human receptor ACE2. However, the differences of receptor binding in these two virus systems and their underlying implications are not well understood. It has been found that the kinetic aspect of binding between biomolecules in many biological systems is usually more important to their functions. Here, using computational structural prediction and coarse-grained simulations, we first have compared the association rate of binding between ACE2 and the S-protein from SARS-"
+        ],
+        "acknowledgement": [
+            "This work was supported by the National Institutes of Health under Grant Numbers<br/><br/>R01GM120238 and R01GM122804. The work is also partially supported by a start-up grant from Albert Einstein College of Medicine. Computational support was provided by<br/><br/>Albert Einstein College of Medicine High Performance Computing Center.<br/><br/>Author Contributions<br/><br/>Y.W. designed research; Z.S. and Y.W. performed research; Z.S. and Y.W. analyzed data;<br/><br/>Y.W. wrote the paper."
+        ],
+        "disclosures": [
+            "Competing financial interests: The authors declare no competing financial interests."
+        ],
+        "funding": [
+            "This work was supported by the National Institutes of Health under Grant Numbers R01GM120238 and R01GM122804",
+            "The work is also partially supported by a start-up grant from Albert Einstein College of Medicine"
+        ]
+    },
+    "structured_content": {
+        "A Multiscale and Comparative Model for Receptor Binding of 2019": [],
+        "ABSTRACT": [
+            "The respiratory syndrome caused by a new type of coronavirus has been emerging from",
+            "China and caused more than 1000 death globally since December 2019. This new virus, called 2019 novel coronavirus (2019-nCoV) uses the same receptor called Angiotensinconverting enzyme 2 (ACE2) to attack humans as the coronavirus that caused the severe acute respiratory syndrome (SARS) seventeen years ago. Both viruses recognize ACE2 through the spike proteins (S-protein) on their surfaces. It was found that the S-protein from the SARS coronavirus (SARS-CoV) bind stronger to ACE2 than 2019-nCoV.",
+            "However, function of a bio-system is often under kinetic, rather than thermodynamic, control. To address this issue, we constructed a structural model for complex formed between ACE2 and the S-protein from 2019-nCoV, so that the rate of their association can be estimated and compared with the binding of S-protein from SARS-CoV by a multiscale simulation method. Our simulation results suggest that the association of new virus to the receptor is slower than SARS, which is consistent with the experimental data obtained very recently. We further integrated this difference of association rate between virus and receptor into a mathematical model which describes the life cycle of virus in host cells and its interplay with the innate immune system. Interestingly, we found that the slower association between virus and receptor can result in longer incubation period, while still maintaining a relatively higher level of viral concentration in human body. Our computational study therefore provides, from the molecular level, one possible explanation that the new disease by far spread much faster than SARS."
+        ],
+        "Introduction": [
+            "The coronavirus disease 2019 (COVID-19) has emerged at the end of year 2019 from Wuhan, a city in China, as a new infectious disease [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. It has been found that the disease is caused by a new member of coronavirus family, 2019-nCoV [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Like others in the same virus family, such as the coronavirus causing SARS [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], 2019-nCoV is a single and positive-stranded RNA virus enveloped by lipid bilayer. The virus can capture and enter host cells in human through targeting specific receptors on their surface. Upon entry, the viral genome is released through membrane fusion. The released RNA genome of the virus is then replicated and translated into various types of viral proteins. The replicated RNA genome and synthesized viral proteins are finally assembled together into new viruses, before they escape and attack other cells [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. As a result, the infections of",
+            "2019-nCoV normally come with the similar symptoms as SARS, including fever, respiratory difficulty and pneumonia [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>, <a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. Different from SARS, however, the new",
+            "COVID-19 seems to have longer incubation period and thus is more contagious [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. The disease has caused more than 70,000 confirmed cases with at least 1000 death globally, according to the data from the World Health Organization (WHO) on February 16th 2020.",
+            "Therefore, the development of vaccine or therapeutic treatment for this ongoing public health crisis is highly demanding [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>].",
+            "Almost all the coronaviruses recognize their host cells through spike (S) proteins [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. S-protein is a glycoprotein expressed on the surface of viral envelop as homotrimers [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. Each S-protein further consists of two subunits. The S1 subunit includes a region called receptor-binding domain (RBD) which is used to target receptors in host cells, while the S2 subunit regulates the membrane fusion between virus and host cells [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. These roles of S protein suggest that it could be a key target for vaccine and therapeutics developed to neutralize virus infection by blocking their invasion [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>].",
+            "Moreover, it has been confirmed in a recent report that the new virus 2019-nCoV uses the same cell entry receptor ACE2 as SARS coronavirus [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. The atomic structures of complex between human ACE2 and the RBD regions from S-protein of SARS-CoV have been obtained by x-ray crystallography [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. It was also shown that the sequence of S-",
+            "protein from SARS-CoV shares more than 70% identity with the S-protein from 20193",
+            "nCoV [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Therefore, it is reasonable to hypothesize that the new coronavirus uses the similar binding interface with ACE2 as SARS to enter host cells of human. The obvious follow-up questions are: whether the 30% variations in sequences between S-protein of",
+            "2019-nCoV and SARS can cause any difference in their binding to ACE2? Moreover, does this difference lead into any functional impacts on the life cycles of these viruses in host cells?",
+            "Comparing with the time-consuming and labor-expensive experimental studies, computational modeling serves as an ideal alternative approach to carry out fast tests on biological systems under the conditions that are currently inaccessible in the laboratory [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>-<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]. Therefore, here we developed a multiscale computational strategy to compare the process of recognition between the SARS-CoV and host cells with the interactions between the new coronavirus and host cells. A mesoscale model is used to simulate the process in which the coronaviruses are captured by ACE2 receptors on cell surface. We further constructed a structural model for complex formed between ACE2 and RBD of",
+            "2019-nCoV S-protein, so that the rate of their association can be estimated by a coarsegrained Monte-Carlo simulation and further compared with the binding of S-protein from",
+            "SARS-CoV. Our simulation indicates that association of the new virus to the receptor is slower than SARS, which is consistent with the experimental data obtained very recently.",
+            "We integrated this difference of association rate between virus and receptor into a simple mathematical model which describes the life cycle of virus in host cells and its interplay with the innate immune system. Interestingly, we found that the slower association between virus and receptor can result in longer incubation period, while still maintaining a relatively higher level of viral concentration in human body. Our computational study therefore explains, from the molecular level, why the new COVID-19 disease is by far more contagious than SARS. In summary, this multiscale model serves as a useful addition to current understanding for the spread of coronaviruses and related infectious agents."
+        ],
+        "Results and Discussions": [
+            "A rigid-body (RB) based model is first constructed to simulate the kinetic process about how viruses are captured by the cell surface receptors on plasma membrane. In brief, within a three-dimensional simulation box, the plasma membrane is represented by a flat surface below the extracellular region. The area of the square is 1 \u03bcm2, while the height of the simulation box is 500 nm. A number of ACE2 receptors (200) are initially placed on the membrane surface (pink in Figure 1a). They are represented by rigid bodies of cylinders and their binding sites are located on top of the cylinders (red dots in",
+            "Figure 1a). The height of each cylinder is 10nm and its radius is 5nm. On the other hand, space above the plasma membrane represents the extracellular region. A number of coronaviruses are located in this area (golden in Figure 1a). Each virus is simplified as a spherical rigid body with a given radius (40nm). Trimeric S-proteins are uniformly distributed on the spherical surface of each virus (green dots in Figure 1a). Each S-",
+            "protein can interact with an ACE2 receptor on plasma membrane. After any S-protein on one virus forms an encounter complex with a receptor, we assume that the host cell is captured by the virus. The dissociation between the virus and the receptor is not considered in the system, because we also assume that, after the association between S-",
+            "protein and ACE2, the virus can enter the cell through membrane fusion. Following the initial random configuration, the diffusion of receptors and viruses, as well as their association, were simulated by a diffusion-reaction algorithm until the system reached equilibrium. The detail process of the simulation is specified in the Methods.",
+            "Before the rigid-body simulation, in order to provide a more realistic estimation on the binding between ACE2 and different coronaviruses, we specifically compared the",
+            "S-protein from 2019-nCoV with the S-protein from SARS. We applied our previously developed residue-based kinetic Monte-Carlo (KMC) method to simulate the associate processes of these two systems. In detail, the atomic coordinates of the complex between human ACE2 and the RBD domain from the S-protein of SARS are taken from the PDB id 2AJF [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. In parallel, the structural model of the complex between human ACE2 and the RBD domain from the S-protein of 2019-nCoV was computationally constructed, following the procedure described in the Methods. The structural comparison of these two protein complexes is shown in Figure 1b. For both systems, 500 trajectories based on their complex structures were generated by the KMC simulation which algorithm is specified in the Methods. In the initial conformation of each trajectory, S-protein and receptor were separated and placed with a random position relative to each other in which the distance between their binding interfaces is fallen within a given cutoff value dc of 20",
+            "\u00c5. At the end of each trajectory, receptor and viral protein either form an encounter complex through their binding interface observed in the complex structure, or diffuse away from each other. Based on the simulation results collected from all the 500 trajectories, we counted how many times an encounter complex can be formed by the end of the simulation time, which gives the probability of association. As a result, the comparison of calculated probabilities of association for both systems is plotted in Figure",
+            "The figure shows that probability of association between ACE2 and the S-protein from 2019-nCoV is remarkably lower than the probability of association between ACE2 and the S-protein from SARS. Specifically, among the 500 simulation trajectories of",
+            "SARS system, we found that 8 of them successfully formed encounter complexes, while among the 500 simulation trajectories of 2019-nCoV system, only 2 of them successfully formed encounter complexes. This result suggests that the association of the S-protein from SARS to the receptor is about four times faster than the association of the S-protein from 2019-nCoV. The different of association rate from our simulation, interestingly, is confirmed by the experimental data that was measured very recently by Dr. McLellan\u2019s lab [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]. Using surface plasma resonance (SPR), they showed that the association rate ka of binding between 2019-nCoV RBD domain and ACE2 equals 1.36\u00d7105M-1s-1, while the rate between SARS RBD domain and ACE2 equals 3.62\u00d7105M-1s-1. Therefore, the experimental evidence indicated that the association of the S-protein from SARS to the receptor is about three times faster than the association of the S-protein from 2019-nCoV, which is quantitatively consistent with our simulation results.",
+            "We then fed the information derived from the structure-based simulations into the rigid-body model. Two specific simulation systems were compared. A relatively fast rate of association between receptors and S-proteins on viral surfaces was adopted in the first system to represent the binding process of SARS, while a relatively slow rate of association between receptors and S-proteins on viral surfaces was adopted in the second system to represent the binding process of 2019-nCoV. All the other parameters such as diffusion constants and concentrations in both systems remain the same. As a result, the total numbers of viruses that were captured by host cells are plotted in Figure 2b as a function of simulation time. Without surprise, the figure shows that although almost all viruses were attached to the cell surfaces by the end of both simulations, the kinetic process in the SARS system is much faster than the 2019-nCoV system, which is resulted from the difference in the association rate between receptors and their corresponding S-",
+            "proteins. This leads into the fact that during the early stage of simulations, more SARS viruses attach to host cells than 2019-nCoV. For instance, when the simulations in both systems reached the first 105 nanoseconds, there have already been more than 40 SARS viruses attached to the cell surfaces. In contrast, there were less than 20 viruses attached to the cell surfaces within the same amount of time in the 2019-nCoV system.",
+            "Considering that the function of a bio-system is often under kinetic, rather than thermodynamic, control [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>, <a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>], we suggest that this time-dependent behavior is biologically more relevant. In reality, not all the viruses have the opportunity to find their target receptors on host cells. Many of them will be recognized and removed by our innate immune system. Therefore, the capability of how fast a specific type of coronavirus can target its receptors is especially critical to the process of its invasion, as well as the follow-up stages in its life cycle.",
+            "In order to further explore the impacts of our rigid-body simulation results on the rest process of virus infection after they invade into host cells, we proposed a mathematical model to delineate a simplified version of viral life cycle including its replication and packaging in host cells, the inflammatory signaling pathways due to the detection of foreign pathogens, and the follow-up inflammatory responses which lead to the apoptosis of infected cells and the removal of viruses by the recruitment of immune cells. The model can be summarized by the diagram shown in Figure 3. Specifically, coronavirus [V] can turn healthy cells [H] into infected cell [In] by binding to the receptors ACE2 on their surfaces. The RNA genome [m] is then released from bound virus [Vb], and then translated into different viral proteins. These proteins and replicated",
+            "RNA are further packaged together as [P] in cytoplasm and finally escape from infected cells. On the other side, in order to avoid viral spread, our innate immune system triggers inflammatory signaling pathways in the infected cells [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. For instance, the viral RNAs can be detected by RIG-I-like receptors (RLRs) [<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>]. The RNA binding of RLRs receptors initiates the signaling cascade by interacting with the mitochondrial antiviralsignaling (MAVS) protein [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. The aggregation of MAVS on the surface of mitochondria will trigger the NF-\u03baB signaling pathway that turns on gene expression of specific cytokines [S] to stimulate the inflammatory responses [<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>, <a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>]. The inflammation of host organism leads to the apoptosis of infected cells and the removal of virus by recruited immune cells such as microphages. In summary, the change of concentration for each variable in above system can be described by following set of ordinary differential equations (ODE).",
+            "Equation (1) describes the change of the healthy cells as a function of time in the system. The parameters rH, kb, and SV in the equation represent cell generating rate, the rate and saturation coefficient of virus binding, respectively. Equations (2) to (4) indicate the entry, replication and packaging of virus in host cells, in which the parameters kr, kp, and ka represent rates of viral protein translation, assembly and releasing. Equation (5)",
+            "describes the stimulation of inflammatory signaling by viral RNA. The parameters sS, Km, and dS in the equation represent the maximal activation rate, the saturation coefficient and the rate of degradation of inflammatory signals. Equation (6) gives how infected cells change in the system, while the parameters in the equation dI, and KI indicate the rate and saturation coefficient of cell apoptosis that is stimulated by inflammatory signals. Finally, equation (7) suggests that the variation of total virus in the system depends on the release of newly packaged virus from infected cells, the binding of free virus to the healthy cells, and the immune response triggered by inflammatory signals. The parameters dV and KV in the equation give the maximal rate and saturation coefficient immune cells used to kill virus. Altogether, we solved above ODEs numerically by a stochastic simulation algorithm. The brief introduction of the simulation algorithm will be specified in the",
+            "Methods.",
+            "Given predefined weights for all the simulation parameters and the initial values for each element, the dynamics of the system is evolved as a function of time. The simulation results of the mathematical model are summarized in Figure 4. As shown by the red curve in Figure 4a, the change of free virus in the system can be divided into three stages. It first decreases from its initial value. After reaching the minimal level, the number of virus then bounces back in the second phase until it drops again and finally vanishes at the end of the third phase. Relative to the free virus, the number of virus captured by host cells equals 0 at the beginning of the simulation. It increases in the first stage and diminishes in the second, as shown by the blue curve in the figure. In the third phase, very few viruses bound to host cells are detected in the system. Corresponding to the change of virus, the number of healthy cells is plotted as the black curve. The curve shows that the level of healthy cells reduces from the beginning and rises only after all free viruses are removed from the systems. Based on these kinetic profiles, the dynamics of the system can thus be interpreted as follows. In the first stage of simulation, free viruses invade into the healthy cells by binding to the receptors on their surface. We suggest that this stage corresponds to the incubation period. In the second stage, new viruses are assembled in and released from the infected cells. At the same moment, the viral genomes left in the infected cells stimulate the immune response. As a result, the total amount of virus is gradually lowered in the third phase, indicating that these viruses are cleared up by the innate immune system. After the removal of all viruses, the healthy cells in the system grow again, representing the recovery of the patient.",
+            "We further incorporated the results derived from the rigid-body simulations into the mathematical model to compare the viral life cycle in SARS and COVID-19. The rigid-body simulation suggests that SARS-CoV binds to receptor ACE2 faster than 19-",
+            "nCoV, given the same amount of time. Therefore, we applied the mathematical model to two comparative systems. A relatively fast viral binding rate kb was adopted in the first system to represent the binding process of SARS, while a relatively slow rate was adopted in the second to represent the binding process of 2019-nCoV. All the other parameters such as diffusion constants and concentrations in both systems remain the same. As a result, the kinetic profiles indicating the changes of free virus level along with the simulation time in these two systems are shown in Figure 4b. The figure suggests that the first stage in the simulation of 2019-nCoV (red curve) is longer than the simulation of SARS (black curve). This is consistent with the clinical observation that the incubation period of COVID-19 could be as long as 14 days, while the incubation period is normally from 2 to 7 days. More interestingly, we found that the level of free virus at the end of the first period in the simulation of 2019-nCoV is relatively higher than the corresponding level of free virus in the simulation of SARS. Considering that a patient can contain a higher level of new coronavirus during his or her incubation period which is also longer than SARS, our simulation gives the insights about why COVID-19 is more contagious and spread faster than SARS [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. Finally, when both simulations came to their third phases, we found that the total amount of virus of SARS is higher than 2019-",
+            "nCoV. This gives possible explanation about why the symptoms in most COVID-19 patients are relatively mild and not as severe as the symptoms in SARS patients [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>].",
+            "In summary, it is important to point out that the life cycles of different coronaviruses can also be caused by many other factors such as the difference in the assembling pathways of these viruses. Additionally, the infectious response of each individual is also a case-dependent issue, relying on the expression levels of ACE2 receptors and the heterogeneity of immune response in different patients. Nevertheless, our multiscale computational model highlights the potential role of binding kinetics between human receptor and S-proteins from different coronavirus in, and provided the possible mechanism from the molecular level to their impacts on, regulating the dynamics of the entire viral life cycle."
+        ],
+        "Conclusions": [
+            "International Concern (PHEIC) [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>, <a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>]. The disease is caused by a new type of positive-stranded RNA virus, known as 2019-nCoV. Similar as the coronavirus that leads to SARS, it has been confirmed that the S-protein in 2019-nCoV also mediates its recognition with the human receptor ACE2. However, the differences of receptor binding in these two virus systems and their underlying implications are not well understood. It has been found that the kinetic aspect of binding between biomolecules in many biological systems is usually more important to their functions. Here, using computational structural prediction and coarse-grained simulations, we first have compared the association rate of binding between ACE2 and the S-protein from SARS-",
+            "CoV with binding between ACE2 and the S-protein from 2019-nCoV. Consistent with the experimental data obtained very recently, we found association of the new virus to the receptor is slower than SARS. We further interrogate the impact of this result on the difference in viral life cycle between SARS and COVID-19. By incorporating the information derived from coarse-grained simulations into a mathematical model, we found that the slower association between 2019-nCoV and ACE2 can result in longer incubation period, while still maintaining a relatively higher level of viral concentration in human body. This multiscale modeling framework, therefore, can offer one possible molecular mechanism to explain why this new infectious disease spreads much faster than SARS."
+        ],
+        "Methods": [
+            "Construct the structural models for the complexes between receptors and viral S-proteins",
+            "proteins are needed for the simulations of their association. The structural models of these protein complexes were prepared as follows. The complex structure between human",
+            "ACE2 and the RBD domain from the S-protein of SARS was determined by the x-ray crystallography experiment (PDB id 2AJF) [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. On the other hand, the structural model of the complex between human ACE2 and the RBD domain from the S-protein of 2019-",
+            "nCoV was constructed by computational modeling. In detail, the atomic structure of",
+            "2019-nCoV S-protein RBD domain was first predicted by I-TASSER [<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>] based on the newly released sequence of 2019-nCoV [<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>]. In parallel, the backbone model of the complex between human ACE2 and the RBD domain from 2019-nCoV S-protein was generated using the template-based structure prediction tool COTH [<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>, <a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]. We then superimposed the predicted atomic coordinates of 2019-nCoV S-protein RBD domain onto its relative backbone position in the complex model, and also aligned the atomic coordinates of human ACE2 from the crystal structure onto the relative backbone position in the complex model. As a result, the structural comparison of these two protein complexes is plotted in Figure 1b.",
+            "Estimate the association between ACE2 and S-protein by kinetic Monte-Carlo simulation",
+            "A previously developed kinetic Monte-Carlo algorithm [<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>] was used to simulate the association between S-protein and ACE2. A coarse-grained model of protein structures is used. Each residue in a protein is represented by its C\u03b1 atom and the representative center of its side-chain. The simulation starts from an initial conformation, in which two proteins in the complex are separated and placed randomly. Following the initial conformation, each protein diffuses randomly within one simulation step. A physics-based scoring function containing electrostatic interaction and hydrophobic effect is used to guide the diffusions of proteins during simulations. Based on the calculated energy, Metropolis criterion is applied to determine if the corresponding diffusional movements can be accepted or not. The simulation trajectory will be terminated if an encounter complex is successfully formed through the corresponding interface observed in the constructed model of native protein complexes. Otherwise, above simulation procedure will be repeated until it reached the maximal time duration. This method was applied to study the association between ACE2 and both S-proteins from the two virus systems. For each system, 500 trajectories are carried out. Each trajectory starts from a relatively different initial conformation, but the initial distances between the binding interfaces of S-proteins and receptors in all trajectories are below 20\u00c5. The probabilities of association were then derived and compared based on counting how many encounter complexes formed among these trajectories in the two systems.",
+            "Model the cellular attachment of coronavirus by rigid-body diffusion-reaction algorithm",
+            "As described in the Results, a rigid-body (RB) based model is constructed to simulate the binding between coronaviruses and cell surface receptors ACE2 on plasma membrane. Given the model representation and a randomly-generated initial configuration (Figure 2a), the dynamics of the system is evolved by following a diffusion-reaction algorithm [<a class=\"ref-link\" id=\"c43\" href=\"#r43\">43</a>-45]. Viruses or receptors are selected by random order for stochastic diffusion within each simulation time step. A virus is free to diffusion throughout the simulation box, while diffusions of membrane-bound receptors are confined to the plasma membrane. Periodic boundary conditions along both x and y directions are applied. Moreover, viruses are not allowed to move below the plasma membrane. If any virus moves beyond the top of the simulation box, it will be bounced back. The amplitude and probability of translational and rotational movements for viruses and receptors are determined by its corresponding diffusion constant. Association between viruses and receptors are followed after diffusions. Association is triggered if the distance between any S-protein in a virus and the binding site of a receptor is below a predetermined cutoff value. The probability to trigger the association is determined by the association rate, which was estimated by the kinetic Monte-Carlo method described in the previous section. Assuming that viruses can enter the cell through membrane fusion after they associate with ACE2, the dissociation between the virus and the receptor is not considered in the system. Finally, as above diffusion-reaction process iterates in both",
+            "Cartesian and compositional spaces, the system will finally reach equilibrium.",
+            "Solve the ordinary differential equations of viral life cycle by stochastic simulations",
+            "We use the stochastic simulation algorithm (SSA) developed by Gillespie to model the processes of biochemical reactions from equation (1) to equation (7) [46]. The algorithm starts from the initiation of time and populations of each species in the simulation system. Within each simulation step, the rates for all reactions are re-estimated by the given parameters and updated population of corresponding species. One of these reactions is then randomly selected based on the calculation of their relative weights.",
+            "Finally, populations for the corresponding species are updated. The simulation moves forward to the next step by adding the system time with \u03c4, in which \u03c4 is an exponential random variable with the average value equals the reciprocal of the summation for all the reactions. Above process is iterated so that the populations of each species in the system evolve along the simulation time. The values of all parameters in the simulation were chosen to be within the biologically meaningful range. The choice of these parameters does not qualitatively affect the general dynamic patterns of the system."
+        ],
+        "Acknowledgement": [
+            "R01GM120238 and R01GM122804. The work is also partially supported by a start-up grant from Albert Einstein College of Medicine. Computational support was provided by",
+            "Albert Einstein College of Medicine High Performance Computing Center.",
+            "Y.W. designed research; Z.S. and Y.W. performed research; Z.S. and Y.W. analyzed data;",
+            "Y.W. wrote the paper."
+        ],
+        "Declaration of Interests": [
+            "Competing financial interests: The authors declare no competing financial interests."
+        ],
+        "References": [
+            "2.",
+            "4.",
+            "6.",
+            "8.",
+            "10.",
+            "Huang, C., et al, Clinical features of patients infected with 2019 novel coronavirus in",
+            "Wuhan, China. Lancet (London, England), 2020. 395(10223): p. 497-506.",
+            "Chan, J.F.-W., et al, A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet (London, England), 2020. 395(10223): p. 514-523.",
+            "Carlos, W.G., et al, Novel Wuhan (2019-nCoV) Coronavirus. American journal of respiratory and critical care medicine, 2020. 201(4): p. P7-P8.",
+            "The, L., Emerging understandings of 2019-nCoV. Lancet (London, England), 2020.",
+            "395(10221): p. 311-311.",
+            "Wu, F., et al, A new coronavirus associated with human respiratory disease in China.",
+            "Nature, 2020: p. 10.1038/s41586-020-2008-3.",
+            "Lu, R., et al, Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet (London, England), 2020: p.",
+            "S0140-6736(20)30251-8.",
+            "Qin, P., et al, Characteristics of the Life Cycle of Porcine Deltacoronavirus (PDCoV) In",
+            "Vitro: Replication Kinetics, Cellular Ultrastructure and Virion Morphology, and Evidence of Inducing Autophagy. Viruses, 2019. 11(5): p. 455.",
+            "Qinfen, Z., et al, The life cycle of SARS coronavirus in Vero E6 cells. Journal of medical virology, 2004. 73(3): p. 332-337.",
+            "Habibzadeh, P. and E.K. Stoneman, The Novel Coronavirus: A Bird's Eye View. The international journal of occupational and environmental medicine, 2020. 11(2): p. 65-71.",
+            "Han, W., et al, The course of clinical diagnosis and treatment of a case infected with coronavirus disease 2019. Journal of medical virology, 2020: p. 10.1002/jmv.25711.",
+            "Special Expert Group for Control of the Epidemic of Novel Coronavirus Pneumonia of the",
+            "Chinese Preventive Medicine, A., An update on the epidemiological characteristics of novel coronavirus pneumonia COVID-19 . Zhonghua liu xing bing xue za zhi =",
+            "Zhonghua liuxingbingxue zazhi, 2020. 41(2): p. 139-144.",
+            "Lipsitch, M., D.L. Swerdlow, and L. Finelli, Defining the Epidemiology of Covid-19 Studies Needed. The New England journal of medicine, 2020: p. 10.1056/NEJMp2002125.",
+            "Zhang, L. and Y. Liu, Potential Interventions for Novel Coronavirus in China: A Systematic",
+            "Review. Journal of medical virology, 2020: p. 10.1002/jmv.25707.",
+            "Gallagher, T.M. and M.J. Buchmeier, Coronavirus spike proteins in viral entry and pathogenesis. Virology, 2001. 279(2): p. 371-374.",
+            "Belouzard, S., et al, Mechanisms of coronavirus cell entry mediated by the viral spike protein. Viruses, 2012. 4(6): p. 1011-1033.",
+            "Li, F., Structure, Function, and Evolution of Coronavirus Spike Proteins. Annual review of virology, 2016. 3(1): p. 237-261.",
+            "Li, F., et al, Structure of SARS coronavirus spike receptor-binding domain complexed with receptor. Science (New York, N.Y.), 2005. 309(5742): p. 1864-1868.",
+            "Du, L., et al, The spike protein of SARS-CoV--a target for vaccine and therapeutic development. Nature reviews. Microbiology, 2009. 7(3): p. 226-236.",
+            "Zhou, P., et al, A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature, 2020: p. 10.1038/s41586-020-2012-7.",
+            "Hattne, J., D. Fange, and J. Elf, Stochastic reaction-diffusion simulation with MesoRD.",
+            "Bioinformatics, 2005. 21(12): p. 2923-4.",
+            "(",
+            "13.",
+            "15.",
+            "17.",
+            "19.",
+            ")",
+            "22.",
+            "24.",
+            "26.",
+            "28.",
+            "30.",
+            "32.",
+            "34.",
+            "36.",
+            "38.",
+            "40.",
+            "Ander, M., et al, SmartCell, a framework to simulate cellular processes that combines stochastic approximation with diffusion and localisation: analysis of simple networks.",
+            "Syst Biol (Stevenage), 2004. 1(1): p. 129-38.",
+            "Rodriguez, J.V., et al, Spatial stochastic modelling of the phosphoenolpyruvatedependent phosphotransferase (PTS) pathway in Escherichia coli. Bioinformatics, 2006.",
+            "22(15): p. 1895-901.",
+            "Ando, T. and J. Skolnick, Crowding and hydrodynamic interactions likely dominate in vivo macromolecular motion. Proceedings of the National Academy of Sciences of the United",
+            "States of America, 2010. 107(43): p. 18457-18462.",
+            "McGuffee, S.R. and A.H. Elcock, Diffusion, Crowding & Protein Stability in a Dynamic",
+            "Molecular Model of the Bacterial Cytoplasm. Plos Computational Biology, 2010. 6(3).",
+            "Chakraborty, A.K. and A. Kosmrlj, Statistical mechanical concepts in immunology. Annual review of physical chemistry, 2010. 61: p. 283-303.",
+            "Wang, S., et al, Manipulating the selection forces during affinity maturation to generate cross-reactive HIV antibodies. Cell, 2015. 160(4): p. 785-797.",
+            "Wrapp, D., et al, Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. Science (New York, N.Y.), 2020: p. eabb2507.",
+            "Gabdoulline, R.R. and R.C. Wade, Biomolecular diffusional association. Curr Opin Struct",
+            "Biol, 2002. 12(2): p. 204-13.",
+            "Zhou, H.X., Rate theories for biologists. Q Rev Biophys, 2010. 43(2): p. 219-93.",
+            "Everett, H. and G. McFadden, Apoptosis: an innate immune response to virus infection.",
+            "Trends Microbiol, 1999. 7(4): p. 160-5.",
+            "Loo, Y.M. and M. Gale, Jr., Immune signaling by RIG-I-like receptors. Immunity, 2011.",
+            "34(5): p. 680-92.",
+            "Subramanian, N., et al, The adaptor MAVS promotes NLRP3 mitochondrial localization and inflammasome activation. Cell, 2013. 153(2): p. 348-61.",
+            "Koshiba, T., Mitochondrial-mediated antiviral immunity. Biochim Biophys Acta, 2013.",
+            "1833(1): p. 225-32.",
+            "Sasaki, O., et al, A structural perspective of the MAVS-regulatory mechanism on the mitochondrial outer membrane using bioluminescence resonance energy transfer.",
+            "Biochim Biophys Acta, 2013. 1833(5): p. 1017-27.",
+            "Heymann, D.L., et al, COVID-19: what is next for public health? Lancet (London, England), 2020: p. S0140-6736(20)30374-3.",
+            "Chen, N., et al, Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet (London, England), 2020. 395(10223): p. 507-513.",
+            "Li, Q., et al, Early Transmission Dynamics in Wuhan, China, of Novel CoronavirusInfected Pneumonia. The New England journal of medicine, 2020: p.",
+            "10.1056/NEJMoa2001316.",
+            "Roy, A., A. Kucukural, and Y. Zhang, I-TASSER: a unified platform for automated protein structure and function prediction. Nat Protoc, 2010. 5(4): p. 725-38.",
+            "Wan, Y., et al, Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS. Journal of virology, 2020: p. JVI.0012720.",
+            "Guerler, A., B. Govindarajoo, and Y. Zhang, Mapping monomeric threading to proteinprotein structure prediction. J Chem Inf Model, 2013. 53(3): p. 717-25.",
+            "Mukherjee, S. and Y. Zhang, Protein-protein complex structure predictions by multimeric threading and template recombination. Structure, 2011. 19(7): p. 955-66.",
+            "43.",
+            "45.",
+            "Xie, Z.R., J. Chen, and Y. Wu, Predicting Protein-protein Association Rates using Coarsegrained Simulation and Machine Learning. Sci Rep, 2017. 7: p. 46622.",
+            "Chen, J., S.C. Almo, and Y. Wu, General principles of binding between cell surface receptors and multi-specific ligands: A computational study. PLoS Comput Biol, 2017.",
+            "13(10): p. e1005805.",
+            "Chen, J., Z.R. Xie, and Y. Wu, Elucidating the general principles of cell adhesion with a coarse-grained simulation model. Mol Biosyst, 2016. 12(1): p. 205-18.",
+            "Xie, Z.-R., J. Chen, and Y. Wu, A coarse-grained model for the simulations of biomolecular interactions in cellular environments. Journal of Chemical Physics, 2014. 140: p. 054112.",
+            "Gillespie, D.T., Stochastic simulation of chemical kinetics, in Annual Review of Physical",
+            "Chemistry. 2007, Annual Reviews: Palo Alto. p. 35-55.",
+            "Figure Legends",
+            "Figure 1: A mesoscopic model is constructed to simulate the kinetic process about how.",
+            "viruses are captured by the cell surface receptors on plasma membrane (a). The plasma membrane is represented by a flat surface below the extracellular region, which contains a number of ACE2 receptors (pink). The space above the plasma membrane represents the extracellular region which contains a number of coronaviruses (golden). Each virus is simplified as a spherical rigid body with trimeric S-proteins uniformly distributed on its surface (green dots). Each S-protein monomer can interact with an ACE2 receptor on the plasma membrane. The rate of their association was estimated by Monte-Carlo simulations based on the structure models of complexes between ACE2 and RBD domains from S-proteins of different coronavirus (b). The proteins in the figure are coded by different color index.",
+            "Figure 2: We used structure-based kinetic Monte-Carlo simulations to estimate the association between ACE2 and S-proteins from SARS-CoV and 2019-nCoV. For each system, 200 simulation trajectories were generated. Based on these trajectories, the calculated probabilities of association are plotted in (a). We found that the association between ACE2 and SARS-CoV S-proteins (right column) is faster than the association between ACE2 and 2019-nCoV S-protein (left column). We then fed the information into the rigid-body-based simulations. The simulations show the total numbers of viruses that were captured by host cells increased as a function of simulation time (b). Moreover, we found that during the early stage of simulations, more SARS-CoV (black curve) attach to host cells than 2019-nCoV (red curve).",
+            "Figure 3: A mathematical model was proposed to delineate the simplified process of.",
+            "viral life cycle, including its replication and packaging in host cells, the inflammatory signaling pathways due to the detection of foreign pathogens, and the follow-up inflammatory responses which lead to the apoptosis of infected cells and the removal of viruses by the recruitment of immune cells. The meaning of each variable in the diagram is specified on the right. The system can further be described by a set of ordinary differential equations, as written from Equation (1) to Equation (7) in the main text.",
+            "Figure 4: Given predefined weights for all the rate parameters and the initial values for.",
+            "each variable in the model, the dynamics of the system is evolved as a function of time by solving the mathematical model numerically with a stochastic simulation algorithm. The figure suggests that the dynamics of the system can be divided into three stages (a). We further applied the model to two comparative systems. A relatively fast viral binding rate kb was adopted in the first system to represent the binding process of SARS, while a relatively slow rate was adopted in the second to represent the binding process of 2019-",
+            "nCoV. As shown in (b), we found that the first stage in the simulation of 2019-nCoV (red curve) is longer than the simulation of SARS (black curve), while the level of free virus at the end of the first period in 2019-nCoV is relatively higher than the corresponding level of free virus in SARS.",
+            "Figure 1"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "proteins",
+            "number": 2,
+            "context": "Each residue in a protein is represented by its C\u03b1 atom and the representative center of its side-chain. <mark class=\"stats\">The simulation starts from an initial conformation, in which two proteins in the complex are separated and placed randomly</mark>. Following the initial conformation, each protein diffuses randomly within one simulation step"
+        },
+        {
+            "participant": "confirmed cases with at least 1000 death globally",
+            "number": 70000,
+            "context": "COVID-19 seems to have longer incubation period and thus is more contagious [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. <mark class=\"stats\">The disease has caused more than 70,000 confirmed cases with at least 1000 death globally, according to the data from the World Health Organization (WHO) on February 16th 2020</mark>. Therefore, the development of vaccine or therapeutic treatment for this ongoing public health crisis is highly demanding [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The probability to trigger the association is determined by the association rate, which was estimated by the kinetic Monte-Carlo method described in the previous section</mark>",
+                "tests": [
+                    {
+                        "test": "Monte-Carlo method"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">A previously developed kinetic Monte-Carlo algorithm [42] was used to simulate the association between S-protein and ACE2</mark>",
+                "tests": [
+                    {
+                        "test": "Monte-Carlo algorithm"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "severe acute respiratory syndrome",
+        "kinetic Monte-Carlo",
+        "ordinary differential equations",
+        "spike protein",
+        "mitochondrial antiviralsignaling",
+        "surface plasma resonance",
+        "epidemiology",
+        "COVID-19",
+        "kinetics",
+        "s protein",
+        "World Health Organization",
+        "coronavirus pneumonia",
+        "Escherichia coli",
+        "Angiotensinconverting enzyme 2",
+        "life cycle",
+        "novel coronavirus",
+        "sars cov",
+        "sars coronavirus",
+        "pneumonia",
+        "receptor-binding domain",
+        "new virus"
+    ],
+    "keyword_relevance": {
+        "severe acute respiratory syndrome": 0.2956989247311828,
+        "Angiotensinconverting enzyme 2": 0.23118279569892472,
+        "receptor-binding domain": 0.08064516129032258,
+        "life cycle": 0.06451612903225806,
+        "COVID-19": 0.05913978494623656,
+        "kinetic Monte-Carlo": 0.03763440860215054,
+        "novel coronavirus": 0.03763440860215054,
+        "new virus": 0.03763440860215054,
+        "ordinary differential equations": 0.026881720430107527,
+        "mitochondrial antiviralsignaling": 0.026881720430107527,
+        "pneumonia": 0.026881720430107527,
+        "spike protein": 0.021505376344086023,
+        "surface plasma resonance": 0.010752688172043012,
+        "kinetics": 0.010752688172043012,
+        "World Health Organization": 0.010752688172043012,
+        "coronavirus pneumonia": 0.010752688172043012,
+        "epidemiology": 0.005376344086021506,
+        "Escherichia coli": 0.005376344086021506,
+        "s protein": 0.0,
+        "sars cov": 0.0,
+        "sars coronavirus": 0.0
+    },
+    "species": [
+        "Escherichia coli"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The coronavirus disease 2019 (COVID-19) has emerged at the end of year 2019 from Wuhan, a city in China, as a new infectious disease [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "It has been found that the disease is caused by a new member of coronavirus family, 2019-nCoV [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+        "The released RNA genome of the virus is replicated and translated into various types of viral proteins.",
+        "The replicated RNA genome and synthesized viral proteins are assembled together into new viruses, before they escape and attack other cells [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+        "<h2 style=\"display: inline\">Methods:</h2> Given predefined weights for all the simulation parameters and the initial values for each element, the dynamics of the system is evolved as a function of time.",
+        "Relative to the free virus, the number of virus captured by host cells equals 0 at the beginning of the simulation",
+        "It increases in the first stage and diminishes in the second, as shown by the blue curve in the figure.",
+        "The backbone model of the complex between human ACE2 and the RBD domain from 2019-nCoV S-protein was generated using the template-based structure prediction tool COTH [<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>, <a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>].",
+        "The structural comparison of these two protein complexes is plotted in Figure 1b",
+        "<h2 style=\"display: inline\">Results:</h2> <strong>Results and Discussions</strong><br/><br/>A rigid-body (RB) based model is first constructed to simulate the kinetic process about how viruses are captured by the cell surface receptors on plasma membrane.",
+        "Within a three-dimensional simulation box, the plasma membrane is represented by a flat surface below the extracellular region.",
+        "A number of ACE2 receptors (200) are initially placed on the membrane surface.",
+        "They are represented by rigid bodies of cylinders and their binding sites are located on top of the cylinders.",
+        "Each virus is simplified as a spherical rigid body with a given radius (40nm).",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The recent outbreak of COVID-19 has drawn substantial attention especially after it spread to more than thirty countries and became a Public Health Emergency of<br/><br/>International Concern (PHEIC) [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>, <a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>].",
+        "The disease is caused by a new type of positive-stranded RNA virus, known as 2019-nCoV.",
+        "Similar as the coronavirus that leads to SARS, it has been confirmed that the S-protein in 2019-nCoV mediates its recognition with the human receptor ACE2.",
+        "The differences of receptor binding in these two virus systems and their underlying implications are not well understood.",
+        "Using computational structural prediction and coarse-grained simulations, the authors first have compared the association rate of binding between ACE2 and the S-protein from SARS-"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The coronavirus disease 2019 (COVID-19) has emerged at the end of year 2019 from Wuhan, a city in China, as a new infectious disease [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "It has been found that the disease is caused by a new member of coronavirus family, 2019-nCoV [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+            "The released RNA genome of the virus is replicated and translated into various types of viral proteins.",
+            "The replicated RNA genome and synthesized viral proteins are assembled together into new viruses, before they escape and attack other cells [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]."
+        ],
+        "Methods": [
+            "Given predefined weights for all the simulation parameters and the initial values for each element, the dynamics of the system is evolved as a function of time.",
+            "Relative to the free virus, the number of virus captured by host cells equals 0 at the beginning of the simulation",
+            "It increases in the first stage and diminishes in the second, as shown by the blue curve in the figure.",
+            "The backbone model of the complex between human ACE2 and the RBD domain from 2019-nCoV S-protein was generated using the template-based structure prediction tool COTH [<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>, <a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>].",
+            "The structural comparison of these two protein complexes is plotted in Figure 1b"
+        ],
+        "Results": [
+            "<strong>Results and Discussions</strong><br/><br/>A rigid-body (RB) based model is first constructed to simulate the kinetic process about how viruses are captured by the cell surface receptors on plasma membrane.",
+            "Within a three-dimensional simulation box, the plasma membrane is represented by a flat surface below the extracellular region.",
+            "A number of ACE2 receptors (200) are initially placed on the membrane surface.",
+            "They are represented by rigid bodies of cylinders and their binding sites are located on top of the cylinders.",
+            "Each virus is simplified as a spherical rigid body with a given radius (40nm)."
+        ],
+        "Conclusion": [
+            "The recent outbreak of COVID-19 has drawn substantial attention especially after it spread to more than thirty countries and became a Public Health Emergency of<br/><br/>International Concern (PHEIC) [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>, <a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>].",
+            "The disease is caused by a new type of positive-stranded RNA virus, known as 2019-nCoV.",
+            "Similar as the coronavirus that leads to SARS, it has been confirmed that the S-protein in 2019-nCoV mediates its recognition with the human receptor ACE2.",
+            "The differences of receptor binding in these two virus systems and their underlying implications are not well understood.",
+            "Using computational structural prediction and coarse-grained simulations, the authors first have compared the association rate of binding between ACE2 and the S-protein from SARS-"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Huang_2020_a",
+            "alt_id": "1",
+            "entry": "Huang, C., et al., Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet (London, England), 2020. 395(10223): p. 497-506.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%20London%20England%202020%2039510223%20p%20497506"
+        },
+        {
+            "id": "Chan_2020_a",
+            "alt_id": "2",
+            "entry": "Chan, J.F.-W., et al., A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet (London, England), 2020. 395(10223): p. 514-523.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chan%20JFW%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20a%20study%20of%20a%20family%20cluster%20Lancet%20London%20England%202020%2039510223%20p%20514523"
+        },
+        {
+            "id": "Carlos_2019_a",
+            "alt_id": "3",
+            "entry": "Carlos, W.G., et al., Novel Wuhan (2019-nCoV) Coronavirus. American journal of respiratory and critical care medicine, 2020. 201(4): p. P7-P8. The, L., Emerging understandings of 2019-nCoV. Lancet (London, England), 2020. 395(10221): p. 311-311.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Carlos%20WG%20et%20al%20Novel%20Wuhan%202019nCoV%20Coronavirus%20American%20journal%20of%20respiratory%20and%20critical%20care%20medicine%202020%202014%20p%20P7P8%20The%20L%20Emerging%20understandings%20of%202019nCoV%20Lancet%20London%20England%202020%2039510221%20p%20311311"
+        },
+        {
+            "id": "Wu_0000_a",
+            "alt_id": "4",
+            "entry": "Wu, F., et al., A new coronavirus associated with human respiratory disease in China. Nature, 2020: p. 10.1038/s41586-020-2008-3.",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2008-3",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2008-3",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2008-3"
+        },
+        {
+            "id": "Lu_2019_a",
+            "alt_id": "5",
+            "entry": "Lu, R., et al., Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet (London, England), 2020: p. S0140-6736(20)30251-8.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lu%20R%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%20London%20England%202020%20p%20S0140673620302518"
+        },
+        {
+            "id": "Qin_2019_a",
+            "alt_id": "6",
+            "entry": "Qin, P., et al., Characteristics of the Life Cycle of Porcine Deltacoronavirus (PDCoV) In Vitro: Replication Kinetics, Cellular Ultrastructure and Virion Morphology, and Evidence of Inducing Autophagy. Viruses, 2019. 11(5): p. 455.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Qin%2C%20P.%20Characteristics%20of%20the%20Life%20Cycle%20of%20Porcine%20Deltacoronavirus%20%28PDCoV%29%20In%20Vitro%3A%20Replication%20Kinetics%2C%20Cellular%20Ultrastructure%20and%20Virion%20Morphology%2C%20and%20Evidence%20of%20Inducing%20Autophagy%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Qin%2C%20P.%20Characteristics%20of%20the%20Life%20Cycle%20of%20Porcine%20Deltacoronavirus%20%28PDCoV%29%20In%20Vitro%3A%20Replication%20Kinetics%2C%20Cellular%20Ultrastructure%20and%20Virion%20Morphology%2C%20and%20Evidence%20of%20Inducing%20Autophagy%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Qin%2C%20P.%20Characteristics%20of%20the%20Life%20Cycle%20of%20Porcine%20Deltacoronavirus%20%28PDCoV%29%20In%20Vitro%3A%20Replication%20Kinetics%2C%20Cellular%20Ultrastructure%20and%20Virion%20Morphology%2C%20and%20Evidence%20of%20Inducing%20Autophagy%202019"
+        },
+        {
+            "id": "Qinfen_2004_a",
+            "alt_id": "7",
+            "entry": "Qinfen, Z., et al., The life cycle of SARS coronavirus in Vero E6 cells. Journal of medical virology, 2004. 73(3): p. 332-337.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Qinfen%2C%20Z.%20The%20life%20cycle%20of%20SARS%20coronavirus%20in%20Vero%20E6%20cells%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Qinfen%2C%20Z.%20The%20life%20cycle%20of%20SARS%20coronavirus%20in%20Vero%20E6%20cells%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Qinfen%2C%20Z.%20The%20life%20cycle%20of%20SARS%20coronavirus%20in%20Vero%20E6%20cells%202004"
+        },
+        {
+            "id": "Habibzadeh_0000_a",
+            "alt_id": "8",
+            "entry": "Habibzadeh, P. and E.K. Stoneman, The Novel Coronavirus: A Bird's Eye View. The international journal of occupational and environmental medicine, 2020. 11(2): p. 65-71.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Habibzadeh%2C%20P.%20Stoneman%2C%20E.K.%20The%20Novel%20Coronavirus%3A%20A%20Bird%27s%20Eye%20View",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Habibzadeh%2C%20P.%20Stoneman%2C%20E.K.%20The%20Novel%20Coronavirus%3A%20A%20Bird%27s%20Eye%20View",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Habibzadeh%2C%20P.%20Stoneman%2C%20E.K.%20The%20Novel%20Coronavirus%3A%20A%20Bird%27s%20Eye%20View"
+        },
+        {
+            "id": "Han_2020_a",
+            "alt_id": "9",
+            "entry": "Han, W., et al., The course of clinical diagnosis and treatment of a case infected with coronavirus disease 2019. Journal of medical virology, 2020: p. 10.1002/jmv.25711. Special Expert Group for Control of the Epidemic of Novel Coronavirus Pneumonia of the",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25711",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25711",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25711"
+        },
+        {
+            "id": "(_2020_a",
+            "alt_id": "10",
+            "entry": "( ) Chinese Preventive Medicine, A., An update on the epidemiological characteristics of novel coronavirus pneumonia COVID-19. Zhonghua liu xing bing xue za zhi = Zhonghua liuxingbingxue zazhi, 2020. 41(2): p. 139-144.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chinese%20Preventive%20Medicine%20A%20An%20update%20on%20the%20epidemiological%20characteristics%20of%20novel%20coronavirus%20pneumonia%20COVID19%20Zhonghua%20liu%20xing%20bing%20xue%20za%20zhi%20%20Zhonghua%20liuxingbingxue%20zazhi%202020%20412%20p%20139144"
+        },
+        {
+            "id": "Lipsitch_et+al_2020_a",
+            "alt_id": "11",
+            "entry": "Lipsitch, M., D.L. Swerdlow, and L. Finelli, Defining the Epidemiology of Covid-19 Studies Needed. The New England journal of medicine, 2020: p. 10.1056/NEJMp2002125.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMp2002125",
+            "scite": "https://scite.ai/reports/10.1056/NEJMp2002125",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMp2002125"
+        },
+        {
+            "id": "Zhang_0000_a",
+            "alt_id": "12",
+            "entry": "Zhang, L. and Y. Liu, Potential Interventions for Novel Coronavirus in China: A Systematic Review. Journal of medical virology, 2020: p. 10.1002/jmv.25707.",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25707",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25707",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25707"
+        },
+        {
+            "id": "Gallagher_2001_a",
+            "alt_id": "13",
+            "entry": "Gallagher, T.M. and M.J. Buchmeier, Coronavirus spike proteins in viral entry and pathogenesis. Virology, 2001. 279(2): p. 371-374.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gallagher%2C%20T.M.%20Buchmeier%2C%20M.J.%20Coronavirus%20spike%20proteins%20in%20viral%20entry%20and%20pathogenesis%202001",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gallagher%2C%20T.M.%20Buchmeier%2C%20M.J.%20Coronavirus%20spike%20proteins%20in%20viral%20entry%20and%20pathogenesis%202001",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gallagher%2C%20T.M.%20Buchmeier%2C%20M.J.%20Coronavirus%20spike%20proteins%20in%20viral%20entry%20and%20pathogenesis%202001"
+        },
+        {
+            "id": "Belouzard_2012_a",
+            "alt_id": "14",
+            "entry": "Belouzard, S., et al., Mechanisms of coronavirus cell entry mediated by the viral spike protein. Viruses, 2012. 4(6): p. 1011-1033.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Belouzard%2C%20S.%20Mechanisms%20of%20coronavirus%20cell%20entry%20mediated%20by%20the%20viral%20spike%20protein%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Belouzard%2C%20S.%20Mechanisms%20of%20coronavirus%20cell%20entry%20mediated%20by%20the%20viral%20spike%20protein%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Belouzard%2C%20S.%20Mechanisms%20of%20coronavirus%20cell%20entry%20mediated%20by%20the%20viral%20spike%20protein%202012"
+        },
+        {
+            "id": "Li_2016_a",
+            "alt_id": "15",
+            "entry": "Li, F., Structure, Function, and Evolution of Coronavirus Spike Proteins. Annual review of virology, 2016. 3(1): p. 237-261.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20F.%20Structure%2C%20Function%20and%20Evolution%20of%20Coronavirus%20Spike%20Proteins%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20F.%20Structure%2C%20Function%20and%20Evolution%20of%20Coronavirus%20Spike%20Proteins%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20F.%20Structure%2C%20Function%20and%20Evolution%20of%20Coronavirus%20Spike%20Proteins%202016"
+        },
+        {
+            "id": "Li_2005_a",
+            "alt_id": "16",
+            "entry": "Li, F., et al., Structure of SARS coronavirus spike receptor-binding domain complexed with receptor. Science (New York, N.Y.), 2005. 309(5742): p. 1864-1868.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20F.%20Structure%20of%20SARS%20coronavirus%20spike%20receptor-binding%20domain%20complexed%20with%20receptor%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20F.%20Structure%20of%20SARS%20coronavirus%20spike%20receptor-binding%20domain%20complexed%20with%20receptor%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20F.%20Structure%20of%20SARS%20coronavirus%20spike%20receptor-binding%20domain%20complexed%20with%20receptor%202005"
+        },
+        {
+            "id": "Du_2009_a",
+            "alt_id": "17",
+            "entry": "Du, L., et al., The spike protein of SARS-CoV--a target for vaccine and therapeutic development. Nature reviews. Microbiology, 2009. 7(3): p. 226-236.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Du%2C%20L.%20The%20spike%20protein%20of%20SARS-CoV--a%20target%20for%20vaccine%20and%20therapeutic%20development%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Du%2C%20L.%20The%20spike%20protein%20of%20SARS-CoV--a%20target%20for%20vaccine%20and%20therapeutic%20development%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Du%2C%20L.%20The%20spike%20protein%20of%20SARS-CoV--a%20target%20for%20vaccine%20and%20therapeutic%20development%202009"
+        },
+        {
+            "id": "Zhou_0000_a",
+            "alt_id": "18",
+            "entry": "Zhou, P., et al., A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature, 2020: p. 10.1038/s41586-020-2012-7.",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2012-7",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2012-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2012-7"
+        },
+        {
+            "id": "Hattne_et+al_2005_a",
+            "alt_id": "19",
+            "entry": "Hattne, J., D. Fange, and J. Elf, Stochastic reaction-diffusion simulation with MesoRD. Bioinformatics, 2005. 21(12): p. 2923-4.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hattne%2C%20J.%20Fange%2C%20D.%20Elf%2C%20J.%20Stochastic%20reaction-diffusion%20simulation%20with%20MesoRD%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hattne%2C%20J.%20Fange%2C%20D.%20Elf%2C%20J.%20Stochastic%20reaction-diffusion%20simulation%20with%20MesoRD%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hattne%2C%20J.%20Fange%2C%20D.%20Elf%2C%20J.%20Stochastic%20reaction-diffusion%20simulation%20with%20MesoRD%202005"
+        },
+        {
+            "id": "Ander_2004_a",
+            "alt_id": "20",
+            "entry": "Ander, M., et al., SmartCell, a framework to simulate cellular processes that combines stochastic approximation with diffusion and localisation: analysis of simple networks. Syst Biol (Stevenage), 2004. 1(1): p. 129-38.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ander%2C%20M.%20a%20framework%20to%20simulate%20cellular%20processes%20that%20combines%20stochastic%20approximation%20with%20diffusion%20and%20localisation%3A%20analysis%20of%20simple%20networks%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ander%2C%20M.%20a%20framework%20to%20simulate%20cellular%20processes%20that%20combines%20stochastic%20approximation%20with%20diffusion%20and%20localisation%3A%20analysis%20of%20simple%20networks%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ander%2C%20M.%20a%20framework%20to%20simulate%20cellular%20processes%20that%20combines%20stochastic%20approximation%20with%20diffusion%20and%20localisation%3A%20analysis%20of%20simple%20networks%202004"
+        },
+        {
+            "id": "Rodriguez_2006_a",
+            "alt_id": "21",
+            "entry": "Rodriguez, J.V., et al., Spatial stochastic modelling of the phosphoenolpyruvatedependent phosphotransferase (PTS) pathway in Escherichia coli. Bioinformatics, 2006. 22(15): p. 1895-901.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Rodriguez%2C%20J.V.%20Spatial%20stochastic%20modelling%20of%20the%20phosphoenolpyruvatedependent%20phosphotransferase%20%28PTS%29%20pathway%20in%20Escherichia%20coli%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Rodriguez%2C%20J.V.%20Spatial%20stochastic%20modelling%20of%20the%20phosphoenolpyruvatedependent%20phosphotransferase%20%28PTS%29%20pathway%20in%20Escherichia%20coli%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Rodriguez%2C%20J.V.%20Spatial%20stochastic%20modelling%20of%20the%20phosphoenolpyruvatedependent%20phosphotransferase%20%28PTS%29%20pathway%20in%20Escherichia%20coli%202006"
+        },
+        {
+            "id": "Ando_2010_a",
+            "alt_id": "22",
+            "entry": "Ando, T. and J. Skolnick, Crowding and hydrodynamic interactions likely dominate in vivo macromolecular motion. Proceedings of the National Academy of Sciences of the United States of America, 2010. 107(43): p. 18457-18462.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ando%2C%20T.%20Skolnick%2C%20J.%20Crowding%20and%20hydrodynamic%20interactions%20likely%20dominate%20in%20vivo%20macromolecular%20motion%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ando%2C%20T.%20Skolnick%2C%20J.%20Crowding%20and%20hydrodynamic%20interactions%20likely%20dominate%20in%20vivo%20macromolecular%20motion%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ando%2C%20T.%20Skolnick%2C%20J.%20Crowding%20and%20hydrodynamic%20interactions%20likely%20dominate%20in%20vivo%20macromolecular%20motion%202010"
+        },
+        {
+            "id": "Mcguffee_et+al_2010_a",
+            "alt_id": "23",
+            "entry": "McGuffee, S.R. and A.H. Elcock, Diffusion, Crowding & Protein Stability in a Dynamic Molecular Model of the Bacterial Cytoplasm. Plos Computational Biology, 2010. 6(3). Chakraborty, A.K. and A. Kosmrlj, Statistical mechanical concepts in immunology. Annual review of physical chemistry, 2010. 61: p. 283-303.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=McGuffee%2C%20S.R.%20Elcock%2C%20A.H.%20Diffusion%20Crowding%20%26%20Protein%20Stability%20in%20a%20Dynamic%20Molecular%20Model%20of%20the%20Bacterial%20Cytoplasm%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=McGuffee%2C%20S.R.%20Elcock%2C%20A.H.%20Diffusion%20Crowding%20%26%20Protein%20Stability%20in%20a%20Dynamic%20Molecular%20Model%20of%20the%20Bacterial%20Cytoplasm%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=McGuffee%2C%20S.R.%20Elcock%2C%20A.H.%20Diffusion%20Crowding%20%26%20Protein%20Stability%20in%20a%20Dynamic%20Molecular%20Model%20of%20the%20Bacterial%20Cytoplasm%202010"
+        },
+        {
+            "id": "Wang_2015_a",
+            "alt_id": "24",
+            "entry": "Wang, S., et al., Manipulating the selection forces during affinity maturation to generate cross-reactive HIV antibodies. Cell, 2015. 160(4): p. 785-797.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20S.%20Manipulating%20the%20selection%20forces%20during%20affinity%20maturation%20to%20generate%20cross-reactive%20HIV%20antibodies%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20S.%20Manipulating%20the%20selection%20forces%20during%20affinity%20maturation%20to%20generate%20cross-reactive%20HIV%20antibodies%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20S.%20Manipulating%20the%20selection%20forces%20during%20affinity%20maturation%20to%20generate%20cross-reactive%20HIV%20antibodies%202015"
+        },
+        {
+            "id": "Wrapp_2019_a",
+            "alt_id": "25",
+            "entry": "Wrapp, D., et al., Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. Science (New York, N.Y.), 2020: p. eabb2507.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wrapp%20D%20et%20al%20CryoEM%20structure%20of%20the%202019nCoV%20spike%20in%20the%20prefusion%20conformation%20Science%20New%20York%20NY%202020%20p%20eabb2507",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wrapp%20D%20et%20al%20CryoEM%20structure%20of%20the%202019nCoV%20spike%20in%20the%20prefusion%20conformation%20Science%20New%20York%20NY%202020%20p%20eabb2507",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wrapp%20D%20et%20al%20CryoEM%20structure%20of%20the%202019nCoV%20spike%20in%20the%20prefusion%20conformation%20Science%20New%20York%20NY%202020%20p%20eabb2507"
+        },
+        {
+            "id": "Gabdoulline_2002_a",
+            "alt_id": "26",
+            "entry": "Gabdoulline, R.R. and R.C. Wade, Biomolecular diffusional association. Curr Opin Struct Biol, 2002. 12(2): p. 204-13.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gabdoulline%2C%20R.R.%20Wade%2C%20R.C.%20Biomolecular%20diffusional%20association%202002",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gabdoulline%2C%20R.R.%20Wade%2C%20R.C.%20Biomolecular%20diffusional%20association%202002",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gabdoulline%2C%20R.R.%20Wade%2C%20R.C.%20Biomolecular%20diffusional%20association%202002"
+        },
+        {
+            "id": "Zhou_2010_a",
+            "alt_id": "27",
+            "entry": "Zhou, H.X., Rate theories for biologists. Q Rev Biophys, 2010. 43(2): p. 219-93.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20H.X.%20Rate%20theories%20for%20biologists%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20H.X.%20Rate%20theories%20for%20biologists%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20H.X.%20Rate%20theories%20for%20biologists%202010"
+        },
+        {
+            "id": "Everett_1999_a",
+            "alt_id": "28",
+            "entry": "Everett, H. and G. McFadden, Apoptosis: an innate immune response to virus infection. Trends Microbiol, 1999. 7(4): p. 160-5.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Everett%2C%20H.%20McFadden%2C%20G.%20Apoptosis%3A%20an%20innate%20immune%20response%20to%20virus%20infection%201999",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Everett%2C%20H.%20McFadden%2C%20G.%20Apoptosis%3A%20an%20innate%20immune%20response%20to%20virus%20infection%201999",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Everett%2C%20H.%20McFadden%2C%20G.%20Apoptosis%3A%20an%20innate%20immune%20response%20to%20virus%20infection%201999"
+        },
+        {
+            "id": "Loo_2011_a",
+            "alt_id": "29",
+            "entry": "Loo, Y.M. and M. Gale, Jr., Immune signaling by RIG-I-like receptors. Immunity, 2011. 34(5): p. 680-92.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Loo%2C%20Y.M.%20Gale%2C%20Jr%2C%20M.%20Immune%20signaling%20by%20RIG-I-like%20receptors%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Loo%2C%20Y.M.%20Gale%2C%20Jr%2C%20M.%20Immune%20signaling%20by%20RIG-I-like%20receptors%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Loo%2C%20Y.M.%20Gale%2C%20Jr%2C%20M.%20Immune%20signaling%20by%20RIG-I-like%20receptors%202011"
+        },
+        {
+            "id": "Subramanian_2013_a",
+            "alt_id": "30",
+            "entry": "Subramanian, N., et al., The adaptor MAVS promotes NLRP3 mitochondrial localization and inflammasome activation. Cell, 2013. 153(2): p. 348-61.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Subramanian%2C%20N.%20The%20adaptor%20MAVS%20promotes%20NLRP3%20mitochondrial%20localization%20and%20inflammasome%20activation%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Subramanian%2C%20N.%20The%20adaptor%20MAVS%20promotes%20NLRP3%20mitochondrial%20localization%20and%20inflammasome%20activation%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Subramanian%2C%20N.%20The%20adaptor%20MAVS%20promotes%20NLRP3%20mitochondrial%20localization%20and%20inflammasome%20activation%202013"
+        },
+        {
+            "id": "Koshiba_2013_a",
+            "alt_id": "31",
+            "entry": "Koshiba, T., Mitochondrial-mediated antiviral immunity. Biochim Biophys Acta, 2013. 1833(1): p. 225-32.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Koshiba%2C%20T.%20Mitochondrial-mediated%20antiviral%20immunity%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Koshiba%2C%20T.%20Mitochondrial-mediated%20antiviral%20immunity%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Koshiba%2C%20T.%20Mitochondrial-mediated%20antiviral%20immunity%202013"
+        },
+        {
+            "id": "Sasaki_2013_a",
+            "alt_id": "32",
+            "entry": "Sasaki, O., et al., A structural perspective of the MAVS-regulatory mechanism on the mitochondrial outer membrane using bioluminescence resonance energy transfer. Biochim Biophys Acta, 2013. 1833(5): p. 1017-27.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sasaki%2C%20O.%20A%20structural%20perspective%20of%20the%20MAVS-regulatory%20mechanism%20on%20the%20mitochondrial%20outer%20membrane%20using%20bioluminescence%20resonance%20energy%20transfer%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Sasaki%2C%20O.%20A%20structural%20perspective%20of%20the%20MAVS-regulatory%20mechanism%20on%20the%20mitochondrial%20outer%20membrane%20using%20bioluminescence%20resonance%20energy%20transfer%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Sasaki%2C%20O.%20A%20structural%20perspective%20of%20the%20MAVS-regulatory%20mechanism%20on%20the%20mitochondrial%20outer%20membrane%20using%20bioluminescence%20resonance%20energy%20transfer%202013"
+        },
+        {
+            "id": "Heymann_0000_a",
+            "alt_id": "33",
+            "entry": "Heymann, D.L., et al., COVID-19: what is next for public health? Lancet (London, England), 2020: p. S0140-6736(20)30374-3.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Heymann%2C%20D.L.%20COVID-%2019%3A%20what%20is%20next%20for%20public%20health%3F%20Lancet"
+        },
+        {
+            "id": "Chen_2020_a",
+            "alt_id": "34",
+            "entry": "Chen, N., et al., Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet (London, England), 2020. 395(10223): p. 507-513.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%20N%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%20London%20England%202020%2039510223%20p%20507513"
+        },
+        {
+            "id": "Li_2020_a",
+            "alt_id": "35",
+            "entry": "Li, Q., et al., Early Transmission Dynamics in Wuhan, China, of Novel CoronavirusInfected Pneumonia. The New England journal of medicine, 2020: p. 10.1056/NEJMoa2001316.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "Roy_et+al_2010_a",
+            "alt_id": "36",
+            "entry": "Roy, A., A. Kucukural, and Y. Zhang, I-TASSER: a unified platform for automated protein structure and function prediction. Nat Protoc, 2010. 5(4): p. 725-38.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Roy%2C%20A.%20Kucukural%2C%20A.%20Zhang%2C%20Y.%20I-TASSER%3A%20a%20unified%20platform%20for%20automated%20protein%20structure%20and%20function%20prediction%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Roy%2C%20A.%20Kucukural%2C%20A.%20Zhang%2C%20Y.%20I-TASSER%3A%20a%20unified%20platform%20for%20automated%20protein%20structure%20and%20function%20prediction%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Roy%2C%20A.%20Kucukural%2C%20A.%20Zhang%2C%20Y.%20I-TASSER%3A%20a%20unified%20platform%20for%20automated%20protein%20structure%20and%20function%20prediction%202010"
+        },
+        {
+            "id": "Wan_0000_a",
+            "alt_id": "37",
+            "entry": "Wan, Y., et al., Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS. Journal of virology, 2020: p. JVI.0012720.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wan%2C%20Y.%20Receptor%20recognition%20by%20novel%20coronavirus%20from%20Wuhan%3A%20An%20analysis%20based%20on%20decade-long%20structural%20studies%20of%20SARS",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wan%2C%20Y.%20Receptor%20recognition%20by%20novel%20coronavirus%20from%20Wuhan%3A%20An%20analysis%20based%20on%20decade-long%20structural%20studies%20of%20SARS",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wan%2C%20Y.%20Receptor%20recognition%20by%20novel%20coronavirus%20from%20Wuhan%3A%20An%20analysis%20based%20on%20decade-long%20structural%20studies%20of%20SARS"
+        },
+        {
+            "id": "Guerler_et+al_2013_a",
+            "alt_id": "38",
+            "entry": "Guerler, A., B. Govindarajoo, and Y. Zhang, Mapping monomeric threading to proteinprotein structure prediction. J Chem Inf Model, 2013. 53(3): p. 717-25.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Guerler%2C%20A.%20Govindarajoo%2C%20B.%20Zhang%2C%20Y.%20Mapping%20monomeric%20threading%20to%20proteinprotein%20structure%20prediction%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Guerler%2C%20A.%20Govindarajoo%2C%20B.%20Zhang%2C%20Y.%20Mapping%20monomeric%20threading%20to%20proteinprotein%20structure%20prediction%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Guerler%2C%20A.%20Govindarajoo%2C%20B.%20Zhang%2C%20Y.%20Mapping%20monomeric%20threading%20to%20proteinprotein%20structure%20prediction%202013"
+        },
+        {
+            "id": "Mukherjee_2011_a",
+            "alt_id": "39",
+            "entry": "Mukherjee, S. and Y. Zhang, Protein-protein complex structure predictions by multimeric threading and template recombination. Structure, 2011. 19(7): p. 955-66.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Mukherjee%2C%20S.%20Zhang%2C%20Y.%20Protein-protein%20complex%20structure%20predictions%20by%20multimeric%20threading%20and%20template%20recombination%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Mukherjee%2C%20S.%20Zhang%2C%20Y.%20Protein-protein%20complex%20structure%20predictions%20by%20multimeric%20threading%20and%20template%20recombination%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Mukherjee%2C%20S.%20Zhang%2C%20Y.%20Protein-protein%20complex%20structure%20predictions%20by%20multimeric%20threading%20and%20template%20recombination%202011"
+        },
+        {
+            "id": "Xie_et+al_2017_a",
+            "alt_id": "40",
+            "entry": "Xie, Z.R., J. Chen, and Y. Wu, Predicting Protein-protein Association Rates using Coarsegrained Simulation and Machine Learning. Sci Rep, 2017. 7: p. 46622.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xie%2C%20Z.R.%20Chen%2C%20J.%20Wu%2C%20Y.%20Predicting%20Protein-protein%20Association%20Rates%20using%20Coarsegrained%20Simulation%20and%20Machine%20Learning%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Xie%2C%20Z.R.%20Chen%2C%20J.%20Wu%2C%20Y.%20Predicting%20Protein-protein%20Association%20Rates%20using%20Coarsegrained%20Simulation%20and%20Machine%20Learning%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Xie%2C%20Z.R.%20Chen%2C%20J.%20Wu%2C%20Y.%20Predicting%20Protein-protein%20Association%20Rates%20using%20Coarsegrained%20Simulation%20and%20Machine%20Learning%202017"
+        },
+        {
+            "id": "Chen_et+al_2017_a",
+            "alt_id": "41",
+            "entry": "Chen, J., S.C. Almo, and Y. Wu, General principles of binding between cell surface receptors and multi-specific ligands: A computational study. PLoS Comput Biol, 2017. 13(10): p. e1005805.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20J.%20Almo%2C%20S.C.%20Wu%2C%20Y.%20General%20principles%20of%20binding%20between%20cell%20surface%20receptors%20and%20multi-specific%20ligands%3A%20A%20computational%20study%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20J.%20Almo%2C%20S.C.%20Wu%2C%20Y.%20General%20principles%20of%20binding%20between%20cell%20surface%20receptors%20and%20multi-specific%20ligands%3A%20A%20computational%20study%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20J.%20Almo%2C%20S.C.%20Wu%2C%20Y.%20General%20principles%20of%20binding%20between%20cell%20surface%20receptors%20and%20multi-specific%20ligands%3A%20A%20computational%20study%202017"
+        },
+        {
+            "id": "Chen_et+al_2016_a",
+            "alt_id": "42",
+            "entry": "Chen, J., Z.R. Xie, and Y. Wu, Elucidating the general principles of cell adhesion with a coarse-grained simulation model. Mol Biosyst, 2016. 12(1): p. 205-18.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20J.%20Xie%2C%20Z.R.%20Wu%2C%20Y.%20Elucidating%20the%20general%20principles%20of%20cell%20adhesion%20with%20a%20coarse-grained%20simulation%20model%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20J.%20Xie%2C%20Z.R.%20Wu%2C%20Y.%20Elucidating%20the%20general%20principles%20of%20cell%20adhesion%20with%20a%20coarse-grained%20simulation%20model%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20J.%20Xie%2C%20Z.R.%20Wu%2C%20Y.%20Elucidating%20the%20general%20principles%20of%20cell%20adhesion%20with%20a%20coarse-grained%20simulation%20model%202016"
+        },
+        {
+            "id": "Xie_et+al_2014_a",
+            "alt_id": "43",
+            "entry": "Xie, Z.-R., J. Chen, and Y. Wu, A coarse-grained model for the simulations of biomolecular interactions in cellular environments. Journal of Chemical Physics, 2014. 140: p. 054112.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xie%2C%20Z.-R.%20Chen%2C%20J.%20Wu%2C%20Y.%20A%20coarse-grained%20model%20for%20the%20simulations%20of%20biomolecular%20interactions%20in%20cellular%20environments%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Xie%2C%20Z.-R.%20Chen%2C%20J.%20Wu%2C%20Y.%20A%20coarse-grained%20model%20for%20the%20simulations%20of%20biomolecular%20interactions%20in%20cellular%20environments%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Xie%2C%20Z.-R.%20Chen%2C%20J.%20Wu%2C%20Y.%20A%20coarse-grained%20model%20for%20the%20simulations%20of%20biomolecular%20interactions%20in%20cellular%20environments%202014"
+        },
+        {
+            "id": "Gillespie_0000_a",
+            "alt_id": "44",
+            "entry": "Gillespie, D.T., Stochastic simulation of chemical kinetics, in Annual Review of Physical Chemistry. 2007, Annual Reviews: Palo Alto. p. 35-55.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gillespie%2C%20D.T.%20Stochastic%20simulation%20of%20chemical%20kinetics%2C%20in%20Annual%20Review%20of",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gillespie%2C%20D.T.%20Stochastic%20simulation%20of%20chemical%20kinetics%2C%20in%20Annual%20Review%20of",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gillespie%2C%20D.T.%20Stochastic%20simulation%20of%20chemical%20kinetics%2C%20in%20Annual%20Review%20of"
+        }
+    ],
+    "facts": [
+        "ABSTRACTThe respiratory syndrome caused by a new type of coronavirus has been emerging from",
+        "that the S-protein from the SARS coronavirus bind stronger to ACE2 than 2019-nCoV. function",
+        "a structural model for complex formed between ACE2",
+        "Our simulation results suggest that the association of new virus",
+        "to the receptor is slower than SARS",
+        "which is consistent with the experimental data obtained",
+        "that the slower association between virus and receptor can result in longer incubation period",
+        "The coronavirus disease 2019 has emerged at the end of year 2019",
+        "that the disease is caused by a new member of coronavirus family",
+        "positive-stranded RNA virus enveloped by lipid bilayer",
+        "the viral genome is released through membrane fusion",
+        "the dynamics of the system is evolved as a function of time",
+        "The simulation results of the mathematical model are summarized in",
+        "the change of free virus in the system can be divided into three stages",
+        "the number of virus captured by host cells equals",
+        "host cells are detected in the system",
+        "the number of healthy cells is plotted as the black curve",
+        "The curve shows that the level of healthy cells reduces",
+        "only after all free viruses are removed from the systems",
+        "free viruses invade into the healthy cells",
+        "that this stage corresponds to the incubation period",
+        "the viral genomes left in the infected cells stimulate the immune response",
+        "the total amount of virus is gradually lowered in the third phase",
+        "proteins are needed for the simulations of their association",
+        "the RBD domain from the S-protein of SARS was determined by the x-ray crystallography experiment",
+        "nCoV was constructed by computational modeling",
+        "2019-nCoV S-protein RBD domain was first predicted by I-TASSER",
+        "the structural comparison of these two protein complexes is plotted in Figure 1b",
+        "A rigid-body based model is first constructed to simulate the kinetic process about how viruses are captured by the cell surface receptors",
+        "the plasma membrane is represented by a flat surface below the extracellular region",
+        "A number of ACE2 receptors are initially placed on the membrane surface",
+        "binding sites are located on top of the cylinders",
+        "A number of coronaviruses are located in this area",
+        "Each virus is simplified as a spherical rigid body with a given radius",
+        "Trimeric S-proteins are uniformly distributed on the spherical surface of each virus",
+        "The disease is caused by a new type of positive-stranded RNA virus",
+        "as 2019-nCoV. Similar as the coronavirus that leads to SARS",
+        "The structural comparison of these two protein complexes is plotted in Figure 1b",
+        "Similar as the coronavirus that leads to SARS",
+        "a multiscale computational strategy to compare the process of recognition between the SARS-CoV and host cells",
+        "In order to further explore the impacts of our rigid-body simulation results on the rest process",
+        "a mathematical model to delineate a simplified version of viral life cycle including its replication and packaging in host cells",
+        "the follow-up inflammatory responses which lead to the apoptosis of infected cells",
+        "both simulations came to their third phases",
+        "that the total amount of virus of SARS is higher than 2019-",
+        "found association of the new virus to the receptor is slower than SARS",
+        "the information derived from coarse-grained simulations into a mathematical model",
+        "ACE2 can result in longer incubation period"
+    ],
+    "claims": [
+        "Here we developed a multiscale computational strategy to compare the process of recognition between the SARS-CoV and host cells with the interactions between the new coronavirus and host cells",
+        "We found that the slower association between virus and receptor can result in longer incubation period, while still maintaining a relatively higher level of viral concentration in human body",
+        "SARS system, we found that 8 of them successfully formed encounter complexes, while among the 500 simulation trajectories of 2019-nCoV system, only 2 of them successfully formed encounter complexes",
+        "In order to further explore the impacts of our rigid-body simulation results on the rest process of virus infection after they invade into host cells, we proposed a mathematical model to delineate a simplified version of viral life cycle including its replication and packaging in host cells, the inflammatory signaling pathways due to the detection of foreign pathogens, and the follow-up inflammatory responses which lead to the apoptosis of infected cells and the removal of viruses by the recruitment of immune cells",
+        "We found that the level of free virus at the end of the first period in the simulation of 2019-nCoV is relatively higher than the corresponding level of free virus in the simulation of SARS",
+        "When both simulations came to their third phases, we found that the total amount of virus of SARS is higher than 2019-",
+        "Consistent with the experimental data obtained very recently, we found association of the new virus to the receptor is slower than SARS",
+        "By incorporating the information derived from coarse-grained simulations into a mathematical model, we found that the slower association between 2019-nCoV and ACE2 can result in longer incubation period, while still maintaining a relatively higher level of viral concentration in human body"
+    ],
+    "findings": [
+        "Protein from SARS-CoV shares more than 70% identity with the S-protein from 20193"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Our simulation indicates that association of the new virus to the receptor is slower than severe acute respiratory syndrome, which is consistent with the experimental data obtained very recently",
+        "Results and Discussions brief, within a three-dimensional simulation box, the plasma membrane is represented by a flat surface below the extracellular region",
+        "A number of Angiotensinconverting enzyme 2 receptors (200) are initially placed on the membrane surface. They are represented by rigid bodies of cylinders and their binding sites are located on top of the cylinders (red dots in",
+        "Trimeric S-proteins are uniformly distributed on the spherical surface of each virus",
+        "In order to further explore the impacts of our rigid-body simulation results on the rest process of virus infection after they invade into host cells, we proposed a mathematical model to delineate a simplified version of viral life cycle including its replication and packaging in host cells, the inflammatory signaling pathways due to the detection of foreign pathogens, and the follow-up inflammatory responses which lead to the apoptosis of infected cells and the removal of viruses by the recruitment of immune cells",
+        "Similar as the coronavirus that leads to severe acute respiratory syndrome, it has been confirmed that the S-protein in 2019-nCoV mediates its recognition with the human receptor Angiotensinconverting enzyme 2",
+        "Consistent with the experimental data obtained very recently, we found association of the new virus to the receptor is slower than severe acute respiratory syndrome",
+        "By incorporating the information derived from coarse-grained simulations into a mathematical model, we found that the slower association between 2019-nCoV and Angiotensinconverting enzyme 2 can result in longer incubation period, while still maintaining a relatively higher level of viral concentration in human body",
+        "Angiotensinconverting enzyme 2 and the receptor-binding domain domain from the S-protein of severe acute respiratory syndrome was determined by the x-ray crystallography experiment (PDB id 2AJF) [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]"
+    ],
+    "top_statements": [
+        "The coronavirus disease 2019 (COVID-19) has emerged at the end of year 2019 from Wuhan, a city in China, as a new infectious disease [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "Results and Discussions brief, within a three-dimensional simulation box, the plasma membrane is represented by a flat surface below the extracellular region",
+        "A number of Angiotensinconverting enzyme 2 receptors (200) are initially placed on the membrane surface. They are represented by rigid bodies of cylinders and their binding sites are located on top of the cylinders (red dots in",
+        "In order to further explore the impacts of our rigid-body simulation results on the rest process of virus infection after they invade into host cells, we proposed a mathematical model to delineate a simplified version of viral life cycle including its replication and packaging in host cells, the inflammatory signaling pathways due to the detection of foreign pathogens, and the follow-up inflammatory responses which lead to the apoptosis of infected cells and the removal of viruses by the recruitment of immune cells",
+        "Similar as the coronavirus that leads to severe acute respiratory syndrome, it has been confirmed that the S-protein in 2019-nCoV mediates its recognition with the human receptor Angiotensinconverting enzyme 2",
+        "By incorporating the information derived from coarse-grained simulations into a mathematical model, we found that the slower association between 2019-nCoV and Angiotensinconverting enzyme 2 can result in longer incubation period, while still maintaining a relatively higher level of viral concentration in human body"
+    ],
+    "headline": "In order to further explore the impacts of our rigid-body simulation results on the rest process of virus infection after they invade into host cells, we proposed a mathematical model to delineate a simplified version of viral life cycle including its replication and packaging in host cells, the inflammatory signaling pathways due to the detection of foreign pathogens, and the follow-up inflammatory responses which lead to the apoptosis of infected cells and the removal of viruses by the recruitment of immune cells",
+    "contexts": [],
+    "abbreviations": {
+        "ACE2": "Angiotensinconverting enzyme 2",
+        "SARS": "severe acute respiratory syndrome",
+        "WHO": "World Health Organization",
+        "RBD": "receptor-binding domain",
+        "KMC": "kinetic Monte-Carlo",
+        "SPR": "surface plasma resonance",
+        "MAVS": "mitochondrial antiviralsignaling",
+        "ODE": "ordinary differential equations"
+    }
+}

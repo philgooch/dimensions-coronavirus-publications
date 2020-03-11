@@ -1,0 +1,213 @@
+{
+    "filename": "pdf.pdf",
+    "content_type": "application/pdf",
+    "file_size": 300474,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1016/s1473-3099(20)30120-1",
+            "arxiv": null,
+            "isbn": null,
+            "doc_id": null,
+            "url": "http://www.thelancet.com/article/S1473309920301201/pdf"
+        },
+        "title": "An interactive web-based dashboard to track COVID-19 in real time",
+        "author": "Ensheng Dong, Hongru Du, Lauren Gardner",
+        "date": 2020,
+        "affiliations": [
+            "GitHub repository, along with the feature layers of the dashboard, which are now included in the Esri Living Atlas.",
+            "CDC Johns Hopkins University CSSE"
+        ],
+        "journal": "The Lancet Infectious Diseases",
+        "abstract": "In December, 2019, a local outbreak of pneumonia of initially unknown cause was detected in Wuhan (Hubei, China), and was quickly determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, we developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time. The dashboard, first shared publicly on Jan 22, illustrates the location and number of confirmed COVID-19 cases, deaths, and recoveries for all affected countries. It was developed to provide researchers, public health authorities, and the general public with a userfriendly tool to track the outbreak as it unfolds. All data collected and displayed are made freely available, initially through Google Sheets and now through a GitHub repository, along with the feature layers of the dashboard, which are now included in the Esri Living Atlas.",
+        "links": [
+            "https://ncov.dxy.cn/ncovh5/",
+            "https://arcg.is/0fHmTX",
+            "https://www.who.int/",
+            "https://github.com/",
+            "http://weekly.chinacdc.cn/news/",
+            "https://doi.org/10.1016/",
+            "https://www.who.int/china/news/",
+            "http://www.thelancet.com/infection"
+        ],
+        "emails": [
+            "l.gardner@jhu.edu"
+        ],
+        "cited_by": 1,
+        "references": "",
+        "references_ris": "",
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "introduction": [
+            "In December, 2019, a local outbreak of pneumonia of initially unknown cause was detected in Wuhan (Hubei, China), and was quickly determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, we developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time. The dashboard, first shared publicly on Jan 22, illustrates the location and number of confirmed COVID-19 cases, deaths, and recoveries for all affected countries. It was developed to provide researchers, public health authorities, and the general public with a userfriendly tool to track the outbreak as it unfolds. All data collected and displayed are made freely available, initially through Google Sheets and now through a GitHub repository, along with the feature layers of the dashboard, which are now included in the Esri Living Atlas.",
+            "The dashboard reports cases at the province level in China; at the city level in the USA, Australia, and Canada; and at the country level otherwise. During Jan 22\u201331, all data collection and processing were done manually, and updates were typically done twice a day, morning and night (US Eastern Time). As the outbreak evolved, the manual reporting process became unsustainable; therefore, on Feb 1, we adopted a semi-automated living data stream strategy. Our primary data source is DXY, an online platform run"
+        ]
+    },
+    "structured_content": {
+        "Confirmed cases in mainand China": [],
+        "WHO Chinese CDC Johns Hopkins University CSSE": [
+            "Published Online February 19, 2020 https://doi.org/10.1016/ S1473-3099(20)30120-1"
+        ],
+        "Confirmed cases outisde of mainland China": [],
+        "Johns Hopkins University CSSE": [
+            "Figure: Comparison of COVID-19 case reporting from different sources Daily cumulative case numbers (starting Jan 22, 2020) reported by the Johns Hopkins University Center for Systems Science and Engineering (CSSE), WHO situation reports, and the Chinese Center for Disease Control and Prevention (Chinese CDC) for within (A) and outside (B) mainland China.",
+            "For the interactive dashboard of global COVID-19 cases see https://arcg.is/0fHmTX by members of the Chinese medical community, which aggregates local media and government reports to provide cumulative totals of COVID-19 cases in near real time at the province level in China and at the country level otherwise. Every 15 min, the cumulative case counts are updated from DXY for all provinces in China and for other affected countries and regions. For countries and regions outside mainland China (including Hong Kong, Macau, and Taiwan), we found DXY cumulative case counts to frequently lag behind other sources; we therefore manually update these case numbers throughout the day when new cases are identified. To identify new cases, we monitor various Twitter feeds, online news services, and direct communication sent through the dashboard. Before manually updating the dashboard, we confirm the case numbers with regional and local health departments, including the respective centres for disease control and prevention (CDC) of China, Taiwan, and Europe, the Hong Kong Department of Health, the Macau Government, and WHO, as well as city-level and state-level health authorities. For city-level case reports in the USA, Australia, and Canada, which we began reporting on Feb 1, we rely on the US CDC, the government of Canada, the Australian Government Department of Health, and various state or territory health authorities. All manual updates (for countries and regions outside mainland China) are coordinated by a team at Johns Hopkins University.",
+            "The case data reported on the dashboard aligns with the daily Chinese CDC3 and WHO situation reports2 for within and outside of mainland China, respectively (figure). Furthermore, the dashboard is particularly effective at capturing the timing of the first reported case of COVID-19 in new",
+            "For the COVID-19 data repository at GitHub see https://github.com/ CSSEGISandData/COVID-19",
+            "For coronavirus data at DXY see https://ncov.dxy.cn/ncovh5/ view/pneumonia www.thelancet.com/infection Published online February 19, 2020 https://doi.org/10.1016/S1473-3099(20)30120-1",
+            "See Online for appendix countries or regions (appendix). With report on future outbreaks. We 1 WHO. WHO statement regarding cluster of the exception of Australia, Hong believe our efforts are crucial to help Kong, and Italy, the CSSE at Johns inform modelling efforts and control pneumonia cases in Wuhan, China. Jan 9, 2020. https://www.who.int/china/news/ detail/09-01-2020-who-statement-regarding-",
+            "Hopkins University has reported newly measures during the earliest stages of cluster-of-pneumonia-cases-in-wuhan-china (accessed Feb 11, 2020).",
+            "infected countries ahead of WHO, with the outbreak.",
+            "Hong Kong and Italy reported within hours of the corresponding WHO situation report.",
+            "We declare no competing interests.",
+            "We are grateful for the technical support from the Esri Living Atlas team and the Johns Hopkins situation reports. https://www.who.int/ emergencies/diseases/novelcoronavirus-2019/situation-reports (accessed Feb 17, 2020).",
+            "Given the popularity and impact University Applied Physics Lab. of the dashboard to date, we plan Ensheng Dong, Hongru Du,",
+            "Feb 11, 2020).",
+            "of the COVID-19 outbreak and to build out its capabilities to establish a standing tool to monitor and",
+            "Department of Civil and Systems Engineering, Johns Hopkins University, Baltimore, MD 21218, USA (ED, HD, LG)",
+            "www.thelancet.com/infection Published online February 19, 2020 https://doi.org/10.1016/S1473-3099(20)30120-1"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "confirmed cases",
+            "number": 70000,
+            "context": "In December, 2019, a local outbreak of pneumonia of initially unknown cause was detected in Wuhan (Hubei, China), and was quickly determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). <mark class=\"stats\">The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, we developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time</mark>. The dashboard, first shared publicly on Jan 22, illustrates the location and number of confirmed COVID-19 cases, deaths, and recoveries for all affected countries"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 70000,
+            "context": "COVID-19 in real time In December, 2019, a local outbreak of pneumonia of initially unknown cause was detected in Wuhan (Hubei, China), and was quickly determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). <mark class=\"stats\">The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, we developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time</mark>. The dashboard, first shared publicly on Jan 22, illustrates the location and number of confirmed COVID-19 cases, deaths, and recoveries for all affected countries"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "Center for Systems Science and Engineering",
+        "local outbreak",
+        "health authority",
+        "mainland china",
+        "public health",
+        "google sheets",
+        "online interactive",
+        "userfriendly tool",
+        "acute respiratory syndrome",
+        "general public",
+        "johns hopkins",
+        "sars cov",
+        "systems science",
+        "health emergency",
+        "centres for disease control and prevention",
+        "unknown because",
+        "severe acute respiratory",
+        "coronavirus disease",
+        "hopkins university",
+        "real time",
+        "interactive dashboard",
+        "COVID-19",
+        "ongoing public",
+        "pneumonia",
+        "novel coronavirus,1",
+        "respiratory syndrome coronavirus"
+    ],
+    "keyword_relevance": {
+        "COVID-19": 0.23404255319148937,
+        "Center for Systems Science and Engineering": 0.1702127659574468,
+        "centres for disease control and prevention": 0.1276595744680851,
+        "pneumonia": 0.0851063829787234,
+        "real time": 0.06382978723404255,
+        "public health": 0.0425531914893617,
+        "interactive dashboard": 0.0425531914893617,
+        "local outbreak": 0.02127659574468085,
+        "online interactive": 0.02127659574468085,
+        "userfriendly tool": 0.02127659574468085,
+        "acute respiratory syndrome": 0.02127659574468085,
+        "general public": 0.02127659574468085,
+        "health emergency": 0.02127659574468085,
+        "severe acute respiratory": 0.02127659574468085,
+        "coronavirus disease": 0.02127659574468085,
+        "ongoing public": 0.02127659574468085,
+        "novel coronavirus,1": 0.02127659574468085,
+        "respiratory syndrome coronavirus": 0.02127659574468085,
+        "health authority": 0.0,
+        "mainland china": 0.0,
+        "google sheets": 0.0,
+        "johns hopkins": 0.0,
+        "sars cov": 0.0,
+        "systems science": 0.0,
+        "unknown because": 0.0,
+        "hopkins university": 0.0
+    },
+    "species": [],
+    "summary": [
+        "In December, 2019, a local outbreak of pneumonia of initially unknown cause was detected in Wuhan (Hubei, China), and was quickly determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+        "The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, the authors developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time.",
+        "The dashboard, first shared publicly on Jan 22, illustrates the location and number of confirmed COVID-19 cases, deaths, and recoveries for all affected countries.",
+        "The dashboard reports cases at the province level in China; at the city level in the USA, Australia, and Canada; and at the country level otherwise.",
+        "Figure: Comparison of COVID-19 case reporting from different sources Daily cumulative case numbers reported by the Johns Hopkins University Center for Systems Science and Engineering (CSSE), WHO situation reports, and the Chinese Center for Disease Control and Prevention (Chinese CDC) for within (A) and outside (B) mainland China.",
+        "By members of the Chinese medical community, which aggregates local media and government reports to provide cumulative totals of COVID-19 cases in near real time at the province level in China and at the country level otherwise.",
+        "Every 15 min, the cumulative case counts are updated from DXY for all provinces in China and for other affected countries and regions.",
+        "For countries and regions outside mainland China, the authors found DXY cumulative case counts to frequently lag behind other sources; the authors manually update these case numbers throughout the day when new cases are identified.",
+        "Before manually updating the dashboard, the authors confirm the case numbers with regional and local health departments, including the respective centres for disease control and prevention (CDC) of China, Taiwan, and Europe, the Hong Kong Department of Health, the Macau Government, and WHO, as well as city-level and state-level health authorities.",
+        "The case data reported on the dashboard aligns with the daily Chinese CDC3 and WHO situation reports2 for within and outside of mainland China, respectively.",
+        "For coronavirus data at DXY see https://ncov.dxy.cn/ncovh5/ view/pneumonia www.thelancet.com/infection Published online February 19, 2020 https://doi.org/10.1016/S1473-3099(20)30120-1",
+        "WHO statement regarding cluster of the exception of Australia, Hong believe the efforts are crucial to help Kong, and Italy, the CSSE at Johns inform modelling efforts and control pneumonia cases in Wuhan, China.",
+        "Www.thelancet.com/infection Published online February 19, 2020 https://doi.org/10.1016/S1473-3099(20)30120-1"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "In December, 2019, a local outbreak of pneumonia of initially unknown cause was detected in Wuhan (Hubei, China), and was quickly determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+            "The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, the authors developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time.",
+            "The dashboard, first shared publicly on Jan 22, illustrates the location and number of confirmed COVID-19 cases, deaths, and recoveries for all affected countries."
+        ],
+        "Results": [
+            "The dashboard reports cases at the province level in China; at the city level in the USA, Australia, and Canada; and at the country level otherwise.",
+            "Figure: Comparison of COVID-19 case reporting from different sources Daily cumulative case numbers reported by the Johns Hopkins University Center for Systems Science and Engineering (CSSE), WHO situation reports, and the Chinese Center for Disease Control and Prevention (Chinese CDC) for within (A) and outside (B) mainland China.",
+            "By members of the Chinese medical community, which aggregates local media and government reports to provide cumulative totals of COVID-19 cases in near real time at the province level in China and at the country level otherwise.",
+            "Every 15 min, the cumulative case counts are updated from DXY for all provinces in China and for other affected countries and regions.",
+            "For countries and regions outside mainland China, the authors found DXY cumulative case counts to frequently lag behind other sources; the authors manually update these case numbers throughout the day when new cases are identified.",
+            "Before manually updating the dashboard, the authors confirm the case numbers with regional and local health departments, including the respective centres for disease control and prevention (CDC) of China, Taiwan, and Europe, the Hong Kong Department of Health, the Macau Government, and WHO, as well as city-level and state-level health authorities.",
+            "The case data reported on the dashboard aligns with the daily Chinese CDC3 and WHO situation reports2 for within and outside of mainland China, respectively."
+        ],
+        "Conclusion": [
+            "For coronavirus data at DXY see https://ncov.dxy.cn/ncovh5/ view/pneumonia www.thelancet.com/infection Published online February 19, 2020 https://doi.org/10.1016/S1473-3099(20)30120-1",
+            "WHO statement regarding cluster of the exception of Australia, Hong believe the efforts are crucial to help Kong, and Italy, the CSSE at Johns inform modelling efforts and control pneumonia cases in Wuhan, China.",
+            "Www.thelancet.com/infection Published online February 19, 2020 https://doi.org/10.1016/S1473-3099(20)30120-1"
+        ]
+    },
+    "reference_links": [],
+    "facts": [
+        "a local outbreak of pneumonia of initially unknown cause was detected in Wuhan",
+        "determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2",
+        "The outbreak has since spread to every province of mainland China",
+        "which are included in the Esri Living Atlas",
+        "Comparison of COVID-19 case reporting from different sources Daily cumulative case numbers reported by the",
+        "the cumulative case counts are updated from DXY for all provinces",
+        "The case data reported on the dashboard aligns with the daily Chinese CDC3 and WHO situation reports2 for"
+    ],
+    "claims": [
+        "The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, we developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time",
+        "For countries and regions outside mainland China (including Hong Kong, Macau, and Taiwan), we found DXY cumulative case counts to frequently lag behind other sources; we therefore manually update these case numbers throughout the day when new cases are identified"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "COVID-19 in real time In December, 2019, a local outbreak of pneumonia of initially unknown cause was detected in Wuhan (Hubei, China), and was quickly determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+        "The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, we developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time",
+        "For countries and regions outside mainland China, we found DXY cumulative case counts to frequently lag behind other sources; we manually update these case numbers throughout the day when new cases are identified",
+        "The case data reported on the dashboard aligns with the daily Chinese CDC3 and WHO situation reports2 for within and outside of mainland China, respectively"
+    ],
+    "top_statements": [
+        "COVID-19 in real time In December, 2019, a local outbreak of pneumonia of initially unknown cause was detected in Wuhan (Hubei, China), and was quickly determined to be caused by a novel coronavirus,1 namely severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+        "The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, we developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 (COVID-19) in real time",
+        "For countries and regions outside mainland China, we found DXY cumulative case counts to frequently lag behind other sources; we manually update these case numbers throughout the day when new cases are identified",
+        "The case data reported on the dashboard aligns with the daily Chinese CDC3 and WHO situation reports2 for within and outside of mainland China, respectively"
+    ],
+    "headline": "The outbreak has since spread to every province of mainland China as well as 27 other countries and regions, with more than 70 000 confirmed cases as of Feb 17, 2020.2 In response to this ongoing public health emergency, we developed an online interactive dashboard, hosted by the Center for Systems Science and Engineering at Johns Hopkins University, Baltimore, MD, USA, to visualise and track reported cases of coronavirus disease 2019 in real time",
+    "contexts": [],
+    "abbreviations": {
+        "CSSE": "Center for Systems Science and Engineering",
+        "CDC": "centres for disease control and prevention"
+    }
+}

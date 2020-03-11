@@ -1,0 +1,439 @@
+{
+    "filename": "pdf.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1163981,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.12688/f1000research.22507.1",
+            "url": "https://f1000research.com/articles/9-145/v1/pdf"
+        },
+        "date": 2020,
+        "title": "In silico identification of vaccine targets for 2019-nCoV",
+        "author": "Chloe Hyun-Jung Lee, Hashem Koohy",
+        "affiliations": [
+            "MRC Weatherall Institute of Molecular Medicine (WIMM), John Radcliffe Hospital, University of Oxford, Oxford, UK, Oxford, UK",
+            "The Francis Crick Institute, London, UK Institute of Infectious Disease and Molecular Medicine, University of Cape Town, South Africa"
+        ],
+        "journal": "F1000Research",
+        "volume": "9",
+        "abstract": "Background: The newly identified coronavirus known as 2019-nCoV has posed a serious global health threat. According to the latest report (18-February-2020), it has infected more than 72,000 people globally and led to deaths of more than 1,016 people in China. Methods: The 2019 novel coronavirus proteome was aligned to a curated database of viral immunogenic peptides. The immunogenicity of detected peptides and their binding potential to HLA alleles was predicted by immunogenicity predictive models and NetMHCpan 4.0. Results: We report in silico identification of a comprehensive list of immunogenic peptides that can be used as potential targets for 2019 novel coronavirus (2019-nCoV) vaccine development. First, we found 28 nCoV peptides identical to Severe acute respiratory syndrome-related coronavirus (SARS CoV) that have previously been characterized immunogenic by T cell assays. Second, we identified 48 nCoV peptides having a high degree of similarity with immunogenic peptides deposited in The Immune Epitope Database (IEDB). Lastly, we conducted a de novo search of 2019-nCoV 9-mer peptides that i) bind to common HLA alleles in Chinese and European population and ii) have T Cell Receptor (TCR) recognition potential by positional weight matrices and a recently developed immunogenicity algorithm, iPred, and identified in total 63 peptides with a high immunogenicity potential. Conclusions: Given the limited time and resources to develop vaccine and treatments for 2019-nCoV, our work provides a shortlist of candidates for experimental validation and thus can accelerate development pipeline.",
+        "keywords": [
+            "Coronavirus",
+            "adaptive immunity",
+            "immunogenicity",
+            "T cell cross-reactivity",
+            "vaccine development"
+        ],
+        "references": "@article{unknown2020a,\n  title = {World Health Organization: 2019-NCoV Outbreak Is an Emergency of International Concern},\n  journal = {World Health Organization},\n  date = {2020-01-31},\n  publisher = {Reference Source},\n  language = {}\n}\n@article{kock2020a,\n  author = {Kock, R.A. and Karesh, W.B. and Veas, F.},\n  title = {et al.: 2019-nCoV in context: lessons learned?},\n  journal = {Lancet Planet Health},\n  date = {2020},\n  volume = {20},\n  number = {30035-8},\n  language = {}\n}\n@article{lee-a,\n  author = {Lee, C.H. and Koohy, H.},\n  title = {In silico identification of vaccine targets for 2019-nCoV (Custom code)},\n  journal = {Zenodo},\n  volume = {2020},\n  url = {http://www.doi.org/10.5281/zenodo.3676908},\n  language = {}\n}\n@article{pogorelyy2018a,\n  author = {Pogorelyy, M.V. and Fedorova, A.D. and McLaren, J.E.},\n  title = {Exploring the pre-immune landscape of antigen-specific},\n  journal = {Genome Med},\n  date = {2018},\n  volume = {10},\n  pages = {68},\n  more-authors = {true},\n  number = {1},\n  language = {},\n  type = {T cells}\n}\n@article{jurtz2017a,\n  author = {Jurtz, V. and Paul, S. and Andreatta, M.},\n  title = {NetMHCpan- 4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data},\n  journal = {J Immunol},\n  date = {2017},\n  pages = {3360\u20133368},\n  more-authors = {true},\n  language = {}\n}\n@article{karapetyan2019a,\n  author = {Karapetyan, A.R. and Chaipan, C. and Winkelbach, K.},\n  title = {TCR Fingerprinting and OffTarget Peptide Identification},\n  journal = {Front Immunol},\n  date = {2019},\n  volume = {10},\n  pages = {2501},\n  more-authors = {true},\n  language = {}\n}\n@book{ahmed-a,\n  author = {Ahmed, S.F. and Quadeer, A.A. and McKay, M.R.},\n  title = {Preliminary Identification of Potential Vaccine Targets for the COVID-19 Coronavirus (SARS-CoV-2) Based on SARSCoV Immunological Studies. 2020},\n  publisher = {Publisher Full Text},\n  more-authors = {true},\n  language = {}\n}\n@incollection{lee-b,\n  author = {Lee, C.H. and Koohy, H.},\n  title = {In silico identification of vaccine targets for 2019-nCoV},\n  note = {Data tables). [Data set]. Zenodo. 2020},\n  url = {http://www.doi.org/10.5281/zenodo.3676886},\n  booktitle = {Reviewer Report 05},\n  unmatched-url = {https://doi.org/10.5256/f1000research.24839.r60504},\n  language = {},\n  urldate = {March 2020}\n}\n@misc{unknown-a,\n  title = {This is an important manuscript identifying potential vaccine targets for 2019-nCoV, using computational prediction. In the absence of patient samples, such approaches are instrumental to guide towards quick and efficient identification of vaccine candidates. The authors used 10 open reading frame sequences of 2019-nCoV deposited at NCBI and conducted sequence alignment against immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database. They identified 28 peptides with sequences matching exactly to severe acute respiratory syndrome-related coronavirus (SARS CoV), that have previously been characterised as immunogenic by T cell assays. These findings are very promising and have the added benefit of potentially developing a vaccine against both SARS and COVID-19},\n  language = {}\n}\n@misc{unknown-b,\n  title = {The importance of leucine (L) and valine (V) in anchor positions for MHC binding (for data presented in Table 5)},\n  language = {}\n}\n",
+        "links": [
+            "https://github.com/ChloeHJ/Vaccine-target-for2019-nCoV.git",
+            "http://doi.org/"
+        ],
+        "emails": [
+            "hashem.koohy@rdm.ox.ac.uk",
+            "research@f1000.com"
+        ],
+        "pages": "145",
+        "references_ris": "TY  - JOUR\nTI  - World Health Organization: 2019-NCoV Outbreak Is an Emergency of International Concern\nT2  - World Health Organization\nPY  - 2020\nDA  - 2020/01/31\nPB  - Reference Source\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kock, R.A.\nAU  - Karesh, W.B.\nAU  - Veas, F.\nTI  - et al.: 2019-nCoV in context: lessons learned?\nT2  - Lancet Planet Health\nPY  - 2020\nDA  - 2020\nVL  - 20\nIS  - 30035-8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lee, C.H.\nAU  - Koohy, H.\nTI  - In silico identification of vaccine targets for 2019-nCoV (Custom code)\nT2  - Zenodo\nVL  - 2020\nUR  - http://www.doi.org/10.5281/zenodo.3676908\nLA  - \nER  - \n\nTY  - GEN\nAU  - Pogorelyy, M.V.\nAU  - Fedorova, A.D.\nAU  - McLaren, J.E.\nTI  - Exploring the pre-immune landscape of antigen-specific\nT2  - Genome Med\nPY  - 2018\nDA  - 2018\nVL  - 10\nSP  - 68\nC1  - true\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jurtz, V.\nAU  - Paul, S.\nAU  - Andreatta, M.\nTI  - NetMHCpan- 4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data\nT2  - J Immunol\nPY  - 2017\nDA  - 2017\nSP  - 3360\nEP  - 3368\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Karapetyan, A.R.\nAU  - Chaipan, C.\nAU  - Winkelbach, K.\nTI  - TCR Fingerprinting and OffTarget Peptide Identification\nT2  - Front Immunol\nPY  - 2019\nDA  - 2019\nVL  - 10\nSP  - 2501\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Ahmed, S.F.\nAU  - Quadeer, A.A.\nAU  - McKay, M.R.\nTI  - Preliminary Identification of Potential Vaccine Targets for the COVID-19 Coronavirus (SARS-CoV-2) Based on SARSCoV Immunological Studies. 2020\nPB  - Publisher Full Text\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Lee, C.H.\nAU  - Koohy, H.\nTI  - In silico identification of vaccine targets for 2019-nCoV\nN1  - Data tables). [Data set]. Zenodo. 2020\nUR  - http://www.doi.org/10.5281/zenodo.3676886\nT2  - Reviewer Report 05\nC1  - https://doi.org/10.5256/f1000research.24839.r60504\nLA  - \nC1  - March 2020\nER  - \n\nTY  - GEN\nTI  - This is an important manuscript identifying potential vaccine targets for 2019-nCoV, using computational prediction. In the absence of patient samples, such approaches are instrumental to guide towards quick and efficient identification of vaccine candidates. The authors used 10 open reading frame sequences of 2019-nCoV deposited at NCBI and conducted sequence alignment against immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database. They identified 28 peptides with sequences matching exactly to severe acute respiratory syndrome-related coronavirus (SARS CoV), that have previously been characterised as immunogenic by T cell assays. These findings are very promising and have the added benefit of potentially developing a vaccine against both SARS and COVID-19\nLA  - \nER  - \n\nTY  - GEN\nTI  - The importance of leucine (L) and valine (V) in anchor positions for MHC binding (for data presented in Table 5)\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "2",
+                "caption": "List of 22 2019-nCoV peptides having a higher predicted immunogenicity score than their target peptides"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "2",
+                "caption": "Predicted immunogenicity for IEDB immunogenic vs. 2019-nCoV peptides. 2019-nCoV peptides having a high sequence similarity to immunogenic peptides and their targets were analysed for their immunogenicity potential by iPred algorithm"
+            },
+            {
+                "id": "3",
+                "caption": "De novo search of 9-mer 2019-nCoV peptides with MHC presentation and immunogenicity potential. The MHC binding was predicted for HLA-A*02:01, HLA-A*01:01, HLA-B*07:02, HLA-B*40:01 and HLA-C*07:02 alleles by NetMHCpan 4.0 and immunogenicity was predicted by iPred"
+            },
+            {
+                "id": "4",
+                "caption": "Distribution of 1G4 TCR positional weight matrix scores for 2019-nCoV peptides. The positional weight matrices were obtained from 6 and 9613 9-mers generated from 10 2019-nCoV ORFs were computed for their TCR recognition potential"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/e40eecdfb56fab390173850325488526.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/e40eecdfb56fab390173850325488526/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/e40eecdfb56fab390173850325488526/img-015.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/e40eecdfb56fab390173850325488526/img-016.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/e40eecdfb56fab390173850325488526/img-017.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/e40eecdfb56fab390173850325488526/img-018.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/e40eecdfb56fab390173850325488526/img-075.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "The emergence and rapid spread of the recent novel coronavirus known as 2019-nCoV has posed a serious global health threat[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] and has already caused a huge financial burden[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. It has further challenged the scientific and industrial community for quick control practices, and equally importantly to develop effective vaccines to prevent its recurrence. In facing a rapid epidemical outbreak to a novel and unknown pathogen, a key bottleneck for a proper and deep investigation, which is fundamental for vaccine development, is the limited -- to almost no -- access of the scientific community to samples from infected subjects. As such, in silico predictions of targets for vaccines are of high importance and can serve as a guidance to medical and experimental experts for the best and timely use of the limited resources.<br/><br/>In this regard, we report our recent effort to computationally identify immunogenic and/or cross-reactive peptides from 2019-nCoV. We provide a detailed screen of candidate peptides based on comparison with immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database including those derived from Severe acute respiratory syndrome-related coronavirus (SARS CoV) along with de novo prediction from 2019-nCoV 9-mer peptides. Here, we found i) 28 SARS-derived peptides having exact matches in 2019nCoV proteome previously characterized to be immunogenic by in vitro T cell assays, ii) 22 nCoV peptides having a high sequence similarity with immunogenic peptides but with a greater predicted immunogenicity score, and iii) 44 + 19 nCoV peptides predicted to be immunogenic by the iPred algorithm and 1G4 TCR positional weight matrices respectively."
+        ],
+        "results": [
+            "Identification of 28 exact matches to SARS CoV immunogenic peptides by screening all epitopes deposited in IEDB We collected all peptides in IEDB (3, as of 13-02-2020) reported positive in T cell assays and have human as the host organism. We then conducted a local sequence alignment of 10 2019-nCoV open reading frames (ORFs) against 35,225 IEDB peptides, and found 28 exact matches. Surprisingly, all identical hits (towards target peptide length > 3) were from SARS-CoV (Table 1, Data Table 14). These peptides have been shown to bind various HLA alleles, although with higher<br/><br/>Table 1. 28 2019-nCoV peptides having exact matches with immunogenic SARS-CoV peptides.<br/><br/>IEDB.peptide TLACFVLAAV<br/><br/>2019-nCoV.pattern TLACFVLAAV<br/><br/>AFFGMSRIGMEVTPSGTW AFFGMSRIGMEVTPSGTW    ALNTPKDHI    AQFAPSASAFFGMSR<br/><br/>AQFAPSASAFFGMSRIGM AQFAPSASAFFGMSRIGM    GMSRIGMEV    ILLNKHIDA<br/><br/>IRQGTDYKHWPQIAQFA IRQGTDYKHWPQIAQFA"
+        ],
+        "discussion": [
+            "In this study we provide a profile of computationally predicted immunogenic peptides from 2019-nCoV for functional<br/><br/>Table 3. 2019-nCoV 9-mer peptides predicted to bind 4 different HLA alleles by NetMHCpan 4.0, and those predicted to bind \u2265 3 HLA alleles and immunogenicity score \u2265 0.9 by iPred. For different alleles, 0 denotes non-binding and 1 denotes binding predicted for specific HLA allele.    Antigen.epitope<br/><br/>VQMAPISAM AMYTPHTVL TLDSKTQSL KVDGVVQQL KVDGVDVEL MADQAMTQM LEAPFLYLY RTAPHGHVM IPFAMQMAY FLTENLLLY YLQPRTFLL MMISAGFSL ATLPKGIMM    Imm.prob    A0101.NB    A0201.NB    B0702.NB<br/><br/>B4001.NB C0702.NB<br/><br/>Total binding HLA validation and potential vaccine developments. We are fully aware that an effective vaccine development will require a very thorough investigation of immune correlates to 2019-nCoV. However, due to the emergency and severity of the outbreak as well as the lack of access to samples from infected subjects, such approaches would not serve the urgency. Therefore, computational prediction is instrumental for guiding biologists towards a quick and cost-effective solution to prevent the spread and ultimately help eliminate the infection from the individuals."
+        ],
+        "method": [
+            "Data acquisition 2019-nCoV open reading frame sequences were downloaded from NCBI (MN908947.3). All sequences subjected for analysis are deposited in GitHub repository.<br/><br/>Data analysis All subsequent analyses have been conducted in R 3.6.1.<br/><br/>Sequence similarity comparison The sequence similarity between 2019-nCoV open reading frames and previously characterized immunogenic peptides in IEDB was analysed by local alignment using R \u2018pairwiseAlignment\u2019 function from Biostrings v2.40.2 package. The local alignment utilized BLOSUM62 matrix, gapOpening of 5 and gapExtension of 5. The alignment score was normalized by length of target peptides."
+        ],
+        "data_availability": [
+            "Source data 2019-nCoV open reading frame sequences were downloaded from NCBI (MN908947.3). Underlying data Zenodo: In silico identification of vaccine targets for 2019-nCoV (Data tables). http://doi.org/10.5281/zenodo.36768869 This project contains the following underlying data:\u2013 Table[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] nCoV peptides having exact match with immunogenic SARS CoV peptides.xlsx (Table of nCoV peptides having exact match with immunogenic SARS CoV peptides)\u2013 Table[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] nCoV peptides with high sequence similarity with immunogenic IEDB peptides.csv (Table of peptides with high sequence similarity with immunogenic IEDB peptides)\u2013 Table[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and iPred.csv (Table of results of de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and iPred)\u2013 Table[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and PWM.xlsx (Table of results of de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and PWM) Data are available under the terms of the Creative Commons Attribution 4.0 International license (CC-BY 4.0)."
+        ],
+        "acknowledgements": [
+            "We acknowledge further appreciate assistance and computing support from Unit and WIMM Centre for Computational Biology at MRC Weatherall Institute of Molecular Medicine. We thank G. Napolitani and M. Salio for insightful discussions about the project."
+        ],
+        "funding": [
+            "Grant information: This study was funded by the Medical Research Council Human Immunology Unit"
+        ],
+        "disclosures": [
+            "Competing Interests: No competing interests were disclosed. Reviewer Expertise: T cell immunology I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard."
+        ]
+    },
+    "structured_content": {
+        "25 Feb 2020": [
+            "Any reports and responses or comments on the article can be found at the end of the article.",
+            "Keywords Coronavirus, adaptive immunity, immunogenicity, T cell cross-reactivity, vaccine development",
+            "This article is included in the Disease Outbreaks gateway."
+        ],
+        "Introduction": [
+            "The emergence and rapid spread of the recent novel coronavirus known as 2019-nCoV has posed a serious global health threat[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] and has already caused a huge financial burden[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. It has further challenged the scientific and industrial community for quick control practices, and equally importantly to develop effective vaccines to prevent its recurrence. In facing a rapid epidemical outbreak to a novel and unknown pathogen, a key bottleneck for a proper and deep investigation, which is fundamental for vaccine development, is the limited -- to almost no -- access of the scientific community to samples from infected subjects. As such, in silico predictions of targets for vaccines are of high importance and can serve as a guidance to medical and experimental experts for the best and timely use of the limited resources.",
+            "In this regard, we report our recent effort to computationally identify immunogenic and/or cross-reactive peptides from 2019-nCoV. We provide a detailed screen of candidate peptides based on comparison with immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database including those derived from Severe acute respiratory syndrome-related coronavirus (SARS CoV) along with de novo prediction from 2019-nCoV 9-mer peptides. Here, we found i) 28 SARS-derived peptides having exact matches in 2019nCoV proteome previously characterized to be immunogenic by in vitro T cell assays, ii) 22 nCoV peptides having a high sequence similarity with immunogenic peptides but with a greater predicted immunogenicity score, and iii) 44 + 19 nCoV peptides predicted to be immunogenic by the iPred algorithm and 1G4 TCR positional weight matrices respectively."
+        ],
+        "Results": [
+            "Identification of 28 exact matches to SARS CoV immunogenic peptides by screening all epitopes deposited in IEDB We collected all peptides in IEDB (3, as of 13-02-2020) reported positive in T cell assays and have human as the host organism. We then conducted a local sequence alignment of 10 2019-nCoV open reading frames (ORFs) against 35,225 IEDB peptides, and found 28 exact matches. Surprisingly, all identical hits (towards target peptide length > 3) were from SARS-CoV (Table 1, Data Table 14). These peptides have been shown to bind various HLA alleles, although with higher",
+            "Table 1. 28 2019-nCoV peptides having exact matches with immunogenic SARS-CoV peptides.",
+            "N protein N protein Nucleoprotein Nucleoprotein N protein Nucleoprotein nucleocapsid protein N protein Nucleoprotein nucleocapsid protein S protein Spike glycoprotein precursor Spike glycoprotein precursor S protein S protein Spike glycoprotein precursor S protein Spike glycoprotein precursor S protein S protein S protein",
+            "HLA-A2 HLA-A2 HLA-A*02:01 HLA-DRB1*04:01 HLA-A*02:01 HLA-A*02:01 HLA-A*02:01 HLA-DRA*01:01/DRB1*07:01 HLA-DRB1*04:01 HLA-DRB1*04:01",
+            "tendency towards HLA-A:02:01, from both class I and class II, and can be target for CD8+ and CD4+ T cells respectively.",
+            "Identification of 22 2019-nCoV peptides with high degree of similarity to previously reported immunogenic viral peptides In addition to 28 identical hits against SARS CoV, we observed a long tail in distribution of normalized alignment scores between 10 2019-nCoV ORFs and 35,225 IEDB peptides (Figure 1A). We therefore set out to further investigate potential vaccine targets among highly similar sequences.",
+            "Taking the normalized alignment score of exact matches as a reference, we extracted 2019-nCoV peptides having score greater or equal to 4. As illustrated in Figure 1A, we observed 45 and 11 peptides having normalized alignment score \u2265 4 and \u2265 5 respectively (Figure 1A inset). The target peptides were originated from 10 different sources (Figure 1B) where a total 36 peptides were derived from strains associated to SARS CoV. Of interest, we also observed 7 hits having high sequence similarity to targets from Homo sapiens.",
+            "In order to investigate the extent to which the difference between the source (2019-nCoV) and target (IEDB) peptides influences the immunogenicity of the source peptides we used a recently published immunogenicity model[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] to predict and compare the immunogenicity between the source and target peptides (Data Table 24).",
+            "We could see a similar (close to identical) immunogenicity scores for a number of IEDB and 2019-nCov peptides especially for those with high immunogenicity scores (Figure 2). While all 48 can be potential targets, of particular interest were those having higher immunogenicity score than IEDB peptides. Here, we list 22 out of 48 2019-nCoV peptides that scored higher compared to their targets that have been characterized to be immunogenic (Table 2). In this list 15 (68%) 2019-nCov peptides have a score higher than 0.5 whereas only 11(50%) of IEDB get a score immunogenicity score greater than 0.5.",
+            "It is worth noting that in general predicting immunogenicity of given a peptide is challenging and not a fully solved problem, and therefore current models for predicting immunogenicity are suboptimal. iPred is also not an exception. In fact, we could see that a substantial number of IEDB immunogenic peptides were scored < 0.5 (the threshold score used to classify immunogenic vs non-immunogenic). This led us to ask whether we can gather any other evidence of either immunogenicity or cross-reactivity.",
+            "De novo search of immunogenic peptides in 2019-nCoV proteome As a complementary reciprocal approach, we conducted a de novo search of immunogenic peptides against the 2019nCov proteome sequence. We scanned 9-mers from 2019-nCoV proteome with a window of 9 amino acids and step length of 1 amino acid (9613 in total). The immunogenicity of 9-mer",
+            "Figure 1. 2019-nCoV peptides with high sequence similarity to immunogenic peptides in IEDB. A. Comparison of normalized sequence alignment score for peptides with exact and non-exact matches. B. Number of target peptides grouped by their source organism.",
+            "QKRTATKAYNVTQAF peptides were predicted using iPred and MHC presentation scores were gauged using NetMHCpan 4.06 for various HLA types. In this task, we focused on haplotypes common in Chinese and European populations, which include HLA-A*02:01, HLA-A*01:01, HLA-B*07:02, HLA-B*40:01 and HLA-C*07:02 alleles (Data Table 34).",
+            "Based on MHC presentation and immunogenicity prediction, we detected 5 peptides predicted to bind 4 different HLA alleles of which 2 had strong immunogenicity scores (Figure 3). For those 65 strong binders to 3 different HLA types, 39 had immunogenicity scores \u2265 0.5 (Table 3). Collectively this analysis suggests a number of 9-mer immunogenic candidates for further experimental validation.",
+            "Immunogenicity of 2019-nCoV peptides to 1G4 CD8+ TCR molecule While our de novo candidates are appealing shortlisted targets for experimental validation, it does not provide information about target T cell receptors (TCRs). We therefore set out to interrogate the possibility of cross reactivity with one well-studied TCR.",
+            "T cell cross-reactivity has been instrumental for the T cell immunity against both tumor antigens and external pathogens. In that regard, a number of T cells have been extensively characterized including 1G4 CD8+ TCR, which is known to recognize the \u2018SLLMWITQC\u2019 peptide presented by HLA-A*02:01. We therefore set out to leverage the data from a recently published study[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] and exploit the possibility of cross reactivity of this TCR to any 2019-nCoV peptide.",
+            "Here, we scanned all 9-mers from the 2019-nCoV proteome (9613 peptides) with Binding, Activating and Killing Position Weight Matrices (PWM, see the method section) and associated each peptide with the geometric mean of these three assays as a measure of immunogenicity (Data Table 44). The distributions of binding, activation and killing scores along with their multiplicative score and geometric mean are illustrated in Figure 4. Based on geometric mean, we observed 20 2019-nCoV peptides with a score > 0.8 and 516 peptides > 0.7. The 9-mer peptides with geometric mean > 0.7 and positive HLA-A*02:01 binding prediction by NetMHCpan 4.0 are listed in Table 4.",
+            "We further analysed the MHC binding propensities and gathered peptides not only predicted positive by NetMHCpan but also to have leucine (L) and valine (V) in anchor positions 2 and 9 respectively. This led to identification of 44 2019-nCoV peptides of which 2 peptides had immunogenicity score > 0.7 and 12 peptides > 0.6 (Table 5). Thus, here we provide the list of peptides that are potential targets for 1G4 TCR recognition for subjects with HLA-A02:01 haplotype."
+        ],
+        "Discussion": [
+            "Table 3. 2019-nCoV 9-mer peptides predicted to bind 4 different HLA alleles by NetMHCpan 4.0, and those predicted to bind \u2265 3 HLA alleles and immunogenicity score \u2265 0.9 by iPred. For different alleles, 0 denotes non-binding and 1 denotes binding predicted for specific HLA allele.",
+            "validation and potential vaccine developments. We are fully aware that an effective vaccine development will require a very thorough investigation of immune correlates to 2019-nCoV. However, due to the emergency and severity of the outbreak as well as the lack of access to samples from infected subjects, such approaches would not serve the urgency. Therefore, computational prediction is instrumental for guiding biologists towards a quick and cost-effective solution to prevent the spread and ultimately help eliminate the infection from the individuals.",
+            "With a rising global concern of novel coronavirus outbreak, numerous research groups have started to investigate and",
+            "Table 4. 2019-nCoV 9-mer peptides with geometric mean \u2265 0.7 by 1G4 TCR positional weight matrix and predicted positive to bind HLA-A*02:01 by NetMHCpan 4.0 (Rank = NetMHCpan rank)",
+            "Table 5. 2019-nCoV 9-mer peptides having leucine-valine in anchor positions. Peptides have geometric mean \u2265 0.6 and \u2264 0.7 (for those \u2265 0.7, refer to Table 4) by 1G4 TCR positional weight matrix and predicted positive for HLA-A*02:01 binding by NetMHCpan 4.0 (Rank = NetMHCpan rank).",
+            "0.575445 0.603119 0.0453 SB publish their findings. At the time of preparing this manuscript, we became aware of a similar study conducted in comparing 2019-nCoV proteome with SARS CoV immunogenic peptides[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Our in silico approach takes the search beyond presenting only common immunogenic peptide between SARS and 2019-nCoV and provides the experimental community with a more comprehensive list including de novo and cross reactive candidates. On the other hand, considering the fact that two studies have been accomplished independently with distinct approaches, this serves to demonstrate a high level of confidence in reproducing the results. Reproducibility of computational prediction is always of high importance and becomes even more significant under urgent scenarios as of this outbreak.",
+            "Our study also suggests the need for further efforts to develop accurate predictive models and algorithms for the characterization of immunogenic peptides.",
+            "In this study, we provide potential immunogenic peptides from 2019-nCoV for vaccine targets that i) have been characterized immunogenic by previous studies on SARS CoV, ii) have high degree of similarity with immunogenic SARS CoV peptides and iii) are predicted immunogenic by combination of NetMHCpan and iPred/1G4 TCR positional weight matrices. Given the limited time and resources, our work serves as a guide to save time and cost for further experimental validation.",
+            "Method Data acquisition 2019-nCoV open reading frame sequences were downloaded from NCBI (MN908947.3). All sequences subjected for analysis are deposited in GitHub repository.",
+            "Data analysis All subsequent analyses have been conducted in R 3.6.1.",
+            "Sequence similarity comparison The sequence similarity between 2019-nCoV open reading frames and previously characterized immunogenic peptides in IEDB was analysed by local alignment using R \u2018pairwiseAlignment\u2019 function from Biostrings v2.40.2 package. The local alignment utilized BLOSUM62 matrix, gapOpening of 5 and gapExtension of 5. The alignment score was normalized by length of target peptides.",
+            "Immunogenicity prediction We have used iPred[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] to predict immunogenicity of each given peptide. Briefly, iPred employs peptides\u2019 length and physicochemical properties of amino acids modelled by sums of ten Kidera factors and associates a score to each peptide reflecting its likelihood of recognition by a T cell.",
+            "Predicting presentation by MHCs In order to predict peptide binding to MHC we used NetMHCpan V46. This version of NetMHCpan that comes with a number of improvements, incorporate both eluted ligand and peptide binding affinity data into a neural network model to predict MHC presentation of each given peptide.",
+            "Predicting cross reactivity to 1G4 TCR To gauge the level of 1G4 TCR cross-reactivity to list of 2019-nCoV virus, we have leveraged the data from a recently published study7. 1G4 or NY-ESO-1-specific TCR is a very well-studied and clinically efficacious TCR which recognize the peptide \u2018SLLMWITQC\u2019 presented by HLA-A*02:01. Karapetyan et al have recently provided data from three experimental assays reflecting Binding, Activating and Killing upon each mutation at each position of all possible 9-mers using these three datasets. In a similar way to the original paper, we trained three Position Weight Matrices named B, A and K respectively from Binding, Activating and Killing assay. We defined the cross-reactivity score of a given 9-mer sequence as the geometric mean of B, A and K.",
+            "We then scanned 2019-nCoV virus protein sequence with each of B, A and K PWMs and associated each of 9613 9-mers with a cross reactivity score. At the same we utilized NetMHCpan and associated each 9-mer with its presentation score. Our final list of cross-reactive candidate peptides were those with a cross-reactivity sore >= 0.8 and reported as strong binders from NetMHCpan and have \u2018L\u2019 and \u2018V\u2019 amino acids at anchor positions. The custom R codes are accessible from GitHub repository (see software availability[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]).",
+            "Software availability Replication code: https://github.com/ChloeHJ/Vaccine-target-for2019-nCoV.git",
+            "Archived source code at time of publication: http://doi.org/ 10.5281/zenodo.36769084",
+            "Data availability Source data 2019-nCoV open reading frame sequences were downloaded from NCBI (MN908947.3).",
+            "Underlying data Zenodo: In silico identification of vaccine targets for 2019-nCoV (Data tables). http://doi.org/10.5281/zenodo.36768869",
+            "This project contains the following underlying data: \u2013 Table[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] nCoV peptides having exact match with immunogenic SARS CoV peptides.xlsx (Table of nCoV peptides having exact match with immunogenic SARS CoV peptides)",
+            "\u2013 Table[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] nCoV peptides with high sequence similarity with immunogenic IEDB peptides.csv (Table of peptides with high sequence similarity with immunogenic IEDB peptides)",
+            "\u2013 Table[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and iPred.csv (Table of results of de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and iPred)",
+            "\u2013 Table[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and PWM.xlsx (Table of results of de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and PWM)",
+            "Data are available under the terms of the Creative Commons Attribution 4.0 International license (CC-BY 4.0)."
+        ],
+        "Acknowledgements": [
+            "We acknowledge further appreciate assistance and computing support from Unit and WIMM Centre for Computational Biology at MRC Weatherall Institute of Molecular Medicine. We thank G. Napolitani and M. Salio for insightful discussions about the project."
+        ],
+        "References": [
+            "1. World Health Organization: 2019-NCoV Outbreak Is an Emergency of International Concern. World Health Organization, 31 Jan. 2020. Reference Source",
+            "2. Kock RA, Karesh WB, Veas F, et al.: 2019-nCoV in context: lessons learned? Lancet Planet Health. 2020; pii: S2542-5196(20)30035-8.",
+            "PubMed Abstract | Publisher Full Text",
+            "3. Vita R, Mahajan S, Overton JA, et al.: The Immune Epitope Database (IEDB): 2018 update. Nucleic Acids Res. 2019; 47(D1): D339\u2013D343.",
+            "PubMed Abstract | Publisher Full Text | Free Full Text",
+            "4. Lee CH, Koohy H: In silico identification of vaccine targets for 2019-nCoV (Custom code). Zenodo. 2020. http://www.doi.org/10.5281/zenodo.3676908",
+            "5. Pogorelyy MV, Fedorova AD, McLaren JE, et al.: Exploring the pre-immune landscape of antigen-specific T cells. Genome Med. 2018; 10(1): 68.",
+            "6. Jurtz V, Paul S, Andreatta M, et al.: NetMHCpan-4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding",
+            "Affinity Data. J Immunol. 2017; 199(9): 3360\u20133368.",
+            "7. Karapetyan AR, Chaipan C, Winkelbach K, et al.: TCR Fingerprinting and OffTarget Peptide Identification. Front Immunol. 2019; 10: 2501.",
+            "8. Ahmed SF, Quadeer AA, McKay MR, et al.: Preliminary Identification of Potential Vaccine Targets for the COVID-19 Coronavirus (SARS-CoV-2) Based on SARSCoV Immunological Studies. 2020. Publisher Full Text",
+            "9. Lee CH, Koohy H: In silico identification of vaccine targets for 2019-nCoV (Data tables). [Data set]. Zenodo. 2020. http://www.doi.org/10.5281/zenodo.3676886",
+            "Open Peer Review",
+            "Current Peer Review Status: Version 1",
+            "Reviewer Report 05 March 2020 https://doi.org/10.5256/f1000research.24839.r60504",
+            "\u00a9 2020 Wilkinson K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+            "Katalin Wilkinson 1 Tuberculosis Laboratory, The Francis Crick Institute, London, UK 2 Institute of Infectious Disease and Molecular Medicine, University of Cape Town, South Africa",
+            "This is an important manuscript identifying potential vaccine targets for 2019-nCoV, using computational prediction. In the absence of patient samples, such approaches are instrumental to guide towards quick and efficient identification of vaccine candidates. The authors used 10 open reading frame sequences of 2019-nCoV deposited at NCBI and conducted sequence alignment against immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database. They identified 28 peptides with sequences matching exactly to severe acute respiratory syndrome-related coronavirus (SARS CoV), that have previously been characterised as immunogenic by T cell assays. These findings are very promising and have the added benefit of potentially developing a vaccine against both SARS and COVID-19.",
+            "Additional peptides were identified to most likely bind common Chinese and European HLA alleles and have high immunogenicity potential. The authors provide a shortlist of peptides as potential vaccine candidates. While this manuscript presents a good model for identifying such targets, a comment should be included in the discussion about the necessity of expanding the analysis to include wider HLA allele types, considering that the virus is likely to spread worldwide.",
+            "Minor comment: Please explain the methods and analysis in greater details, including the following terms: 1. \u2018Towards target peptide length > 3\u2019.",
+            "2. \u2018Normalized alignment scores\u2019 (and their scale, such as the significance of 4 for the data presented in Figure 1).",
+            "3. The importance of leucine (L) and valine (V) in anchor positions for MHC binding (for data presented in Table 5).",
+            "Is the work clearly and accurately presented and does it cite the current literature? Yes",
+            "Is the study design appropriate and is the work technically sound?",
+            "Is the study design appropriate and is the work technically sound? Yes Are sufficient details of methods and analysis provided to allow replication by others? Partly If applicable, is the statistical analysis and its interpretation appropriate? Not applicable Are all the source data underlying the results available to ensure full reproducibility? Yes Are the conclusions drawn adequately supported by the results? Yes Competing Interests: No competing interests were disclosed. Reviewer Expertise: T cell immunology I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.",
+            "The benefits of publishing with F1000Research: Your article is published within days, with no editorial bias You can publish traditional articles, null/negative results, case reports, data notes and more The peer review process is transparent and collaborative Your article is indexed in PubMed after passing peer review Dedicated customer support at every stage",
+            "For pre-submission enquiries, contact research@f1000.com"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "people",
+            "number": 72000,
+            "context": "Background: The newly identified coronavirus known as 2019-nCoV has posed a serious global health threat. <mark class=\"stats\">According to the latest report (18-February-2020), it has infected more than 72,000 people globally and led to deaths of more than 1,016 people in China</mark>. Methods: The 2019 novel coronavirus proteome was aligned to a curated database of viral immunogenic peptides"
+        },
+        {
+            "participant": "studies",
+            "number": 2,
+            "context": "Our in silico approach takes the search beyond presenting only common immunogenic peptide between SARS and 2019-nCoV and provides the experimental community with a more comprehensive list including de novo and cross reactive candidates. <mark class=\"stats\">On the other hand, considering the fact that two studies have been accomplished independently with distinct approaches, this serves to demonstrate a high level of confidence in reproducing the results</mark>. Reproducibility of computational prediction is always of high importance and becomes even more significant under urgent scenarios as of this outbreak"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "T cell cross-reactivity",
+        "immune epitope database",
+        "IEDB",
+        "adaptive immunity",
+        "COVID-19",
+        "t cell assay",
+        "serious global",
+        "immunogenic peptide",
+        "immunogenicity",
+        "vaccine development",
+        "hla allele",
+        "severe acute respiratory syndrome related coronavirus",
+        "T cell receptors",
+        "vaccine target",
+        "ncov peptide",
+        "computational prediction",
+        "Infectious disease",
+        "coronavirus",
+        "SARS",
+        "mer peptide",
+        "open reading frames",
+        "sars cov",
+        "novel coronavirus",
+        "silico identification"
+    ],
+    "keyword_relevance": {
+        "immunogenicity": 0.18292682926829268,
+        "immunogenic peptide": 0.13414634146341464,
+        "IEDB": 0.12804878048780488,
+        "T cell receptors": 0.11585365853658537,
+        "SARS": 0.11585365853658537,
+        "coronavirus": 0.054878048780487805,
+        "vaccine target": 0.04878048780487805,
+        "mer peptide": 0.036585365853658534,
+        "silico identification": 0.036585365853658534,
+        "vaccine development": 0.03048780487804878,
+        "open reading frames": 0.03048780487804878,
+        "novel coronavirus": 0.024390243902439025,
+        "computational prediction": 0.018292682926829267,
+        "T cell cross-reactivity": 0.012195121951219513,
+        "COVID-19": 0.012195121951219513,
+        "serious global": 0.012195121951219513,
+        "adaptive immunity": 0.006097560975609756,
+        "immune epitope database": 0.0,
+        "t cell assay": 0.0,
+        "hla allele": 0.0,
+        "severe acute respiratory syndrome related coronavirus": 0.0,
+        "ncov peptide": 0.0,
+        "Infectious disease": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The emergence and rapid spread of the recent novel coronavirus known as 2019-nCoV has posed a serious global health threat[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] and has already caused a huge financial burden[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "In silico predictions of targets for vaccines are of high importance and can serve as a guidance to medical and experimental experts for the best and timely use of the limited resources",
+        "In this regard, the authors report the recent effort to computationally identify immunogenic and/or cross-reactive peptides from 2019-nCoV.",
+        "The authors found i) 28 SARS-derived peptides having exact matches in 2019nCoV proteome previously characterized to be immunogenic by in vitro T cell assays, ii) 22 nCoV peptides having a high sequence similarity with immunogenic peptides but with a greater predicted immunogenicity score, and iii) 44 + 19 nCoV peptides predicted to be immunogenic by the iPred algorithm and 1G4 TCR positional weight matrices respectively",
+        "<h2 style=\"display: inline\">Methods:</h2> Data acquisition 2019-nCoV open reading frame sequences were downloaded from NCBI (MN908947.3).",
+        "All sequences subjected for analysis are deposited in GitHub repository.",
+        "Data analysis All subsequent analyses have been conducted in R 3.6.1.",
+        "Sequence similarity comparison The sequence similarity between 2019-nCoV open reading frames and previously characterized immunogenic peptides in IEDB was analysed by local alignment using R \u2018pairwiseAlignment\u2019 function from Biostrings v2.40.2 package.",
+        "The local alignment utilized BLOSUM62 matrix, gapOpening of 5 and gapExtension of 5.",
+        "The alignment score was normalized by length of target peptides",
+        "<h2 style=\"display: inline\">Results:</h2> Identification of 28 exact matches to SARS CoV immunogenic peptides by screening all epitopes deposited in IEDB The authors collected all peptides in IEDB (3, as of 13-02-2020) reported positive in T cell assays and have human as the host organism.",
+        "All identical hits were from SARS-CoV (Table 1, Data Table 14).",
+        "These peptides have been shown to bind various HLA alleles, with higher.",
+        "28 2019-nCoV peptides having exact matches with immunogenic SARS-CoV peptides",
+        "Table 1. 28 2019-nCoV peptides having exact matches with immunogenic SARS-CoV peptides.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> In this study the authors provide a profile of computationally predicted immunogenic peptides from 2019-nCoV for functional<br/><br/>Table 3. 2019-nCoV 9-mer peptides predicted to bind 4 different HLA alleles by NetMHCpan 4.0, and those predicted to bind \u2265 3 HLA alleles and immunogenicity score \u2265 0.9 by iPred.",
+        "In this study the authors provide a profile of computationally predicted immunogenic peptides from 2019-nCoV for functional.",
+        "2019-nCoV 9-mer peptides predicted to bind 4 different HLA alleles by NetMHCpan 4.0, and those predicted to bind \u2265 3 HLA alleles and immunogenicity score \u2265 0.9 by iPred.",
+        "0 denotes non-binding and 1 denotes binding predicted for specific HLA allele.",
+        "The authors are fully aware that an effective vaccine development will require a very thorough investigation of immune correlates to 2019-nCoV.",
+        "Computational prediction is instrumental for guiding biologists towards a quick and cost-effective solution to prevent the spread and help eliminate the infection from the individuals"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The emergence and rapid spread of the recent novel coronavirus known as 2019-nCoV has posed a serious global health threat[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] and has already caused a huge financial burden[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "In silico predictions of targets for vaccines are of high importance and can serve as a guidance to medical and experimental experts for the best and timely use of the limited resources",
+            "In this regard, the authors report the recent effort to computationally identify immunogenic and/or cross-reactive peptides from 2019-nCoV.",
+            "The authors found i) 28 SARS-derived peptides having exact matches in 2019nCoV proteome previously characterized to be immunogenic by in vitro T cell assays, ii) 22 nCoV peptides having a high sequence similarity with immunogenic peptides but with a greater predicted immunogenicity score, and iii) 44 + 19 nCoV peptides predicted to be immunogenic by the iPred algorithm and 1G4 TCR positional weight matrices respectively"
+        ],
+        "Methods": [
+            "Data acquisition 2019-nCoV open reading frame sequences were downloaded from NCBI (MN908947.3).",
+            "All sequences subjected for analysis are deposited in GitHub repository.",
+            "Data analysis All subsequent analyses have been conducted in R 3.6.1.",
+            "Sequence similarity comparison The sequence similarity between 2019-nCoV open reading frames and previously characterized immunogenic peptides in IEDB was analysed by local alignment using R \u2018pairwiseAlignment\u2019 function from Biostrings v2.40.2 package.",
+            "The local alignment utilized BLOSUM62 matrix, gapOpening of 5 and gapExtension of 5.",
+            "The alignment score was normalized by length of target peptides"
+        ],
+        "Results": [
+            "Identification of 28 exact matches to SARS CoV immunogenic peptides by screening all epitopes deposited in IEDB The authors collected all peptides in IEDB (3, as of 13-02-2020) reported positive in T cell assays and have human as the host organism.",
+            "All identical hits were from SARS-CoV (Table 1, Data Table 14).",
+            "These peptides have been shown to bind various HLA alleles, with higher.",
+            "28 2019-nCoV peptides having exact matches with immunogenic SARS-CoV peptides",
+            "Table 1. 28 2019-nCoV peptides having exact matches with immunogenic SARS-CoV peptides."
+        ],
+        "Conclusion": [
+            "In this study the authors provide a profile of computationally predicted immunogenic peptides from 2019-nCoV for functional<br/><br/>Table 3. 2019-nCoV 9-mer peptides predicted to bind 4 different HLA alleles by NetMHCpan 4.0, and those predicted to bind \u2265 3 HLA alleles and immunogenicity score \u2265 0.9 by iPred.",
+            "In this study the authors provide a profile of computationally predicted immunogenic peptides from 2019-nCoV for functional.",
+            "2019-nCoV 9-mer peptides predicted to bind 4 different HLA alleles by NetMHCpan 4.0, and those predicted to bind \u2265 3 HLA alleles and immunogenicity score \u2265 0.9 by iPred.",
+            "0 denotes non-binding and 1 denotes binding predicted for specific HLA allele.",
+            "The authors are fully aware that an effective vaccine development will require a very thorough investigation of immune correlates to 2019-nCoV.",
+            "Computational prediction is instrumental for guiding biologists towards a quick and cost-effective solution to prevent the spread and help eliminate the infection from the individuals"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "1._2020_a",
+            "entry": "1. World Health Organization: 2019-NCoV Outbreak Is an Emergency of International Concern. World Health Organization, 31 Jan. 2020. Reference Source",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=World%20Health%20Organization%202019NCoV%20Outbreak%20Is%20an%20Emergency%20of%20International%20Concern%20World%20Health%20Organization%2031%20Jan%202020%20Reference%20Source",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=World%20Health%20Organization%202019NCoV%20Outbreak%20Is%20an%20Emergency%20of%20International%20Concern%20World%20Health%20Organization%2031%20Jan%202020%20Reference%20Source",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=World%20Health%20Organization%202019NCoV%20Outbreak%20Is%20an%20Emergency%20of%20International%20Concern%20World%20Health%20Organization%2031%20Jan%202020%20Reference%20Source"
+        },
+        {
+            "id": "2",
+            "alt_id": "Kock_et+al_2020_a",
+            "entry": "2. Kock RA, Karesh WB, Veas F, et al.: 2019-nCoV in context: lessons learned? Lancet Planet Health. 2020; pii: S2542-5196(20)30035-8.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kock%20RA%20Karesh%20WB%20Veas%20F%20et%20al%202019nCoV%20in%20context%20lessons%20learned%20Lancet%20Planet%20Health%202020%20pii%20S2542519620300358",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kock%20RA%20Karesh%20WB%20Veas%20F%20et%20al%202019nCoV%20in%20context%20lessons%20learned%20Lancet%20Planet%20Health%202020%20pii%20S2542519620300358",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kock%20RA%20Karesh%20WB%20Veas%20F%20et%20al%202019nCoV%20in%20context%20lessons%20learned%20Lancet%20Planet%20Health%202020%20pii%20S2542519620300358"
+        },
+        {
+            "id": "4",
+            "alt_id": "Lee_2019_a",
+            "entry": "4. Lee CH, Koohy H. In silico identification of vaccine targets for 2019-nCoV (Custom code). Zenodo. 2020. http://www.doi.org/10.5281/zenodo.3676908",
+            "url": "http://www.doi.org/10.5281/zenodo.3676908",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lee%20CH%20Koohy%20H%20In%20silico%20identification%20of%20vaccine%20targets%20for%202019nCoV%20Custom%20code%20Zenodo%202020%20httpwwwdoiorg105281zenodo3676908",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lee%20CH%20Koohy%20H%20In%20silico%20identification%20of%20vaccine%20targets%20for%202019nCoV%20Custom%20code%20Zenodo%202020%20httpwwwdoiorg105281zenodo3676908"
+        },
+        {
+            "id": "5",
+            "alt_id": "Pogorelyy_et+al_2018_a",
+            "entry": "5. Pogorelyy MV, Fedorova AD, McLaren JE, et al.. Exploring the pre-immune landscape of antigen-specific T cells. Genome Med. 2018; 10(1): 68.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pogorelyy%2C%20M.V.%20Fedorova%2C%20A.D.%20McLaren%2C%20J.E.%20Exploring%20the%20pre-immune%20landscape%20of%20antigen-specific%202018"
+        },
+        {
+            "id": "6",
+            "alt_id": "Jurtz_et+al_2017_a",
+            "entry": "6. Jurtz V, Paul S, Andreatta M, et al.. NetMHCpan-4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data. J Immunol. 2017; 199(9): 3360\u20133368.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jurtz%2C%20V.%20Paul%2C%20S.%20Andreatta%2C%20M.%20NetMHCpan-%204.0%3A%20Improved%20Peptide-MHC%20Class%20I%20Interaction%20Predictions%20Integrating%20Eluted%20Ligand%20and%20Peptide%20Binding%20Affinity%20Data%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jurtz%2C%20V.%20Paul%2C%20S.%20Andreatta%2C%20M.%20NetMHCpan-%204.0%3A%20Improved%20Peptide-MHC%20Class%20I%20Interaction%20Predictions%20Integrating%20Eluted%20Ligand%20and%20Peptide%20Binding%20Affinity%20Data%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jurtz%2C%20V.%20Paul%2C%20S.%20Andreatta%2C%20M.%20NetMHCpan-%204.0%3A%20Improved%20Peptide-MHC%20Class%20I%20Interaction%20Predictions%20Integrating%20Eluted%20Ligand%20and%20Peptide%20Binding%20Affinity%20Data%202017"
+        },
+        {
+            "id": "7",
+            "alt_id": "Karapetyan_et+al_2019_a",
+            "entry": "7. Karapetyan AR, Chaipan C, Winkelbach K, et al.. TCR Fingerprinting and OffTarget Peptide Identification. Front Immunol. 2019; 10: 2501.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Karapetyan%2C%20A.R.%20Chaipan%2C%20C.%20Winkelbach%2C%20K.%20TCR%20Fingerprinting%20and%20OffTarget%20Peptide%20Identification%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Karapetyan%2C%20A.R.%20Chaipan%2C%20C.%20Winkelbach%2C%20K.%20TCR%20Fingerprinting%20and%20OffTarget%20Peptide%20Identification%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Karapetyan%2C%20A.R.%20Chaipan%2C%20C.%20Winkelbach%2C%20K.%20TCR%20Fingerprinting%20and%20OffTarget%20Peptide%20Identification%202019"
+        },
+        {
+            "id": "8",
+            "alt_id": "Ahmed_et+al_2020_a",
+            "entry": "8. Ahmed SF, Quadeer AA, McKay MR, et al.. Preliminary Identification of Potential Vaccine Targets for the COVID-19 Coronavirus (SARS-CoV-2) Based on SARSCoV Immunological Studies. 2020. Publisher Full Text",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ahmed%20SF%20Quadeer%20AA%20McKay%20MR%20et%20al%20Preliminary%20Identification%20of%20Potential%20Vaccine%20Targets%20for%20the%20COVID19%20Coronavirus%20SARSCoV2%20Based%20on%20SARSCoV%20Immunological%20Studies%202020%20Publisher%20Full%20Text"
+        },
+        {
+            "id": "9",
+            "alt_id": "Lee_2019_b",
+            "entry": "9. Lee CH, Koohy H. In silico identification of vaccine targets for 2019-nCoV (Data tables). [Data set]. Zenodo. 2020. http://www.doi.org/10.5281/zenodo.3676886 Reviewer Report 05 March 2020 https://doi.org/10.5256/f1000research.24839.r60504",
+            "crossref": "https://dx.doi.org/10.5256/f1000research.24839.r60504",
+            "scite": "https://scite.ai/reports/10.5256/f1000research.24839.r60504",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.5256/f1000research.24839.r60504"
+        },
+        {
+            "id": "This_2019_a",
+            "alt_id": "9",
+            "entry": "This is an important manuscript identifying potential vaccine targets for 2019-nCoV, using computational prediction. In the absence of patient samples, such approaches are instrumental to guide towards quick and efficient identification of vaccine candidates. The authors used 10 open reading frame sequences of 2019-nCoV deposited at NCBI and conducted sequence alignment against immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database. They identified 28 peptides with sequences matching exactly to severe acute respiratory syndrome-related coronavirus (SARS CoV), that have previously been characterised as immunogenic by T cell assays. These findings are very promising and have the added benefit of potentially developing a vaccine against both SARS and COVID-19.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=This%20is%20an%20important%20manuscript%20identifying%20potential%20vaccine%20targets%20for%202019nCoV%20using%20computational%20prediction%20In%20the%20absence%20of%20patient%20samples%20such%20approaches%20are%20instrumental%20to%20guide%20towards%20quick%20and%20efficient%20identification%20of%20vaccine%20candidates%20The%20authors%20used%2010%20open%20reading%20frame%20sequences%20of%202019nCoV%20deposited%20at%20NCBI%20and%20conducted%20sequence%20alignment%20against%20immunogenic%20peptides%20deposited%20in%20the%20Immune%20Epitope%20Database%20and%20Analysis%20Resource%20IEDB%20database%20They%20identified%2028%20peptides%20with%20sequences%20matching%20exactly%20to%20severe%20acute%20respiratory%20syndromerelated%20coronavirus%20SARS%20CoV%20that%20have%20previously%20been%20characterised%20as%20immunogenic%20by%20T%20cell%20assays%20These%20findings%20are%20very%20promising%20and%20have%20the%20added%20benefit%20of%20potentially%20developing%20a%20vaccine%20against%20both%20SARS%20and%20COVID19"
+        },
+        {
+            "id": "3",
+            "alt_id": "3._0000_b",
+            "entry": "3. The importance of leucine (L) and valine (V) in anchor positions for MHC binding (for data presented in Table 5). ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=The%20importance%20of%20leucine%20L%20and%20valine%20V%20in%20anchor%20positions%20for%20MHC%20binding%20for%20data%20presented%20in%20Table%205"
+        }
+    ],
+    "facts": [
+        "The 2019 novel coronavirus proteome was aligned to a curated database of viral immunogenic peptides",
+        "their binding potential to HLA alleles was predicted by immunogenicity predictive models and NetMHCpan",
+        "in silico identification of a comprehensive list of immunogenic peptides that can be used as potential targets for 2019 novel coronavirus vaccine development",
+        "48 nCoV peptides having a high degree of similarity with immunogenic peptides deposited in The",
+        "our work provides a shortlist of candidates for experimental validation",
+        "which is fundamental for vaccine development",
+        "in silico predictions of targets for vaccines are of high importance",
+        "a detailed screen of candidate peptides based on comparison with immunogenic peptides deposited in the",
+        "19 nCoV peptides predicted to be immunogenic by the iPred algorithm",
+        "All sequences subjected for analysis are deposited in",
+        "Data analysis All subsequent analyses have been conducted in R 3.6.1",
+        "previously characterized immunogenic peptides in IEDB was analysed by local alignment using R",
+        "The alignment score was normalized by length of target peptides",
+        "all epitopes deposited in IEDB",
+        "all peptides in IEDB reported positive in T cell assays",
+        "1 denotes binding predicted for specific HLA allele",
+        "computational prediction is instrumental for guiding biologists",
+        "In silico predictions of targets for vaccines are of high importance",
+        "Data acquisition 2019-nCoV open reading frame sequences were downloaded from NCBI",
+        "All identical hits were from SARS-CoV.",
+        "Computational prediction is instrumental for guiding biologists"
+    ],
+    "claims": [
+        "Results: We report in silico identification of a comprehensive list of immunogenic peptides that can be used as potential targets for 2019 novel coronavirus (2019-nCoV) vaccine development",
+        "We found 28 nCoV peptides identical to Severe acute respiratory syndrome-related coronavirus (SARS CoV) that have previously been characterized immunogenic by T cell assays",
+        "We identified 48 nCoV peptides having a high degree of similarity with immunogenic peptides deposited in The Immune Epitope Database (IEDB)",
+        "Conclusions: Given the limited time and resources to develop vaccine and treatments for 2019-nCoV, our work provides a shortlist of candidates for experimental validation and thus can accelerate development pipeline",
+        "In this regard, we report our recent effort to computationally identify immunogenic and/or cross-reactive peptides from 2019-nCoV",
+        "We provide a detailed screen of candidate peptides based on comparison with immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database including those derived from Severe acute respiratory syndrome-related coronavirus (SARS CoV) along with de novo prediction from 2019-nCoV 9-mer peptides",
+        "We found i) 28 SARS-derived peptides having exact matches in 2019nCoV proteome previously characterized to be immunogenic by in vitro T cell assays, ii) 22 nCoV peptides having a high sequence similarity with immunogenic peptides but with a greater predicted immunogenicity score, and iii) 44 + 19 nCoV peptides predicted to be immunogenic by the iPred algorithm and 1G4 TCR positional weight matrices respectively",
+        "In this task, we focused on haplotypes common in Chinese and European populations, which include HLA-A*02:01, HLA-A*01:01, HLA-B*07:02, HLA-B*40:01 and HLA-C*07:02 alleles (Data Table 34)",
+        "Here we provide the list of peptides that are potential targets for 1G4 TCR recognition for subjects with HLA-A02:01 haplotype",
+        "Discussion In this study we provide a profile of computationally predicted immunogenic peptides from 2019-nCoV for functional",
+        "In this study, we provide potential immunogenic peptides from 2019-nCoV for vaccine targets that i) have been characterized immunogenic by previous studies on SARS CoV, ii) have high degree of similarity with immunogenic SARS CoV peptides and iii) are predicted immunogenic by combination of NetMHCpan and iPred/1G4 TCR positional weight matrices"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We provide a detailed screen of candidate peptides based on comparison with immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database including those derived from Severe acute respiratory syndrome-related coronavirus (SARS CoV) along with de novo prediction from 2019-nCoV 9-mer peptides",
+        "We found i) 28 SARS-derived peptides having exact matches in 2019nCoV proteome previously characterized to be immunogenic by in vitro T cell assays, ii) 22 nCoV peptides having a high sequence similarity with immunogenic peptides but with a greater predicted immunogenicity score, and iii) 44 + 19 nCoV peptides predicted to be immunogenic by the iPred algorithm and 1G4 T cell receptors positional weight matrices respectively",
+        "Identification of 28 exact matches to SARS CoV immunogenic peptides by screening all epitopes deposited in IEDB We collected all peptides in IEDB (3, as of 13-02-2020) reported positive in T cell assays and have human as the host organism",
+        "0 denotes non-binding and 1 denotes binding predicted for specific HLA allele",
+        "Computational prediction is instrumental for guiding biologists towards a quick and cost-effective solution to prevent the spread and help eliminate the infection from the individuals",
+        "We provide potential immunogenic peptides from 2019-nCoV for vaccine targets that i) have been characterized immunogenic by previous studies on SARS CoV, ii) have high degree of similarity with immunogenic SARS CoV peptides and iii) are predicted immunogenic by combination of NetMHCpan and iPred/1G4 T cell receptors positional weight matrices",
+        "Sequence similarity comparison The sequence similarity between 2019-nCoV open reading frames and previously characterized immunogenic peptides in IEDB was analysed by local alignment using R \u2018pairwiseAlignment\u2019 function from Biostrings v2.40.2 package"
+    ],
+    "top_statements": [
+        "The emergence and rapid spread of the recent novel coronavirus known as 2019-nCoV has posed a serious global health threat[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] and has already caused a huge financial burden[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "We provide a detailed screen of candidate peptides based on comparison with immunogenic peptides deposited in the Immune Epitope Database and Analysis Resource (IEDB) database including those derived from Severe acute respiratory syndrome-related coronavirus (SARS CoV) along with de novo prediction from 2019-nCoV 9-mer peptides",
+        "We found i) 28 SARS-derived peptides having exact matches in 2019nCoV proteome previously characterized to be immunogenic by in vitro T cell assays, ii) 22 nCoV peptides having a high sequence similarity with immunogenic peptides but with a greater predicted immunogenicity score, and iii) 44 + 19 nCoV peptides predicted to be immunogenic by the iPred algorithm and 1G4 T cell receptors positional weight matrices respectively",
+        "Identification of 28 exact matches to SARS CoV immunogenic peptides by screening all epitopes deposited in IEDB We collected all peptides in IEDB (3, as of 13-02-2020) reported positive in T cell assays and have human as the host organism",
+        "Computational prediction is instrumental for guiding biologists towards a quick and cost-effective solution to prevent the spread and help eliminate the infection from the individuals",
+        "We provide potential immunogenic peptides from 2019-nCoV for vaccine targets that i) have been characterized immunogenic by previous studies on SARS CoV, ii) have high degree of similarity with immunogenic SARS CoV peptides and iii) are predicted immunogenic by combination of NetMHCpan and iPred/1G4 T cell receptors positional weight matrices"
+    ],
+    "headline": "Identification of 28 exact matches to SARS CoV immunogenic peptides by screening all epitopes deposited in IEDB We collected all peptides in IEDB reported positive in T cell assays and have human as the host organism",
+    "contexts": [],
+    "abbreviations": {
+        "ORFs": "open reading frames",
+        "TCRs": "T cell receptors"
+    }
+}

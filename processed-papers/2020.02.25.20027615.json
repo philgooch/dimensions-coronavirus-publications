@@ -1,0 +1,536 @@
+{
+    "filename": "2020.02.25.20027615.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1777233,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.25.20027615",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/29/2020.02.25.20027615.full.pdf"
+        },
+        "title": "Stochastic discrete epidemic modeling of COVID-19 transmission in the Province of Shaanxi incorporating public health intervention and case importation",
+        "author": "Sanyi Tang, Biao Tang, Nicola Luigi Bragazzi, Fan Xia, Tangjuan Li, Sha He, Pengyu Ren, Xia Wang, Zhihang Peng, Yanni Xiao, Jianhong Wu",
+        "date": 2020,
+        "affiliations": [
+            "School of Mathematics and Information Science, Shaanxi Normal University, Xi'an, 710119, China",
+            "The Interdisplinary Research Center for Mathematics and Life Sciences, Xi'an Jiaotong University, Xi'an",
+            "Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University,",
+            "School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an 710049, People\u2019s Republic of China",
+            "Fields-CQAM Laboratory of Mathematics for Public Health, York University, Toronto, Ontario, M3J 1P3",
+            "The Second Affiliated Hospital of Xi\u2019an Jiaotong University, West five Road 157, Xi\u2019an, 710004, China.",
+            "Department of Epidemiology & Biostatistics, School of Public Health, Nanjing Medical University,"
+        ],
+        "abstract": "Before the lock-down of Wuhan/Hubei/China, on January 23rd 2020, a large number of individuals infected by COVID-19 moved from the epicenter Wuhan and the Hubei province due to the Spring Festival, resulting in an epidemic in the other provinces including the Shaanxi province. The epidemic scale in Shaanxi was comparatively small and with half of cases being imported from the epicenter. Based on the complete epidemic data including the symptom onset time and transmission chains, we calculate the control reproduction number (1.48-1.69) in Xian. We could also compute the time transition, for each imported or local case, from the latent, to infected, to hospitalized compartment, as well as the effective reproduction number. This calculation enables us to revise our early deterministic transmission model to a stochastic discrete epidemic model with case importation and parameterize it. Our model-based analyses reveal that the newly generated infections decay to zero quickly; the cumulative number of case-driven quarantined individuals via contact tracing stabilize at a manageable level, indicating that the intervention strategies implemented in the Shaanxi province have been effective. Risk analyses, important for the consideration of resumption of work, show that a large second outbreak is expected if the level of case importation remains at the same level as between January 10th and February 4th 2020. However, if the case importation decreases by 30%, 60% and 90%, the second outbreak if happening will be of small-scale assuming contact tracing and quarantine/isolation remain as effective as before. Finally, we consider the effects of intermittent inflow with a Poisson distribution on the likelihood of multiple outbreaks. We believe the developed methodology and stochastic model provide an important model framework for the evaluation of revising travel restriction rules in the consideration of resuming social-economic activities while managing the disease control with potential case importation.",
+        "keywords": [
+            "COVID-19",
+            "case importation",
+            "stochastic discrete model",
+            "the effective reproduction number",
+            "resumption of work"
+        ],
+        "references": "@article{boldog-a,\n  author = {Boldog, P. and Tekeli, T. and Vizi, Z. and D\u00e9nes, A. and A, Bartha F. and R\u00f6st, G.},\n  title = {Risk assessment of novel coronavirus COVID-19 outbreaks outside China},\n  journal = {J Clin Med},\n  volume = {2020},\n  pages = {571},\n  number = {9},\n  language = {}\n}\n@article{cohen-a,\n  author = {Cohen, J. and Normile, D.},\n  title = {New SARS-like virus in China triggers alarm},\n  journal = {Science},\n  volume = {2020},\n  pages = {234\u2013235},\n  number = {367},\n  language = {}\n}\n@misc{du-a,\n  author = {Du, Z. and Wang, L. and Chauchemez, S. and Xu, X. and Wang, X. and Cowling, B.J.},\n  title = {Risk for transportation of 2019 novel coronavirus disease from Wuhan to other cities in China. Emerg Infect Dis 2020},\n  doi = {DOI: 10.3201/eid2605.200146},\n  more-authors = {true},\n  language = {}\n}\n@misc{gilbert-a,\n  author = {Gilbert, M. and Pullano, G. and Pinotti, F.},\n  title = {Preparedness and vulnerability of African countries against importations of COVID- 19: a modelling study. The Lancet 2020},\n  doi = {DOI},\n  url = {https://doi.org/10.1016/S0140-6736},\n  more-authors = {true},\n  language = {}\n}\n@article{goldstein2009a,\n  author = {Goldstein, E. and Dushoff, J. and Ma, J. and Plotkin, J.B. and Earn, D.J. and Lipsitch, M.},\n  date = {2009},\n  title = {Reconstructing influenza incidence by deconvolution of daily mortality time series},\n  journal = {PNAS},\n  pages = {21825\u201321829},\n  language = {}\n}\n@misc{guan-a,\n  author = {Guan, W. and Ni, Z. and Hu, Y.},\n  title = {Clinical characteristics of 2019 novel coronavirus infection in Chin a. medRxiv 2020},\n  doi = {doi: 10.1101/2020.02.06.20020974},\n  more-authors = {true},\n  language = {}\n}\n@misc{of-a,\n  author = {of Shaanxi Province, Health Commission},\n  url = {http://sxwjw.shaanxi.gov.cn/col/col863/index.html},\n  urldate = {[20 Feb 2020]}\n}\n@article{l-a,\n  author = {L, Heymann D. and N, Shindo},\n  title = {COVID- 19: what is next for public health?},\n  journal = {The Lancet},\n  volume = {1016},\n  number = {0140-6736},\n  language = {}\n}\n@book{j2008a,\n  author = {J, Keeling M. and P, Rohnai},\n  title = {Modeling infectious diseases in humans and animals},\n  publisher = {Princeton University Press},\n  date = {2008},\n  language = {}\n}\n@article{e2006a,\n  author = {E, Lekone P. and F, Finkenst\u00e4dt B.},\n  title = {Statistical Inference in a stochastic epidemic SEIR model with control intervention: Ebola as a Case Study},\n  journal = {Biometrics},\n  date = {2006},\n  volume = {62},\n  pages = {1170\u20131177},\n  doi = {DOI: 10.1111/j.1541-0420.2006.00609.x},\n  language = {}\n}\n@article{li-a,\n  author = {Li, Q. and Guan, X. and Wu, P.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia},\n  journal = {N Engl J Med 2020},\n  doi = {doi: 10.1056/NEJMoa2001316},\n  more-authors = {true},\n  language = {}\n}\n@book{j2000a,\n  author = {J, Mode C. and K, Sleeman C.},\n  title = {Stochastic Processes in Epidemiology},\n  publisher = {World Scientific},\n  date = {2000},\n  language = {},\n  address = {Singapore}\n}\n@article{parry-a,\n  title = {the People\u2019s Republic of China},\n  url = {http://www.nhc.gov.cn.14.},\n  author = {Parry, J.},\n  journal = {BMJ},\n  volume = {2020},\n  pages = {236},\n  source = {China coronavirus:cases surge as official admits human to human transmission},\n  number = {368},\n  language = {},\n  organization = {National Health Commission of}\n}\n@article{nishiura2010a,\n  author = {Nishiura, H.},\n  title = {Correcting the actual reproduction number: a simple method to estimate R0 from early epidemic growth data},\n  journal = {Int J Env Res Pub Health},\n  date = {2010},\n  pages = {291\u2013302},\n  language = {}\n}\n@incollection{nishiura2009a,\n  author = {Nishiura, H. and Chowell, G.},\n  title = {The effective reproduction number as a prelude to statistical estimation of time-dependent epidemic trends},\n  booktitle = {Mathematical and statistical estimation approaches in epidemiology},\n  pages = {103\u2013121},\n  publisher = {Springer, Dordrecht},\n  date = {2009},\n  language = {}\n}\n@article{sun2020a,\n  author = {Sun, K. and Chen, J. and Viboud, C.},\n  title = {Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: a population-level observational study},\n  journal = {Lancet Digital Health},\n  date = {2020},\n  doi = {DOI},\n  url = {https://doi.org/10.1016/S2589-7500},\n  language = {}\n}\n@misc{tang-a,\n  author = {Tang, B. and Bragazzi, N.L. and Li, Q. and Tang, S. and Xiao, Y. and Wu, J.},\n  title = {An updated estimation of the risk of transmission of the novel coronavirus (COVID-19). Infect Dis Model 2020,5},\n  pages = {248\u2013255},\n  language = {}\n}\n@misc{tang-b,\n  author = {Tang, B. and Xia, F. and Tang, S. and L, Bragazzi N. and Li, Q. and Sun, X. and Liang, J. and Xiao, Y. and Wu, J.},\n  title = {The evolution of q uarantined and suspected cases determines the final trend of the 2019-nCoV epidemics based on multi-source data analyses},\n  url = {https://ssrn.com/abstract},\n  language = {}\n}\n@article{tang-c,\n  author = {Tang, B. and Wang, X. and Li, Q.},\n  title = {Estimation of the Transmission Risk of the COVID-19 and Its Implication for Public Health Interventions},\n  journal = {J Clin Med},\n  volume = {2020},\n  pages = {462},\n  more-authors = {true},\n  number = {9},\n  language = {}\n}\n",
+        "links": [
+            "http://qianxi.baidu.com"
+        ],
+        "emails": [
+            "yxiao@mail.xjtu.edu.cn",
+            "wujh@yorku.ca"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Boldog, P.\nAU  - Tekeli, T.\nAU  - Vizi, Z.\nAU  - D\u00e9nes, A.\nAU  - A, Bartha F.\nAU  - R\u00f6st, G.\nTI  - Risk assessment of novel coronavirus COVID-19 outbreaks outside China\nT2  - J Clin Med\nVL  - 2020\nSP  - 571\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cohen, J.\nAU  - Normile, D.\nTI  - New SARS-like virus in China triggers alarm\nT2  - Science\nVL  - 2020\nSP  - 234\nEP  - 235\nIS  - 367\nLA  - \nER  - \n\nTY  - GEN\nAU  - Du, Z.\nAU  - Wang, L.\nAU  - Chauchemez, S.\nAU  - Xu, X.\nAU  - Wang, X.\nAU  - Cowling, B.J.\nTI  - Risk for transportation of 2019 novel coronavirus disease from Wuhan to other cities in China. Emerg Infect Dis 2020\nDO  - 10.3201/eid2605.200146\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Gilbert, M.\nAU  - Pullano, G.\nAU  - Pinotti, F.\nTI  - Preparedness and vulnerability of African countries against importations of COVID- 19: a modelling study. The Lancet 2020\nDO  - DOI\nUR  - https://doi.org/10.1016/S0140-6736\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Goldstein, E.\nAU  - Dushoff, J.\nAU  - Ma, J.\nAU  - Plotkin, J.B.\nAU  - Earn, D.J.\nAU  - Lipsitch, M.\nPY  - 2009\nDA  - 2009\nTI  - Reconstructing influenza incidence by deconvolution of daily mortality time series\nT2  - PNAS\nSP  - 21825\nEP  - 21829\nLA  - \nER  - \n\nTY  - GEN\nAU  - Guan, W.\nAU  - Ni, Z.\nAU  - Hu, Y.\nTI  - Clinical characteristics of 2019 novel coronavirus infection in Chin a. medRxiv 2020\nDO  - 10.1101/2020.02.06.20020974\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - of Shaanxi Province, Health Commission\nUR  - http://sxwjw.shaanxi.gov.cn/col/col863/index.html\nC1  - [20 Feb 2020]\nER  - \n\nTY  - JOUR\nAU  - L, Heymann D.\nAU  - N, Shindo\nTI  - COVID- 19: what is next for public health?\nT2  - The Lancet\nVL  - 1016\nIS  - 0140-6736\nLA  - \nER  - \n\nTY  - BOOK\nAU  - J, Keeling M.\nAU  - P, Rohnai\nTI  - Modeling infectious diseases in humans and animals\nPB  - Princeton University Press\nPY  - 2008\nDA  - 2008\nLA  - \nER  - \n\nTY  - JOUR\nAU  - E, Lekone P.\nAU  - F, Finkenst\u00e4dt B.\nTI  - Statistical Inference in a stochastic epidemic SEIR model with control intervention: Ebola as a Case Study\nT2  - Biometrics\nPY  - 2006\nDA  - 2006\nVL  - 62\nSP  - 1170\nEP  - 1177\nDO  - 10.1111/j.1541-0420.2006.00609.x\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia\nT2  - N Engl J Med 2020\nDO  - 10.1056/NEJMoa2001316\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - J, Mode C.\nAU  - K, Sleeman C.\nTI  - Stochastic Processes in Epidemiology\nPB  - World Scientific\nPY  - 2000\nDA  - 2000\nLA  - \nCY  - Singapore\nER  - \n\nTY  - JOUR\nTI  - the People\u2019s Republic of China\nUR  - http://www.nhc.gov.cn.14.\nAU  - Parry, J.\nT2  - BMJ\nVL  - 2020\nSP  - 236\nT2  - China coronavirus:cases surge as official admits human to human transmission\nIS  - 368\nLA  - \nC1  - National Health Commission of\nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nTI  - Correcting the actual reproduction number: a simple method to estimate R0 from early epidemic growth data\nT2  - Int J Env Res Pub Health\nPY  - 2010\nDA  - 2010\nSP  - 291\nEP  - 302\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Nishiura, H.\nAU  - Chowell, G.\nTI  - The effective reproduction number as a prelude to statistical estimation of time-dependent epidemic trends\nT2  - Mathematical and statistical estimation approaches in epidemiology\nSP  - 103\nEP  - 121\nPB  - Springer, Dordrecht\nPY  - 2009\nDA  - 2009\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sun, K.\nAU  - Chen, J.\nAU  - Viboud, C.\nTI  - Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: a population-level observational study\nT2  - Lancet Digital Health\nPY  - 2020\nDA  - 2020\nDO  - DOI\nUR  - https://doi.org/10.1016/S2589-7500\nLA  - \nER  - \n\nTY  - GEN\nAU  - Tang, B.\nAU  - Bragazzi, N.L.\nAU  - Li, Q.\nAU  - Tang, S.\nAU  - Xiao, Y.\nAU  - Wu, J.\nTI  - An updated estimation of the risk of transmission of the novel coronavirus (COVID-19). Infect Dis Model 2020,5\nSP  - 248\nEP  - 255\nLA  - \nER  - \n\nTY  - GEN\nAU  - Tang, B.\nAU  - Xia, F.\nAU  - Tang, S.\nAU  - L, Bragazzi N.\nAU  - Li, Q.\nAU  - Sun, X.\nAU  - Liang, J.\nAU  - Xiao, Y.\nAU  - Wu, J.\nTI  - The evolution of q uarantined and suspected cases determines the final trend of the 2019-nCoV epidemics based on multi-source data analyses\nUR  - https://ssrn.com/abstract\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tang, B.\nAU  - Wang, X.\nAU  - Li, Q.\nTI  - Estimation of the Transmission Risk of the COVID-19 and Its Implication for Public Health Interventions\nT2  - J Clin Med\nVL  - 2020\nSP  - 462\nC1  - true\nIS  - 9\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Parameter estimates for the 2019-nCov epidemics in Shaanxi Province, China"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "A) gives both newly reported cases and new cases from traced data, and comparison of two time series indicates that the new cases from traced data is about 7 days ahead of the reported cases data. In particular, Figure 1(B) and (C) give the epidemic status of cases confirmed before February 7th and 15th, respectively. Note that although Shaanxi province began to release the case numbers on January 23rd, 2020, the first imported latent case came to. A) Newly reported cases and daily new cases from traced data. The daily number of exposed, infected and hospitalized individuals in Shaanxi province based on the traced data by February 9th (B), and by February 16th 2020 (C)"
+            },
+            {
+                "id": "3",
+                "caption": "Diagram of the model adopted in the study for simulating the COVID-19 infection. Interventions including intensive contact tracing followed by quarantine and isolation are indicated. The gray compartment means suspected case compartment consisting of contact tracing Eq and fever clinics"
+            },
+            {
+                "id": "4",
+                "caption": "Spatial distribution of imported cases (circles) and local cases (squares) based on the traced data. The imported cases include exposed (yellow), infected (magenta), quarantined infected (red) and hospitalized (black) individuals, the local cases include infected (green), quarantined infected (red) and hospitalized (black) individuals"
+            },
+            {
+                "id": "5",
+                "caption": "Survival analysis by using Kaplan-Meier method to estimate the duration from importation to illness onset (denoted by T1), the duration from illness onset to first medical visit (quarantined, denoted by T2) and the duration from first medical visit (quarantined) to confirmation (denoted by T3) for imported, local and whole cases in Shaanxi province"
+            },
+            {
+                "id": "6",
+                "caption": "Transmission chains along the time. Blue Mi represent the imported cases and greens Lj are local cases, and i, j denote the identifier numbers in the system of Health Commission of Shaanxi province"
+            },
+            {
+                "id": "7",
+                "caption": "A). It is interesting to note that we can get the part of new infections before February 12th, 2020 from the recoded traced data in Shaanxi province, shown in Figure 7(B). It shows that the estimated new infections agree well with the traced data in terms of trend. We note that for some cases, their information is not complete, only the dates of illness onset or first medical visit are recorded, and hence they cannot be considered as new infections at certain dates. That is why the real new infections from traced data are less than the estimated ones, shown in Figure 7(B)"
+            },
+            {
+                "id": "8",
+                "caption": "Data fittings with 500 simulations (A-C). The variations of the number of susceptible population are significantly (D). The mean values (green curve) and 95% CI (grey curve) for E(t), I(t) and H(t) compartments (E-G). D: the number of suspected individuals B(t) (upper green curve) and the cumulative number of the quarantined individuals (lower green curve)"
+            },
+            {
+                "id": "9",
+                "caption": "Effect of continuous inflow on the number of exposed individuals (A) and infected individuals (B) with baseline parameter values, with 30% decreased inflow (C-D), with 60% decreased inflow (E-F), with 90% decreased inflow (G-H). Here the inflow has been lasting for 24 days (from February 24th to March 18th)"
+            },
+            {
+                "id": "10",
+                "caption": "Effect of intermittent inflow on the number of exposed individuals (A) and infected individuals (B) with baseline parameter values, with 30% decreased inflow (C-D), with 60% decreased inflow (E-F), with 90% decreased inflow (G-H). Here the inflow is on for the first (from February 24th to March 1st) and third weeks (from March 9th to 15th ) and off for the second and fourth week and the following days"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.25.20027615.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-009.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-010.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-011.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-012.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-013.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-014.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20027615.full/img-015.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "Coronaviruses are single-stranded RNA viruses, with a spherical shape and crown-like spines, from which their name derives. They generally cause mild respiratory infections but can sometimes be fatal. Since their first discovery and molecular characterization, three major outbreaks have occurred, in mainland China in 2003, in the Kingdom of Saudi Arabia in 2012 and in South Korea in 2015. The fourth large-scale outbreak, caused by a novel coronavirus termed as COVID-19 and with the capital city Wuhan of the Hubei province in China as the epicenter, has spread out globally [2 ,6, 8, 11], causing approximately 80,000 cases and 2,400 deaths as of February 22nd 2020 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>].<br/><br/>Since January 23rd 2020, the Chinese authorities have been implementing unprecedented and increasingly stringent public health interventions, including a complete lock-down of Wuhan and neighboring cities, strict contact tracing and travel restrictions in the epicenter and across the country [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. Incorporating these interventions into the classical epidemic models has resulted in reliable estimates of epidemiological characteristics of COVID-19 transmission in the epicenter and accurate near-casting the epidemic trend and peak time [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], in comparison with other earlier modeling studies focusing on analyzing the transmission risk based on data at the early outbreak stage [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. One important lesson gained from our recent experience suggests the need of updating the model parameters and model setting to reflect the rapid improvement of screening, diagnosing and testing techniques/procedures, accompanied by intensive contact tracing, quarantine and isolation."
+        ],
+        "methods": [
+            "Data<br/><br/>We obtained the data of laboratory-confirmed 2019-nCov cases in Shaanxi province from the \u201cNational Health Commission\u201d of the People\u2019s Republic of China and the \u201cHealth Commission\u201d of the Shaanxi Province [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. It is worth mentioning that very detailed data information for each confirmed case has been released. This strict contact tracing strategy gave detailed information of illness onset, the first medical visit, quarantined period and confirmation. Then the data do not only include numbers, such as the number of newly reported cases, the cumulative number of reported confirmed cases, the cumulative number of cured cases and the number of death cases, and the cumulative numbers of quarantined and suspected cases (shown in Figure 1(A)), but also include the information such as the dates of illness onset, first medical visit, isolation, laboratory confirmation and discharge, and/or date of coming into Shaanxi (for imported cases). The data were released and analyzed anonymously.<br/><br/>Based on the recorded information, we can get the daily number of latent, infected and hospitalized individuals, and we call these data sets as traced data, as shown in Figure 1(A-C)."
+        ],
+        "discussion": [
+            "Shaanxi province is located northwest of China, adjacent to Hubei in the south. Therefore, except for Xi\u2019an city, the capital of Shaanxi, many confirmed cases are in the southern part of Shaanxi province. It is interesting to note that Health Commission of Shaanxi Province released the case number every day with very detailed information, by which we can know when and who infected whom. Then except for the new reported (or cumulative) number of confirmed cases, we can get the daily number of individuals who are in latent (or quarantined latent), infected and hospitalized compartments, which gives the evolution process of the epidemic in Shaanxi province. We can get the durations from illness onset to the first medical visit, to the hospitalization, and to confirmation of the case. These durations are relatively smaller than those for mainland China or Hubei province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], which implies that the control measures implemented in Shaanxi are timely and medical resources are relatively sufficient."
+        ],
+        "conclusions": [
+            "It is very important to study the epidemic situation of COVID-19 by using traced data rather than simply using the number of confirmed cases, especially in the areas where the imported cases are the main and the epidemic situation is not serious. This can not only provide important data information for the accurate evaluation of the epidemic situation in other areas outside Hubei Province, but also provide important and accurate data support for the evaluation of the effectiveness and timeliness of public health intervention strategies in different areas.<br/><br/>We proposed a stochastic model which can provide an important model framework and methodology for the evaluation of imported cases on local epidemic in the Shaanxi province (and can eventually be adapted for other similar provinces of China). Data analysis reveals that strengthening the public health interventions, tracing imported cases and improving the confirmation rate are effective and timely after January 23rd 2020. According to the traced data shown in Figure 1, the first imported cases in Shaanxi Province were earlier than January 10, and most of the imported cases were imported to Shaanxi Province before the national travel restrictions were implemented on January 23nd, as shown in Figure 2. Therefore, the earlier implementation of travel restriction will greatly reduce the epidemic situation of COVID-19 in Shaanxi province, which was not serious."
+        ],
+        "acknowledgement": [
+            "This research was funded by the National Natural Science Foundation of China (grant numbers: 11631012 (YX, ST), 61772017 (ST)), and by the Canada Research Chair Program (grant number: 230720 (JW) and the Natural Sciences and Engineering Research Council of Canada (Grant number:105588-2011 (JW)."
+        ],
+        "funding": [
+            "This research was funded by the National Natural Science Foundation of China (grant numbers: 11631012 (YX, ST), 61772017 (ST)), and by the Canada Research Chair Program (grant number: 230720 (JW) and the Natural Sciences and Engineering Research Council of Canada (Grant number:105588-2011 (JW)"
+        ]
+    },
+    "structured_content": {
+        "Introduction": [
+            "Coronaviruses are single-stranded RNA viruses, with a spherical shape and crown-like spines, from which their name derives. They generally cause mild respiratory infections but can sometimes be fatal. Since their first discovery and molecular characterization, three major outbreaks have occurred, in mainland China in 2003, in the Kingdom of Saudi Arabia in 2012 and in South Korea in 2015. The fourth large-scale outbreak, caused by a novel coronavirus termed as COVID-19 and with the capital city Wuhan of the Hubei province in China as the epicenter, has spread out globally [2 ,6, 8, 11], causing approximately 80,000 cases and 2,400 deaths as of February 22nd 2020 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>].",
+            "Since January 23rd 2020, the Chinese authorities have been implementing unprecedented and increasingly stringent public health interventions, including a complete lock-down of Wuhan and neighboring cities, strict contact tracing and travel restrictions in the epicenter and across the country [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. Incorporating these interventions into the classical epidemic models has resulted in reliable estimates of epidemiological characteristics of COVID-19 transmission in the epicenter and accurate near-casting the epidemic trend and peak time [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], in comparison with other earlier modeling studies focusing on analyzing the transmission risk based on data at the early outbreak stage [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. One important lesson gained from our recent experience suggests the need of updating the model parameters and model setting to reflect the rapid improvement of screening, diagnosing and testing techniques/procedures, accompanied by intensive contact tracing, quarantine and isolation.",
+            "The feasibility of enhancing model capacity to assess transmission risk and evaluating intervention effectiveness has also been substantially increased due to the improvement of the quality of the data, specially from other Chinese cities and provinces where the complete lock-down of major cities such as Wuhan in the Hubei province has prevented a significant portion of infection importation, so the reduction of imported cases coupled with intensive contact tracing produced some high quality data with rather complete information on symptom onset time and transmission-chain, as will be discussed in the data section below. This enhanced model capacity for near-casting is particularly important, since the gradually relaxing of the travel restriction demands proactive- and real-time assessment of the risk of a potential second outbreak in other Chinese cities. An objective of our study is to provide this assessment, and to use this assessment along with the incorporation of feasible public health interventions into our stochastic disease transmission model to suggest the scale of interventions for these cities to prevent a second outbreak. As COVID-19 spread has occurred in many regions globally, we believe our study provides an important tool to inform public health decisions regarding travel restriction and social distancing in these regions according to their public health capacity to maintain an effective contact tracing, quarantine and isolation procedure.",
+            "In order to achieve the above research objectives, we examine the transmission characteristics of the COVID-19 epidemic in other areas outside Hubei province and quantify the risk of case importation into the current outbreak which is expected to end soon, and into a potential secondary outbreak due to the \u201cresumption of work\u201d in these areas. We focus on the effectiveness and implementation timeliness of prevention and control strategies, as well as the choice of timing for the \u201cresumption of work\u201d and its impact on the risk of a secondary outbreak.",
+            "Our analysis is based on the complete \u201ctracking and recording\u201d information of imported cases and local cases detected in the province of Shaanxi province [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], as this allows us to generate a data set that includes the time series of daily latent, infected and hospitalized cases. Since the outbreak scale in the Province of Shanxi was relatively small and this is subject to stochasticity in both case importation and local cases generated by the importation and since the Provincial data has detailed information on symptom onset and serial intervals, we adopt a method developed by Nishiura and Chowell [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>, <a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] to estimate the effective reproduction number, and we revise some of our early deterministic models to a novel discrete stochastic model to address the key issues relevant to preventing a secondary outbreak of COVID-19 in other provinces except for Hubei, due to the anticipated gradually relaxing of travel restriction and returning to normal social and economic activities."
+        ],
+        "Methods": [
+            "We obtained the data of laboratory-confirmed 2019-nCov cases in Shaanxi province from the \u201cNational Health Commission\u201d of the People\u2019s Republic of China and the \u201cHealth Commission\u201d of the Shaanxi Province [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. It is worth mentioning that very detailed data information for each confirmed case has been released. This strict contact tracing strategy gave detailed information of illness onset, the first medical visit, quarantined period and confirmation. Then the data do not only include numbers, such as the number of newly reported cases, the cumulative number of reported confirmed cases, the cumulative number of cured cases and the number of death cases, and the cumulative numbers of quarantined and suspected cases (shown in Figure 1(A)), but also include the information such as the dates of illness onset, first medical visit, isolation, laboratory confirmation and discharge, and/or date of coming into Shaanxi (for imported cases). The data were released and analyzed anonymously.",
+            "Based on the recorded information, we can get the daily number of latent, infected and hospitalized individuals, and we call these data sets as traced data, as shown in Figure 1(A-C).",
+            "Note that that daily number of hospitalized cases means the first medical visit and then being quarantined rather than daily number of confirmed cases. Further, we collect the data of population mobility from the website of Baidu Qianxi (http://qianxi.baidu.com). It contains the trend of inflow of population to Shaanxi before the 2020 Spring Festival and after 2019 Spring Festival, as shown in Figure 2(B).",
+            "To estimate the effective reproduction number  ( ), we make an adaptation of the method in [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>,<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] to allow for imported cases. With the same notations and assumptions above, for  ( ) we have",
+            "=1 where   = G(\u03c4) \u2212 G(\u03c4 \u2212 1) is the discretized distribution of the serial interval with G(\u03c4) being the cumulative distribution function. Let  h be the duration from importation of a primary imported case to infection of the secondary local case, h  = H( ) \u2212 H(\u03c4 \u2212 1) is the discretized distribution of  h with H( ) being the cumulative distribution function.",
+            "On the basis of the clinical progression of the disease, epidemiological status of the individuals, and intervention measures we stratify the populations as susceptible ( ), exposed ( ), infected ( ), hospitalized ( ), recovered ( ) compartments, the quarantined susceptible ( ) and quarantined suspected individuals ( ). The flow diagram is shown in Figure 3. Note that here the model framework extends the model structure in our previous study by including the quarantined suspected compartment [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], which consists of exposed infectious individuals resulting from contact tracing and individuals with influenza like illness and common fever needing clinical medication. The deterministic model is replaced by a discrete system with stochastic importation since the case numbers are relatively small with most of the early cases being imported in Shaanxi province [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. This modelling approach can well describe demographic stochasticity. The model equations are",
+            "\u23a9 +1 =   +  33( ) +  61( ), where the random variables in (1) can be defined by binomial Bin(n, p) distributions as follows [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>,<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]: 11( )~ ,  11( ) , 21( )~ ( ,  21),  33( )~ ( ,  33),  61( )~ ( ,  61), 12( )~ ,  12( ) , 31( )~ ( ,  31( )),  41( )~ ( ,  41),  62( )~ ( ,  32)",
+            "Let constant m be the transition rate from susceptible class to the suspected compartment via general clinical medication due to fever or illness-like symptoms. The suspected individuals leave this compartment at a rate of  , with a proportion, f , if has been confirmed to be infected by the COVID-19, going to the hospitalized compartment, whilst the other proportion, 1- f , has been proven to be not infected by the COVID-19 and goes back to the susceptible class once recovery. Let the transmission probability be \u03b2 and the contact rate be c. With contact tracing, we assume a proportion, q, of individuals exposed to the virus is quarantined, and can either move to the compartment B or Sq at a rate of \u03b2cq or (1 \u2013 \u03b2)cq), depending on whether they are infected or not, while the other proportion, 1 \u2013 q, consists of individuals exposed to the virus who are missed from contact tracing and move to the exposed compartment E at a rate of \u03b2c(1 \u2212 q) once infected or stay in compartment S otherwise. All definitions of variables and parameters have been listed in Table 1.",
+            "The imported latent, infected and suspected and hospitalized cases for each day can be described by Poisson distributions  ( ),  ( ),  ( ) and  ( ) with parameters  ,  ,   and  , respectively. Therefore,we have (",
+            "Fortunately, the number of imported cases to the above four compartments in Shaanxi province can be fully determined according to the traced data, as shown in Figures 2(A).",
+            "Since the implementation of the lock-down strategy in Wuhan on January 23rd 2020, the prevention strategies in other parts of mainland China have been continuously strengthened. In order to truly describe the constantly strengthening of control strategies, we should consider the contact rate, quarantine rate, diagnosis rate and cure rate as the functions of time t. In this model, we assume that the contact rate c(t) is a decreasing function with respect to time t, given by c(t) =  ( 0 , 0b\u2212efo r e) J a\u2212n 12  3+n d ,,2e0ls2e0, where c0 denotes the baseline contact rate at the initial time (i.e. before January 23rd, 2020) with c(0) = c0 , cb denotes the minimum contact rate under the current control strategies with limt\u2192\u221e c(t) = cb, where cb < c0, and r1 denotes the exponential decreasing rate in the contact rate.",
+            "When simulating the resumption of work, we assume that the movement trend of Shaanxi population after resumption of work is the same as that in same period of 2019. Let the average proportions of E, I, Eq,H that flow in the Shaanxi during January 17th to 22nd, 2020 be pE, pI, pB, pH, which can be calculated by the data of imported cases and population mobility. Let the proportions of E, I, Eq,H that flow in Shaanxi province after resumption of work be p E, p I, p B, p H. We initially assume that p E, p I, p B, p H are the same as those of pE, pI, pB, pH, when the resumption of work begins on February 24th, then we consider the proportions p E, p I, p B, p H may reduce 30% , 60% and even 90% corresponding to weaker and weaker epidemic.",
+            "From the detailed description about traced data, we can know when and what is the state of each infected person and obtain the number of who are in latent (or quarantined latent), infected and hospitalized classes, as shown in Figure 1, which shows the evolution process of the epidemic in Shaanxi province. Figure 1(A) gives both newly reported cases and new cases from traced data, and comparison of two time series indicates that the new cases from traced data is about 7 days ahead of the reported cases data. In particular, Figure 1(B) and (C) give the epidemic status of cases confirmed before February 7th and 15th, respectively. Note that although Shaanxi province began to release the case numbers on January 23rd, 2020, the first imported latent case came to",
+            "Shaanxi as early as January 10th, 2020, and the majority of imported cases were latent and came into Shaanxi before the end of January, 2020, as shown in Figure 2(A). Figure2(B) shows the correlation between the total imported cases and the number of population flow into the Shaanxi province, from which we calculate the proportion of those inflows that are infected.",
+            "We can also illustrate the spatial distribution of imported cases (circles) and local cases (squares) and disease evolution based on the traced data. It follows from Figure 4 that most cases are in Xi\u2019an city, few cases are in the northern part of Shaanxi while relatively many cases are in the southern part of Shaanxi, which is adjacent to Hubei province. Therefore, we can estimate the impact of population migration on the epidemic situation in the neighboring areas of Hubei Province.",
+            "The detailed records reveal how long the patients stay in latent, infected and hospitalized compartments. Based on all cases reported in Shaanxi province we use the Kaplan-Meier method to estimate the median duration from illness onset to first medical visit (quarantined, denoted by T2W) is around 0.60 days, median duration from first medical visit (quarantined) to confirmation (denoted by T3W) is around 3.43 days, shown in Figure 5. In particular, for imported cases, the median duration from importation to illness onset (denoted by T1I) is around 2.38 days with longest incubation duration of 19 days, median duration from illness onset to first medical visit (quarantined, denoted by T2I ) is around 1 days with the longest (or shortest) duration of 15 ( or 0) days; median duration from the first medical visit to confirmation (denoted by T3I) is around 3.05 days with the longest (or shortest) duration of 13 ( or 1 days). For local cases median duration from illness onset to first medical visit (quarantined, denoted by T2L ) is around 0.29 days with the longest (or shortest) infectious duration of 10 ( or 0) days; median duration from the first medical visit to confirmation (denoted by T3L) is around 3.9 days with the longest (or shortest) duration of 16 ( or 1 days). This analysis indicates that local people went to medical visit when having illness onset much quicker than the imported individuals. Further, these durations are relatively smaller than those for mainland China or Hubei province [?], which implies that the control measures implemented in Shaanxi are timely and medical resources are relatively sufficient.",
+            "From the detailed record we can find 21 transmission chains (or transmission trees) which involve 60 cases with 13 imported cases. For each transmission chain we obtained when and who infected whom, and calculated the mean control reproduction number of 1.48 with standard deviation (std) 0.98. In particular, it follows from 21 transmission chains that the number of secondary infections for each seeded case yields 2,2,1,5,1, 0,2,2,2,1, 1,1,2,1,2, 1,1,1,1,1, 1. As mentioned before, the early reported cases in Shaanxi are mainly imported cases before February 3rd, 2020. Then, given seed infected individuals who may get infection from January 23rd to February 3rd, 2020, we had the transmission 13 chains (No 1-13 as shown in Figure 6), which gives mean control reproduction number of 1.69 with std 1.18.",
+            "To investigate the effect of resumption of work on the epidemic, especially on possible second outbreak, by which we may suggest the public health sectors when workers can return back to Shaanxi, we predicate the disease infection by using the data on imported cases and moving from other cities to Shaanxi province (shown in Figure 2). Suppose population to start to return back to Shannxi province from February 24th to March 9th, 2020, we can see from Figure 9 (A-B) that there is a large second outbreak. If the proportions of imported cases are decreased by 30%, 60% and 90%, the second outbreak becomes smaller and smaller, shown in Figure 9(C-D), (E-F), and (G-H), respectively. Further, if the inflow mode is changed into the intermittent inflow, that is, population are allowed to move into Shaanxi every other week, we can from Figure 10 that there are one more outbreaks with low peak values. Decreasing the imported proportions greatly reduces the peak values of the following outbreaks. Comparing Figure 9 and Figure 10 indicates that intermittent inflow mode may induce small outbreaks and a relatively good choice for resumption of work."
+        ],
+        "Discussion": [
+            "Shaanxi province is located northwest of China, adjacent to Hubei in the south. Therefore, except for Xi\u2019an city, the capital of Shaanxi, many confirmed cases are in the southern part of Shaanxi province. It is interesting to note that Health Commission of Shaanxi Province released the case number every day with very detailed information, by which we can know when and who infected whom. Then except for the new reported (or cumulative) number of confirmed cases, we can get the daily number of individuals who are in latent (or quarantined latent), infected and hospitalized compartments, which gives the evolution process of the epidemic in Shaanxi province. We can get the durations from illness onset to the first medical visit, to the hospitalization, and to confirmation of the case. These durations are relatively smaller than those for mainland China or Hubei province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], which implies that the control measures implemented in Shaanxi are timely and medical resources are relatively sufficient.",
+            "From the detailed data description, we can obtain the transmission chains over the time, which enable to calculate the control reproduction number under the implementation of stringent control strategies. The mean control reproduction number ranges from 1.48 to 1.69, and the distribution of these chains agrees well with the effective reproduction number. Note that the effective number has been declining, and is less than unity since January 27th 2020. Recently it has stabilized at almost zero, meaning that no new infections occur, which seem to be in line with real data, as shown in Figures 1 and 7 [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>].",
+            "In this study we extend our deterministic model framework [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>, <a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] to a discrete system incorporating stochastic modeling of imported cases to represent the relatively small number of cases observed in the Shaanxi province, with about half of them being imported cases. It is worth noting that traced data is around 7 days ahead of the reported ones, as illustrated in Figure 1(A). Moreover, detailed data records revealed that the time interval between the first visit to a doctor and confirmation was longer, with a median of around 4 days. Then, the number of reported cases is not suitable to identify the model or estimate the parameters due to delays such as report delay, confirmation delay, etc. Therefore, it is not accurate to associate the number of confirmed cases with the number of cases in hospital, which may seriously overestimate the scale of the epidemic. Therefore, the multiple traced data sets have been employed to identify the proposed discrete stochastic model and estimate the unknown parameters in this work. Consequently, we use the number of individuals in E, I, and H classes form traced data rather than the newly (or cumulative) reported number to parameterize the model.",
+            "We investigate the impact of population movement (resumption of work) on the potential second outbreak by using movement data from other cities to Shaanxi province. Our main results indicate that the proportion of imported cases is a key variable in order to determine whether the second outbreak is likely or not to occur. The greater the proportion of imported cases the larger the second outbreak has. Furthermore, intermittent importation may induce one further outbreak episode but with small peak values.",
+            "From our study, we can conclude that it is very important to study the epidemic situation of COVID-19 by using data from contact tracing rather than simply using the number of confirmed cases, especially in the areas where the imported cases are the main source of infection. This can not only provide important data information for the accurate evaluation of the epidemic situation in other areas outside Hubei Province, but also provide important and accurate data supporting the evaluation of the effectiveness and timeliness of public health intervention strategies in different areas.",
+            "In the present investigation, we devised a stochastic model that can be used as an important model framework and methodology for the evaluation of imported cases on local epidemic in the Shaanxi province or other similar provinces. From the data analysis, it seems that the stringent public health interventions adopted by the Chinese authorities are effective in controlling the infection. According to data from contact tracing, the first imported cases in the Shaanxi Province occurred earlier than January 10th 2020, and most of the imported cases were imported to the Shaanxi Province before the implementation of the national travel restrictions on January 23rd 2020. Therefore, the earlier the implementation of the travel restrictions, the greater the reduction of infected cases by COVID-19 in the Shaanxi province has. An intermittent population inflow with low proportion of imported cases may significantly mitigate the transmission risk. Thus, if the public health authorities can strictly monitor and reduce the number of imported cases, it would be possible for the Shaanxi province to return back and resume working continuously."
+        ],
+        "Conclusions": [
+            "It is very important to study the epidemic situation of COVID-19 by using traced data rather than simply using the number of confirmed cases, especially in the areas where the imported cases are the main and the epidemic situation is not serious. This can not only provide important data information for the accurate evaluation of the epidemic situation in other areas outside Hubei Province, but also provide important and accurate data support for the evaluation of the effectiveness and timeliness of public health intervention strategies in different areas.",
+            "We proposed a stochastic model which can provide an important model framework and methodology for the evaluation of imported cases on local epidemic in the Shaanxi province (and can eventually be adapted for other similar provinces of China). Data analysis reveals that strengthening the public health interventions, tracing imported cases and improving the confirmation rate are effective and timely after January 23rd 2020. According to the traced data shown in Figure 1, the first imported cases in Shaanxi Province were earlier than January 10, and most of the imported cases were imported to Shaanxi Province before the national travel restrictions were implemented on January 23nd, as shown in Figure 2. Therefore, the earlier implementation of travel restriction will greatly reduce the epidemic situation of COVID-19 in Shaanxi province, which was not serious.",
+            "The findings suggest that keeping an intermittent population inflow with a low proportion of imported cases may induce a small second outbreak and hence decrease the transmission risk. Thus, if we can strictly monitor and reduce the number of imported cases, it is possible for Shaanxi to resume work continuously, especially intermittently."
+        ],
+        "Acknowledgement": [
+            "This research was funded by the National Natural Science Foundation of China (grant numbers: 11631012 (YX, ST), 61772017 (ST)), and by the Canada Research Chair Program (grant number: 230720 (JW) and the Natural Sciences and Engineering Research Council of Canada (Grant number:105588-2011 (JW)."
+        ],
+        "References": [
+            "1. Boldog P, Tekeli T, Vizi Z, D\u00e9nes A, Bartha F A, R\u00f6st G. Risk assessment of novel coronavirus COVID-19 outbreaks outside China. J Clin Med 2020, 9:571. 2. Cohen J, Normile D. New SARS-like virus in China triggers alarm. Science 2020,367: 234-235. 3. Du Z, Wang L, Chauchemez S, Xu X, Wang X, Cowling BJ, et al Risk for transportation of",
+            "2019 novel coronavirus disease from Wuhan to other cities in China. Emerg Infect Dis 2020, DOI: 10.3201/eid2605.200146. 4. Gilbert M, Pullano G, Pinotti F, et al Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study. The Lancet 2020, DOI: https://doi.org/10.1016/S0140-6736(20)30411-6. 5. Goldstein E, Dushoff J, Ma J, Plotkin JB, Earn DJ, Lipsitch M. (2009). Reconstructing influenza incidence by deconvolution of daily mortality time series. PNAS 2009, 106 (51): 21825-21829. 6. Guan W, Ni Z, Hu Y, et al Clinical characteristics of 2019 novel coronavirus infection in Chin a. medRxiv 2020 doi:10.1101/2020.02.06.20020974. 7. Health Commission of Shaanxi Province. Available at http://sxwjw.shaanxi.gov.cn/col/ col863/index.html [Accessed 20 Feb 2020]",
+            "8. Heymann D L, Shindo N. COVID-19: what is next for public health? The Lancet, 2020, DOI:https://doi.org/10.1016/S0140-6736(20)30374-3.",
+            "9. Keeling M J, Rohnai P. Modeling infectious diseases in humans and animals. Princeton University Press. 2008..",
+            "10. Lekone P E, Finkenst\u00e4dt B F. Statistical Inference in a stochastic epidemic SEIR model with control intervention: Ebola as a Case Study. Biometrics, 2006, 62: 1170\u20131177. DOI: 10.1111/j.1541-0420.2006.00609.x",
+            "11. Li Q, Guan X, Wu P, et al Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med 2020, doi: 10.1056/NEJMoa2001316.",
+            "12. Mode C J, Sleeman C K. Stochastic Processes in Epidemiology. Singapore: World Scientific, 2000.",
+            "13. National Health Commission of the People\u2019s Republic of China. http://www.nhc.gov.cn. 14. Parry J. China coronavirus: cases surge as official admits human to human transmission. BMJ",
+            "2020; 368: m236. 15. Nishiura H. Correcting the actual reproduction number: a simple method to estimate R0 from early epidemic growth data. Int J Env Res Pub Health 2010, 7 (1): 291-302. 16. Nishiura H, Chowell G. The effective reproduction number as a prelude to statistical estimation of time-dependent epidemic trends. In Mathematical and statistical estimation approaches in epidemiology (pp. 103-121), Springer, Dordrecht 2009. 17. Sun K, Chen J, Viboud C. Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: a population-level observational study. Lancet Digital Health 2020, DOI: https://doi.org/10.1016/S2589-7500(20)30026-1. 18. Tang B, Bragazzi NL, Li Q, Tang S, Xiao Y, Wu J. An updated estimation of the risk of transmission of the novel coronavirus (COVID-19). Infect Dis Model 2020,5:248-255. 19. Tang B, Xia F, Tang S, Bragazzi N L, Li Q, Sun X, Liang J, Xiao Y, Wu J. The evolution of q uarantined and suspected cases determines the final trend of the 2019-nCoV epidemics based on multi-source data analyses. Available at SSRN: https://ssrn.com/abstract=3537099. 20. Tang B, Wang X, Li Q, et al Estimation of the Transmission Risk of the COVID-19 and Its Implication for Public Health Interventions. J Clin Med 2020, 9: 462.",
+            "Table 1: Parameter estimates for the 2019-nCov epidemics in Shaanxi Province, China.",
+            "Parameter Definitions",
+            "Shaanxi",
+            "Source",
+            "Contact rate at the initial time",
+            "Minimum contact rate under the current control strategies",
+            "Estimated",
+            "Exponential decreasing rate of contact rate",
+            "Probability of transmission per contact",
+            "Quarantined rate of exposed individuals at the initial time",
+            "Data",
+            "Maximum quarantined rate of exposed individuals under the current",
+            "Estimated control strategies",
+            "Exponential increasing rate of quarantined rate of exposed individuals 0.0799",
+            "Transition rate of susceptible individuals to the suspected class",
+            "Detection rate of the suspected class",
+            "Confirmation ratio: Transition rate of exposed individuals in the",
+            "Estimated suspected class to the quarantined infected class",
+            "Transition rate of exposed individuals to the infected class",
+            "1/2.38",
+            "Rate at which the quarantined uninfected contacts were released into the 1/12 wider community",
+            "Initial transition rate of symptomatic infected individuals to the",
+            "1/4.01",
+            "Data quarantined infected class",
+            "Fastest diagnose rate",
+            "3",
+            "Exponential decreasing rate of diagnose rate",
+            "Recovery rate of infected individuals",
+            "Estimated 9",
+            "Recovery rate of quarantined infected individuals",
+            "Disease-induced death rate",
+            "Initial values (0)  (0)  (0)  (0)  (0)  (0)  (0)",
+            "Definitions",
+            "Initial susceptible population Initial exposed population Initial infected population Initial suspected population Initial quarantined susceptible population Initial quarantined infected population Initial recovered population",
+            "Shaanxi 9.9895 \u00d7 104 0 0 0 0 0 0",
+            "Estimated Data Data Data Data Data Data (A) Traced data and reported cases",
+            "Source data Newly reported cases (B) Daily number of cases from traced data",
+            "50 0",
+            "E I Eq H (C) Daily number of cases from traced data",
+            "Figure 1. (A) Newly reported cases and daily new cases from traced data. The daily number of exposed, infected and hospitalized individuals in Shaanxi province based on the traced data by February 9th (B), and by February 16th 2020 (C)",
+            "(A) Imported cases for Shaanxi province",
+            "8 6 4 2 0",
+            "Exposed E Infected I Quarantined Eq Hospitalized H (B) Baidu index and imported cases",
+            "0 1 3 5 7 9 11 13 15 17 19 21 23 E+I+Eq+H Number of flow in",
+            "Figure 2(. A)The imported cases for the four compartments during Jan 10th to Feb 7th, 2020. (B) The total imported cases and number of flow into the Shaanxi province from other regions from January 10th to February 3rd.",
+            "Figure 3. Diagram of the model adopted in the study for simulating the COVID-19 infection. Interventions including intensive contact tracing followed by quarantine and isolation are indicated. The gray compartment means suspected case compartment consisting of contact tracing Eq and fever clinics.",
+            "Figure 4 Spatial distribution of imported cases (circles) and local cases (squares) based on the traced data. The imported cases include exposed (yellow), infected (magenta), quarantined infected (red) and hospitalized (black) individuals, the local cases include infected (green), quarantined infected (red) and hospitalized (black) individuals.",
+            "Figure 5. Survival analysis by using Kaplan-Meier method to estimate the duration from importation to illness onset (denoted by T1), the duration from illness onset to first medical visit (quarantined, denoted by T2) and the duration from first medical visit (quarantined) to confirmation (denoted by T3) for imported, local and whole cases in Shaanxi province.",
+            "Figure 6 Transmission chains along the time. Blue Mi represent the imported cases and greens Lj are local cases, and i, j denote the identifier numbers in the system of Health Commission of Shaanxi province.",
+            "Figure7 The back-calculated time series on number of new infections for imported/local individuals based on the reported confirmed cases (A), comparison of number of new infections from back calculation and traced data (B), the estimated reproduction number R(t) based on the back-calculated number of illness onset (C).",
+            "Figure 8. Data fittings with 500 simulations (A-C). The variations of the number of susceptible population are significantly (D). The mean values (green curve) and 95% CI (grey curve) for E(t), I(t) and H(t) compartments (E-G). D: the number of suspected individuals B(t) (upper green curve) and the cumulative number of the quarantined individuals (lower green curve).",
+            "Figure 9: Effect of continuous inflow on the number of exposed individuals (A) and infected individuals (B) with baseline parameter values, with 30% decreased inflow (C-D), with 60% decreased inflow (E-F), with 90% decreased inflow (G-H). Here the inflow has been lasting for 24 days (from February 24th to March 18th).",
+            "Figure 10: Effect of intermittent inflow on the number of exposed individuals (A) and infected individuals (B) with baseline parameter values, with 30% decreased inflow (C-D), with 60% decreased inflow (E-F), with 90% decreased inflow (G-H). Here the inflow is on for the first (from February 24th to March 1st) and third weeks (from March 9th to 15th ) and off for the second and fourth week and the following days."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases with 13 imported cases",
+            "number": 60,
+            "context": "Further, these durations are relatively smaller than those for mainland China or Hubei province [?], which implies that the control measures implemented in Shaanxi are timely and medical resources are relatively sufficient. <mark class=\"stats\">From the detailed record we can find 21 transmission chains (or transmission trees) which involve 60 cases with 13 imported cases</mark>. For each transmission chain we obtained when and who infected whom, and calculated the mean control reproduction number of 1.48 with standard deviation (std) 0.98"
+        },
+        {
+            "participant": "cases",
+            "number": 80000,
+            "context": "Since their first discovery and molecular characterization, three major outbreaks have occurred, in mainland China in 2003, in the Kingdom of Saudi Arabia in 2012 and in South Korea in 2015. <mark class=\"stats\">The fourth large-scale outbreak, caused by a novel coronavirus termed as COVID-19 and with the capital city Wuhan of the Hubei province in China as the epicenter, has spread out globally [2 ,6, 8, 11], causing approximately 80,000 cases and 2,400 deaths as of February 22nd 2020 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]</mark>. Since January 23rd 2020, the Chinese authorities have been implementing unprecedented and increasingly stringent public health interventions, including a complete lock-down of Wuhan and neighboring cities, strict contact tracing and travel restrictions in the epicenter and across the country [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]"
+        },
+        {
+            "participant": "cases with 13 imported cases",
+            "number": 60,
+            "context": "Control/ effective Reproduction numbers. <mark class=\"stats\">From the detailed record we can find 21 transmission chains (or transmission trees) which involve 60 cases with 13 imported cases</mark>. For each transmission chain we obtained when and who infected whom, and calculated the mean control reproduction number of 1.48 with standard deviation (std) 0.98"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Based on all cases reported in Shaanxi province we use the Kaplan-Meier method to estimate the median duration from illness onset to first medical visit (quarantined, denoted by T2W) is around 0.60 days, median duration from first medical visit (quarantined) to confirmation (denoted by T3W) is around 3.43 days, shown in Figure 5</mark>",
+                "tests": [
+                    {
+                        "test": "Kaplan-Meier method"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "the effective reproduction number",
+        "intervention strategy",
+        "coronavirus",
+        "effective reproduction",
+        "public health intervention",
+        "hubei province",
+        "reproduction number",
+        "stochastic discrete",
+        "novel coronavirus",
+        "discrete epidemic",
+        "travel restriction",
+        "stochastic discrete model",
+        "resumption of work",
+        "confidence interval",
+        "COVID-19",
+        "epidemic model",
+        "epidemic situation",
+        "january 23rd",
+        "case importation",
+        "shaanxi province"
+    ],
+    "keyword_relevance": {
+        "COVID-19": 0.15748031496062992,
+        "reproduction number": 0.14173228346456693,
+        "resumption of work": 0.10236220472440945,
+        "effective reproduction": 0.08661417322834646,
+        "the effective reproduction number": 0.07874015748031496,
+        "travel restriction": 0.07086614173228346,
+        "case importation": 0.06299212598425197,
+        "coronavirus": 0.05511811023622047,
+        "public health intervention": 0.05511811023622047,
+        "epidemic situation": 0.05511811023622047,
+        "novel coronavirus": 0.03937007874015748,
+        "confidence interval": 0.031496062992125984,
+        "epidemic model": 0.023622047244094488,
+        "stochastic discrete": 0.015748031496062992,
+        "discrete epidemic": 0.015748031496062992,
+        "stochastic discrete model": 0.007874015748031496,
+        "intervention strategy": 0.0,
+        "hubei province": 0.0,
+        "january 23rd": 0.0,
+        "shaanxi province": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Coronaviruses are single-stranded RNA viruses, with a spherical shape and crown-like spines, from which their name derives.",
+        "Since January 23rd 2020, the Chinese authorities have been implementing unprecedented and increasingly stringent public health interventions, including a complete lock-down of Wuhan and neighboring cities, strict contact tracing and travel restrictions in the epicenter and across the country [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]",
+        "Incorporating these interventions into the classical epidemic models has resulted in reliable estimates of epidemiological characteristics of COVID-19 transmission in the epicenter and accurate near-casting the epidemic trend and peak time [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], in comparison with other earlier modeling studies focusing on analyzing the transmission risk based on data at the early outbreak stage [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>].",
+        "One important lesson gained from the recent experience suggests the need of updating the model parameters and model setting to reflect the rapid improvement of screening, diagnosing and testing techniques/procedures, accompanied by intensive contact tracing, quarantine and isolation",
+        "<h2 style=\"display: inline\">Methods:</h2> Data<br/><br/>The authors obtained the data of laboratory-confirmed 2019-nCov cases in Shaanxi province from the \u201cNational Health Commission\u201d of the People\u2019s Republic of China and the \u201cHealth Commission\u201d of the Shaanxi Province [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>].",
+        "It is worth mentioning that very detailed data information for each confirmed case has been released",
+        "This strict contact tracing strategy gave detailed information of illness onset, the first medical visit, quarantined period and confirmation.",
+        "The data do not only include numbers, such as the number of newly reported cases, the cumulative number of reported confirmed cases, the cumulative number of cured cases and the number of death cases, and the cumulative numbers of quarantined and suspected cases (shown in Figure 1(A)), but include the information such as the dates of illness onset, first medical visit, isolation, laboratory confirmation and discharge, and/or date of coming into Shaanxi.",
+        "Based on the recorded information, the authors can get the daily number of latent, infected and hospitalized individuals, and the authors call these data sets as traced data, as shown in Figure 1(A-C)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Shaanxi province is located northwest of China, adjacent to Hubei in the south. except for Xi\u2019an city, the capital of Shaanxi, many confirmed cases are in the southern part of Shaanxi province.",
+        "The authors can get the durations from illness onset to the first medical visit, to the hospitalization, and to confirmation of the case",
+        "These durations are relatively smaller than those for mainland China or Hubei province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], which implies that the control measures implemented in Shaanxi are timely and medical resources are relatively sufficient.It is very important to study the epidemic situation of COVID-19 by using traced data rather than using the number of confirmed cases, especially in the areas where the imported cases are the main and the epidemic situation is not serious.",
+        "The earlier implementation of travel restriction will greatly reduce the epidemic situation of COVID-19 in Shaanxi province, which was not serious"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Coronaviruses are single-stranded RNA viruses, with a spherical shape and crown-like spines, from which their name derives.",
+            "Since January 23rd 2020, the Chinese authorities have been implementing unprecedented and increasingly stringent public health interventions, including a complete lock-down of Wuhan and neighboring cities, strict contact tracing and travel restrictions in the epicenter and across the country [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]",
+            "Incorporating these interventions into the classical epidemic models has resulted in reliable estimates of epidemiological characteristics of COVID-19 transmission in the epicenter and accurate near-casting the epidemic trend and peak time [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], in comparison with other earlier modeling studies focusing on analyzing the transmission risk based on data at the early outbreak stage [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>].",
+            "One important lesson gained from the recent experience suggests the need of updating the model parameters and model setting to reflect the rapid improvement of screening, diagnosing and testing techniques/procedures, accompanied by intensive contact tracing, quarantine and isolation"
+        ],
+        "Methods": [
+            "Data<br/><br/>The authors obtained the data of laboratory-confirmed 2019-nCov cases in Shaanxi province from the \u201cNational Health Commission\u201d of the People\u2019s Republic of China and the \u201cHealth Commission\u201d of the Shaanxi Province [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>].",
+            "It is worth mentioning that very detailed data information for each confirmed case has been released",
+            "This strict contact tracing strategy gave detailed information of illness onset, the first medical visit, quarantined period and confirmation.",
+            "The data do not only include numbers, such as the number of newly reported cases, the cumulative number of reported confirmed cases, the cumulative number of cured cases and the number of death cases, and the cumulative numbers of quarantined and suspected cases (shown in Figure 1(A)), but include the information such as the dates of illness onset, first medical visit, isolation, laboratory confirmation and discharge, and/or date of coming into Shaanxi.",
+            "Based on the recorded information, the authors can get the daily number of latent, infected and hospitalized individuals, and the authors call these data sets as traced data, as shown in Figure 1(A-C)"
+        ],
+        "Conclusion": [
+            "Shaanxi province is located northwest of China, adjacent to Hubei in the south. except for Xi\u2019an city, the capital of Shaanxi, many confirmed cases are in the southern part of Shaanxi province.",
+            "The authors can get the durations from illness onset to the first medical visit, to the hospitalization, and to confirmation of the case",
+            "These durations are relatively smaller than those for mainland China or Hubei province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], which implies that the control measures implemented in Shaanxi are timely and medical resources are relatively sufficient.It is very important to study the epidemic situation of COVID-19 by using traced data rather than using the number of confirmed cases, especially in the areas where the imported cases are the main and the epidemic situation is not serious.",
+            "The earlier implementation of travel restriction will greatly reduce the epidemic situation of COVID-19 in Shaanxi province, which was not serious"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Boldog_et+al_0000_a",
+            "entry": "1. Boldog P, Tekeli T, Vizi Z, D\u00e9nes A, Bartha F A, R\u00f6st G. Risk assessment of novel coronavirus COVID-19 outbreaks outside China. J Clin Med 2020, 9:571.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Boldog%2C%20P.%20Tekeli%2C%20T.%20Vizi%2C%20Z.%20D%C3%A9nes%2C%20A.%20Risk%20assessment%20of%20novel%20coronavirus%20COVID-19%20outbreaks%20outside%20China",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Boldog%2C%20P.%20Tekeli%2C%20T.%20Vizi%2C%20Z.%20D%C3%A9nes%2C%20A.%20Risk%20assessment%20of%20novel%20coronavirus%20COVID-19%20outbreaks%20outside%20China",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Boldog%2C%20P.%20Tekeli%2C%20T.%20Vizi%2C%20Z.%20D%C3%A9nes%2C%20A.%20Risk%20assessment%20of%20novel%20coronavirus%20COVID-19%20outbreaks%20outside%20China"
+        },
+        {
+            "id": "2",
+            "alt_id": "Cohen_0000_a",
+            "entry": "2. Cohen J, Normile D. New SARS-like virus in China triggers alarm. Science 2020,367: 234-235.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm"
+        },
+        {
+            "id": "3",
+            "alt_id": "Du_et+al_2019_a",
+            "entry": "3. Du Z, Wang L, Chauchemez S, Xu X, Wang X, Cowling BJ, et al. Risk for transportation of 2019 novel coronavirus disease from Wuhan to other cities in China. Emerg Infect Dis 2020, DOI: 10.3201/eid2605.200146.",
+            "crossref": "https://dx.doi.org/10.3201/eid2605.200146",
+            "scite": "https://scite.ai/reports/10.3201/eid2605.200146"
+        },
+        {
+            "id": "4",
+            "alt_id": "Gilbert_et+al_2020_a",
+            "entry": "4. Gilbert M, Pullano G, Pinotti F, et al. Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study. The Lancet 2020, DOI: https://doi.org/10.1016/S0140-6736(20)30411-6.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30411-6",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30411-6"
+        },
+        {
+            "id": "5",
+            "alt_id": "Goldstein_et+al_2009_a",
+            "entry": "5. Goldstein E, Dushoff J, Ma J, Plotkin JB, Earn DJ, Lipsitch M. (2009). Reconstructing influenza incidence by deconvolution of daily mortality time series. PNAS 2009, 106 (51): 21825-21829.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Goldstein%2C%20E.%20Dushoff%2C%20J.%20Ma%2C%20J.%20Plotkin%2C%20J.B.%20Reconstructing%20influenza%20incidence%20by%20deconvolution%20of%20daily%20mortality%20time%20series%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Goldstein%2C%20E.%20Dushoff%2C%20J.%20Ma%2C%20J.%20Plotkin%2C%20J.B.%20Reconstructing%20influenza%20incidence%20by%20deconvolution%20of%20daily%20mortality%20time%20series%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Goldstein%2C%20E.%20Dushoff%2C%20J.%20Ma%2C%20J.%20Plotkin%2C%20J.B.%20Reconstructing%20influenza%20incidence%20by%20deconvolution%20of%20daily%20mortality%20time%20series%202009"
+        },
+        {
+            "id": "6",
+            "alt_id": "Guan_et+al_2019_a",
+            "entry": "6. Guan W, Ni Z, Hu Y, et al. Clinical characteristics of 2019 novel coronavirus infection in Chin a. medRxiv 2020 doi:10.1101/2020.02.06.20020974.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.06.20020974",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.06.20020974"
+        },
+        {
+            "id": "7",
+            "alt_id": "Of_0000_a",
+            "entry": "7. Health Commission of Shaanxi Province. Available at http://sxwjw.shaanxi.gov.cn/col/col863/index.html [Accessed 20 Feb 2020]",
+            "url": "http://sxwjw.shaanxi.gov.cn/col/col863/index.html"
+        },
+        {
+            "id": "8",
+            "alt_id": "Heymann_0000_a",
+            "entry": "8. Heymann D L, Shindo N. COVID-19: what is next for public health? The Lancet, 2020, DOI:https://doi.org/10.1016/S0140-6736(20)30374-3.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30374-3",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30374-3",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930374-3"
+        },
+        {
+            "id": "9",
+            "alt_id": "Keeling_2008_a",
+            "entry": "9. Keeling M J, Rohnai P. Modeling infectious diseases in humans and animals. Princeton University Press. 2008..",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=J%2C%20Keeling%20M.%20P%2C%20Rohnai%20Modeling%20infectious%20diseases%20in%20humans%20and%20animals%202008"
+        },
+        {
+            "id": "10",
+            "alt_id": "Lekone_2006_a",
+            "entry": "10. Lekone P E, Finkenst\u00e4dt B F. Statistical Inference in a stochastic epidemic SEIR model with control intervention: Ebola as a Case Study. Biometrics, 2006, 62: 1170\u20131177. DOI: 10.1111/j.1541-0420.2006.00609.x",
+            "crossref": "https://dx.doi.org/10.1111/j.1541-0420.2006.00609.x",
+            "scite": "https://scite.ai/reports/10.1111/j.1541-0420.2006.00609.x",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1111/j.1541-0420.2006.00609.x"
+        },
+        {
+            "id": "11",
+            "alt_id": "Li_et+al_0000_a",
+            "entry": "11. Li Q, Guan X, Wu P, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med 2020, doi: 10.1056/NEJMoa2001316.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "12",
+            "alt_id": "Mode_2000_a",
+            "entry": "12. Mode C J, Sleeman C K. Stochastic Processes in Epidemiology. Singapore: World Scientific, 2000.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=J%2C%20Mode%20C.%20K%2C%20Sleeman%20C.%20Stochastic%20Processes%20in%20Epidemiology%202000"
+        },
+        {
+            "id": "13",
+            "alt_id": "Parry_0000_a",
+            "entry": "13. National Health Commission of the People\u2019s Republic of China. http://www.nhc.gov.cn.14. Parry J. China coronavirus:cases surge as official admits human to human transmission. BMJ 2020; 368: m236.",
+            "url": "http://www.nhc.gov.cn.14",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Parry%2C%20J.%20the%20People%E2%80%99s%20Republic%20of%20China",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Parry%2C%20J.%20the%20People%E2%80%99s%20Republic%20of%20China"
+        },
+        {
+            "id": "15",
+            "alt_id": "Nishiura_2010_a",
+            "entry": "15. Nishiura H. Correcting the actual reproduction number: a simple method to estimate R0 from early epidemic growth data. Int J Env Res Pub Health 2010, 7 (1): 291-302.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%2C%20H.%20Correcting%20the%20actual%20reproduction%20number%3A%20a%20simple%20method%20to%20estimate%20R0%20from%20early%20epidemic%20growth%20data%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%2C%20H.%20Correcting%20the%20actual%20reproduction%20number%3A%20a%20simple%20method%20to%20estimate%20R0%20from%20early%20epidemic%20growth%20data%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%2C%20H.%20Correcting%20the%20actual%20reproduction%20number%3A%20a%20simple%20method%20to%20estimate%20R0%20from%20early%20epidemic%20growth%20data%202010"
+        },
+        {
+            "id": "16",
+            "alt_id": "Nishiura_2009_a",
+            "entry": "16. Nishiura H, Chowell G. The effective reproduction number as a prelude to statistical estimation of time-dependent epidemic trends. In Mathematical and statistical estimation approaches in epidemiology (pp. 103-121), Springer, Dordrecht 2009.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%2C%20H.%20Chowell%2C%20G.%20The%20effective%20reproduction%20number%20as%20a%20prelude%20to%20statistical%20estimation%20of%20time-dependent%20epidemic%20trends%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%2C%20H.%20Chowell%2C%20G.%20The%20effective%20reproduction%20number%20as%20a%20prelude%20to%20statistical%20estimation%20of%20time-dependent%20epidemic%20trends%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%2C%20H.%20Chowell%2C%20G.%20The%20effective%20reproduction%20number%20as%20a%20prelude%20to%20statistical%20estimation%20of%20time-dependent%20epidemic%20trends%202009"
+        },
+        {
+            "id": "17",
+            "alt_id": "Sun_et+al_2020_a",
+            "entry": "17. Sun K, Chen J, Viboud C. Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: a population-level observational study. Lancet Digital Health 2020, DOI: https://doi.org/10.1016/S2589-7500(20)30026-1.",
+            "crossref": "https://dx.doi.org/10.1016/S2589-7500(20)30026-1",
+            "scite": "https://scite.ai/reports/10.1016/S2589-7500(20)30026-1",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S2589-7500%2820%2930026-1"
+        },
+        {
+            "id": "18",
+            "alt_id": "Tang_et+al_2020_a",
+            "entry": "18. Tang B, Bragazzi NL, Li Q, Tang S, Xiao Y, Wu J. An updated estimation of the risk of transmission of the novel coronavirus (COVID-19). Infect Dis Model 2020,5:248-255.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tang%20B%20Bragazzi%20NL%20Li%20Q%20Tang%20S%20Xiao%20Y%20Wu%20J%20An%20updated%20estimation%20of%20the%20risk%20of%20transmission%20of%20the%20novel%20coronavirus%20COVID19%20Infect%20Dis%20Model%2020205248255"
+        },
+        {
+            "id": "19",
+            "alt_id": "Tang_et+al_2019_b",
+            "entry": "19. Tang B, Xia F, Tang S, Bragazzi N L, Li Q, Sun X, Liang J, Xiao Y, Wu J. The evolution of q uarantined and suspected cases determines the final trend of the 2019-nCoV epidemics based on multi-source data analyses. Available at SSRN: https://ssrn.com/abstract=3537099.",
+            "url": "https://ssrn.com/abstract=3537099"
+        },
+        {
+            "id": "20",
+            "alt_id": "Tang_et+al_0000_c",
+            "entry": "20. Tang B, Wang X, Li Q, et al. Estimation of the Transmission Risk of the COVID-19 and Its Implication for Public Health Interventions. J Clin Med 2020, 9: 462. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tang%2C%20B.%20Wang%2C%20X.%20Li%2C%20Q.%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%20COVID-19%20and%20Its%20Implication%20for%20Public%20Health%20Interventions",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tang%2C%20B.%20Wang%2C%20X.%20Li%2C%20Q.%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%20COVID-19%20and%20Its%20Implication%20for%20Public%20Health%20Interventions",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tang%2C%20B.%20Wang%2C%20X.%20Li%2C%20Q.%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%20COVID-19%20and%20Its%20Implication%20for%20Public%20Health%20Interventions"
+        }
+    ],
+    "facts": [
+        "a large number of individuals infected by COVID-19 moved from the epicenter",
+        "with half of cases being imported from the epicenter",
+        "that the intervention strategies implemented in the Shaanxi province have been effective. Risk analyses",
+        "that a large second outbreak is expected if the level of case importation remains at the same level",
+        "if the case importation decreases by 30%",
+        "by a novel coronavirus termed as COVID-19",
+        "these interventions into the classical epidemic models has resulted in reliable estimates of epidemiological characteristics",
+        "the transmission risk based on data at the early outbreak stage",
+        "One important lesson gained from our recent experience suggests the need of updating the model parameters",
+        "model setting to reflect the rapid improvement of screening",
+        "confirmed cases are in the southern part of Shaanxi province",
+        "interesting to note that Health Commission of Shaanxi Province released the case number",
+        "the daily number of individuals who are in latent",
+        "which implies that the control measures implemented in",
+        "to the traced data shown in Figure 1",
+        "imported cases in Shaanxi Province were earlier than January 10",
+        "most of the imported cases were imported to Shaanxi Province before the national travel restrictions were implemented on",
+        "relatively small number of cases observed in the Shaanxi province"
+    ],
+    "claims": [
+        "In order to achieve the above research objectives, we examine the transmission characteristics of the COVID-19 epidemic in other areas outside Hubei province and quantify the risk of case importation into the current outbreak which is expected to end soon, and into a potential secondary outbreak due to the \u201cresumption of work\u201d in these areas",
+        "We focus on the effectiveness and implementation timeliness of prevention and control strategies, as well as the choice of timing for the \u201cresumption of work\u201d and its impact on the risk of a secondary outbreak",
+        "We investigate the effect of population movement on infections, especially on the possibility of inducing the second outbreak",
+        "In this study we extend our deterministic model framework [9, 18-20] to a discrete system incorporating stochastic modeling of imported cases to represent the relatively small number of cases observed in the Shaanxi province, with about half of them being imported cases",
+        "We investigate the impact of population movement (resumption of work) on the potential second outbreak by using movement data from other cities to Shaanxi province",
+        "We proposed a stochastic model which can provide an important model framework and methodology for the evaluation of imported cases on local epidemic in the Shaanxi province (and can eventually be adapted for other similar provinces of China)"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "The fourth large-scale outbreak, caused by a novel coronavirus termed as COVID-19 and with the capital city Wuhan of the Hubei province in China as the epicenter, has spread out globally [2 ,6, 8, 11], causing approximately 80,000 cases and 2,400 deaths as of February 22nd 2020 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]",
+        "Since January 23rd 2020, the Chinese authorities have been implementing unprecedented and increasingly stringent public health interventions, including a complete lock-down of Wuhan and neighboring cities, strict contact tracing and travel restrictions in the epicenter and across the country [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. Incorporating these interventions into the classical epidemic models has resulted in reliable estimates of epidemiological characteristics of COVID-19 transmission in the epicenter and accurate near-casting the epidemic trend and peak time [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], in comparison with other earlier modeling studies focusing on analyzing the transmission risk based on data at the early outbreak stage [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]",
+        "One important lesson gained from our recent experience suggests the need of updating the model parameters and model setting to reflect the rapid improvement of screening, diagnosing and testing techniques/procedures, accompanied by intensive contact tracing, quarantine and isolation",
+        "In order to achieve the above research objectives, we examine the transmission characteristics of the COVID-19 epidemic in other areas outside Hubei province and quantify the risk of case importation into the current outbreak which is expected to end soon, and into a potential secondary outbreak due to the \u201cresumption of work\u201d in these areas",
+        "For local cases median duration from illness onset to first medical visit is around 0.29 days with the longest infectious duration of 10 days; median duration from the first medical visit to confirmation is around 3.9 days with the longest duration of 16. This analysis indicates that local people went to medical visit when having illness onset much quicker than the imported individuals. These durations are relatively smaller than those for mainland China or Hubei province [?], which implies that the control measures implemented in Shaanxi are timely and medical resources are relatively sufficient",
+        "Except for Xi\u2019an city, the capital of Shaanxi, many confirmed cases are in the southern part of Shaanxi province",
+        "We can get the durations from illness onset to the first medical visit, to the hospitalization, and to confirmation of the case. These durations are relatively smaller than those for mainland China or Hubei province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], which implies that the control measures implemented in Shaanxi are timely and medical resources are relatively sufficient",
+        "In this study we extend our deterministic model framework [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>, <a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] to a discrete system incorporating stochastic modeling of imported cases to represent the relatively small number of cases observed in the Shaanxi province, with about half of them being imported cases",
+        "We investigate the impact of population movement on the potential second outbreak by using movement data from other cities to Shaanxi province",
+        "We proposed a stochastic model which can provide an important model framework and methodology for the evaluation of imported cases on local epidemic in the Shaanxi province",
+        "According to the traced data shown in Figure 1, the first imported cases in Shaanxi Province were earlier than January 10, and most of the imported cases were imported to Shaanxi Province before the national travel restrictions were implemented on January 23nd, as shown in Figure 2"
+    ],
+    "top_statements": [
+        "Coronaviruses are single-stranded RNA viruses, with a spherical shape and crown-like spines, from which their name derives",
+        "The fourth large-scale outbreak, caused by a novel coronavirus termed as COVID-19 and with the capital city Wuhan of the Hubei province in China as the epicenter, has spread out globally [2 ,6, 8, 11], causing approximately 80,000 cases and 2,400 deaths as of February 22nd 2020 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]",
+        "Since January 23rd 2020, the Chinese authorities have been implementing unprecedented and increasingly stringent public health interventions, including a complete lock-down of Wuhan and neighboring cities, strict contact tracing and travel restrictions in the epicenter and across the country [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. Incorporating these interventions into the classical epidemic models has resulted in reliable estimates of epidemiological characteristics of COVID-19 transmission in the epicenter and accurate near-casting the epidemic trend and peak time [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], in comparison with other earlier modeling studies focusing on analyzing the transmission risk based on data at the early outbreak stage [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]",
+        "In order to achieve the above research objectives, we examine the transmission characteristics of the COVID-19 epidemic in other areas outside Hubei province and quantify the risk of case importation into the current outbreak which is expected to end soon, and into a potential secondary outbreak due to the \u201cresumption of work\u201d in these areas",
+        "We proposed a stochastic model which can provide an important model framework and methodology for the evaluation of imported cases on local epidemic in the Shaanxi province",
+        "According to the traced data shown in Figure 1, the first imported cases in Shaanxi Province were earlier than January 10, and most of the imported cases were imported to Shaanxi Province before the national travel restrictions were implemented on January 23nd, as shown in Figure 2"
+    ],
+    "headline": "According to the traced data shown in Figure 1, the first imported cases in Shaanxi Province were earlier than January 10, and most of the imported cases were imported to Shaanxi Province before the national travel restrictions were implemented on January 23nd, as shown in Figure 2",
+    "contexts": [],
+    "abbreviations": {
+        "CI": "confidence interval"
+    }
+}

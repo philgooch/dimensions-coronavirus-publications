@@ -1,0 +1,249 @@
+{
+    "filename": "2020.02.07.20021188.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 164226,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.07.20021188",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/11/2020.02.07.20021188.full.pdf"
+        },
+        "title": "Transmission Dynamics of 2019-nCoV in Malaysia",
+        "date": 2020,
+        "author": "Jane Labadin, Boon Hao Hong",
+        "affiliations": [
+            "Faculty of Computer Science and Information Technology, Universiti Malaysia Sarawak, Jln Dato Mohd Musa, 94300 Kota Samarahan, Sarawak, Malaysia. 1ljane@unimas.my, 2wenhao0117@hotmail.com",
+            "Sungai Buloh Hospital on February 2."
+        ],
+        "abstract": "This paper focuses on the formulation of a deterministic 2019-nCov transmission model by considering the exposed and recovered populations with immunity. The scenario of the simulation is depicted based on the patient zero in Malaysia. The transmission model is found to be able to predict the next confirmed case given a single case introduced in a fully susceptible population. The mathematical model is developed based on the SEIR model which has susceptible, exposed, infectious and recovered populations. The system of equations which were obtained were solved numerically and the simulation results were analyzed. The analysis includes the impact of the disease if no control is taken.",
+        "references": "@misc{d2019a,\n  author = {D.O.S.M.},\n  date = {2019-11-14},\n  title = {Demographic Statistics Third Quarter 2019, Malaysia},\n  url = {https://www.dosm.gov.my/v1/index.php},\n  unknown = {ZYOVQ5WFJ4dXhEelNpbGRmZz09&menu_id=L0pheU43NWJwRWVSZklWdzQ4TlhUU T09},\n  language = {},\n  urldate = {3 February 2020, from}\n}\n@incollection{backer2020a,\n  author = {Backer, J.A. and Klinkenberg, D. and Wallinga, J.},\n  date = {2020},\n  title = {The incubation period of 2019-nCoV infections among travellers from Wuhan, China},\n  source = {medRxiv.},\n  language = {}\n}\n@incollection{read2020a,\n  author = {Read, J.M. and Bridgen, J.R. and Cummings, D.A. and Ho, A. and Jewell, C.P.},\n  date = {2020},\n  title = {Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions},\n  source = {medRxiv.},\n  language = {}\n}\n@misc{star2020a,\n  author = {Star, The},\n  date = {2020-02},\n  title = {4). First Malaysian tests positive for Wuhan coronavirus},\n  url = {https://www.thestar.com.my/news/nation/2020/02/04/first-malaysian-testspositive-for-wuhan-coronavirus},\n  language = {},\n  urldate = {Feb 5, 2020, from}\n}\n@misc{star2020b,\n  author = {Star, The},\n  date = {2020-02-07},\n  title = {Coronavirus: Malaysian woman and tourist from Wuhan bring confirmed cases to 14},\n  url = {https://www.thestar.com.my/news/nation/2020/02/07/coronavirus-malaysian-woman-and-touristfrom-wuhan-bring-confirmed-cases-to-14},\n  language = {},\n  urldate = {Feb 7, 2020, from}\n}\n",
+        "emails": [
+            "2wenhao0117@hotmail.com",
+            "1ljane@unimas.my"
+        ],
+        "references_ris": "TY  - GEN\nAU  - D.O.S.M.\nPY  - 2019\nDA  - 2019/11/14\nTI  - Demographic Statistics Third Quarter 2019, Malaysia\nUR  - https://www.dosm.gov.my/v1/index.php\nC1  - ZYOVQ5WFJ4dXhEelNpbGRmZz09&menu_id=L0pheU43NWJwRWVSZklWdzQ4TlhUU T09\nLA  - \nC1  - 3 February 2020, from\nER  - \n\nTY  - CHAP\nAU  - Backer, J.A.\nAU  - Klinkenberg, D.\nAU  - Wallinga, J.\nPY  - 2020\nDA  - 2020\nTI  - The incubation period of 2019-nCoV infections among travellers from Wuhan, China\nT2  - medRxiv.\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Read, J.M.\nAU  - Bridgen, J.R.\nAU  - Cummings, D.A.\nAU  - Ho, A.\nAU  - Jewell, C.P.\nPY  - 2020\nDA  - 2020\nTI  - Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions\nT2  - medRxiv.\nLA  - \nER  - \n\nTY  - GEN\nAU  - Star, The\nPY  - 2020\nDA  - 2020/02\nTI  - 4). First Malaysian tests positive for Wuhan coronavirus\nUR  - https://www.thestar.com.my/news/nation/2020/02/04/first-malaysian-testspositive-for-wuhan-coronavirus\nLA  - \nC1  - Feb 5, 2020, from\nER  - \n\nTY  - GEN\nAU  - Star, The\nPY  - 2020\nDA  - 2020/02/07\nTI  - Coronavirus: Malaysian woman and tourist from Wuhan bring confirmed cases to 14\nUR  - https://www.thestar.com.my/news/nation/2020/02/07/coronavirus-malaysian-woman-and-touristfrom-wuhan-bring-confirmed-cases-to-14\nLA  - \nC1  - Feb 7, 2020, from\nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Description of the parameters and their corresponding values used in the simulation"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "SEIR Diagram"
+            },
+            {
+                "id": "2",
+                "caption": "Simulation of SEIR model in 10 days"
+            },
+            {
+                "id": "3",
+                "caption": "Simulation of SEIR model in 300 days In figure 3, the simulation is run for 300 days and it is observed that if there is no control measure taken then the disease will run its course from the on-set date of the first case until day t = 100 when the maximum number of infected cases are reached. This means that if there is no control intervention imposed on the situation then the disease will be able to infect more than 3 million in the country"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.07.20021188.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.20021188.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.20021188.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.20021188.full/img-003.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "On 31 December 2019, China notified an outbreak pneumonia of unknown etiology in Wuhan City to the World Health Organization (WHO) and it had been identified as a novel coronavirus (2019-nCoV). In January 2020, several cases were confirmed outside the Mainland of China and hence WHO has declared 2019-nCoV as a global health emergency. Approximately one month since the notification to the WHO, there were 24,663 confirmed 2019-nCoV cases worldwide where 29 countries were affected.<br/><br/>January 25 in Malaysia, the Ministry of Health (MoH) reported the first three confirmed cases of whom are of China nationality. The three infected patients were reported to have entered Malaysia from Singapore of which two days earlier, a confirmed case was notified by the Singapore authorities. The first infected Malaysian was reported on February 4. Based on the patient mobility report prior to the notification, it was noted that he was in Singapore for a week starting on January 16, 2020 to attend an international conference where some of the conference delegates were reported to have come from China. It was noted that this patient\u2019s symptoms appear on 23 January and he only seek for treatment on January 29 and was referred to the Sungai Buloh Hospital on February 2."
+        ],
+        "conclusion": [
+            "The 2019-nCoV SEIR model was simulated using the parameters values obtained from trusted sources. The model is found to be accurate as it is able to predict the second confirmed case in Malaysia as reported on February 7 by the MoH [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. One of the parameters used, namely the incubation period, was actually estimated by [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] based on 88 confirmed cases detected outside of Wuhan, China. Our simulation has managed to verify the proposed incubation period of 6.5 days at which according to the MoH report [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction of our model. We have also shown through the simulation the seriousness of the spread of the disease if there is no control measure is taken.    Reference"
+        ],
+        "data_availability": [
+            "The transmission model is found to be able to predict the next confirmed case given a single case introduced in a fully susceptible population",
+            "The model is found to be accurate as it is able to predict the second confirmed case in Malaysia as reported on February 7 by the MoH [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]"
+        ],
+        "objectives": [
+            "Thus, this paper aims to add insights into the epidemiology of 2019-nCoV by simulating the transmission dynamics of 2019-nCoV in Malaysia when one local human was infected"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "This paper focuses on the formulation of a deterministic 2019-nCov transmission model by considering the exposed and recovered populations with immunity. The scenario of the simulation is depicted based on the patient zero in Malaysia. The transmission model is found to be able to predict the next confirmed case given a single case introduced in a fully susceptible population. The mathematical model is developed based on the SEIR model which has susceptible, exposed, infectious and recovered populations. The system of equations which were obtained were solved numerically and the simulation results were analyzed. The analysis includes the impact of the disease if no control is taken."
+        ],
+        "Introduction": [
+            "On 31 December 2019, China notified an outbreak pneumonia of unknown etiology in Wuhan City to the World Health Organization (WHO) and it had been identified as a novel coronavirus (2019-nCoV). In January 2020, several cases were confirmed outside the Mainland of China and hence WHO has declared 2019-nCoV as a global health emergency. Approximately one month since the notification to the WHO, there were 24,663 confirmed 2019-nCoV cases worldwide where 29 countries were affected.",
+            "January 25 in Malaysia, the Ministry of Health (MoH) reported the first three confirmed cases of whom are of China nationality. The three infected patients were reported to have entered Malaysia from Singapore of which two days earlier, a confirmed case was notified by the Singapore authorities. The first infected Malaysian was reported on February 4. Based on the patient mobility report prior to the notification, it was noted that he was in Singapore for a week starting on January 16, 2020 to attend an international conference where some of the conference delegates were reported to have come from China. It was noted that this patient\u2019s symptoms appear on 23 January and he only seek for treatment on January 29 and was referred to the Sungai Buloh Hospital on February 2.",
+            "The current understanding of the 2019-nCoV is that there is a possibility that the novel coronavirus can be asymptomatic. Thus, this paper aims to add insights into the epidemiology of 2019-nCoV by simulating the transmission dynamics of 2019-nCoV in Malaysia when one local human was infected."
+        ],
+        "Model Formulation": [
+            "The transmission model was formulated based on the epidemiology aspects of the disease:",
+            "(a) In this study, Malaysia\u2019s population is divided into the SEIR compartmental model which consists of four compartments: Susceptible (S), Exposed (E), Infected (I) and Recovered (R). The total population of Malaysia is denoted as N and it is assumed that the population is homogeneous. It is assumed that initially the total population is susceptible, hence S0 = N.",
+            "(b) Based on the growing number of cases worldwide within a short period, the disease is assumed to spread sufficiently fast that the birth and the natural death rates can be considered as negligible in the model.",
+            "(c) It is assumed that the 2019-nCoV is able to transmit between human to human.",
+            "The compartmental model is thus depicted in Figure 1. Since the patient zero may be infectious and was mobile and freely interacting then susceptible human becomes exposed with the disease at a transmission rate f. Once exposed, the incubation period starts and then after the period ends then those exposed moves to the Infected compartment at a rate c and when they recovered from the disease then they will move to the Recovered compartment at a rate k. However, there are some infected cases who may die due to the disease with the given rate of d.",
+            "The differential equations (equations (1) \u2013 (4)) which describe the dynamics of the 2019-nCoV in human populations are formulated based on the compartmental diagram described earlier in Figure 1.",
+            "!0 =  .",
+            "The descriptions of the parameters and their values used for the simulation is shown in Table 1."
+        ],
+        "Description Total human population Incubation Period": [],
+        "Infectious Period k d": [],
+        "Estimated based on current statistics": [
+            "Model Simulation First confirmed infectious Malaysian is onset on January 23, 2020 when he came back from Singapore [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Hence the initial time (t0) is set to January 23, 2020 and I0 is 1. E0 and R0 are assigned to 0. Matlab 2019 is used in this study to simulate the SEIR model formulated using the parameter values listed in Table 1."
+        ],
+        "Conclusion": [
+            "The 2019-nCoV SEIR model was simulated using the parameters values obtained from trusted sources. The model is found to be accurate as it is able to predict the second confirmed case in Malaysia as reported on February 7 by the MoH [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. One of the parameters used, namely the incubation period, was actually estimated by [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] based on 88 confirmed cases detected outside of Wuhan, China. Our simulation has managed to verify the proposed incubation period of 6.5 days at which according to the MoH report [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction of our model. We have also shown through the simulation the seriousness of the spread of the disease if there is no control measure is taken.",
+            "1. DOSM. (2019, Nov 14).Demographic Statistics Third Quarter 2019, Malaysia. Retrieved 3 February 2020, from https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=430&bul_id=YkdwYk ZYOVQ5WFJ4dXhEelNpbGRmZz09&menu_id=L0pheU43NWJwRWVSZklWdzQ4TlhUU T09",
+            "2. Backer, J. A., Klinkenberg, D., & Wallinga, J. (2020). The incubation period of 2019-nCoV infections among travellers from Wuhan, China. medRxiv.",
+            "3. Read, J. M., Bridgen, J. R., Cummings, D. A., Ho, A., & Jewell, C. P. (2020). Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv.",
+            "4. The Star. (2020, Feb 4). First Malaysian tests positive for Wuhan coronavirus. Retrieved Feb 5, 2020, from https://www.thestar.com.my/news/nation/2020/02/04/first-malaysian-testspositive-for-wuhan-coronavirus",
+            "5. The Star. (2020, Feb 7). Coronavirus: Malaysian woman and tourist from Wuhan bring confirmed cases to 14. Retrieved Feb 7, 2020, from https://www.thestar.com.my/news/nation/2020/02/07/coronavirus-malaysian-woman-and-touristfrom-wuhan-bring-confirmed-cases-to-14"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "confirmed cases",
+            "number": 3,
+            "context": "Approximately one month since the notification to the WHO, there were 24,663 confirmed 2019-nCoV cases worldwide where 29 countries were affected. <mark class=\"stats\">January 25 in Malaysia, the Ministry of Health (MoH) reported the first three confirmed cases of whom are of China nationality</mark>. The three infected patients were reported to have entered Malaysia from Singapore of which two days earlier, a confirmed case was notified by the Singapore authorities"
+        },
+        {
+            "participant": "infected patients",
+            "number": 3,
+            "context": "January 25 in Malaysia, the Ministry of Health (MoH) reported the first three confirmed cases of whom are of China nationality. <mark class=\"stats\">The three infected patients were reported to have entered Malaysia from Singapore of which two days earlier, a confirmed case was notified by the Singapore authorities</mark>. The first infected Malaysian was reported on February 4"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 88,
+            "context": "The model is found to be accurate as it is able to predict the second confirmed case in Malaysia as reported on February 7 by the MoH [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. <mark class=\"stats\">One of the parameters used, namely the incubation period, was actually estimated by [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] based on 88 confirmed cases detected outside of Wuhan, China</mark>. Our simulation has managed to verify the proposed incubation period of 6.5 days at which according to the MoH report [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction of our model"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "seir model",
+        "transmission model",
+        "coronavirus",
+        "World Health Organization",
+        "SEIR",
+        "malaysia",
+        "incubation period",
+        "novel coronavirus",
+        "Ministry of Health"
+    ],
+    "keyword_relevance": {
+        "SEIR": 0.24242424242424243,
+        "coronavirus": 0.18181818181818182,
+        "World Health Organization": 0.12121212121212122,
+        "incubation period": 0.12121212121212122,
+        "Ministry of Health": 0.12121212121212122,
+        "transmission model": 0.09090909090909091,
+        "malaysia": 0.06060606060606061,
+        "novel coronavirus": 0.06060606060606061,
+        "seir model": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> On 31 December 2019, China notified an outbreak pneumonia of unknown etiology in Wuhan City to the World Health Organization (WHO) and it had been identified as a novel coronavirus (2019-nCoV).",
+        "The three infected patients were reported to have entered Malaysia from Singapore of which two days earlier, a confirmed case was notified by the Singapore authorities.",
+        "Based on the patient mobility report prior to the notification, it was noted that he was in Singapore for a week starting on January 16, 2020 to attend an international conference where some of the conference delegates were reported to have come from China.",
+        "It was noted that this patient\u2019s symptoms appear on 23 January and he only seek for treatment on January 29 and was referred to the Sungai Buloh Hospital on February 2",
+        "<h2 style=\"display: inline\">Objectives:</h2> This paper aims to add insights into the epidemiology of 2019-nCoV by simulating the transmission dynamics of 2019-nCoV in Malaysia when one local human was infected.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The 2019-nCoV SEIR model was simulated using the parameters values obtained from trusted sources.",
+        "The model is found to be accurate as it is able to predict the second confirmed case in Malaysia as reported on February 7 by the MoH [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+        "The authors' simulation has managed to verify the proposed incubation period of 6.5 days at which according to the MoH report [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction of the model."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "On 31 December 2019, China notified an outbreak pneumonia of unknown etiology in Wuhan City to the World Health Organization (WHO) and it had been identified as a novel coronavirus (2019-nCoV).",
+            "The three infected patients were reported to have entered Malaysia from Singapore of which two days earlier, a confirmed case was notified by the Singapore authorities.",
+            "Based on the patient mobility report prior to the notification, it was noted that he was in Singapore for a week starting on January 16, 2020 to attend an international conference where some of the conference delegates were reported to have come from China.",
+            "It was noted that this patient\u2019s symptoms appear on 23 January and he only seek for treatment on January 29 and was referred to the Sungai Buloh Hospital on February 2"
+        ],
+        "Objectives": [
+            "This paper aims to add insights into the epidemiology of 2019-nCoV by simulating the transmission dynamics of 2019-nCoV in Malaysia when one local human was infected."
+        ],
+        "Conclusion": [
+            "The 2019-nCoV SEIR model was simulated using the parameters values obtained from trusted sources.",
+            "The model is found to be accurate as it is able to predict the second confirmed case in Malaysia as reported on February 7 by the MoH [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+            "The authors' simulation has managed to verify the proposed incubation period of 6.5 days at which according to the MoH report [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction of the model."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "D_2019_a",
+            "entry": "1. DOSM. (2019, Nov 14).Demographic Statistics Third Quarter 2019, Malaysia. Retrieved 3 February 2020, from https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=430&bul_id=YkdwYk ZYOVQ5WFJ4dXhEelNpbGRmZz09&menu_id=L0pheU43NWJwRWVSZklWdzQ4TlhUU T09",
+            "url": "https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=430&bul_id=YkdwYk"
+        },
+        {
+            "id": "2",
+            "alt_id": "Backer_et+al_2020_a",
+            "entry": "2. Backer, J. A., Klinkenberg, D., & Wallinga, J. (2020). The incubation period of 2019-nCoV infections among travellers from Wuhan, China. medRxiv.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Backer%20J%20A%20Klinkenberg%20D%20%20Wallinga%20J%202020%20The%20incubation%20period%20of%202019nCoV%20infections%20among%20travellers%20from%20Wuhan%20China%20medRxiv",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Backer%20J%20A%20Klinkenberg%20D%20%20Wallinga%20J%202020%20The%20incubation%20period%20of%202019nCoV%20infections%20among%20travellers%20from%20Wuhan%20China%20medRxiv",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Backer%20J%20A%20Klinkenberg%20D%20%20Wallinga%20J%202020%20The%20incubation%20period%20of%202019nCoV%20infections%20among%20travellers%20from%20Wuhan%20China%20medRxiv"
+        },
+        {
+            "id": "3",
+            "alt_id": "Read_et+al_2020_a",
+            "entry": "3. Read, J. M., Bridgen, J. R., Cummings, D. A., Ho, A., & Jewell, C. P. (2020). Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Read%20J%20M%20Bridgen%20J%20R%20Cummings%20D%20A%20Ho%20A%20%20Jewell%20C%20P%202020%20Novel%20coronavirus%202019nCoV%20early%20estimation%20of%20epidemiological%20parameters%20and%20epidemic%20predictions%20medRxiv",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Read%20J%20M%20Bridgen%20J%20R%20Cummings%20D%20A%20Ho%20A%20%20Jewell%20C%20P%202020%20Novel%20coronavirus%202019nCoV%20early%20estimation%20of%20epidemiological%20parameters%20and%20epidemic%20predictions%20medRxiv",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Read%20J%20M%20Bridgen%20J%20R%20Cummings%20D%20A%20Ho%20A%20%20Jewell%20C%20P%202020%20Novel%20coronavirus%202019nCoV%20early%20estimation%20of%20epidemiological%20parameters%20and%20epidemic%20predictions%20medRxiv"
+        },
+        {
+            "id": "4",
+            "alt_id": "Star_2020_a",
+            "entry": "4. The Star. (2020, Feb 4). First Malaysian tests positive for Wuhan coronavirus. Retrieved Feb 5, 2020, from https://www.thestar.com.my/news/nation/2020/02/04/first-malaysian-testspositive-for-wuhan-coronavirus",
+            "url": "https://www.thestar.com.my/news/nation/2020/02/04/first-malaysian-testspositive-for-wuhan-coronavirus"
+        },
+        {
+            "id": "5",
+            "alt_id": "Star_2020_b",
+            "entry": "5. The Star. (2020, Feb 7). Coronavirus: Malaysian woman and tourist from Wuhan bring confirmed cases to 14. Retrieved Feb 7, 2020, from https://www.thestar.com.my/news/nation/2020/02/07/coronavirus-malaysian-woman-and-touristfrom-wuhan-bring-confirmed-cases-to-14 ",
+            "url": "https://www.thestar.com.my/news/nation/2020/02/07/coronavirus-malaysian-woman-and-touristfrom-wuhan-bring-confirmed-cases-to-14"
+        }
+    ],
+    "facts": [
+        "This paper focuses on the formulation",
+        "The scenario of the simulation is depicted based on the patient zero in Malaysia",
+        "The mathematical model is developed based on the SEIR model",
+        "The analysis includes the impact of the disease if no control is taken",
+        "China notified an outbreak pneumonia of unknown etiology in Wuhan City",
+        "several cases were confirmed outside the Mainland of China and WHO has declared",
+        "three confirmed cases of whom are of China nationality",
+        "a confirmed case was notified by the Singapore authorities",
+        "The first infected Malaysian was reported on February 4",
+        "in Singapore for a week starting on January 16",
+        "some of the conference delegates were reported to have come from China",
+        "that this patient's symptoms appear on 23 January",
+        "the parameters values obtained from trusted sources",
+        "the proposed incubation period of 6.5 days at which according to the MoH report",
+        "the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction"
+    ],
+    "claims": [
+        "This paper focuses on the formulation of a deterministic 2019-nCov transmission model by considering the exposed and recovered populations with immunity",
+        "This paper aims to add insights into the epidemiology of 2019-nCoV by simulating the transmission dynamics of 2019-nCoV in Malaysia when one local human was infected",
+        "We have also shown through the simulation the seriousness of the spread of the disease if there is no control measure is taken"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "On 31 December 2019, China notified an outbreak pneumonia of unknown etiology in Wuhan City to the World Health Organization (WHO) and it had been identified as a novel coronavirus (2019-nCoV)",
+        "January 25 in Malaysia, the Ministry of Health (MoH) reported the first three confirmed cases of whom are of China nationality",
+        "The three infected patients were reported to have entered Malaysia from Singapore of which two days earlier, a confirmed case was notified by the Singapore authorities",
+        "The first infected Malaysian was reported on February 4",
+        "The 2019-nCoV SEIR model was simulated using the parameters values obtained from trusted sources",
+        "Our simulation has managed to verify the proposed incubation period of 6.5 days at which according to the Ministry of Health report [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction of our model"
+    ],
+    "top_statements": [
+        "On 31 December 2019, China notified an outbreak pneumonia of unknown etiology in Wuhan City to the World Health Organization (WHO) and it had been identified as a novel coronavirus (2019-nCoV)",
+        "January 25 in Malaysia, the Ministry of Health (MoH) reported the first three confirmed cases of whom are of China nationality",
+        "The three infected patients were reported to have entered Malaysia from Singapore of which two days earlier, a confirmed case was notified by the Singapore authorities",
+        "The 2019-nCoV SEIR model was simulated using the parameters values obtained from trusted sources",
+        "Our simulation has managed to verify the proposed incubation period of 6.5 days at which according to the Ministry of Health report [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction of our model"
+    ],
+    "headline": "Our simulation has managed to verify the proposed incubation period of 6.5 days at which according to the Ministry of Health report, the second case has developed symptoms on the 1st February 2020 which is in agreement with the prediction of our model",
+    "contexts": [],
+    "abbreviations": {
+        "WHO": "World Health Organization",
+        "MoH": "Ministry of Health"
+    }
+}

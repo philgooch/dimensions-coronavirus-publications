@@ -1,0 +1,445 @@
+{
+    "filename": "2020.02.16.20023838.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 480291,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.16.20023838",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/18/2020.02.16.20023838.full.pdf"
+        },
+        "title": "Risk map of the novel coronavirus (2019-nCoV) in China: proportionate control is needed",
+        "author": "Xinhai Li, Xumao Zhao, Yingqiang Lou, Yuehua Sun",
+        "date": 2020,
+        "affiliations": [
+            "Key Laboratory of Animal Ecology and Conservation Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, 100101, China",
+            "University of Chinese Academy of Sciences, Yuquan Road, Beijing 100049, China",
+            "State Key Laboratory of Grassland Agro-Ecosystem/Institute of Innovation Ecology, Lanzhou University, Lanzhou, 730020, China",
+            "The authors have the same contribution to the manuscript. Correspondence to: Yuahua Sun (sunyh@ioz.ac.cn); Xinhai Li (lixh@ioz.ac.cn)"
+        ],
+        "abstract": "Background\nChina is running a national level antivirus campaign against the novel coronavirus (2019-nCoV). Strict control measures are being enforced in either the populated areas and remote regions. While the virus is closed to be under control, tremendous economic loss has been caused.\nMethods and findings\nWe assessed the pandemic risk of 2019-nCoV for all cities/regions in China using the random forest algorithm, taking into account the effect of five factors: the accumulative and increased numbers of confirmed cases, total population, population density, and GDP. We defined four levels of the risk, corresponding to the four response levels to public health emergencies in China. The classification system has good consistency among cities in China, as the error rate of the confusion matrix is 1.58%.\nConclusions\nThe pandemic risk of 2019-nCoV is dramatically different among the 442 cities/regions. We recommend to adopt proportionate control policy according to the risk level to reduce unnecessary economic loss.",
+        "keywords": [
+            "city closure",
+            "highway blocking",
+            "quarantine",
+            "epidemic control",
+            "public health",
+            "transmission risk"
+        ],
+        "references": "@misc{w-a,\n  author = {W.H.O.},\n  title = {Coronavirus disease 2019 (COVID-19) Situation Report \u2013 26 2020},\n  url = {https://www.who.int/emergencies/diseases/novel-coronavirus2019/situation-reports/.},\n  language = {}\n}\n@article{wang2020a,\n  author = {Wang, R. and Zhang, X. and Irwin, D.M. and Shen, Y.},\n  title = {Emergence of SARS-like Coronavirus poses new challenge in China},\n  journal = {J Infect},\n  date = {2020},\n  doi = {doi},\n  url = {https://doi.org/10.1016/j.jinf.2020.01.017.},\n  language = {}\n}\n@book{wang-a,\n  author = {Wang, C. and Horby, P.W. and Hayden, F.G. and Gao, G.F.},\n  title = {A novel coronavirus outbreak of global health concern},\n  publisher = {The Lancet. 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1016/S01406736},\n  language = {}\n}\n@incollection{biscayart2019a,\n  author = {Biscayart, C. and Angeleri, P. and Lloveras, S. and TdSS, Chaves and Schlagenhauf, P. and Rodr\u00edguezMorales, A.J.},\n  title = {The next big threat to global health? 2019 novel coronavirus},\n  publisher = {},\n  date = {2019},\n  doi = {2020: 101567. doi},\n  url = {https://doi.org/10.1016/j.tmaid.2020.101567.},\n  source = {What advice can we give to travellers? \u2013 Interim recommendations January 2020, from the Latin-American society for Travel Medicine (SLAMVI). Travel Medicine and Infectious Disease},\n  language = {}\n}\n@misc{kupferschmidt-a,\n  author = {Kupferschmidt, K.},\n  title = {Outbreak of virus from China declared global emergency},\n  doi = {Science. 2020. doi: doi: 10.1126/science.abb1079},\n  language = {}\n}\n@incollection{li2019a,\n  author = {Li, X. and Zhao, X. and Sun, Y.},\n  title = {The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus},\n  date = {2019},\n  doi = {2020: 2020.02.09.20021477. doi: 10.1101/2020.02.09.20021477},\n  source = {in Wuhan and Beijing. medRxiv},\n  language = {}\n}\n@misc{ai-a,\n  author = {Ai, S. and Zhu, G. and Tian, F. and Li, H. and Gao, Y. and Wu, Y.},\n  title = {Population movement, city closure and spatial transmission of the 2019-nCoV infection in China. medRxiv},\n  doi = {2020: 2020.02.04.20020339. doi: 10.1101/2020.02.04.20020339},\n  more-authors = {true},\n  language = {}\n}\n@misc{tian-a,\n  author = {Tian, H. and Li, Y. and Liu, Y. and Kraemer, M.U.G. and Chen, B. and Cai, J.},\n  title = {Early evaluation of Wuhan City travel restrictions in response to the 2019 novel coronavirus outbreak. medRxiv},\n  doi = {2020: 2020.01.30.20019844. doi: 10.1101/2020.01.30.20019844},\n  more-authors = {true},\n  language = {}\n}\n@misc{jin-a,\n  author = {Jin, G. and Yu, J. and Han, L. and Duan, S.},\n  title = {The impact of traffic isolation in Wuhan on the spread of 2019-nCov. medRxiv},\n  doi = {2020: 2020.02.04.20020438. doi: 10.1101/2020.02.04.20020438},\n  language = {}\n}\n@book{forests2001a,\n  author = {forests. Machine Learning, Breiman L.Random},\n  date = {2001},\n  volume = {45},\n  pages = {5\u201332},\n  publisher = {PubMed PMID: WOS: 000170489900001},\n  number = {1},\n  language = {}\n}\n@book{liaw2002a,\n  author = {Liaw, A. and Wiener, M.},\n  title = {Classification and regression by randomForest},\n  publisher = {R News},\n  date = {2002},\n  volume = {2},\n  pages = {18\u201322},\n  number = {3},\n  language = {}\n}\n@article{breiman2001a,\n  author = {Breiman, L.},\n  title = {Statistical modeling: The two cultures},\n  journal = {Statistical Science},\n  date = {2001},\n  volume = {16},\n  pages = {199\u2013215},\n  doi = {doi},\n  publisher = {10.1214/ss/1009213726. PubMed PMID: WOS: 000172846900001},\n  number = {3},\n  language = {}\n}\n@book{shetty2009a,\n  author = {Shetty, P.},\n  title = {Preparation for a pandemic: influenza A H1N1. Lancet Infect Dis},\n  date = {2009},\n  volume = {9},\n  pages = {339\u201340},\n  publisher = {PubMed PMID: WOS: 000266542300006},\n  number = {6},\n  language = {}\n}\n@article{md2010a,\n  author = {MD, Van Kerkhove and T, Asikainen and NG, Becker and S, Bjorge and JC, Desenclos and dos Santos T},\n  title = {Studies needed to address public health challenges of the 2009 H1N1 influenza pandemic: insights from modeling},\n  journal = {Plos Medicine},\n  date = {2010},\n  volume = {7},\n  doi = {doi},\n  publisher = {10.1371/journal.pmed.1000275. PubMed PMID: WOS: 000279400000008},\n  more-authors = {true},\n  number = {6},\n  language = {}\n}\n@misc{pm-a,\n  author = {PM, De Salazar and R, Niehus and A, Taylor and M, Lipsitch},\n  title = {Estimating underdetection of internationally imported COVID-19 cases. medRxiv},\n  doi = {2020: 2020.02.13.20022707. doi: 10.1101/2020.02.13.20022707},\n  language = {}\n}\n",
+        "links": [
+            "http://data.stats.gov.cn/easyquery.htm?cn=E0105",
+            "https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_pc_1",
+            "https://github.com/Xinhai-Li/2019-nCoV"
+        ],
+        "emails": [
+            "lixh@ioz.ac.cn",
+            "sunyh@ioz.ac.cn"
+        ],
+        "references_ris": "TY  - GEN\nAU  - W.H.O.\nTI  - Coronavirus disease 2019 (COVID-19) Situation Report \u2013 26 2020\nUR  - https://www.who.int/emergencies/diseases/novel-coronavirus2019/situation-reports/.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, R.\nAU  - Zhang, X.\nAU  - Irwin, D.M.\nAU  - Shen, Y.\nTI  - Emergence of SARS-like Coronavirus poses new challenge in China\nT2  - J Infect\nPY  - 2020\nDA  - 2020\nDO  - doi\nUR  - https://doi.org/10.1016/j.jinf.2020.01.017.\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Wang, C.\nAU  - Horby, P.W.\nAU  - Hayden, F.G.\nAU  - Gao, G.F.\nTI  - A novel coronavirus outbreak of global health concern\nPB  - The Lancet. 2020\nDO  - doi\nUR  - https://doi.org/10.1016/S01406736\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Biscayart, C.\nAU  - Angeleri, P.\nAU  - Lloveras, S.\nAU  - TdSS, Chaves\nAU  - Schlagenhauf, P.\nAU  - Rodr\u00edguezMorales, A.J.\nTI  - The next big threat to global health? 2019 novel coronavirus\nPB  - \nPY  - 2019\nDA  - 2019\nDO  - 2020: 101567. doi\nUR  - https://doi.org/10.1016/j.tmaid.2020.101567.\nT2  - What advice can we give to travellers? \u2013 Interim recommendations January 2020, from the Latin-American society for Travel Medicine (SLAMVI). Travel Medicine and Infectious Disease\nLA  - \nER  - \n\nTY  - GEN\nAU  - Kupferschmidt, K.\nTI  - Outbreak of virus from China declared global emergency\nDO  - Science. 2020. doi: doi: 10.1126/science.abb1079\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Li, X.\nAU  - Zhao, X.\nAU  - Sun, Y.\nTI  - The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus\nPY  - 2019\nDA  - 2019\nDO  - 2020: 2020.02.09.20021477. doi: 10.1101/2020.02.09.20021477\nT2  - in Wuhan and Beijing. medRxiv\nLA  - \nER  - \n\nTY  - GEN\nAU  - Ai, S.\nAU  - Zhu, G.\nAU  - Tian, F.\nAU  - Li, H.\nAU  - Gao, Y.\nAU  - Wu, Y.\nTI  - Population movement, city closure and spatial transmission of the 2019-nCoV infection in China. medRxiv\nDO  - 2020: 2020.02.04.20020339. doi: 10.1101/2020.02.04.20020339\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Tian, H.\nAU  - Li, Y.\nAU  - Liu, Y.\nAU  - Kraemer, M.U.G.\nAU  - Chen, B.\nAU  - Cai, J.\nTI  - Early evaluation of Wuhan City travel restrictions in response to the 2019 novel coronavirus outbreak. medRxiv\nDO  - 2020: 2020.01.30.20019844. doi: 10.1101/2020.01.30.20019844\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Jin, G.\nAU  - Yu, J.\nAU  - Han, L.\nAU  - Duan, S.\nTI  - The impact of traffic isolation in Wuhan on the spread of 2019-nCov. medRxiv\nDO  - 2020: 2020.02.04.20020438. doi: 10.1101/2020.02.04.20020438\nLA  - \nER  - \n\nTY  - BOOK\nAU  - forests. Machine Learning, Breiman L.Random\nPY  - 2001\nDA  - 2001\nVL  - 45\nSP  - 5\nEP  - 32\nPB  - PubMed PMID: WOS: 000170489900001\nIS  - 1\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Liaw, A.\nAU  - Wiener, M.\nTI  - Classification and regression by randomForest\nPB  - R News\nPY  - 2002\nDA  - 2002\nVL  - 2\nSP  - 18\nEP  - 22\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Breiman, L.\nTI  - Statistical modeling: The two cultures\nT2  - Statistical Science\nPY  - 2001\nDA  - 2001\nVL  - 16\nSP  - 199\nEP  - 215\nDO  - doi\nPB  - 10.1214/ss/1009213726. PubMed PMID: WOS: 000172846900001\nIS  - 3\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Shetty, P.\nTI  - Preparation for a pandemic: influenza A H1N1. Lancet Infect Dis\nPY  - 2009\nDA  - 2009\nVL  - 9\nSP  - 339\nEP  - 40\nPB  - PubMed PMID: WOS: 000266542300006\nIS  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - MD, Van Kerkhove\nAU  - T, Asikainen\nAU  - NG, Becker\nAU  - S, Bjorge\nAU  - JC, Desenclos\nAU  - dos Santos T\nTI  - Studies needed to address public health challenges of the 2009 H1N1 influenza pandemic: insights from modeling\nT2  - Plos Medicine\nPY  - 2010\nDA  - 2010\nVL  - 7\nDO  - doi\nPB  - 10.1371/journal.pmed.1000275. PubMed PMID: WOS: 000279400000008\nC1  - true\nIS  - 6\nLA  - \nER  - \n\nTY  - GEN\nAU  - PM, De Salazar\nAU  - R, Niehus\nAU  - A, Taylor\nAU  - M, Lipsitch\nTI  - Estimating underdetection of internationally imported COVID-19 cases. medRxiv\nDO  - 2020: 2020.02.13.20022707. doi: 10.1101/2020.02.13.20022707\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "The confusion matrix of the last random forest learning process. The response levels (1 to 4) was assigned to 442 cities"
+            },
+            {
+                "id": "2",
+                "caption": "Suggested control measures following the four risk levels for every city"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Number of cumulative confirmed cases (A) and increased cases (B) in cities across China on Feb. 14, 2020"
+            },
+            {
+                "id": "2",
+                "caption": "The population size (A), population density (B), and GDP (C) of the cities in China in 2018"
+            },
+            {
+                "id": "3",
+                "caption": "The risk levels of 2019-nCoV outbreak in cities/regions across China"
+            },
+            {
+                "id": "4",
+                "caption": "The importance of variables for classifying the risk levels of the 442 cities in China"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.16.20023838.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.20023838.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.20023838.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.20023838.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.20023838.full/img-006.png"
+        ]
+    },
+    "sections": {
+        "background": [
+            "China is running a national level antivirus campaign against the novel coronavirus (2019-nCoV). Strict control measures are being enforced in either the populated areas and remote regions. While the virus is closed to be under control, tremendous economic loss has been caused."
+        ],
+        "methods": [
+            "<strong>Methods and findings</strong><br/><br/>We assessed the pandemic risk of 2019-nCoV for all cities/regions in China using the random forest algorithm, taking into account the effect of five factors: the accumulative and increased numbers of confirmed cases, total population, population density, and GDP. We defined four levels of the risk, corresponding to the four response levels to public health emergencies in China. The classification system has good consistency among cities in China, as the error rate of the confusion matrix is 1.58%.",
+            "Data We compiled the number of daily confirmed cases of 2019-nCoV (Fig.1) from the platform of real time epidemic situation for every city hosted by Baidu TM at (https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_pc_1). We downloaded the data of population and gross domestic product (GDP) for every city in 2018 from the website of the National Bureau of Statistics of China at http://data.stats.gov.cn/easyquery.htm?cn=E0105 (Fig. 2A & 2C). The georeferenced data of the political boundaries of all prefecture level cities were provided by Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences. The population density of the cities was calculated by dividing the population by the areas of the city (Fig. 2B).<br/><br/>Model We used the random forest algorithm [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] and developed the following model: Yi ~ Ni + \u0394Ni + Popi + Densityi + GDPi (Equation 1) where Yi is the response level of city i to public health emergencies; Ni is the number of cumulative confirmed cases on Feb. 14 in city i; \u0394Ni is the increased number of cases on Feb. 14 in city i; Popi, Densityi, and GDPi are the population size, population density, and GDP of city i, respectively.<br/><br/>The purpose of above model is to assign a response level, Yi for each city. In the beginning, we manually assigned Yi =1 for the top 10 cities with 2019-nCoV infection, and Yi =4 for the 10 least infected cities. Then we gave random numbers for Yi from {1, 2, 3, 4} to the rest of cities. We built the random forest model RF using Equation 1. RF contains the relationship between the dependent and independent variables. We used RF to predict the Yi for every city, and used the newly calculated Yi to update RF. We repeated the model learning process for 5-6 times until a low error rate was reached. In practice, we first defined Yi as a continuous variable, quantifying the trend of Y using the five explanatory variables; and then defined Yi as a categorical variable, classifying the response level of each city. At last, we manually assigned all cities (except for Shennongjia Forestry District, where has only 10 cases of 2019-nCoV) in Hubei Province with the highest category, the level I. The data and R code were posted at https://github.com/Xinhai-Li/2019-nCoV."
+        ],
+        "conclusions": [
+            "The pandemic risk of 2019-nCoV is dramatically different among the 442 cities/regions. We recommend to adopt proportionate control policy according to the risk level to reduce unnecessary economic loss.<br/><br/>Key words: city closure, highway blocking, quarantine, epidemic control, public health, transmission risk"
+        ],
+        "introduction": [
+            "The novel coronavirus (2019-nCoV) has infected 66,576 people and caused 1524 deaths in China by Feb. 15, 2020 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. It has spread to 25 countries [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] with the potential of further transmission [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. On Jan. 30, 2020, the World Health Organization (WHO) declared the novel coronavirus outbreak to be \u201cpublic health emergency of international concern\u201d [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. The countries with local infection of 2019nCoV, such as Japan and Singapore, are implementing a moderate prevention policy against this flu-like infectious disease, similar to the situation of Wuhan in early January, 2020.<br/><br/>On the contrary, China is running a national level antivirus campaign. All of the 31 provinces and province-level municipalities in mainland China have initiated the first-level response to public health emergencies after the city closure of Wuhan on Jan. 23, 2020. Very strict control measures are enforced all over the country, such as tourism ban, school closure, meeting cancelation, etc. Compared with the prevention activities against SARS 17 years ago, traffic control and community locking are much more stricter, let alone the unprecedented province lockdown that constraining over 58 million people locally [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]."
+        ],
+        "results": [
+            "Our model classified 442 cities with the four levels of response for public health emergencies (Fig. 3). There are 16 cities, all in Hubei Province, being assigned with the highest risk, the level I. The number of cities that were classified as risk levels II, III, and IV are 60, 67, and 299, respectively (Fig .3).<br/><br/>The classification for 442 cities has good consistency, as the overall error rate of the confusion matrix is only 1.58% (Table 1).    Error<br/><br/>The risk level of cities was classified using five variables, whereas the variables had different weights in the model, quantified by importance indices in random forest model [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] (Fig. 4)."
+        ],
+        "discussion": [
+            "We assessed the risk level of 2019-nCoV outbreak for 442 cities in China based on five variables. The cumulative number of confirmed cases represents the size of the 2019-nCoV outbreak. The increased number of cases indicates the dynamics of virus transmission. Population size of a city is the key variable for epidemics, which is directly associated with the potential outbreak size. Population density is also an important factor, since dense population would accelerate virus transmission. Similarly, GDP is an index of economic activities, which links to human flow and virus transmission rate."
+        ],
+        "acknowledgements": [
+            "We are grateful to Professor Jon E. Swenson for help with English. We thank Yuqi Zou, Yongke Zhu, Tingting Yi, Chunlei Jing, Huan Liu, Boya Xie, Yiqing Li, Yumeng Tian for data processing."
+        ],
+        "data_availability": [
+            "http://data.stats.gov.cn/easyquery.htm?cn=E0105",
+            "https://github.com/Xinhai-Li/2019-nCoV"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [],
+        "Background": [
+            "China is running a national level antivirus campaign against the novel coronavirus (2019-nCoV). Strict control measures are being enforced in either the populated areas and remote regions. While the virus is closed to be under control, tremendous economic loss has been caused."
+        ],
+        "Methods and findings": [
+            "We assessed the pandemic risk of 2019-nCoV for all cities/regions in China using the random forest algorithm, taking into account the effect of five factors: the accumulative and increased numbers of confirmed cases, total population, population density, and GDP. We defined four levels of the risk, corresponding to the four response levels to public health emergencies in China. The classification system has good consistency among cities in China, as the error rate of the confusion matrix is 1.58%."
+        ],
+        "Conclusions": [
+            "The pandemic risk of 2019-nCoV is dramatically different among the 442 cities/regions. We recommend to adopt proportionate control policy according to the risk level to reduce unnecessary economic loss.",
+            "Key words: city closure, highway blocking, quarantine, epidemic control, public health, transmission risk"
+        ],
+        "1. Introduction": [
+            "The novel coronavirus (2019-nCoV) has infected 66,576 people and caused 1524 deaths in China by Feb. 15, 2020 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. It has spread to 25 countries [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] with the potential of further transmission [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. On Jan. 30, 2020, the World Health Organization (WHO) declared the novel coronavirus outbreak to be \u201cpublic health emergency of international concern\u201d [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. The countries with local infection of 2019nCoV, such as Japan and Singapore, are implementing a moderate prevention policy against this flu-like infectious disease, similar to the situation of Wuhan in early January, 2020.",
+            "On the contrary, China is running a national level antivirus campaign. All of the 31 provinces and province-level municipalities in mainland China have initiated the first-level response to public health emergencies after the city closure of Wuhan on Jan. 23, 2020. Very strict control measures are enforced all over the country, such as tourism ban, school closure, meeting cancelation, etc. Compared with the prevention activities against SARS 17 years ago, traffic control and community locking are much more stricter, let alone the unprecedented province lockdown that constraining over 58 million people locally [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+            "As a result, the control of 2019-nCoV in China is very effective [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>-<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. The increases of the number of confirmed cases in most cities has dropped. No new cases have emerged in more than half cities in China on Feb. 14. While the half-lockout of industry, traffic, and school, etc., people are wondering how long the campaign will last and how soon the they can return to normal life.",
+            "We evaluated the risk of 2019-nCoV outbreak in cities and regions across China and suggested four levels of risk, highlighting that the cities with low risk should return to the normal status in order to avoid unnecessary economic loss."
+        ],
+        "2. Methods": [
+            "Data We compiled the number of daily confirmed cases of 2019-nCoV (Fig.1) from the platform of real time epidemic situation for every city hosted by Baidu TM at (https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_pc_1). We",
+            "downloaded the data of population and gross domestic product (GDP) for every city in 2018 from the website of the National Bureau of Statistics of China at http://data.stats.gov.cn/easyquery.htm?cn=E0105 (Fig. 2A & 2C). The georeferenced data of the political boundaries of all prefecture level cities were provided by Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences. The population density of the cities was calculated by dividing the population by the areas of the city (Fig. 2B).",
+            "Model We used the random forest algorithm [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] and developed the following model: Yi ~ Ni + \u0394Ni + Popi + Densityi + GDPi (Equation 1) where Yi is the response level of city i to public health emergencies; Ni is the number of cumulative confirmed cases on Feb. 14 in city i; \u0394Ni is the increased number of cases on Feb. 14 in city i; Popi, Densityi, and GDPi are the population size, population density, and GDP of city i, respectively.",
+            "The purpose of above model is to assign a response level, Yi for each city. In the beginning, we manually assigned Yi =1 for the top 10 cities with 2019-nCoV infection, and Yi =4 for the 10 least infected cities. Then we gave random numbers for Yi from {1, 2, 3, 4} to the rest of cities. We built the random forest model RF using Equation 1. RF contains the relationship between the dependent and independent variables. We used RF to predict the Yi for every city, and used the newly calculated Yi to update RF. We repeated the model learning process for 5-6 times until a low error rate was reached. In practice, we first defined Yi as a continuous variable, quantifying the trend of Y using the five explanatory variables; and then defined Yi as a categorical variable, classifying the response level of each city. At last, we manually assigned all cities (except for Shennongjia Forestry District, where has only 10 cases of 2019-nCoV) in Hubei Province with the highest category, the level I. The data and R code were posted at https://github.com/Xinhai-Li/2019-nCoV."
+        ],
+        "3. Results": [
+            "Our model classified 442 cities with the four levels of response for public health emergencies (Fig. 3). There are 16 cities, all in Hubei Province, being assigned with the highest risk, the level I. The number of cities that were classified as risk levels II, III, and IV are 60, 67, and 299, respectively (Fig .3).",
+            "The classification for 442 cities has good consistency, as the overall error rate of the confusion matrix is only 1.58% (Table 1).",
+            "The risk level of cities was classified using five variables, whereas the variables had different weights in the model, quantified by importance indices in random forest model [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] (Fig. 4)."
+        ],
+        "4. Discussion": [
+            "We assessed the risk level of 2019-nCoV outbreak for 442 cities in China based on five variables. The cumulative number of confirmed cases represents the size of the 2019-nCoV outbreak. The increased number of cases indicates the dynamics of virus transmission. Population size of a city is the key variable for epidemics, which is directly associated with the potential outbreak size. Population density is also an important factor, since dense population would accelerate virus transmission. Similarly, GDP is an index of economic activities, which links to human flow and virus transmission rate.",
+            "We used a machine learning algorithm, random forest, to classify the risk levels. One reason is that variables such as population size, population density and GDP are highly correlated. Random forest is very robust when multicollinearity is severe [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. Another reason is that the numbers of cases are unbalanced among cities. In Wuhan, there are 39,249 confirmed cases by Feb. 16, whereas other large cities have a few hundred cases. Traditional linear models can not fit well with such a data distribution.",
+            "The purpose of our study is to provide a risk map of 2019-nCoV outbreak, so as to facilitate decision makers to adjust virus prevention policy. It is a great challenge to fight effectively and appropriately against a pandemic [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>, <a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], especially when we do not know much about the novel coronavirus [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Rational and proportionate responses to such a virus outbreak are needed. At present, the strict control measures, for the areas with minor infection (which is under control), are overreacted.",
+            "The transmission of 2019-nCoV in cities outside Hubei Province is largely suspended [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. From Feb.13 to Feb. 14, there are 231 cities have no new cases, and another 39 cities have only one new case (Fig. 1B). The risk in the Tibet Autonomous Region, Qinghai Province, Xinjiang Uygur Autonomous Region, Gansu Province, and Western Inner Mongolia Autonomous region is very low. We suggest rational, proportionate control measures (Table 2). For example, the cities with the risk level IV (Fig. 3) should return to normal status, under the condition of border control, in case of imported infections from high risk areas.",
+            "There is a high probability that a few transmission clusters of 2019-nCoV would happen after loosing the control in several provinces. Under such circumstance, the cities where virus returned should be managed again under higher level of responses to the public health emergencies.",
+            "Fighting against 2019-nCoV would be a long process, due to the three characteristics of this epidemics (long incubation period, asymptomatic infection, and high-false-negative-rate diagnosis) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. The transmission of 2019-nCoV is naturally (exponentially) growing in Japan and Singapore, increasing the risk of a global outbreak. Even after this transmission wave, 2019-nCoV might come back in every winter. As such, proportionate control is especially important for sustainable protect human from the infectious diseases."
+        ],
+        "Acknowledgements": [
+            "We are grateful to Professor Jon E. Swenson for help with English. We thank Yuqi Zou, Yongke Zhu, Tingting Yi, Chunlei Jing, Huan Liu, Boya Xie, Yiqing Li, Yumeng Tian for data processing."
+        ],
+        "References": [
+            "1. WHO. Coronavirus disease 2019 (COVID-19) Situation Report \u2013 26 2020. Available from: https://www.who.int/emergencies/diseases/novel-coronavirus2019/situation-reports/.",
+            "2. Wang R, Zhang X, Irwin DM, Shen Y. Emergence of SARS-like Coronavirus poses new challenge in China. J Infect. 2020. doi: https://doi.org/10.1016/j.jinf.2020.01.017.",
+            "3. Wang C, Horby PW, Hayden FG, Gao GF. A novel coronavirus outbreak of global health concern. The Lancet. 2020. doi: https://doi.org/10.1016/S01406736(20)30185-9.",
+            "4. Biscayart C, Angeleri P, Lloveras S, Chaves TdSS, Schlagenhauf P, Rodr\u00edguezMorales AJ. The next big threat to global health? 2019 novel coronavirus (2019nCoV): What advice can we give to travellers? \u2013 Interim recommendations January 2020, from the Latin-American society for Travel Medicine (SLAMVI). Travel Medicine and Infectious Disease. 2020:101567. doi: https://doi.org/10.1016/j.tmaid.2020.101567.",
+            "5. Kupferschmidt K. Outbreak of virus from China declared global emergency. Science. 2020. doi: doi:10.1126/science.abb1079.",
+            "6. Li X, Zhao X, Sun Y. The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus (2019-nCoV) in Wuhan and Beijing. medRxiv. 2020:2020.02.09.20021477. doi: 10.1101/2020.02.09.20021477.",
+            "7. Ai S, Zhu G, Tian F, Li H, Gao Y, Wu Y, et al Population movement, city closure and spatial transmission of the 2019-nCoV infection in China. medRxiv. 2020:2020.02.04.20020339. doi: 10.1101/2020.02.04.20020339.",
+            "8. Tian H, Li Y, Liu Y, Kraemer MUG, Chen B, Cai J, et al Early evaluation of Wuhan City travel restrictions in response to the 2019 novel coronavirus outbreak. medRxiv. 2020:2020.01.30.20019844. doi: 10.1101/2020.01.30.20019844.",
+            "9. Jin G, Yu J, Han L, Duan S. The impact of traffic isolation in Wuhan on the spread of 2019-nCov. medRxiv. 2020:2020.02.04.20020438. doi: 10.1101/2020.02.04.20020438.",
+            "10. Breiman L. Random forests. Machine Learning. 2001;45(1):5-32. PubMed PMID: WOS:000170489900001.",
+            "11. Liaw A, Wiener M. Classification and regression by randomForest. R News. 2002;2(3):18-22.",
+            "12. Breiman L. Statistical modeling: The two cultures. Statistical Science. 2001;16(3):199-215. doi: 10.1214/ss/1009213726. PubMed PMID: WOS:000172846900001.",
+            "13. Shetty P. Preparation for a pandemic: influenza A H1N1. Lancet Infect Dis. 2009;9(6):339-40. PubMed PMID: WOS:000266542300006.",
+            "14. Van Kerkhove MD, Asikainen T, Becker NG, Bjorge S, Desenclos JC, dos Santos T, et al Studies needed to address public health challenges of the 2009 H1N1 influenza pandemic: insights from modeling. Plos Medicine. 2010;7(6). doi: 10.1371/journal.pmed.1000275. PubMed PMID: WOS:000279400000008.",
+            "15. De Salazar PM, Niehus R, Taylor A, Lipsitch M. Estimating underdetection of internationally imported COVID-19 cases. medRxiv. 2020:2020.02.13.20022707. doi: 10.1101/2020.02.13.20022707."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 10,
+            "context": "In practice, we first defined Yi as a continuous variable, quantifying the trend of Y using the five explanatory variables; and then defined Yi as a categorical variable, classifying the response level of each city. <mark class=\"stats\">At last, we manually assigned all cities (except for Shennongjia Forestry District, where has only 10 cases of 2019-nCoV) in Hubei Province with the highest category, the level I</mark>. The data and R code were posted at https://github.com/Xinhai-Li/2019-nCoV.We assessed the pandemic risk of 2019-nCoV for all cities/regions in China using the random forest algorithm, taking into account the effect of five factors: the accumulative and increased numbers of confirmed cases, total population, population density, and GDP"
+        },
+        {
+            "participant": "cases",
+            "number": 10,
+            "context": "In practice, we first defined Yi as a continuous variable, quantifying the trend of Y using the five explanatory variables; and then defined Yi as a categorical variable, classifying the response level of each city. <mark class=\"stats\">At last, we manually assigned all cities (except for Shennongjia Forestry District, where has only 10 cases of 2019-nCoV) in Hubei Province with the highest category, the level I</mark>. The data and R code were posted at https://github.com/Xinhai-Li/2019-nCoV"
+        },
+        {
+            "participant": "people",
+            "number": 66576,
+            "context": "1. <mark class=\"stats\">Introduction The novel coronavirus (2019-nCoV) has infected 66,576 people and caused 1524 deaths in China by Feb. 15, 2020 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]</mark>. It has spread to 25 countries [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] with the potential of further transmission [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]"
+        },
+        {
+            "participant": "people",
+            "number": 58000000,
+            "context": "Very strict control measures are enforced all over the country, such as tourism ban, school closure, meeting cancelation, etc. <mark class=\"stats\">Compared with the prevention activities against SARS 17 years ago, traffic control and community locking are much more stricter, let alone the unprecedented province lockdown that constraining over 58 million people locally [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]</mark>. As a result, the control of 2019-nCoV in China is very effective [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>-<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]"
+        },
+        {
+            "participant": "cases",
+            "number": 100,
+            "context": "Another reason is that the numbers of cases are unbalanced among cities. <mark class=\"stats\">In Wuhan, there are 39,249 confirmed cases by Feb. 16, whereas other large cities have a few hundred cases</mark>. Traditional linear models can not fit well with such a data distribution"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "transmission risk",
+        "proportionate control policy",
+        "dynamics",
+        "public health emergency",
+        "antivirus",
+        "public health",
+        "tremendous economic loss",
+        "population density",
+        "Infectious disease",
+        "quarantine",
+        "World Health Organization",
+        "city closure",
+        "gross domestic product",
+        "economic loss",
+        "highway blocking",
+        "novel coronavirus outbreak",
+        "risk level",
+        "pandemic risk",
+        "strict control measure",
+        "coronavirus",
+        "remote region",
+        "virus transmission",
+        "unnecessary economic",
+        "epidemic control",
+        "national level antivirus campaign"
+    ],
+    "keyword_relevance": {
+        "coronavirus": 0.13157894736842105,
+        "gross domestic product": 0.11842105263157894,
+        "risk level": 0.11842105263157894,
+        "public health": 0.10526315789473684,
+        "population density": 0.06578947368421052,
+        "World Health Organization": 0.039473684210526314,
+        "city closure": 0.039473684210526314,
+        "economic loss": 0.039473684210526314,
+        "novel coronavirus outbreak": 0.039473684210526314,
+        "virus transmission": 0.039473684210526314,
+        "dynamics": 0.02631578947368421,
+        "antivirus": 0.02631578947368421,
+        "pandemic risk": 0.02631578947368421,
+        "strict control measure": 0.02631578947368421,
+        "unnecessary economic": 0.02631578947368421,
+        "national level antivirus campaign": 0.02631578947368421,
+        "transmission risk": 0.013157894736842105,
+        "proportionate control policy": 0.013157894736842105,
+        "public health emergency": 0.013157894736842105,
+        "tremendous economic loss": 0.013157894736842105,
+        "quarantine": 0.013157894736842105,
+        "highway blocking": 0.013157894736842105,
+        "remote region": 0.013157894736842105,
+        "epidemic control": 0.013157894736842105,
+        "Infectious disease": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The novel coronavirus (2019-nCoV) has infected 66,576 people and caused 1524 deaths in China by Feb. 15, 2020 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "The countries with local infection of 2019nCoV, such as Japan and Singapore, are implementing a moderate prevention policy against this flu-like infectious disease, similar to the situation of Wuhan in early January, 2020.",
+        "Very strict control measures are enforced all over the country, such as tourism ban, school closure, meeting cancelation, etc.",
+        "China is running a national level antivirus campaign against the novel coronavirus (2019-nCoV).",
+        "While the virus is closed to be under control, tremendous economic loss has been caused",
+        "<h2 style=\"display: inline\">Methods:</h2> <strong>Methods and findings</strong><br/><br/>The authors assessed the pandemic risk of 2019-nCoV for all cities/regions in China using the random forest algorithm, taking into account the effect of five factors: the accumulative and increased numbers of confirmed cases, total population, population density, and GDP.",
+        "Model The authors used the random forest algorithm [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] and developed the following model: Yi ~ Ni + \u0394Ni + Popi + Densityi + GDPi (Equation 1) where Yi is the response level of city i to public health emergencies; Ni is the number of cumulative confirmed cases on Feb. 14 in city i; \u0394Ni is the increased number of cases on Feb. 14 in city i; Popi, Densityi, and GDPi are the population size, population density, and GDP of city i, respectively.",
+        "The data and R code were posted at https://github.com/Xinhai-Li/2019-nCoV",
+        "<h2 style=\"display: inline\">Results:</h2> The authors' model classified 442 cities with the four levels of response for public health emergencies (Fig. 3).",
+        "There are 16 cities, all in Hubei Province, being assigned with the highest risk, the level I.",
+        "The number of cities that were classified as risk levels II, III, and IV are 60, 67, and 299, respectively (Fig .3).",
+        "The risk level of cities was classified using five variables, whereas the variables had different weights in the model, quantified by importance indices in random forest model [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] (Fig. 4)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors assessed the risk level of 2019-nCoV outbreak for 442 cities in China based on five variables.",
+        "The cumulative number of confirmed cases represents the size of the 2019-nCoV outbreak.",
+        "The increased number of cases indicates the dynamics of virus transmission.",
+        "Population size of a city is the key variable for epidemics, which is directly associated with the potential outbreak size.",
+        "GDP is an index of economic activities, which links to human flow and virus transmission rate.The pandemic risk of 2019-nCoV is dramatically different among the 442 cities/regions.",
+        "The authors recommend to adopt proportionate control policy according to the risk level to reduce unnecessary economic loss."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The novel coronavirus (2019-nCoV) has infected 66,576 people and caused 1524 deaths in China by Feb. 15, 2020 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "The countries with local infection of 2019nCoV, such as Japan and Singapore, are implementing a moderate prevention policy against this flu-like infectious disease, similar to the situation of Wuhan in early January, 2020.",
+            "Very strict control measures are enforced all over the country, such as tourism ban, school closure, meeting cancelation, etc.",
+            "China is running a national level antivirus campaign against the novel coronavirus (2019-nCoV).",
+            "While the virus is closed to be under control, tremendous economic loss has been caused"
+        ],
+        "Methods": [
+            "<strong>Methods and findings</strong><br/><br/>The authors assessed the pandemic risk of 2019-nCoV for all cities/regions in China using the random forest algorithm, taking into account the effect of five factors: the accumulative and increased numbers of confirmed cases, total population, population density, and GDP.",
+            "Model The authors used the random forest algorithm [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] and developed the following model: Yi ~ Ni + \u0394Ni + Popi + Densityi + GDPi (Equation 1) where Yi is the response level of city i to public health emergencies; Ni is the number of cumulative confirmed cases on Feb. 14 in city i; \u0394Ni is the increased number of cases on Feb. 14 in city i; Popi, Densityi, and GDPi are the population size, population density, and GDP of city i, respectively.",
+            "The data and R code were posted at https://github.com/Xinhai-Li/2019-nCoV"
+        ],
+        "Results": [
+            "The authors' model classified 442 cities with the four levels of response for public health emergencies (Fig. 3).",
+            "There are 16 cities, all in Hubei Province, being assigned with the highest risk, the level I.",
+            "The number of cities that were classified as risk levels II, III, and IV are 60, 67, and 299, respectively (Fig .3).",
+            "The risk level of cities was classified using five variables, whereas the variables had different weights in the model, quantified by importance indices in random forest model [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] (Fig. 4)"
+        ],
+        "Conclusion": [
+            "The authors assessed the risk level of 2019-nCoV outbreak for 442 cities in China based on five variables.",
+            "The cumulative number of confirmed cases represents the size of the 2019-nCoV outbreak.",
+            "The increased number of cases indicates the dynamics of virus transmission.",
+            "Population size of a city is the key variable for epidemics, which is directly associated with the potential outbreak size.",
+            "GDP is an index of economic activities, which links to human flow and virus transmission rate.The pandemic risk of 2019-nCoV is dramatically different among the 442 cities/regions.",
+            "The authors recommend to adopt proportionate control policy according to the risk level to reduce unnecessary economic loss."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "W_2019_a",
+            "entry": "1. WHO. Coronavirus disease 2019 (COVID-19) Situation Report \u2013 26 2020. Available from: https://www.who.int/emergencies/diseases/novel-coronavirus2019/situation-reports/.",
+            "url": "https://www.who.int/emergencies/diseases/novel-coronavirus2019/situation-reports/"
+        },
+        {
+            "id": "2",
+            "alt_id": "Wang_et+al_2020_a",
+            "entry": "2. Wang R, Zhang X, Irwin DM, Shen Y. Emergence of SARS-like Coronavirus poses new challenge in China. J Infect. 2020. doi: https://doi.org/10.1016/j.jinf.2020.01.017.",
+            "crossref": "https://dx.doi.org/10.1016/j.jinf.2020.01.017",
+            "scite": "https://scite.ai/reports/10.1016/j.jinf.2020.01.017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.jinf.2020.01.017"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wang_et+al_0000_a",
+            "entry": "3. Wang C, Horby PW, Hayden FG, Gao GF. A novel coronavirus outbreak of global health concern. The Lancet. 2020. doi: https://doi.org/10.1016/S01406736(20)30185-9.",
+            "crossref": "https://dx.doi.org/10.1016/S01406736(20)30185-9",
+            "scite": "https://scite.ai/reports/10.1016/S01406736(20)30185-9"
+        },
+        {
+            "id": "4",
+            "alt_id": "Biscayart_et+al_2019_a",
+            "entry": "4. Biscayart C, Angeleri P, Lloveras S, Chaves TdSS, Schlagenhauf P, Rodr\u00edguezMorales AJ. The next big threat to global health? 2019 novel coronavirus (2019nCoV): What advice can we give to travellers? \u2013 Interim recommendations January 2020, from the Latin-American society for Travel Medicine (SLAMVI). Travel Medicine and Infectious Disease. 2020:101567. doi: https://doi.org/10.1016/j.tmaid.2020.101567.",
+            "crossref": "https://dx.doi.org/10.1016/j.tmaid.2020.101567",
+            "scite": "https://scite.ai/reports/10.1016/j.tmaid.2020.101567",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.tmaid.2020.101567"
+        },
+        {
+            "id": "5",
+            "alt_id": "Kupferschmidt_0000_a",
+            "entry": "5. Kupferschmidt K. Outbreak of virus from China declared global emergency. Science. 2020. doi: doi:10.1126/science.abb1079.",
+            "crossref": "https://dx.doi.org/10.1126/science.abb1079",
+            "scite": "https://scite.ai/reports/10.1126/science.abb1079"
+        },
+        {
+            "id": "6",
+            "alt_id": "Li_et+al_2019_a",
+            "entry": "6. Li X, Zhao X, Sun Y. The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus (2019-nCoV) in Wuhan and Beijing. medRxiv. 2020:2020.02.09.20021477. doi: 10.1101/2020.02.09.20021477.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.09.20021477",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.09.20021477",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.09.20021477"
+        },
+        {
+            "id": "7",
+            "alt_id": "Ai_et+al_2019_a",
+            "entry": "7. Ai S, Zhu G, Tian F, Li H, Gao Y, Wu Y, et al. Population movement, city closure and spatial transmission of the 2019-nCoV infection in China. medRxiv. 2020:2020.02.04.20020339. doi: 10.1101/2020.02.04.20020339.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.04.20020339",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.04.20020339"
+        },
+        {
+            "id": "8",
+            "alt_id": "Tian_et+al_2019_a",
+            "entry": "8. Tian H, Li Y, Liu Y, Kraemer MUG, Chen B, Cai J, et al. Early evaluation of Wuhan City travel restrictions in response to the 2019 novel coronavirus outbreak. medRxiv. 2020:2020.01.30.20019844. doi: 10.1101/2020.01.30.20019844.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.30.20019844",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.30.20019844"
+        },
+        {
+            "id": "9",
+            "alt_id": "Jin_et+al_2019_a",
+            "entry": "9. Jin G, Yu J, Han L, Duan S. The impact of traffic isolation in Wuhan on the spread of 2019-nCov. medRxiv. 2020:2020.02.04.20020438. doi: 10.1101/2020.02.04.20020438.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.04.20020438",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.04.20020438"
+        },
+        {
+            "id": "10",
+            "alt_id": "forests._2001_a",
+            "entry": "10. Breiman L. Random forests. Machine Learning. 2001;45(1):5-32. PubMed PMID: WOS:000170489900001.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Breiman%20L%20Random%20forests%20Machine%20Learning%202001451532%20PubMed%20PMID%20WOS000170489900001"
+        },
+        {
+            "id": "11",
+            "alt_id": "Liaw_2002_a",
+            "entry": "11. Liaw A, Wiener M. Classification and regression by randomForest. R News. 2002;2(3):18-22.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Liaw%2C%20A.%20Wiener%2C%20M.%20Classification%20and%20regression%20by%20randomForest%202002"
+        },
+        {
+            "id": "12",
+            "alt_id": "Breiman_2001_a",
+            "entry": "12. Breiman L. Statistical modeling: The two cultures. Statistical Science. 2001;16(3):199-215. doi: 10.1214/ss/1009213726. PubMed PMID: WOS:000172846900001.",
+            "crossref": "https://dx.doi.org/10.1214/ss/1009213726",
+            "scite": "https://scite.ai/reports/10.1214/ss/1009213726",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1214/ss/1009213726"
+        },
+        {
+            "id": "13",
+            "alt_id": "Shetty_2009_a",
+            "entry": "13. Shetty P. Preparation for a pandemic: influenza A H1N1. Lancet Infect Dis. 2009;9(6):339-40. PubMed PMID: WOS:000266542300006.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shetty%2C%20P.%20Preparation%20for%20a%20pandemic%3A%20influenza%20A%20H1N1.%20Lancet%20Infect%20Dis%202009"
+        },
+        {
+            "id": "14",
+            "alt_id": "Van_et+al_2010_a",
+            "entry": "14. Van Kerkhove MD, Asikainen T, Becker NG, Bjorge S, Desenclos JC, dos Santos T, et al. Studies needed to address public health challenges of the 2009 H1N1 influenza pandemic: insights from modeling. Plos Medicine. 2010;7(6). doi: 10.1371/journal.pmed.1000275. PubMed PMID: WOS:000279400000008.",
+            "crossref": "https://dx.doi.org/10.1371/journal.pmed.1000275",
+            "scite": "https://scite.ai/reports/10.1371/journal.pmed.1000275",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pmed.1000275"
+        },
+        {
+            "id": "15",
+            "alt_id": "De_et+al_0000_a",
+            "entry": "15. De Salazar PM, Niehus R, Taylor A, Lipsitch M. Estimating underdetection of internationally imported COVID-19 cases. medRxiv. 2020:2020.02.13.20022707. doi: 10.1101/2020.02.13.20022707. ",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.13.20022707",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.13.20022707"
+        }
+    ],
+    "facts": [
+        "While the virus is closed to be under control",
+        "adopt proportionate control policy according to the risk level to reduce unnecessary economic loss",
+        "All of the 31 provinces and province-level municipalities in mainland China have initiated the first-level response to public health emergencies after the city closure",
+        "the unprecedented province lockdown that constraining over 58 million people",
+        "from the platform of real time epidemic situation for every city hosted by Baidu TM",
+        "The georeferenced data of the political boundaries of all prefecture level cities were provided by Institute of Geographic Sciences",
+        "The population density of the cities was calculated by dividing the population by the areas of the city",
+        "the level I. The number of cities that were classified as risk levels II",
+        "the risk level of 2019-nCoV outbreak for 442 cities in China based on five variables",
+        "The cumulative number of confirmed cases represents the size of the 2019-nCoV outbreak",
+        "The increased number of cases indicates the dynamics of virus transmission",
+        "Population size of a city is the key variable for epidemics",
+        "which is directly associated with the potential outbreak size",
+        "GDP is an index of economic activities",
+        "which links to human flow and virus transmission rate",
+        "The data and R code were posted at https://github.com/Xinhai-Li/2019-nCoV",
+        "The number of cities that were classified as risk levels II",
+        "that the cities with low risk should return to the normal status in order to avoid unnecessary economic loss"
+    ],
+    "claims": [
+        "We evaluated the risk of 2019-nCoV outbreak in cities and regions across China and suggested four levels of risk, highlighting that the cities with low risk should return to the normal status in order to avoid unnecessary economic loss"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We recommend to adopt proportionate control policy according to the risk level to reduce unnecessary economic loss",
+        "We evaluated the risk of 2019-nCoV outbreak in cities and regions across China and suggested four levels of risk, highlighting that the cities with low risk should return to the normal status in order to avoid unnecessary economic loss",
+        "The number of cities that were classified as risk levels II, III, and IV are 60, 67, and 299, respectively (Fig .3)",
+        "gross domestic product is an index of economic activities, which links to human flow and virus transmission rate"
+    ],
+    "top_statements": [
+        "The novel coronavirus (2019-nCoV) has infected 66,576 people and caused 1524 deaths in China by Feb. 15, 2020 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "We recommend to adopt proportionate control policy according to the risk level to reduce unnecessary economic loss",
+        "We evaluated the risk of 2019-nCoV outbreak in cities and regions across China and suggested four levels of risk, highlighting that the cities with low risk should return to the normal status in order to avoid unnecessary economic loss",
+        "The number of cities that were classified as risk levels II, III, and IV are 60, 67, and 299, respectively (Fig .3)",
+        "gross domestic product is an index of economic activities, which links to human flow and virus transmission rate"
+    ],
+    "headline": "We recommend to adopt proportionate control policy according to the risk level to reduce unnecessary economic loss",
+    "contexts": [],
+    "abbreviations": {
+        "WHO": "World Health Organization",
+        "GDP": "gross domestic product"
+    }
+}

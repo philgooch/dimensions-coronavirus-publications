@@ -1,0 +1,490 @@
+{
+    "filename": "2020.02.17.20024075.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 2674063,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.17.20024075",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/20/2020.02.17.20024075.full.pdf"
+        },
+        "title": "Estimating number of global importations of COVID-19 from Wuhan, risk of transmission outside mainland China and COVID-19 introduction index between countries outside mainland China",
+        "author": "Haoyang Sun, Borame Lee Dickens, Mark Chen, Alex Richard Cook, Hannah Eleanor Clapham",
+        "date": 2020,
+        "affiliations": [
+            "Saw Swee Hock School of Public Health, National University of Singapore,",
+            "Science Drive 2, Singapore 117549, Republic of Singapore",
+            "National Centre for Infectious Diseases,",
+            "Jln Tan Tock Seng, Singapore 308442, Republic of Singapore",
+            "Correspondence to: Haoyang Sun. Saw Swee Hock School of Public Health, National University of Singapore,",
+            "Science Drive 2, Singapore 117549, Republic of Singapore. Email: ephsunh@nus.edu.sg. Alex R Cook. Saw Swee Hock School of Public Health, National University of Singapore,",
+            "Science Drive 2, Singapore 117549, Republic of Singapore. Email: ephcar@nus.edu.sg."
+        ],
+        "abstract": "Background\nThe emergence of a novel coronavirus (SARS-CoV-2) in Wuhan, China in early December 2019 has caused widespread transmission within the country, with over 1,000 deaths reported to date. Other countries have since reported coronavirus disease 2019 (COVID-19) importation from China, with some experiencing local transmission and even case importation from countries outside China. We aim to estimate the number of cases imported from Wuhan to each country or territory outside mainland China, and with these estimates assess the risk of onward local transmission and the relative potential of case importation between countries outside China.\n\nMethods\nWe used the reported number of cases imported from Wuhan and flight data to generate an uncertainty distribution for the estimated number of imported cases from Wuhan to each location outside mainland China. This uncertainty was propagated to quantify the local outbreak risk using a branching process model. A COVID-19 introduction index was derived for each pair of donor and recipient countries, accounting for the local outbreak risk in the donor country and the between-country connectivity.\n\nResults\nWe identified 13 countries or territories outside mainland China that may have under-detected COVID-19 importation from Wuhan, such as Thailand and Indonesia. In addition, 16 countries had a local outbreak risk estimate exceeding 50%, including four outside Asia. The COVID-19 introduction index highlights potential locations outside mainland China from which cases may be imported to each recipient country.\n\nConclusions\nAs SARS-CoV-2 continues to spread globally, more epicentres may emerge outside China. Hence, it is important for countries to remain alert for the possibilities of viral introduction from other countries outside China, even before local transmission in a source country becomes known.",
+        "references": "@article{lu-a,\n  author = {Lu, R. and Zhao, X. and Li, J.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  journal = {Lancet (London, England)},\n  volume = {2020},\n  doi = {doi: 10.1016/S0140-6736(20)30251-8},\n  more-authors = {true},\n  number = {0},\n  language = {}\n}\n@article{li-a,\n  author = {Li, Q. and Guan, X. and Wu, P.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia},\n  journal = {N Engl J Med. January},\n  doi = {2020: NEJMoa2001316. doi: 10.1056/NEJMoa2001316},\n  more-authors = {true},\n  language = {}\n}\n@misc{huang2020a,\n  author = {Huang, C. and Wang, Y. and Li, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet},\n  date = {2020},\n  volume = {0},\n  doi = {doi: 10.1016/S0140-6736(20)30183-5},\n  more-authors = {true},\n  number = {0},\n  language = {},\n  address = {London, England}\n}\n@misc{wu2020a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet},\n  date = {2020},\n  volume = {0},\n  doi = {doi: 10.1016/S0140-6736(20)30260-9},\n  number = {0},\n  language = {},\n  address = {London, England}\n}\n@misc{w-a,\n  author = {W.H.O.},\n  title = {Novel Coronavirus Situation Report 18.; 2020},\n  url = {https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200207-sitrep-18-ncov.pdf},\n  language = {},\n  urldate = {February 8, 2020.}\n}\n@misc{de-a,\n  author = {De, Salazar P.M. and R, Niehus and A, Taylor and CO, Buckee and M, Lipsitch},\n  title = {Using predicted imports of 2019nCoV cases to determine locations that may not be identifying all imported cases. medRxiv. February 2020: 2020.02.04.20020495},\n  doi = {doi: 10.1101/2020.02.04.20020495},\n  language = {}\n}\n@article{bogoch-a,\n  author = {Bogoch, II, Watts and A, Thomas-Bachli and A, Huber and C, Kraemer and MUG, Khan and K.},\n  title = {Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via},\n  journal = {Commercial Air Travel. J Travel Med},\n  date = {January},\n  doi = {doi: 10.1093/jtm/taaa008},\n  source = {2020},\n  language = {}\n}\n@incollection{lai-a,\n  author = {Lai, S. and Bogoch, I. and Ruktanonchai, N.},\n  title = {Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study},\n  date = {medRxiv. February},\n  doi = {doi: 10.1101/2020.02.04.20020479},\n  more-authors = {true},\n  source = {2020: 2020.02.04.20020479},\n  language = {}\n}\n@incollection{gilbert2019a,\n  author = {Gilbert, M. and Pullano, G. and Pinotti, F.},\n  title = {Preparedness and vulnerability of African countries against introductions of},\n  date = {2019-02},\n  doi = {doi: 10.1101/2020.02.05.20020792},\n  more-authors = {true},\n  source = {2020: 2020.02.05.20020792},\n  language = {}\n}\n@incollection{kucharski-a,\n  author = {Kucharski, A.J. and Russell, T.W. and Diamond, C. and group C nCoV working and Funk, S. and Eggo, R.M.},\n  title = {Early dynamics of transmission and control of 2019-nCoV: a mathematical modelling study},\n  date = {medRxiv. February},\n  doi = {doi: 10.1101/2020.01.31.20019901},\n  source = {2020: 2020.01.31.20019901},\n  language = {}\n}\n@incollection{bbc-a,\n  author = {BBC, N.E.W.S.},\n  title = {Coronavirus: Fourth patient in UK diagnosed -},\n  source = {BBC News.},\n  url = {https://www.bbc.com/news/uk-51430654},\n  language = {},\n  urldate = {February 11, 2020.}\n}\n@misc{times-a,\n  author = {Times, Straits},\n  title = {Coronavirus: South Korea\u2019s 28th patient casts doubt on 14-day quarantine, East Asia News &amp; Top Stories - The Straits Times},\n  url = {https://www.straitstimes.com/asia/eastasia/coronavirus-south-koreas-28th-patient-casts-doubt-on-14-day-quarantine.},\n  language = {},\n  urldate = {February 16, 2020.}\n}\n@book{unknown-a,\n  title = {nCoV-2019 Data Working Group. No Title. Epidemiological Data from the nCoV-2019 Outbreak},\n  publisher = {Early Descriptions from Publicly Available Data},\n  url = {http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-earlydescriptions-from-publicly-available-data/337.},\n  language = {},\n  urldate = {February 7, 2020.}\n}\n@misc{o-a,\n  author = {O.A.G.},\n  title = {OAG: Definitive flight information, aviation intelligence and analytics},\n  url = {https://www.oag.com/.},\n  language = {},\n  urldate = {February 14, 2020.}\n}\n@incollection{riou2019a,\n  author = {Riou, J. and Althaus, C.L.},\n  title = {Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus},\n  date = {2019-12},\n  volume = {25},\n  pages = {2000058},\n  doi = {doi: 10.2807/1560-7917. ES.2020.25.4.2000058},\n  source = {to January 2020. Eurosurveillance},\n  number = {4},\n  language = {}\n}\n@article{lloyd-smith2005a,\n  author = {Lloyd-Smith, J.O. and Schreiber, S.J. and Kopp, P.E. and Getz, W.M.},\n  title = {Superspreading and the effect of individual variation on disease emergence},\n  journal = {Nature},\n  date = {2005},\n  volume = {438},\n  pages = {355\u2013359},\n  doi = {doi: 10.1038/nature04153},\n  number = {7066},\n  language = {}\n}\n@misc{w-b,\n  author = {W.H.O.},\n  title = {WHO Coronavirus Situation Report February 10 2020},\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep-},\n  pages = {21\u2013947679},\n  language = {},\n  urldate = {February 11, 2020.}\n}\n@misc{times-b,\n  author = {Times, Straits},\n  title = {All pneumonia patients in public hospitals in Singapore being tested for coronavirus: MOH, Health News &amp; Top Stories - The Straits Times},\n  url = {https://www.straitstimes.com/singapore/health/all-pneumonia-patients-in-public-hospitalshere-being-tested-for-coronavirus-moh.},\n  language = {},\n  urldate = {February 16, 2020.}\n}\n@incollection{quilty2019a,\n  author = {Quilty, B.J. and Clifford, S. and Flasche, S. and Eggo, R.M. and Eggo, R.M.},\n  title = {Effectiveness of airport screening at detecting travellers infected with novel coronavirus},\n  date = {2019},\n  doi = {25(5): 2000080. doi: 10.2807/1560-7917. ES.2020.25.5.2000080},\n  source = {Eurosurveillance. 2020},\n  language = {}\n}\n@misc{hellewell-a,\n  author = {Hellewell, J. and Abbott, S. and Gimma, A.},\n  title = {Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts. medRxiv. February 2020: 2020.02.08.20021162},\n  doi = {doi: 10.1101/2020.02.08.20021162},\n  more-authors = {true},\n  language = {}\n}\n@techreport{unknown-b,\n  title = {The US will begin testing patients with flu-like symptoms for coronavirus in an expanded effort to contain the outbreak, Business Insider - Business Insider Singapore},\n  url = {https://www.businessinsider.sg/coronavirus-test-patients-flu-like-symptoms-20202/},\n  language = {},\n  urldate = {February 16, 2020.},\n  institution = {Business Insider}\n}\n@incollection{unknown-c,\n  title = {Coronavirus: Third UK patient \u201ccaught coronavirus in Singapore\u201d},\n  source = {- BBC News.},\n  url = {https://www.bbc.com/news/uk-51398039.},\n  language = {},\n  urldate = {February 16, 2020.},\n  organization = {BBC News}\n}\n@misc{c-a,\n  author = {C.N.A.},\n  title = {Egypt confirms first coronavirus case in Africa - CNA},\n  url = {https://www.channelnewsasia.com/news/world/egypt-confirms-first-covid-19-coronaviruscase-in-africa-12437088.},\n  language = {},\n  urldate = {February 16, 2020.}\n}\n",
+        "emails": [
+            "ephsunh@nus.edu.sg",
+            "ephcar@nus.edu.sg"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Lu, R.\nAU  - Zhao, X.\nAU  - Li, J.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nT2  - Lancet (London, England)\nVL  - 2020\nDO  - 10.1016/S0140-6736(20)30251-8\nC1  - true\nIS  - 0\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia\nT2  - N Engl J Med. January\nDO  - 2020: NEJMoa2001316. doi: 10.1056/NEJMoa2001316\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet\nPY  - 2020\nDA  - 2020\nVL  - 0\nDO  - 10.1016/S0140-6736(20)30183-5\nC1  - true\nIS  - 0\nLA  - \nCY  - London, England\nER  - \n\nTY  - GEN\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet\nPY  - 2020\nDA  - 2020\nVL  - 0\nDO  - 10.1016/S0140-6736(20)30260-9\nIS  - 0\nLA  - \nCY  - London, England\nER  - \n\nTY  - GEN\nAU  - W.H.O.\nTI  - Novel Coronavirus Situation Report 18.; 2020\nUR  - https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200207-sitrep-18-ncov.pdf\nLA  - \nC1  - February 8, 2020.\nER  - \n\nTY  - GEN\nAU  - De, Salazar P.M.\nAU  - R, Niehus\nAU  - A, Taylor\nAU  - CO, Buckee\nAU  - M, Lipsitch\nTI  - Using predicted imports of 2019nCoV cases to determine locations that may not be identifying all imported cases. medRxiv. February 2020: 2020.02.04.20020495\nDO  - 10.1101/2020.02.04.20020495\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bogoch, II, Watts\nAU  - A, Thomas-Bachli\nAU  - A, Huber\nAU  - C, Kraemer\nAU  - MUG, Khan\nAU  - K.\nTI  - Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via\nT2  - Commercial Air Travel. J Travel Med\nPY  - January\nDA  - January\nDO  - 10.1093/jtm/taaa008\nT2  - 2020\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Lai, S.\nAU  - Bogoch, I.\nAU  - Ruktanonchai, N.\nTI  - Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study\nPY  - medRxiv. February\nDA  - medRxiv. February\nDO  - 10.1101/2020.02.04.20020479\nC1  - true\nT2  - 2020: 2020.02.04.20020479\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Gilbert, M.\nAU  - Pullano, G.\nAU  - Pinotti, F.\nTI  - Preparedness and vulnerability of African countries against introductions of\nPY  - 2019\nDA  - 2019/02\nDO  - 10.1101/2020.02.05.20020792\nC1  - true\nT2  - 2020: 2020.02.05.20020792\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Kucharski, A.J.\nAU  - Russell, T.W.\nAU  - Diamond, C.\nAU  - group C nCoV working\nAU  - Funk, S.\nAU  - Eggo, R.M.\nTI  - Early dynamics of transmission and control of 2019-nCoV: a mathematical modelling study\nPY  - medRxiv. February\nDA  - medRxiv. February\nDO  - 10.1101/2020.01.31.20019901\nT2  - 2020: 2020.01.31.20019901\nLA  - \nER  - \n\nTY  - CHAP\nAU  - BBC, N.E.W.S.\nTI  - Coronavirus: Fourth patient in UK diagnosed -\nT2  - BBC News.\nUR  - https://www.bbc.com/news/uk-51430654\nLA  - \nC1  - February 11, 2020.\nER  - \n\nTY  - GEN\nAU  - Times, Straits\nTI  - Coronavirus: South Korea\u2019s 28th patient casts doubt on 14-day quarantine, East Asia News &amp; Top Stories - The Straits Times\nUR  - https://www.straitstimes.com/asia/eastasia/coronavirus-south-koreas-28th-patient-casts-doubt-on-14-day-quarantine.\nLA  - \nC1  - February 16, 2020.\nER  - \n\nTY  - BOOK\nTI  - nCoV-2019 Data Working Group. No Title. Epidemiological Data from the nCoV-2019 Outbreak\nPB  - Early Descriptions from Publicly Available Data\nUR  - http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-earlydescriptions-from-publicly-available-data/337.\nLA  - \nC1  - February 7, 2020.\nER  - \n\nTY  - GEN\nAU  - O.A.G.\nTI  - OAG: Definitive flight information, aviation intelligence and analytics\nUR  - https://www.oag.com/.\nLA  - \nC1  - February 14, 2020.\nER  - \n\nTY  - CHAP\nAU  - Riou, J.\nAU  - Althaus, C.L.\nTI  - Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus\nPY  - 2019\nDA  - 2019/12\nVL  - 25\nSP  - 2000058\nDO  - 10.2807/1560-7917. ES.2020.25.4.2000058\nT2  - to January 2020. Eurosurveillance\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lloyd-Smith, J.O.\nAU  - Schreiber, S.J.\nAU  - Kopp, P.E.\nAU  - Getz, W.M.\nTI  - Superspreading and the effect of individual variation on disease emergence\nT2  - Nature\nPY  - 2005\nDA  - 2005\nVL  - 438\nSP  - 355\nEP  - 359\nDO  - 10.1038/nature04153\nIS  - 7066\nLA  - \nER  - \n\nTY  - GEN\nAU  - W.H.O.\nTI  - WHO Coronavirus Situation Report February 10 2020\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep-\nSP  - 21\nEP  - 947679\nLA  - \nC1  - February 11, 2020.\nER  - \n\nTY  - GEN\nAU  - Times, Straits\nTI  - All pneumonia patients in public hospitals in Singapore being tested for coronavirus: MOH, Health News &amp; Top Stories - The Straits Times\nUR  - https://www.straitstimes.com/singapore/health/all-pneumonia-patients-in-public-hospitalshere-being-tested-for-coronavirus-moh.\nLA  - \nC1  - February 16, 2020.\nER  - \n\nTY  - CHAP\nAU  - Quilty, B.J.\nAU  - Clifford, S.\nAU  - Flasche, S.\nAU  - Eggo, R.M.\nAU  - Eggo, R.M.\nTI  - Effectiveness of airport screening at detecting travellers infected with novel coronavirus\nPY  - 2019\nDA  - 2019\nDO  - 25(5): 2000080. doi: 10.2807/1560-7917. ES.2020.25.5.2000080\nT2  - Eurosurveillance. 2020\nLA  - \nER  - \n\nTY  - GEN\nAU  - Hellewell, J.\nAU  - Abbott, S.\nAU  - Gimma, A.\nTI  - Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts. medRxiv. February 2020: 2020.02.08.20021162\nDO  - 10.1101/2020.02.08.20021162\nC1  - true\nLA  - \nER  - \n\nTY  - RPRT\nTI  - The US will begin testing patients with flu-like symptoms for coronavirus in an expanded effort to contain the outbreak, Business Insider - Business Insider Singapore\nUR  - https://www.businessinsider.sg/coronavirus-test-patients-flu-like-symptoms-20202/\nLA  - \nC1  - February 16, 2020.\nC1  - Business Insider\nER  - \n\nTY  - CHAP\nTI  - Coronavirus: Third UK patient \u201ccaught coronavirus in Singapore\u201d\nT2  - - BBC News.\nUR  - https://www.bbc.com/news/uk-51398039.\nLA  - \nC1  - February 16, 2020.\nC1  - BBC News\nER  - \n\nTY  - GEN\nAU  - C.N.A.\nTI  - Egypt confirms first coronavirus case in Africa - CNA\nUR  - https://www.channelnewsasia.com/news/world/egypt-confirms-first-covid-19-coronaviruscase-in-africa-12437088.\nLA  - \nC1  - February 16, 2020.\nER  - \n\n",
+        "links": [],
+        "author_conclusions": [
+            "In summary, we estimate a number of imported cases from Wuhan that were undetected. Given these importations, we estimate a high risk of onward transmission within a number of countries outside mainland China, particularly in those places where cases were not detected, as these undetected cases could not be isolated, and transmission truncated. Given our results of high risk of onward transmission we highlight the importance of wider testing to pick up community transmission as soon as possible after transmission occurs. We also highlight countries that become at increased risk of importation as transmission occurs outside China, and provide results for each country to assess the countries that pose their highest risk of importation."
+        ],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Countries or territories with likely under-detection of COVID-19 cases imported from Wuhan: Reported and estimated case count, and left-tailed P-value"
+            },
+            {
+                "id": "2",
+                "caption": "Countries or territories having a local outbreak risk greater than 50% in the main analysis (i.e. assuming immediate isolation of all the reported cases imported from Wuhan). In an alternative scenario, we assumed that each country or territory was able to isolate 95% of all the cases imported from Wuhan, and the risk of local outbreak was re-computed (shown in the last column)"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Posterior median estimate of the number of COVID-19 cases imported from Wuhan, for each country or territory outside mainland China. For the countries having the top 10 highest ratios between the reported number of imported cases and the volume of passengers from Wuhan (used as the top reporting rate in our analysis), the reported case counts were shown instead"
+            },
+            {
+                "id": "2",
+                "caption": "Estimated probability that a local outbreak will occur and sustain for at least 3 generations following the importation from Wuhan (\u201clocal outbreak risk\u201d) for each country or territory outside mainland China: (A) Assuming immediate isolation of all the reported cases imported from Wuhan; (B) Assuming immediate isolation of 95% of all the imported cases from Wuhan occurs"
+            },
+            {
+                "id": "3",
+                "caption": "Estimated COVID-19 introduction index between each donor country and (A) United Kingdom, (B) United States, (C) South Korea, and (D) South Africa as the recipient countries. Donor countries refer to countries or territories outside mainland China with a local outbreak risk estimate exceeding 50% in the main analysis. The width of each flight route denotes connectivity between the donor and recipient. Countries with thick black borders or are in a bounding box with a thick black border denote that they are within the top 5 donors in terms of their COVID-19 introduction index estimates for that recipient country"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.17.20024075.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-007.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-009.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.20024075.full/img-011.png"
+        ]
+    },
+    "sections": {
+        "background": [
+            "The emergence of a novel coronavirus (SARS-CoV-2) in Wuhan, China in early December 2019 has caused widespread transmission within the country, with over 1,000 deaths reported to date. Other countries have since reported coronavirus disease 2019 (COVID-19) importation from China, with some experiencing local transmission and even case importation from countries outside China. We aim to estimate the number of cases imported from Wuhan to each country or territory outside mainland China, and with these estimates assess the risk of onward local transmission and the relative potential of case importation between countries outside China. Methods We used the reported number of cases imported from Wuhan and flight data to generate an uncertainty distribution for the estimated number of imported cases from Wuhan to each location outside mainland China. This uncertainty was propagated to quantify the local outbreak risk using a branching process model. A COVID-19 introduction index was derived for each pair of donor and recipient countries, accounting for the local outbreak risk in the donor country and the betweencountry connectivity. Results We identified 13 countries or territories outside mainland China that may have under-detected COVID-19 importation from Wuhan, such as Thailand and Indonesia. In addition, 16 countries had a local outbreak risk estimate exceeding 50%, including four outside Asia. The COVID-19 introduction index highlights potential locations outside mainland China from which cases may be imported to each recipient country. Conclusions As SARS-CoV-2 continues to spread globally, more epicentres may emerge outside China. Hence, it is important for countries to remain alert for the possibilities of viral introduction from other countries outside China, even before local transmission in a source country becomes known."
+        ],
+        "introduction": [
+            "The emergence of a novel coronavirus (SARS-CoV-2) in Wuhan City, China at the end of 2019, has caused large numbers of cases of coronavirus disease 2019 (COVID-19) and deaths in Wuhan.1\u20133 As of 11th February 2020, there are increasing reports of large scale transmission and numbers of cases in other places in China.4,5 In addition, there are now reports of cases in multiple countries outside of China, and limited reports of transmission within countries outside of China.5<br/><br/>From January 23rd travel from Wuhan was halted by the Chinese government, and in addition many countries have implemented measures such as airport screening, testing of patients reporting symptoms who have recent travel from China,5 quarantining arrivals from Wuhan and/or China or halting travel altogether.<br/><br/>As with many infectious diseases, there is a risk of under reporting of cases, as some people who are infected do not seek care, some who seek care are not diagnosed and, in some settings, those who are diagnosed may not reported. There are also particular issues in an outbreak of a novel pathogen due to difficulties in mobilizing the response and in development of testing capacities, as well as changes over time in the definition of SARS-CoV-2 infection symptoms. There are therefore concerns the reported cases in countries outside of China may be an under-report of what is actually occurring. Previous work has estimated significant under reporting of COVID-19 cases in a number of countries such as Indonesia, Cambodia and Thailand.6 A detailed understanding of the geographical distribution of case importation will help to guide resources to places with currently limited capacity to test, and provide support to perform control measures and support for clinical care."
+        ],
+        "methods": [
+            "Data    Case data<br/><br/>We used the information on the date, location, and travel history of each reported COVID-19 case, which was synthesized and made publicly available by the nCoV-2019 Data Working Group. 13 For each country or territory outside of mainland China, we collated data on the total number of reported COVID-19 cases imported from Wuhan only (not from other places in China), based on the epidemiological data updated as of 7th February\u201415 days since the Wuhan shutdown (Table S1). For a small number of cases, we were unable to identify the cities from which they were imported. We included these into our data as having originated from Wuhan to avoid producing false positive results when we later on identified countries that may have under-detected SARS-CoV-2 importation from Wuhan.    Flight data<br/><br/>We used the monthly number of air ticket bookings during 2017 from the Official Airline Guide 14 to approximate the volumes of air passengers for each origin-destination route.<br/><br/>Statistical analyses<br/><br/>For each country or territory outside of mainland China (denoted by  ), we assumed that the total number of COVID-19 cases imported from Wuhan ( ) followed a Poisson distribution with rate parameter proportional to the number of air travelers from Wuhan during January 2020 ( \u2192 , ), with an unknown coefficient  0 to be estimated from data (more detail in supporting information):    ~ ( 0 \u2219  \u2192 , ).<br/><br/>To date, the reported total number of imported cases from Wuhan ( ) differ substantially between countries even after adjusting for the volumes of air passengers arriving from Wuhan. We assumed this was due to inter-country variation in case detection and reporting rates. We ranked countries based on the ratio between the reported case count   and passenger volume  \u2192 , , and assumed all the imported COVID-19 cases from Wuhan have been successfully detected and reported by countries having the top 10 rankings, to provide a conservative estimate for  0 and hence the number of cases imported from Wuhan to the rest of the countries we consider. In the equation below, \u0398 refers to the set of the aforementioned countries having the highest rankings, and the posterior of  0 follows a gamma distribution if we impose a uniform prior:"
+        ],
+        "results": [
+            "Outside of mainland China, most countries or territories we estimate as having a large number of COVID-19 cases imported from Wuhan are located in Asia (Figure 1 and Table S1). Outside Asia, we estimate United States, Australia, and United Kingdom as having the highest imported case count estimates (Figure 1 and Table S1). In addition, we also identify countries whose reported number of imported cases from Wuhan is less than the 5th percentile of the posterior predictive distribution of our imported case estimates (Table 1), suggesting under-detected cases imported from Wuhan in these countries or territories. In particular, we estimate that Thailand received 97 (95% CI: 66\u2013136) imported cases from Wuhan\u2014the largest among all the countries analyzed but have only reported ~20 cases (Table 1). For Indonesia there have not been any reported COVID-19 cases imported from Wuhan, and yet we estimate at least 19 (95% CI: 10\u201330) imported cases.<br/><br/>If we assume each country has immediately isolated all the reported cases imported from Wuhan (and therefore truncated transmission), but not isolated the extra cases we estimated and that no extra control measures are put in place, we estimate that the chance that local transmission would occur and sustain for at least three generations exceeds 50% for a total of 16 countries or territories, including four outside Asia: Australia, Canada, United Kingdom, and United States (Table 2). In a second scenario, where we assume that 95% of all the imported cases from Wuhan were immediately isolated, the estimated local outbreak risk reduces substantially, with only Thailand having a local outbreak risk estimate greater than 50%. Still, the estimated risk of local transmission sustaining for at least three generations is not negligible (> 20%) in many other countries or territories, including Japan, Taiwan, Hong Kong, South Korea, United States, Malaysia, and Singapore (Table 2 for the countries or territories having a local outbreak risk estimate greater than 50% in the main analysis, and Figure 2 & Table S2 for results obtained for all countries or territories outside of mainland China). For countries where we estimate a large number of unreported cases, the local outbreak risk is ranked higher in the first scenario than the second scenario, as the extra estimated cases not being detected means a higher risk of onward transmission compared to countries where we estimate higher detection (Table 2)."
+        ],
+        "discussion": [
+            "This study quantifies, with uncertainty, the estimated number of cases imported from Wuhan to countries outside mainland China. As we use information from the places with the highest ratio of the reported case count to the volume of passengers from Wuhan, we are only estimating the number of importations if these places with the highest ratio are capturing all imported cases. Therefore our estimates should be viewed as a lower bound on the number of imported infections, given possible mild and asymptomatic infections. Even given this, we estimate that Indonesia\u2014 which has reported 0 cases to date\u2014would be expected to have more cases than this, in line with estimates from Lipsitch et al 6. In addition, in places that have identified some cases\u2014such as Thailand, Japan, South Korea, Taiwan and Hong Kong, the US and Malaysia\u2014we estimate that the imported number of cases from Wuhan is even higher than those reported. In some of these places, testing may be already increasing, but if not, our results would suggest that these places should be targets for increased screening and testing for SARS-CoV-2."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Table S1",
+                "Table S2",
+                "Table S3"
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [],
+        "Background": [
+            "The emergence of a novel coronavirus (SARS-CoV-2) in Wuhan, China in early December 2019 has caused widespread transmission within the country, with over 1,000 deaths reported to date. Other countries have since reported coronavirus disease 2019 (COVID-19) importation from China, with some experiencing local transmission and even case importation from countries outside China. We aim to estimate the number of cases imported from Wuhan to each country or territory outside mainland China, and with these estimates assess the risk of onward local transmission and the relative potential of case importation between countries outside China. Methods We used the reported number of cases imported from Wuhan and flight data to generate an uncertainty distribution for the estimated number of imported cases from Wuhan to each location outside mainland China. This uncertainty was propagated to quantify the local outbreak risk using a branching process model. A COVID-19 introduction index was derived for each pair of donor and recipient countries, accounting for the local outbreak risk in the donor country and the betweencountry connectivity. Results We identified 13 countries or territories outside mainland China that may have under-detected COVID-19 importation from Wuhan, such as Thailand and Indonesia. In addition, 16 countries had a local outbreak risk estimate exceeding 50%, including four outside Asia. The COVID-19 introduction index highlights potential locations outside mainland China from which cases may be imported to each recipient country. Conclusions As SARS-CoV-2 continues to spread globally, more epicentres may emerge outside China. Hence, it is important for countries to remain alert for the possibilities of viral introduction from other countries outside China, even before local transmission in a source country becomes known."
+        ],
+        "Introduction": [
+            "The emergence of a novel coronavirus (SARS-CoV-2) in Wuhan City, China at the end of 2019, has caused large numbers of cases of coronavirus disease 2019 (COVID-19) and deaths in Wuhan.1\u20133 As of 11th February 2020, there are increasing reports of large scale transmission and numbers of cases in other places in China.4,5 In addition, there are now reports of cases in multiple countries outside of China, and limited reports of transmission within countries outside of China.5",
+            "From January 23rd travel from Wuhan was halted by the Chinese government, and in addition many countries have implemented measures such as airport screening, testing of patients reporting symptoms who have recent travel from China,5 quarantining arrivals from Wuhan and/or China or halting travel altogether.",
+            "As with many infectious diseases, there is a risk of under reporting of cases, as some people who are infected do not seek care, some who seek care are not diagnosed and, in some settings, those who are diagnosed may not reported. There are also particular issues in an outbreak of a novel pathogen due to difficulties in mobilizing the response and in development of testing capacities, as well as changes over time in the definition of SARS-CoV-2 infection symptoms. There are therefore concerns the reported cases in countries outside of China may be an under-report of what is actually occurring. Previous work has estimated significant under reporting of COVID-19 cases in a number of countries such as Indonesia, Cambodia and Thailand.6 A detailed understanding of the geographical distribution of case importation will help to guide resources to places with currently limited capacity to test, and provide support to perform control measures and support for clinical care.",
+            "Flight data has been used to determine connectivity between countries and therefore risk of onward transmission from China to other countries. Early in the outbreak, Bogoch et al listed the countries at most risk of importations given the number of flights from Wuhan. 7 Their ranking ultimately followed closely the countries that first reported imported cases, albeit with some countries predicted to report that did not. Since then others have used flight and other data to highlight countries at most risk of importation of SARS-CoV-2 from China. 8,9 These papers have then used the infectious disease vulnerability index (IDVI) as an assessment of how at risk a country is to local transmission. 8,9",
+            "In countries where importations are occurring, it will be important to quantify the risk of onward transmission occurring and the extent of this transmission. Kucharski et al 10 considered this generally given the number of importations using a probabilistic model, and Wu et al estimated a probability of transmission within cities outside China. 4 However risk estimates of importations to countries outside China have been focused on the risk of importations from mainland China, with the risk being correlated with the connectivity of places in mainland China to other countries.7\u20139 As transmission increasingly occurs in countries outside mainland China it may also become important to consider the risk of importations to and from other countries. Indeed there have already been cases outside of China, only reporting travel history to countries outside of China, such as from Singapore to the UK,11 and from Thailand, Singapore and Japan to South Korea.12 In light of this, there is some urgency to assessing the relative risks of onward transmission between countries outside of China.",
+            "Therefore in this paper we estimate 1) the number of imported cases globally from Wuhan (using flight data and the currently reported cases), then using our estimates of the number of imported cases and current estimates of R0 for SARS-CoV-2 we estimate, 2) the probability of an outbreak in countries outside mainland China, and finally given this outbreak risk and the flights between countries outside mainland China, we estimate 3) the risk index for importations occurring from and to countries outside mainland China. There is, of course, large uncertainty in these values and we propagate the uncertainty through the estimates."
+        ],
+        "Methods": [
+            "We used the information on the date, location, and travel history of each reported COVID-19 case, which was synthesized and made publicly available by the nCoV-2019 Data Working Group. 13 For each country or territory outside of mainland China, we collated data on the total number of reported COVID-19 cases imported from Wuhan only (not from other places in China), based on the epidemiological data updated as of 7th February\u201415 days since the Wuhan shutdown (Table S1). For a small number of cases, we were unable to identify the cities from which they were imported. We included these into our data as having originated from Wuhan to avoid producing false positive results when we later on identified countries that may have under-detected SARS-CoV-2 importation from Wuhan.",
+            "We used the monthly number of air ticket bookings during 2017 from the Official Airline Guide 14 to approximate the volumes of air passengers for each origin-destination route.",
+            "For each country or territory outside of mainland China (denoted by  ), we assumed that the total number of COVID-19 cases imported from Wuhan ( ) followed a Poisson distribution with rate parameter proportional to the number of air travelers from Wuhan during January 2020 ( \u2192 , ), with an unknown coefficient  0 to be estimated from data (more detail in supporting information):",
+            "~ ( 0 \u2219  \u2192 , ).",
+            "To date, the reported total number of imported cases from Wuhan ( ) differ substantially between countries even after adjusting for the volumes of air passengers arriving from Wuhan. We assumed this was due to inter-country variation in case detection and reporting rates. We ranked countries based on the ratio between the reported case count   and passenger volume  \u2192 , , and assumed all the imported COVID-19 cases from Wuhan have been successfully detected and reported by countries having the top 10 rankings, to provide a conservative estimate for  0 and hence the number of cases imported from Wuhan to the rest of the countries we consider. In the equation below, \u0398 refers to the set of the aforementioned countries having the highest rankings, and the posterior of  0 follows a gamma distribution if we impose a uniform prior:",
+            "0 | { |  \u2208 \u0398} ~ \u0393 (\u2211   + 1 , \u2211  \u2192 , ).",
+            "Next, we propagated the uncertainty in the estimated number of imported COVID-19 cases from Wuhan, and estimated the probability that a local outbreak would occur and sustain for at least three generations (hereinafter referred to as \u201clocal outbreak risk\u201d) for each country or territory outside mainland China. We modelled the offspring distribution of each case as a negative binomial distribution, with mean equal to the basic reproduction number estimated by Riou et al 15, and dispersion parameter assumed to be equal to that of SARS-CoV.16 Using the first-step analysis, the local outbreak risk can be mathematically derived, where we created two scenarios for each country: [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] only the reported cases imported from Wuhan were immediately isolated, but the rest of the estimated cases were not (main analysis) and [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] immediate isolation of 95% of the estimated imported cases from Wuhan. Here, we assumed that immediately isolated cases were not able to cause any secondary infection throughout their infectious periods, and hence the local outbreak risk estimation was conservative. For the main analysis, we truncated the uncertainty distribution of the imported case count derived earlier using the reported case count, to ensure that the estimated total number of cases imported from Wuhan was always greater than or equal to the reported case count. Countries with a local outbreak risk above 0.5 in our main analysis were named as potential donor countries, and subsequently assessed for their relative potential of exporting SARS-CoV-2 to any recipient country or territory outside mainland China, described as follows.",
+            "\u2219\u2192  = \u2211  \u2192 ."
+        ],
+        "Results": [
+            "Outside of mainland China, most countries or territories we estimate as having a large number of COVID-19 cases imported from Wuhan are located in Asia (Figure 1 and Table S1). Outside Asia, we estimate United States, Australia, and United Kingdom as having the highest imported case count estimates (Figure 1 and Table S1). In addition, we also identify countries whose reported number of imported cases from Wuhan is less than the 5th percentile of the posterior predictive distribution of our imported case estimates (Table 1), suggesting under-detected cases imported from Wuhan in these countries or territories. In particular, we estimate that Thailand received 97 (95% CI: 66\u2013136) imported cases from Wuhan\u2014the largest among all the countries analyzed but have only reported ~20 cases (Table 1). For Indonesia there have not been any reported COVID-19 cases imported from Wuhan, and yet we estimate at least 19 (95% CI: 10\u201330) imported cases.",
+            "If we assume each country has immediately isolated all the reported cases imported from Wuhan (and therefore truncated transmission), but not isolated the extra cases we estimated and that no extra control measures are put in place, we estimate that the chance that local transmission would occur and sustain for at least three generations exceeds 50% for a total of 16 countries or territories, including four outside Asia: Australia, Canada, United Kingdom, and United States (Table 2). In a second scenario, where we assume that 95% of all the imported cases from Wuhan were immediately isolated, the estimated local outbreak risk reduces substantially, with only Thailand having a local outbreak risk estimate greater than 50%. Still, the estimated risk of local transmission sustaining for at least three generations is not negligible (> 20%) in many other countries or territories, including Japan, Taiwan, Hong Kong, South Korea, United States, Malaysia, and Singapore (Table 2 for the countries or territories having a local outbreak risk estimate greater than 50% in the main analysis, and Figure 2 & Table S2 for results obtained for all countries or territories outside of mainland China). For countries where we estimate a large number of unreported cases, the local outbreak risk is ranked higher in the first scenario than the second scenario, as the extra estimated cases not being detected means a higher risk of onward transmission compared to countries where we estimate higher detection (Table 2).",
+            "For each recipient country or territory outside mainland China, we assess the relative potential of COVID-19 introduction from each donor country that has a local outbreak risk estimate exceeding 50%. For example, Hong Kong, Singapore, and Australia are found to have the highest COVID-19 introduction index estimates when we consider the United Kingdom as the recipient country. Using the United Kingdom, United States, South Korea, and South Africa as recipient country examples, we highlight the top donor countries or territories based on the COVID-19 introduction index estimate for each of these countries (Figure 3). The COVID-19 introduction index estimates for all pairs of donor-recipient countries create a network of ranked possible importation links between countries outside mainland China (Table S3A). The total COVID-19 introduction index estimate from all the potential donor countries is highest for Taiwan followed by Japan (full list of estimates shown in Table S3B).",
+            "Estimated number of COVID-19 cases imported from Wuhan 97 [66-136] 19 [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>-30] 41 [25-61] 27 [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>-41] 38 [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>-57] 49 [31-72] 35 [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>-53] 29 [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>-44] 9 [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>-<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] 18 [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>-29] 17 [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>-28] 7 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] 6 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>-<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]"
+        ],
+        "Discussion": [
+            "This study quantifies, with uncertainty, the estimated number of cases imported from Wuhan to countries outside mainland China. As we use information from the places with the highest ratio of the reported case count to the volume of passengers from Wuhan, we are only estimating the number of importations if these places with the highest ratio are capturing all imported cases. Therefore our estimates should be viewed as a lower bound on the number of imported infections, given possible mild and asymptomatic infections. Even given this, we estimate that Indonesia\u2014 which has reported 0 cases to date\u2014would be expected to have more cases than this, in line with estimates from Lipsitch et al 6. In addition, in places that have identified some cases\u2014such as Thailand, Japan, South Korea, Taiwan and Hong Kong, the US and Malaysia\u2014we estimate that the imported number of cases from Wuhan is even higher than those reported. In some of these places, testing may be already increasing, but if not, our results would suggest that these places should be targets for increased screening and testing for SARS-CoV-2.",
+            "We next probabilistically determine the risk of local transmission within countries outside mainland China. There is of course currently great uncertainty in these estimates, however some of the countries we estimate with the highest probability have indeed reported (limited) local transmission such as Thailand, the US, Singapore, Taiwan, Japan and the South Korea 18. This information was not used to generate our estimates, but provides some validation for the model. In countries such as Singapore, intensive contact tracing of cases and testing of all pneumonia cases was implemented19, increasing the likelihood of finding community transmission. The impact of control measures after initial detected cases is not included in our model, but may alter the risk of onward transmission and should be considered in further iterations of the model as in other modelling work considering impact interventions under different transmission scenarios.20,21 Other countries that we estimate to be at high risk of local transmission, but that have not yet detected transmission 18 include Indonesia, Cambodia, Canada and the Philippines. For all these places, our results suggest there could be a consideration of expanding testing of pneumonia or influenza like illness cases beyond those who have currently travelled, to find community transmission as soon as possible after it occurs, as has been ongoing in Singapore19 and has been recommended recently in some areas of the US 22.",
+            "We estimate that in the first wave of inter-country spread not including mainland China the countries at highest risk are still mainly within Asia, the Pacific, North America and Europe. The first importations of cases to and from countries outside mainland China have already occurred, including from Singapore to the UK, 23 and Thailand, Japan and Singapore to the South Korea.12 Singapore was second highest on our UK donor risk result list after Hong Kong and Japan, Singapore and Thailand were numbers 4, 5 and 6 on the South Korea\u2019s list after Macao, Hong Kong and Taiwan. Given our results and these observations, it would seem prudent for planning to consider the scenario in which the number of countries that may be both recipient and donors of importations will be increasing. Once transmission is confirmed in a possible donor country, our estimates of the risk transmission index are no longer needed, and the number of reported cases and the volume of traffic between countries are what will become important (see Table S3). However it must be considered that transmission may not always be detected quickly in all possible donor countries so estimates of the risk of transmission in donor countries may remain useful for planning. Though many of the countries at risk of second wave importations are similar to those at risk from Wuhan, there are some countries that we did not estimate as having the highest numbers of importations from",
+            "Wuhan, but become at increased risk as we consider donor countries outside mainland China. These include India, New Zealand, Spain and Mexico, as they have greater links to countries outside mainland China than to Wuhan, China. With the first imported case in Africa recently reported in Egypt 24 (which was estimated to have the highest link with mainland China by Lai et al.8,) we must assess where we are in the timeline of the outbreak with respect to importations to Africa, and including the risk of importation from not only mainland China could be important here.",
+            "Not included in our analysis currently is the risk of importation from places in China outside Wuhan. There have yet not been enough importations from outside Wuhan to use our current method, and there is currently much uncertainty on the numbers of cases in China to use this data. However as this changes, methods using both types of data could be considered here. The links between other places in China may follow similar patterns to Wuhan and therefore our risk of countries vulnerable for outbreaks and sourcing onward transmission may be similar, but there may be places that are differentially connected to Wuhan and other places in China and so will become at increased risk as importations from China continue. In addition, flights from other places in China to different countries will be truncated at different times for different countries depending on if and when countries halted incoming flights from China. We also currently don\u2019t consider travel across land or sea borders in our analysis.",
+            "There are other limitations to our analysis. We assume that R0 in places outside of Wuhan is similar to that estimated from early transmission in Wuhan, however we do not know how variation in climate, population structure, contact patterns, control measures such as contact tracing and quarantine, and other factors may impact transmission. This is an important area for future research based on what is observed in different places and the extension of the analysis to explicitly model transmission in each recipient country can be undertaken as more becomes known.",
+            "In summary, we estimate a number of imported cases from Wuhan that were undetected. Given these importations, we estimate a high risk of onward transmission within a number of countries outside mainland China, particularly in those places where cases were not detected, as these undetected cases could not be isolated, and transmission truncated. Given our results of high risk of onward transmission we highlight the importance of wider testing to pick up community transmission as soon as possible after transmission occurs. We also highlight countries that become at increased risk of importation as transmission occurs outside China, and provide results for each country to assess the countries that pose their highest risk of importation."
+        ],
+        "References": [
+            "1. Lu R, Zhao X, Li J, et al Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet (London, England). 2020;0(0). doi:10.1016/S0140-6736[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]30251-8",
+            "2. Li Q, Guan X, Wu P, et al Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N Engl J Med. January 2020:NEJMoa2001316. doi:10.1056/NEJMoa2001316",
+            "3. Huang C, Wang Y, Li X, et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet (London, England). 2020;0(0). doi:10.1016/S0140-6736[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]30183-5",
+            "4. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet (London, England). 2020;0(0). doi:10.1016/S0140-6736[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]30260-9",
+            "5. WHO. Novel Coronavirus Situation Report 18.; 2020. https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200207-sitrep-18-ncov.pdf?sfvrsn=fa644293_2. Accessed February 8, 2020.",
+            "6. Salazar PM De, Niehus R, Taylor A, Buckee CO, Lipsitch M. Using predicted imports of 2019nCoV cases to determine locations that may not be identifying all imported cases. medRxiv. February 2020:2020.02.04.20020495. doi:10.1101/2020.02.04.20020495",
+            "7. Bogoch II, Watts A, Thomas-Bachli A, Huber C, Kraemer MUG, Khan K. Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel. J Travel Med. January 2020. doi:10.1093/jtm/taaa008",
+            "8. Lai S, Bogoch I, Ruktanonchai N, et al Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study. medRxiv. February 2020:2020.02.04.20020479. doi:10.1101/2020.02.04.20020479",
+            "9. Gilbert M, Pullano G, Pinotti F, et al Preparedness and vulnerability of African countries against introductions of 2019-nCoV. medRxiv. February 2020:2020.02.05.20020792. doi:10.1101/2020.02.05.20020792",
+            "10. Kucharski AJ, Russell TW, Diamond C, group C nCoV working, Funk S, Eggo RM. Early dynamics of transmission and control of 2019-nCoV: a mathematical modelling study. medRxiv. February 2020:2020.01.31.20019901. doi:10.1101/2020.01.31.20019901",
+            "11. BBC NEWS. Coronavirus: Fourth patient in UK diagnosed - BBC News. https://www.bbc.com/news/uk-51430654#. Accessed February 11, 2020.",
+            "12. Straits Times. Coronavirus: South Korea\u2019s 28th patient casts doubt on 14-day quarantine, East Asia News &amp; Top Stories - The Straits Times. https://www.straitstimes.com/asia/eastasia/coronavirus-south-koreas-28th-patient-casts-doubt-on-14-day-quarantine. Accessed February 16, 2020.",
+            "13. nCoV-2019 Data Working Group. No Title. Epidemiological Data from the nCoV-2019 Outbreak: Early Descriptions from Publicly Available Data. http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-earlydescriptions-from-publicly-available-data/337. Accessed February 7, 2020.",
+            "14. OAG. OAG: Definitive flight information, aviation intelligence and analytics. https://www.oag.com/. Accessed February 14, 2020.",
+            "15. Riou J, Althaus CL. Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020. Eurosurveillance. 2020;25[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]:2000058. doi:10.2807/1560-7917.ES.2020.25.4.2000058",
+            "16. Lloyd-Smith JO, Schreiber SJ, Kopp PE, Getz WM. Superspreading and the effect of individual variation on disease emergence. Nature. 2005;438(7066):355-359. doi:10.1038/nature04153",
+            "17. Data \u00bb Gridded Population of the World (GPW), v4 | SEDAC. https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse. Accessed February 14, 2020.",
+            "18. WHO. WHO Coronavirus Situation Report February 10 2020. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep-",
+            "21-ncov.pdf?sfvrsn=947679ef_2. Accessed February 11, 2020. 19. Straits Times. All pneumonia patients in public hospitals in Singapore being tested for coronavirus: MOH, Health News &amp; Top Stories - The Straits Times. https://www.straitstimes.com/singapore/health/all-pneumonia-patients-in-public-hospitalshere-being-tested-for-coronavirus-moh. Accessed February 16, 2020. 20. Quilty BJ, Clifford S, Flasche S, Eggo RM, Eggo RM. Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV). Eurosurveillance. 2020;25[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]:2000080. doi:10.2807/1560-7917.ES.2020.25.5.2000080 21. Hellewell J, Abbott S, Gimma A, et al Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts. medRxiv. February 2020:2020.02.08.20021162. doi:10.1101/2020.02.08.20021162 22. Business Insider. The US will begin testing patients with flu-like symptoms for coronavirus in an expanded effort to contain the outbreak, Business Insider - Business Insider Singapore. https://www.businessinsider.sg/coronavirus-test-patients-flu-like-symptoms-20202/?r=US&IR=T. Accessed February 16, 2020. 23. BBC News. Coronavirus: Third UK patient \u201ccaught coronavirus in Singapore\u201d - BBC News. https://www.bbc.com/news/uk-51398039. Accessed February 16, 2020. 24. CNA. Egypt confirms first coronavirus case in Africa - CNA. https://www.channelnewsasia.com/news/world/egypt-confirms-first-covid-19-coronaviruscase-in-africa-12437088. Accessed February 16, 2020.",
+            "Estimated number of imported cases from Wuhan (Posterior Median)",
+            "A)",
+            "South-East Asia",
+            "Local Outbreak Risk (Main Analysis)",
+            "B)",
+            "Local Outbreak Risk (95% Isolation) Local Outbreak Risk Estimates 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0",
+            "Singapore",
+            "C)",
+            "Hong Kong SAR Macau SAR",
+            "D)",
+            "Hong Kong SAR Macau SAR Singapore",
+            "Estimated COVID-19 Introduction Index 0.035 0.32 1.68 3.42 5.55 8.47 16.2 26.6 49.4 372 \u00b710-4"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "donors",
+            "number": 5,
+            "context": "Estimated probability that a local outbreak will occur and sustain for at least 3 generations following the importation from Wuhan (\u201clocal outbreak risk\u201d) for each country or territory outside mainland China: (A) Assuming immediate isolation of all the reported cases imported from Wuhan; (B) Assuming immediate isolation of 95% of all the imported cases from Wuhan occurs. <mark class=\"stats\">Estimated COVID-19 introduction index between each donor country and (A) United Kingdom, (B) United States, (C) South Korea, and (D) South Africa as the recipient countries. Donor countries refer to countries or territories outside mainland China with a local outbreak risk estimate exceeding 50% in the main analysis. The width of each flight route denotes connectivity between the donor and recipient. Countries with thick black borders or are in a bounding box with a thick black border denote that they are within the top 5 donors in terms of their COVID-19 introduction index estimates for that recipient country</mark>. "
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "indonesia",
+        "infectious disease vulnerability index",
+        "coronavirus situation",
+        "COVID-19",
+        "viral introduction",
+        "widespread transmission",
+        "potential locations",
+        "onward local",
+        "early december",
+        "pneumonia",
+        "other country",
+        "mainland china",
+        "introduction index",
+        "coronavirus disease",
+        "local outbreak risk",
+        "sars cov",
+        "local transmission",
+        "novel coronavirus",
+        "recipient country",
+        "case importation",
+        "dynamics"
+    ],
+    "keyword_relevance": {
+        "COVID-19": 0.31683168316831684,
+        "local outbreak risk": 0.15841584158415842,
+        "introduction index": 0.10891089108910891,
+        "recipient country": 0.09900990099009901,
+        "local transmission": 0.0891089108910891,
+        "novel coronavirus": 0.06930693069306931,
+        "pneumonia": 0.039603960396039604,
+        "case importation": 0.0297029702970297,
+        "infectious disease vulnerability index": 0.019801980198019802,
+        "coronavirus disease": 0.019801980198019802,
+        "viral introduction": 0.009900990099009901,
+        "widespread transmission": 0.009900990099009901,
+        "potential locations": 0.009900990099009901,
+        "onward local": 0.009900990099009901,
+        "dynamics": 0.009900990099009901,
+        "indonesia": 0.0,
+        "coronavirus situation": 0.0,
+        "early december": 0.0,
+        "other country": 0.0,
+        "mainland china": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The emergence of a novel coronavirus (SARS-CoV-2) in Wuhan City, China at the end of 2019, has caused large numbers of cases of coronavirus disease 2019 (COVID-19) and deaths in Wuhan.1\u20133 As of 11th February 2020, there are increasing reports of large scale transmission and numbers of cases in other places in China.4,5 In addition, there are reports of cases in multiple countries outside of China, and limited reports of transmission within countries outside of China.5<br/><br/>From January 23rd travel from Wuhan was halted by the Chinese government, and in addition many countries have implemented measures such as airport screening, testing of patients reporting symptoms who have recent travel from China,5 quarantining arrivals from Wuhan and/or China or halting travel altogether.<br/><br/>As with many infectious diseases, there is a risk of under reporting of cases, as some people who are infected do not seek care, some who seek care are not diagnosed and, in some settings, those who are diagnosed may not reported.",
+        "The authors aim to estimate the number of cases imported from Wuhan to each country or territory outside mainland China, and with these estimates assess the risk of onward local transmission and the relative potential of case importation between countries outside China.",
+        "This uncertainty was propagated to quantify the local outbreak risk using a branching process model.",
+        "It is important for countries to remain alert for the possibilities of viral introduction from other countries outside China, even before local transmission in a source country becomes known",
+        "<h2 style=\"display: inline\">Methods:</h2> Data Case data<br/><br/>The authors used the information on the date, location, and travel history of each reported COVID-19 case, which was synthesized and made publicly available by the nCoV-2019 Data Working Group. 13 For each country or territory outside of mainland China, the authors collated data on the total number of reported COVID-19 cases imported from Wuhan only, based on the epidemiological data updated as of 7th February\u201415 days since the Wuhan shutdown (Table S1).",
+        "For each country or territory outside of mainland China, the authors assumed that the total number of COVID-19 cases imported from Wuhan ( ) followed a Poisson distribution with rate parameter proportional to the number of air travelers from Wuhan during January 2020 ( \u2192 , ), with an unknown coefficient 0 to be estimated from data: ~ ( 0 \u2219 \u2192 , ).",
+        "\u0398 refers to the set of the aforementioned countries having the highest rankings, and the posterior of 0 follows a gamma distribution if the authors impose a uniform prior:",
+        "<h2 style=\"display: inline\">Results:</h2> Outside of mainland China, most countries or territories the authors estimate as having a large number of COVID-19 cases imported from Wuhan are located in Asia (Figure 1 and Table S1).",
+        "If the authors assume each country has immediately isolated all the reported cases imported from Wuhan, but not isolated the extra cases the authors estimated and that no extra control measures are put in place, the authors estimate that the chance that local transmission would occur and sustain for at least three generations exceeds 50% for a total of 16 countries or territories, including four outside Asia: Australia, Canada, United Kingdom, and United States (Table 2).",
+        "For countries where the authors estimate a large number of unreported cases, the local outbreak risk is ranked higher in the first scenario than the second scenario, as the extra estimated cases not being detected means a higher risk of onward transmission compared to countries where the authors estimate higher detection (Table 2)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> This study quantifies, with uncertainty, the estimated number of cases imported from Wuhan to countries outside mainland China.",
+        "In places that have identified some cases\u2014such as Thailand, Japan, South Korea, Taiwan and Hong Kong, the US and Malaysia\u2014the authors estimate that the imported number of cases from Wuhan is even higher than those reported.",
+        "In some of these places, testing may be already increasing, but if not, the results would suggest that these places should be targets for increased screening and testing for SARS-CoV-2"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The emergence of a novel coronavirus (SARS-CoV-2) in Wuhan City, China at the end of 2019, has caused large numbers of cases of coronavirus disease 2019 (COVID-19) and deaths in Wuhan.1\u20133 As of 11th February 2020, there are increasing reports of large scale transmission and numbers of cases in other places in China.4,5 In addition, there are reports of cases in multiple countries outside of China, and limited reports of transmission within countries outside of China.5<br/><br/>From January 23rd travel from Wuhan was halted by the Chinese government, and in addition many countries have implemented measures such as airport screening, testing of patients reporting symptoms who have recent travel from China,5 quarantining arrivals from Wuhan and/or China or halting travel altogether.<br/><br/>As with many infectious diseases, there is a risk of under reporting of cases, as some people who are infected do not seek care, some who seek care are not diagnosed and, in some settings, those who are diagnosed may not reported.",
+            "The authors aim to estimate the number of cases imported from Wuhan to each country or territory outside mainland China, and with these estimates assess the risk of onward local transmission and the relative potential of case importation between countries outside China.",
+            "This uncertainty was propagated to quantify the local outbreak risk using a branching process model.",
+            "It is important for countries to remain alert for the possibilities of viral introduction from other countries outside China, even before local transmission in a source country becomes known"
+        ],
+        "Methods": [
+            "Data Case data<br/><br/>The authors used the information on the date, location, and travel history of each reported COVID-19 case, which was synthesized and made publicly available by the nCoV-2019 Data Working Group. 13 For each country or territory outside of mainland China, the authors collated data on the total number of reported COVID-19 cases imported from Wuhan only, based on the epidemiological data updated as of 7th February\u201415 days since the Wuhan shutdown (Table S1).",
+            "For each country or territory outside of mainland China, the authors assumed that the total number of COVID-19 cases imported from Wuhan ( ) followed a Poisson distribution with rate parameter proportional to the number of air travelers from Wuhan during January 2020 ( \u2192 , ), with an unknown coefficient 0 to be estimated from data: ~ ( 0 \u2219 \u2192 , ).",
+            "\u0398 refers to the set of the aforementioned countries having the highest rankings, and the posterior of 0 follows a gamma distribution if the authors impose a uniform prior:"
+        ],
+        "Results": [
+            "Outside of mainland China, most countries or territories the authors estimate as having a large number of COVID-19 cases imported from Wuhan are located in Asia (Figure 1 and Table S1).",
+            "If the authors assume each country has immediately isolated all the reported cases imported from Wuhan, but not isolated the extra cases the authors estimated and that no extra control measures are put in place, the authors estimate that the chance that local transmission would occur and sustain for at least three generations exceeds 50% for a total of 16 countries or territories, including four outside Asia: Australia, Canada, United Kingdom, and United States (Table 2).",
+            "For countries where the authors estimate a large number of unreported cases, the local outbreak risk is ranked higher in the first scenario than the second scenario, as the extra estimated cases not being detected means a higher risk of onward transmission compared to countries where the authors estimate higher detection (Table 2)"
+        ],
+        "Conclusion": [
+            "This study quantifies, with uncertainty, the estimated number of cases imported from Wuhan to countries outside mainland China.",
+            "In places that have identified some cases\u2014such as Thailand, Japan, South Korea, Taiwan and Hong Kong, the US and Malaysia\u2014the authors estimate that the imported number of cases from Wuhan is even higher than those reported.",
+            "In some of these places, testing may be already increasing, but if not, the results would suggest that these places should be targets for increased screening and testing for SARS-CoV-2"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Lu_et+al_2019_a",
+            "entry": "1. Lu R, Zhao X, Li J, et al. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet (London, England). 2020;0(0). doi:10.1016/S0140-6736(20)30251-8",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30251-8",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30251-8",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930251-8"
+        },
+        {
+            "id": "2",
+            "alt_id": "Li_et+al_0000_a",
+            "entry": "2. Li Q, Guan X, Wu P, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N Engl J Med. January 2020:NEJMoa2001316. doi:10.1056/NEJMoa2001316",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "3",
+            "alt_id": "Huang_et+al_2020_a",
+            "entry": "3. Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet (London, England). 2020;0(0). doi:10.1016/S0140-6736(20)30183-5",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5"
+        },
+        {
+            "id": "4",
+            "alt_id": "Wu_et+al_2020_a",
+            "entry": "4. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet (London, England). 2020;0(0). doi:10.1016/S0140-6736(20)30260-9",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9"
+        },
+        {
+            "id": "5",
+            "alt_id": "W_2020_a",
+            "entry": "5. WHO. Novel Coronavirus Situation Report 18.; 2020. https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200207-sitrep-18-ncov.pdf?sfvrsn=fa644293_2. Accessed February 8, 2020.",
+            "url": "https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200207-sitrep-18-ncov.pdf?sfvrsn=fa644293_2"
+        },
+        {
+            "id": "6",
+            "alt_id": "De_et+al_2020_a",
+            "entry": "6. Salazar PM De, Niehus R, Taylor A, Buckee CO, Lipsitch M. Using predicted imports of 2019nCoV cases to determine locations that may not be identifying all imported cases. medRxiv. February 2020:2020.02.04.20020495. doi:10.1101/2020.02.04.20020495",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.04.20020495",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.04.20020495"
+        },
+        {
+            "id": "7",
+            "alt_id": "Bogoch_et+al_January_a",
+            "entry": "7. Bogoch II, Watts A, Thomas-Bachli A, Huber C, Kraemer MUG, Khan K. Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel. J Travel Med. January 2020. doi:10.1093/jtm/taaa008",
+            "crossref": "https://dx.doi.org/10.1093/jtm/taaa008",
+            "scite": "https://scite.ai/reports/10.1093/jtm/taaa008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/jtm/taaa008"
+        },
+        {
+            "id": "8",
+            "alt_id": "Lai_et+al_medRxiv. February_a",
+            "entry": "8. Lai S, Bogoch I, Ruktanonchai N, et al. Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study. medRxiv. February 2020:2020.02.04.20020479. doi:10.1101/2020.02.04.20020479",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.04.20020479",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.04.20020479",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.04.20020479"
+        },
+        {
+            "id": "9",
+            "alt_id": "Gilbert_et+al_2019_a",
+            "entry": "9. Gilbert M, Pullano G, Pinotti F, et al. Preparedness and vulnerability of African countries against introductions of 2019-nCoV. medRxiv. February 2020:2020.02.05.20020792. doi:10.1101/2020.02.05.20020792",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.05.20020792",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.05.20020792",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.05.20020792"
+        },
+        {
+            "id": "10",
+            "alt_id": "Kucharski_et+al_medRxiv. February_a",
+            "entry": "10. Kucharski AJ, Russell TW, Diamond C, group C nCoV working, Funk S, Eggo RM. Early dynamics of transmission and control of 2019-nCoV: a mathematical modelling study. medRxiv. February 2020:2020.01.31.20019901. doi:10.1101/2020.01.31.20019901",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.31.20019901",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.31.20019901",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.31.20019901"
+        },
+        {
+            "id": "11",
+            "alt_id": "Bbc_0000_a",
+            "entry": "11. BBC NEWS. Coronavirus: Fourth patient in UK diagnosed - BBC News. https://www.bbc.com/news/uk-51430654#. Accessed February 11, 2020.",
+            "url": "https://www.bbc.com/news/uk-51430654#",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=BBC%2C%20N.E.W.S.%20Coronavirus%3A%20Fourth%20patient%20in%20UK%20diagnosed%20-",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=BBC%2C%20N.E.W.S.%20Coronavirus%3A%20Fourth%20patient%20in%20UK%20diagnosed%20-"
+        },
+        {
+            "id": "12",
+            "alt_id": "Times_0000_a",
+            "entry": "12. Straits Times. Coronavirus: South Korea\u2019s 28th patient casts doubt on 14-day quarantine, East Asia News &amp; Top Stories - The Straits Times. https://www.straitstimes.com/asia/eastasia/coronavirus-south-koreas-28th-patient-casts-doubt-on-14-day-quarantine. Accessed February 16, 2020.",
+            "url": "https://www.straitstimes.com/asia/eastasia/coronavirus-south-koreas-28th-patient-casts-doubt-on-14-day-quarantine"
+        },
+        {
+            "id": "13",
+            "alt_id": "13._0000_a",
+            "entry": "13. nCoV-2019 Data Working Group. No Title. Epidemiological Data from the nCoV-2019 Outbreak: Early Descriptions from Publicly Available Data. http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-earlydescriptions-from-publicly-available-data/337. Accessed February 7, 2020.",
+            "url": "http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-earlydescriptions-from-publicly-available-data/337"
+        },
+        {
+            "id": "14",
+            "alt_id": "O_0000_a",
+            "entry": "14. OAG. OAG: Definitive flight information, aviation intelligence and analytics. https://www.oag.com/. Accessed February 14, 2020.",
+            "url": "https://www.oag.com/"
+        },
+        {
+            "id": "15",
+            "alt_id": "Riou_2019_a",
+            "entry": "15. Riou J, Althaus CL. Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020. Eurosurveillance. 2020;25(4):2000058. doi:10.2807/1560-7917.ES.2020.25.4.2000058",
+            "crossref": "https://dx.doi.org/10.2807/1560-7917.ES.2020.25.4.2000058",
+            "scite": "https://scite.ai/reports/10.2807/1560-7917.ES.2020.25.4.2000058",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.2807/1560-7917.ES.2020.25.4.2000058"
+        },
+        {
+            "id": "16",
+            "alt_id": "Lloyd-Smith_et+al_2005_a",
+            "entry": "16. Lloyd-Smith JO, Schreiber SJ, Kopp PE, Getz WM. Superspreading and the effect of individual variation on disease emergence. Nature. 2005;438(7066):355-359. doi:10.1038/nature04153",
+            "crossref": "https://dx.doi.org/10.1038/nature04153",
+            "scite": "https://scite.ai/reports/10.1038/nature04153",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/nature04153"
+        },
+        {
+            "id": "18",
+            "alt_id": "W_2020_b",
+            "entry": "18. WHO. WHO Coronavirus Situation Report February 10 2020. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep- 21-ncov.pdf?sfvrsn=947679ef_2. Accessed February 11, 2020.",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep-"
+        },
+        {
+            "id": "19",
+            "alt_id": "Times_0000_b",
+            "entry": "19. Straits Times. All pneumonia patients in public hospitals in Singapore being tested for coronavirus: MOH, Health News &amp; Top Stories - The Straits Times. https://www.straitstimes.com/singapore/health/all-pneumonia-patients-in-public-hospitalshere-being-tested-for-coronavirus-moh. Accessed February 16, 2020.",
+            "url": "https://www.straitstimes.com/singapore/health/all-pneumonia-patients-in-public-hospitalshere-being-tested-for-coronavirus-moh"
+        },
+        {
+            "id": "20",
+            "alt_id": "Quilty_et+al_2019_a",
+            "entry": "20. Quilty BJ, Clifford S, Flasche S, Eggo RM, Eggo RM. Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV). Eurosurveillance. 2020;25(5):2000080. doi:10.2807/1560-7917.ES.2020.25.5.2000080",
+            "crossref": "https://dx.doi.org/10.2807/1560-7917.ES.2020.25.5.2000080",
+            "scite": "https://scite.ai/reports/10.2807/1560-7917.ES.2020.25.5.2000080",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.2807/1560-7917.ES.2020.25.5.2000080"
+        },
+        {
+            "id": "21",
+            "alt_id": "Hellewell_et+al_2019_a",
+            "entry": "21. Hellewell J, Abbott S, Gimma A, et al. Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts. medRxiv. February 2020:2020.02.08.20021162. doi:10.1101/2020.02.08.20021162",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.08.20021162",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.08.20021162"
+        },
+        {
+            "id": "22",
+            "alt_id": "22._0000_b",
+            "entry": "22. Business Insider. The US will begin testing patients with flu-like symptoms for coronavirus in an expanded effort to contain the outbreak, Business Insider - Business Insider Singapore. https://www.businessinsider.sg/coronavirus-test-patients-flu-like-symptoms-20202/?r=US&IR=T. Accessed February 16, 2020.",
+            "url": "https://www.businessinsider.sg/coronavirus-test-patients-flu-like-symptoms-20202/?r=US&IR=T"
+        },
+        {
+            "id": "23",
+            "alt_id": "23._0000_c",
+            "entry": "23. BBC News. Coronavirus: Third UK patient \u201ccaught coronavirus in Singapore\u201d - BBC News. https://www.bbc.com/news/uk-51398039. Accessed February 16, 2020.",
+            "url": "https://www.bbc.com/news/uk-51398039",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=BBC%20News%20Coronavirus%20Third%20UK%20patient%20caught%20coronavirus%20in%20Singapore%20%20BBC%20News%20httpswwwbbccomnewsuk51398039%20Accessed%20February%2016%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=BBC%20News%20Coronavirus%20Third%20UK%20patient%20caught%20coronavirus%20in%20Singapore%20%20BBC%20News%20httpswwwbbccomnewsuk51398039%20Accessed%20February%2016%202020"
+        },
+        {
+            "id": "24",
+            "alt_id": "C_0000_a",
+            "entry": "24. CNA. Egypt confirms first coronavirus case in Africa - CNA. https://www.channelnewsasia.com/news/world/egypt-confirms-first-covid-19-coronaviruscase-in-africa-12437088. Accessed February 16, 2020. ",
+            "url": "https://www.channelnewsasia.com/news/world/egypt-confirms-first-covid-19-coronaviruscase-in-africa-12437088"
+        }
+    ],
+    "facts": [
+        "over 1,000 deaths reported to date",
+        "Other countries have since reported coronavirus disease 2019 importation from China",
+        "the number of cases imported from Wuhan to each country or territory",
+        "with these estimates assess the risk of onward local transmission",
+        "the reported number of cases imported from Wuhan and flight data to generate an uncertainty distribution",
+        "A COVID-19 introduction index was derived for each pair of donor and recipient countries",
+        "The COVID-19 introduction index highlights potential locations outside mainland China from which cases may be imported to each recipient country",
+        "more epicentres may emerge outside China",
+        "important for countries to remain alert for the possibilities of viral introduction",
+        "From January 23rd travel from Wuhan was halted by the Chinese government",
+        "outside of China may be an under-report of what is occurring",
+        "Previous work has estimated significant under reporting of COVID-19 cases",
+        "collated data on the total number of reported COVID-19 cases imported from Wuhan",
+        "from the Official Airline Guide 14 to approximate the volumes of air passengers for each origin-destination route",
+        "that the total number of COVID-19 cases imported from Wuhan followed a",
+        "for the volumes of air passengers arriving from Wuhan",
+        "ranked countries based on the ratio between the reported case count",
+        "a large number of COVID-19 cases imported from Wuhan are located in",
+        "reported number of imported cases from Wuhan is less than the 5th percentile of the posterior predictive distribution",
+        "suggesting under-detected cases imported from Wuhan in these countries or territories",
+        "any reported COVID-19 cases imported from Wuhan",
+        "the reported cases imported from Wuhan",
+        "that no extra control measures are put in place",
+        "least three generations is not negligible in many other countries or territories",
+        "as the extra estimated cases not being detected means a higher risk of onward transmission compared to countries",
+        "the estimated number of cases imported from Wuhan to countries",
+        "lower bound on the number of imported infections",
+        "our results would suggest that these places should be targets for increased screening and testing",
+        "\u0398 refers to the set of the aforementioned countries having the highest rankings",
+        "equal to the basic reproduction number estimated by Riou et al 15"
+    ],
+    "claims": [
+        "We identified 13 countries or territories outside mainland China that may have under-detected COVID-19 importation from Wuhan, such as Thailand and Indonesia",
+        "We modelled the offspring distribution of each case as a negative binomial distribution, with mean equal to the basic reproduction number estimated by Riou et al 15, and dispersion parameter assumed to be equal to that of SARS-CoV.16",
+        "We also identify countries whose reported number of imported cases from Wuhan is less than the 5th percentile of the posterior predictive distribution of our imported case estimates (Table 1), suggesting under-detected cases imported from Wuhan in these countries or territories"
+    ],
+    "findings": [
+        "We estimate that Thailand received 97 (95% CI: 66\u2013136) imported cases from Wuhan\u2014the largest among all the countries analyzed but have only reported ~20 cases (Table 1)",
+        "For Indonesia there have not been any reported COVID-19 cases imported from Wuhan, and yet we estimate at least 19 (95% CI: 10\u201330) imported cases",
+        "Still, the estimated risk of local transmission sustaining for at least three generations is not negligible (> 20%) in many other countries or territories, including Japan, Taiwan, Hong Kong, South Korea, United States, Malaysia, and Singapore (Table 2 for the countries or territories having a local outbreak risk estimate greater than 50% in the main analysis, and Figure 2 & Table S2 for results obtained for all countries or territories outside of mainland China)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Using the first-step analysis, the local outbreak risk can be mathematically derived, where we created two scenarios for each country: [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] only the reported cases imported from Wuhan were immediately isolated, but the rest of the estimated cases were not and [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] immediate isolation of 95% of the estimated imported cases from Wuhan",
+        "Outside of mainland China, most countries or territories we estimate as having a large number of COVID-19 cases imported from Wuhan are located in Asia (Figure 1 and Table S1)",
+        "For Indonesia there have not been any reported COVID-19 cases imported from Wuhan, and yet we estimate at least 19 (95% CI: 10\u201330) imported cases",
+        "If we assume each country has immediately isolated all the reported cases imported from Wuhan, but not isolated the extra cases we estimated and that no extra control measures are put in place, we estimate that the chance that local transmission would occur and sustain for at least three generations exceeds 50% for a total of 16 countries or territories, including four outside Asia: Australia, Canada, United Kingdom, and United States (Table 2)",
+        "For countries where we estimate a large number of unreported cases, the local outbreak risk is ranked higher in the first scenario than the second scenario, as the extra estimated cases not being detected means a higher risk of onward transmission compared to countries where we estimate higher detection (Table 2)",
+        "This study quantifies, with uncertainty, the estimated number of cases imported from Wuhan to countries outside mainland China"
+    ],
+    "top_statements": [
+        "The emergence of a novel coronavirus (SARS-CoV-2) in Wuhan City, China at the end of 2019, has caused large numbers of cases of coronavirus disease 2019 (COVID-19) and deaths in Wuhan.1\u20133 As of 11th February 2020, there are increasing reports of large scale transmission and numbers of cases in other places in China.4,5 In addition, there are now reports of cases in multiple countries outside of China, and limited reports of transmission within countries outside of China.5<br/><br/>From January 23rd travel from Wuhan was halted by the Chinese government, and in addition many countries have implemented measures such as airport screening, testing of patients reporting symptoms who have recent travel from China,5 quarantining arrivals from Wuhan and/or China or halting travel altogether.<br/><br/>As with many infectious diseases, there is a risk of under reporting of cases, as some people who are infected do not seek care, some who seek care are not diagnosed and, in some settings, those who are diagnosed may not reported",
+        "Using the first-step analysis, the local outbreak risk can be mathematically derived, where we created two scenarios for each country: [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] only the reported cases imported from Wuhan were immediately isolated, but the rest of the estimated cases were not and [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] immediate isolation of 95% of the estimated imported cases from Wuhan",
+        "Outside of mainland China, most countries or territories we estimate as having a large number of COVID-19 cases imported from Wuhan are located in Asia (Figure 1 and Table S1)",
+        "For Indonesia there have not been any reported COVID-19 cases imported from Wuhan, and yet we estimate at least 19 (95% CI: 10\u201330) imported cases",
+        "If we assume each country has immediately isolated all the reported cases imported from Wuhan, but not isolated the extra cases we estimated and that no extra control measures are put in place, we estimate that the chance that local transmission would occur and sustain for at least three generations exceeds 50% for a total of 16 countries or territories, including four outside Asia: Australia, Canada, United Kingdom, and United States (Table 2)",
+        "This study quantifies, with uncertainty, the estimated number of cases imported from Wuhan to countries outside mainland China"
+    ],
+    "headline": "For Indonesia there have not been any reported COVID-19 cases imported from Wuhan, and yet we estimate at least 19 imported cases",
+    "contexts": [],
+    "abbreviations": {
+        "IDVI": "infectious disease vulnerability index"
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "filename": "S0169743919306367.pdf",
+    "content_type": "text/html",
+    "file_size": 0,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1016/j.chemolab.2020.103976",
+            "url": "https://dx.doi.org/10.1016/j.chemolab.2020.103976"
+        },
+        "doi": "10.1016/j.chemolab.2020.103976",
+        "title": "Deep convolutional neural networks for predicting leukemia-related transcription factor binding sites from DNA sequence data",
+        "journal": "Chemometrics and Intelligent Laboratory Systems",
+        "volume": "199",
+        "abstract": "Transcription factors are proteins that could bind to specific DNA sequences so as to regulate gene expressions. Currently, identification of transcription factor binding sites locating in DNA sequences is very important for building regulatory model in biological systems and identifying pathogenic variations. Traditional machine-learning methods have been successfully used for biological prediction problems based on DNA or protein sequences, but they all need to manually extract numerical features, which is not only tedious, but also would ignore effective information of first-order sequences. In this paper, based on the principle of deep learning (DL), we constructed prediction model for transcription factor binding sites only from DNA original base sequences. Here, a DL method based on convolutional neural network (CNN) and long short-term memory (LSTM) were proposed to investigate four leukemia categories from the perspective of transcription factor binding sites using four large non-redundant datasets for acute, chronic, myeloid and lymphatic leukemia, respectively. Compared with three widely used machine-learning methods of artificial neural network (ANN), support vector machine (SVM) and random forest (RF), our DL method exhibits significant superiority in terms of prediction performance, since the prediction accuracy of three machine-learning models either based on sequence feature or k-mer feature extraction are all lower than that of DL model. The available DL models for four leukemia categories gives an average prediction accuracy of 75% based only on sequence segments with 101 bases, which indicates that the DL based method is promising with unique advantages over the traditional machine learning methods. But focusing on leukemia-related transcription factor binding site prediction, further improvements would be implemented such as optimizing base segment length and CNN architecture, in order to improve the current prediction accuracy.",
+        "author": "Jian He, Xuemei Pu, Menglong Li, Chuan Li, Yanzhi Guo",
+        "date": 2020,
+        "pages": "103976",
+        "references": "",
+        "references_ris": "",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "introduction": []
+    },
+    "structured_content": {
+        "Abstract": [
+            "Transcription factors are proteins that could bind to specific DNA sequences so as to regulate gene expressions. Currently, identification of transcription factor binding sites locating in DNA sequences is very important for building regulatory model in biological systems and identifying pathogenic variations. Traditional machine-learning methods have been successfully used for biological prediction problems based on DNA or protein sequences, but they all need to manually extract numerical features, which is not only tedious, but also would ignore effective information of first-order sequences. In this paper, based on the principle of deep learning (DL), we constructed prediction model for transcription factor binding sites only from DNA original base sequences. Here, a DL method based on convolutional neural network (CNN) and long short-term memory (LSTM) were proposed to investigate four leukemia categories from the perspective of transcription factor binding sites using four large non-redundant datasets for acute, chronic, myeloid and lymphatic leukemia, respectively. Compared with three widely used machine-learning methods of artificial neural network (ANN), support vector machine (SVM) and random forest (RF), our DL method exhibits significant superiority in terms of prediction performance, since the prediction accuracy of three machine-learning models either based on sequence feature or k-mer feature extraction are all lower than that of DL model. The available DL models for four leukemia categories gives an average prediction accuracy of 75% based only on sequence segments with 101 bases, which indicates that the DL based method is promising with unique advantages over the traditional machine learning methods. But focusing on leukemia-related transcription factor binding site prediction, further improvements would be implemented such as optimizing base segment length and CNN architecture, in order to improve the current prediction accuracy."
+        ]
+    },
+    "participants": [],
+    "statistics": [],
+    "keywords": [
+        "random forest",
+        "sequence datum",
+        "specific dna",
+        "convolutional neural network",
+        "support vector machine",
+        "traditional machine learning method",
+        "neural network",
+        "dna sequence",
+        "regulatory model",
+        "leukemia category",
+        "transcription factor",
+        "dl method",
+        "deep convolutional",
+        "prediction accuracy",
+        "deep learning",
+        "gene expression",
+        "artificial neural network",
+        "long short-term memory"
+    ],
+    "keyword_relevance": {
+        "deep learning": 0.2647058823529412,
+        "transcription factor": 0.14705882352941177,
+        "convolutional neural network": 0.11764705882352941,
+        "prediction accuracy": 0.08823529411764706,
+        "random forest": 0.058823529411764705,
+        "support vector machine": 0.058823529411764705,
+        "neural network": 0.058823529411764705,
+        "artificial neural network": 0.058823529411764705,
+        "long short-term memory": 0.058823529411764705,
+        "traditional machine learning method": 0.029411764705882353,
+        "regulatory model": 0.029411764705882353,
+        "gene expression": 0.029411764705882353,
+        "sequence datum": 0.0,
+        "specific dna": 0.0,
+        "dna sequence": 0.0,
+        "leukemia category": 0.0,
+        "dl method": 0.0,
+        "deep convolutional": 0.0
+    },
+    "species": [],
+    "summary": [
+        "A new deep learning method was firstly proposed for predicting transcription factor (TFs) binding sites only based on the original DNA sequences.",
+        "The method could better use the original sequence and location information without considering the optimization of effective features.",
+        "By compared with three traditional machine-learning methods, the CNN method gives the best performance either based on sequence feature or k-mer feature extraction.",
+        "The results indicate that deep learning has the great potential in solving prediction problems from biological sequences.",
+        "Transcription factors are proteins that could bind to specific DNA sequences so as to regulate gene expressions.",
+        "Identification of transcription factor binding sites locating in DNA sequences is very important for building regulatory model in biological systems and identifying pathogenic variations.",
+        "Traditional machine-learning methods have been successfully used for biological prediction problems based on DNA or protein sequences, but they all need to manually extract numerical features, which is not only tedious, but would ignore effective information of first-order sequences.",
+        "In this paper, based on the principle of deep learning (DL), the authors constructed prediction model for transcription factor binding sites only from DNA original base sequences.",
+        "A DL method based on convolutional neural network (CNN) and long short-term memory (LSTM) were proposed to investigate four leukemia categories from the perspective of transcription factor binding sites using four large non-redundant datasets for acute, chronic, myeloid and lymphatic leukemia, respectively.",
+        "Compared with three widely used machine-learning methods of artificial neural network (ANN), support vector machine (SVM) and random forest (RF), the DL method exhibits significant superiority in terms of prediction performance, since the prediction accuracy of three machine-learning models either based on sequence feature or k-mer feature extraction are all lower than that of DL model.",
+        "The available DL models for four leukemia categories gives an average prediction accuracy of 75% based only on sequence segments with 101 bases, which indicates that the DL based method is promising with unique advantages over the traditional machine learning methods.",
+        "Focusing on leukemia-related transcription factor binding site prediction, further improvements would be implemented such as optimizing base segment length and CNN architecture, in order to improve the current prediction accuracy."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A new deep learning method was firstly proposed for predicting transcription factor (TFs) binding sites only based on the original DNA sequences.",
+            "The method could better use the original sequence and location information without considering the optimization of effective features."
+        ],
+        "Results": [
+            "By compared with three traditional machine-learning methods, the CNN method gives the best performance either based on sequence feature or k-mer feature extraction.",
+            "The results indicate that deep learning has the great potential in solving prediction problems from biological sequences.",
+            "Transcription factors are proteins that could bind to specific DNA sequences so as to regulate gene expressions.",
+            "Identification of transcription factor binding sites locating in DNA sequences is very important for building regulatory model in biological systems and identifying pathogenic variations.",
+            "Traditional machine-learning methods have been successfully used for biological prediction problems based on DNA or protein sequences, but they all need to manually extract numerical features, which is not only tedious, but would ignore effective information of first-order sequences.",
+            "In this paper, based on the principle of deep learning (DL), the authors constructed prediction model for transcription factor binding sites only from DNA original base sequences.",
+            "A DL method based on convolutional neural network (CNN) and long short-term memory (LSTM) were proposed to investigate four leukemia categories from the perspective of transcription factor binding sites using four large non-redundant datasets for acute, chronic, myeloid and lymphatic leukemia, respectively.",
+            "Compared with three widely used machine-learning methods of artificial neural network (ANN), support vector machine (SVM) and random forest (RF), the DL method exhibits significant superiority in terms of prediction performance, since the prediction accuracy of three machine-learning models either based on sequence feature or k-mer feature extraction are all lower than that of DL model."
+        ],
+        "Conclusion": [
+            "The available DL models for four leukemia categories gives an average prediction accuracy of 75% based only on sequence segments with 101 bases, which indicates that the DL based method is promising with unique advantages over the traditional machine learning methods.",
+            "Focusing on leukemia-related transcription factor binding site prediction, further improvements would be implemented such as optimizing base segment length and CNN architecture, in order to improve the current prediction accuracy."
+        ]
+    },
+    "reference_links": [],
+    "facts": [
+        "Transcription factors are proteins that could bind to specific DNA sequences",
+        "identification of transcription factor binding sites locating in DNA sequences is very important for building regulatory model",
+        "Traditional machine-learning methods have been successfully used for biological prediction problems based on",
+        "a DL method based on convolutional neural network",
+        "which indicates that the DL based method is promising with unique advantages",
+        "further improvements would be implemented such as optimizing base segment length",
+        "A new deep learning method was firstly proposed for predicting transcription factor binding sites only based on the original DNA sequences",
+        "The results indicate that deep learning has the great potential in solving prediction problems",
+        "Identification of transcription factor binding sites locating in DNA sequences is very important for building regulatory model",
+        "A DL method based on convolutional neural network"
+    ],
+    "claims": [],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "The results indicate that deep learning has the great potential in solving prediction problems from biological sequences",
+        "Transcription factors are proteins that could bind to specific DNA sequences so as to regulate gene expressions",
+        "Identification of transcription factor binding sites locating in DNA sequences is very important for building regulatory model in biological systems and identifying pathogenic variations",
+        "A deep learning method based on convolutional neural network (CNN) and long short-term memory (LSTM) were proposed to investigate four leukemia categories from the perspective of transcription factor binding sites using four large non-redundant datasets for acute, chronic, myeloid and lymphatic leukemia, respectively",
+        "The available deep learning models for four leukemia categories gives an average prediction accuracy of 75% based only on sequence segments with 101 bases, which indicates that the deep learning based method is promising with unique advantages over the traditional machine learning methods",
+        "Focusing on leukemia-related transcription factor binding site prediction, further improvements would be implemented such as optimizing base segment length and convolutional neural network architecture, in order to improve the current prediction accuracy"
+    ],
+    "top_statements": [
+        "Transcription factors are proteins that could bind to specific DNA sequences so as to regulate gene expressions",
+        "Identification of transcription factor binding sites locating in DNA sequences is very important for building regulatory model in biological systems and identifying pathogenic variations",
+        "A deep learning method based on convolutional neural network (CNN) and long short-term memory (LSTM) were proposed to investigate four leukemia categories from the perspective of transcription factor binding sites using four large non-redundant datasets for acute, chronic, myeloid and lymphatic leukemia, respectively",
+        "The available deep learning models for four leukemia categories gives an average prediction accuracy of 75% based only on sequence segments with 101 bases, which indicates that the deep learning based method is promising with unique advantages over the traditional machine learning methods",
+        "Focusing on leukemia-related transcription factor binding site prediction, further improvements would be implemented such as optimizing base segment length and convolutional neural network architecture, in order to improve the current prediction accuracy"
+    ],
+    "headline": "A deep learning method based on convolutional neural network and long short-term memory were proposed to investigate four leukemia categories from the perspective of transcription factor binding sites using four large non-redundant datasets for acute, chronic, myeloid and lymphatic leukemia, respectively",
+    "contexts": [],
+    "abbreviations": {
+        "DL": "deep learning",
+        "CNN": "convolutional neural network",
+        "LSTM": "long short-term memory",
+        "ANN": "artificial neural network",
+        "SVM": "support vector machine",
+        "RF": "random forest"
+    }
+}

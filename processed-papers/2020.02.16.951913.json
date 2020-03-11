@@ -1,0 +1,854 @@
+{
+    "filename": "2020.02.16.951913.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 2319042,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.16.951913",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/21/2020.02.16.951913.full.pdf"
+        },
+        "title": "Single cell RNA sequencing of 13 human tissues identify cell types and receptors of human coronaviruses",
+        "author": "Furong Qi, Shen Qian, Shuye Zhang, Zheng Zhang",
+        "date": 2020,
+        "affiliations": [
+            "Institute of Hepatology, National Clinical Research Center for Infectious Disease, Shenzhen Third People\u2019s Hospital, the Second Affiliated Hospital of Southern University of Science and Technology, Shenzhen, Guangdong Province, 518100, China",
+            "The Second Affiliated Hospital of Southern University of Science and Technology, Shenzhen, Guangdong Province, 518112, China",
+            "Shanghai Public Health Clinical Center and Institute of Biomedical Sciences, Fudan University, Shanghai, China",
+            "Institute of Hepatology, Shenzhen 3rd People\u2019s Hospital, Shenzhen, Guangdong Province 518112, China; Phone: 86-755-81238983; Fax: 86-755-81238983; Email: zhangzheng1975@aliyun.com, and Shuye Zhang, PhD. Shanghai Public Health Clinical Center and Institute of Biomedical Sciences, Fudan University, Shanghai, China; Email: zhangshuye@shphc.org.cn"
+        ],
+        "abstract": "The new coronavirus (2019-nCoV) outbreak from December 2019 in Wuhan, Hubei, China, has been declared a global public health emergency. Angiotensin I converting enzyme 2 (ACE2), is the host receptor by 2019-nCov to infect human cells. Although ACE2 is reported to be expressed in lung, liver, stomach, ileum, kidney and colon, its expressing levels are rather low, especially in the lung. 2019-nCoV may use co-receptors/auxiliary proteins as ACE2 partner to facilitate the virus entry. To identify the potential candidates, we explored the single cell gene expression atlas including 119 cell types of 13 human tissues and analyzed the single cell co-expression spectrum of 51 reported RNA virus receptors and 400 other membrane proteins. Consistent with other recent reports, we confirmed that ACE2 was mainly expressed in lung AT2, liver cholangiocyte, colon colonocytes, esophagus keratinocytes, ileum ECs, rectum ECs, stomach epithelial cells, and kidney proximal tubules. Intriguingly, we found that the candidate co-receptors, manifesting the most similar expression patterns with ACE2 across 13 human tissues, are all peptidases, including ANPEP, DPP4 and ENPEP. Among them, ANPEP and DPP4 are the known receptors for human CoVs, suggesting ENPEP as another potential receptor for human CoVs. We also conducted \u201cCellPhoneDB\u201d analysis to understand the cell crosstalk between CoV-targets and their surrounding cells across different tissues. We found that macrophages frequently communicate with the CoVs targets through chemokine and phagocytosis signaling, highlighting the importance of tissue macrophages in immune defense and immune pathogenesis.",
+        "keywords": [
+            "coronaviruses",
+            "2019-nCoV",
+            "scRNA-seq",
+            "ACE2",
+            "co-receptor",
+            "macrophage"
+        ],
+        "references": "@article{ahlquist2003a,\n  author = {Ahlquist, P. and Noueiry, A.O. and Lee, W.M.},\n  title = {Host factors in positive-strand RNA virus genome replication},\n  journal = {J Virol},\n  date = {2003},\n  pages = {77\u201315},\n  more-authors = {true},\n  language = {}\n}\n@article{huang2020a,\n  author = {Huang, C. and Wang, Y. and Li, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{chazal2003a,\n  author = {Chazal, N. and Gerlier, D.},\n  title = {Virus entry, assembly, budding, and membrane rafts},\n  journal = {Microbiol Mol Biol Rev},\n  date = {2003},\n  pages = {67\u20132},\n  source = {table of contents},\n  language = {}\n}\n@article{lu2020a,\n  author = {Lu, R. and Zhao, X. and Li, J.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  journal = {Lancet},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@misc{zhao-a,\n  author = {Zhao, Y. and Zhao, Z. and Wang, Y.},\n  title = {Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov},\n  date = {bioRxiv,},\n  pages = {2020\u20132020},\n  more-authors = {true},\n  language = {}\n}\n@article{chai-a,\n  author = {Chai, X. and Hu, L. and Zhang, Y.},\n  title = {Specific ACE2 Expression in Cholangiocytes May Cause Liver Damage After 2019-nCoV Infection},\n  journal = {bioRxiv},\n  pages = {2020\u20132020},\n  more-authors = {true},\n  language = {}\n}\n@article{zhang-a,\n  author = {Zhang, H. and Kang, Z. and Gong, H.},\n  title = {The digestive system is a potential route of 2019-nCov infection: a bioinformatics analysis based on single-cell transcriptomes},\n  journal = {bioRxiv},\n  pages = {2020\u20132020},\n  more-authors = {true},\n  language = {}\n}\n@article{xin-a,\n  author = {Xin Zou, K.C. and Zou, Jiawei and Han, Peiyi and Hao, Jie and Han, Zeguang},\n  title = {The single-cell RNA-seq data analysis on the receptor ACE2 expression reveals the potential risk of different human organs vulnerable to Wuhan 2019-nCoV infection},\n  journal = {Front. Med},\n  pages = {0},\n  language = {}\n}\n@article{zhang2019a,\n  author = {Zhang, Z. and Zhu, Z. and Chen, W.},\n  title = {Cell membrane proteins with high N-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors},\n  journal = {Bioinformatics},\n  date = {2019},\n  pages = {35\u20135},\n  more-authors = {true},\n  language = {}\n}\n@article{hoffmann2019a,\n  author = {Hoffmann, M. and Kleine-Weber, H. and Kr\u00fcger, N.},\n  title = {The novel coronavirus 2019},\n  date = {2019},\n  journal = {bioRxiv},\n  pages = {2020\u20132020},\n  more-authors = {true},\n  source = {uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells},\n  language = {}\n}\n@article{reyfman2019a,\n  author = {Reyfman, P.A. and Walter, J.M. and Joshi, N.},\n  title = {Single-Cell Transcriptomic Analysis of Human Lung Provides Insights into the Pathobiology of Pulmonary Fibrosis},\n  journal = {Am J Respir Crit Care Med},\n  date = {2019},\n  pages = {1517\u20131536},\n  more-authors = {true},\n  language = {}\n}\n@article{macparland2018a,\n  author = {MacParland, S.A. and Liu, J.C. and Ma, X.Z.},\n  title = {Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations},\n  journal = {Nat Commun},\n  date = {2018},\n  pages = {9\u20131},\n  more-authors = {true},\n  language = {}\n}\n@article{wang-a,\n  author = {Wang, Y. and Song, W. and Wang, J.},\n  title = {Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine},\n  journal = {J Exp Med},\n  volume = {2020},\n  more-authors = {true},\n  number = {217},\n  language = {}\n}\n@article{dobie2019a,\n  author = {Dobie, R. and Wilson-Kanamori, J.R. and Henderson, B.E.P.},\n  title = {Single-Cell Transcriptomics Uncovers Zonation of Function in the Mesenchyme during Liver Fibrosis},\n  journal = {Cell Rep},\n  date = {2019},\n  pages = {29\u20137},\n  more-authors = {true},\n  language = {}\n}\n@article{oetjen2018a,\n  author = {Oetjen, K.A. and Lindblad, K.E. and Goswami, M.},\n  title = {Human bone marrow assessment by singlecell RNA sequencing, mass cytometry, and flow cytometry},\n  journal = {JCI Insight},\n  date = {2018},\n  volume = {3},\n  more-authors = {true},\n  number = {23},\n  language = {}\n}\n@article{kim2020a,\n  author = {Kim, D. and Kobayashi, T. and Voisin, B.},\n  title = {Targeted therapy guided by single-cell transcriptomic analysis in drug-induced hypersensitivity syndrome: a case report},\n  journal = {Nat Med},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{madissoon2019a,\n  author = {Madissoon, E. and Wilbrey-Clark, A. and Miragaia, R.J.},\n  title = {scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation},\n  journal = {Genome Biol},\n  date = {2019},\n  volume = {21},\n  pages = {1},\n  more-authors = {true},\n  number = {1},\n  language = {}\n}\n@article{parikh2019a,\n  author = {Parikh, K. and Antanaviciute, A. and Fawkner-Corbett, D.},\n  title = {Colonic epithelial cell diversity in health and inflammatory bowel disease},\n  journal = {Nature},\n  date = {2019},\n  pages = {567\u20137746},\n  more-authors = {true},\n  language = {}\n}\n@incollection{voigt2019a,\n  author = {Voigt, A.P. and Mulfaul, K. and Mullin, N.K.},\n  title = {Single-cell transcriptomics of the human retinal pigment epithelium and choroid},\n  booktitle = {health and macular degeneration. Proc Natl Acad Sci U S},\n  edtior = {A},\n  date = {2019},\n  pages = {116\u201348},\n  more-authors = {true},\n  language = {}\n}\n@article{zhang2019b,\n  author = {Zhang, P. and Yang, M. and Zhang, Y.},\n  title = {Dissecting the Single-Cell Transcriptome Network Underlying Gastric Premalignant Lesions and Early Gastric Cancer},\n  journal = {Cell Rep},\n  date = {2019},\n  pages = {27\u20136},\n  more-authors = {true},\n  language = {}\n}\n@article{liao-a,\n  author = {Liao, J. and Yu, Z. and Chen, Y.},\n  title = {Single-cell RNA sequencing of human kidney},\n  journal = {Sci Data},\n  volume = {2020},\n  pages = {7\u20131},\n  more-authors = {true},\n  language = {}\n}\n@article{stuart2019a,\n  author = {Stuart, T. and Butler, A. and Hoffman, P.},\n  title = {Comprehensive Integration of Single-Cell Data},\n  journal = {Cell},\n  date = {2019},\n  pages = {177\u20137},\n  more-authors = {true},\n  language = {}\n}\n@article{korsunsky2019a,\n  author = {Korsunsky, I. and Millard, N. and Fan, J.},\n  title = {sensitive and accurate integration of single-cell data with Harmony},\n  journal = {Nat Methods},\n  date = {2019},\n  pages = {16\u201312},\n  more-authors = {true},\n  language = {}\n}\n@article{efremova2019a,\n  author = {Efremova, M. and Vento-Tormo, M. and Teichmann, S.A.},\n  title = {CellPhoneDB v2. 0: Inferring cell-cell communication from combined expression of multi-subunit receptor-ligand complexes},\n  journal = {bioRxiv},\n  date = {2019},\n  pages = {680926},\n  more-authors = {true},\n  language = {}\n}\n@article{lomize2017a,\n  author = {Lomize, A.L. and Lomize, M.A. and Krolicki, S.R.},\n  title = {Membranome: a database for proteome-wide analysis of single-pass membrane proteins},\n  journal = {Nucleic Acids Res},\n  date = {2017},\n  pages = {45\u20131},\n  more-authors = {true},\n  language = {}\n}\n@article{holmes2017a,\n  author = {Holmes, R.S. and Spradling-Reeves, K.D. and Cox, L.A.},\n  title = {Mammalian Glutamyl Aminopeptidase Genes (ENPEP) and Proteins: Comparative Studies of a Major Contributor to Arterial Hypertension},\n  journal = {J Data Mining Genomics Proteomics},\n  date = {2017},\n  volume = {8},\n  pages = {27},\n  number = {2},\n  language = {}\n}\n@article{li2015a,\n  author = {Li, F.},\n  title = {Receptor recognition mechanisms of coronaviruses: a decade of structural studies},\n  journal = {J Virol},\n  date = {2015},\n  pages = {89\u20134},\n  language = {}\n}\n@article{smith2006a,\n  author = {Smith, R.D.},\n  title = {Responding to global infectious disease outbreaks: lessons from SARS on the role of risk perception, communication and management},\n  journal = {Soc Sci Med},\n  date = {2006},\n  pages = {63\u201312},\n  language = {}\n}\n@misc{unknown2017a,\n  title = {Middle East respiratory syndrome coronavirus (MERS-CoV). World Health Organization, Retrieved 10},\n  date = {2017-04},\n  language = {}\n}\n@article{chen2020a,\n  author = {Chen, N. and Zhou, M. and Dong, X.},\n  title = {Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study},\n  journal = {Lancet},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{wang2008a,\n  author = {Wang, S. and Guo, F. and Liu, K.},\n  title = {Endocytosis of the receptor-binding domain of SARS-CoV spike protein together with virus receptor ACE2},\n  journal = {Virus Res},\n  date = {2008},\n  pages = {136\u20131},\n  more-authors = {true},\n  language = {}\n}\n@article{yang2004a,\n  author = {Yang, Z.Y. and Huang, Y. and Ganesh, L.},\n  title = {pH-dependent entry of severe acute respiratory syndrome coronavirus is mediated by the spike glycoprotein and enhanced by dendritic cell transfer through DC-SIGN},\n  journal = {J Virol},\n  date = {2004},\n  pages = {78\u201311},\n  more-authors = {true},\n  language = {}\n}\n@article{gramberg2005a,\n  author = {Gramberg, T. and Hofmann, H. and Moller, P.},\n  title = {LSECtin interacts with filovirus glycoproteins and the spike protein of SARS coronavirus},\n  journal = {Virology},\n  date = {2005},\n  pages = {340\u20132},\n  more-authors = {true},\n  language = {}\n}\n@article{marzi2004a,\n  author = {Marzi, A. and Gramberg, T. and Simmons, G.},\n  title = {DC-SIGN and DC-SIGNR interact with the glycoprotein of Marburg virus and the S protein of severe acute respiratory syndrome coronavirus},\n  journal = {J Virol},\n  date = {2004},\n  pages = {78\u201321},\n  more-authors = {true},\n  language = {}\n}\n@article{peck2017a,\n  author = {Peck, K.M. and Scobey, T. and Swanstrom, J.},\n  title = {Permissivity of Dipeptidyl Peptidase 4 Orthologs to Middle East Respiratory Syndrome Coronavirus Is Governed by Glycosylation and Other Complex Determinants},\n  journal = {J Virol},\n  date = {2017},\n  volume = {91},\n  more-authors = {true},\n  number = {19},\n  language = {}\n}\n@article{le2000a,\n  author = {Le Page, C. and Genin, P. and Baines, M.G.},\n  title = {Interferon activation and innate immunity},\n  journal = {Rev Immunogenet},\n  date = {2000},\n  volume = {2},\n  pages = {374\u201386},\n  more-authors = {true},\n  number = {3},\n  language = {}\n}\n@article{perry2005a,\n  author = {Perry, A.K. and Chen, G. and Zheng, D.},\n  title = {The host type I interferon response to viral and bacterial infections},\n  journal = {Cell Res},\n  date = {2005},\n  pages = {15\u20136},\n  more-authors = {true},\n  language = {}\n}\n@article{mcnab2015a,\n  author = {McNab, F. and Mayer-Barber, K. and Sher, A.},\n  title = {Type I interferons in infectious disease},\n  journal = {Nat Rev Immunol},\n  date = {2015},\n  pages = {15\u20132},\n  more-authors = {true},\n  language = {}\n}\n@article{hansen2009a,\n  author = {Hansen, T.H. and Bouvier, M.},\n  title = {MHC class I antigen presentation: learning from viral evasion strategies},\n  journal = {Nat Rev Immunol},\n  date = {2009},\n  pages = {9\u20137},\n  language = {}\n}\n@article{goulder2008a,\n  author = {Goulder, P.J. and Watkins, D.I.},\n  title = {Impact of MHC class I diversity on immune control of immunodeficiency virus replication},\n  journal = {Nat Rev Immunol},\n  date = {2008},\n  pages = {8\u20138},\n  language = {}\n}\n",
+        "links": [
+            "http://www.computationalbiology.cn:5000/viralReceptor",
+            "https://membranome.org",
+            "https://www.humancellatlas.org",
+            "https://www.ncbi.nlm.nih.gov/geo/"
+        ],
+        "emails": [
+            "zhangshuye@shphc.org.cn",
+            "zhangzheng1975@aliyun.com"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Ahlquist, P.\nAU  - Noueiry, A.O.\nAU  - Lee, W.M.\nTI  - Host factors in positive-strand RNA virus genome replication\nT2  - J Virol\nPY  - 2003\nDA  - 2003\nSP  - 77\nEP  - 15\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chazal, N.\nAU  - Gerlier, D.\nTI  - Virus entry, assembly, budding, and membrane rafts\nT2  - Microbiol Mol Biol Rev\nPY  - 2003\nDA  - 2003\nSP  - 67\nEP  - 2\nT2  - table of contents\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lu, R.\nAU  - Zhao, X.\nAU  - Li, J.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nT2  - Lancet\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Zhao, Y.\nAU  - Zhao, Z.\nAU  - Wang, Y.\nTI  - Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov\nPY  - bioRxiv,\nDA  - bioRxiv,\nSP  - 2020\nEP  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chai, X.\nAU  - Hu, L.\nAU  - Zhang, Y.\nTI  - Specific ACE2 Expression in Cholangiocytes May Cause Liver Damage After 2019-nCoV Infection\nT2  - bioRxiv\nSP  - 2020\nEP  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, H.\nAU  - Kang, Z.\nAU  - Gong, H.\nTI  - The digestive system is a potential route of 2019-nCov infection: a bioinformatics analysis based on single-cell transcriptomes\nT2  - bioRxiv\nSP  - 2020\nEP  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xin Zou, K.C.\nAU  - Zou, Jiawei\nAU  - Han, Peiyi\nAU  - Hao, Jie\nAU  - Han, Zeguang\nTI  - The single-cell RNA-seq data analysis on the receptor ACE2 expression reveals the potential risk of different human organs vulnerable to Wuhan 2019-nCoV infection\nT2  - Front. Med\nSP  - 0\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, Z.\nAU  - Zhu, Z.\nAU  - Chen, W.\nTI  - Cell membrane proteins with high N-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors\nT2  - Bioinformatics\nPY  - 2019\nDA  - 2019\nSP  - 35\nEP  - 5\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hoffmann, M.\nAU  - Kleine-Weber, H.\nAU  - Kr\u00fcger, N.\nTI  - The novel coronavirus 2019\nPY  - 2019\nDA  - 2019\nT2  - bioRxiv\nSP  - 2020\nEP  - 2020\nC1  - true\nT2  - uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Reyfman, P.A.\nAU  - Walter, J.M.\nAU  - Joshi, N.\nTI  - Single-Cell Transcriptomic Analysis of Human Lung Provides Insights into the Pathobiology of Pulmonary Fibrosis\nT2  - Am J Respir Crit Care Med\nPY  - 2019\nDA  - 2019\nSP  - 1517\nEP  - 1536\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - MacParland, S.A.\nAU  - Liu, J.C.\nAU  - Ma, X.Z.\nTI  - Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations\nT2  - Nat Commun\nPY  - 2018\nDA  - 2018\nSP  - 9\nEP  - 1\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, Y.\nAU  - Song, W.\nAU  - Wang, J.\nTI  - Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine\nT2  - J Exp Med\nVL  - 2020\nC1  - true\nIS  - 217\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Dobie, R.\nAU  - Wilson-Kanamori, J.R.\nAU  - Henderson, B.E.P.\nTI  - Single-Cell Transcriptomics Uncovers Zonation of Function in the Mesenchyme during Liver Fibrosis\nT2  - Cell Rep\nPY  - 2019\nDA  - 2019\nSP  - 29\nEP  - 7\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Oetjen, K.A.\nAU  - Lindblad, K.E.\nAU  - Goswami, M.\nTI  - Human bone marrow assessment by singlecell RNA sequencing, mass cytometry, and flow cytometry\nT2  - JCI Insight\nPY  - 2018\nDA  - 2018\nVL  - 3\nC1  - true\nIS  - 23\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kim, D.\nAU  - Kobayashi, T.\nAU  - Voisin, B.\nTI  - Targeted therapy guided by single-cell transcriptomic analysis in drug-induced hypersensitivity syndrome: a case report\nT2  - Nat Med\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Madissoon, E.\nAU  - Wilbrey-Clark, A.\nAU  - Miragaia, R.J.\nTI  - scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation\nT2  - Genome Biol\nPY  - 2019\nDA  - 2019\nVL  - 21\nSP  - 1\nC1  - true\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Parikh, K.\nAU  - Antanaviciute, A.\nAU  - Fawkner-Corbett, D.\nTI  - Colonic epithelial cell diversity in health and inflammatory bowel disease\nT2  - Nature\nPY  - 2019\nDA  - 2019\nSP  - 567\nEP  - 7746\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Voigt, A.P.\nAU  - Mulfaul, K.\nAU  - Mullin, N.K.\nTI  - Single-cell transcriptomics of the human retinal pigment epithelium and choroid\nT2  - health and macular degeneration. Proc Natl Acad Sci U S\nC1  - A\nPY  - 2019\nDA  - 2019\nSP  - 116\nEP  - 48\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, P.\nAU  - Yang, M.\nAU  - Zhang, Y.\nTI  - Dissecting the Single-Cell Transcriptome Network Underlying Gastric Premalignant Lesions and Early Gastric Cancer\nT2  - Cell Rep\nPY  - 2019\nDA  - 2019\nSP  - 27\nEP  - 6\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Liao, J.\nAU  - Yu, Z.\nAU  - Chen, Y.\nTI  - Single-cell RNA sequencing of human kidney\nT2  - Sci Data\nVL  - 2020\nSP  - 7\nEP  - 1\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Stuart, T.\nAU  - Butler, A.\nAU  - Hoffman, P.\nTI  - Comprehensive Integration of Single-Cell Data\nT2  - Cell\nPY  - 2019\nDA  - 2019\nSP  - 177\nEP  - 7\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Korsunsky, I.\nAU  - Millard, N.\nAU  - Fan, J.\nTI  - sensitive and accurate integration of single-cell data with Harmony\nT2  - Nat Methods\nPY  - 2019\nDA  - 2019\nSP  - 16\nEP  - 12\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Efremova, M.\nAU  - Vento-Tormo, M.\nAU  - Teichmann, S.A.\nTI  - CellPhoneDB v2. 0: Inferring cell-cell communication from combined expression of multi-subunit receptor-ligand complexes\nT2  - bioRxiv\nPY  - 2019\nDA  - 2019\nSP  - 680926\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lomize, A.L.\nAU  - Lomize, M.A.\nAU  - Krolicki, S.R.\nTI  - Membranome: a database for proteome-wide analysis of single-pass membrane proteins\nT2  - Nucleic Acids Res\nPY  - 2017\nDA  - 2017\nSP  - 45\nEP  - 1\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Holmes, R.S.\nAU  - Spradling-Reeves, K.D.\nAU  - Cox, L.A.\nTI  - Mammalian Glutamyl Aminopeptidase Genes (ENPEP) and Proteins: Comparative Studies of a Major Contributor to Arterial Hypertension\nT2  - J Data Mining Genomics Proteomics\nPY  - 2017\nDA  - 2017\nVL  - 8\nSP  - 27\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, F.\nTI  - Receptor recognition mechanisms of coronaviruses: a decade of structural studies\nT2  - J Virol\nPY  - 2015\nDA  - 2015\nSP  - 89\nEP  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Smith, R.D.\nTI  - Responding to global infectious disease outbreaks: lessons from SARS on the role of risk perception, communication and management\nT2  - Soc Sci Med\nPY  - 2006\nDA  - 2006\nSP  - 63\nEP  - 12\nLA  - \nER  - \n\nTY  - GEN\nTI  - Middle East respiratory syndrome coronavirus (MERS-CoV). World Health Organization, Retrieved 10\nPY  - 2017\nDA  - 2017/04\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, N.\nAU  - Zhou, M.\nAU  - Dong, X.\nTI  - Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study\nT2  - Lancet\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, S.\nAU  - Guo, F.\nAU  - Liu, K.\nTI  - Endocytosis of the receptor-binding domain of SARS-CoV spike protein together with virus receptor ACE2\nT2  - Virus Res\nPY  - 2008\nDA  - 2008\nSP  - 136\nEP  - 1\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yang, Z.Y.\nAU  - Huang, Y.\nAU  - Ganesh, L.\nTI  - pH-dependent entry of severe acute respiratory syndrome coronavirus is mediated by the spike glycoprotein and enhanced by dendritic cell transfer through DC-SIGN\nT2  - J Virol\nPY  - 2004\nDA  - 2004\nSP  - 78\nEP  - 11\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gramberg, T.\nAU  - Hofmann, H.\nAU  - Moller, P.\nTI  - LSECtin interacts with filovirus glycoproteins and the spike protein of SARS coronavirus\nT2  - Virology\nPY  - 2005\nDA  - 2005\nSP  - 340\nEP  - 2\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Marzi, A.\nAU  - Gramberg, T.\nAU  - Simmons, G.\nTI  - DC-SIGN and DC-SIGNR interact with the glycoprotein of Marburg virus and the S protein of severe acute respiratory syndrome coronavirus\nT2  - J Virol\nPY  - 2004\nDA  - 2004\nSP  - 78\nEP  - 21\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Peck, K.M.\nAU  - Scobey, T.\nAU  - Swanstrom, J.\nTI  - Permissivity of Dipeptidyl Peptidase 4 Orthologs to Middle East Respiratory Syndrome Coronavirus Is Governed by Glycosylation and Other Complex Determinants\nT2  - J Virol\nPY  - 2017\nDA  - 2017\nVL  - 91\nC1  - true\nIS  - 19\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Le Page, C.\nAU  - Genin, P.\nAU  - Baines, M.G.\nTI  - Interferon activation and innate immunity\nT2  - Rev Immunogenet\nPY  - 2000\nDA  - 2000\nVL  - 2\nSP  - 374\nEP  - 86\nC1  - true\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Perry, A.K.\nAU  - Chen, G.\nAU  - Zheng, D.\nTI  - The host type I interferon response to viral and bacterial infections\nT2  - Cell Res\nPY  - 2005\nDA  - 2005\nSP  - 15\nEP  - 6\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - McNab, F.\nAU  - Mayer-Barber, K.\nAU  - Sher, A.\nTI  - Type I interferons in infectious disease\nT2  - Nat Rev Immunol\nPY  - 2015\nDA  - 2015\nSP  - 15\nEP  - 2\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hansen, T.H.\nAU  - Bouvier, M.\nTI  - MHC class I antigen presentation: learning from viral evasion strategies\nT2  - Nat Rev Immunol\nPY  - 2009\nDA  - 2009\nSP  - 9\nEP  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Goulder, P.J.\nAU  - Watkins, D.I.\nTI  - Impact of MHC class I diversity on immune control of immunodeficiency virus replication\nT2  - Nat Rev Immunol\nPY  - 2008\nDA  - 2008\nSP  - 8\nEP  - 8\nLA  - \nER  - \n\n",
+        "author_conclusions": [
+            "We conclude that the nCoV-targeted cells (ACE2-expressing), can interact with various cell types in different tissues, especially macrophages in lung, liver and stomach. Macrophages may be recruited by nCoV-targeted cells through CD74-MIF interaction and other signaling pathways during infection, play defensive and destructive functions."
+        ],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "The expression profiles of ACE2 in 13 human tissues. We explored single cell expression maps of ACE2 in lung, liver, stomach, ileum, rectum, colon, blood, bone marrow, spleen, esophagus, kidney, skin and eye, totally comprising 119 cell types (AT1, Alveolar cells"
+            },
+            {
+                "id": "2",
+                "caption": "Pearson correlation coefficients between the curated ssRNA viral receptors and membrane proteins. The warm colors mean positive correlation, and the cold colors mean negative correlation. The stars represent the correlation coefficients greater than 0.8. ANPEP, ENPEP and DPP4 show highest correlation with ACE2"
+            },
+            {
+                "id": "3",
+                "caption": "Cell-cell interactions between cell types in 8 tissues expressing ACE2. (A) The cell-cell interaction analysis in lung, liver, stomach, ileum, rectum, colon, esophagus and kidney was conducted by CellPhoneDB. Cell types are nodes and interactions are edges. Red nodes indicate major cell types expressing ACE2 in each tissue. Size of cell type is proportional to the total number of interactions with the red nodes. (B) The cytokines that connected ACE2expressing cells and the macrophages. Macrophages expression receptors and ACE2expressing cells express ligands"
+            },
+            {
+                "id": "S1",
+                "caption": "Cell type identification in 13 human tissues. The cell types were annotated by curated known cell markers searched from their corresponding publications (see Table S1 and materials and methods)"
+            },
+            {
+                "id": "S2",
+                "caption": "Cell type proportion for each human tissue. Proportion of each cell type was calculated for each tissue"
+            },
+            {
+                "id": "S3",
+                "caption": "Heatmap of ANPEP, ENPEP and DPP4 expression in 13 human tissues. We depicted single cell expression maps of ANPEP, ENPEP and DPP4 in lung, liver, stomach, ileum, rectum, colon, blood, bone marrow, spleen, esophagus, kidney, skin and eye, totally including 119 cell types. The expression was were log scaled"
+            },
+            {
+                "id": "S4",
+                "caption": "Violin plot of ANPEP, ENPEP and DPP4 expression in 13 human tissues"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.951913.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.951913.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.951913.full/img-002.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "In December, 2019, a novel coronavirus (2019-nCoV) infection emerged in Wuhan. Over<br/><br/>30 thousand of people are infected with 2019-nCoV until February 8, showing that 2019-nCoV is highly contagious. Coronavirus is a type of single-stranded RNA (ssRNA) virus [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] Before the emergence of 2019-nCoV, there are 6 known human coronaviruses, including the Middle East respiratory syndrom coronavirus (MERS-CoV) and severe acute respiratory syndrome coronavirus (SARS-CoV). The symptoms caused by 2019-nCoV infection include acute respiratory distress syndrome (~29%), acute cardiac injury (~12%) or acute kidney injury (~7%)[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], implying that 2019-nCoV may infect various human tissues.<br/><br/>Viruses bind to host receptors on target cell surface to establish infection. Membrane proteins mediated membrane fusion allowed the entry of enveloped viruses[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. As recently reported, both nCoV and SARS-CoV could use ACE2 protein to gain entry into the cells[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Since the outbreak, many data analysis have showed a wide distribution of ACE2 across human tissues, including lung[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], liver[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], stomach[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], ileum[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], colon[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] and kidney[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], indicating that 2019-nCoV may infect multiple organs. However, these data showed that AT2 cell (the main target cell of 2019-nCoV) in the lung actually expressed rather low levels of ACE2[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Hence, the nCoVs may depends on co-receptor or other auxiliary membrane proteins to facilitate its infection. It is reported that viruses tend to hijack co-expressed proteins as their host factors[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. For example, Hoffmann et al recently showed that 2019-nCoV-S uses ACE2 for entry and depends on the cellular protease TMPRSS2 for priming[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], showing that 2019nCoV infections also require multiple factors. Understanding the receptors usage by the viruses could facilitate the development of intervention strategies. Therefore, identifying the potential co-receptors or auxiliary membrane proteins for 2019-nCoV is of great significance."
+        ],
+        "methods": [
+            "Data collection<br/><br/>The gene raw counts or normalized gene expression matrix for each single cell were downloaded from GEO (https://www.ncbi.nlm.nih.gov/geo/) or Human Cell Atlas (https://www.humancellatlas.org) database (Table S1). In total, we collected single cell gene expression data of 13 tissues, including liver, lung, colon, ileum, rectum, blood, spleen, bone marrow, eye, skin, stomach, oesophagus and kidney. The data source and the sample information are listed as follows. Liver, GEO Accession No GSE115469, 5 normal human donors; Lung, GEO Accession No GSE130148, 4 human donors died from hypoxic brain damage; Colon, GEO Accession No GSE116222, 3 healthy volunteers; Ileum and rectum, GEO Accession No GSE125970, totally 4 intestine mucosae sampled at least 10 cm away from the tumor border; Skin, GEO Accession No GSE132802, 4 healthy volunteers; PBMC, GEO Accession No GSE136103, 4 samples from cirrhotic patients; Spleen and oesophagus, available from Human Cell Atlas, totally 11 cardiac death donors; Bone marrow, GEO Accession No GSE120221, 5 healthy donors (A, E, J, R, U); Eye, GEO Accession No GSE135922, 3 Macula and 3 periphery of human donor eyes; Stomach, GEO Accession No GSE134520, 3 Non-atrophic gastritis patients; Kidney, GEO Accession No GSE131685, 3 normal kidney tissues obtained at least 2 cm away from tumor tissue.<br/><br/>The high-quality virus-host receptor interactions were downloaded from Viral Receptor database (http://www.computationalbiology.cn:5000/viralReceptor), which curated 152 pairs of mammalian virus-host receptor interactions and 51 virus receptors from 9 mammal species. They curated five types of virus, consisting of single-stranded DNA (ssDNA) virus, doublestranded (dsDNA) virus, single-stranded (ssRNA) virus, double-stranded (dsRNA) virus and retro-transcribing virus. We only focus on ssRNA virus in this study. The membrane proteins were extracted from Membranome database (https://membranome.org). Data processing, quality control and normalization"
+        ],
+        "results": [
+            "Cell type identification in 13 human tissues<br/><br/>We collected the single cell RNA sequencing data (raw count gene expression matrix or normalized gene expression matrix) from published literatures, which have been deposited in public database, e.g. GEO (https://www.ncbi.nlm.nih.gov/geo/) or Human Cell Atlas (https://www.humancellatlas.org). Totally, we curated single cell gene expression matrices of 13 human tissues, including lung[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], liver[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], ileum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], rectum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], blood[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], bone marrow[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], skin[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], spleen[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], esophagus[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], colon[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], eye[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>], stomach[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and kidney[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] (Table S1). The raw count matrix was normalized and scaled by Seurat package[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] (Materials and Methods). For each tissue, we performed cell clustering and dimension reduction on gene expression matrix using Seurat package. After filtering out low quality cells, we obtained 8443, 43474, 4248, 5282, 3279, 30693, 97695, 17131,4335, 11552, 4871, 8880, 20197 cells from liver, lung, colon, ileum, rectum, blood, spleen, bone marrow, eye, skin, stomach, esophagus and kidney, respectively (Table S1). The cell clusters were then annotated using canonical markers searched from the published articles (Figure S1). We finally annotated 119 cell types from 13 human tissues."
+        ],
+        "discussion": [
+            "The coronaviruses are a large family of ssRNA viruses causing respiratory diseases in humans. Most of the coronaviruses are associated with mild clinical symptoms, except SARSCoV and MERS-CoV, showing fatality rate of 9.6% and 34%, respectively[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>, <a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]. In late December 2019, a novel coronavirus, named 2019-nCoV, emerged in Wuhan, Hubei, China. A total of 37,251 2019-nCoV infected cases involving across different regions of China have been confirmed until February 9, 2020, suggesting that 2019-nCoV is also highly infectious. The phylogenic tree constructed from full-genome sequences indicated that 2019-nCoV is a distinct clade from SARS-CoV and MERS-CoV[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The most common symptoms of patients infected with 2019-nCoV are fever and cough[<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]."
+        ],
+        "disclosures": [
+            "<strong>Declaration of interest statement</strong><br/><br/>No potential conflict of interest was reported by the author(s)."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Table S1",
+                "Figure S1",
+                "Figure S2",
+                "Table S2",
+                "Figure S3",
+                "Figure S4"
+            ]
+        }
+    },
+    "structured_content": {
+        "Introduction": [
+            "In December, 2019, a novel coronavirus (2019-nCoV) infection emerged in Wuhan. Over",
+            "30 thousand of people are infected with 2019-nCoV until February 8, showing that 2019-nCoV is highly contagious. Coronavirus is a type of single-stranded RNA (ssRNA) virus [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] Before the emergence of 2019-nCoV, there are 6 known human coronaviruses, including the Middle East respiratory syndrom coronavirus (MERS-CoV) and severe acute respiratory syndrome coronavirus (SARS-CoV). The symptoms caused by 2019-nCoV infection include acute respiratory distress syndrome (~29%), acute cardiac injury (~12%) or acute kidney injury (~7%)[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], implying that 2019-nCoV may infect various human tissues.",
+            "Viruses bind to host receptors on target cell surface to establish infection. Membrane proteins mediated membrane fusion allowed the entry of enveloped viruses[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. As recently reported, both nCoV and SARS-CoV could use ACE2 protein to gain entry into the cells[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Since the outbreak, many data analysis have showed a wide distribution of ACE2 across human tissues, including lung[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], liver[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], stomach[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], ileum[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], colon[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] and kidney[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], indicating that 2019-nCoV may infect multiple organs. However, these data showed that AT2 cell (the main target cell of 2019-nCoV) in the lung actually expressed rather low levels of ACE2[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Hence, the nCoVs may depends on co-receptor or other auxiliary membrane proteins to facilitate its infection. It is reported that viruses tend to hijack co-expressed proteins as their host factors[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. For example, Hoffmann et al recently showed that 2019-nCoV-S uses ACE2 for entry and depends on the cellular protease TMPRSS2 for priming[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], showing that 2019nCoV infections also require multiple factors. Understanding the receptors usage by the viruses could facilitate the development of intervention strategies. Therefore, identifying the potential co-receptors or auxiliary membrane proteins for 2019-nCoV is of great significance.",
+            "For this purpose, we collected single cell gene expression matrices from 13 relatively normal human tissues, consisting of lung[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], liver[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], ileum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], rectum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], blood[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], bone marrow[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], skin[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], spleen[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], esophagus[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], colon[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], eye[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>], stomach[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and kidney[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] from published literatures. We analyzed the single cell co-expression profiles of 51 known ssRNA viral receptors and 400 membrane proteins, including ACE2, in the identified 119 cell types across the 13 human tissues. Consistent with other recent studies, ACE2 was found to be present in lung, liver, stomach, ileum, kidney and colon. Using hierarchy clustering and correlation calculation, we found that ANPEP, DPP4 and ENPEP showed co-expression pattern with ACE2 across the 13 human tissues, suggesting that they may act as potential coreceptors for 2019-nCoV, and all human CoVs should have similar targets across different human tissues..After conducting \u201cCellPhoneDB\u201d, we further reveal that macrophages frequently crosstalks with CoVs-target cells, in multiple tissues."
+        ],
+        "Materials and Methods": [
+            "The gene raw counts or normalized gene expression matrix for each single cell were downloaded from GEO (https://www.ncbi.nlm.nih.gov/geo/) or Human Cell Atlas (https://www.humancellatlas.org) database (Table S1). In total, we collected single cell gene expression data of 13 tissues, including liver, lung, colon, ileum, rectum, blood, spleen, bone marrow, eye, skin, stomach, oesophagus and kidney. The data source and the sample information are listed as follows. Liver, GEO Accession No GSE115469, 5 normal human donors; Lung, GEO Accession No GSE130148, 4 human donors died from hypoxic brain damage; Colon, GEO Accession No GSE116222, 3 healthy volunteers; Ileum and rectum, GEO Accession No GSE125970, totally 4 intestine mucosae sampled at least 10 cm away from the tumor border; Skin, GEO Accession No GSE132802, 4 healthy volunteers; PBMC, GEO Accession No GSE136103, 4 samples from cirrhotic patients; Spleen and oesophagus, available from Human Cell Atlas, totally 11 cardiac death donors; Bone marrow, GEO Accession No GSE120221, 5 healthy donors (A, E, J, R, U); Eye, GEO Accession No GSE135922, 3 Macula and 3 periphery of human donor eyes; Stomach, GEO Accession No GSE134520, 3 Non-atrophic gastritis patients; Kidney, GEO Accession No GSE131685, 3 normal kidney tissues obtained at least 2 cm away from tumor tissue.",
+            "The high-quality virus-host receptor interactions were downloaded from Viral Receptor database (http://www.computationalbiology.cn:5000/viralReceptor), which curated 152 pairs of mammalian virus-host receptor interactions and 51 virus receptors from 9 mammal species. They curated five types of virus, consisting of single-stranded DNA (ssDNA) virus, doublestranded (dsDNA) virus, single-stranded (ssRNA) virus, double-stranded (dsRNA) virus and retro-transcribing virus. We only focus on ssRNA virus in this study. The membrane proteins were extracted from Membranome database (https://membranome.org). Data processing, quality control and normalization",
+            "The raw count matrix (UMI counts per gene per cell) was processed by Seurat[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. Cells with less than 100 expressed genes (UMI count > 0) and higher than 25% mitochondrial genome transcript were removed. Genes expressed in less than three cells were removed. Then, we normalized the gene expression data using \u201cNormalizeData\u201d function with default settings. The sources of cell-cell variation driven by batch were regressed out using the number of detected UMI and mitochondrial gene expression, which was implemented by \u2018\u2018ScaleData\u2019\u2019 function. The corrected expression matrix was used for cell clustering and dimensional reduction. Cell clustering, dimensional reduction and visualization",
+            "The cell clustering and dimensional reduction were performed by Seurat package. Before that, we choose 2000 highly variable genes (HVGs) from the corrected expression matrix and then centered and scaled them. It was implemented by \u2018\u2018FindVariableGenes\u2019\u2019 function in the Seurat package. We then performed principle component analysis (PCA) on the HVGs using \u2018\u2018RunPCA\u2019\u2019 function. To remove the signal-to-noise ratio, we select a number of significant principal components by implementing \u201cJackStraw\u201d function, which was implemented by permutation test. Specifically, we firstly identified 50 principal components as a result and then selected the significant components according to the p-values produced by \u201cScoreJackStraw\u201d function for further analysis. The batch effects were removed by harmony package[<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>].",
+            "Cells were then clustered utilizing the \u2018\u2018FindClusters\u2019\u2019 function through embedding cells into a graph structure in PCA space. We set the parameter resolution as 0.8 to identify only major cell types, e.g. T cells, B cells or macrophages. The clustered cells were then projected onto a two-dimensional space using \u201cRunUMAP\u201d function. The clustering results were visualized by \u201cDimPlot\u201d function. Cell type identification",
+            "To annotate cell clusters, we firstly identified the differentially expressed genes on each cluster by performing \u201cFindMarkers\u201d function. The cell clusters were then annotated according to curated known cell markers (Figure S1). The cell clusters consistently expressed the same cell marker were merged. Cell-cell interaction analysis",
+            "We conducted cell-cell interaction analysis utilizing cellphonedb function curated by CellPhoneDB database[<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. The significant cell-cell interactions were selected with p-value < 0.01."
+        ],
+        "Results": [
+            "We collected the single cell RNA sequencing data (raw count gene expression matrix or normalized gene expression matrix) from published literatures, which have been deposited in public database, e.g. GEO (https://www.ncbi.nlm.nih.gov/geo/) or Human Cell Atlas (https://www.humancellatlas.org). Totally, we curated single cell gene expression matrices of 13 human tissues, including lung[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], liver[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], ileum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], rectum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], blood[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], bone marrow[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], skin[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], spleen[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], esophagus[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], colon[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], eye[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>], stomach[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and kidney[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] (Table S1). The raw count matrix was normalized and scaled by Seurat package[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] (Materials and Methods). For each tissue, we performed cell clustering and dimension reduction on gene expression matrix using Seurat package. After filtering out low quality cells, we obtained 8443, 43474, 4248, 5282, 3279, 30693, 97695, 17131,4335, 11552, 4871, 8880, 20197 cells from liver, lung, colon, ileum, rectum, blood, spleen, bone marrow, eye, skin, stomach, esophagus and kidney, respectively (Table S1). The cell clusters were then annotated using canonical markers searched from the published articles (Figure S1). We finally annotated 119 cell types from 13 human tissues.",
+            "Lung belongs to respiratory system, in which 13 cell types were identified (Figure S2). These cell types consist of macrophages, Alveolar Type 2 cells (AT2), monocytes, NK&T cells, ciliated cells, basal cells, mast cells, neutrophils, Alveolar Type 1 cells (AT1), fibroblasts, endothelial cells, lymphatic cells and B cells. Among them, ~31% cells are alveolar cells (AT2 and AT1) and ~54% cells are immune cells (B cells, T cells and Myeloid cells).",
+            "Ileum, rectum, esophagus, colon, and stomach are part of digestive system. In esophagus, 7 cell types were identified (Figure S2). Keratinocytes show the highest percentage (~66%) of total cells. The remaining cells are B cells, epithelial basal cells, glands cells, stroma cells, T cells and vessel cells. We detected 11 cell types in stomach (Figure S2), in which epithelial cells (~29%) and pit mucous cell (PMCs) (~23%) constitute the largest group. Besides, B cells, endothelial cells (ECs), enteroendocrine cells, fibroblasts, antral basal gland mucous cell (GMCs), macrophages, neck-like cells, proliferative cell (PCs) and T cells were identified in stomach. In ileum (Figure S2), 7 cell types, including enterocytes (ECs), enteroendocrine cells (EECs), goblet cells (Gs), Paneth cells (PCs), progenitor cells (PROs), stem cells (SCs), transient amplifying (TAs), were annotated. Enterocytes are the largest cell population (~64%) in ileum. Rectum share cell types with ileum. Whereas, the largest cell population in rectum is progenitor cells (~37%). A total of 9 cell types was detected in colon (Figure S2). The percentage of colonocytes (colonocytes and crypt top colonocytes) is 53%, which constitute the largest cell population in colon. BEST4+ cells, enteroendocrine cells (EECs), goblet cells, innate lymphoid cells, mast cells, T cells and undifferentiated cells were also identified.",
+            "Liver, spleen and skin play vital roles in immune systems. Immune cells (~45%) and hepatocyte (~42%) account for the vast majority of cells in liver (Figure S2). Cholangiocytes, endothelial cells and erthyroid cells were also detected. Spleen is the immune organs in human body, in which all the cells are immune cells (Figure S2). Spleen composed of a large proportion of T cells (~33%) and B cells (~43%). Other immune cells, including CD34 progenitor cells, cDCs, dividing cells, innate lymphoid cells, macrophages, monocytes, neutrophils, NK cells and pDCs, also make up the spleen cell populations. Skin is a physical barrier against the external environment. We identified a total of 7 cell populations in skin (Figure S2), in which pericytes (~31%) and fibroblasts (~21%) are the most enriched populations. The immune cells, comprising T cells and myeloid cells were also identified. In addition, basal cells, endothelium cells, and suprabasal keratinocyte constitute the skin cell populations.",
+            "The kidneys are the part of urinary system that makes urine. Most of the cells in kidney are proximal tubule cells (Proximal Ts) (~82%) (Figure S2). Besides, we also annotated immune cells (~8%), collecting duct intercalated cells (Collecting DIs), collecting duct principal cells (Collecting DPs), distal tubule cells (Distal Ts) and glomerular parietal epithelial cells (Glomerular PEs) in kidney.",
+            "The eyes are sensory organs in nervous system. Ten cell types were identified in eyes (Figure S2). Fibroblasts and immune cells composed of ~31% and ~25% of total cells, respectively. Eyes also contain endothelial cells, melanocytes, pericytes, retinal pigment epithelium (RPEs) and Schwann cells.",
+            "Bone marrow is the primary site of hematopoiesis. We identified large number of NK/NKT cells (~44%) and erythrocytes (~28%) cells in bone marrow (Figure S2). B cells, hematopoietic stem cells, MK progenitors, monocytes, neutrophils and DCs were also detected in bone marrow.",
+            "Blood is circulated around various tissues. Monocytes (~32%) and T cells (~55%) make up the largest proportion of blood cells (Figure S2). In addition, we also identified B cells, cDCs, macrophages, NK cells, pDCs and platelets in blood.",
+            "These 13 tissues play different roles in virus infection and proliferation. For the viral life cycle, the viruses firstly bind the host receptors on the cell surface. Hence, the distribution of viral receptors in different cell types of diverse tissues can reveal the viral tropism and potential transmission routes. We therefore explored the expression spectrum of host receptors in the following section.",
+            "Expression atlas of ACE2, ssRNA viral receptors and other membrane proteins in 13 human tissues",
+            "We firstly analyzed the expression pattern of ACE2 across 13 tissues (Figure 1). Our results reveal that ACE2 expresses in lung AT2, liver cholangiocyte, colon colonocytes, esophagus keratinocytes, ileum ECs, rectum ECs, stomach epithelial cells, and kidney proximal tubules, consistent with the recent reports[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>-<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. However, ACE2 expression levels are rather low in lung AT2 (4.7-fold lower than the average expression level of all ACE2 expressing cell types). We assume that the presence of co-receptors or other auxiliary membrane proteins in AT2 cells may facilitate the binding and entry of the nCoV.",
+            "We then analyzed the co-expression features of the human ssRNA viral receptors and membrane proteins. We collected a total of 152 pairs of virus-host receptor interaction from Viral Receptor database[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] (http://www.computationalbiology.cn:5000/viralReceptor) which curated a number of validated viral receptors. These virus-host receptor interactions contain 51",
+            "host receptors in 9 hosts and 96 viruses (Table S2). Furthermore, 400 membrane proteins were extracted from Membranome database[<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] (https://membranome.org). Totally 451 genes were curated, 95.7% (432/451) of which express in at least one of the 13 tissues. We examined the expression spectrum of the 432 genes across the 119 cell types.",
+            "To elaborate the potential relationship between ACE2 and other membrane proteins or viral receptors, we calculated the Pearson Correlation Coefficient between each two genes in the curated reservoir. The findings show that 94 genes are significantly correlated with ACE2 (P<0.01) in a manner of gene expression. Of note, ANPEP, ENPEP and DPP4 are the top three genes correlated with ACE2 (R>0.8) (Figure 2). ANPEP, alanyl aminopeptidase, is a host receptor targeted by porcine epidemic diarrhea virus, human coronavirus 229E, feline coronavirus, canine coronavirus, transmissible gastroenteritis virus and infectious bronchitis virus. These viruses all belong to Coronaviridae. Besides skin, ANPEP also mainly expresses in colon, ileum, rectum, kidney and liver (Figure S3 & Figure S4), demonstrating that receptor of coronavirus may have similar expression profiles in human body. ENPEP, Glutamyl Aminopeptidase, belongs to the peptidase M1 family which is the mammalian type II integral membrane zinc-containing endopeptidases. ENPEP regulates blood pressure regulation and blood vessel formation through the catabolic pathway of the renin-angiotensin system[<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]. The relationship between ENPEP and viral infection is unknown. DPP4, the receptor of MERS-CoV, shows expression similarity with ACE2, except that DPP4 expresses in some T cells of all the observed tissues (Figure S3 & Figure S4). All of the three genes encode peptidase, which are uniquely adopted by coronavirus as their receptors [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]. This result raised the possibility that ENPEP may be another yet unknown receptor for coronavirus. To further consolidate the findings, we calculated the Euclidean distance between all the curated proteins and constructed their hierarchy relationships across the 119 cell types. DPP4 was the first gene clustered with ACE2.",
+            "Together, our data demonstrates that the coronavirus receptors tend to share co-expression pattern across different tissues, consistent with the fact that CoVs infect similar types of cells and CoV-infected patients share similar clinical symptoms.",
+            "Virus-infected cells can recruit and modulate immune cells through secreting chemokines or other cytokines. We sought to identify potential immune cells crosstalking with CoVs-targeted cells. The cell-cell interaction analysis was conducted by CellPhoneDB[<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. The interactions with p-value < 0.01 were adopted to construct the interaction relationship between cell types in each tissue.",
+            "Using the cell type expressing ACE2 as ligand-secreting cells, we calculated the total number of interactions with each receptor-secreting cell type. As a result, we found that macrophages showed highest active interaction with ACE2-expressing cells in liver, lung and stomach (Figure 3A) sharing a CD74-MIF signaling pairs (Figure 3B). CD74 is expressed on the cell surface of antigen-presenting cells and act as a receptor for the cytokine in immune cells. MIF, macrophage migration inhibitory factor, is a pro-inflammatory cytokine participating in inflammatory and immune responses. Besides, PROs, SCs and TAs show high activity responding to the ACE2-expressing cells in ileum and rectum. In colon, ILCs were found frequently interacted with the ACE2-expressing cells. Glomerular parietal epithelial cells and epithelial basal cells in kidney and esophagus also correlated with the cells transcribing ACE2 at very high frequency.",
+            "We conclude that the nCoV-targeted cells (ACE2-expressing), can interact with various cell types in different tissues, especially macrophages in lung, liver and stomach. Macrophages may be recruited by nCoV-targeted cells through CD74-MIF interaction and other signaling pathways during infection, play defensive and destructive functions."
+        ],
+        "Discussion": [
+            "The coronaviruses are a large family of ssRNA viruses causing respiratory diseases in humans. Most of the coronaviruses are associated with mild clinical symptoms, except SARSCoV and MERS-CoV, showing fatality rate of 9.6% and 34%, respectively[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>, <a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]. In late December 2019, a novel coronavirus, named 2019-nCoV, emerged in Wuhan, Hubei, China. A total of 37,251 2019-nCoV infected cases involving across different regions of China have been confirmed until February 9, 2020, suggesting that 2019-nCoV is also highly infectious. The phylogenic tree constructed from full-genome sequences indicated that 2019-nCoV is a distinct clade from SARS-CoV and MERS-CoV[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The most common symptoms of patients infected with 2019-nCoV are fever and cough[<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>].",
+            "However, a proportion of patients showing multi-organ damage and dysfunction was also observed, including acute respiratory distress syndrome (17%), acute respiratory injury (8%) and acute renal injury (3%). It is also increasingly recognized that 2019-nCoV could be transmitted via multiple routes.",
+            "The viruses target host cells via binding host receptors before engaging the infection cycle. ACE2 was proved to be the cell receptor of 2019-nCoV, the same receptor as SARS-CoV[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>, <a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. The expression profiles of ACE2 across different cell types of different organs will reveal clues of the virus transmission routes and its potential pathogenesis. In previous studies, ACE2 was found to express in the esophagus upper and stratified epithelial cells, absorptive enterocytes from ileum and colon, alveolar type II cells in lung, liver cholangiocyte and kidney proximal tubules [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>-<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. These findings suggested that the clinical symptoms of hepatic failure, respiratory injury, acute kidney injury or diarrhoea may be associated with the pervasive ACE2 expressing cells in these tissues. However, we and others found that ACE2 is lowly expressed, especially in the lung (the main target organ of nCoVs), raising the possible existence of coreceptors facilitating nCoV infection. It is well recognized that ssRNA viruses tend to have multiple receptors[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. For example, ACE2, CD209 (Dendritic Cell-Specific ICAM-3-Grabbing Non-Integrin 1), CLEC4G (C-type lectin domain family 4 member G) and CLEC4M (C-type lectin domain family 4 member M) are receptors of SARS-CoV[<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>-<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>]. In addition, other membrane proteins may also assist virus entry[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Since the viral receptor and co-receptors should be co-expressed on the same cell types, we analyzed single cell co-expression patterns covering 400 membrane proteins and 51 known viral receptors in this study. After calculating their gene expression similarity, we found ANPEP, ENPEP and DPP4 are top three genes correlated with ACE4 (R>0.8). Interestingly, both ANPEP and DPP4 are viral receptors of human coronaviruses [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>], while ENPEP is also a peptidase, despite that its involvement in virus infection is unclear. For mysterious reasons, human coronaviruses use peptidases as their receptors[<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]. Now, we showed co-expression profiles of these molecules, indicating that different human CoVs actually target the similar cell types across different human tissues. It also explains why,patients infected with different human CoVs manifest similar clinical symptoms. We propose that further experimental validations should be performed to explore the role of these peptidase in 2019-nCoV and other CoVs infection.",
+            "Host immune response plays crucial roles in the fight against viruses. Generally, virally infected cells release interferons to suppress viral activities [<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>-<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>]. The interferons also act on warning the neighboring cells of virus attack. It can signify the the nearby cells to upregulate MHC class I molecules to notify the CD8+ T cells to identify and eliminate the viral infection[<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>, <a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]. Understand the potential cell-cell communication mechanisms across different tissues is important for understanding immune reactions. In this study, we investigated the cells communicated with CoVs-targets (ACE2-expressing cells) in each tissue. Our results illustrate that macrophages frequently crosstalk with the ACE2-expressing cells, in lung, liver and stomach etc. This suggests that macrophages play the sentinel role during human CoVs infection. Future studies should investigate these signaling pairs in the setting of CoVs infection in patients and animal models.",
+            "Declaration of interest statement No potential conflict of interest was reported by the author(s)."
+        ],
+        "References": [
+            "Ahlquist, P., A.O. Noueiry, W.M. Lee, et al, Host factors in positive-strand RNA virus genome replication. J Virol, 2003. 77(15): p. 8181-6.",
+            "Huang, C., Y. Wang, X. Li, et al, Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet, 2020.",
+            "Chazal, N. and D. Gerlier, Virus entry, assembly, budding, and membrane rafts. Microbiol Mol",
+            "Biol Rev, 2003. 67(2): p. 226-37, table of contents.",
+            "Lu, R., X. Zhao, J. Li, et al, Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet, 2020.",
+            "Zhao, Y., Z. Zhao, Y. Wang, et al, Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov. bioRxiv, 2020: p. 2020.01.26.919985.",
+            "Chai, X., L. Hu, Y. Zhang, et al, Specific ACE2 Expression in Cholangiocytes May Cause Liver",
+            "Damage After 2019-nCoV Infection. bioRxiv, 2020: p. 2020.02.03.931766.",
+            "Zhang, H., Z. Kang, H. Gong, et al, The digestive system is a potential route of 2019-nCov infection: a bioinformatics analysis based on single-cell transcriptomes. bioRxiv, 2020: p.",
+            "8.",
+            "Xin Zou, K.C., Jiawei Zou, Peiyi Han, Jie Hao, Zeguang Han, The single-cell RNA-seq data analysis on the receptor ACE2 expression reveals the potential risk of different human organs vulnerable to Wuhan 2019-nCoV infection. Front. Med.: p. 0-.",
+            "Zhang, Z., Z. Zhu, W. Chen, et al, Cell membrane proteins with high N-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors.",
+            "Bioinformatics, 2019. 35(5): p. 723-728.",
+            "10. Hoffmann, M., H. Kleine-Weber, N. Kr\u00fcger, et al, The novel coronavirus 2019 (2019-nCoV)",
+            "uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells. bioRxiv, 2020: p. 2020.01.31.929042.",
+            "11. Reyfman, P.A., J.M. Walter, N. Joshi, et al, Single-Cell Transcriptomic Analysis of Human Lung",
+            "Provides Insights into the Pathobiology of Pulmonary Fibrosis. Am J Respir Crit Care Med, 2019. 199(12): p. 1517-1536.",
+            "12. MacParland, S.A., J.C. Liu, X.Z. Ma, et al, Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations. Nat Commun, 2018. 9(1): p. 4383.",
+            "13. Wang, Y., W. Song, J. Wang, et al, Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine. J Exp Med, 2020. 217(2).",
+            "14. Dobie, R., J.R. Wilson-Kanamori, B.E.P. Henderson, et al, Single-Cell Transcriptomics",
+            "Uncovers Zonation of Function in the Mesenchyme during Liver Fibrosis. Cell Rep, 2019. 29(7): p. 1832-1847 e8.",
+            "15. Oetjen, K.A., K.E. Lindblad, M. Goswami, et al, Human bone marrow assessment by singlecell RNA sequencing, mass cytometry, and flow cytometry. JCI Insight, 2018. 3(23).",
+            "16. Kim, D., T. Kobayashi, B. Voisin, et al, Targeted therapy guided by single-cell transcriptomic analysis in drug-induced hypersensitivity syndrome: a case report. Nat Med, 2020.",
+            "17. Madissoon, E., A. Wilbrey-Clark, R.J. Miragaia, et al, scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation. Genome Biol, 2019. 21(1): p. 1.",
+            "18. Parikh, K., A. Antanaviciute, D. Fawkner-Corbett, et al, Colonic epithelial cell diversity in health and inflammatory bowel disease. Nature, 2019. 567(7746): p. 49-55.",
+            "19. Voigt, A.P., K. Mulfaul, N.K. Mullin, et al, Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration. Proc Natl Acad Sci U S",
+            "A, 2019. 116(48): p. 24100-24107.",
+            "20. Zhang, P., M. Yang, Y. Zhang, et al, Dissecting the Single-Cell Transcriptome Network",
+            "Underlying Gastric Premalignant Lesions and Early Gastric Cancer. Cell Rep, 2019. 27(6): p.",
+            "1934-1947 e5.",
+            "21. Liao, J., Z. Yu, Y. Chen, et al, Single-cell RNA sequencing of human kidney. Sci Data, 2020.",
+            "7(1): p. 4.",
+            "22. Stuart, T., A. Butler, P. Hoffman, et al, Comprehensive Integration of Single-Cell Data. Cell, 2019. 177(7): p. 1888-1902 e21.",
+            "23. Korsunsky, I., N. Millard, J. Fan, et al, Fast, sensitive and accurate integration of single-cell data with Harmony. Nat Methods, 2019. 16(12): p. 1289-1296.",
+            "24. Efremova, M., M. Vento-Tormo, S.A. Teichmann, et al, CellPhoneDB v2.0: Inferring cell-cell communication from combined expression of multi-subunit receptor-ligand complexes. bioRxiv, 2019: p. 680926.",
+            "25. Lomize, A.L., M.A. Lomize, S.R. Krolicki, et al, Membranome: a database for proteome-wide analysis of single-pass membrane proteins. Nucleic Acids Res, 2017. 45(D1): p. D250-D255.",
+            "26. Holmes, R.S., K.D. Spradling-Reeves and L.A. Cox, Mammalian Glutamyl Aminopeptidase",
+            "Genes (ENPEP) and Proteins: Comparative Studies of a Major Contributor to Arterial Hypertension. J Data Mining Genomics Proteomics, 2017. 8(2). 27. Li, F., Receptor recognition mechanisms of coronaviruses: a decade of structural studies. J Virol, 2015. 89(4): p. 1954-64. 28. Smith, R.D., Responding to global infectious disease outbreaks: lessons from SARS on the role of risk perception, communication and management. Soc Sci Med, 2006. 63(12): p. 3113-23. 29. Middle East respiratory syndrome coronavirus (MERS-CoV). World Health Organization, Retrieved 10 April 2017. 30. Chen, N., M. Zhou, X. Dong, et al, Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet, 2020. 31. Wang, S., F. Guo, K. Liu, et al, Endocytosis of the receptor-binding domain of SARS-CoV spike protein together with virus receptor ACE2. Virus Res, 2008. 136(1-2): p. 8-15. 32. Yang, Z.Y., Y. Huang, L. Ganesh, et al, pH-dependent entry of severe acute respiratory syndrome coronavirus is mediated by the spike glycoprotein and enhanced by dendritic cell transfer through DC-SIGN. J Virol, 2004. 78(11): p. 5642-50. 33. Gramberg, T., H. Hofmann, P. Moller, et al, LSECtin interacts with filovirus glycoproteins and the spike protein of SARS coronavirus. Virology, 2005. 340(2): p. 224-36. 34. Marzi, A., T. Gramberg, G. Simmons, et al, DC-SIGN and DC-SIGNR interact with the glycoprotein of Marburg virus and the S protein of severe acute respiratory syndrome coronavirus. J Virol, 2004. 78(21): p. 12090-5. 35. Peck, K.M., T. Scobey, J. Swanstrom, et al, Permissivity of Dipeptidyl Peptidase 4 Orthologs to Middle East Respiratory Syndrome Coronavirus Is Governed by Glycosylation and Other Complex Determinants. J Virol, 2017. 91(19). 36. Le Page, C., P. Genin, M.G. Baines, et al, Interferon activation and innate immunity. Rev Immunogenet, 2000. 2(3): p. 374-86. 37. Perry, A.K., G. Chen, D. Zheng, et al, The host type I interferon response to viral and bacterial infections. Cell Res, 2005. 15(6): p. 407-22. 38. McNab, F., K. Mayer-Barber, A. Sher, et al, Type I interferons in infectious disease. Nat Rev Immunol, 2015. 15(2): p. 87-103. 39. Hansen, T.H. and M. Bouvier, MHC class I antigen presentation: learning from viral evasion strategies. Nat Rev Immunol, 2009. 9(7): p. 503-13. 40. Goulder, P.J. and D.I. Watkins, Impact of MHC class I diversity on immune control of immunodeficiency virus replication. Nat Rev Immunol, 2008. 8(8): p. 619-30."
+        ],
+        "Figure captions": [
+            "Type2; AT2, Alveolar cells Type2; PMCs, pit mucous cells; ECs, endothelial cells; GMCs, antral basal gland mucous cells; PCs, proliferative cells in stomach and Paneth cells in ileum; ECs, enterocytes, EECs, enteroendocrine cells; Gs, goblet cells; PROs, progenitor cells; SCs, stem cells; TAs, transient amplifying; EECs, enteroendocrine cells; RPEs, retinal pigment epithelium). None of the ACE2 transcripts was found in bone marrow and blood. Figure 2 Pearson correlation coefficients between the curated ssRNA viral receptors and membrane proteins. The warm colors mean positive correlation, and the cold colors mean negative correlation. The stars represent the correlation coefficients greater than 0.8. ANPEP, ENPEP and DPP4 show highest correlation with ACE2. Figure 3 Cell-cell interactions between cell types in 8 tissues expressing ACE2. (A) The cell-cell interaction analysis in lung, liver, stomach, ileum, rectum, colon, esophagus and kidney was conducted by CellPhoneDB. Cell types are nodes and interactions are edges. Red nodes indicate major cell types expressing ACE2 in each tissue. Size of cell type is proportional to the total number of interactions with the red nodes. (B) The cytokines that connected ACE2expressing cells and the macrophages. Macrophages expression receptors and ACE2expressing cells express ligands."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "normal human donors",
+            "number": 5,
+            "context": "The data source and the sample information are listed as follows. <mark class=\"stats\">Liver, GEO Accession No GSE115469, 5 normal human donors; Lung, GEO Accession No GSE130148, 4 human donors died from hypoxic brain damage; Colon, GEO Accession No GSE116222, 3 healthy volunteers; Ileum and rectum, GEO Accession No GSE125970, totally 4 intestine mucosae sampled at least 10 cm away from the tumor border; Skin, GEO Accession No GSE132802, 4 healthy volunteers; PBMC, GEO Accession No GSE136103, 4 samples from cirrhotic patients; Spleen and oesophagus, available from Human Cell Atlas, totally 11 cardiac death donors; Bone marrow, GEO Accession No GSE120221, 5 healthy donors (A, E, J, R, U); Eye, GEO Accession No GSE135922, 3 Macula and 3 periphery of human donor eyes; Stomach, GEO Accession No GSE134520, 3 Non-atrophic gastritis patients; Kidney, GEO Accession No GSE131685, 3 normal kidney tissues obtained at least 2 cm away from tumor tissue.<br/><br/>The high-quality virus-host receptor interactions were downloaded from Viral Receptor database (http://www.computationalbiology.cn:5000/viralReceptor), which curated 152 pairs of mammalian virus-host receptor interactions and 51 virus receptors from 9 mammal species</mark>. They curated five types of virus, consisting of single-stranded DNA (ssDNA) virus, doublestranded (dsDNA) virus, single-stranded (ssRNA) virus, double-stranded (dsRNA) virus and retro-transcribing virus"
+        },
+        {
+            "participant": "normal human donors",
+            "number": 5,
+            "context": "The data source and the sample information are listed as follows. <mark class=\"stats\">Liver, GEO Accession No GSE115469, 5 normal human donors; Lung, GEO Accession No GSE130148, 4 human donors died from hypoxic brain damage; Colon, GEO Accession No GSE116222, 3 healthy volunteers; Ileum and rectum, GEO Accession No GSE125970, totally 4 intestine mucosae sampled at least 10 cm away from the tumor border; Skin, GEO Accession No GSE132802, 4 healthy volunteers; PBMC, GEO Accession No GSE136103, 4 samples from cirrhotic patients; Spleen and oesophagus, available from Human Cell Atlas, totally 11 cardiac death donors; Bone marrow, GEO Accession No GSE120221, 5 healthy donors (A, E, J, R, U); Eye, GEO Accession No GSE135922, 3 Macula and 3 periphery of human donor eyes; Stomach, GEO Accession No GSE134520, 3 Non-atrophic gastritis patients; Kidney, GEO Accession No GSE131685, 3 normal kidney tissues obtained at least 2 cm away from tumor tissue</mark>. The high-quality virus-host receptor interactions were downloaded from Viral Receptor database (http://www.computationalbiology.cn:5000/viralReceptor), which curated 152 pairs of mammalian virus-host receptor interactions and 51 virus receptors from 9 mammal species"
+        },
+        {
+            "participant": "pairs",
+            "number": 152,
+            "context": "Liver, GEO Accession No GSE115469, 5 normal human donors; Lung, GEO Accession No GSE130148, 4 human donors died from hypoxic brain damage; Colon, GEO Accession No GSE116222, 3 healthy volunteers; Ileum and rectum, GEO Accession No GSE125970, totally 4 intestine mucosae sampled at least 10 cm away from the tumor border; Skin, GEO Accession No GSE132802, 4 healthy volunteers; PBMC, GEO Accession No GSE136103, 4 samples from cirrhotic patients; Spleen and oesophagus, available from Human Cell Atlas, totally 11 cardiac death donors; Bone marrow, GEO Accession No GSE120221, 5 healthy donors (A, E, J, R, U); Eye, GEO Accession No GSE135922, 3 Macula and 3 periphery of human donor eyes; Stomach, GEO Accession No GSE134520, 3 Non-atrophic gastritis patients; Kidney, GEO Accession No GSE131685, 3 normal kidney tissues obtained at least 2 cm away from tumor tissue. <mark class=\"stats\">The high-quality virus-host receptor interactions were downloaded from Viral Receptor database (http://www.computationalbiology.cn:5000/viralReceptor), which curated 152 pairs of mammalian virus-host receptor interactions and 51 virus receptors from 9 mammal species</mark>. They curated five types of virus, consisting of single-stranded DNA (ssDNA) virus, doublestranded (dsDNA) virus, single-stranded (ssRNA) virus, double-stranded (dsRNA) virus and retro-transcribing virus"
+        },
+        {
+            "participant": "expressed genes",
+            "number": 100,
+            "context": "The raw count matrix (UMI counts per gene per cell) was processed by Seurat[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. <mark class=\"stats\">Cells with less than 100 expressed genes (UMI count > 0) and higher than 25% mitochondrial genome transcript were removed</mark>. Genes expressed in less than three cells were removed"
+        },
+        {
+            "participant": "highly variable genes",
+            "number": 2000,
+            "context": "The cell clustering and dimensional reduction were performed by Seurat package. <mark class=\"stats\">Before that, we choose 2000 highly variable genes (HVGs) from the corrected expression matrix and then centered and scaled them</mark>. It was implemented by \u2018\u2018FindVariableGenes\u2019\u2019 function in the Seurat package"
+        },
+        {
+            "participant": "membrane proteins",
+            "number": 400,
+            "context": "For this purpose, we collected single cell gene expression matrices from 13 relatively normal human tissues, consisting of lung[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], liver[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], ileum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], rectum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], blood[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], bone marrow[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], skin[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], spleen[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], esophagus[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], colon[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], eye[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>], stomach[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and kidney[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] from published literatures. <mark class=\"stats\">We analyzed the single cell co-expression profiles of 51 known ssRNA viral receptors and 400 membrane proteins, including ACE2, in the identified 119 cell types across the 13 human tissues</mark>. Consistent with other recent studies, ACE2 was found to be present in lung, liver, stomach, ileum, kidney and colon"
+        },
+        {
+            "participant": "expressed genes",
+            "number": 100,
+            "context": "The raw count matrix (UMI counts per gene per cell) was processed by Seurat[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. <mark class=\"stats\">Cells with less than 100 expressed genes (UMI count > 0) and higher than 25% mitochondrial genome transcript were removed</mark>. Genes expressed in less than three cells were removed"
+        },
+        {
+            "participant": "pairs",
+            "number": 152,
+            "context": "We then analyzed the co-expression features of the human ssRNA viral receptors and membrane proteins. <mark class=\"stats\">We collected a total of 152 pairs of virus-host receptor interaction from Viral Receptor database[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] (http://www.computationalbiology.cn:5000/viralReceptor) which curated a number of validated viral receptors</mark>. These virus-host receptor interactions contain 51"
+        },
+        {
+            "participant": "membrane proteins",
+            "number": 400,
+            "context": "host receptors in 9 hosts and 96 viruses (Table S2). <mark class=\"stats\">Furthermore, 400 membrane proteins were extracted from Membranome database[<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] (https://membranome.org)</mark>. Totally 451 genes were curated, 95.7% (432/451) of which express in at least one of the 13 tissues"
+        },
+        {
+            "participant": "genes",
+            "number": 451,
+            "context": "Furthermore, 400 membrane proteins were extracted from Membranome database[<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] (https://membranome.org). <mark class=\"stats\">Totally 451 genes were curated, 95.7% (432/451) of which express in at least one of the 13 tissues</mark>. We examined the expression spectrum of the 432 genes across the 119 cell types"
+        },
+        {
+            "participant": "genes",
+            "number": 432,
+            "context": "Totally 451 genes were curated, 95.7% (432/451) of which express in at least one of the 13 tissues. <mark class=\"stats\">We examined the expression spectrum of the 432 genes across the 119 cell types</mark>. To elaborate the potential relationship between ACE2 and other membrane proteins or viral receptors, we calculated the Pearson Correlation Coefficient between each two genes in the curated reservoir"
+        },
+        {
+            "participant": "genes",
+            "number": 2,
+            "context": "We examined the expression spectrum of the 432 genes across the 119 cell types. <mark class=\"stats\">To elaborate the potential relationship between ACE2 and other membrane proteins or viral receptors, we calculated the Pearson Correlation Coefficient between each two genes in the curated reservoir</mark>. The findings show that 94 genes are significantly correlated with ACE2 (P<0.01) in a manner of gene expression"
+        },
+        {
+            "participant": "genes",
+            "number": 94,
+            "context": "To elaborate the potential relationship between ACE2 and other membrane proteins or viral receptors, we calculated the Pearson Correlation Coefficient between each two genes in the curated reservoir. <mark class=\"stats\">The findings show that 94 genes are significantly correlated with ACE2 (P<0.01) in a manner of gene expression</mark>. Of note, ANPEP, ENPEP and DPP4 are the top three genes correlated with ACE2 (R>0.8) (Figure 2)"
+        },
+        {
+            "participant": "genes",
+            "number": 3,
+            "context": "The findings show that 94 genes are significantly correlated with ACE2 (P<0.01) in a manner of gene expression. <mark class=\"stats\">Of note, ANPEP, ENPEP and DPP4 are the top three genes correlated with ACE2 (R>0.8) (Figure 2)</mark>. ANPEP, alanyl aminopeptidase, is a host receptor targeted by porcine epidemic diarrhea virus, human coronavirus 229E, feline coronavirus, canine coronavirus, transmissible gastroenteritis virus and infectious bronchitis virus"
+        },
+        {
+            "participant": "genes",
+            "number": 3,
+            "context": "DPP4, the receptor of MERS-CoV, shows expression similarity with ACE2, except that DPP4 expresses in some T cells of all the observed tissues (Figure S3 & Figure S4). <mark class=\"stats\">All of the three genes encode peptidase, which are uniquely adopted by coronavirus as their receptors [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]</mark>. This result raised the possibility that ENPEP may be another yet unknown receptor for coronavirus"
+        },
+        {
+            "participant": "membrane proteins",
+            "number": 400,
+            "context": "In addition, other membrane proteins may also assist virus entry[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. <mark class=\"stats\">Since the viral receptor and co-receptors should be co-expressed on the same cell types, we analyzed single cell co-expression patterns covering 400 membrane proteins and 51 known viral receptors in this study</mark>. After calculating their gene expression similarity, we found ANPEP, ENPEP and DPP4 are top three genes correlated with ACE4 (R>0.8)"
+        },
+        {
+            "participant": "genes",
+            "number": 3,
+            "context": "Since the viral receptor and co-receptors should be co-expressed on the same cell types, we analyzed single cell co-expression patterns covering 400 membrane proteins and 51 known viral receptors in this study. <mark class=\"stats\">After calculating their gene expression similarity, we found ANPEP, ENPEP and DPP4 are top three genes correlated with ACE4 (R>0.8)</mark>. Interestingly, both ANPEP and DPP4 are viral receptors of human coronaviruses [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>], while ENPEP is also a peptidase, despite that its involvement in virus infection is unclear"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We then performed principle component analysis (PCA) on the HVGs using \u2018\u2018RunPCA\u2019\u2019 function</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">To elaborate the potential relationship between ACE2 and other membrane proteins or viral receptors, we calculated the Pearson Correlation Coefficient between each two genes in the curated reservoir</mark>",
+                "tests": [
+                    {
+                        "test": "Pearson"
+                    },
+                    {
+                        "test": "Correlation Coefficient"
+                    }
+                ]
+            }
+        },
+        {
+            "p_value": "P<0.01",
+            "context": "To elaborate the potential relationship between ACE2 and other membrane proteins or viral receptors, we calculated the Pearson Correlation Coefficient between each two genes in the curated reservoir. <mark class=\"stats\">The findings show that 94 genes are significantly correlated with ACE2 (P<0.01) in a manner of gene expression</mark>. Of note, ANPEP, ENPEP and DPP4 are the top three genes correlated with ACE2 (R>0.8) (Figure 2)"
+        }
+    ],
+    "keywords": [
+        "Alveolar Type 1 cells",
+        "single cell rna sequencing",
+        "SARS",
+        "gland mucous cell",
+        "co receptor",
+        "progenitor cells",
+        "macrophage",
+        "principle component analysis",
+        "scRNA-seq",
+        "cytometry",
+        "MERS",
+        "coronaviruses",
+        "single-stranded DNA",
+        "fibrosis",
+        "sars cov",
+        "endothelial cells",
+        "Paneth cells",
+        "2019-nCoV",
+        "single-stranded RNA",
+        "Angiotensin I converting enzyme 2",
+        "novel coronavirus",
+        "stem cells",
+        "enteroendocrine cells",
+        "human tissue",
+        "coronavirus",
+        "ncov infection",
+        "co-receptor",
+        "Rectum share",
+        "highly variable genes",
+        "Alveolar Type 2 cells",
+        "ACE2",
+        "membrane protein",
+        "ENPEP",
+        "pit mucous cell",
+        "transient amplifying",
+        "goblet cells"
+    ],
+    "keyword_relevance": {
+        "goblet cells": 0.1572769953051643,
+        "Angiotensin I converting enzyme 2": 0.12206572769953052,
+        "ACE2": 0.11971830985915492,
+        "coronavirus": 0.06807511737089202,
+        "2019-nCoV": 0.05868544600938967,
+        "endothelial cells": 0.046948356807511735,
+        "human tissue": 0.04460093896713615,
+        "macrophage": 0.03755868544600939,
+        "membrane protein": 0.035211267605633804,
+        "ENPEP": 0.035211267605633804,
+        "SARS": 0.023474178403755867,
+        "single-stranded RNA": 0.023474178403755867,
+        "enteroendocrine cells": 0.02112676056338028,
+        "Alveolar Type 2 cells": 0.02112676056338028,
+        "coronaviruses": 0.018779342723004695,
+        "Paneth cells": 0.018779342723004695,
+        "progenitor cells": 0.01643192488262911,
+        "stem cells": 0.01643192488262911,
+        "co-receptor": 0.01643192488262911,
+        "novel coronavirus": 0.014084507042253521,
+        "MERS": 0.011737089201877934,
+        "transient amplifying": 0.011737089201877934,
+        "Alveolar Type 1 cells": 0.009389671361502348,
+        "gland mucous cell": 0.009389671361502348,
+        "principle component analysis": 0.009389671361502348,
+        "pit mucous cell": 0.009389671361502348,
+        "highly variable genes": 0.007042253521126761,
+        "scRNA-seq": 0.004694835680751174,
+        "cytometry": 0.004694835680751174,
+        "single-stranded DNA": 0.004694835680751174,
+        "Rectum share": 0.002347417840375587,
+        "single cell rna sequencing": 0.0,
+        "co receptor": 0.0,
+        "fibrosis": 0.0,
+        "sars cov": 0.0,
+        "ncov infection": 0.0
+    },
+    "species": [
+        "Rectum share"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> In December, 2019, a novel coronavirus (2019-nCoV) infection emerged in Wuhan. Over<br/><br/>30 thousand of people are infected with 2019-nCoV until February 8, showing that 2019-nCoV is highly contagious.",
+        "Many data analysis have showed a wide distribution of ACE2 across human tissues, including lung[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], liver[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], stomach[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], ileum[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], colon[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] and kidney[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], indicating that 2019-nCoV may infect multiple organs",
+        "These data showed that AT2 cell in the lung expressed rather low levels of ACE2[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+        "Identifying the potential co-receptors or auxiliary membrane proteins for 2019-nCoV is of great significance",
+        "<h2 style=\"display: inline\">Methods:</h2> Data collection<br/><br/>The gene raw counts or normalized gene expression matrix for each single cell were downloaded from GEO or Human Cell Atlas database (Table S1).",
+        "The authors collected single cell gene expression data of 13 tissues, including liver, lung, colon, ileum, rectum, blood, spleen, bone marrow, eye, skin, stomach, oesophagus and kidney.",
+        "The high-quality virus-host receptor interactions were downloaded from Viral Receptor database, which curated 152 pairs of mammalian virus-host receptor interactions and 51 virus receptors from 9 mammal species.",
+        "<h2 style=\"display: inline\">Results:</h2> Cell type identification in 13 human tissues<br/><br/>The authors collected the single cell RNA sequencing data from published literatures, which have been deposited in public database, e.g. GEO or Human Cell Atlas.",
+        "The authors curated single cell gene expression matrices of 13 human tissues, including lung[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], liver[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], ileum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], rectum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], blood[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], bone marrow[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], skin[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], spleen[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], esophagus[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], colon[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], eye[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>], stomach[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and kidney[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] (Table S1).",
+        "The authors annotated 119 cell types from 13 human tissues",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The coronaviruses are a large family of ssRNA viruses causing respiratory diseases in humans.",
+        "Most of the coronaviruses are associated with mild clinical symptoms, except SARSCoV and MERS-CoV, showing fatality rate of 9.6% and 34%, respectively[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>, <a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>].",
+        "In late December 2019, a novel coronavirus, named 2019-nCoV, emerged in Wuhan, Hubei, China.",
+        "A total of 37,251 2019-nCoV infected cases involving across different regions of China have been confirmed until February 9, 2020, suggesting that 2019-nCoV is highly infectious.",
+        "The most common symptoms of patients infected with 2019-nCoV are fever and cough[<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "In December, 2019, a novel coronavirus (2019-nCoV) infection emerged in Wuhan. Over<br/><br/>30 thousand of people are infected with 2019-nCoV until February 8, showing that 2019-nCoV is highly contagious.",
+            "Many data analysis have showed a wide distribution of ACE2 across human tissues, including lung[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], liver[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], stomach[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], ileum[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], colon[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] and kidney[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], indicating that 2019-nCoV may infect multiple organs",
+            "These data showed that AT2 cell in the lung expressed rather low levels of ACE2[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "Identifying the potential co-receptors or auxiliary membrane proteins for 2019-nCoV is of great significance"
+        ],
+        "Methods": [
+            "Data collection<br/><br/>The gene raw counts or normalized gene expression matrix for each single cell were downloaded from GEO or Human Cell Atlas database (Table S1).",
+            "The authors collected single cell gene expression data of 13 tissues, including liver, lung, colon, ileum, rectum, blood, spleen, bone marrow, eye, skin, stomach, oesophagus and kidney.",
+            "The high-quality virus-host receptor interactions were downloaded from Viral Receptor database, which curated 152 pairs of mammalian virus-host receptor interactions and 51 virus receptors from 9 mammal species."
+        ],
+        "Results": [
+            "Cell type identification in 13 human tissues<br/><br/>The authors collected the single cell RNA sequencing data from published literatures, which have been deposited in public database, e.g. GEO or Human Cell Atlas.",
+            "The authors curated single cell gene expression matrices of 13 human tissues, including lung[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], liver[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], ileum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], rectum[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], blood[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], bone marrow[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], skin[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], spleen[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], esophagus[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], colon[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], eye[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>], stomach[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and kidney[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] (Table S1).",
+            "The authors annotated 119 cell types from 13 human tissues"
+        ],
+        "Conclusion": [
+            "The coronaviruses are a large family of ssRNA viruses causing respiratory diseases in humans.",
+            "Most of the coronaviruses are associated with mild clinical symptoms, except SARSCoV and MERS-CoV, showing fatality rate of 9.6% and 34%, respectively[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>, <a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>].",
+            "In late December 2019, a novel coronavirus, named 2019-nCoV, emerged in Wuhan, Hubei, China.",
+            "A total of 37,251 2019-nCoV infected cases involving across different regions of China have been confirmed until February 9, 2020, suggesting that 2019-nCoV is highly infectious.",
+            "The most common symptoms of patients infected with 2019-nCoV are fever and cough[<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Ahlquist_et+al_2003_a",
+            "entry": "1. Ahlquist, P., A.O. Noueiry, W.M. Lee, et al., Host factors in positive-strand RNA virus genome replication. J Virol, 2003. 77(15): p. 8181-6.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ahlquist%2C%20P.%20Noueiry%2C%20A.O.%20Lee%2C%20W.M.%20Host%20factors%20in%20positive-strand%20RNA%20virus%20genome%20replication%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ahlquist%2C%20P.%20Noueiry%2C%20A.O.%20Lee%2C%20W.M.%20Host%20factors%20in%20positive-strand%20RNA%20virus%20genome%20replication%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ahlquist%2C%20P.%20Noueiry%2C%20A.O.%20Lee%2C%20W.M.%20Host%20factors%20in%20positive-strand%20RNA%20virus%20genome%20replication%202003"
+        },
+        {
+            "id": "2",
+            "alt_id": "Huang_et+al_2020_a",
+            "entry": "2. Huang, C., Y. Wang, X. Li, et al., Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20Y%20Wang%20X%20Li%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Huang%20C%20Y%20Wang%20X%20Li%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Huang%20C%20Y%20Wang%20X%20Li%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020"
+        },
+        {
+            "id": "3",
+            "alt_id": "Chazal_2003_a",
+            "entry": "3. Chazal, N. and D. Gerlier, Virus entry, assembly, budding, and membrane rafts. Microbiol Mol Biol Rev, 2003. 67(2): p. 226-37, table of contents.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chazal%2C%20N.%20Gerlier%2C%20D.%20Virus%20entry%2C%20assembly%2C%20budding%2C%20and%20membrane%20rafts%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chazal%2C%20N.%20Gerlier%2C%20D.%20Virus%20entry%2C%20assembly%2C%20budding%2C%20and%20membrane%20rafts%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chazal%2C%20N.%20Gerlier%2C%20D.%20Virus%20entry%2C%20assembly%2C%20budding%2C%20and%20membrane%20rafts%202003"
+        },
+        {
+            "id": "4",
+            "alt_id": "Lu_et+al_2020_a",
+            "entry": "4. Lu, R., X. Zhao, J. Li, et al., Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lu%20R%20X%20Zhao%20J%20Li%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lu%20R%20X%20Zhao%20J%20Li%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lu%20R%20X%20Zhao%20J%20Li%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020"
+        },
+        {
+            "id": "5",
+            "alt_id": "Zhao_et+al_bioRxiv,_a",
+            "entry": "5. Zhao, Y., Z. Zhao, Y. Wang, et al., Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov. bioRxiv, 2020: p. 2020.01.26.919985.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhao%20Y%20Z%20Zhao%20Y%20Wang%20et%20al%20Singlecell%20RNA%20expression%20profiling%20of%20ACE2%20the%20putative%20receptor%20of%20Wuhan%202019nCov%20bioRxiv%202020%20p%2020200126919985"
+        },
+        {
+            "id": "6",
+            "alt_id": "Chai_et+al_2019_a",
+            "entry": "6. Chai, X., L. Hu, Y. Zhang, et al., Specific ACE2 Expression in Cholangiocytes May Cause Liver Damage After 2019-nCoV Infection. bioRxiv, 2020: p. 2020.02.03.931766.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chai%20X%20L%20Hu%20Y%20Zhang%20et%20al%20Specific%20ACE2%20Expression%20in%20Cholangiocytes%20May%20Cause%20Liver%20Damage%20After%202019nCoV%20Infection%20bioRxiv%202020%20p%2020200203931766",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chai%20X%20L%20Hu%20Y%20Zhang%20et%20al%20Specific%20ACE2%20Expression%20in%20Cholangiocytes%20May%20Cause%20Liver%20Damage%20After%202019nCoV%20Infection%20bioRxiv%202020%20p%2020200203931766",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chai%20X%20L%20Hu%20Y%20Zhang%20et%20al%20Specific%20ACE2%20Expression%20in%20Cholangiocytes%20May%20Cause%20Liver%20Damage%20After%202019nCoV%20Infection%20bioRxiv%202020%20p%2020200203931766"
+        },
+        {
+            "id": "7",
+            "alt_id": "Zhang_et+al_2019_a",
+            "entry": "7. Zhang, H., Z. Kang, H. Gong, et al., The digestive system is a potential route of 2019-nCov infection: a bioinformatics analysis based on single-cell transcriptomes. bioRxiv, 2020: p. 2020.01.30.927806.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%20H%20Z%20Kang%20H%20Gong%20et%20al%20The%20digestive%20system%20is%20a%20potential%20route%20of%202019nCov%20infection%20a%20bioinformatics%20analysis%20based%20on%20singlecell%20transcriptomes%20bioRxiv%202020%20p%2020200130927806",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%20H%20Z%20Kang%20H%20Gong%20et%20al%20The%20digestive%20system%20is%20a%20potential%20route%20of%202019nCov%20infection%20a%20bioinformatics%20analysis%20based%20on%20singlecell%20transcriptomes%20bioRxiv%202020%20p%2020200130927806",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%20H%20Z%20Kang%20H%20Gong%20et%20al%20The%20digestive%20system%20is%20a%20potential%20route%20of%202019nCov%20infection%20a%20bioinformatics%20analysis%20based%20on%20singlecell%20transcriptomes%20bioRxiv%202020%20p%2020200130927806"
+        },
+        {
+            "id": "8",
+            "alt_id": "Xin_et+al_2019_a",
+            "entry": "8. Xin Zou, K.C., Jiawei Zou, Peiyi Han, Jie Hao, Zeguang Han, The single-cell RNA-seq data analysis on the receptor ACE2 expression reveals the potential risk of different human organs vulnerable to Wuhan 2019-nCoV infection. Front. Med.: p. 0-.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xin%20Zou%20KC%20Jiawei%20Zou%20Peiyi%20Han%20Jie%20Hao%20Zeguang%20Han%20The%20singlecell%20RNAseq%20data%20analysis%20on%20the%20receptor%20ACE2%20expression%20reveals%20the%20potential%20risk%20of%20different%20human%20organs%20vulnerable%20to%20Wuhan%202019nCoV%20infection%20Front%20Med%20p%200",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Xin%20Zou%20KC%20Jiawei%20Zou%20Peiyi%20Han%20Jie%20Hao%20Zeguang%20Han%20The%20singlecell%20RNAseq%20data%20analysis%20on%20the%20receptor%20ACE2%20expression%20reveals%20the%20potential%20risk%20of%20different%20human%20organs%20vulnerable%20to%20Wuhan%202019nCoV%20infection%20Front%20Med%20p%200",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Xin%20Zou%20KC%20Jiawei%20Zou%20Peiyi%20Han%20Jie%20Hao%20Zeguang%20Han%20The%20singlecell%20RNAseq%20data%20analysis%20on%20the%20receptor%20ACE2%20expression%20reveals%20the%20potential%20risk%20of%20different%20human%20organs%20vulnerable%20to%20Wuhan%202019nCoV%20infection%20Front%20Med%20p%200"
+        },
+        {
+            "id": "9",
+            "alt_id": "Zhang_et+al_2019_a",
+            "entry": "9. Zhang, Z., Z. Zhu, W. Chen, et al., Cell membrane proteins with high N-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors. Bioinformatics, 2019. 35(5): p. 723-728.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%2C%20Z.%20Zhu%2C%20Z.%20Chen%2C%20W.%20Cell%20membrane%20proteins%20with%20high%20N-glycosylation%2C%20high%20expression%20and%20multiple%20interaction%20partners%20are%20preferred%20by%20mammalian%20viruses%20as%20receptors%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%2C%20Z.%20Zhu%2C%20Z.%20Chen%2C%20W.%20Cell%20membrane%20proteins%20with%20high%20N-glycosylation%2C%20high%20expression%20and%20multiple%20interaction%20partners%20are%20preferred%20by%20mammalian%20viruses%20as%20receptors%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%2C%20Z.%20Zhu%2C%20Z.%20Chen%2C%20W.%20Cell%20membrane%20proteins%20with%20high%20N-glycosylation%2C%20high%20expression%20and%20multiple%20interaction%20partners%20are%20preferred%20by%20mammalian%20viruses%20as%20receptors%202019"
+        },
+        {
+            "id": "10",
+            "alt_id": "Hoffmann_et+al_2019_a",
+            "entry": "10. Hoffmann, M., H. Kleine-Weber, N. Kr\u00fcger, et al., The novel coronavirus 2019 (2019-nCoV) uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells. bioRxiv, 2020: p. 2020.01.31.929042.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hoffmann%20M%20H%20KleineWeber%20N%20Kr%C3%BCger%20et%20al%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%202020%20p%2020200131929042",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hoffmann%20M%20H%20KleineWeber%20N%20Kr%C3%BCger%20et%20al%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%202020%20p%2020200131929042",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hoffmann%20M%20H%20KleineWeber%20N%20Kr%C3%BCger%20et%20al%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%202020%20p%2020200131929042"
+        },
+        {
+            "id": "11",
+            "alt_id": "Reyfman_et+al_2019_a",
+            "entry": "11. Reyfman, P.A., J.M. Walter, N. Joshi, et al., Single-Cell Transcriptomic Analysis of Human Lung Provides Insights into the Pathobiology of Pulmonary Fibrosis. Am J Respir Crit Care Med, 2019. 199(12): p. 1517-1536.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Reyfman%2C%20P.A.%20Walter%2C%20J.M.%20Joshi%2C%20N.%20Single-Cell%20Transcriptomic%20Analysis%20of%20Human%20Lung%20Provides%20Insights%20into%20the%20Pathobiology%20of%20Pulmonary%20Fibrosis%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Reyfman%2C%20P.A.%20Walter%2C%20J.M.%20Joshi%2C%20N.%20Single-Cell%20Transcriptomic%20Analysis%20of%20Human%20Lung%20Provides%20Insights%20into%20the%20Pathobiology%20of%20Pulmonary%20Fibrosis%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Reyfman%2C%20P.A.%20Walter%2C%20J.M.%20Joshi%2C%20N.%20Single-Cell%20Transcriptomic%20Analysis%20of%20Human%20Lung%20Provides%20Insights%20into%20the%20Pathobiology%20of%20Pulmonary%20Fibrosis%202019"
+        },
+        {
+            "id": "12",
+            "alt_id": "Macparland_et+al_2018_a",
+            "entry": "12. MacParland, S.A., J.C. Liu, X.Z. Ma, et al., Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations. Nat Commun, 2018. 9(1): p. 4383.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=MacParland%2C%20S.A.%20Liu%2C%20J.C.%20Ma%2C%20X.Z.%20Single%20cell%20RNA%20sequencing%20of%20human%20liver%20reveals%20distinct%20intrahepatic%20macrophage%20populations%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=MacParland%2C%20S.A.%20Liu%2C%20J.C.%20Ma%2C%20X.Z.%20Single%20cell%20RNA%20sequencing%20of%20human%20liver%20reveals%20distinct%20intrahepatic%20macrophage%20populations%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=MacParland%2C%20S.A.%20Liu%2C%20J.C.%20Ma%2C%20X.Z.%20Single%20cell%20RNA%20sequencing%20of%20human%20liver%20reveals%20distinct%20intrahepatic%20macrophage%20populations%202018"
+        },
+        {
+            "id": "13",
+            "alt_id": "Wang_et+al_0000_a",
+            "entry": "13. Wang, Y., W. Song, J. Wang, et al., Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine. J Exp Med, 2020. 217(2).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20Y.%20Song%2C%20W.%20Wang%2C%20J.%20Single-cell%20transcriptome%20analysis%20reveals%20differential%20nutrient%20absorption%20functions%20in%20human%20intestine",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20Y.%20Song%2C%20W.%20Wang%2C%20J.%20Single-cell%20transcriptome%20analysis%20reveals%20differential%20nutrient%20absorption%20functions%20in%20human%20intestine",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20Y.%20Song%2C%20W.%20Wang%2C%20J.%20Single-cell%20transcriptome%20analysis%20reveals%20differential%20nutrient%20absorption%20functions%20in%20human%20intestine"
+        },
+        {
+            "id": "14",
+            "alt_id": "Dobie_et+al_2019_a",
+            "entry": "14. Dobie, R., J.R. Wilson-Kanamori, B.E.P. Henderson, et al., Single-Cell Transcriptomics Uncovers Zonation of Function in the Mesenchyme during Liver Fibrosis. Cell Rep, 2019. 29(7): p. 1832-1847 e8.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Dobie%2C%20R.%20Wilson-Kanamori%2C%20J.R.%20Henderson%2C%20B.E.P.%20Single-Cell%20Transcriptomics%20Uncovers%20Zonation%20of%20Function%20in%20the%20Mesenchyme%20during%20Liver%20Fibrosis%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Dobie%2C%20R.%20Wilson-Kanamori%2C%20J.R.%20Henderson%2C%20B.E.P.%20Single-Cell%20Transcriptomics%20Uncovers%20Zonation%20of%20Function%20in%20the%20Mesenchyme%20during%20Liver%20Fibrosis%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Dobie%2C%20R.%20Wilson-Kanamori%2C%20J.R.%20Henderson%2C%20B.E.P.%20Single-Cell%20Transcriptomics%20Uncovers%20Zonation%20of%20Function%20in%20the%20Mesenchyme%20during%20Liver%20Fibrosis%202019"
+        },
+        {
+            "id": "15",
+            "alt_id": "Oetjen_et+al_2018_a",
+            "entry": "15. Oetjen, K.A., K.E. Lindblad, M. Goswami, et al., Human bone marrow assessment by singlecell RNA sequencing, mass cytometry, and flow cytometry. JCI Insight, 2018. 3(23).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Oetjen%2C%20K.A.%20Lindblad%2C%20K.E.%20Goswami%2C%20M.%20Human%20bone%20marrow%20assessment%20by%20singlecell%20RNA%20sequencing%2C%20mass%20cytometry%2C%20and%20flow%20cytometry%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Oetjen%2C%20K.A.%20Lindblad%2C%20K.E.%20Goswami%2C%20M.%20Human%20bone%20marrow%20assessment%20by%20singlecell%20RNA%20sequencing%2C%20mass%20cytometry%2C%20and%20flow%20cytometry%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Oetjen%2C%20K.A.%20Lindblad%2C%20K.E.%20Goswami%2C%20M.%20Human%20bone%20marrow%20assessment%20by%20singlecell%20RNA%20sequencing%2C%20mass%20cytometry%2C%20and%20flow%20cytometry%202018"
+        },
+        {
+            "id": "16",
+            "alt_id": "Kim_et+al_2020_a",
+            "entry": "16. Kim, D., T. Kobayashi, B. Voisin, et al., Targeted therapy guided by single-cell transcriptomic analysis in drug-induced hypersensitivity syndrome: a case report. Nat Med, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kim%2C%20D.%20Kobayashi%2C%20T.%20Voisin%2C%20B.%20Targeted%20therapy%20guided%20by%20single-cell%20transcriptomic%20analysis%20in%20drug-induced%20hypersensitivity%20syndrome%3A%20a%20case%20report%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kim%2C%20D.%20Kobayashi%2C%20T.%20Voisin%2C%20B.%20Targeted%20therapy%20guided%20by%20single-cell%20transcriptomic%20analysis%20in%20drug-induced%20hypersensitivity%20syndrome%3A%20a%20case%20report%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kim%2C%20D.%20Kobayashi%2C%20T.%20Voisin%2C%20B.%20Targeted%20therapy%20guided%20by%20single-cell%20transcriptomic%20analysis%20in%20drug-induced%20hypersensitivity%20syndrome%3A%20a%20case%20report%202020"
+        },
+        {
+            "id": "17",
+            "alt_id": "Madissoon_et+al_2019_a",
+            "entry": "17. Madissoon, E., A. Wilbrey-Clark, R.J. Miragaia, et al., scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation. Genome Biol, 2019. 21(1): p. 1.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Madissoon%2C%20E.%20Wilbrey-Clark%2C%20A.%20Miragaia%2C%20R.J.%20scRNA-seq%20assessment%20of%20the%20human%20lung%2C%20spleen%2C%20and%20esophagus%20tissue%20stability%20after%20cold%20preservation%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Madissoon%2C%20E.%20Wilbrey-Clark%2C%20A.%20Miragaia%2C%20R.J.%20scRNA-seq%20assessment%20of%20the%20human%20lung%2C%20spleen%2C%20and%20esophagus%20tissue%20stability%20after%20cold%20preservation%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Madissoon%2C%20E.%20Wilbrey-Clark%2C%20A.%20Miragaia%2C%20R.J.%20scRNA-seq%20assessment%20of%20the%20human%20lung%2C%20spleen%2C%20and%20esophagus%20tissue%20stability%20after%20cold%20preservation%202019"
+        },
+        {
+            "id": "18",
+            "alt_id": "Parikh_et+al_2019_a",
+            "entry": "18. Parikh, K., A. Antanaviciute, D. Fawkner-Corbett, et al., Colonic epithelial cell diversity in health and inflammatory bowel disease. Nature, 2019. 567(7746): p. 49-55.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Parikh%2C%20K.%20Antanaviciute%2C%20A.%20Fawkner-Corbett%2C%20D.%20Colonic%20epithelial%20cell%20diversity%20in%20health%20and%20inflammatory%20bowel%20disease%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Parikh%2C%20K.%20Antanaviciute%2C%20A.%20Fawkner-Corbett%2C%20D.%20Colonic%20epithelial%20cell%20diversity%20in%20health%20and%20inflammatory%20bowel%20disease%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Parikh%2C%20K.%20Antanaviciute%2C%20A.%20Fawkner-Corbett%2C%20D.%20Colonic%20epithelial%20cell%20diversity%20in%20health%20and%20inflammatory%20bowel%20disease%202019"
+        },
+        {
+            "id": "19",
+            "alt_id": "Voigt_et+al_2019_a",
+            "entry": "19. Voigt, A.P., K. Mulfaul, N.K. Mullin, et al., Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration. Proc Natl Acad Sci U S A, 2019. 116(48): p. 24100-24107.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Voigt%2C%20A.P.%20Mulfaul%2C%20K.%20Mullin%2C%20N.K.%20Single-cell%20transcriptomics%20of%20the%20human%20retinal%20pigment%20epithelium%20and%20choroid%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Voigt%2C%20A.P.%20Mulfaul%2C%20K.%20Mullin%2C%20N.K.%20Single-cell%20transcriptomics%20of%20the%20human%20retinal%20pigment%20epithelium%20and%20choroid%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Voigt%2C%20A.P.%20Mulfaul%2C%20K.%20Mullin%2C%20N.K.%20Single-cell%20transcriptomics%20of%20the%20human%20retinal%20pigment%20epithelium%20and%20choroid%202019"
+        },
+        {
+            "id": "20",
+            "alt_id": "Zhang_et+al_2019_b",
+            "entry": "20. Zhang, P., M. Yang, Y. Zhang, et al., Dissecting the Single-Cell Transcriptome Network Underlying Gastric Premalignant Lesions and Early Gastric Cancer. Cell Rep, 2019. 27(6): p.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%2C%20P.%20Yang%2C%20M.%20Zhang%2C%20Y.%20Dissecting%20the%20Single-Cell%20Transcriptome%20Network%20Underlying%20Gastric%20Premalignant%20Lesions%20and%20Early%20Gastric%20Cancer%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%2C%20P.%20Yang%2C%20M.%20Zhang%2C%20Y.%20Dissecting%20the%20Single-Cell%20Transcriptome%20Network%20Underlying%20Gastric%20Premalignant%20Lesions%20and%20Early%20Gastric%20Cancer%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%2C%20P.%20Yang%2C%20M.%20Zhang%2C%20Y.%20Dissecting%20the%20Single-Cell%20Transcriptome%20Network%20Underlying%20Gastric%20Premalignant%20Lesions%20and%20Early%20Gastric%20Cancer%202019"
+        },
+        {
+            "id": "21",
+            "alt_id": "Liao_et+al_0000_a",
+            "entry": "21. Liao, J., Z. Yu, Y. Chen, et al., Single-cell RNA sequencing of human kidney. Sci Data, 2020. 7(1): p. 4.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Liao%2C%20J.%20Yu%2C%20Z.%20Chen%2C%20Y.%20Single-cell%20RNA%20sequencing%20of%20human%20kidney",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Liao%2C%20J.%20Yu%2C%20Z.%20Chen%2C%20Y.%20Single-cell%20RNA%20sequencing%20of%20human%20kidney",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Liao%2C%20J.%20Yu%2C%20Z.%20Chen%2C%20Y.%20Single-cell%20RNA%20sequencing%20of%20human%20kidney"
+        },
+        {
+            "id": "22",
+            "alt_id": "Stuart_et+al_2019_a",
+            "entry": "22. Stuart, T., A. Butler, P. Hoffman, et al., Comprehensive Integration of Single-Cell Data. Cell, 2019. 177(7): p. 1888-1902 e21.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Stuart%2C%20T.%20Butler%2C%20A.%20Hoffman%2C%20P.%20Comprehensive%20Integration%20of%20Single-Cell%20Data%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Stuart%2C%20T.%20Butler%2C%20A.%20Hoffman%2C%20P.%20Comprehensive%20Integration%20of%20Single-Cell%20Data%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Stuart%2C%20T.%20Butler%2C%20A.%20Hoffman%2C%20P.%20Comprehensive%20Integration%20of%20Single-Cell%20Data%202019"
+        },
+        {
+            "id": "23",
+            "alt_id": "Korsunsky_et+al_2019_a",
+            "entry": "23. Korsunsky, I., N. Millard, J. Fan, et al., Fast, sensitive and accurate integration of single-cell data with Harmony. Nat Methods, 2019. 16(12): p. 1289-1296.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Korsunsky%2C%20I.%20Millard%2C%20N.%20Fan%2C%20J.%20sensitive%20and%20accurate%20integration%20of%20single-cell%20data%20with%20Harmony%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Korsunsky%2C%20I.%20Millard%2C%20N.%20Fan%2C%20J.%20sensitive%20and%20accurate%20integration%20of%20single-cell%20data%20with%20Harmony%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Korsunsky%2C%20I.%20Millard%2C%20N.%20Fan%2C%20J.%20sensitive%20and%20accurate%20integration%20of%20single-cell%20data%20with%20Harmony%202019"
+        },
+        {
+            "id": "24",
+            "alt_id": "Efremova_et+al_2019_a",
+            "entry": "24. Efremova, M., M. Vento-Tormo, S.A. Teichmann, et al., CellPhoneDB v2.0: Inferring cell-cell communication from combined expression of multi-subunit receptor-ligand complexes. bioRxiv, 2019: p. 680926.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Efremova%2C%20M.%20Vento-Tormo%2C%20M.%20Teichmann%2C%20S.A.%20CellPhoneDB%20v2.%200%3A%20Inferring%20cell-cell%20communication%20from%20combined%20expression%20of%20multi-subunit%20receptor-ligand%20complexes%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Efremova%2C%20M.%20Vento-Tormo%2C%20M.%20Teichmann%2C%20S.A.%20CellPhoneDB%20v2.%200%3A%20Inferring%20cell-cell%20communication%20from%20combined%20expression%20of%20multi-subunit%20receptor-ligand%20complexes%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Efremova%2C%20M.%20Vento-Tormo%2C%20M.%20Teichmann%2C%20S.A.%20CellPhoneDB%20v2.%200%3A%20Inferring%20cell-cell%20communication%20from%20combined%20expression%20of%20multi-subunit%20receptor-ligand%20complexes%202019"
+        },
+        {
+            "id": "25",
+            "alt_id": "Lomize_et+al_2017_a",
+            "entry": "25. Lomize, A.L., M.A. Lomize, S.R. Krolicki, et al., Membranome: a database for proteome-wide analysis of single-pass membrane proteins. Nucleic Acids Res, 2017. 45(D1): p. D250-D255.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lomize%2C%20A.L.%20Lomize%2C%20M.A.%20Krolicki%2C%20S.R.%20Membranome%3A%20a%20database%20for%20proteome-wide%20analysis%20of%20single-pass%20membrane%20proteins%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lomize%2C%20A.L.%20Lomize%2C%20M.A.%20Krolicki%2C%20S.R.%20Membranome%3A%20a%20database%20for%20proteome-wide%20analysis%20of%20single-pass%20membrane%20proteins%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lomize%2C%20A.L.%20Lomize%2C%20M.A.%20Krolicki%2C%20S.R.%20Membranome%3A%20a%20database%20for%20proteome-wide%20analysis%20of%20single-pass%20membrane%20proteins%202017"
+        },
+        {
+            "id": "26",
+            "alt_id": "Holmes_et+al_2017_a",
+            "entry": "26. Holmes, R.S., K.D. Spradling-Reeves and L.A. Cox, Mammalian Glutamyl Aminopeptidase Genes (ENPEP) and Proteins: Comparative Studies of a Major Contributor to Arterial Hypertension. J Data Mining Genomics Proteomics, 2017. 8(2). 27.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Holmes%2C%20R.S.%20Spradling-Reeves%2C%20K.D.%20Cox%2C%20L.A.%20Mammalian%20Glutamyl%20Aminopeptidase%20Genes%20%28ENPEP%29%20and%20Proteins%3A%20Comparative%20Studies%20of%20a%20Major%20Contributor%20to%20Arterial%20Hypertension%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Holmes%2C%20R.S.%20Spradling-Reeves%2C%20K.D.%20Cox%2C%20L.A.%20Mammalian%20Glutamyl%20Aminopeptidase%20Genes%20%28ENPEP%29%20and%20Proteins%3A%20Comparative%20Studies%20of%20a%20Major%20Contributor%20to%20Arterial%20Hypertension%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Holmes%2C%20R.S.%20Spradling-Reeves%2C%20K.D.%20Cox%2C%20L.A.%20Mammalian%20Glutamyl%20Aminopeptidase%20Genes%20%28ENPEP%29%20and%20Proteins%3A%20Comparative%20Studies%20of%20a%20Major%20Contributor%20to%20Arterial%20Hypertension%202017"
+        },
+        {
+            "id": "Li_2015_a",
+            "alt_id": "27",
+            "entry": "Li, F., Receptor recognition mechanisms of coronaviruses: a decade of structural studies. J Virol, 2015. 89(4): p. 1954-64.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20F.%20Receptor%20recognition%20mechanisms%20of%20coronaviruses%3A%20a%20decade%20of%20structural%20studies%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20F.%20Receptor%20recognition%20mechanisms%20of%20coronaviruses%3A%20a%20decade%20of%20structural%20studies%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20F.%20Receptor%20recognition%20mechanisms%20of%20coronaviruses%3A%20a%20decade%20of%20structural%20studies%202015"
+        },
+        {
+            "id": "28",
+            "alt_id": "Smith_2006_a",
+            "entry": "28. Smith, R.D., Responding to global infectious disease outbreaks: lessons from SARS on the role of risk perception, communication and management. Soc Sci Med, 2006. 63(12): p. 3113-23.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Smith%2C%20R.D.%20Responding%20to%20global%20infectious%20disease%20outbreaks%3A%20lessons%20from%20SARS%20on%20the%20role%20of%20risk%20perception%2C%20communication%20and%20management%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Smith%2C%20R.D.%20Responding%20to%20global%20infectious%20disease%20outbreaks%3A%20lessons%20from%20SARS%20on%20the%20role%20of%20risk%20perception%2C%20communication%20and%20management%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Smith%2C%20R.D.%20Responding%20to%20global%20infectious%20disease%20outbreaks%3A%20lessons%20from%20SARS%20on%20the%20role%20of%20risk%20perception%2C%20communication%20and%20management%202006"
+        },
+        {
+            "id": "29",
+            "alt_id": "29._2017_a",
+            "entry": "29. Middle East respiratory syndrome coronavirus (MERS-CoV). World Health Organization, Retrieved 10 April 2017.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Middle%20East%20respiratory%20syndrome%20coronavirus%20MERSCoV%20World%20Health%20Organization%20Retrieved%2010%20April%202017"
+        },
+        {
+            "id": "30",
+            "alt_id": "Chen_et+al_2020_a",
+            "entry": "30. Chen, N., M. Zhou, X. Dong, et al., Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%20N%20M%20Zhou%20X%20Dong%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%20N%20M%20Zhou%20X%20Dong%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%20N%20M%20Zhou%20X%20Dong%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%202020"
+        },
+        {
+            "id": "31",
+            "alt_id": "Wang_et+al_2008_a",
+            "entry": "31. Wang, S., F. Guo, K. Liu, et al., Endocytosis of the receptor-binding domain of SARS-CoV spike protein together with virus receptor ACE2. Virus Res, 2008. 136(1-2): p. 8-15.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20S.%20Guo%2C%20F.%20Liu%2C%20K.%20Endocytosis%20of%20the%20receptor-binding%20domain%20of%20SARS-CoV%20spike%20protein%20together%20with%20virus%20receptor%20ACE2%202008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20S.%20Guo%2C%20F.%20Liu%2C%20K.%20Endocytosis%20of%20the%20receptor-binding%20domain%20of%20SARS-CoV%20spike%20protein%20together%20with%20virus%20receptor%20ACE2%202008",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20S.%20Guo%2C%20F.%20Liu%2C%20K.%20Endocytosis%20of%20the%20receptor-binding%20domain%20of%20SARS-CoV%20spike%20protein%20together%20with%20virus%20receptor%20ACE2%202008"
+        },
+        {
+            "id": "32",
+            "alt_id": "Yang_et+al_2004_a",
+            "entry": "32. Yang, Z.Y., Y. Huang, L. Ganesh, et al., pH-dependent entry of severe acute respiratory syndrome coronavirus is mediated by the spike glycoprotein and enhanced by dendritic cell transfer through DC-SIGN. J Virol, 2004. 78(11): p. 5642-50.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yang%2C%20Z.Y.%20Huang%2C%20Y.%20Ganesh%2C%20L.%20pH-dependent%20entry%20of%20severe%20acute%20respiratory%20syndrome%20coronavirus%20is%20mediated%20by%20the%20spike%20glycoprotein%20and%20enhanced%20by%20dendritic%20cell%20transfer%20through%20DC-SIGN%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yang%2C%20Z.Y.%20Huang%2C%20Y.%20Ganesh%2C%20L.%20pH-dependent%20entry%20of%20severe%20acute%20respiratory%20syndrome%20coronavirus%20is%20mediated%20by%20the%20spike%20glycoprotein%20and%20enhanced%20by%20dendritic%20cell%20transfer%20through%20DC-SIGN%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yang%2C%20Z.Y.%20Huang%2C%20Y.%20Ganesh%2C%20L.%20pH-dependent%20entry%20of%20severe%20acute%20respiratory%20syndrome%20coronavirus%20is%20mediated%20by%20the%20spike%20glycoprotein%20and%20enhanced%20by%20dendritic%20cell%20transfer%20through%20DC-SIGN%202004"
+        },
+        {
+            "id": "33",
+            "alt_id": "Gramberg_et+al_2005_a",
+            "entry": "33. Gramberg, T., H. Hofmann, P. Moller, et al., LSECtin interacts with filovirus glycoproteins and the spike protein of SARS coronavirus. Virology, 2005. 340(2): p. 224-36.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gramberg%2C%20T.%20Hofmann%2C%20H.%20Moller%2C%20P.%20LSECtin%20interacts%20with%20filovirus%20glycoproteins%20and%20the%20spike%20protein%20of%20SARS%20coronavirus%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gramberg%2C%20T.%20Hofmann%2C%20H.%20Moller%2C%20P.%20LSECtin%20interacts%20with%20filovirus%20glycoproteins%20and%20the%20spike%20protein%20of%20SARS%20coronavirus%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gramberg%2C%20T.%20Hofmann%2C%20H.%20Moller%2C%20P.%20LSECtin%20interacts%20with%20filovirus%20glycoproteins%20and%20the%20spike%20protein%20of%20SARS%20coronavirus%202005"
+        },
+        {
+            "id": "34",
+            "alt_id": "Marzi_et+al_2004_a",
+            "entry": "34. Marzi, A., T. Gramberg, G. Simmons, et al., DC-SIGN and DC-SIGNR interact with the glycoprotein of Marburg virus and the S protein of severe acute respiratory syndrome coronavirus. J Virol, 2004. 78(21): p. 12090-5.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Marzi%2C%20A.%20Gramberg%2C%20T.%20Simmons%2C%20G.%20DC-SIGN%20and%20DC-SIGNR%20interact%20with%20the%20glycoprotein%20of%20Marburg%20virus%20and%20the%20S%20protein%20of%20severe%20acute%20respiratory%20syndrome%20coronavirus%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Marzi%2C%20A.%20Gramberg%2C%20T.%20Simmons%2C%20G.%20DC-SIGN%20and%20DC-SIGNR%20interact%20with%20the%20glycoprotein%20of%20Marburg%20virus%20and%20the%20S%20protein%20of%20severe%20acute%20respiratory%20syndrome%20coronavirus%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Marzi%2C%20A.%20Gramberg%2C%20T.%20Simmons%2C%20G.%20DC-SIGN%20and%20DC-SIGNR%20interact%20with%20the%20glycoprotein%20of%20Marburg%20virus%20and%20the%20S%20protein%20of%20severe%20acute%20respiratory%20syndrome%20coronavirus%202004"
+        },
+        {
+            "id": "35",
+            "alt_id": "Peck_et+al_2017_a",
+            "entry": "35. Peck, K.M., T. Scobey, J. Swanstrom, et al., Permissivity of Dipeptidyl Peptidase 4 Orthologs to Middle East Respiratory Syndrome Coronavirus Is Governed by Glycosylation and Other Complex Determinants. J Virol, 2017. 91(19).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Peck%2C%20K.M.%20Scobey%2C%20T.%20Swanstrom%2C%20J.%20Permissivity%20of%20Dipeptidyl%20Peptidase%204%20Orthologs%20to%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20Is%20Governed%20by%20Glycosylation%20and%20Other%20Complex%20Determinants%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Peck%2C%20K.M.%20Scobey%2C%20T.%20Swanstrom%2C%20J.%20Permissivity%20of%20Dipeptidyl%20Peptidase%204%20Orthologs%20to%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20Is%20Governed%20by%20Glycosylation%20and%20Other%20Complex%20Determinants%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Peck%2C%20K.M.%20Scobey%2C%20T.%20Swanstrom%2C%20J.%20Permissivity%20of%20Dipeptidyl%20Peptidase%204%20Orthologs%20to%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20Is%20Governed%20by%20Glycosylation%20and%20Other%20Complex%20Determinants%202017"
+        },
+        {
+            "id": "36",
+            "alt_id": "le_Page_et+al_2000_a",
+            "entry": "36. Le Page, C., P. Genin, M.G. Baines, et al., Interferon activation and innate immunity. Rev Immunogenet, 2000. 2(3): p. 374-86.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Le%20Page%2C%20C.%20Genin%2C%20P.%20Baines%2C%20M.G.%20Interferon%20activation%20and%20innate%20immunity%202000",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Le%20Page%2C%20C.%20Genin%2C%20P.%20Baines%2C%20M.G.%20Interferon%20activation%20and%20innate%20immunity%202000",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Le%20Page%2C%20C.%20Genin%2C%20P.%20Baines%2C%20M.G.%20Interferon%20activation%20and%20innate%20immunity%202000"
+        },
+        {
+            "id": "37",
+            "alt_id": "Perry_et+al_2005_a",
+            "entry": "37. Perry, A.K., G. Chen, D. Zheng, et al., The host type I interferon response to viral and bacterial infections. Cell Res, 2005. 15(6): p. 407-22.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Perry%2C%20A.K.%20Chen%2C%20G.%20Zheng%2C%20D.%20The%20host%20type%20I%20interferon%20response%20to%20viral%20and%20bacterial%20infections%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Perry%2C%20A.K.%20Chen%2C%20G.%20Zheng%2C%20D.%20The%20host%20type%20I%20interferon%20response%20to%20viral%20and%20bacterial%20infections%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Perry%2C%20A.K.%20Chen%2C%20G.%20Zheng%2C%20D.%20The%20host%20type%20I%20interferon%20response%20to%20viral%20and%20bacterial%20infections%202005"
+        },
+        {
+            "id": "38",
+            "alt_id": "Mcnab_et+al_2015_a",
+            "entry": "38. McNab, F., K. Mayer-Barber, A. Sher, et al., Type I interferons in infectious disease. Nat Rev Immunol, 2015. 15(2): p. 87-103.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=McNab%2C%20F.%20Mayer-Barber%2C%20K.%20Sher%2C%20A.%20Type%20I%20interferons%20in%20infectious%20disease%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=McNab%2C%20F.%20Mayer-Barber%2C%20K.%20Sher%2C%20A.%20Type%20I%20interferons%20in%20infectious%20disease%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=McNab%2C%20F.%20Mayer-Barber%2C%20K.%20Sher%2C%20A.%20Type%20I%20interferons%20in%20infectious%20disease%202015"
+        },
+        {
+            "id": "39",
+            "alt_id": "Hansen_2009_a",
+            "entry": "39. Hansen, T.H. and M. Bouvier, MHC class I antigen presentation: learning from viral evasion strategies. Nat Rev Immunol, 2009. 9(7): p. 503-13.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hansen%2C%20T.H.%20Bouvier%2C%20M.%20MHC%20class%20I%20antigen%20presentation%3A%20learning%20from%20viral%20evasion%20strategies%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hansen%2C%20T.H.%20Bouvier%2C%20M.%20MHC%20class%20I%20antigen%20presentation%3A%20learning%20from%20viral%20evasion%20strategies%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hansen%2C%20T.H.%20Bouvier%2C%20M.%20MHC%20class%20I%20antigen%20presentation%3A%20learning%20from%20viral%20evasion%20strategies%202009"
+        },
+        {
+            "id": "40",
+            "alt_id": "Goulder_2008_a",
+            "entry": "40. Goulder, P.J. and D.I. Watkins, Impact of MHC class I diversity on immune control of immunodeficiency virus replication. Nat Rev Immunol, 2008. 8(8): p. 619-30. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Goulder%2C%20P.J.%20Watkins%2C%20D.I.%20Impact%20of%20MHC%20class%20I%20diversity%20on%20immune%20control%20of%20immunodeficiency%20virus%20replication%202008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Goulder%2C%20P.J.%20Watkins%2C%20D.I.%20Impact%20of%20MHC%20class%20I%20diversity%20on%20immune%20control%20of%20immunodeficiency%20virus%20replication%202008",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Goulder%2C%20P.J.%20Watkins%2C%20D.I.%20Impact%20of%20MHC%20class%20I%20diversity%20on%20immune%20control%20of%20immunodeficiency%20virus%20replication%202008"
+        }
+    ],
+    "facts": [
+        "ACE2 is reported to be expressed in lung",
+        "that ACE2 was mainly expressed in lung AT2",
+        "that macrophages frequently communicate with the CoVs targets through chemokine and phagocytosis signaling",
+        "a novel coronavirus infection emerged in Wuhan",
+        "highly contagious. Coronavirus is a type of single-stranded RNA virus",
+        "The symptoms caused by 2019-nCoV infection include acute respiratory distress syndrome",
+        "Viruses bind to host receptors on target cell surface to establish infection",
+        "Membrane proteins mediated membrane fusion allowed the entry of enveloped viruses[3",
+        "many data analysis have showed a wide distribution of ACE2 across human tissues",
+        "these data showed that AT2 cell in the lung expressed rather low levels",
+        "the nCoVs may depends on co-receptor",
+        "Hoffmann et al recently showed that 2019-nCoV-S uses ACE2 for entry",
+        "the receptors usage by the viruses could facilitate the development of intervention strategies",
+        "normalized gene expression matrix for each single cell were downloaded from GEO",
+        "4 human donors died from hypoxic brain damage",
+        "totally 4 intestine mucosae sampled at least 10 cm",
+        "The high-quality virus-host receptor interactions were downloaded from Viral Receptor database",
+        "The membrane proteins were extracted from Membranome database",
+        "which have been deposited in public database",
+        "The cell clusters were annotated using canonical markers searched from the published articles",
+        "The coronaviruses are a large family of ssRNA viruses causing respiratory diseases in humans",
+        "Most of the coronaviruses are associated with mild clinical symptoms",
+        "A total of 37,251 2019-nCoV infected cases involving across different regions of China have been confirmed until",
+        "The phylogenic tree constructed from full-genome sequences indicated that",
+        "most common symptoms of patients infected with 2019-nCoV are fever and cough[30",
+        "Many data analysis have showed a wide distribution of ACE2 across human tissues",
+        "These data showed that AT2 cell in the lung expressed rather low levels",
+        "that macrophages frequently crosstalks with CoVs-target cells",
+        "the significant components according to the p-values produced by",
+        "Our results reveal that ACE2 expresses in lung AT2",
+        "three genes correlated with ACE4",
+        "that further experimental validations should be performed to explore the role of these peptidase",
+        "the cells communicated with CoVs-targets in each tissue"
+    ],
+    "claims": [
+        "To identify the potential candidates, we explored the single cell gene expression atlas including 119 cell types of 13 human tissues and analyzed the single cell co-expression spectrum of 51 reported RNA virus receptors and 400 other membrane proteins",
+        "We found that the candidate co-receptors, manifesting the most similar expression patterns with ACE2 across 13 human tissues, are all peptidases, including ANPEP, DPP4 and ENPEP",
+        "We found that macrophages frequently communicate with the CoVs targets through chemokine and phagocytosis signaling, highlighting the importance of tissue macrophages in immune defense and immune pathogenesis",
+        "Using hierarchy clustering and correlation calculation, we found that ANPEP, DPP4 and ENPEP showed co-expression pattern with ACE2 across the 13 human tissues, suggesting that they may act as potential coreceptors for 2019-nCoV, and all human CoVs should have similar targets across different human tissues..After conducting \u201cCellPhoneDB\u201d, we further reveal that macrophages frequently crosstalks with CoVs-target cells, in multiple tissues",
+        "We only focus on ssRNA virus in this study",
+        "We firstly identified 50 principal components as a result and then selected the significant components according to the p-values produced by \u201cScoreJackStraw\u201d function for further analysis",
+        "To annotate cell clusters, we firstly identified the differentially expressed genes on each cluster by performing \u201cFindMarkers\u201d function",
+        "We identified a total of 7 cell populations in skin (Figure S2), in which pericytes (~31%) and fibroblasts (~21%) are the most enriched populations",
+        "We identified large number of NK/NKT cells (~44%) and erythrocytes (~28%) cells in bone marrow (Figure S2)",
+        "We also identified B cells, cDCs, macrophages, NK cells, pDCs and platelets in blood",
+        "Our results reveal that ACE2 expresses in lung AT2, liver cholangiocyte, colon colonocytes, esophagus keratinocytes, ileum ECs, rectum ECs, stomach epithelial cells, and kidney proximal tubules, consistent with the recent reports[5-8]",
+        "We examined the expression spectrum of the 432 genes across the 119 cell types",
+        "As a result, we found that macrophages showed highest active interaction with ACE2-expressing cells in liver, lung and stomach (Figure 3A) sharing a CD74-MIF signaling pairs (Figure 3B)",
+        "After calculating their gene expression similarity, we found ANPEP, ENPEP and DPP4 are top three genes correlated with ACE4 (R>0.8)",
+        "Now, we showed co-expression profiles of these molecules, indicating that different human CoVs actually target the similar cell types across different human tissues",
+        "We propose that further experimental validations should be performed to explore the role of these peptidase in 2019-nCoV and other CoVs infection",
+        "In this study, we investigated the cells communicated with CoVs-targets (ACE2-expressing cells) in each tissue"
+    ],
+    "findings": [
+        "Cells with less than 100 expressed genes (UMI count > 0) and higher than 25% mitochondrial genome transcript were removed",
+        "The findings show that 94 genes are significantly correlated with ACE2 (P<0.01) in a manner of gene expression"
+    ],
+    "processes": [],
+    "key_statements": [
+        "The symptoms caused by 2019-nCoV infection include acute respiratory distress syndrome (~29%), acute cardiac injury (~12%) or acute kidney injury (~7%)[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], implying that 2019-nCoV may infect various human tissues",
+        "Many data analysis have showed a wide distribution of Angiotensin I converting enzyme 2 across human tissues, including lung[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], liver[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], stomach[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], ileum[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], colon[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] and kidney[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], indicating that 2019-nCoV may infect multiple organs",
+        "The nCoVs may depends on co-receptor or other auxiliary membrane proteins to facilitate its infection",
+        "Hoffmann et al recently showed that 2019-nCoV-S uses Angiotensin I converting enzyme 2 for entry and depends on the cellular protease TMPRSS2 for priming[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], showing that 2019nCoV infections require multiple factors",
+        "Using hierarchy clustering and correlation calculation, we found that ANPEP, DPP4 and ENPEP showed co-expression pattern with Angiotensin I converting enzyme 2 across the 13 human tissues, suggesting that they may act as potential coreceptors for 2019-nCoV, and all human CoVs should have similar targets across different human tissues..After conducting \u201cCellPhoneDB\u201d, we further reveal that macrophages frequently crosstalks with CoVs-target cells, in multiple tissues",
+        "GEO Accession No GSE115469, 5 normal human donors; Lung, GEO Accession No GSE130148, 4 human donors died from hypoxic brain damage; Colon, GEO Accession No GSE116222, 3 healthy volunteers; Ileum and rectum, GEO Accession No GSE125970, totally 4 intestine mucosae sampled at least cm away from the tumor border; Skin, GEO Accession No GSE132802, 4 healthy volunteers; PBMC, GEO Accession No GSE136103, 4 samples from cirrhotic patients; Spleen and oesophagus, available from Human Cell Atlas, totally cardiac death donors; Bone marrow, GEO Accession No GSE120221, 5 healthy donors (A, E, J, R, U); Eye, GEO Accession No GSE135922, 3 Macula and 3 periphery of human donor eyes; Stomach, GEO Accession No GSE134520, 3 Non-atrophic gastritis patients; Kidney, GEO Accession No GSE131685, 3 normal kidney tissues obtained at least 2 cm away from tumor tissue",
+        "We collected the single cell RNA sequencing data from published literatures, which have been deposited in public database, e.g. GEO or Human Cell Atlas",
+        "Our results reveal that Angiotensin I converting enzyme 2 expresses in lung Alveolar Type 2 cells, liver cholangiocyte, colon colonocytes, esophagus keratinocytes, ileum endothelial cells, rectum endothelial cells, stomach epithelial cells, and kidney proximal tubules, consistent with the recent reports[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>-<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]",
+        "The coronaviruses are a large family of single-stranded RNA viruses causing respiratory diseases in humans",
+        "Most of the coronaviruses are associated with mild clinical symptoms, except SARSCoV and MERS-CoV, showing fatality rate of 9.6% and 34%, respectively[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>, <a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]",
+        "A total of 37,251 2019-nCoV infected cases involving across different regions of China have been confirmed until February 9, 2020, suggesting that 2019-nCoV is highly infectious",
+        "The phylogenic tree constructed from full-genome sequences indicated that 2019-nCoV is a distinct clade from SARS-CoV and MERS-CoV[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]",
+        "Since the viral receptor and co-receptors should be co-expressed on the same cell types, we analyzed single cell co-expression patterns covering 400 membrane proteins and 51 known viral receptors in this study. After calculating their gene expression similarity, we found ANPEP, ENPEP and DPP4 are top three genes correlated with ACE4 (R>0.8)",
+        "We showed co-expression profiles of these molecules, indicating that different human CoVs target the similar cell types across different human tissues",
+        "We propose that further experimental validations should be performed to explore the role of these peptidase in 2019-nCoV and other CoVs infection"
+    ],
+    "top_statements": [
+        "In December, 2019, a novel coronavirus (2019-nCoV) infection emerged in Wuhan",
+        "Using hierarchy clustering and correlation calculation, we found that ANPEP, DPP4 and ENPEP showed co-expression pattern with Angiotensin I converting enzyme 2 across the 13 human tissues, suggesting that they may act as potential coreceptors for 2019-nCoV, and all human CoVs should have similar targets across different human tissues..After conducting \u201cCellPhoneDB\u201d, we further reveal that macrophages frequently crosstalks with CoVs-target cells, in multiple tissues",
+        "The coronaviruses are a large family of single-stranded RNA viruses causing respiratory diseases in humans",
+        "Most of the coronaviruses are associated with mild clinical symptoms, except SARSCoV and MERS-CoV, showing fatality rate of 9.6% and 34%, respectively[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>, <a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]",
+        "A total of 37,251 2019-nCoV infected cases involving across different regions of China have been confirmed until February 9, 2020, suggesting that 2019-nCoV is highly infectious",
+        "The phylogenic tree constructed from full-genome sequences indicated that 2019-nCoV is a distinct clade from SARS-CoV and MERS-CoV[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]"
+    ],
+    "headline": "Most of the coronaviruses are associated with mild clinical symptoms, except SARSCoV and MERS-CoV, showing fatality rate of 9.6% and 34%, respectively",
+    "contexts": [],
+    "abbreviations": {
+        "ACE2": "Angiotensin I converting enzyme 2",
+        "ssRNA": "single-stranded RNA",
+        "ssDNA": "single-stranded DNA",
+        "HVGs": "highly variable genes",
+        "PCA": "principle component analysis",
+        "AT2": "Alveolar Type 2 cells",
+        "AT1": "Alveolar Type 1 cells",
+        "PMCs": "pit mucous cell",
+        "ECs": "endothelial cells",
+        "GMCs": "gland mucous cell",
+        "EECs": "enteroendocrine cells",
+        "Gs": "goblet cells",
+        "PCs": "Paneth cells",
+        "PROs": "progenitor cells",
+        "SCs": "stem cells",
+        "TAs": "transient amplifying"
+    }
+}

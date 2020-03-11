@@ -1,0 +1,191 @@
+{
+    "filename": "preprints.18195.pdf",
+    "content_type": "text/html",
+    "file_size": 16411,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.2196/preprints.18195",
+            "url": "https://dx.doi.org/10.2196/preprints.18195"
+        },
+        "title": "An App for Classifying the Trend Magnitudes and the Multiple Infection Rates(MIR) of Novel Coronavirus (2019-nCoV) in Countries/Regions: A Data-Driven Analysis (Preprint)",
+        "date": 2020,
+        "abstract": "BACKGROUND\n                        An outbreak of the novel coronavirus (2019-nCoV) pneumonia hits the city of Wuhan, China, in December 2019 and subsequently spread to other provinces/regions of China as well as foreign countries. An online dashboard regularly updating the worldwide status of the coronavirus outbreak would be beneficial to the public understanding of the almost-real-time 2019-nCoV situation. Some online dashboards were equipped with wow-features on a world map. However, only displaying the case numbers of the outbreak across countries/provinces/regions is insufficient to the public. The trends of the outbreak and variations of multiple infection rate (MIR) would be greatly informative in displaying on a dashboard in the form of an app.\n                \n                                \n                    OBJECTIVE\n                        This study aims to (1) present the MIR in comparison for each counties/regions, (2) develop an algorithm that classifies entities into four clusters (e.g., ready to rise, increasing, slowing down, and ready to decrease with four steps and quadrants named 4SQ diagram for short) shown on Google Maps, and (3) design an app for better understanding the outbreak situation.\n                \n                                \n                    METHODS\n                        We downloaded 2019-nCoV outbreak numbers in countries/regions on a daily basis from Google Sheet that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions. Choropleth maps and Kano diagrams were drawn based on the 4SQ diagram. The Kano diagram was applied to present the classification feature for each country/region using a dashboard presenting on Google Maps. One novel presentation was used to identify the recent MIR changes across sectors. Four clusters of the 2019-nCoV outbreak were dynamically classified. The other four basic features were involved including (1) an overall visual display on case counts, (2) a choropleth map, (3) daily MIR trend changes, and (4)three-type trend charts. The Separation Index (SI) was applied to assess the role Hubei(China) played in the outbreak situation. An app aimed for public understandings based on a dashboard to classify and visualize with Google Maps was introduced.\n                \n                                \n                    RESULTS\n                        We made improvements on the display of classification of the outbreak and the death rate for each region, for example, 2.01% and 2.87% for all cases and Hubei(China) only, respectively. Three-type trend-charts were automatically linked to choropleth maps and the Kano diagrams in near real-time. Importantly, the sequential trend for each region on a daily basis classifies outbreak attributes (e.g., Japan was increasing and Taiwan ready to rise on February 6, 2019). The SI for Hubei(China) reaches 0.96, extremely higher than the cutting point at 0.7. The highest MIR(=0.26) was British Columbia(Canada) on February 9, 2020.\n                \n                                \n                    CONCLUSIONS\n                        The unique features for display the outbreak situation of the 2019-nCoV were proposed in this study. Visualizations using the 4SQ diagram, SI, and the MIR based on time series were present displaying dashboards on Google Maps. An app developed for visualizing the data is required for application in the future.",
+        "author": "Tsair-Wei Chien, Wei-Chih Kan, Yu-Tsen Yeh, Shu-Chun Kuo",
+        "references": "",
+        "references_ris": "",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "background": [
+            "An outbreak of the novel coronavirus (2019-nCoV) pneumonia hits the city of Wuhan, China, in December 2019 and subsequently spread to other provinces/regions of China as well as foreign countries. An online dashboard regularly updating the worldwide status of the coronavirus outbreak would be beneficial to the public understanding of the almost-real-time 2019-nCoV situation. Some online dashboards were equipped with wow-features on a world map. However, only displaying the case numbers of the outbreak across countries/provinces/regions is insufficient to the public. The trends of the outbreak and variations of multiple infection rate (MIR) would be greatly informative in displaying on a dashboard in the form of an app."
+        ],
+        "objective": [
+            "This study aims to (1) present the MIR in comparison for each counties/regions, (2) develop an algorithm that classifies entities into four clusters (e.g., ready to rise, increasing, slowing down, and ready to decrease with four steps and quadrants named 4SQ diagram for short) shown on Google Maps, and (3) design an app for better understanding the outbreak situation."
+        ],
+        "methods": [
+            "We downloaded 2019-nCoV outbreak numbers in countries/regions on a daily basis from Google Sheet that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions. Choropleth maps and Kano diagrams were drawn based on the 4SQ diagram. The Kano diagram was applied to present the classification feature for each country/region using a dashboard presenting on Google Maps. One novel presentation was used to identify the recent MIR changes across sectors. Four clusters of the 2019-nCoV outbreak were dynamically classified. The other four basic features were involved including (1) an overall visual display on case counts, (2) a choropleth map, (3) daily MIR trend changes, and (4)three-type trend charts. The Separation Index (SI) was applied to assess the role Hubei(China) played in the outbreak situation. An app aimed for public understandings based on a dashboard to classify and visualize with Google Maps was introduced."
+        ],
+        "results": [
+            "We made improvements on the display of classification of the outbreak and the death rate for each region, for example, 2.01% and 2.87% for all cases and Hubei(China) only, respectively. Three-type trend-charts were automatically linked to choropleth maps and the Kano diagrams in near real-time. Importantly, the sequential trend for each region on a daily basis classifies outbreak attributes (e.g., Japan was increasing and Taiwan ready to rise on February 6, 2019). The SI for Hubei(China) reaches 0.96, extremely higher than the cutting point at 0.7. The highest MIR(=0.26) was British Columbia(Canada) on February 9, 2020."
+        ],
+        "conclusions": [
+            "The unique features for display the outbreak situation of the 2019-nCoV were proposed in this study. Visualizations using the 4SQ diagram, SI, and the MIR based on time series were present displaying dashboards on Google Maps. An app developed for visualizing the data is required for application in the future.    Citation<br/><br/>Please cite as: Chien T, Kan W, Yeh Y, Kuo S"
+        ]
+    },
+    "structured_content": {
+        "Background": [
+            "An outbreak of the novel coronavirus (2019-nCoV) pneumonia hits the city of Wuhan, China, in December 2019 and subsequently spread to other provinces/regions of China as well as foreign countries. An online dashboard regularly updating the worldwide status of the coronavirus outbreak would be beneficial to the public understanding of the almost-real-time 2019-nCoV situation. Some online dashboards were equipped with wow-features on a world map. However, only displaying the case numbers of the outbreak across countries/provinces/regions is insufficient to the public. The trends of the outbreak and variations of multiple infection rate (MIR) would be greatly informative in displaying on a dashboard in the form of an app.",
+            "Objective: This study aims to (1) present the MIR in comparison for each counties/regions, (2) develop an algorithm that classifies entities into four clusters (e.g., ready to rise, increasing, slowing down, and ready to decrease with four steps and quadrants named 4SQ diagram for short) shown on Google Maps, and (3) design an app for better understanding the outbreak situation."
+        ],
+        "Methods": [
+            "We downloaded 2019-nCoV outbreak numbers in countries/regions on a daily basis from Google Sheet that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions. Choropleth maps and Kano diagrams were drawn based on the 4SQ diagram. The Kano diagram was applied to present the classification feature for each country/region using a dashboard presenting on Google Maps. One novel presentation was used to identify the recent MIR changes across sectors. Four clusters of the 2019-nCoV outbreak were dynamically classified. The other four basic features were involved including (1) an overall visual display on case counts, (2) a choropleth map, (3) daily MIR trend changes, and (4)three-type trend charts. The Separation Index (SI) was applied to assess the role Hubei(China) played in the outbreak situation. An app aimed for public understandings based on a dashboard to classify and visualize with Google Maps was introduced."
+        ],
+        "Results": [
+            "We made improvements on the display of classification of the outbreak and the death rate for each region, for example, 2.01% and 2.87% for all cases and Hubei(China) only, respectively. Three-type trend-charts were automatically linked to choropleth maps and the Kano diagrams in near real-time. Importantly, the sequential trend for each region on a daily basis classifies outbreak attributes (e.g., Japan was increasing and Taiwan ready to rise on February 6, 2019). The SI for Hubei(China) reaches 0.96, extremely higher than the cutting point at 0.7. The highest MIR(=0.26) was British Columbia(Canada) on February 9, 2020."
+        ],
+        "Conclusions": [
+            "The unique features for display the outbreak situation of the 2019-nCoV were proposed in this study. Visualizations using the 4SQ diagram, SI, and the MIR based on time series were present displaying dashboards on Google Maps. An app developed for visualizing the data is required for application in the future."
+        ]
+    },
+    "participants": [],
+    "statistics": [],
+    "keywords": [
+        "worldwide status",
+        "outbreak situation",
+        "type trend chart",
+        "public understanding",
+        "world map",
+        "google maps",
+        "diagram",
+        "coronavirus outbreak",
+        "case number",
+        "choropleth map",
+        "Separation Index",
+        "novel coronavirus",
+        "foreign country",
+        "kano diagram",
+        "daily basis",
+        "ncov outbreak",
+        "ncov situation",
+        "online dashboard",
+        "real time",
+        "multiple infection rate",
+        "4sq diagram"
+    ],
+    "keyword_relevance": {
+        "multiple infection rate": 0.2702702702702703,
+        "diagram": 0.16216216216216217,
+        "Separation Index": 0.10810810810810811,
+        "outbreak situation": 0.08108108108108109,
+        "public understanding": 0.05405405405405406,
+        "choropleth map": 0.05405405405405406,
+        "daily basis": 0.05405405405405406,
+        "online dashboard": 0.05405405405405406,
+        "worldwide status": 0.02702702702702703,
+        "type trend chart": 0.02702702702702703,
+        "world map": 0.02702702702702703,
+        "coronavirus outbreak": 0.02702702702702703,
+        "case number": 0.02702702702702703,
+        "novel coronavirus": 0.02702702702702703,
+        "google maps": 0.0,
+        "foreign country": 0.0,
+        "kano diagram": 0.0,
+        "ncov outbreak": 0.0,
+        "ncov situation": 0.0,
+        "real time": 0.0,
+        "4sq diagram": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> An outbreak of the novel coronavirus (2019-nCoV) pneumonia hits the city of Wuhan, China, in December 2019 and subsequently spread to other provinces/regions of China as well as foreign countries.",
+        "An online dashboard regularly updating the worldwide status of the coronavirus outbreak would be beneficial to the public understanding of the almost-real-time 2019-nCoV situation.",
+        "Only displaying the case numbers of the outbreak across countries/provinces/regions is insufficient to the public.",
+        "The trends of the outbreak and variations of multiple infection rate (MIR) would be greatly informative in displaying on a dashboard in the form of an app",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors downloaded 2019-nCoV outbreak numbers in countries/regions on a daily basis from Google Sheet that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions.",
+        "The Kano diagram was applied to present the classification feature for each country/region using a dashboard presenting on Google Maps.",
+        "The other four basic features were involved including (1) an overall visual display on case counts, (2) a choropleth map, (3) daily MIR trend changes, and (4)three-type trend charts.",
+        "An app aimed for public understandings based on a dashboard to classify and visualize with Google Maps was introduced",
+        "<h2 style=\"display: inline\">Results:</h2> The authors made improvements on the display of classification of the outbreak and the death rate for each region, for example, 2.01% and 2.87% for all cases and Hubei(China) only, respectively.",
+        "Three-type trend-charts were automatically linked to choropleth maps and the Kano diagrams in near real-time.",
+        "The sequential trend for each region on a daily basis classifies outbreak attributes (e.g., Japan was increasing and Taiwan ready to rise on February 6, 2019).",
+        "The SI for Hubei(China) reaches 0.96, extremely higher than the cutting point at 0.7.",
+        "The highest MIR(=0.26) was British Columbia(Canada) on February 9, 2020",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The unique features for display the outbreak situation of the 2019-nCoV were proposed in this study.",
+        "Visualizations using the 4SQ diagram, SI, and the MIR based on time series were present displaying dashboards on Google Maps.",
+        "An app developed for visualizing the data is required for application in the future.",
+        "Please cite as: Chien T, Kan W, Yeh Y, Kuo S"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "An outbreak of the novel coronavirus (2019-nCoV) pneumonia hits the city of Wuhan, China, in December 2019 and subsequently spread to other provinces/regions of China as well as foreign countries.",
+            "An online dashboard regularly updating the worldwide status of the coronavirus outbreak would be beneficial to the public understanding of the almost-real-time 2019-nCoV situation.",
+            "Only displaying the case numbers of the outbreak across countries/provinces/regions is insufficient to the public.",
+            "The trends of the outbreak and variations of multiple infection rate (MIR) would be greatly informative in displaying on a dashboard in the form of an app"
+        ],
+        "Methods": [
+            "The authors downloaded 2019-nCoV outbreak numbers in countries/regions on a daily basis from Google Sheet that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions.",
+            "The Kano diagram was applied to present the classification feature for each country/region using a dashboard presenting on Google Maps.",
+            "The other four basic features were involved including (1) an overall visual display on case counts, (2) a choropleth map, (3) daily MIR trend changes, and (4)three-type trend charts.",
+            "An app aimed for public understandings based on a dashboard to classify and visualize with Google Maps was introduced"
+        ],
+        "Results": [
+            "The authors made improvements on the display of classification of the outbreak and the death rate for each region, for example, 2.01% and 2.87% for all cases and Hubei(China) only, respectively.",
+            "Three-type trend-charts were automatically linked to choropleth maps and the Kano diagrams in near real-time.",
+            "The sequential trend for each region on a daily basis classifies outbreak attributes (e.g., Japan was increasing and Taiwan ready to rise on February 6, 2019).",
+            "The SI for Hubei(China) reaches 0.96, extremely higher than the cutting point at 0.7.",
+            "The highest MIR(=0.26) was British Columbia(Canada) on February 9, 2020"
+        ],
+        "Conclusion": [
+            "The unique features for display the outbreak situation of the 2019-nCoV were proposed in this study.",
+            "Visualizations using the 4SQ diagram, SI, and the MIR based on time series were present displaying dashboards on Google Maps.",
+            "An app developed for visualizing the data is required for application in the future.",
+            "Please cite as: Chien T, Kan W, Yeh Y, Kuo S"
+        ]
+    },
+    "reference_links": [],
+    "facts": [
+        "An outbreak of the novel coronavirus pneumonia hits the city of Wuhan",
+        "An online dashboard regularly updating the worldwide status of the coronavirus outbreak would be beneficial to the public understanding",
+        "Some online dashboards were equipped with wow-features on a world map",
+        "regions is insufficient to the public",
+        "The trends of the outbreak and variations of multiple infection rate would be greatly informative in displaying on a dashboard in the form",
+        "classifies entities into four clusters shown on Google Maps",
+        "Kano diagrams were drawn based on the 4SQ diagram",
+        "a dashboard presenting on Google Maps",
+        "the role Hubei played in the outbreak situation",
+        "An app aimed for public understandings based on a dashboard to classify",
+        "Three-type trend-charts were automatically linked to choropleth maps",
+        "the MIR based on time series were present displaying dashboards",
+        "the data is required for application in the future"
+    ],
+    "claims": [
+        "This study aims to (1) present the MIR in comparison for each counties/regions, (2) develop an algorithm that classifies entities into four clusters (e.g., ready to rise, increasing, slowing down, and ready to decrease with four steps and quadrants named 4SQ diagram for short) shown on Google Maps, and (3) design an app for better understanding the outbreak situation",
+        "Objective: This study aims to (1) present the MIR in comparison for each counties/regions, (2) develop an algorithm that classifies entities into four clusters (e.g., ready to rise, increasing, slowing down, and ready to decrease with four steps and quadrants named 4SQ diagram for short) shown on Google Maps, and (3) design an app for better understanding the outbreak situation"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "An online dashboard regularly updating the worldwide status of the coronavirus outbreak would be beneficial to the public understanding of the almost-real-time 2019-nCoV situation",
+        "This study aims to (1) present the multiple infection rate in comparison for each counties/regions, (2) develop an algorithm that classifies entities into four clusters shown on Google Maps, and (3) design an app for better understanding the outbreak situation",
+        "Choropleth maps and Kano diagrams were drawn based on the 4SQ diagram",
+        "Three-type trend-charts were automatically linked to choropleth maps and the Kano diagrams in near real-time",
+        "Visualizations using the 4SQ diagram, Separation Index, and the multiple infection rate based on time series were present displaying dashboards on Google Maps"
+    ],
+    "top_statements": [
+        "An outbreak of the novel coronavirus (2019-nCoV) pneumonia hits the city of Wuhan, China, in December 2019 and subsequently spread to other provinces/regions of China as well as foreign countries",
+        "An online dashboard regularly updating the worldwide status of the coronavirus outbreak would be beneficial to the public understanding of the almost-real-time 2019-nCoV situation",
+        "This study aims to (1) present the multiple infection rate in comparison for each counties/regions, (2) develop an algorithm that classifies entities into four clusters shown on Google Maps, and (3) design an app for better understanding the outbreak situation",
+        "Choropleth maps and Kano diagrams were drawn based on the 4SQ diagram",
+        "Three-type trend-charts were automatically linked to choropleth maps and the Kano diagrams in near real-time",
+        "Visualizations using the 4SQ diagram, Separation Index, and the multiple infection rate based on time series were present displaying dashboards on Google Maps"
+    ],
+    "headline": "Visualizations using the 4SQ diagram, Separation Index, and the multiple infection rate based on time series were present displaying dashboards on Google Maps",
+    "contexts": [],
+    "abbreviations": {
+        "MIR": "multiple infection rate",
+        "SI": "Separation Index"
+    }
+}

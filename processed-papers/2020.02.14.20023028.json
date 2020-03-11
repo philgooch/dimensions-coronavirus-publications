@@ -1,0 +1,426 @@
+{
+    "filename": "2020.02.14.20023028.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 548930,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.14.20023028",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/18/2020.02.14.20023028.full.pdf"
+        },
+        "title": "A deep learning algorithm using CT images to screen for Corona Virus Disease (COVID-19)",
+        "author": "Shuai Wang, Bo Kang, Jinlu Ma, Xianjun Zeng, Mingming Xiao, Jia Guo, Mengjiao Cai, Jingyi Yang, Yaodong Li, Xiangfei Meng, Bo Xu",
+        "date": 2020,
+        "affiliations": [
+            "Department of Molecular Radiation Oncology, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Key Laboratory of Breast Cancer Prevention and Therapy, Ministry of Education, Tianjin Clinical Research Center for Cancer, Tianjin Medical University Cancer Hospital and Institute, Tianjin 300060, China",
+            "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China",
+            "National Supercomputer Center in Tianjin, Tianjin 300457, China",
+            "Department of Radiation Oncology, First Affiliated Hospital, Xi\u2019an Jiaotong University, Xi\u2019an, China",
+            "Department of Radiology, Nanchang University First Hospital, Nanchang, China",
+            "Department of Radiology, No.8 Hospital, Xi\u2019an Medical College, Xi\u2019an, China",
+            "Equal contribution # Corresponding authors: Bo Xu, MD, PhD Tianjin Medical University Cancer Institute and Hospital Tianjin 300060, China Email: xubo@tmu.edu.cn Xiangfei Meng, PhD National Supercomputer Center in Tianjin Tianjin 300457, China Email: mengxf@nscc-tj.cn"
+        ],
+        "abstract": "Background: To control the spread of Corona Virus Disease (COVID-19), screening large numbers of suspected cases for appropriate quarantine and treatment measures is a priority.  Pathogenic laboratory testing is the diagnostic gold standard but it is time consuming with significant false positive results. Fast and accurate diagnostic methods are urgently needed to combat the disease. Based on COVID-19 radiographical changes in CT images, we hypothesized that deep learning methods might be able to extract COVID-19's graphical features and provide a clinical diagnosis ahead of the pathogenic test, thus saving critical time for disease control. \nMethods\uff1aWe collected 453 CT images of pathogen-confirmed COVID-19 cases along with previously diagnosed with typical viral pneumonia. We modified the Inception migration-learning model to establish the algorithm, followed by internal and external validation. \nFindings: The internal validation achieved a total accuracy of 82.9% with specificity of 80.5% and sensitivity of 84%. The external testing dataset showed a total accuracy of 73.1% with specificity of 67% and sensitivity of 74%. \nInterpretation: These results demonstrate the proof-of-principle for using artificial intelligence to extract radiological features for timely and accurate COVID-19 diagnosis.  \nFunding: No funding is involved in the execution of the project.",
+        "references": "@article{li2020a,\n  author = {Li, Q. and Guan, X. and Wu, P.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia},\n  journal = {The New England journal of medicine},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@misc{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020},\n  more-authors = {true},\n  language = {}\n}\n@article{corman2019a,\n  author = {Corman, V.M. and Landt, O. and Kaiser, M.},\n  title = {Detection of 2019 novel coronavirus},\n  date = {2019},\n  journal = {European communicable disease bulletin},\n  volume = {2020},\n  pages = {7},\n  more-authors = {true},\n  source = {by real-time RT-PCR. Euro surveillance: bulletin Europeen sur les maladies transmissibles},\n  number = {25},\n  language = {}\n}\n@article{gomez2019a,\n  author = {Gomez, P. and Semmler, M. and Schutzenberger, A. and Bohr, C. and Dollinger, M.},\n  title = {Low-light image enhancement of high-speed endoscopic videos using a convolutional neural network},\n  journal = {Med Biol Eng Comput},\n  date = {2019},\n  volume = {57},\n  pages = {1451\u201363},\n  number = {7},\n  language = {}\n}\n@article{choe2019a,\n  author = {Choe, J. and Lee, S.M. and Do, K.H.},\n  title = {Deep Learning-based Image Conversion of CT Reconstruction Kernels Improves Radiomics Reproducibility for Pulmonary Nodules or Masses},\n  journal = {Radiology},\n  date = {2019},\n  volume = {292},\n  pages = {365\u201373},\n  more-authors = {true},\n  number = {2},\n  language = {}\n}\n@article{kermany2018a,\n  author = {Kermany, D.S. and Goldbaum, M. and Cai, W.},\n  title = {Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning},\n  journal = {Cell},\n  date = {2018},\n  volume = {172},\n  pages = {1122\u201331},\n  more-authors = {true},\n  number = {5},\n  language = {}\n}\n@article{negassi2020a,\n  author = {Negassi, M. and Suarez-Ibarrola, R. and Hein, S. and Miernik, A. and Reiterer, A.},\n  title = {Application of artificial neural networks for automated analysis of cystoscopic images: a review of the current status and future prospects},\n  journal = {World J Urol},\n  date = {2020},\n  language = {}\n}\n@article{wang2018a,\n  author = {Wang, P. and Xiao, X. and Brown, JR, Glissen},\n  title = {Development and validation of a deep-learning algorithm for the detection of polyps during colonoscopy},\n  journal = {Nat Biomed Eng},\n  date = {2018},\n  volume = {2},\n  pages = {741\u20138},\n  more-authors = {true},\n  number = {10},\n  language = {}\n}\n@article{koo2018a,\n  author = {Koo, H.J. and Lim, S. and Choe, J. and Choi, S.H. and Sung, H. and Do, K.H.},\n  title = {Radiographic and CT Features of Viral Pneumonia},\n  journal = {Radiographics},\n  date = {2018},\n  volume = {38},\n  pages = {719\u201339},\n  number = {3},\n  language = {}\n}\n@article{zhang2020a,\n  author = {Zhang, N. and Wang, L. and Deng, X.},\n  title = {Recent advances in the detection of respiratory virus infection in humans},\n  journal = {J Med Virol},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n",
+        "links": [
+            "https://ai.nscc-tj.cn/thai/deploy/public/pneumonia_ct"
+        ],
+        "emails": [
+            "mengxf@nscc-tj.cn",
+            "xubo@tmu.edu.cn"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia\nT2  - The New England journal of medicine\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Corman, V.M.\nAU  - Landt, O.\nAU  - Kaiser, M.\nTI  - Detection of 2019 novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - European communicable disease bulletin\nVL  - 2020\nSP  - 7\nC1  - true\nT2  - by real-time RT-PCR. Euro surveillance: bulletin Europeen sur les maladies transmissibles\nIS  - 25\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gomez, P.\nAU  - Semmler, M.\nAU  - Schutzenberger, A.\nAU  - Bohr, C.\nAU  - Dollinger, M.\nTI  - Low-light image enhancement of high-speed endoscopic videos using a convolutional neural network\nT2  - Med Biol Eng Comput\nPY  - 2019\nDA  - 2019\nVL  - 57\nSP  - 1451\nEP  - 63\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Choe, J.\nAU  - Lee, S.M.\nAU  - Do, K.H.\nTI  - Deep Learning-based Image Conversion of CT Reconstruction Kernels Improves Radiomics Reproducibility for Pulmonary Nodules or Masses\nT2  - Radiology\nPY  - 2019\nDA  - 2019\nVL  - 292\nSP  - 365\nEP  - 73\nC1  - true\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kermany, D.S.\nAU  - Goldbaum, M.\nAU  - Cai, W.\nTI  - Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning\nT2  - Cell\nPY  - 2018\nDA  - 2018\nVL  - 172\nSP  - 1122\nEP  - 31\nC1  - true\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Negassi, M.\nAU  - Suarez-Ibarrola, R.\nAU  - Hein, S.\nAU  - Miernik, A.\nAU  - Reiterer, A.\nTI  - Application of artificial neural networks for automated analysis of cystoscopic images: a review of the current status and future prospects\nT2  - World J Urol\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, P.\nAU  - Xiao, X.\nAU  - Brown, JR, Glissen\nTI  - Development and validation of a deep-learning algorithm for the detection of polyps during colonoscopy\nT2  - Nat Biomed Eng\nPY  - 2018\nDA  - 2018\nVL  - 2\nSP  - 741\nEP  - 8\nC1  - true\nIS  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Koo, H.J.\nAU  - Lim, S.\nAU  - Choe, J.\nAU  - Choi, S.H.\nAU  - Sung, H.\nAU  - Do, K.H.\nTI  - Radiographic and CT Features of Viral Pneumonia\nT2  - Radiographics\nPY  - 2018\nDA  - 2018\nVL  - 38\nSP  - 719\nEP  - 39\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, N.\nAU  - Wang, L.\nAU  - Deng, X.\nTI  - Recent advances in the detection of respiratory virus infection in humans\nT2  - J Med Virol\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "The architecture of M-Inception"
+            },
+            {
+                "id": "2",
+                "caption": "Deep learning Algorithm Performance"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Deep learning algorithm framework. ROIs were randomly selected for training using a modified Inception network to extract features. The algorithm then makes a prediction"
+            },
+            {
+                "id": "2",
+                "caption": "An example of COVID-19 pneumonia features. The blue arrow points to ground-glass opacity, and the yellow arrow points to the pleural indentation sign"
+            },
+            {
+                "id": "3",
+                "caption": "Training loss curves of the models on internal (A) and external (B) validation. The loss curve tends to be stable after descending, indicating that the training process converges"
+            },
+            {
+                "id": "4",
+                "caption": "Receiver operating characteristic plots for COVID-19 identification for the deep learning (Inception) algorithm"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.14.20023028.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20023028.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20023028.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20023028.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20023028.full/img-005.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "The outbreak of atypical and person-to-person transmissible pneumonia caused by the severe acute respiratory syndrome coronavirus 2 (SARS-COV-2, also known as 2019-nCov) has caused a global alarm. There have been nearly 70,000 confirmed cases of the Corona Virus Disease (COVID-19) in China, as of February 16, 2020. According to the WHO, 16-21% of people with the virus in China have become severely ill with a 2-3% mortality rate. With the most recent estimated viral reproduction number (R0), the average number of other people that an infected individual will transmit the virus to in a completely non-immune population, stands at about 3\u00b777 1, indicating that a rapid spread of the disease is imminent. Therefore, it is crucial to identify infected individuals as early as possible for quarantine and treatment procedures. The diagnosis of COVID-19 relies on the following criteria: clinical symptoms, epidemiological history and positive CT images, as well as positive pathogenic testing. The clinical characteristics of COVID-19 include respiratory symptoms, fever, cough, dyspna, and pneumonia 2-5. However, these symptoms are nonspecific, as there are isolated cases where, for example, in an asymptomatic infected family a chest CT scan revealed pneumonia and the pathogenic test for the virus came back positive. Once someone is identified as a PUI (person under investigation), lower respiratory specimens, such as bronchoalveolar lavage, tracheal aspirate or sputum, will be collected for pathogenic testing. This laboratory technology is based on real-time RT-PCR and sequencing of nucleic acid from the virus 6, 7. Since the beginning of the outbreak, the efficiency of nucleic acid testing has been dependent on several rate-limiting factors, including availability and quantity of the testing kits in the affected area. More importantly, the quality, stability and reproducibility of the detection kits are questionable. The impact of methodology, disease development stages, specimen collection methods, nucleic acid extraction methods and the amplification system are all determinant factors for the accuracy of test results. Conservative estimates of the detection rate of nucleic acid are low (between 30-50%) 6,7,15, and tests need to be repeated several times in many cases before they can be confirmed. Radiological imaging is also a major diagnostic tool for COVID-19. The majority of COVID-19 cases have similar features on CT images including ground-glass opacities in the early stage and pulmonary consolidation in the late stage. There is also sometimes a rounded morphology and a peripheral lung distribution 5, 8. Although typical CT images may help early screening of suspected cases, the images of various viral pneumonias are similar and they overlap with other infectious and inflammatory lung diseases. Therefore, it is difficult for radiologists to distinguish COVID-19 from other viral pneumonias. Artificial Intelligence involving medical imaging deep-learning systems has been developed in image feature extraction, including shape and spatial relation features. Specifically, Convolutional Neural Network (CNN) has been proven in feature extraction and learning. CNN was used to enhance low-light images from high-speed video endoscopy with the limited training data being just 55 videos 9. Also, CNN has been applied to identify the nature of pulmonary nodules via CT images, the diagnosis of pediatric pneumonia via chest X-ray images, automated precising and labeling of polyps during colonoscopic videos, cystoscopic image recognition extraction from videos 10-13. There are a number of features for identifying viral pathogens on the basis of imaging patterns, which are associated with their specific pathogenesis 14. The hallmarks of COVID-19 are bilateral distribution of patchy shadows and ground glass opacity 2. Based on this, we believed that CNN might help us identify unique features that might be difficult for visual recognition. To test this notion, we retrospectively enrolled 453 CT images of pathogen-confirmed COVID-19 cases along with previously diagnosed typical viral pneumonia. We trained 217 images using the inception migration-learning model in order to establish the algorithm. We achieved a total accuracy of 83% with specificity of 80\u00b75% and sensitivity of 84% for validation. The external testing showed a total accuracy of 73% with specificity of 67% and sensitivity of 74%. These observations demonstrate the proof-of-principle using the deep learning method to extract radiological graphical features for COVID-19 diagnosis."
+        ],
+        "methods": [
+            "<strong>Methods and Materials</strong><br/><br/>Retrospective collection of datasets. We retrospectively collected CT images from 99 patients, in which the cohort includes 55 cases of typical viral pneumonia and the other 44 cases from three hospitals with confirmed nucleic acid testing of SARS-COV-2. The hospitals providing the images were Xi\u2019an Jiaotong University First Affiliated Hospital, Nanchang University First Hospital and Xi\u2019an No.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] Hospital of Xi\u2019an Medical College. All CT images were de-identified before sending for analysis. This study is in compliance with the Institutional Review Board of each participating institutes. Informed consent was exempted by the IRB because of the retrospective nature of this study. Delineation of ROIs We sketched the region of interest (ROI) on the CT images based on the features of pneumonia, such as ground-glass opacity, mosaic sign and interlobular septal thickening. For a ROI, it is sized approximately from 395*223 to 636*533 pixels. An example of ROI is shown in Figure 2. Overview of the proposed architecture Our systematic pipeline for the prediction architecture is depicted in Figure 1. The architecture consists of three main processes. 1) Randomly selection of ROIs; 2) Training of the CNN model to extract features; 3) Classification model training of fully connected network and prediction of multiple classifiers."
+        ],
+        "results": [
+            "Algorithm development In order to develop a deep learning algorithm for the identification of viral pneumonia images, we retrospectively enrolled 99 patients, in which the cohort includes 55 cases of typical viral pneumonia that were diagnosed previously before the COVID-19 outbreak. These patients are termed COVID-19 negative in the cohort. The other 44 cases are from the three hospitals with confirmed nucleic acid testing of SARS-COV-2, therefore termed COVID-19 positive. Two radiologists were asked to review the images and sketched a total of 453 representative images (258 for COVID-19 negative and 195 for COVID-19 positive) for analysis. These images were randomly divided into a training set and a validation set. First, we randomly selected two or three images from all of the patients\u2019 images for training and the remaining images were used for internal validation. The model training has been iterated for 15,000 times with a step size of 0\u00b701. The training loss curve is shown in Figure 3A. To test the stability and generalization of the model, we also randomly selected 237 images (118 images from COVID-19 negative and 119 images from COVID-19 positive) to construct the model. The remaining images were then used for external validation. The model training has been iterated for 15,000 times with a step size of 0\u00b701. The training loss curve is shown in Figure 3B. Deep learning performance"
+        ],
+        "discussion": [
+            "Timely diagnosis and triaging of PUIs are crucial for the control of emerging infectious diseases such as the current COVID-19. Due to the limitation of nucleic acid -based laboratory testing, there is an urgent need to look for fast alternative methods that can be used by front-line health care personals for quickly and accurately diagnosing the disease. In the present study, we have developed an AI program by analyzing representative CT images using a deep learning method. This is a retrospective, multicohort, diagnostic study using our modified Inception migration neuro network, which has achieved 82.9% accuracy. Moreover, the high performance of the deep learning model we developed in this study was tested using external samples with 73% accuracy. These findings have demonstrated the proof-of-principle that deep learning can extract CT image features of COVID-19 for diagnostic purposes. The time for each case is about 2 seconds and can be done remotely via a shared public platform. Therefore, further developing this system can significantly shorten the diagnosis time for disease control. Our study represents the first study to apply artificial intelligence technologies to CT images for effectively screening for COVID-19. The gold standard for COVID-19 diagnosis has been nucleic acid based detection for the existence of specific sequences of the SARS-COV-2 gene. While we still value the importance of nucleic acid detection in the diagnosis of the viral infection, we must also note that the high number of false negatives due to several factors such as methodological disadvantages, disease stages, and methods for specimen collection might delay diagnosis and disease control. Recent data have suggested that the accuracy of nucleic acid testing is only about 30-50% 6,7,15. Using CT imaging feature extraction, we are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing. In addition, this method is non-invasive with minimal cost. Although we are satisfied with the initial results, we believe that with more CT images included in the training, we will achieve higher accuracy. Therefore, further optimizing and testing this system is warranted. To achieve this, we have generated a webpage that licensed healthcare personnel can access to upload CT images for testing and validation. The webpage information is as following: https://ai.nscc-tj.cn/thai/deploy/public/pneumonia_ct. There are some limitations to our study. CT images present a difficult classification task due to the relatively large number of variable objects, specifically the imaged areas outside the lungs that are irrelevant to the diagnosis of pneumonia 11. In our study, only two radiologists were involved in outlining the ROI area. In addition, the training data set is relatively small. The performance of this system is expected to increase when the training volume is increased. It should also be noted that, the features of the CT images we analyzed are from patients with severe lung lesions at later stages of disease development. A study to associate this with the disease progress and all pathologic stages of COVID-19 is necessary to optimize the diagnostic system."
+        ],
+        "funding": [
+            "Funding: No funding is involved in the execution of the project"
+        ],
+        "disclosures": [
+            "Declaration of interests: All authors declare no competing interests. Data sharing: The data that support the findings of this study are available from the corresponding authors upon request. Participant data are without names and identifiers, and they will be made available after approval from the corresponding author and National Health Commission. After publication of study findings, the data will be available for others to request. The research team will provide an email address for communication once the data are approved for sharing. Acknowledgments: We thank all members of the Xu Laboratory (TMUCIH) and"
+        ],
+        "limitations": [
+            "There are some limitations to our study. CT images present a difficult classification task due to the relatively large number of variable objects, specifically the imaged areas outside the lungs that are irrelevant to the diagnosis of pneumonia 11. In our study, only two radiologists were involved in outlining the ROI area. In addition, the training data set is relatively small. The performance of this system is expected to increase when the training volume is increased. It should also be noted that, the features of the CT images we analyzed are from patients with severe lung lesions at later stages of disease development. A study to associate this with the disease progress and all pathologic stages of COVID-19 is necessary to optimize the diagnostic system."
+        ],
+        "data_availability": [
+            "The data that support the findings of this study are available from the corresponding authors upon request"
+        ]
+    },
+    "structured_content": {
+        "Introduction": [
+            "The outbreak of atypical and person-to-person transmissible pneumonia caused by the severe acute respiratory syndrome coronavirus 2 (SARS-COV-2, also known as 2019-nCov) has caused a global alarm. There have been nearly 70,000 confirmed cases of the Corona Virus Disease (COVID-19) in China, as of February 16, 2020. According to the WHO, 16-21% of people with the virus in China have become severely ill with a 2-3% mortality rate. With the most recent estimated viral reproduction number (R0), the average number of other people that an infected individual will transmit the virus to in a completely non-immune population, stands at about 3\u00b777 1, indicating that a rapid spread of the disease is imminent. Therefore, it is crucial to identify infected individuals as early as possible for quarantine and treatment procedures. The diagnosis of COVID-19 relies on the following criteria: clinical symptoms, epidemiological history and positive CT images, as well as positive pathogenic testing. The clinical characteristics of COVID-19 include respiratory symptoms, fever, cough, dyspna, and pneumonia 2-5. However, these symptoms are nonspecific, as there are isolated cases where, for example, in an asymptomatic infected family a chest CT scan revealed pneumonia and the pathogenic test for the virus came back positive. Once someone is identified as a PUI (person under investigation), lower respiratory specimens, such as bronchoalveolar lavage, tracheal aspirate or sputum, will be collected for pathogenic testing. This laboratory technology is based on real-time RT-PCR and sequencing of nucleic acid from the virus 6, 7. Since the beginning of the outbreak, the efficiency of nucleic acid testing has been dependent on several rate-limiting factors, including availability and quantity of the testing kits in the affected area. More importantly, the quality, stability and reproducibility of the detection kits are questionable. The impact of methodology, disease development stages, specimen collection methods, nucleic acid extraction methods and the amplification system are all determinant factors for the accuracy of test results. Conservative estimates of the detection rate of nucleic acid are low (between 30-50%) 6,7,15, and tests need to be repeated several times in many cases before they can be confirmed. Radiological imaging is also a major diagnostic tool for COVID-19. The majority of COVID-19 cases have similar features on CT images including ground-glass opacities in the early stage and pulmonary consolidation in the late stage. There is also sometimes a rounded morphology and a peripheral lung distribution 5, 8. Although typical CT images may help early screening of suspected cases, the images of various viral pneumonias are similar and they overlap with other infectious and inflammatory lung diseases. Therefore, it is difficult for radiologists to distinguish COVID-19 from other viral pneumonias. Artificial Intelligence involving medical imaging deep-learning systems has been developed in image feature extraction, including shape and spatial relation features. Specifically, Convolutional Neural Network (CNN) has been proven in feature extraction and learning. CNN was used to enhance low-light images from high-speed video endoscopy with the limited training data being just 55 videos 9. Also, CNN has been applied to identify the nature of pulmonary nodules via CT images, the diagnosis of pediatric pneumonia via chest X-ray images, automated precising and labeling of polyps during colonoscopic videos, cystoscopic image recognition extraction from videos 10-13. There are a number of features for identifying viral pathogens on the basis of imaging patterns, which are associated with their specific pathogenesis 14. The hallmarks of COVID-19 are bilateral distribution of patchy shadows and ground glass opacity 2. Based on this, we believed that CNN might help us identify unique features that might be difficult for visual recognition. To test this notion, we retrospectively enrolled 453 CT images of pathogen-confirmed COVID-19 cases along with previously diagnosed typical viral pneumonia. We trained 217 images using the inception migration-learning model in order to establish the algorithm. We achieved a total accuracy of 83% with specificity of 80\u00b75% and sensitivity of 84% for validation. The external testing showed a total accuracy of 73% with specificity of 67% and sensitivity of 74%. These observations demonstrate the proof-of-principle using the deep learning method to extract radiological graphical features for COVID-19 diagnosis."
+        ],
+        "Methods and Materials": [
+            "Retrospective collection of datasets. We retrospectively collected CT images from 99 patients, in which the cohort includes 55 cases of typical viral pneumonia and the other 44 cases from three hospitals with confirmed nucleic acid testing of SARS-COV-2. The hospitals providing the images were Xi\u2019an Jiaotong University First Affiliated Hospital, Nanchang University First Hospital and Xi\u2019an No.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] Hospital of Xi\u2019an Medical College. All CT images were de-identified before sending for analysis. This study is in compliance with the Institutional Review Board of each participating institutes. Informed consent was exempted by the IRB because of the retrospective nature of this study. Delineation of ROIs We sketched the region of interest (ROI) on the CT images based on the features of pneumonia, such as ground-glass opacity, mosaic sign and interlobular septal thickening. For a ROI, it is sized approximately from 395*223 to 636*533 pixels. An example of ROI is shown in Figure 2. Overview of the proposed architecture Our systematic pipeline for the prediction architecture is depicted in Figure 1. The architecture consists of three main processes. 1) Randomly selection of ROIs; 2) Training of the CNN model to extract features; 3) Classification model training of fully connected network and prediction of multiple classifiers.",
+            "Intercept ROIs from CT images We randomly selected delineated ROIs for model building. In order to reduce the computation complexity, and based on the signs of characteristic of pneumonia, regions of interest (ROI) were extracted from CT images. We picked 195 ROIs from 44 COVID-19 positive pneumonia patients and 258 ROIs from 50 COVID-19 negative patients. We built a transfer learning neural network based on Inception network. The entire neural network can be roughly divided into two parts: the first part uses a pre-trained inception network to convert image data into one-dimensional feature vectors, and the second part uses a fully connected network and the main role is for classification prediction. We randomly selected 2-3 pictures from each case to form a training dataset. The number of various types of pictures in the training set is approximately equal, with a total number of 236. The remaining CT pictures of each case were used for internal validation. The model training is iterated 15,000 times with a step size of 0\u00b701. In total, 236 ROIs were used to train the model and 217 ROI were extracted for validation. Feature extraction using transfer learning We modified the typical Inception network, and fine-tuned the modified Inception (M-Inception) model with pre-trained weights. During the training phase, the original Inception part was not trained, and we only trained the modified part. The architecture of M-Inception is shown in Table 1. The difference between Inception and M-Inception in classification lies in the last fully-connected layers. We reduced the dimension of features before it was sent to the final classification layer. The training dataset made up of all those patches aforementioned. The Inception network is shown in Table[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "After generating the features, the final step was to classify the pneumonia based on those features. Ensembling of classifiers was used to improve the classification accuracy. In this study, we combined Decision tree and Adaboost to produce the performance.",
+            "We compared the classification performance using Accuracy, Sensitivity, Specificity, Area Under Curve (AUC), Positive predictive value (PPV), Negative predictive value (NPV), F1 score and Youden Index. TP and TN represent the number of true positive or true negative samples. FP and FN mean the number of false positive or false negative samples. Sensitivity measures the ratio of positives that are correctly discriminated. Specificity measures the ratio of negatives that are correctly discriminated. AUC is an index to measure the performance of the classifier. NPV was used to evaluate the algorithm for screening, and PPV was the probability of getting a disease when the diagnostic index is positive. Youden Index was the determining exponent of the optimal bound. F1 score was a measure of the accuracy of a binary model.",
+            "Additionally, performance was evaluated with F-measure (F1) to compare the similarity and diversity of performance."
+        ],
+        "Results": [
+            "Algorithm development In order to develop a deep learning algorithm for the identification of viral pneumonia images, we retrospectively enrolled 99 patients, in which the cohort includes 55 cases of typical viral pneumonia that were diagnosed previously before the COVID-19 outbreak. These patients are termed COVID-19 negative in the cohort. The other 44 cases are from the three hospitals with confirmed nucleic acid testing of SARS-COV-2, therefore termed COVID-19 positive. Two radiologists were asked to review the images and sketched a total of 453 representative images (258 for COVID-19 negative and 195 for COVID-19 positive) for analysis. These images were randomly divided into a training set and a validation set. First, we randomly selected two or three images from all of the patients\u2019 images for training and the remaining images were used for internal validation. The model training has been iterated for 15,000 times with a step size of 0\u00b701. The training loss curve is shown in Figure 3A. To test the stability and generalization of the model, we also randomly selected 237 images (118 images from COVID-19 negative and 119 images from COVID-19 positive) to construct the model. The remaining images were then used for external validation. The model training has been iterated for 15,000 times with a step size of 0\u00b701. The training loss curve is shown in Figure 3B. Deep learning performance",
+            "The deep learning algorithm yielded an AUC of 0\u00b790 (95% CI, 0.86 to 0.94) on the internal validation and 0\u00b778 (95% CI, 0.71 to 0.84) on the external validation. The AUC is shown in Figure 4. Using the maximized Youden index threshold probability, the sensitivity was 80\u00b75% and 67\u00b71%, specificity 84\u00b72% and 76\u00b74%, the accuracy was 82\u00b79% and 73\u00b71%, the negative prediction values were 0\u00b788 and 0\u00b781, the Youden indexes were 0\u00b769 and 0\u00b744, and the F1 scores were 0\u00b777 and 0\u00b764 for the internal and external datasets, respectively (Table 2). The algorithm was executed at a rate of 2 seconds per case on the graphic processing unit."
+        ],
+        "Discussion": [
+            "Timely diagnosis and triaging of PUIs are crucial for the control of emerging infectious diseases such as the current COVID-19. Due to the limitation of nucleic acid -based laboratory testing, there is an urgent need to look for fast alternative methods that can be used by front-line health care personals for quickly and accurately diagnosing the disease. In the present study, we have developed an AI program by analyzing representative CT images using a deep learning method. This is a retrospective, multicohort, diagnostic study using our modified Inception migration neuro network, which has achieved 82.9% accuracy. Moreover, the high performance of the deep learning model we developed in this study was tested using external samples with 73% accuracy. These findings have demonstrated the proof-of-principle that deep learning can extract CT image features of COVID-19 for diagnostic purposes. The time for each case is about 2 seconds and can be done remotely via a shared public platform. Therefore, further developing this system can significantly shorten the diagnosis time for disease control. Our study represents the first study to apply artificial intelligence technologies to CT images for effectively screening for COVID-19. The gold standard for COVID-19 diagnosis has been nucleic acid based detection for the existence of specific sequences of the SARS-COV-2 gene. While we still value the importance of nucleic acid detection in the diagnosis of the viral infection, we must also note that the high number of false negatives due to several factors such as methodological disadvantages, disease stages, and methods for specimen collection might delay diagnosis and disease control. Recent data have suggested that the accuracy of nucleic acid testing is only about 30-50% 6,7,15. Using CT imaging feature extraction, we are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing. In addition, this method is non-invasive with minimal cost. Although we are satisfied with the initial results, we believe that with more CT images included in the training, we will achieve higher accuracy. Therefore, further optimizing and testing this system is warranted. To achieve this, we have generated a webpage that licensed healthcare personnel can access to upload CT images for testing and validation. The webpage information is as following: https://ai.nscc-tj.cn/thai/deploy/public/pneumonia_ct. There are some limitations to our study. CT images present a difficult classification task due to the relatively large number of variable objects, specifically the imaged areas outside the lungs that are irrelevant to the diagnosis of pneumonia 11. In our study, only two radiologists were involved in outlining the ROI area. In addition, the training data set is relatively small. The performance of this system is expected to increase when the training volume is increased. It should also be noted that, the features of the CT images we analyzed are from patients with severe lung lesions at later stages of disease development. A study to associate this with the disease progress and all pathologic stages of COVID-19 is necessary to optimize the diagnostic system.",
+            "In future, we intend to link hierarchical features of CT images to features of other factors such as genetic, epidemiological and clinical information for multi-modeling analysis for an enhanced diagnosis. The artificial intelligence system developed in our study should significantly contribute to COVID-19 disease control by reducing the number of PUIs for timely quarantine and treatment.",
+            "Contributors: BX and XF designed the study and took responsibility for the integrity of the data and the accuracy of the data analysis. SW, BK, MX and JG contributed to the data analysis. BX, SW, MX and BK contributed to writing of the manuscript. JM, XZ, MC, JY, YL contributed to the collection of data. All authors contributed to data interpretation, and reviewed and approved the final version. Declaration of interests: All authors declare no competing interests. Data sharing: The data that support the findings of this study are available from the corresponding authors upon request. Participant data are without names and identifiers, and they will be made available after approval from the corresponding author and National Health Commission. After publication of study findings, the data will be available for others to request. The research team will provide an email address for communication once the data are approved for sharing. Acknowledgments: We thank all members of the Xu Laboratory (TMUCIH) and",
+            "Tianhe Supercomputer Team (NSCC-Tianjin) for their help and valuable comments.",
+            "Reference 1. Yang Y, Lu Q, Jalali N. et al Epidemiological and clinical features of the 2019 novel coronavirus outbreak in China. medRxiv 2020 2. Wang D, Hu B, Hu C, et al Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China. Jama 2020 3. Chen N, Zhou M, Dong X, et al Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet 2020. 4. Li Q, Guan X, Wu P, et al Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. The New England journal of medicine 2020. 5. Huang C, Wang Y, Li X. et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020. 6. Corman VM, Landt O, Kaiser M, et al Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin 2020; 25(3). 7. Chu DKW, Pan Y, Cheng SMS, et al Molecular Diagnosis of a Novel Coronavirus (2019-nCoV) Causing an Outbreak of Pneumonia. Clinical chemistry 2020. 8.Chung M, Bernheim A, Mei X, et al CT Imaging Features of 2019 Novel Coronavirus (2019-nCoV). Radiology 2020: 200230. 9. Gomez P, Semmler M, Schutzenberger A, Bohr C, Dollinger M. Low-light image enhancement of high-speed endoscopic videos using a convolutional neural network. Med Biol Eng Comput 2019; 57(7): 1451-63. 10. Choe J, Lee SM, Do KH, et al Deep Learning-based Image Conversion of CT Reconstruction Kernels Improves Radiomics Reproducibility for Pulmonary Nodules or Masses. Radiology 2019; 292(2): 365-73. 11. Kermany DS, Goldbaum M, Cai W, et al Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning. Cell 2018; 172(5): 1122-31 e9. 12. Negassi M, Suarez-Ibarrola R, Hein S, Miernik A, Reiterer A. Application of artificial neural networks for automated analysis of cystoscopic images: a review of the current status and future prospects. World J Urol 2020. 13. Wang P, Xiao X, Glissen Brown JR, et al Development and validation of a deep-learning algorithm for the detection of polyps during colonoscopy. Nat Biomed Eng 2018; 2(10): 741-8. 14. Koo HJ, Lim S, Choe J, Choi SH, Sung H, Do KH. Radiographic and CT Features of Viral Pneumonia. Radiographics 2018; 38(3): 719-39. 15. Zhang N, Wang L, Deng X. et al Recent advances in the detection of respiratory virus infection in humans. J Med Virol 2020."
+        ],
+        "Figures and Figure Legends": [
+            "8x8 linear logits softmax Fc1 Fc2 classifier batchnorm  dropout(0.5)  512d Linear batchnorm  dropout(0.5)"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "patients",
+            "number": 99,
+            "context": "<strong>Methods and Materials</strong><br/><br/>Retrospective collection of datasets. <mark class=\"stats\">We retrospectively collected CT images from 99 patients, in which the cohort includes 55 cases of typical viral pneumonia and the other 44 cases from three hospitals with confirmed nucleic acid testing of SARS-COV-2</mark>. The hospitals providing the images were Xi\u2019an Jiaotong University First Affiliated Hospital, Nanchang University First Hospital and Xi\u2019an No.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] Hospital of Xi\u2019an Medical College"
+        },
+        {
+            "participant": "patients",
+            "number": 99,
+            "context": "The architecture consists of three main processes. 1) Randomly selection of ROIs; 2) Training of the CNN model to extract features; 3) Classification model training of fully connected network and prediction of multiple classifiers.Retrospective collection of datasets. <mark class=\"stats\">We retrospectively collected CT images from 99 patients, in which the cohort includes 55 cases of typical viral pneumonia and the other 44 cases from three hospitals with confirmed nucleic acid testing of SARS-COV-2</mark>. The hospitals providing the images were Xi\u2019an Jiaotong University First Affiliated Hospital, Nanchang University First Hospital and Xi\u2019an No.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] Hospital of Xi\u2019an Medical College"
+        },
+        {
+            "participant": "patients",
+            "number": 99,
+            "context": "Methods and Materials Retrospective collection of datasets. <mark class=\"stats\">We retrospectively collected CT images from 99 patients, in which the cohort includes 55 cases of typical viral pneumonia and the other 44 cases from three hospitals with confirmed nucleic acid testing of SARS-COV-2</mark>. The hospitals providing the images were Xi\u2019an Jiaotong University First Affiliated Hospital, Nanchang University First Hospital and Xi\u2019an No.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]"
+        },
+        {
+            "participant": "patients",
+            "number": 99,
+            "context": "Additionally, performance was evaluated with F-measure (F1) to compare the similarity and diversity of performance. <mark class=\"stats\">Results Algorithm development In order to develop a deep learning algorithm for the identification of viral pneumonia images, we retrospectively enrolled 99 patients, in which the cohort includes 55 cases of typical viral pneumonia that were diagnosed previously before the COVID-19 outbreak</mark>. These patients are termed COVID-19 negative in the cohort"
+        },
+        {
+            "participant": "cases",
+            "number": 44,
+            "context": "These patients are termed COVID-19 negative in the cohort. <mark class=\"stats\">The other 44 cases are from the three hospitals with confirmed nucleic acid testing of SARS-COV-2, therefore termed COVID-19 positive</mark>. Two radiologists were asked to review the images and sketched a total of 453 representative images (258 for COVID-19 negative and 195 for COVID-19 positive) for analysis"
+        },
+        {
+            "participant": "radiologists",
+            "number": 2,
+            "context": "The other 44 cases are from the three hospitals with confirmed nucleic acid testing of SARS-COV-2, therefore termed COVID-19 positive. <mark class=\"stats\">Two radiologists were asked to review the images and sketched a total of 453 representative images (258 for COVID-19 negative and 195 for COVID-19 positive) for analysis</mark>. These images were randomly divided into a training set and a validation set"
+        },
+        {
+            "participant": "radiologists",
+            "number": 2,
+            "context": "CT images present a difficult classification task due to the relatively large number of variable objects, specifically the imaged areas outside the lungs that are irrelevant to the diagnosis of pneumonia 11. <mark class=\"stats\">In our study, only two radiologists were involved in outlining the ROI area</mark>. In addition, the training data set is relatively small"
+        },
+        {
+            "participant": "cases",
+            "number": 99,
+            "context": "Jama 2020 3. <mark class=\"stats\">Chen N, Zhou M, Dong X, et al Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</mark>. Lancet 2020"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "viral pneumonia",
+        "nucleic acid",
+        "radiologists",
+        "Area Under Curve",
+        "pathogenic",
+        "total accuracy",
+        "COVID-19",
+        "Negative predictive value",
+        "deep learning method",
+        "Positive predictive value",
+        "ct image",
+        "coronavirus",
+        "learning model",
+        "region of interest",
+        "corona virus disease",
+        "disease control",
+        "inception migration",
+        "artificial intelligence",
+        "Convolutional Neural Network",
+        "pneumonias"
+    ],
+    "keyword_relevance": {
+        "COVID-19": 0.2868217054263566,
+        "region of interest": 0.11627906976744186,
+        "nucleic acid": 0.08527131782945736,
+        "viral pneumonia": 0.06976744186046512,
+        "Area Under Curve": 0.046511627906976744,
+        "total accuracy": 0.046511627906976744,
+        "Convolutional Neural Network": 0.046511627906976744,
+        "coronavirus": 0.03875968992248062,
+        "pathogenic": 0.031007751937984496,
+        "Negative predictive value": 0.031007751937984496,
+        "Positive predictive value": 0.031007751937984496,
+        "learning model": 0.031007751937984496,
+        "disease control": 0.031007751937984496,
+        "artificial intelligence": 0.031007751937984496,
+        "radiologists": 0.023255813953488372,
+        "deep learning method": 0.023255813953488372,
+        "pneumonias": 0.023255813953488372,
+        "inception migration": 0.007751937984496124,
+        "ct image": 0.0,
+        "corona virus disease": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The outbreak of atypical and person-to-person transmissible pneumonia caused by the severe acute respiratory syndrome coronavirus 2 (SARS-COV-2, known as 2019-nCov) has caused a global alarm.",
+        "The authors believed that CNN might help them identify unique features that might be difficult for visual recognition",
+        "To test this notion, the authors retrospectively enrolled 453 CT images of pathogen-confirmed COVID-19 cases along with previously diagnosed typical viral pneumonia.",
+        "The external testing showed a total accuracy of 73% with specificity of 67% and sensitivity of 74%",
+        "These observations demonstrate the proof-of-principle using the deep learning method to extract radiological graphical features for COVID-19 diagnosis",
+        "<h2 style=\"display: inline\">Methods:</h2> Retrospective collection of datasets.",
+        "The authors retrospectively collected CT images from 99 patients, in which the cohort includes 55 cases of typical viral pneumonia and the other 44 cases from three hospitals with confirmed nucleic acid testing of SARS-COV-2.",
+        "An example of ROI is shown in Figure 2.",
+        "1) Randomly selection of ROIs; 2) Training of the CNN model to extract features; 3) Classification model training of fully connected network and prediction of multiple classifiers",
+        "The architecture consists of three main processes. 1) Randomly selection of ROIs; 2) Training of the CNN model to extract features; 3) Classification model training of fully connected network and prediction of multiple classifiers",
+        "<h2 style=\"display: inline\">Results:</h2> Algorithm development In order to develop a deep learning algorithm for the identification of viral pneumonia images, the authors retrospectively enrolled 99 patients, in which the cohort includes 55 cases of typical viral pneumonia that were diagnosed previously before the COVID-19 outbreak",
+        "These patients are termed COVID-19 negative in the cohort.",
+        "Two radiologists were asked to review the images and sketched a total of 453 representative images (258 for COVID-19 negative and 195 for COVID-19 positive) for analysis",
+        "These images were randomly divided into a training set and a validation set.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Diagnosis and triaging of PUIs are crucial for the control of emerging infectious diseases such as the current COVID-19.",
+        "The high performance of the deep learning model the authors developed in this study was tested using external samples with 73% accuracy",
+        "These findings have demonstrated the proof-of-principle that deep learning can extract CT image features of COVID-19 for diagnostic purposes.",
+        "Using CT imaging feature extraction, the authors are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing.",
+        "This method is non-invasive with minimal cost.",
+        "A study to associate this with the disease progress and all pathologic stages of COVID-19 is necessary to optimize the diagnostic system"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The outbreak of atypical and person-to-person transmissible pneumonia caused by the severe acute respiratory syndrome coronavirus 2 (SARS-COV-2, known as 2019-nCov) has caused a global alarm.",
+            "The authors believed that CNN might help them identify unique features that might be difficult for visual recognition",
+            "To test this notion, the authors retrospectively enrolled 453 CT images of pathogen-confirmed COVID-19 cases along with previously diagnosed typical viral pneumonia.",
+            "The external testing showed a total accuracy of 73% with specificity of 67% and sensitivity of 74%",
+            "These observations demonstrate the proof-of-principle using the deep learning method to extract radiological graphical features for COVID-19 diagnosis"
+        ],
+        "Methods": [
+            "Retrospective collection of datasets.",
+            "The authors retrospectively collected CT images from 99 patients, in which the cohort includes 55 cases of typical viral pneumonia and the other 44 cases from three hospitals with confirmed nucleic acid testing of SARS-COV-2.",
+            "An example of ROI is shown in Figure 2.",
+            "1) Randomly selection of ROIs; 2) Training of the CNN model to extract features; 3) Classification model training of fully connected network and prediction of multiple classifiers",
+            "The architecture consists of three main processes. 1) Randomly selection of ROIs; 2) Training of the CNN model to extract features; 3) Classification model training of fully connected network and prediction of multiple classifiers"
+        ],
+        "Results": [
+            "Algorithm development In order to develop a deep learning algorithm for the identification of viral pneumonia images, the authors retrospectively enrolled 99 patients, in which the cohort includes 55 cases of typical viral pneumonia that were diagnosed previously before the COVID-19 outbreak",
+            "These patients are termed COVID-19 negative in the cohort.",
+            "Two radiologists were asked to review the images and sketched a total of 453 representative images (258 for COVID-19 negative and 195 for COVID-19 positive) for analysis",
+            "These images were randomly divided into a training set and a validation set."
+        ],
+        "Conclusion": [
+            "Diagnosis and triaging of PUIs are crucial for the control of emerging infectious diseases such as the current COVID-19.",
+            "The high performance of the deep learning model the authors developed in this study was tested using external samples with 73% accuracy",
+            "These findings have demonstrated the proof-of-principle that deep learning can extract CT image features of COVID-19 for diagnostic purposes.",
+            "Using CT imaging feature extraction, the authors are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing.",
+            "This method is non-invasive with minimal cost.",
+            "A study to associate this with the disease progress and all pathologic stages of COVID-19 is necessary to optimize the diagnostic system"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "4",
+            "alt_id": "Li_et+al_2020_a",
+            "entry": "4. Li Q, Guan X, Wu P, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. The New England journal of medicine 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia%202020"
+        },
+        {
+            "id": "5",
+            "alt_id": "Huang_et+al_2019_a",
+            "entry": "5. Huang C, Wang Y, Li X. et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20Wang%20Y%20Li%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020"
+        },
+        {
+            "id": "6",
+            "alt_id": "Corman_et+al_2019_a",
+            "entry": "6. Corman VM, Landt O, Kaiser M, et al. Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro surveillance: bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin 2020; 25(3). 7.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Corman%20VM%20Landt%20O%20Kaiser%20M%20et%20al%20Detection%20of%202019%20novel%20coronavirus%202019nCoV%20by%20realtime%20RTPCR%20Euro%20surveillance%20bulletin%20Europeen%20sur%20les%20maladies%20transmissibles%20%20European%20communicable%20disease%20bulletin%202020%20253%207",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Corman%20VM%20Landt%20O%20Kaiser%20M%20et%20al%20Detection%20of%202019%20novel%20coronavirus%202019nCoV%20by%20realtime%20RTPCR%20Euro%20surveillance%20bulletin%20Europeen%20sur%20les%20maladies%20transmissibles%20%20European%20communicable%20disease%20bulletin%202020%20253%207",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Corman%20VM%20Landt%20O%20Kaiser%20M%20et%20al%20Detection%20of%202019%20novel%20coronavirus%202019nCoV%20by%20realtime%20RTPCR%20Euro%20surveillance%20bulletin%20Europeen%20sur%20les%20maladies%20transmissibles%20%20European%20communicable%20disease%20bulletin%202020%20253%207"
+        },
+        {
+            "id": "9",
+            "alt_id": "Gomez_et+al_2019_a",
+            "entry": "9. Gomez P, Semmler M, Schutzenberger A, Bohr C, Dollinger M. Low-light image enhancement of high-speed endoscopic videos using a convolutional neural network. Med Biol Eng Comput 2019; 57(7): 1451-63.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gomez%2C%20P.%20Semmler%2C%20M.%20Schutzenberger%2C%20A.%20Bohr%2C%20C.%20Low-light%20image%20enhancement%20of%20high-speed%20endoscopic%20videos%20using%20a%20convolutional%20neural%20network%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gomez%2C%20P.%20Semmler%2C%20M.%20Schutzenberger%2C%20A.%20Bohr%2C%20C.%20Low-light%20image%20enhancement%20of%20high-speed%20endoscopic%20videos%20using%20a%20convolutional%20neural%20network%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gomez%2C%20P.%20Semmler%2C%20M.%20Schutzenberger%2C%20A.%20Bohr%2C%20C.%20Low-light%20image%20enhancement%20of%20high-speed%20endoscopic%20videos%20using%20a%20convolutional%20neural%20network%202019"
+        },
+        {
+            "id": "10",
+            "alt_id": "Choe_et+al_2019_a",
+            "entry": "10. Choe J, Lee SM, Do KH, et al. Deep Learning-based Image Conversion of CT Reconstruction Kernels Improves Radiomics Reproducibility for Pulmonary Nodules or Masses. Radiology 2019; 292(2): 365-73.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Choe%2C%20J.%20Lee%2C%20S.M.%20Do%2C%20K.H.%20Deep%20Learning-based%20Image%20Conversion%20of%20CT%20Reconstruction%20Kernels%20Improves%20Radiomics%20Reproducibility%20for%20Pulmonary%20Nodules%20or%20Masses%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Choe%2C%20J.%20Lee%2C%20S.M.%20Do%2C%20K.H.%20Deep%20Learning-based%20Image%20Conversion%20of%20CT%20Reconstruction%20Kernels%20Improves%20Radiomics%20Reproducibility%20for%20Pulmonary%20Nodules%20or%20Masses%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Choe%2C%20J.%20Lee%2C%20S.M.%20Do%2C%20K.H.%20Deep%20Learning-based%20Image%20Conversion%20of%20CT%20Reconstruction%20Kernels%20Improves%20Radiomics%20Reproducibility%20for%20Pulmonary%20Nodules%20or%20Masses%202019"
+        },
+        {
+            "id": "11",
+            "alt_id": "Kermany_et+al_2018_a",
+            "entry": "11. Kermany DS, Goldbaum M, Cai W, et al. Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning. Cell 2018; 172(5): 1122-31 e9.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kermany%2C%20D.S.%20Goldbaum%2C%20M.%20Cai%2C%20W.%20Identifying%20Medical%20Diagnoses%20and%20Treatable%20Diseases%20by%20Image-Based%20Deep%20Learning%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kermany%2C%20D.S.%20Goldbaum%2C%20M.%20Cai%2C%20W.%20Identifying%20Medical%20Diagnoses%20and%20Treatable%20Diseases%20by%20Image-Based%20Deep%20Learning%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kermany%2C%20D.S.%20Goldbaum%2C%20M.%20Cai%2C%20W.%20Identifying%20Medical%20Diagnoses%20and%20Treatable%20Diseases%20by%20Image-Based%20Deep%20Learning%202018"
+        },
+        {
+            "id": "12",
+            "alt_id": "Negassi_et+al_2020_a",
+            "entry": "12. Negassi M, Suarez-Ibarrola R, Hein S, Miernik A, Reiterer A. Application of artificial neural networks for automated analysis of cystoscopic images: a review of the current status and future prospects. World J Urol 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Negassi%2C%20M.%20Suarez-Ibarrola%2C%20R.%20Hein%2C%20S.%20Miernik%2C%20A.%20Application%20of%20artificial%20neural%20networks%20for%20automated%20analysis%20of%20cystoscopic%20images%3A%20a%20review%20of%20the%20current%20status%20and%20future%20prospects%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Negassi%2C%20M.%20Suarez-Ibarrola%2C%20R.%20Hein%2C%20S.%20Miernik%2C%20A.%20Application%20of%20artificial%20neural%20networks%20for%20automated%20analysis%20of%20cystoscopic%20images%3A%20a%20review%20of%20the%20current%20status%20and%20future%20prospects%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Negassi%2C%20M.%20Suarez-Ibarrola%2C%20R.%20Hein%2C%20S.%20Miernik%2C%20A.%20Application%20of%20artificial%20neural%20networks%20for%20automated%20analysis%20of%20cystoscopic%20images%3A%20a%20review%20of%20the%20current%20status%20and%20future%20prospects%202020"
+        },
+        {
+            "id": "13",
+            "alt_id": "Wang_et+al_2018_a",
+            "entry": "13. Wang P, Xiao X, Glissen Brown JR, et al. Development and validation of a deep-learning algorithm for the detection of polyps during colonoscopy. Nat Biomed Eng 2018; 2(10): 741-8.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20P.%20Xiao%2C%20X.%20Brown%2C%20JR%2C%20Glissen%20Development%20and%20validation%20of%20a%20deep-learning%20algorithm%20for%20the%20detection%20of%20polyps%20during%20colonoscopy%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20P.%20Xiao%2C%20X.%20Brown%2C%20JR%2C%20Glissen%20Development%20and%20validation%20of%20a%20deep-learning%20algorithm%20for%20the%20detection%20of%20polyps%20during%20colonoscopy%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20P.%20Xiao%2C%20X.%20Brown%2C%20JR%2C%20Glissen%20Development%20and%20validation%20of%20a%20deep-learning%20algorithm%20for%20the%20detection%20of%20polyps%20during%20colonoscopy%202018"
+        },
+        {
+            "id": "14",
+            "alt_id": "Koo_et+al_2018_a",
+            "entry": "14. Koo HJ, Lim S, Choe J, Choi SH, Sung H, Do KH. Radiographic and CT Features of Viral Pneumonia. Radiographics 2018; 38(3): 719-39.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Koo%2C%20H.J.%20Lim%2C%20S.%20Choe%2C%20J.%20Choi%2C%20S.H.%20Radiographic%20and%20CT%20Features%20of%20Viral%20Pneumonia%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Koo%2C%20H.J.%20Lim%2C%20S.%20Choe%2C%20J.%20Choi%2C%20S.H.%20Radiographic%20and%20CT%20Features%20of%20Viral%20Pneumonia%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Koo%2C%20H.J.%20Lim%2C%20S.%20Choe%2C%20J.%20Choi%2C%20S.H.%20Radiographic%20and%20CT%20Features%20of%20Viral%20Pneumonia%202018"
+        },
+        {
+            "id": "15",
+            "alt_id": "Zhang_et+al_2020_a",
+            "entry": "15. Zhang N, Wang L, Deng X. et al. Recent advances in the detection of respiratory virus infection in humans. J Med Virol 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%2C%20N.%20Wang%2C%20L.%20Deng%2C%20X.%20Recent%20advances%20in%20the%20detection%20of%20respiratory%20virus%20infection%20in%20humans%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%2C%20N.%20Wang%2C%20L.%20Deng%2C%20X.%20Recent%20advances%20in%20the%20detection%20of%20respiratory%20virus%20infection%20in%20humans%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%2C%20N.%20Wang%2C%20L.%20Deng%2C%20X.%20Recent%20advances%20in%20the%20detection%20of%20respiratory%20virus%20infection%20in%20humans%202020"
+        }
+    ],
+    "facts": [
+        "is time consuming with significant false positive results",
+        "The internal validation achieved a total accuracy of 82.9% with specificity",
+        "The external testing dataset showed a total accuracy of 73.1% with specificity",
+        "These results demonstrate the proof-of-principle for using artificial intelligence to extract radiological features",
+        "No funding is involved in the execution of the project",
+        "person-to-person transmissible pneumonia caused by the severe acute respiratory syndrome coronavirus 2 has caused a global alarm",
+        "16-21% of people with the virus in China have become severely ill with a 2-3% mortality rate",
+        "The diagnosis of COVID-19 relies on the following criteria",
+        "Once someone is identified as a PUI",
+        "This laboratory technology is based on real-time RT-PCR and sequencing of nucleic acid",
+        "the amplification system are all determinant factors for the accuracy of test results",
+        "Artificial Intelligence involving medical imaging deep-learning systems has been developed in image feature extraction",
+        "Convolutional Neural Network has been proven in feature extraction and learning",
+        "CNN has been applied to identify the nature of pulmonary nodules via CT images",
+        "which are associated with their specific pathogenesis 14",
+        "identify unique features that might be difficult for visual recognition",
+        "The external testing showed a total accuracy of 73% with specificity",
+        "All CT images were de-identified before sending for analysis",
+        "This study is in compliance with the Institutional Review Board",
+        "Informed consent was exempted by the IRB",
+        "the region of interest on the CT images based on the features of pneumonia",
+        "An example of ROI is shown in Figure 2",
+        "Overview of the proposed architecture Our systematic pipeline for the prediction architecture is depicted in Figure 1",
+        "The architecture consists of three main processes",
+        "44 cases are from the three hospitals with confirmed nucleic acid testing",
+        "These images were randomly divided into a training set",
+        "the remaining images were used for internal validation",
+        "The model training has been iterated for 15,000 times with a step size",
+        "The training loss curve is shown in Figure 3A. To test the stability",
+        "The remaining images were used for external validation",
+        "The training loss curve is shown in Figure 3B. Deep learning performance",
+        "Timely diagnosis and triaging of PUIs are crucial for the control of emerging infectious diseases",
+        "an urgent need to look for fast alternative methods",
+        "that can be used by front-line health care personals",
+        "These findings have demonstrated the proof-of-principle that deep learning can extract CT image features",
+        "Recent data have suggested that the accuracy of nucleic acid testing is",
+        "able to achieve above 83% accuracy",
+        "this method is non-invasive with minimal cost",
+        "with more CT images included in the training",
+        "the imaged areas outside the lungs that are irrelevant to the diagnosis of pneumonia 11",
+        "of PUIs are crucial for the control of emerging infectious diseases",
+        "This method is non-invasive with minimal cost"
+    ],
+    "claims": [
+        "We achieved a total accuracy of 83% with specificity of 80\u00b75% and sensitivity of 84% for validation",
+        "We reduced the dimension of features before it was sent to the final classification layer",
+        "In the present study, we have developed an AI program by analyzing representative CT images using a deep learning method",
+        "The high performance of the deep learning model we developed in this study was tested using external samples with 73% accuracy",
+        "Using CT imaging feature extraction, we are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing"
+    ],
+    "findings": [
+        "We achieved a total accuracy of 83% with specificity of 80\u00b75% and sensitivity of 84% for validation",
+        "The deep learning algorithm yielded an AUC of 0\u00b790 (95% CI, 0.86 to 0.94) on the internal validation and 0\u00b778 (95% CI, 0.71 to 0.84) on the external validation",
+        "Using CT imaging feature extraction, we are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing"
+    ],
+    "processes": [],
+    "key_statements": [
+        "The other 44 cases are from the three hospitals with confirmed nucleic acid testing of SARS-COV-2, termed COVID-19 positive",
+        "Timely diagnosis and triaging of PUIs are crucial for the control of emerging infectious diseases such as the current COVID-19",
+        "Due to the limitation of nucleic acid -based laboratory testing, there is an urgent need to look for fast alternative methods that can be used by front-line health care personals for quickly and accurately diagnosing the disease",
+        "We have developed an AI program by analyzing representative CT images using a deep learning method",
+        "The high performance of the deep learning model we developed in this study was tested using external samples with 73% accuracy. These findings have demonstrated the proof-of-principle that deep learning can extract CT image features of COVID-19 for diagnostic purposes",
+        "Recent data have suggested that the accuracy of nucleic acid testing is only about 30-50% 6,7,15",
+        "Using CT imaging feature extraction, we are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing",
+        "We are satisfied with the initial results, we believe that with more CT images included in the training, we will achieve higher accuracy",
+        "CT images present a difficult classification task due to the relatively large number of variable objects, the imaged areas outside the lungs that are irrelevant to the diagnosis of pneumonia 11"
+    ],
+    "top_statements": [
+        "The outbreak of atypical and person-to-person transmissible pneumonia caused by the severe acute respiratory syndrome coronavirus 2 (SARS-COV-2, also known as 2019-nCov) has caused a global alarm",
+        "Timely diagnosis and triaging of PUIs are crucial for the control of emerging infectious diseases such as the current COVID-19",
+        "Due to the limitation of nucleic acid -based laboratory testing, there is an urgent need to look for fast alternative methods that can be used by front-line health care personals for quickly and accurately diagnosing the disease",
+        "We have developed an AI program by analyzing representative CT images using a deep learning method",
+        "The high performance of the deep learning model we developed in this study was tested using external samples with 73% accuracy. These findings have demonstrated the proof-of-principle that deep learning can extract CT image features of COVID-19 for diagnostic purposes",
+        "Using CT imaging feature extraction, we are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing"
+    ],
+    "headline": "Using CT imaging feature extraction, we are able to achieve above 83% accuracy, significantly outplaying nucleic acid testing",
+    "contexts": [],
+    "abbreviations": {
+        "CNN": "Convolutional Neural Network",
+        "ROI": "region of interest",
+        "AUC": "Area Under Curve",
+        "PPV": "Positive predictive value",
+        "NPV": "Negative predictive value"
+    }
+}

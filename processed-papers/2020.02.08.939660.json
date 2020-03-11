@@ -1,0 +1,528 @@
+{
+    "filename": "2020.02.08.939660.1.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1263093,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.08.939660",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/14/2020.02.08.939660.1.full.pdf"
+        },
+        "title": "Identification of a Pangolin Niche for a 2019-nCoV-like Coronavirus via an Extensive Meta-metagenomic Search",
+        "author": "Lamia Wahba, Nimit Jain, Andrew Z. Fire, Massa J. Shoura, Karen L. Artiles, Matthew J. McCoy, Dae-Eun Jeong",
+        "date": 2020,
+        "affiliations": [
+            "Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305, USA",
+            "Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA",
+            "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA"
+        ],
+        "abstract": "In numerous instances, tracking the biological significance of a nucleic acid sequence can be augmented through the identification of environmental niches in which the sequence of interest is present. Many metagenomic datasets are now available, with deep sequencing of samples from diverse biological niches. While any individual metagenomic dataset can be readily queried using web-based tools, meta-searches through all such datasets are less accessible. In this brief communication, we demonstrate such a meta-meta-genomic approach, examining close matches to the Wuhan coronavirus 2019-nCoV in all high-throughput sequencing datasets in the NCBI Sequence Read Archive accessible with the keyword \u201cvirome\u201d. In addition to the homology to bat coronaviruses observed in descriptions of the 2019-nCoV sequence (F. Wu et al. 2020, Nature, doi.org/10.1038/s41586-020-2008-3; P. Zhou et al. 2020, Nature, doi.org/10.1038/s41586-020-2012-7), we note a strong homology to numerous sequence reads in a metavirome dataset generated from the lungs of deceased Pangolins reported by Liu et al. (Viruses 11:11, 2019, http://doi.org/10.3390/v11110979). Our observations are relevant to discussions of the derivation of 2019-nCoV and illustrate the utility and limitations of meta-metagenomic search tools in effective and rapid characterization of potentially significant nucleic acid sequences.ImportanceMeta-metagenomic searches allow for high-speed, low-cost identification of potentially significant biological niches for sequences of interest.",
+        "references": "@article{bry1996a,\n  author = {Bry, L. and Falk, P.G. and Midtvedt, T. and Gordon, J.I.},\n  date = {1996},\n  title = {A model of host-microbial interactions in an open mammalian ecosystem},\n  journal = {Science},\n  volume = {273},\n  pages = {1380\u20133},\n  language = {}\n}\n@article{bowman2018a,\n  author = {Bowman, J.S.},\n  date = {2018},\n  title = {Identification of Microbial Dark Matter in Antarctic Environments},\n  journal = {Front Microbiol},\n  volume = {9},\n  pages = {3165},\n  language = {}\n}\n@article{marcel2011a,\n  author = {Marcel, M.},\n  date = {2011},\n  title = {Cutadapt removes adapter sequences from high-throughput sequencing reads},\n  journal = {EMBnetjournal},\n  volume = {17},\n  pages = {10\u201312},\n  language = {}\n}\n@article{li2010a,\n  author = {Li, H. and Durbin, R.},\n  date = {2010},\n  title = {Fast and accurate long-read alignment with Burrows-Wheeler transform},\n  journal = {Bioinformatics},\n  volume = {26},\n  pages = {589\u201395},\n  language = {}\n}\n@article{thorvaldsdottir2013a,\n  author = {Thorvaldsdottir, H. and Robinson, J.T. and Mesirov, J.P.},\n  date = {2013},\n  title = {Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration},\n  journal = {Brief Bioinform},\n  volume = {14},\n  pages = {178\u201392},\n  language = {}\n}\n@article{madeira2019a,\n  author = {Madeira, F. and Park, Y.M. and Lee, J. and Buso, N. and Gur, T. and Madhusoodanan, N. and Basutkar, P. and Tivey, A.R.N. and Potter, S.C. and Finn, R.D. and Lopez, R.},\n  date = {2019},\n  title = {The EMBL-EBI search and sequence analysis tools APIs in 2019},\n  journal = {Nucleic Acids Res},\n  volume = {47},\n  pages = {636\u2013641},\n  language = {}\n}\n@article{hu2017a,\n  author = {Hu, D. and Zhu, C. and Wang, Y. and Ai, L. and Yang, L. and Ye, F. and Ding, C. and Chen, J. and He, B. and Zhu, J. and Qian, H. and Xu, W. and Feng, Y. and Tan, W. and Wang, C.},\n  date = {2017},\n  title = {Virome analysis for identification of novel mammalian viruses in bats from Southeast China},\n  journal = {Sci Rep},\n  volume = {7},\n  pages = {10917},\n  language = {}\n}\n@article{yinda2016a,\n  author = {Yinda, C.K. and Zeller, M. and Conceicao-Neto, N. and Maes, P. and Deboutte, W. and Beller, L. and Heylen, E. and Ghogomu, S.M. and Van Ranst, M. and Matthijnssens, J.},\n  date = {2016},\n  title = {Novel highly divergent reassortant bat rotaviruses in Cameroon, without evidence of zoonosis},\n  journal = {Sci Rep},\n  volume = {6},\n  pages = {34209},\n  language = {}\n}\n@article{wille-a,\n  author = {Wille, M. and Eden, J.S. and Shi, M. and Klaassen, M. and Hurt, A.C. and Holmes, E.C.},\n  title = {2018. Virus-virus interactions and host ecology are associated with RNA virome structure in wild birds},\n  journal = {Mol Ecol},\n  volume = {27},\n  pages = {5263\u20135278},\n  language = {}\n}\n@misc{wu2018a,\n  author = {Wu, Z. and Lu, L. and Du, J. and Yang, L. and Ren, X. and Liu, B. and Jiang, J. and Yang, J. and Dong, J. and Sun, L. and Zhu, Y. and Li, Y. and Zheng, D. and Zhang, C. and Su, H. and Zheng, Y. and Zhou, H. and Zhu, G. and Li, H. and Chmura, A. and Yang, F. and Daszak, P. and Wang, J. and Liu, Q. and Jin, Q.},\n  date = {2018},\n  title = {Comparative analysis of rodent and small mammal viromes to better understand the wildlife origin of emerging infectious diseases},\n  language = {}\n}\n@article{liu2019a,\n  author = {Liu, P. and Chen, W. and Chen, J.P.},\n  date = {2019},\n  title = {Viral Metagenomics Revealed Sendai Virus},\n  journal = {Nature},\n  doi = {doi: 10.1038/s41586-020-2012-7},\n  unmatched-author = {and Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL, Chen HD, Chen J, Luo Y, Guo H, Jiang RD, Liu MQ, Chen Y, Shen XR, Wang X, Zheng XS, Zhao K, Chen QJ, Deng F, Liu LL, Yan B, Zhan FX, Wang YY, Xiao GF, Shi ZL.},\n  source = {2020. A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  language = {}\n}\n@book{wong-a,\n  author = {Wong, M.C. and Javornik Cregeen, S.J. and Ajami, N.J. and Petrosino, J.F.},\n  title = {2020. Evidence of recombination in coronaviruses implicating pangolin origins},\n  publisher = {of nCoV-2019. bioRxiv},\n  doi = {doi: 10.1101/2020.02.07.939207: 2020.02.07.939207},\n  language = {}\n}\n@article{paraskevis2019a,\n  author = {Paraskevis, D. and Kostaki, E.G. and Magiorkinis, G. and Panayiotakopoulos, G. and Sourvinos, G. and T, S.},\n  title = {2020. Full-genome evolutionary analysis of the novel corona virus},\n  date = {2019},\n  journal = {Infection, Genetics and Evolution},\n  volume = {79},\n  pages = {104212},\n  source = {rejects the hypothesis of emergence as a result of a recent recombination event},\n  language = {}\n}\n@misc{unknown-a,\n  title = {Metagenomic datasets with k=32-mer matches to MN908947.3 2019-nCoV Details of search and are described in legend to Table S1},\n  language = {}\n}\n@misc{unknown-b,\n  title = {Table 1. Metagenomic datasets with k=32-mer matches to MN908947.3 (2019-nCoV). 281 Details of search are described in legend to Table S1},\n  language = {}\n}\n",
+        "links": [
+            "https://www.ebi.ac.uk/Tools/msa/clustalo/",
+            "https://github.com/firelabsoftware/Metasearch2020"
+        ],
+        "emails": [
+            "afire@stanford.edu"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Bry, L.\nAU  - Falk, P.G.\nAU  - Midtvedt, T.\nAU  - Gordon, J.I.\nPY  - 1996\nDA  - 1996\nTI  - A model of host-microbial interactions in an open mammalian ecosystem\nT2  - Science\nVL  - 273\nSP  - 1380\nEP  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bowman, J.S.\nPY  - 2018\nDA  - 2018\nTI  - Identification of Microbial Dark Matter in Antarctic Environments\nT2  - Front Microbiol\nVL  - 9\nSP  - 3165\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Marcel, M.\nPY  - 2011\nDA  - 2011\nTI  - Cutadapt removes adapter sequences from high-throughput sequencing reads\nT2  - EMBnetjournal\nVL  - 17\nSP  - 10\nEP  - 12\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, H.\nAU  - Durbin, R.\nPY  - 2010\nDA  - 2010\nTI  - Fast and accurate long-read alignment with Burrows-Wheeler transform\nT2  - Bioinformatics\nVL  - 26\nSP  - 589\nEP  - 95\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thorvaldsdottir, H.\nAU  - Robinson, J.T.\nAU  - Mesirov, J.P.\nPY  - 2013\nDA  - 2013\nTI  - Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration\nT2  - Brief Bioinform\nVL  - 14\nSP  - 178\nEP  - 92\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Madeira, F.\nAU  - Park, Y.M.\nAU  - Lee, J.\nAU  - Buso, N.\nAU  - Gur, T.\nAU  - Madhusoodanan, N.\nAU  - Basutkar, P.\nAU  - Tivey, A.R.N.\nAU  - Potter, S.C.\nAU  - Finn, R.D.\nAU  - Lopez, R.\nPY  - 2019\nDA  - 2019\nTI  - The EMBL-EBI search and sequence analysis tools APIs in 2019\nT2  - Nucleic Acids Res\nVL  - 47\nSP  - 636\nEP  - 641\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hu, D.\nAU  - Zhu, C.\nAU  - Wang, Y.\nAU  - Ai, L.\nAU  - Yang, L.\nAU  - Ye, F.\nAU  - Ding, C.\nAU  - Chen, J.\nAU  - He, B.\nAU  - Zhu, J.\nAU  - Qian, H.\nAU  - Xu, W.\nAU  - Feng, Y.\nAU  - Tan, W.\nAU  - Wang, C.\nPY  - 2017\nDA  - 2017\nTI  - Virome analysis for identification of novel mammalian viruses in bats from Southeast China\nT2  - Sci Rep\nVL  - 7\nSP  - 10917\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yinda, C.K.\nAU  - Zeller, M.\nAU  - Conceicao-Neto, N.\nAU  - Maes, P.\nAU  - Deboutte, W.\nAU  - Beller, L.\nAU  - Heylen, E.\nAU  - Ghogomu, S.M.\nAU  - Van Ranst, M.\nAU  - Matthijnssens, J.\nPY  - 2016\nDA  - 2016\nTI  - Novel highly divergent reassortant bat rotaviruses in Cameroon, without evidence of zoonosis\nT2  - Sci Rep\nVL  - 6\nSP  - 34209\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wille, M.\nAU  - Eden, J.S.\nAU  - Shi, M.\nAU  - Klaassen, M.\nAU  - Hurt, A.C.\nAU  - Holmes, E.C.\nTI  - 2018. Virus-virus interactions and host ecology are associated with RNA virome structure in wild birds\nT2  - Mol Ecol\nVL  - 27\nSP  - 5263\nEP  - 5278\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wu, Z.\nAU  - Lu, L.\nAU  - Du, J.\nAU  - Yang, L.\nAU  - Ren, X.\nAU  - Liu, B.\nAU  - Jiang, J.\nAU  - Yang, J.\nAU  - Dong, J.\nAU  - Sun, L.\nAU  - Zhu, Y.\nAU  - Li, Y.\nAU  - Zheng, D.\nAU  - Zhang, C.\nAU  - Su, H.\nAU  - Zheng, Y.\nAU  - Zhou, H.\nAU  - Zhu, G.\nAU  - Li, H.\nAU  - Chmura, A.\nAU  - Yang, F.\nAU  - Daszak, P.\nAU  - Wang, J.\nAU  - Liu, Q.\nAU  - Jin, Q.\nPY  - 2018\nDA  - 2018\nTI  - Comparative analysis of rodent and small mammal viromes to better understand the wildlife origin of emerging infectious diseases\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Liu, P.\nAU  - Chen, W.\nAU  - Chen, J.P.\nPY  - 2019\nDA  - 2019\nTI  - Viral Metagenomics Revealed Sendai Virus\nT2  - Nature\nDO  - 10.1038/s41586-020-2012-7\nC1  - and Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL, Chen HD, Chen J, Luo Y, Guo H, Jiang RD, Liu MQ, Chen Y, Shen XR, Wang X, Zheng XS, Zhao K, Chen QJ, Deng F, Liu LL, Yan B, Zhan FX, Wang YY, Xiao GF, Shi ZL.\nT2  - 2020. A pneumonia outbreak associated with a new coronavirus of probable bat origin\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Wong, M.C.\nAU  - Javornik Cregeen, S.J.\nAU  - Ajami, N.J.\nAU  - Petrosino, J.F.\nTI  - 2020. Evidence of recombination in coronaviruses implicating pangolin origins\nPB  - of nCoV-2019. bioRxiv\nDO  - 10.1101/2020.02.07.939207: 2020.02.07.939207\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Paraskevis, D.\nAU  - Kostaki, E.G.\nAU  - Magiorkinis, G.\nAU  - Panayiotakopoulos, G.\nAU  - Sourvinos, G.\nAU  - T, S.\nTI  - 2020. Full-genome evolutionary analysis of the novel corona virus\nPY  - 2019\nDA  - 2019\nT2  - Infection, Genetics and Evolution\nVL  - 79\nSP  - 104212\nT2  - rejects the hypothesis of emergence as a result of a recent recombination event\nLA  - \nER  - \n\nTY  - GEN\nTI  - Metagenomic datasets with k=32-mer matches to MN908947.3 2019-nCoV Details of search and are described in legend to Table S1\nLA  - \nER  - \n\nTY  - GEN\nTI  - Table 1. Metagenomic datasets with k=32-mer matches to MN908947.3 (2019-nCoV). 281 Details of search are described in legend to Table S1\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Metagenomic datasets with k=32-mer matches to MN908947.3 (2019-nCoV). 281 Details of search are described in legend to Table S1"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "a) Integrated Genomics Viewer (IGV) snapshot of alignment. Reads from the pangolin lung virome samples (SRR10168377, SRR10168378 and SRR10168376) were mapped to a 2019-nCoV reference sequence (Genbank accession: MN908947.3). The total number of aligned reads from the three samples was 1107, 313 and 32 reads respectively. (b) Quantification of nucleotide287 level similarity between the 2019-nCoV genome and pangolin lung metavirome reads aligning to the 2019-nCoV genome. Average similarity was calculated in 101-nucleotide windows along the 2019-nCoV genome, and is only shown for those windows where each nucleotide in the window had coverage \u2265 2. Average nucleotide similarity calculated (in 101-nucleotide windows) between the 2019-nCoV genome and reference genomes of three relevant bat coronaviruses (bat-SL292 CoVZC45: accession MG772933.1, bat-SL-CoVZXC21: accession MG772934.1, RaTG13: accession MN996532.1) is also shown. Note that the Pangolin metavirome similarity trace is not directly comparable to the bat coronavirus similarity traces, because the former uses read data for calculation whereas the latter use reference genomes"
+            },
+            {
+                "id": "Supplemental 1",
+                "caption": "Detailed plot of inferred substitutions. The plot shows incidence of inferred synonymous, nonsynonymous, and noncoding substitution from comparison of RaTG13 assembly [2] and a pangolin coronavirus scaffold, to the 2019-nCoV isolate from Wu et al [1]. The pangolin scaffold was generated from a Blast alignment of 2019-nCoV mapping reads in SRR10168377. This plot addresses several challenges associated with the limited sequencing data available by attempting to provide the most favorable alignment of that sequence possible. To maximize sensitivity in detecting potential recombination, ambiguities in which two or more reads apparently disagreed (which were rare; approximately 1.2% of assigned bases) were resolved in favor of \"no substitution\" at any position if one read matches the 2019-nCoV genome. This will provide a lower bound of variation, although regions covered by a single read are still subject to amplification and sequencing error. Near-perfect overlaps between reads from SRR10168377 argue that such error is relatively low as agreement in those regions is 99.6%. The cumulative count of synonymous, nonsynonymous, and noncoding variants are per base pair and are taken over a 75 bp window 311 (approximately 1/2 the read length) and then averaged over each 75 bp window with a weighting inversely proportional to distance. This results in the observed inverted spike for each individual variant"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.08.939660.1.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.939660.1.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.939660.1.full/img-002.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "In the early years of nucleic acids sequencing, aggregation of the majority of published<br/><br/>DNA and RNA sequences into public sequence databases greatly aided biological hypothesis generation and discovery. Search tools capable of interrogating the ever-expanding databases were facilitated by creative algorithm development and software engineering, and by the everincreasing capabilities of computer hardware and the internet. As of the early 2000s, sequencing methodologies and computational technologies advanced in tandem, enabling quick homology results from a novel sequence without substantial cost.<br/><br/>With the development of larger-scale sequencing methodologies, the time and resources to search all extant sequence data became untenable for most studies. However, creative approaches involving curated databases and feature searches ensured that many key features of novel sequences remained readily accessible. At the same time, the nascent field of metagenomics began, with numerous studies highlighting the power of survey sequencing of DNA and RNA from samples as diverse as the human gut and Antarctic soil [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. As the diversity and sizes of such datasets expand, the utility of searching them with a novel sequence increases. Meta-metagenomic searches are currently underutilized. In principle such searches would involve direct access to sequence data from a large set of metagenomic experiments on a terabyte scale, along with software able to search for similarity to a query sequence. We find that neither of these aspects of meta-metagenomic searches is infeasible with current data transfer and processing speeds. In this communication, we report the results of searching the recently-described 2019-nCoV coronavirus sequence through a set of metagenomic datasets with the tag \"virome\"."
+        ],
+        "methods": [
+            "Computing Hardware: A Linux workstation used for the bulk analysis of metagenomic datasets employs an 8-core i7 Intel Microprocessor, 128G of Random Access Memory, 12TB of conventional disk storage, and 1TB of SSD storage. Additional analyses of individual alignments were carried out with standard consumer-grade computers.<br/><br/>Sequence data: All sequence data for this analysis were downloaded from the National<br/><br/>Center for Biotechnology Information (NCBI) website, with individual sequences downloaded through a web interface and metagenomic datasets downloaded from the NCBI Sequence<br/><br/>Read Archive (SRA) using the SRA-tools package (version 2.9.1). The latter sequence data were downloaded as .sra files using the prefetch tool, with extraction to readable format (.fasta.gz) using the NCBI fastq-dump tool. Each of these manipulations can fail some fraction of the time. Obtaining the sequences can fail due to network issues, while extraction in readable format occasionally fails for unknown reasons. Thus the workflow continually requests .sra files with ncbi-prefetch until at least some type of file is obtained, followed by attempts to unpack into .fasta.gz format until one such file is obtained from each .sra file."
+        ],
+        "results": [
+            "To identify biological niches that might harbor viruses closely related to 2019-nCoV, we searched through publicly available metaviromic datasets. We were most interested in viruses with highly similar sequences, as these would likely be most useful in forming hypotheses about the origin and pathology of the recent human virus. We thus set a threshold requiring matching of a perfect 32-nucleotide segment with a granularity of 8 nucleotides in the search (i.e., interrogating the complete database of k-mers from the virus with k-mers starting at nucleotide 1, 9, 17, 25, 33 of each read from the metagenomic data for a perfect match). This would catch any perfect match of 39 nucleotides or greater, with some homologies as short as 32 nucleotides captured depending on the precise phasing of the read.<br/><br/>All metagenomic datasets with the keyword \"virome\" in NCBI SRA as of January 2020 were selected for analysis in a process that required approximately 2 days each for downloading and conversion to readable file formats and one day for searching by k-mer match on a desktop workstation computer (i7 8-core). Together the datasets included information from 9014 NCBI Short Read Archive entries with (in total) 6.2*1010 individual reads and 8.4*1012 base pairs. Despite the relatively large mass of data, the 32-nucleotide kmer match remains a stringent measure, with spurious matches to the ~30 kb 2019-nCoV genome expected at only 1 in 3*1014. Positive matches among the metagenomic datasets analyzed were relatively rare, with the vast majority of datasets (8994/9014 or 99.8%)"
+        ],
+        "discussion": [
+            "Meta-meta-genomic searching can provide unique opportunities to understand the distribution of nucleic acid sequences in diverse environmental niches. As metagenomic datasets proliferate and as both the need and capability to identify pathogenic agents through sequencing increase, meta-metagenomic searching may prove extremely useful in tracing the origins and spreading of causative agents. In the example we present in this paper, such a search identifies a number of niches with sequences matching the genome of the recent 2019nCoV virus. These analyses raise a number of relevant points for the origin of 2019-nCoV.<br/><br/>Before describing the details of these points, however, it is important to stress that while environmental, clinical, and animal-based sequencing is valuable in understanding how viruses traverse the animal ecosphere, static sequence distributions cannot be used to construct a virus\u2019 full transmission history amongst different biological niches. So even were the closest relative of a virus causing disease in species X to be found in species Y, we cannot define the source of the outbreak, or the direction(s) of transmission. As some viruses may move more than once between hosts, the sequence of a genome at any time may reflect a history of selection and drift in several different host species. This point is also accentuated in the microcosm of our searches for this work. When we originally obtained the 2019-nCoV sequence from the posted work of Wu et al, we recapitulated their result that bat-SLCoVZC45 was the closest related sequence in NCBI\u2019s non-redundant (nr/nt) database. In our screen of metavirome datasets, we observed several pangolin metavirome sequences\u2014which are not currently in the (nr/nt) database\u2014and which are more closely related to 2019-nCoV than bat-SL-CoVZC45. An assumption that the closest relative of a sequence identifies the origin would at that point have transferred the extant model to zoonosis from pangolin instead of bat. To complicate such a model, an additional study from Zhou et al [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]"
+        ],
+        "acknowledgments": [
+            "Competing interests: The authors declare that they have no competing interests; Funding: This study was supported by the following programs, grants and fellowships: Human Frontier Science Program (HFSP) to DEJ, Arnold O. Beckman Award to MJS, Stanford Genomics Training Program (5T32HG000044-22; PI: M. Snyder) to MJM, and<br/><br/>R35GM130366 to AZF. Authors\u2019 contributions: All authors contributed equally, and author order was selected randomly."
+        ],
+        "supplemental": [
+            "Figure 1: Detailed plot of inferred substitutions. The plot shows incidence of inferred synonymous, nonsynonymous, and noncoding substitution from comparison of RaTG13 assembly [2] and a pangolin coronavirus scaffold, to the 2019-nCoV isolate from Wu et al [1]. The pangolin scaffold was generated from a Blast alignment of 2019-nCoV mapping reads in<br/><br/>SRR10168377. This plot addresses several challenges associated with the limited sequencing data available by attempting to provide the most favorable alignment of that sequence possible. To maximize sensitivity in detecting potential recombination, ambiguities in which two or more reads apparently disagreed (which were rare; approximately 1.2% of assigned bases) were resolved in favor of \"no substitution\" at any position if one read matches the 2019-nCoV genome. This will provide a lower bound of variation, although regions covered by a single read are still subject to amplification and sequencing error. Near-perfect overlaps between reads from SRR10168377 argue that such error is relatively low as agreement in those regions is 99.6%. The cumulative count of synonymous, nonsynonymous, and noncoding variants are per base pair and are taken over a 75 bp window (approximately 1/2 the read length) and then averaged over each 75 bp window with a weighting inversely proportional to distance. This results in the observed inverted spike for each individual variant."
+        ],
+        "funding": [
+            "Competing interests: The authors declare that they have no competing interests; Funding: This study was supported by the following programs, grants and fellowships: Human Frontier Science Program (HFSP) to DEJ, Arnold O"
+        ],
+        "disclosures": [
+            "Competing interests: The authors declare that they have no competing interests; Funding: This study was supported by the following programs, grants and fellowships: Human Frontier Science Program (HFSP) to DEJ, Arnold O. Beckman Award to MJS, Stanford Genomics Training Program (5T32HG000044-22; PI: M. Snyder) to MJM, and"
+        ],
+        "data_availability": [
+            "https://github.com/firelabsoftware/Metasearch2020"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Figure S1",
+                "Table S1",
+                "Supplemental Figure 1"
+            ]
+        }
+    },
+    "structured_content": {
+        "Introduction": [
+            "In the early years of nucleic acids sequencing, aggregation of the majority of published",
+            "DNA and RNA sequences into public sequence databases greatly aided biological hypothesis generation and discovery. Search tools capable of interrogating the ever-expanding databases were facilitated by creative algorithm development and software engineering, and by the everincreasing capabilities of computer hardware and the internet. As of the early 2000s, sequencing methodologies and computational technologies advanced in tandem, enabling quick homology results from a novel sequence without substantial cost.",
+            "With the development of larger-scale sequencing methodologies, the time and resources to search all extant sequence data became untenable for most studies. However, creative approaches involving curated databases and feature searches ensured that many key features of novel sequences remained readily accessible. At the same time, the nascent field of metagenomics began, with numerous studies highlighting the power of survey sequencing of DNA and RNA from samples as diverse as the human gut and Antarctic soil [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. As the diversity and sizes of such datasets expand, the utility of searching them with a novel sequence increases. Meta-metagenomic searches are currently underutilized. In principle such searches would involve direct access to sequence data from a large set of metagenomic experiments on a terabyte scale, along with software able to search for similarity to a query sequence. We find that neither of these aspects of meta-metagenomic searches is infeasible with current data transfer and processing speeds. In this communication, we report the results of searching the recently-described 2019-nCoV coronavirus sequence through a set of metagenomic datasets with the tag \"virome\"."
+        ],
+        "Materials and Methods": [
+            "Computing Hardware: A Linux workstation used for the bulk analysis of metagenomic datasets employs an 8-core i7 Intel Microprocessor, 128G of Random Access Memory, 12TB of conventional disk storage, and 1TB of SSD storage. Additional analyses of individual alignments were carried out with standard consumer-grade computers.",
+            "Sequence data: All sequence data for this analysis were downloaded from the National",
+            "Center for Biotechnology Information (NCBI) website, with individual sequences downloaded through a web interface and metagenomic datasets downloaded from the NCBI Sequence",
+            "Read Archive (SRA) using the SRA-tools package (version 2.9.1). The latter sequence data were downloaded as .sra files using the prefetch tool, with extraction to readable format (.fasta.gz) using the NCBI fastq-dump tool. Each of these manipulations can fail some fraction of the time. Obtaining the sequences can fail due to network issues, while extraction in readable format occasionally fails for unknown reasons. Thus the workflow continually requests .sra files with ncbi-prefetch until at least some type of file is obtained, followed by attempts to unpack into .fasta.gz format until one such file is obtained from each .sra file.",
+            "Metagenomic datasets for analysis were chosen through a keyword search of the SRA descriptions for \"virome\" and downloaded between January 27 and January 31, 2020. We note that the \"virome\" keyword search will certainly not capture every metagenomic dataset",
+            "author/funder. It is made available under a CC-BY-NC-ND 4.0 International license.",
+            "with viral sequences, and likewise not capture every virus in the short sequence read archive.",
+            "With up to 16 threads running simultaneously, total download time (prefetch) was approximately 2 days. Similar time was required for conversion to gzipped fasta files. A total of 9014 sequence datasets were downloaded and converted to fasta.gz files. Most files contained large numbers of reads with a small fraction of files containing very little data (only a few reads or reads of at most a few base pairs). The total dataset consists of 2.5TB of compressed sequence data corresponding to approximately 1013 bases.",
+            "Search Software: For rapid identification of close matches among large numbers of metagenomic reads, we used a simple dictionary based on the 2019-nCoV sequence (NCBI",
+            "MN908947.3Wuhan-Hu-1) and its reverse complement, querying every 8th k-mer along the individual reads for matches to the sequence. As a reference, and to benchmark the workflow further, we included several additional sequences in the query (Vaccinia virus, an arbitrary segment of a flu isolate, the full sequence of bacteriophage P4, and a number of putative polinton sequences from Caenorhabditis briggsae). The relatively small group of k-mers being queried (<106) allows a rapid search for homologs. This was implemented in a Python script run using the PyPy accelerated interpreter. We stress that this is by no means the most comprehensive or fastest search for large datasets. However, it is more than sufficient to rapidly find any closely matching sequence (with the downloading and conversion of the data, rather than the search, being rate limiting).",
+            "Alignment of reads to 2019-nCoV: Reads from the positive pangolin datasets were adapter-trimmed with cutadapt (version 1.18) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], and mapped to the 2019-nCoV genome with BWA-MEM (version 0.7.12) [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] using default settings for paired-end mode. Alignments were visualized with the Integrated Genomics Viewer IGV tool (version 2.4.10) [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+            "Assessment of nucleotide similarity between 2019-nCoV, pangolin metavirome reads, and closely related bat coronaviruses: All pangolin metavirome reads that aligned to the",
+            "2019-nCoV genome with BWA-MEM after adapter trimming with cutadapt were used for calculation. The bat coronavirus genomes were aligned to the 2019-nCoV genome in a multiple sequence alignment using the web-interface for Clustal Omega (https://www.ebi.ac.uk/Tools/msa/clustalo/) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] with default settings. We note that sequence insertions with respect to the 2019-nCoV genome in either the pangolin metavirome reads or the bat coronavirus genomes are not accounted for in the similarity traces shown in",
+            "Figure 1b.",
+            "Regional assessment of synonymous and nonsynonymous mutations (Figure S1): Although the incomplete nature of coverage in the Pangolin metavirome data somewhat limits the application of measures such as normalized dN/dS values, it remains possible to identify regions with the strongest matches of this inferred viral sequence with the human and bat homologs and to determine the distribution of synonymous and nonsynonymous variants in these regions. Details of this analysis are presented in Figure S1.",
+            "Accessibility of Software: Scripts used for the observations described in this communication are available at https://github.com/firelabsoftware/Metasearch2020."
+        ],
+        "Results": [
+            "To identify biological niches that might harbor viruses closely related to 2019-nCoV, we searched through publicly available metaviromic datasets. We were most interested in viruses with highly similar sequences, as these would likely be most useful in forming hypotheses about the origin and pathology of the recent human virus. We thus set a threshold requiring matching of a perfect 32-nucleotide segment with a granularity of 8 nucleotides in the search (i.e., interrogating the complete database of k-mers from the virus with k-mers starting at nucleotide 1, 9, 17, 25, 33 of each read from the metagenomic data for a perfect match). This would catch any perfect match of 39 nucleotides or greater, with some homologies as short as 32 nucleotides captured depending on the precise phasing of the read.",
+            "All metagenomic datasets with the keyword \"virome\" in NCBI SRA as of January 2020 were selected for analysis in a process that required approximately 2 days each for downloading and conversion to readable file formats and one day for searching by k-mer match on a desktop workstation computer (i7 8-core). Together the datasets included information from 9014 NCBI Short Read Archive entries with (in total) 6.2*1010 individual reads and 8.4*1012 base pairs. Despite the relatively large mass of data, the 32-nucleotide kmer match remains a stringent measure, with spurious matches to the ~30 kb 2019-nCoV genome expected at only 1 in 3*1014. Positive matches among the metagenomic datasets analyzed were relatively rare, with the vast majority of datasets (8994/9014 or 99.8%)",
+            "showing no matched 32-mers to 2019-nCoV. Of the datasets with matched k-mers, one was from an apparent synthetic mixture of viral sequences, while the remaining were all from vertebrate animal sources. The matches were from five studies: two bat-focused studies [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], one bird-focused study [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>], one small-animal-and-rodent focused study [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], and a study of pangolins [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] [Table 1].",
+            "The abundance and homology of viruses within a metagenomic sample are of considerable interest in interpreting possible characteristics of infection and relevance to the query virus. From the quick k-mer search, an initial indicator could be inferred from the number of matching reads and k-mer match counts for those reads [Table 1, Supplementary",
+            "Table 1]. For the 2019-nCoV matches amongst the available metagenomic datasets, the strongest and most abundant matches in these analyses came from the pangolin lung metaviromes. The matches were observed throughout the 2019-nCoV query sequence and many of the matching reads showed numerous matching 32-mer sequences. The vast majority of matches were in two lung samples with small numbers of matches in two additional lung datasets [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. No matches were detected for five additional lung datasets, and no matches were seen in eight spleen samples and a lymph node sample [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. Further analysis of coverage and homology through alignment of the entire metagenomic datasets revealed an extensive, if incomplete, coverage of the 2019-nCoV genome [Figure 1a]. Percent nucleotide similarity can be calculated for pangolin metavirome reads aligning to 2019-nCoV [Figure 1b], and these segmental homologies consistently showed strong matches, approaching (but still overall weaker than) the similarity of the closest known bat coronavirus (RaTG13)."
+        ],
+        "Discussion": [
+            "Meta-meta-genomic searching can provide unique opportunities to understand the distribution of nucleic acid sequences in diverse environmental niches. As metagenomic datasets proliferate and as both the need and capability to identify pathogenic agents through sequencing increase, meta-metagenomic searching may prove extremely useful in tracing the origins and spreading of causative agents. In the example we present in this paper, such a search identifies a number of niches with sequences matching the genome of the recent 2019nCoV virus. These analyses raise a number of relevant points for the origin of 2019-nCoV.",
+            "Before describing the details of these points, however, it is important to stress that while environmental, clinical, and animal-based sequencing is valuable in understanding how viruses traverse the animal ecosphere, static sequence distributions cannot be used to construct a virus\u2019 full transmission history amongst different biological niches. So even were the closest relative of a virus causing disease in species X to be found in species Y, we cannot define the source of the outbreak, or the direction(s) of transmission. As some viruses may move more than once between hosts, the sequence of a genome at any time may reflect a history of selection and drift in several different host species. This point is also accentuated in the microcosm of our searches for this work. When we originally obtained the 2019-nCoV sequence from the posted work of Wu et al, we recapitulated their result that bat-SLCoVZC45 was the closest related sequence in NCBI\u2019s non-redundant (nr/nt) database. In our screen of metavirome datasets, we observed several pangolin metavirome sequences\u2014which are not currently in the (nr/nt) database\u2014and which are more closely related to 2019-nCoV than bat-SL-CoVZC45. An assumption that the closest relative of a sequence identifies the origin would at that point have transferred the extant model to zoonosis from pangolin instead of bat. To complicate such a model, an additional study from Zhou et al [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]",
+            "described a previously unpublished Coronavirus sequence, designated RaTG13 with much stronger homology to 2019-nCoV than either bat-SL-CoVZC45 or the pangolin reads from Liu et al [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. While this observation certainly shifts the discussion (legitimately) toward a possible bat-borne intermediate in the chain leading to 2019-nCoV, it remains difficult to determine if any of these are true intermediates in the chain of infectivity.",
+            "The match of 2019-nCoV to the pangolin coronavirus sequences also enables a link to substantial context on the pangolin samples from Liu et al [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], with information on the source of the rescued animals (from smuggling activity), the nature of their deaths despite rescue efforts, the potential presence of both other coronaviruses and other non-corona viruses in the same cells, and the accompanying pathology. That work describes analyses indicating several coronaviruses present in two of the pangolin lungs as well as other viral species in those lungs. The pangolins appear to have died from lung-related illness, which may have involved the 2019-nCoV closely-related virus. Notably, however, two of the deceased pangolin lungs had much lower coronavirus signals, while five showed no signal, with sequencing depths in the various lungs roughly comparable. Although it remains possible that the 2019-nCoV-like coronavirus was the primary cause of death for these animals, it is also possible (as noted by Liu et al [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]) that the virus was simply present in the tissue, with mortality due to another virus, a combination of infectious agents, or other exposures.",
+            "During the course of this work, the homology between 2019-nCoV and pangolin coronavirus sequences in a particular genomic subregion was also noted and discussed in an online forum (\"Virological.org\") with some extremely valuable analyses and insights.",
+            "Matthew Wong and colleagues bring up the homology to the pangolin metagenomic dataset in this thread and appear to have encountered it through a more targeted search than ours (this study has since been posted online in bioRxiv) [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. As noted by Wong et al [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], the Spike region includes a segment of ~200 bases where the inferred divergence between RaTG13 and",
+            "2019-nCoV dramatically increases. This region is of interest as the spike protein is a determinant of viral host range and under heavy selection [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. The observed Spike region divergence indeed includes a substantial set of nonsynonymous differences (Supplemental",
+            "Figure 1). Notably, while reads from the pangolin lung dataset mapped to this region do not show a similar increase in variation relative to the human 2019-nCoV, we also did not observe a significant drop in variance between human and pangolin in this region. While Wong et al.",
+            "concluded that recombination likely occurred in the spike region in the derivation of 2019nCoV, definitive conclusions regarding the origins of 2019-nCoV are difficult given the limited sequencing data available and without consideration to altered evolutionary rates in different lineages [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Thus alternative models for the observed sequence variation seem most parsimonious, including that of selection acting on the RaTG13 sequences in bat or another intermediate host resulting in a rapid variation of this highly critical virus-receptor interface.",
+            "The availability of numerous paths (both targeted and agnostic) toward identification of natural niches for pathogenic sequences will remain useful to the scientific community and to public health, as will vigorous sharing of ideas, data, and discussion of potential origins and modes of spread for epidemic pathogens."
+        ],
+        "Acknowledgments": [
+            "Competing interests: The authors declare that they have no competing interests; Funding: This study was supported by the following programs, grants and fellowships: Human Frontier Science Program (HFSP) to DEJ, Arnold O. Beckman Award to MJS, Stanford Genomics Training Program (5T32HG000044-22; PI: M. Snyder) to MJM, and",
+            "R35GM130366 to AZF. Authors\u2019 contributions: All authors contributed equally, and author order was selected randomly."
+        ],
+        "References": [
+            "Bry L, Falk PG, Midtvedt T, Gordon JI. 1996. A model of host-microbial interactions in an open mammalian ecosystem. Science 273:1380-3.",
+            "Bowman JS. 2018. Identification of Microbial Dark Matter in Antarctic Environments.",
+            "Front Microbiol 9:3165.",
+            "Marcel M. 2011. Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnetjournal 17:10-12.",
+            "Li H, Durbin R. 2010. Fast and accurate long-read alignment with Burrows-Wheeler transform. Bioinformatics 26:589-95.",
+            "Thorvaldsdottir H, Robinson JT, Mesirov JP. 2013. Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration. Brief Bioinform",
+            "14:178-92.",
+            "Madeira F, Park YM, Lee J, Buso N, Gur T, Madhusoodanan N, Basutkar P, Tivey ARN, Potter SC, Finn RD, Lopez R. 2019. The EMBL-EBI search and sequence analysis tools",
+            "APIs in 2019. Nucleic Acids Res 47:W636-W641.",
+            "Hu D, Zhu C, Wang Y, Ai L, Yang L, Ye F, Ding C, Chen J, He B, Zhu J, Qian H, Xu W, Feng Y, Tan W, Wang C. 2017. Virome analysis for identification of novel mammalian viruses in bats from Southeast China. Sci Rep 7:10917.",
+            "Yinda CK, Zeller M, Conceicao-Neto N, Maes P, Deboutte W, Beller L, Heylen E, Ghogomu SM, Van Ranst M, Matthijnssens J. 2016. Novel highly divergent reassortant bat rotaviruses in Cameroon, without evidence of zoonosis. Sci Rep 6:34209.",
+            "Wille M, Eden JS, Shi M, Klaassen M, Hurt AC, Holmes EC. 2018. Virus-virus interactions and host ecology are associated with RNA virome structure in wild birds.",
+            "Mol Ecol 27:5263-5278.",
+            "Wu Z, Lu L, Du J, Yang L, Ren X, Liu B, Jiang J, Yang J, Dong J, Sun L, Zhu Y, Li Y, Zheng D, Zhang C, Su H, Zheng Y, Zhou H, Zhu G, Li H, Chmura A, Yang F, Daszak P, Wang J, Liu Q, Jin Q. 2018. Comparative analysis of rodent and small mammal viromes to better understand the wildlife origin of emerging infectious diseases.",
+            "Microbiome 6:178.",
+            "Liu P, Chen W, Chen JP. 2019. Viral Metagenomics Revealed Sendai Virus and",
+            "Coronavirus Infection of Malayan Pangolins (Manis javanica). Viruses 11:11.",
+            "Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL, Chen HD, Chen J, Luo Y, Guo H, Jiang RD, Liu MQ, Chen Y, Shen XR, Wang X, Zheng",
+            "XS, Zhao K, Chen QJ, Deng F, Liu LL, Yan B, Zhan FX, Wang YY, Xiao GF, Shi ZL.",
+            "2020. A pneumonia outbreak associated with a new coronavirus of probable bat origin.",
+            "Nature doi:10.1038/s41586-020-2012-7.",
+            "Wong MC, Javornik Cregeen SJ, Ajami NJ, Petrosino JF. 2020. Evidence of recombination in coronaviruses implicating pangolin origins of nCoV-2019. bioRxiv doi:10.1101/2020.02.07.939207:2020.02.07.939207.",
+            "Li F. 2016. Structure, Function, and Evolution of Coronavirus Spike Proteins. Annu",
+            "Rev Virol 3:237-261.",
+            "Paraskevis D, Kostaki EG, Magiorkinis G, Panayiotakopoulos G, Sourvinos G, S. T.",
+            "2020. Full-genome evolutionary analysis of the novel corona virus (2019-nCoV) rejects the hypothesis of emergence as a result of a recent recombination event. Infection, Genetics and Evolution 79:104212.",
+            "Description",
+            "File",
+            "TotalReads TotalBases HitReads HitKmers",
+            "Pangolin Lung",
+            "SRR10168376_1",
+            "SRR10168376_2",
+            "SRR10168377_1",
+            "SRR10168377_2",
+            "SRR10168378_1",
+            "SRR10168378_2",
+            "SRR10168392_1",
+            "SRR10168392_2",
+            "\"Mock virome\"",
+            "SRR3458564_2",
+            "Bat Feces",
+            "SRR5040897_1",
+            "SRR5040897_2",
+            "SRR5040918_1",
+            "SRR5040918_2",
+            "Virome analysis of Rodents and",
+            "SRR5343975_1 other small animals from China provinces",
+            "SRR5343977_1 other small animals from China provinces",
+            "Bat",
+            "SRR5351751_2",
+            "SRR5351752_1",
+            "SRR5351752_2",
+            "SRR5351758_2",
+            "SRR5351760_1",
+            "SRR5351760_2",
+            "SRR5365807_1 other small animals from China provinces",
+            "SRR5365809_1 other small animals from China provinces",
+            "SRR5431767_1 other small animals from China provinces",
+            "SRR5447167_1 other small animals from China provinces",
+            "SRR5447174_1 other small animals from China provinces",
+            "SRR5447175_1 other small animals from China provinces",
+            "Avocet (RNA Virome in Wild Birds)",
+            "SRR7239364_1",
+            "Metagenomic datasets with k=32-mer matches to MN908947.3 2019-nCoV",
+            "Details of search and are described in legend to Table S1",
+            "Table 1. Metagenomic datasets with k=32-mer matches to MN908947.3 (2019-nCoV).",
+            "Details of search are described in legend to Table S1.",
+            "Figure 1. (a) Integrated Genomics Viewer (IGV) snapshot of alignment. Reads from the pangolin lung virome samples (SRR10168377, SRR10168378 and SRR10168376) were mapped to a",
+            "2019-nCoV reference sequence (Genbank accession: MN908947.3). The total number of aligned reads from the three samples was 1107, 313 and 32 reads respectively. (b) Quantification of nucleotidelevel similarity between the 2019-nCoV genome and pangolin lung metavirome reads aligning to the 2019-nCoV genome. Average similarity was calculated in 101-nucleotide windows along the 2019-nCoV genome, and is only shown for those windows where each nucleotide in the window had coverage \u2265 2. Average nucleotide similarity calculated (in 101-nucleotide windows) between the 2019-nCoV genome and reference genomes of three relevant bat coronaviruses (bat-SLCoVZC45: accession MG772933.1, bat-SL-CoVZXC21: accession MG772934.1, RaTG13: accession",
+            "MN996532.1) is also shown. Note that the Pangolin metavirome similarity trace is not directly comparable to the bat coronavirus similarity traces, because the former uses read data for calculation whereas the latter use reference genomes.",
+            ""
+        ],
+        "Supplemental": [
+            "SRR10168377. This plot addresses several challenges associated with the limited sequencing data available by attempting to provide the most favorable alignment of that sequence possible. To maximize sensitivity in detecting potential recombination, ambiguities in which two or more reads apparently disagreed (which were rare; approximately 1.2% of assigned bases) were resolved in favor of \"no substitution\" at any position if one read matches the 2019-nCoV genome. This will provide a lower bound of variation, although regions covered by a single read are still subject to amplification and sequencing error. Near-perfect overlaps between reads from SRR10168377 argue that such error is relatively low as agreement in those regions is 99.6%. The cumulative count of synonymous, nonsynonymous, and noncoding variants are per base pair and are taken over a 75 bp window (approximately 1/2 the read length) and then averaged over each 75 bp window with a weighting inversely proportional to distance. This results in the observed inverted spike for each individual variant.",
+            "(Graphic below shows an abbreviated segment of Table S1, Full Table at GitHub.com/FireLabSoftware/MetaSearch)",
+            "--Metagenome Set: All NCBI SRA sequences as of January 27-31 2020 with keyword virome.",
+            "--Query Set:",
+            ">AF250364.2_InfluenzaH1N1_neuraminidase Control 5: An arbitrary segment from an H1N1 Flu isolate",
+            ">AY603355.1_Vaccinia Control 6: An full vaccinia genome (note that inspection of the vaccinia hits seems to indicate that some or all hits are from precise matches to sequence from an expres",
+            "Column 6: Summary of hits. Each element has a query name (e.g. X51522.1_phageP4), a position (e.g. p5012 starts at position 5012); a strand ('s' indicates a sense match starting at base , 'a' i",
+            "MutiTask=16 (uses 16 threads-- this was used to provide multitasking on a system with 16 threads [8 cores=16threads]",
+            "## This program is a fast metasearch that will look for instances of sequence reads matching",
+            "## a reference in at least one k-mer.",
+            "## Jazz18Heap is intended to look for evidence of matches to a relatively short reference sequence",
+            "e.g., less than 100KB, but probably workable up to several MB in a large number of high throughput sequencing experiments",
+            "## Jazz18Heap doesn't substitute for many tools to align and track coverage. It's main goal is rapid identification of potentially homologous sequences (with homology defined as a perfect m",
+            "DataFiles = <List of .fastq files, .fasta files, or NCBA-SRA accessions [e.g, SRR####]",
+            ".fasta or .fastq files can be gzip compressed, although this somewhat slows the program down",
+            ".fasta and .fasta.gz files must have exactly one sequence per line (no multiline sequences)",
+            "For .fasta files to be downloaded from NCBI-SRA archive this entails the command line parameter --fasta 0",
+            "ReportGranularity = <How many reads to process before reporting hit numbers (default is 1Million)>",
+            "SearchGranularity = <How much distance between k-mers to be examined in each data read setting SearchGranularity=1 makes Jass18Heap look at every k-mer in every read setting SearchGranularity=8 makes Jass18Heap look at every 8th k-mer in every read higher numbers may miss a few hits but can greatly improve speed.",
+            "setting to a large number (999999) ensures only one k-mer will be looked up per read",
+            "SearchOffset = <Where to start jumping through each read for potential k-mers (zero means start at first base) fastqdump = <Where to look for the fasterq-dump binary [program will look for this but if it is not found, the full path to fasterq-dump binary will need to be specified on the command line klen = <How long are the k-mers used>. Default klen = 32",
+            "snpAllow = <Set to True to allow a single mismatch in each k-mer (default is False)",
+            "Circular = <Set to True to force every Reference sequence to be treated as a circle>",
+            "Default : Uses the FastA name line-- if this line contains \"Circular\", the sequence is treated as a circle",
+            "## Multithreading: Jazz18Heap has the very primative multitasking ability to spawn a number of derivative processes for a large number of data files to be scanned. To use 16 Threads",
+            "Set MultiThreading=16 in the command line.",
+            "## Output: Output consists of a log file with information on the run and a FastA file.",
+            "ID Structure: DataFileName;LineNumberInDataFile;ReferenceFileName;ReferenceSequenceName;NumberOfMatchedKmers",
+            "## Running the program:",
+            "## Jazz18Heap only runs at full speed with a variant of Python (PyPY) that included a just-in-time compiler",
+            "## Syntax Jazz18Heap RefFile=<MyRefFile> DataFiles=MyFastA1.fasta,MyFastA2.fasta.gz,MyFastQ*.fastq <Other_Parameters>"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "sequence datasets",
+            "number": 9014,
+            "context": "Similar time was required for conversion to gzipped fasta files. <mark class=\"stats\">A total of 9014 sequence datasets were downloaded and converted to fasta.gz files</mark>. Most files contained large numbers of reads with a small fraction of files containing very little data (only a few reads or reads of at most a few base pairs)"
+        },
+        {
+            "participant": "studies",
+            "number": 5,
+            "context": "Of the datasets with matched k-mers, one was from an apparent synthetic mixture of viral sequences, while the remaining were all from vertebrate animal sources. <mark class=\"stats\">The matches were from five studies: two bat-focused studies [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], one bird-focused study [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>], one small-animal-and-rodent focused study [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], and a study of pangolins [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] [Table 1]</mark>. The abundance and homology of viruses within a metagenomic sample are of considerable interest in interpreting possible characteristics of infection and relevance to the query virus"
+        },
+        {
+            "participant": "lung samples with small numbers of matches in two additional",
+            "number": 2,
+            "context": "The matches were observed throughout the 2019-nCoV query sequence and many of the matching reads showed numerous matching 32-mer sequences. <mark class=\"stats\">The vast majority of matches were in two lung samples with small numbers of matches in two additional lung datasets [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]</mark>. No matches were detected for five additional lung datasets, and no matches were seen in eight spleen samples and a lymph node sample [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]"
+        },
+        {
+            "participant": "additional lung datasets",
+            "number": 5,
+            "context": "The vast majority of matches were in two lung samples with small numbers of matches in two additional lung datasets [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. <mark class=\"stats\">No matches were detected for five additional lung datasets, and no matches were seen in eight spleen samples and a lymph node sample [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]</mark>. Further analysis of coverage and homology through alignment of the entire metagenomic datasets revealed an extensive, if incomplete, coverage of the 2019-nCoV genome [Figure 1a]"
+        },
+        {
+            "participant": "samples",
+            "number": 3,
+            "context": "Metagenomic datasets with k=32-mer matches to MN908947.3 (2019-nCoV). 281 Details of search are described in legend to Table S1. <mark class=\"stats\">a) Integrated Genomics Viewer (IGV) snapshot of alignment. Reads from the pangolin lung virome samples (SRR10168377, SRR10168378 and SRR10168376) were mapped to a 2019-nCoV reference sequence (Genbank accession: MN908947.3). The total number of aligned reads from the three samples was 1107, 313 and 32 reads respectively. (b) Quantification of nucleotide287 level similarity between the 2019-nCoV genome and pangolin lung metavirome reads aligning to the 2019-nCoV genome. Average similarity was calculated in 101-nucleotide windows along the 2019-nCoV genome, and is only shown for those windows where each nucleotide in the window had coverage \u2265 2. Average nucleotide similarity calculated (in 101-nucleotide windows) between the 2019-nCoV genome and reference genomes of three relevant bat coronaviruses (bat-SL292 CoVZC45: accession MG772933.1, bat-SL-CoVZXC21: accession MG772934.1, RaTG13: accession MN996532.1) is also shown. Note that the Pangolin metavirome similarity trace is not directly comparable to the bat coronavirus similarity traces, because the former uses read data for calculation whereas the latter use reference genomes</mark>. Detailed plot of inferred substitutions. The plot shows incidence of inferred synonymous, nonsynonymous, and noncoding substitution from comparison of RaTG13 assembly [2] and a pangolin coronavirus scaffold, to the 2019-nCoV isolate from Wu et al [1]. The pangolin scaffold was generated from a Blast alignment of 2019-nCoV mapping reads in SRR10168377. This plot addresses several challenges associated with the limited sequencing data available by attempting to provide the most favorable alignment of that sequence possible. To maximize sensitivity in detecting potential recombination, ambiguities in which two or more reads apparently disagreed (which were rare; approximately 1.2% of assigned bases) were resolved in favor of \"no substitution\" at any position if one read matches the 2019-nCoV genome. This will provide a lower bound of variation, although regions covered by a single read are still subject to amplification and sequencing error. Near-perfect overlaps between reads from SRR10168377 argue that such error is relatively low as agreement in those regions is 99.6%. The cumulative count of synonymous, nonsynonymous, and noncoding variants are per base pair and are taken over a 75 bp window 311 (approximately 1/2 the read length) and then averaged over each 75 bp window with a weighting inversely proportional to distance. This results in the observed inverted spike for each individual variant"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "Human Frontier Science Program",
+        "coronavirus",
+        "meta metagenomic search",
+        "NCBI",
+        "genomics",
+        "metagenomics",
+        "novel sequence",
+        "homology",
+        "metagenomic search",
+        "nucleic acid sequence",
+        "biological niche",
+        "metagenomic dataset",
+        "C. briggsae"
+    ],
+    "keyword_relevance": {
+        "coronavirus": 0.2465753424657534,
+        "metagenomic dataset": 0.1643835616438356,
+        "NCBI": 0.136986301369863,
+        "homology": 0.1232876712328767,
+        "metagenomic search": 0.0684931506849315,
+        "biological niche": 0.0547945205479452,
+        "genomics": 0.0410958904109589,
+        "novel sequence": 0.0410958904109589,
+        "nucleic acid sequence": 0.0410958904109589,
+        "C. briggsae": 0.0410958904109589,
+        "Human Frontier Science Program": 0.0273972602739726,
+        "metagenomics": 0.0136986301369863,
+        "meta metagenomic search": 0.0
+    },
+    "species": [
+        "C. briggsae"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> In the early years of nucleic acids sequencing, aggregation of the majority of published<br/><br/>DNA and RNA sequences into public sequence databases greatly aided biological hypothesis generation and discovery.",
+        "Meta-metagenomic searches are currently underutilized",
+        "In principle such searches would involve direct access to sequence data from a large set of metagenomic experiments on a terabyte scale, along with software able to search for similarity to a query sequence.",
+        "The authors find that neither of these aspects of meta-metagenomic searches is infeasible with current data transfer and processing speeds",
+        "In this communication, the authors report the results of searching the recently-described 2019-nCoV coronavirus sequence through a set of metagenomic datasets with the tag \"virome\"",
+        "<h2 style=\"display: inline\">Methods:</h2> Computing Hardware: A Linux workstation used for the bulk analysis of metagenomic datasets employs an 8-core i7 Intel Microprocessor, 128G of Random Access Memory, 12TB of conventional disk storage, and 1TB of SSD storage.",
+        "Read Archive (SRA) using the SRA-tools package.",
+        "The latter sequence data were downloaded as .sra files using the prefetch tool, with extraction to readable format (.fasta.gz) using the NCBI fastq-dump tool.",
+        "Each of these manipulations can fail some fraction of the time.",
+        "The workflow continually requests .sra files with ncbi-prefetch until at least some type of file is obtained, followed by attempts to unpack into .fasta.gz format until one such file is obtained from each .sra file",
+        "<h2 style=\"display: inline\">Results:</h2> To identify biological niches that might harbor viruses closely related to 2019-nCoV, the authors searched through publicly available metaviromic datasets.",
+        "The authors set a threshold requiring matching of a perfect 32-nucleotide segment with a granularity of 8 nucleotides in the search.",
+        "This would catch any perfect match of 39 nucleotides or greater, with some homologies as short as 32 nucleotides captured depending on the precise phasing of the read.",
+        "Positive matches among the metagenomic datasets analyzed were relatively rare, with the vast majority of datasets (8994/9014 or 99.8%)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Meta-meta-genomic searching can provide unique opportunities to understand the distribution of nucleic acid sequences in diverse environmental niches.",
+        "As some viruses may move more than once between hosts, the sequence of a genome at any time may reflect a history of selection and drift in several different host species",
+        "This point is accentuated in the microcosm of the searches for this work.",
+        "An assumption that the closest relative of a sequence identifies the origin would at that point have transferred the extant model to zoonosis from pangolin instead of bat.",
+        "To complicate such a model, an additional study from Zhou et al [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "In the early years of nucleic acids sequencing, aggregation of the majority of published<br/><br/>DNA and RNA sequences into public sequence databases greatly aided biological hypothesis generation and discovery.",
+            "Meta-metagenomic searches are currently underutilized",
+            "In principle such searches would involve direct access to sequence data from a large set of metagenomic experiments on a terabyte scale, along with software able to search for similarity to a query sequence.",
+            "The authors find that neither of these aspects of meta-metagenomic searches is infeasible with current data transfer and processing speeds",
+            "In this communication, the authors report the results of searching the recently-described 2019-nCoV coronavirus sequence through a set of metagenomic datasets with the tag \"virome\""
+        ],
+        "Methods": [
+            "Computing Hardware: A Linux workstation used for the bulk analysis of metagenomic datasets employs an 8-core i7 Intel Microprocessor, 128G of Random Access Memory, 12TB of conventional disk storage, and 1TB of SSD storage.",
+            "Read Archive (SRA) using the SRA-tools package.",
+            "The latter sequence data were downloaded as .sra files using the prefetch tool, with extraction to readable format (.fasta.gz) using the NCBI fastq-dump tool.",
+            "Each of these manipulations can fail some fraction of the time.",
+            "The workflow continually requests .sra files with ncbi-prefetch until at least some type of file is obtained, followed by attempts to unpack into .fasta.gz format until one such file is obtained from each .sra file"
+        ],
+        "Results": [
+            "To identify biological niches that might harbor viruses closely related to 2019-nCoV, the authors searched through publicly available metaviromic datasets.",
+            "The authors set a threshold requiring matching of a perfect 32-nucleotide segment with a granularity of 8 nucleotides in the search.",
+            "This would catch any perfect match of 39 nucleotides or greater, with some homologies as short as 32 nucleotides captured depending on the precise phasing of the read.",
+            "Positive matches among the metagenomic datasets analyzed were relatively rare, with the vast majority of datasets (8994/9014 or 99.8%)"
+        ],
+        "Conclusion": [
+            "Meta-meta-genomic searching can provide unique opportunities to understand the distribution of nucleic acid sequences in diverse environmental niches.",
+            "As some viruses may move more than once between hosts, the sequence of a genome at any time may reflect a history of selection and drift in several different host species",
+            "This point is accentuated in the microcosm of the searches for this work.",
+            "An assumption that the closest relative of a sequence identifies the origin would at that point have transferred the extant model to zoonosis from pangolin instead of bat.",
+            "To complicate such a model, an additional study from Zhou et al [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Bry_et+al_1996_a",
+            "alt_id": "1",
+            "entry": "Bry L, Falk PG, Midtvedt T, Gordon JI. 1996. A model of host-microbial interactions in an open mammalian ecosystem. Science 273:1380-3.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bry%2C%20L.%20Falk%2C%20P.G.%20Midtvedt%2C%20T.%20Gordon%2C%20J.I.%20A%20model%20of%20host-microbial%20interactions%20in%20an%20open%20mammalian%20ecosystem%201996",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bry%2C%20L.%20Falk%2C%20P.G.%20Midtvedt%2C%20T.%20Gordon%2C%20J.I.%20A%20model%20of%20host-microbial%20interactions%20in%20an%20open%20mammalian%20ecosystem%201996",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bry%2C%20L.%20Falk%2C%20P.G.%20Midtvedt%2C%20T.%20Gordon%2C%20J.I.%20A%20model%20of%20host-microbial%20interactions%20in%20an%20open%20mammalian%20ecosystem%201996"
+        },
+        {
+            "id": "Bowman_2018_a",
+            "alt_id": "2",
+            "entry": "Bowman JS. 2018. Identification of Microbial Dark Matter in Antarctic Environments. Front Microbiol 9:3165.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bowman%2C%20J.S.%20Identification%20of%20Microbial%20Dark%20Matter%20in%20Antarctic%20Environments%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bowman%2C%20J.S.%20Identification%20of%20Microbial%20Dark%20Matter%20in%20Antarctic%20Environments%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bowman%2C%20J.S.%20Identification%20of%20Microbial%20Dark%20Matter%20in%20Antarctic%20Environments%202018"
+        },
+        {
+            "id": "Marcel_2011_a",
+            "alt_id": "3",
+            "entry": "Marcel M. 2011. Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnetjournal 17:10-12.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Marcel%2C%20M.%20Cutadapt%20removes%20adapter%20sequences%20from%20high-throughput%20sequencing%20reads%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Marcel%2C%20M.%20Cutadapt%20removes%20adapter%20sequences%20from%20high-throughput%20sequencing%20reads%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Marcel%2C%20M.%20Cutadapt%20removes%20adapter%20sequences%20from%20high-throughput%20sequencing%20reads%202011"
+        },
+        {
+            "id": "Li_2010_a",
+            "alt_id": "4",
+            "entry": "Li H, Durbin R. 2010. Fast and accurate long-read alignment with Burrows-Wheeler transform. Bioinformatics 26:589-95.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20H.%20Durbin%2C%20R.%20Fast%20and%20accurate%20long-read%20alignment%20with%20Burrows-Wheeler%20transform%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20H.%20Durbin%2C%20R.%20Fast%20and%20accurate%20long-read%20alignment%20with%20Burrows-Wheeler%20transform%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20H.%20Durbin%2C%20R.%20Fast%20and%20accurate%20long-read%20alignment%20with%20Burrows-Wheeler%20transform%202010"
+        },
+        {
+            "id": "Thorvaldsdottir_et+al_2013_a",
+            "alt_id": "5",
+            "entry": "Thorvaldsdottir H, Robinson JT, Mesirov JP. 2013. Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration. Brief Bioinform 14:178-92.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thorvaldsdottir%2C%20H.%20Robinson%2C%20J.T.%20Mesirov%2C%20J.P.%20Integrative%20Genomics%20Viewer%20%28IGV%29%3A%20high-performance%20genomics%20data%20visualization%20and%20exploration%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thorvaldsdottir%2C%20H.%20Robinson%2C%20J.T.%20Mesirov%2C%20J.P.%20Integrative%20Genomics%20Viewer%20%28IGV%29%3A%20high-performance%20genomics%20data%20visualization%20and%20exploration%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thorvaldsdottir%2C%20H.%20Robinson%2C%20J.T.%20Mesirov%2C%20J.P.%20Integrative%20Genomics%20Viewer%20%28IGV%29%3A%20high-performance%20genomics%20data%20visualization%20and%20exploration%202013"
+        },
+        {
+            "id": "Madeira_et+al_2019_a",
+            "alt_id": "6",
+            "entry": "Madeira F, Park YM, Lee J, Buso N, Gur T, Madhusoodanan N, Basutkar P, Tivey ARN, Potter SC, Finn RD, Lopez R. 2019. The EMBL-EBI search and sequence analysis tools APIs in 2019. Nucleic Acids Res 47:W636-W641.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Madeira%20F%20Park%20YM%20Lee%20J%20Buso%20N%20Gur%20T%20Madhusoodanan%20N%20Basutkar%20P%20Tivey%20ARN%20Potter%20SC%20Finn%20RD%20Lopez%20R%202019%20The%20EMBLEBI%20search%20and%20sequence%20analysis%20tools%20APIs%20in%202019%20Nucleic%20Acids%20Res%2047W636W641",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Madeira%20F%20Park%20YM%20Lee%20J%20Buso%20N%20Gur%20T%20Madhusoodanan%20N%20Basutkar%20P%20Tivey%20ARN%20Potter%20SC%20Finn%20RD%20Lopez%20R%202019%20The%20EMBLEBI%20search%20and%20sequence%20analysis%20tools%20APIs%20in%202019%20Nucleic%20Acids%20Res%2047W636W641",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Madeira%20F%20Park%20YM%20Lee%20J%20Buso%20N%20Gur%20T%20Madhusoodanan%20N%20Basutkar%20P%20Tivey%20ARN%20Potter%20SC%20Finn%20RD%20Lopez%20R%202019%20The%20EMBLEBI%20search%20and%20sequence%20analysis%20tools%20APIs%20in%202019%20Nucleic%20Acids%20Res%2047W636W641"
+        },
+        {
+            "id": "Hu_et+al_2017_a",
+            "alt_id": "7",
+            "entry": "Hu D, Zhu C, Wang Y, Ai L, Yang L, Ye F, Ding C, Chen J, He B, Zhu J, Qian H, Xu W, Feng Y, Tan W, Wang C. 2017. Virome analysis for identification of novel mammalian viruses in bats from Southeast China. Sci Rep 7:10917.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hu%2C%20D.%20Zhu%2C%20C.%20Wang%2C%20Y.%20Ai%2C%20L.%20Virome%20analysis%20for%20identification%20of%20novel%20mammalian%20viruses%20in%20bats%20from%20Southeast%20China%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hu%2C%20D.%20Zhu%2C%20C.%20Wang%2C%20Y.%20Ai%2C%20L.%20Virome%20analysis%20for%20identification%20of%20novel%20mammalian%20viruses%20in%20bats%20from%20Southeast%20China%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hu%2C%20D.%20Zhu%2C%20C.%20Wang%2C%20Y.%20Ai%2C%20L.%20Virome%20analysis%20for%20identification%20of%20novel%20mammalian%20viruses%20in%20bats%20from%20Southeast%20China%202017"
+        },
+        {
+            "id": "Yinda_et+al_2016_a",
+            "alt_id": "8",
+            "entry": "Yinda CK, Zeller M, Conceicao-Neto N, Maes P, Deboutte W, Beller L, Heylen E, Ghogomu SM, Van Ranst M, Matthijnssens J. 2016. Novel highly divergent reassortant bat rotaviruses in Cameroon, without evidence of zoonosis. Sci Rep 6:34209.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yinda%2C%20C.K.%20Zeller%2C%20M.%20Conceicao-Neto%2C%20N.%20Maes%2C%20P.%20Novel%20highly%20divergent%20reassortant%20bat%20rotaviruses%20in%20Cameroon%2C%20without%20evidence%20of%20zoonosis%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yinda%2C%20C.K.%20Zeller%2C%20M.%20Conceicao-Neto%2C%20N.%20Maes%2C%20P.%20Novel%20highly%20divergent%20reassortant%20bat%20rotaviruses%20in%20Cameroon%2C%20without%20evidence%20of%20zoonosis%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yinda%2C%20C.K.%20Zeller%2C%20M.%20Conceicao-Neto%2C%20N.%20Maes%2C%20P.%20Novel%20highly%20divergent%20reassortant%20bat%20rotaviruses%20in%20Cameroon%2C%20without%20evidence%20of%20zoonosis%202016"
+        },
+        {
+            "id": "Wille_et+al_2018_a",
+            "alt_id": "9",
+            "entry": "Wille M, Eden JS, Shi M, Klaassen M, Hurt AC, Holmes EC. 2018. Virus-virus interactions and host ecology are associated with RNA virome structure in wild birds. Mol Ecol 27:5263-5278.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wille%20M%20Eden%20JS%20Shi%20M%20Klaassen%20M%20Hurt%20AC%20Holmes%20EC%202018%20Virusvirus%20interactions%20and%20host%20ecology%20are%20associated%20with%20RNA%20virome%20structure%20in%20wild%20birds%20Mol%20Ecol%202752635278",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wille%20M%20Eden%20JS%20Shi%20M%20Klaassen%20M%20Hurt%20AC%20Holmes%20EC%202018%20Virusvirus%20interactions%20and%20host%20ecology%20are%20associated%20with%20RNA%20virome%20structure%20in%20wild%20birds%20Mol%20Ecol%202752635278",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wille%20M%20Eden%20JS%20Shi%20M%20Klaassen%20M%20Hurt%20AC%20Holmes%20EC%202018%20Virusvirus%20interactions%20and%20host%20ecology%20are%20associated%20with%20RNA%20virome%20structure%20in%20wild%20birds%20Mol%20Ecol%202752635278"
+        },
+        {
+            "id": "10",
+            "alt_id": "Wu_et+al_2018_a",
+            "entry": "10. Wu Z, Lu L, Du J, Yang L, Ren X, Liu B, Jiang J, Yang J, Dong J, Sun L, Zhu Y, Li Y, Zheng D, Zhang C, Su H, Zheng Y, Zhou H, Zhu G, Li H, Chmura A, Yang F, Daszak P, Wang J, Liu Q, Jin Q. 2018. Comparative analysis of rodent and small mammal viromes to better understand the wildlife origin of emerging infectious diseases.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%2C%20Z.%20Lu%2C%20L.%20Du%2C%20J.%20Yang%2C%20L.%20Comparative%20analysis%20of%20rodent%20and%20small%20mammal%20viromes%20to%20better%20understand%20the%20wildlife%20origin%20of%20emerging%20infectious%20diseases%202018"
+        },
+        {
+            "id": "11",
+            "alt_id": "Liu_et+al_2019_a",
+            "entry": "11. Liu P, Chen W, Chen JP. 2019. Viral Metagenomics Revealed Sendai Virus and Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL, Chen HD, Chen J, Luo Y, Guo H, Jiang RD, Liu MQ, Chen Y, Shen XR, Wang X, Zheng XS, Zhao K, Chen QJ, Deng F, Liu LL, Yan B, Zhan FX, Wang YY, Xiao GF, Shi ZL. 2020. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature doi:10.1038/s41586-020-2012-7.",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2012-7",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2012-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2012-7"
+        },
+        {
+            "id": "Wong_et+al_2020_a",
+            "alt_id": "12",
+            "entry": "Wong MC, Javornik Cregeen SJ, Ajami NJ, Petrosino JF. 2020. Evidence of recombination in coronaviruses implicating pangolin origins of nCoV-2019. bioRxiv doi:10.1101/2020.02.07.939207:2020.02.07.939207.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.07.939207:2020.02.07.939207",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.07.939207:2020.02.07.939207"
+        },
+        {
+            "id": "Paraskevis_et+al_2019_a",
+            "alt_id": "13",
+            "entry": "Paraskevis D, Kostaki EG, Magiorkinis G, Panayiotakopoulos G, Sourvinos G, S. T. 2020. Full-genome evolutionary analysis of the novel corona virus (2019-nCoV) rejects the hypothesis of emergence as a result of a recent recombination event. Infection, Genetics and Evolution 79:104212.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Paraskevis%20D%20Kostaki%20EG%20Magiorkinis%20G%20Panayiotakopoulos%20G%20Sourvinos%20G%20S%20T%202020%20Fullgenome%20evolutionary%20analysis%20of%20the%20novel%20corona%20virus%202019nCoV%20rejects%20the%20hypothesis%20of%20emergence%20as%20a%20result%20of%20a%20recent%20recombination%20event%20Infection%20Genetics%20and%20Evolution%2079104212",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Paraskevis%20D%20Kostaki%20EG%20Magiorkinis%20G%20Panayiotakopoulos%20G%20Sourvinos%20G%20S%20T%202020%20Fullgenome%20evolutionary%20analysis%20of%20the%20novel%20corona%20virus%202019nCoV%20rejects%20the%20hypothesis%20of%20emergence%20as%20a%20result%20of%20a%20recent%20recombination%20event%20Infection%20Genetics%20and%20Evolution%2079104212",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Paraskevis%20D%20Kostaki%20EG%20Magiorkinis%20G%20Panayiotakopoulos%20G%20Sourvinos%20G%20S%20T%202020%20Fullgenome%20evolutionary%20analysis%20of%20the%20novel%20corona%20virus%202019nCoV%20rejects%20the%20hypothesis%20of%20emergence%20as%20a%20result%20of%20a%20recent%20recombination%20event%20Infection%20Genetics%20and%20Evolution%2079104212"
+        },
+        {
+            "id": "Metagenomic_2019_a",
+            "alt_id": "14",
+            "entry": "Metagenomic datasets with k=32-mer matches to MN908947.3 2019-nCoV Details of search and are described in legend to Table S1",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Metagenomic%20datasets%20with%20k32mer%20matches%20to%20MN9089473%202019nCoV%20Details%20of%20search%20and%20are%20described%20in%20legend%20to%20Table%20S1"
+        },
+        {
+            "id": "280",
+            "alt_id": "280_2019_b",
+            "entry": "280 Table 1. Metagenomic datasets with k=32-mer matches to MN908947.3 (2019-nCoV). 281 Details of search are described in legend to Table S1.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Table%201%20Metagenomic%20datasets%20with%20k32mer%20matches%20to%20MN9089473%202019nCoV%20281%20Details%20of%20search%20are%20described%20in%20legend%20to%20Table%20S1"
+        }
+    ],
+    "facts": [
+        "the biological significance of a nucleic acid sequence can be augmented through the identification of environmental niches",
+        "In addition to the homology to bat coronaviruses observed in descriptions of the 2019-nCoV sequence",
+        "a strong homology to numerous sequence reads in a metavirome dataset generated from the lungs",
+        "of deceased Pangolins reported by Liu et al",
+        "Our observations are relevant to discussions of the derivation",
+        "ImportanceMeta-metagenomic searches allow for high-speed",
+        "the ever-expanding databases were facilitated by creative algorithm development and software engineering",
+        "computational technologies advanced in tandem",
+        "all extant sequence data became untenable for most studies",
+        "feature searches ensured that many key features of novel sequences remained readily accessible",
+        "with numerous studies highlighting the power of survey sequencing of DNA",
+        "with software able to search for similarity to a query sequence",
+        "neither of these aspects of meta-metagenomic searches is infeasible with current data transfer and processing speeds",
+        "A Linux workstation used for the bulk analysis of metagenomic datasets employs an",
+        "All sequence data for this analysis were downloaded from the National",
+        "with individual sequences downloaded through a web interface",
+        "metagenomic datasets downloaded from the NCBI Sequence",
+        "Each of these manipulations can fail some fraction of the time",
+        "while extraction in readable format occasionally fails for unknown reasons",
+        "by attempts to unpack into .fasta.gz format until one such file is obtained from each",
+        "short as 32 nucleotides captured depending on the precise phasing of the read",
+        "metagenomic datasets with the keyword",
+        "of January 2020 were selected for analysis in a process",
+        "Meta-meta-genomic searching can provide unique opportunities to understand the distribution of nucleic acid sequences in diverse environmental niches",
+        "a search identifies a number of niches with sequences matching the genome of the recent",
+        "These analyses raise a number of relevant points for the origin",
+        "the closest relative of a virus causing disease in species X to be found in species Y",
+        "the sequence of a genome at any time may reflect a history of selection and drift in several different host species",
+        "This point is accentuated in the microcosm of our searches",
+        "the origin would at that point have transferred the extant model to zoonosis"
+    ],
+    "claims": [
+        "In this brief communication, we demonstrate such a meta-meta-genomic approach, examining close matches to the Wuhan coronavirus 2019-nCoV in all high-throughput sequencing datasets in the NCBI Sequence Read Archive accessible with the keyword \u201cvirome\u201d",
+        "We find that neither of these aspects of meta-metagenomic searches is infeasible with current data transfer and processing speeds",
+        "In this communication, we report the results of searching the recently-described 2019-nCoV coronavirus sequence through a set of metagenomic datasets with the tag \"virome\"",
+        "In the example we present in this paper, such a search identifies a number of niches with sequences matching the genome of the recent 2019nCoV virus"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We find that neither of these aspects of meta-metagenomic searches is infeasible with current data transfer and processing speeds",
+        "We report the results of searching the recently-described 2019-nCoV coronavirus sequence through a set of metagenomic datasets with the tag \"virome\"",
+        "Materials and Methods: Computing Hardware: A Linux workstation used for the bulk analysis of metagenomic datasets employs an 8-core i7 Intel Microprocessor, 128G of Random Access Memory, 12TB",
+        "All metagenomic datasets with the keyword \"virome\" in NCBI SRA as of January 2020 were selected for analysis in a process that required approximately 2 days each for downloading and conversion to readable file formats and one day for searching by k-mer match on a desktop workstation computer (i7 8-core)",
+        "Meta-meta-genomic searching can provide unique opportunities to understand the distribution of nucleic acid sequences in diverse environmental niches"
+    ],
+    "top_statements": [
+        "In the early years of nucleic acids sequencing, aggregation of the majority of published<br/><br/>DNA and RNA sequences into public sequence databases greatly aided biological hypothesis generation and discovery",
+        "We find that neither of these aspects of meta-metagenomic searches is infeasible with current data transfer and processing speeds",
+        "We report the results of searching the recently-described 2019-nCoV coronavirus sequence through a set of metagenomic datasets with the tag \"virome\"",
+        "Materials and Methods: Computing Hardware: A Linux workstation used for the bulk analysis of metagenomic datasets employs an 8-core i7 Intel Microprocessor, 128G of Random Access Memory, 12TB",
+        "All metagenomic datasets with the keyword \"virome\" in NCBI SRA as of January 2020 were selected for analysis in a process that required approximately 2 days each for downloading and conversion to readable file formats and one day for searching by k-mer match on a desktop workstation computer (i7 8-core)",
+        "Meta-meta-genomic searching can provide unique opportunities to understand the distribution of nucleic acid sequences in diverse environmental niches"
+    ],
+    "headline": "All metagenomic datasets with the keyword \"virome\" in NCBI SRA as of January 2020 were selected for analysis in a process that required approximately 2 days each for downloading and conversion to readable file formats and one day for searching by k-mer match on a desktop workstation computer",
+    "contexts": [],
+    "abbreviations": {
+        "HFSP": "Human Frontier Science Program"
+    }
+}

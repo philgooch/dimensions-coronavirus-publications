@@ -1,0 +1,793 @@
+{
+    "filename": "2020.02.27.968008.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1678697,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.27.968008",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/03/02/2020.02.27.968008.full.pdf"
+        },
+        "title": "Molecular Dynamics Simulations Indicate the COVID-19 Mpro Is Not a Viable Target for Small-Molecule Inhibitors Design",
+        "author": "Maria Bz\u00f3wka, Karolina Mitusi\u0144ska, Agata Raczy\u0144ska, Aleksandra Samol, Jack Tuszy\u0144ski, Artur G\u00f3ra",
+        "date": 2020,
+        "affiliations": [
+            "Biotechnology Centre, ul. Krzywoustego 8, Silesian University of Technology, Gliwice, 44-100, Poland",
+            "Department of Physics, University of Alberta, Edmonton, AB, T6G 2E1, Canada",
+            "DIMEAS, Politecnico di Torino, Corso Duca degli Abruzzi, 24, Turin, 10129, Italy",
+            "National Health Commission of China, at the press conference on February 4 evaluated that the virus mortality rate stood at 2.1% nationwide (4.9% in Wuhan).",
+            "National Institute for Viral Disease Control and Prevention, CDC, China), Wu et al., performed a detailed genome annotation. The results were further compared to related coronaviruses \u2013 1,008 human SARS-CoV, 338 bat SARS-like CoV, and 3,131 human METS-CoV indicating that the three strains of COVID-19 have almost identical genomes with"
+        ],
+        "abstract": "The novel coronavirus whose outbreak took place in December 2019 continues to spread at a rapid rate worldwide. In the absence of an effective vaccine, inhibitor repurposing or de novo design may offer a longer-term strategy to combat this and future infections due to similar viruses. Here, we report on detailed molecular dynamics simulations of the main protease (Mpro). We compared and contrasted the Mpro for COVID-19 with a highly similar SARS protein. In spite of a high level of sequence similarity, the active sites in both proteins show major differences in both shape and size indicating that repurposing SARS drugs for COVID-19 may be futile. Furthermore, analysis of the pocket\u2019s time-dependence indicates its flexibility and plasticity, which dashes hopes for rapid and reliable drug design. Conversely, structural stability of the protein with respect to flexible loop mutations indicates that the virus\u2019 mutability will pose a further challenge to the rational design of small-molecule inhibitors.",
+        "references": "@article{huang2020a,\n  author = {Huang, C.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  date = {2020},\n  doi = {doi: 10.1016/S0140-6736(20)30183-5},\n  more-authors = {true},\n  language = {}\n}\n@article{zhu2020a,\n  author = {Zhu, N.},\n  title = {A Novel Coronavirus from Patients with Pneumonia in China, 2019},\n  journal = {N. Engl. J. Med},\n  volume = {382},\n  pages = {727\u2013733},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@misc{w-a,\n  author = {W.H.O.},\n  title = {Coronavirus disease 2019 (COVID-19) Situation Report \u2013 34},\n  language = {}\n}\n@article{woo2010a,\n  author = {Woo, P.C.Y. and Huang, Y. and Lau, S.K.P. and Yuen, K.-Y.},\n  journal = {Coronavirus Genomics and Bioinformatics Analysis. Viruses},\n  volume = {2},\n  pages = {1804\u20131820},\n  date = {2010}\n}\n@article{tang2015a,\n  author = {Tang, Q.},\n  title = {Inferring the hosts of coronavirus using dual statistical models based on nucleotide composition},\n  journal = {Sci. Rep},\n  volume = {5},\n  pages = {17155},\n  date = {2015},\n  more-authors = {true},\n  language = {}\n}\n@article{cui2019a,\n  author = {Cui, J. and Li, F. and Shi, Z.-L.},\n  title = {Origin and evolution of pathogenic coronaviruses},\n  journal = {Nat. Rev. Microbiol},\n  volume = {17},\n  pages = {181\u2013192},\n  date = {2019},\n  language = {}\n}\n@article{fehr2015a,\n  author = {Fehr, A.R. and Perlman, S.},\n  title = {Coronaviruses: An Overview of Their Replication and Pathogenesis},\n  journal = {Methods Mol Biol},\n  volume = {1282},\n  pages = {1\u201323},\n  date = {2015},\n  language = {}\n}\n@article{zhang2020a,\n  author = {Zhang, L. and Shen, F. and Chen, F. and Lin, Z.},\n  title = {Origin and evolution of the 2019 novel coronavirus},\n  journal = {Clin. Infect. Dis},\n  date = {2020},\n  doi = {doi: 10.1093/cid/ciaa112},\n  language = {}\n}\n@article{song2019a,\n  author = {Song, Z.},\n  title = {From SARS to MERS, Thrusting Coronaviruses into the Spotlight},\n  journal = {Viruses},\n  volume = {11},\n  date = {2019},\n  more-authors = {true},\n  number = {59},\n  language = {}\n}\n@article{xue2008a,\n  author = {Xue, X.},\n  title = {Structures of Two Coronavirus Main Proteases: Implications for Substrate Binding and Antiviral Drug Design},\n  journal = {J. Virol},\n  volume = {82},\n  pages = {2515\u20132527},\n  date = {2008},\n  more-authors = {true},\n  language = {}\n}\n@article{wu2020a,\n  author = {Wu, A.},\n  title = {Genome Composition and Divergence of the Novel Coronavirus (2019- nCoV) Originating in China},\n  journal = {Cell Host Microbe},\n  date = {2020},\n  doi = {doi: 10.1016/j.chom.2020.02.001},\n  more-authors = {true},\n  language = {}\n}\n@article{zumla2016a,\n  author = {Zumla, A. and Chan, J.F.W. and Azhar, E.I. and Hui, D.S.C. and Yuen, K.-Y.},\n  title = {Coronaviruses \u2014 drug discovery and therapeutic options},\n  journal = {Nat. Rev. Drug Discov},\n  volume = {15},\n  pages = {327\u2013347},\n  date = {2016},\n  language = {}\n}\n@article{liu2020a,\n  author = {Liu, W. and Morse, J.S. and Lalonde, T. and Xu, S.},\n  title = {Learning from the Past: Possible Urgent Prevention and Treatment Options for Severe Acute Respiratory Infections Caused by 2019\u2010nCoV},\n  journal = {ChemBioChem},\n  volume = {202000047},\n  date = {2020},\n  doi = {doi: 10.1002/cbic.202000047},\n  language = {}\n}\n@article{lee2005a,\n  author = {Lee, T.-W.},\n  title = {Crystal Structures of the Main Peptidase from the SARS Coronavirus Inhibited by a Substrate-like Aza-peptide Epoxide},\n  journal = {J. Mol. Biol},\n  volume = {353},\n  pages = {1137\u20131151},\n  date = {2005},\n  more-authors = {true},\n  language = {}\n}\n@article{ton2020a,\n  author = {Ton, A.-T. and Gentile, F. and Hsing, M. and Ban, F. and Cherkasov, A.},\n  title = {Rapid Identification of Potential Inhibitors of SARS-CoV-2 Main Protease by Deep Docking of 1.3 Billion Compounds},\n  journal = {ChemRxiv},\n  date = {2020},\n  language = {}\n}\n@article{xu2020a,\n  author = {Xu, Z.},\n  title = {Nelfinavir was predicted to be a potential inhibitor of 2019-nCov main protease by an integrative approach combining homology modelling, molecular docking and binding free energy calculation},\n  journal = {bioRxiv},\n  date = {2020},\n  doi = {doi: 10.1101/2020.01.27.921627},\n  more-authors = {true},\n  language = {}\n}\n@book{liu2020b,\n  author = {Liu, X. and Wang, X.-J.},\n  title = {Potential inhibitors for 2019-nCoV coronavirus M protease from clinically approved medicines},\n  publisher = {bioRxiv},\n  date = {2020},\n  doi = {doi: 10.1101/2020.01.29.924100},\n  language = {}\n}\n@incollection{li2020a,\n  author = {Li, Y.},\n  title = {Therapeutic Drugs Targeting 2019-nCoV Main Protease by HighThroughput Screening},\n  source = {bioRxiv},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{berman2000a,\n  author = {Berman, H.M.},\n  title = {The Protein Data Bank},\n  journal = {Nucleic Acids Res},\n  volume = {28},\n  pages = {235\u2013242},\n  date = {2000},\n  language = {}\n}\n@article{bacha2004a,\n  author = {Bacha, U. and Barrila, J. and Velazquez-Campoy, A. and Leavitt, S.A. and Freire, E.},\n  title = {Identification of Novel Inhibitors of the SARS Coronavirus Main Protease 3CL pro \u2020},\n  journal = {Biochemistry},\n  volume = {43},\n  pages = {4906\u20134912},\n  date = {2004},\n  language = {}\n}\n@article{anand2003a,\n  author = {Anand, K.},\n  title = {Coronavirus Main Proteinase (3CLpro) Structure: Basis for Design of AntiSARS Drugs},\n  journal = {Science},\n  date = {2003},\n  volume = {300},\n  pages = {1763\u20131767},\n  language = {}\n}\n@article{mitusi2020a,\n  author = {Mitusi\u0144ska, K. and Raczy\u0144ska, A. and Bz\u00f3wka, M. and Bagrowska, W. and G\u00f3ra, A.},\n  title = {Applications of water molecules for analysis of macromolecule properties},\n  journal = {Comput. Struct. Biotechnol. J},\n  volume = {18},\n  pages = {355\u2013365},\n  date = {2020},\n  language = {}\n}\n@article{magdziarz2019a,\n  author = {Magdziarz, T.},\n  title = {AQUA-DUCT 1.0: structural and functional analysis of macromolecules from an intramolecular voids perspective},\n  journal = {Bioinformatics},\n  date = {2019},\n  doi = {doi: 10.1093/bioinformatics/btz946},\n  more-authors = {true},\n  language = {}\n}\n@article{chang2016a,\n  author = {Chang, C.},\n  title = {Structure-based virtual screening and experimental validation of the discovery of inhibitors targeted towards the human coronavirus nucleocapsid protein},\n  journal = {Mol. Biosyst},\n  volume = {12},\n  pages = {59\u201366},\n  date = {2016},\n  more-authors = {true},\n  language = {}\n}\n@article{dayer2017a,\n  author = {Dayer, M.R. and Taleb-Gassabi, S. and Dayer, M.S.},\n  title = {Lopinavir; A Potent Drug against Coronavirus Infection: Insight from Molecular Docking Study},\n  journal = {Arch. Clin. Infect. Dis},\n  volume = {12},\n  date = {2017},\n  language = {}\n}\n@article{chen2020a,\n  author = {Chen, Y.W. and Yiu, C.-P. and Wong, K.-Y.},\n  title = {Prediction of the 2019-nCoV 3C-like Protease (3CLpro) Structure: Virtual Screening Reveals Velpatasvir, Ledipasvir, and Other Drug Repurposing Candidates},\n  journal = {ChemRxiv},\n  date = {2020},\n  doi = {doi:/10.26434/chemrxiv.11831103.v1},\n  language = {}\n}\n@article{anderson2003a,\n  author = {Anderson, A.C.},\n  title = {The Process of Structure-Based Drug Design},\n  journal = {Chem. Biol},\n  volume = {10},\n  pages = {787\u2013797},\n  date = {2003},\n  language = {}\n}\n@article{mitusi2018a,\n  author = {Mitusi\u0144ska, K. and Magdziarz, T. and Bz\u00f3wka, M. and Sta\u0144czak, A. and Gora, A.},\n  title = {Exploring Solanum tuberosum Epoxide Hydrolase Internal Architecture by Water Molecules Tracking},\n  journal = {Biomolecules},\n  volume = {8},\n  date = {2018},\n  number = {143},\n  language = {}\n}\n@article{kuipers2010a,\n  author = {Kuipers, R.K.},\n  journal = {et al},\n  volume = {3},\n  title = {Systematic analysis of heterogeneous superfamily data to discover protein functionalities},\n  pages = {2101\u20132113},\n  date = {2010},\n  unmatched-journal = {Proteins Struct. Funct. Bioinforma.},\n  unmatched-volume = {78,},\n  language = {}\n}\n@article{tsai2010a,\n  author = {Tsai, M.-Y.},\n  title = {Essential covalent linkage between the chymotrypsin-like domain and the extra domain of the SARS-CoV main protease},\n  journal = {J. Biochem},\n  volume = {148},\n  pages = {349\u2013358},\n  date = {2010},\n  more-authors = {true},\n  language = {}\n}\n@article{needle2015a,\n  author = {Needle, D. and Lountos, G.T. and Waugh, D.S.},\n  title = {Structures of the Middle East respiratory syndrome coronavirus 3C-like protease reveal insights into substrate specificity},\n  journal = {Acta Crystallogr. Sect. D Biol. Crystallogr},\n  volume = {71},\n  pages = {1102\u20131111},\n  date = {2015},\n  language = {}\n}\n@book{zhang2020b,\n  author = {Zhang, L. and Lin, D. and Sun, X. and Rox, K. and Hilgenfeld, R.},\n  title = {X-ray Structure of Main Protease of the Novel Coronavirus SARS-CoV-2 Enables Design of \u03b1-Ketoamide Inhibitors},\n  publisher = {bioRxiv},\n  date = {2020},\n  doi = {doi: 10.1101/2020.02.17.952879},\n  language = {}\n}\n@article{anand2002a,\n  author = {Anand, K.},\n  title = {Structure of coronavirus main proteinase reveals combination of a chymotrypsin fold with an extra alpha-helical domain},\n  journal = {EMBO J},\n  volume = {21},\n  pages = {3213\u20133224},\n  date = {2002},\n  language = {}\n}\n@article{lim2014a,\n  author = {Lim, L. and Shi, J. and Mu, Y. and Song, J.},\n  title = {Dynamically-Driven Enhancement of the Catalytic Machinery of the SARS 3C-Like Protease by the S284-T285-I286/A Mutations on the Extra Domain},\n  journal = {PLoS One},\n  volume = {9},\n  pages = {101941},\n  date = {2014},\n  language = {}\n}\n@article{schymkowitz2005a,\n  author = {Schymkowitz, J.},\n  title = {The FoldX web server: an online force field},\n  journal = {Nucleic Acids Res},\n  volume = {33},\n  pages = {382\u2013388},\n  date = {2005},\n  more-authors = {true},\n  language = {}\n}\n@article{klausen2019a,\n  author = {Klausen, M.S.},\n  journal = {et al. NetSurfP\u2010},\n  volume = {2},\n  title = {Improved prediction of protein structural features by integrated deep learning},\n  pages = {520\u2013527},\n  date = {2019},\n  unmatched-journal = {Proteins Struct. Funct. Bioinforma.},\n  unmatched-volume = {87,},\n  number = {0},\n  language = {}\n}\n@article{anandakrishnan2012a,\n  author = {Anandakrishnan, R. and Aguilar, B. and Onufriev, A.V.},\n  title = {H++ 3.0: automating pK prediction and the preparation of biomolecular structures for atomistic molecular modeling and simulations},\n  journal = {Nucleic Acids Res},\n  volume = {40},\n  pages = {537\u2013541},\n  date = {2012},\n  language = {}\n}\n@article{luchko2010a,\n  author = {Luchko, T.},\n  title = {Three-Dimensional Molecular Theory of Solvation Coupled with Molecular Dynamics in Amber},\n  journal = {J. Chem. Theory Comput},\n  volume = {6},\n  pages = {607\u2013624},\n  date = {2010},\n  more-authors = {true},\n  language = {}\n}\n@article{sindhikara2012a,\n  author = {Sindhikara, D.J. and Yoshida, N. and Hirata, F.},\n  title = {Placevent: An algorithm for prediction of explicit solvent atom distribution-Application to HIV-1 protease and F-ATP synthase},\n  journal = {J. Comput. Chem},\n  volume = {33},\n  pages = {1536\u20131543},\n  date = {2012},\n  language = {}\n}\n@article{case2018a,\n  author = {Case, D.A.},\n  journal = {et al. AMBER},\n  date = {2018}\n}\n@article{maier2015a,\n  author = {Maier, J.A.},\n  journal = {et al},\n  volume = {14},\n  title = {Improving the Accuracy of Protein Side Chain and Backbone Parameters from ff99SB},\n  pages = {3696\u20133713},\n  date = {2015},\n  unmatched-journal = {J. Chem. Theory Comput.},\n  unmatched-volume = {11,},\n  language = {}\n}\n@article{pence2010a,\n  author = {Pence, H.E. and Williams, A.},\n  title = {ChemSpider: An Online Chemical Information Resource},\n  journal = {J. Chem. Educ},\n  volume = {87},\n  pages = {1123\u20131124},\n  date = {2010},\n  language = {}\n}\n@article{nikitin2007a,\n  author = {Nikitin, A.M. and Lyubartsev, A.P.},\n  title = {New six-site acetonitrile model for simulations of liquid acetonitrile and its aqueous mixtures},\n  journal = {J. Comput. Chem},\n  volume = {28},\n  pages = {2020\u20132026},\n  date = {2007},\n  language = {}\n}\n@article{wang2006a,\n  author = {Wang, J. and Wang, W. and Kollman, P.A. and Case, D.A.},\n  title = {Automatic atom type and bond type perception in molecular mechanical calculations},\n  journal = {J. Mol. Graph. Model},\n  volume = {25},\n  pages = {247\u2013260},\n  date = {2006},\n  language = {}\n}\n@article{gasteiger1980a,\n  author = {Gasteiger, J. and Marsili, M.},\n  title = {Iterative partial equalization of orbital electronegativity\u2014a rapid access to atomic charges},\n  journal = {Tetrahedron},\n  volume = {36},\n  pages = {3219\u20133228},\n  date = {1980},\n  language = {}\n}\n@article{mart2009a,\n  author = {Mart\u00ednez, L. and Andrade, R. and Birgin, E.G. and Mart\u00ednez, J.M.},\n  title = {PACKMOL: A package for building initial configurations for molecular dynamics simulations},\n  journal = {J. Comput. Chem},\n  volume = {30},\n  pages = {2157\u20132164},\n  date = {2009},\n  language = {}\n}\n@article{delano2002a,\n  author = {Delano, W.L.},\n  title = {PyMOL: An Open-Source Molecular Graphics Tool. Ccp4 Newslett Protein},\n  journal = {Crystallogr},\n  volume = {40},\n  date = {2002},\n  language = {}\n}\n@article{gertz2006a,\n  author = {Gertz, E.M. and Yu, Y.-K. and Agarwala, R. and Sch\u00e4ffer, A.A. and Altschul, S.F.},\n  title = {Compositionbased statistics and translated nucleotide searches: Improving the TBLASTN module of BLAST},\n  journal = {BMC Biol},\n  volume = {4},\n  date = {2006},\n  number = {41},\n  language = {}\n}\n@article{camacho2009a,\n  author = {Camacho, C.},\n  title = {BLAST+: architecture and applications},\n  journal = {BMC Bioinformatics},\n  volume = {10},\n  date = {2009},\n  more-authors = {true},\n  number = {421},\n  language = {}\n}\n@article{altschul1990a,\n  author = {Altschul, S.F. and Gish, W. and Miller, W. and Myers, E.W. and Lipman, D.J.},\n  title = {Basic local alignment search tool},\n  journal = {J. Mol. Biol},\n  volume = {215},\n  pages = {403\u2013410},\n  date = {1990},\n  language = {}\n}\n@misc{sievers2014a,\n  author = {Sievers, F. and Higgins, D.G.},\n  title = {Clustal Omega, Accurate Alignment of Very Large Numbers of Sequences. in Multiple Sequence Alignment Methods},\n  doi = {105\u2013116},\n  date = {2014},\n  unmatched-doi = {doi: 10.1007/978-1-62703-646-7_6},\n  language = {}\n}\n",
+        "emails": [
+            "a.gora@tunnelinggroup.pl"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Huang, C.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nPY  - 2020\nDA  - 2020\nDO  - 10.1016/S0140-6736(20)30183-5\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, N.\nTI  - A Novel Coronavirus from Patients with Pneumonia in China, 2019\nT2  - N. Engl. J. Med\nVL  - 382\nSP  - 727\nEP  - 733\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - W.H.O.\nTI  - Coronavirus disease 2019 (COVID-19) Situation Report \u2013 34\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Woo, P.C.Y.\nAU  - Huang, Y.\nAU  - Lau, S.K.P.\nAU  - Yuen, K.-Y.\nT2  - Coronavirus Genomics and Bioinformatics Analysis. Viruses\nVL  - 2\nSP  - 1804\nEP  - 1820\nPY  - 2010\nDA  - 2010\nER  - \n\nTY  - JOUR\nAU  - Tang, Q.\nTI  - Inferring the hosts of coronavirus using dual statistical models based on nucleotide composition\nT2  - Sci. Rep\nVL  - 5\nSP  - 17155\nPY  - 2015\nDA  - 2015\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cui, J.\nAU  - Li, F.\nAU  - Shi, Z.-L.\nTI  - Origin and evolution of pathogenic coronaviruses\nT2  - Nat. Rev. Microbiol\nVL  - 17\nSP  - 181\nEP  - 192\nPY  - 2019\nDA  - 2019\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fehr, A.R.\nAU  - Perlman, S.\nTI  - Coronaviruses: An Overview of Their Replication and Pathogenesis\nT2  - Methods Mol Biol\nVL  - 1282\nSP  - 1\nEP  - 23\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, L.\nAU  - Shen, F.\nAU  - Chen, F.\nAU  - Lin, Z.\nTI  - Origin and evolution of the 2019 novel coronavirus\nT2  - Clin. Infect. Dis\nPY  - 2020\nDA  - 2020\nDO  - 10.1093/cid/ciaa112\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Song, Z.\nTI  - From SARS to MERS, Thrusting Coronaviruses into the Spotlight\nT2  - Viruses\nVL  - 11\nPY  - 2019\nDA  - 2019\nC1  - true\nIS  - 59\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xue, X.\nTI  - Structures of Two Coronavirus Main Proteases: Implications for Substrate Binding and Antiviral Drug Design\nT2  - J. Virol\nVL  - 82\nSP  - 2515\nEP  - 2527\nPY  - 2008\nDA  - 2008\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, A.\nTI  - Genome Composition and Divergence of the Novel Coronavirus (2019- nCoV) Originating in China\nT2  - Cell Host Microbe\nPY  - 2020\nDA  - 2020\nDO  - 10.1016/j.chom.2020.02.001\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zumla, A.\nAU  - Chan, J.F.W.\nAU  - Azhar, E.I.\nAU  - Hui, D.S.C.\nAU  - Yuen, K.-Y.\nTI  - Coronaviruses \u2014 drug discovery and therapeutic options\nT2  - Nat. Rev. Drug Discov\nVL  - 15\nSP  - 327\nEP  - 347\nPY  - 2016\nDA  - 2016\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Liu, W.\nAU  - Morse, J.S.\nAU  - Lalonde, T.\nAU  - Xu, S.\nTI  - Learning from the Past: Possible Urgent Prevention and Treatment Options for Severe Acute Respiratory Infections Caused by 2019\u2010nCoV\nT2  - ChemBioChem\nVL  - 202000047\nPY  - 2020\nDA  - 2020\nDO  - 10.1002/cbic.202000047\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lee, T.-W.\nTI  - Crystal Structures of the Main Peptidase from the SARS Coronavirus Inhibited by a Substrate-like Aza-peptide Epoxide\nT2  - J. Mol. Biol\nVL  - 353\nSP  - 1137\nEP  - 1151\nPY  - 2005\nDA  - 2005\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ton, A.-T.\nAU  - Gentile, F.\nAU  - Hsing, M.\nAU  - Ban, F.\nAU  - Cherkasov, A.\nTI  - Rapid Identification of Potential Inhibitors of SARS-CoV-2 Main Protease by Deep Docking of 1.3 Billion Compounds\nT2  - ChemRxiv\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xu, Z.\nTI  - Nelfinavir was predicted to be a potential inhibitor of 2019-nCov main protease by an integrative approach combining homology modelling, molecular docking and binding free energy calculation\nT2  - bioRxiv\nPY  - 2020\nDA  - 2020\nDO  - 10.1101/2020.01.27.921627\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Liu, X.\nAU  - Wang, X.-J.\nTI  - Potential inhibitors for 2019-nCoV coronavirus M protease from clinically approved medicines\nPB  - bioRxiv\nPY  - 2020\nDA  - 2020\nDO  - 10.1101/2020.01.29.924100\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Li, Y.\nTI  - Therapeutic Drugs Targeting 2019-nCoV Main Protease by HighThroughput Screening\nT2  - bioRxiv\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Berman, H.M.\nTI  - The Protein Data Bank\nT2  - Nucleic Acids Res\nVL  - 28\nSP  - 235\nEP  - 242\nPY  - 2000\nDA  - 2000\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bacha, U.\nAU  - Barrila, J.\nAU  - Velazquez-Campoy, A.\nAU  - Leavitt, S.A.\nAU  - Freire, E.\nTI  - Identification of Novel Inhibitors of the SARS Coronavirus Main Protease 3CL pro \u2020\nT2  - Biochemistry\nVL  - 43\nSP  - 4906\nEP  - 4912\nPY  - 2004\nDA  - 2004\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Anand, K.\nTI  - Coronavirus Main Proteinase (3CLpro) Structure: Basis for Design of AntiSARS Drugs\nT2  - Science\nPY  - 2003\nDA  - 2003\nVL  - 300\nSP  - 1763\nEP  - 1767\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Mitusi\u0144ska, K.\nAU  - Raczy\u0144ska, A.\nAU  - Bz\u00f3wka, M.\nAU  - Bagrowska, W.\nAU  - G\u00f3ra, A.\nTI  - Applications of water molecules for analysis of macromolecule properties\nT2  - Comput. Struct. Biotechnol. J\nVL  - 18\nSP  - 355\nEP  - 365\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Magdziarz, T.\nTI  - AQUA-DUCT 1.0: structural and functional analysis of macromolecules from an intramolecular voids perspective\nT2  - Bioinformatics\nPY  - 2019\nDA  - 2019\nDO  - 10.1093/bioinformatics/btz946\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chang, C.\nTI  - Structure-based virtual screening and experimental validation of the discovery of inhibitors targeted towards the human coronavirus nucleocapsid protein\nT2  - Mol. Biosyst\nVL  - 12\nSP  - 59\nEP  - 66\nPY  - 2016\nDA  - 2016\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Dayer, M.R.\nAU  - Taleb-Gassabi, S.\nAU  - Dayer, M.S.\nTI  - Lopinavir; A Potent Drug against Coronavirus Infection: Insight from Molecular Docking Study\nT2  - Arch. Clin. Infect. Dis\nVL  - 12\nPY  - 2017\nDA  - 2017\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, Y.W.\nAU  - Yiu, C.-P.\nAU  - Wong, K.-Y.\nTI  - Prediction of the 2019-nCoV 3C-like Protease (3CLpro) Structure: Virtual Screening Reveals Velpatasvir, Ledipasvir, and Other Drug Repurposing Candidates\nT2  - ChemRxiv\nPY  - 2020\nDA  - 2020\nDO  - /10.26434/chemrxiv.11831103.v1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Anderson, A.C.\nTI  - The Process of Structure-Based Drug Design\nT2  - Chem. Biol\nVL  - 10\nSP  - 787\nEP  - 797\nPY  - 2003\nDA  - 2003\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Mitusi\u0144ska, K.\nAU  - Magdziarz, T.\nAU  - Bz\u00f3wka, M.\nAU  - Sta\u0144czak, A.\nAU  - Gora, A.\nTI  - Exploring Solanum tuberosum Epoxide Hydrolase Internal Architecture by Water Molecules Tracking\nT2  - Biomolecules\nVL  - 8\nPY  - 2018\nDA  - 2018\nIS  - 143\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kuipers, R.K.\nT2  - et al\nVL  - 3\nTI  - Systematic analysis of heterogeneous superfamily data to discover protein functionalities\nSP  - 2101\nEP  - 2113\nPY  - 2010\nDA  - 2010\nC1  - Proteins Struct. Funct. Bioinforma.\nC1  - 78,\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tsai, M.-Y.\nTI  - Essential covalent linkage between the chymotrypsin-like domain and the extra domain of the SARS-CoV main protease\nT2  - J. Biochem\nVL  - 148\nSP  - 349\nEP  - 358\nPY  - 2010\nDA  - 2010\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Needle, D.\nAU  - Lountos, G.T.\nAU  - Waugh, D.S.\nTI  - Structures of the Middle East respiratory syndrome coronavirus 3C-like protease reveal insights into substrate specificity\nT2  - Acta Crystallogr. Sect. D Biol. Crystallogr\nVL  - 71\nSP  - 1102\nEP  - 1111\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Zhang, L.\nAU  - Lin, D.\nAU  - Sun, X.\nAU  - Rox, K.\nAU  - Hilgenfeld, R.\nTI  - X-ray Structure of Main Protease of the Novel Coronavirus SARS-CoV-2 Enables Design of \u03b1-Ketoamide Inhibitors\nPB  - bioRxiv\nPY  - 2020\nDA  - 2020\nDO  - 10.1101/2020.02.17.952879\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Anand, K.\nTI  - Structure of coronavirus main proteinase reveals combination of a chymotrypsin fold with an extra alpha-helical domain\nT2  - EMBO J\nVL  - 21\nSP  - 3213\nEP  - 3224\nPY  - 2002\nDA  - 2002\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lim, L.\nAU  - Shi, J.\nAU  - Mu, Y.\nAU  - Song, J.\nTI  - Dynamically-Driven Enhancement of the Catalytic Machinery of the SARS 3C-Like Protease by the S284-T285-I286/A Mutations on the Extra Domain\nT2  - PLoS One\nVL  - 9\nSP  - 101941\nPY  - 2014\nDA  - 2014\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Schymkowitz, J.\nTI  - The FoldX web server: an online force field\nT2  - Nucleic Acids Res\nVL  - 33\nSP  - 382\nEP  - 388\nPY  - 2005\nDA  - 2005\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Klausen, M.S.\nT2  - et al. NetSurfP\u2010\nVL  - 2\nTI  - Improved prediction of protein structural features by integrated deep learning\nSP  - 520\nEP  - 527\nPY  - 2019\nDA  - 2019\nC1  - Proteins Struct. Funct. Bioinforma.\nC1  - 87,\nIS  - 0\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Anandakrishnan, R.\nAU  - Aguilar, B.\nAU  - Onufriev, A.V.\nTI  - H++ 3.0: automating pK prediction and the preparation of biomolecular structures for atomistic molecular modeling and simulations\nT2  - Nucleic Acids Res\nVL  - 40\nSP  - 537\nEP  - 541\nPY  - 2012\nDA  - 2012\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Luchko, T.\nTI  - Three-Dimensional Molecular Theory of Solvation Coupled with Molecular Dynamics in Amber\nT2  - J. Chem. Theory Comput\nVL  - 6\nSP  - 607\nEP  - 624\nPY  - 2010\nDA  - 2010\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sindhikara, D.J.\nAU  - Yoshida, N.\nAU  - Hirata, F.\nTI  - Placevent: An algorithm for prediction of explicit solvent atom distribution-Application to HIV-1 protease and F-ATP synthase\nT2  - J. Comput. Chem\nVL  - 33\nSP  - 1536\nEP  - 1543\nPY  - 2012\nDA  - 2012\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Case, D.A.\nT2  - et al. AMBER\nPY  - 2018\nDA  - 2018\nER  - \n\nTY  - JOUR\nAU  - Maier, J.A.\nT2  - et al\nVL  - 14\nTI  - Improving the Accuracy of Protein Side Chain and Backbone Parameters from ff99SB\nSP  - 3696\nEP  - 3713\nPY  - 2015\nDA  - 2015\nC1  - J. Chem. Theory Comput.\nC1  - 11,\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pence, H.E.\nAU  - Williams, A.\nTI  - ChemSpider: An Online Chemical Information Resource\nT2  - J. Chem. Educ\nVL  - 87\nSP  - 1123\nEP  - 1124\nPY  - 2010\nDA  - 2010\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nikitin, A.M.\nAU  - Lyubartsev, A.P.\nTI  - New six-site acetonitrile model for simulations of liquid acetonitrile and its aqueous mixtures\nT2  - J. Comput. Chem\nVL  - 28\nSP  - 2020\nEP  - 2026\nPY  - 2007\nDA  - 2007\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.\nAU  - Wang, W.\nAU  - Kollman, P.A.\nAU  - Case, D.A.\nTI  - Automatic atom type and bond type perception in molecular mechanical calculations\nT2  - J. Mol. Graph. Model\nVL  - 25\nSP  - 247\nEP  - 260\nPY  - 2006\nDA  - 2006\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gasteiger, J.\nAU  - Marsili, M.\nTI  - Iterative partial equalization of orbital electronegativity\u2014a rapid access to atomic charges\nT2  - Tetrahedron\nVL  - 36\nSP  - 3219\nEP  - 3228\nPY  - 1980\nDA  - 1980\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Mart\u00ednez, L.\nAU  - Andrade, R.\nAU  - Birgin, E.G.\nAU  - Mart\u00ednez, J.M.\nTI  - PACKMOL: A package for building initial configurations for molecular dynamics simulations\nT2  - J. Comput. Chem\nVL  - 30\nSP  - 2157\nEP  - 2164\nPY  - 2009\nDA  - 2009\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Delano, W.L.\nTI  - PyMOL: An Open-Source Molecular Graphics Tool. Ccp4 Newslett Protein\nT2  - Crystallogr\nVL  - 40\nPY  - 2002\nDA  - 2002\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gertz, E.M.\nAU  - Yu, Y.-K.\nAU  - Agarwala, R.\nAU  - Sch\u00e4ffer, A.A.\nAU  - Altschul, S.F.\nTI  - Compositionbased statistics and translated nucleotide searches: Improving the TBLASTN module of BLAST\nT2  - BMC Biol\nVL  - 4\nPY  - 2006\nDA  - 2006\nIS  - 41\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Camacho, C.\nTI  - BLAST+: architecture and applications\nT2  - BMC Bioinformatics\nVL  - 10\nPY  - 2009\nDA  - 2009\nC1  - true\nIS  - 421\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Altschul, S.F.\nAU  - Gish, W.\nAU  - Miller, W.\nAU  - Myers, E.W.\nAU  - Lipman, D.J.\nTI  - Basic local alignment search tool\nT2  - J. Mol. Biol\nVL  - 215\nSP  - 403\nEP  - 410\nPY  - 1990\nDA  - 1990\nLA  - \nER  - \n\nTY  - GEN\nAU  - Sievers, F.\nAU  - Higgins, D.G.\nTI  - Clustal Omega, Accurate Alignment of Very Large Numbers of Sequences. in Multiple Sequence Alignment Methods\nDO  - 105\u2013116\nPY  - 2014\nDA  - 2014\nC1  - doi: 10.1007/978-1-62703-646-7_6\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "The differences between the SARS-CoV Mpro and COVID-19 Mpro structures. (A) The overall structure of both SARS-CoV and COVID-19 Mpros with differing amino acids marked as black (SARS-CoV Mpro) and blue (COVID-19 Mpro). (B) Close-up of the active site cavity and bound N3 inhibitor into SARS-CoV (black sticks) and COVID-19 (blue sticks) Mpros. The catalytic water molecule that resembles the position of the third member of the catalytic triad adopted from the cysteine proteases is shown for both SARS-CoV (black sphere) and COVID-19 (blue sphere) Mpros. The active site residues are shown as red sticks and the proteins\u2019 structures are shown in surface representation. The differing residues in position 46 located near the entrance to the active site are marked with an asterisk (*) on the (A) and as blue and black lines on the (B) panel. Plasticity of the binding cavities We performed 50 ns MD simulations of both SARS-CoV Mpros, and COVID-19 Mpro to gain insight into the plasticity of the binding cavity with a classical MD approach with water molecules used as molecular probes. Such a strategy is assumed to provide a highly detailed picture of protein\u2019s interior dynamics[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. The small molecules tracking approach was used to determine the accessibility of the active site pocket in both SARS-CoV Mpros and COVID-19 Mpro, and a local distribution approach was used to provide information about an overall distribution of solvent in the protein\u2019s interior. To properly examine the flexibility of both active site cavities, we used the time-window mode of the AQUA-DUCT (AQ) software[<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>] to analyse the water molecules' flow through the cavity in a 10 ns time step and combined that with the outer pocket calculations to examine the plasticity and maximal accessible volume of the binding cavity"
+            },
+            {
+                "id": "2",
+                "caption": "The outer pockets of COVID-19 Mpro (upper row), SARS-CoV Mpro (middle row), and SARS-CoV Mpro-f (bottom row) structures in 5 time-windows (10 ns each). The outer pocket (blue mesh) represents the maximal possible space that could be explored by water molecules. The catalytic dyad is shown as red sticks. Note that the outer pocket calculated for both SARS-CoV Mpros is larger than the outer pocket of COVID-19 Mpro which shows a higher level of plasticity and flexibility of the SARS-CoV Mpros binding cavity (see also Supplementary Table 2). The last column shows the average location of water hot-spots (cyan spheres) during the simulation time. The position of the biggest hotspot in each row reflects the position of the catalytic water molecule. As we have shown in previous research, tracking of water molecules in the binding cavity combined with the local distribution approach can identify catalytic water positions[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>]. Despite differences in the size and dynamics of the binding cavities of SARS-CoV and COVID-19 Mpros, the main identified water hot-spot was always found in a position next to the H41 residue, and this location is assumed to indicate catalytic water of Mpro replacing the missing"
+            },
+            {
+                "id": "3",
+                "caption": "Localisation of the most important hot-spots identified in COVID-19 Mpro. Hot-spots for individual cosolvents are represented by spheres, and their size reflects the hot-spots density. The colour coding is as follows: purple - urea, green - DMSO, yellow - methanol, orange - acetonitrile, pink phenol, red - benzene. The active site residues are shown as red sticks, the unique residues of COVID19 Mpro as blue sticks, and the proteins\u2019 structures are shown in surface representation"
+            },
+            {
+                "id": "4",
+                "caption": "Localisation of the global (upper row) and local (bottom row) hot-spots identified in the binding site cavities in analysed proteins (from left, COVID-19 Mpro, SARS-CoV Mpro, and SARSCoV Mpro-f). Hot-spots for individual cosolvents are represented by spheres, and their size reflects the hot-spots density. The colour coding is as follows: purple - urea, green - DMSO, yellow - methanol, orange - acetonitrile, pink - phenol, red - benzene. The active site residues are shown as red sticks, the N3 inhibitor structure from the crystal structures as green sticks, and the proteins\u2019 structures are shown in cartoon representation, loop 44-52 is grey. Flexibility of the active site entrance To further examine the plasticity and flexibility of the main proteases binding cavities, we focused on the movements of loops surrounding their entrances and regulating the active sites\u2019 accessibility. We found that one of the analysed loops of the SARS-CoV Mpro-f, namely C44P52 loop, is more flexible than the corresponding loops of two other Mpros structures, while the adjacent loops are mildly flexible (Figure 5). This could be indirectly assumed from the absence of the C44-P52 loop in the crystallographic structure of SARS-CoV Mpro-f structure. On the other hand, such flexibility could suggest that the presence of an inhibitor might stabilise the loops surrounding the active site. The other Mpros structures with bound N3 inhibitor did not show such loop movements"
+            },
+            {
+                "id": "5",
+                "caption": "Flexibility of loops surrounding the entrance to the binding cavity of (A) COVID-19 Mpro, (B) SARS-CoV Mpro and (C) SARS-CoV Mpro-f. For the picture clarity, only residues creating loops were shown. The active site residues are shown as red sticks and the A46S replacement between SARS and COVID-19 main proteases is shown as light blue sticks. The width and colour of the shown residues reflect the level of loop flexibility. The wider and darker residues are more flexible"
+            },
+            {
+                "id": "6",
+                "caption": "Potential mutability of COVID-19 Mpro. (A) Structure of COVID-19 Mpro with the most energetically favourable potential mutations of amino acids marked as green surface. Positions of amino acids that differ from the ones in SARS-CoV Mpro structure marked as blue sticks. Catalytic dyad marked as red. (B) The catalytic site of COVID-19 Mpro is shown as surface with the most energetically favourable potential mutations shown as green, neutral as white and unfavourable as red. The C44-P52 loop is shown as black mesh"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.968008.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.968008.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.968008.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.968008.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.968008.full/img-007.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.968008.full/img-008.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "In early December 2019, the first atypical pneumonia outbreak associated with the novel coronavirus of zoonotic origin (COVID-19) appeared in Wuhan City, Hubei Province, China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. As of 23 February 2020, COVID-19 has been reported in 26 countries and nearly 79,000 infection cases (both laboratory-confirmed and reported as clinically diagnosed), including more than 2400 fatal ones, have been confirmed[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. According to the World Health Organization, a precise estimate of the infection fatality rate is therefore impossible at present. However, the National Health Commission of China, at the press conference on February 4 evaluated that the virus mortality rate stood at 2.1% nationwide (4.9% in Wuhan).<br/><br/>In general, coronaviruses (CoVs) are classified into four major genera: Alphacoronavirus, Betacoronavirus (which primarily infect mammals), Gammacoronavirus, and Deltacoronavirus (which primarily infect birds)[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u2013<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. In humans, coronaviruses usually cause mild to moderate upper-respiratory tract illnesses, e.g., the common cold, however, the rarer forms of CoVs can be lethal. By the end of 2019, six kinds of human CoV have been identified: HCoV-NL63, HCoV-229E, belonging to Alphacoronavirus genera, HCoV-OC43, HCoVHKU1, severe acute respiratory syndrome SARS-CoV, and Middle East respiratory syndrome MERS-CoV, belonging to Betacoronavirus genera[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Of the aforementioned CoVs, the last two are the most dangerous and they were associated with the outbreak of two epidemics at the beginning of the 21st century[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. On January 7, the COVID-19 was isolated and announced as a new, seventh, type of human coronavirus (the name was officially given by WHO on February 11). It was classified as Betacoronavirus[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Investigations to determine the origins of the infection are still ongoing, however, increasing evidence demonstrates a link between the COVID-19 and other similar known coronaviruses circulating in bats. Based on the phylogenetic analysis of the genomic data of COVID-19, Zhang et al indicated that the COVID-19 is most closely related to two SARS-CoV sequences isolated from bats in 2015 and 2017. This is suggestive that the bat\u2019s CoV and COVID-19 share a common ancestor, and the new virus can be considered as a SARS-like virus[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Notwithstanding, the transmission route to humans remains unclear. Bats are rather rare in food markets in China but they might be hunted and sold directly to restaurants. The most likely hypothesis is that an intermediary host animal has played a role in the transmission. Since the intermediate hosts are generally mammals, there is also a possibility that living mammals, which are often sold in Chinese food markets, could have caused an outbreak of human infection."
+        ],
+        "results": [
+            "<strong>Results and Discussion</strong><br/><br/>Crystal structures comparison, and location of the replaced amino acids distal to the active site<br/><br/>The COVID-19 main protease\u2019s crystallographic structure was recently made publicly available through the Protein Data Bank (PDB)[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>] as a complex with an N3 inhibitor (PDB ID: 6lu[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]). We refer to this structure as COVID-19 CoV Mpro. We used two structures of the SARSCoV main protease: one, referred to as SARS-CoV Mpro (PDB ID: 2amq), was crystallised with the same inhibitor to compare the structural information, and the other without an inhibitor (PDB ID: 1q2w), which we refer to as SARS-CoV Mpro-f. The COVID-19 Mpro and SARSCoV Mpro structures differ by only 12 amino acids located mostly on the proteins\u2019 surface (Figure 1A, Supplementary Table S1). Both enzymes share the same structural composition; they comprise three domains: domains I (residues 1-101) and II (residues 102-184) consist of an antiparallel \u03b2-barrel, and the \u03b1-helical domain III (residues 201-301) is required for the enzymatic activity[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Both enzymes resemble the structure of cysteine proteases, although their active site is lacking the third catalytic residue[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]; their active site comprises a catalytic dyad, namely H41 and C145, and a particularly stable water molecule forms at least three hydrogen bond interactions with surrounding residues, including the catalytic histidine, which corresponds to the position of a third catalytic member (Figure 1B). It should be also noted that one of the differing amino acids in COVID-19 Mpro, namely S46, is located on a C44-P52 loop which is flanking the active site cavity."
+        ],
+        "methods": [
+            "Classical MD simulations<br/><br/>The H++ server[<a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>] was used to protonate the COVID-19 and SARS-CoV main proteases\u2019 structures (PDB IDs: 6lu[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], and 2amq and 1q2w, respectively) using standard parameters and pH 7.4. The missing 4-amino-acids-long loop of the 1q2w model was added using the corresponding loop of the 6lu[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] model. Water molecules were placed using the combination of 3D-RISM38 and the Placevent algorithm[<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>]. The AMBER 18 LEaP40 was used to immerse models in a truncated octahedral box of TIP3P water molecules and prepare the systems for simulation using the ff14SB force field[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]. Additionally, 4 and 3 Na + ions were added to the COVID-19 and to the SARS, respectively. AMBER 18 software[<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>] was used to run 50 ns simulations of both systems. The minimisation procedure consisted of 2000 steps, involving 1000 steepest descent steps followed by 1000 steps of conjugate gradient energy minimisation, with decreasing constraints on the protein backbone (500, 125 and 25 kcal x mol-1 x \u00c52) and a final minimisation with no constraints of conjugate gradient energy minimization. Next, gradual heating was performed from 0 K to 300 K over 20 ps using a Langevin thermostat with a temperature coupling constants of 1.0 ps in a constant volume periodic box. Equilibration and production stages were run using the constant pressure periodic boundary conditions for 1 ns with 1 fs step and 50 ns with a 2 fs time step, respectively. Constant temperature was maintained using the weak-coupling algorithm for 50 ns of the production simulation time, with a temperature coupling constant of 1.0 ps. Long-range electrostatic interactions were modelled using the Particle Mesh Ewald method with a non-bonded cut-off of 10 \u00c5 and the SHAKE algorithm. The coordinates were saved at an interval of 1 ps."
+        ],
+        "acknowledgements": [
+            "KM, MB, AR, AS and AG work was supported by the National Science Centre, Poland, grant no DEC-2013/10/E/NZ1/00649 and DEC-2015/18/M/NZ1/00427. JT expresses gratitude for research support for this project received from IBM CAS and NSERC (Canada).<br/><br/>Authors Contribution<br/><br/>MB and KM: Resources, Calculations, Data analysis, Data curation, Writing- Original draft preparation, Writing - Review & Editing, Visualization. AR: Calculations, Data analysis, Writing - Review & Editing, Visualization. AS: Calculations, Data analysis. JT: Funding acquisition, Writing - Review & Editing. AG: Conceptualization, Supervision, Data analysis, Visualization, Funding acquisition, Project administration, Writing - Review & Editing."
+        ],
+        "funding": [
+            "KM, MB, AR, AS and AG work was supported by the National Science Centre, Poland, grant no DEC-2013/10/E/NZ1/00649 and DEC-2015/18/M/NZ1/00427",
+            "JT expresses gratitude for research support for this project received from IBM CAS and NSERC (Canada). Authors Contribution MB and KM: Resources, Calculations, Data analysis, Data curation, Writing- Original draft preparation, Writing - Review & Editing, Visualization"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Supplementary Table S1",
+                "Supplementary Table S2",
+                "Supplementary Table 2",
+                "Supplementary Figure S1",
+                "Supplementary Figure S2",
+                "Supplementary Figure S3",
+                "Supplementary Figure S4",
+                "Supplementary Table S3",
+                "Supplementary Table S4",
+                "Supplementary Table S5"
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "The novel coronavirus whose outbreak took place in December 2019 continues to spread at a rapid rate worldwide. In the absence of an effective vaccine, inhibitor repurposing or de novo design may offer a longer-term strategy to combat this and future infections due to similar viruses. Here, we report on detailed molecular dynamics simulations of the main protease (Mpro). We compared and contrasted the Mpro for COVID-19 with a highly similar SARS protein. In spite of a high level of sequence similarity, the active sites in both proteins show major differences in both shape and size indicating that repurposing SARS drugs for COVID19 may be futile. Furthermore, analysis of the pocket\u2019s time-dependence indicates its flexibility and plasticity, which dashes hopes for rapid and reliable drug design. Conversely, structural stability of the protein with respect to flexible loop mutations indicates that the virus\u2019 mutability will pose a further challenge to the rational design of small-molecule inhibitors."
+        ],
+        "Introduction": [
+            "In early December 2019, the first atypical pneumonia outbreak associated with the novel coronavirus of zoonotic origin (COVID-19) appeared in Wuhan City, Hubei Province, China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. As of 23 February 2020, COVID-19 has been reported in 26 countries and nearly 79,000 infection cases (both laboratory-confirmed and reported as clinically diagnosed), including more than 2400 fatal ones, have been confirmed[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. According to the World Health Organization, a precise estimate of the infection fatality rate is therefore impossible at present. However, the National Health Commission of China, at the press conference on February 4 evaluated that the virus mortality rate stood at 2.1% nationwide (4.9% in Wuhan).",
+            "In general, coronaviruses (CoVs) are classified into four major genera: Alphacoronavirus, Betacoronavirus (which primarily infect mammals), Gammacoronavirus, and Deltacoronavirus (which primarily infect birds)[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u2013<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. In humans, coronaviruses usually cause mild to moderate upper-respiratory tract illnesses, e.g., the common cold, however, the rarer forms of CoVs can be lethal. By the end of 2019, six kinds of human CoV have been identified: HCoV-NL63, HCoV-229E, belonging to Alphacoronavirus genera, HCoV-OC43, HCoVHKU1, severe acute respiratory syndrome SARS-CoV, and Middle East respiratory syndrome MERS-CoV, belonging to Betacoronavirus genera[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Of the aforementioned CoVs, the last two are the most dangerous and they were associated with the outbreak of two epidemics at the beginning of the 21st century[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. On January 7, the COVID-19 was isolated and announced as a new, seventh, type of human coronavirus (the name was officially given by WHO on February 11). It was classified as Betacoronavirus[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Investigations to determine the origins of the infection are still ongoing, however, increasing evidence demonstrates a link between the COVID-19 and other similar known coronaviruses circulating in bats. Based on the phylogenetic analysis of the genomic data of COVID-19, Zhang et al indicated that the COVID-19 is most closely related to two SARS-CoV sequences isolated from bats in 2015 and 2017. This is suggestive that the bat\u2019s CoV and COVID-19 share a common ancestor, and the new virus can be considered as a SARS-like virus[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Notwithstanding, the transmission route to humans remains unclear. Bats are rather rare in food markets in China but they might be hunted and sold directly to restaurants. The most likely hypothesis is that an intermediary host animal has played a role in the transmission. Since the intermediate hosts are generally mammals, there is also a possibility that living mammals, which are often sold in Chinese food markets, could have caused an outbreak of human infection.",
+            "The genome of coronaviruses typically contains a positive-sense, single-stranded RNA but it differs in size ranging between ~26 and ~32 kb. It also includes a variable number of open reading frames (ORFs) \u2013 from 6 to 11. The first ORF is the largest, encoding nearly 70% of the entire genome and 16 non-structural proteins (nsps)[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>,<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Of the nsps, the main protease (Mpro, also known as a chymotrypsin-like cysteine protease 3CLpro), encoded by nsp[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], has been found to play a fundamental role in viral gene expression and replication, thus it is an attractive target for anti-CoV drug design[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. The remaining ORFs encode accessory and structural proteins, including spike surface glycoprotein (S), small envelope protein (E), matrix protein (M), and nucleocapsid protein (N).",
+            "Based on the three sequenced genomes of COVID-19 (Wuhan/IVDC-HB-01/2019, Wuhan/IVDC-HB-04/2019, and Wuhan/IVDC-HB-05/2019, provided by the National Institute for Viral Disease Control and Prevention, CDC, China), Wu et al, performed a detailed genome annotation. The results were further compared to related coronaviruses \u2013 1,008 human SARS-CoV, 338 bat SARS-like CoV, and 3,131 human METS-CoV indicating that the three strains of COVID-19 have almost identical genomes with 14 ORFs, encoding 27 proteins including 15 non-structural proteins (nsp[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] and nsp12-16), 4 structural proteins (S, E, M, N), and 8 accessory proteins (3a, 3b, p6, 7a, 7b, 8b, 9b, and orf[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]). The only identified difference in the genome consisting of ~29.8 kb nucleotides consisted of five nucleotides. The genome annotation revealed that COVID-19 is fairly similar to SARS-CoV at the amino acid level, however, there are some differences in the occurrence of accessory proteins, e.g., the 8a accessory protein, present in SARS-CoV, is absent in COVID and the lengths of 8b and 3b proteins do not match. The phylogenetic analysis of COVID-19 showed it to be most closely related to SARS-like bat viruses, but no strain of SARS-like bat virus was found to cover all equivalent proteins of COVID-1911.",
+            "As previously mentioned, the main protease is one of the key enzymes in the viral life cycle. Together with other non-structural proteins (papain-like protease, helicase, RNA-dependent RNA polymerase) and the spike glycoprotein structural protein, it is essential for interactions between the virus and host cell receptor during viral entry[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. Initial analyses of genomic sequences of the four nsps mentioned above indicate that those enzymes are highly conserved sharing more than 90% sequence similarity with the corresponding SARS-CoV enzymes[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>].",
+            "The recently released crystal structure of the Mpro of COVID-19 (PDB ID: 6lu7) was obtained by Prof. Yang\u2019s group from ShanghaiTech by co-crystallisation with a peptide-like inhibitor N-[(5-methylisoxazol-3-yl)carbonyl]alanyl-L-valyl-N~1-((1R,2Z)-4-(benzyloxy)-4-oxo-1{[(3R)-2-oxopyrrolidin-3-yl]methyl}but-2-enyl)-L-leucinamide (N3 or PRD_002214). The",
+            "same inhibitor was co-crystallised with other human coronaviruses, e.g., HCoV-NL63 (PDB ID: 5gwy), HCoV-KU1 (PDB ID: 3d23), or SARS-CoV (PDB ID: 2amq). Currently, Mpro is the only crystallised COVID-19 protein and it has a 96% sequence identity with Mpro from SARS-CoV. This enzyme naturally forms a dimer whose each monomer consists of the Nterminal catalytic region and a C-terminal region[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. While 12 residues differ between both CoVs, only one, namely S46 in COVID-19 (A46 in SARS), is located in the proximity of the entrance to the active site. However, such a small structural change would typically be not expected to substantially affect the binding of small molecules[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. Such an assumption would routinely involve the generation of a library of derivatives and analogous based on the scaffold of a drug that inhibits the corresponding protein in the SARS case. As shown in the present paper, regrettably, this strategy is not likely to succeed with COVID-19 for Mpro as a molecular target. Below, we detail the results that lead to this conclusion.",
+            "In this study, we investigate how only 12 different residues, located mostly on the protein\u2019s surface, may affect the behaviour of the active site pocket of the COVID-19 Mpro structure. To this end, we performed classical molecular dynamics simulations (cMD) of both SARS and COVID-19 Mpros as well as mixed-solvents MD simulations (MixMD) combined with small molecules\u2019 tracking approach to analyse the conformational changes in the binding site. In spite of the structural differences in the active sites of both Mpro proteins, major issues involving plasticity and flexibility of the binding site could result in significant difficulties in inhibitor design for this molecular target. Indeed, an in silico attempt has already been made involving a massive virtual screening for Mpro inhibitors of COVID-19 using Deep Docking[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Other recent attempts used virtual screening searching searches for putative inhibitors of the same main protease of COVID-19 based on the clinically approved drugs 16\u201318. However, none of such attempts is likely to lead to clinical advances in the fight against COVID-19 for reasons we elaborate below."
+        ],
+        "Results and Discussion": [
+            "Crystal structures comparison, and location of the replaced amino acids distal to the active site",
+            "The COVID-19 main protease\u2019s crystallographic structure was recently made publicly available through the Protein Data Bank (PDB)[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>] as a complex with an N3 inhibitor (PDB ID: 6lu[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]). We refer to this structure as COVID-19 CoV Mpro. We used two structures of the SARSCoV main protease: one, referred to as SARS-CoV Mpro (PDB ID: 2amq), was crystallised with the same inhibitor to compare the structural information, and the other without an inhibitor (PDB ID: 1q2w), which we refer to as SARS-CoV Mpro-f. The COVID-19 Mpro and SARSCoV Mpro structures differ by only 12 amino acids located mostly on the proteins\u2019 surface (Figure 1A, Supplementary Table S1). Both enzymes share the same structural composition; they comprise three domains: domains I (residues 1-101) and II (residues 102-184) consist of an antiparallel \u03b2-barrel, and the \u03b1-helical domain III (residues 201-301) is required for the enzymatic activity[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Both enzymes resemble the structure of cysteine proteases, although their active site is lacking the third catalytic residue[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]; their active site comprises a catalytic dyad, namely H41 and C145, and a particularly stable water molecule forms at least three hydrogen bond interactions with surrounding residues, including the catalytic histidine, which corresponds to the position of a third catalytic member (Figure 1B). It should be also noted that one of the differing amino acids in COVID-19 Mpro, namely S46, is located on a C44-P52 loop which is flanking the active site cavity.",
+            "Figure 2 presents the differences in sizes and shapes of the outer pockets detected in the two systems. Surprisingly, the volume of the outer pockets of both SARS main proteases structures is on average at least 2-fold larger than those of COVID-19 Mpro (Supplementary Table S2). Since both structures are highly similar, it might be expected that their binding pocket would also be very similar. This observation suggests that there can be large differences between the accessibility to the binding cavity and/or the accommodation of the shape of the cavity in response to an inhibitor that can be bound. There are also differences in the outer pockets\u2019 volumes between the two structures of SARS main proteases; the inhibitor-free SARS-CoV Mpro-f structure used as a starting point of MD simulations has shown the largest outer pocket of all the analysed systems. These results suggest that the SARS main proteases\u2019 binding cavity is highly flexible and changes both in volume and shape significantly after ligand binding. This finding indicates a serious obstacle for a classical virtual screening approach and drug design in general. Numerous novel compounds exist that are considered as potential inhibitors of SARS-CoV, although they have not reached the stage of clinical trials. The lack of success might be related to the above-mentioned plasticity of the binding cavity. Some of these compounds have been used for docking and virtual screening research, aimed not only at SARS-CoV24,25, but also at the novel CoV15,26. Such an approach focuses mostly on the structural similarity between the binding pockets but ignores the fact that the actual available binding space differs significantly. In general, a rational drug design can be a very successful tool in the identification of possible inhibitors in cases where the atomic resolution structure of the target protein or complex is known. This approach is referred to as Structure-Based Drug Design (SBDD)[<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]. For a new target, when a highly homologous structure is available with a co-crystalised inhibitor exists, then a very logical strategy can be used by seeking chemically similar compounds or creating derivatives of this inhibitor, and finding those that are predicted to have a higher affinity for the new target structure than the original one. This would be expected to work for COVID-19 proteins (such as Mpro) using SARS proteins as a template. However, our in-depth analysis indicates a very different situation taking place, with major shape and size differences emerging due to the binding site flexibility. Although discouraging, such important results should be taken into consideration in future research.",
+            "The mixed-solvent MD simulations were run with the following cosolvents: acetonitrile (ACN), benzene (BNZ), dimethylsulfoxide (DMSO), methanol (MEO), phenol (PHN), and urea (URE). Cosolvents were used as specific molecular probes, representing different chemical properties and functional groups that would complement the different regions of the binding site and the protein itself. Using small molecules tracking approach we analysed the flow through the Mpros structures and identified the regions in which those molecules are being trapped and/or caged, located within the protein itself (global hot-spots; Supplementary Figure S1) and inside the binding cavity (local hot-spots; Supplementary Figure S2). The size and location of both types of hot-spots differ and provide complementary information. The global hot-spots identify potential binding/interacting sites in the whole protein structure and additionally provide information about regions attracting particular types of molecules, whereas local hot-spots describe the actual available binding space of a specific cavity.",
+            "Figure 3 shows the location of global hot-spots for COVID-19 Mpro structure. For clarity, for each cosolvent, only the most important hot-spots are shown. Figure 3 also presents amino acids that differ between the SARS-CoV Mpros and COVID-19 Mpro structures. The largest number and the densest hot-spots are located within the catalytic dyad and the binding cavity. The binding cavity is particularly occupied by urea and phenol hot-spots, which is especially interesting, due to the fact that these solvents exhibit different chemical properties. Such an observation applies also to both SARS-CoV Mpros structures (Supplementary Figure S3). The general distribution of the hot-spots from particular cosolvents is quite similar and verifies specific interactions with the particular regions of the analysed proteins. It is worth mentioning that around the amino acids that vary between the structures of COVID-19 Mpro and SARSCoV Mpros, there is also a notable number of hot-spots. Hot-spots for urea and phenol also stand out in these places, however, hot-spots for other cosolvents also appear, though they exhibit a lower density.",
+            "In general, all the above-mentioned findings indicate potential difficulties in the identification of specific inhibitors toward Mpro proteins. First, the binding site itself is characterised by huge plasticity and probably even distant to active site mutations modify their properties. Secondly, the C44-P52 loop regulates access to the active site and can contribute to the discrimination of potential inhibitors. Therefore, additional mutations in mentioned regions, which could appear during further COVID-19 evolution, can immediately change the affinity between Mpro and its ligands. To verify potential threat of further mutability of the Mpro protein we performed: i) correlated mutation analyses (CMA) on multiple sequence alignments, ii) the analysis of the contribution of already identified differences between the SARS and COVID-19 Mpro proteins to protein stability, and iii) have predicted further possible mutations caused by the most probable mutations, substitution of single nucleotides in mRNA sequence of Mpro.",
+            "Indeed, the analysis performed with Comulator software[<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] shows, that within Mpros from the coronavirus family evolutionary-correlated residues are dispersed throughout the structure. This indirectly supports our previous findings that distant amino acids mutation can contribute significantly to binding site plasticity. It is worth to add that among evolutionary-correlated residues we identified also those that differ between COVID-19 and SARS-CoV Mpros, located on the C44-P52 loop (Supplementary Figure S4) and the F185-T201 linker loop. The C44-P52 loop is likely to regulate the access to the active site by enabling entrance of favourable small molecules and blocking the entry of unfavourable ones. Such a conclusion may also imply that a sufficiently potent inhibitor of SARS-CoV and/or COVID-19 Mpros needs to be able to open its way to the active site before it can successfully bind to its cavity. The F185-T201 loop starts in the vicinity of the binding site and links I and II domains with the III domain; it contributes significantly to Mpro dimerization[<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. The CMA analysis indicate that Q189 from the linker loop corelates with residues from the C44-P52 loop, whereas R188, A191, and A194 correlate with selected residues from all domains, but not with the C44-P52 loop (Supplementary Figure S4). As reported in the previous research, the overall plasticity of Mpro is required for proper enzyme functioning[<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>,<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. In the case of SARS-CoV the truncation of the linker loop (F185-T201) gave rise to a significant reduction in protein activity and confirmed that the proper orientation of the linker allows the shift between dimeric and monomeric forms[<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. Dimerization of the enzyme is necessary for its catalytic activity and the proper conformation of the seven N-terminal residues (N-finger) is required[<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>]. In COVID-19 Mpro, the T285 is replaced by alanine, and the I286 by leucine. It has been shown that replacing S284, T285, and I286 by alanine residues in SARS-CoV Mpro leads to a 3.6-fold enhancement of the catalytic activity of the enzyme. This is accompanied by changes of the structural dynamics of the enzyme that transmit the effect of the mutation to the catalytic center. Indeed, the T285A replacement observed in the COVID-19 Mpro allows the two domains III to approach each other a little closer[<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>].",
+            "In the interest of examining the energetical effect of the 12 amino acid replacement in the COVID-19 Mpro structure, we performed FoldX35 calculations for these residues. As expected, the calculated differences in total energies of the SARS-CoV Mpro and variants with introduced mutation from COVID-19 Mpro residue did not represent a significant energy change (Supplementary Table S3). The biggest energy reduction was found for mutation H134F (-0.85 kcal/mol) and mutations R99K, S94A, T285A, I286L only slightly reduced the total energy (Supplementary Table S1).",
+            "In order to investigate further possible mutations of COVID-19 Mpro, single nucleotide substitutions were introduced to the COVID-19 main protease gene. If a substitution of a single nucleotide caused translation to a different amino acid than compared to the corresponding residue in the wild-type structure, an appropriate mutation was proposed with FoldX calculations. The most energetically favourable potential mutations were chosen based on -1.5 kcal/mol threshold (Figure 6A, Supplementary Table S3). Most of the energetically favourable potential mutations include amino acids that are solvent-exposed on the protein\u2019s surface, according to NetSurfP36 results. These results show that in general, exposed amino acids are more likely to mutate.",
+            "Additionally, the potential mutability of the binding cavity was investigated. Residues belonging to the binding cavity were found within 7 \u00c5 from the N3 inhibitor. FoldX energy calculations of possible mutations were performed for these amino acids (Supplementary Table S4). A heatmap of these residues was then created based on the differences of Gibbs free energy of protein folding compared to the wild-type structure. The most energetically favourable potential mutations are shown as green, neutral as white and unfavourable as red (Figure 6B). Interestingly, residues forming the catalytic dyad, namely H41 and C145, are also prone to mutate. However, probably the most important message comes from the analysis of the potential mutability of the C44-P52 loop. Mutation of four of them has a stabilising effect for the protein and rest near-neutral contribution to the energy. This result indicates that the future evolution of the Mpro protein can significantly reduce the potential use of this protein as a molecular target for coronavirus treatment due to a highly probable development of drug resistance of this virus through mutations.",
+            "In this paper, we reported on molecular dynamics simulations of the main protease (Mpro), whose crystal structure has been recently released. We compared and contrasted the Mpro for COVID-19 with a highly similar SARS-CoV protein. In spite of a high level of sequence similarity between these two homologous proteins, their active sites show major differences in both shape and size indicating that repurposing SARS-CoV drugs for COVID-19 may be futile. Furthermore, a detailed analysis of the binding pocket\u2019s time-dependence indicates its flexibility and plasticity, which dashes hopes for rapid and reliable drug design. Moreover, our findings show the presence of a flexible loop occluding the entrance to the binding pocket. A successful inhibitor may need to have an ability to move the loop from the entrance in order to bind to the catalytic pocket. However, mutations leading to changes in the amino acid sequence of the loop, while not affecting the folding of the protein, may result in the putative inhibitors\u2019 inability to access the binding pocket. We conclude that Mpro is unlikely to represent a fruitful target for drug design against COVID-19. In our opinion, drug development efforts aimed at combatting this virus should focus on other molecular targets."
+        ],
+        "Methods": [
+            "The H++ server[<a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>] was used to protonate the COVID-19 and SARS-CoV main proteases\u2019 structures (PDB IDs: 6lu[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], and 2amq and 1q2w, respectively) using standard parameters and pH 7.4. The missing 4-amino-acids-long loop of the 1q2w model was added using the corresponding loop of the 6lu[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] model. Water molecules were placed using the combination of 3D-RISM38 and the Placevent algorithm[<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>]. The AMBER 18 LEaP40 was used to immerse models in a truncated octahedral box of TIP3P water molecules and prepare the systems for simulation using the ff14SB force field[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]. Additionally, 4 and 3 Na + ions were added to the COVID-19 and to the SARS, respectively. AMBER 18 software[<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>] was used to run 50 ns simulations of both systems. The minimisation procedure consisted of 2000 steps, involving 1000 steepest descent steps followed by 1000 steps of conjugate gradient energy minimisation, with decreasing constraints on the protein backbone (500, 125 and 25 kcal x mol-1 x \u00c52) and a final minimisation with no constraints of conjugate gradient energy minimization. Next, gradual heating was performed from 0 K to 300 K over 20 ps using a Langevin thermostat with a temperature coupling constants of 1.0 ps in a constant volume periodic box. Equilibration and production stages were run using the constant pressure periodic boundary conditions for 1 ns with 1 fs step and 50 ns with a 2 fs time step, respectively. Constant temperature was maintained using the weak-coupling algorithm for 50 ns of the production simulation time, with a temperature coupling constant of 1.0 ps. Long-range electrostatic interactions were modelled using the Particle Mesh Ewald method with a non-bonded cut-off of 10 \u00c5 and the SHAKE algorithm. The coordinates were saved at an interval of 1 ps.",
+            "Six different cosolvents: acetonitrile (ACN), benzene (BNZ), dimethylsulfoxide (DMSO), methanol (MEO), phenol (PHN), and urea (URE) were selected to perform the mixed-solvent MD simulations. The chemical structures of cosolvents molecules were downloaded from the ChemSpider database[<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>] and a dedicated set of parameters was prepared. Parameters for ACN were adopted from the work by Nikitin and Lyubartsev[<a class=\"ref-link\" id=\"c43\" href=\"#r43\">43</a>], and parameters for URE were modified using the 8Mureabox force field to obtain parameters for a single molecule. For the rest of the co-solvent molecules, parameters were prepared using Antechamber[<a class=\"ref-link\" id=\"c44\" href=\"#r44\">44</a>] with Gasteiger charges[<a class=\"ref-link\" id=\"c45\" href=\"#r45\">45</a>].",
+            "The Packmol software[<a class=\"ref-link\" id=\"c46\" href=\"#r46\">46</a>] was used to build the initial systems consisting of protein (protonated according to the previously described procedure), water, and particular cosolvent molecules. 4 and 3 Na+ ions were added to the COVID-19 Mpro and to the SARS-CoV Mpros, respectively. It was assumed that the percentage concentration of the cosolvent should not exceed 5% (in the case of ACN, DMSO, MEO, and URE), or should be about 1% in the case of BNZ and PHN phenol (see Supplementary Table S5). The mixed-solvent MD simulation procedures (minimization, equilibration, and production) carried out using the AMBER 18 package were identical as for the classical MD simulations. Only the heating stage differed - it was extended up to 40 ps.",
+            "The AQUA-DUCT 1.0 (AQ) software was used to track water and cosolvent molecules. Molecules of interests, which have entered the so-called Object, defined as 5\u00c5 sphere around the centre of geometry of active site residues, namely H41, C145, H164, and D187, were traced within the Scope region, defined as the interior of a convex hull of both COVID-19 Mpro and SARS Mpro C\u03b1 atoms. All visualizations were made in PyMol[<a class=\"ref-link\" id=\"c47\" href=\"#r47\">47</a>].",
+            "AQUA-DUCT defines the pockets as areas of the overall distribution of tracked water molecules; the outer pocket represents the maximal possible space that could be explored by tracked molecules.",
+            "AQ was used to detect regions occupied by molecules of interests, and identify the densest sites using a local solvent distribution approach. Those so-called hot-spots could be calculated as local and/or global, based on the distribution of tracked molecules which visited the Object (local) or just the Scope without visiting the Object (global); here, they are considered as potential binding sites. For clarity, the size of each sphere representing a particular hot-spot has been changed to reflect its occupation level. The selection of the most significant hot-spots consisted of indicating points showing the highest density in particular regions. From the set of points in the space, small groups of hot-spots were determined. Groups were further defined by distance (radius) from each other. Any point found within a distance shorter than the determined radius (3\u00c5) from any other point being part of a given group was counted toward the group. For each so designated group of points, one showing the highest density was chosen as representing the place.",
+            "COVID-19 Mpro was downloaded from the PDB as a complex with an N3 inhibitor (PDB ID: 6lu[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]). Tblastn[<a class=\"ref-link\" id=\"c48\" href=\"#r48\">48</a>] was run based on the protein amino acid sequence. 100% identity with 1005510972 region of COVID-19 complete genome (Sequence ID: MN985262.1) was obtained. Blastx[<a class=\"ref-link\" id=\"c49\" href=\"#r49\">49</a>] calculations were run with the selected region, and orf1a polyprotein (NCBI Reference Sequence: YP_009725295.1) amino acid sequence, identical with the previously downloaded COVID-19 Mpro, was received.",
+            "FoldX software was used to insert substitutions into the structures of SARS and COVID-19 Mpros. In order to analyse the changes in the two structures, 12 single-point mutations were introduced to the SARS structure. Each of the residues in SARS-CoV Mpro was mutated to the respective COVID-19 Mpro residue, and the difference in total energies of the wild-type COVID-19 Mpro and the mutant structures were calculated. Then, in order to investigate further possible mutations of COVID-19 Mpro, single nucleotide substitutions were introduced to the COVID-19 main protease gene. If a substitution of a single nucleotide caused translation to a different amino acid than the corresponding residue in the wild-type structure, an appropriate mutation was proposed with FoldX software.",
+            "SARS-CoV Mpro was downloaded from the PDB (PDB ID: 1q2w). Blast[<a class=\"ref-link\" id=\"c50\" href=\"#r50\">50</a>] was run based on the amino acid sequence. As a result, 2643 sequences of viral main proteases similar to chain A SARS-CoV Mpro were obtained. Clustal Omega[<a class=\"ref-link\" id=\"c51\" href=\"#r51\">51</a>] was used to prepare an alignment of those sequences. Comulator[<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] was then employed to calculate the correlation between amino acids and based on the results, groups of positions in SARS-CoV Mpro sequence were selected, whose amino acid occurrences strongly depended on each other."
+        ],
+        "Acknowledgements": [
+            "KM, MB, AR, AS and AG work was supported by the National Science Centre, Poland, grant no DEC-2013/10/E/NZ1/00649 and DEC-2015/18/M/NZ1/00427. JT expresses gratitude for research support for this project received from IBM CAS and NSERC (Canada).",
+            "MB and KM: Resources, Calculations, Data analysis, Data curation, Writing- Original draft preparation, Writing - Review & Editing, Visualization. AR: Calculations, Data analysis, Writing - Review & Editing, Visualization. AS: Calculations, Data analysis. JT: Funding acquisition, Writing - Review & Editing. AG: Conceptualization, Supervision, Data analysis, Visualization, Funding acquisition, Project administration, Writing - Review & Editing."
+        ],
+        "References": [
+            "1. Huang, C. et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet (2020). doi:10.1016/S0140-6736(20)30183-5",
+            "2. Zhu, N. et al A Novel Coronavirus from Patients with Pneumonia in China, 2019. N. Engl. J. Med. 382, 727\u2013733 (2020).",
+            "3. WHO. Coronavirus disease 2019 (COVID-19) Situation Report \u2013 34. 4. Woo, P. C. Y., Huang, Y., Lau, S. K. P. & Yuen, K.-Y. Coronavirus Genomics and",
+            "Bioinformatics Analysis. Viruses 2, 1804\u20131820 (2010). 5. Tang, Q. et al Inferring the hosts of coronavirus using dual statistical models based on nucleotide composition. Sci. Rep. 5, 17155 (2015). 6. Cui, J., Li, F. & Shi, Z.-L. Origin and evolution of pathogenic coronaviruses. Nat. Rev.",
+            "Microbiol. 17, 181\u2013192 (2019). 7. Fehr, A. R. & Perlman, S. Coronaviruses: An Overview of Their Replication and",
+            "Pathogenesis. Methods Mol Biol. 1282, 1\u201323 (2015). 8. Zhang, L., Shen, F., Chen, F. & Lin, Z. Origin and evolution of the 2019 novel coronavirus. Clin. Infect. Dis. (2020). doi:10.1093/cid/ciaa[112 <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Song, Z. et al From SARS to MERS, Thrusting Coronaviruses into the Spotlight.",
+            "Viruses 11, 59 (2019). 10. Xue, X. et al Structures of Two Coronavirus Main Proteases: Implications for",
+            "Substrate Binding and Antiviral Drug Design. J. Virol. 82, 2515\u20132527 (2008). 11. Wu, A. et al Genome Composition and Divergence of the Novel Coronavirus (2019-",
+            "nCoV) Originating in China. Cell Host Microbe (2020). doi:10.1016/j.chom.2020.02.001 12. Zumla, A., Chan, J. F. W., Azhar, E. I., Hui, D. S. C. & Yuen, K.-Y. Coronaviruses \u2014 drug discovery and therapeutic options. Nat. Rev. Drug Discov. 15, 327\u2013347 (2016). 13. Liu, W., Morse, J. S., Lalonde, T. & Xu, S. Learning from the Past: Possible Urgent Prevention and Treatment Options for Severe Acute Respiratory Infections Caused by 2019\u2010nCoV. ChemBioChem cbic.202000047 (2020). doi:10.1002/cbic.202000047 14. Lee, T.-W. et al Crystal Structures of the Main Peptidase from the SARS Coronavirus Inhibited by a Substrate-like Aza-peptide Epoxide. J. Mol. Biol. 353, 1137\u20131151 (2005). 15. Ton, A.-T., Gentile, F., Hsing, M., Ban, F. & Cherkasov, A. Rapid Identification of Potential Inhibitors of SARS-CoV-2 Main Protease by Deep Docking of 1.3 Billion Compounds. ChemRxiv (2020). 16. Xu, Z. et al Nelfinavir was predicted to be a potential inhibitor of 2019-nCov main protease by an integrative approach combining homology modelling, molecular docking and binding free energy calculation. bioRxiv (2020). doi:10.1101/2020.01.27.921627 17. Liu, X. & Wang, X.-J. Potential inhibitors for 2019-nCoV coronavirus M protease from clinically approved medicines. bioRxiv (2020). doi:10.1101/2020.01.29.924100 18. Li, Y. et al Therapeutic Drugs Targeting 2019-nCoV Main Protease by HighThroughput Screening. bioRxiv (2020). 19. Berman, H. M. The Protein Data Bank. Nucleic Acids Res. 28, 235\u2013242 (2000). 20. Bacha, U., Barrila, J., Velazquez-Campoy, A., Leavitt, S. A. & Freire, E. Identification of Novel Inhibitors of the SARS Coronavirus Main Protease 3CL pro \u2020. Biochemistry 43, 4906\u20134912 (2004). 21. Anand, K. Coronavirus Main Proteinase (3CLpro) Structure: Basis for Design of AntiSARS Drugs. Science (80-. ). 300, 1763\u20131767 (2003). 22. Mitusi\u0144ska, K., Raczy\u0144ska, A., Bz\u00f3wka, M., Bagrowska, W. & G\u00f3ra, A. Applications of water molecules for analysis of macromolecule properties. Comput. Struct. Biotechnol. J. 18, 355\u2013365 (2020). 23. Magdziarz, T. et al AQUA-DUCT 1.0: structural and functional analysis of macromolecules from an intramolecular voids perspective. Bioinformatics (2019). doi:10.1093/bioinformatics/btz[946 <a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. Chang, C. et al Structure-based virtual screening and experimental validation of the discovery of inhibitors targeted towards the human coronavirus nucleocapsid protein. Mol. Biosyst. 12, 59\u201366 (2016). 25. Dayer, M. R., Taleb-Gassabi, S. & Dayer, M. S. Lopinavir; A Potent Drug against Coronavirus Infection: Insight from Molecular Docking Study. Arch. Clin. Infect. Dis. 12, (2017). 26. Chen, Y. W., Yiu, C.-P. & Wong, K.-Y. Prediction of the 2019-nCoV 3C-like Protease (3CLpro) Structure: Virtual Screening Reveals Velpatasvir, Ledipasvir, and Other Drug Repurposing Candidates. ChemRxiv (2020). doi:/10.26434/chemrxiv.11831103.v1 27. Anderson, A. C. The Process of Structure-Based Drug Design. Chem. Biol. 10, 787\u2013 797 (2003). 28. Mitusi\u0144ska, K., Magdziarz, T., Bz\u00f3wka, M., Sta\u0144czak, A. & Gora, A. Exploring Solanum tuberosum Epoxide Hydrolase Internal Architecture by Water Molecules Tracking. Biomolecules 8, 143 (2018). 29. Kuipers, R. K. et al 3DM: Systematic analysis of heterogeneous superfamily data to discover protein functionalities. Proteins Struct. Funct. Bioinforma. 78, 2101\u20132113 (2010). 30. Tsai, M.-Y. et al Essential covalent linkage between the chymotrypsin-like domain and the extra domain of the SARS-CoV main protease. J. Biochem. 148, 349\u2013358 (2010). 31. Needle, D., Lountos, G. T. & Waugh, D. S. Structures of the Middle East respiratory syndrome coronavirus 3C-like protease reveal insights into substrate specificity. Acta Crystallogr. Sect. D Biol. Crystallogr. 71, 1102\u20131111 (2015). 32. Zhang, L., Lin, D., Sun, X., Rox, K. & Hilgenfeld, R. X-ray Structure of Main Protease of the Novel Coronavirus SARS-CoV-2 Enables Design of \u03b1-Ketoamide Inhibitors. bioRxiv (2020). doi:10.1101/2020.02.17.952879 33. Anand, K. Structure of coronavirus main proteinase reveals combination of a chymotrypsin fold with an extra alpha-helical domain. EMBO J. 21, 3213\u20133224 (2002). 34. Lim, L., Shi, J., Mu, Y. & Song, J. Dynamically-Driven Enhancement of the Catalytic Machinery of the SARS 3C-Like Protease by the S284-T285-I286/A Mutations on the Extra Domain. PLoS One 9, e101941 (2014). 35. Schymkowitz, J. et al The FoldX web server: an online force field. Nucleic Acids Res. 33, W382\u2013W388 (2005). 36. Klausen, M. S. et al NetSurfP\u20102.0: Improved prediction of protein structural features by integrated deep learning. Proteins Struct. Funct. Bioinforma. 87, 520\u2013527 (2019). 37. Anandakrishnan, R., Aguilar, B. & Onufriev, A. V. H++ 3.0: automating pK prediction and the preparation of biomolecular structures for atomistic molecular modeling and simulations. Nucleic Acids Res. 40, W537\u2013W541 (2012). 38. Luchko, T. et al Three-Dimensional Molecular Theory of Solvation Coupled with Molecular Dynamics in Amber. J. Chem. Theory Comput. 6, 607\u2013624 (2010). 39. Sindhikara, D. J., Yoshida, N. & Hirata, F. Placevent: An algorithm for prediction of explicit solvent atom distribution-Application to HIV-1 protease and F-ATP synthase. J. Comput. Chem. 33, 1536\u20131543 (2012).",
+            "40. Case, D. A. et al AMBER 2018. (2018). 41. Maier, J. A. et al ff14SB: Improving the Accuracy of Protein Side Chain and",
+            "Backbone Parameters from ff99SB. J. Chem. Theory Comput. 11, 3696\u20133713 (2015). 42. Pence, H. E. & Williams, A. ChemSpider: An Online Chemical Information Resource.",
+            "J. Chem. Educ. 87, 1123\u20131124 (2010). 43. Nikitin, A. M. & Lyubartsev, A. P. New six-site acetonitrile model for simulations of liquid acetonitrile and its aqueous mixtures. J. Comput. Chem. 28, 2020\u20132026 (2007). 44. Wang, J., Wang, W., Kollman, P. A. & Case, D. A. Automatic atom type and bond type perception in molecular mechanical calculations. J. Mol. Graph. Model. 25, 247\u2013 260 (2006). 45. Gasteiger, J. & Marsili, M. Iterative partial equalization of orbital electronegativity\u2014a rapid access to atomic charges. Tetrahedron 36, 3219\u20133228 (1980). 46. Mart\u00ednez, L., Andrade, R., Birgin, E. G. & Mart\u00ednez, J. M. PACKMOL: A package for building initial configurations for molecular dynamics simulations. J. Comput. Chem. 30, 2157\u20132164 (2009). 47. Delano, W. L. PyMOL: An Open-Source Molecular Graphics Tool. Ccp[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] Newslett Protein Crystallogr 40, (2002). 48. Gertz, E. M., Yu, Y.-K., Agarwala, R., Sch\u00e4ffer, A. A. & Altschul, S. F. Compositionbased statistics and translated nucleotide searches: Improving the TBLASTN module of BLAST. BMC Biol. 4, 41 (2006). 49. Camacho, C. et al BLAST+: architecture and applications. BMC Bioinformatics 10, 421 (2009). 50. Altschul, S. F., Gish, W., Miller, W., Myers, E. W. & Lipman, D. J. Basic local alignment search tool. J. Mol. Biol. 215, 403\u2013410 (1990). 51. Sievers, F. & Higgins, D. G. Clustal Omega, Accurate Alignment of Very Large Numbers of Sequences. in Multiple Sequence Alignment Methods 105\u2013116 (2014). doi:10.1007/978-1-62703-646-7_6"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "infection cases",
+            "number": 79000,
+            "context": "In early December 2019, the first atypical pneumonia outbreak associated with the novel coronavirus of zoonotic origin (COVID-19) appeared in Wuhan City, Hubei Province, China1,2. <mark class=\"stats\">As of 23 February 2020, COVID-19 has been reported in 26 countries and nearly 79,000 infection cases (both laboratory-confirmed and reported as clinically diagnosed), including more than 2400 fatal ones, have been confirmed3</mark>. According to the World Health Organization, a precise estimate of the infection fatality rate is therefore impossible at present"
+        },
+        {
+            "participant": "non-structural proteins",
+            "number": 16,
+            "context": "It also includes a variable number of open reading frames (ORFs) \u2013 from 6 to 11. <mark class=\"stats\">The first ORF is the largest, encoding nearly 70% of the entire genome and 16 non-structural proteins (nsps)4,9</mark>. Of the nsps, the main protease (Mpro, also known as a chymotrypsin-like cysteine protease 3CLpro), encoded by nsp[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], has been found to play a fundamental role in viral gene expression and replication, thus it is an attractive target for anti-CoV drug design[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]"
+        },
+        {
+            "participant": "sequenced genomes",
+            "number": 3,
+            "context": "The remaining ORFs encode accessory and structural proteins, including spike surface glycoprotein (S), small envelope protein (E), matrix protein (M), and nucleocapsid protein (N). <mark class=\"stats\">Based on the three sequenced genomes of COVID-19 (Wuhan/IVDC-HB-01/2019, Wuhan/IVDC-HB-04/2019, and Wuhan/IVDC-HB-05/2019, provided by the National Institute for Viral Disease Control and Prevention, CDC, China), Wu et al, performed a detailed genome annotation</mark>. The results were further compared to related coronaviruses \u2013 1,008 human SARS-CoV, 338 bat SARS-like CoV, and 3,131 human METS-CoV indicating that the three strains of COVID-19 have almost identical genomes with 14 ORFs, encoding 27 proteins including 15 non-structural proteins (nsp[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] and nsp12-16), 4 structural proteins (S, E, M, N), and 8 accessory proteins (3a, 3b, p6, 7a, 7b, 8b, 9b, and orf14)"
+        },
+        {
+            "participant": "strains",
+            "number": 3,
+            "context": "Based on the three sequenced genomes of COVID-19 (Wuhan/IVDC-HB-01/2019, Wuhan/IVDC-HB-04/2019, and Wuhan/IVDC-HB-05/2019, provided by the National Institute for Viral Disease Control and Prevention, CDC, China), Wu et al, performed a detailed genome annotation. <mark class=\"stats\">The results were further compared to related coronaviruses \u2013 1,008 human SARS-CoV, 338 bat SARS-like CoV, and 3,131 human METS-CoV indicating that the three strains of COVID-19 have almost identical genomes with 14 ORFs, encoding 27 proteins including 15 non-structural proteins (nsp[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] and nsp12-16), 4 structural proteins (S, E, M, N), and 8 accessory proteins (3a, 3b, p6, 7a, 7b, 8b, 9b, and orf14)</mark>. The only identified difference in the genome consisting of ~29.8 kb nucleotides consisted of five nucleotides"
+        },
+        {
+            "participant": "homologous proteins",
+            "number": 2,
+            "context": "We compared and contrasted the Mpro for COVID-19 with a highly similar SARS-CoV protein. <mark class=\"stats\">In spite of a high level of sequence similarity between these two homologous proteins, their active sites show major differences in both shape and size indicating that repurposing SARS-CoV drugs for COVID-19 may be futile</mark>. Furthermore, a detailed analysis of the binding pocket\u2019s time-dependence indicates its flexibility and plasticity, which dashes hopes for rapid and reliable drug design"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Water molecules were placed using the combination of 3D-RISM38 and the Placevent algorithm[<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>]</mark>",
+                "tests": [
+                    {
+                        "test": "Placevent algorithm"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Long-range electrostatic interactions were modelled using the Particle Mesh Ewald method with a non-bonded cut-off of 10 \u00c5 and the SHAKE algorithm</mark>",
+                "tests": [
+                    {
+                        "test": "Particle Mesh Ewald method"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "coronavirus main",
+        "Structure-Based Drug Design",
+        "classical molecular dynamics simulations",
+        "MERS",
+        "COVID-19",
+        "drug design",
+        "alphacoronavirus",
+        "molecular dynamics",
+        "severe acute",
+        "mixed-solvents MD simulations",
+        "Viral disease",
+        "Solanum tuberosum",
+        "Protein Data Bank",
+        "AQUA-DUCT 1.0",
+        "pneumonia",
+        "respiratory syndrome",
+        "betacoronavirus",
+        "BLAST",
+        "SARS",
+        "small molecule",
+        "open reading frames",
+        "nucleotide",
+        "sars cov",
+        "novel coronavirus",
+        "main protease",
+        "dynamics"
+    ],
+    "keyword_relevance": {
+        "main protease": 0.33858267716535434,
+        "SARS": 0.2230971128608924,
+        "COVID-19": 0.2178477690288714,
+        "Protein Data Bank": 0.03937007874015748,
+        "AQUA-DUCT 1.0": 0.023622047244094488,
+        "nucleotide": 0.023622047244094488,
+        "dynamics": 0.01837270341207349,
+        "drug design": 0.015748031496062992,
+        "small molecule": 0.013123359580052493,
+        "open reading frames": 0.013123359580052493,
+        "molecular dynamics": 0.010498687664041995,
+        "novel coronavirus": 0.010498687664041995,
+        "Structure-Based Drug Design": 0.007874015748031496,
+        "mixed-solvents MD simulations": 0.007874015748031496,
+        "respiratory syndrome": 0.007874015748031496,
+        "BLAST": 0.007874015748031496,
+        "classical molecular dynamics simulations": 0.005249343832020997,
+        "MERS": 0.005249343832020997,
+        "coronavirus main": 0.0026246719160104987,
+        "severe acute": 0.0026246719160104987,
+        "Solanum tuberosum": 0.0026246719160104987,
+        "pneumonia": 0.0026246719160104987,
+        "alphacoronavirus": 0.0,
+        "Viral disease": 0.0,
+        "betacoronavirus": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [
+        "Solanum tuberosum"
+    ],
+    "summary": [
+        "In early December 2019, the first atypical pneumonia outbreak associated with the novel coronavirus of zoonotic origin (COVID-19) appeared in Wuhan City, Hubei Province, China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "While 12 residues differ between both CoVs, only one, namely S46 in COVID-19 (A46 in SARS), is located in the proximity of the entrance to the active site.",
+        "In spite of the structural differences in the active sites of both Mpro proteins, major issues involving plasticity and flexibility of the binding site could result in significant difficulties in inhibitor design for this molecular target.",
+        "It should be noted that one of the differing amino acids in COVID-19 Mpro, namely S46, is located on a C44-P52 loop which is flanking the active site cavity.",
+        "Figure 3 presents amino acids that differ between the SARS-CoV Mpros and COVID-19 Mpro structures.",
+        "It is worth to add that among evolutionary-correlated residues the authors identified those that differ between COVID-19 and SARS-CoV Mpros, located on the C44-P52 loop (Supplementary Figure S4) and the F185-T201 linker loop.",
+        "Such a conclusion may imply that a sufficiently potent inhibitor of SARS-CoV and/or COVID-19 Mpros needs to be able to open its way to the active site before it can successfully bind to its cavity.",
+        "In the interest of examining the energetical effect of the 12 amino acid replacement in the COVID-19 Mpro structure, the authors performed FoldX35 calculations for these residues.",
+        "The calculated differences in total energies of the SARS-CoV Mpro and variants with introduced mutation from COVID-19 Mpro residue did not represent a significant energy change (Supplementary Table S3).",
+        "If a substitution of a single nucleotide caused translation to a different amino acid than compared to the corresponding residue in the wild-type structure, an appropriate mutation was proposed with FoldX calculations.",
+        "In spite of a high level of sequence similarity between these two homologous proteins, their active sites show major differences in both shape and size indicating that repurposing SARS-CoV drugs for COVID-19 may be futile.",
+        "Mutations leading to changes in the amino acid sequence of the loop, while not affecting the folding of the protein, may result in the putative inhibitors\u2019 inability to access the binding pocket.",
+        "If a substitution of a single nucleotide caused translation to a different amino acid than the corresponding residue in the wild-type structure, an appropriate mutation was proposed with FoldX software.",
+        "Comulator[<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] was employed to calculate the correlation between amino acids and based on the results, groups of positions in SARS-CoV Mpro sequence were selected, whose amino acid occurrences strongly depended on each other."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "In early December 2019, the first atypical pneumonia outbreak associated with the novel coronavirus of zoonotic origin (COVID-19) appeared in Wuhan City, Hubei Province, China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "While 12 residues differ between both CoVs, only one, namely S46 in COVID-19 (A46 in SARS), is located in the proximity of the entrance to the active site.",
+            "In spite of the structural differences in the active sites of both Mpro proteins, major issues involving plasticity and flexibility of the binding site could result in significant difficulties in inhibitor design for this molecular target."
+        ],
+        "Results": [
+            "It should be noted that one of the differing amino acids in COVID-19 Mpro, namely S46, is located on a C44-P52 loop which is flanking the active site cavity.",
+            "Figure 3 presents amino acids that differ between the SARS-CoV Mpros and COVID-19 Mpro structures.",
+            "It is worth to add that among evolutionary-correlated residues the authors identified those that differ between COVID-19 and SARS-CoV Mpros, located on the C44-P52 loop (Supplementary Figure S4) and the F185-T201 linker loop.",
+            "Such a conclusion may imply that a sufficiently potent inhibitor of SARS-CoV and/or COVID-19 Mpros needs to be able to open its way to the active site before it can successfully bind to its cavity.",
+            "In the interest of examining the energetical effect of the 12 amino acid replacement in the COVID-19 Mpro structure, the authors performed FoldX35 calculations for these residues.",
+            "The calculated differences in total energies of the SARS-CoV Mpro and variants with introduced mutation from COVID-19 Mpro residue did not represent a significant energy change (Supplementary Table S3).",
+            "If a substitution of a single nucleotide caused translation to a different amino acid than compared to the corresponding residue in the wild-type structure, an appropriate mutation was proposed with FoldX calculations.",
+            "In spite of a high level of sequence similarity between these two homologous proteins, their active sites show major differences in both shape and size indicating that repurposing SARS-CoV drugs for COVID-19 may be futile."
+        ],
+        "Conclusion": [
+            "Mutations leading to changes in the amino acid sequence of the loop, while not affecting the folding of the protein, may result in the putative inhibitors\u2019 inability to access the binding pocket.",
+            "If a substitution of a single nucleotide caused translation to a different amino acid than the corresponding residue in the wild-type structure, an appropriate mutation was proposed with FoldX software.",
+            "Comulator[<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] was employed to calculate the correlation between amino acids and based on the results, groups of positions in SARS-CoV Mpro sequence were selected, whose amino acid occurrences strongly depended on each other."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Huang_2020_a",
+            "entry": "1. Huang, C. et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet (2020). doi:10.1016/S0140-6736(20)30183-5",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930183-5"
+        },
+        {
+            "id": "2",
+            "alt_id": "Zhu_2020_a",
+            "entry": "2. Zhu, N. et al. A Novel Coronavirus from Patients with Pneumonia in China, 2019. N. Engl. J. Med. 382, 727\u2013733 (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhu%20N%20et%20al%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20N%20Engl%20J%20Med%20382%20727733%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhu%20N%20et%20al%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20N%20Engl%20J%20Med%20382%20727733%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhu%20N%20et%20al%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20N%20Engl%20J%20Med%20382%20727733%202020"
+        },
+        {
+            "id": "3",
+            "alt_id": "W_2019_a",
+            "entry": "3. WHO. Coronavirus disease 2019 (COVID-19) Situation Report \u2013 34.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=WHO%20Coronavirus%20disease%202019%20COVID19%20Situation%20Report%20%2034"
+        },
+        {
+            "id": "4",
+            "alt_id": "Woo_et+al_2010_a",
+            "entry": "4. Woo, P. C. Y., Huang, Y., Lau, S. K. P. & Yuen, K.-Y. Coronavirus Genomics and Bioinformatics Analysis. Viruses 2, 1804\u20131820 (2010).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Woo%20P%20C%20Y%20Huang%20Y%20Lau%20S%20K%20P%20%20Yuen%20KY%20Coronavirus%20Genomics%20and%20Bioinformatics%20Analysis%20Viruses%202%2018041820%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Woo%20P%20C%20Y%20Huang%20Y%20Lau%20S%20K%20P%20%20Yuen%20KY%20Coronavirus%20Genomics%20and%20Bioinformatics%20Analysis%20Viruses%202%2018041820%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Woo%20P%20C%20Y%20Huang%20Y%20Lau%20S%20K%20P%20%20Yuen%20KY%20Coronavirus%20Genomics%20and%20Bioinformatics%20Analysis%20Viruses%202%2018041820%202010"
+        },
+        {
+            "id": "5",
+            "alt_id": "Tang_2015_a",
+            "entry": "5. Tang, Q. et al. Inferring the hosts of coronavirus using dual statistical models based on nucleotide composition. Sci. Rep. 5, 17155 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tang%2C%20Q.%20Inferring%20the%20hosts%20of%20coronavirus%20using%20dual%20statistical%20models%20based%20on%20nucleotide%20composition%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tang%2C%20Q.%20Inferring%20the%20hosts%20of%20coronavirus%20using%20dual%20statistical%20models%20based%20on%20nucleotide%20composition%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tang%2C%20Q.%20Inferring%20the%20hosts%20of%20coronavirus%20using%20dual%20statistical%20models%20based%20on%20nucleotide%20composition%202015"
+        },
+        {
+            "id": "6",
+            "alt_id": "Cui_et+al_2019_a",
+            "entry": "6. Cui, J., Li, F. & Shi, Z.-L. Origin and evolution of pathogenic coronaviruses. Nat. Rev. Microbiol. 17, 181\u2013192 (2019).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.-L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.-L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.-L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019"
+        },
+        {
+            "id": "7",
+            "alt_id": "Fehr_2015_a",
+            "entry": "7. Fehr, A. R. & Perlman, S. Coronaviruses: An Overview of Their Replication and Pathogenesis. Methods Mol Biol. 1282, 1\u201323 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fehr%2C%20A.R.%20Perlman%2C%20S.%20Coronaviruses%3A%20An%20Overview%20of%20Their%20Replication%20and%20Pathogenesis%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fehr%2C%20A.R.%20Perlman%2C%20S.%20Coronaviruses%3A%20An%20Overview%20of%20Their%20Replication%20and%20Pathogenesis%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fehr%2C%20A.R.%20Perlman%2C%20S.%20Coronaviruses%3A%20An%20Overview%20of%20Their%20Replication%20and%20Pathogenesis%202015"
+        },
+        {
+            "id": "8",
+            "alt_id": "Zhang_et+al_2020_a",
+            "entry": "8. Zhang, L., Shen, F., Chen, F. & Lin, Z. Origin and evolution of the 2019 novel coronavirus. Clin. Infect. Dis. (2020). doi:10.1093/cid/ciaa112",
+            "crossref": "https://dx.doi.org/10.1093/cid/ciaa112",
+            "scite": "https://scite.ai/reports/10.1093/cid/ciaa112",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/cid/ciaa112"
+        },
+        {
+            "id": "9",
+            "alt_id": "Song_2019_a",
+            "entry": "9. Song, Z. et al. From SARS to MERS, Thrusting Coronaviruses into the Spotlight. Viruses 11, 59 (2019).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Song%2C%20Z.%20From%20SARS%20to%20MERS%2C%20Thrusting%20Coronaviruses%20into%20the%20Spotlight%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Song%2C%20Z.%20From%20SARS%20to%20MERS%2C%20Thrusting%20Coronaviruses%20into%20the%20Spotlight%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Song%2C%20Z.%20From%20SARS%20to%20MERS%2C%20Thrusting%20Coronaviruses%20into%20the%20Spotlight%202019"
+        },
+        {
+            "id": "10",
+            "alt_id": "Xue_2008_a",
+            "entry": "10. Xue, X. et al. Structures of Two Coronavirus Main Proteases: Implications for Substrate Binding and Antiviral Drug Design. J. Virol. 82, 2515\u20132527 (2008).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xue%2C%20X.%20Structures%20of%20Two%20Coronavirus%20Main%20Proteases%3A%20Implications%20for%20Substrate%20Binding%20and%20Antiviral%20Drug%20Design%202008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Xue%2C%20X.%20Structures%20of%20Two%20Coronavirus%20Main%20Proteases%3A%20Implications%20for%20Substrate%20Binding%20and%20Antiviral%20Drug%20Design%202008",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Xue%2C%20X.%20Structures%20of%20Two%20Coronavirus%20Main%20Proteases%3A%20Implications%20for%20Substrate%20Binding%20and%20Antiviral%20Drug%20Design%202008"
+        },
+        {
+            "id": "11",
+            "alt_id": "Wu_2020_a",
+            "entry": "11. Wu, A. et al. Genome Composition and Divergence of the Novel Coronavirus (2019- nCoV) Originating in China. Cell Host Microbe (2020). doi:10.1016/j.chom.2020.02.001",
+            "crossref": "https://dx.doi.org/10.1016/j.chom.2020.02.001",
+            "scite": "https://scite.ai/reports/10.1016/j.chom.2020.02.001",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.chom.2020.02.001"
+        },
+        {
+            "id": "12",
+            "alt_id": "Zumla_et+al_2016_a",
+            "entry": "12. Zumla, A., Chan, J. F. W., Azhar, E. I., Hui, D. S. C. & Yuen, K.-Y. Coronaviruses \u2014 drug discovery and therapeutic options. Nat. Rev. Drug Discov. 15, 327\u2013347 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zumla%2C%20A.%20Chan%2C%20J.F.W.%20Azhar%2C%20E.I.%20Hui%2C%20D.S.C.%20Coronaviruses%20%E2%80%94%20drug%20discovery%20and%20therapeutic%20options%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zumla%2C%20A.%20Chan%2C%20J.F.W.%20Azhar%2C%20E.I.%20Hui%2C%20D.S.C.%20Coronaviruses%20%E2%80%94%20drug%20discovery%20and%20therapeutic%20options%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zumla%2C%20A.%20Chan%2C%20J.F.W.%20Azhar%2C%20E.I.%20Hui%2C%20D.S.C.%20Coronaviruses%20%E2%80%94%20drug%20discovery%20and%20therapeutic%20options%202016"
+        },
+        {
+            "id": "13",
+            "alt_id": "Liu_et+al_2020_a",
+            "entry": "13. Liu, W., Morse, J. S., Lalonde, T. & Xu, S. Learning from the Past: Possible Urgent Prevention and Treatment Options for Severe Acute Respiratory Infections Caused by 2019\u2010nCoV. ChemBioChem cbic.202000047 (2020). doi:10.1002/cbic.202000047",
+            "crossref": "https://dx.doi.org/10.1002/cbic.202000047",
+            "scite": "https://scite.ai/reports/10.1002/cbic.202000047",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/cbic.202000047"
+        },
+        {
+            "id": "14",
+            "alt_id": "Lee_2005_a",
+            "entry": "14. Lee, T.-W. et al. Crystal Structures of the Main Peptidase from the SARS Coronavirus Inhibited by a Substrate-like Aza-peptide Epoxide. J. Mol. Biol. 353, 1137\u20131151 (2005).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lee%2C%20T.-W.%20Crystal%20Structures%20of%20the%20Main%20Peptidase%20from%20the%20SARS%20Coronavirus%20Inhibited%20by%20a%20Substrate-like%20Aza-peptide%20Epoxide%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lee%2C%20T.-W.%20Crystal%20Structures%20of%20the%20Main%20Peptidase%20from%20the%20SARS%20Coronavirus%20Inhibited%20by%20a%20Substrate-like%20Aza-peptide%20Epoxide%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lee%2C%20T.-W.%20Crystal%20Structures%20of%20the%20Main%20Peptidase%20from%20the%20SARS%20Coronavirus%20Inhibited%20by%20a%20Substrate-like%20Aza-peptide%20Epoxide%202005"
+        },
+        {
+            "id": "15",
+            "alt_id": "Ton_et+al_2020_a",
+            "entry": "15. Ton, A.-T., Gentile, F., Hsing, M., Ban, F. & Cherkasov, A. Rapid Identification of Potential Inhibitors of SARS-CoV-2 Main Protease by Deep Docking of 1.3 Billion Compounds. ChemRxiv (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ton%2C%20A.-T.%20Gentile%2C%20F.%20Hsing%2C%20M.%20Ban%2C%20F.%20Rapid%20Identification%20of%20Potential%20Inhibitors%20of%20SARS-CoV-2%20Main%20Protease%20by%20Deep%20Docking%20of%201.3%20Billion%20Compounds%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ton%2C%20A.-T.%20Gentile%2C%20F.%20Hsing%2C%20M.%20Ban%2C%20F.%20Rapid%20Identification%20of%20Potential%20Inhibitors%20of%20SARS-CoV-2%20Main%20Protease%20by%20Deep%20Docking%20of%201.3%20Billion%20Compounds%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ton%2C%20A.-T.%20Gentile%2C%20F.%20Hsing%2C%20M.%20Ban%2C%20F.%20Rapid%20Identification%20of%20Potential%20Inhibitors%20of%20SARS-CoV-2%20Main%20Protease%20by%20Deep%20Docking%20of%201.3%20Billion%20Compounds%202020"
+        },
+        {
+            "id": "16",
+            "alt_id": "Xu_2020_a",
+            "entry": "16. Xu, Z. et al. Nelfinavir was predicted to be a potential inhibitor of 2019-nCov main protease by an integrative approach combining homology modelling, molecular docking and binding free energy calculation. bioRxiv (2020). doi:10.1101/2020.01.27.921627",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.27.921627",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.27.921627",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.27.921627"
+        },
+        {
+            "id": "17",
+            "alt_id": "Liu_2020_b",
+            "entry": "17. Liu, X. & Wang, X.-J. Potential inhibitors for 2019-nCoV coronavirus M protease from clinically approved medicines. bioRxiv (2020). doi:10.1101/2020.01.29.924100",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.29.924100",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.29.924100"
+        },
+        {
+            "id": "18",
+            "alt_id": "Li_2020_a",
+            "entry": "18. Li, Y. et al. Therapeutic Drugs Targeting 2019-nCoV Main Protease by HighThroughput Screening. bioRxiv (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%20Y%20et%20al%20Therapeutic%20Drugs%20Targeting%202019nCoV%20Main%20Protease%20by%20HighThroughput%20Screening%20bioRxiv%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%20Y%20et%20al%20Therapeutic%20Drugs%20Targeting%202019nCoV%20Main%20Protease%20by%20HighThroughput%20Screening%20bioRxiv%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%20Y%20et%20al%20Therapeutic%20Drugs%20Targeting%202019nCoV%20Main%20Protease%20by%20HighThroughput%20Screening%20bioRxiv%202020"
+        },
+        {
+            "id": "19",
+            "alt_id": "Berman_2000_a",
+            "entry": "19. Berman, H. M. The Protein Data Bank. Nucleic Acids Res. 28, 235\u2013242 (2000).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Berman%2C%20H.M.%20The%20Protein%20Data%20Bank%202000",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Berman%2C%20H.M.%20The%20Protein%20Data%20Bank%202000",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Berman%2C%20H.M.%20The%20Protein%20Data%20Bank%202000"
+        },
+        {
+            "id": "20",
+            "alt_id": "Bacha_et+al_2004_a",
+            "entry": "20. Bacha, U., Barrila, J., Velazquez-Campoy, A., Leavitt, S. A. & Freire, E. Identification of Novel Inhibitors of the SARS Coronavirus Main Protease 3CL pro \u2020. Biochemistry 43, 4906\u20134912 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bacha%2C%20U.%20Barrila%2C%20J.%20Velazquez-Campoy%2C%20A.%20Leavitt%2C%20S.A.%20Identification%20of%20Novel%20Inhibitors%20of%20the%20SARS%20Coronavirus%20Main%20Protease%203CL%20pro%20%E2%80%A0%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bacha%2C%20U.%20Barrila%2C%20J.%20Velazquez-Campoy%2C%20A.%20Leavitt%2C%20S.A.%20Identification%20of%20Novel%20Inhibitors%20of%20the%20SARS%20Coronavirus%20Main%20Protease%203CL%20pro%20%E2%80%A0%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bacha%2C%20U.%20Barrila%2C%20J.%20Velazquez-Campoy%2C%20A.%20Leavitt%2C%20S.A.%20Identification%20of%20Novel%20Inhibitors%20of%20the%20SARS%20Coronavirus%20Main%20Protease%203CL%20pro%20%E2%80%A0%202004"
+        },
+        {
+            "id": "21",
+            "alt_id": "Anand_2003_a",
+            "entry": "21. Anand, K. Coronavirus Main Proteinase (3CLpro) Structure: Basis for Design of AntiSARS Drugs. Science (80-. ). 300, 1763\u20131767 (2003).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Anand%2C%20K.%20Coronavirus%20Main%20Proteinase%20%283CLpro%29%20Structure%3A%20Basis%20for%20Design%20of%20AntiSARS%20Drugs%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Anand%2C%20K.%20Coronavirus%20Main%20Proteinase%20%283CLpro%29%20Structure%3A%20Basis%20for%20Design%20of%20AntiSARS%20Drugs%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Anand%2C%20K.%20Coronavirus%20Main%20Proteinase%20%283CLpro%29%20Structure%3A%20Basis%20for%20Design%20of%20AntiSARS%20Drugs%202003"
+        },
+        {
+            "id": "22",
+            "alt_id": "Mitusi\u0144ska_et+al_2020_a",
+            "entry": "22. Mitusi\u0144ska, K., Raczy\u0144ska, A., Bz\u00f3wka, M., Bagrowska, W. & G\u00f3ra, A. Applications of water molecules for analysis of macromolecule properties. Comput. Struct. Biotechnol. J. 18, 355\u2013365 (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Mitusi%C5%84ska%2C%20K.%20Raczy%C5%84ska%2C%20A.%20Bz%C3%B3wka%2C%20M.%20Bagrowska%2C%20W.%20Applications%20of%20water%20molecules%20for%20analysis%20of%20macromolecule%20properties%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Mitusi%C5%84ska%2C%20K.%20Raczy%C5%84ska%2C%20A.%20Bz%C3%B3wka%2C%20M.%20Bagrowska%2C%20W.%20Applications%20of%20water%20molecules%20for%20analysis%20of%20macromolecule%20properties%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Mitusi%C5%84ska%2C%20K.%20Raczy%C5%84ska%2C%20A.%20Bz%C3%B3wka%2C%20M.%20Bagrowska%2C%20W.%20Applications%20of%20water%20molecules%20for%20analysis%20of%20macromolecule%20properties%202020"
+        },
+        {
+            "id": "23",
+            "alt_id": "Magdziarz_2019_a",
+            "entry": "23. Magdziarz, T. et al. AQUA-DUCT 1.0: structural and functional analysis of macromolecules from an intramolecular voids perspective. Bioinformatics (2019). doi:10.1093/bioinformatics/btz946",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/btz946",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/btz946",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/bioinformatics/btz946"
+        },
+        {
+            "id": "24",
+            "alt_id": "Chang_2016_a",
+            "entry": "24. Chang, C. et al. Structure-based virtual screening and experimental validation of the discovery of inhibitors targeted towards the human coronavirus nucleocapsid protein. Mol. Biosyst. 12, 59\u201366 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chang%2C%20C.%20Structure-based%20virtual%20screening%20and%20experimental%20validation%20of%20the%20discovery%20of%20inhibitors%20targeted%20towards%20the%20human%20coronavirus%20nucleocapsid%20protein%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chang%2C%20C.%20Structure-based%20virtual%20screening%20and%20experimental%20validation%20of%20the%20discovery%20of%20inhibitors%20targeted%20towards%20the%20human%20coronavirus%20nucleocapsid%20protein%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chang%2C%20C.%20Structure-based%20virtual%20screening%20and%20experimental%20validation%20of%20the%20discovery%20of%20inhibitors%20targeted%20towards%20the%20human%20coronavirus%20nucleocapsid%20protein%202016"
+        },
+        {
+            "id": "25",
+            "alt_id": "Dayer_et+al_2017_a",
+            "entry": "25. Dayer, M. R., Taleb-Gassabi, S. & Dayer, M. S. Lopinavir; A Potent Drug against Coronavirus Infection: Insight from Molecular Docking Study. Arch. Clin. Infect. Dis. 12, (2017).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Dayer%2C%20M.R.%20Taleb-Gassabi%2C%20S.%20Dayer%2C%20M.S.%20Lopinavir%3B%20A%20Potent%20Drug%20against%20Coronavirus%20Infection%3A%20Insight%20from%20Molecular%20Docking%20Study%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Dayer%2C%20M.R.%20Taleb-Gassabi%2C%20S.%20Dayer%2C%20M.S.%20Lopinavir%3B%20A%20Potent%20Drug%20against%20Coronavirus%20Infection%3A%20Insight%20from%20Molecular%20Docking%20Study%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Dayer%2C%20M.R.%20Taleb-Gassabi%2C%20S.%20Dayer%2C%20M.S.%20Lopinavir%3B%20A%20Potent%20Drug%20against%20Coronavirus%20Infection%3A%20Insight%20from%20Molecular%20Docking%20Study%202017"
+        },
+        {
+            "id": "26",
+            "alt_id": "Chen_et+al_2020_a",
+            "entry": "26. Chen, Y. W., Yiu, C.-P. & Wong, K.-Y. Prediction of the 2019-nCoV 3C-like Protease (3CLpro) Structure: Virtual Screening Reveals Velpatasvir, Ledipasvir, and Other Drug Repurposing Candidates. ChemRxiv (2020). doi:/10.26434/chemrxiv.11831103.v1",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%20Y%20W%20Yiu%20CP%20%20Wong%20KY%20Prediction%20of%20the%202019nCoV%203Clike%20Protease%203CLpro%20Structure%20Virtual%20Screening%20Reveals%20Velpatasvir%20Ledipasvir%20and%20Other%20Drug%20Repurposing%20Candidates%20ChemRxiv%202020%20doi1026434chemrxiv11831103v1",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%20Y%20W%20Yiu%20CP%20%20Wong%20KY%20Prediction%20of%20the%202019nCoV%203Clike%20Protease%203CLpro%20Structure%20Virtual%20Screening%20Reveals%20Velpatasvir%20Ledipasvir%20and%20Other%20Drug%20Repurposing%20Candidates%20ChemRxiv%202020%20doi1026434chemrxiv11831103v1",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%20Y%20W%20Yiu%20CP%20%20Wong%20KY%20Prediction%20of%20the%202019nCoV%203Clike%20Protease%203CLpro%20Structure%20Virtual%20Screening%20Reveals%20Velpatasvir%20Ledipasvir%20and%20Other%20Drug%20Repurposing%20Candidates%20ChemRxiv%202020%20doi1026434chemrxiv11831103v1"
+        },
+        {
+            "id": "27",
+            "alt_id": "Anderson_2003_a",
+            "entry": "27. Anderson, A. C. The Process of Structure-Based Drug Design. Chem. Biol. 10, 787\u2013 797 (2003).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Anderson%2C%20A.C.%20The%20Process%20of%20Structure-Based%20Drug%20Design%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Anderson%2C%20A.C.%20The%20Process%20of%20Structure-Based%20Drug%20Design%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Anderson%2C%20A.C.%20The%20Process%20of%20Structure-Based%20Drug%20Design%202003"
+        },
+        {
+            "id": "28",
+            "alt_id": "Mitusi\u0144ska_et+al_2018_a",
+            "entry": "28. Mitusi\u0144ska, K., Magdziarz, T., Bz\u00f3wka, M., Sta\u0144czak, A. & Gora, A. Exploring Solanum tuberosum Epoxide Hydrolase Internal Architecture by Water Molecules Tracking. Biomolecules 8, 143 (2018).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Mitusi%C5%84ska%2C%20K.%20Magdziarz%2C%20T.%20Bz%C3%B3wka%2C%20M.%20Sta%C5%84czak%2C%20A.%20Exploring%20Solanum%20tuberosum%20Epoxide%20Hydrolase%20Internal%20Architecture%20by%20Water%20Molecules%20Tracking%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Mitusi%C5%84ska%2C%20K.%20Magdziarz%2C%20T.%20Bz%C3%B3wka%2C%20M.%20Sta%C5%84czak%2C%20A.%20Exploring%20Solanum%20tuberosum%20Epoxide%20Hydrolase%20Internal%20Architecture%20by%20Water%20Molecules%20Tracking%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Mitusi%C5%84ska%2C%20K.%20Magdziarz%2C%20T.%20Bz%C3%B3wka%2C%20M.%20Sta%C5%84czak%2C%20A.%20Exploring%20Solanum%20tuberosum%20Epoxide%20Hydrolase%20Internal%20Architecture%20by%20Water%20Molecules%20Tracking%202018"
+        },
+        {
+            "id": "29",
+            "alt_id": "Kuipers_2010_a",
+            "entry": "29. Kuipers, R. K. et al. 3DM: Systematic analysis of heterogeneous superfamily data to discover protein functionalities. Proteins Struct. Funct. Bioinforma. 78, 2101\u20132113 (2010).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kuipers%2C%20R.K.%20Systematic%20analysis%20of%20heterogeneous%20superfamily%20data%20to%20discover%20protein%20functionalities%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kuipers%2C%20R.K.%20Systematic%20analysis%20of%20heterogeneous%20superfamily%20data%20to%20discover%20protein%20functionalities%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kuipers%2C%20R.K.%20Systematic%20analysis%20of%20heterogeneous%20superfamily%20data%20to%20discover%20protein%20functionalities%202010"
+        },
+        {
+            "id": "30",
+            "alt_id": "Tsai_2010_a",
+            "entry": "30. Tsai, M.-Y. et al. Essential covalent linkage between the chymotrypsin-like domain and the extra domain of the SARS-CoV main protease. J. Biochem. 148, 349\u2013358 (2010).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tsai%2C%20M.-Y.%20Essential%20covalent%20linkage%20between%20the%20chymotrypsin-like%20domain%20and%20the%20extra%20domain%20of%20the%20SARS-CoV%20main%20protease%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tsai%2C%20M.-Y.%20Essential%20covalent%20linkage%20between%20the%20chymotrypsin-like%20domain%20and%20the%20extra%20domain%20of%20the%20SARS-CoV%20main%20protease%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tsai%2C%20M.-Y.%20Essential%20covalent%20linkage%20between%20the%20chymotrypsin-like%20domain%20and%20the%20extra%20domain%20of%20the%20SARS-CoV%20main%20protease%202010"
+        },
+        {
+            "id": "31",
+            "alt_id": "Needle_et+al_2015_a",
+            "entry": "31. Needle, D., Lountos, G. T. & Waugh, D. S. Structures of the Middle East respiratory syndrome coronavirus 3C-like protease reveal insights into substrate specificity. Acta Crystallogr. Sect. D Biol. Crystallogr. 71, 1102\u20131111 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Needle%2C%20D.%20Lountos%2C%20G.T.%20Waugh%2C%20D.S.%20Structures%20of%20the%20Middle%20East%20respiratory%20syndrome%20coronavirus%203C-like%20protease%20reveal%20insights%20into%20substrate%20specificity%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Needle%2C%20D.%20Lountos%2C%20G.T.%20Waugh%2C%20D.S.%20Structures%20of%20the%20Middle%20East%20respiratory%20syndrome%20coronavirus%203C-like%20protease%20reveal%20insights%20into%20substrate%20specificity%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Needle%2C%20D.%20Lountos%2C%20G.T.%20Waugh%2C%20D.S.%20Structures%20of%20the%20Middle%20East%20respiratory%20syndrome%20coronavirus%203C-like%20protease%20reveal%20insights%20into%20substrate%20specificity%202015"
+        },
+        {
+            "id": "32",
+            "alt_id": "Zhang_et+al_2020_b",
+            "entry": "32. Zhang, L., Lin, D., Sun, X., Rox, K. & Hilgenfeld, R. X-ray Structure of Main Protease of the Novel Coronavirus SARS-CoV-2 Enables Design of \u03b1-Ketoamide Inhibitors. bioRxiv (2020). doi:10.1101/2020.02.17.952879",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.17.952879",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.17.952879"
+        },
+        {
+            "id": "33",
+            "alt_id": "Anand_2002_a",
+            "entry": "33. Anand, K. Structure of coronavirus main proteinase reveals combination of a chymotrypsin fold with an extra alpha-helical domain. EMBO J. 21, 3213\u20133224 (2002).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Anand%2C%20K.%20Structure%20of%20coronavirus%20main%20proteinase%20reveals%20combination%20of%20a%20chymotrypsin%20fold%20with%20an%20extra%20alpha-helical%20domain%202002",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Anand%2C%20K.%20Structure%20of%20coronavirus%20main%20proteinase%20reveals%20combination%20of%20a%20chymotrypsin%20fold%20with%20an%20extra%20alpha-helical%20domain%202002",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Anand%2C%20K.%20Structure%20of%20coronavirus%20main%20proteinase%20reveals%20combination%20of%20a%20chymotrypsin%20fold%20with%20an%20extra%20alpha-helical%20domain%202002"
+        },
+        {
+            "id": "34",
+            "alt_id": "Lim_et+al_2014_a",
+            "entry": "34. Lim, L., Shi, J., Mu, Y. & Song, J. Dynamically-Driven Enhancement of the Catalytic Machinery of the SARS 3C-Like Protease by the S284-T285-I286/A Mutations on the Extra Domain. PLoS One 9, e101941 (2014).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lim%2C%20L.%20Shi%2C%20J.%20Mu%2C%20Y.%20Song%2C%20J.%20Dynamically-Driven%20Enhancement%20of%20the%20Catalytic%20Machinery%20of%20the%20SARS%203C-Like%20Protease%20by%20the%20S284-T285-I286/A%20Mutations%20on%20the%20Extra%20Domain%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lim%2C%20L.%20Shi%2C%20J.%20Mu%2C%20Y.%20Song%2C%20J.%20Dynamically-Driven%20Enhancement%20of%20the%20Catalytic%20Machinery%20of%20the%20SARS%203C-Like%20Protease%20by%20the%20S284-T285-I286/A%20Mutations%20on%20the%20Extra%20Domain%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lim%2C%20L.%20Shi%2C%20J.%20Mu%2C%20Y.%20Song%2C%20J.%20Dynamically-Driven%20Enhancement%20of%20the%20Catalytic%20Machinery%20of%20the%20SARS%203C-Like%20Protease%20by%20the%20S284-T285-I286/A%20Mutations%20on%20the%20Extra%20Domain%202014"
+        },
+        {
+            "id": "35",
+            "alt_id": "Schymkowitz_2005_a",
+            "entry": "35. Schymkowitz, J. et al. The FoldX web server: an online force field. Nucleic Acids Res. 33, W382\u2013W388 (2005).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Schymkowitz%2C%20J.%20The%20FoldX%20web%20server%3A%20an%20online%20force%20field%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Schymkowitz%2C%20J.%20The%20FoldX%20web%20server%3A%20an%20online%20force%20field%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Schymkowitz%2C%20J.%20The%20FoldX%20web%20server%3A%20an%20online%20force%20field%202005"
+        },
+        {
+            "id": "36",
+            "alt_id": "Klausen_2019_a",
+            "entry": "36. Klausen, M. S. et al. NetSurfP\u20102.0: Improved prediction of protein structural features by integrated deep learning. Proteins Struct. Funct. Bioinforma. 87, 520\u2013527 (2019).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Klausen%2C%20M.S.%20Improved%20prediction%20of%20protein%20structural%20features%20by%20integrated%20deep%20learning%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Klausen%2C%20M.S.%20Improved%20prediction%20of%20protein%20structural%20features%20by%20integrated%20deep%20learning%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Klausen%2C%20M.S.%20Improved%20prediction%20of%20protein%20structural%20features%20by%20integrated%20deep%20learning%202019"
+        },
+        {
+            "id": "37",
+            "alt_id": "Anandakrishnan_et+al_2012_a",
+            "entry": "37. Anandakrishnan, R., Aguilar, B. & Onufriev, A. V. H++ 3.0: automating pK prediction and the preparation of biomolecular structures for atomistic molecular modeling and simulations. Nucleic Acids Res. 40, W537\u2013W541 (2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Anandakrishnan%2C%20R.%20Aguilar%2C%20B.%20Onufriev%2C%20A.V.%20H%2B%2B%203.0%3A%20automating%20pK%20prediction%20and%20the%20preparation%20of%20biomolecular%20structures%20for%20atomistic%20molecular%20modeling%20and%20simulations%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Anandakrishnan%2C%20R.%20Aguilar%2C%20B.%20Onufriev%2C%20A.V.%20H%2B%2B%203.0%3A%20automating%20pK%20prediction%20and%20the%20preparation%20of%20biomolecular%20structures%20for%20atomistic%20molecular%20modeling%20and%20simulations%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Anandakrishnan%2C%20R.%20Aguilar%2C%20B.%20Onufriev%2C%20A.V.%20H%2B%2B%203.0%3A%20automating%20pK%20prediction%20and%20the%20preparation%20of%20biomolecular%20structures%20for%20atomistic%20molecular%20modeling%20and%20simulations%202012"
+        },
+        {
+            "id": "38",
+            "alt_id": "Luchko_2010_a",
+            "entry": "38. Luchko, T. et al. Three-Dimensional Molecular Theory of Solvation Coupled with Molecular Dynamics in Amber. J. Chem. Theory Comput. 6, 607\u2013624 (2010).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Luchko%2C%20T.%20Three-Dimensional%20Molecular%20Theory%20of%20Solvation%20Coupled%20with%20Molecular%20Dynamics%20in%20Amber%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Luchko%2C%20T.%20Three-Dimensional%20Molecular%20Theory%20of%20Solvation%20Coupled%20with%20Molecular%20Dynamics%20in%20Amber%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Luchko%2C%20T.%20Three-Dimensional%20Molecular%20Theory%20of%20Solvation%20Coupled%20with%20Molecular%20Dynamics%20in%20Amber%202010"
+        },
+        {
+            "id": "39",
+            "alt_id": "Sindhikara_et+al_2012_a",
+            "entry": "39. Sindhikara, D. J., Yoshida, N. & Hirata, F. Placevent: An algorithm for prediction of explicit solvent atom distribution-Application to HIV-1 protease and F-ATP synthase. J. Comput. Chem. 33, 1536\u20131543 (2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sindhikara%2C%20D.J.%20Yoshida%2C%20N.%20Hirata%2C%20F.%20Placevent%3A%20An%20algorithm%20for%20prediction%20of%20explicit%20solvent%20atom%20distribution-Application%20to%20HIV-1%20protease%20and%20F-ATP%20synthase%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Sindhikara%2C%20D.J.%20Yoshida%2C%20N.%20Hirata%2C%20F.%20Placevent%3A%20An%20algorithm%20for%20prediction%20of%20explicit%20solvent%20atom%20distribution-Application%20to%20HIV-1%20protease%20and%20F-ATP%20synthase%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Sindhikara%2C%20D.J.%20Yoshida%2C%20N.%20Hirata%2C%20F.%20Placevent%3A%20An%20algorithm%20for%20prediction%20of%20explicit%20solvent%20atom%20distribution-Application%20to%20HIV-1%20protease%20and%20F-ATP%20synthase%202012"
+        },
+        {
+            "id": "40",
+            "alt_id": "Case_2018_a",
+            "entry": "40. Case, D. A. et al. AMBER 2018. (2018).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Case%20D%20A%20et%20al%20AMBER%202018%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Case%20D%20A%20et%20al%20AMBER%202018%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Case%20D%20A%20et%20al%20AMBER%202018%202018"
+        },
+        {
+            "id": "41",
+            "alt_id": "Maier_2015_a",
+            "entry": "41. Maier, J. A. et al. ff14SB: Improving the Accuracy of Protein Side Chain and Backbone Parameters from ff99SB. J. Chem. Theory Comput. 11, 3696\u20133713 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Maier%2C%20J.A.%20Improving%20the%20Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Maier%2C%20J.A.%20Improving%20the%20Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Maier%2C%20J.A.%20Improving%20the%20Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%202015"
+        },
+        {
+            "id": "42",
+            "alt_id": "Pence_2010_a",
+            "entry": "42. Pence, H. E. & Williams, A. ChemSpider: An Online Chemical Information Resource. J. Chem. Educ. 87, 1123\u20131124 (2010).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pence%2C%20H.E.%20Williams%2C%20A.%20ChemSpider%3A%20An%20Online%20Chemical%20Information%20Resource%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pence%2C%20H.E.%20Williams%2C%20A.%20ChemSpider%3A%20An%20Online%20Chemical%20Information%20Resource%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pence%2C%20H.E.%20Williams%2C%20A.%20ChemSpider%3A%20An%20Online%20Chemical%20Information%20Resource%202010"
+        },
+        {
+            "id": "43",
+            "alt_id": "Nikitin_2007_a",
+            "entry": "43. Nikitin, A. M. & Lyubartsev, A. P. New six-site acetonitrile model for simulations of liquid acetonitrile and its aqueous mixtures. J. Comput. Chem. 28, 2020\u20132026 (2007).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nikitin%2C%20A.M.%20Lyubartsev%2C%20A.P.%20New%20six-site%20acetonitrile%20model%20for%20simulations%20of%20liquid%20acetonitrile%20and%20its%20aqueous%20mixtures%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nikitin%2C%20A.M.%20Lyubartsev%2C%20A.P.%20New%20six-site%20acetonitrile%20model%20for%20simulations%20of%20liquid%20acetonitrile%20and%20its%20aqueous%20mixtures%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nikitin%2C%20A.M.%20Lyubartsev%2C%20A.P.%20New%20six-site%20acetonitrile%20model%20for%20simulations%20of%20liquid%20acetonitrile%20and%20its%20aqueous%20mixtures%202007"
+        },
+        {
+            "id": "44",
+            "alt_id": "Wang_et+al_2006_a",
+            "entry": "44. Wang, J., Wang, W., Kollman, P. A. & Case, D. A. Automatic atom type and bond type perception in molecular mechanical calculations. J. Mol. Graph. Model. 25, 247\u2013 260 (2006).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Case%2C%20D.A.%20Automatic%20atom%20type%20and%20bond%20type%20perception%20in%20molecular%20mechanical%20calculations%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Case%2C%20D.A.%20Automatic%20atom%20type%20and%20bond%20type%20perception%20in%20molecular%20mechanical%20calculations%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Case%2C%20D.A.%20Automatic%20atom%20type%20and%20bond%20type%20perception%20in%20molecular%20mechanical%20calculations%202006"
+        },
+        {
+            "id": "45",
+            "alt_id": "Gasteiger_1980_a",
+            "entry": "45. Gasteiger, J. & Marsili, M. Iterative partial equalization of orbital electronegativity\u2014a rapid access to atomic charges. Tetrahedron 36, 3219\u20133228 (1980).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gasteiger%2C%20J.%20Marsili%2C%20M.%20Iterative%20partial%20equalization%20of%20orbital%20electronegativity%E2%80%94a%20rapid%20access%20to%20atomic%20charges%201980",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gasteiger%2C%20J.%20Marsili%2C%20M.%20Iterative%20partial%20equalization%20of%20orbital%20electronegativity%E2%80%94a%20rapid%20access%20to%20atomic%20charges%201980",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gasteiger%2C%20J.%20Marsili%2C%20M.%20Iterative%20partial%20equalization%20of%20orbital%20electronegativity%E2%80%94a%20rapid%20access%20to%20atomic%20charges%201980"
+        },
+        {
+            "id": "46",
+            "alt_id": "Mart\u00ednez_et+al_2009_a",
+            "entry": "46. Mart\u00ednez, L., Andrade, R., Birgin, E. G. & Mart\u00ednez, J. M. PACKMOL: A package for building initial configurations for molecular dynamics simulations. J. Comput. Chem. 30, 2157\u20132164 (2009).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Mart%C3%ADnez%2C%20L.%20Andrade%2C%20R.%20Birgin%2C%20E.G.%20Mart%C3%ADnez%2C%20J.M.%20PACKMOL%3A%20A%20package%20for%20building%20initial%20configurations%20for%20molecular%20dynamics%20simulations%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Mart%C3%ADnez%2C%20L.%20Andrade%2C%20R.%20Birgin%2C%20E.G.%20Mart%C3%ADnez%2C%20J.M.%20PACKMOL%3A%20A%20package%20for%20building%20initial%20configurations%20for%20molecular%20dynamics%20simulations%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Mart%C3%ADnez%2C%20L.%20Andrade%2C%20R.%20Birgin%2C%20E.G.%20Mart%C3%ADnez%2C%20J.M.%20PACKMOL%3A%20A%20package%20for%20building%20initial%20configurations%20for%20molecular%20dynamics%20simulations%202009"
+        },
+        {
+            "id": "47",
+            "alt_id": "Delano_2002_a",
+            "entry": "47. Delano, W. L. PyMOL: An Open-Source Molecular Graphics Tool. Ccp4 Newslett Protein Crystallogr 40, (2002).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Delano%2C%20W.L.%20PyMOL%3A%20An%20Open-Source%20Molecular%20Graphics%20Tool.%20Ccp4%20Newslett%20Protein%202002",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Delano%2C%20W.L.%20PyMOL%3A%20An%20Open-Source%20Molecular%20Graphics%20Tool.%20Ccp4%20Newslett%20Protein%202002",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Delano%2C%20W.L.%20PyMOL%3A%20An%20Open-Source%20Molecular%20Graphics%20Tool.%20Ccp4%20Newslett%20Protein%202002"
+        },
+        {
+            "id": "48",
+            "alt_id": "Gertz_et+al_2006_a",
+            "entry": "48. Gertz, E. M., Yu, Y.-K., Agarwala, R., Sch\u00e4ffer, A. A. & Altschul, S. F. Compositionbased statistics and translated nucleotide searches: Improving the TBLASTN module of BLAST. BMC Biol. 4, 41 (2006).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gertz%2C%20E.M.%20Yu%2C%20Y.-K.%20Agarwala%2C%20R.%20Sch%C3%A4ffer%2C%20A.A.%20Compositionbased%20statistics%20and%20translated%20nucleotide%20searches%3A%20Improving%20the%20TBLASTN%20module%20of%20BLAST%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gertz%2C%20E.M.%20Yu%2C%20Y.-K.%20Agarwala%2C%20R.%20Sch%C3%A4ffer%2C%20A.A.%20Compositionbased%20statistics%20and%20translated%20nucleotide%20searches%3A%20Improving%20the%20TBLASTN%20module%20of%20BLAST%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gertz%2C%20E.M.%20Yu%2C%20Y.-K.%20Agarwala%2C%20R.%20Sch%C3%A4ffer%2C%20A.A.%20Compositionbased%20statistics%20and%20translated%20nucleotide%20searches%3A%20Improving%20the%20TBLASTN%20module%20of%20BLAST%202006"
+        },
+        {
+            "id": "49",
+            "alt_id": "Camacho_2009_a",
+            "entry": "49. Camacho, C. et al. BLAST+: architecture and applications. BMC Bioinformatics 10, 421 (2009).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Camacho%2C%20C.%20BLAST%2B%3A%20architecture%20and%20applications%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Camacho%2C%20C.%20BLAST%2B%3A%20architecture%20and%20applications%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Camacho%2C%20C.%20BLAST%2B%3A%20architecture%20and%20applications%202009"
+        },
+        {
+            "id": "50",
+            "alt_id": "Altschul_et+al_1990_a",
+            "entry": "50. Altschul, S. F., Gish, W., Miller, W., Myers, E. W. & Lipman, D. J. Basic local alignment search tool. J. Mol. Biol. 215, 403\u2013410 (1990).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Altschul%2C%20S.F.%20Gish%2C%20W.%20Miller%2C%20W.%20Myers%2C%20E.W.%20Basic%20local%20alignment%20search%20tool%201990",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Altschul%2C%20S.F.%20Gish%2C%20W.%20Miller%2C%20W.%20Myers%2C%20E.W.%20Basic%20local%20alignment%20search%20tool%201990",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Altschul%2C%20S.F.%20Gish%2C%20W.%20Miller%2C%20W.%20Myers%2C%20E.W.%20Basic%20local%20alignment%20search%20tool%201990"
+        },
+        {
+            "id": "51",
+            "alt_id": "Sievers_2014_a",
+            "entry": "51. Sievers, F. & Higgins, D. G. Clustal Omega, Accurate Alignment of Very Large Numbers of Sequences. in Multiple Sequence Alignment Methods 105\u2013116 (2014). doi:10.1007/978-1-62703-646-7_6 ",
+            "crossref": "https://dx.doi.org/10.1007/978-1-62703-646-7_6",
+            "scite": "https://scite.ai/reports/10.1007/978-1-62703-646-7_6"
+        }
+    ],
+    "facts": [
+        "The novel coronavirus whose outbreak took place in December 2019 continues to spread at a rapid rate",
+        "the active sites in both proteins show major differences in both shape and size indicating that repurposing SARS drugs for COVID-19 may be futile. analysis",
+        "structural stability of the protein with respect to flexible loop mutations indicates that the virus' mutability will pose a further challenge to the rational design",
+        "the first atypical pneumonia outbreak associated with the novel coronavirus of zoonotic origin appeared in",
+        "COVID-19 has been reported in 26 countries",
+        "a precise estimate of the infection fatality rate is impossible at present",
+        "at the press conference on February 4 evaluated that the virus mortality rate stood at",
+        "coronaviruses are classified into four major genera",
+        "Investigations to determine the origins of the infection are still ongoing",
+        "increasing evidence demonstrates a link between the COVID-19",
+        "similar known coronaviruses circulating in bats",
+        "Zhang et al indicated that the COVID-19 is",
+        "related to two SARS-CoV sequences isolated from bats",
+        "the new virus can be considered as a SARS-like virus[8",
+        "the transmission route to humans remains unclear. Bats are rather rare in food markets in China",
+        "most likely hypothesis is that an intermediary host animal has played a role in the transmission",
+        "which are often sold in Chinese food markets",
+        "The AMBER 18 LEaP40 was used to immerse models in a truncated octahedral box",
+        "ions were added to the COVID-19",
+        "The minimisation procedure consisted of 2000 steps",
+        "1000 steepest descent steps followed by 1000 steps of conjugate gradient energy minimisation",
+        "gradual heating was performed from 0 K to 300 K",
+        "The coordinates were saved at an interval of 1 ps",
+        "location of the replaced amino acids distal to the active site",
+        "The COVID-19 main protease's crystallographic structure was recently made publicly available through the Protein Data Bank[19",
+        "SARSCoV Mpro structures differ by only 12 amino acids located",
+        "the \u03b1-helical domain III is required for the enzymatic activity[20",
+        "Both enzymes resemble the structure of cysteine proteases",
+        "which corresponds to the position of a third catalytic member",
+        "While 12 residues differ between both CoVs",
+        "major issues involving plasticity and flexibility of the binding site could result in significant difficulties in inhibitor design",
+        "Figure 3 presents amino acids that differ between the SARS-CoV Mpros",
+        "an appropriate mutation was proposed with FoldX calculations",
+        "their active sites show major differences in both shape and size indicating that repurposing SARS-CoV drugs for COVID-19 may be futile",
+        "Mutations leading to changes in the amino acid sequence",
+        "an appropriate mutation was proposed with FoldX software",
+        "Our findings show the presence of a flexible loop occluding the entrance to the binding pocket"
+    ],
+    "claims": [
+        "We report on detailed molecular dynamics simulations of the main protease (Mpro)",
+        "In this study, we investigate how only 12 different residues, located mostly on the protein\u2019s surface, may affect the behaviour of the active site pocket of the COVID-19 Mpro structure",
+        "It is worth to add that among evolutionary-correlated residues we identified also those that differ between COVID-19 and SARS-CoV Mpros, located on the C44-P52 loop (Supplementary Figure S4) and the F185-T201 linker loop",
+        "In this paper, we reported on molecular dynamics simulations of the main protease (Mpro), whose crystal structure has been recently released",
+        "Our findings show the presence of a flexible loop occluding the entrance to the binding pocket"
+    ],
+    "findings": [
+        "Initial analyses of genomic sequences of the four nsps mentioned above indicate that those enzymes are highly conserved sharing more than 90% sequence similarity with the corresponding SARS-CoV enzymes[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]"
+    ],
+    "processes": [],
+    "key_statements": [
+        "As of 23 February 2020, COVID-19 has been reported in 26 countries and nearly 79,000 infection cases, including more than 2400 fatal ones, have been confirmed[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "Investigations to determine the origins of the infection are still ongoing, increasing evidence demonstrates a link between the COVID-19 and other similar known coronaviruses circulating in bats",
+        "Based on the phylogenetic analysis of the genomic data of COVID-19, Zhang et al indicated that the COVID-19 is most closely related to two SARS-CoV sequences isolated from bats in 2015 and 2017",
+        "While 12 residues differ between both CoVs, only one, namely S46 in COVID-19 (A46 in SARS), is located in the proximity of the entrance to the active site",
+        "We investigate how only 12 different residues, located mostly on the protein\u2019s surface, may affect the behaviour of the active site pocket of the COVID-19 main protease structure",
+        "In spite of the structural differences in the active sites of both main protease proteins, major issues involving plasticity and flexibility of the binding site could result in significant difficulties in inhibitor design for this molecular target",
+        "Location of the replaced amino acids distal to the active site",
+        "The COVID-19 main protease and SARSCoV main protease structures differ by only 12 amino acids located mostly on the proteins\u2019 surface (Figure 1A, Supplementary Table S1)",
+        "Both enzymes share the same structural composition; they comprise three domains: domains I and II consist of an antiparallel \u03b2-barrel, and the \u03b1-helical domain III is required for the enzymatic activity[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Both enzymes resemble the structure of cysteine proteases, their active site is lacking the third catalytic residue[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]; their active site comprises a catalytic dyad, namely H41 and C145, and a stable water molecule forms at least three hydrogen bond interactions with surrounding residues, including the catalytic histidine, which corresponds to the position of a third catalytic member (Figure 1B)",
+        "It is worth to add that among evolutionary-correlated residues we identified those that differ between COVID-19 and SARS-CoV main protease, located on the C44-P52 loop (Supplementary Figure S4) and the F185-T201 linker loop",
+        "If a substitution of a single nucleotide caused translation to a different amino acid than compared to the corresponding residue in the wild-type structure, an appropriate mutation was proposed with FoldX calculations",
+        "We reported on molecular dynamics simulations of the main protease (Mpro), whose crystal structure has been recently released",
+        "In spite of a high level of sequence similarity between these two homologous proteins, their active sites show major differences in both shape and size indicating that repurposing SARS-CoV drugs for COVID-19 may be futile",
+        "The AMBER 18 LEaP40 was used to immerse models in a truncated octahedral box of TIP3P water molecules and prepare the systems for simulation using the ff14SB force field[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]",
+        "4 and 3 Na + ions were added to the COVID-19 and to the SARS, respectively",
+        "The Packmol software[<a class=\"ref-link\" id=\"c46\" href=\"#r46\">46</a>] was used to build the initial systems consisting of protein, water, and particular cosolvent molecules. 4 and 3 Na+ ions were added to the COVID-19 main protease and to the SARS-CoV main protease, respectively",
+        "If a substitution of a single nucleotide caused translation to a different amino acid than the corresponding residue in the wild-type structure, an appropriate mutation was proposed with FoldX software"
+    ],
+    "top_statements": [
+        "In early December 2019, the first atypical pneumonia outbreak associated with the novel coronavirus of zoonotic origin (COVID-19) appeared in Wuhan City, Hubei Province, China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "Investigations to determine the origins of the infection are still ongoing, increasing evidence demonstrates a link between the COVID-19 and other similar known coronaviruses circulating in bats",
+        "Based on the phylogenetic analysis of the genomic data of COVID-19, Zhang et al indicated that the COVID-19 is most closely related to two SARS-CoV sequences isolated from bats in 2015 and 2017",
+        "The COVID-19 main protease and SARSCoV main protease structures differ by only 12 amino acids located mostly on the proteins\u2019 surface (Figure 1A, Supplementary Table S1)",
+        "Both enzymes share the same structural composition; they comprise three domains: domains I and II consist of an antiparallel \u03b2-barrel, and the \u03b1-helical domain III is required for the enzymatic activity[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Both enzymes resemble the structure of cysteine proteases, their active site is lacking the third catalytic residue[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]; their active site comprises a catalytic dyad, namely H41 and C145, and a stable water molecule forms at least three hydrogen bond interactions with surrounding residues, including the catalytic histidine, which corresponds to the position of a third catalytic member (Figure 1B)",
+        "We reported on molecular dynamics simulations of the main protease (Mpro), whose crystal structure has been recently released"
+    ],
+    "headline": "The COVID-19 main protease and SARSCoV main protease structures differ by only 12 amino acids located mostly on the proteins\u2019 surface",
+    "contexts": [],
+    "abbreviations": {
+        "Mpro": "main protease",
+        "ORFs": "open reading frames",
+        "cMD": "classical molecular dynamics simulations",
+        "MixMD": "mixed-solvents MD simulations",
+        "PDB": "Protein Data Bank",
+        "SBDD": "Structure-Based Drug Design",
+        "AQ": "AQUA-DUCT 1.0"
+    }
+}

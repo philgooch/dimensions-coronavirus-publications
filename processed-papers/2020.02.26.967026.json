@@ -1,0 +1,463 @@
+{
+    "filename": "2020.02.26.967026.1.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 289041,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.26.967026",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/03/02/2020.02.26.967026.1.full.pdf"
+        },
+        "title": "CRISPR-based surveillance for COVID-19 using genomically-comprehensive machine learning design",
+        "date": 2020,
+        "author": "Hayden C. Metsky, Catherine A. Freije, Tinna-Solveig F. Kosoko-Thoroddsen, Pardis C. Sabeti, Cameron Myhrvold",
+        "affiliations": [
+            "Broad Institute of Massachusetts Institute of Technology (MIT) and Harvard, Cambridge, MA, USA. \u200b2\u200bDepartment of Electrical Engineering and Computer Science, MIT, Cambridge, MA, USA. \u200b3\u200bProgram in Virology, Harvard Medical School, Boston, MA, USA. \u200b4\u200bDepartment of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA. \u200b5\u200bHoward Hughes Medical Institute, Chevy Chase, MD, USA. \u200b6\u200bHarvard T.H. Chan School of Public Health, Boston, MA, USA.",
+            "Correspondence to: H.C.M. (hmetsky@broadinstitute.org) and C.M. (cmyhrvol@broadinstitute.org)."
+        ],
+        "abstract": "The emergence and outbreak of SARS-CoV-2, the causative agent of COVID-19, has rapidly become a global concern and has highlighted the need for fast, sensitive, and specific tools to surveil circulating viruses. Here we provide assay designs and experimental resources, for use with CRISPR-based nucleic acid detection, that could be valuable for ongoing surveillance. We provide assay designs for detection of 67 viral species and subspecies, including: SARS-CoV-2, phylogenetically-related viruses, and viruses with similar clinical presentation. The designs are outputs of algorithms that we are developing for rapidly designing nucleic acid detection assays that are comprehensive across genomic diversity and predicted to be highly sensitive and specific. Of our design set, we experimentally screened 4 SARS-CoV-2 designs with a CRISPR-Cas13 detection system and then extensively tested the highest-performing SARS-CoV-2 assay. We demonstrate the sensitivity and speed of this assay using synthetic targets with fluorescent and lateral flow detection. Moreover, our provided protocol can be extended for testing the other 66 provided designs. Assay designs are available at https://adapt.sabetilab.org/.",
+        "references": "@article{zhou2020a,\n  author = {Zhou, P. and Yang, X.-L. and Wang, X.-G. and Hu, B. and Zhang, L. and Zhang, W.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  date = {2020},\n  doi = {doi: 10.1038/s41586-020-2012-7},\n  more-authors = {true},\n  language = {}\n}\n@misc{unknown2020a,\n  title = {V-Respiratory probe set},\n  date = {2020},\n  url = {https://github.com/broadinstitute/catch/tree/master/probe-designs},\n  language = {}\n}\n@article{metsky2019a,\n  author = {Metsky, H.C. and Siddle, K.J. and Gladden-Young, A. and Qu, J. and Yang, D.K. and Brehio, P.},\n  title = {Capturing sequence diversity in metagenomes with comprehensive and scalable probe design},\n  journal = {Nat Biotechnol},\n  date = {2019},\n  volume = {37},\n  pages = {160\u2013168},\n  doi = {doi: 10.1038/s41587-018-0006-x},\n  more-authors = {true},\n  language = {}\n}\n@misc{li-a,\n  author = {Li, B. and Si, H.-R. and Zhu, Y. and Yang, X.-L. and Anderson, D.E. and Shi, Z.-L.},\n  title = {Discovery of Bat Coronaviruses through Surveillance and Probe Capture-Based Next-Generation Sequencing. mSphere},\n  doi = {2020; 5. doi: 10.1128/mSphere.00807-19},\n  more-authors = {true},\n  language = {}\n}\n@incollection{wee-a,\n  author = {Wee, S.-L.},\n  title = {As Deaths Mount, China Tries to Speed Up Coronavirus Testing},\n  source = {The New York Times. 9},\n  url = {https://www.nytimes.com/2020/02/09/world/asia/china-coronavirus-tests.html.},\n  unmatched-accessed = {Accessed 24 Feb 2020.},\n  language = {},\n  urldate = {Feb 2020. Available:}\n}\n@article{myhrvold2018a,\n  author = {Myhrvold, C. and Freije, C.A. and Gootenberg, J.S. and Abudayyeh, O.O. and Metsky, H.C. and Durbin, A.F.},\n  title = {Field-deployable viral diagnostics using CRISPR-Cas13},\n  journal = {Science},\n  date = {2018},\n  volume = {360},\n  pages = {444\u2013448},\n  doi = {doi: 10.1126/science.aas8836},\n  more-authors = {true},\n  language = {}\n}\n@article{wang-a,\n  author = {Wang, M. and Wu, Q. and Xu, W. and Qiao, B. and Wang, J. and Zheng, H.},\n  title = {Clinical diagnosis of 8274 samples with 2019-novel coronavirus in Wuhan},\n  journal = {Infectious Diseases},\n  publisher = {except HIV/AIDS). medRxiv; 2020},\n  doi = {doi: 10.1101/2020.02.12.20022327},\n  more-authors = {true},\n  language = {}\n}\n@article{gootenberg2017a,\n  author = {Gootenberg, J.S. and Abudayyeh, O.O. and Lee, J.W. and Essletzbichler, P. and Dy, A.J. and Joung, J.},\n  title = {Nucleic acid detection with CRISPR-Cas13a/C2c2},\n  journal = {Science},\n  date = {2017},\n  volume = {356},\n  pages = {438\u2013442},\n  doi = {doi: 10.1126/science.aam9321},\n  more-authors = {true},\n  language = {}\n}\n@article{gootenberg2018a,\n  author = {Gootenberg, J.S. and Abudayyeh, O.O. and Kellner, M.J. and Joung, J. and Collins, J.J. and Zhang, F.},\n  title = {Multiplexed and portable nucleic acid detection platform with Cas13, Cas12a, and Csm6},\n  journal = {Science},\n  date = {2018},\n  volume = {360},\n  pages = {439\u2013444},\n  doi = {doi: 10.1126/science.aaq0179},\n  language = {}\n}\n@article{chen2018a,\n  author = {Chen, J.S. and Ma, E. and Harrington, L.B. and Da Costa, M. and Tian, X. and Palefsky, J.M.},\n  title = {CRISPR-Cas12a target binding unleashes indiscriminate single-stranded DNase activity},\n  journal = {Science},\n  date = {2018},\n  volume = {360},\n  pages = {436\u2013439},\n  doi = {doi: 10.1126/science.aar6245},\n  more-authors = {true},\n  language = {}\n}\n@misc{broughton-a,\n  author = {Broughton, James P. and Deng, Wayne and Fasching, Clare L. and Singh, Jasmeet and Chiu, Charles Y. and Chen, Janice S.},\n  title = {A protocol for rapid detection of the 2019 novel coronavirus SARS-CoV-2 using CRISPR diagnostics: SARS-CoV-2 DETECTR. 2020},\n  url = {https://mammoth.bio/wp-content/uploads/2020/02/A-protocol-for-rapid-detection-of-the-2019-no},\n  language = {}\n}\n@misc{zhang-a,\n  author = {Zhang, Feng and Abudayyeh, Omar O. and Gootenberg, Jonathan S.},\n  title = {A protocol for detection of COVID-19 using CRISPR diagnostics},\n  url = {https://www.broadinstitute.org/files/publications/special/COVID-19%20detection%20},\n  language = {}\n}\n@article{shu2017a,\n  author = {Shu, Y. and McCauley, J.},\n  title = {GISAID: Global initiative on sharing all influenza data - from vision to reality},\n  journal = {Euro Surveill},\n  date = {2017},\n  volume = {22},\n  doi = {doi: 10.2807/1560-7917. ES.2017.22.13.30494},\n  language = {}\n}\n@article{hou-a,\n  author = {Hou, T. and Zeng, W. and Yang, M. and Chen, W. and Ren, L. and Ai, J.},\n  title = {Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus},\n  journal = {Infectious Diseases},\n  publisher = {except HIV/AIDS). medRxiv; 2020},\n  doi = {doi: 10.1101/2020.02.22.20025460},\n  more-authors = {true},\n  language = {}\n}\n@article{kellner2019a,\n  author = {Kellner, M.J. and Koob, J.G. and Gootenberg, J.S. and Abudayyeh, O.O. and Zhang, F.},\n  title = {SHERLOCK: nucleic acid detection with CRISPR nucleases},\n  journal = {Nat Protoc},\n  date = {2019},\n  volume = {14},\n  pages = {2986\u20133012},\n  doi = {doi: 10.1038/s41596-019-0210-2},\n  language = {}\n}\n",
+        "links": [
+            "https://adapt.sabetilab.org/"
+        ],
+        "emails": [
+            "hmetsky@broadinstitute.org",
+            "cmyhrvol@broadinstitute.org"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Zhou, P.\nAU  - Yang, X.-L.\nAU  - Wang, X.-G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nPY  - 2020\nDA  - 2020\nDO  - 10.1038/s41586-020-2012-7\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nTI  - V-Respiratory probe set\nPY  - 2020\nDA  - 2020\nUR  - https://github.com/broadinstitute/catch/tree/master/probe-designs\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Metsky, H.C.\nAU  - Siddle, K.J.\nAU  - Gladden-Young, A.\nAU  - Qu, J.\nAU  - Yang, D.K.\nAU  - Brehio, P.\nTI  - Capturing sequence diversity in metagenomes with comprehensive and scalable probe design\nT2  - Nat Biotechnol\nPY  - 2019\nDA  - 2019\nVL  - 37\nSP  - 160\nEP  - 168\nDO  - 10.1038/s41587-018-0006-x\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Li, B.\nAU  - Si, H.-R.\nAU  - Zhu, Y.\nAU  - Yang, X.-L.\nAU  - Anderson, D.E.\nAU  - Shi, Z.-L.\nTI  - Discovery of Bat Coronaviruses through Surveillance and Probe Capture-Based Next-Generation Sequencing. mSphere\nDO  - 2020; 5. doi: 10.1128/mSphere.00807-19\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Wee, S.-L.\nTI  - As Deaths Mount, China Tries to Speed Up Coronavirus Testing\nT2  - The New York Times. 9\nUR  - https://www.nytimes.com/2020/02/09/world/asia/china-coronavirus-tests.html.\nC1  - Accessed 24 Feb 2020.\nLA  - \nC1  - Feb 2020. Available:\nER  - \n\nTY  - JOUR\nAU  - Myhrvold, C.\nAU  - Freije, C.A.\nAU  - Gootenberg, J.S.\nAU  - Abudayyeh, O.O.\nAU  - Metsky, H.C.\nAU  - Durbin, A.F.\nTI  - Field-deployable viral diagnostics using CRISPR-Cas13\nT2  - Science\nPY  - 2018\nDA  - 2018\nVL  - 360\nSP  - 444\nEP  - 448\nDO  - 10.1126/science.aas8836\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, M.\nAU  - Wu, Q.\nAU  - Xu, W.\nAU  - Qiao, B.\nAU  - Wang, J.\nAU  - Zheng, H.\nTI  - Clinical diagnosis of 8274 samples with 2019-novel coronavirus in Wuhan\nT2  - Infectious Diseases\nPB  - except HIV/AIDS). medRxiv; 2020\nDO  - 10.1101/2020.02.12.20022327\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gootenberg, J.S.\nAU  - Abudayyeh, O.O.\nAU  - Lee, J.W.\nAU  - Essletzbichler, P.\nAU  - Dy, A.J.\nAU  - Joung, J.\nTI  - Nucleic acid detection with CRISPR-Cas13a/C2c2\nT2  - Science\nPY  - 2017\nDA  - 2017\nVL  - 356\nSP  - 438\nEP  - 442\nDO  - 10.1126/science.aam9321\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gootenberg, J.S.\nAU  - Abudayyeh, O.O.\nAU  - Kellner, M.J.\nAU  - Joung, J.\nAU  - Collins, J.J.\nAU  - Zhang, F.\nTI  - Multiplexed and portable nucleic acid detection platform with Cas13, Cas12a, and Csm6\nT2  - Science\nPY  - 2018\nDA  - 2018\nVL  - 360\nSP  - 439\nEP  - 444\nDO  - 10.1126/science.aaq0179\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, J.S.\nAU  - Ma, E.\nAU  - Harrington, L.B.\nAU  - Da Costa, M.\nAU  - Tian, X.\nAU  - Palefsky, J.M.\nTI  - CRISPR-Cas12a target binding unleashes indiscriminate single-stranded DNase activity\nT2  - Science\nPY  - 2018\nDA  - 2018\nVL  - 360\nSP  - 436\nEP  - 439\nDO  - 10.1126/science.aar6245\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Broughton, James P.\nAU  - Deng, Wayne\nAU  - Fasching, Clare L.\nAU  - Singh, Jasmeet\nAU  - Chiu, Charles Y.\nAU  - Chen, Janice S.\nTI  - A protocol for rapid detection of the 2019 novel coronavirus SARS-CoV-2 using CRISPR diagnostics: SARS-CoV-2 DETECTR. 2020\nUR  - https://mammoth.bio/wp-content/uploads/2020/02/A-protocol-for-rapid-detection-of-the-2019-no\nLA  - \nER  - \n\nTY  - GEN\nAU  - Zhang, Feng\nAU  - Abudayyeh, Omar O.\nAU  - Gootenberg, Jonathan S.\nTI  - A protocol for detection of COVID-19 using CRISPR diagnostics\nUR  - https://www.broadinstitute.org/files/publications/special/COVID-19%20detection%20\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shu, Y.\nAU  - McCauley, J.\nTI  - GISAID: Global initiative on sharing all influenza data - from vision to reality\nT2  - Euro Surveill\nPY  - 2017\nDA  - 2017\nVL  - 22\nDO  - 10.2807/1560-7917. ES.2017.22.13.30494\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hou, T.\nAU  - Zeng, W.\nAU  - Yang, M.\nAU  - Chen, W.\nAU  - Ren, L.\nAU  - Ai, J.\nTI  - Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus\nT2  - Infectious Diseases\nPB  - except HIV/AIDS). medRxiv; 2020\nDO  - 10.1101/2020.02.22.20025460\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kellner, M.J.\nAU  - Koob, J.G.\nAU  - Gootenberg, J.S.\nAU  - Abudayyeh, O.O.\nAU  - Zhang, F.\nTI  - SHERLOCK: nucleic acid detection with CRISPR nucleases\nT2  - Nat Protoc\nPY  - 2019\nDA  - 2019\nVL  - 14\nSP  - 2986\nEP  - 3012\nDO  - 10.1038/s41596-019-0210-2\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "A summary of the species and subspecies constituting the 67 designs at https://adapt.sabetilab.org/. SARS-CoV-2 is designed to exclude detection of the highly similar RaTG13 sequence, and other similar bat and pangolin SARS-like coronaviruses; the SARS-like subspecies includes most bat and pangolin SARS-like coronaviruses"
+            },
+            {
+                "id": "Supplementary 1",
+                "caption": "Primer, target, and crRNA sequences for the SARS-CoV-2 assay"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Testing an assay for SARS-CoV-2 using synthetic RNA targets. We show data from both fluorescent (a) and lateral flow detection (b). Target concentrations (in cp/\u03bcl) are indicated. RPA NTC: water input into RPA; Det NTC: water input into Cas13 detection reaction. In (a), error bars indicate one standard deviation based on n=3 technical replicates"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.26.967026.1.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.26.967026.1.full/img-000.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "A novel Severe acute respiratory syndrome-related coronavirus, SARS-CoV-2 (family: Coronaviridae), is the virus behind a severe outbreak originating in China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. SARS-CoV-2 surveillance is essential to slowing widespread transmission. In January 2020, we quickly made available a capture enrichment panel [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] using CATCH [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] that is aimed at enhancing sequencing of SARS-CoV-2 and other respiratory viruses. Capture has also been important for ongoing SARS-like coronavirus surveillance [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and the panel\u2019s inclusion of SARS-like bat and pangolin coronaviruses can aid surveillance efforts.<br/><br/>There are several challenges associated with surveillance during the current SARS-CoV-2 outbreak. First, high case counts overwhelm diagnostic testing capacity, underscoring the need for a rapid pipeline for sample processing [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Second, SARS-CoV-2 is closely related to other important coronavirus subspecies and species, so detection assays can yield false positives if they are not exquisitely specific to SARS-CoV-2. Third, suspected SARS-CoV-2 patients sometimes have a different respiratory viral infection or have co-infections with SARS-CoV-2 and other respiratory viruses [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. Therefore, it is important to characterize these other pathogens, for both patient diagnostics and outbreak response."
+        ],
+        "results": [
+            "Designs for single assay and multiplex panels<br/><br/>We have been developing algorithms and machine learning models for rapidly designing nucleic acid detection assays, linked in a system called ADAPT (manuscript in preparation). The designs satisfy several constraints, including on:<br/><br/>\u25cf Comprehensiveness: Assays account for a high fraction of known sequence diversity in their species or subspecies (>97% for most assays), and are meant to be effective against variable targets.<br/><br/>\u25cf Predicted sensitivity: Assays are predicted by our machine learning model to have high detection activity against the full scope of targeted genomic diversity (here, based on LwaCas13a activity only).<br/><br/>\u25cf Predicted specificity: Assays have high predicted specificity to their species or subspecies, factoring in the full extent of known strain diversity, allowing them to be grouped into panels that are accurate in differentiating between related taxa.<br/><br/>Comprehensiveness and\u2014to some extent\u2014specificity of the designs can be verified in silico.<br/><br/>Using ADAPT we designed 67 assays, satisfying the above constraints, to identify: the SARS-related coronavirus species; SARS-CoV-2; two other subspecies in that species with high similarity to SARS-CoV-2; all other known Coronaviridae species, including 4 other species that commonly cause human illness; and other common respiratory viral species and subspecies (Table 1\u200b). Each assay targets a single species or subspecies and can be used individually (e.g., point-of-care detection); additionally, owing to how they are designed, multiple assays can be grouped together to test for multiple targets and distinguish them with high specificity.<br/><br/>Sequences for single assays and multiplex panels are available at https://adapt.sabetilab.org/."
+        ],
+        "discussion": [
+            "Ongoing SARS-CoV-2 sequencing is key to developing and monitoring diagnostics and similar surveillance tools. In the case of the SARS-CoV-2 outbreak, genomes have been generated and shared at a remarkable pace, and we thank those who have contributed their data through GISAID [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. We and others, relying on this data [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], have shown that it is possible to rapidly design CRISPR-based tools for detection and surveillance during an outbreak. Among other goals for this work, we plan to evaluate: (1) sensitivity of the SARS-CoV-2 assay against clinical isolates and patient samples\u2014including sputum, throat, and nasal swabs\u2014some of which may be challenging sample types to test; (2) specificity at both the species and subspecies levels against highly related viruses. For the latter, we intend to use a mixture of synthetic targets reflecting different viral sequences, and patient samples or viral seedstocks when available. We hope that the comprehensiveness and high predicted sensitivity and specificity of our designs will enable many groups to proceed rapidly and successfully from assay testing through deployment."
+        ],
+        "acknowledgements": [
+            "We thank Brittany Petros, Christopher Tomkins-Tinch, Molly Kemball, and Megan Vodzak for their contributions and help, and other members of the Sabeti lab for helpful conversations related to this work. Funding was provided by HHMI and DARPA D18AC00006.<br/><br/>We also wish to thank the following labs that have generously made available SARS-CoV-2 samples and genome sequences via GISAID:<br/><br/>\u25cf Amalea Dulcene Nicolasora Research Institute for Tropical Medicine, Molecular Biology Laboratory<br/><br/>\u25cf Arizona Department of Health Services \u25cf Bamrasnaradura Hospital \u25cf Beijing Genomics Institute (BGI) \u25cf Beijing Institute of Microbiology and Epidemiology \u25cf BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First<br/><br/>Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China \u25cf California Department of Public Health \u25cf Centers for Disease Control, R.O.C. (Taiwan) \u25cf Centre for Infectious Diseases and Microbiology Laboratory Services \u25cf Charit\u00e9 Universit\u00e4tsmedizin Berlin, Institute of Virology \u25cf Chongqing Municipal Center for Disease Control and Prevention \u25cf CNR Virus des Infections Respiratoires - France SUD \u25cf Collaboration between the University of Melbourne at The Peter Doherty Institute for Infection and Immunity, and the Victorian Infectious Disease Reference Laboratory \u25cf Department of Disease Control, Ministry of Public Health, Thailand \u25cf Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris \u25cf Department of Laboratory Medicine, Lin-Kou Chang Gung Memorial Hospital, Taoyuan, Taiwan. \u25cf Department of Laboratory Medicine, National Taiwan University Hospital \u25cf Department of Medical Sciences, Ministry of Public Health, Thailand \u25cf Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention \u25cf Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention \u25cf Department of Virology III, National Institute of Infectious Diseases \u25cf Department of Virology, University of Helsinki and Helsinki University Hospital, Helsinki, Finland \u25cf Dept. of Pathology, National Institute of Infectious Diseases \u25cf Division of Viral Diseases, Centers for Disease Control and Prevention \u25cf Fujian Center for Disease Control and Prevention \u25cf General Hospital of Central Theater Command of People's Liberation Army of China \u25cf Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health \u25cf Hangzhou Center for Disease Control and Prevention \u25cf Hong Kong Department of Health \u25cf Hubei Provincial Center for Disease Control and Prevention \u25cf Illinois Department of Public Health Chicago Laboratory \u25cf INMI Lazzaro Spallanzani IRCCS \u25cf Institut f\u00fcr Mikrobiologie der Bundeswehr, Munich \u25cf Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College \u25cf Institute of Viral Disease Control and Prevention, China CDC \u25cf Jiangsu Provincial Center for Disease Control & Prevention \u25cf Joanna Ina Manalo Research Institute for Tropical Medicine, Molecular Biology Laboratory \u25cf Korea Centers for Disease Control & Prevention (KCDC) Center for Laboratory Control of Infectious Diseases Division of Viral Diseases \u25cf KU Leuven, Clinical and Epidemiological Virology \u25cf Laboratoire Virpath, CIRI U111, UCBL1, INSERM, CNRS, ENS Lyon \u25cf Laboratory of Virology, INMI Lazzaro Spallanzani IRCCS \u25cf Lapland Central Hospital \u25cf Li Ka Shing Faculty of Medicine, The University of Hong Kong \u25cf Massachusetts Department of Public Health \u25cf Microbial Genomics Core Lab, National Taiwan University Centers of Genomic and Precision Medicine<br/><br/>\u25cf Monash Medical Centre \u25cf National Centre for Infectious Diseases \u25cf National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal \u25cf National Institute for Communicable Disease Control and Prevention (ICDC)<br/><br/>Chinese Center for Disease Control and Prevention (China CDC) \u25cf National Institute for Viral Disease Control & Prevention, China CDC \u25cf National Public Health Laboratory, National Centre for Infectious Diseases \u25cf National Reference Center for Viruses of Respiratory Infections, Institut Pasteur, Paris \u25cf NHC Key laboratory of Enteric Pathogenic Microbiology, Institute of Pathogenic<br/><br/>Microbiology \u25cf NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney \u25cf Pamela Youde Nethersole Eastern Hospital \u25cf Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Disease Control and Prevention \u25cf Pathogen Genomics Center, National Institute of Infectious Diseases \u25cf Pathology Queensland \u25cf Prince of Wales Hospital (PWH) \u25cf Princess Margaret Hospital (PMH) \u25cf Programme in Emerging Infectious Diseases, Duke-NUS Medical School \u25cf Providence Regional Medical Center \u25cf Public Health Virology Laboratory \u25cf Queen Elizabeth Hospital (QEH) \u25cf Queen Mary Hospital (QMH) \u25cf Respiratory Virus Unit, Microbiology Services Colindale, Public Health England \u25cf Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology<br/><br/>Randwick \u25cf Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research<br/><br/>Center for Infectious Disease, Shenzhen Third People's Hospital \u25cf Singapore General Hospital, Molecular Laboratory, Division of Pathology \u25cf Sorbonne Universit\u00e9, Inserm et Assistance Publique-H\u00f4pitaux de Paris (Piti\u00e9<br/><br/>Salp\u00eatri\u00e8re) \u25cf South China Agricultural University \u25cf State Key Laboratory of Virology, Wuhan University \u25cf Taiwan Centers for Disease Control \u25cf Texas Department of State Health Services \u25cf Thai Red Cross Emerging Infectious Diseases - Health Science Centre \u25cf The University of Hong Kong - Shenzhen Hospital \u25cf Tuen Mun Hospital (TMH) \u25cf Unit for Laboratory Development and Technology Transfer, Public Health"
+        ],
+        "disclosures": [
+            "H.C.M., C.A.F., P.C.S., and C.M. are inventors on patent filings related to this work. P.C.S. is a co-founder of, shareholder in, and advisor to Sherlock Biosciences, Inc, as well as a Board member of and shareholder in Danaher Corporation."
+        ],
+        "methods": [
+            "SHERLOCK protocol for SARS-CoV-2<br/><br/>Isothermal amplification (RT-RPA)<br/><br/>List of equipment and materials \u25cf Heat block, water bath, or thermocycler, prewarmed to 41 \u00b0C \u25cf RevertAid Reverse Transcriptase (Thermo) \u25cf RNase inhibitor (NEB Murine) \u25cf Primer mix @ 5 \u03bcM of each primer (see Supplementary Table 1 for primer sequences) \u25cf Synthetic DNA or RNA target (see Supplementary Table 1 for sequences), or extracted RNA from a viral seedstock or patient sample \u25cf Rehydration buffer, lyophilized RPA pellets, MgAc @ 280 mM from RPA kit (TwistAmp Basic kit, TwistDx) \u25cf Nuclease-free water<br/><br/>Reagent Rehydration buffer RPA primer mix Nuclease-free water RNase inhibitors RevertAid RT Magnesium Acetate (MgAc)<br/><br/>Initial concentration N/A 5 \u03bcM of each primer N/A 40 U/\u03bcl 200 U/\u03bcl 280 mM<br/><br/>Amount to add for N RPA pellets 29.5 \u2715N \u03bcl 4.8 \u2715N \u03bcl 2.1 \u2715N \u03bcl 5 \u2715N \u03bcl N \u03bcl 3.04 \u2715N \u03bcl<br/><br/>Step by step protocol<br/><br/>1. Determine the number of pellets needed based on the size of the experiment (2 samples per pellet, if doing 20 \u03bcl RPA reactions).<br/><br/>2. Make a master mix for N pellets, consisting of Rehydration buffer, RPA primer mix, water, RNase inhibitors, and RevertAid RT. Do not include MgAc at this step.<br/><br/>3. Resuspend each RPA pellet using the total volume for 1 RPA pellet (~30 \u03bcl) of master mix.<br/><br/>4. Add the MgAc to the master mix. Keep the master mix on ice."
+        ],
+        "supplementary": [
+            "Information    Name    Sequence<br/><br/>RPA forward primer gaaatTAATACGACTCACTATAgggCCAAGGTAAACCTTTGGAATTTG GTGCCAC<br/><br/>RPA reverse primer actatcatcatctaaccaatcttcttcttg<br/><br/>Synthetic DNA target gaaatTAATACGACTCACTATAgggGTGAGTTTAAATTGGCTTCACAT ATGTATTGTTCTTTCTACCCTCCAGATGAGGATGAAGAAGAAGGTGAT TGTGAAGAAGAAGAGTTTGAGCCATCAACTCAATATGAGTATGGTACT GAAGATGATTACCAAGGTAAACCTTTGGAATTTGGTGCCACTTCTGCT GCTCTTCAACCTGAAGAAGAGCAAGAAGAAGATTGGTTAGATGATGAT AGTCAACAAACTGTTGGTCAACAAGACGGCAGTGAGGACAATCAGACA ACTACTATTCAAACAATTGTTGAGGTTCAACCTCAATTAGAGATGGAA CTTACACCAGTTGTTCAGACTATTGAAGTGAATAGTTTTAGTGGTTAT TTAAAACTTACTGACAATGTATACATTAAAAATGCAGACATTGTGGAA GAAGCTAAAAAGGTAAAACCAACAGTGGTTGTTAATGCAGCCAATGTT TACCTTAAACATGGAGGAGG    Cas13 crRNA<br/><br/>GAUUUAGACUACCCCAAAAACGAAGGGGACUAAAACcucuucuucagg uugaagagcagcagaa<br/><br/>Cleavage reporter (lateral flow) /56-FAM/rUrU rUrUrU rUrUrU rUrUrU rUrUrU /3Bio/",
+            "Table 1.Primer, target, and crRNA sequences for the SARS-CoV-2 assay."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary Information"
+            ],
+            "supplementary_figure_references": [
+                "Supplementary Table 1",
+                "Supplementary Table 1.Primer,"
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "The emergence and outbreak of SARS-CoV-2, the causative agent of COVID-19, has rapidly become a global concern and has highlighted the need for fast, sensitive, and specific tools to surveil circulating viruses. Here we provide assay designs and experimental resources, for use with CRISPR-based nucleic acid detection, that could be valuable for ongoing surveillance. We provide assay designs for detection of 67 viral species and subspecies, including: SARS-CoV-2, phylogenetically-related viruses, and viruses with similar clinical presentation. The designs are outputs of algorithms that we are developing for rapidly designing nucleic acid detection assays that are comprehensive across genomic diversity and predicted to be highly sensitive and specific. Of our design set, we experimentally screened 4 SARS-CoV-2 designs with a CRISPR-Cas13 detection system and then extensively tested the highest-performing SARS-CoV-2 assay. We demonstrate the sensitivity and speed of this assay using synthetic targets with fluorescent and lateral flow detection. Moreover, our provided protocol can be extended for testing the other 66 provided designs. Assay designs are available at https://adapt.sabetilab.org/."
+        ],
+        "Introduction": [
+            "A novel Severe acute respiratory syndrome-related coronavirus, SARS-CoV-2 (family: Coronaviridae), is the virus behind a severe outbreak originating in China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. SARS-CoV-2 surveillance is essential to slowing widespread transmission. In January 2020, we quickly made available a capture enrichment panel [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] using CATCH [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] that is aimed at enhancing sequencing of SARS-CoV-2 and other respiratory viruses. Capture has also been important for ongoing SARS-like coronavirus surveillance [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and the panel\u2019s inclusion of SARS-like bat and pangolin coronaviruses can aid surveillance efforts.",
+            "There are several challenges associated with surveillance during the current SARS-CoV-2 outbreak. First, high case counts overwhelm diagnostic testing capacity, underscoring the need for a rapid pipeline for sample processing [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Second, SARS-CoV-2 is closely related to other important coronavirus subspecies and species, so detection assays can yield false positives if they are not exquisitely specific to SARS-CoV-2. Third, suspected SARS-CoV-2 patients sometimes have a different respiratory viral infection or have co-infections with SARS-CoV-2 and other respiratory viruses [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. Therefore, it is important to characterize these other pathogens, for both patient diagnostics and outbreak response.",
+            "Here, we help address the challenge of identifying SARS-CoV-2 and the numerous other respiratory viral pathogens by reporting a set of comprehensive design options for 67 species and subspecies for CRISPR-based detection assays. We have not yet experimentally tested most of these designs, instead focusing our efforts so far on extensively testing a point-of-care assay for SARS-CoV-2 using the Cas13-based SHERLOCK technology [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>,<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Using this assay, we demonstrate sensitive detection of synthetic SARS-CoV-2 RNA at 10 copies per microliter."
+        ],
+        "Results": [
+            "We have been developing algorithms and machine learning models for rapidly designing nucleic acid detection assays, linked in a system called ADAPT (manuscript in preparation). The designs satisfy several constraints, including on:",
+            "\u25cf Comprehensiveness: Assays account for a high fraction of known sequence diversity in their species or subspecies (>97% for most assays), and are meant to be effective against variable targets.",
+            "\u25cf Predicted sensitivity: Assays are predicted by our machine learning model to have high detection activity against the full scope of targeted genomic diversity (here, based on LwaCas13a activity only).",
+            "\u25cf Predicted specificity: Assays have high predicted specificity to their species or subspecies, factoring in the full extent of known strain diversity, allowing them to be grouped into panels that are accurate in differentiating between related taxa.",
+            "Comprehensiveness and\u2014to some extent\u2014specificity of the designs can be verified in silico.",
+            "Using ADAPT we designed 67 assays, satisfying the above constraints, to identify: the SARS-related coronavirus species; SARS-CoV-2; two other subspecies in that species with high similarity to SARS-CoV-2; all other known Coronaviridae species, including 4 other species that commonly cause human illness; and other common respiratory viral species and subspecies (Table 1\u200b). Each assay targets a single species or subspecies and can be used individually (e.g., point-of-care detection); additionally, owing to how they are designed, multiple assays can be grouped together to test for multiple targets and distinguish them with high specificity.",
+            "Sequences for single assays and multiplex panels are available at https://adapt.sabetilab.org/.",
+            "Severe acute respiratory syndrome-related coronavirus(all known strain diversity)",
+            "We initially screened a set of 4 designs for SHERLOCK [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>,<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] assays, output by ADAPT to detect SARS-CoV-2. We identified an assay, which was the best-performing and also our highest ranked design a priori. We extensively tested this assay using a synthetic RNA target and determined the limit of detection to be 10 copies/\u03bcl using both fluorescent and lateral flow detection (Figure 1\u200b). This assay performs well in comparison to the recently disclosed DETECTR [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] assay (sensitivity: 70\u2013300 cp/\u03bcl) [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] and SHERLOCK assay (10\u2013100 cp/\u03bcl) [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>] for SARS-CoV-2. A protocol for performing this assay is provided in the Methods section and can be used for testing any of the other designs we have provided."
+        ],
+        "Discussion": [
+            "Ongoing SARS-CoV-2 sequencing is key to developing and monitoring diagnostics and similar surveillance tools. In the case of the SARS-CoV-2 outbreak, genomes have been generated and shared at a remarkable pace, and we thank those who have contributed their data through GISAID [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. We and others, relying on this data [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], have shown that it is possible to rapidly design CRISPR-based tools for detection and surveillance during an outbreak. Among other goals for this work, we plan to evaluate: (1) sensitivity of the SARS-CoV-2 assay against clinical isolates and patient samples\u2014including sputum, throat, and nasal swabs\u2014some of which may be challenging sample types to test; (2) specificity at both the species and subspecies levels against highly related viruses. For the latter, we intend to use a mixture of synthetic targets reflecting different viral sequences, and patient samples or viral seedstocks when available. We hope that the comprehensiveness and high predicted sensitivity and specificity of our designs will enable many groups to proceed rapidly and successfully from assay testing through deployment."
+        ],
+        "Acknowledgements": [
+            "We thank Brittany Petros, Christopher Tomkins-Tinch, Molly Kemball, and Megan Vodzak for their contributions and help, and other members of the Sabeti lab for helpful conversations related to this work. Funding was provided by HHMI and DARPA D18AC00006.",
+            "We also wish to thank the following labs that have generously made available SARS-CoV-2 samples and genome sequences via GISAID:",
+            "\u25cf Amalea Dulcene Nicolasora Research Institute for Tropical Medicine, Molecular Biology Laboratory",
+            "\u25cf Arizona Department of Health Services \u25cf Bamrasnaradura Hospital \u25cf Beijing Genomics Institute (BGI) \u25cf Beijing Institute of Microbiology and Epidemiology \u25cf BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First",
+            "Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China \u25cf California Department of Public Health \u25cf Centers for Disease Control, R.O.C. (Taiwan) \u25cf Centre for Infectious Diseases and Microbiology Laboratory Services \u25cf Charit\u00e9 Universit\u00e4tsmedizin Berlin, Institute of Virology \u25cf Chongqing Municipal Center for Disease Control and Prevention \u25cf CNR Virus des Infections Respiratoires - France SUD \u25cf Collaboration between the University of Melbourne at The Peter Doherty Institute for Infection and Immunity, and the Victorian Infectious Disease Reference Laboratory \u25cf Department of Disease Control, Ministry of Public Health, Thailand \u25cf Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris \u25cf Department of Laboratory Medicine, Lin-Kou Chang Gung Memorial Hospital, Taoyuan, Taiwan. \u25cf Department of Laboratory Medicine, National Taiwan University Hospital \u25cf Department of Medical Sciences, Ministry of Public Health, Thailand \u25cf Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention \u25cf Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention \u25cf Department of Virology III, National Institute of Infectious Diseases \u25cf Department of Virology, University of Helsinki and Helsinki University Hospital, Helsinki, Finland \u25cf Dept. of Pathology, National Institute of Infectious Diseases \u25cf Division of Viral Diseases, Centers for Disease Control and Prevention \u25cf Fujian Center for Disease Control and Prevention \u25cf General Hospital of Central Theater Command of People's Liberation Army of China \u25cf Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health \u25cf Hangzhou Center for Disease Control and Prevention \u25cf Hong Kong Department of Health \u25cf Hubei Provincial Center for Disease Control and Prevention \u25cf Illinois Department of Public Health Chicago Laboratory \u25cf INMI Lazzaro Spallanzani IRCCS \u25cf Institut f\u00fcr Mikrobiologie der Bundeswehr, Munich \u25cf Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College \u25cf Institute of Viral Disease Control and Prevention, China CDC \u25cf Jiangsu Provincial Center for Disease Control & Prevention \u25cf Joanna Ina Manalo Research Institute for Tropical Medicine, Molecular Biology Laboratory \u25cf Korea Centers for Disease Control & Prevention (KCDC) Center for Laboratory Control of Infectious Diseases Division of Viral Diseases \u25cf KU Leuven, Clinical and Epidemiological Virology \u25cf Laboratoire Virpath, CIRI U111, UCBL1, INSERM, CNRS, ENS Lyon \u25cf Laboratory of Virology, INMI Lazzaro Spallanzani IRCCS \u25cf Lapland Central Hospital \u25cf Li Ka Shing Faculty of Medicine, The University of Hong Kong \u25cf Massachusetts Department of Public Health \u25cf Microbial Genomics Core Lab, National Taiwan University Centers of Genomic and Precision Medicine",
+            "\u25cf Monash Medical Centre \u25cf National Centre for Infectious Diseases \u25cf National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal \u25cf National Institute for Communicable Disease Control and Prevention (ICDC)",
+            "Chinese Center for Disease Control and Prevention (China CDC) \u25cf National Institute for Viral Disease Control & Prevention, China CDC \u25cf National Public Health Laboratory, National Centre for Infectious Diseases \u25cf National Reference Center for Viruses of Respiratory Infections, Institut Pasteur, Paris \u25cf NHC Key laboratory of Enteric Pathogenic Microbiology, Institute of Pathogenic",
+            "Microbiology \u25cf NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney \u25cf Pamela Youde Nethersole Eastern Hospital \u25cf Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Disease Control and Prevention \u25cf Pathogen Genomics Center, National Institute of Infectious Diseases \u25cf Pathology Queensland \u25cf Prince of Wales Hospital (PWH) \u25cf Princess Margaret Hospital (PMH) \u25cf Programme in Emerging Infectious Diseases, Duke-NUS Medical School \u25cf Providence Regional Medical Center \u25cf Public Health Virology Laboratory \u25cf Queen Elizabeth Hospital (QEH) \u25cf Queen Mary Hospital (QMH) \u25cf Respiratory Virus Unit, Microbiology Services Colindale, Public Health England \u25cf Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology",
+            "Randwick \u25cf Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research",
+            "Center for Infectious Disease, Shenzhen Third People's Hospital \u25cf Singapore General Hospital, Molecular Laboratory, Division of Pathology \u25cf Sorbonne Universit\u00e9, Inserm et Assistance Publique-H\u00f4pitaux de Paris (Piti\u00e9",
+            "Salp\u00eatri\u00e8re) \u25cf South China Agricultural University \u25cf State Key Laboratory of Virology, Wuhan University \u25cf Taiwan Centers for Disease Control \u25cf Texas Department of State Health Services \u25cf Thai Red Cross Emerging Infectious Diseases - Health Science Centre \u25cf The University of Hong Kong - Shenzhen Hospital \u25cf Tuen Mun Hospital (TMH) \u25cf Unit for Laboratory Development and Technology Transfer, Public Health",
+            "Agency of Sweden \u25cf United Christian Hospital \u25cf Virology Laboratory National Institute for Infectious Diseases 'Lazzaro",
+            "Spallanzani' IRCCS \u25cf Virology Laboratory, INMI L. Spallanzani \u25cf Virology Unit, Institut Pasteur du Cambodge \u25cf Washington State Department of Health \u25cf Wisconsin Department of Health Services \u25cf Wuhan Fourth Hospital \u25cf Wuhan Institute of Virology, Chinese Academy of Sciences \u25cf Wuhan Jinyintan Hospital \u25cf Yongchuan District Center for Disease Control and Prevention \u25cf Zhejiang Provincial Center for Disease Control and Prevention \u25cf Zhongxian Center for Disease Control and Prevention",
+            "Conflicts of interest. H.C.M., C.A.F., P.C.S., and C.M. are inventors on patent filings related to this work. P.C.S. is a co-founder of, shareholder in, and advisor to Sherlock Biosciences, Inc, as well as a Board member of and shareholder in Danaher Corporation."
+        ],
+        "Methods": [
+            "List of equipment and materials \u25cf Heat block, water bath, or thermocycler, prewarmed to 41 \u00b0C \u25cf RevertAid Reverse Transcriptase (Thermo) \u25cf RNase inhibitor (NEB Murine) \u25cf Primer mix @ 5 \u03bcM of each primer (see Supplementary Table 1 for primer sequences) \u25cf Synthetic DNA or RNA target (see Supplementary Table 1 for sequences), or extracted RNA from a viral seedstock or patient sample \u25cf Rehydration buffer, lyophilized RPA pellets, MgAc @ 280 mM from RPA kit (TwistAmp Basic kit, TwistDx) \u25cf Nuclease-free water",
+            "Reagent Rehydration buffer RPA primer mix Nuclease-free water RNase inhibitors RevertAid RT Magnesium Acetate (MgAc)",
+            "Amount to add for N RPA pellets 29.5 \u2715N \u03bcl 4.8 \u2715N \u03bcl 2.1 \u2715N \u03bcl 5 \u2715N \u03bcl N \u03bcl 3.04 \u2715N \u03bcl",
+            "1. Determine the number of pellets needed based on the size of the experiment (2 samples per pellet, if doing 20 \u03bcl RPA reactions).",
+            "2. Make a master mix for N pellets, consisting of Rehydration buffer, RPA primer mix, water, RNase inhibitors, and RevertAid RT. Do not include MgAc at this step.",
+            "3. Resuspend each RPA pellet using the total volume for 1 RPA pellet (~30 \u03bcl) of master mix.",
+            "4. Add the MgAc to the master mix. Keep the master mix on ice.",
+            "5. Aliquot the master mix (containing MgAc) into wells of a 96-well plate or strip tubes pre-chilled on ice. For 20 \u03bcl reactions, aliquot 18 \u03bcl of master mix.",
+            "6. Add sample or a control target to each aliquot of master mix (2 \u03bcl, if using 20 \u03bcl reactions), mix thoroughly, and incubate at 41 \u00b0C for 20 minutes.",
+            "\u25cf Heat block, water bath, or thermocycler, prewarmed to 37 \u00b0C \u25cf For visual readout: camera or cell phone with camera; for fluorescent readout:qPCR machine / plate reader capable of detecting FAM \u25cf For fluorescent readout:optical 96-well plate, optical strip-tubes, or black 96-well plate with clear bottom \u25cf 10\u2715 Cleavage buffer (1\u2715 CB is 40 mM Tris pH 7.5, 1 mM DTT) \u25cf RNase inhibitors (NEB Murine) \u25cf Cleavage reporter, for visual readout:IDT for lateral flow (sequences in Supplementary",
+            "Table 1); for fluorescent readout:RNase Alert v2 (Thermo) \u25cf LwaCas13 protein @ 0.5 mg/ml, in 16 ul aliquots, diluted in 1\u2715 Storage buffer (50 mM Tris pH 7.5, 600 mM NaCl, 5% glycerol, 2 mM DTT) [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] \u25cf Cas13 crRNA @ 2 \u03bcM (see Supplementary Table 1 for sequences) \u25cf T7 RNA polymerase (Lucigen NxGen) \u25cf rNTP mix @ 25 mM each (NEB) \u25cf MgCl2\u200b @ 100 mM \u25cf Nuclease-free water",
+            "Reagent Cleavage buffer Nuclease-free water rNTP mix RNase inhibitors Cleavage reporter",
+            "Initial concentration 10\u2715 N/A 25 mM of each nucleotide 40 U/\u03bcl 16 \u03bcM (visual readout) or 2 \u03bcM (fluorescent readout) Diluted in 1\u2715 SB 50 U/\u03bcl 2 \u03bcM 100 mM N/A",
+            "Amount to add for N reactions 2.4 \u2715N \u03bcl 11.22 \u2715N \u03bcl 0.96 \u2715N \u03bcl 1.2 \u2715N \u03bcl 1.5 \u2715N \u03bcl",
+            "Step by step protocol 1. Dilute LwaCas13a by adding 110.5 \u03bcl of 1\u2715 Storage buffer to a 16 \u03bcl aliquot of Cas13 protein (prior to dilution @ 0.5 mg/ml). 2. Prepare a master mix based on the table above, adding the components in the order they are listed in the table. Do not add RPA product at this step.",
+            "3. Aliquot 19 \u03bcl of master mix into wells of a 96-well plate or strip tubes pre-chilled on ice. If using a fluorescent readout and depending on the instrument used, an optical PCR or black plate with a clear base can be used.",
+            "4. Add 1 \u03bcL of RPA product to each master mix aliquot. Seal the plate and incubate at 37 \u00b0C for 30 minutes to 3 hours. For fluorescent readout,measure fluorescence every 5 minutes. For visual readout, see additional details below.",
+            "\u25cf HybriDetect 1 lateral flow strips (Milenia) \u25cf Hybridetect Assay Buffer (Milenia) Step by step protocol 1. After incubation at 37 \u00b0C for 30 minutes to 3 hours, add 80 \u03bcl of Hybridetect Assay Buffer to the total volume of each detection reaction.",
+            "2. Add a lateral flow strip to each well and incubate for 2-5 minutes at room temperature.",
+            "a. Take care to avoid contamination of the strips, by using tweezers to remove individual strips and place in buffer.",
+            "3. Remove strips, place on flat, well-lit surface, and analyze or acquire images of the strips."
+        ],
+        "References": [
+            "1. Zhou P, Yang X-L, Wang X-G, Hu B, Zhang L, Zhang W, et al A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020. doi:\u200b10.1038/s41586-020-2012-7",
+            "2. V-Respiratory probe set (2020-01). Available: https://github.com/broadinstitute/catch/tree/master/probe-designs",
+            "3. Metsky HC, Siddle KJ, Gladden-Young A, Qu J, Yang DK, Brehio P, et al Capturing sequence diversity in metagenomes with comprehensive and scalable probe design. Nat Biotechnol. 2019;37: 160\u2013168. doi:\u200b10.1038/s41587-018-0006-x",
+            "4. Li B, Si H-R, Zhu Y, Yang X-L, Anderson DE, Shi Z-L, et al Discovery of Bat Coronaviruses through Surveillance and Probe Capture-Based Next-Generation Sequencing. mSphere. 2020;5. doi:\u200b10.1128/mSphere.00807-19",
+            "5. Wee S-L. As Deaths Mount, China Tries to Speed Up Coronavirus Testing. The New York Times. 9 Feb 2020. Available: https://www.nytimes.com/2020/02/09/world/asia/china-coronavirus-tests.html. Accessed 24 Feb 2020.",
+            "6. Myhrvold C, Freije CA, Gootenberg JS, Abudayyeh OO, Metsky HC, Durbin AF, et al Field-deployable viral diagnostics using CRISPR-Cas13. Science. 2018;360: 444\u2013448. doi:\u200b10.1126/science.aas8836",
+            "7. Wang M, Wu Q, Xu W, Qiao B, Wang J, Zheng H, et al Clinical diagnosis of 8274 samples with 2019-novel coronavirus in Wuhan. Infectious Diseases (except HIV/AIDS). medRxiv; 2020. doi:\u200b10.1101/2020.02.12.20022327",
+            "8. Gootenberg JS, Abudayyeh OO, Lee JW, Essletzbichler P, Dy AJ, Joung J, et al Nucleic acid detection with CRISPR-Cas13a/C2c2. Science. 2017;356: 438\u2013442. doi:\u200b10.1126/science.aam9321",
+            "9. Gootenberg JS, Abudayyeh OO, Kellner MJ, Joung J, Collins JJ, Zhang F. Multiplexed and portable nucleic acid detection platform with Cas13, Cas12a, and Csm6. Science. 2018;360: 439\u2013444. doi:\u200b10.1126/science.aaq0179",
+            "10. Chen JS, Ma E, Harrington LB, Da Costa M, Tian X, Palefsky JM, et al CRISPR-Cas12a target binding unleashes indiscriminate single-stranded DNase activity. Science. 2018;360: 436\u2013439. doi:\u200b10.1126/science.aar6245",
+            "11. James P. Broughton, Wayne Deng, Clare L. Fasching, Jasmeet Singh, Charles Y. Chiu, Janice S. Chen. A protocol for rapid detection of the 2019 novel coronavirus SARS-CoV-2 using CRISPR diagnostics: SARS-CoV-2 DETECTR. 2020. Available: https://mammoth.bio/wp-content/uploads/2020/02/A-protocol-for-rapid-detection-of-the-2019-no vel-coronavirus-SARS-CoV-2-using-CRISPR-diagnostics-SARS-CoV-2-DETECTR.pdf",
+            "12. Feng Zhang, Omar O. Abudayyeh, Jonathan S. Gootenberg. A protocol for detection of COVID-19 using CRISPR diagnostics. Available: https://www.broadinstitute.org/files/publications/special/COVID-19%20detection%20(updated).pd f",
+            "13. Shu Y, McCauley J. GISAID: Global initiative on sharing all influenza data - from vision to reality. Euro Surveill. 2017;22. doi:\u200b10.2807/1560-7917.ES.2017.22.13.30494",
+            "14. Hou T, Zeng W, Yang M, Chen W, Ren L, Ai J, et al Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus. Infectious Diseases (except HIV/AIDS). medRxiv; 2020. doi:\u200b10.1101/2020.02.22.20025460",
+            "15. Kellner MJ, Koob JG, Gootenberg JS, Abudayyeh OO, Zhang F. SHERLOCK: nucleic acid detection with CRISPR nucleases. Nat Protoc. 2019;14: 2986\u20133012. doi:\u200b10.1038/s41596-019-0210-2",
+            ""
+        ],
+        "Supplementary": []
+    },
+    "participants": [
+        {
+            "participant": "viral species",
+            "number": 67,
+            "context": "Here we provide assay designs and experimental resources, for use with CRISPR-based nucleic acid detection, that could be valuable for ongoing surveillance. <mark class=\"stats\">We provide assay designs for detection of 67 viral species and subspecies, including: SARS-CoV-2, phylogenetically-related viruses, and viruses with similar clinical presentation</mark>. The designs are outputs of algorithms that we are developing for rapidly designing nucleic acid detection assays that are comprehensive across genomic diversity and predicted to be highly sensitive and specific"
+        },
+        {
+            "participant": "samples",
+            "number": 2,
+            "context": "SHERLOCK protocol for SARS-CoV-2<br/><br/>Isothermal amplification (RT-RPA)<br/><br/>List of equipment and materials \u25cf Heat block, water bath, or thermocycler, prewarmed to 41 \u00b0C \u25cf RevertAid Reverse Transcriptase (Thermo) \u25cf RNase inhibitor (NEB Murine) \u25cf Primer mix @ 5 \u03bcM of each primer (see Supplementary Table 1 for primer sequences) \u25cf Synthetic DNA or RNA target (see Supplementary Table 1 for sequences), or extracted RNA from a viral seedstock or patient sample \u25cf Rehydration buffer, lyophilized RPA pellets, MgAc @ 280 mM from RPA kit (TwistAmp Basic kit, TwistDx) \u25cf Nuclease-free water<br/><br/>Reagent Rehydration buffer RPA primer mix Nuclease-free water RNase inhibitors RevertAid RT Magnesium Acetate (MgAc)<br/><br/>Initial concentration N/A 5 \u03bcM of each primer N/A 40 U/\u03bcl 200 U/\u03bcl 280 mM<br/><br/>Amount to add for N RPA pellets 29.5 \u2715N \u03bcl 4.8 \u2715N \u03bcl 2.1 \u2715N \u03bcl 5 \u2715N \u03bcl N \u03bcl 3.04 \u2715N \u03bcl<br/><br/>Step by step protocol<br/><br/>1. <mark class=\"stats\">Determine the number of pellets needed based on the size of the experiment (2 samples per pellet, if doing 20 \u03bcl RPA reactions).<br/><br/>2</mark>. Make a master mix for N pellets, consisting of Rehydration buffer, RPA primer mix, water, RNase inhibitors, and RevertAid RT"
+        },
+        {
+            "participant": "samples",
+            "number": 2,
+            "context": "1. <mark class=\"stats\">Determine the number of pellets needed based on the size of the experiment (2 samples per pellet, if doing 20 \u03bcl RPA reactions)</mark>. 2"
+        },
+        {
+            "participant": "species",
+            "number": 67,
+            "context": "Therefore, it is important to characterize these other pathogens, for both patient diagnostics and outbreak response. <mark class=\"stats\">Here, we help address the challenge of identifying SARS-CoV-2 and the numerous other respiratory viral pathogens by reporting a set of comprehensive design options for 67 species and subspecies for CRISPR-based detection assays</mark>. We have not yet experimentally tested most of these designs, instead focusing our efforts so far on extensively testing a point-of-care assay for SARS-CoV-2 using the Cas13-based SHERLOCK technology [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>,<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "Prince of Wales Hospital",
+        "Queen Mary Hospital",
+        "nucleic acid detection",
+        "detection assay",
+        "Human respirovirus 1",
+        "related virus",
+        "Human respirovirus 3",
+        "Institute for Communicable Disease Control and Prevention",
+        "Princess Margaret Hospital",
+        "crispr cas13",
+        "coronavirus",
+        "diagnostics",
+        "respiratory virus",
+        "Korea Centers for Disease Control & Prevention",
+        "SARS",
+        "synthetic target",
+        "CRISPR",
+        "Magnesium Acetate",
+        "Viral disease",
+        "ongoing sars",
+        "Queen Elizabeth Hospital",
+        "sars cov",
+        "assay design",
+        "Beijing Genomics Institute"
+    ],
+    "keyword_relevance": {
+        "SARS": 0.33884297520661155,
+        "coronavirus": 0.15702479338842976,
+        "CRISPR": 0.10743801652892562,
+        "diagnostics": 0.049586776859504134,
+        "Magnesium Acetate": 0.049586776859504134,
+        "nucleic acid detection": 0.04132231404958678,
+        "detection assay": 0.03305785123966942,
+        "Beijing Genomics Institute": 0.024793388429752067,
+        "Prince of Wales Hospital": 0.01652892561983471,
+        "Queen Mary Hospital": 0.01652892561983471,
+        "Human respirovirus 1": 0.01652892561983471,
+        "related virus": 0.01652892561983471,
+        "Human respirovirus 3": 0.01652892561983471,
+        "Institute for Communicable Disease Control and Prevention": 0.01652892561983471,
+        "Princess Margaret Hospital": 0.01652892561983471,
+        "respiratory virus": 0.01652892561983471,
+        "Korea Centers for Disease Control & Prevention": 0.01652892561983471,
+        "synthetic target": 0.01652892561983471,
+        "Queen Elizabeth Hospital": 0.01652892561983471,
+        "assay design": 0.01652892561983471,
+        "crispr cas13": 0.0,
+        "Viral disease": 0.0,
+        "ongoing sars": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> A novel Severe acute respiratory syndrome-related coronavirus, SARS-CoV-2, is the virus behind a severe outbreak originating in China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "Capture has been important for ongoing SARS-like coronavirus surveillance [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and the panel\u2019s inclusion of SARS-like bat and pangolin coronaviruses can aid surveillance efforts.",
+        "SARS-CoV-2 is closely related to other important coronavirus subspecies and species, so detection assays can yield false positives if they are not exquisitely specific to SARS-CoV-2.",
+        "It is important to characterize these other pathogens, for both patient diagnostics and outbreak response",
+        "<h2 style=\"display: inline\">Methods:</h2> <br/>Reagent Rehydration buffer RPA primer mix Nuclease-free water RNase inhibitors RevertAid RT Magnesium Acetate (MgAc)<br/><br/>Initial concentration N/A 5 \u03bcM of each primer N/A 40 U/\u03bcl 200 U/\u03bcl 280 mM<br/><br/>Amount to add for N RPA pellets 29.5 \u2715N \u03bcl 4.8 \u2715N \u03bcl 2.1 \u2715N \u03bcl 5 \u2715N \u03bcl N \u03bcl 3.04 \u2715N \u03bcl<br/><br/>Step by step protocol<br/><br/>1.",
+        "Reagent Rehydration buffer RPA primer mix Nuclease-free water RNase inhibitors RevertAid RT Magnesium Acetate (MgAc).",
+        "Amount to add for N RPA pellets 29.5 \u2715N \u03bcl 4.8 \u2715N \u03bcl 2.1 \u2715N \u03bcl 5 \u2715N \u03bcl N \u03bcl 3.04 \u2715N \u03bcl.",
+        "2. Make a master mix for N pellets, consisting of Rehydration buffer, RPA primer mix, water, RNase inhibitors, and RevertAid RT.",
+        "3. Resuspend each RPA pellet using the total volume for 1 RPA pellet (~30 \u03bcl) of master mix.",
+        "4. Add the MgAc to the master mix.",
+        "<h2 style=\"display: inline\">Results:</h2> Designs for single assay and multiplex panels<br/><br/>The authors have been developing algorithms and machine learning models for rapidly designing nucleic acid detection assays, linked in a system called ADAPT.",
+        "Comprehensiveness and\u2014to some extent\u2014specificity of the designs can be verified in silico.",
+        "Using ADAPT the authors designed 67 assays, satisfying the above constraints, to identify: the SARS-related coronavirus species; SARS-CoV-2; two other subspecies in that species with high similarity to SARS-CoV-2; all other known Coronaviridae species, including 4 other species that commonly cause human illness; and other common respiratory viral species and subspecies (Table 1\u200b).",
+        "Each assay targets a single species or subspecies and can be used individually; owing to how they are designed, multiple assays can be grouped together to test for multiple targets and distinguish them with high specificity.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Ongoing SARS-CoV-2 sequencing is key to developing and monitoring diagnostics and similar surveillance tools.",
+        "Among other goals for this work, the authors plan to evaluate: (1) sensitivity of the SARS-CoV-2 assay against clinical isolates and patient samples\u2014including sputum, throat, and nasal swabs\u2014some of which may be challenging sample types to test; (2) specificity at both the species and subspecies levels against highly related viruses",
+        "For the latter, the authors intend to use a mixture of synthetic targets reflecting different viral sequences, and patient samples or viral seedstocks when available.",
+        "The authors hope that the comprehensiveness and high predicted sensitivity and specificity of the designs will enable many groups to proceed rapidly and successfully from assay testing through deployment"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A novel Severe acute respiratory syndrome-related coronavirus, SARS-CoV-2, is the virus behind a severe outbreak originating in China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "Capture has been important for ongoing SARS-like coronavirus surveillance [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and the panel\u2019s inclusion of SARS-like bat and pangolin coronaviruses can aid surveillance efforts.",
+            "SARS-CoV-2 is closely related to other important coronavirus subspecies and species, so detection assays can yield false positives if they are not exquisitely specific to SARS-CoV-2.",
+            "It is important to characterize these other pathogens, for both patient diagnostics and outbreak response"
+        ],
+        "Methods": [
+            "<br/>Reagent Rehydration buffer RPA primer mix Nuclease-free water RNase inhibitors RevertAid RT Magnesium Acetate (MgAc)<br/><br/>Initial concentration N/A 5 \u03bcM of each primer N/A 40 U/\u03bcl 200 U/\u03bcl 280 mM<br/><br/>Amount to add for N RPA pellets 29.5 \u2715N \u03bcl 4.8 \u2715N \u03bcl 2.1 \u2715N \u03bcl 5 \u2715N \u03bcl N \u03bcl 3.04 \u2715N \u03bcl<br/><br/>Step by step protocol<br/><br/>1.",
+            "Reagent Rehydration buffer RPA primer mix Nuclease-free water RNase inhibitors RevertAid RT Magnesium Acetate (MgAc).",
+            "Amount to add for N RPA pellets 29.5 \u2715N \u03bcl 4.8 \u2715N \u03bcl 2.1 \u2715N \u03bcl 5 \u2715N \u03bcl N \u03bcl 3.04 \u2715N \u03bcl.",
+            "2. Make a master mix for N pellets, consisting of Rehydration buffer, RPA primer mix, water, RNase inhibitors, and RevertAid RT.",
+            "3. Resuspend each RPA pellet using the total volume for 1 RPA pellet (~30 \u03bcl) of master mix.",
+            "4. Add the MgAc to the master mix."
+        ],
+        "Results": [
+            "Designs for single assay and multiplex panels<br/><br/>The authors have been developing algorithms and machine learning models for rapidly designing nucleic acid detection assays, linked in a system called ADAPT.",
+            "Comprehensiveness and\u2014to some extent\u2014specificity of the designs can be verified in silico.",
+            "Using ADAPT the authors designed 67 assays, satisfying the above constraints, to identify: the SARS-related coronavirus species; SARS-CoV-2; two other subspecies in that species with high similarity to SARS-CoV-2; all other known Coronaviridae species, including 4 other species that commonly cause human illness; and other common respiratory viral species and subspecies (Table 1\u200b).",
+            "Each assay targets a single species or subspecies and can be used individually; owing to how they are designed, multiple assays can be grouped together to test for multiple targets and distinguish them with high specificity."
+        ],
+        "Conclusion": [
+            "Ongoing SARS-CoV-2 sequencing is key to developing and monitoring diagnostics and similar surveillance tools.",
+            "Among other goals for this work, the authors plan to evaluate: (1) sensitivity of the SARS-CoV-2 assay against clinical isolates and patient samples\u2014including sputum, throat, and nasal swabs\u2014some of which may be challenging sample types to test; (2) specificity at both the species and subspecies levels against highly related viruses",
+            "For the latter, the authors intend to use a mixture of synthetic targets reflecting different viral sequences, and patient samples or viral seedstocks when available.",
+            "The authors hope that the comprehensiveness and high predicted sensitivity and specificity of the designs will enable many groups to proceed rapidly and successfully from assay testing through deployment"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Zhou_et+al_2020_a",
+            "entry": "1. Zhou P, Yang X-L, Wang X-G, Hu B, Zhang L, Zhang W, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020. doi: 10.1038/s41586-020-2012-7",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2012-7",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2012-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2012-7"
+        },
+        {
+            "id": "2",
+            "alt_id": "2._2020_a",
+            "entry": "2. V-Respiratory probe set (2020-01). Available: https://github.com/broadinstitute/catch/tree/master/probe-designs",
+            "url": "https://github.com/broadinstitute/catch/tree/master/probe-designs"
+        },
+        {
+            "id": "3",
+            "alt_id": "Metsky_et+al_2019_a",
+            "entry": "3. Metsky HC, Siddle KJ, Gladden-Young A, Qu J, Yang DK, Brehio P, et al. Capturing sequence diversity in metagenomes with comprehensive and scalable probe design. Nat Biotechnol. 2019;37: 160\u2013168. doi: 10.1038/s41587-018-0006-x",
+            "crossref": "https://dx.doi.org/10.1038/s41587-018-0006-x",
+            "scite": "https://scite.ai/reports/10.1038/s41587-018-0006-x",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41587-018-0006-x"
+        },
+        {
+            "id": "4",
+            "alt_id": "Li_et+al_0000_a",
+            "entry": "4. Li B, Si H-R, Zhu Y, Yang X-L, Anderson DE, Shi Z-L, et al. Discovery of Bat Coronaviruses through Surveillance and Probe Capture-Based Next-Generation Sequencing. mSphere. 2020;5. doi: 10.1128/mSphere.00807-19",
+            "crossref": "https://dx.doi.org/10.1128/mSphere.00807-19",
+            "scite": "https://scite.ai/reports/10.1128/mSphere.00807-19"
+        },
+        {
+            "id": "5",
+            "alt_id": "Wee_0000_a",
+            "entry": "5. Wee S-L. As Deaths Mount, China Tries to Speed Up Coronavirus Testing. The New York Times. 9 Feb 2020. Available: https://www.nytimes.com/2020/02/09/world/asia/china-coronavirus-tests.html. Accessed 24 Feb 2020.",
+            "url": "https://www.nytimes.com/2020/02/09/world/asia/china-coronavirus-tests.html",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wee%2C%20S.-L.%20As%20Deaths%20Mount%2C%20China%20Tries%20to%20Speed%20Up%20Coronavirus%20Testing",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wee%2C%20S.-L.%20As%20Deaths%20Mount%2C%20China%20Tries%20to%20Speed%20Up%20Coronavirus%20Testing"
+        },
+        {
+            "id": "6",
+            "alt_id": "Myhrvold_et+al_2018_a",
+            "entry": "6. Myhrvold C, Freije CA, Gootenberg JS, Abudayyeh OO, Metsky HC, Durbin AF, et al. Field-deployable viral diagnostics using CRISPR-Cas13. Science. 2018;360: 444\u2013448. doi: 10.1126/science.aas8836",
+            "crossref": "https://dx.doi.org/10.1126/science.aas8836",
+            "scite": "https://scite.ai/reports/10.1126/science.aas8836",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.aas8836"
+        },
+        {
+            "id": "7",
+            "alt_id": "Wang_et+al_2019_a",
+            "entry": "7. Wang M, Wu Q, Xu W, Qiao B, Wang J, Zheng H, et al. Clinical diagnosis of 8274 samples with 2019-novel coronavirus in Wuhan. Infectious Diseases (except HIV/AIDS). medRxiv; 2020. doi: 10.1101/2020.02.12.20022327",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.12.20022327",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.12.20022327",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.12.20022327"
+        },
+        {
+            "id": "8",
+            "alt_id": "Gootenberg_et+al_2017_a",
+            "entry": "8. Gootenberg JS, Abudayyeh OO, Lee JW, Essletzbichler P, Dy AJ, Joung J, et al. Nucleic acid detection with CRISPR-Cas13a/C2c2. Science. 2017;356: 438\u2013442. doi: 10.1126/science.aam9321",
+            "crossref": "https://dx.doi.org/10.1126/science.aam9321",
+            "scite": "https://scite.ai/reports/10.1126/science.aam9321",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.aam9321"
+        },
+        {
+            "id": "9",
+            "alt_id": "Gootenberg_et+al_2018_a",
+            "entry": "9. Gootenberg JS, Abudayyeh OO, Kellner MJ, Joung J, Collins JJ, Zhang F. Multiplexed and portable nucleic acid detection platform with Cas13, Cas12a, and Csm6. Science. 2018;360: 439\u2013444. doi: 10.1126/science.aaq0179",
+            "crossref": "https://dx.doi.org/10.1126/science.aaq0179",
+            "scite": "https://scite.ai/reports/10.1126/science.aaq0179",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.aaq0179"
+        },
+        {
+            "id": "10",
+            "alt_id": "Chen_et+al_2018_a",
+            "entry": "10. Chen JS, Ma E, Harrington LB, Da Costa M, Tian X, Palefsky JM, et al. CRISPR-Cas12a target binding unleashes indiscriminate single-stranded DNase activity. Science. 2018;360: 436\u2013439. doi: 10.1126/science.aar6245",
+            "crossref": "https://dx.doi.org/10.1126/science.aar6245",
+            "scite": "https://scite.ai/reports/10.1126/science.aar6245",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.aar6245"
+        },
+        {
+            "id": "11",
+            "alt_id": "Broughton_et+al_2019_a",
+            "entry": "11. James P. Broughton, Wayne Deng, Clare L. Fasching, Jasmeet Singh, Charles Y. Chiu, Janice S. Chen. A protocol for rapid detection of the 2019 novel coronavirus SARS-CoV-2 using CRISPR diagnostics: SARS-CoV-2 DETECTR. 2020. Available: https://mammoth.bio/wp-content/uploads/2020/02/A-protocol-for-rapid-detection-of-the-2019-no vel-coronavirus-SARS-CoV-2-using-CRISPR-diagnostics-SARS-CoV-2-DETECTR.pdf",
+            "url": "https://mammoth.bio/wp-content/uploads/2020/02/A-protocol-for-rapid-detection-of-the-2019-no"
+        },
+        {
+            "id": "12",
+            "alt_id": "Zhang_et+al_0000_a",
+            "entry": "12. Feng Zhang, Omar O. Abudayyeh, Jonathan S. Gootenberg. A protocol for detection of COVID-19 using CRISPR diagnostics. Available: https://www.broadinstitute.org/files/publications/special/COVID-19%20detection%20(updated).pd f",
+            "url": "https://www.broadinstitute.org/files/publications/special/COVID-19%20detection%20(updated).pd"
+        },
+        {
+            "id": "13",
+            "alt_id": "Shu_2017_a",
+            "entry": "13. Shu Y, McCauley J. GISAID: Global initiative on sharing all influenza data - from vision to reality. Euro Surveill. 2017;22. doi: 10.2807/1560-7917.ES.2017.22.13.30494",
+            "crossref": "https://dx.doi.org/10.2807/1560-7917.ES.2017.22.13.30494",
+            "scite": "https://scite.ai/reports/10.2807/1560-7917.ES.2017.22.13.30494",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.2807/1560-7917.ES.2017.22.13.30494"
+        },
+        {
+            "id": "14",
+            "alt_id": "Hou_et+al_2019_a",
+            "entry": "14. Hou T, Zeng W, Yang M, Chen W, Ren L, Ai J, et al. Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus. Infectious Diseases (except HIV/AIDS). medRxiv; 2020. doi: 10.1101/2020.02.22.20025460",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.22.20025460",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.22.20025460",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.22.20025460"
+        },
+        {
+            "id": "15",
+            "alt_id": "Kellner_et+al_2019_a",
+            "entry": "15. Kellner MJ, Koob JG, Gootenberg JS, Abudayyeh OO, Zhang F. SHERLOCK: nucleic acid detection with CRISPR nucleases. Nat Protoc. 2019;14: 2986\u20133012. doi: 10.1038/s41596-019-0210-2 ",
+            "crossref": "https://dx.doi.org/10.1038/s41596-019-0210-2",
+            "scite": "https://scite.ai/reports/10.1038/s41596-019-0210-2",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41596-019-0210-2"
+        }
+    ],
+    "facts": [
+        "that could be valuable for ongoing surveillance",
+        "for rapidly designing nucleic acid detection assays that are comprehensive across genomic diversity",
+        "Assay designs are available at https://adapt.sabetilab.org/.",
+        "SARS-CoV-2 surveillance is essential to slowing widespread transmission",
+        "that is aimed at enhancing sequencing of SARS-CoV-2",
+        "Capture has been important for ongoing SARS-like coronavirus surveillance",
+        "There are several challenges associated with surveillance during the current SARS-CoV-2 outbreak",
+        "Second, SARS-CoV-2 is closely related to other important coronavirus subspecies and species",
+        "Amount to add for N RPA pellets",
+        "the number of pellets needed based on the size of the experiment",
+        "each RPA pellet using the total volume for 1 RPA pellet of master mix",
+        "Assays account for a high fraction of known sequence diversity",
+        "Assays are predicted by our machine learning model to have high detection activity against the full scope",
+        "into panels that are accurate in differentiating between related taxa",
+        "specificity of the designs can be verified in silico",
+        "multiple assays can be grouped together to test for multiple targets",
+        "multiplex panels are available at https://adapt.sabetilab.org/.",
+        "sensitivity of the SARS-CoV-2 assay against clinical isolates",
+        "SARS-CoV-2 is closely related to other important coronavirus subspecies and species"
+    ],
+    "claims": [
+        "We provide assay designs and experimental resources, for use with CRISPR-based nucleic acid detection, that could be valuable for ongoing surveillance",
+        "We provide assay designs for detection of 67 viral species and subspecies, including: SARS-CoV-2, phylogenetically-related viruses, and viruses with similar clinical presentation",
+        "We demonstrate the sensitivity and speed of this assay using synthetic targets with fluorescent and lateral flow detection",
+        "Using this assay, we demonstrate sensitive detection of synthetic SARS-CoV-2 RNA at 10 copies per microliter",
+        "We identified an assay, which was the best-performing and also our highest ranked design a priori"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "SARS-CoV-2 is closely related to other important coronavirus subspecies and species, so detection assays can yield false positives if they are not exquisitely specific to SARS-CoV-2",
+        "\u25cf Comprehensiveness: Assays account for a high fraction of known sequence diversity in their species or subspecies (>97% for most assays), and are meant to be effective against variable targets",
+        "\u25cf Predicted sensitivity: Assays are predicted by our machine learning model to have high detection activity against the full scope of targeted genomic diversity",
+        "\u25cf Predicted specificity: Assays have high predicted specificity to their species or subspecies, factoring in the full extent of known strain diversity, allowing them to be grouped into panels that are accurate in differentiating between related taxa",
+        "Each assay targets a single species or subspecies and can be used individually; owing to how they are designed, multiple assays can be grouped together to test for multiple targets and distinguish them with high specificity",
+        "Among other goals for this work, we plan to evaluate: (1) sensitivity of the SARS-CoV-2 assay against clinical isolates and patient samples\u2014including sputum, throat, and nasal swabs\u2014some of which may be challenging sample types to test; (2) specificity at both the species and subspecies levels against highly related viruses"
+    ],
+    "top_statements": [
+        "A novel Severe acute respiratory syndrome-related coronavirus, SARS-CoV-2, is the virus behind a severe outbreak originating in China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "SARS-CoV-2 is closely related to other important coronavirus subspecies and species, so detection assays can yield false positives if they are not exquisitely specific to SARS-CoV-2",
+        "\u25cf Comprehensiveness: Assays account for a high fraction of known sequence diversity in their species or subspecies (>97% for most assays), and are meant to be effective against variable targets",
+        "\u25cf Predicted sensitivity: Assays are predicted by our machine learning model to have high detection activity against the full scope of targeted genomic diversity",
+        "\u25cf Predicted specificity: Assays have high predicted specificity to their species or subspecies, factoring in the full extent of known strain diversity, allowing them to be grouped into panels that are accurate in differentiating between related taxa",
+        "Among other goals for this work, we plan to evaluate: (1) sensitivity of the SARS-CoV-2 assay against clinical isolates and patient samples\u2014including sputum, throat, and nasal swabs\u2014some of which may be challenging sample types to test; (2) specificity at both the species and subspecies levels against highly related viruses"
+    ],
+    "headline": "Among other goals for this work, we plan to evaluate: sensitivity of the SARS-CoV-2 assay against clinical isolates and patient samples\u2014including sputum, throat, and nasal swabs\u2014some of which may be challenging sample types to test; specificity at both the species and subspecies levels against highly related viruses",
+    "contexts": [],
+    "abbreviations": {
+        "HPIV-1": "Human respirovirus 1",
+        "HPIV-3": "Human respirovirus 3",
+        "BGI": "Beijing Genomics Institute",
+        "KCDC": "Korea Centers for Disease Control & Prevention",
+        "ICDC": "Institute for Communicable Disease Control and Prevention",
+        "PWH": "Prince of Wales Hospital",
+        "PMH": "Princess Margaret Hospital",
+        "QEH": "Queen Elizabeth Hospital",
+        "QMH": "Queen Mary Hospital",
+        "MgAc": "Magnesium Acetate"
+    }
+}

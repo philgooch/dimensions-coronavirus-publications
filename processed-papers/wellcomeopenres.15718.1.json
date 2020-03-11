@@ -1,0 +1,452 @@
+{
+    "filename": "pdf.pdf",
+    "content_type": "application/pdf",
+    "file_size": 2667821,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.12688/wellcomeopenres.15718.1",
+            "url": "https://wellcomeopenresearch.org/articles/5-17/v1/pdf"
+        },
+        "date": 2020,
+        "title": "The transmissibility of novel Coronavirus in the early stages of the 2019-20 outbreak in Wuhan: Exploring initial point-source exposure sizes and durations using scenario analysis",
+        "author": "Sam Abbott, Joel Hellewell, James Munday, Sebastian Funk, CMMID nCoV working group",
+        "affiliations": [
+            "Center for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, WC1E 7HT, UK",
+            "University of Bern,"
+        ],
+        "journal": "Wellcome Open Research",
+        "volume": "5",
+        "abstract": "Background: The current novel coronavirus outbreak appears to have originated from a point-source exposure event at Huanan seafood wholesale market in Wuhan, China. There is still uncertainty around the scale and duration of this exposure event. This has implications for the estimated transmissibility of the coronavirus and as such, these potential scenarios should be explored. \u00a0Methods: We used a stochastic branching process model, parameterised with available data where possible and otherwise informed by the 2002-2003 Severe Acute Respiratory Syndrome (SARS) outbreak, to simulate the Wuhan outbreak. We evaluated scenarios for the following parameters: the size, and duration of the initial transmission event, the serial interval, and the reproduction number (R0). We restricted model simulations based on the number of observed cases on the 25th of January, accepting samples that were within a 5% interval on either side of this estimate. Results: Using a pre-intervention SARS-like serial interval suggested a larger initial transmission event and a higher R0 estimate. Using a SARs-like serial interval we found that the most likely scenario produced an R0 estimate between 2-2.7 (90% credible interval (CrI)). A pre-intervention SARS-like serial interval resulted in an R0 estimate between 2-3 (90% CrI). There were other plausible scenarios with smaller events sizes and longer duration that had comparable R0 estimates. There were very few simulations that were able to reproduce the observed data when R0 was less than 1. Conclusions: Our results indicate that an R0 of less than 1 was highly unlikely unless the size of the initial exposure event was much greater than currently reported. We found that R0 estimates were comparable across scenarios with decreasing event size and increasing duration. Scenarios with a pre-intervention SARS-like serial interval resulted in a higher R0 and were equally plausible to scenarios with SARs-like serial intervals.",
+        "keywords": [
+            "Keywords coronavirus",
+            "outbreak",
+            "wuhan",
+            "modelling",
+            "transmission"
+        ],
+        "references": "@book{imai-a,\n  author = {Imai, N. and Dorigatti, I. and Cori, A.},\n  title = {Report 2: Estimating the potential total number of novel Coronavirus cases in Wuhan City, China},\n  publisher = {Reference Source},\n  more-authors = {true},\n  language = {}\n}\n@book{unknown2020a,\n  title = {Thompson RN: 2019-20 Wuhan coronavirus outbreak: Intense surveillance is vital for preventing sustained transmission in new locations. bioRxiv},\n  date = {2020},\n  publisher = {Publisher Full Text},\n  language = {}\n}\n@book{unknown-a,\n  title = {China coronavirus\u2019spreads before symptoms show\u2019},\n  publisher = {Reference Source},\n  language = {}\n}\n@book{imai-b,\n  author = {Imai, N. and Cori, A. and Dorigatti, I.},\n  title = {Report 3: Transmissibility of 2019-nCoV},\n  publisher = {Reference Source},\n  more-authors = {true},\n  language = {}\n}\n@incollection{cauchemez2016a,\n  author = {Cauchemez, S. and Nouvellet, P. and Cori, A.},\n  title = {Unraveling the drivers},\n  booktitle = {of MERS-CoV transmission. Proc Natl Acad Sci U},\n  pages = \"S\" # \"9081\u20136.\",\n  date = {2016},\n  volume = {113},\n  unmatched-author = {A.},\n  more-authors = {true},\n  unmatched-pages = {9081\u20136.},\n  number = {32},\n  language = {}\n}\n@book{xu-a,\n  author = {Xu, B. and Gutierrez, B. and Hill, S.},\n  title = {Epidemiological Data from the nCoV-2019 Outbreak},\n  publisher = {Early Descriptions from Publicly Available Data. 2020},\n  more-authors = {true},\n  language = {}\n}\n@article{core2019a,\n  author = {Core, R.},\n  title = {Team: R: A language and environment for statistical computing},\n  publisher = {R},\n  journal = {Foundation for Statistical Computing},\n  date = {2019},\n  unmatched-publisher = {Reference Source},\n  language = {},\n  address = {Vienna, Austria}\n}\n@book{funk-a,\n  author = {Funk, S.},\n  title = {Bpmodels: Analysing chain statistics using branching process models. 2020},\n  publisher = {Reference Source},\n  language = {}\n}\n@book{abbott-a,\n  author = {Abbott, S. and Funk, S. and jdmunday},\n  title = {et},\n  publisher = {epiforecasts/WuhanSeedingVsTransmission: Resubmission to Wellcome Open Research (Version v0.3.0). Zenodo. 2020},\n  url = {http://www.doi.org/10.5281/zenodo.3631830},\n  language = {},\n  address = {al}\n}\n@article{boettiger2015a,\n  author = {Boettiger, C.},\n  title = {An introduction to Docker for reproducible research},\n  journal = {ACM SIGOPS Operating Systems Review},\n  date = {2015},\n  volume = {49},\n  pages = {71\u20139},\n  url = {https://doi.org/10.21956/wellcomeopenres.17230.r37777},\n  source = {Publisher Full Text Reviewer Report 11 February 2020},\n  language = {}\n}\n@misc{unknown-b,\n  title = {The study by Abbott and colleagues is one of several 2019-nCoV modelling studies that have appeared during the last two weeks and describes the early transmission dynamics during the outbreak in Wuhan, China. Using a stochastic branching process model, the authors find that the observed outbreak is most compatible with a large initial transmission event, a SARS-like serial interval, and an R0 between 2 and 4. What I particularly like about the study - and what distinguishes it from some of the other modelling papers - is the addition of reporting delays to the simulated case counts},\n  language = {}\n}\n@misc{unknown-c,\n  title = {While the modelling approach is sound, a couple of things about the simulation procedure remain somewhat unclear: 1. The authors write that \"The start date was determined by combining the duration of the transmission event with the date the fish market in Wuhan, the source of the outbreak, closed (31st of December 2019).\" How exactly was the start date determined? The start date is actually one of the most crucial aspects of the analysis, and it is not reported in the text},\n  language = {}\n}\n@article{unknown-d,\n  title = {The authors write that they either use a parametric description of the reporting delay or sample from the empirical delays. Does this mean that they use different delays at different times during the outbreak? Overall, I think that the study would gain from discussing the recent literature on the outbreak dynamics and findings from phylogenetic analyses. In particular, I think the authors should discuss their findings in light of the studies by Riou & Althaus1 (Euro Surveill, PMID: 32019669) and Li et al.2 (N Engl},\n  journal = {J Med, PMID},\n  volume = {31995857},\n  source = {which provided the first published estimates of R0 for 2019-nCoV. It would also be interesting to compare the start date of the simulated outbreaks to preliminary estimates of tMRCA (see http://virological.org, for example). Finally, I think the issue of under reporting and potential biases in using reported case counts deserves some additional discussion},\n  language = {}\n}\n",
+        "links": [
+            "http://virological.org",
+            "http://www.doi.org/10.5281/zenodo.3631830",
+            "http://doi.org/",
+            "https://github.com/epiforecasts/"
+        ],
+        "emails": [
+            "sam.abbott@lshtm.ac.uk"
+        ],
+        "pages": "17",
+        "cited_by": 1,
+        "references_ris": "TY  - BOOK\nAU  - Imai, N.\nAU  - Dorigatti, I.\nAU  - Cori, A.\nTI  - Report 2: Estimating the potential total number of novel Coronavirus cases in Wuhan City, China\nPB  - Reference Source\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nTI  - Thompson RN: 2019-20 Wuhan coronavirus outbreak: Intense surveillance is vital for preventing sustained transmission in new locations. bioRxiv\nPY  - 2020\nDA  - 2020\nPB  - Publisher Full Text\nLA  - \nER  - \n\nTY  - BOOK\nTI  - China coronavirus\u2019spreads before symptoms show\u2019\nPB  - Reference Source\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Imai, N.\nAU  - Cori, A.\nAU  - Dorigatti, I.\nTI  - Report 3: Transmissibility of 2019-nCoV\nPB  - Reference Source\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Cauchemez, S.\nAU  - Nouvellet, P.\nAU  - Cori, A.\nTI  - Unraveling the drivers\nT2  - of MERS-CoV transmission. Proc Natl Acad Sci U\nSP  - \"S\" # \"9081\nEP  - 6.\"\nPY  - 2016\nDA  - 2016\nVL  - 113\nC1  - A.\nC1  - true\nC1  - 9081\u20136.\nIS  - 32\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Xu, B.\nAU  - Gutierrez, B.\nAU  - Hill, S.\nTI  - Epidemiological Data from the nCoV-2019 Outbreak\nPB  - Early Descriptions from Publicly Available Data. 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Core, R.\nTI  - Team: R: A language and environment for statistical computing\nPB  - R\nT2  - Foundation for Statistical Computing\nPY  - 2019\nDA  - 2019\nC1  - Reference Source\nLA  - \nCY  - Vienna, Austria\nER  - \n\nTY  - BOOK\nAU  - Funk, S.\nTI  - Bpmodels: Analysing chain statistics using branching process models. 2020\nPB  - Reference Source\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Abbott, S.\nAU  - Funk, S.\nAU  - jdmunday\nTI  - et\nPB  - epiforecasts/WuhanSeedingVsTransmission: Resubmission to Wellcome Open Research (Version v0.3.0). Zenodo. 2020\nUR  - http://www.doi.org/10.5281/zenodo.3631830\nLA  - \nCY  - al\nER  - \n\nTY  - JOUR\nAU  - Boettiger, C.\nTI  - An introduction to Docker for reproducible research\nT2  - ACM SIGOPS Operating Systems Review\nPY  - 2015\nDA  - 2015\nVL  - 49\nSP  - 71\nEP  - 9\nUR  - https://doi.org/10.21956/wellcomeopenres.17230.r37777\nT2  - Publisher Full Text Reviewer Report 11 February 2020\nLA  - \nER  - \n\nTY  - GEN\nTI  - The study by Abbott and colleagues is one of several 2019-nCoV modelling studies that have appeared during the last two weeks and describes the early transmission dynamics during the outbreak in Wuhan, China. Using a stochastic branching process model, the authors find that the observed outbreak is most compatible with a large initial transmission event, a SARS-like serial interval, and an R0 between 2 and 4. What I particularly like about the study - and what distinguishes it from some of the other modelling papers - is the addition of reporting delays to the simulated case counts\nLA  - \nER  - \n\nTY  - GEN\nTI  - While the modelling approach is sound, a couple of things about the simulation procedure remain somewhat unclear: 1. The authors write that \"The start date was determined by combining the duration of the transmission event with the date the fish market in Wuhan, the source of the outbreak, closed (31st of December 2019).\" How exactly was the start date determined? The start date is actually one of the most crucial aspects of the analysis, and it is not reported in the text\nLA  - \nER  - \n\nTY  - JOUR\nTI  - The authors write that they either use a parametric description of the reporting delay or sample from the empirical delays. Does this mean that they use different delays at different times during the outbreak? Overall, I think that the study would gain from discussing the recent literature on the outbreak dynamics and findings from phylogenetic analyses. In particular, I think the authors should discuss their findings in light of the studies by Riou & Althaus1 (Euro Surveill, PMID: 32019669) and Li et al.2 (N Engl\nT2  - J Med, PMID\nVL  - 31995857\nT2  - which provided the first published estimates of R0 for 2019-nCoV. It would also be interesting to compare the start date of the simulated outbreaks to preliminary estimates of tMRCA (see http://virological.org, for example). Finally, I think the issue of under reporting and potential biases in using reported case counts deserves some additional discussion\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Estimated reproduction numbers (90% credible intervals) for the Wuhan outbreak conditioned on case data from the 25th of January, for scenarios with a MERS-like serial interval. Stratified by initial transmission event size and duration"
+            },
+            {
+                "id": "2",
+                "caption": "Estimated reproduction numbers (90% credible intervals) for the Wuhan outbreak conditioned on case data from the 25th of January, for scenarios with a SARS-like serial interval. Stratified by initial transmission event size and duration"
+            },
+            {
+                "id": "3",
+                "caption": "Estimated reproduction numbers (90% credible intervals) for the Wuhan outbreak conditioned on case data from the 25th of January, for scenarios with a pre-intervention SARS-like serial interval. Stratified by initial exposure event size and duration"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Heatmaps of the percentage of samples accepted for each combination of parameters. Within each heatmap, the x-axis represents the duration of the initial seeding event and the y-axis represents the size of the initial seeding event. The figure is stratified by the R0 scenario (columns) and the serial interval distribution (rows)"
+            },
+            {
+                "id": "2",
+                "caption": "Density plot of reproduction number (R0) estimates from each accepted sample stratified by transmission event size, event duration (columns), and the serial interval distribution used (rows). The black lines on each density plot represent the 90% credible interval"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/642df01730c13b1b23e0babf893c4a95.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/642df01730c13b1b23e0babf893c4a95/img-020.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/642df01730c13b1b23e0babf893c4a95/img-021.png"
+        ]
+    },
+    "sections": {
+        "conclusions": [
+            "Our results indicate that an R0 of less than 1 was highly unlikely unless the size of the initial exposure event was much greater than currently reported. We found that R0 estimates were comparable across scenarios with decreasing event size and increasing duration. Scenarios with a pre-intervention SARS-like serial interval resulted in a higher R0 and were equally plausible to scenarios with SARs-like serial intervals.    version 1    03 Feb 2020<br/><br/>Invited Reviewers 1 report<br/><br/>, University of Bern, Any reports and responses or comments on the article can be found at the end of the article.    Keywords<br/><br/>Keywords coronavirus, outbreak, wuhan, modelling, transmission"
+        ],
+        "introduction": [
+            "The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market in Wuhan, China, which was closed on the 31st of December 20191,2. As of the 26th of January 2020 there have been over 2000 confirmed cases with the majority in China[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Globally, countries are on high alert, with wide implementation of airport checks and contact tracing find and quarantine infected individuals. In China, officials have restricted travel across a wide area. There is still uncertainty around the precise scale and duration of the initial exposure event[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The nature of the initial exposure has implications for estimates of the transmissibility of the coronavirus, as such it is important that these potential scenarios are further explored."
+        ],
+        "methods": [
+            "Branching process model We modelled the outbreak using a stochastic branching process model comparable to those used elsewhere to model the dynamics of this outbreak[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. We assumed that cases from the initial transmission event were uniformly distributed over the duration of the event. Each case then resulted in a subsequent generation of cases with the number of cases that each case generated being drawn from a negative binomial distribution, to account for overdispersion, with a dispersion parameter k of 0.16 (assuming SARS-like dispersion)[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. The mean number of cases generated by each case (R0) was sampled from a uniform distribution once per model simulation with a lower and upper bound determined by the scenario being evaluated. New generations of cases were then sampled iteratively until the maximum simulation time was reached. We used three scenarios for the serial interval distribution informed by previous outbreaks of coronaviruses: SARS-like, with a mean of 8.4 days and standard deviation of 3.8 days[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]; SARS-like before interventions, with a mean of 10 days and standard deviation of 2.8 days; and MERS-like, with a mean of 6.8 days and standard deviation of 4.1 days[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Both SARS-like serial interval scenarios used a Weibull distribution, whilst the MERS-like serial interval scenario used a Gamma distribution[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. After the simulation of the branching process, reporting delays were added as reported in a line-list of cases compiled from media and other reports[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. We fitted a geometric, Poisson, and a negative binomial distribution to these observed delays and selected the best fit using the Chi-squared statistic. If no good fit was determined using a p-value threshold of 0.05, then the reporting delay was instead sampled from the empirical delays in the line-list."
+        ],
+        "results": [
+            "Percentage of outbreak simulations accepted Overall, the highest acceptance rate was for scenarios with a large event size (200), short duration (1 day), an R0 between 3 and 4, and a pre-intervention SARS-like serial interval (Figure 1). Scenarios with a SARS-like serial interval, an R0 bounded between 2 and 3, a short duration, and a relatively large event size (100) also had a high acceptance rate. Across all scenarios a higher acceptance rate was correlated with a larger event size, a shorter event duration, and a larger mean serial interval. This may be related to the influence these parameters have on the degree of volatility in outbreak simulations. Based on this, trends in Figure 1 should be interpreted with care using prior knowledge. For example, if the event size, serial interval, and event duration is assumed, then the percentage of acceptance may be used to infer the most likely R0 scenario."
+        ],
+        "discussion": [
+            "In this study, we explored a range of scenarios for the initial event size and duration of the exposure event which initiated the 2019\u201320 Wuhan novel coronavirus outbreak. We conditioned on observed cases to establish the probability of each scenario, given our model, and then estimated the R0 of coronavirus from the accepted simulations. We found that there was a very low probability that the reproduction numbers was less than 1 for any scenario considered. Across all serial interval scenarios larger exposure events over a shorter time horizon were most plausible. The most probable SARS-like serial interval scenarios resulted in an estimated R0 of 2 - 2.7 (90% CrI), whilst the most probable pre-intervention SARS-like serial interval scenarios resulted in an estimated R0 of 2.8 - 3.8 (90% CrI). MERS-like serial interval scenarios were less plausible, but the most plausible resulted in an estimate R0 of 2 - 3 (90% CrI). Reducing the event size led to estimates of the R0 increasing but also reduced the proportion of samples accepted. Similarly, increasing the event duration reduced the estimated R0 whilst decreasing the proportion of accepted samples. Decreasing the event size whilst increasing the duration resulted in R0 estimates that were comparable to those from the most plausible scenarios and reduced the acceptance rate the least."
+        ],
+        "data_availability": [
+            "Data availability Underlying data Zenodo: epiforecasts/WuhanSeedingVsTransmission: Resubmission to Wellcome Open. https://doi.org/10.5281/zenodo.363183010 This project contains the following underlying data:\u2022 inst/results/grid.fst (The complete results of our scenario analysis)\u2022 inst/results/conditioned_grid.fst (The results of our scenario analysis conditioned on observed cases)\u2022 inst/results/proportion_sims_allowed.fst (The proportion of samples allowed per scenario evaluated)\u2022 d ata/fitted_delay_sample_func.rda: (This is a reporting delay function as discussed in the text) Data is available alongside the source code under the terms of the MIT License. Software availability Source code is available from:https://github.com/epiforecasts/ WuhanSeedingVsTransmission/tree/v0.3.0 Archived source code at time of publication:http://doi.org/10.5281/zenodo.363183010  License: MIT"
+        ],
+        "funding": [
+            "Grant information: This work was supported by the Wellcome Trust through a Wellcome Senior Research Fellowship to SF [210758]"
+        ],
+        "disclosures": [
+            "Competing Interests: No competing interests were disclosed. Reviewer Expertise: Infectious disease epidemiology I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard."
+        ]
+    },
+    "structured_content": {
+        "1. Conclusions": [
+            "Our results indicate that an R0 of less than 1 was highly unlikely unless the size of the initial exposure event was much greater than currently reported. We found that R0 estimates were comparable across scenarios with decreasing event size and increasing duration. Scenarios with a pre-intervention SARS-like serial interval resulted in a higher R0 and were equally plausible to scenarios with SARs-like serial intervals.",
+            ", University of Bern, Any reports and responses or comments on the article can be found at the end of the article."
+        ],
+        "Introduction": [
+            "The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market in Wuhan, China, which was closed on the 31st of December 20191,2. As of the 26th of January 2020 there have been over 2000 confirmed cases with the majority in China[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Globally, countries are on high alert, with wide implementation of airport checks and contact tracing find and quarantine infected individuals. In China, officials have restricted travel across a wide area. There is still uncertainty around the precise scale and duration of the initial exposure event[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The nature of the initial exposure has implications for estimates of the transmissibility of the coronavirus, as such it is important that these potential scenarios are further explored.",
+            "We used a stochastic branching process model to simulate the Wuhan outbreak, parameterised with available data where possible and otherwise informed by outbreaks of other coronaviruses, such as the 2002\u20132003 outbreak of Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV) and multiple outbreaks of Middle East Respiratory Syndrome Coronavirus (MERS-CoV). We considered a realistic range of parameters where data were not available, quantifying how likely these scenarios were to occur using reported cases. We focused on the size and duration of the initial exposure event in particular, and the impact that this has on the estimated level of human-to-human transmission. We aimed to provide decision makers, and researchers, with probability estimates for each scenario considered, along with estimates of the reproduction number (R0) across all scenarios."
+        ],
+        "Methods": [
+            "Branching process model We modelled the outbreak using a stochastic branching process model comparable to those used elsewhere to model the dynamics of this outbreak[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. We assumed that cases from the initial transmission event were uniformly distributed over the duration of the event. Each case then resulted in a subsequent generation of cases with the number of cases that each case generated being drawn from a negative binomial distribution, to account for overdispersion, with a dispersion parameter k of 0.16 (assuming SARS-like dispersion)[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. The mean number of cases generated by each case (R0) was sampled from a uniform distribution once per model simulation with a lower and upper bound determined by the scenario being evaluated. New generations of cases were then sampled iteratively until the maximum simulation time was reached. We used three scenarios for the serial interval distribution informed by previous outbreaks of coronaviruses: SARS-like, with a mean of 8.4 days and standard deviation of 3.8 days[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]; SARS-like before interventions, with a mean of 10 days and standard deviation of 2.8 days; and MERS-like, with a mean of 6.8 days and standard deviation of 4.1 days[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Both SARS-like serial interval scenarios used a Weibull distribution, whilst the MERS-like serial interval scenario used a Gamma distribution[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. After the simulation of the branching process, reporting delays were added as reported in a line-list of cases compiled from media and other reports[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. We fitted a geometric, Poisson, and a negative binomial distribution to these observed delays and selected the best fit using the Chi-squared statistic. If no good fit was determined using a p-value threshold of 0.05, then the reporting delay was instead sampled from the empirical delays in the line-list.",
+            "Scenario analysis We simulated the branching process model 10,000 times for all combinations of the following parameters: number of confirmed cases resulting from the initial exposure (20, 40, 60, 80, 200, 400), initial exposure event duration (1 day, 7 days, 14 days, 21 days, and 28 days), the serial interval distribution (SARS-like, initial SARS-like and MERS-like), and R0 (lower and upper bounds of a uniform distribution: 0-1, 1-2, 2-3, 3-4). We ran the model from the beginning of the outbreak for each scenario until the 25th of January 2020. The start date was determined by combining the duration of the transmission event with the date the fish market in Wuhan, the source of the outbreak, closed (31st of December 2019). We evaluated the samples from each scenario based on how closely their trajectories matched the 1,975 confirmed cases observed on the 25th of January[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. Samples were rejected if their simulated cumulative case estimates were outside a 5% interval on either side of this (1,876 - 2,074). Outbreak simulation was stopped if a sample exceeded the upper bound on the number of observed cases.",
+            "Analysis We visually compared the percentage of samples that were accepted for each combination of transmission event size, transmission event duration, mean serial interval, and R0 using a heat map. We then compared the distribution of R0 for accepted samples by transmission event size, transmission event duration and mean serial interval. We reported 90% credible intervals (CrI) for R0, stratified by the transmission event size, transmission event duration and the assumed mean serial interval.",
+            "Implementation All analysis was carried out using R version 3.6.28. The branching process model was implemented using the bpmodels 0.1.0 package[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. The analysis is available as an open-source R package[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. A dockerfile has been made available with the code to ensure reproducibility[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]."
+        ],
+        "Results": [
+            "Percentage of outbreak simulations accepted Overall, the highest acceptance rate was for scenarios with a large event size (200), short duration (1 day), an R0 between 3 and 4, and a pre-intervention SARS-like serial interval (Figure 1). Scenarios with a SARS-like serial interval, an R0 bounded between 2 and 3, a short duration, and a relatively large event size (100) also had a high acceptance rate. Across all scenarios a higher acceptance rate was correlated with a larger event size, a shorter event duration, and a larger mean serial interval. This may be related to the influence these parameters have on the degree of volatility in outbreak simulations. Based on this, trends in Figure 1 should be interpreted with care using prior knowledge. For example, if the event size, serial",
+            "interval, and event duration is assumed, then the percentage of acceptance may be used to infer the most likely R0 scenario.",
+            "There were very few scenarios where an R0 smaller than 1 resulted in scenarios that were accepted after conditioning on observed data, this was true regardless of the corresponding serial interval distribution, event size, or event duration. A very large event size (400) was required for scenarios with an R0 upper bound of 2 to have a moderate percentage of samples accepted if they had a short duration. Acceptance rates increased as the duration of the initial transmission event increased, and as the mean serial interval increased. For a MERS-like serial interval, the percentage of accepted samples was low for all scenarios, with the highest accepted proportion for scenarios with an upper bound on the R0 of 3 and a moderate event size, or an R0 upper bound of 2 and a larger event size.",
+            "Estimated reproduction numbers Uncertainty in the R0 estimate increased both as the event size decreased, and decreased as the mean serial interval increased (Figure 2). Large event sizes resulted in the lowest R0 estimates across all scenarios evaluated. The estimated R0 decreased as the event size decreased and duration increased for all serial interval scenarios (Table 1, Table 2, and Table 3). The most likely scenario with a MERS-like serial interval had an event size of 80 and a duration of a day, resulting in an estimated R0 between 2 \u2013 3 (90% CrI, Table 1). For the SARS-like interval the most likely scenario had an event size of 200 and a duration of a day (Figure 1), this resulted in an estimated R0 between 2 \u2013 2.7 (90% CrI, Table 2). The most likely scenario with",
+            "a pre-intervention SARS-like serial interval also had an outbreak size of 200 and a duration of a day, resulting in an estimated R0 between 2.8 - 3.8 (90% CrI, Table 3). Assuming a MERS-like serial interval resulted in an approximate decrease of 0 - 0.5 in the R0 estimates across all scenarios when compared to the SARS-like serial interval. Assuming a pre-intervention SARS-like serial interval resulted in an approximate increase of 0.5 - 1 in the R0 estimates across all scenarios when compared to the SARS-like serial interval. Across all serial interval scenarios R0 estimates were comparable when event size was decreased and event duration was increased in tandem."
+        ],
+        "Discussion": [
+            "In this study, we explored a range of scenarios for the initial event size and duration of the exposure event which initiated the 2019\u201320 Wuhan novel coronavirus outbreak. We conditioned on observed cases to establish the probability of each scenario, given our model, and then estimated the R0 of coronavirus from the accepted simulations. We found that there was a very low probability that the reproduction numbers was less than 1 for any scenario considered. Across all serial interval scenarios larger exposure events over a shorter time horizon were most plausible. The most probable SARS-like serial interval scenarios resulted in an estimated R0 of 2 - 2.7 (90% CrI), whilst the most probable pre-intervention SARS-like serial interval scenarios resulted in an estimated R0 of 2.8 - 3.8 (90% CrI). MERS-like serial interval scenarios were less plausible, but the most plausible resulted in an estimate R0 of 2 - 3 (90% CrI). Reducing the event size led to estimates of the R0 increasing but also reduced the proportion of samples accepted. Similarly, increasing the event duration reduced the estimated R0 whilst decreasing the proportion of accepted samples. Decreasing the event size whilst increasing the duration resulted in R0 estimates that were comparable to those from the most plausible scenarios and reduced the acceptance rate the least.",
+            "Our study used a stochastic model to capture the transmission dynamics of the outbreak with parameters informed from data were possible, if there was no data available then parameters were assumed to be similar to those estimated for SARS5. We only fitted to the cumulative data at one time point, on 25 January 2020, as time-resolved data of onsets was not available at this point in time. It has also been reported that it is likely that the efforts to confirm suspected cases have changed over time, which also precludes fitting to earlier data points.",
+            "As the outbreak progresses time-resolved data of reported cases or disease onsets are likely to become available, with sufficiently consistent data reporting it is likely that other approaches will become superior to the one presented here. More data on the serial interval distribution, on variability of transmission and possible superspreading events, as well as on the timing and impact of interventions, is likely to become available during the course of the outbreak. This will make it possible to estimate the R0 with greater precision with less risk of bias due to unknown parameters. The number of scenarios that need to be evaluated may also be reduced as additional information about cases connected to the initial exposure event becomes available. Though our estimates had wide credible intervals it is possible that we could not fully account for the numerous sources of bias and uncertainty present in the available data. This means that our model estimates may be both spuriously precise and potentially biased. There is some evidence of this in our results as the scenarios with the highest acceptance rate were on the edge of our scenario grid both for event size, event duration, and mean serial interval. This may be the result of these scenarios reducing volatility and therefore having narrower distributions of estimated cases. Indeed, we found that R0 estimates were comparable as event size decreased and event duration increased. Expert knowledge relating to the size and duration of the initial event may help clarify this issue. Alternatively, other estimates of R0 may be used to indicate which event size and event duration scenarios are most plausible.",
+            "A previous study also looked at varying the event size and the impact that this had on R0 estimates using a branching process[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Our work builds on this by also looking at event duration, including reporting delays, and using a different approach to condition on observed cases. For comparable scenarios, our results were similar to those previously published but we found that R0 estimates were highly sensitive to variation in the assumed serial interval, event size, and event duration. We made use of a highly reproducible framework (an R package) and have released all of our code as open-source[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. This means that this analysis may be repeated - both by the authors and others - as more data becomes available. In addition, subject area experts may be able to adapt our analysis using this open-source code to reduce the potential for bias using their expert knowledge or privately held data.",
+            "The R package we have developed alongside our analysis may be generalisable to other point source outbreaks when time series data on cases is unavailable or difficult to verify. Additional work is needed to ensure the robustness of this tool but this may allow this analysis to be repeated during future outbreaks with little additional overhead.",
+            "This analysis used a stochastic branching process to explore scenarios around the duration and size of the initial exposure event at the Huanan seafood wholesale market in Wuhan. Despite the scarcity of data currently available our estimates may be used to rule out some scenarios and to assess the likelihood of others. Our results indicate that it is very unlikely that the infectious agent responsible for the Wuhan outbreak has a R0 of less than 1, unless the size of the transmission event was much greater than currently reported. We also found that a large initial exposure event was likely, combined with a short duration. These scenarios resulted in R0 estimates that are comparable to those estimated during the 2002\u20132003 SARS outbreak. However, with the available data we could not identify whether scenarios with a SARS-like or pre-intervention SARS-like serial interval were more likely. As more information becomes available it may be possible to further refine our results and establish the value of R0. Providing clear quantitative information for decision makers on the transmissibility of coronavirus is of clear public health importance. Our work to make this process reproducible may reduce the time these estimates take to be made available in future outbreaks and increase knowledge sharing across response teams.",
+            "Data availability Underlying data Zenodo: epiforecasts/WuhanSeedingVsTransmission: Resubmission to Wellcome Open. https://doi.org/10.5281/zenodo.363183010",
+            "This project contains the following underlying data: \u2022 inst/results/grid.fst (The complete results of our scenario analysis)",
+            "\u2022 inst/results/conditioned_grid.fst (The results of our scenario analysis conditioned on observed cases)",
+            "\u2022 inst/results/proportion_sims_allowed.fst (The proportion of samples allowed per scenario evaluated)",
+            "\u2022 d ata/fitted_delay_sample_func.rda: (This is a reporting delay function as discussed in the text)",
+            "Data is available alongside the source code under the terms of the MIT License.",
+            "Software availability Source code is available from: https://github.com/epiforecasts/ WuhanSeedingVsTransmission/tree/v0.3.0",
+            "Archived source code at time of publication: http://doi.org/ 10.5281/zenodo.363183010"
+        ],
+        "References": [
+            "1. Riou J, Althaus CL: Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020.Euro Surveill. 2020; 25 (4). PubMed Abstract | Publisher Full Text 2. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, Ren R, Leung KSM, Lau EHY, Wong JY, Xing X, Xiang N, Wu Y, Li C, Chen Q, Li D, Liu T, Zhao J, Li M, Tu W, Chen C, Jin L, Yang R, Wang Q, Zhou S, Wang R, Liu H, Luo Y, Liu Y, Shao G, Li H, Tao Z, Yang Y, Deng Z, Liu B, Ma Z, Zhang Y, Shi G, Lam TTY, Wu JTK, Gao GF, Cowling BJ, Yang B, Leung GM, Feng Z: Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia.N Engl J Med. 2020. PubMed Abstract | Publisher Full Text Is the work clearly and accurately presented and does it cite the current literature? Partly Is the study design appropriate and is the work technically sound? Yes Are sufficient details of methods and analysis provided to allow replication by others? Partly If applicable, is the statistical analysis and its interpretation appropriate? Not applicable Are all the source data underlying the results available to ensure full reproducibility? Yes Are the conclusions drawn adequately supported by the results? Yes Competing Interests: No competing interests were disclosed. Reviewer Expertise: Infectious disease epidemiology I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "confirmed cases",
+            "number": 1975,
+            "context": "The start date was determined by combining the duration of the transmission event with the date the fish market in Wuhan, the source of the outbreak, closed (31st of December 2019). <mark class=\"stats\">We evaluated the samples from each scenario based on how closely their trajectories matched the 1,975 confirmed cases observed on the 25th of January[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]</mark>. Samples were rejected if their simulated cumulative case estimates were outside a 5% interval on either side of this (1,876 - 2,074)"
+        },
+        {
+            "participant": "confirmed cases with the majority in China3",
+            "number": 2000,
+            "context": "Introduction The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market in Wuhan, China, which was closed on the 31st of December 20191,2. <mark class=\"stats\">As of the 26th of January 2020 there have been over 2000 confirmed cases with the majority in China3</mark>. Globally, countries are on high alert, with wide implementation of airport checks and contact tracing find and quarantine infected individuals"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 1975,
+            "context": "The start date was determined by combining the duration of the transmission event with the date the fish market in Wuhan, the source of the outbreak, closed (31st of December 2019). <mark class=\"stats\">We evaluated the samples from each scenario based on how closely their trajectories matched the 1,975 confirmed cases observed on the 25th of January7</mark>. Samples were rejected if their simulated cumulative case estimates were outside a 5% interval on either side of this (1,876 - 2,074)"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We fitted a geometric, Poisson, and a negative binomial distribution to these observed delays and selected the best fit using the Chi-squared statistic</mark>",
+                "tests": [
+                    {
+                        "test": "Chi-squared"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "dynamics",
+        "huanan seafood",
+        "serial intervals",
+        "transmission",
+        "wuhan",
+        "point source exposure",
+        "initial exposure",
+        "high r0",
+        "pre intervention sars",
+        "modelling",
+        "seafood wholesale",
+        "Severe Acute Respiratory Syndrome",
+        "outbreak",
+        "event size",
+        "coronavirus outbreak",
+        "r0 estimate",
+        "serial interval scenario",
+        "process model",
+        "exposure event",
+        "novel coronavirus",
+        "Institute of Social and Preventive Medicine",
+        "Acute Respiratory syndrome",
+        "credible intervals",
+        "Keywords coronavirus",
+        "initial point",
+        "initial transmission event",
+        "wholesale market"
+    ],
+    "keyword_relevance": {
+        "outbreak": 0.17674418604651163,
+        "event size": 0.14883720930232558,
+        "Severe Acute Respiratory Syndrome": 0.14418604651162792,
+        "transmission": 0.11627906976744186,
+        "credible intervals": 0.06511627906976744,
+        "exposure event": 0.06046511627906977,
+        "initial exposure": 0.046511627906976744,
+        "serial interval scenario": 0.037209302325581395,
+        "process model": 0.037209302325581395,
+        "initial transmission event": 0.03255813953488372,
+        "dynamics": 0.023255813953488372,
+        "modelling": 0.018604651162790697,
+        "seafood wholesale": 0.013953488372093023,
+        "coronavirus outbreak": 0.013953488372093023,
+        "novel coronavirus": 0.013953488372093023,
+        "initial point": 0.013953488372093023,
+        "wholesale market": 0.013953488372093023,
+        "Institute of Social and Preventive Medicine": 0.009302325581395349,
+        "serial intervals": 0.004651162790697674,
+        "wuhan": 0.004651162790697674,
+        "Keywords coronavirus": 0.004651162790697674,
+        "huanan seafood": 0.0,
+        "point source exposure": 0.0,
+        "high r0": 0.0,
+        "pre intervention sars": 0.0,
+        "r0 estimate": 0.0,
+        "Acute Respiratory syndrome": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market in Wuhan, China, which was closed on the 31st of December 20191,2.",
+        "Countries are on high alert, with wide implementation of airport checks and contact tracing find and quarantine infected individuals.",
+        "In China, officials have restricted travel across a wide area.",
+        "There is still uncertainty around the precise scale and duration of the initial exposure event[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+        "The nature of the initial exposure has implications for estimates of the transmissibility of the coronavirus, as such it is important that these potential scenarios are further explored",
+        "<h2 style=\"display: inline\">Methods:</h2> Branching process model The authors modelled the outbreak using a stochastic branching process model comparable to those used elsewhere to model the dynamics of this outbreak[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+        "The mean number of cases generated by each case (R0) was sampled from a uniform distribution once per model simulation with a lower and upper bound determined by the scenario being evaluated.",
+        "After the simulation of the branching process, reporting delays were added as reported in a line-list of cases compiled from media and other reports[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>].",
+        "If no good fit was determined using a p-value threshold of 0.05, the reporting delay was instead sampled from the empirical delays in the line-list",
+        "<h2 style=\"display: inline\">Results:</h2> Percentage of outbreak simulations accepted Overall, the highest acceptance rate was for scenarios with a large event size (200), short duration (1 day), an R0 between 3 and 4, and a pre-intervention SARS-like serial interval (Figure 1).",
+        "Across all scenarios a higher acceptance rate was correlated with a larger event size, a shorter event duration, and a larger mean serial interval",
+        "This may be related to the influence these parameters have on the degree of volatility in outbreak simulations.",
+        "If the event size, serial interval, and event duration is assumed, the percentage of acceptance may be used to infer the most likely R0 scenario",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors explored a range of scenarios for the initial event size and duration of the exposure event which initiated the 2019\u201320 Wuhan novel coronavirus outbreak.",
+        "Increasing the event duration reduced the estimated R0 whilst decreasing the proportion of accepted samples.",
+        "Decreasing the event size whilst increasing the duration resulted in R0 estimates that were comparable to those from the most plausible scenarios and reduced the acceptance rate the least.The authors' results indicate that an R0 of less than 1 was highly unlikely unless the size of the initial exposure event was much greater than currently reported."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market in Wuhan, China, which was closed on the 31st of December 20191,2.",
+            "Countries are on high alert, with wide implementation of airport checks and contact tracing find and quarantine infected individuals.",
+            "In China, officials have restricted travel across a wide area.",
+            "There is still uncertainty around the precise scale and duration of the initial exposure event[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+            "The nature of the initial exposure has implications for estimates of the transmissibility of the coronavirus, as such it is important that these potential scenarios are further explored"
+        ],
+        "Methods": [
+            "Branching process model The authors modelled the outbreak using a stochastic branching process model comparable to those used elsewhere to model the dynamics of this outbreak[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+            "The mean number of cases generated by each case (R0) was sampled from a uniform distribution once per model simulation with a lower and upper bound determined by the scenario being evaluated.",
+            "After the simulation of the branching process, reporting delays were added as reported in a line-list of cases compiled from media and other reports[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>].",
+            "If no good fit was determined using a p-value threshold of 0.05, the reporting delay was instead sampled from the empirical delays in the line-list"
+        ],
+        "Results": [
+            "Percentage of outbreak simulations accepted Overall, the highest acceptance rate was for scenarios with a large event size (200), short duration (1 day), an R0 between 3 and 4, and a pre-intervention SARS-like serial interval (Figure 1).",
+            "Across all scenarios a higher acceptance rate was correlated with a larger event size, a shorter event duration, and a larger mean serial interval",
+            "This may be related to the influence these parameters have on the degree of volatility in outbreak simulations.",
+            "If the event size, serial interval, and event duration is assumed, the percentage of acceptance may be used to infer the most likely R0 scenario"
+        ],
+        "Conclusion": [
+            "The authors explored a range of scenarios for the initial event size and duration of the exposure event which initiated the 2019\u201320 Wuhan novel coronavirus outbreak.",
+            "Increasing the event duration reduced the estimated R0 whilst decreasing the proportion of accepted samples.",
+            "Decreasing the event size whilst increasing the duration resulted in R0 estimates that were comparable to those from the most plausible scenarios and reduced the acceptance rate the least.The authors' results indicate that an R0 of less than 1 was highly unlikely unless the size of the initial exposure event was much greater than currently reported."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Imai_et+al_0000_a",
+            "entry": "1. Imai N, Dorigatti I, Cori A, et al.. Report 2: Estimating the potential total number of novel Coronavirus cases in Wuhan City, China. Reference Source",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Imai%2C%20N.%20Dorigatti%2C%20I.%20Cori%2C%20A.%20Report%202%3A%20Estimating%20the%20potential%20total%20number%20of%20novel%20Coronavirus%20cases%20in%20Wuhan%20City%2C%20China"
+        },
+        {
+            "id": "2",
+            "alt_id": "2._2020_a",
+            "entry": "2. Thompson RN: 2019-20 Wuhan coronavirus outbreak: Intense surveillance is vital for preventing sustained transmission in new locations. bioRxiv. 2020; 1\u201314. Publisher Full Text",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thompson%20RN%20201920%20Wuhan%20coronavirus%20outbreak%20Intense%20surveillance%20is%20vital%20for%20preventing%20sustained%20transmission%20in%20new%20locations%20bioRxiv%202020%20114%20Publisher%20Full%20Text"
+        },
+        {
+            "id": "3",
+            "alt_id": "3._0000_a",
+            "entry": "3. China coronavirus \u2019spreads before symptoms show\u2019. Reference Source",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=China%20coronavirus%20spreads%20before%20symptoms%20show%20Reference%20Source"
+        },
+        {
+            "id": "4",
+            "alt_id": "Imai_et+al_2019_b",
+            "entry": "4. Imai N, Cori A, Dorigatti I, et al.. Report 3: Transmissibility of 2019-nCoV. Reference Source",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Imai%20N%20Cori%20A%20Dorigatti%20I%20et%20al%20Report%203%20Transmissibility%20of%202019nCoV%20Reference%20Source"
+        },
+        {
+            "id": "6",
+            "alt_id": "Cauchemez_et+al_2016_a",
+            "entry": "6. Cauchemez S, Nouvellet P, Cori A, et al.. Unraveling the drivers of MERS-CoV transmission. Proc Natl Acad Sci U S A. 2016; 113(32): 9081\u20136.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cauchemez%2C%20S.%20Nouvellet%2C%20P.%20Cori%2C%20A.%20Unraveling%20the%20drivers%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cauchemez%2C%20S.%20Nouvellet%2C%20P.%20Cori%2C%20A.%20Unraveling%20the%20drivers%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cauchemez%2C%20S.%20Nouvellet%2C%20P.%20Cori%2C%20A.%20Unraveling%20the%20drivers%202016"
+        },
+        {
+            "id": "7",
+            "alt_id": "Xu_et+al_0000_a",
+            "entry": "7. Xu B, Gutierrez B, Hill S, et al.. Epidemiological Data from the nCoV-2019 Outbreak: Early Descriptions from Publicly Available Data. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xu%2C%20B.%20Gutierrez%2C%20B.%20Hill%2C%20S.%20Epidemiological%20Data%20from%20the%20nCoV-2019%20Outbreak"
+        },
+        {
+            "id": "8",
+            "alt_id": "Core_2019_a",
+            "entry": "8. R Core Team: R: A language and environment for statistical computing. Vienna, Austria:: R Foundation for Statistical Computing, 2019. Reference Source",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Core%2C%20R.%20Team%3A%20R%3A%20A%20language%20and%20environment%20for%20statistical%20computing%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Core%2C%20R.%20Team%3A%20R%3A%20A%20language%20and%20environment%20for%20statistical%20computing%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Core%2C%20R.%20Team%3A%20R%3A%20A%20language%20and%20environment%20for%20statistical%20computing%202019"
+        },
+        {
+            "id": "9",
+            "alt_id": "Funk_2020_a",
+            "entry": "9. Funk S. Bpmodels: Analysing chain statistics using branching process models. 2020. Reference Source",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Funk%20S%20Bpmodels%20Analysing%20chain%20statistics%20using%20branching%20process%20models%202020%20Reference%20Source"
+        },
+        {
+            "id": "10",
+            "alt_id": "Abbott_et+al_0000_a",
+            "entry": "10. Abbott S, Funk S, jdmunday, et al.: epiforecasts/WuhanSeedingVsTransmission: Resubmission to Wellcome Open Research (Version v0.3.0). Zenodo. 2020. http://www.doi.org/10.5281/zenodo.3631830",
+            "url": "http://www.doi.org/10.5281/zenodo.3631830"
+        },
+        {
+            "id": "11",
+            "alt_id": "Boettiger_2015_a",
+            "entry": "11. Boettiger C. An introduction to Docker for reproducible research. ACM SIGOPS Operating Systems Review. 2015; 49: 71\u20139. Publisher Full Text Reviewer Report 11 February 2020 https://doi.org/10.21956/wellcomeopenres.17230.r37777",
+            "crossref": "https://dx.doi.org/10.21956/wellcomeopenres.17230.r37777",
+            "scite": "https://scite.ai/reports/10.21956/wellcomeopenres.17230.r37777",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.21956/wellcomeopenres.17230.r37777"
+        },
+        {
+            "id": "The_2019_b",
+            "alt_id": "11",
+            "entry": "The study by Abbott and colleagues is one of several 2019-nCoV modelling studies that have appeared during the last two weeks and describes the early transmission dynamics during the outbreak in Wuhan, China. Using a stochastic branching process model, the authors find that the observed outbreak is most compatible with a large initial transmission event, a SARS-like serial interval, and an R0 between 2 and 4. What I particularly like about the study - and what distinguishes it from some of the other modelling papers - is the addition of reporting delays to the simulated case counts.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=The%20study%20by%20Abbott%20and%20colleagues%20is%20one%20of%20several%202019nCoV%20modelling%20studies%20that%20have%20appeared%20during%20the%20last%20two%20weeks%20and%20describes%20the%20early%20transmission%20dynamics%20during%20the%20outbreak%20in%20Wuhan%20China%20Using%20a%20stochastic%20branching%20process%20model%20the%20authors%20find%20that%20the%20observed%20outbreak%20is%20most%20compatible%20with%20a%20large%20initial%20transmission%20event%20a%20SARSlike%20serial%20interval%20and%20an%20R0%20between%202%20and%204%20What%20I%20particularly%20like%20about%20the%20study%20%20and%20what%20distinguishes%20it%20from%20some%20of%20the%20other%20modelling%20papers%20%20is%20the%20addition%20of%20reporting%20delays%20to%20the%20simulated%20case%20counts"
+        },
+        {
+            "id": "While_2019_c",
+            "alt_id": "12",
+            "entry": "While the modelling approach is sound, a couple of things about the simulation procedure remain somewhat unclear: 1. The authors write that \"The start date was determined by combining the duration of the transmission event with the date the fish market in Wuhan, the source of the outbreak, closed (31st of December 2019).\" How exactly was the start date determined? The start date is actually one of the most crucial aspects of the analysis, and it is not reported in the text.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=While%20the%20modelling%20approach%20is%20sound%20a%20couple%20of%20things%20about%20the%20simulation%20procedure%20remain%20somewhat%20unclear%201%20The%20authors%20write%20that%20The%20start%20date%20was%20determined%20by%20combining%20the%20duration%20of%20the%20transmission%20event%20with%20the%20date%20the%20fish%20market%20in%20Wuhan%20the%20source%20of%20the%20outbreak%20closed%2031st%20of%20December%202019%20How%20exactly%20was%20the%20start%20date%20determined%20The%20start%20date%20is%20actually%20one%20of%20the%20most%20crucial%20aspects%20of%20the%20analysis%20and%20it%20is%20not%20reported%20in%20the%20text"
+        },
+        {
+            "id": "2",
+            "alt_id": "2._0000_d",
+            "entry": "2. The authors write that they either use a parametric description of the reporting delay or sample from the empirical delays. Does this mean that they use different delays at different times during the outbreak? Overall, I think that the study would gain from discussing the recent literature on the outbreak dynamics and findings from phylogenetic analyses. In particular, I think the authors should discuss their findings in light of the studies by Riou & Althaus1 (Euro Surveill, PMID: 32019669) and Li et al.2 (N Engl J Med, PMID: 31995857) which provided the first published estimates of R0 for 2019-nCoV. It would also be interesting to compare the start date of the simulated outbreaks to preliminary estimates of tMRCA (see http://virological.org, for example). Finally, I think the issue of under reporting and potential biases in using reported case counts deserves some additional discussion.",
+            "url": "http://virological.org",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pubmed/32019669",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=The%20authors%20write%20that%20they%20either%20use%20a%20parametric%20description%20of%20the%20reporting%20delay%20or%20sample%20from%20the%20empirical%20delays%20Does%20this%20mean%20that%20they%20use%20different%20delays%20at%20different%20times%20during%20the%20outbreak%20Overall%20I%20think%20that%20the%20study%20would%20gain%20from%20discussing%20the%20recent%20literature%20on%20the%20outbreak%20dynamics%20and%20findings%20from%20phylogenetic%20analyses%20In%20particular%20I%20think%20the%20authors%20should%20discuss%20their%20findings%20in%20light%20of%20the%20studies%20by%20Riou%20%20Althaus1%20Euro%20Surveill%20PMID%2032019669%20and%20Li%20et%20al2%20N%20Engl%20J%20Med%20PMID%2031995857%20which%20provided%20the%20first%20published%20estimates%20of%20R0%20for%202019nCoV%20It%20would%20also%20be%20interesting%20to%20compare%20the%20start%20date%20of%20the%20simulated%20outbreaks%20to%20preliminary%20estimates%20of%20tMRCA%20see%20httpvirologicalorg%20for%20example%20Finally%20I%20think%20the%20issue%20of%20under%20reporting%20and%20potential%20biases%20in%20using%20reported%20case%20counts%20deserves%20some%20additional%20discussion",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=The%20authors%20write%20that%20they%20either%20use%20a%20parametric%20description%20of%20the%20reporting%20delay%20or%20sample%20from%20the%20empirical%20delays%20Does%20this%20mean%20that%20they%20use%20different%20delays%20at%20different%20times%20during%20the%20outbreak%20Overall%20I%20think%20that%20the%20study%20would%20gain%20from%20discussing%20the%20recent%20literature%20on%20the%20outbreak%20dynamics%20and%20findings%20from%20phylogenetic%20analyses%20In%20particular%20I%20think%20the%20authors%20should%20discuss%20their%20findings%20in%20light%20of%20the%20studies%20by%20Riou%20%20Althaus1%20Euro%20Surveill%20PMID%2032019669%20and%20Li%20et%20al2%20N%20Engl%20J%20Med%20PMID%2031995857%20which%20provided%20the%20first%20published%20estimates%20of%20R0%20for%202019nCoV%20It%20would%20also%20be%20interesting%20to%20compare%20the%20start%20date%20of%20the%20simulated%20outbreaks%20to%20preliminary%20estimates%20of%20tMRCA%20see%20httpvirologicalorg%20for%20example%20Finally%20I%20think%20the%20issue%20of%20under%20reporting%20and%20potential%20biases%20in%20using%20reported%20case%20counts%20deserves%20some%20additional%20discussion"
+        }
+    ],
+    "facts": [
+        "The current novel coronavirus outbreak appears to have originated from a point-source exposure event at Huanan seafood wholesale market",
+        "restricted model simulations based on the number of observed cases",
+        "accepting samples that were within a 5% interval on either side",
+        "A pre-intervention SARS-like serial interval resulted in an R0 estimate",
+        "Our results indicate that an R0",
+        "that R0 estimates were comparable across scenarios with decreasing event size",
+        "Scenarios with a pre-intervention SARS-like serial interval resulted in a higher R0",
+        "The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market",
+        "which was closed on the 31st of December 20191,2",
+        "of the 26th of January 2020 there have been over 2000 confirmed cases with the majority",
+        "countries are on high alert",
+        "that cases from the initial transmission event were uniformly distributed over the duration of the event",
+        "Each case resulted in a subsequent generation of cases",
+        "each case generated being drawn from a negative binomial distribution",
+        "The mean number of cases generated by each case was sampled from a uniform distribution",
+        "upper bound determined by the scenario being evaluated",
+        "three scenarios for the serial interval distribution informed by previous outbreaks of coronaviruses",
+        "reporting delays were added as reported in a line-list of cases compiled from media",
+        "the reporting delay was instead sampled from the empirical delays in the line-list",
+        "the highest acceptance rate was for scenarios with a large event size",
+        "Across all scenarios a higher acceptance rate was correlated with a larger event size",
+        "to the influence these parameters have on the degree of volatility",
+        "trends in Figure 1 should be interpreted with care using prior knowledge",
+        "on observed cases to establish the probability of each scenario",
+        "most probable SARS-like serial interval scenarios resulted in an estimated R0 of 2 - 2.7",
+        "most probable pre-intervention SARS-like serial interval scenarios resulted in an estimated R0 of 2.8 - 3.8",
+        "plausible resulted in an estimate R0 of 2 - 3",
+        "the event size led to estimates of the R0 increasing",
+        "the event duration reduced the estimated R0 whilst decreasing the proportion of accepted samples",
+        "the duration resulted in R0 estimates",
+        "responses or comments on the article can be found at the end of the article",
+        "Countries are on high alert",
+        "the reporting delay was instead sampled from the empirical delays",
+        "the acceptance rate the least.Our results indicate that an R0",
+        "the 1,975 confirmed cases observed on the 25th of January7",
+        "that R0 estimates were comparable as event size decreased",
+        "that R0 estimates were highly sensitive to variation in the assumed serial interval",
+        "alongside our analysis may be generalisable to other point source outbreaks when time series data on cases is unavailable"
+    ],
+    "claims": [
+        "We evaluated scenarios for the following parameters: the size, and duration of the initial transmission event, the serial interval, and the reproduction number (R0)",
+        "Using a SARs-like serial interval we found that the most likely scenario produced an R0 estimate between 2-2.7 (90% credible interval (CrI))",
+        "We found that R0 estimates were comparable across scenarios with decreasing event size and increasing duration",
+        "We considered a realistic range of parameters where data were not available, quantifying how likely these scenarios were to occur using reported cases",
+        "We focused on the size and duration of the initial exposure event in particular, and the impact that this has on the estimated level of human-to-human transmission",
+        "We aimed to provide decision makers, and researchers, with probability estimates for each scenario considered, along with estimates of the reproduction number (R0) across all scenarios",
+        "Methods Branching process model We modelled the outbreak using a stochastic branching process model comparable to those used elsewhere to model the dynamics of this outbreak4",
+        "We evaluated the samples from each scenario based on how closely their trajectories matched the 1,975 confirmed cases observed on the 25th of January7",
+        "We reported 90% credible intervals (CrI) for R0, stratified by the transmission event size, transmission event duration and the assumed mean serial interval",
+        "Discussion In this study, we explored a range of scenarios for the initial event size and duration of the exposure event which initiated the 2019\u201320 Wuhan novel coronavirus outbreak",
+        "We found that there was a very low probability that the reproduction numbers was less than 1 for any scenario considered",
+        "Indeed, we found that R0 estimates were comparable as event size decreased and event duration increased",
+        "For comparable scenarios, our results were similar to those previously published but we found that R0 estimates were highly sensitive to variation in the assumed serial interval, event size, and event duration",
+        "The R package we have developed alongside our analysis may be generalisable to other point source outbreaks when time series data on cases is unavailable or difficult to verify",
+        "We also found that a large initial exposure event was likely, combined with a short duration"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "University of Bern, Any reports and responses or comments on the article can be found at the end of the article",
+        "The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market in Wuhan, China, which was closed on the 31st of December 20191,2",
+        "We focused on the size and duration of the initial exposure event in particular, and the impact that this has on the estimated level of human-to-human transmission",
+        "Branching process model We modelled the outbreak using a stochastic branching process model comparable to those used elsewhere to model the dynamics of this outbreak[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]",
+        "We used three scenarios for the serial interval distribution informed by previous outbreaks of coronaviruses: Severe Acute Respiratory Syndrome-like, with a mean of 8.4 days and standard deviation of 3.8 days[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]; Severe Acute Respiratory Syndrome-like before interventions, with a mean of 10 days and standard deviation of 2.8 days; and MERS-like, with a mean of 6.8 days and standard deviation of 4.1 days[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]",
+        "We reported 90% credible intervals (CrI) for R0, stratified by the transmission event size, transmission event duration and the assumed mean serial interval",
+        "Percentage of outbreak simulations accepted Overall, the highest acceptance rate was for scenarios with a large event size (200), short duration (1 day), an R0 between 3 and 4, and a pre-intervention Severe Acute Respiratory Syndrome-like serial interval (Figure 1)",
+        "Across all scenarios a higher acceptance rate was correlated with a larger event size, a shorter event duration, and a larger mean serial interval",
+        "This may be related to the influence these parameters have on the degree of volatility in outbreak simulations",
+        "Trends in Figure 1 should be interpreted with care using prior knowledge",
+        "In this study, we explored a range of scenarios for the initial event size and duration of the exposure event which initiated the 2019\u201320 Wuhan novel coronavirus outbreak",
+        "The most probable Severe Acute Respiratory Syndrome-like serial interval scenarios resulted in an estimated R0 of 2 - 2.7 (90% credible intervals), whilst the most probable pre-intervention Severe Acute Respiratory Syndrome-like serial interval scenarios resulted in an estimated R0 of 2.8 - 3.8 (90% credible intervals)",
+        "MERS-like serial interval scenarios were less plausible, but the most plausible resulted in an estimate R0 of 2 - 3 (90% credible intervals)",
+        "Decreasing the event size whilst increasing the duration resulted in R0 estimates that were comparable to those from the most plausible scenarios and reduced the acceptance rate the least",
+        "We found that R0 estimates were comparable as event size decreased and event duration increased",
+        "Our results were similar to those previously published but we found that R0 estimates were highly sensitive to variation in the assumed serial interval, event size, and event duration",
+        "We found that a large initial exposure event was likely, combined with a short duration"
+    ],
+    "top_statements": [
+        "The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market in Wuhan, China, which was closed on the 31st of December 20191,2",
+        "Percentage of outbreak simulations accepted Overall, the highest acceptance rate was for scenarios with a large event size (200), short duration (1 day), an R0 between 3 and 4, and a pre-intervention Severe Acute Respiratory Syndrome-like serial interval (Figure 1)",
+        "Across all scenarios a higher acceptance rate was correlated with a larger event size, a shorter event duration, and a larger mean serial interval",
+        "The most probable Severe Acute Respiratory Syndrome-like serial interval scenarios resulted in an estimated R0 of 2 - 2.7 (90% credible intervals), whilst the most probable pre-intervention Severe Acute Respiratory Syndrome-like serial interval scenarios resulted in an estimated R0 of 2.8 - 3.8 (90% credible intervals)",
+        "Our results were similar to those previously published but we found that R0 estimates were highly sensitive to variation in the assumed serial interval, event size, and event duration"
+    ],
+    "headline": "The ongoing outbreak of novel Coronavirus appears to have originated from an initial point-source exposure event at Huanan seafood wholesale market in Wuhan, China, which was closed on the 31st of December 20191,2",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "Severe Acute Respiratory Syndrome",
+        "CrI": "credible intervals",
+        "ISPM": "Institute of Social and Preventive Medicine"
+    }
+}

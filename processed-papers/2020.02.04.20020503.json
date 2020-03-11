@@ -1,0 +1,749 @@
+{
+    "filename": "2020.02.04.20020503.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1081317,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.04.20020503",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/27/2020.02.04.20020503.full.pdf"
+        },
+        "title": "Risk assessment of novel coronavirus COVID-19 outbreaks outside China",
+        "keywords": [
+            "novel coronavirus",
+            "transmission",
+            "risk assessment",
+            "interventions",
+            "travel",
+            "outbreak",
+            "COVID-19",
+            "compartmental model",
+            "branching process"
+        ],
+        "author": "Peter Boldog, Tamas Tekeli, Zsolt Vizi, Attila Denes, Ferenc Bartha, Gergely Rost",
+        "date": 2020,
+        "affiliations": [
+            "Bartha and Gergely R\u00f6st Bolyai Institute, University of Szeged, H-6720 Szeged, Hungary; boldogpeter@gmail.com (P.B.); tekeli.tamas@gmail.com (T.T.); zsvizi@math.u-szeged.hu (Z.V.); barfer@math.u-szeged.hu (F.A.B.); rost@math.u-szeged.hu (G.R.)",
+            "Correspondence: denesa@math.u-szeged.hu"
+        ],
+        "abstract": "We developed a computational tool to assess the risk of novel coronavirus outbreaks outside China. We estimate the dependence of the risk of a major outbreak in a country from imported cases on key parameters such as: \n(i) the evolution of the cumulative number of cases in mainland China outside the closed areas;\n(ii) the connectivity of the destination country with China, including baseline travel frequencies, the effect of travel restrictions,  and the efficacy of entry screening at destination;\n(iii) the efficacy of control measures in the destination country (expressed by the local reproduction number Rloc). We found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions. Countries with high connectivity but low Rloc benefit the most from policies that further reduce Rloc. Countries in the middle should consider a combination of such policies. Risk assessments were illustrated for selected groups of countries from America, Asia and Europe, and we investigated how their risks depend on those parameters, and how the risk is increasing in time as the number of cases in China is growing.",
+        "references": "@article{unknown2003a,\n  title = {The majority of the estimates for R0 range between 2 and 3. Obtaining these was done by modeling epidemic trajectories and comparing them to the results of [16] as a baseline [19,20], using a negative binomial distribution to generate secondary infections. Liu et al. utilized the exponential growth and maximum likelihood estimation methods and found that the 2019-nCoV may have a higher pandemic risk},\n  journal = {than SARS-CoV in},\n  date = {2003},\n  medium = {21},\n  language = {}\n}\n@misc{read-a,\n  author = {Read},\n  title = {based their estimates on data from Wuhan exclusively (available up to 22 January 2020) and a deterministic SEIR model [22]. The choice of this date is motivated by the actions of authorities, that is the substantial travel limitations the next day. Li et al. used solely the patient data with illness onset between 10 December 2019 and 4 January 2020 [24]. The Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene and Tropical Medicine have analyzed},\n  more-authors = {true},\n  language = {}\n}\n@31{unknown-a,\n  title = {nCoV using SEIR and multiple data series [25]. Shen et al. used a SEIJR model (where},\n  date = {J},\n  medium = {31},\n  source = {denotes the compartment of diagnosed and isolated individuals) and Markov chain Monte Carlo (MCMC) simulations [26] similarly to [27]. An alternative approach was presented by Majumder and Mandl [23] as they obtained their estimate based on the cumulative epidemic curve and the incidence decay and exponential adjustment (IDEA) model},\n  language = {}\n}\n@misc{unknown-b,\n  title = {The incubation period was estimated to be in between 4.6 and 5.8 days by various studies. The first calculations used data up to 23 January [21]. Weibull distribution was identified as the best-fit model by several researches when comparing LogNormal, Gamma, and Weibull fits. Backer et al. used newly available patient data with known travel history and identified the Weibull distribution as the one with the best LOO (Leave-One-Out) score [28]; Linton et al. gave estimates for with and without Wuhan residents using their statistical model with, again, the Weibull distribution scoring the best AIC (Akaike information criterion) [29]. The Johns Hopkins University Infectious Disease Dynamics Group has been collecting substantial data on exposure and symptom onset for 2019-nCoV cases. They recommend using their LogNormal estimate [30], which gives a 5.1 day incubation period},\n  language = {}\n}\n@misc{unknown-c,\n  title = {Materials and Methods},\n  language = {}\n}\n@misc{unknown-d,\n  title = {Results 3.1. Epidemic Size in China},\n  language = {}\n}\n@article{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X. and Ren, L. and Zhao, J. and Hu, Y. and Zhang, L. and Fan, G. and Xu, J. and Gu, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  volume = {2020},\n  pages = {497\u2013506},\n  doi = {doi: 10.1016/S0140-6736(20)30183-5},\n  more-authors = {true},\n  number = {395},\n  language = {}\n}\n@book{w-a,\n  author = {W.H.O.},\n  title = {Statement Regarding Cluster of Pneumonia Cases in Wuhan, China},\n  publisher = {World Health Organization: Geneva, Switzerland, 2020},\n  url = {https://www.who.int/china/news/detail/09-01-2020-who-statementregarding-cluster-of-pneumonia-cases-in-wuhan-china},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@book{w-b,\n  author = {W.H.O.},\n  title = {Novel Coronavirus\u2014Thailand (ex-China); World Health Organization},\n  publisher = {2020},\n  url = {https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand-ex-china/en},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  address = {Geneva, Switzerland},\n  urldate = {Available online:}\n}\n@incollection{w2019a,\n  author = {W.H.O.},\n  title = {Novel Coronavirus},\n  date = {2019},\n  publisher = {World Health Organization: Geneva, Switzerland, 2020},\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf},\n  source = {Situation Report\u20141},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@book{team2019a,\n  author = {Team, J.H.U.I.D.D.},\n  date = {2019},\n  title = {Global Cases by Center for Systems Science and Engineering},\n  publisher = {JHU IDD},\n  url = {https://docs.google.com/spreadsheets/d/1wQVypefm946ch4XDp37uZ-wartW4V7ILdgqYiDXUHM/edit},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@article{c2019a,\n  author = {C.D.C.},\n  date = {2019},\n  title = {Novel Coronavirus. Prevention & Treatment. Cent},\n  journal = {Disease Control Prev},\n  language = {},\n  urldate = {2020. Available online: {https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html} (on 17 February 2020).}\n}\n@article{n-a,\n  author = {N.P.R.},\n  title = {Chinese Authorities Begin Quarantine Of Wuhan City As Coronavirus Cases Multiply},\n  journal = {NPR},\n  url = {https://www.npr.org/2020/01/23/798789671/chinese-authorities-begin-quarantine-ofwuhan-city-as-coronavirus-cases-multiply},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@article{cheng-a,\n  author = {Cheng, W.C.C. and Wong, S.-C. and To, K.K.W. and Ho, P.L. and Yuen, K.-Y.},\n  title = {Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China},\n  journal = {J. Hosp. Infect. 2020},\n  doi = {doi},\n  note = {10.1016/j.jhin.2020.01.010, to appear},\n  language = {}\n}\n@book{arnot-a,\n  author = {Arnot, M. and Mzezewa, T.},\n  title = {The Coronavirus: What Travelers Need to Know; The New York},\n  publisher = {USA},\n  url = {https://www.nytimes.com/2020/01/26/travel/Coronavirus-travel.html},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  address = {Times: New York, NY},\n  urldate = {2020. Available online:}\n}\n@article{unknown-e,\n  title = {the People\u2019s Republic of China. Work begins on mobile hospital in Wuhan},\n  journal = {NHC},\n  url = {http://en.nhc.gov.cn/2020-01/29/c_76034.htm},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:},\n  organization = {National Health Commission of}\n}\n@article{unknown-f,\n  title = {the People\u2019s Republic of China. Medics flood to Hubei to fight disease},\n  journal = {NHC},\n  url = {http://en.nhc.gov.cn/2020-01/29/c_76031.htm},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:},\n  organization = {National Health Commission of}\n}\n@book{parry-a,\n  author = {Parry, J.},\n  title = {Pneumonia in China: lack of information raises concerns among Hong Kong health workers},\n  publisher = {BMJ 2020},\n  doi = {doi: 10.1136/bmj.m56},\n  language = {}\n}\n@book{moore2016a,\n  author = {Moore, M. and Gelfeld, B. and Okunogbe, A.T. and Christopher, P.},\n  title = {Identifying Future Disease Hot Spots: Infectious Disease Vulnerability Index},\n  publisher = {RAND Corporation},\n  date = {2016},\n  url = {https://www.rand.org/pubs/research_reports/RR1605.html},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  address = {Santa Monica, CA, USA},\n  urldate = {Available online:}\n}\n@article{bogoch-a,\n  author = {Bogoch, I.I. and Watts, A. and Thomas-Bachli, A. and Huber, C. and Kraemer, M.U.G. and Khan, K.},\n  title = {Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel},\n  journal = {J. Travel Med. 2020},\n  doi = {doi: 10.1093/jtm/taaa008, accepted},\n  language = {}\n}\n@article{chinazzi2019a,\n  author = {Chinazzi, M. and Davis, J.T. and Gioannini, C. and Litvinova, M. and Pastore y Piontti, A. and Rossi, L. and Xiong, X. and Halloran, M.E. and Longini, I.M. and Vespignani, A.},\n  title = {Preliminary assessment of the International Spreading Risk Associated with the 2019 novel Coronavirus},\n  date = {2019},\n  journal = {Lab. Model. Biol. Soc.\u2013Techn. Syst},\n  url = {https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus__6_.pdf},\n  source = {outbreak in Wuhan City},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@article{imai-a,\n  author = {Imai, N. and Dorigatti, I. and Cori, A. and Donnelly, C. and Riley, S. and Ferguson, N.M.},\n  title = {Report 2: Estimating the potential total number of novel Coronavirus cases in Wuhan City, China},\n  journal = {Imper. Coll. London},\n  url = {https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019nCoV-outbreak-report-22-01-2020.pdf},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@article{zhao2019a,\n  author = {Zhao, S. and Musa, S.S. and Lin, Q. and Ran, J. and Yang, G. and Wang, W. and Lou, Y. and Yang, L. and Gao, D. and He, D.},\n  title = {Estimating the Unreported Number of Novel Coronavirus},\n  date = {2019},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {388},\n  doi = {doi: 10.3390/jcm9020388},\n  more-authors = {true},\n  source = {Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak},\n  number = {9},\n  language = {}\n}\n@article{nishiura-a,\n  author = {Nishiura, H. and Jung, S.-M. and Linton, N.M. and Kinoshita, R. and Yang, Y. and Hayashi, K. and Kobayashi, T. and Yuan, B. and Akhmetzhanov, A.R.},\n  title = {The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {330},\n  doi = {doi: 10.3390/jcm9020330},\n  number = {9},\n  language = {}\n}\n@article{imai-b,\n  author = {Imai, N. and Cori, A. and Dorigatti, I. and Baguelin, M. and A., Donnelly C. and Riley, S. and Ferguson, N.M.},\n  title = {Report 3: Transmissibility of 2019-nCoV. Imper},\n  journal = {Coll. London},\n  url = {https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@book{riou-a,\n  author = {Riou, J. and Althaus, C.L.},\n  title = {Pattern of early human-to-human transmission of Wuhan 2019-nCoV},\n  publisher = {bioR\u03c7iv 2020},\n  doi = {doi: 10.1101/2020.01.23.917351},\n  language = {}\n}\n@article{liu2019a,\n  author = {Liu, T. and Hu, J. and Kang, M. and Lin, L. and Zhong, H. and Xiao, J. and He, G. and Song, T. and Huang, Q. and Rong, Z.},\n  journal = {Transmission dynamics of},\n  date = {2019},\n  title = {novel coronavirus},\n  doi = {doi: 10.1101/2020.01.25.919787},\n  more-authors = {true},\n  source = {bioR\u03c7iv 2020},\n  language = {}\n}\n@book{read-b,\n  author = {Read, J.M. and Bridgen, J.R.E. and Cummings, D.A.T. and Ho, A. and Jewell, C.P.},\n  title = {Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions},\n  publisher = {medR\u03c7iv 2020},\n  doi = {doi: 10.1101/2020.01.23.20018549},\n  language = {}\n}\n@book{m-a,\n  author = {M., Majumder and D, Mandl K.},\n  title = {Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China},\n  publisher = {SSRN 2020},\n  doi = {doi: 10.2139/ssrn.3524675},\n  language = {}\n}\n@article{li-a,\n  author = {Li, Q. and Guan, X. and Wu, P. and Wang, X. and Zhou, L. and Tong, Y. and Ren, R. and Leung, K.S.M. and Lau, E.H.Y. and Wong, J.},\n  journal = {Y.; et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N. Engl. J. Med. 2020},\n  doi = {doi: 10.1056/NEJMoa2001316}\n}\n@article{kucharski-a,\n  author = {Kucharski, A. and Russell, T. and Diamond, C. and nCoV Working Group, C.M.M.I.D. and Funk, S. and Eggo, R.M.},\n  title = {Analysis of early transmission dynamics of nCoV in Wuhan},\n  journal = {CMMID},\n  url = {https://cmmid.github.io/ncov/wuhan_early_dynamics},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@misc{shen-a,\n  author = {Shen, M. and Peng, Z. and Xiao, Y. and Zhang, L.},\n  title = {Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China},\n  url = {https://www.biorxiv.org/content/10.1101/2020.01.23.916726v1},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {bioR\u03c7iv 2020. Available online:}\n}\n@misc{leung-a,\n  author = {Leung, K. and Wu, J.T. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet 2020},\n  doi = {doi},\n  volume = {1016},\n  note = {to appear},\n  number = {0140-6736},\n  language = {}\n}\n@book{backer-a,\n  author = {Backer, J.A. and Klinkenberg, D. and Wallinga, J.},\n  title = {The incubation period of 2019-nCoV infections among travellers from Wuhan, China},\n  publisher = {medR\u03c7iv 2020},\n  doi = {doi: 10.1101/2020.01.27.20018986},\n  language = {}\n}\n@book{linton-a,\n  author = {Linton, N.M. and Kobayashi, T. and Yang, Y. and Hayashi, K. and Akhmetzhanov, A.R. and Jung, S.-M. and Yuan, B. and Kinoshita, R. and Nishiura, H.},\n  title = {Epidemiological characteristics of novel coronavirus infection: A statistical analysis},\n  publisher = {of publicly available case data. medR\u03c7iv 2020},\n  doi = {doi: 10.1101/2020.01.26.20018754},\n  language = {}\n}\n@book{zheng-a,\n  author = {Zheng, Q. and Meredith, H. and Grantz, K. and Bi, Q. and Jones, F. and S., Lauer and Team, J.H.U.I.D.D.},\n  title = {Real-time estimation of the novel coronavirus incubation time},\n  publisher = {JHU IDD},\n  url = {https://github.com/HopkinsIDD/ncov_incubation},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@article{fisman2013a,\n  author = {Fisman, D.N. and Hauck, T.S. and Tuite, A.R. and Greer, A.L.},\n  title = {An IDEA for Short Term Outbreak Projection: Nearcasting Using the},\n  journal = {Basic Reproduction Number. PLoS ONE},\n  date = {2013},\n  volume = {8},\n  pages = {12},\n  doi = {doi: 10.1371/journal.pone.0083622},\n  language = {}\n}\n@techreport{unknown-g,\n  url = {http://epirisk.net},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  urldate = {Available online:},\n  institution = {EpiRisk}\n}\n@article{quilty-a,\n  author = {Quilty, B. and Clifford, S. and nCoV Working Group, C.M.M.I.D. and Flasche, S. and Eggo, R.M.},\n  title = {Effectiveness of airport screening at detecting travellers infected with 2019-nCoV},\n  journal = {CMMID},\n  url = {https://cmmid.github.io/ncov/airport_screening_report/airport_screening_preprint_2020_01_28.pdf},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@article{britton-a,\n  author = {Britton, T.},\n  title = {Stochastic epidemic models: A survey},\n  journal = {Math. Biosci},\n  volume = {2020},\n  pages = {24\u201335},\n  doi = {doi: 10.1016/j.mbs.2010.01.006},\n  number = {225},\n  language = {}\n}\n@article{riley2003a,\n  author = {Riley, S. and Fraser, C. and Donnelly, C.A. and Ghani, A.C. and Abu-Raddad, L.J. and Hedley, A.J. and Leung, G.M. and Ho, L.-M. and Lam, T.-H. and Thach, T.Q.},\n  title = {Transmission Dynamics of the Etiological Agent of SARS in Hong Kong: Impact of Public Health Interventions},\n  journal = {Science},\n  date = {2003},\n  volume = {300},\n  pages = {1961\u20131966},\n  doi = {doi: 10.1126/science.1086478},\n  more-authors = {true},\n  language = {}\n}\n@incollection{park2019a,\n  author = {Park, S.W. and Champredon, D. and Earn, D.J. and Li, M. and Weitz, J.S. and Grenfell, B.T. and Dushoff, J.},\n  title = {Reconciling early-outbreak estimates of the basic reproductive number and its uncertainty: a new framework and applications to the novel coronavirus},\n  date = {2019},\n  publisher = {medR\u03c7iv 2020},\n  doi = {doi: 10.1101/2020.01.30.20019877},\n  source = {outbreak},\n  language = {}\n}\n@article{wearing2005a,\n  author = {Wearing, H.J. and Rohani, P. and Keeling, M.J.},\n  title = {Appropriate Models for the Management of Infectious Diseases},\n  journal = {PLoS Med},\n  date = {2005},\n  volume = {2},\n  doi = {doi: 10.1371/journal.pmed.0020174},\n  language = {}\n}\n@book{s-a,\n  author = {S., Lauer and Zlojutro, A. and Rey, D. and Dong, E.},\n  title = {JHU IDD Team; UNSW Sydney rCITI Team. Update January 31: Modeling the Spreading Risk of 2019-nCoV},\n  publisher = {JHU IDD},\n  url = {https://systems.jhu.edu/research/public-health/ncov-model-2},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:}\n}\n@article{nishiura2019a,\n  author = {Nishiura, H. and Kobayashi, T. and Yang, Y. and Hayashi, K. and Miyama, T. and Kinoshita, R. and Linton, N.M. and S-M., Jung and Yuan, B. and Suzuki, A.},\n  title = {The Rate of Underascertainment of Novel Coronavirus},\n  date = {2019},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {419},\n  doi = {doi: 10.3390/jcm9020419},\n  more-authors = {true},\n  source = {Infection: Estimation Using Japanese Passengers Data on Evacuation Flights},\n  number = {9},\n  language = {}\n}\n@article{unknown-h,\n  title = {Risk assessment of novel coronavirus 2019-nCoV outbreaks outside China},\n  journal = {Github},\n  url = {https://github.com/zsvizi/corona-virus-2020},\n  unmatched-accessed = {(accessed on 17 February 2020).},\n  language = {},\n  urldate = {2020. Available online:},\n  organization = {Bolyai Institute, University of Szeged}\n}\n",
+        "emails": [
+            "rost@math.u-szeged.hu",
+            "denesa@math.u-szeged.hu",
+            "barfer@math.u-szeged.hu",
+            "tekeli.tamas@gmail.com",
+            "zsvizi@math.u-szeged.hu",
+            "boldogpeter@gmail.com"
+        ],
+        "references_ris": "TY  - JOUR\nTI  - The majority of the estimates for R0 range between 2 and 3. Obtaining these was done by modeling epidemic trajectories and comparing them to the results of [16] as a baseline [19,20], using a negative binomial distribution to generate secondary infections. Liu et al. utilized the exponential growth and maximum likelihood estimation methods and found that the 2019-nCoV may have a higher pandemic risk\nT2  - than SARS-CoV in\nPY  - 2003\nDA  - 2003\nC1  - 21\nLA  - \nER  - \n\nTY  - GEN\nAU  - Read\nTI  - based their estimates on data from Wuhan exclusively (available up to 22 January 2020) and a deterministic SEIR model [22]. The choice of this date is motivated by the actions of authorities, that is the substantial travel limitations the next day. Li et al. used solely the patient data with illness onset between 10 December 2019 and 4 January 2020 [24]. The Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene and Tropical Medicine have analyzed\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nTI  - nCoV using SEIR and multiple data series [25]. Shen et al. used a SEIJR model (where\nPY  - J\nDA  - J\nC1  - 31\nT2  - denotes the compartment of diagnosed and isolated individuals) and Markov chain Monte Carlo (MCMC) simulations [26] similarly to [27]. An alternative approach was presented by Majumder and Mandl [23] as they obtained their estimate based on the cumulative epidemic curve and the incidence decay and exponential adjustment (IDEA) model\nLA  - \nER  - \n\nTY  - GEN\nTI  - The incubation period was estimated to be in between 4.6 and 5.8 days by various studies. The first calculations used data up to 23 January [21]. Weibull distribution was identified as the best-fit model by several researches when comparing LogNormal, Gamma, and Weibull fits. Backer et al. used newly available patient data with known travel history and identified the Weibull distribution as the one with the best LOO (Leave-One-Out) score [28]; Linton et al. gave estimates for with and without Wuhan residents using their statistical model with, again, the Weibull distribution scoring the best AIC (Akaike information criterion) [29]. The Johns Hopkins University Infectious Disease Dynamics Group has been collecting substantial data on exposure and symptom onset for 2019-nCoV cases. They recommend using their LogNormal estimate [30], which gives a 5.1 day incubation period\nLA  - \nER  - \n\nTY  - GEN\nTI  - Materials and Methods\nLA  - \nER  - \n\nTY  - GEN\nTI  - Results 3.1. Epidemic Size in China\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nAU  - Ren, L.\nAU  - Zhao, J.\nAU  - Hu, Y.\nAU  - Zhang, L.\nAU  - Fan, G.\nAU  - Xu, J.\nAU  - Gu, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nVL  - 2020\nSP  - 497\nEP  - 506\nDO  - 10.1016/S0140-6736(20)30183-5\nC1  - true\nIS  - 395\nLA  - \nER  - \n\nTY  - BOOK\nAU  - W.H.O.\nTI  - Statement Regarding Cluster of Pneumonia Cases in Wuhan, China\nPB  - World Health Organization: Geneva, Switzerland, 2020\nUR  - https://www.who.int/china/news/detail/09-01-2020-who-statementregarding-cluster-of-pneumonia-cases-in-wuhan-china\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - BOOK\nAU  - W.H.O.\nTI  - Novel Coronavirus\u2014Thailand (ex-China); World Health Organization\nPB  - 2020\nUR  - https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand-ex-china/en\nC1  - (accessed on 17 February 2020).\nLA  - \nCY  - Geneva, Switzerland\nC1  - Available online:\nER  - \n\nTY  - CHAP\nAU  - W.H.O.\nTI  - Novel Coronavirus\nPY  - 2019\nDA  - 2019\nPB  - World Health Organization: Geneva, Switzerland, 2020\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf\nT2  - Situation Report\u20141\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - BOOK\nAU  - Team, J.H.U.I.D.D.\nPY  - 2019\nDA  - 2019\nTI  - Global Cases by Center for Systems Science and Engineering\nPB  - JHU IDD\nUR  - https://docs.google.com/spreadsheets/d/1wQVypefm946ch4XDp37uZ-wartW4V7ILdgqYiDXUHM/edit\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - JOUR\nAU  - C.D.C.\nPY  - 2019\nDA  - 2019\nTI  - Novel Coronavirus. Prevention & Treatment. Cent\nT2  - Disease Control Prev\nLA  - \nC1  - 2020. Available online: {https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html} (on 17 February 2020).\nER  - \n\nTY  - JOUR\nAU  - N.P.R.\nTI  - Chinese Authorities Begin Quarantine Of Wuhan City As Coronavirus Cases Multiply\nT2  - NPR\nUR  - https://www.npr.org/2020/01/23/798789671/chinese-authorities-begin-quarantine-ofwuhan-city-as-coronavirus-cases-multiply\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - JOUR\nAU  - Cheng, W.C.C.\nAU  - Wong, S.-C.\nAU  - To, K.K.W.\nAU  - Ho, P.L.\nAU  - Yuen, K.-Y.\nTI  - Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China\nT2  - J. Hosp. Infect. 2020\nDO  - doi\nN1  - 10.1016/j.jhin.2020.01.010, to appear\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Arnot, M.\nAU  - Mzezewa, T.\nTI  - The Coronavirus: What Travelers Need to Know; The New York\nPB  - USA\nUR  - https://www.nytimes.com/2020/01/26/travel/Coronavirus-travel.html\nC1  - (accessed on 17 February 2020).\nLA  - \nCY  - Times: New York, NY\nC1  - 2020. Available online:\nER  - \n\nTY  - JOUR\nTI  - the People\u2019s Republic of China. Work begins on mobile hospital in Wuhan\nT2  - NHC\nUR  - http://en.nhc.gov.cn/2020-01/29/c_76034.htm\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nC1  - National Health Commission of\nER  - \n\nTY  - JOUR\nTI  - the People\u2019s Republic of China. Medics flood to Hubei to fight disease\nT2  - NHC\nUR  - http://en.nhc.gov.cn/2020-01/29/c_76031.htm\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nC1  - National Health Commission of\nER  - \n\nTY  - BOOK\nAU  - Parry, J.\nTI  - Pneumonia in China: lack of information raises concerns among Hong Kong health workers\nPB  - BMJ 2020\nDO  - 10.1136/bmj.m56\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Moore, M.\nAU  - Gelfeld, B.\nAU  - Okunogbe, A.T.\nAU  - Christopher, P.\nTI  - Identifying Future Disease Hot Spots: Infectious Disease Vulnerability Index\nPB  - RAND Corporation\nPY  - 2016\nDA  - 2016\nUR  - https://www.rand.org/pubs/research_reports/RR1605.html\nC1  - (accessed on 17 February 2020).\nLA  - \nCY  - Santa Monica, CA, USA\nC1  - Available online:\nER  - \n\nTY  - JOUR\nAU  - Bogoch, I.I.\nAU  - Watts, A.\nAU  - Thomas-Bachli, A.\nAU  - Huber, C.\nAU  - Kraemer, M.U.G.\nAU  - Khan, K.\nTI  - Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel\nT2  - J. Travel Med. 2020\nDO  - 10.1093/jtm/taaa008, accepted\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chinazzi, M.\nAU  - Davis, J.T.\nAU  - Gioannini, C.\nAU  - Litvinova, M.\nAU  - Pastore y Piontti, A.\nAU  - Rossi, L.\nAU  - Xiong, X.\nAU  - Halloran, M.E.\nAU  - Longini, I.M.\nAU  - Vespignani, A.\nTI  - Preliminary assessment of the International Spreading Risk Associated with the 2019 novel Coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Lab. Model. Biol. Soc.\u2013Techn. Syst\nUR  - https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus__6_.pdf\nT2  - outbreak in Wuhan City\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - JOUR\nAU  - Imai, N.\nAU  - Dorigatti, I.\nAU  - Cori, A.\nAU  - Donnelly, C.\nAU  - Riley, S.\nAU  - Ferguson, N.M.\nTI  - Report 2: Estimating the potential total number of novel Coronavirus cases in Wuhan City, China\nT2  - Imper. Coll. London\nUR  - https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019nCoV-outbreak-report-22-01-2020.pdf\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - JOUR\nAU  - Zhao, S.\nAU  - Musa, S.S.\nAU  - Lin, Q.\nAU  - Ran, J.\nAU  - Yang, G.\nAU  - Wang, W.\nAU  - Lou, Y.\nAU  - Yang, L.\nAU  - Gao, D.\nAU  - He, D.\nTI  - Estimating the Unreported Number of Novel Coronavirus\nPY  - 2019\nDA  - 2019\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 388\nDO  - 10.3390/jcm9020388\nC1  - true\nT2  - Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Jung, S.-M.\nAU  - Linton, N.M.\nAU  - Kinoshita, R.\nAU  - Yang, Y.\nAU  - Hayashi, K.\nAU  - Kobayashi, T.\nAU  - Yuan, B.\nAU  - Akhmetzhanov, A.R.\nTI  - The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 330\nDO  - 10.3390/jcm9020330\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Imai, N.\nAU  - Cori, A.\nAU  - Dorigatti, I.\nAU  - Baguelin, M.\nAU  - A., Donnelly C.\nAU  - Riley, S.\nAU  - Ferguson, N.M.\nTI  - Report 3: Transmissibility of 2019-nCoV. Imper\nT2  - Coll. London\nUR  - https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - BOOK\nAU  - Riou, J.\nAU  - Althaus, C.L.\nTI  - Pattern of early human-to-human transmission of Wuhan 2019-nCoV\nPB  - bioR\u03c7iv 2020\nDO  - 10.1101/2020.01.23.917351\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Liu, T.\nAU  - Hu, J.\nAU  - Kang, M.\nAU  - Lin, L.\nAU  - Zhong, H.\nAU  - Xiao, J.\nAU  - He, G.\nAU  - Song, T.\nAU  - Huang, Q.\nAU  - Rong, Z.\nT2  - Transmission dynamics of\nPY  - 2019\nDA  - 2019\nTI  - novel coronavirus\nDO  - 10.1101/2020.01.25.919787\nC1  - true\nT2  - bioR\u03c7iv 2020\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Read, J.M.\nAU  - Bridgen, J.R.E.\nAU  - Cummings, D.A.T.\nAU  - Ho, A.\nAU  - Jewell, C.P.\nTI  - Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions\nPB  - medR\u03c7iv 2020\nDO  - 10.1101/2020.01.23.20018549\nLA  - \nER  - \n\nTY  - BOOK\nAU  - M., Majumder\nAU  - D, Mandl K.\nTI  - Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China\nPB  - SSRN 2020\nDO  - 10.2139/ssrn.3524675\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nAU  - Wang, X.\nAU  - Zhou, L.\nAU  - Tong, Y.\nAU  - Ren, R.\nAU  - Leung, K.S.M.\nAU  - Lau, E.H.Y.\nAU  - Wong, J.\nT2  - Y.; et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N. Engl. J. Med. 2020\nDO  - 10.1056/NEJMoa2001316\nER  - \n\nTY  - JOUR\nAU  - Kucharski, A.\nAU  - Russell, T.\nAU  - Diamond, C.\nAU  - nCoV Working Group, C.M.M.I.D.\nAU  - Funk, S.\nAU  - Eggo, R.M.\nTI  - Analysis of early transmission dynamics of nCoV in Wuhan\nT2  - CMMID\nUR  - https://cmmid.github.io/ncov/wuhan_early_dynamics\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - GEN\nAU  - Shen, M.\nAU  - Peng, Z.\nAU  - Xiao, Y.\nAU  - Zhang, L.\nTI  - Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China\nUR  - https://www.biorxiv.org/content/10.1101/2020.01.23.916726v1\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - bioR\u03c7iv 2020. Available online:\nER  - \n\nTY  - GEN\nAU  - Leung, K.\nAU  - Wu, J.T.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet 2020\nDO  - doi\nVL  - 1016\nN1  - to appear\nIS  - 0140-6736\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Backer, J.A.\nAU  - Klinkenberg, D.\nAU  - Wallinga, J.\nTI  - The incubation period of 2019-nCoV infections among travellers from Wuhan, China\nPB  - medR\u03c7iv 2020\nDO  - 10.1101/2020.01.27.20018986\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Linton, N.M.\nAU  - Kobayashi, T.\nAU  - Yang, Y.\nAU  - Hayashi, K.\nAU  - Akhmetzhanov, A.R.\nAU  - Jung, S.-M.\nAU  - Yuan, B.\nAU  - Kinoshita, R.\nAU  - Nishiura, H.\nTI  - Epidemiological characteristics of novel coronavirus infection: A statistical analysis\nPB  - of publicly available case data. medR\u03c7iv 2020\nDO  - 10.1101/2020.01.26.20018754\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Zheng, Q.\nAU  - Meredith, H.\nAU  - Grantz, K.\nAU  - Bi, Q.\nAU  - Jones, F.\nAU  - S., Lauer\nAU  - Team, J.H.U.I.D.D.\nTI  - Real-time estimation of the novel coronavirus incubation time\nPB  - JHU IDD\nUR  - https://github.com/HopkinsIDD/ncov_incubation\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - JOUR\nAU  - Fisman, D.N.\nAU  - Hauck, T.S.\nAU  - Tuite, A.R.\nAU  - Greer, A.L.\nTI  - An IDEA for Short Term Outbreak Projection: Nearcasting Using the\nT2  - Basic Reproduction Number. PLoS ONE\nPY  - 2013\nDA  - 2013\nVL  - 8\nSP  - 12\nDO  - 10.1371/journal.pone.0083622\nLA  - \nER  - \n\nTY  - RPRT\nUR  - http://epirisk.net\nC1  - (accessed on 17 February 2020).\nC1  - Available online:\nC1  - EpiRisk\nER  - \n\nTY  - JOUR\nAU  - Quilty, B.\nAU  - Clifford, S.\nAU  - nCoV Working Group, C.M.M.I.D.\nAU  - Flasche, S.\nAU  - Eggo, R.M.\nTI  - Effectiveness of airport screening at detecting travellers infected with 2019-nCoV\nT2  - CMMID\nUR  - https://cmmid.github.io/ncov/airport_screening_report/airport_screening_preprint_2020_01_28.pdf\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - JOUR\nAU  - Britton, T.\nTI  - Stochastic epidemic models: A survey\nT2  - Math. Biosci\nVL  - 2020\nSP  - 24\nEP  - 35\nDO  - 10.1016/j.mbs.2010.01.006\nIS  - 225\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Riley, S.\nAU  - Fraser, C.\nAU  - Donnelly, C.A.\nAU  - Ghani, A.C.\nAU  - Abu-Raddad, L.J.\nAU  - Hedley, A.J.\nAU  - Leung, G.M.\nAU  - Ho, L.-M.\nAU  - Lam, T.-H.\nAU  - Thach, T.Q.\nTI  - Transmission Dynamics of the Etiological Agent of SARS in Hong Kong: Impact of Public Health Interventions\nT2  - Science\nPY  - 2003\nDA  - 2003\nVL  - 300\nSP  - 1961\nEP  - 1966\nDO  - 10.1126/science.1086478\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Park, S.W.\nAU  - Champredon, D.\nAU  - Earn, D.J.\nAU  - Li, M.\nAU  - Weitz, J.S.\nAU  - Grenfell, B.T.\nAU  - Dushoff, J.\nTI  - Reconciling early-outbreak estimates of the basic reproductive number and its uncertainty: a new framework and applications to the novel coronavirus\nPY  - 2019\nDA  - 2019\nPB  - medR\u03c7iv 2020\nDO  - 10.1101/2020.01.30.20019877\nT2  - outbreak\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wearing, H.J.\nAU  - Rohani, P.\nAU  - Keeling, M.J.\nTI  - Appropriate Models for the Management of Infectious Diseases\nT2  - PLoS Med\nPY  - 2005\nDA  - 2005\nVL  - 2\nDO  - 10.1371/journal.pmed.0020174\nLA  - \nER  - \n\nTY  - BOOK\nAU  - S., Lauer\nAU  - Zlojutro, A.\nAU  - Rey, D.\nAU  - Dong, E.\nTI  - JHU IDD Team; UNSW Sydney rCITI Team. Update January 31: Modeling the Spreading Risk of 2019-nCoV\nPB  - JHU IDD\nUR  - https://systems.jhu.edu/research/public-health/ncov-model-2\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Kobayashi, T.\nAU  - Yang, Y.\nAU  - Hayashi, K.\nAU  - Miyama, T.\nAU  - Kinoshita, R.\nAU  - Linton, N.M.\nAU  - S-M., Jung\nAU  - Yuan, B.\nAU  - Suzuki, A.\nTI  - The Rate of Underascertainment of Novel Coronavirus\nPY  - 2019\nDA  - 2019\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 419\nDO  - 10.3390/jcm9020419\nC1  - true\nT2  - Infection: Estimation Using Japanese Passengers Data on Evacuation Flights\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Risk assessment of novel coronavirus 2019-nCoV outbreaks outside China\nT2  - Github\nUR  - https://github.com/zsvizi/corona-virus-2020\nC1  - (accessed on 17 February 2020).\nLA  - \nC1  - 2020. Available online:\nC1  - Bolyai Institute, University of Szeged\nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Published estimates of the key epidemiological parameters of 2019-nCoV. Uncertainty range is given where provided"
+            },
+            {
+                "id": "A1",
+                "caption": "Parameters for calculating the risk of major outbreaks"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Final epidemic sizes in China, outside Hubei, with R0 = 2.1, 2.6, 3.1, as a function of the time when the control function u(t) reaches its maximum (in days after 23 January). Rapid implementation of the control generates much smaller case numbers. The inset shows the estimations of the ascertainment rate for the week 25\u201331, with average 0.063, based on the ratio of confirmed cases and the maximum likelihood estimates of the case numbers from exportation. 3.2. Risk of Major Outbreaks"
+            },
+            {
+                "id": "2",
+                "caption": "Left) Risk of major outbreaks as a function of cumulative number of cases in selected countries, assuming Rloc = 1.6 and baseline connectivity to China. Other countries in South America, including Mexico, are inside the green shaded area. (Right) The effects of reductions of imported case numbers (either by travel restriction or entry screening) in the USA and Canada, assuming Rloc = 1.4. We considered the group of countries from Asia which are the most connected to China: Thailand, Japan, Taiwan, and the Republic of Korea. They have similar baseline connectivity \u03b8, and we focus on how travel restrictions and entry screenings can potentially reduce their risks, assuming different values of Rloc in the case C = 150,000 (on the left of Figure 3) and C = 600,000 (on the right of Figure 3). For illustration purposes, we plotted Thailand (red) and the Republic of Korea (blue), but Taiwan and Japan are always between those two curves. We can see that, for example, on the right of Figure 3 for C = 600,000, unless Rloc is very small, considerable reduction of the outbreak risk can be achieved only by extreme measures that prevent most importations"
+            },
+            {
+                "id": "3",
+                "caption": "Outbreak risks for highly connected countries in Asia. Thailand and the Republic of Korea are plotted; the curves for Japan and Taiwan are in between them. (Left) We plot the risk vs. the efficacy of prevented importations when the cumulative number of cases reaches 150,000. (Right) C = 600,000. Black parts of the curves represent situations when the four countries are indistinguishable. In Figure 4, we assumed that European countries have very similar Rloc and looked at their risks as a function of the number of cases. For illustration purposes, we selected countries which have relatively high (UK, Germany, France, Italy), medium (Belgium, Poland, Hungary), and low (Bulgaria,"
+            },
+            {
+                "id": "4",
+                "caption": "Selected European countries with high, medium, and low connectivity to China. (Left) The outbreak risk is plotted assuming their baseline connectivity \u03b8, and Rloc = 1.4 for each country, as the cumulative number of cases is increasing. A significant reduction in the risks can be observed (Right), where we reduced Rloc to 1.1 and assumed a 50% reduction in importations. 4. Discussion By combining three different modelling approaches, we created a tool to assess the risk of 2019-nCoV outbreaks in countries outside of China. This risk depends on three key parameters: the cumulative number of cases in areas of China which are not closed, the connectivity between China and the destination country, and the local transmission potential of the virus. Quantifications of the outbreak risks and their dependencies on the key parameters were illustrated for selected groups of countries from America, Asia, and Europe, representing a variety of country profiles. There are several limitations of our model, as each ingredient uses assumptions, which are detailed in the Appendices. There are great uncertainties in the epidemiological parameters as well. It is difficult to predict the epidemic trajectory in China, as the effects of the control measures are not clear yet. There were recent disruptions in international travel, suggesting that the EpiRisk parameters will not be accurate in the future. Nevertheless, when we have new information in the future about the case numbers in China, travel frequencies, efficacy of entry screenings, and local control measures, our method will still be useful for assessing outbreak risks. We found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions (see Figure 5). Countries with high connectivity but low Rloc benefit the most from policies that further reduce Rloc. Countries in the middle should consider a combination of such policies. Different control measures affect different key parameters. Several of these measures have been readily implemented in China, aiming to prevent transmissions. These are incorporated into our transmission model influencing the cumulative number of cases C. The connectivity \u03b8 may be affected, for example, by exit screening at Chinese airports, entry screening at the destination airport, and a"
+            },
+            {
+                "id": "5",
+                "caption": "Heatmap of the outbreak risks as functions of \u03b8 and Rloc, when C = 200,000. The arrows show the directions corresponding to the largest reductions in the risk"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.04.20020503.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020503.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020503.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020503.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020503.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020503.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020503.full/img-007.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020503.full/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020503.full/img-009.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "A cluster of pneumonia cases in Wuhan, China, was reported to the World Health Organization (WHO) on 31 December 2019. The cause of the pneumonia cases was identified as a novel betacoronavirus, the 2019 novel coronavirus (2019-nCoV, recently renamed as SARS-CoV-2, the cause of coronavirus disease COVID-19). The first patient showing symptoms was recorded by Chinese authorities on 8 December 2019 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. On 9 January 2020, WHO confirmed that a novel coronavirus had been isolated from one of the hospitalized persons [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], and the first death case was reported on the same day. The first case outside China was witnessed on 13 January in Thailand [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], and in the following days, several other countries also reported 2019-nCoV cases [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The first confirmed cases in China, but outside Hubei province, were reported on 19 January. [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. As of 1 February, there were 14,628 confirmed cases worldwide (out of which 14,451 happened in China) with 305 total deaths [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]."
+        ],
+        "method": [
+            "<strong>Method of Estimation</strong><br/><br/>Epidemic Simulations Stochastic Simulations Exp. Growth, Max. Likelihood Est. Exp. Growth, Max. Likelihood Est."
+        ],
+        "methods": [
+            "2.1. Model Ingredients<br/><br/>Our method has three main components:<br/><br/>(i) We estimate the cumulative number of cases in China outside Hubei province after 23 January, using a time-dependent compartmental model of the transmission dynamics.<br/><br/>(ii) We use that number as an input to the global transportation network to generate probability distributions of the number of infected travellers arriving at destinations outside China.<br/><br/>(iii) In a destination country, we use a Galton\u2013Watson branching process to model the initial spread of the virus. We calculate the extinction probability of each branch initiated by a single imported case, obtaining the probability of a major outbreak as the probability that at least one branch will not go extinct.<br/><br/>2.2. Epidemic Size in China Outside the Closed Areas of Hubei<br/><br/>The starting point of our transmission model is 23 January, when major cities in Hubei province were closed [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. From this point forward, we run a time dependent SEn ImR model in China outside Hubei, which was calibrated to be consistent with the estimated case numbers outside Hubei until 31 January. We impose time dependence in the transmission parameter due to the control measures progressively implemented by Chinese authorities on and after 23 January. With our baseline R0 = 2.6, disease control is achieved when more than 61.5% of potential transmissions are prevented. We introduce a key parameter t\u2217 to denote the future time when control measures reach their full potential. For this study we assume it to be in the range of 20\u201350 days after 23 January. Using our transmission model, we calculate the total cumulative number of cases (epidemic final size) outside Hubei, for each t\u2217 in the given range. This also gives an upper bound for the increasing cumulative number of cases C = C(t)."
+        ],
+        "results": [
+            "3.1. Epidemic Size in China<br/><br/>After calibration of the SE2 I3R model, we numerically calculated the final epidemic size (total cumulative number of cases) in China outside Hubei, using three different basic reproduction numbers and different control functions. The control functions were parametrized by t\u2217, which is the time after 23 January at which the control reaches its maximal value umax. Smaller t\u2217 corresponds to more rapid implementation of the control measures. In Figure 1, we plotted these cumulative numbers versus t\u2217, and we can observe that the epidemic final size is rather sensitive to the speed of implementation of the control measures. These curves also give upper bounds for the number of cumulative cases at any given time, assuming that the control efforts will be successful."
+        ],
+        "funding": [
+            "G.R. was supported by EFOP-3.6.1-16-2016-00008. F.B. was supported by NKFIH KKP 129877. T.T. was supported by NKFIH FK 124016. A.D. was supported by NKFIH PD 128363 and by the J\u00e1nos Bolyai Research Scholarship of the Hungarian Academy of Sciences. P.B. was supported by 20391-3/2018/FEKUSTRAT."
+        ],
+        "disclosures": [
+            "The authors declare no conflict of interest."
+        ],
+        "appendix": [
+            "<strong>Appendix A Transmission Dynamics</strong><br/><br/>The governing system of the transmission dynamics model is<br/><br/>S = \u2212(1 \u2212 u)\u03b2S \u2211 Ik/N, E1 = (1 \u2212 u)\u03b2S \u2211 Ik/N \u2212 2\u03b1E1, E2 = 2\u03b1E1 \u2212 2\u03b1E2, i=1 i=1<br/><br/>I1 = 2\u03b1E2 \u2212 3\u03b3I1 \u2212 \u03bcI1, I2 = 3\u03b3I1 \u2212 3\u03b3I2 \u2212 \u03bcI2, I3 = 3\u03b3I2 \u2212 3\u03b3I3 \u2212 \u03bcI3, R = 3\u03b3I3.<br/><br/>This is an extension of a standard SEIR model assuming gamma-distributed incubation and infectious periods, with the Erlang parameters n = 2, m = 3 (following the SARS-study [<a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>]). Note that the choice of n = 2 is also consistent with the estimates summarized in Table 1. Given that disease fatalities do not have significant effect on the total population, we ignored them in the transmission model to ease the calculations (i.e., \u03bc = 0 was used). In this model, the basic reproduction number is R0 = \u03b2/\u03b3, the incubation period is \u03b1\u22121 and the infectious period is \u03b3\u22121. The model is used to describe the disease dynamics in China outside Hubei province after 23 January. We assume that at time t after 23 January, an increasing control function u(t) represents the fraction of the transmissions that are prevented, thus the effective reproduction number becomes R(t) = (1 \u2212 u(t))R0S(t)/N.",
+            "<strong>Appendix B Calculating the Risk of</strong><br/><br/>Outbreaks by Importation<br/><br/>We create a probabilistic model to estimate the risk of a major outbreak in a destination country as a function of the cumulative number of cases C in China outside the closed areas, the local reproduction number Rloc in the destination country, and the connectivity \u03b8 between China and the destination country. We summarize these in Table A1.    Parameter C    Rloc \u03b8    Interpretation<br/><br/>Cumulative case number in China, outside the closed areas<br/><br/>Local reproduction number in destination country<br/><br/>Probability of a importation chance that a case from the origin travelling to and mixing into the local population of the destination country<br/><br/>Depends on . . . properties of nCoV-2019, efficacy of Chinese control destination country<br/><br/>China and destination country<br/><br/>Typical Range [100K, 6000K]",
+            "<strong>Appendix C</strong><br/><br/>The codes for the computations were implemented in Mathematica and in Python, and they are available, including the used data, at [<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]."
+        ],
+        "data_availability": [
+            "The codes for the computations were implemented in Mathematica and in Python, and they are available, including the used data, at [<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]"
+        ]
+    },
+    "structured_content": {
+        "1. Introduction": [
+            "A cluster of pneumonia cases in Wuhan, China, was reported to the World Health Organization (WHO) on 31 December 2019. The cause of the pneumonia cases was identified as a novel betacoronavirus, the 2019 novel coronavirus (2019-nCoV, recently renamed as SARS-CoV-2, the cause of coronavirus disease COVID-19). The first patient showing symptoms was recorded by Chinese authorities on 8 December 2019 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. On 9 January 2020, WHO confirmed that a novel coronavirus had been isolated from one of the hospitalized persons [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], and the first death case was reported on the same day. The first case outside China was witnessed on 13 January in Thailand [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], and in the following days, several other countries also reported 2019-nCoV cases [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The first confirmed cases in China, but outside Hubei province, were reported on 19 January. [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. As of 1 February, there were 14,628 confirmed cases worldwide (out of which 14,451 happened in China) with 305 total deaths [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+            "Since no specific antiviral agent is available for treatment of this infection, and there is no vaccine [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], the control measures, introduced both in China and other countries, aimed to prevent the transmission. A metropolitan-wide quarantine of Wuhan and nearby cities was introduced on 23\u201324 January [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. Several airports and train stations have started temperature screening measures to identify people with fevers [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. All public transportation was suspended in Wuhan from 10 a.m., 23 January, including all outbound trains and flights, and all bus, metro and ferry lines; additionally, all outbound trains and flights were halted [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Construction of a specialist emergency hospital was started in Wuhan [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], and nearly 6000 medical workers were sent to Wuhan from across China [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. Beijing also announced the suspension of all inter-provincial bus and train services; several touristic attractions, including the Forbidden City and Shanghai Disneyland were closed [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Other countries also introduced control measures, including screening passengers arriving from China and closing their borders [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. Several airlines, including British Airways and Lufthansa, canceled all flights to and from mainland China [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>].",
+            "The potential dangers of 2019-nCoV have prompted a number of studies on its epidemiological characteristics. The 2018 travel data from the International Air Transport Association (IATA) were used to identify the countries and their infectious disease vulnerability indexes (IDVIs) [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], which received substantial travel inflow from Wuhan Tianhe International Airport [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. The IDVI has a range of 0\u20131, with a higher score implying lower vulnerability. The top destinations, Bangkok, Hong Kong, Tokyo and Taipei, all have an IDVI above 0.65.",
+            "It is essential to estimate the number of infections (including those that have not been diagnosed), to be able to analyze the spread of the disease. To that end, data on exported infections and individual-based mobility models were used by several researchers, obtaining comparable numbers. For 17 January 2020, preliminary estimates were given for various scenarios in the range 350\u20138400 by Chinazzi et al for the total number of infections up to that date [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Imai et al [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] also estimated the total number of infections in China and warned that the number is likely to substantially exceed that of the officially confirmed cases (see also [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]). They reported an estimate of 4000 infections (range: 1000\u20139700) by 18 January 2020. Nishiura et al calculated 5502 (range: 3027\u20139057) infections by 24 January 2020 [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>].",
+            "To better assess the epidemic risk of 2019-nCoV, among the key parameters to be approximated are the basic reproduction number R0 and the incubation period. We summarize previous efforts made toward those ends in Table 1, and present a short summary below.",
+            "2.6 (1.5\u20133.5) 2.2 (1.4\u20133.8) 2.9 (2.3\u20133.6) 2.56 (2.49\u20132.63) 3.11 (2.3\u20134.1) 2.5 (2.0\u20133.1) 2.2 (1.4\u20133.9) - (1.4\u20134.0) 4.71 (4.5\u20134.9) 2.08 (1.9\u20132.2) 2.68 (2.4\u20132.9)",
+            "4.8 days 5.2 days (4.1\u20137.0) 5.0 days (4.9\u20135.1) 5.8 days (4.6\u20137.9) 4.6 days (3.3\u20135.8) 5.0 days (4.0\u20135.8) 5.1 days (4.4\u20136.1)"
+        ],
+        "Method of Estimation": [
+            "Epidemic Simulations Stochastic Simulations Exp. Growth, Max. Likelihood Est. Exp. Growth, Max. Likelihood Est.",
+            "Reference [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>] [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>] [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>] [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>] [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>] [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>] [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>] [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]",
+            "The majority of the estimates for R0 range between 2 and 3. Obtaining these was done by modeling epidemic trajectories and comparing them to the results of [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] as a baseline [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], using a negative binomial distribution to generate secondary infections. Liu et al utilized the exponential growth and maximum likelihood estimation methods and found that the 2019-nCoV may have a higher pandemic risk than SARS-CoV in 2003 [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>].",
+            "Read et al based their estimates on data from Wuhan exclusively (available up to 22 January 2020) and a deterministic SEIR model [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. The choice of this date is motivated by the actions of authorities, that is the substantial travel limitations the next day. Li et al used solely the patient data with illness onset between 10 December 2019 and 4 January 2020 [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. The Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene and Tropical Medicine have analyzed",
+            "2019-nCoV using SEIR and multiple data series [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>]. Shen et al used a SEIJR model (where J denotes the compartment of diagnosed and isolated individuals) and Markov chain Monte Carlo (MCMC) simulations [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>] similarly to [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]. An alternative approach was presented by Majumder and Mandl [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>] as they obtained their estimate based on the cumulative epidemic curve and the incidence decay and exponential adjustment (IDEA) model [<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>].",
+            "The incubation period was estimated to be in between 4.6 and 5.8 days by various studies. The first calculations used data up to 23 January [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. Weibull distribution was identified as the best-fit model by several researches when comparing LogNormal, Gamma, and Weibull fits. Backer et al used newly available patient data with known travel history and identified the Weibull distribution as the one with the best LOO (Leave-One-Out) score [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>]; Linton et al gave estimates for with and without Wuhan residents using their statistical model with, again, the Weibull distribution scoring the best AIC (Akaike information criterion) [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]. The Johns Hopkins University Infectious Disease Dynamics Group has been collecting substantial data on exposure and symptom onset for 2019-nCoV cases. They recommend using their LogNormal estimate [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>], which gives a 5.1 day incubation period.",
+            "In this study we combine case estimates, epidemiological characteristics of the disease, international mobility patterns, control efforts, and secondary case distributions to assess the risks of major outbreaks from imported cases outside China."
+        ],
+        "2. Materials and Methods": [],
+        "2.1. Model Ingredients": [
+            "Our method has three main components:",
+            "(i) We estimate the cumulative number of cases in China outside Hubei province after 23 January, using a time-dependent compartmental model of the transmission dynamics.",
+            "(ii) We use that number as an input to the global transportation network to generate probability distributions of the number of infected travellers arriving at destinations outside China.",
+            "(iii) In a destination country, we use a Galton\u2013Watson branching process to model the initial spread of the virus. We calculate the extinction probability of each branch initiated by a single imported case, obtaining the probability of a major outbreak as the probability that at least one branch will not go extinct."
+        ],
+        "2.2. Epidemic Size in China Outside the Closed Areas of Hubei": [
+            "The starting point of our transmission model is 23 January, when major cities in Hubei province were closed [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. From this point forward, we run a time dependent SEn ImR model in China outside Hubei, which was calibrated to be consistent with the estimated case numbers outside Hubei until 31 January. We impose time dependence in the transmission parameter due to the control measures progressively implemented by Chinese authorities on and after 23 January. With our baseline R0 = 2.6, disease control is achieved when more than 61.5% of potential transmissions are prevented. We introduce a key parameter t\u2217 to denote the future time when control measures reach their full potential. For this study we assume it to be in the range of 20\u201350 days after 23 January. Using our transmission model, we calculate the total cumulative number of cases (epidemic final size) outside Hubei, for each t\u2217 in the given range. This also gives an upper bound for the increasing cumulative number of cases C = C(t)."
+        ],
+        "2.3. Connectivity and Case Exportation": [
+            "The output C of the transmission model is used as the pool of potential travellers to abroad, and fed into the online platform EpiRisk [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. This way, we evaluated the probability that a single infected individual is traveling from the index areas (in our case Chinese provinces other than Hubei) to a specific destination. Using a ten day interval for potential travel after exposure (just as in [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]), one can find from EpiRisk that in the January\u2013February periods, assuming usual travel volumes, there is a 1/554 probability that a single case will travel abroad and cause an exported case outside China. The dataset for relative importation risks of countries is available as well; thus, one can obtain the probability of an exported case appearing in a specific country. This probability is denoted by \u03b80, and we call it the baseline connectivity of that country with China. The baseline connectivity can be affected by other factors, such as the reduction in travel volume between the index and destination areas, exit screening in China, and the efficacy of entry screening at the destination country. Hence, we have a compound parameter, the actual connectivity \u03b8, which expresses the probability that a case in China outside Hubei will be eventually mixed into the population of the destination country. For example, the relative risk of Japan is 0.13343, meaning that 13.343% of all exportations are expected to appear in Japan. Thus, under normal circumstances, the probability that a case from China eventually ends up in Japan is 0.13343/554 = 2.41 \u00d7 10\u22124 during the January\u2013February period [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. Assuming a 20% reduction in travel volume between China and Japan, this baseline connectivity is reduced to a connectivity 0.8 \u00d7 2.41 \u00d7 10\u22124 = 1.928 \u00d7 10\u22124. Additionally, assuming a 40% efficacy on entry screening [<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>], there is a 0.6 probability that an arriving case passes the screening, and the connectivity parameter is further reduced to 0.6 \u00d7 1.928 \u00d7 10\u22124 = 1.16 \u00d7 10\u22124. If we assume interventions at the originating area, for example, exit screening with 25% efficacy, then our actual connectivity parameter is \u03b8 = 0.75 \u00d7 1.16 \u00d7 10\u22124 = 8.7 \u00d7 10\u22125, which represents the probability that a case in China will eventually mix into the population in Japan. Assuming independence, this \u03b8, together with the cumulative cases C, generates a binomial distribution of importations that enter the population of a given country."
+        ],
+        "2.4. Probability of a Major Outbreak in a Country by Imported Cases": [
+            "Each imported case that passes the entry screening and mixes into the local population can potentially start an outbreak, which we model by a Galton\u2013Watson branching process with negative binomial offspring distribution with dispersion parameter k = 0.64 [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and expectation Rloc, where Rloc is the local reproduction number of the infection in a given country. Each branch has extinction probability z, which is the unique solution of the equation z = g(z) on the interval (0, 1), where g is the generating function of the offspring distribution (see [<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>]). The process dies out if all the branches die out; thus, we estimate the risk of a major local outbreak from importation as 1 \u2212 zi, where i cases were imported."
+        ],
+        "2.5. Dependence of the Risk of Major Outbreaks on Key Parameters": [
+            "The number of imported cases i is given by a random variable X, where X \u223c Binom(C, \u03b8). The outbreak risk in a country x is then estimated as Riskx = E[1 \u2212 zX], where E is the expectation of the outbreak probabilities; thus, we consider a probability distribution of branching processes. This way Riskx = Risk(C, \u03b8, Rloc), which means that the risk depends on the efficacy of Chinese control measures that influence the cumulative case number C, the connectivity between the index and destination areas \u03b8, and the local reproduction number Rloc. The main question we aim to get insight into is how this risk depends on these three determining factors.",
+            "The technical details of the modeling and calculations can be found in Appendices A, B, and C."
+        ],
+        "3. Results": [],
+        "3.1. Epidemic Size in China": [
+            "After calibration of the SE2 I3R model, we numerically calculated the final epidemic size (total cumulative number of cases) in China outside Hubei, using three different basic reproduction numbers and different control functions. The control functions were parametrized by t\u2217, which is the time after 23 January at which the control reaches its maximal value umax. Smaller t\u2217 corresponds to more rapid implementation of the control measures. In Figure 1, we plotted these cumulative numbers versus t\u2217, and we can observe that the epidemic final size is rather sensitive to the speed of implementation of the control measures. These curves also give upper bounds for the number of cumulative cases at any given time, assuming that the control efforts will be successful.",
+            "We generated a number of plots to depict Risk(C, \u03b8, Rloc) for selected groups of countries from America, Europe, and Asia.",
+            "In the left of Figure 2, we can see the risks of American countries as functions of cumulative number of cases C, assuming each country has Rloc = 1.6 and their connectivity is their baseline \u03b8. When C exceeds 600,000, with this local reproduction number and without any restriction in importation, outbreaks in the USA and Canada are very likely, while countries in South America (including Mexico), which are all in the green shaded region, still have moderate risks. To illustrate the impacts of control measures for the USA and Canada, we reduced Rloc to 1.4, and plotted the risks for different levels of reduction in connectivity to China, either due to travel restrictions or entry screening; see Figure 2 on the right. As the number of cases in China approaches one million, such reductions have a limited effect on the risk of outbreak. Figure 1 provides us with scenarios when C remains below certain values.",
+            "3.3. Profile of Countries Benefiting the Most From Interventions We also plotted the risks on a two-parameter map, as functions of \u03b8 and Rloc. Observing the gradients of the risk map, we can conclude that countries with low connectivity but high Rloc should focus on further reducing importations by entry screening and travel restrictions, while countries with high connectivity but smaller Rloc better focus on control measures that potentially further reduce Rloc. Countries in the middle benefit most from the combination of those two types of measures."
+        ],
+        "4. Discussion": [
+            "By combining three different modelling approaches, we created a tool to assess the risk of 2019-nCoV outbreaks in countries outside of China. This risk depends on three key parameters: the cumulative number of cases in areas of China which are not closed, the connectivity between China and the destination country, and the local transmission potential of the virus. Quantifications of the outbreak risks and their dependencies on the key parameters were illustrated for selected groups of countries from America, Asia, and Europe, representing a variety of country profiles. There are several limitations of our model, as each ingredient uses assumptions, which are detailed in the Appendices. There are great uncertainties in the epidemiological parameters as well. It is difficult to predict the epidemic trajectory in China, as the effects of the control measures are not clear yet. There were recent disruptions in international travel, suggesting that the EpiRisk parameters will not be accurate in the future. Nevertheless, when we have new information in the future about the case numbers in China, travel frequencies, efficacy of entry screenings, and local control measures, our method will still be useful for assessing outbreak risks. We found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions (see Figure 5). Countries with high connectivity but low Rloc benefit the most from policies that further reduce Rloc. Countries in the middle should consider a combination of such policies. Different control measures affect different key parameters. Several of these measures have been readily implemented in China, aiming to prevent transmissions. These are incorporated into our transmission model influencing the cumulative number of cases C. The connectivity \u03b8 may be affected, for example, by exit screening at Chinese airports, entry screening at the destination airport, and a decline in travel volume, all of which decrease the probability that a case from China will enter the population of the destination country. The parameter Rloc is determined by the characteristics and the control measures of the destination country. As new measures are implemented, or there is a change in travel patterns, these parameters may change in time as well.",
+            "Cumulative cases and connectivity can be estimated, in general. However, to make a good assessment of the outbreak risk, it is very important to estimate Rloc in each country. In the absence of available transmission data, one may rely on the experiences from previous outbreaks, such as the detailed description in [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>] of the reductions in the effective reproduction numbers for SARS due to various control measures. In this study, we used a range of Rloc values between the critical value 1 and the baseline R0 = 2.6. A further source of uncertainty is in the distribution of the generation time interval, since a different distribution gives a different outbreak risk even with the same Rloc. For our calculations, we used the distribution from [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>] (see also [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]); a more in-depth discussion of this topic may be found in [<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>]. Knowing Rloc and the generation interval are needed not only to have a better quantitative risk estimation, but also for guidance as to which types of control measures may reduce the outbreak risk the most effectively.",
+            "Author Contributions: Conceptualization and methodology, G.R.; codes and computations A.D., T.T., F.A.B., P.B., G.R., and Z.V.; data collection and analysis, A.D., F.A.B., and T.T.; writing and editing, A.D., F.A.B., and G.R.; visualization, F.A.B., T.T., and Z.V. All authors have read and agreed to the published version of the manuscript.",
+            "Funding: G.R. was supported by EFOP-3.6.1-16-2016-00008. F.B. was supported by NKFIH KKP 129877. T.T. was supported by NKFIH FK 124016. A.D. was supported by NKFIH PD 128363 and by the J\u00e1nos Bolyai Research Scholarship of the Hungarian Academy of Sciences. P.B. was supported by 20391-3/2018/FEKUSTRAT.",
+            "Conflicts of Interest: The authors declare no conflict of interest.",
+            "Appendix A Transmission Dynamics The governing system of the transmission dynamics model is",
+            "I1 = 2\u03b1E2 \u2212 3\u03b3I1 \u2212 \u03bcI1, I2 = 3\u03b3I1 \u2212 3\u03b3I2 \u2212 \u03bcI2, I3 = 3\u03b3I2 \u2212 3\u03b3I3 \u2212 \u03bcI3, R = 3\u03b3I3.",
+            "This is an extension of a standard SEIR model assuming gamma-distributed incubation and infectious periods, with the Erlang parameters n = 2, m = 3 (following the SARS-study [<a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>]). Note that the choice of n = 2 is also consistent with the estimates summarized in Table 1. Given that disease fatalities do not have significant effect on the total population, we ignored them in the transmission model to ease the calculations (i.e., \u03bc = 0 was used). In this model, the basic reproduction number is R0 = \u03b2/\u03b3, the incubation period is \u03b1\u22121 and the infectious period is \u03b3\u22121. The model is used to describe the disease dynamics in China outside Hubei province after 23 January. We assume that at time t after 23 January, an increasing control function u(t) represents the fraction of the transmissions that are prevented, thus the effective reproduction number becomes R(t) = (1 \u2212 u(t))R0S(t)/N.",
+            "Based on the previous estimates from the literature (see Table 1), we chose an incubation period \u03b1\u22121 = 5.1 days [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>], basic reproduction number R0 = 2.6 (2.1\u20133.1) with the corresponding infectious period \u03b3\u22121 = 3.3 (1.7\u20135.6) days [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. To predict the final number of cases outside Hubei, we assume a gradually increasing control u from zero until a saturation point, and define t\u2217 the time when the eventual control umax is achieved. The sooner this happens, the more successful the control is. Using the control term u(t) = min{umaxt/t\u2217, umax}, disease control is reached at t = t\u2217(1 \u2212 1/R0)/umax. For the calculations we choose umax = 0.8, noting that such a drop in transmission has been observed for SARS, where the reproduction number was largely reduced by subsequent interventions [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>]. With our baseline R0 = 2.6, disease control R(t) < 1 is achieved when u(t) > 0.615, meaning that more than 61.5% of potential transmissions are prevented, which occurs at time t = 0.77t\u2217.",
+            "Since the first case outside Hubei was reported on 19 January [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], for the initialization of the model we could assume that number of infected individuals on 23 January outside Hubei was equal to the number of cumulative cases outside Hubei up to that day. To calibrate the model, we estimated the number of cases from 24 January till 31 January outside Hubei based on case exportations, using the methodology of [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] , assuming that exportations after 24 January were only from outside Hubei. Based on the maximal likelihood of case numbers that produce the observed number of exportations using EpiRisk [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>], we estimate that the reported confirmed cases represent only 6.3% of the total cases for the regions outside Hubei (other estimates for ascertainment rate were: 5.1% [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>], 10% in [<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>], and 9.2% (95% confidence interval: 5.0, 20.0) [<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>]), see the inset in Figure 1. The initial values for the exposed compartments in the SEIR model were selected such that the model output was consistent with the estimated case numbers outside Hubei between 24 January and 31 January. Solving the compartmental model, we obtained final epidemic sizes for various reproduction numbers and control efforts (see Figure 1), providing upper bounds for the cumulative number of cases C outside Hubei."
+        ],
+        "Appendix B Calculating the Risk of Outbreaks by Importation": [
+            "We create a probabilistic model to estimate the risk of a major outbreak in a destination country as a function of the cumulative number of cases C in China outside the closed areas, the local reproduction number Rloc in the destination country, and the connectivity \u03b8 between China and the destination country. We summarize these in Table A1.",
+            "Depends on . . . properties of nCoV-2019, efficacy of Chinese control destination country",
+            "We assume that the number of the imported cases entering the local population of the destination country follows a binomial distribution, i.e., the probability pi corresponding to i imported cases in the destination country with connectivity \u03b8 to China is given by pi =",
+            "C i \u03b8i(1 \u2212 \u03b8)C\u2212i.",
+            "We calculate the extinction probability z of a branching process initiated by a new infection in the destination country. As in [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], we assume the number of secondary infections to follow a negative binomial distribution with generator function g(z) =",
+            "1 \u2212 (1 \u2212 q)z , with dispersion parameter k and mean \u03bc = Rloc. Then, the probability parameter q of the distribution is obtained as q",
+            "The extinction probability of a branch is the solution of the fixed point equation z = g(z).",
+            "Assuming that the destination country has i imported cases from China that are mixed into the local population, we estimate the probability of a major outbreak as the probability that not all the branches started by those i individuals die out, which is 1 \u2212 zi. Thus, the expectation of the risk of a major outbreak in country x can be calculated as",
+            "Riskx = \u2211 pi(1 \u2212 zi) = 1 \u2212 (\u03b8z + 1 \u2212 \u03b8)C, i=0 where we used the binomial theorem to simplify the sum. Having the input values of the parameters C, \u03b8, Rloc, with this model we can numerically calculate the risk."
+        ],
+        "Appendix C": [
+            "The codes for the computations were implemented in Mathematica and in Python, and they are available, including the used data, at [<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]."
+        ],
+        "References": [
+            "1. Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X.; et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020, 395, 497\u2013506, doi:10.1016/S0140-6736(20)30183-5.",
+            "2. WHO. Statement Regarding Cluster of Pneumonia Cases in Wuhan, China; World Health Organization: Geneva, Switzerland, 2020. Available online: https://www.who.int/china/news/detail/09-01-2020-who-statementregarding-cluster-of-pneumonia-cases-in-wuhan-china (accessed on 17 February 2020).",
+            "3. WHO. Novel Coronavirus\u2014Thailand (ex-China); World Health Organization: Geneva, Switzerland, 2020. Available online: https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand-ex-china/en (accessed on 17 February 2020).",
+            "4. WHO. Novel Coronavirus (2019-nCoV) Situation Report\u20141; World Health Organization: Geneva, Switzerland, 2020. Available online: https://www.who.int/docs/default-source/coronaviruse/situation-reports/ 20200121-sitrep-1-2019-ncov.pdf (accessed on 17 February 2020).",
+            "5. JHU IDD Team. 2019-nCoV Global Cases by Center for Systems Science and Engineering. JHU IDD 2020. Available online: https://docs.google.com/spreadsheets/d/1wQVypefm946ch4XDp37uZ-wartW4V7ILdgqYiDXUHM/edit?usp=sharing (accessed on 17 February 2020).",
+            "6. CDC. 2019 Novel Coronavirus. Prevention & Treatment. Cent. Disease Control Prev. 2020. Available online: {https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html} (accessed on 17 February 2020).",
+            "7. NPR. Chinese Authorities Begin Quarantine Of Wuhan City As Coronavirus Cases Multiply. NPR 2020. Available online: https://www.npr.org/2020/01/23/798789671/chinese-authorities-begin-quarantine-ofwuhan-city-as-coronavirus-cases-multiply (accessed on 17 February 2020).",
+            "8. Cheng, W.C.C.; Wong, S.-C.; To, K.K.W.; Ho, P.L.; Yuen, K.-Y. Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China. J. Hosp. Infect. 2020, doi:10.1016/j.jhin.2020.01.010, to appear.",
+            "9. Arnot, M.; Mzezewa, T. The Coronavirus: What Travelers Need to Know; The New York Times: New York, NY, USA 2020. Available online: https://www.nytimes.com/2020/01/26/travel/Coronavirus-travel.html (accessed on 17 February 2020).",
+            "10. National Health Commission of the People\u2019s Republic of China. Work begins on mobile hospital in Wuhan. NHC 2020. Available online: http://en.nhc.gov.cn/2020-01/29/c_76034.htm (accessed on 17 February 2020).",
+            "11. National Health Commission of the People\u2019s Republic of China. Medics flood to Hubei to fight disease. NHC 2020. Available online: http://en.nhc.gov.cn/2020-01/29/c_76031.htm (accessed on 17 February 2020).",
+            "12. Parry, J. Pneumonia in China: lack of information raises concerns among Hong Kong health workers. BMJ 2020, doi:10.1136/bmj.m56.",
+            "13. Moore, M.; Gelfeld, B.; Okunogbe, A.T.; Christopher, P. Identifying Future Disease Hot Spots: Infectious Disease Vulnerability Index; RAND Corporation: Santa Monica, CA, USA, 2016. Available online: https: //www.rand.org/pubs/research_reports/RR1605.html (accessed on 17 February 2020).",
+            "14. Bogoch, I.I.; Watts, A.; Thomas-Bachli, A.; Huber, C.; Kraemer, M.U.G.; Khan, K. Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel. J. Travel Med. 2020, doi:10.1093/jtm/taaa008, accepted.",
+            "15. Chinazzi, M.; Davis, J.T.; Gioannini, C.; Litvinova, M.; Pastore y Piontti, A.; Rossi, L.; Xiong, X.; Halloran, M.E.; Longini, I.M.; Vespignani, A. Preliminary assessment of the International Spreading Risk Associated with the 2019 novel Coronavirus (2019-nCoV) outbreak in Wuhan City. Lab. Model. Biol. Soc.\u2013Techn. Syst. 2020. Available online: https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_ novel_coronavirus__6_.pdf (accessed on 17 February 2020).",
+            "16. Imai, N.; Dorigatti, I.; Cori, A.; Donnelly, C.; Riley, S.; Ferguson, N.M. Report 2: Estimating the potential total number of novel Coronavirus cases in Wuhan City, China. Imper. Coll. London 2020. Available online: https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019nCoV-outbreak-report-22-01-2020.pdf (accessed on 17 February 2020).",
+            "17. Zhao, S.; Musa, S.S.; Lin, Q.; Ran, J.; Yang, G.; Wang, W.; Lou, Y.; Yang, L.; Gao, D.; He, D.; et al Estimating the Unreported Number of Novel Coronavirus (2019-nCoV) Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak. J. Clin. Med. 2020, 9, 388, doi:10.3390/jcm9020388.",
+            "18. Nishiura, H.; Jung, S.-M.; Linton, N.M.; Kinoshita, R.; Yang, Y.; Hayashi, K.; Kobayashi, T.; Yuan, B.; Akhmetzhanov, A.R. The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020. J. Clin. Med. 2020, 9, 330, doi:10.3390/jcm9020330.",
+            "19. Imai, N.; Cori, A.; Dorigatti, I.; Baguelin, M.; Donnelly C.A.; Riley, S.; Ferguson, N.M. Report 3: Transmissibility of 2019-nCoV. Imper. Coll. London 2020. Available online: https://www.imperial.ac.uk/ media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf (accessed on 17 February 2020).",
+            "20. Riou, J.; Althaus, C.L. Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioR\u03c7iv 2020, doi:10.1101/2020.01.23.917351.",
+            "21. Liu, T.; Hu, J.; Kang, M.; Lin, L.; Zhong, H.; Xiao, J.; He, G.; Song, T.; Huang, Q.; Rong, Z.; et al Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioR\u03c7iv 2020, doi:10.1101/2020.01.25.919787.",
+            "22. Read, J.M.; Bridgen, J.R.E.; Cummings, D.A.T.; Ho, A.; Jewell, C.P. Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medR\u03c7iv 2020, doi:10.1101/2020.01.23.20018549.",
+            "23. Majumder M.; Mandl K.D. Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China. SSRN 2020, doi:10.2139/ssrn.3524675.",
+            "24. Li, Q.; Guan, X.; Wu, P.; Wang, X.; Zhou, L.; Tong, Y.; Ren, R.; Leung, K.S.M.; Lau, E.H.Y.; Wong, J.Y.; et al Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N. Engl. J. Med. 2020, doi:10.1056/NEJMoa2001316.",
+            "25. Kucharski, A.; Russell, T.; Diamond, C.; CMMID nCoV Working Group; Funk, S.; Eggo, R.M. Analysis of early transmission dynamics of nCoV in Wuhan. CMMID 2020. Available online: https://cmmid.github.io/ ncov/wuhan_early_dynamics (accessed on 17 February 2020).",
+            "26. Shen, M.; Peng, Z.; Xiao, Y.; Zhang, L. Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioR\u03c7iv 2020. Available online: https://www.biorxiv.org/content/10.1101/2020.01.23.916726v1 (accessed on 17 February 2020).",
+            "27. Leung, K.; Wu, J.T.; Leung, G.M. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet 2020, doi:10.1016/S0140-6736(20)30260-9, to appear.",
+            "28. Backer, J.A.; Klinkenberg, D.; Wallinga, J. The incubation period of 2019-nCoV infections among travellers from Wuhan, China. medR\u03c7iv 2020, doi:10.1101/2020.01.27.20018986.",
+            "29. Linton, N.M.; Kobayashi, T.; Yang, Y.; Hayashi, K.; Akhmetzhanov, A.R.; Jung, S.-M.; Yuan, B.; Kinoshita, R.; Nishiura, H. Epidemiological characteristics of novel coronavirus infection: A statistical analysis of publicly available case data. medR\u03c7iv 2020, doi:10.1101/2020.01.26.20018754.",
+            "30. Zheng, Q.; Meredith, H.; Grantz, K.; Bi, Q.; Jones, F.; Lauer S.; JHU IDD Team. Real-time estimation of the novel coronavirus incubation time. JHU IDD 2020. Available online: https://github.com/HopkinsIDD/ ncov_incubation (accessed on 17 February 2020).",
+            "31. Fisman, D.N.; Hauck, T.S.; Tuite, A.R.; Greer, A.L. An IDEA for Short Term Outbreak Projection: Nearcasting Using the Basic Reproduction Number. PLoS ONE 2013, 8, 12, doi:10.1371/journal.pone.0083622.",
+            "32. EpiRisk. Available online: http://epirisk.net (accessed on 17 February 2020). 33. Quilty, B.; Clifford, S.; CMMID nCoV Working Group; Flasche, S.; Eggo, R.M. Effectiveness of airport screening at detecting travellers infected with 2019-nCoV. CMMID 2020. Available online: https:// cmmid.github.io/ncov/airport_screening_report/airport_screening_preprint_2020_01_28.pdf (accessed on 17 February 2020). 34. Britton, T. Stochastic epidemic models: A survey. Math. Biosci. 2020, 225, 24\u201335, doi:10.1016/j.mbs.2010.01.006. 35. Riley, S.; Fraser, C.; Donnelly, C.A.; Ghani, A.C.; Abu-Raddad, L.J.; Hedley, A.J.; Leung, G.M.; Ho, L-M.; Lam, T-H.; Thach, T.Q.; et al Transmission Dynamics of the Etiological Agent of SARS in Hong Kong: Impact of Public Health Interventions. Science 2003, 300, 1961\u20131966, doi:10.1126/science.1086478. 36. Park, S.W.; Champredon, D.; Earn, D.J.; Li, M.; Weitz, J.S.; Grenfell, B.T.; Dushoff, J. Reconciling early-outbreak estimates of the basic reproductive number and its uncertainty: a new framework and applications to the novel coronavirus (2019-nCoV) outbreak. medR\u03c7iv 2020, doi:10.1101/2020.01.30.20019877. 37. Wearing, H.J.; Rohani, P.; Keeling, M.J. Appropriate Models for the Management of Infectious Diseases. PLoS Med. 2005, 2, doi:10.1371/journal.pmed.0020174. 38. Lauer S.; Zlojutro, A.; Rey, D.; Dong, E.; JHU IDD Team; UNSW Sydney rCITI Team. Update January 31: Modeling the Spreading Risk of 2019-nCoV. JHU IDD 2020. Available online: https://systems.jhu.edu/ research/public-health/ncov-model-2 (accessed on 17 February 2020). 39. Nishiura, H.; Kobayashi, T.; Yang, Y.; Hayashi, K.; Miyama, T.; Kinoshita, R.; Linton, N.M.; Jung S-M.; Yuan, B.; Suzuki, A.; et al The Rate of Underascertainment of Novel Coronavirus (2019-nCoV) Infection: Estimation Using Japanese Passengers Data on Evacuation Flights. J. Clin. Med. 2020, 9, 419, doi:10.3390/jcm9020419. 40. Bolyai Institute, University of Szeged. Risk assessment of novel coronavirus 2019-nCoV outbreaks outside China. Github 2020. Available online: https://github.com/zsvizi/corona-virus-2020 (accessed on 17 February 2020)."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "confirmed cases",
+            "number": 14628,
+            "context": "[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. <mark class=\"stats\">As of 1 February, there were 14,628 confirmed cases worldwide (out of which 14,451 happened in China) with 305 total deaths [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]</mark>. Since no specific antiviral agent is available for treatment of this infection, and there is no vaccine [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], the control measures, introduced both in China and other countries, aimed to prevent the transmission"
+        },
+        {
+            "participant": "medical workers",
+            "number": 6000,
+            "context": "All public transportation was suspended in Wuhan from 10 a.m., 23 January, including all outbound trains and flights, and all bus, metro and ferry lines; additionally, all outbound trains and flights were halted [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. <mark class=\"stats\">Construction of a specialist emergency hospital was started in Wuhan [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], and nearly 6000 medical workers were sent to Wuhan from across China [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]</mark>. Beijing also announced the suspension of all inter-provincial bus and train services; several touristic medRxiv preprint doi: https://doi.org/10.1101/2020.02.04.20020503"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">For example, the relative risk of Japan is 0.13343, meaning that 13.343% of all exportations are expected to appear in Japan</mark>",
+                "tests": [
+                    {
+                        "test": "relative risk",
+                        "value": "0.13343"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "incubation period",
+        "outbreak",
+        "dynamics",
+        "branching process",
+        "SARS",
+        "SEIR",
+        "transmission dynamics",
+        "incidence decay and exponential adjustment",
+        "Markov chain Monte Carlo",
+        "control measure",
+        "weibull distribution",
+        "World Health Organization",
+        "travel",
+        "infectious disease vulnerability indexes",
+        "risk assessment",
+        "coronavirus",
+        "COVID-19",
+        "transmission",
+        "pneumonia",
+        "interventions",
+        "novel coronavirus",
+        "International Air Transport Association",
+        "compartmental model"
+    ],
+    "keyword_relevance": {
+        "outbreak": 0.17475728155339806,
+        "travel": 0.15048543689320387,
+        "coronavirus": 0.0970873786407767,
+        "control measure": 0.09223300970873786,
+        "transmission": 0.09223300970873786,
+        "novel coronavirus": 0.05339805825242718,
+        "World Health Organization": 0.043689320388349516,
+        "SEIR": 0.03398058252427184,
+        "incubation period": 0.02912621359223301,
+        "dynamics": 0.02912621359223301,
+        "SARS": 0.02912621359223301,
+        "branching process": 0.024271844660194174,
+        "Markov chain Monte Carlo": 0.024271844660194174,
+        "infectious disease vulnerability indexes": 0.019417475728155338,
+        "pneumonia": 0.019417475728155338,
+        "transmission dynamics": 0.014563106796116505,
+        "incidence decay and exponential adjustment": 0.014563106796116505,
+        "COVID-19": 0.014563106796116505,
+        "interventions": 0.014563106796116505,
+        "compartmental model": 0.014563106796116505,
+        "International Air Transport Association": 0.009708737864077669,
+        "risk assessment": 0.0048543689320388345,
+        "weibull distribution": 0.0
+    },
+    "species": [],
+    "summary": [
+        "A cluster of pneumonia cases in Wuhan, China, was reported to the World Health Organization (WHO) on 31 December 2019.",
+        "In this study the authors combine case estimates, epidemiological characteristics of the disease, international mobility patterns, control efforts, and secondary case distributions to assess the risks of major outbreaks from imported cases outside China.",
+        "The authors' method has three main components: (i) The authors estimate the cumulative number of cases in China outside Hubei province after 23 January, using a time-dependent compartmental model of the transmission dynamics.",
+        "The authors calculate the total cumulative number of cases outside Hubei, for each t\u2217 in the given range.",
+        "Each imported case that passes the entry screening and mixes into the local population can potentially start an outbreak, which the authors model by a Galton\u2013Watson branching process with negative binomial offspring distribution with dispersion parameter k = 0.64 [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and expectation Rloc, where Rloc is the local reproduction number of the infection in a given country.",
+        "After calibration of the SE2 I3R model, the authors numerically calculated the final epidemic size in China outside Hubei, using three different basic reproduction numbers and different control functions.",
+        "This risk depends on three key parameters: the cumulative number of cases in areas of China which are not closed, the connectivity between China and the destination country, and the local transmission potential of the virus.",
+        "When the authors have new information in the future about the case numbers in China, travel frequencies, efficacy of entry screenings, and local control measures, the method will still be useful for assessing outbreak risks.",
+        "The authors found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions.",
+        "The authors obtained final epidemic sizes for various reproduction numbers and control efforts, providing upper bounds for the cumulative number of cases C outside Hubei.",
+        "The authors create a probabilistic model to estimate the risk of a major outbreak in a destination country as a function of the cumulative number of cases C in China outside the closed areas, the local reproduction number Rloc in the destination country, and the connectivity \u03b8 between China and the destination country.",
+        "Assuming that the destination country has i imported cases from China that are mixed into the local population, the authors estimate the probability of a major outbreak as the probability that not all the branches started by those i individuals die out, which is 1 \u2212 zi."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A cluster of pneumonia cases in Wuhan, China, was reported to the World Health Organization (WHO) on 31 December 2019.",
+            "In this study the authors combine case estimates, epidemiological characteristics of the disease, international mobility patterns, control efforts, and secondary case distributions to assess the risks of major outbreaks from imported cases outside China."
+        ],
+        "Results": [
+            "The authors' method has three main components: (i) The authors estimate the cumulative number of cases in China outside Hubei province after 23 January, using a time-dependent compartmental model of the transmission dynamics.",
+            "The authors calculate the total cumulative number of cases outside Hubei, for each t\u2217 in the given range.",
+            "Each imported case that passes the entry screening and mixes into the local population can potentially start an outbreak, which the authors model by a Galton\u2013Watson branching process with negative binomial offspring distribution with dispersion parameter k = 0.64 [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and expectation Rloc, where Rloc is the local reproduction number of the infection in a given country.",
+            "After calibration of the SE2 I3R model, the authors numerically calculated the final epidemic size in China outside Hubei, using three different basic reproduction numbers and different control functions.",
+            "This risk depends on three key parameters: the cumulative number of cases in areas of China which are not closed, the connectivity between China and the destination country, and the local transmission potential of the virus.",
+            "When the authors have new information in the future about the case numbers in China, travel frequencies, efficacy of entry screenings, and local control measures, the method will still be useful for assessing outbreak risks.",
+            "The authors found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions.",
+            "The authors obtained final epidemic sizes for various reproduction numbers and control efforts, providing upper bounds for the cumulative number of cases C outside Hubei."
+        ],
+        "Conclusion": [
+            "The authors create a probabilistic model to estimate the risk of a major outbreak in a destination country as a function of the cumulative number of cases C in China outside the closed areas, the local reproduction number Rloc in the destination country, and the connectivity \u03b8 between China and the destination country.",
+            "Assuming that the destination country has i imported cases from China that are mixed into the local population, the authors estimate the probability of a major outbreak as the probability that not all the branches started by those i individuals die out, which is 1 \u2212 zi."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "The_2003_a",
+            "alt_id": "1",
+            "entry": "The majority of the estimates for R0 range between 2 and 3. Obtaining these was done by modeling epidemic trajectories and comparing them to the results of [16] as a baseline [19,20], using a negative binomial distribution to generate secondary infections. Liu et al. utilized the exponential growth and maximum likelihood estimation methods and found that the 2019-nCoV may have a higher pandemic risk than SARS-CoV in 2003 [21].",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=The%20majority%20of%20the%20estimates%20for%20R0%20range%20between%202%20and%203%20Obtaining%20these%20was%20done%20by%20modeling%20epidemic%20trajectories%20and%20comparing%20them%20to%20the%20results%20of%2016%20as%20a%20baseline%201920%20using%20a%20negative%20binomial%20distribution%20to%20generate%20secondary%20infections%20Liu%20et%20al%20utilized%20the%20exponential%20growth%20and%20maximum%20likelihood%20estimation%20methods%20and%20found%20that%20the%202019nCoV%20may%20have%20a%20higher%20pandemic%20risk%20than%20SARSCoV%20in%202003%2021",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=The%20majority%20of%20the%20estimates%20for%20R0%20range%20between%202%20and%203%20Obtaining%20these%20was%20done%20by%20modeling%20epidemic%20trajectories%20and%20comparing%20them%20to%20the%20results%20of%2016%20as%20a%20baseline%201920%20using%20a%20negative%20binomial%20distribution%20to%20generate%20secondary%20infections%20Liu%20et%20al%20utilized%20the%20exponential%20growth%20and%20maximum%20likelihood%20estimation%20methods%20and%20found%20that%20the%202019nCoV%20may%20have%20a%20higher%20pandemic%20risk%20than%20SARSCoV%20in%202003%2021",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=The%20majority%20of%20the%20estimates%20for%20R0%20range%20between%202%20and%203%20Obtaining%20these%20was%20done%20by%20modeling%20epidemic%20trajectories%20and%20comparing%20them%20to%20the%20results%20of%2016%20as%20a%20baseline%201920%20using%20a%20negative%20binomial%20distribution%20to%20generate%20secondary%20infections%20Liu%20et%20al%20utilized%20the%20exponential%20growth%20and%20maximum%20likelihood%20estimation%20methods%20and%20found%20that%20the%202019nCoV%20may%20have%20a%20higher%20pandemic%20risk%20than%20SARSCoV%20in%202003%2021"
+        },
+        {
+            "id": "Read_2020_a",
+            "alt_id": "2",
+            "entry": "Read et al. based their estimates on data from Wuhan exclusively (available up to 22 January 2020) and a deterministic SEIR model [22]. The choice of this date is motivated by the actions of authorities, that is the substantial travel limitations the next day. Li et al. used solely the patient data with illness onset between 10 December 2019 and 4 January 2020 [24]. The Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene and Tropical Medicine have analyzed",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Read%20et%20al%20based%20their%20estimates%20on%20data%20from%20Wuhan%20exclusively%20available%20up%20to%2022%20January%202020%20and%20a%20deterministic%20SEIR%20model%2022%20The%20choice%20of%20this%20date%20is%20motivated%20by%20the%20actions%20of%20authorities%20that%20is%20the%20substantial%20travel%20limitations%20the%20next%20day%20Li%20et%20al%20used%20solely%20the%20patient%20data%20with%20illness%20onset%20between%2010%20December%202019%20and%204%20January%202020%2024%20The%20Centre%20for%20the%20Mathematical%20Modelling%20of%20Infectious%20Diseases%20at%20the%20London%20School%20of%20Hygiene%20and%20Tropical%20Medicine%20have%20analyzed"
+        },
+        {
+            "id": "2019-nCoV_J_a",
+            "alt_id": "3",
+            "entry": "2019-nCoV using SEIR and multiple data series [25]. Shen et al. used a SEIJR model (where J denotes the compartment of diagnosed and isolated individuals) and Markov chain Monte Carlo (MCMC) simulations [26] similarly to [27]. An alternative approach was presented by Majumder and Mandl [23] as they obtained their estimate based on the cumulative epidemic curve and the incidence decay and exponential adjustment (IDEA) model [31].",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=nCoV%20using%20SEIR%20and%20multiple%20data%20series%2025%20Shen%20et%20al%20used%20a%20SEIJR%20model%20where%20J%20denotes%20the%20compartment%20of%20diagnosed%20and%20isolated%20individuals%20and%20Markov%20chain%20Monte%20Carlo%20MCMC%20simulations%2026%20similarly%20to%2027%20An%20alternative%20approach%20was%20presented%20by%20Majumder%20and%20Mandl%2023%20as%20they%20obtained%20their%20estimate%20based%20on%20the%20cumulative%20epidemic%20curve%20and%20the%20incidence%20decay%20and%20exponential%20adjustment%20IDEA%20model%2031"
+        },
+        {
+            "id": "The_2019_b",
+            "alt_id": "4",
+            "entry": "The incubation period was estimated to be in between 4.6 and 5.8 days by various studies. The first calculations used data up to 23 January [21]. Weibull distribution was identified as the best-fit model by several researches when comparing LogNormal, Gamma, and Weibull fits. Backer et al. used newly available patient data with known travel history and identified the Weibull distribution as the one with the best LOO (Leave-One-Out) score [28]; Linton et al. gave estimates for with and without Wuhan residents using their statistical model with, again, the Weibull distribution scoring the best AIC (Akaike information criterion) [29]. The Johns Hopkins University Infectious Disease Dynamics Group has been collecting substantial data on exposure and symptom onset for 2019-nCoV cases. They recommend using their LogNormal estimate [30], which gives a 5.1 day incubation period.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=The%20incubation%20period%20was%20estimated%20to%20be%20in%20between%2046%20and%2058%20days%20by%20various%20studies%20The%20first%20calculations%20used%20data%20up%20to%2023%20January%2021%20Weibull%20distribution%20was%20identified%20as%20the%20bestfit%20model%20by%20several%20researches%20when%20comparing%20LogNormal%20Gamma%20and%20Weibull%20fits%20Backer%20et%20al%20used%20newly%20available%20patient%20data%20with%20known%20travel%20history%20and%20identified%20the%20Weibull%20distribution%20as%20the%20one%20with%20the%20best%20LOO%20LeaveOneOut%20score%2028%20Linton%20et%20al%20gave%20estimates%20for%20with%20and%20without%20Wuhan%20residents%20using%20their%20statistical%20model%20with%20again%20the%20Weibull%20distribution%20scoring%20the%20best%20AIC%20Akaike%20information%20criterion%2029%20The%20Johns%20Hopkins%20University%20Infectious%20Disease%20Dynamics%20Group%20has%20been%20collecting%20substantial%20data%20on%20exposure%20and%20symptom%20onset%20for%202019nCoV%20cases%20They%20recommend%20using%20their%20LogNormal%20estimate%2030%20which%20gives%20a%2051%20day%20incubation%20period"
+        },
+        {
+            "id": "2",
+            "alt_id": "2._0000_c",
+            "entry": "2. Materials and Methods",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Materials%20and%20Methods"
+        },
+        {
+            "id": "3",
+            "alt_id": "3._0000_d",
+            "entry": "3. Results 3.1. Epidemic Size in China",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Results%2031%20Epidemic%20Size%20in%20China"
+        },
+        {
+            "id": "1",
+            "alt_id": "Huang_et+al_2019_a",
+            "entry": "1. Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X.; et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020, 395, 497\u2013506, doi:10.1016/S0140-6736(20)30183-5.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930183-5"
+        },
+        {
+            "id": "2",
+            "alt_id": "W_0000_a",
+            "entry": "2. WHO. Statement Regarding Cluster of Pneumonia Cases in Wuhan, China; World Health Organization: Geneva, Switzerland, 2020. Available online: https://www.who.int/china/news/detail/09-01-2020-who-statementregarding-cluster-of-pneumonia-cases-in-wuhan-china (accessed on 17 February 2020).",
+            "url": "https://www.who.int/china/news/detail/09-01-2020-who-statementregarding-cluster-of-pneumonia-cases-in-wuhan-china"
+        },
+        {
+            "id": "3",
+            "alt_id": "W_0000_b",
+            "entry": "3. WHO. Novel Coronavirus\u2014Thailand (ex-China); World Health Organization: Geneva, Switzerland, 2020. Available online: https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand-ex-china/en (accessed on 17 February 2020).",
+            "url": "https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand-ex-china/en"
+        },
+        {
+            "id": "4",
+            "alt_id": "W_2019_a",
+            "entry": "4. WHO. Novel Coronavirus (2019-nCoV) Situation Report\u20141; World Health Organization: Geneva, Switzerland, 2020. Available online: https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf (accessed on 17 February 2020).",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=W.H.O.%20Novel%20Coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=W.H.O.%20Novel%20Coronavirus%202019"
+        },
+        {
+            "id": "5",
+            "alt_id": "Team_2019_a",
+            "entry": "5. JHU IDD Team. 2019-nCoV Global Cases by Center for Systems Science and Engineering. JHU IDD 2020. Available online: https://docs.google.com/spreadsheets/d/1wQVypefm946ch4XDp37uZ-wartW4V7ILdgqYiDXUHM/edit?usp=sharing (accessed on 17 February 2020).",
+            "url": "https://docs.google.com/spreadsheets/d/1wQVypefm946ch4XDp37uZ-wartW4V7ILdgqYiDXUHM/edit?usp=sharing"
+        },
+        {
+            "id": "6",
+            "alt_id": "C_2019_a",
+            "entry": "6. CDC. 2019 Novel Coronavirus. Prevention & Treatment. Cent. Disease Control Prev. 2020. Available online: {https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html} (accessed on 17 February 2020).",
+            "url": "https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html}",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=C.D.C.%20Novel%20Coronavirus.%20Prevention%20%26%20Treatment.%20Cent%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=C.D.C.%20Novel%20Coronavirus.%20Prevention%20%26%20Treatment.%20Cent%202019"
+        },
+        {
+            "id": "7",
+            "alt_id": "N_0000_a",
+            "entry": "7. NPR. Chinese Authorities Begin Quarantine Of Wuhan City As Coronavirus Cases Multiply. NPR 2020. Available online: https://www.npr.org/2020/01/23/798789671/chinese-authorities-begin-quarantine-ofwuhan-city-as-coronavirus-cases-multiply (accessed on 17 February 2020).",
+            "url": "https://www.npr.org/2020/01/23/798789671/chinese-authorities-begin-quarantine-ofwuhan-city-as-coronavirus-cases-multiply",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=N.P.R.%20Chinese%20Authorities%20Begin%20Quarantine%20Of%20Wuhan%20City%20As%20Coronavirus%20Cases%20Multiply",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=N.P.R.%20Chinese%20Authorities%20Begin%20Quarantine%20Of%20Wuhan%20City%20As%20Coronavirus%20Cases%20Multiply"
+        },
+        {
+            "id": "8",
+            "alt_id": "Cheng_et+al_0000_a",
+            "entry": "8. Cheng, W.C.C.; Wong, S.-C.; To, K.K.W.; Ho, P.L.; Yuen, K.-Y. Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China. J. Hosp. Infect. 2020, doi:10.1016/j.jhin.2020.01.010, to appear.",
+            "crossref": "https://dx.doi.org/10.1016/j.jhin.2020.01.010",
+            "scite": "https://scite.ai/reports/10.1016/j.jhin.2020.01.010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.jhin.2020.01.010"
+        },
+        {
+            "id": "9",
+            "alt_id": "Arnot_0000_a",
+            "entry": "9. Arnot, M.; Mzezewa, T. The Coronavirus: What Travelers Need to Know; The New York Times: New York, NY, USA 2020. Available online: https://www.nytimes.com/2020/01/26/travel/Coronavirus-travel.html (accessed on 17 February 2020).",
+            "url": "https://www.nytimes.com/2020/01/26/travel/Coronavirus-travel.html"
+        },
+        {
+            "id": "10",
+            "alt_id": "10._0000_e",
+            "entry": "10. National Health Commission of the People\u2019s Republic of China. Work begins on mobile hospital in Wuhan. NHC 2020. Available online: http://en.nhc.gov.cn/2020-01/29/c_76034.htm (accessed on 17 February 2020).",
+            "url": "http://en.nhc.gov.cn/2020-01/29/c_76034.htm",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=National%20Health%20Commission%20of%20the%20Peoples%20Republic%20of%20China%20Work%20begins%20on%20mobile%20hospital%20in%20Wuhan%20NHC%202020%20Available%20online%20httpennhcgovcn20200129c76034htm%20accessed%20on%2017%20February%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=National%20Health%20Commission%20of%20the%20Peoples%20Republic%20of%20China%20Work%20begins%20on%20mobile%20hospital%20in%20Wuhan%20NHC%202020%20Available%20online%20httpennhcgovcn20200129c76034htm%20accessed%20on%2017%20February%202020"
+        },
+        {
+            "id": "11",
+            "alt_id": "11._0000_f",
+            "entry": "11. National Health Commission of the People\u2019s Republic of China. Medics flood to Hubei to fight disease. NHC 2020. Available online: http://en.nhc.gov.cn/2020-01/29/c_76031.htm (accessed on 17 February 2020).",
+            "url": "http://en.nhc.gov.cn/2020-01/29/c_76031.htm",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=National%20Health%20Commission%20of%20the%20Peoples%20Republic%20of%20China%20Medics%20flood%20to%20Hubei%20to%20fight%20disease%20NHC%202020%20Available%20online%20httpennhcgovcn20200129c76031htm%20accessed%20on%2017%20February%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=National%20Health%20Commission%20of%20the%20Peoples%20Republic%20of%20China%20Medics%20flood%20to%20Hubei%20to%20fight%20disease%20NHC%202020%20Available%20online%20httpennhcgovcn20200129c76031htm%20accessed%20on%2017%20February%202020"
+        },
+        {
+            "id": "12",
+            "alt_id": "Parry_0000_a",
+            "entry": "12. Parry, J. Pneumonia in China: lack of information raises concerns among Hong Kong health workers. BMJ 2020, doi:10.1136/bmj.m56.",
+            "crossref": "https://dx.doi.org/10.1136/bmj.m56",
+            "scite": "https://scite.ai/reports/10.1136/bmj.m56"
+        },
+        {
+            "id": "13",
+            "alt_id": "Moore_et+al_2016_a",
+            "entry": "13. Moore, M.; Gelfeld, B.; Okunogbe, A.T.; Christopher, P. Identifying Future Disease Hot Spots: Infectious Disease Vulnerability Index; RAND Corporation: Santa Monica, CA, USA, 2016. Available online: https://www.rand.org/pubs/research_reports/RR1605.html (accessed on 17 February 2020).",
+            "url": "https://www.rand.org/pubs/research_reports/RR1605.html"
+        },
+        {
+            "id": "14",
+            "alt_id": "Bogoch_et+al_0000_a",
+            "entry": "14. Bogoch, I.I.; Watts, A.; Thomas-Bachli, A.; Huber, C.; Kraemer, M.U.G.; Khan, K. Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel. J. Travel Med. 2020, doi:10.1093/jtm/taaa008, accepted.",
+            "crossref": "https://dx.doi.org/10.1093/jtm/taaa008",
+            "scite": "https://scite.ai/reports/10.1093/jtm/taaa008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/jtm/taaa008"
+        },
+        {
+            "id": "15",
+            "alt_id": "Chinazzi_et+al_2019_a",
+            "entry": "15. Chinazzi, M.; Davis, J.T.; Gioannini, C.; Litvinova, M.; Pastore y Piontti, A.; Rossi, L.; Xiong, X.; Halloran, M.E.; Longini, I.M.; Vespignani, A. Preliminary assessment of the International Spreading Risk Associated with the 2019 novel Coronavirus (2019-nCoV) outbreak in Wuhan City. Lab. Model. Biol. Soc.\u2013Techn. Syst. 2020. Available online: https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus__6_.pdf (accessed on 17 February 2020).",
+            "url": "https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus__6_.pdf",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chinazzi%20M%20Davis%20JT%20Gioannini%20C%20Litvinova%20M%20Pastore%20y%20Piontti%20A%20Rossi%20L%20Xiong%20X%20Halloran%20ME%20Longini%20IM%20Vespignani%20A%20Preliminary%20assessment%20of%20the%20International%20Spreading%20Risk%20Associated%20with%20the%202019%20novel%20Coronavirus%202019nCoV%20outbreak%20in%20Wuhan%20City%20Lab%20Model%20Biol%20SocTechn%20Syst%202020%20Available%20online%20httpswwwmobslaborguploads67876787877wuhannovelcoronavirus6pdf%20accessed%20on%2017%20February%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chinazzi%20M%20Davis%20JT%20Gioannini%20C%20Litvinova%20M%20Pastore%20y%20Piontti%20A%20Rossi%20L%20Xiong%20X%20Halloran%20ME%20Longini%20IM%20Vespignani%20A%20Preliminary%20assessment%20of%20the%20International%20Spreading%20Risk%20Associated%20with%20the%202019%20novel%20Coronavirus%202019nCoV%20outbreak%20in%20Wuhan%20City%20Lab%20Model%20Biol%20SocTechn%20Syst%202020%20Available%20online%20httpswwwmobslaborguploads67876787877wuhannovelcoronavirus6pdf%20accessed%20on%2017%20February%202020"
+        },
+        {
+            "id": "16",
+            "alt_id": "Imai_et+al_0000_a",
+            "entry": "16. Imai, N.; Dorigatti, I.; Cori, A.; Donnelly, C.; Riley, S.; Ferguson, N.M. Report 2: Estimating the potential total number of novel Coronavirus cases in Wuhan City, China. Imper. Coll. London 2020. Available online: https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019nCoV-outbreak-report-22-01-2020.pdf (accessed on 17 February 2020).",
+            "url": "https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019nCoV-outbreak-report-22-01-2020.pdf",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Imai%2C%20N.%20Dorigatti%2C%20I.%20Cori%2C%20A.%20Donnelly%2C%20C.%20Report%202%3A%20Estimating%20the%20potential%20total%20number%20of%20novel%20Coronavirus%20cases%20in%20Wuhan%20City%2C%20China",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Imai%2C%20N.%20Dorigatti%2C%20I.%20Cori%2C%20A.%20Donnelly%2C%20C.%20Report%202%3A%20Estimating%20the%20potential%20total%20number%20of%20novel%20Coronavirus%20cases%20in%20Wuhan%20City%2C%20China"
+        },
+        {
+            "id": "17",
+            "alt_id": "Zhao_et+al_2019_a",
+            "entry": "17. Zhao, S.; Musa, S.S.; Lin, Q.; Ran, J.; Yang, G.; Wang, W.; Lou, Y.; Yang, L.; Gao, D.; He, D.; et al. Estimating the Unreported Number of Novel Coronavirus (2019-nCoV) Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak. J. Clin. Med. 2020, 9, 388, doi:10.3390/jcm9020388.",
+            "crossref": "https://dx.doi.org/10.3390/jcm9020388",
+            "scite": "https://scite.ai/reports/10.3390/jcm9020388",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3390/jcm9020388"
+        },
+        {
+            "id": "18",
+            "alt_id": "Nishiura_et+al_2020_a",
+            "entry": "18. Nishiura, H.; Jung, S.-M.; Linton, N.M.; Kinoshita, R.; Yang, Y.; Hayashi, K.; Kobayashi, T.; Yuan, B.; Akhmetzhanov, A.R. The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020. J. Clin. Med. 2020, 9, 330, doi:10.3390/jcm9020330.",
+            "crossref": "https://dx.doi.org/10.3390/jcm9020330",
+            "scite": "https://scite.ai/reports/10.3390/jcm9020330",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3390/jcm9020330"
+        },
+        {
+            "id": "19",
+            "alt_id": "Imai_et+al_2019_b",
+            "entry": "19. Imai, N.; Cori, A.; Dorigatti, I.; Baguelin, M.; Donnelly C.A.; Riley, S.; Ferguson, N.M. Report 3: Transmissibility of 2019-nCoV. Imper. Coll. London 2020. Available online: https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf (accessed on 17 February 2020).",
+            "url": "https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Imai%20N%20Cori%20A%20Dorigatti%20I%20Baguelin%20M%20Donnelly%20CA%20Riley%20S%20Ferguson%20NM%20Report%203%20Transmissibility%20of%202019nCoV%20Imper%20Coll%20London%202020%20Available%20online%20httpswwwimperialacukmediaimperialcollegemedicinesphidegidafellowshipsImperial2019nCoVtransmissibilitypdf%20accessed%20on%2017%20February%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Imai%20N%20Cori%20A%20Dorigatti%20I%20Baguelin%20M%20Donnelly%20CA%20Riley%20S%20Ferguson%20NM%20Report%203%20Transmissibility%20of%202019nCoV%20Imper%20Coll%20London%202020%20Available%20online%20httpswwwimperialacukmediaimperialcollegemedicinesphidegidafellowshipsImperial2019nCoVtransmissibilitypdf%20accessed%20on%2017%20February%202020"
+        },
+        {
+            "id": "20",
+            "alt_id": "Riou_2019_a",
+            "entry": "20. Riou, J.; Althaus, C.L. Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioR\u03c7iv 2020, doi:10.1101/2020.01.23.917351.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.917351",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.917351"
+        },
+        {
+            "id": "21",
+            "alt_id": "Liu_et+al_2019_a",
+            "entry": "21. Liu, T.; Hu, J.; Kang, M.; Lin, L.; Zhong, H.; Xiao, J.; He, G.; Song, T.; Huang, Q.; Rong, Z.; et al. Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioR\u03c7iv 2020, doi:10.1101/2020.01.25.919787.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.25.919787",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.25.919787",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.25.919787"
+        },
+        {
+            "id": "22",
+            "alt_id": "Read_et+al_2019_b",
+            "entry": "22. Read, J.M.; Bridgen, J.R.E.; Cummings, D.A.T.; Ho, A.; Jewell, C.P. Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medR\u03c7iv 2020, doi:10.1101/2020.01.23.20018549.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.20018549",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.20018549"
+        },
+        {
+            "id": "23",
+            "alt_id": "Majumder_0000_a",
+            "entry": "23. Majumder M.; Mandl K.D. Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China. SSRN 2020, doi:10.2139/ssrn.3524675.",
+            "crossref": "https://dx.doi.org/10.2139/ssrn.3524675",
+            "scite": "https://scite.ai/reports/10.2139/ssrn.3524675"
+        },
+        {
+            "id": "24",
+            "alt_id": "Li_et+al_0000_a",
+            "entry": "24. Li, Q.; Guan, X.; Wu, P.; Wang, X.; Zhou, L.; Tong, Y.; Ren, R.; Leung, K.S.M.; Lau, E.H.Y.; Wong, J.Y.; et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N. Engl. J. Med. 2020, doi:10.1056/NEJMoa2001316.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "25",
+            "alt_id": "Kucharski_et+al_0000_a",
+            "entry": "25. Kucharski, A.; Russell, T.; Diamond, C.; CMMID nCoV Working Group; Funk, S.; Eggo, R.M. Analysis of early transmission dynamics of nCoV in Wuhan. CMMID 2020. Available online: https://cmmid.github.io/ncov/wuhan_early_dynamics (accessed on 17 February 2020).",
+            "url": "https://cmmid.github.io/ncov/wuhan_early_dynamics",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kucharski%2C%20A.%20Russell%2C%20T.%20Diamond%2C%20C.%20nCoV%20Working%20Group%2C%20C.M.M.I.D.%20Analysis%20of%20early%20transmission%20dynamics%20of%20nCoV%20in%20Wuhan",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kucharski%2C%20A.%20Russell%2C%20T.%20Diamond%2C%20C.%20nCoV%20Working%20Group%2C%20C.M.M.I.D.%20Analysis%20of%20early%20transmission%20dynamics%20of%20nCoV%20in%20Wuhan"
+        },
+        {
+            "id": "26",
+            "alt_id": "Shen_et+al_2019_a",
+            "entry": "26. Shen, M.; Peng, Z.; Xiao, Y.; Zhang, L. Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioR\u03c7iv 2020. Available online: https://www.biorxiv.org/content/10.1101/2020.01.23.916726v1 (accessed on 17 February 2020).",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.01.23.916726v1"
+        },
+        {
+            "id": "27",
+            "alt_id": "Leung_et+al_2019_a",
+            "entry": "27. Leung, K.; Wu, J.T.; Leung, G.M. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet 2020, doi:10.1016/S0140-6736(20)30260-9, to appear.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9"
+        },
+        {
+            "id": "28",
+            "alt_id": "Backer_et+al_2019_a",
+            "entry": "28. Backer, J.A.; Klinkenberg, D.; Wallinga, J. The incubation period of 2019-nCoV infections among travellers from Wuhan, China. medR\u03c7iv 2020, doi:10.1101/2020.01.27.20018986.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.27.20018986",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.27.20018986"
+        },
+        {
+            "id": "29",
+            "alt_id": "Linton_et+al_0000_a",
+            "entry": "29. Linton, N.M.; Kobayashi, T.; Yang, Y.; Hayashi, K.; Akhmetzhanov, A.R.; Jung, S.-M.; Yuan, B.; Kinoshita, R.; Nishiura, H. Epidemiological characteristics of novel coronavirus infection: A statistical analysis of publicly available case data. medR\u03c7iv 2020, doi:10.1101/2020.01.26.20018754.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.26.20018754",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.26.20018754"
+        },
+        {
+            "id": "30",
+            "alt_id": "Zheng_et+al_0000_a",
+            "entry": "30. Zheng, Q.; Meredith, H.; Grantz, K.; Bi, Q.; Jones, F.; Lauer S.; JHU IDD Team. Real-time estimation of the novel coronavirus incubation time. JHU IDD 2020. Available online: https://github.com/HopkinsIDD/ncov_incubation (accessed on 17 February 2020).",
+            "url": "https://github.com/HopkinsIDD/ncov_incubation"
+        },
+        {
+            "id": "31",
+            "alt_id": "Fisman_et+al_2013_a",
+            "entry": "31. Fisman, D.N.; Hauck, T.S.; Tuite, A.R.; Greer, A.L. An IDEA for Short Term Outbreak Projection: Nearcasting Using the Basic Reproduction Number. PLoS ONE 2013, 8, 12, doi:10.1371/journal.pone.0083622.",
+            "crossref": "https://dx.doi.org/10.1371/journal.pone.0083622",
+            "scite": "https://scite.ai/reports/10.1371/journal.pone.0083622",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pone.0083622"
+        },
+        {
+            "id": "32",
+            "alt_id": "32._0000_g",
+            "entry": "32. EpiRisk. Available online: http://epirisk.net (accessed on 17 February 2020).",
+            "url": "http://epirisk.net"
+        },
+        {
+            "id": "33",
+            "alt_id": "Quilty_et+al_2019_a",
+            "entry": "33. Quilty, B.; Clifford, S.; CMMID nCoV Working Group; Flasche, S.; Eggo, R.M. Effectiveness of airport screening at detecting travellers infected with 2019-nCoV. CMMID 2020. Available online: https://cmmid.github.io/ncov/airport_screening_report/airport_screening_preprint_2020_01_28.pdf (accessed on 17 February 2020).",
+            "url": "https://cmmid.github.io/ncov/airport_screening_report/airport_screening_preprint_2020_01_28.pdf",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Quilty%20B%20Clifford%20S%20CMMID%20nCoV%20Working%20Group%20Flasche%20S%20Eggo%20RM%20Effectiveness%20of%20airport%20screening%20at%20detecting%20travellers%20infected%20with%202019nCoV%20CMMID%202020%20Available%20online%20httpscmmidgithubioncovairportscreeningreportairportscreeningpreprint20200128pdf%20accessed%20on%2017%20February%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Quilty%20B%20Clifford%20S%20CMMID%20nCoV%20Working%20Group%20Flasche%20S%20Eggo%20RM%20Effectiveness%20of%20airport%20screening%20at%20detecting%20travellers%20infected%20with%202019nCoV%20CMMID%202020%20Available%20online%20httpscmmidgithubioncovairportscreeningreportairportscreeningpreprint20200128pdf%20accessed%20on%2017%20February%202020"
+        },
+        {
+            "id": "34",
+            "alt_id": "Britton_0000_a",
+            "entry": "34. Britton, T. Stochastic epidemic models: A survey. Math. Biosci. 2020, 225, 24\u201335, doi:10.1016/j.mbs.2010.01.006.",
+            "crossref": "https://dx.doi.org/10.1016/j.mbs.2010.01.006",
+            "scite": "https://scite.ai/reports/10.1016/j.mbs.2010.01.006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.mbs.2010.01.006"
+        },
+        {
+            "id": "35",
+            "alt_id": "Riley_et+al_2003_a",
+            "entry": "35. Riley, S.; Fraser, C.; Donnelly, C.A.; Ghani, A.C.; Abu-Raddad, L.J.; Hedley, A.J.; Leung, G.M.; Ho, L-M.; Lam, T-H.; Thach, T.Q.; et al. Transmission Dynamics of the Etiological Agent of SARS in Hong Kong: Impact of Public Health Interventions. Science 2003, 300, 1961\u20131966, doi:10.1126/science.1086478.",
+            "crossref": "https://dx.doi.org/10.1126/science.1086478",
+            "scite": "https://scite.ai/reports/10.1126/science.1086478",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.1086478"
+        },
+        {
+            "id": "36",
+            "alt_id": "Park_et+al_2019_a",
+            "entry": "36. Park, S.W.; Champredon, D.; Earn, D.J.; Li, M.; Weitz, J.S.; Grenfell, B.T.; Dushoff, J. Reconciling early-outbreak estimates of the basic reproductive number and its uncertainty: a new framework and applications to the novel coronavirus (2019-nCoV) outbreak. medR\u03c7iv 2020, doi:10.1101/2020.01.30.20019877.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.30.20019877",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.30.20019877",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.30.20019877"
+        },
+        {
+            "id": "37",
+            "alt_id": "Wearing_et+al_2005_a",
+            "entry": "37. Wearing, H.J.; Rohani, P.; Keeling, M.J. Appropriate Models for the Management of Infectious Diseases. PLoS Med. 2005, 2, doi:10.1371/journal.pmed.0020174.",
+            "crossref": "https://dx.doi.org/10.1371/journal.pmed.0020174",
+            "scite": "https://scite.ai/reports/10.1371/journal.pmed.0020174",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pmed.0020174"
+        },
+        {
+            "id": "38",
+            "alt_id": "Lauer_et+al_2019_a",
+            "entry": "38. Lauer S.; Zlojutro, A.; Rey, D.; Dong, E.; JHU IDD Team; UNSW Sydney rCITI Team. Update January 31: Modeling the Spreading Risk of 2019-nCoV. JHU IDD 2020. Available online: https://systems.jhu.edu/research/public-health/ncov-model-2 (accessed on 17 February 2020).",
+            "url": "https://systems.jhu.edu/research/public-health/ncov-model-2"
+        },
+        {
+            "id": "39",
+            "alt_id": "Nishiura_et+al_2019_a",
+            "entry": "39. Nishiura, H.; Kobayashi, T.; Yang, Y.; Hayashi, K.; Miyama, T.; Kinoshita, R.; Linton, N.M.; Jung S-M.; Yuan, B.; Suzuki, A.; et al. The Rate of Underascertainment of Novel Coronavirus (2019-nCoV) Infection: Estimation Using Japanese Passengers Data on Evacuation Flights. J. Clin. Med. 2020, 9, 419, doi:10.3390/jcm9020419.",
+            "crossref": "https://dx.doi.org/10.3390/jcm9020419",
+            "scite": "https://scite.ai/reports/10.3390/jcm9020419",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3390/jcm9020419"
+        },
+        {
+            "id": "40",
+            "alt_id": "40._2019_h",
+            "entry": "40. Bolyai Institute, University of Szeged. Risk assessment of novel coronavirus 2019-nCoV outbreaks outside China. Github 2020. Available online: https://github.com/zsvizi/corona-virus-2020 (accessed on 17 February 2020). ",
+            "url": "https://github.com/zsvizi/corona-virus-2020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bolyai%20Institute%20University%20of%20Szeged%20Risk%20assessment%20of%20novel%20coronavirus%202019nCoV%20outbreaks%20outside%20China%20Github%202020%20Available%20online%20httpsgithubcomzsvizicoronavirus2020%20accessed%20on%2017%20February%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bolyai%20Institute%20University%20of%20Szeged%20Risk%20assessment%20of%20novel%20coronavirus%202019nCoV%20outbreaks%20outside%20China%20Github%202020%20Available%20online%20httpsgithubcomzsvizicoronavirus2020%20accessed%20on%2017%20February%202020"
+        }
+    ],
+    "facts": [
+        "a computational tool to assess the risk of novel coronavirus outbreaks outside China",
+        "the efficacy of entry screening at destination",
+        "most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number",
+        "Countries in the middle should consider a combination of such policies",
+        "Risk assessments were illustrated for selected groups of countries",
+        "how their risks depend on those parameters",
+        "the risk is increasing in time as the number",
+        "The cause of the pneumonia cases was identified as a novel betacoronavirus",
+        "The first patient showing symptoms was recorded by Chinese authorities on 8 December 2019",
+        "WHO confirmed that a novel coronavirus had been isolated from",
+        "the first death case was reported on the same day",
+        "The first case outside China was witnessed on 13 January in Thailand",
+        "that number as an input to the global transportation network to generate probability distributions of the number of infected travellers arriving at destinations outside China",
+        "Watson branching process to model the initial spread of the virus",
+        "which was calibrated to be consistent with the estimated case numbers outside Hubei",
+        "to the control measures progressively implemented by Chinese authorities",
+        "disease control is achieved when more than 61.5% of potential transmissions are prevented",
+        "The control functions were parametrized by t\u2217",
+        "which is the time after 23 January",
+        "that the epidemic final size is rather sensitive to the speed of implementation",
+        "secondary case distributions to assess the risks of major outbreaks from imported cases",
+        "This risk depends on three key parameters",
+        "our method will still be useful for assessing outbreak risks",
+        "a probabilistic model to estimate the risk of a major outbreak in a destination country",
+        "imported cases from China that are mixed into the local population",
+        "summarize previous efforts made toward those ends in Table 1",
+        "the probability that a single infected individual is traveling from the index areas to a specific destination"
+    ],
+    "claims": [
+        "We developed a computational tool to assess the risk of novel coronavirus outbreaks outside China",
+        "We found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions",
+        "Risk assessments were illustrated for selected groups of countries from America, Asia and Europe, and we investigated how their risks depend on those parameters, and how the risk is increasing in time as the number of cases in China is growing",
+        "We summarize previous efforts made toward those ends in Table 1, and present a short summary below",
+        "We introduce a key parameter t\u2217 to denote the future time when control measures reach their full potential",
+        "This way, we evaluated the probability that a single infected individual is traveling from the index areas (in our case Chinese provinces other than Hubei) to a specific destination",
+        "Each imported case that passes the entry screening and mixes into the local population can potentially start an outbreak, which we model by a Galton\u2013Watson branching process with negative binomial offspring distribution with dispersion parameter k = 0.64 [19,20] and expectation Rloc, where Rloc is the local reproduction number of the infection in a given country",
+        "To illustrate the impacts of control measures for the USA and Canada, we reduced Rloc to 1.4, and plotted the risks for different levels of reduction in connectivity to China, either due to travel restrictions or entry screening; see Figure 2 on the right",
+        "We found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions (see Figure 5)",
+        "We summarize these in Table A1"
+    ],
+    "findings": [
+        "With our baseline R0 = 2.6, disease control is achieved when more than 61.5% of potential transmissions are prevented",
+        "With our baseline R0 = 2.6, disease control R(t) < 1 is achieved when u(t) > 0.615, meaning that more than 61.5% of potential transmissions are prevented, which occurs at time t = 0.77t\u2217"
+    ],
+    "processes": [],
+    "key_statements": [
+        "The cause of the pneumonia cases was identified as a novel betacoronavirus, the 2019 novel coronavirus (2019-nCoV, recently renamed as SARS-CoV-2, the cause of coronavirus disease COVID-19)",
+        "On 9 January 2020, World Health Organization confirmed that a novel coronavirus had been isolated from one of the hospitalized persons [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], and the first death case was reported on the same day",
+        "We summarize previous efforts made toward those ends in Table 1, and present a short summary below",
+        "In this study we combine case estimates, epidemiological characteristics of the disease, international mobility patterns, control efforts, and secondary case distributions to assess the risks of major outbreaks from imported cases outside China",
+        " We use that number as an input to the global transportation network to generate probability distributions of the number of infected travellers arriving at destinations outside China",
+        "We impose time dependence in the transmission parameter due to the control measures progressively implemented by Chinese authorities on and after 23 January",
+        "With our baseline R0 = 2.6, disease control is achieved when more than 61.5% of potential transmissions are prevented",
+        "We introduce a key parameter t\u2217 to denote the future time when control measures reach their full potential",
+        "The output C of the transmission model is used as the pool of potential travellers to abroad, and fed into the online platform EpiRisk [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. This way, we evaluated the probability that a single infected individual is traveling from the index areas to a specific destination",
+        "Each imported case that passes the entry screening and mixes into the local population can potentially start an outbreak, which we model by a Galton\u2013Watson branching process with negative binomial offspring distribution with dispersion parameter k = 0.64 [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and expectation Rloc, where Rloc is the local reproduction number of the infection in a given country",
+        "The control functions were parametrized by t\u2217, which is the time after 23 January at which the control reaches its maximal value umax",
+        "In Figure 1, we plotted these cumulative numbers versus t\u2217, and we can observe that the epidemic final size is rather sensitive to the speed of implementation of the control measures",
+        "To illustrate the impacts of control measures for the USA and Canada, we reduced Rloc to 1.4, and plotted the risks for different levels of reduction in connectivity to China, either due to travel restrictions or entry screening; see Figure 2 on the right",
+        "By combining three different modelling approaches, we created a tool to assess the risk of 2019-nCoV outbreaks in countries outside of China. This risk depends on three key parameters: the cumulative number of cases in areas of China which are not closed, the connectivity between China and the destination country, and the local transmission potential of the virus",
+        "When we have new information in the future about the case numbers in China, travel frequencies, efficacy of entry screenings, and local control measures, our method will still be useful for assessing outbreak risks",
+        "We found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions",
+        "With our baseline R0 = 2.6, disease control R(t) < 1 is achieved when u(t) > 0.615, meaning that more than 61.5% of potential transmissions are prevented, which occurs at time t = 0.77t\u2217",
+        "We create a probabilistic model to estimate the risk of a major outbreak in a destination country as a function of the cumulative number of cases C in China outside the closed areas, the local reproduction number Rloc in the destination country, and the connectivity \u03b8 between China and the destination country",
+        "Assuming that the destination country has i imported cases from China that are mixed into the local population, we estimate the probability of a major outbreak as the probability that not all the branches started by those i individuals die out, which is 1 \u2212 zi"
+    ],
+    "top_statements": [
+        "A cluster of pneumonia cases in Wuhan, China, was reported to the World Health Organization (WHO) on 31 December 2019",
+        "The cause of the pneumonia cases was identified as a novel betacoronavirus, the 2019 novel coronavirus (2019-nCoV, recently renamed as SARS-CoV-2, the cause of coronavirus disease COVID-19)",
+        "On 9 January 2020, World Health Organization confirmed that a novel coronavirus had been isolated from one of the hospitalized persons [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], and the first death case was reported on the same day",
+        "With our baseline R0 = 2.6, disease control is achieved when more than 61.5% of potential transmissions are prevented",
+        "The control functions were parametrized by t\u2217, which is the time after 23 January at which the control reaches its maximal value umax",
+        "We found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions"
+    ],
+    "headline": "We found that in countries with low connectivity to China but with relatively high Rloc, the most beneficial control measure to reduce the risk of outbreaks is a further reduction in their importation number either by entry screening or travel restrictions",
+    "contexts": [],
+    "abbreviations": {
+        "WHO": "World Health Organization",
+        "IATA": "International Air Transport Association",
+        "IDVIs": "infectious disease vulnerability indexes",
+        "MCMC": "Markov chain Monte Carlo",
+        "IDEA": "incidence decay and exponential adjustment"
+    }
+}

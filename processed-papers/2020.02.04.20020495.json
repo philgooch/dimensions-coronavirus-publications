@@ -1,0 +1,358 @@
+{
+    "filename": "2020.02.04.20020495.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 288416,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.04.20020495",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/11/2020.02.04.20020495.full.pdf"
+        },
+        "title": "Using predicted imports of 2019-nCoV cases to determine locations that may not be identifying all imported cases",
+        "date": 2020,
+        "author": "Pablo M De Salazar, Rene Niehus, Aimee Taylor, Caroline O Buckee, Marc Lipsitch",
+        "affiliations": [
+            "Center for Communicable Disease Dynamics, Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States of America"
+        ],
+        "abstract": "Cases from the ongoing outbreak of atypical pneumonia caused by the 2019 novel coronavirus (2019-nCoV) exported from mainland China can lead to self-sustained outbreaks in other populations. Internationally imported cases are currently being reported in several different locations. Early detection of imported cases is critical for containment of the virus. Based on air travel volume estimates from Wuhan to international destinations and using a generalized linear regression model we identify locations which may potentially have undetected internationally imported cases.",
+        "keywords": [
+            "outbreak",
+            "coronavirus",
+            "travel",
+            "pneumonia"
+        ],
+        "references": "@misc{wu-a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet(2020)},\n  doi = {doi: 10.1016/S0140-6736(20)30260-9},\n  language = {}\n}\n@misc{w2020a,\n  author = {W.H.O.},\n  title = {2019-nCoV situation report - 15},\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf},\n  pages = {88\u20138},\n  date = {2020},\n  language = {}\n}\n@incollection{hopkins-a,\n  author = {Hopkins, John},\n  title = {Bloomberg School of Public Health},\n  source = {Global health Security Index.},\n  url = {https://www.ghsindex.org},\n  language = {}\n}\n@misc{lai-a,\n  author = {Lai, Shengjie and Bogoch, Isaac and Ruktanonchai, Nick and Watts, Alexander and Li, Yu and Yu, Jianzing and XinLv, Weizhong Yang and Yu, Hongjie and Khan, Kamran and Li, Zhongjie and Tatem, Andrew J.},\n  title = {Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study},\n  doi = {medRxiv(2020) doi: 10.1101/2020.02.04.20020479},\n  language = {}\n}\n@misc{team-a,\n  author = {Team, R.Development Core and R.},\n  title = {R: A Language and Environment for Statistical Computing. RFoundation for Statistical Computing(2011)},\n  language = {}\n}\n@misc{wickham2016a,\n  author = {Wickham, H.},\n  title = {ggplot2: Elegant Graphics for Data Analysis.(Springer},\n  date = {2016},\n  language = {}\n}\n",
+        "links": [
+            "https://github.com/c2-d2/cov19flightimport"
+        ],
+        "emails": [
+            "pablom@hsph.harvard.edu.Marc",
+            "mlispsitc@hsph.harvard.edu"
+        ],
+        "cited_by": 1,
+        "references_ris": "TY  - GEN\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet(2020)\nDO  - 10.1016/S0140-6736(20)30260-9\nLA  - \nER  - \n\nTY  - GEN\nAU  - W.H.O.\nTI  - 2019-nCoV situation report - 15\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf\nSP  - 88\nEP  - 8\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Hopkins, John\nTI  - Bloomberg School of Public Health\nT2  - Global health Security Index.\nUR  - https://www.ghsindex.org\nLA  - \nER  - \n\nTY  - GEN\nAU  - Lai, Shengjie\nAU  - Bogoch, Isaac\nAU  - Ruktanonchai, Nick\nAU  - Watts, Alexander\nAU  - Li, Yu\nAU  - Yu, Jianzing\nAU  - XinLv, Weizhong Yang\nAU  - Yu, Hongjie\nAU  - Khan, Kamran\nAU  - Li, Zhongjie\nAU  - Tatem, Andrew J.\nTI  - Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study\nDO  - medRxiv(2020) doi: 10.1101/2020.02.04.20020479\nLA  - \nER  - \n\nTY  - GEN\nAU  - Team, R.Development Core\nAU  - R.\nTI  - R: A Language and Environment for Statistical Computing. RFoundation for Statistical Computing(2011)\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wickham, H.\nTI  - ggplot2: Elegant Graphics for Data Analysis.(Springer\nPY  - 2016\nDA  - 2016\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "Supplementary 1",
+                "caption": "Imported case counts and daily air travel volume under six different regression analyses. Six different analyses are shown: A-C)setting the daily air travel volume for locations not listed by Lai et al to 0.1, 1, or 3 passengers per day, respectively; D)defining high surveillance locations using a more lenient GHS index (50th quantile) to define high surveillance locations and E)a more stringent GHS index (95th quantile) to define high surveillance locations; F) excluding Thailand from the model fit. Throughout, the solid line shows the expected case counts based on our model fitted to high surveillance locations (purple points), and the dashed lines show the 95% prediction interval bounds for all locations including those without high surveillance (light blue points). Across all six regression analyses, Singapore lies above the 95% PI, Thailand and Indonesia below. Abbreviations: Indonesia (Ind), Thailand (Tha), Singapore (Sin)"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020495.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.20020495.full/img-001.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "A novel coronavirus 2019-nCoV has been identified with the first confirmed patient cases in December 2019 in the city of Wuhan, capital of Hubei province, China. Since then the number of confirmed cases has increased drastically. Model estimates suggested that by Jan 25, 2020 there were a total of over 75,000 infected cases with a doubling time of about 6 days[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ].By the end of January 2020, city-wide lockdowns were implemented for Wuhan and neighbouring cities. Nonetheless, the virus has managed to spread from Wuhan to other Chinese cities and also outside of China. As of Feb 4, 2020, cases outside China were being reported in 23 different locations of which 22 locations had imported cases (Spain reported one case but due to secondary transmission)[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u200b ].<br/><br/>The majority of these cases have been linked to a recent travel history from China2\u200b ,suggesting that air travel may play an important role for the risk of cases being exported outside of China. To prevent other cities and countries becoming epicentres of the 2019-nCoV epidemic, substantial targeted public health interventions are required, first for detection of cases and then for control of local spread. Here we use estimates of air travel volume from Wuhan to international destinations in 49 locations expected to be proficient at detecting imported cases based on having a high Global Health Security (GHS) Index3\u200b ,and a generalised linear regression model to predict imports of 2019-nCoV cases across 191 locations. Using these predictions we can identify locations that might not be identifying imported cases."
+        ],
+        "methods": [
+            "Under a model fit to data from destinations with high surveillance capacity, we sought to identify locations that report fewer than predicted imported cases of 2019-nCoV. Specifically, for 49 locations with high surveillance capacity we regressed the cumulative number of confirmed imported cases of 2019-nCoV in international destinations outside mainland China on the estimated number of daily air flight passengers coming from Wuhan airport by estimated direct or indirect international flights (daily air travel volume) using a Poisson model. We then use predictions from this model to compare to reported cases across all 191 locations. The model requires three types of data: data on imported cases of 2019-nCoV, data on daily air travel volume, and data on surveillance capacity. Data on imported cases aggregated by destination were obtained from the WHO technical report dated 4th February 20202\u200b (a zero case count was assumed for all locations not listed). We used case counts up to the 4th February, because after this date the number of exported cases from Hubei drops rapidly2\u200b ,likely due to the Hubei-wide lockdowns. We defined imported cases as those with known travel history from China (of those, 83% had travel history from Hubei province, and 17% from unknown locations in China[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u200b ]). We excluded cases that are likely due to transmission outside of China or whose transmission source is still under investigation[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u200b ].In addition, we excluded from our model Hong Kong, Macau and Taiwan because locally transmitted and imported cases were not disaggregated in these locations. In summary, of 195 worldwide locations (in general, locations reflect countries without any position on territorial claims) our model considers N=191 due to the exclusion of China, Hong Kong, Macau and Taiwan. Data on daily air travel volume was obtained as follows. Lai et al.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b] report monthly air travel volume estimates for the 27 locations most connected to Wuhan outside mainland China. These estimates are based on historical (February 2018) data from the International Air Travel Association[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b ].They include direct and indirect flight itineraries from Wuhan to destinations outside of China. For all 164 locations not listed by Lai et al.4\u200b ,we set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index, which is an assessment of health security including detection and reporting capabilities across 195 countries agreeing to the International Health Regulations (IHR [2005])[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u200b ].Specifically, we use the Early Detection and Reporting Epidemics of Potential International Concern component of the Index3\u200b ,henceforth referred to as simply the GHS index, and define high surveillance locations as those whose GHS index is greater than the 75th quantile."
+        ],
+        "results": [
+            "Imported case counts of 2019-nCoV among high surveillance locations are positively correlated with daily air travel volume (Figure 1). An increase in flight volume by 14 passengers per day is associated with one additional imported case in expectation. Singapore lies above the 95% prediction interval (PI), with 12 (2-13) more reported import cases than expected under our model. Thailand has a relatively high air travel volume as compared to all other locations, yet it lies below the 95% prediction interval. Finally, Indonesia with zero reported cases lies below the prediction interval \u2013 its expected case count is 5 (1-11<br/><br/>95% PI). This overall pattern (Singapore lying above the 95% PI, Thailand and Indonesia below) was observed consistently across all six robustness regression analyses."
+        ],
+        "supplementary": [
+            "Figure 1.Imported case counts and daily air travel volume under six different regression analyses. Six different analyses are shown: A-C)setting the daily air travel volume for locations not listed by Lai et al to 0.1, 1, or 3 passengers per day, respectively; D)defining high surveillance locations using a more lenient GHS index (50th quantile) to define high surveillance locations and E)a more stringent GHS index (95th quantile) to define high surveillance locations; F) excluding Thailand from the model fit. Throughout, the solid line shows the expected case counts based on our model fitted to high surveillance locations (purple points), and the dashed lines show the 95% prediction interval bounds for all locations including those without high surveillance (light blue points). Across all six regression analyses, Singapore lies above the 95% PI, Thailand and Indonesia below. Abbreviations: Indonesia (Ind), Thailand (Tha), Singapore (Sin)."
+        ],
+        "discussion": [
+            "We aimed to identify locations with underdetected cases by fitting a model to the cumulative international imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume. Our model can be adjusted to account for exportation of cases from locations other than Wuhan as the outbreak develops and more information on importations and self-sustained transmission becomes available. One key advantage of this model is that it does not rely on estimates of incidence or prevalence in the epicentre of the outbreak.<br/><br/>Based on our model, locations whose case counts exceed the 95% prediction interval (PI) could be interpreted as having higher case-detection capacity and/or more connection with Wuhan than that captured by available daily air travel volume, such as land transportation. Locations below the 95% PI may have undetected cases based on the expected case count under high surveillance. We recommend that outbreak surveillance and control efforts for potential local transmission should be rapidly strengthened in those locations lying below the 95% PI lower bound, in particular Indonesia, to ensure detection of cases and appropriate control measures to reduce the risk of self-sustained transmission."
+        ],
+        "funding": [
+            "This work was supported by Award Number U54GM088558 from the US National Institute Of General Medical Sciences. P.M.D was supported by the Fellowship Foundation Ramon Areces. A.R.T. and C.O.B. were supported by a NIGMS Maximizing Investigator\u2019s Research Award (MIRA) R35GM124715-02.The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institute Of General Medical Sciences or the National Institutes of Health."
+        ],
+        "data_availability": [
+            "https://github.com/c2-d2/cov19flightimport"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Supplementary Figure 1",
+                "Supplementary Figure 1.Imported"
+            ]
+        }
+    },
+    "structured_content": {
+        "Introduction": [
+            "A novel coronavirus 2019-nCoV has been identified with the first confirmed patient cases in December 2019 in the city of Wuhan, capital of Hubei province, China. Since then the number of confirmed cases has increased drastically. Model estimates suggested that by Jan 25, 2020 there were a total of over 75,000 infected cases with a doubling time of about 6 days[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ].By the end of January 2020, city-wide lockdowns were implemented for Wuhan and neighbouring cities. Nonetheless, the virus has managed to spread from Wuhan to other Chinese cities and also outside of China. As of Feb 4, 2020, cases outside China were being reported in 23 different locations of which 22 locations had imported cases (Spain reported one case but due to secondary transmission)[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u200b ].",
+            "The majority of these cases have been linked to a recent travel history from China2\u200b ,suggesting that air travel may play an important role for the risk of cases being exported outside of China. To prevent other",
+            "cities and countries becoming epicentres of the 2019-nCoV epidemic, substantial targeted public health interventions are required, first for detection of cases and then for control of local spread. Here we use estimates of air travel volume from Wuhan to international destinations in 49 locations expected to be proficient at detecting imported cases based on having a high Global Health Security (GHS) Index3\u200b ,and a generalised linear regression model to predict imports of 2019-nCoV cases across 191 locations. Using these predictions we can identify locations that might not be identifying imported cases."
+        ],
+        "Methods": [
+            "Under a model fit to data from destinations with high surveillance capacity, we sought to identify locations that report fewer than predicted imported cases of 2019-nCoV. Specifically, for 49 locations with high surveillance capacity we regressed the cumulative number of confirmed imported cases of 2019-nCoV in international destinations outside mainland China on the estimated number of daily air flight passengers coming from Wuhan airport by estimated direct or indirect international flights (daily air travel volume) using a Poisson model. We then use predictions from this model to compare to reported cases across all 191 locations. The model requires three types of data: data on imported cases of 2019-nCoV, data on daily air travel volume, and data on surveillance capacity. Data on imported cases aggregated by destination were obtained from the WHO technical report dated 4th February 20202\u200b (a zero case count was assumed for all locations not listed). We used case counts up to the 4th February, because after this date the number of exported cases from Hubei drops rapidly2\u200b ,likely due to the Hubei-wide lockdowns. We defined imported cases as those with known travel history from China (of those, 83% had travel history from Hubei province, and 17% from unknown locations in China[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u200b ]). We excluded cases that are likely due to transmission outside of China or whose transmission source is still under investigation[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u200b ].In addition, we excluded from our model Hong Kong, Macau and Taiwan because locally transmitted and imported cases were not disaggregated in these locations. In summary, of 195 worldwide locations (in general, locations reflect countries without any position on territorial claims) our model considers N=191 due to the exclusion of China, Hong Kong, Macau and Taiwan. Data on daily air travel volume was obtained as follows. Lai et al.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b] report monthly air travel volume estimates for the 27 locations most connected to Wuhan outside mainland China. These estimates are based on historical (February 2018) data from the International Air Travel Association[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b ].They include direct and indirect flight itineraries from Wuhan to destinations outside of China. For all 164 locations not listed by Lai et al.4\u200b ,we set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index, which is an assessment of health security including detection and reporting capabilities across 195 countries agreeing to the International Health Regulations (IHR [2005])[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u200b ].Specifically, we use the Early Detection and Reporting Epidemics of Potential International Concern component of the Index3\u200b ,henceforth referred to as simply the GHS index, and define high surveillance locations as those whose GHS index is greater than the 75th quantile.",
+            "The model is as follows. We assumed that across the n= 49 high surveillance locations the case counts follow a Poisson distribution, and that the expected case count is linearly proportional to the daily air travel volume: Ci ~ P ois (\u03bbi) , \u03bbi = \u03b2(xi)",
+            "where Cidenotes the reported case count in the i-th location, \u03bbidenotes the expected case count in the i-th location,\u03b2denotes the regression coefficient, xidenotes the daily air travel volume of the i-th location.",
+            ", the maximum likelihood estimate of \u03b2, and thus the expected case countgiven high surveillance(Figure 1, solid grey line). We also computed the",
+            "95% prediction interval (PI) bounds under this model of high surveillance (Figure 1, dashed lines) for all",
+            "N= 191 values of daily air travel volume as follows. First, we generated a bootstrapped dataset by sampling nlocations with replacement among high surveillance locations. Second, we re-estimated \u03b2using the bootstrapped dataset. Third we simulated case counts for all N= 191\u200b locations under our model using the estimate of \u03b2based on the bootstrapped dataset. These three steps were repeated 50,000 times to generate for each of the Nlocations 50,000 simulated case counts from which the lower and upper PI bounds (2.5th and 97.5th percentiles) were computed. In Figure 1 the 95% PI bounds were smoothed using functions from the R package ggplot[26\u200b ].The reported case counts of all n= 49 high surveillance locations (22 with non-zero case counts plus 27 with zero case counts) used to fit the model (Figure 1, purple-coloured points) are plotted alongside those for all 142 locations that do not have high surveillance (Figure 1, blue-coloured points).",
+            "To assess the robustness of our results we reran the analysis as described above, but each time implementing one of the following changes: 1) setting the daily air travel volume for locations not listed by",
+            "Lai et al to 0.1, 1, or 3 (instead of 1.5) passengers per day; 2) defining high surveillance locations using a more lenient and a more stringent GHS index (50th and 95th quantile respectively instead of 75th); 3)",
+            "excluding Thailand from the model fit since it is a high-leverage point. In total, we thus did six additional regression analyses (see Supplementary Figure 1). All analyses are fully reproducible given code available online (https://github.com/c2-d2/cov19flightimport)."
+        ],
+        "Results": [
+            "Imported case counts of 2019-nCoV among high surveillance locations are positively correlated with daily air travel volume (Figure 1). An increase in flight volume by 14 passengers per day is associated with one additional imported case in expectation. Singapore lies above the 95% prediction interval (PI), with 12 (2-13) more reported import cases than expected under our model. Thailand has a relatively high air travel volume as compared to all other locations, yet it lies below the 95% prediction interval. Finally, Indonesia with zero reported cases lies below the prediction interval \u2013 its expected case count is 5 (1-11",
+            "95% PI). This overall pattern (Singapore lying above the 95% PI, Thailand and Indonesia below) was observed consistently across all six robustness regression analyses.",
+            "Figure 1\u200b Imported case counts and daily air travel volume.The solid line shows the expected case counts based on our model fitted to high surveillance locations (purple points), and the dashed lines show the 95% prediction interval bounds for all locations including those that do not have high surveillance (light blue points). Cluster A (Cl.A) comprises locations with one imported case reported and air travel <10 passengers per day: Nepal, Sri Lanka, Finland, and Sweden. Cluster B (Cl.B) comprises locations (n= 161) with no reported cases and estimated air travel <10 passengers per day. Other abbreviations: Germany (Ge), New Zealand (NZ), United Arab Emirates (UAE), United States of America (USA), United Kingdom (UK), Russia (Ru)."
+        ],
+        "Supplementary": [],
+        "Discussion": [
+            "We aimed to identify locations with underdetected cases by fitting a model to the cumulative international imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume. Our model can be adjusted to account for exportation of cases from locations other than Wuhan as the outbreak develops and more information on importations and self-sustained transmission becomes available. One key advantage of this model is that it does not rely on estimates of incidence or prevalence in the epicentre of the outbreak.",
+            "Based on our model, locations whose case counts exceed the 95% prediction interval (PI) could be interpreted as having higher case-detection capacity and/or more connection with Wuhan than that captured by available daily air travel volume, such as land transportation. Locations below the 95% PI may have undetected cases based on the expected case count under high surveillance. We recommend that outbreak surveillance and control efforts for potential local transmission should be rapidly strengthened in those locations lying below the 95% PI lower bound, in particular Indonesia, to ensure detection of cases and appropriate control measures to reduce the risk of self-sustained transmission."
+        ],
+        "References": [
+            "1. Wu, J. T., Leung, K. & Leung, G. M. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet(2020) doi:\u200b10.1016/S0140-6736(20)30260-9\u200b.",
+            "2. WHO. 2019-nCoV situation report - 15. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf?s fvrsn=88fe8ad6_4\u200b (2020).",
+            "3. John Hopkins Bloomberg School of Public Health. Global health Security Index. https://www.ghsindex.org(2019).",
+            "4. Shengjie Lai, Isaac Bogoch, Nick Ruktanonchai, Alexander Watts, Yu Li, Jianzing Yu, XinLv, Weizhong Yang, Hongjie Yu, Kamran Khan, Zhongjie Li, Andrew J Tatem. Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study. medRxiv(2020) doi:\u200b10.1101/2020.02.04.20020479\u200b.",
+            "5. R Development Core Team, R. R: A Language and Environment for Statistical Computing. RFoundation for Statistical Computing(2011).",
+            "6. Wickham, H. ggplot[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]: Elegant Graphics for Data Analysis.(Springer, 2016).",
+            "Funding: This work was supported by Award Number U54GM088558 from the US National Institute Of General Medical Sciences. P.M.D was supported by the Fellowship Foundation Ramon Areces. A.R.T. and C.O.B. were supported by a NIGMS Maximizing Investigator\u2019s Research Award (MIRA) R35GM124715-02.The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institute Of General Medical Sciences or the National Institutes of Health."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "passengers",
+            "number": 14,
+            "context": "Results: Imported case counts of 2019-nCoV among high surveillance locations are positively correlated with daily air travel volume (Figure 1). <mark class=\"stats\">An increase in flight volume by 14 passengers per day is associated with one additional imported case in expectation</mark>. Singapore lies above the 95% prediction interval (PI), with 12 (2-13) more reported import cases than expected under our model"
+        },
+        {
+            "participant": "data",
+            "number": 161,
+            "context": "Cluster A (Cl.A) comprises locations with one imported case reported and air travel <10 passengers per day: Nepal, Sri Lanka, Finland, and Sweden. <mark class=\"stats\">Cluster B (Cl.B) comprises locations (n= 161) with no reported cases and estimated air travel <10 passengers per day</mark>. Other abbreviations: Germany (Ge), New Zealand (NZ), United Arab Emirates (UAE), United States of America (USA), United Kingdom (UK), Russia (Ru)"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Based on air travel volume estimates from Wuhan to international destinations and using a generalized linear regression model we identify locations which may potentially have undetected internationally imported cases</mark>",
+                "tests": [
+                    {
+                        "test": "linear regression"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Specifically, for 49 locations with high surveillance capacity we regressed the cumulative number of confirmed imported cases of 2019-nCoV in international destinations outside mainland China on the estimated number of daily air flight passengers coming from Wuhan airport by estimated direct or indirect international flights (daily air travel volume) using a Poisson model</mark>",
+                "tests": [
+                    {
+                        "test": "Poisson model"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Here we use estimates of air travel volume from Wuhan to international destinations in 49 locations expected to be proficient at detecting imported cases based on having a high Global Health Security (GHS) Index3\u200b ,and a generalised linear regression model to predict imports of 2019-nCoV cases across 191 locations</mark>",
+                "tests": [
+                    {
+                        "test": "linear regression"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "travel",
+        "United Kingdom",
+        "coronavirus",
+        "Global Health Security",
+        "Cluster B",
+        "case count",
+        "Cluster A",
+        "Communicable disease",
+        "outbreak",
+        "different location",
+        "New Zealand",
+        "linear regression model",
+        "United States of America",
+        "public health",
+        "international destination",
+        "air travel volume",
+        "prediction interval",
+        "high surveillance",
+        "novel coronavirus",
+        "United Arab Emirates",
+        "pneumonia"
+    ],
+    "keyword_relevance": {
+        "travel": 0.17567567567567569,
+        "case count": 0.14189189189189189,
+        "high surveillance": 0.13513513513513514,
+        "air travel volume": 0.12162162162162163,
+        "prediction interval": 0.11486486486486487,
+        "Global Health Security": 0.05405405405405406,
+        "outbreak": 0.0472972972972973,
+        "coronavirus": 0.033783783783783786,
+        "United States of America": 0.033783783783783786,
+        "international destination": 0.02027027027027027,
+        "novel coronavirus": 0.02027027027027027,
+        "United Kingdom": 0.013513513513513514,
+        "different location": 0.013513513513513514,
+        "New Zealand": 0.013513513513513514,
+        "linear regression model": 0.013513513513513514,
+        "United Arab Emirates": 0.013513513513513514,
+        "pneumonia": 0.013513513513513514,
+        "Cluster B": 0.006756756756756757,
+        "Cluster A": 0.006756756756756757,
+        "public health": 0.006756756756756757,
+        "Communicable disease": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> A novel coronavirus 2019-nCoV has been identified with the first confirmed patient cases in December 2019 in the city of Wuhan, capital of Hubei province, China.",
+        "The authors use estimates of air travel volume from Wuhan to international destinations in 49 locations expected to be proficient at detecting imported cases based on having a high Global Health Security (GHS) Index3\u200b ,and a generalised linear regression model to predict imports of 2019-nCoV cases across 191 locations.",
+        "Using these predictions the authors can identify locations that might not be identifying imported cases",
+        "<h2 style=\"display: inline\">Methods:</h2> Under a model fit to data from destinations with high surveillance capacity, the authors sought to identify locations that report fewer than predicted imported cases of 2019-nCoV.",
+        "For 49 locations with high surveillance capacity the authors regressed the cumulative number of confirmed imported cases of 2019-nCoV in international destinations outside mainland China on the estimated number of daily air flight passengers coming from Wuhan airport by estimated direct or indirect international flights using a Poisson model.",
+        "Lai et al.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b] report monthly air travel volume estimates for the 27 locations most connected to Wuhan outside mainland China",
+        "These estimates are based on historical (February 2018) data from the International Air Travel Association[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b ].They include direct and indirect flight itineraries from Wuhan to destinations outside of China.",
+        "For all 164 locations not listed by Lai et al.4\u200b ,the authors set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index, which is an assessment of health security including detection and reporting capabilities across 195 countries agreeing to the International Health Regulations (IHR [2005])[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u200b ].the authors use the Early Detection and Reporting Epidemics of Potential International Concern component of the Index3\u200b , referred to as the GHS index, and define high surveillance locations as those whose GHS index is greater than the 75th quantile",
+        "<h2 style=\"display: inline\">Results:</h2> Imported case counts of 2019-nCoV among high surveillance locations are positively correlated with daily air travel volume (Figure 1).",
+        "Thailand has a relatively high air travel volume as compared to all other locations, yet it lies below the 95% prediction interval.",
+        "Indonesia with zero reported cases lies below the prediction interval \u2013 its expected case count is 5 (1-11.",
+        "95% PI)",
+        "This overall pattern (Singapore lying above the 95% PI, Thailand and Indonesia below) was observed consistently across all six robustness regression analyses",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors aimed to identify locations with underdetected cases by fitting a model to the cumulative international imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume.",
+        "The authors' model can be adjusted to account for exportation of cases from locations other than Wuhan as the outbreak develops and more information on importations and self-sustained transmission becomes available.",
+        "Locations whose case counts exceed the 95% prediction interval (PI) could be interpreted as having higher case-detection capacity and/or more connection with Wuhan than that captured by available daily air travel volume, such as land transportation.",
+        "The authors recommend that outbreak surveillance and control efforts for potential local transmission should be rapidly strengthened in those locations lying below the 95% PI lower bound, in particular Indonesia, to ensure detection of cases and appropriate control measures to reduce the risk of self-sustained transmission"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A novel coronavirus 2019-nCoV has been identified with the first confirmed patient cases in December 2019 in the city of Wuhan, capital of Hubei province, China.",
+            "The authors use estimates of air travel volume from Wuhan to international destinations in 49 locations expected to be proficient at detecting imported cases based on having a high Global Health Security (GHS) Index3\u200b ,and a generalised linear regression model to predict imports of 2019-nCoV cases across 191 locations.",
+            "Using these predictions the authors can identify locations that might not be identifying imported cases"
+        ],
+        "Methods": [
+            "Under a model fit to data from destinations with high surveillance capacity, the authors sought to identify locations that report fewer than predicted imported cases of 2019-nCoV.",
+            "For 49 locations with high surveillance capacity the authors regressed the cumulative number of confirmed imported cases of 2019-nCoV in international destinations outside mainland China on the estimated number of daily air flight passengers coming from Wuhan airport by estimated direct or indirect international flights using a Poisson model.",
+            "Lai et al.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b] report monthly air travel volume estimates for the 27 locations most connected to Wuhan outside mainland China",
+            "These estimates are based on historical (February 2018) data from the International Air Travel Association[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b ].They include direct and indirect flight itineraries from Wuhan to destinations outside of China.",
+            "For all 164 locations not listed by Lai et al.4\u200b ,the authors set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index, which is an assessment of health security including detection and reporting capabilities across 195 countries agreeing to the International Health Regulations (IHR [2005])[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u200b ].the authors use the Early Detection and Reporting Epidemics of Potential International Concern component of the Index3\u200b , referred to as the GHS index, and define high surveillance locations as those whose GHS index is greater than the 75th quantile"
+        ],
+        "Results": [
+            "Imported case counts of 2019-nCoV among high surveillance locations are positively correlated with daily air travel volume (Figure 1).",
+            "Thailand has a relatively high air travel volume as compared to all other locations, yet it lies below the 95% prediction interval.",
+            "Indonesia with zero reported cases lies below the prediction interval \u2013 its expected case count is 5 (1-11.",
+            "95% PI)",
+            "This overall pattern (Singapore lying above the 95% PI, Thailand and Indonesia below) was observed consistently across all six robustness regression analyses"
+        ],
+        "Conclusion": [
+            "The authors aimed to identify locations with underdetected cases by fitting a model to the cumulative international imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume.",
+            "The authors' model can be adjusted to account for exportation of cases from locations other than Wuhan as the outbreak develops and more information on importations and self-sustained transmission becomes available.",
+            "Locations whose case counts exceed the 95% prediction interval (PI) could be interpreted as having higher case-detection capacity and/or more connection with Wuhan than that captured by available daily air travel volume, such as land transportation.",
+            "The authors recommend that outbreak surveillance and control efforts for potential local transmission should be rapidly strengthened in those locations lying below the 95% PI lower bound, in particular Indonesia, to ensure detection of cases and appropriate control measures to reduce the risk of self-sustained transmission"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "1. Wu, J. T., Leung, K. & Leung, G. M. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet(2020) doi: 10.1016/S0140-6736(20)30260-9.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9"
+        },
+        {
+            "id": "2",
+            "alt_id": "W_2020_a",
+            "entry": "2. WHO. 2019-nCoV situation report - 15. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf?s fvrsn=88fe8ad6_4 (2020).",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf?s"
+        },
+        {
+            "id": "3",
+            "alt_id": "Hopkins_0000_a",
+            "entry": "3. John Hopkins Bloomberg School of Public Health. Global health Security Index. https://www.ghsindex.org(2019).",
+            "url": "https://www.ghsindex.org(2019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hopkins%2C%20John%20Bloomberg%20School%20of%20Public%20Health",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hopkins%2C%20John%20Bloomberg%20School%20of%20Public%20Health"
+        },
+        {
+            "id": "4",
+            "alt_id": "Lai_et+al_2020_a",
+            "entry": "4. Shengjie Lai, Isaac Bogoch, Nick Ruktanonchai, Alexander Watts, Yu Li, Jianzing Yu, XinLv, Weizhong Yang, Hongjie Yu, Kamran Khan, Zhongjie Li, Andrew J Tatem. Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study. medRxiv(2020) doi: 10.1101/2020.02.04.20020479.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.04.20020479",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.04.20020479"
+        },
+        {
+            "id": "5",
+            "alt_id": "Team_2011_a",
+            "entry": "5. R Development Core Team, R. R: A Language and Environment for Statistical Computing. RFoundation for Statistical Computing(2011).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=R%20Development%20Core%20Team%20R%20R%20A%20Language%20and%20Environment%20for%20Statistical%20Computing%20RFoundation%20for%20Statistical%20Computing2011"
+        },
+        {
+            "id": "6",
+            "alt_id": "Wickham_2016_a",
+            "entry": "6. Wickham, H. ggplot2: Elegant Graphics for Data Analysis.(Springer, 2016). ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wickham%2C%20H.%20ggplot2%3A%20Elegant%20Graphics%20for%20Data%20Analysis.%28Springer%202016"
+        }
+    ],
+    "facts": [
+        "Cases from the ongoing outbreak of atypical pneumonia caused by the 2019 novel coronavirus exported from mainland",
+        "China can lead to self-sustained outbreaks in other populations",
+        "Internationally imported cases are currently being reported in several different locations",
+        "Early detection of imported cases is critical for containment of the virus",
+        "city-wide lockdowns were implemented for Wuhan and neighbouring cities",
+        "the virus has managed to spread from Wuhan to other Chinese cities",
+        "cases outside China were being reported in 23 different locations",
+        "The majority of these cases have been linked to a recent travel history from China2\u200b",
+        "that air travel may play an important role for the risk of cases being exported",
+        "use estimates of air travel volume from Wuhan to international destinations in 49 locations expected to be proficient at detecting imported cases based on having a high",
+        "in international destinations outside mainland China on the estimated number of daily air flight passengers coming from Wuhan airport",
+        "use predictions from this model to compare to reported cases across all 191 locations",
+        "Data on imported cases aggregated by destination were obtained from the WHO",
+        "imported cases were not disaggregated in these locations",
+        "These estimates are based on historical data from the International Air Travel Association[4\u200b",
+        "For all 164 locations not listed by Lai et",
+        "one half of the minimum reported by Lai et al Surveillance capacity was assessed using the",
+        "which is an assessment of health security including detection and reporting capabilities across 195 countries agreeing to the",
+        "among high surveillance locations are positively correlated with daily air travel volume",
+        "Singapore lies above the 95% prediction interval",
+        "Indonesia with zero reported cases lies below the prediction interval",
+        "imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume",
+        "Our model can be adjusted to account for exportation of cases",
+        "the 95% prediction interval could be interpreted as having higher case-detection capacity",
+        "Locations below the 95% PI may have undetected cases based on the expected case count under high surveillance",
+        "that outbreak surveillance and control efforts for potential local transmission should be rapidly strengthened in those locations lying below the",
+        "appropriate control measures to reduce the risk of self-sustained transmission",
+        "define high surveillance locations as those whose GHS index is greater than the 75th quantile"
+    ],
+    "claims": [
+        "Based on air travel volume estimates from Wuhan to international destinations and using a generalized linear regression model we identify locations which may potentially have undetected internationally imported cases",
+        "Discussion: We aimed to identify locations with underdetected cases by fitting a model to the cumulative international imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We use estimates of air travel volume from Wuhan to international destinations in 49 locations expected to be proficient at detecting imported cases based on having a high Global Health Security (GHS) Index3\u200b ,and a generalised linear regression model to predict imports of 2019-nCoV cases across 191 locations",
+        "For all 164 locations not listed by Lai et al.4\u200b ,we set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index, which is an assessment of health security including detection and reporting capabilities across 195 countries agreeing to the International Health Regulations (IHR [2005])3\u200b .we use the Early Detection and Reporting Epidemics of Potential International Concern component of the Index[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u200b ], referred to as the Global Health Security index, and define high surveillance locations as those whose Global Health Security index is greater than the 75th quantile",
+        "Imported case counts of 2019-nCoV among high surveillance locations are positively correlated with daily air travel volume (Figure 1)",
+        "Singapore lies above the 95% prediction interval (PI), with 12 (2-13) more reported import cases than expected under our model",
+        "Indonesia with zero reported cases lies below the prediction interval \u2013 its expected case count is 5 (1-11",
+        "We aimed to identify locations with underdetected cases by fitting a model to the cumulative international imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume",
+        "Locations below the 95% prediction interval may have undetected cases based on the expected case count under high surveillance",
+        "We recommend that outbreak surveillance and control efforts for potential local transmission should be rapidly strengthened in those locations lying below the 95% prediction interval lower bound, in particular Indonesia, to ensure detection of cases and appropriate control measures to reduce the risk of self-sustained transmission"
+    ],
+    "top_statements": [
+        "A novel coronavirus 2019-nCoV has been identified with the first confirmed patient cases in December 2019 in the city of Wuhan, capital of Hubei province, China",
+        "For all 164 locations not listed by Lai et al.4\u200b ,we set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index, which is an assessment of health security including detection and reporting capabilities across 195 countries agreeing to the International Health Regulations (IHR [2005])3\u200b .we use the Early Detection and Reporting Epidemics of Potential International Concern component of the Index[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u200b ], referred to as the Global Health Security index, and define high surveillance locations as those whose Global Health Security index is greater than the 75th quantile",
+        "Imported case counts of 2019-nCoV among high surveillance locations are positively correlated with daily air travel volume (Figure 1)",
+        "We aimed to identify locations with underdetected cases by fitting a model to the cumulative international imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume",
+        "Locations below the 95% prediction interval may have undetected cases based on the expected case count under high surveillance",
+        "We recommend that outbreak surveillance and control efforts for potential local transmission should be rapidly strengthened in those locations lying below the 95% prediction interval lower bound, in particular Indonesia, to ensure detection of cases and appropriate control measures to reduce the risk of self-sustained transmission"
+    ],
+    "headline": "We aimed to identify locations with underdetected cases by fitting a model to the cumulative international imported case counts of nCoV-2019 reported by high surveillance locations and Wuhan-to-location air travel volume",
+    "contexts": [],
+    "abbreviations": {
+        "GHS": "Global Health Security",
+        "PI": "prediction interval",
+        "ClA": "Cluster A",
+        "ClB": "Cluster B",
+        "NZ": "New Zealand",
+        "UAE": "United Arab Emirates",
+        "USA": "United States of America",
+        "UK": "United Kingdom"
+    }
+}

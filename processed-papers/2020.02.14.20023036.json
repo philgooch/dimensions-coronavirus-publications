@@ -1,0 +1,262 @@
+{
+    "filename": "2020.02.14.20023036.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 712202,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.14.20023036",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/17/2020.02.14.20023036.full.pdf"
+        },
+        "title": "The Efficacy of Contact Tracing for the Containment of the 2019 Novel Coronavirus (COVID-19).",
+        "keywords": [
+            "contact tracing",
+            "social networks",
+            "outbreak control",
+            "coronavirus"
+        ],
+        "date": 2020,
+        "author": "Matt J Keeling, T. Deirdre Hollingsworth, Jonathan M Read",
+        "affiliations": [
+            "Warwick Mathematics Institute, University of Warwick, Coventry, CV4 7AL, School of Life Sciences, University of Warwick, Coventry, CV4 7AL. UK",
+            "Oxford Big Data Centre, University of Oxford. Li Ka Shing Centre for Health Information and Discovery, Old Road Campus, Oxford OX3 7LF. UK",
+            "Centre for Computation Health Informatics Computation and Statistics, Lancaster Medical School, Lancaster University, LA1 4YW. UK"
+        ],
+        "abstract": "Contact tracing is a central public health response to infectious disease outbreaks, especially in the early stages of an outbreak when specific treatments are limited. Importation of novel Coronavirus (COVID-19) from China and elsewhere into the United Kingdom highlights the need to understand the impact of contact tracing as a control measure. Using detailed survey information on social encounters coupled to predictive models, we investigate the likely efficacy of the current UK definition of a close contact (within 2 meters for 15 minutes or more) and the distribution of secondary cases that may go untraced. Taking recent estimates for COVID-19 transmission, we show that less than 1 in 5 cases will generate any subsequent untraced cases, although this comes at a high logistical burden with an average of 36.1 individuals (95th percentiles 0-182) traced per case. Changes to the definition of a close contact can reduce this burden, but with increased risk of untraced cases; we estimate that any definition where close contact requires more than 4 hours of contact is likely to lead to uncontrolled spread.",
+        "references": "@misc{eurosurveillance2018a,\n  author = {Eurosurveillance},\n  date = {2018},\n  volume = {23},\n  pages = {1800509},\n  number = {38}\n}\n",
+        "references_ris": "TY  - GEN\nAU  - Eurosurveillance\nPY  - 2018\nDA  - 2018\nVL  - 23\nSP  - 1800509\nIS  - 38\nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "a) Cartoon example of the encounters made during a day by an infectious index case (central figure) with contacts positioned by their total contact duration. Here, the definition of a contact is someone with whom the index case encountered for 15 minutes or longer. Some contacts will be identifiable (green), while others will be unidentifiable (orange). A definition of contact that is too restrictive and inappropriate for the infection means some encounters may fail to meet the definition yet may be at risk of infection; these excluded contacts could be identifiable (light grey) or unidentifiable (orange). (b) Examples of ego- centric networks collected by the survey. The participant (ego) is the blue central triangle; circles represent individual contacts, squares represent groups of contacts (size of group indicated). Colours represent social settings of encounters (red=home, cyan=work/school, yellow=travel, pink=other). Larger symbol sizes represent longer contact durations, while a closer proximity to the ego indicates the contact is more frequently encountered"
+            },
+            {
+                "id": "2",
+                "caption": "Distributions associated with transmission and contact tracing. (a) Relative infectivity over time based on an SEIR model with latent period 4, infectious period 1.61, R0=3.11. (b) Frequency distribution of the number contacts using colours from Figure 1a: white is all contacts; blue are those matching the >15 minute definition of a close contact; green are those matching the definition that are also identifiable. (c) Frequency distribution of the number of cases, again using colours from Figure 1a: red is all secondary cases; grey and orange are those that are not traced either through failing to meet the definition or because they are unidentified; orange are all secondary cases that are unidentifiable"
+            },
+            {
+                "id": "3",
+                "caption": "Impact of different assumptions for the definition of a close-contact. (a) the total number of contacts traced (b) the number of secondary contacts that are not traced (c) the probability that at least one secondary case is not traced. For (a) and (b) the crosses mark the mean value, boxes contain the 50th percentiles while bars contact the 95th percentiles, colours correspond to those in Figure 1a - distributions are across all respondents to the survey and across stochastic realisations. (Based on an SEIR model with latent period 4, infectious period 1.61, R0=3.11)"
+            },
+            {
+                "id": "4",
+                "caption": "Impact of different values for the initial reproduction number of the primary case; changing this does not affect the the number of contacts traced (a) the number of secondary contacts that are not traced (b) the probability that at least one secondary case is not traced. For (a) the crosses mark the mean value, boxes contain the 50th percentiles while bars contact the 95th percentiles, colours correspond to those in Figure 1a - distributions are across all respondents to the survey and across stochastic realisations. (Based on an SEIR model with latent period 4, infectious period 1.61, R0=3.11)"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20023036.full/img-000.png"
+        ]
+    },
+    "sections": {
+        "conclusions": [
+            "Mathematical models have an important role to play in preparedness for novel infectious diseases, allowing policy makers to plan for potential public health scenarios before they arise. However, in such scenarios reliable data is often limited, so predictions of long term dynamics are generally associated with wide confidence intervals. In contrast, while short term predictions are subject to greater stochasticity, the distribution of possible behaviours can be readily captured. Here we have investigated contact tracing of a close-contact pathogen, using 2019 novel coronavirus (COVID-19) as the example, and considered the efficacy of contact tracing as a control measure. This work brings together a detailed survey of social encounters together with bespoke mathematical modelling of the transmission and tracing processes. Given the huge heterogeneties present in social encounters (both in terms of duration and number) mathematical models are vital to interpret the interplay between a low number of high risk encounters (e.g., household members) and the high number of low-risk less-identifiable encounters (e.g., commuters or retail customers)."
+        ],
+        "appendix": [
+            "From the contact tracing data, we extrapolate to the estimate the duration of contact  \"%,$, between individual i (the respondent) and individual j (the contact) on day d. We then define a close contact of i as all contacts j:    |  \"%,$ >    $\u2208+<br/><br/>where in the UK, we have defined the total contact time T as 15 minutes over a duration D of two weeks before detection and isolation of individual i (PHE 2020).<br/><br/>The probability of transmission to individual j from individual i is then calculated as:    $  \"%,$<br/><br/>Where  $ is an estimate of the transmission rate from individual i on day d."
+        ],
+        "introduction": [
+            "Contact tracing is a central public health response to infectious disease outbreaks, especially in the early stages of an outbreak when specific treatments are limited. Importation of novel Coronavirus (COVID-19) from China and elsewhere into the United Kingdom highlights the need to understand the impact of contact tracing as a control measure. Using detailed survey information on social encounters coupled to predictive models, we investigate the likely efficacy of the current UK definition of a close contact (within 2 meters for 15 minutes or more) and the distribution of secondary cases that may go untraced. Taking recent estimates for COVID-19 transmission, we show that less than 1 in 5 cases will generate any subsequent untraced cases, although this comes at a high logistical burden with an average of 36.1 individuals (95th percentiles 0-182) traced per case. Changes to the definition of a close contact can reduce this burden, but with increased risk of untraced cases; we estimate that any definition where close contact requires more than 4 hours of contact is likely to lead to uncontrolled spread.",
+            "Contact tracing is the main public health response to importations of rare or emerging infectious diseases, and was implemented in the UK during the \u2018containment stage\u2019 of the 2009 influenza pandemic (McLean et al 2010). In more recent years, contact tracing was also a valuable tool following importation of Ebola virus disease into the UK in 2014 (Crook et al 2017) and the cases of monkeypox in the UK in 2018 (Vaughan et al 2018). In general, contact tracing is a highly effective and robust strategy given sufficient resources. The main advantages are that it can identify potentially infected individuals before severe symptoms emerge, and if conducted sufficiently quickly can prevent onward transmission from the secondary cases. Contact tracing has proved hugely successful in the treatment of sexually transmitted infections, where the definition of a contact is relatively straightforward, where infection is often asymptomatic and where the time-scales of transmission are slow (Hogben et al 2016, R\u00f6nn et al 2017). In contrast, the use of contact tracing for novel invading pathogens has received less quantitative consideration, in part due to greater uncertainties over social contact structure (although see Ahmed et al 2018, Hoang et al 2019). Modelling studies have often focused on quantifying the importance of pre-symptomatic and pretracing infectiousness, but are usually based on statistical distributions of contact networks (Fraser et al 2004, Kwok et al 2019). Here we leverage detailed social network data from the UK to model both transmission and the act of tracing, and identify the implications of contact tracing for containment of a novel pathogen, using parameters for the novel Coronavirus (COVID-19) (Read et al 2020, Li et al 2020)."
+        ]
+    },
+    "structured_content": {
+        "Conclusions": [
+            "Mathematical models have an important role to play in preparedness for novel infectious diseases, allowing policy makers to plan for potential public health scenarios before they arise. However, in such scenarios reliable data is often limited, so predictions of long term dynamics are generally associated with wide confidence intervals. In contrast, while short term predictions are subject to greater stochasticity, the distribution of possible behaviours can be readily captured. Here we have investigated contact tracing of a close-contact pathogen, using 2019 novel coronavirus (COVID-19) as the example, and considered the efficacy of contact tracing as a control measure. This work brings together a detailed survey of social encounters together with bespoke mathematical modelling of the transmission and tracing processes. Given the huge heterogeneties present in social encounters (both in terms of duration and number) mathematical models are vital to interpret the interplay between a low number of high risk encounters (e.g., household members) and the high number of low-risk less-identifiable encounters (e.g., commuters or retail customers).",
+            "The UK currently defines a close contact as 15 minutes within 2 meters over two weeks before detection (PHE 2020). Under this definition, there are unlikely to be many untraced secondary cases, although the burden of tracing could be large. Relaxing the definition of a contact (such that longer contact durations are needed) lessens this burden but at the greater risk of undetected cases (Figure 3). Surprisingly, small changes to the reproductive ratio, within the bounds estimated from early data (Figure 4) or even changes to the distribution of infectivity, are predicted to have a relatively modest impact of the success of contact tracing illustrating the robustness of this control measure.",
+            "Our model has addressed the simple and optimistic question of whether contact tracing is sufficient to identify secondary infections. The public health implications of this tracing are more complex, and depend on the relative timing of events and the treatment of identified contacts. For contact tracing to be an effective public health measure requires secondary cases to be discovered before they become infectious; hence the time from the primary case becoming infectious to the tracing of their contacts needs to be shorter than the incubation period. Longer time scales would allow tertiary cases to be infected and would snowball the tracing process. In addition, those contacts that are traced either need to be effectively screened for infection and quarantined or otherwise isolated so that they do not pose a risk to others. Therefore, while contact tracing has the potential to control COVID-19 (and other close-contact pathogens) the ultimate success relies on the speed and efficacy with which suspect contacts can be contained."
+        ],
+        "References": [
+            "\u2022 Ahmed, F., Zviedrite, N. & Uzicanin, A. Effectiveness of workplace social distancing measures in reducing influenza transmission: a systematic review. BMC Public Health, 2018, 18, 518.",
+            "\u2022 Crook, P., et al, Lack of Secondary Transmission of Ebola Virus from Healthcare Worker to 238 Contacts, United Kingdom, December 2014. Emerging infectious diseases, 2017. 23(12): 2081.",
+            "\u2022 Danon, L., et al, Social encounter networks: collective properties and disease transmission. J. R. Soc. Interface, 2012. 9(76): 2826-33.",
+            "\u2022 Danon, L., et al, Social encounter networks: characterizing Great Britain. Proc. Roy. Soc. Lond. B, 2013. 280(1765): 20131037.",
+            "\u2022 Fraser, C., et al, Factors that make an infectious disease outbreak controllable. Proc. Natl. Acad. Sci. U.S.A., 2004. 101(16): 6146-51.",
+            "\u2022 Hoang T, Coletti P, Melegaro A, Wallinga J, Grijalva CG, Edmunds JW, Beutels P, Hens N. A Systematic Review of Social Contact Surveys to Inform Transmission Models of Closecontact Infections. Epidemiology, 2019. 30(5): 723-36.",
+            "\u2022 Isella, L., et al, What's in a crowd? Analysis of face-to-face behavioral networks. J Theor Biol, 2011. 271: 166-180.",
+            "\u2022 Kwok K.O., et al Epidemic Models of Contact Tracing: Systematic Review of Transmission Studies of Severe Acute Respiratory Syndrome and Middle East Respiratory Syndrome. Computational and structural biotechnology journal. 2019 17: 196-194",
+            "\u2022 Li Q, et al, Early Transmission Dynamics in Wuhan, China, of Novel Coronaviurs-Infected Pneumonia. New England J, Med., 2020: 10.1056/NEJMoa2001316",
+            "\u2022 McLean, E., et al, Pandemic (H1N1) 2009 influenza in the UK: clinical and epidemiological findings from the first few hundred (FF100) cases. Epidemiology & Infection, 2010. 138(11): 1531-1541.",
+            "\u2022 Mossong, J., et al, Social contacts and mixing patterns relevant to the spread of infectious diseases. PLoS Medicine, 2008. 5(3): 0381-0391.",
+            "\u2022 Public Health England 2020: from https://www.gov.uk/government/publications/novelcoronavirus-2019-ncov-guidance-to-assist-professionals-in-advising-the-generalpublic/guidance-to-assist-professionals-in-advising-the-general-public",
+            "\u2022 Read, J.M. Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. MedRxiv, 2020: doi.org/10.1101/2020.01.23.20018549",
+            "\u2022 Vaughan, A., et al, Two cases of monkeypox imported to the United Kingdom, September 2018. <a class=\"ref-link\" id=\"cEurosurveillance_2018_a\" href=\"#rEurosurveillance_2018_a\">Eurosurveillance, 2018</a>. 23(38): 1800509.",
+            "\u2022 Yang et al Epidemiological and clinical features of the 2019 novel coronavirus outbreak in China. MedRxiv, 2020: doi.org/10.1101/2020.02.10.20021675.",
+            "FIGURE 1 a) Cartoon example of the encounters made during a day by an infectious index case (central figure) with contacts positioned by their total contact duration. Here, the definition of a contact is someone with whom the index case encountered for 15 minutes or longer. Some contacts will be identifiable (green), while others will be unidentifiable (orange). A definition of contact that is too restrictive and inappropriate for the infection means some encounters may fail to meet the definition yet may be at risk of infection; these excluded contacts could be identifiable (light grey) or unidentifiable (orange). (b) Examples of ego- centric networks collected by the survey. The participant (ego) is the blue central triangle; circles represent individual contacts, squares represent groups of contacts (size of group indicated). Colours represent social settings of encounters (red=home, cyan=work/school, yellow=travel, pink=other). Larger symbol sizes represent longer contact durations, while a closer proximity to the ego indicates the contact is more frequently encountered.",
+            "Flight attendant, 300 15 aged 22",
+            "Pupil, aged 12",
+            "Fire-Fighter, aged 44",
+            "Retired, aged 62",
+            "FIGURE 2 Distributions associated with transmission and contact tracing. (a) Relative infectivity over time based on an SEIR model with latent period 4, infectious period 1.61, R0=3.11. (b) Frequency distribution of the number contacts using colours from Figure 1a: white is all contacts; blue are those matching the >15 minute definition of a close contact; green are those matching the definition that are also identifiable. (c) Frequency distribution of the number of cases, again using colours from Figure 1a: red is all secondary cases; grey and orange are those that are not traced either through failing to meet the definition or because they are unidentified; orange are all secondary cases that are unidentifiable.",
+            "0.4",
+            "0.2",
+            "0 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14",
+            "Time (days)",
+            "Infectivity",
+            "Frequency"
+        ],
+        "Total Contacts": [],
+        "Total Close Contacts": [],
+        "Total Traced Contacts": [],
+        "Number of Contacts": [],
+        "Cases Cases not traced Untracable cases": [],
+        "Number of Cases": [],
+        "Total Contacts Traced": [],
+        "Cases Not Traced": [],
+        "Prob at least one Untraced Case": [],
+        "Time to be a Close Contact": [],
+        "Prob at least one untraced case": [],
+        "Initial Reproductive Ratio": [],
+        "APPENDIX": [
+            "From the contact tracing data, we extrapolate to the estimate the duration of contact  \"%,$, between individual i (the respondent) and individual j (the contact) on day d. We then define a close contact of i as all contacts j:",
+            "where in the UK, we have defined the total contact time T as 15 minutes over a duration D of two weeks before detection and isolation of individual i (PHE 2020).",
+            "Where  $ is an estimate of the transmission rate from individual i on day d."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 5,
+            "context": "Using detailed survey information on social encounters coupled to predictive models, we investigate the likely efficacy of the current UK definition of a close contact (within 2 meters for 15 minutes or more) and the distribution of secondary cases that may go untraced. <mark class=\"stats\">Taking recent estimates for COVID-19 transmission, we show that less than 1 in 5 cases will generate any subsequent untraced cases, although this comes at a high logistical burden with an average of 36.1 individuals (95th percentiles 0-182) traced per case</mark>. Changes to the definition of a close contact can reduce this burden, but with increased risk of untraced cases; we estimate that any definition where close contact requires more than 4 hours of contact is likely to lead to uncontrolled spread"
+        },
+        {
+            "participant": "respondents",
+            "number": 5802,
+            "context": "We characterised contact patterns in the UK using a postal and online cross-sectional survey, which asked participants to report the number of social encounters with unique individuals during a given day, as well as the duration and typical frequency of those encounters (Danon et al 2012, 2013). <mark class=\"stats\">In total, 5,802 respondents reported more than 50,000 encounters - one of the biggest studies of its kind to date</mark>. The encounter patterns of this study were in good qualitative agreement with other similar studies of social interactions (Mossong et al 2008, Isella et al 2010)"
+        },
+        {
+            "participant": "individuals",
+            "number": 36,
+            "context": "Rapid and effective contact tracing can therefore be highly effective in the early control of COVID19, but places substantial demands on the local public-health authorities. <mark class=\"stats\">Each new case requires an average of 36 individuals to be traced, with 8.7% of cases having more than 100 close traceable contacts (figure 2)</mark>. We therefore consider the implications of changing the definition of a close contact"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "high logistical",
+        "specific treatment",
+        "public health response",
+        "likely efficacy",
+        "secondary case",
+        "outbreak control",
+        "COVID-19",
+        "early stage",
+        "survey information",
+        "detailed survey",
+        "central public",
+        "current uk",
+        "uk definition",
+        "close contact",
+        "united kingdom",
+        "control measure",
+        "coronavirus",
+        "infectious disease",
+        "logistical burden",
+        "disease outbreak",
+        "social networks",
+        "untraced case",
+        "predictive model",
+        "contact tracing",
+        "recent estimate",
+        "novel coronavirus",
+        "subsequent untraced",
+        "social encounter"
+    ],
+    "keyword_relevance": {
+        "contact tracing": 0.22549019607843138,
+        "close contact": 0.13725490196078433,
+        "secondary case": 0.12745098039215685,
+        "COVID-19": 0.0784313725490196,
+        "infectious disease": 0.058823529411764705,
+        "coronavirus": 0.049019607843137254,
+        "social encounter": 0.049019607843137254,
+        "untraced case": 0.0392156862745098,
+        "control measure": 0.029411764705882353,
+        "public health response": 0.0196078431372549,
+        "outbreak control": 0.0196078431372549,
+        "detailed survey": 0.0196078431372549,
+        "disease outbreak": 0.0196078431372549,
+        "novel coronavirus": 0.0196078431372549,
+        "high logistical": 0.00980392156862745,
+        "specific treatment": 0.00980392156862745,
+        "likely efficacy": 0.00980392156862745,
+        "early stage": 0.00980392156862745,
+        "survey information": 0.00980392156862745,
+        "central public": 0.00980392156862745,
+        "logistical burden": 0.00980392156862745,
+        "social networks": 0.00980392156862745,
+        "predictive model": 0.00980392156862745,
+        "recent estimate": 0.00980392156862745,
+        "subsequent untraced": 0.00980392156862745,
+        "current uk": 0.0,
+        "uk definition": 0.0,
+        "united kingdom": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Contact tracing is a central public health response to infectious disease outbreaks, especially in the early stages of an outbreak when specific treatments are limited.",
+        "Contact tracing is the main public health response to importations of rare or emerging infectious diseases, and was implemented in the UK during the \u2018containment stage\u2019 of the 2009 influenza pandemic (McLean et al 2010).",
+        "The authors leverage detailed social network data from the UK to model both transmission and the act of tracing, and identify the implications of contact tracing for containment of a novel pathogen, using parameters for the novel Coronavirus (COVID-19) (Read et al 2020, Li et al 2020)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Mathematical models have an important role to play in preparedness for novel infectious diseases, allowing policy makers to plan for potential public health scenarios before they arise.",
+        "In such scenarios reliable data is often limited, so predictions of long term dynamics are generally associated with wide confidence intervals.",
+        "Given the huge heterogeneties present in social encounters mathematical models are vital to interpret the interplay between a low number of high risk encounters and the high number of low-risk less-identifiable encounters"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Contact tracing is a central public health response to infectious disease outbreaks, especially in the early stages of an outbreak when specific treatments are limited.",
+            "Contact tracing is the main public health response to importations of rare or emerging infectious diseases, and was implemented in the UK during the \u2018containment stage\u2019 of the 2009 influenza pandemic (McLean et al 2010).",
+            "The authors leverage detailed social network data from the UK to model both transmission and the act of tracing, and identify the implications of contact tracing for containment of a novel pathogen, using parameters for the novel Coronavirus (COVID-19) (Read et al 2020, Li et al 2020)"
+        ],
+        "Conclusion": [
+            "Mathematical models have an important role to play in preparedness for novel infectious diseases, allowing policy makers to plan for potential public health scenarios before they arise.",
+            "In such scenarios reliable data is often limited, so predictions of long term dynamics are generally associated with wide confidence intervals.",
+            "Given the huge heterogeneties present in social encounters mathematical models are vital to interpret the interplay between a low number of high risk encounters and the high number of low-risk less-identifiable encounters"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Eurosurveillance_2018_a",
+            "alt_id": "1",
+            "entry": "Eurosurveillance, 2018. 23(38): 1800509.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Eurosurveillance%202018%202338%201800509"
+        }
+    ],
+    "facts": [
+        "the need to understand the impact of contact tracing as a control measure",
+        "Using detailed survey information on social encounters coupled to predictive models",
+        "at a high logistical burden with an average of 36.1 individuals traced per case",
+        "that any definition where close contact requires more than 4 hours of contact is likely to lead to uncontrolled spread",
+        "Contact tracing has proved hugely successful in the treatment of sexually transmitted infections",
+        "the implications of contact tracing for containment of a novel pathogen",
+        "an important role to play in preparedness for novel infectious diseases",
+        "allowing policy makers to plan for potential public health scenarios",
+        "so predictions of long term dynamics are generally associated with wide confidence intervals",
+        "while short term predictions are subject to greater stochasticity",
+        "have investigated contact tracing of a close-contact pathogen",
+        "the efficacy of contact tracing as a control measure",
+        "vital to interpret the interplay between a low number of high risk encounters"
+    ],
+    "claims": [
+        "Using detailed survey information on social encounters coupled to predictive models, we investigate the likely efficacy of the current UK definition of a close contact (within 2 meters for 15 minutes or more) and the distribution of secondary cases that may go untraced",
+        "Taking recent estimates for COVID-19 transmission, we show that less than 1 in 5 cases will generate any subsequent untraced cases, although this comes at a high logistical burden with an average of 36.1 individuals (95th percentiles 0-182) traced per case",
+        "We have investigated contact tracing of a close-contact pathogen, using 2019 novel coronavirus (COVID-19) as the example, and considered the efficacy of contact tracing as a control measure"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "Contact tracing has proved hugely successful in the treatment of sexually transmitted infections, where the definition of a contact is relatively straightforward, where infection is often asymptomatic and where the time-scales of transmission are slow (Hogben et al 2016, R\u00f6nn et al 2017)",
+        "Mathematical models have an important role to play in preparedness for novel infectious diseases, allowing policy makers to plan for potential public health scenarios before they arise",
+        "We have investigated contact tracing of a close-contact pathogen, using 2019 novel coronavirus (COVID-19) as the example, and considered the efficacy of contact tracing as a control measure",
+        "Given the huge heterogeneties present in social encounters mathematical models are vital to interpret the interplay between a low number of high risk encounters and the high number of low-risk less-identifiable encounters"
+    ],
+    "top_statements": [
+        "Contact tracing is a central public health response to infectious disease outbreaks, especially in the early stages of an outbreak when specific treatments are limited",
+        "Contact tracing has proved hugely successful in the treatment of sexually transmitted infections, where the definition of a contact is relatively straightforward, where infection is often asymptomatic and where the time-scales of transmission are slow (Hogben et al 2016, R\u00f6nn et al 2017)",
+        "Mathematical models have an important role to play in preparedness for novel infectious diseases, allowing policy makers to plan for potential public health scenarios before they arise",
+        "We have investigated contact tracing of a close-contact pathogen, using 2019 novel coronavirus (COVID-19) as the example, and considered the efficacy of contact tracing as a control measure",
+        "Given the huge heterogeneties present in social encounters mathematical models are vital to interpret the interplay between a low number of high risk encounters and the high number of low-risk less-identifiable encounters"
+    ],
+    "headline": "We have investigated contact tracing of a close-contact pathogen, using 2019 novel coronavirus as the example, and considered the efficacy of contact tracing as a control measure",
+    "contexts": [],
+    "abbreviations": {}
+}

@@ -1,0 +1,554 @@
+{
+    "filename": "2020.02.16.20023820.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 424121,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.16.20023820",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/03/03/2020.02.16.20023820.full.pdf"
+        },
+        "title": "Fractal kinetics of COVID-19 pandemic",
+        "author": "Anna L. Ziff, Robert M. Ziff",
+        "date": 2020,
+        "affiliations": [
+            "Department of Economics, Duke University, Durham, NC 27708-0097 USA",
+            "Center for the Study of Complex Systems and Department of Chemical Engineering, University of Michigan, Ann Arbor, MI 48109-2136 USA"
+        ],
+        "abstract": "We give an update to the original paper posted on 2/17/20 -- now (as of 3/1/20) the China deaths are rapidly decreasing, and we find an exponential decline to the power law similar to the that predicted by the network model of  \\citet{vazquez_polynomial_2006}.  At the same time, we see non-China deaths increasing rapidly, and similar to the early behavior of the China statistics.  Thus, we see three stages of the spread of the disease in terms of number of deaths: exponential growth, power-law behavior, and then exponential decline in the daily rate.\n    \n    (Original abstract) The novel coronavirus (COVID-19) continues to grow rapidly in China and is spreading in other parts of the world. The classic epidemiological approach in studying this growth is to quantify a reproduction number and infection time, and this is the approach followed by many studies on the epidemiology of this disease.  However, this assumption leads to exponential growth, and while the growth rate is high, it is not following exponential behavior. One approach that is being used is to simply keep adjusting the reproduction number to match the dynamics. Other approaches use rate equations such as the SEIR and logistical models.  Here we show that the current growth closely follows power-law kinetics, indicative of an underlying fractal or small-world network of connections between susceptible and infected individuals. Positive deviations from this growth law might indicate either a failure of the current containment efforts while negative deviations might indicate the beginnings of the end of the pandemic.  We cannot predict the ultimate extent of the pandemic but can get an estimate of the growth of the disease.",
+        "references": "@techreport{unknown2020a,\n  title = {Coronavirus: \u201cWay too early\u201d to predict end of outbreak, WHO says},\n  date = {2020-02},\n  url = {https://www.bbc.com/news/world-asia-china-51482994.},\n  language = {},\n  institution = {BBC}\n}\n@misc{brandenburg2002a,\n  author = {Brandenburg, Axel},\n  title = {Quadratic growth during the 2019 novel coronavirus epidemic. arXiv},\n  date = {2002-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@misc{chen2020a,\n  author = {Chen, Baoquan and Shi, Mingyi and Ni, Xingyu and Ruan, Liangwang and Jiang, Hongda and Yao, Heyuan and Wang, Mengdi and Song, Zhenghua and Zhou, Qiang and Ge, Tong},\n  title = {Data Visualization Analysis and Simulation Prediction for COVID-19},\n  note = {arXiv: 2002.07096 [physics, q-bio},\n  date = {2020-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@misc{cohen-a,\n  author = {Cohen, Jon},\n  title = {Scientists are racing to model the next moves of a coronavirus that\u2019s still hard to predict, February 2020},\n  language = {}\n}\n@misc{unknown-a,\n  url = {https://www.sciencemag.org/news/2020/02/}\n}\n@book{efron1994a,\n  author = {Efron, Bradley and Tibshirani, Robert J.},\n  title = {An Introduction to the Bootstrap},\n  publisher = {CRC Press},\n  date = {1994},\n  language = {}\n}\n@incollection{gamero2019a,\n  author = {Gamero, Javier and Tamayo, Juan A. and Martinez-Roman, Juan A.},\n  title = {Forecast of the evolution of the contagious disease caused by novel coronavirus},\n  date = {2019-02},\n  note = {arXiv: 2002.04739 [q-bio, stat},\n  url = {http://arxiv.org/abs/},\n  source = {in China},\n  language = {}\n}\n@incollection{hermanowicz2019a,\n  author = {Hermanowicz, Slav W.},\n  title = {Forecasting the Wuhan coronavirus},\n  date = {2019-02-08},\n  note = {Epidemiology, In Press, February 2020},\n  doi = {doi: 10.1101/2020.02.04.20020461},\n  url = {http://medrxiv.org/lookup/doi/10.1101/2020.02.04.20020461.},\n  source = {epidemics using a simple (simplistic) model - update},\n  language = {}\n}\n@misc{elsevier2001a,\n  author = {Elsevier},\n  date = {2001},\n  isbn = {978-0-444-82340-3},\n  doi = {doi},\n  volume = {1016},\n  url = {https://linkinghub.elsevier.com/retrieve/pii/S157344120105005X.},\n  number = {1573-4412}\n}\n@misc{hu2002a,\n  author = {Hu, Zixin and Ge, Qiyang and Jin, Li and Xiong, Momiao},\n  title = {Artificial Intelligence Forecasting of Covid-19 in China. arXiv},\n  date = {2002-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@book{li2020a,\n  author = {Li, Jun},\n  title = {A Robust Stochastic Method of Estimating the Transmission Potential of 2019-nCoV},\n  publisher = {arXiv: 2002.03828 [physics, q-bio, stat},\n  date = {2020-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@misc{li2002a,\n  author = {Li, Ming and Chen, Jie and Deng, Youjin},\n  title = {Scaling features in the spreading of COVID-19. arXiv},\n  date = {2002-02},\n  note = {physics, q-bio},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@misc{li2002b,\n  author = {Li, Qiang and Feng, Wei},\n  title = {Trend and forecasting of the COVID-19 outbreak in China. arXiv},\n  date = {2002-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@misc{liu2020a,\n  author = {Liu, Zhihua and Magal, Pierre and Seydi, Ousmane and Webb, Glenn},\n  title = {Predicting the cumulative number of cases for the COVID-19 epidemic in China from early data. arXiv: 2002.12298},\n  date = {2020-02},\n  url = {http://arxiv.org/abs/},\n  language = {},\n  address = {math, q-bio}\n}\n@misc{maier2020a,\n  author = {Maier, Benjamin F. and Brockmann, Dirk},\n  title = {Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China},\n  note = {arXiv: 2002.07572 [physics, q-bio},\n  date = {2020-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@misc{peng2002a,\n  author = {Peng, Liangrong and Yang, Wuyue and Zhang, Dongyan and Zhuge, Changjing and Hong, Liu},\n  title = {Epidemic analysis of COVID-19 in China by dynamical modeling. arXiv},\n  date = {2002-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@misc{rabajante2002a,\n  author = {Rabajante, Jomar F.},\n  title = {Insights from early mathematical models of 2019-nCoV acute respiratory disease (COVID-19) dynamics. arXiv},\n  date = {2002-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@article{roosa2020a,\n  author = {Roosa, K. and Lee, Y. and Luo, R. and Kirpich, A. and Rothenberg, R. and Hyman, J.M. and Yan, P. and Chowell, G.},\n  title = {Real-time forecasts of the 2019-nCoV epidemic in China from February 5th to February 24th, 2020},\n  journal = {Infectious Disease Modelling},\n  date = {2020-02},\n  doi = {ISSN 24680427. doi: 10.1016/j.idm.2020.02.002},\n  url = {https://linkinghub.elsevier.com/retrieve/pii/S2468042720300051.},\n  language = {}\n}\n@article{vazquez2006a,\n  author = {Vazquez, Alexei},\n  title = {Polynomial growth in age-dependent branching processes with diverging reproductive number},\n  journal = {Physical Review Letters},\n  volume = {96},\n  pages = \"038702,\" # \"1079-7114.\" # \"cond-mat/0505116.\",\n  date = {2006-01},\n  doi = {doi: 10.1103/PhysRevLett.96.038702},\n  url = {http://arxiv.org/abs/cond-mat/},\n  source = {ISSN 0031-9007},\n  number = {3},\n  unmatched-pages = {1079-7114. cond-mat/0505116.},\n  language = {}\n}\n@misc{wang2020a,\n  author = {Wang, Vivan},\n  title = {How Many Coronavirus Cases in China? Officials Tweak the Answer},\n  date = {2020-02},\n  url = {https://www.nytimes.com/2020/02/12/world/asia/china-coronavirus-cases.html.},\n  language = {}\n}\n@incollection{organization2019a,\n  author = {Organization, World Health},\n  title = {Novel Coronavirus},\n  date = {2019-01},\n  url = {https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports.},\n  source = {situation reports},\n  language = {},\n  type = {Technical Report 1-24, WHO}\n}\n@book{wu-a,\n  author = {Wu, Joseph T. and Leung, Kathy and Leung, Gabriel M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study},\n  publisher = {The Lancet, In Press, Jan 2020. ISSN 01406736},\n  doi = {doi},\n  volume = {1016},\n  url = {https://linkinghub.elsevier.com/retrieve/pii/S0140673620302609.},\n  number = {0140-6736},\n  language = {}\n}\n@book{xu2002a,\n  author = {Xu, Xiaowei and Jiang, Xiangao and Ma, Chunlian and Du, Peng and Li, Xukun and Lv, Shuangzhi and Yu, Liang and Chen, Yanfei and Su, Junwei and Lang, Guanjing and Li, Yongtao and Zhao, Hong and Xu, Kaijin and Ruan, Lingxiang and Wu, Wei},\n  title = {Deep Learning System to Screen Coronavirus Disease 2019 Pneumonia},\n  publisher = {arXiv},\n  date = {2002-02},\n  url = {http://arxiv.org/abs/},\n  language = {}\n}\n@article{zhao2019a,\n  author = {Zhao, Shi and Lin, Qianyin and Ran, Jinjun and Musa, Salihu S. and Yang, Guangpu and Wang, Weiming and Lou, Yijun and Gao, Daozhou and Yang, Lin and He, Daihai and Wang, Maggie H.},\n  title = {Preliminary estimation of the basic reproduction number of novel coronavirus},\n  date = {2019-01},\n  journal = {International Journal of Infectious Diseases},\n  publisher = {In Press},\n  doi = {ISSN 12019712. doi: 10.1016/j.ijid.2020.01.050},\n  url = {http://www.sciencedirect.com/science/article/pii/S1201971220300539.},\n  source = {in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak},\n  language = {}\n}\n@misc{zhou2020a,\n  author = {Zhou, Yimin and Chen, Zuguo and Wu, Xiangdong and Tian, Zengwu and Cheng, Liang and Ye, Lingjian},\n  title = {The Outbreak Evaluation of COVID-19 in Wuhan District of China. arXiv: 2002.09640},\n  date = {2020-02},\n  url = {http://arxiv.org/abs/},\n  language = {},\n  address = {physics, q-bio}\n}\n",
+        "references_ris": "TY  - RPRT\nTI  - Coronavirus: \u201cWay too early\u201d to predict end of outbreak, WHO says\nPY  - 2020\nDA  - 2020/02\nUR  - https://www.bbc.com/news/world-asia-china-51482994.\nLA  - \nC1  - BBC\nER  - \n\nTY  - GEN\nAU  - Brandenburg, Axel\nTI  - Quadratic growth during the 2019 novel coronavirus epidemic. arXiv\nPY  - 2002\nDA  - 2002/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - GEN\nAU  - Chen, Baoquan\nAU  - Shi, Mingyi\nAU  - Ni, Xingyu\nAU  - Ruan, Liangwang\nAU  - Jiang, Hongda\nAU  - Yao, Heyuan\nAU  - Wang, Mengdi\nAU  - Song, Zhenghua\nAU  - Zhou, Qiang\nAU  - Ge, Tong\nTI  - Data Visualization Analysis and Simulation Prediction for COVID-19\nN1  - arXiv: 2002.07096 [physics, q-bio\nPY  - 2020\nDA  - 2020/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - GEN\nAU  - Cohen, Jon\nTI  - Scientists are racing to model the next moves of a coronavirus that\u2019s still hard to predict, February 2020\nLA  - \nER  - \n\nTY  - GEN\nUR  - https://www.sciencemag.org/news/2020/02/\nER  - \n\nTY  - BOOK\nAU  - Efron, Bradley\nAU  - Tibshirani, Robert J.\nTI  - An Introduction to the Bootstrap\nPB  - CRC Press\nPY  - 1994\nDA  - 1994\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Gamero, Javier\nAU  - Tamayo, Juan A.\nAU  - Martinez-Roman, Juan A.\nTI  - Forecast of the evolution of the contagious disease caused by novel coronavirus\nPY  - 2019\nDA  - 2019/02\nN1  - arXiv: 2002.04739 [q-bio, stat\nUR  - http://arxiv.org/abs/\nT2  - in China\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Hermanowicz, Slav W.\nTI  - Forecasting the Wuhan coronavirus\nPY  - 2019\nDA  - 2019/02/08\nN1  - Epidemiology, In Press, February 2020\nDO  - 10.1101/2020.02.04.20020461\nUR  - http://medrxiv.org/lookup/doi/10.1101/2020.02.04.20020461.\nT2  - epidemics using a simple (simplistic) model - update\nLA  - \nER  - \n\nTY  - GEN\nAU  - Elsevier\nPY  - 2001\nDA  - 2001\nC1  - 978-0-444-82340-3\nDO  - doi\nVL  - 1016\nUR  - https://linkinghub.elsevier.com/retrieve/pii/S157344120105005X.\nIS  - 1573-4412\nER  - \n\nTY  - GEN\nAU  - Hu, Zixin\nAU  - Ge, Qiyang\nAU  - Jin, Li\nAU  - Xiong, Momiao\nTI  - Artificial Intelligence Forecasting of Covid-19 in China. arXiv\nPY  - 2002\nDA  - 2002/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Li, Jun\nTI  - A Robust Stochastic Method of Estimating the Transmission Potential of 2019-nCoV\nPB  - arXiv: 2002.03828 [physics, q-bio, stat\nPY  - 2020\nDA  - 2020/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - GEN\nAU  - Li, Ming\nAU  - Chen, Jie\nAU  - Deng, Youjin\nTI  - Scaling features in the spreading of COVID-19. arXiv\nPY  - 2002\nDA  - 2002/02\nN1  - physics, q-bio\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - GEN\nAU  - Li, Qiang\nAU  - Feng, Wei\nTI  - Trend and forecasting of the COVID-19 outbreak in China. arXiv\nPY  - 2002\nDA  - 2002/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - GEN\nAU  - Liu, Zhihua\nAU  - Magal, Pierre\nAU  - Seydi, Ousmane\nAU  - Webb, Glenn\nTI  - Predicting the cumulative number of cases for the COVID-19 epidemic in China from early data. arXiv: 2002.12298\nPY  - 2020\nDA  - 2020/02\nUR  - http://arxiv.org/abs/\nLA  - \nCY  - math, q-bio\nER  - \n\nTY  - GEN\nAU  - Maier, Benjamin F.\nAU  - Brockmann, Dirk\nTI  - Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China\nN1  - arXiv: 2002.07572 [physics, q-bio\nPY  - 2020\nDA  - 2020/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - GEN\nAU  - Peng, Liangrong\nAU  - Yang, Wuyue\nAU  - Zhang, Dongyan\nAU  - Zhuge, Changjing\nAU  - Hong, Liu\nTI  - Epidemic analysis of COVID-19 in China by dynamical modeling. arXiv\nPY  - 2002\nDA  - 2002/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - GEN\nAU  - Rabajante, Jomar F.\nTI  - Insights from early mathematical models of 2019-nCoV acute respiratory disease (COVID-19) dynamics. arXiv\nPY  - 2002\nDA  - 2002/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Roosa, K.\nAU  - Lee, Y.\nAU  - Luo, R.\nAU  - Kirpich, A.\nAU  - Rothenberg, R.\nAU  - Hyman, J.M.\nAU  - Yan, P.\nAU  - Chowell, G.\nTI  - Real-time forecasts of the 2019-nCoV epidemic in China from February 5th to February 24th, 2020\nT2  - Infectious Disease Modelling\nPY  - 2020\nDA  - 2020/02\nDO  - ISSN 24680427. doi: 10.1016/j.idm.2020.02.002\nUR  - https://linkinghub.elsevier.com/retrieve/pii/S2468042720300051.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Vazquez, Alexei\nTI  - Polynomial growth in age-dependent branching processes with diverging reproductive number\nT2  - Physical Review Letters\nVL  - 96\nSP  - \"038702,\" # \"1079\nEP  - 7114.\" # \"cond\nPY  - 2006\nDA  - 2006/01\nDO  - 10.1103/PhysRevLett.96.038702\nUR  - http://arxiv.org/abs/cond-mat/\nT2  - ISSN 0031-9007\nIS  - 3\nC1  - 1079-7114. cond-mat/0505116.\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wang, Vivan\nTI  - How Many Coronavirus Cases in China? Officials Tweak the Answer\nPY  - 2020\nDA  - 2020/02\nUR  - https://www.nytimes.com/2020/02/12/world/asia/china-coronavirus-cases.html.\nLA  - \nER  - \n\nTY  - GEN\nAU  - Organization, World Health\nTI  - Novel Coronavirus\nPY  - 2019\nDA  - 2019/01\nUR  - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports.\nT2  - situation reports\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Wu, Joseph T.\nAU  - Leung, Kathy\nAU  - Leung, Gabriel M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study\nPB  - The Lancet, In Press, Jan 2020. ISSN 01406736\nDO  - doi\nVL  - 1016\nUR  - https://linkinghub.elsevier.com/retrieve/pii/S0140673620302609.\nIS  - 0140-6736\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Xu, Xiaowei\nAU  - Jiang, Xiangao\nAU  - Ma, Chunlian\nAU  - Du, Peng\nAU  - Li, Xukun\nAU  - Lv, Shuangzhi\nAU  - Yu, Liang\nAU  - Chen, Yanfei\nAU  - Su, Junwei\nAU  - Lang, Guanjing\nAU  - Li, Yongtao\nAU  - Zhao, Hong\nAU  - Xu, Kaijin\nAU  - Ruan, Lingxiang\nAU  - Wu, Wei\nTI  - Deep Learning System to Screen Coronavirus Disease 2019 Pneumonia\nPB  - arXiv\nPY  - 2002\nDA  - 2002/02\nUR  - http://arxiv.org/abs/\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhao, Shi\nAU  - Lin, Qianyin\nAU  - Ran, Jinjun\nAU  - Musa, Salihu S.\nAU  - Yang, Guangpu\nAU  - Wang, Weiming\nAU  - Lou, Yijun\nAU  - Gao, Daozhou\nAU  - Yang, Lin\nAU  - He, Daihai\nAU  - Wang, Maggie H.\nTI  - Preliminary estimation of the basic reproduction number of novel coronavirus\nPY  - 2019\nDA  - 2019/01\nT2  - International Journal of Infectious Diseases\nPB  - In Press\nDO  - ISSN 12019712. doi: 10.1016/j.ijid.2020.01.050\nUR  - http://www.sciencedirect.com/science/article/pii/S1201971220300539.\nT2  - in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak\nLA  - \nER  - \n\nTY  - GEN\nAU  - Zhou, Yimin\nAU  - Chen, Zuguo\nAU  - Wu, Xiangdong\nAU  - Tian, Zengwu\nAU  - Cheng, Liang\nAU  - Ye, Lingjian\nTI  - The Outbreak Evaluation of COVID-19 in Wuhan District of China. arXiv: 2002.09640\nPY  - 2020\nDA  - 2020/02\nUR  - http://arxiv.org/abs/\nLA  - \nCY  - physics, q-bio\nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Estimates of a Quadratic Model of Deaths"
+            },
+            {
+                "id": "2",
+                "caption": "Estimates of a Mixed Power Law and Exponential Model x"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Deaths in China vs. Time (days since 1/21) on a log-log plot), and (inset) on a log-linear plot"
+            },
+            {
+                "id": "2",
+                "caption": "The daily number of deaths in China vs. Time (days since 1/21/2020) on a log-linear plot 250 200 150 100"
+            },
+            {
+                "id": "3",
+                "caption": "Total Deaths vs. Time, China and non-China on a log-linear plot 3000 1000"
+            },
+            {
+                "id": "4",
+                "caption": "Raw Trends in COVID-19 Cases and Deaths"
+            },
+            {
+                "id": "5",
+                "caption": "Total Deaths vs. Time (days since 1/21/2020) on a log-log plot (main plot) and log-normal plot (inset)"
+            },
+            {
+                "id": "6",
+                "caption": "Power-law Coefficients, Dropping Earlier Periods"
+            },
+            {
+                "id": "7",
+                "caption": "Power-law Coefficients, Dropping Later Periods 3"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.16.20023820.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.20023820.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.16.20023820.full/img-001.png"
+        ]
+    },
+    "sections": {
+        "evaluation": [
+            "<strong>Evaluation of COVID</strong><br/><br/>19 in Wuhan District of China. arXiv:2002.09640 [physics, q-bio], February 2020.<br/><br/>URL http://arxiv.org/abs/2002.09640. arXiv: 2002.09640.    A<br/><br/>Statistical Testing<br/><br/>Table 1 lists the estimated coefficients from the regression Deaths = \u03b20 + \u03b21 time + \u03b22 time2 + \u03b5, where \u03b5 is assumed to be time-independent and Normally distributed. We also report bootstrapped standard errors in brackets, which are more conservative in this small-sample context. See Efron and Tibshirani [1994] and<br/><br/>Horowitz [2001] for introductions to the bootstrap method.<br/><br/>In Fig. 6, the confidence intervals are calculated as follows. First, robust standard errors are calculated to account for heteroskedasticity. These standard errors are more conservative, which is advantageous considering our small sample size. Next, we calculate the critical value (the 95th quantile) from a t-distribution with n \u2212 2 degrees of freedom. The value n changes with each point along the x-axis. As fewer periods are considered, the critical value increases. The degrees of freedom is a function of this n, but subtracting two to account for the fact that two parameters are estimated (\u03b20 , \u03b21 ). The standard errors are quite small for these calculations. Considering periods 2-27 produces a bootstrapped standard error of 0.033, using 5,000 bootstrap replications."
+        ],
+        "introduction": [
+            "We give an update to the original paper posted on 2/17/20 \u2013 now (as of 3/1/20) the China deaths are rapidly decreasing, and we find an exponential decline to the power law similar to the that predicted by the network model of <a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\"><a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a></a>]. At the same time, we see non-China deaths increasing rapidly, and similar to the early behavior of the China statistics. Thus, we see three stages of the spread of the disease in terms of number of deaths: exponential growth, power-law behavior, and then exponential decline in the daily rate.",
+            "(Original abstract) The novel coronavirus (COVID-19) continues to grow rapidly in China and is spreading in other parts of the world. The classic epidemiological approach in studying this growth is to quantify a reproduction number and infection time, and this is the approach followed by many studies on the epidemiology of this disease. However, this assumption leads to exponential growth, and while the growth rate is high, it is not following exponential behavior. One approach that is being used is to simply keep adjusting the reproduction number to match the dynamics. Other approaches use rate equations such as the SEIR and logistical models. Here we show that the current growth closely follows power-law kinetics, indicative of an underlying fractal or small-world network of connections between susceptible and infected individuals. Positive deviations from this growth law might indicate either a failure of the current containment efforts while negative deviations might indicate the beginnings of the end of the pandemic. We cannot predict the ultimate extent of the pandemic but can get an estimate of the growth of the disease."
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "We give an update to the original paper posted on 2/17/20 \u2013 now (as of 3/1/20) the China deaths are rapidly decreasing, and we find an exponential decline to the power law similar to the that predicted by the network model of <a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a>]. At the same time, we see non-China deaths increasing rapidly, and similar to the early behavior of the China statistics. Thus, we see three stages of the spread of the disease in terms of number of deaths: exponential growth, power-law behavior, and then exponential decline in the daily rate.",
+            "(Original abstract) The novel coronavirus (COVID-19) continues to grow rapidly in China and is spreading in other parts of the world. The classic epidemiological approach in studying this growth is to quantify a reproduction number and infection time, and this is the approach followed by many studies on the epidemiology of this disease. However, this assumption leads to exponential growth, and while the growth rate is high, it is not following exponential behavior. One approach that is being used is to simply keep adjusting the reproduction number to match the dynamics. Other approaches use rate equations such as the SEIR and logistical models. Here we show that the current growth closely follows power-law kinetics, indicative of an underlying fractal or small-world network of connections between susceptible and infected individuals. Positive deviations from this growth law might indicate either a failure of the current containment efforts while negative deviations might indicate the beginnings of the end of the pandemic. We cannot predict the ultimate extent of the pandemic but can get an estimate of the growth of the disease.",
+            "Since the original posting of this paper on February 17 (which we are leaving intact below for comparison), the epidemic has fortunately slowed down considerably in China, and the current number of deaths there is 2,873 (3/1/20). At the same time, the number of deaths outside of China (equal to 104) is growing very rapidly, almost exponentially. Therefore we now separate out the China cases from the non-China cases.",
+            "In Fig. 1 is a log-log plot of the deaths in China, showing a fit of the power-law behavior we saw before, fit for the days 1/28 to 2/16. It can be seen that the power-law we saw before continued for a few more days until about 2/20, at which point the mortality began to decrease markedly.",
+            "In Fig. 2 we show the number of deaths in China each day, now plotted on a log-linear plot, and we see a sharp cutoff during the last week or so.",
+            "The line is fit through the points filled in red, from day 8 (1/28) to day 27 (2/16). Data from World Health",
+            "Organization [2020].",
+            "author/funder, who has granted medRxiv a license to display the preprint in perpetuity."
+        ],
+        "New Deaths in China": [],
+        "Realized New Deaths": [],
+        "Predicted New Deaths": [
+            "The predicted new deaths is fit using the estimates reported in Tab. 2. Data from World Health"
+        ],
+        "Total Deaths": [
+            "To align the trends, we subtract 31 from the timing of the data points from outside of China. Data from",
+            "World Health Organization [2020]. Data from non-China cases up to March 1, 2020.",
+            "The power-law (fractal) behavior that we postulated is related to the properties of the networks that carry out the propagation of the disease. <a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a>] developed a network model in which the daily number of new cases n(t) in an epidemic follows a power-law with an exponential cutoff: n(t) = Ktx e\u2212t/t0",
+            "We have fit the data of China deaths to this function, and find K = 0.0854, x = 3.09, and t0 = 8.90 days (the time constant of decay), and this fit is shown in Fig. 2. Note here that the exponent (3.09) is somewhat above the value 2.28 that we were finding by a fit of a simple power law.",
+            "This can be integrated to find the total number of deaths as a function of time, in terms of the Gamma function \u0393(x) and the incomplete Gamma function \u0393(a, x): Z",
+            "This plot is shown in Fig. 2, and we see a fairly good fit to the data.",
+            "The number of deaths outside of China has been growing rapidly. For several days it has been growing nearly exponentially, doubling every two to three days, but doe now appear to have slowed down a bit(although there are questions whether accurate data is being reported from one of the major hotspots, Iran). In Fig. 3, we show a log-linear plot of the deaths for the past 6 days, along with the deaths in China shifted by 31 days, and one can see somewhat similar behavior but fortunately with a downturn recently. We cannot predict any ultimate behavior for this behavior, but perhaps it will soon enter a power-law growth regime, before it enters the final stages.",
+            "It is likely, with the normal international travel in the months of December and January, that the virus has been spread to many parts of the world, and cases have not been properly diagnosed. Thus we expect additional flair-ups to appear in different places in the world. But hopefully, with better understanding and appreciation of the disease, and appropriate responses, these flare-ups will be contained and a global pandemic can be averted.",
+            "Since we wrote our paper (and before as well), numerous papers have appeared modeling the epidemiology of the disease.",
+            "Li et al [2020] confirm the power-law behavior we proposed for deaths in China, and also find power-law behavior (but with different exponents) for the number of infections and the number of recoveries. Fitting the number of cases to a quadratic on the log-log plot, they predicted an effective end of the epidemic around",
+            "March 3 with a total of 83,000 cases, which so far has been well born out.",
+            "Numerous papers have considered compartment models and other methods to model the evolution of the epidemic <a class=\"ref-link\" id=\"cLi_2020_a\" href=\"#rLi_2020_a\">Li [2020</a>], Gamero et al [2020], Rabajante [2020], <a class=\"ref-link\" id=\"cLi_2020_a\" href=\"#rLi_2020_a\">Li and Feng [2020</a>], Peng et al [2020], Chen et al.",
+            "[2020], Hu et al [2020], <a class=\"ref-link\" id=\"cMaier_2020_a\" href=\"#rMaier_2020_a\">Maier and Brockmann [2020</a>], Li et al [2020], <a class=\"ref-link\" id=\"cZhou_et+al_2020_a\" href=\"#rZhou_et+al_2020_a\">Zhou et al [2020</a>], Xu et al [2020], <a class=\"ref-link\" id=\"cLiu_et+al_2020_a\" href=\"#rLiu_et+al_2020_a\">Liu et al [2020</a>]. These tend to predict an S-shaped curve with a tapering off in the near future as is being seen. These models depend upon assumptions of the reproduction rate, incubation period, etc.",
+            "The authors thank Greg Huber, Ginestra Bianconi, and Youjin Deng for discussions and communications related to this work."
+        ],
+        "Original article": [
+            "The number of cases of novel coronavirus 2019 n-CoV (which has recently been renamed as COVID-19) that started in China less than three months ago has been growing rapidly, pointing to a high infectivity. The mortality rate seems to fall somewhere between the common flu (0.1%) and the SARs coronavirus (10%).",
+            "In Figs. 4a and 4b, we plot the total number of confirmed cases and total number of reported deaths, as a function of the number of days beginning with January 21, 2020, when the WHO first started reporting on this pandemic in its Situation Reports [World Health Organization, 2020]. Both cases and deaths continue to grow at an alarming rate."
+        ],
+        "Total Confirmed Cases": [
+            "Note: Data from World Health Organization [2020].",
+            "In standard epidemiological analysis, one assumes that the number of cases in diseases like this one grows exponentially, based upon the idea of a fixed reproduction rate. If each person infects n other people where n > 1 (the reproduction number), then the total number of cases should grow as nt/\u03c4 = eat , where \u03c4 is the incubation time, which depends on the characteristics of the particular disease. Several studies of COVID-19 have taken this approach to model the number of cases [e.g., Zhao et al, 2020]. This assumes there is no inhibition due to the interaction with already infected people, quarantine, or other prophylactic measures.",
+            "While the data display large growth, they do not in fact follow exponential behavior. In the inset in",
+            "Fig. 5 we show a log-normal plot of the mortality data, and the behavior is clearly not linear as it would be for exponential growth. In contrast, we find that the data are very well fit by assuming a power-law behavior with an exponent somewhat greater than two, as shown in the log-log plot in Fig. 5. The non-integer value of this power-law suggests a fractal type of behavior of the susceptibility mechanism, as we discuss below.",
+            "First we notice that the total number of deaths in Fig. 4b appear to be growing in a roughly quadratic form (see Tab. 1 in Appendix A for the estimates of the quadratic fit), while the number of confirmed cases shown in Fig. 4a appears to follow similar behavior but is slowing down in the last few data points. There could be measurement error due to multiple factors.1 Starting on February 7, those individuals who test positive for COVID-19 but show no symptoms are no longer being reported as confirmed cases [<a class=\"ref-link\" id=\"cCohen_2020_a\" href=\"#rCohen_2020_a\">Cohen, 2020</a>]. We focus our analysis on deaths to circumvent some of the ambiguities of reporting confirmed cases, assuming that deaths are a more reliable indication of the extent of the disease. (However, there are reports that some deaths might be reported as due to other causes, such as severe pneumonia, and not attributed to this virus, so these numbers may also be inaccurate. Still, one set of data should give a good indication of the general trend of the pandemic.)",
+            "Growing as t2 is what one would expect if a disease were growing in a population at the periphery of a compact region of infection. We believe that this is more likely than an exponential growth, because the number of susceptible individuals around an infected individual decays with time. Individuals already infected might face increased immunity and there are other individuals who might have had a mild infection that imparts immunity but without developing symptoms warranting testing. These various effects would inhibit the exponential growth of the virus.",
+            "We find that a power-law provides a better fit to the data than a simple quadratic, as postulated by",
+            "Brandenburg [2020]. In Fig. 5 we plot the number of total deaths vs. time on a log-log plot. As Fig. 6 shows, considering all of the time periods (excluding report #24) from January 21 to February 15 (1\u201327 on the horizontal axis), the estimated coefficient is statistically indistinguishable from 2. However, removing just the first period period (2\u201327 on the horizontal axis), the estimated coefficient is statistically larger than 2.",
+            "As more periods are removed, the coefficient moves farther away from 2. Even at this preliminary stage with few data points, this illustration suggests that a power-law fit is more appropriate than a quadratic one.",
+            "For illustration purposes, consider periods 8\u201327. The estimated coefficient is approximately 2.27 (the bootstrapped standard error with 5,000 replications is 0.014). This would imply that as the number of days of the pandemic increases by a factor of 21/2.27 = 1.357, the number of cases will double. Thus, starting from day 27 (Feb. 16) with 1,669 deaths, the number of deaths will double to approximately 3,340 on day",
+            "37 (Feb. 22), and then double again to 6,680 on day 50 (March 10), and double again to 13,350 on day 67",
+            "(March 27). This is a large number of fatalities, but not nearly as large as if the growth were exponential.",
+            "On the other hand, it is larger than some epidemiological models have been predicting.",
+            "The appearance of a fractional exponent and power-law behavior suggests an underlying fractal process.",
+            "Note: The red line in the large plot corresponds to the power-law fit for periods 8\u201327, omitting 24, i.e., 1/28/2020 to",
+            "2/15/2020, omitting spurious data for 2/13/2020. Data from World Health Organization [2020].",
+            "occasional long-range connections (such as caused by people traveling on trains, boats and planes). The results imply that this network has an effective minimum path fractal dimension of 2.25. The implication is that the disease produces flares in which the growth is momentarily exponential, but then slows down until another flare-up. The averaged effect of this growth apparently yields a power-law.",
+            "Wu et al [2020] suggest that if the pandemic spreads into new cities, exponential growth like what happened in Wuhan in the early stages would occur. Hopefully, if this were the case, it would be quickly stopped and slower behavior would ensue. But our prediction of approximately 13,350 deaths by March 27 relies on the assumption that a new major outbreak will not happen. Hermanowicz [2020] and Roosa et al.",
+            "[2020] have recently modeled the disease using a logistical and other growth models. These models are able to predict the ultimate number of cases, and find results in the range of 20,000 to 60,000. We believe the numbers will be much greater, and expect a number of deaths in this range, if the fractal growth continues as it has for a few more months.",
+            "We have followed our prediction for several days and have found no marked change in behavior, except for the data from WHO Situation Report #24, which gave an outsized jump of 254 cases to a total of 1,369 deaths. Reports stated that the data from China were incorrect that day because of double-counting of the results, but so far the WHO has not revised report #24. Looking at the large deviation from our prediction in fact led us to suspect that that data point was an outlier at the time.",
+            "In recent days there has been a drop-off in the growth of new confirmed cases from China, suggesting an attenuation of the pandemic. We do not see that drop-off in the death rate. There are two possible explanations for this discrepancy: (1) the number of confirmed cases may be showing the variability as it has in the past, and the current numbers are not capturing the actual situation, or (2) the pandemic is indeed slowing down but it will take a while (perhaps a week) for that to show up in the fatality data. Of course, we hope the latter is the case, but are not entirely confident considering the history of the reporting problems concerning this pandemic.",
+            "Deviations above this power-law behavior might indicate that the pandemic is expanding from the current level of control, while deviations below might indicate that the disease is starting to fade. This analysis is early in the outbreak of COVID-19 and cannot predict the length of the outbreak nor the final fatality.",
+            "However, it suggests that under current conditions, power-law growth better approximates the number of deaths than exponential growth, and may provide a tool to monitor whether a fundamental change is occurring. Hopefully, continued vigilance, timely testing, and careful care will end this scourge on humanity.",
+            "The authors report no funding related to this research and have no conflicting financial interests."
+        ],
+        "References": [
+            "BBC. Coronavirus: \u201cWay too early\u201d to predict end of outbreak, WHO says, February 2020. URL https:",
+            "//www.bbc.com/news/world-asia-china-51482994.",
+            "Axel Brandenburg. Quadratic growth during the 2019 novel coronavirus epidemic. arXiv:2002.03638 [q-bio], February 2020. URL http://arxiv.org/abs/2002.03638. arXiv: 2002.03638.",
+            "Baoquan Chen, Mingyi Shi, Xingyu Ni, Liangwang Ruan, Hongda Jiang, Heyuan Yao, Mengdi Wang, Zhenghua Song, Qiang Zhou, and Tong Ge. Data Visualization Analysis and Simulation Prediction for",
+            "COVID-19. arXiv:2002.07096 [physics, q-bio], February 2020. URL http://arxiv.org/abs/2002.07096.",
+            "arXiv: 2002.07096.",
+            "Jon Cohen.",
+            "Scientists are racing to model the next moves of a coronavirus that\u2019s still hard to predict, February 2020.",
+            "URL https://www.sciencemag.org/news/2020/02/",
+            "scientists-are-racing-model-next-moves-coronavirus-thats-still-hard-predict.",
+            "Bradley Efron and Robert J. Tibshirani. An Introduction to the Bootstrap. CRC Press, 1994.",
+            "Javier Gamero, Juan A. Tamayo, and Juan A. Martinez-Roman. Forecast of the evolution of the contagious disease caused by novel coronavirus (2019-nCoV) in China. arXiv:2002.04739 [q-bio, stat], February 2020.",
+            "URL http://arxiv.org/abs/2002.04739. arXiv: 2002.04739.",
+            "Slav W Hermanowicz. Forecasting the Wuhan coronavirus (2019-nCoV) epidemics using a simple (simplistic) model - update (Feb. 8, 2020). Epidemiology, In Press, February 2020. doi: 10.1101/2020.02.04.20020461.",
+            "URL http://medrxiv.org/lookup/doi/10.1101/2020.02.04.20020461.",
+            "Joel L. Horowitz. The Bootstrap. In Handbook of Econometrics, volume 5, pages 3159\u20133228. <a class=\"ref-link\" id=\"cElsevier_2001_a\" href=\"#rElsevier_2001_a\">Elsevier, 2001</a>.",
+            "ISBN 978-0-444-82340-3. doi: 10.1016/S1573-4412(01)05005-X. URL https://linkinghub.elsevier.",
+            "com/retrieve/pii/S157344120105005X.",
+            "Zixin Hu, Qiyang Ge, Li Jin, and Momiao Xiong. Artificial Intelligence Forecasting of Covid-19 in China.",
+            "arXiv:2002.07112 [q-bio], February 2020. URL http://arxiv.org/abs/2002.07112. arXiv: 2002.07112.",
+            "Jun Li.",
+            "A Robust Stochastic Method of Estimating the Transmission Potential of 2019-nCoV.",
+            "arXiv:2002.03828 [physics, q-bio, stat], February 2020. URL http://arxiv.org/abs/2002.03828. arXiv: Ming Li, Jie Chen, and Youjin Deng. Scaling features in the spreading of COVID-19. arXiv:2002.09199",
+            "[physics, q-bio], February 2020. URL http://arxiv.org/abs/2002.09199. arXiv: 2002.09199.",
+            "Qiang Li and Wei Feng. Trend and forecasting of the COVID-19 outbreak in China. arXiv:2002.05866",
+            "[q-bio], February 2020. URL http://arxiv.org/abs/2002.05866. arXiv: 2002.05866.",
+            "Zhihua Liu, Pierre Magal, Ousmane Seydi, and Glenn Webb. Predicting the cumulative number of cases for the COVID-19 epidemic in China from early data. arXiv:2002.12298 [math, q-bio], February 2020. URL http://arxiv.org/abs/2002.12298. arXiv: 2002.12298.",
+            "Benjamin F. Maier and Dirk Brockmann. Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China. arXiv:2002.07572 [physics, q-bio], February 2020.",
+            "URL http://arxiv.org/abs/2002.07572. arXiv: 2002.07572.",
+            "Liangrong Peng, Wuyue Yang, Dongyan Zhang, Changjing Zhuge, and Liu Hong. Epidemic analysis of",
+            "COVID-19 in China by dynamical modeling. arXiv:2002.06563 [q-bio], February 2020. URL http://",
+            "arxiv.org/abs/2002.06563. arXiv: 2002.06563.",
+            "Jomar F. Rabajante. Insights from early mathematical models of 2019-nCoV acute respiratory disease (COVID-19) dynamics. arXiv:2002.05296 [q-bio], February 2020. URL http://arxiv.org/abs/2002.",
+            "05296. arXiv: 2002.05296.",
+            "K. Roosa, Y. Lee, R. Luo, A. Kirpich, R. Rothenberg, J.M. Hyman, P. Yan, and G. Chowell. Real-time forecasts of the 2019-nCoV epidemic in China from February 5th to February 24th, 2020. Infectious Disease",
+            "Modelling, February 2020. ISSN 24680427. doi: 10.1016/j.idm.2020.02.002. URL https://linkinghub.",
+            "elsevier.com/retrieve/pii/S2468042720300051.",
+            "Alexei Vazquez. Polynomial growth in age-dependent branching processes with diverging reproductive number. Physical Review Letters, 96(3):038702, January 2006. ISSN 0031-9007, 1079-7114. doi: 10.1103/",
+            "PhysRevLett.96.038702. URL http://arxiv.org/abs/cond-mat/0505116. arXiv: cond-mat/0505116.",
+            "Vivan Wang. How Many Coronavirus Cases in China? Officials Tweak the Answer, February 2020. URL https://www.nytimes.com/2020/02/12/world/asia/china-coronavirus-cases.html.",
+            "World Health Organization. Novel Coronavirus (2019-nCoV) situation reports. Technical Report 1-24, WHO, January 2020. URL https://www.who.int/emergencies/diseases/novel-coronavirus-2019/",
+            "situation-reports.",
+            "Joseph T. Wu, Kathy Leung, and Gabriel M Leung. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study.",
+            "The Lancet, In Press, Jan 2020. ISSN 01406736. doi: 10.1016/S0140-6736(20)30260-9. URL https:",
+            "//linkinghub.elsevier.com/retrieve/pii/S0140673620302609.",
+            "Xiaowei Xu, Xiangao Jiang, Chunlian Ma, Peng Du, Xukun Li, Shuangzhi Lv, Liang Yu, Yanfei Chen, Junwei Su, Guanjing Lang, Yongtao Li, Hong Zhao, Kaijin Xu, Lingxiang Ruan, and Wei Wu. Deep",
+            "Learning System to Screen Coronavirus Disease 2019 Pneumonia. arXiv:2002.09334 [physics], February",
+            "2020. URL http://arxiv.org/abs/2002.09334. arXiv: 2002.09334.",
+            "Shi Zhao, Qianyin Lin, Jinjun Ran, Salihu S Musa, Guangpu Yang, Weiming Wang, Yijun Lou, Daozhou",
+            "Gao, Lin Yang, Daihai He, and Maggie H Wang. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. International Journal of Infectious Diseases, In Press, January 2020. ISSN 12019712. doi: 10.1016/j.ijid.2020.01.050. URL http://www.sciencedirect.com/science/article/pii/",
+            "S1201971220300539.",
+            "Yimin Zhou, Zuguo Chen, Xiangdong Wu, Zengwu Tian, Liang Cheng, and Lingjian Ye. The Outbreak",
+            "Evaluation of COVID-19 in Wuhan District of China. arXiv:2002.09640 [physics, q-bio], February 2020.",
+            "URL http://arxiv.org/abs/2002.09640. arXiv: 2002.09640.",
+            "A"
+        ],
+        "Statistical Testing": [
+            "Table 1 lists the estimated coefficients from the regression Deaths = \u03b20 + \u03b21 time + \u03b22 time2 + \u03b5, where \u03b5 is assumed to be time-independent and Normally distributed. We also report bootstrapped standard errors in brackets, which are more conservative in this small-sample context. See Efron and Tibshirani [1994] and",
+            "Horowitz [2001] for introductions to the bootstrap method.",
+            "In Fig. 6, the confidence intervals are calculated as follows. First, robust standard errors are calculated to account for heteroskedasticity. These standard errors are more conservative, which is advantageous considering our small sample size. Next, we calculate the critical value (the 95th quantile) from a t-distribution with n \u2212 2 degrees of freedom. The value n changes with each point along the x-axis. As fewer periods are considered, the critical value increases. The degrees of freedom is a function of this n, but subtracting two to account for the fact that two parameters are estimated (\u03b20 , \u03b21 ). The standard errors are quite small for these calculations. Considering periods 2-27 produces a bootstrapped standard error of 0.033, using 5,000 bootstrap replications.",
+            "Fig. 7 shows the estimated power-law exponents starting at period 8 and adding more periods forward.",
+            "This mirrors our process of testing this model as more data were published on the number of deaths. The coefficient is stable. The confidence intervals are calculated analogously to those in Fig. 6. Note that data at period 24 are omitted due to probable inaccuracy, as we discuss above.",
+            "Note: Parametric standard errors are in parentheses, bootstrapped standard errors are in square brackets. We perform 5,000 replications. Data from World Health Organization [2020].",
+            "< 0.05),\u2217\u2217 (p < 0.01),\u2217\u2217\u2217 (p < 0.001)."
+        ],
+        "Periods Analyzed": [
+            "Note: The coefficients are the ordinary least squares estimates of \u03b21 in the regression log(Deaths) = \u03b20 + \u03b21 log(time) + \u03b5 where \u03b5 is unobserved and assumed to be time-independent and distributed according to a t distribution with n \u2212 2 degrees of freedom. Robust standard errors are calculated for suggestive inference, considering the small sample size. Data from World",
+            "Health Organization [2020].",
+            "where \u03b5 is unobserved and assumed to be time-independent and distributed according to a t distribution with n \u2212 2 degrees of freedom. Robust standard errors are calculated for suggestive inference, considering the small sample size. Data from World",
+            "Tab. 2 displays the estimates of the mixed power law and exponential model. Given that the disease has been in China the longest, we estimate perform the estimation on only China. We exclude periods 24 and",
+            "25 (2/13/2020 and 2/14/2020) to estimate the coefficients. The estimates are significant.",
+            "Note: This table displays the estimates from Eq 1. Parametric standard errors are in parentheses, bootstrapped standard errors are in square brackets. We perform 5,000 replications. Data from World Health Organization [2020].",
+            "\u2217 (p < 0.05),\u2217\u2217 (p < 0.01),\u2217\u2217\u2217 (p < 0.001).",
+            "The replication files include a .xlsx file of the compiled reports from World Health Organization [2020].",
+            "These data are publicly available, but we condense the information used in this report. A .do file contains the STATA code to clean the data, perform the statistical analysis, and produce the plots. A machine-specific environment variable needs to be set with the accompanying file structure. Once this is set, the code will run seamlessly on any machine with STATA installed. The Matlab file is only used to create a graph."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 83000,
+            "context": "Fitting the number of cases to a quadratic on the log-log plot, they predicted an effective end of the epidemic around. <mark class=\"stats\">March 3 with a total of 83,000 cases, which so far has been well born out</mark>. author/funder, who has granted medRxiv a license to display the preprint in perpetuity"
+        },
+        {
+            "participant": "cases",
+            "number": 254,
+            "context": "We believe the numbers will be much greater, and expect a number of deaths in this range, if the fractal growth continues as it has for a few more months. <mark class=\"stats\">We have followed our prediction for several days and have found no marked change in behavior, except for the data from WHO Situation Report #24, which gave an outsized jump of 254 cases to a total of 1,369 deaths</mark>. Reports stated that the data from China were incorrect that day because of double-counting of the results, but so far the WHO has not revised report #24"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "power law",
+        "statistics",
+        "original paper",
+        "daily rate",
+        "exponential decline",
+        "early behavior",
+        "classic epidemiological",
+        "coronavirus",
+        "epidemiological approach",
+        "law similar",
+        "exponential growth",
+        "epidemiology",
+        "COVID-19",
+        "kinetics",
+        "original abstract",
+        "infection time",
+        "network model",
+        "china statistic",
+        "Screen Coronavirus disease",
+        "novel coronavirus",
+        "china death",
+        "law behavior",
+        "reproduction number",
+        "dynamics",
+        "non china"
+    ],
+    "keyword_relevance": {
+        "COVID-19": 0.2112676056338028,
+        "coronavirus": 0.15492957746478872,
+        "exponential growth": 0.11267605633802817,
+        "law behavior": 0.09859154929577464,
+        "novel coronavirus": 0.07042253521126761,
+        "reproduction number": 0.056338028169014086,
+        "power law": 0.04225352112676056,
+        "exponential decline": 0.028169014084507043,
+        "epidemiology": 0.028169014084507043,
+        "kinetics": 0.028169014084507043,
+        "network model": 0.028169014084507043,
+        "dynamics": 0.028169014084507043,
+        "statistics": 0.014084507042253521,
+        "original paper": 0.014084507042253521,
+        "daily rate": 0.014084507042253521,
+        "early behavior": 0.014084507042253521,
+        "classic epidemiological": 0.014084507042253521,
+        "epidemiological approach": 0.014084507042253521,
+        "law similar": 0.014084507042253521,
+        "infection time": 0.014084507042253521,
+        "original abstract": 0.0,
+        "china statistic": 0.0,
+        "Screen Coronavirus disease": 0.0,
+        "china death": 0.0,
+        "non china": 0.0
+    },
+    "species": [],
+    "summary": [
+        "The authors give an update to the original paper posted on 2/17/20 \u2013 the China deaths are rapidly decreasing, and the authors find an exponential decline to the power law similar to the that predicted by the network model of <a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\"><a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\"><a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a></a></a>].",
+        "The number of deaths outside of China is growing very rapidly, almost exponentially.",
+        "In Fig. 1 is a log-log plot of the deaths in China, showing a fit of the power-law behavior the authors saw before, fit for the days 1/28 to 2/16.",
+        "<a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a>] developed a network model in which the daily number of new cases n(t) in an epidemic follows a power-law with an exponential cutoff: n(t) = Ktx e\u2212t/t0 (1)",
+        "Fitting the number of cases to a quadratic on the log-log plot, they predicted an effective end of the epidemic around",
+        "4a and 4b, the authors plot the total number of confirmed cases and total number of reported deaths, as a function of the number of days beginning with January 21, 2020, when the WHO first started reporting on this pandemic in its Situation Reports [World Health Organization, 2020].",
+        "One assumes that the number of cases in diseases like this one grows exponentially, based upon the idea of a fixed reproduction rate.",
+        "If each person infects n other people where n > 1, the total number of cases should grow as nt/\u03c4 = eat , where \u03c4 is the incubation time, which depends on the characteristics of the particular disease.",
+        "Fig. 5 the authors show a log-normal plot of the mortality data, and the behavior is clearly not linear as it would be for exponential growth.",
+        "The authors find that the data are very well fit by assuming a power-law behavior with an exponent somewhat greater than two, as shown in the log-log plot in Fig. 5.",
+        "First the authors notice that the total number of deaths in Fig. 4b appear to be growing in a roughly quadratic author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+        "Form, while the number of confirmed cases shown in Fig. 4a appears to follow similar behavior but is slowing down in the last few data points.",
+        "The authors have followed the prediction for several days and have found no marked change in behavior, except for the data from WHO Situation Report #24, which gave an outsized jump of 254 cases to a total of 1,369 deaths.",
+        "In recent days there has been a drop-off in the growth of new confirmed cases from China, suggesting an attenuation of the pandemic.",
+        "It suggests that under current conditions, power-law growth better approximates the number of deaths than exponential growth, and may provide a tool to monitor whether a fundamental change is occurring."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The authors give an update to the original paper posted on 2/17/20 \u2013 the China deaths are rapidly decreasing, and the authors find an exponential decline to the power law similar to the that predicted by the network model of <a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\"><a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\"><a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a></a></a>].",
+            "The number of deaths outside of China is growing very rapidly, almost exponentially.",
+            "In Fig. 1 is a log-log plot of the deaths in China, showing a fit of the power-law behavior the authors saw before, fit for the days 1/28 to 2/16."
+        ],
+        "Results": [
+            "<a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a>] developed a network model in which the daily number of new cases n(t) in an epidemic follows a power-law with an exponential cutoff: n(t) = Ktx e\u2212t/t0 (1)",
+            "Fitting the number of cases to a quadratic on the log-log plot, they predicted an effective end of the epidemic around",
+            "4a and 4b, the authors plot the total number of confirmed cases and total number of reported deaths, as a function of the number of days beginning with January 21, 2020, when the WHO first started reporting on this pandemic in its Situation Reports [World Health Organization, 2020].",
+            "One assumes that the number of cases in diseases like this one grows exponentially, based upon the idea of a fixed reproduction rate.",
+            "If each person infects n other people where n > 1, the total number of cases should grow as nt/\u03c4 = eat , where \u03c4 is the incubation time, which depends on the characteristics of the particular disease.",
+            "Fig. 5 the authors show a log-normal plot of the mortality data, and the behavior is clearly not linear as it would be for exponential growth.",
+            "The authors find that the data are very well fit by assuming a power-law behavior with an exponent somewhat greater than two, as shown in the log-log plot in Fig. 5.",
+            "First the authors notice that the total number of deaths in Fig. 4b appear to be growing in a roughly quadratic author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "Form, while the number of confirmed cases shown in Fig. 4a appears to follow similar behavior but is slowing down in the last few data points."
+        ],
+        "Conclusion": [
+            "The authors have followed the prediction for several days and have found no marked change in behavior, except for the data from WHO Situation Report #24, which gave an outsized jump of 254 cases to a total of 1,369 deaths.",
+            "In recent days there has been a drop-off in the growth of new confirmed cases from China, suggesting an attenuation of the pandemic.",
+            "It suggests that under current conditions, power-law growth better approximates the number of deaths than exponential growth, and may provide a tool to monitor whether a fundamental change is occurring."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "BBC._2020_a",
+            "alt_id": "1",
+            "entry": "BBC. Coronavirus: \u201cWay too early\u201d to predict end of outbreak, WHO says, February 2020. URL https://www.bbc.com/news/world-asia-china-51482994.",
+            "url": "https://www.bbc.com/news/world-asia-china-51482994"
+        },
+        {
+            "id": "Brandenburg_2002_a",
+            "alt_id": "2",
+            "entry": "Axel Brandenburg. Quadratic growth during the 2019 novel coronavirus epidemic. arXiv:2002.03638 [q-bio], February 2020. URL http://arxiv.org/abs/2002.03638.arXiv:2002.03638.",
+            "url": "http://arxiv.org/abs/2002.03638.arXiv:2002.03638",
+            "arxiv_url": "https://arxiv.org/pdf/2002.03638"
+        },
+        {
+            "id": "Chen_et+al_2020_a",
+            "alt_id": "3",
+            "entry": "Baoquan Chen, Mingyi Shi, Xingyu Ni, Liangwang Ruan, Hongda Jiang, Heyuan Yao, Mengdi Wang, Zhenghua Song, Qiang Zhou, and Tong Ge. Data Visualization Analysis and Simulation Prediction for COVID-19. arXiv:2002.07096 [physics, q-bio], February 2020. URL http://arxiv.org/abs/2002.07096.arXiv:2002.07096.",
+            "url": "http://arxiv.org/abs/2002.07096.arXiv:2002.07096",
+            "arxiv_url": "https://arxiv.org/pdf/2002.07096"
+        },
+        {
+            "id": "Cohen_2020_a",
+            "alt_id": "4",
+            "entry": "Jon Cohen. Scientists are racing to model the next moves of a coronavirus that\u2019s still hard to predict, February 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jon%20Cohen%20Scientists%20are%20racing%20to%20model%20the%20next%20moves%20of%20a%20coronavirus%20thats%20still%20hard%20to%20predict%20February%202020"
+        },
+        {
+            "id": "URL_0000_a",
+            "alt_id": "5",
+            "entry": "URL https://www.sciencemag.org/news/2020/02/",
+            "url": "https://www.sciencemag.org/news/2020/02/"
+        },
+        {
+            "id": "Efron_1994_a",
+            "alt_id": "6",
+            "entry": "Bradley Efron and Robert J. Tibshirani. An Introduction to the Bootstrap. CRC Press, 1994.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Efron%2C%20Bradley%20Tibshirani%2C%20Robert%20J.%20An%20Introduction%20to%20the%20Bootstrap%201994"
+        },
+        {
+            "id": "Gamero_et+al_2019_a",
+            "alt_id": "7",
+            "entry": "Javier Gamero, Juan A. Tamayo, and Juan A. Martinez-Roman. Forecast of the evolution of the contagious disease caused by novel coronavirus (2019-nCoV) in China. arXiv:2002.04739 [q-bio, stat], February 2020. URL http://arxiv.org/abs/2002.04739.arXiv:2002.04739.",
+            "url": "http://arxiv.org/abs/2002.04739.arXiv:2002.04739",
+            "arxiv_url": "https://arxiv.org/pdf/2002.04739"
+        },
+        {
+            "id": "Hermanowicz_2019_a",
+            "alt_id": "8",
+            "entry": "Slav W Hermanowicz. Forecasting the Wuhan coronavirus (2019-nCoV) epidemics using a simple (simplistic) model - update (Feb. 8, 2020). Epidemiology, In Press, February 2020. doi: 10.1101/2020.02.04.20020461. URL http://medrxiv.org/lookup/doi/10.1101/2020.02.04.20020461.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.04.20020461",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.04.20020461",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.04.20020461"
+        },
+        {
+            "id": "Elsevier_2001_a",
+            "alt_id": "9",
+            "entry": "Elsevier, 2001. ISBN 978-0-444-82340-3. doi: 10.1016/S1573-4412(01)05005-X. URL https://linkinghub.elsevier.com/retrieve/pii/S157344120105005X.",
+            "crossref": "https://dx.doi.org/10.1016/S1573-4412(01)05005-X",
+            "scite": "https://scite.ai/reports/10.1016/S1573-4412(01)05005-X"
+        },
+        {
+            "id": "Hu_et+al_2002_a",
+            "alt_id": "10",
+            "entry": "Zixin Hu, Qiyang Ge, Li Jin, and Momiao Xiong. Artificial Intelligence Forecasting of Covid-19 in China. arXiv:2002.07112 [q-bio], February 2020. URL http://arxiv.org/abs/2002.07112.arXiv:2002.07112.",
+            "url": "http://arxiv.org/abs/2002.07112.arXiv:2002.07112",
+            "arxiv_url": "https://arxiv.org/pdf/2002.07112"
+        },
+        {
+            "id": "Li_2020_a",
+            "alt_id": "11",
+            "entry": "Jun Li. A Robust Stochastic Method of Estimating the Transmission Potential of 2019-nCoV. arXiv:2002.03828 [physics, q-bio, stat], February 2020. URL http://arxiv.org/abs/2002.03828.arXiv:2002.03828.",
+            "url": "http://arxiv.org/abs/2002.03828.arXiv:2002.03828",
+            "arxiv_url": "https://arxiv.org/pdf/2002.03828"
+        },
+        {
+            "id": "Li_et+al_2002_a",
+            "alt_id": "12",
+            "entry": "Ming Li, Jie Chen, and Youjin Deng. Scaling features in the spreading of COVID-19. arXiv:2002.09199 [physics, q-bio], February 2020. URL http://arxiv.org/abs/2002.09199.arXiv:2002.09199.",
+            "url": "http://arxiv.org/abs/2002.09199.arXiv:2002.09199",
+            "arxiv_url": "https://arxiv.org/pdf/2002.09199"
+        },
+        {
+            "id": "Li_2002_b",
+            "alt_id": "13",
+            "entry": "Qiang Li and Wei Feng. Trend and forecasting of the COVID-19 outbreak in China. arXiv:2002.05866 [q-bio], February 2020. URL http://arxiv.org/abs/2002.05866.arXiv:2002.05866.",
+            "url": "http://arxiv.org/abs/2002.05866.arXiv:2002.05866",
+            "arxiv_url": "https://arxiv.org/pdf/2002.05866"
+        },
+        {
+            "id": "Liu_et+al_2020_a",
+            "alt_id": "14",
+            "entry": "Zhihua Liu, Pierre Magal, Ousmane Seydi, and Glenn Webb. Predicting the cumulative number of cases for the COVID-19 epidemic in China from early data. arXiv:2002.12298 [math, q-bio], February 2020. URL http://arxiv.org/abs/2002.12298.arXiv:2002.12298.",
+            "url": "http://arxiv.org/abs/2002.12298.arXiv:2002.12298",
+            "arxiv_url": "https://arxiv.org/pdf/2002.12298"
+        },
+        {
+            "id": "Maier_2020_a",
+            "alt_id": "15",
+            "entry": "Benjamin F. Maier and Dirk Brockmann. Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China. arXiv:2002.07572 [physics, q-bio], February 2020. URL http://arxiv.org/abs/2002.07572.arXiv:2002.07572.",
+            "url": "http://arxiv.org/abs/2002.07572.arXiv:2002.07572",
+            "arxiv_url": "https://arxiv.org/pdf/2002.07572"
+        },
+        {
+            "id": "Peng_et+al_2002_a",
+            "alt_id": "16",
+            "entry": "Liangrong Peng, Wuyue Yang, Dongyan Zhang, Changjing Zhuge, and Liu Hong. Epidemic analysis of COVID-19 in China by dynamical modeling. arXiv:2002.06563 [q-bio], February 2020. URL http://arxiv.org/abs/2002.06563.arXiv:2002.06563.",
+            "url": "http://arxiv.org/abs/2002.06563.arXiv:2002.06563",
+            "arxiv_url": "https://arxiv.org/pdf/2002.06563"
+        },
+        {
+            "id": "Rabajante_2002_a",
+            "alt_id": "17",
+            "entry": "Jomar F. Rabajante. Insights from early mathematical models of 2019-nCoV acute respiratory disease (COVID-19) dynamics. arXiv:2002.05296 [q-bio], February 2020. URL http://arxiv.org/abs/2002.05296.arXiv:2002.05296.",
+            "url": "http://arxiv.org/abs/2002.05296.arXiv:2002.05296",
+            "arxiv_url": "https://arxiv.org/pdf/2002.05296"
+        },
+        {
+            "id": "Roosa_et+al_2020_a",
+            "alt_id": "18",
+            "entry": "K. Roosa, Y. Lee, R. Luo, A. Kirpich, R. Rothenberg, J.M. Hyman, P. Yan, and G. Chowell. Real-time forecasts of the 2019-nCoV epidemic in China from February 5th to February 24th, 2020. Infectious Disease Modelling, February 2020. ISSN 24680427. doi: 10.1016/j.idm.2020.02.002. URL https://linkinghub.elsevier.com/retrieve/pii/S2468042720300051.",
+            "crossref": "https://dx.doi.org/10.1016/j.idm.2020.02.002",
+            "scite": "https://scite.ai/reports/10.1016/j.idm.2020.02.002",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.idm.2020.02.002"
+        },
+        {
+            "id": "Vazquez_2006_a",
+            "alt_id": "19",
+            "entry": "Alexei Vazquez. Polynomial growth in age-dependent branching processes with diverging reproductive number. Physical Review Letters, 96(3):038702, January 2006. ISSN 0031-9007, 1079-7114. doi: 10.1103/ PhysRevLett.96.038702. URL http://arxiv.org/abs/cond-mat/0505116.arXiv:cond-mat/0505116.",
+            "url": "http://arxiv.org/abs/cond-mat/0505116.arXiv:cond-mat/0505116",
+            "arxiv_url": "https://arxiv.org/pdf/cond-mat/0505116"
+        },
+        {
+            "id": "Wang_2020_a",
+            "alt_id": "20",
+            "entry": "Vivan Wang. How Many Coronavirus Cases in China? Officials Tweak the Answer, February 2020. URL https://www.nytimes.com/2020/02/12/world/asia/china-coronavirus-cases.html.",
+            "url": "https://www.nytimes.com/2020/02/12/world/asia/china-coronavirus-cases.html"
+        },
+        {
+            "id": "Organization_2019_a",
+            "alt_id": "21",
+            "entry": "World Health Organization. Novel Coronavirus (2019-nCoV) situation reports. Technical Report 1-24, WHO, January 2020. URL https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports.",
+            "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports"
+        },
+        {
+            "id": "Wu_et+al_2019_a",
+            "alt_id": "22",
+            "entry": "Joseph T. Wu, Kathy Leung, and Gabriel M Leung. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet, In Press, Jan 2020. ISSN 01406736. doi: 10.1016/S0140-6736(20)30260-9. URL https://linkinghub.elsevier.com/retrieve/pii/S0140673620302609.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9"
+        },
+        {
+            "id": "Xu_et+al_2002_a",
+            "alt_id": "23",
+            "entry": "Xiaowei Xu, Xiangao Jiang, Chunlian Ma, Peng Du, Xukun Li, Shuangzhi Lv, Liang Yu, Yanfei Chen, Junwei Su, Guanjing Lang, Yongtao Li, Hong Zhao, Kaijin Xu, Lingxiang Ruan, and Wei Wu. Deep Learning System to Screen Coronavirus Disease 2019 Pneumonia. arXiv:2002.09334 [physics], February 2020. URL http://arxiv.org/abs/2002.09334.arXiv:2002.09334.",
+            "url": "http://arxiv.org/abs/2002.09334.arXiv:2002.09334",
+            "arxiv_url": "https://arxiv.org/pdf/2002.09334"
+        },
+        {
+            "id": "Zhao_et+al_2019_a",
+            "alt_id": "24",
+            "entry": "Shi Zhao, Qianyin Lin, Jinjun Ran, Salihu S Musa, Guangpu Yang, Weiming Wang, Yijun Lou, Daozhou Gao, Lin Yang, Daihai He, and Maggie H Wang. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. International Journal of Infectious Diseases, In Press, January 2020. ISSN 12019712. doi: 10.1016/j.ijid.2020.01.050. URL http://www.sciencedirect.com/science/article/pii/ S1201971220300539.",
+            "crossref": "https://dx.doi.org/10.1016/j.ijid.2020.01.050",
+            "scite": "https://scite.ai/reports/10.1016/j.ijid.2020.01.050",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.ijid.2020.01.050"
+        },
+        {
+            "id": "Zhou_et+al_2020_a",
+            "alt_id": "25",
+            "entry": "Yimin Zhou, Zuguo Chen, Xiangdong Wu, Zengwu Tian, Liang Cheng, and Lingjian Ye. The Outbreak Evaluation of COVID-19 in Wuhan District of China. arXiv:2002.09640 [physics, q-bio], February 2020. URL http://arxiv.org/abs/2002.09640.arXiv:2002.09640.",
+            "url": "http://arxiv.org/abs/2002.09640.arXiv:2002.09640",
+            "arxiv_url": "https://arxiv.org/pdf/2002.09640"
+        }
+    ],
+    "facts": [
+        "an update to the original paper posted on 2/17/20 -- the",
+        "that predicted by the network model",
+        "the approach followed by many studies on the epidemiology",
+        "this assumption leads to exponential growth",
+        "a failure of the current containment efforts while negative deviations might indicate the beginnings of the end of the pandemic",
+        "that predicted by the network model of Vazquez",
+        "which are more conservative in this small-sample context",
+        "robust standard errors are calculated to account for heteroskedasticity",
+        "The degrees of freedom is a function of this n",
+        "The standard errors are quite small for these calculations",
+        "in an epidemic follows a power-law with an exponential cutoff",
+        "as a function of the number of days beginning with January 21",
+        "the WHO first started reporting on this pandemic in its Situation Reports",
+        "the total number of cases should grow as nt/\u03c4",
+        "which depends on the characteristics of the particular disease",
+        "who has granted medRxiv a license to display the preprint in perpetuity",
+        "while the number of confirmed cases shown in Fig",
+        "which gave an outsized jump of 254 cases to a total",
+        "In recent days there has been a drop-off in the growth",
+        "power-law growth better approximates the number of deaths than exponential growth",
+        "a tool to monitor whether a fundamental change is occurring",
+        "that predicted by the network model of \\citet{vazquez-polynomial-2006",
+        "with the deaths in China shifted by 31 days",
+        "that a power-law provides a better fit to the data than a simple quadratic"
+    ],
+    "claims": [
+        "We give an update to the original paper posted on 2/17/20 -- now (as of 3/1/20) the China deaths are rapidly decreasing, and we find an exponential decline to the power law similar to the that predicted by the network model of  \\citet{vazquez_polynomial_2006}",
+        "We show that the current growth closely follows power-law kinetics, indicative of an underlying fractal or small-world network of connections between susceptible and infected individuals",
+        "In Fig. 2 we show the number of deaths in China each day, now plotted on a log-linear plot, and we see a sharp cutoff during the last week or so",
+        "In Fig. 3, we show a log-linear plot of the deaths for the past 6 days, along with the deaths in China shifted by 31 days, and one can see somewhat similar behavior but fortunately with a downturn recently",
+        "Li et al [2020] confirm the power-law behavior we proposed for deaths in China, and also find power-law behavior (but with different exponents) for the number of infections and the number of recoveries",
+        "Fig. 5 we show a log-normal plot of the mortality data, and the behavior is clearly not linear as it would be for exponential growth",
+        "We find that the data are very well fit by assuming a power-law behavior with an exponent somewhat greater than two, as shown in the log-log plot in Fig. 5",
+        "We focus our analysis on deaths to circumvent some of the ambiguities of reporting confirmed cases, assuming that deaths are a more reliable indication of the extent of the disease. (However, there are reports that some deaths might be reported as due to other causes, such as severe pneumonia, and not attributed to this virus, so these numbers may also be inaccurate",
+        "We find that a power-law provides a better fit to the data than a simple quadratic, as postulated by"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "<a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a>] developed a network model in which the daily number of new cases n(t) in an epidemic follows a power-law with an exponential cutoff: n(t) = Ktx e\u2212t/t0 (1)",
+        "Li et al [2020] confirm the power-law behavior we proposed for deaths in China, and find power-law behavior for the number of infections and the number of recoveries",
+        "If each person infects n other people where n > 1, the total number of cases should grow as nt/\u03c4 = eat , where \u03c4 is the incubation time, which depends on the characteristics of the particular disease",
+        "Deviations above this power-law behavior might indicate that the pandemic is expanding from the current level of control, while deviations below might indicate that the disease is starting to fade. This analysis is early in the outbreak of COVID-19 and cannot predict the length of the outbreak nor the final fatality. It suggests that under current conditions, power-law growth better approximates the number of deaths than exponential growth, and may provide a tool to monitor whether a fundamental change is occurring"
+    ],
+    "top_statements": [
+        "We give an update to the original paper posted on 2/17/20 \u2013 now the China deaths are rapidly decreasing, and we find an exponential decline to the power law similar to the that predicted by the network model of <a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\"><a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a></a>]",
+        "<a class=\"ref-link\" id=\"cVazquez_2006_a\" href=\"#rVazquez_2006_a\">Vazquez [2006</a>] developed a network model in which the daily number of new cases n(t) in an epidemic follows a power-law with an exponential cutoff: n(t) = Ktx e\u2212t/t0 (1)",
+        "Li et al [2020] confirm the power-law behavior we proposed for deaths in China, and find power-law behavior for the number of infections and the number of recoveries",
+        "If each person infects n other people where n > 1, the total number of cases should grow as nt/\u03c4 = eat , where \u03c4 is the incubation time, which depends on the characteristics of the particular disease",
+        "Deviations above this power-law behavior might indicate that the pandemic is expanding from the current level of control, while deviations below might indicate that the disease is starting to fade. This analysis is early in the outbreak of COVID-19 and cannot predict the length of the outbreak nor the final fatality. It suggests that under current conditions, power-law growth better approximates the number of deaths than exponential growth, and may provide a tool to monitor whether a fundamental change is occurring"
+    ],
+    "headline": "If each person infects n other people where n > 1, the total number of cases should grow as nt/\u03c4 = eat, where \u03c4 is the incubation time, which depends on the characteristics of the particular disease",
+    "contexts": [],
+    "abbreviations": {}
+}

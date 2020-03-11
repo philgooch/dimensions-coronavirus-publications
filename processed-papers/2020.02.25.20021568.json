@@ -1,0 +1,842 @@
+{
+    "filename": "2020.02.25.20021568.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1352042,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.25.20021568",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/03/01/2020.02.25.20021568.full.pdf"
+        },
+        "title": "Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography: a prospective study",
+        "author": "Jun Chen, Lianlian Wu, Jun Zhang, Liang Zhang, Dexin Gong, Yilin Zhao, Shan Hu, Yonggui Wang, Xiao Hu, Biqing Zheng, Kuo Zhang, Huiling Wu, Zehua Dong, Youming Xu, Yijie Zhu, Xi Chen, Lilei Yu, Honggang Yu",
+        "date": 2020,
+        "affiliations": [
+            "Department of Internal Medicine, Renmin Hospital of Wuhan University, Wuhan, China (L Wu 8 MD, J Zhang MD, D Gong MD, H Wu MD, Z Dong MD, Y Xu MD, Y Zhu MD, X Chen MM,",
+            "Prof L Yu MD, Prof H Yu MD)",
+            "Department of Radiology, Renmin Hospital of Wuhan University, Wuhan, China (J Chen MD, L",
+            "Zhang MM, Y Zhao MM)",
+            "Wuhan EndoAngel Medical Technology Company, Wuhan, China (S Hu PhD, X Hu BE, B Zheng 13 ME, Kuo Zhang ME)",
+            "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision,",
+            "Renmin Hospital of Wuhan University, Wuhan, China (L Wu MD, J Zhang MD, D Gong MD, H 16 Wu MD, Z Dong MD, Y Xu MD, Y Zhu MD, X Chen MM, Prof H Yu MD)",
+            "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan",
+            "University, Wuhan, China (L Wu MD, J Zhang MD, D Gong MD, H Wu MD, Z Dong MD, Y Xu 19 MD, Y Zhu MD, X Chen MM, Prof H Yu MD) 20 Hubei Key Laboratory of Critical Zone Evolution, School of Geography and Information 21 Engineering, China University of Geosciences (Y Wang PhD) 22",
+            "Prof Honggang Yu, Department of Internal Medicine, Renmin Hospital of Wuhan University. 99 26 Zhangzhidong Road, Wuhan 430060, Hubei Province, China. Tel: +86 13871281899, Fax: 27 027-88042292, E-mail: yuhonggang1968@163.com. 28 Prof Lilei Yu, Department of Internal Medicine, Renmin Hospital of Wuhan University. 99 29 Zhangzhidong Road, Wuhan 430060, Hubei Province, China. Tel: +86 15827537180, Fax: 30 027-88042292, E-mail: lileiyu@whu.edu.cn. 31 32 33 34 35 36 37 38 39 40 41 42 43 44"
+        ],
+        "abstract": "In December 2019, a new coronavirus infection disease (hereinafter referred to as COVID-19) was first reported in Wuhan. Subsequently, the outbreak began to spread widely in China and even abroad.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "keywords": [
+            "2019 novel coronavirus pneumonia",
+            "Deep learning",
+            "Computed tomography"
+        ],
+        "references": "@article{s-a,\n  author = {S, Hui D. and A, Madani T. and F, Ntoumi},\n  title = {The continuing COVID-19 epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan, China},\n  journal = {International journal of infectious diseases},\n  publisher = {IJID: official publication of the International},\n  more-authors = {true},\n  language = {}\n}\n@misc{unknown-a,\n  title = {Society for Infectious Diseases 2020; 91},\n  pages = {264},\n  language = {}\n}\n@article{holshue2020a,\n  author = {Holshue, M.L. and DeBolt, C. and Lindquist, S.},\n  title = {First Case of 2019 Novel Coronavirus in the United States},\n  journal = {N Engl J Med},\n  date = {2020-01},\n  volume = {31},\n  doi = {doi: 10.1056/NEJMoa2001191},\n  more-authors = {true},\n  language = {}\n}\n@article{rothe2020a,\n  author = {Rothe, C. and Schunk, M. and Sothmann, P.},\n  title = {Transmission of COVID-19 Infection from an Asymptomatic Contact in Germany},\n  journal = {N Engl J Med},\n  date = {2020-01},\n  doi = {doi: 10.1056/NEJMc2001468},\n  more-authors = {true},\n  source = {30},\n  language = {}\n}\n@article{huang2020a,\n  author = {Huang, C. and Wang, Y. and Li, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {The Lancet},\n  date = {2020-01},\n  volume = {24},\n  doi = {doi: 10.1016/S0140-6736(20)30183-5},\n  more-authors = {true},\n  language = {}\n}\n@misc{guan-a,\n  author = {Guan, H. and Xiong, Y. and Shen, N. and et},\n  title = {Clinical and thin section CT features of patients with COVID-19 pneumonia in Wuhan. Radiologic Practice 2020},\n  language = {}\n}\n@article{chen2020a,\n  author = {Chen, N. and Zhou, M. and Dong, X.},\n  title = {Epidemiological and clinical characteristics of 99 cases of novel coronavirus pneumonia in Wuhan, China: a descriptive study},\n  journal = {The Lancet},\n  date = {2020-01},\n  doi = {doi: 10.1016/S0140-6736(20)30211-7},\n  more-authors = {true},\n  source = {30},\n  language = {}\n}\n@techreport{unknown-b,\n  url = {http://www.nhc.gov.cn/yzygj/s7652m/202002/e84bd30142ab4d8982326326e4db22ea.shtml},\n  institution = {National Health and Health Commission of China}\n}\n@techreport{unknown-c,\n  title = {China},\n  url = {http://en.nhc.gov.cn/2020-02/13/c_76512.htm},\n  language = {},\n  institution = {National Health and Health Commission of}\n}\n@techreport{unknown-d,\n  url = {http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200216_2038684.shtml},\n  institution = {Health Commission of Hubei Province}\n}\n@book{of-a,\n  author = {of Health, China Ministry},\n  title = {China Health Statistical Yearbook 2018},\n  publisher = {Peking Union Medical College Press 2018: 34,42 [in Chinese},\n  language = {},\n  address = {Beijing}\n}\n@article{liu2019a,\n  author = {Liu, Y. and Liu, G. and Zhang, Q.},\n  title = {Deep learning and medical diagnosis},\n  journal = {The Lancet},\n  date = {2019},\n  volume = {394},\n  pages = {1709\u20131710},\n  number = {10210},\n  language = {}\n}\n@article{gong2020a,\n  author = {Gong, D. and Wu, L. and Zhang, J.},\n  title = {Detection of colorectal adenomas with a real-time computer-aided system (ENDOANGEL): a randomised controlled study},\n  journal = {Lancet Gastroenterol Hepatol},\n  date = {2020-01-22},\n  doi = {doi: 10.1016/S2468-1253(19)30413-3},\n  more-authors = {true},\n  language = {}\n}\n@incollection{wu2019a,\n  author = {Wu, L. and Zhang, J. and Zhou, W.},\n  title = {Randomised controlled trial of WISENSE, a real-time quality improving system for monitoring blind spots during esophagogastroduodenoscopy},\n  source = {Gut},\n  date = {2019},\n  volume = {68},\n  pages = {2161\u20132169},\n  more-authors = {true},\n  number = {12},\n  language = {}\n}\n@article{chen-a,\n  author = {Chen, D. and Wu, L. and Li, Y.},\n  title = {Comparing blind spots of unsedated ultrafine, sedated, and unsedated conventional gastroscopy with and without artificial intelligence: a prospective, single-blind, 3-parallel-group, randomized, single-center trial},\n  journal = {Gastrointestinal endoscopy},\n  volume = {2020},\n  pages = {332\u2013339},\n  more-authors = {true},\n  number = {91},\n  language = {}\n}\n@article{zhou-a,\n  author = {Zhou, J. and Wu, L. and Wan, X.},\n  title = {A novel artificial intelligence system for the assessment of bowel preparation (with video)},\n  journal = {Gastrointestinal Endoscopy},\n  volume = {2020},\n  pages = {428\u2013435},\n  more-authors = {true},\n  number = {91},\n  language = {}\n}\n@article{wu2019b,\n  author = {Wu, L. and Zhou, W. and Wan, X.},\n  title = {A deep neural network improves endoscopic detection of early gastric cancer without blind spots},\n  journal = {Endoscopy},\n  date = {2019},\n  volume = {51},\n  pages = {522\u2013531},\n  more-authors = {true},\n  number = {6},\n  language = {}\n}\n@misc{unknown-e,\n  title = {The Central People\u2019s Government of the People\u2019s Republic of China. The Law of the People's},\n  url = {http://www.gov.cn/banshi/2005-08/01/content_19023.htm},\n  language = {}\n}\n@techreport{unknown-f,\n  url = {https://www.cdc.gov/corona-virus/COVID-19/lab/rt-pcr-detection-instructions.html},\n  institution = {Centers for Disease Control and Prevention}\n}\n@incollection{deng2009a,\n  author = {Deng, J. and Dong, W. and Socher, R.},\n  title = {ImageNet: A large-scale hierarchical image database},\n  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},\n  date = {2009},\n  pages = {248\u2013255},\n  more-authors = {true},\n  language = {}\n}\n@book{zhou2018a,\n  author = {Zhou, Z. and R, Siddiquee M.M. and Tajbakhsh, N.},\n  title = {Unet++: A nested u-net architecture for medical image segmentation},\n  publisher = {Springer Cham},\n  date = {2018},\n  pages = {3\u201311},\n  more-authors = {true},\n  language = {}\n}\n@misc{unknown-g,\n  title = {The National Health and Health Commission of China},\n  url = {http://en.nhc.gov.cn/2020-02/07/c_76323.htm},\n  language = {}\n}\n@article{c-a,\n  author = {C, Cheng V.C. and C, Wong S. and W, To K.K.},\n  title = {Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China},\n  journal = {Journal of Hospital},\n  more-authors = {true},\n  language = {}\n}\n@article{tang-a,\n  author = {Tang, B. and Wang, X. and Li, Q.},\n  title = {Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions},\n  journal = {Journal of Clinical Medicine},\n  volume = {2020},\n  pages = {462},\n  more-authors = {true},\n  number = {9},\n  language = {}\n}\n@misc{riou-a,\n  author = {Riou, J. and L, Althaus C.},\n  title = {Pattern of early human-to-human transmission of Wuhan 2019-nCoV},\n  language = {}\n}\n@misc{prasse-a,\n  author = {Prasse, B. and A, Achterberg M. and Ma, L.},\n  title = {Network-Based Prediction of the 2019-nCoV Epidemic Outbreak in the Chinese Province Hubei. arXiv 2020},\n  more-authors = {true},\n  language = {}\n}\n@misc{boldog-a,\n  author = {Boldog, P. and Tekeli, T. and Vizi, Z.},\n  title = {Risk assessment of novel coronavirus 2019-nCoV outbreaks outside China. medRxiv 2020},\n  more-authors = {true},\n  language = {}\n}\n@article{ardila2019a,\n  author = {Ardila, D. and P, Kiraly A. and Bharadwaj, S.},\n  title = {End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography},\n  journal = {Nature medicine},\n  date = {2019},\n  volume = {25},\n  pages = {954\u2013961},\n  more-authors = {true},\n  number = {6},\n  language = {}\n}\n@book{j2019a,\n  author = {J, Chae K. and Y, Jin G. and B, Ko S.},\n  title = {Deep Learning for the Classification of Small (\u2264 2 cm) Pulmonary Nodules on CT Imaging: A Preliminary Study},\n  publisher = {Academic radiology},\n  date = {2019},\n  more-authors = {true},\n  language = {}\n}\n@article{m-a,\n  author = {M, Chen Z. and F, Fu J. and Q, Shu},\n  title = {Diagnosis and treatment recommendations for pediatric respiratory infection caused by the 2019 novel coronavirus},\n  journal = {World Journal of Pediatrics},\n  more-authors = {true},\n  language = {}\n}\n@techreport{unknown-h,\n  url = {http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200215_2028355.shtml},\n  institution = {Health Commission of Hubei Province}\n}\n",
+        "links": [
+            "http://121.40.75.149/znyx-ncov/index"
+        ],
+        "emails": [
+            "lileiyu@whu.edu.cn",
+            "yuhonggang1968@163.com"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - S, Hui D.\nAU  - A, Madani T.\nAU  - F, Ntoumi\nTI  - The continuing COVID-19 epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan, China\nT2  - International journal of infectious diseases\nPB  - IJID: official publication of the International\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nTI  - Society for Infectious Diseases 2020; 91\nSP  - 264\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Holshue, M.L.\nAU  - DeBolt, C.\nAU  - Lindquist, S.\nTI  - First Case of 2019 Novel Coronavirus in the United States\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020/01\nVL  - 31\nDO  - 10.1056/NEJMoa2001191\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rothe, C.\nAU  - Schunk, M.\nAU  - Sothmann, P.\nTI  - Transmission of COVID-19 Infection from an Asymptomatic Contact in Germany\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020/01\nDO  - 10.1056/NEJMc2001468\nC1  - true\nT2  - 30\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - The Lancet\nPY  - 2020\nDA  - 2020/01\nVL  - 24\nDO  - 10.1016/S0140-6736(20)30183-5\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Guan, H.\nAU  - Xiong, Y.\nAU  - Shen, N.\nAU  - et\nTI  - Clinical and thin section CT features of patients with COVID-19 pneumonia in Wuhan. Radiologic Practice 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, N.\nAU  - Zhou, M.\nAU  - Dong, X.\nTI  - Epidemiological and clinical characteristics of 99 cases of novel coronavirus pneumonia in Wuhan, China: a descriptive study\nT2  - The Lancet\nPY  - 2020\nDA  - 2020/01\nDO  - 10.1016/S0140-6736(20)30211-7\nC1  - true\nT2  - 30\nLA  - \nER  - \n\nTY  - RPRT\nUR  - http://www.nhc.gov.cn/yzygj/s7652m/202002/e84bd30142ab4d8982326326e4db22ea.shtml\nC1  - National Health and Health Commission of China\nER  - \n\nTY  - RPRT\nTI  - China\nUR  - http://en.nhc.gov.cn/2020-02/13/c_76512.htm\nLA  - \nC1  - National Health and Health Commission of\nER  - \n\nTY  - RPRT\nUR  - http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200216_2038684.shtml\nC1  - Health Commission of Hubei Province\nER  - \n\nTY  - BOOK\nAU  - of Health, China Ministry\nTI  - China Health Statistical Yearbook 2018\nPB  - Peking Union Medical College Press 2018: 34,42 [in Chinese\nLA  - \nCY  - Beijing\nER  - \n\nTY  - JOUR\nAU  - Liu, Y.\nAU  - Liu, G.\nAU  - Zhang, Q.\nTI  - Deep learning and medical diagnosis\nT2  - The Lancet\nPY  - 2019\nDA  - 2019\nVL  - 394\nSP  - 1709\nEP  - 1710\nIS  - 10210\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gong, D.\nAU  - Wu, L.\nAU  - Zhang, J.\nTI  - Detection of colorectal adenomas with a real-time computer-aided system (ENDOANGEL): a randomised controlled study\nT2  - Lancet Gastroenterol Hepatol\nPY  - 2020\nDA  - 2020/01/22\nDO  - 10.1016/S2468-1253(19)30413-3\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Wu, L.\nAU  - Zhang, J.\nAU  - Zhou, W.\nTI  - Randomised controlled trial of WISENSE, a real-time quality improving system for monitoring blind spots during esophagogastroduodenoscopy\nT2  - Gut\nPY  - 2019\nDA  - 2019\nVL  - 68\nSP  - 2161\nEP  - 2169\nC1  - true\nIS  - 12\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, D.\nAU  - Wu, L.\nAU  - Li, Y.\nTI  - Comparing blind spots of unsedated ultrafine, sedated, and unsedated conventional gastroscopy with and without artificial intelligence: a prospective, single-blind, 3-parallel-group, randomized, single-center trial\nT2  - Gastrointestinal endoscopy\nVL  - 2020\nSP  - 332\nEP  - 339\nC1  - true\nIS  - 91\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, J.\nAU  - Wu, L.\nAU  - Wan, X.\nTI  - A novel artificial intelligence system for the assessment of bowel preparation (with video)\nT2  - Gastrointestinal Endoscopy\nVL  - 2020\nSP  - 428\nEP  - 435\nC1  - true\nIS  - 91\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, L.\nAU  - Zhou, W.\nAU  - Wan, X.\nTI  - A deep neural network improves endoscopic detection of early gastric cancer without blind spots\nT2  - Endoscopy\nPY  - 2019\nDA  - 2019\nVL  - 51\nSP  - 522\nEP  - 531\nC1  - true\nIS  - 6\nLA  - \nER  - \n\nTY  - GEN\nTI  - The Central People\u2019s Government of the People\u2019s Republic of China. The Law of the People's\nUR  - http://www.gov.cn/banshi/2005-08/01/content_19023.htm\nLA  - \nER  - \n\nTY  - RPRT\nUR  - https://www.cdc.gov/corona-virus/COVID-19/lab/rt-pcr-detection-instructions.html\nC1  - Centers for Disease Control and Prevention\nER  - \n\nTY  - CHAP\nAU  - Deng, J.\nAU  - Dong, W.\nAU  - Socher, R.\nTI  - ImageNet: A large-scale hierarchical image database\nT2  - IEEE Conference on Computer Vision and Pattern Recognition\nPY  - 2009\nDA  - 2009\nSP  - 248\nEP  - 255\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Zhou, Z.\nAU  - R, Siddiquee M.M.\nAU  - Tajbakhsh, N.\nTI  - Unet++: A nested u-net architecture for medical image segmentation\nPB  - Springer Cham\nPY  - 2018\nDA  - 2018\nSP  - 3\nEP  - 11\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nTI  - The National Health and Health Commission of China\nUR  - http://en.nhc.gov.cn/2020-02/07/c_76323.htm\nLA  - \nER  - \n\nTY  - JOUR\nAU  - C, Cheng V.C.\nAU  - C, Wong S.\nAU  - W, To K.K.\nTI  - Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China\nT2  - Journal of Hospital\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tang, B.\nAU  - Wang, X.\nAU  - Li, Q.\nTI  - Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions\nT2  - Journal of Clinical Medicine\nVL  - 2020\nSP  - 462\nC1  - true\nIS  - 9\nLA  - \nER  - \n\nTY  - GEN\nAU  - Riou, J.\nAU  - L, Althaus C.\nTI  - Pattern of early human-to-human transmission of Wuhan 2019-nCoV\nLA  - \nER  - \n\nTY  - GEN\nAU  - Prasse, B.\nAU  - A, Achterberg M.\nAU  - Ma, L.\nTI  - Network-Based Prediction of the 2019-nCoV Epidemic Outbreak in the Chinese Province Hubei. arXiv 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Boldog, P.\nAU  - Tekeli, T.\nAU  - Vizi, Z.\nTI  - Risk assessment of novel coronavirus 2019-nCoV outbreaks outside China. medRxiv 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ardila, D.\nAU  - P, Kiraly A.\nAU  - Bharadwaj, S.\nTI  - End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography\nT2  - Nature medicine\nPY  - 2019\nDA  - 2019\nVL  - 25\nSP  - 954\nEP  - 961\nC1  - true\nIS  - 6\nLA  - \nER  - \n\nTY  - BOOK\nAU  - J, Chae K.\nAU  - Y, Jin G.\nAU  - B, Ko S.\nTI  - Deep Learning for the Classification of Small (\u2264 2 cm) Pulmonary Nodules on CT Imaging: A Preliminary Study\nPB  - Academic radiology\nPY  - 2019\nDA  - 2019\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - M, Chen Z.\nAU  - F, Fu J.\nAU  - Q, Shu\nTI  - Diagnosis and treatment recommendations for pediatric respiratory infection caused by the 2019 novel coronavirus\nT2  - World Journal of Pediatrics\nC1  - true\nLA  - \nER  - \n\nTY  - RPRT\nUR  - http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200215_2028355.shtml\nC1  - Health Commission of Hubei Province\nER  - \n\n",
+        "author_conclusions": [
+            "In summary, the deep learning-based model achieved a comparable performance with expert radiologist using much shorter time. It holds great potential to improve the efficiency of diagnosis, relieve the pressure of frontline radiologists, accelerates the diagnosis, isolation and treatment of"
+        ],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Clinical characteristics of enrolled patients of COVID19 pneumonia"
+            },
+            {
+                "id": "2",
+                "caption": "Clinical characteristics of enrolled control patients"
+            },
+            {
+                "id": "3",
+                "caption": "The performance of the deep learning model on both retrospective and prospective 259 dataset"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Workflow diagram for the development and evaluation of the model for detecting 444 COVID19 pneumonia. 445 446"
+            },
+            {
+                "id": "2",
+                "caption": "Representative images of COVID19 pneumonia. More than six common Computed tomography (CT) features of COVID19 pneumonia were covered in selected images. 1a-1d, the lesions were mainly ground-glass-like, with thickened blood vessels walking and including gas-bronchial signs in 1c; 2a-2d, the lesions were mainly ground glass changes, and paving stone-like changes were observed on 2d; 3a-3c, the lesions become solid with a large range, and air-bronchial signs are seen inside; 4, the lesion is located in the lower lobe of both lungs, and is mainly grid-like change with ground glass lesion; 5a-5b, the lesions are mainly consolidation; 6a-6b, the lesions are mainly large ground glass shadows, showing white lung-like changes, with air-bronchial signs. 458 459 460 461"
+            },
+            {
+                "id": "3",
+                "caption": "Raw images were firstly input into the model, and after processing of the model, prediction boxes framing suspicious lesions were output. Valid areas were further extracted and unnecessary fields were filter out to avoid possible false positives. To predict by case, a logic linking the prediction results of consecutive images was added. CT images with the above prediction results were divided into four quadrants, and results would be output only when three consecutive images were predicted to have lesions in the same quadrant. 162 Testing of the model in retrospective data To evaluate the performance of the model on CT scan images, five metrics including the accuracy, sensitivity, specificity, PPV and NPV were calculated as follows: accuracy = true predictions/total number of cases, sensitivity = true positive/positive, specificity = true negative/negative, positive prediction value (PPV) = true positive/(true positive + false positive), negative prediction value (NPV) = true negative/(true negative + false negative). The \u201ctrue positive\u201d is the number of correctly predicted COVID-19 pneumonia cases/images, \u201cfalse positive\u201d is the number of mistakenly predicted COVID-19 pneumonia cases/images, \u201cpositive\u201d is the number of cases/images of COVID-19 pneumonia patients, \u201ctrue negative\u201d is the number of correctly predicted non-COVID-19 pneumonia cases/images, \u201cfalse negative\u201d is the number of mistakenly predicted non-COVID-19 pneumonia cases/images and \u2018negative\u2019 is the number of non-COVID-19 pneumonia cases/images enrolled. For image-based metrics, 636 images 174 containing infection lesions identified by radiologists among 11 patients of COVID-19 pneumonia 175 were used as the positive sample, and 9369 CT scan images from 31 patients of non-COVID-19 176 pneumonia were used as the negative sample. Processing and prediction schematic of the model. Raw images were firstly input into the model, and after processing of the model, prediction boxes framing suspicious lesions were output. Valid areas were further extracted and unnecessary fields were filter out to avoid possible false positives. To predict by case, a logic linking the prediction results of consecutive images was added. Computed tomography (CT) images with the above prediction results were divided into four quadrants, and results would be output only when three consecutive images were predicted to have lesions in the same quadrant. 470"
+            },
+            {
+                "id": "4",
+                "caption": "Representative images of the model\u2019s predictions. A. Computed tomography (CT) images of COVID19 pneumonia. The predictions between the artificial intelligence model and radiologists were consistent. Green boxes, labels from radiologists; red boxes, labels from the model. B. CT images of the control. The first image is an ordinary bacterial pneumonia, showing a consolidation of the right lower lobe. The second image has a tumorous lesion in the lung, showing a mass in the left upper lobe, with burrs seen at the edges, and showing leaf-like growth with vacuoles inside. The third image is a secondary pulmonary tuberculosis, showing a left apical fibrous cord. The fourth image is a bronchiectasis complicated with infection, showing bronchodilation and expansion, cystic changes, and surrounding patches of infection. The fifth image shows normal lungs"
+            },
+            {
+                "id": "5",
+                "caption": "Main interface of the open-access artificial intelligence platform which provides 484 fast and sensitive assistance for detecting COVID19 pneumonia. 485 (http://121.40.75.149/znyx-ncov/index) 486 487 488"
+            },
+            {
+                "id": "6",
+                "caption": "Abstract diagram. Computed tomography (CT) is the most efficient modality for screening and clinically diagnosing COVID-19 pneumonia. However, compared to the needs of the patients, the number of radiologists is quite small. After enrolling artificial intelligence in identifying COVID-19 pneumonia in CT images, the efficiency of diagnosis is greatly improved. The artificial intelligence holds great potential to relieve the pressure of frontline radiologists, accelerates the diagnosis, isolation and treatment of COVID19 patients, and therefore contribute to the control of the epidemic. 498"
+            },
+            {
+                "id": "Supplementary 1",
+                "caption": "The training curves of UNet++ for extracting valid areas in Computed tomography images"
+            },
+            {
+                "id": "Supplementary 2",
+                "caption": "The training curves of UNet++ for detecting suspicious lesions in Computed tomography images"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.25.20021568.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20021568.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20021568.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20021568.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20021568.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20021568.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.25.20021568.full/img-005.png"
+        ]
+    },
+    "sections": {
+        "background": [
+            "Computed tomography (CT) is the preferred imaging method for diagnosing 2019 novel coronavirus (COVID19) pneumonia. Our research aimed to construct a system based on deep learning for detecting COVID-19 pneumonia on high resolution CT, relieve working pressure of radiologists and contribute to the control of the epidemic."
+        ],
+        "methods": [
+            "For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed. Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model."
+        ],
+        "findings": [
+            "The model achieved a per-patient sensitivity of 100%, specificity of 93.55%, accuracy of 95.24%, PPV of 84.62%, and NPV of 100%; a per-image sensitivity of 94.34%, specificity of<br/><br/>99.16%, accuracy of 98.85%, PPV of 88.37%, and NPV of 99.61% in retrospective dataset. For 27 prospective patients, the model achieved a comparable performance to that of expert radiologist.<br/><br/>With the assistance of the model, the reading time of radiologists was greatly decreased by 65%."
+        ],
+        "conclusion": [
+            "The deep learning model showed a comparable performance with expert radiologist, and greatly improve the efficiency of radiologists in clinical practice. It holds great potential to relieve the pressure of frontline radiologists, improve early diagnosis, isolation and treatment, and thus contribute to the control of the epidemic.<br/><br/>Keywords: 2019 novel coronavirus pneumonia, Deep learning, Computed tomography"
+        ],
+        "introduction": [
+            "In December 2019, a new coronavirus infection disease (hereinafter referred to as COVID-19) was first reported in Wuhan. Subsequently, the outbreak began to spread widely in China and even abroad.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]<br/><br/>The clinical manifestations of the COVID-19 pneumonia is complicated and could be characterized as fever, cough, myalgia, headache, and gastrointestinal symptoms onset.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]<br/><br/>Although the nucleic acid detection was considered determinant for identifying the COVID-19 infection and more rapid detection kit for the novel coronavirus has come into mass production, computed tomography (CT) scan is still the most efficient modality for detecting and evaluating the severity of pneumonia.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] An update series demonstrate that CT findings were positive in all laboratory-confirmed COVID-19 patients, even in the early stage.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] In the fifth version of diagnostic manual of COVID-19 launched by the National Health and Health Commission of"
+        ],
+        "method": [
+            "Patients<br/><br/>We first retrospectively collected 46,096 anonymous images from 106 admitted patients, including patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) for model development. The patients\u2019 CT scan images and reports, history, clinical manifestations, physical findings, and viral pathogen results were all collected. For prospective patients, 27 consecutive patients undergoing CT scans were enrolled in the designated CT rooms in Feb 5, 2020 in Renmin<br/><br/>Hospital of Wuhan University.<br/><br/>This study was approved by the Ethics Committee of Renmin Hospital of Wuhan University.<br/><br/>Written informed consent was provided by all prospective participants. Because of virus contamination, the signed informed consents were carefully sealed and kept in the specific place according to the Law of the People's Republic of China on Infectious Disease Prevention and"
+        ],
+        "supplementary": [
+            "Figure 2, respectively. The prediction schematic of the model was shown in<br/><br/>Testing of the model in retrospective data<br/><br/>To evaluate the performance of the model on CT scan images, five metrics including the accuracy, sensitivity, specificity, PPV and NPV were calculated as follows: accuracy = true predictions/total number of cases, sensitivity = true positive/positive, specificity = true negative/negative, positive prediction value (PPV) = true positive/(true positive + false positive), negative prediction value (NPV) = true negative/(true negative + false negative). The \u201ctrue positive\u201d is the number of correctly predicted COVID-19 pneumonia cases/images, \u201cfalse positive\u201d is the number of mistakenly predicted COVID-19 pneumonia cases/images, \u201cpositive\u201d is the number of cases/images of COVID-19 pneumonia patients, \u201ctrue negative\u201d is the number of correctly predicted non-COVID-19 pneumonia cases/images, \u201cfalse negative\u201d is the number of mistakenly predicted non-COVID-19 pneumonia cases/images and \u2018negative\u2019 is the number of non-COVID-19 pneumonia cases/images enrolled. For image-based metrics, 636 images containing infection lesions identified by radiologists among 11 patients of COVID-19 pneumonia were used as the positive sample, and 9369 CT scan images from 31 patients of non-COVID-19 pneumonia were used as the negative sample.<br/><br/>Evaluating the efficiency of radiologist in traditional way<br/><br/>To evaluate the performance and cost of time of radiologist against 2019-CoV pneumonia, prospectively consecutive patients undergoing CT scans were enrolled in the designated CT rooms in Feb 5, 2020 in Renmin Hospital of Wuhan University. An expert radiologist was required to read all CT images of enrolled patients using the working computer, and determine if each patient has viral pneumonia. The research assistant used a stopwatch to record the expert\u2019s reading time.",
+            "Figure 1. The training curves of UNet++ for extracting valid areas in<br/><br/>Computed tomography images.",
+            "Figure 2. The training curves of UNet++ for detecting suspicious lesions in"
+        ],
+        "results": [
+            "The baseline characteristics and CT findings of 51 patients of 2019-CoV pneumonia and 55 control patients in retrospective dataset were shown in Table 1 and Table 2, respectively. Baseline characteristics were comparable between training and testing datasets. The 31 control patients in retrospective testing dataset include 2 lung cancer, 4 tuberculosis, 2 bronchiectasis, 2 nonviral pneumonia, 1 lung bullae and 20 with no obvious finding in CT scan.<br/><br/>All patients (n=51)<br/><br/>Training set (n=40)<br/><br/>Testing set (n=11)    (38, 69)<br/><br/>54.5 (41.5, 71.25)    (34.5, 65.5)    Men (35.3)    (27.5)    (63.6)    Women (64.7)"
+        ],
+        "discussion": [
+            "As of Feb 14, 2020, the national health commission had reported 66,492 confirmed cases, 1,523 deaths and 8,969 suspected cases.[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] In the face of such large number of patients and high contagiosity of the novel coronavirus (with an estimated reproduction number R0 of 2.2~6.47), timely diagnosis and isolation are the keys to prevent further spread of the virus.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>-<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>] CT scan is the most efficient modality for screening and clinically diagnosing COVID-19 pneumonia.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]<br/><br/>However, compared to the needs of the patients, the number of radiologists is quite small, especially in Hubei province, China, which could greatly delay the diagnosis and isolation of patients, affect patient\u2019s treatment and prognosis, and ultimately, affect the overall control of<br/><br/>COVID-19 epidemic.<br/><br/>Deep learning, a technology has shown great performance on extracting tiny features in radiology data, may hold the promise to alleviate this problem.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] Recently, Ardila D, et al achieved end-to-end lung cancer screening on low-dose chest CT with an AUC of 94.4%.[<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]"
+        ],
+        "disclosures": [
+            "Wuhan EndoAngel Medical Technology Company collaborated in this study. Shan Hu, Xiao Hu, Biqing Zheng, Kuo Zhang are research staffs of Wuhan EndoAngel Medical Technology<br/><br/>Company. All authors declared no conflict of interest."
+        ],
+        "acknowledgements": [
+            "This work was partly supported by the grant from Novel Pneumonia Emergency Science and<br/><br/>Technology Project of Hubei Provincial (to [Honggang Yu]), Hubei Province Major Science and<br/><br/>Technology Innovation Project (Grant No 2018-916-000-008 to [Honggang Yu])."
+        ],
+        "funding": [
+            "This work was partly supported by the grant from Novel Pneumonia Emergency Science and Technology Project of Hubei Provincial (to [Honggang Yu]), Hubei Province Major Science and Technology Innovation Project (Grant No 2018-916-000-008 to [Honggang Yu])"
+        ],
+        "ethical_compliance": [
+            "This study was approved by the Ethics Committee of Renmin Hospital of Wuhan University"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Supplementary Figure 1",
+                "Supplementary Figure 2,",
+                "Supplementary Figure 2."
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [],
+        "Background": [
+            "Computed tomography (CT) is the preferred imaging method for diagnosing 2019 novel coronavirus (COVID19) pneumonia. Our research aimed to construct a system based on deep learning for detecting COVID-19 pneumonia on high resolution CT, relieve working pressure of radiologists and contribute to the control of the epidemic."
+        ],
+        "Methods": [
+            "For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed. Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model.",
+            "Findings: The model achieved a per-patient sensitivity of 100%, specificity of 93.55%, accuracy of 95.24%, PPV of 84.62%, and NPV of 100%; a per-image sensitivity of 94.34%, specificity of",
+            "99.16%, accuracy of 98.85%, PPV of 88.37%, and NPV of 99.61% in retrospective dataset. For 27 prospective patients, the model achieved a comparable performance to that of expert radiologist.",
+            "With the assistance of the model, the reading time of radiologists was greatly decreased by 65%."
+        ],
+        "Conclusion": [
+            "The deep learning model showed a comparable performance with expert radiologist, and greatly improve the efficiency of radiologists in clinical practice. It holds great potential to relieve the pressure of frontline radiologists, improve early diagnosis, isolation and treatment, and thus contribute to the control of the epidemic."
+        ],
+        "Introduction": [
+            "In December 2019, a new coronavirus infection disease (hereinafter referred to as COVID-19) was first reported in Wuhan. Subsequently, the outbreak began to spread widely in China and even abroad.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+            "The clinical manifestations of the COVID-19 pneumonia is complicated and could be characterized as fever, cough, myalgia, headache, and gastrointestinal symptoms onset.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]",
+            "Although the nucleic acid detection was considered determinant for identifying the COVID-19 infection and more rapid detection kit for the novel coronavirus has come into mass production, computed tomography (CT) scan is still the most efficient modality for detecting and evaluating the severity of pneumonia.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] An update series demonstrate that CT findings were positive in all laboratory-confirmed COVID-19 patients, even in the early stage.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] In the fifth version of diagnostic manual of COVID-19 launched by the National Health and Health Commission of",
+            "China, the radiographic characteristics of pneumonia was included the clinical diagnostic standard in Hubei Province.[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] Subsequently, 14,840 new cases of COVID-19 were reported within one day on Feb 13, 2020 in Wuhan, including 13332 cases of clinical diagnoses.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] This highlighted the importance of CT in the diagnosis of COVID-19 pneumonia.",
+            "Due to the outbreak of the COVID-19, thousands of patients waited in line for CT examination in the designated fever outpatient hospital at Wuhan and other cities. As of Feb 14, there are 5,534 suspected cases, 38,107 confirmed patients receiving treatment in hospital, and",
+            "77,323 cases under medical observation in Hubei province.[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] Most of them need to undergo CT examination, however, there are less than 4,500 radiologists in cities of Hubei according to the",
+            "China Health Statistical Yearbook (2018).[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] Meanwhile, because the lung infection foci are small in the early stage of the COVID-19 infection, thinner layer (2.5mm, 1.25mm or even",
+            "0.625mm) scanning were usually needed instead of conventional CT scan (5 mm) for diagnosis, which would be more time-consuming. All these made radiologists overloaded, delay the diagnosis and isolation of patients, affect patient\u2019s treatment and prognosis, and ultimately, affect the control of COVID-19 epidemic.",
+            "Deep learning, an important breakthrough in the domain of AI in the past decade, has huge potential at extracting tiny features in image analysis.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] Our group also succeeded in recruiting this technique in minor lesion detection and real-time assistance to doctors in gastrointestinal endoscopy.[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>-<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]",
+            "In the present research, we construct and validate a system based on deep learning for identification of viral pneumonia on CT. Our model has comparable performance with expert radiologist, but take much less time."
+        ],
+        "Method": [
+            "We first retrospectively collected 46,096 anonymous images from 106 admitted patients, including patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) for model development. The patients\u2019 CT scan images and reports, history, clinical manifestations, physical findings, and viral pathogen results were all collected. For prospective patients, 27 consecutive patients undergoing CT scans were enrolled in the designated CT rooms in Feb 5, 2020 in Renmin",
+            "Hospital of Wuhan University.",
+            "This study was approved by the Ethics Committee of Renmin Hospital of Wuhan University.",
+            "Written informed consent was provided by all prospective participants. Because of virus contamination, the signed informed consents were carefully sealed and kept in the specific place according to the Law of the People's Republic of China on Infectious Disease Prevention and",
+            "Control.[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] For patients whose CT scans were stored in the retrospective databases, informed consent was waived by the Ethics Committee.",
+            "Patient's respiratory secretions were collected and transferred to a sterile test tube with a virus transport medium. Fluorescent RT-PCR analysis of samples was performed using the COVID-19 nucleic acid detection kit developed by Shanghai Geneodx Biotechnology Co., Ltd. This detection kit was approved by the US National Drug Administration (NMPA) on January 26, 2019 and recommended by the Centers for Disease Control and Prevention (CDC).[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>] The rapid, high-precision COVID-19 detection kit greatly accelerated the confirmation of human COVID-19 infection.",
+            "As shown in Figure 1, a total of 46,096 CT scan images from 51 COVID-19 pneumonia patients and 55 control patients of other disease were collected for developing the model to detect",
+            "COVID-19 pneumonia. After filtering those images without good lung fields, 35355 images were selected and split into training and retrospectively testing datasets. Enrolled images in training dataset covered almost all common CT features of COVID19 pneumonia, as presented in Figure 2.",
+            "Three radiologists with more than 5 years of clinical experience labelled infection lesions of",
+            "COVID-19 pneumonia patients in training dataset, and selected images containing COVID19 pneumonia lesions in testing set, and their labels were combined by consensus. For prospectively testing the model, 13,911 images of 27 consecutive patients undergoing CT scans in Feb 5, 2020 in Renmin Hospital of Wuhan University were further collected. All CT scans were obtained in",
+            "Renmin Hospital of Wuhan University. The instruments used in this study included Optima CT680, Revolution CT and Bright Speed CT scanner (all GE Healthcare).",
+            "UNet++, a novel and powerful architecture for medical image segmentation was implemented to develop the model.[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] We first trained UNet++ to extract valid areas in CT images using 289 randomly selected CT images and tested it in other 600 randomly selected CT images. The training images were labelled with the smallest rectangle containing all valid areas by researchers.",
+            "The model successfully extracted valid areas in 600 images in testing set with an accuracy of",
+            "100%. For detecting suspicious lesions on CT scans, 691 images of COVID-19 pneumonia infection lesions labelled by radiologists and 300 images randomly selected from patients of non-COVID-19 pneumonia were used. Taking the raw CT scan images as input with a resolution of 512\u00d7512, and the labelled map from the expert as output, UNet++ was used to train in Keras in an image-to-image manner. The suspicious region was predicted under a confidence cutoff value of 0.50, and a prediction box pixel of over 25. The training curves of UNet++ for extracting valid areas and detecting suspicious lesions in CT images were shown in Supplementary Figure 1 and"
+        ],
+        "Supplementary": [],
+        "RESULTS": [
+            "The baseline characteristics and CT findings of 51 patients of 2019-CoV pneumonia and 55 control patients in retrospective dataset were shown in Table 1 and Table 2, respectively. Baseline characteristics were comparable between training and testing datasets. The 31 control patients in retrospective testing dataset include 2 lung cancer, 4 tuberculosis, 2 bronchiectasis, 2 nonviral pneumonia, 1 lung bullae and 20 with no obvious finding in CT scan.",
+            "Among 4382 CT images from 11 patients of COVID-19 pneumonia and 9369 images from 31 control patients, the model correctly diagnosed the patients with a per-patient sensitivity of 100%, specificity of 93.55%, accuracy of 95.24%, PPV of 84.62%, and NPV of 100%. A per-image sensitivity of 94.34%, specificity of 99.16%, accuracy of 98.85%, PPV of 88.37%, and NPV of",
+            "99.61%. Representative images predicted by the model were shown in Figure 4.",
+            "Twenty-seven patients were enrolled in the prospective dataset. Sixteen (59.26%) patients were diagnosed as viral pneumonia by the expert radiologist, and the other eleven patients were not.",
+            "Two other radiologists reviewed the CT imaging, approved the expert\u2019s results, and summarized that the CT characteristics of the 11 patients not diagnosed by the expert include 5 ground glass nodules, 3 diminutive nodules, 2 normal and 1 fibrosclerosis.",
+            "The model successfully detected all the 16 patients of viral pneumonia diagnosed by the expert. Among the other 11 patients, 2 were also detected by the model. The predictions in one case was fibrosclerosis lesion, and the other one was normal stomach bubble. Using results of the radiologists as the gold standard, the model achieved a per-patient sensitivity of 100%, accuracy of 92.59%, specificity of 81.82%, PPV of 88.89% and NPV of 100% in the 27 prospective patients.",
+            "Among the 16 patients diagnosed as viral pneumonia by radiologists, 8 admitted patients were confirmed as COVID-19 infection, and the others were outpatients that difficult to follow nucleic acid results. The average prediction time for model was 41.34s per patient (IQR 39.76-44.48). The performance of the model on detecting COVID-19 pneumonia was shown in Table 3.",
+            "Comparison between the efficiency of radiologist with or without the assistance of AI",
+            "In the first time the expert radiologist read CT scan images of the 27 prospective patients, the average reading time for him to determine whether each patient has viral pneumonia was 116.12s per case (IQR 85.69-118.17). After 10 days of wash out period, the same expert radiologist re-read the CT images of the 27 prospective patients with the assistance of the AI model. The results for determining whether each patient has viral pneumonia were not changed, while the average reading time of the expert was greatly decreased by 65%. This indicates that the efficiency of radiologist could be greatly improved with the assistance of AI.",
+            "A website has been made available to provide free access to the present model (http://121.40.75.149/znyx-ncov/index) (Figure 5). CT scan images could be uploaded by both clinicians and researches as a second opinion consulting service, especially in other provinces or countries unfamiliar with the radiologic characteristics of COVID-19. Cases of COVID-19 pneumonia were also been made available on the open-access website, which might be a useful resource for radiologists and researchers for fighting COVID-19 pneumonia."
+        ],
+        "DISCUSSION": [
+            "As of Feb 14, 2020, the national health commission had reported 66,492 confirmed cases, 1,523 deaths and 8,969 suspected cases.[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] In the face of such large number of patients and high contagiosity of the novel coronavirus (with an estimated reproduction number R0 of 2.2~6.47), timely diagnosis and isolation are the keys to prevent further spread of the virus.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>-<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>] CT scan is the most efficient modality for screening and clinically diagnosing COVID-19 pneumonia.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]",
+            "However, compared to the needs of the patients, the number of radiologists is quite small, especially in Hubei province, China, which could greatly delay the diagnosis and isolation of patients, affect patient\u2019s treatment and prognosis, and ultimately, affect the overall control of",
+            "COVID-19 epidemic.",
+            "Deep learning, a technology has shown great performance on extracting tiny features in radiology data, may hold the promise to alleviate this problem.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] Recently, Ardila D, et al achieved end-to-end lung cancer screening on low-dose chest CT with an AUC of 94.4%.[<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]",
+            "Chae KJ, et al successfully used the convolutional neural network to classify small (\u22642 cm) pulmonary nodules on CT scan images.[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>] However, there was rare research being conducted to detect viral pneumonia.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>,<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>,<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>] In previous work, our group succeeded in recruiting deep learning in minor lesion detection and real-time assistance to doctors in gastrointestinal endoscopy.[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>-<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] Here, we enrolled this technique in identification of COVID-19 pneumonia in",
+            "CT images. Results from both retrospective and prospective patients showed that the model was comparable to the level of expert radiologist, and hold great potential to reduce diagnosing time.",
+            "Early diagnosis and early isolation of suspected patients are the most important ways to prevent the spread of epidemic.19 Due to the sudden outbreak of COVID19, the radiology department is overloaded and patients have to wait for long times for chest CT scan, which largely increase the risk of cross-infection. In recent days, radiologists\u2019 daily workload is huge in Hubei province, and a CT scan report has to be awaited several hours to achieve. Based on the number of suspected patients and close contacts in being, radiologists in the hardest hit, Hubei province, China, may not be enough to resist the rapid spread of the virus, which holds high estimated R0 of",
+            "2.2~6.47.[<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>-<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>] It could be inferred that before radiologists fulfilling the demands of existing patients, newly infected cases would appear, and the overall burden of radiologists is more overwhelming like a growing snowball. Relieving the pressure of radiologists is essential for the control of virus spreading. In the present study, our model achieved a comparable performance but with much shorter time compared with expert radiologists. It holds great potential to relieve the pressure of radiologists in clinical practice, and contribute to the control of the epidemic.",
+            "Timely diagnosis and early treatment of infected patients is important for patients\u2019",
+            "prognosis.[<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] The fatality rate of COVID19 patients in Hubei province is significantly higher than that of other regions, which probably due to delayed treatment and shortage of medical resources.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>,<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>] Accelerating diagnosis efficiency is significant for improving patient outcomes.",
+            "In the present study, our model helped expert radiologists achieve the same work with much shorter time, which greatly accelerats the efficiency of diagnosis in clinical practice, and may contribute to the improvement of patient outcome.",
+            "In addition to relieving radiologists\u2019 pressure and accelerating diagnosis efficiency, artificial intelligence also holds the potential to reduce miss diagnosis of COVID-19 patients. The lung infection foci are sometimes mild in the early stage of the COVID-19 infection,5 and requires careful observation under 0.625mm layer scanning. Radiologists vary in skills, and could be affected by subjective status and outside pressure. One miss diagnosis could lead to multiple spread. The model is highly sensitive and stable, and would never be affected by work burden and work time. As a preliminary screening tool, it might help radiologists improve the sensitivity and reduce miss diagnosis.",
+            "On the basis of the accuracy and efficiency of the model in detecting COVID-19 pneumonia, a cloud-based open-access artificial intelligence platform was constructed to provide assistance for detecting COVID-19 pneumonia worldwide. CT scan images could be uploaded freely by both clinicians and researches as an assistant tool, especially in other provinces or countries unfamiliar with the radiologic characteristics of COVID-19. This free open-access website can read images in batches, provide high-level auxiliary diagnostic services for different hospitals in free, and expand the boundaries of regions and manpower. Cases of COVID-19 pneumonia were also been made available on the open-access website, which might be a useful resource for radiologists and researchers for fighting COVID-19 pneumonia.",
+            "In summary, the deep learning-based model achieved a comparable performance with expert radiologist using much shorter time. It holds great potential to improve the efficiency of diagnosis, relieve the pressure of frontline radiologists, accelerates the diagnosis, isolation and treatment of",
+            "COVID19 patients, and therefore contribute to the control of the epidemic.",
+            "YH and YL conceived and supervised the overall study. WL and GD contributed to writing of the manuscript. YH, YL, HS and WY contributed to critical revision of the report. CJ, ZL, ZJ, GD, WH, DZ, XY, ZY and CX contributed to collecting and analyzing the data of patients. CJ, ZL and",
+            "ZY contributed to label CT images. HS, HX, ZB, ZK and WY developed the system. All authors reviewed and approved the final version of the manuscript."
+        ],
+        "CONFLICT OF INTEREST": [
+            "Wuhan EndoAngel Medical Technology Company collaborated in this study. Shan Hu, Xiao Hu, Biqing Zheng, Kuo Zhang are research staffs of Wuhan EndoAngel Medical Technology",
+            "Company. All authors declared no conflict of interest."
+        ],
+        "ACKNOWLEDGEMENTS": [
+            "This work was partly supported by the grant from Novel Pneumonia Emergency Science and",
+            "Technology Project of Hubei Provincial (to [Honggang Yu]), Hubei Province Major Science and",
+            "Technology Innovation Project (Grant No 2018-916-000-008 to [Honggang Yu])."
+        ],
+        "REFERENCES": [
+            "1. Hui D S, Madani T A, Ntoumi F, et al The continuing COVID-19 epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan, China.",
+            "International journal of infectious diseases: IJID: official publication of the International",
+            "Society for Infectious Diseases 2020;91:264.",
+            "2. Holshue ML, DeBolt C, Lindquist S,et al First Case of 2019 Novel Coronavirus in the United",
+            "States. N Engl J Med 2020 Jan 31. doi:10.1056/NEJMoa2001191.",
+            "3. Rothe C, Schunk M, Sothmann P, et al Transmission of COVID-19 Infection from an",
+            "Asymptomatic Contact in Germany. N Engl J Med 2020 Jan 30. doi:10.1056/NEJMc2001468.",
+            "4. Huang C, Wang Y, Li X, et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. The Lancet 2020 Jan 24. doi: 10.1016/S0140-6736(20)30183-5.",
+            "5. Guan H, Xiong Y, Shen N, et. Clinical and thin section CT features of patients with",
+            "COVID-19 pneumonia in Wuhan. Radiologic Practice 2020.",
+            "6. Chen N, Zhou M, Dong X, et al Epidemiological and clinical characteristics of 99 cases of novel coronavirus pneumonia in Wuhan, China: a descriptive study. The Lancet 2020",
+            "Jan 30. doi: 10.1016/S0140-6736(20)30211-7.",
+            "7. National Health and Health Commission of China.",
+            "http://www.nhc.gov.cn/yzygj/s7652m/202002/e84bd30142ab4d8982326326e4db22ea.shtml",
+            "8. National Health and Health Commission of China.",
+            "http://en.nhc.gov.cn/2020-02/13/c_76512.htm",
+            "9. Health Commission of Hubei Province.",
+            "http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200216_2038684.shtml",
+            "10. China Ministry of Health. China Health Statistical Yearbook 2018. Beijing: Peking Union",
+            "Medical College Press 2018:34,42 [in Chinese]",
+            "11. Liu Y, Liu G, Zhang Q. Deep learning and medical diagnosis. The Lancet 2019;394(10210): 1709-1710.",
+            "12. Gong D, Wu L, Zhang J, et al Detection of colorectal adenomas with a real-time computer-aided system (ENDOANGEL): a randomised controlled study. Lancet",
+            "Gastroenterol Hepatol 2020 Jan 22. doi: 10.1016/S2468-1253(19)30413-3.",
+            "13. Wu L, Zhang J, Zhou W, et al Randomised controlled trial of WISENSE, a real-time quality improving system for monitoring blind spots during esophagogastroduodenoscopy. Gut",
+            "2019;68(12):2161-2169.",
+            "14. Chen D, Wu L, Li Y, et al Comparing blind spots of unsedated ultrafine, sedated, and unsedated conventional gastroscopy with and without artificial intelligence: a prospective, single-blind, 3-parallel-group, randomized, single-center trial. Gastrointestinal endoscopy",
+            "2020;91(2):332-339. e3.",
+            "15. Zhou J, Wu L, Wan X, et al A novel artificial intelligence system for the assessment of bowel preparation (with video). Gastrointestinal Endoscopy 2020;91(2):428-435. e2.",
+            "16. Wu L, Zhou W, Wan X, et al A deep neural network improves endoscopic detection of early gastric cancer without blind spots. Endoscopy 2019;51(06):522-531.",
+            "17. The Central People\u2019s Government of the People\u2019s Republic of China. The Law of the People's",
+            "Republic of China on Infectious Disease Prevention and Control.",
+            "http://www.gov.cn/banshi/2005-08/01/content_19023.htm",
+            "18. Centers for Disease Control and Prevention.",
+            "https://www.cdc.gov/corona-virus/COVID-19/lab/rt-pcr-detection-instructions.html",
+            "19. Deng J, Dong W, Socher R, et al ImageNet: A large-scale hierarchical image database. In: IEEE Conference on Computer Vision and Pattern Recognition 2009;p.248-255.",
+            "20. Zhou Z, Siddiquee M M R, Tajbakhsh N, et al Unet++: A nested u-net architecture for medical image segmentation. Springer Cham 2018;3-11.",
+            "21. The National Health and Health Commission of China.",
+            "http://en.nhc.gov.cn/2020-02/07/c_76323.htm",
+            "22. Cheng V C C, Wong S C, To K K W, et al Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China. Journal of Hospital",
+            "Infection 2020.",
+            "23. Tang B, Wang X, Li Q, et al Estimation of the Transmission Risk of the 2019-nCoV and Its",
+            "Implication for Public Health Interventions. Journal of Clinical Medicine 2020;9(2): 462.",
+            "24. Riou J, Althaus C L. Pattern of early human-to-human transmission of Wuhan 2019-nCoV.",
+            "bioRxiv 2020.",
+            "25. Prasse B, Achterberg M A, Ma L, et al Network-Based Prediction of the 2019-nCoV",
+            "Epidemic Outbreak in the Chinese Province Hubei. arXiv 2020.",
+            "26. Boldog P, Tekeli T, Vizi Z, et al Risk assessment of novel coronavirus 2019-nCoV outbreaks outside China. medRxiv 2020.",
+            "27. Ardila D, Kiraly A P, Bharadwaj S, et al End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography. Nature medicine",
+            "2019;25(6):954-961.",
+            "28. Chae K J, Jin G Y, Ko S B, et al Deep Learning for the Classification of Small (\u2264 2 cm)",
+            "Pulmonary Nodules on CT Imaging: A Preliminary Study. Academic radiology 2019.",
+            "29. Chen Z M, Fu J F, Shu Q, et al Diagnosis and treatment recommendations for pediatric respiratory infection caused by the 2019 novel coronavirus. World Journal of Pediatrics",
+            "2020:1-7.",
+            "30. Health Commission of Hubei Province.",
+            "http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200215_2028355.shtml"
+        ],
+        "FIGURES": [
+            "COVID19 pneumonia.",
+            "images of COVID19 pneumonia. The predictions between the artificial intelligence model and radiologists were consistent. Green boxes, labels from radiologists; red boxes, labels from the model. B. CT images of the control. The first image is an ordinary bacterial pneumonia, showing a consolidation of the right lower lobe. The second image has a tumorous lesion in the lung, showing a mass in the left upper lobe, with burrs seen at the edges, and showing leaf-like growth with vacuoles inside. The third image is a secondary pulmonary tuberculosis, showing a left apical fibrous cord. The fourth image is a bronchiectasis complicated with infection, showing bronchodilation and expansion, cystic changes, and surrounding patches of infection. The fifth image shows normal lungs.",
+            "The artificial intelligence holds great potential to relieve the pressure of frontline radiologists, accelerates the diagnosis, isolation and treatment of COVID19 patients, and therefore contribute to the control of the epidemic."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "admitted patients",
+            "number": 106,
+            "context": "Subsequently, the outbreak began to spread widely in China and even abroad.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. <mark class=\"stats\">For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed</mark>. Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model.For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed"
+        },
+        {
+            "participant": "consecutive patients",
+            "number": 27,
+            "context": "For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed. <mark class=\"stats\">Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model.For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed</mark>. Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model"
+        },
+        {
+            "participant": "consecutive patients",
+            "number": 27,
+            "context": "Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model.For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed. <mark class=\"stats\">Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model</mark>. Findings: The model achieved a per-patient sensitivity of 100%, specificity of 93.55%, accuracy of 95.24%, PPV of 84.62%, and NPV of 100%; a per-image sensitivity of 94.34%, specificity of"
+        },
+        {
+            "participant": "prospective patients",
+            "number": 27,
+            "context": "99.16%, accuracy of 98.85%, PPV of 88.37%, and NPV of 99.61% in retrospective dataset. <mark class=\"stats\">For 27 prospective patients, the model achieved a comparable performance to that of expert radiologist</mark>. With the assistance of the model, the reading time of radiologists was greatly decreased by 65%"
+        },
+        {
+            "participant": "admitted patients",
+            "number": 106,
+            "context": "Our research aimed to construct a system based on deep learning for detecting COVID-19 pneumonia on high resolution CT, relieve working pressure of radiologists and contribute to the control of the epidemic. <mark class=\"stats\">Methods: For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed</mark>. Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model"
+        },
+        {
+            "participant": "consecutive patients",
+            "number": 27,
+            "context": "Methods: For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed. <mark class=\"stats\">Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model</mark>. Findings: The model achieved a per-patient sensitivity of 100%, specificity of 93.55%, accuracy of 95.24%, PPV of 84.62%, and NPV of 100%; a per-image sensitivity of 94.34%, specificity of"
+        },
+        {
+            "participant": "new cases",
+            "number": 14840,
+            "context": "China, the radiographic characteristics of pneumonia was included the clinical diagnostic standard in Hubei Province.[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. <mark class=\"stats\">Subsequently, 14,840 new cases of COVID-19 were reported within one day on Feb 13, 2020 in Wuhan, including 13332 cases of clinical diagnoses.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]</mark>. This highlighted the importance of CT in the diagnosis of COVID-19 pneumonia"
+        },
+        {
+            "participant": "suspected cases",
+            "number": 5534,
+            "context": "examination in the designated fever outpatient hospital at Wuhan and other cities. <mark class=\"stats\">As of Feb 14, there are 5,534 suspected cases, 38,107 confirmed patients receiving treatment in hospital, and</mark>. 77,323 cases under medical observation in Hubei province.[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]"
+        },
+        {
+            "participant": "radiologists",
+            "number": 4500,
+            "context": "Most of them need to undergo CT. <mark class=\"stats\">examination, however, there are less than 4,500 radiologists in cities of Hubei according to the</mark>. China Health Statistical Yearbook (2018).[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]"
+        },
+        {
+            "participant": "admitted patients",
+            "number": 106,
+            "context": "Our model has comparable performance with expert radiologist, but take much less time. <mark class=\"stats\">We first retrospectively collected 46,096 anonymous images from 106 admitted patients, including patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) for model development</mark>. The patients\u2019 CT scan images and reports, history, clinical manifestations, physical findings, and viral pathogen results were all collected"
+        },
+        {
+            "participant": "consecutive patients",
+            "number": 27,
+            "context": "The patients\u2019 CT scan images and reports, history, clinical manifestations, physical findings, and viral pathogen results were all collected. <mark class=\"stats\">For prospective patients, 27 consecutive patients undergoing CT scans were enrolled in the designated CT rooms in Feb 5, 2020 in Renmin</mark>. Hospital of Wuhan University"
+        },
+        {
+            "participant": "control patients",
+            "number": 55,
+            "context": "The rapid, high-precision COVID-19 detection kit greatly accelerated the confirmation of human COVID-19 infection. <mark class=\"stats\">As shown in Figure 1, a total of 46,096 CT scan images from 51 COVID-19 pneumonia patients and 55 control patients of other disease were collected for developing the model to detect</mark>. COVID-19 pneumonia"
+        },
+        {
+            "participant": "radiologists with more than 5 years of clinical experience",
+            "number": 3,
+            "context": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. <mark class=\"stats\">Three radiologists with more than 5 years of clinical experience labelled infection lesions of</mark>. COVID-19 pneumonia patients in training dataset, and selected images containing COVID19 pneumonia lesions in testing set, and their labels were combined by consensus"
+        },
+        {
+            "participant": "consecutive patients",
+            "number": 27,
+            "context": "COVID-19 pneumonia patients in training dataset, and selected images containing COVID19 pneumonia lesions in testing set, and their labels were combined by consensus. <mark class=\"stats\">For prospectively testing the model, 13,911 images of 27 consecutive patients undergoing CT scans in Feb 5, 2020 in Renmin Hospital of Wuhan University were further collected</mark>. All CT scans were obtained in"
+        },
+        {
+            "participant": "patients",
+            "number": 11,
+            "context": "The \u201ctrue positive\u201d is the number of correctly predicted COVID-19 pneumonia cases/images, \u201cfalse positive\u201d is the number of mistakenly predicted COVID-19 pneumonia cases/images, \u201cpositive\u201d is the number of cases/images of COVID-19 pneumonia patients, \u201ctrue negative\u201d is the number of correctly predicted non-COVID-19 pneumonia cases/images, \u201cfalse negative\u201d is the number of mistakenly predicted non-COVID-19 pneumonia cases/images and \u2018negative\u2019 is the number of non-COVID-19 pneumonia cases/images enrolled. <mark class=\"stats\">For image-based metrics, 636 images containing infection lesions identified by radiologists among 11 patients of COVID-19 pneumonia were used as the positive sample, and 9369 CT scan images from 31 patients of non-COVID-19 pneumonia were used as the negative sample</mark>. author/funder, who has granted medRxiv a license to display the preprint in perpetuity"
+        },
+        {
+            "participant": "radiologists",
+            "number": 3,
+            "context": "The model\u2019s performance and cost of time were compared with that of the expert radiologist. <mark class=\"stats\">Inconsistent results between the expert and model were reviewed by three radiologists, including the expert and other two radiologists, senior staff members of the</mark>. Radiology Department of Renmin Hospital of Wuhan University, with clinical experience about years, and independently diagnosed about 150 viral pneumonia"
+        },
+        {
+            "participant": "prospective patients",
+            "number": 27,
+            "context": "To evaluate the performance and cost of time of radiologist against 2019-CoV pneumonia with the assistance of our model, the prediction results of the model (whether a patient has viral pneumonia, and labels marking lesions) were copied to the working computer in the designated CT rooms. <mark class=\"stats\">After 10 days of wash out period (in Feb 16, 2020), the same expert radiologist was required to re-read all CT images of 27 prospective patients using the working computer where results of the model could be viewed, and determine if each patient has viral pneumonia</mark>. The research assistant used a stopwatch to record the expert\u2019s reading time again"
+        },
+        {
+            "participant": "patients",
+            "number": 51,
+            "context": "Patients author/funder, who has granted medRxiv a license to display the preprint in perpetuity. <mark class=\"stats\">The baseline characteristics and CT findings of 51 patients of 2019-CoV pneumonia and 55 control patients in retrospective dataset were shown in Table 1 and Table 2, respectively</mark>. Baseline characteristics were comparable between training and testing datasets"
+        },
+        {
+            "participant": "control patients",
+            "number": 31,
+            "context": "Baseline characteristics were comparable between training and testing datasets. <mark class=\"stats\">The 31 control patients in retrospective testing dataset include 2 lung cancer, 4 tuberculosis, 2 bronchiectasis, 2 nonviral pneumonia, 1 lung bullae and 20 with no obvious finding in CT scan</mark>. All patients (n=51)"
+        },
+        {
+            "participant": "patients",
+            "number": 51,
+            "context": "The 31 control patients in retrospective testing dataset include 2 lung cancer, 4 tuberculosis, 2 bronchiectasis, 2 nonviral pneumonia, 1 lung bullae and 20 with no obvious finding in CT scan. <mark class=\"stats\">All patients (n=51)</mark>. Training set (n=40)"
+        },
+        {
+            "participant": "data",
+            "number": 40,
+            "context": "All patients (n=51). <mark class=\"stats\">Training set (n=40)</mark>. Testing set (n=11)"
+        },
+        {
+            "participant": "data",
+            "number": 11,
+            "context": "Training set (n=40). <mark class=\"stats\">Testing set (n=11)</mark>. Chest tightness or pain"
+        },
+        {
+            "participant": "patients",
+            "number": 55,
+            "context": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity. <mark class=\"stats\">All patients (n=55)</mark>. Training set (n=24)"
+        },
+        {
+            "participant": "data",
+            "number": 24,
+            "context": "All patients (n=55). <mark class=\"stats\">Training set (n=24)</mark>. Testing set (n=31)"
+        },
+        {
+            "participant": "data",
+            "number": 31,
+            "context": "Training set (n=24). <mark class=\"stats\">Testing set (n=31)</mark>. CT examination indications, n (%)"
+        },
+        {
+            "participant": "patients",
+            "number": 11,
+            "context": "The performance of the model on retrospective dataset. <mark class=\"stats\">Among 4382 CT images from 11 patients of COVID-19 pneumonia and 9369 images from 31 control patients, the model correctly diagnosed the patients with a per-patient sensitivity of 100%, specificity of 93.55%, accuracy of 95.24%, PPV of 84.62%, and NPV of 100%</mark>. A per-image sensitivity of 94.34%, specificity of 99.16%, accuracy of 98.85%, PPV of 88.37%, and NPV of"
+        },
+        {
+            "participant": "patients",
+            "number": 27,
+            "context": "The performance of the model in consecutive prospective patients. <mark class=\"stats\">Twenty-seven patients were enrolled in the prospective dataset</mark>. Sixteen (59.26%) patients were author/funder, who has granted medRxiv a license to display the preprint in perpetuity"
+        },
+        {
+            "participant": "patients",
+            "number": 11,
+            "context": "Sixteen (59.26%) patients were author/funder, who has granted medRxiv a license to display the preprint in perpetuity. <mark class=\"stats\">diagnosed as viral pneumonia by the expert radiologist, and the other eleven patients were not</mark>. Two other radiologists reviewed the CT imaging, approved the expert\u2019s results, and summarized that the CT characteristics of the 11 patients not diagnosed by the expert include 5 ground glass nodules, 3 diminutive nodules, 2 normal and 1 fibrosclerosis"
+        },
+        {
+            "participant": "patients",
+            "number": 11,
+            "context": "diagnosed as viral pneumonia by the expert radiologist, and the other eleven patients were not. <mark class=\"stats\">Two other radiologists reviewed the CT imaging, approved the expert\u2019s results, and summarized that the CT characteristics of the 11 patients not diagnosed by the expert include 5 ground glass nodules, 3 diminutive nodules, 2 normal and 1 fibrosclerosis</mark>. The model successfully detected all the 16 patients of viral pneumonia diagnosed by the expert"
+        },
+        {
+            "participant": "patients",
+            "number": 16,
+            "context": "Two other radiologists reviewed the CT imaging, approved the expert\u2019s results, and summarized that the CT characteristics of the 11 patients not diagnosed by the expert include 5 ground glass nodules, 3 diminutive nodules, 2 normal and 1 fibrosclerosis. <mark class=\"stats\">The model successfully detected all the 16 patients of viral pneumonia diagnosed by the expert</mark>. Among the other 11 patients, 2 were also detected by the model"
+        },
+        {
+            "participant": "patients",
+            "number": 11,
+            "context": "The model successfully detected all the 16 patients of viral pneumonia diagnosed by the expert. <mark class=\"stats\">Among the other 11 patients, 2 were also detected by the model</mark>. The predictions in one case was fibrosclerosis lesion, and the other one was normal stomach bubble"
+        },
+        {
+            "participant": "prospective patients",
+            "number": 27,
+            "context": "The predictions in one case was fibrosclerosis lesion, and the other one was normal stomach bubble. <mark class=\"stats\">Using results of the radiologists as the gold standard, the model achieved a per-patient sensitivity of 100%, accuracy of 92.59%, specificity of 81.82%, PPV of 88.89% and NPV of 100% in the 27 prospective patients</mark>. Among the 16 patients diagnosed as viral pneumonia by radiologists, 8 admitted patients were confirmed as COVID-19 infection, and the others were outpatients that difficult to follow nucleic acid results"
+        },
+        {
+            "participant": "patients",
+            "number": 16,
+            "context": "Using results of the radiologists as the gold standard, the model achieved a per-patient sensitivity of 100%, accuracy of 92.59%, specificity of 81.82%, PPV of 88.89% and NPV of 100% in the 27 prospective patients. <mark class=\"stats\">Among the 16 patients diagnosed as viral pneumonia by radiologists, 8 admitted patients were confirmed as COVID-19 infection, and the others were outpatients that difficult to follow nucleic acid results</mark>. The average prediction time for model was 41.34s per patient (IQR 39.76-44.48)"
+        },
+        {
+            "participant": "prospective patients",
+            "number": 27,
+            "context": "Comparison between the efficiency of radiologist with or without the assistance of AI. <mark class=\"stats\">In the first time the expert radiologist read CT scan images of the 27 prospective patients, the author/funder, who has granted medRxiv a license to display the preprint in perpetuity</mark>. average reading time for him to determine whether each patient has viral pneumonia was 116.12s per case (IQR 85.69-118.17)"
+        },
+        {
+            "participant": "prospective patients with the assistance of the AI model",
+            "number": 27,
+            "context": "average reading time for him to determine whether each patient has viral pneumonia was 116.12s per case (IQR 85.69-118.17). <mark class=\"stats\">After 10 days of wash out period, the same expert radiologist re-read the CT images of the 27 prospective patients with the assistance of the AI model</mark>. The results for determining whether each patient has viral pneumonia were not changed, while the average reading time of the expert was greatly decreased by 65%"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 66492,
+            "context": "Cases of COVID-19 pneumonia were also been made available on the open-access website, which might be a useful resource for radiologists and researchers for fighting COVID-19 pneumonia. <mark class=\"stats\">As of Feb 14, 2020, the national health commission had reported 66,492 confirmed cases, 1,523 deaths and 8,969 suspected cases.[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]</mark>. In the face of such large number of patients and high contagiosity of the novel coronavirus (with an estimated reproduction number R0 of 2.2~6.47), timely diagnosis and isolation are the keys to prevent further spread of the virus.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>-<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">A two-tailed paired Student's t test with a significance level of 0.05 was used to compare differences in the cost time of the model and radiologist</mark>",
+                "tests": [
+                    {
+                        "test": "t test",
+                        "value": "0.05"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "negative prediction value",
+        "national health",
+        "tomography",
+        "coronavirus infection",
+        "novel coronavirus pneumonia",
+        "efficient modality",
+        "Infectious disease",
+        "pneumonia.[<a class=\"ref",
+        "COVID-19",
+        "health commission",
+        "coronavirus pneumonia",
+        "Centers for Disease Control and Prevention",
+        "2019 novel coronavirus pneumonia",
+        "new coronavirus",
+        "deep learning",
+        "high resolution",
+        "radiologists",
+        "Computed tomography",
+        "positive prediction value",
+        "infection disease"
+    ],
+    "keyword_relevance": {
+        "computed tomography": 0.2850678733031674,
+        "COVID-19": 0.25339366515837103,
+        "radiologists": 0.1583710407239819,
+        "negative prediction value": 0.049773755656108594,
+        "positive prediction value": 0.049773755656108594,
+        "tomography": 0.04524886877828054,
+        "deep learning": 0.03167420814479638,
+        "Computed tomography": 0.03167420814479638,
+        "coronavirus pneumonia": 0.01809954751131222,
+        "novel coronavirus pneumonia": 0.013574660633484163,
+        "efficient modality": 0.013574660633484163,
+        "Centers for Disease Control and Prevention": 0.013574660633484163,
+        "2019 novel coronavirus pneumonia": 0.00904977375565611,
+        "national health": 0.004524886877828055,
+        "coronavirus infection": 0.004524886877828055,
+        "health commission": 0.004524886877828055,
+        "new coronavirus": 0.004524886877828055,
+        "high resolution": 0.004524886877828055,
+        "infection disease": 0.004524886877828055,
+        "Infectious disease": 0.0,
+        "pneumonia.[<a class=\"ref": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The nucleic acid detection was considered determinant for identifying the COVID-19 infection and more rapid detection kit for the novel coronavirus has come into mass production, computed tomography (CT) scan is still the most efficient modality for detecting and evaluating the severity of pneumonia.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] An update series demonstrate that CT findings were positive in all laboratory-confirmed COVID-19 patients, even in the early stage.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] In the fifth version of diagnostic manual of COVID-19 launched by the National Health and Health Commission of.",
+        "The authors' research aimed to construct a system based on deep learning for detecting COVID-19 pneumonia on high resolution CT, relieve working pressure of radiologists and contribute to the control of the epidemic",
+        "<h2 style=\"display: inline\">Methods:</h2> For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed.",
+        "Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model",
+        "<h2 style=\"display: inline\">Results:</h2> The baseline characteristics and CT findings of 51 patients of 2019-CoV pneumonia and 55 control patients in retrospective dataset were shown in Table 1 and Table 2, respectively.",
+        "Baseline characteristics were comparable between training and testing datasets.",
+        "The 31 control patients in retrospective testing dataset include 2 lung cancer, 4 tuberculosis, 2 bronchiectasis, 2 nonviral pneumonia, 1 lung bullae and 20 with no obvious finding in CT scan.",
+        "Testing set (n=11) (38, 69).",
+        "54.5 (41.5, 71.25) (34.5, 65.5) Men (35.3) (27.5) (63.6) Women (64.7)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> As of Feb 14, 2020, the national health commission had reported 66,492 confirmed cases, 1,523 deaths and 8,969 suspected cases.[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>].",
+        "Compared to the needs of the patients, the number of radiologists is quite small, especially in Hubei province, China, which could greatly delay the diagnosis and isolation of patients, affect patient\u2019s treatment and prognosis, and affect the overall control of.",
+        "It holds great potential to relieve the pressure of frontline radiologists, improve early diagnosis, isolation and treatment, and contribute to the control of the epidemic"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The nucleic acid detection was considered determinant for identifying the COVID-19 infection and more rapid detection kit for the novel coronavirus has come into mass production, computed tomography (CT) scan is still the most efficient modality for detecting and evaluating the severity of pneumonia.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] An update series demonstrate that CT findings were positive in all laboratory-confirmed COVID-19 patients, even in the early stage.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] In the fifth version of diagnostic manual of COVID-19 launched by the National Health and Health Commission of.",
+            "The authors' research aimed to construct a system based on deep learning for detecting COVID-19 pneumonia on high resolution CT, relieve working pressure of radiologists and contribute to the control of the epidemic"
+        ],
+        "Methods": [
+            "For model development and validation, 46,096 anonymous images from 106 admitted patients, including 51 patients of laboratory confirmed COVID-19 pneumonia and 55 control patients of other diseases in Renmin Hospital of Wuhan University (Wuhan, Hubei province, China) were retrospectively collected and processed.",
+            "Twenty-seven consecutive patients undergoing CT scans in Feb, 5, 2020 in Renmin Hospital of Wuhan University were prospectively collected to evaluate and compare the efficiency of radiologists against 2019-CoV pneumonia with that of the model"
+        ],
+        "Results": [
+            "The baseline characteristics and CT findings of 51 patients of 2019-CoV pneumonia and 55 control patients in retrospective dataset were shown in Table 1 and Table 2, respectively.",
+            "Baseline characteristics were comparable between training and testing datasets.",
+            "The 31 control patients in retrospective testing dataset include 2 lung cancer, 4 tuberculosis, 2 bronchiectasis, 2 nonviral pneumonia, 1 lung bullae and 20 with no obvious finding in CT scan.",
+            "Testing set (n=11) (38, 69).",
+            "54.5 (41.5, 71.25) (34.5, 65.5) Men (35.3) (27.5) (63.6) Women (64.7)"
+        ],
+        "Conclusion": [
+            "As of Feb 14, 2020, the national health commission had reported 66,492 confirmed cases, 1,523 deaths and 8,969 suspected cases.[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>].",
+            "Compared to the needs of the patients, the number of radiologists is quite small, especially in Hubei province, China, which could greatly delay the diagnosis and isolation of patients, affect patient\u2019s treatment and prognosis, and affect the overall control of.",
+            "It holds great potential to relieve the pressure of frontline radiologists, improve early diagnosis, isolation and treatment, and contribute to the control of the epidemic"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Hui_et+al_2019_a",
+            "entry": "1. Hui D S, Madani T A, Ntoumi F, et al. The continuing COVID-19 epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan, China. International journal of infectious diseases: IJID: official publication of the International",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hui%20D%20S%20Madani%20T%20A%20Ntoumi%20F%20et%20al%20The%20continuing%20COVID19%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20International%20journal%20of%20infectious%20diseases%20IJID%20official%20publication%20of%20the%20International",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hui%20D%20S%20Madani%20T%20A%20Ntoumi%20F%20et%20al%20The%20continuing%20COVID19%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20International%20journal%20of%20infectious%20diseases%20IJID%20official%20publication%20of%20the%20International",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hui%20D%20S%20Madani%20T%20A%20Ntoumi%20F%20et%20al%20The%20continuing%20COVID19%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20International%20journal%20of%20infectious%20diseases%20IJID%20official%20publication%20of%20the%20International"
+        },
+        {
+            "id": "Society_2020_a",
+            "alt_id": "2",
+            "entry": "Society for Infectious Diseases 2020;91:264.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Society%20for%20Infectious%20Diseases%20202091264"
+        },
+        {
+            "id": "2",
+            "alt_id": "Holshue_et+al_2020_a",
+            "entry": "2. Holshue ML, DeBolt C, Lindquist S,et al. First Case of 2019 Novel Coronavirus in the United States. N Engl J Med 2020 Jan 31. doi:10.1056/NEJMoa2001191.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001191",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001191",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001191"
+        },
+        {
+            "id": "3",
+            "alt_id": "Rothe_et+al_2020_a",
+            "entry": "3. Rothe C, Schunk M, Sothmann P, et al. Transmission of COVID-19 Infection from an Asymptomatic Contact in Germany. N Engl J Med 2020 Jan 30. doi:10.1056/NEJMc2001468.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMc2001468",
+            "scite": "https://scite.ai/reports/10.1056/NEJMc2001468",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMc2001468"
+        },
+        {
+            "id": "4",
+            "alt_id": "Huang_et+al_2020_a",
+            "entry": "4. Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. The Lancet 2020 Jan 24. doi: 10.1016/S0140-6736(20)30183-5.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930183-5"
+        },
+        {
+            "id": "5",
+            "alt_id": "Guan_et+al_2020_a",
+            "entry": "5. Guan H, Xiong Y, Shen N, et. Clinical and thin section CT features of patients with COVID-19 pneumonia in Wuhan. Radiologic Practice 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Guan%20H%20Xiong%20Y%20Shen%20N%20et%20Clinical%20and%20thin%20section%20CT%20features%20of%20patients%20with%20COVID19%20pneumonia%20in%20Wuhan%20Radiologic%20Practice%202020"
+        },
+        {
+            "id": "6",
+            "alt_id": "Chen_et+al_2020_a",
+            "entry": "6. Chen N, Zhou M, Dong X, et al. Epidemiological and clinical characteristics of 99 cases of novel coronavirus pneumonia in Wuhan, China: a descriptive study. The Lancet 2020 Jan 30. doi: 10.1016/S0140-6736(20)30211-7.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30211-7",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30211-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930211-7"
+        },
+        {
+            "id": "7",
+            "alt_id": "7._0000_b",
+            "entry": "7. National Health and Health Commission of China. http://www.nhc.gov.cn/yzygj/s7652m/202002/e84bd30142ab4d8982326326e4db22ea.shtml",
+            "url": "http://www.nhc.gov.cn/yzygj/s7652m/202002/e84bd30142ab4d8982326326e4db22ea.shtml"
+        },
+        {
+            "id": "8",
+            "alt_id": "8._0000_c",
+            "entry": "8. National Health and Health Commission of China. http://en.nhc.gov.cn/2020-02/13/c_76512.htm",
+            "url": "http://en.nhc.gov.cn/2020-02/13/c_76512.htm"
+        },
+        {
+            "id": "9",
+            "alt_id": "9._0000_d",
+            "entry": "9. Health Commission of Hubei Province. http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200216_2038684.shtml",
+            "url": "http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200216_2038684.shtml"
+        },
+        {
+            "id": "10",
+            "alt_id": "Of_2018_a",
+            "entry": "10. China Ministry of Health. China Health Statistical Yearbook 2018. Beijing: Peking Union Medical College Press 2018:34,42 [in Chinese]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=China%20Ministry%20of%20Health%20China%20Health%20Statistical%20Yearbook%202018%20Beijing%20Peking%20Union%20Medical%20College%20Press%2020183442%20in%20Chinese"
+        },
+        {
+            "id": "11",
+            "alt_id": "Liu_et+al_2019_a",
+            "entry": "11. Liu Y, Liu G, Zhang Q. Deep learning and medical diagnosis. The Lancet 2019;394(10210): 1709-1710.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Liu%2C%20Y.%20Liu%2C%20G.%20Zhang%2C%20Q.%20Deep%20learning%20and%20medical%20diagnosis%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Liu%2C%20Y.%20Liu%2C%20G.%20Zhang%2C%20Q.%20Deep%20learning%20and%20medical%20diagnosis%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Liu%2C%20Y.%20Liu%2C%20G.%20Zhang%2C%20Q.%20Deep%20learning%20and%20medical%20diagnosis%202019"
+        },
+        {
+            "id": "12",
+            "alt_id": "Gong_et+al_2020_a",
+            "entry": "12. Gong D, Wu L, Zhang J, et al. Detection of colorectal adenomas with a real-time computer-aided system (ENDOANGEL): a randomised controlled study. Lancet Gastroenterol Hepatol 2020 Jan 22. doi: 10.1016/S2468-1253(19)30413-3.",
+            "crossref": "https://dx.doi.org/10.1016/S2468-1253(19)30413-3",
+            "scite": "https://scite.ai/reports/10.1016/S2468-1253(19)30413-3",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S2468-1253%2819%2930413-3"
+        },
+        {
+            "id": "13",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "13. Wu L, Zhang J, Zhou W, et al. Randomised controlled trial of WISENSE, a real-time quality improving system for monitoring blind spots during esophagogastroduodenoscopy. Gut 2019;68(12):2161-2169.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%2C%20L.%20Zhang%2C%20J.%20Zhou%2C%20W.%20Randomised%20controlled%20trial%20of%20WISENSE%2C%20a%20real-time%20quality%20improving%20system%20for%20monitoring%20blind%20spots%20during%20esophagogastroduodenoscopy%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%2C%20L.%20Zhang%2C%20J.%20Zhou%2C%20W.%20Randomised%20controlled%20trial%20of%20WISENSE%2C%20a%20real-time%20quality%20improving%20system%20for%20monitoring%20blind%20spots%20during%20esophagogastroduodenoscopy%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%2C%20L.%20Zhang%2C%20J.%20Zhou%2C%20W.%20Randomised%20controlled%20trial%20of%20WISENSE%2C%20a%20real-time%20quality%20improving%20system%20for%20monitoring%20blind%20spots%20during%20esophagogastroduodenoscopy%202019"
+        },
+        {
+            "id": "14",
+            "alt_id": "Chen_et+al_0000_a",
+            "entry": "14. Chen D, Wu L, Li Y, et al. Comparing blind spots of unsedated ultrafine, sedated, and unsedated conventional gastroscopy with and without artificial intelligence: a prospective, single-blind, 3-parallel-group, randomized, single-center trial. Gastrointestinal endoscopy 2020;91(2):332-339. e3.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20D.%20Wu%2C%20L.%20Li%2C%20Y.%20Comparing%20blind%20spots%20of%20unsedated%20ultrafine%2C%20sedated%2C%20and%20unsedated%20conventional%20gastroscopy%20with%20and%20without%20artificial%20intelligence%3A%20a%20prospective%2C%20single-blind%2C%203-parallel-group%2C%20randomized%2C%20single-center%20trial",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20D.%20Wu%2C%20L.%20Li%2C%20Y.%20Comparing%20blind%20spots%20of%20unsedated%20ultrafine%2C%20sedated%2C%20and%20unsedated%20conventional%20gastroscopy%20with%20and%20without%20artificial%20intelligence%3A%20a%20prospective%2C%20single-blind%2C%203-parallel-group%2C%20randomized%2C%20single-center%20trial",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20D.%20Wu%2C%20L.%20Li%2C%20Y.%20Comparing%20blind%20spots%20of%20unsedated%20ultrafine%2C%20sedated%2C%20and%20unsedated%20conventional%20gastroscopy%20with%20and%20without%20artificial%20intelligence%3A%20a%20prospective%2C%20single-blind%2C%203-parallel-group%2C%20randomized%2C%20single-center%20trial"
+        },
+        {
+            "id": "15",
+            "alt_id": "Zhou_et+al_0000_a",
+            "entry": "15. Zhou J, Wu L, Wan X, et al. A novel artificial intelligence system for the assessment of bowel preparation (with video). Gastrointestinal Endoscopy 2020;91(2):428-435. e2.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20J.%20Wu%2C%20L.%20Wan%2C%20X.%20A%20novel%20artificial%20intelligence%20system%20for%20the%20assessment%20of%20bowel%20preparation%20%28with%20video%29",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20J.%20Wu%2C%20L.%20Wan%2C%20X.%20A%20novel%20artificial%20intelligence%20system%20for%20the%20assessment%20of%20bowel%20preparation%20%28with%20video%29",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20J.%20Wu%2C%20L.%20Wan%2C%20X.%20A%20novel%20artificial%20intelligence%20system%20for%20the%20assessment%20of%20bowel%20preparation%20%28with%20video%29"
+        },
+        {
+            "id": "16",
+            "alt_id": "Wu_et+al_2019_b",
+            "entry": "16. Wu L, Zhou W, Wan X, et al. A deep neural network improves endoscopic detection of early gastric cancer without blind spots. Endoscopy 2019;51(06):522-531.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%2C%20L.%20Zhou%2C%20W.%20Wan%2C%20X.%20A%20deep%20neural%20network%20improves%20endoscopic%20detection%20of%20early%20gastric%20cancer%20without%20blind%20spots%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%2C%20L.%20Zhou%2C%20W.%20Wan%2C%20X.%20A%20deep%20neural%20network%20improves%20endoscopic%20detection%20of%20early%20gastric%20cancer%20without%20blind%20spots%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%2C%20L.%20Zhou%2C%20W.%20Wan%2C%20X.%20A%20deep%20neural%20network%20improves%20endoscopic%20detection%20of%20early%20gastric%20cancer%20without%20blind%20spots%202019"
+        },
+        {
+            "id": "17",
+            "alt_id": "17._0000_e",
+            "entry": "17. The Central People\u2019s Government of the People\u2019s Republic of China. The Law of the People's http://www.gov.cn/banshi/2005-08/01/content_19023.htm",
+            "url": "http://www.gov.cn/banshi/2005-08/01/content_19023.htm"
+        },
+        {
+            "id": "18",
+            "alt_id": "18._0000_f",
+            "entry": "18. Centers for Disease Control and Prevention. https://www.cdc.gov/corona-virus/COVID-19/lab/rt-pcr-detection-instructions.html",
+            "url": "https://www.cdc.gov/corona-virus/COVID-19/lab/rt-pcr-detection-instructions.html"
+        },
+        {
+            "id": "19",
+            "alt_id": "Deng_et+al_2009_a",
+            "entry": "19. Deng J, Dong W, Socher R, et al. ImageNet: A large-scale hierarchical image database. In: IEEE Conference on Computer Vision and Pattern Recognition 2009;p.248-255.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Deng%2C%20J.%20Dong%2C%20W.%20Socher%2C%20R.%20ImageNet%3A%20A%20large-scale%20hierarchical%20image%20database%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Deng%2C%20J.%20Dong%2C%20W.%20Socher%2C%20R.%20ImageNet%3A%20A%20large-scale%20hierarchical%20image%20database%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Deng%2C%20J.%20Dong%2C%20W.%20Socher%2C%20R.%20ImageNet%3A%20A%20large-scale%20hierarchical%20image%20database%202009"
+        },
+        {
+            "id": "20",
+            "alt_id": "Zhou_et+al_2018_a",
+            "entry": "20. Zhou Z, Siddiquee M M R, Tajbakhsh N, et al. Unet++: A nested u-net architecture for medical image segmentation. Springer Cham 2018;3-11.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20Z.%20R%2C%20Siddiquee%20M.M.%20Tajbakhsh%2C%20N.%20Unet%2B%2B%3A%20A%20nested%20u-net%20architecture%20for%20medical%20image%20segmentation%202018"
+        },
+        {
+            "id": "21",
+            "alt_id": "21._0000_g",
+            "entry": "21. The National Health and Health Commission of China. http://en.nhc.gov.cn/2020-02/07/c_76323.htm",
+            "url": "http://en.nhc.gov.cn/2020-02/07/c_76323.htm"
+        },
+        {
+            "id": "22",
+            "alt_id": "Cheng_et+al_0000_a",
+            "entry": "22. Cheng V C C, Wong S C, To K K W, et al. Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China. Journal of Hospital",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=C%2C%20Cheng%20V.C.%20C%2C%20Wong%20S.%20W%2C%20To%20K.K.%20Preparedness%20and%20proactive%20infection%20control%20measures%20against%20the%20emerging%20Wuhan%20coronavirus%20pneumonia%20in%20China",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=C%2C%20Cheng%20V.C.%20C%2C%20Wong%20S.%20W%2C%20To%20K.K.%20Preparedness%20and%20proactive%20infection%20control%20measures%20against%20the%20emerging%20Wuhan%20coronavirus%20pneumonia%20in%20China",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=C%2C%20Cheng%20V.C.%20C%2C%20Wong%20S.%20W%2C%20To%20K.K.%20Preparedness%20and%20proactive%20infection%20control%20measures%20against%20the%20emerging%20Wuhan%20coronavirus%20pneumonia%20in%20China"
+        },
+        {
+            "id": "23",
+            "alt_id": "Tang_et+al_2019_a",
+            "entry": "23. Tang B, Wang X, Li Q, et al. Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions. Journal of Clinical Medicine 2020;9(2): 462.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tang%20B%20Wang%20X%20Li%20Q%20et%20al%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20Journal%20of%20Clinical%20Medicine%20202092%20462",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tang%20B%20Wang%20X%20Li%20Q%20et%20al%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20Journal%20of%20Clinical%20Medicine%20202092%20462",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tang%20B%20Wang%20X%20Li%20Q%20et%20al%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20Journal%20of%20Clinical%20Medicine%20202092%20462"
+        },
+        {
+            "id": "24",
+            "alt_id": "Riou_2019_a",
+            "entry": "24. Riou J, Althaus C L. Pattern of early human-to-human transmission of Wuhan 2019-nCoV.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Riou%20J%20Althaus%20C%20L%20Pattern%20of%20early%20humantohuman%20transmission%20of%20Wuhan%202019nCoV"
+        },
+        {
+            "id": "25",
+            "alt_id": "Prasse_et+al_2019_a",
+            "entry": "25. Prasse B, Achterberg M A, Ma L, et al. Network-Based Prediction of the 2019-nCoV Epidemic Outbreak in the Chinese Province Hubei. arXiv 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Prasse%20B%20Achterberg%20M%20A%20Ma%20L%20et%20al%20NetworkBased%20Prediction%20of%20the%202019nCoV%20Epidemic%20Outbreak%20in%20the%20Chinese%20Province%20Hubei%20arXiv%202020"
+        },
+        {
+            "id": "26",
+            "alt_id": "Boldog_et+al_2019_a",
+            "entry": "26. Boldog P, Tekeli T, Vizi Z, et al. Risk assessment of novel coronavirus 2019-nCoV outbreaks outside China. medRxiv 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Boldog%20P%20Tekeli%20T%20Vizi%20Z%20et%20al%20Risk%20assessment%20of%20novel%20coronavirus%202019nCoV%20outbreaks%20outside%20China%20medRxiv%202020"
+        },
+        {
+            "id": "27",
+            "alt_id": "Ardila_et+al_2019_a",
+            "entry": "27. Ardila D, Kiraly A P, Bharadwaj S, et al. End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography. Nature medicine 2019;25(6):954-961.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ardila%2C%20D.%20P%2C%20Kiraly%20A.%20Bharadwaj%2C%20S.%20End-to-end%20lung%20cancer%20screening%20with%20three-dimensional%20deep%20learning%20on%20low-dose%20chest%20computed%20tomography%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ardila%2C%20D.%20P%2C%20Kiraly%20A.%20Bharadwaj%2C%20S.%20End-to-end%20lung%20cancer%20screening%20with%20three-dimensional%20deep%20learning%20on%20low-dose%20chest%20computed%20tomography%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ardila%2C%20D.%20P%2C%20Kiraly%20A.%20Bharadwaj%2C%20S.%20End-to-end%20lung%20cancer%20screening%20with%20three-dimensional%20deep%20learning%20on%20low-dose%20chest%20computed%20tomography%202019"
+        },
+        {
+            "id": "28",
+            "alt_id": "Chae_et+al_2019_a",
+            "entry": "28. Chae K J, Jin G Y, Ko S B, et al. Deep Learning for the Classification of Small (\u2264 2 cm) Pulmonary Nodules on CT Imaging: A Preliminary Study. Academic radiology 2019.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=J%2C%20Chae%20K.%20Y%2C%20Jin%20G.%20B%2C%20Ko%20S.%20Deep%20Learning%20for%20the%20Classification%20of%20Small%20%28%E2%89%A4%202%20cm%29%20Pulmonary%20Nodules%20on%20CT%20Imaging%3A%20A%20Preliminary%20Study%202019"
+        },
+        {
+            "id": "29",
+            "alt_id": "Chen_et+al_2019_a",
+            "entry": "29. Chen Z M, Fu J F, Shu Q, et al. Diagnosis and treatment recommendations for pediatric respiratory infection caused by the 2019 novel coronavirus. World Journal of Pediatrics",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%20Z%20M%20Fu%20J%20F%20Shu%20Q%20et%20al%20Diagnosis%20and%20treatment%20recommendations%20for%20pediatric%20respiratory%20infection%20caused%20by%20the%202019%20novel%20coronavirus%20World%20Journal%20of%20Pediatrics",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%20Z%20M%20Fu%20J%20F%20Shu%20Q%20et%20al%20Diagnosis%20and%20treatment%20recommendations%20for%20pediatric%20respiratory%20infection%20caused%20by%20the%202019%20novel%20coronavirus%20World%20Journal%20of%20Pediatrics",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%20Z%20M%20Fu%20J%20F%20Shu%20Q%20et%20al%20Diagnosis%20and%20treatment%20recommendations%20for%20pediatric%20respiratory%20infection%20caused%20by%20the%202019%20novel%20coronavirus%20World%20Journal%20of%20Pediatrics"
+        },
+        {
+            "id": "30",
+            "alt_id": "30._0000_h",
+            "entry": "30. Health Commission of Hubei Province. http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200215_2028355.shtml",
+            "url": "http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200215_2028355.shtml"
+        }
+    ],
+    "facts": [
+        "a new coronavirus infection disease was first reported in Wuhan",
+        "more rapid detection kit for the novel coronavirus has come into mass production",
+        "An update series demonstrate that CT findings were positive in all laboratory-confirmed COVID-19 patients",
+        "In the fifth version of diagnostic manual of COVID-19 launched by the National Health",
+        "a system based on deep learning",
+        "55 control patients in retrospective dataset were shown in Table 1",
+        "Baseline characteristics were comparable between training and testing datasets",
+        "et al achieved end-to-end lung cancer screening on low-dose chest CT with an AUC",
+        "The deep learning model showed a comparable performance with expert radiologist",
+        "holds great potential to relieve the pressure of frontline radiologists",
+        "with much shorter time compared with expert radiologists"
+    ],
+    "claims": [
+        "For 27 prospective patients, the model achieved a comparable performance to that of expert radiologist",
+        "In the present study, our model achieved a comparable performance but with much shorter time compared with expert radiologists"
+    ],
+    "findings": [
+        "For 27 prospective patients, the model achieved a comparable performance to that of expert radiologist",
+        "In the present study, our model achieved a comparable performance but with much shorter time compared with expert radiologists"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Our research aimed to construct a system based on deep learning for detecting COVID-19 pneumonia on high resolution computed tomography, relieve working pressure of radiologists and contribute to the control of the epidemic",
+        "The deep learning model showed a comparable performance with expert radiologist, and greatly improve the efficiency of radiologists in clinical practice",
+        "It holds great potential to relieve the pressure of frontline radiologists, improve early diagnosis, isolation and treatment, and contribute to the control of the epidemic",
+        "The nucleic acid detection was considered determinant for identifying the COVID-19 infection and more rapid detection kit for the novel coronavirus has come into mass production, computed tomography (CT) scan is still the most efficient modality for detecting and evaluating the severity of pneumonia.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]",
+        "In the fifth version of diagnostic manual of COVID-19 launched by the National Health and Health Commission of",
+        "The baseline characteristics and computed tomography findings of 51 patients of 2019-CoV pneumonia and 55 control patients in retrospective dataset were shown in Table 1 and Table 2, respectively",
+        "Baseline characteristics were comparable between training and testing datasets"
+    ],
+    "top_statements": [
+        "In December 2019, a new coronavirus infection disease was first reported in Wuhan",
+        "Our research aimed to construct a system based on deep learning for detecting COVID-19 pneumonia on high resolution computed tomography, relieve working pressure of radiologists and contribute to the control of the epidemic",
+        "The deep learning model showed a comparable performance with expert radiologist, and greatly improve the efficiency of radiologists in clinical practice",
+        "It holds great potential to relieve the pressure of frontline radiologists, improve early diagnosis, isolation and treatment, and contribute to the control of the epidemic",
+        "The nucleic acid detection was considered determinant for identifying the COVID-19 infection and more rapid detection kit for the novel coronavirus has come into mass production, computed tomography (CT) scan is still the most efficient modality for detecting and evaluating the severity of pneumonia.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]",
+        "In the fifth version of diagnostic manual of COVID-19 launched by the National Health and Health Commission of"
+    ],
+    "headline": "The deep learning model showed a comparable performance with expert radiologist, and greatly improve the efficiency of radiologists in clinical practice",
+    "contexts": [],
+    "abbreviations": {
+        "CT": "computed tomography",
+        "CDC": "Centers for Disease Control and Prevention",
+        "PPV": "positive prediction value",
+        "NPV": "negative prediction value"
+    }
+}

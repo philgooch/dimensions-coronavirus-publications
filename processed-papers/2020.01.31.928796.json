@@ -1,0 +1,432 @@
+{
+    "filename": "2020.01.31.928796.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 217141,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.01.31.928796",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/02/2020.01.31.928796.full.pdf"
+        },
+        "title": "Genome Detective Coronavirus Typing Tool for rapid identification and characterization of novel coronavirus genomes",
+        "author": "Sara Cleemput, Wim Dumon, Vagner Fonseca, Wasim Abdool Karim, Marta Giovanetti, Luiz Carlos Alcantara, Koen Deforche, Tulio de Oliveira",
+        "date": 2020,
+        "affiliations": [
+            "School of Laboratory Medicine and Medical Sciences, College of Health Sciences, University of KwaZulu-Natal, Durban, South Africa;",
+            "Laborat\u00f3rio de Gen\u00e9tica Celular",
+            "Molecular, Instituto de Ci\u00eancias Biol\u00f3gicas, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil;",
+            "Coordena\u00e7\u00e3o Geral dos Laborat\u00f3rios de Sa\u00fade P\u00fablica/Secretaria de Vigil\u00e2ncia em Sa\u00fade, Minist\u00e9rio da Sa\u00fade, (CGLAB/SVS-MS) Bras\u00edlia, Brazil,",
+            "Laborat\u00f3rio de Flaviv\u00edrus, Instituto Oswaldo Cruz, Funda\u00e7\u00e3o Oswaldo Cruz, Rio de Janeiro, RJ, Brazil;",
+            "Centre for the AIDS Programme of Research in South Africa (CAPRISA), Durban, South Africa,",
+            "Department of Global Health, University of Washington, Seattle, USA."
+        ],
+        "abstract": "ABSTRACTSummaryGenome Detective is a web-based, user-friendly software application to quickly and accurately assemble all known virus genomes from next generation sequencing datasets. This application allows the identification of phylogenetic clusters and genotypes from assembled genomes in FASTA format. Since its release in 2019, we have produced a number of typing tools for emergent viruses that have caused large outbreaks, such as Zika and Yellow Fever Virus in Brazil. Here, we present The Genome Detective Coronavirus Typing Tool that can accurately identify novel coronavirus (2019-nCoV) sequences isolated in China and around the world. The tool can accept up to 2,000 sequences per submission and the analysis of a new whole genome sequence will take approximately one minute. The tool has been tested and validated with hundreds of whole genomes from ten coronavirus species, and correctly classified all of the SARS-related coronavirus (SARSr-CoV) and all of the available public data for 2019-nCoV. The tool also allows tracking of new viral mutations as the outbreak expands globally, which may help to accelerate the development of novel diagnostics, drugs and vaccines.AvailabilityAvailable online: https://www.genomedetective.com/app/typingtool/cov*Contactkoen@emweb.be and deoliveira@ukzn.ac.zaSupplementary informationSupplementary data is available online.",
+        "keywords": [
+            "viral classification",
+            "phylogenetic",
+            "mutations",
+            "2019-nCoV",
+            "SARS",
+            "coronavirus"
+        ],
+        "references": "@article{zhu-a,\n  author = {Zhu, N. and Zhang, D. and Wang, W. and Li, X. and Yang, B. and Song, J. and Zhao, X. and Huang, B. and Shi, W. and Lu, R. and Niu, P. and Zhan, F. and Ma, X. and Wang, D. and Xu, W. and Wu, G. and Gao, G.F. and Tan, W.},\n  title = {China Novel Coronavirus Investigating and Research Team. A Novel Coronavirus from Patients with Pneumonia in China, 2019},\n  journal = {N Engl J Med. 2020},\n  doi = {doi: 10.1056/NEJMoa2001017},\n  language = {}\n}\n@article{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X. and Ren, L. and Zhao, J. and Hu, Y. and Zhang, L. and Fan, G. and Xu, J. and Gu, X. and Cheng, Z. and Yu, T. and Xia, J. and Wei, Y. and Wu, W. and Xie, X. and Yin, W. and Li, H. and Liu, M. and Xiao, Y. and Gao, H. and Guo, L. and Xie, J. and Wang, G. and Jiang, R. and Gao, Z. and Jin, Q. and Wang, J. and Cao, B.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet. 2020},\n  volume = {20},\n  doi = {doi: 10.1016/S01406736(20)30183-5},\n  number = {30183-5},\n  language = {}\n}\n@article{lu-a,\n  author = {Lu, R. and Zhao, Xiang and Li, Juan and Niu, Peihua and Yang, Bo and Wu, Honglong and Wang, Wenling and Song, Hao and Huang, Baoying and Zhu, Na and Bi, Yuhai and Ma, Xuejun and Zhan, Faxian and Wang, Liang and Hu, Tao and Zhou, Hong and Hu, Zhenhong and Zhou, Weimin and Zhao, Li and Chen, Jing and Meng, Yao and Wang, Ji and Lin, Yang and Yuan, Jianying and Xie, Zhihao and Ma, Jinmin and Liu, William J. and Wang, Dayan},\n  title = {Wenbo Xu, Edward C Holmes, George F Gao, Guizhen Wu, Weijun Chen, Weifeng Shi, Wenjie Tan. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  journal = {Lancet},\n  volume = {1016},\n  number = {0140-6736},\n  language = {}\n}\n@book{unknown-a,\n  title = {Novel Coronavirus},\n  publisher = {2019-nCoV) situational reports. Available online},\n  url = {https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/},\n  language = {},\n  organization = {World Health Organization (WHO}\n}\n@book{edgar-a,\n  author = {Edgar, R.C.},\n  title = {MUSCLE: multiple sequence alignment with high accuracy and high throughput},\n  publisher = {Nucleic Acids Research. 2004, 32},\n  doi = {5},\n  pages = {1792\u201397},\n  unmatched-doi = {doi: 10.1093/nar/gkh340},\n  language = {}\n}\n@article{guindon2003a,\n  author = {Guindon, S. and simple, Gascuel O.A. and fast},\n  title = {and accurate algorithm to estimate large phylogenies by maxi- mum likelihood},\n  journal = {Systematic Biology},\n  date = {2003},\n  volume = {52},\n  pages = {696\u2013704},\n  url = {https://doi.org/10.1080/10635150390235520},\n  number = {5},\n  language = {}\n}\n@article{lemoine2018a,\n  author = {Lemoine, F. and Domelevo Entfellner, J.B. and Wilkinson, E. and Correia, D. and Davila Felipe, M. and de Oliveira, T. and Gascuel, O.},\n  title = {Renewing Felsenstein's phylogenetic bootstrap in the era of big data},\n  journal = {Nature},\n  date = {2018},\n  doi = {doi: 10.1038/s41586-018-0043-0},\n  language = {}\n}\n@misc{ronquist2003a,\n  author = {Ronquist, F. and Huelsenbeck, J.P.},\n  title = {MrBayes 3: Bayesian phylogenetic inference under mixed models. Bioin- formatics},\n  date = {2003},\n  volume = {19},\n  pages = {1572\u20131574},\n  url = {https://doi.org/10.1093/bioinformatics/btg180},\n  number = {12},\n  language = {}\n}\n@techreport{v2018a,\n  author = {v1.4.4, Rambaut A.FigTree},\n  date = {2018},\n  url = {http://tree.bio.ed.ac.uk/software/figtree/},\n  institution = {Institute of Evolutionary Biology, University of Edinburgh, Edinburgh}\n}\n@misc{twitter2020a,\n  author = {Twitter, Rambaut A.},\n  date = {2020-01-24},\n  url = {https://twitter.com/arambaut}\n}\n@misc{vilsker2019a,\n  author = {Vilsker, M. and Moosa, Y. and Nooij, S. and Fonseca, V. and Ghysens, Y. and Dumon, K. and Pauwels, R. and Alcantara, L.C. and Vanden Eynden, E. and Vandamme, A.M. and Deforche, K. and de Oliveira, T.},\n  title = {Genome Detective: an automated system for virus identification from high-throughput sequencing data. Bioinformatics},\n  date = {2019},\n  volume = {35},\n  pages = {871\u2013873},\n  doi = {doi: 10.1093/bioinformatics/bty695},\n  number = {5},\n  language = {}\n}\n@article{fonseca2019a,\n  author = {Fonseca, V. and Libin, P.J.K. and Theys, K. and Faria, N.R. and Nunes, M.R.T. and Restovic, M.I. and Freire, M. and Giovanetti, M. and Cuypers, L. and Now\u00e9, A. and Abecasis, A. and Deforche, K. and Santiago, G.A. and Siqueira, I.C. and San, E.J. and Machado, K.C.B. and Azevedo, V. and Filippis, A.M.B. and Cunha, R.V.D. and Pybus, O.G. and Vandamme, A.M. and Alcantara, L.C.J. and de Oliveira, T.},\n  title = {A computational method for the identification of Dengue, Zika and Chikungunya virus species and genotypes},\n  journal = {PLoS Negl Trop Dis},\n  date = {2019},\n  volume = {13},\n  pages = {0007231},\n  doi = {doi: 10.1371/journal.pntd.0007231},\n  number = {5},\n  language = {}\n}\n@misc{deforche2017a,\n  author = {Deforche, K.},\n  title = {An alignment method for nucleic acid sequences against annotated genomes},\n  date = {2017},\n  doi = {doi.org/10.1101/200394},\n  language = {}\n}\n@article{f1981a,\n  author = {F., Smith T. and S, Waterman M.},\n  date = {1981},\n  title = {Identification of common molecular subsequences},\n  journal = {J. Mol. Biol},\n  volume = {147},\n  pages = {195\u2013197},\n  language = {}\n}\n@article{gotoh1982a,\n  author = {Gotoh, O.},\n  date = {1982},\n  title = {An improved algorithm for matching biological sequences},\n  journal = {J. Mol. Biol},\n  volume = {162},\n  pages = {705\u2013708},\n  language = {}\n}\n@article{katoh2013a,\n  author = {Katoh, K. and Standley, D.M.},\n  title = {MAFFT multiple sequence alignment software version 7: Improvements in performance and usability},\n  journal = {Molecular Biology and Evolution},\n  date = {2013},\n  volume = {30},\n  pages = {772\u2013780},\n  number = {4},\n  language = {}\n}\n",
+        "links": [
+            "https://www.genomedetective.com/app/typingtool/cov",
+            "http://www.viprbrc.org",
+            "https://www.gisaid.org"
+        ],
+        "emails": [
+            "deoliveira@ukzn.ac.za",
+            "koen@emweb.be"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Zhu, N.\nAU  - Zhang, D.\nAU  - Wang, W.\nAU  - Li, X.\nAU  - Yang, B.\nAU  - Song, J.\nAU  - Zhao, X.\nAU  - Huang, B.\nAU  - Shi, W.\nAU  - Lu, R.\nAU  - Niu, P.\nAU  - Zhan, F.\nAU  - Ma, X.\nAU  - Wang, D.\nAU  - Xu, W.\nAU  - Wu, G.\nAU  - Gao, G.F.\nAU  - Tan, W.\nTI  - China Novel Coronavirus Investigating and Research Team. A Novel Coronavirus from Patients with Pneumonia in China, 2019\nT2  - N Engl J Med. 2020\nDO  - 10.1056/NEJMoa2001017\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nAU  - Ren, L.\nAU  - Zhao, J.\nAU  - Hu, Y.\nAU  - Zhang, L.\nAU  - Fan, G.\nAU  - Xu, J.\nAU  - Gu, X.\nAU  - Cheng, Z.\nAU  - Yu, T.\nAU  - Xia, J.\nAU  - Wei, Y.\nAU  - Wu, W.\nAU  - Xie, X.\nAU  - Yin, W.\nAU  - Li, H.\nAU  - Liu, M.\nAU  - Xiao, Y.\nAU  - Gao, H.\nAU  - Guo, L.\nAU  - Xie, J.\nAU  - Wang, G.\nAU  - Jiang, R.\nAU  - Gao, Z.\nAU  - Jin, Q.\nAU  - Wang, J.\nAU  - Cao, B.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet. 2020\nVL  - 20\nDO  - 10.1016/S01406736(20)30183-5\nIS  - 30183-5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lu, R.\nAU  - Zhao, Xiang\nAU  - Li, Juan\nAU  - Niu, Peihua\nAU  - Yang, Bo\nAU  - Wu, Honglong\nAU  - Wang, Wenling\nAU  - Song, Hao\nAU  - Huang, Baoying\nAU  - Zhu, Na\nAU  - Bi, Yuhai\nAU  - Ma, Xuejun\nAU  - Zhan, Faxian\nAU  - Wang, Liang\nAU  - Hu, Tao\nAU  - Zhou, Hong\nAU  - Hu, Zhenhong\nAU  - Zhou, Weimin\nAU  - Zhao, Li\nAU  - Chen, Jing\nAU  - Meng, Yao\nAU  - Wang, Ji\nAU  - Lin, Yang\nAU  - Yuan, Jianying\nAU  - Xie, Zhihao\nAU  - Ma, Jinmin\nAU  - Liu, William J.\nAU  - Wang, Dayan\nTI  - Wenbo Xu, Edward C Holmes, George F Gao, Guizhen Wu, Weijun Chen, Weifeng Shi, Wenjie Tan. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nT2  - Lancet\nVL  - 1016\nIS  - 0140-6736\nLA  - \nER  - \n\nTY  - BOOK\nTI  - Novel Coronavirus\nPB  - 2019-nCoV) situational reports. Available online\nUR  - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/\nLA  - \nC1  - World Health Organization (WHO\nER  - \n\nTY  - BOOK\nAU  - Edgar, R.C.\nTI  - MUSCLE: multiple sequence alignment with high accuracy and high throughput\nPB  - Nucleic Acids Research. 2004, 32\nDO  - 5\nSP  - 1792\nEP  - 97\nC1  - doi: 10.1093/nar/gkh340\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Guindon, S.\nAU  - simple, Gascuel O.A.\nAU  - fast\nTI  - and accurate algorithm to estimate large phylogenies by maxi- mum likelihood\nT2  - Systematic Biology\nPY  - 2003\nDA  - 2003\nVL  - 52\nSP  - 696\nEP  - 704\nUR  - https://doi.org/10.1080/10635150390235520\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lemoine, F.\nAU  - Domelevo Entfellner, J.B.\nAU  - Wilkinson, E.\nAU  - Correia, D.\nAU  - Davila Felipe, M.\nAU  - de Oliveira, T.\nAU  - Gascuel, O.\nTI  - Renewing Felsenstein's phylogenetic bootstrap in the era of big data\nT2  - Nature\nPY  - 2018\nDA  - 2018\nDO  - 10.1038/s41586-018-0043-0\nLA  - \nER  - \n\nTY  - GEN\nAU  - Ronquist, F.\nAU  - Huelsenbeck, J.P.\nTI  - MrBayes 3: Bayesian phylogenetic inference under mixed models. Bioin- formatics\nPY  - 2003\nDA  - 2003\nVL  - 19\nSP  - 1572\nEP  - 1574\nUR  - https://doi.org/10.1093/bioinformatics/btg180\nIS  - 12\nLA  - \nER  - \n\nTY  - RPRT\nAU  - v1.4.4, Rambaut A.FigTree\nPY  - 2018\nDA  - 2018\nUR  - http://tree.bio.ed.ac.uk/software/figtree/\nC1  - Institute of Evolutionary Biology, University of Edinburgh, Edinburgh\nER  - \n\nTY  - GEN\nAU  - Twitter, Rambaut A.\nPY  - 2020\nDA  - 2020/01/24\nUR  - https://twitter.com/arambaut\nER  - \n\nTY  - GEN\nAU  - Vilsker, M.\nAU  - Moosa, Y.\nAU  - Nooij, S.\nAU  - Fonseca, V.\nAU  - Ghysens, Y.\nAU  - Dumon, K.\nAU  - Pauwels, R.\nAU  - Alcantara, L.C.\nAU  - Vanden Eynden, E.\nAU  - Vandamme, A.M.\nAU  - Deforche, K.\nAU  - de Oliveira, T.\nTI  - Genome Detective: an automated system for virus identification from high-throughput sequencing data. Bioinformatics\nPY  - 2019\nDA  - 2019\nVL  - 35\nSP  - 871\nEP  - 873\nDO  - 10.1093/bioinformatics/bty695\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fonseca, V.\nAU  - Libin, P.J.K.\nAU  - Theys, K.\nAU  - Faria, N.R.\nAU  - Nunes, M.R.T.\nAU  - Restovic, M.I.\nAU  - Freire, M.\nAU  - Giovanetti, M.\nAU  - Cuypers, L.\nAU  - Now\u00e9, A.\nAU  - Abecasis, A.\nAU  - Deforche, K.\nAU  - Santiago, G.A.\nAU  - Siqueira, I.C.\nAU  - San, E.J.\nAU  - Machado, K.C.B.\nAU  - Azevedo, V.\nAU  - Filippis, A.M.B.\nAU  - Cunha, R.V.D.\nAU  - Pybus, O.G.\nAU  - Vandamme, A.M.\nAU  - Alcantara, L.C.J.\nAU  - de Oliveira, T.\nTI  - A computational method for the identification of Dengue, Zika and Chikungunya virus species and genotypes\nT2  - PLoS Negl Trop Dis\nPY  - 2019\nDA  - 2019\nVL  - 13\nSP  - 0007231\nDO  - 10.1371/journal.pntd.0007231\nIS  - 5\nLA  - \nER  - \n\nTY  - GEN\nAU  - Deforche, K.\nTI  - An alignment method for nucleic acid sequences against annotated genomes\nPY  - 2017\nDA  - 2017\nDO  - doi.org/10.1101/200394\nLA  - \nER  - \n\nTY  - JOUR\nAU  - F., Smith T.\nAU  - S, Waterman M.\nPY  - 1981\nDA  - 1981\nTI  - Identification of common molecular subsequences\nT2  - J. Mol. Biol\nVL  - 147\nSP  - 195\nEP  - 197\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gotoh, O.\nPY  - 1982\nDA  - 1982\nTI  - An improved algorithm for matching biological sequences\nT2  - J. Mol. Biol\nVL  - 162\nSP  - 705\nEP  - 708\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Katoh, K.\nAU  - Standley, D.M.\nTI  - MAFFT multiple sequence alignment software version 7: Improvements in performance and usability\nT2  - Molecular Biology and Evolution\nPY  - 2013\nDA  - 2013\nVL  - 30\nSP  - 772\nEP  - 780\nIS  - 4\nLA  - \nER  - \n\n",
+        "author_conclusions": [
+            "In conclusion, the Genome Detective Coronavirus Typing Tool is a web-based and user-friendly software application that allows the identification and characterization of novel coronavirus genomes."
+        ],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Genome Detective Coronavirus Typing Tool assembles genomes from next generation sequencing (NGS) in FASTAQ format or assembled genomes in FASTA format. A user can submit up to 1Gb of NGS data or 2,000 assembled genomic sequences. For each assembled genomic sequence, the tool identifies the virus species, constructs a phylogenetic tree and identifies phylogenetic clusters, which includes the novel coronavirus identified in Wuhan China in 2019 (2019-nCoV). The tool identifies changes at nucleotides, coding regions and proteins using a novel dynamic aligner and display all of the mutations in detailed tables and reports"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.01.31.928796.full/img-000.png"
+        ]
+    },
+    "sections": {
+        "summary": [
+            "Genome Detective is a web-based, user-friendly software application to quickly and accurately assemble all known virus genomes from next generation sequencing datasets. This application allows the identification of phylogenetic clusters and genotypes from assembled genomes in FASTA format. Since its release in 2019, we have produced a number of typing tools for emergent viruses that have caused large outbreaks, such as Zika and Yellow Fever Virus in Brazil. Here, we present The Genome Detective Coronavirus Typing Tool that can accurately identify novel coronavirus (2019-nCoV) sequences isolated in China and around the world. The tool can accept up to 2,000 sequences per submission and the analysis of a new whole genome sequence will take approximately one minute. The tool has been tested and validated with hundreds of whole genomes from ten coronavirus species, and correctly classified all of the SARS-related coronavirus (SARSr-CoV) and all of the available public data for 2019-nCoV. The tool also allows tracking of new viral mutations as the outbreak expands globally, which may help to accelerate the development of novel diagnostics, drugs and vaccines."
+        ],
+        "supplementary": [
+            "<strong>Supplementary information</strong><br/><br/>Supplementary data is available online."
+        ],
+        "introduction": [
+            "We are currently faced with a potential global epidemic of a new coronavirus that has infected thousands of people in China and is spreading rapidly around the world. This week the WHO has declared it an global emergency (WHO, 2020). The Wuhan novel coronavirus (2019-nCoV) has already caused more infections than the previous severe acute respiratory syndrome (SARS) outbreak of 2002 and 2003. The virus is a SARS related coronavirus (SARSr-CoV), and it is genetically associated with SARSr-CoV strains that infect bats in China (Zhu et al, 2020, Lu et al, 2020). It causes severe respiratory illness, has high fatality rate (Huang et al, 2020), can be transmitted from person to person and has spread to over 15 countries in less than two months (WHO, 2020).<br/><br/>This coronavirus outbreak has been unprecedented; so too is the way that the scientific community has responded to it. They have openly and rapidly shared genomic and clinical data as never seen before allowing research results to be released almost instantaneously. This has helped the understanding of the transmission dynamics, the development of rapid diagnostic and has informed public health response. Here, we present a new contribution that can speed up this communal effort. The Genome Detective Coronavirus Typing Tool is a free-of-charge web-based bioinformatics pipeline that can accurately and quickly identify, assemble and classify coronaviruses genomes. The tool also identifies changes at nucleotides, coding regions and proteins using a novel dynamic aligner to allow tracking new viral mutations (Figure 1)."
+        ],
+        "discussion": [
+            "We developed and released the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections. This tool allows the analysis of whole or partial viral genomes within minutes. It accepts assembled genomes in FASTA format or raw NGS data in FASTQ format from Illumina, Ion Torrent, PACBIO or Oxford Nanopore Technologies (ONT) can be submitted to the Genome Detective Virus Tool (<a class=\"ref-link\" id=\"cVilsker_et+al_2019_a\" href=\"#rVilsker_et+al_2019_a\">Vilsker et al, 2019</a>) to automatically assemble the consensus genome prior to executing the Coronavirus Typing Tool. User effort is minimal, and a user can submit multiple FASTA sequences at once.<br/><br/>The tool uses a novel and dynamic aligner, AGA, to allow submitted sequences to be queried against reference genomes, using both nucleotide and amino acid similarity scores. This allows accurate identification of other coronavirus species and the tracking of new viral mutations as the outbreak expands globally. It also performs detailed analysis of the coding regions and proteins. Moreover, it can easily be updated to add new phylogenetic clusters if new outbreaks arise or if the classification nomenclature changes. The tool has been able to correctly classify all the recently released nCoV-2019 genomes, as well as all the 2002-2003 SARS outbreak sequences"
+        ],
+        "acknowledgements": [
+            "Genome data for 2019-nCoV made kindly available by National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC), Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Hubei Provincial Center for Disease Control and Prevention, Wuhan Institute of Virology, Chinese Academy of Sciences, National Institute for Viral Disease Control and Prevention, China CDC, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Department of Medical Sciences, Ministry of Public Health, Thailand | Thai Red Cross Emerging Infectious Diseases - Health Science Centre | Department of Disease Control, Ministry of Public Health, Thailand, Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention, Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Division of Viral Diseases, Centers for Disease Control and Prevention, Centers for Disease Control, R.O.C. (Taiwan) | Centers for Disease Control, R.O.C. (Taiwan), California Department of Public Health | Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Diseases Control and Prevention, Arizona Department of Health Services | Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Disease Control and Prevention, Guangdong Provincial Centers for Diseases Control and Prevention | Guangdong Provincial Institute of Public Health, University of Hong Kong-Shenzhen Hospital, Shenzhen, Guangdong, State Key Laboratory of Virology, Wuhan University, Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris | National Reference Center for Viruses of Respiratory Infections, Institut Pasteur, Paris. We would like to acknowledge all of the data contributors. Research reported in this publication was supported by a research Flagship grant from the South African Medical Research Council (MRC-RFA-UFSP01-2013/UKZN HIVEPI), the VIROGENESIS project, which received funding from the European Union\u2019s Horizon 2020 Research and Innovation Programme (under Grant Agreement no. 634650) and the National Human Genome Research Institute of the National Institutes of Health under Award Number U24HG006941. H3ABioNet is an initiative of the Human Health and Heredity in Africa Consortium (H3Africa). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health."
+        ],
+        "funding": [
+            "Research reported in this publication was supported by a research Flagship grant from the South African Medical Research Council (MRC-RFA-UFSP01-2013/UKZN HIVEPI), the VIROGENESIS project, which received funding from the European Union\u2019s Horizon 2020 Research and Innovation Programme (under Grant Agreement no. 634650) and the National Human Genome Research Institute of the National Institutes of Health under Award Number U24HG006941"
+        ],
+        "data_availability": [
+            "Detailed information about the phylogenetic reference datasets are available in Supplementary Table 2",
+            "Supplementary data is available online"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary information",
+                "Supplementary data"
+            ],
+            "supplementary_figure_references": [
+                "Supplementary Table 1.",
+                "Supplementary Table 2.",
+                "Supplementary Figure 1",
+                "Supplementary Table 3.",
+                "Supplementary Table 4A",
+                "Supplementary Table 4sA",
+                "Supplementary Table 4B",
+                "Supplementary Table 4C",
+                "Supplementary Table 4C-II"
+            ]
+        }
+    },
+    "structured_content": {
+        "ABSTRACT": [
+            "Summary: Genome Detective is a web-based, user-friendly software application to quickly and accurately assemble all known virus genomes from next generation sequencing datasets. This application allows the identification of phylogenetic clusters and genotypes from assembled genomes in FASTA format. Since its release in 2019, we have produced a number of typing tools for emergent viruses that have caused large outbreaks, such as Zika and Yellow Fever Virus in Brazil. Here, we present The Genome Detective Coronavirus Typing Tool that can accurately identify novel coronavirus (2019-nCoV) sequences isolated in China and around the world. The tool can accept up to 2,000 sequences per submission and the analysis of a new whole genome sequence will take approximately one minute. The tool has been tested and validated with hundreds of whole genomes from ten coronavirus species, and correctly classified all of the SARS-related coronavirus (SARSr-CoV) and all of the available public data for 2019-nCoV. The tool also allows tracking of new viral mutations as the outbreak expands globally, which may help to accelerate the development of novel diagnostics, drugs and vaccines.",
+            "Availability: Available online: https://www.genomedetective.com/app/typingtool/cov",
+            "Supplementary information: Supplementary data is available online."
+        ],
+        "INTRODUCTION": [
+            "We are currently faced with a potential global epidemic of a new coronavirus that has infected thousands of people in China and is spreading rapidly around the world. This week the WHO has declared it an global emergency (WHO, 2020). The Wuhan novel coronavirus (2019-nCoV) has already caused more infections than the previous severe acute respiratory syndrome (SARS) outbreak of 2002 and 2003. The virus is a SARS related coronavirus (SARSr-CoV), and it is genetically associated with SARSr-CoV strains that infect bats in China (Zhu et al, 2020, Lu et al, 2020). It causes severe respiratory illness, has high fatality rate (Huang et al, 2020), can be transmitted from person to person and has spread to over 15 countries in less than two months (WHO, 2020).",
+            "This coronavirus outbreak has been unprecedented; so too is the way that the scientific community has responded to it. They have openly and rapidly shared genomic and clinical data as never seen before allowing research results to be released almost instantaneously. This has helped the understanding of the transmission dynamics, the development of rapid diagnostic and has informed public health response. Here, we present a new contribution that can speed up this communal effort. The Genome Detective Coronavirus Typing Tool is a free-of-charge web-based bioinformatics pipeline that can accurately and quickly identify, assemble and classify coronaviruses genomes. The tool also identifies changes at nucleotides, coding regions and proteins using a novel dynamic aligner to allow tracking new viral mutations (Figure 1).",
+            "A reference dataset of previously published coronavirus whole genome sequences (WGS) was compiled from the Virus Pathogen Resource (VIPR) database (www.viprbrc.org). This dataset consisted of 386 whole genome sequences (WGS) of nine important coronavirus species. These included 132 sequences of Severe Acute Respiratory Syndrome related Coronavirus (SARSrCoV), 121 sequences of Beta coronavirus, 97 sequences of Middle East Respiratory Syndrome related Coronavirus (MERSr-CoV), 19 sequences of Human Coronavirus HKU1, 9 sequences of Murine Hepatitis Virus, 4 of Rousettus Bat Coronavirus HKU9, 3 of Rat Coronavirus and one WGS of Tylonycteris Bat Coronavirus HKU4, Zaria_bat_coronavirus and Longquan Rl Rat coronavirus). To this reference dataset, we added 47 whole genomes of the current Coronavirus 2019 (2019nCoV) outbreak that originated in Wuhan, China, in December 2019. The 2019-nCoV sequences were downloaded from the GISAID database (https://www.gisaid.org) together with annotation of its original location, collection date and originating and submitting laboratory. The 2019-nCoV data generators are properly acknowledged in the acknowledgements section of this paper and detailed information is provided in Supplementary Table 1.",
+            "The 431 reference WGS were aligned with MUSCLE (Edgar 2004). The alignment was manually edited until a codon alignment was attained in all coding sequences (CDS). A Maximum likelihood phylogenetic tree, 1000 bootstrap replicates was constructed in PhyML (Guidon & Gascuel 2003; <a class=\"ref-link\" id=\"cLemoine_et+al_2018_a\" href=\"#rLemoine_et+al_2018_a\">Lemoine et al, 2018</a>) and a Bayesian tree using MrBayes (<a class=\"ref-link\" id=\"cRonquist_2003_a\" href=\"#rRonquist_2003_a\">Ronquist & Huelsenbeck 2003</a>) were",
+            "constructed. The trees were visualized in Figtree (Rambaut 2018). We selected 25 reference sequences that represent the diversity of each well-defined phylogenetic cluster (with bootstrap support of 100% and posterior probability of 1). We identified five well supported phylogenetic clusters with more than two sequences of SARSr-CoV and used them to set up our automated phylogenetic classification tool. Cluster 1 included SARS strains from the 2002 and 2003 Asian outbreaks. In our tool, we named this cluster SARS-CoV Outbreak 2000s but may rename it as SARS-A if a new proposed naming system for SARSr-Cov is adopted in the near future (Rambaut 2020). Cluster 2 (provisionally named as SARS related CoV) includes 7 sequences from bats which did not cause large human outbreaks. Cluster 3 (named as Bat SARS-CoV HKU3) includes three WGS sampled from Rhinolophus sinicus (i.e. Chinese rufous horseshoe bats). Cluster 4 (Bat SARS-CoV ZXC21/ZC45) includes two SARSr-CoV sampled from Rhinolophus sinicus bats in Zhoushan, China. Cluster 5 (provisionally named as Wuhan 2019-nCoV, which may be renamed as SARS-B) includes one public sequence from the outbreak in Wuhan, China. We identified this cluster with many sequences from GISAID but kept only this one as this is the only GenBank sequence, accession number MN908947, which was kindly shared by Prof. YongZhen Zhang and colleagues in the virological.org website. Detailed information about the phylogenetic reference datasets are available in Supplementary Table 2.",
+            "The phylogenetic reference dataset was used to create an automated Coronavirus Typing Tool using the Genome Detective framework (<a class=\"ref-link\" id=\"cVilsker_et+al_2019_a\" href=\"#rVilsker_et+al_2019_a\">Vilsker et al, 2019</a>, <a class=\"ref-link\" id=\"cFonseca_et+al_2019_a\" href=\"#rFonseca_et+al_2019_a\">Fonseca et al, 2019</a>). To determine the accuracy of this tool, each of the 431 test WGS was considered for evaluation (i.e. 384 reference sequences from VIPR and 47 public 2019-nCoV sequences). The sensitivity, specificity and accuracy of our method was calculated for both species assignment and phylogenetic clustering of SARSr-CoV. Sensitivity was computed by the formula \"# , specificity by \"& and \"#$%&",
+            "accuracy by \"#$\"& , where TP = True Positives, FP = False Positives, TN = True Negatives \"#$%#$%&$\"&",
+            "and FN = False Negatives.",
+            "Classifying query sequences in an automated fashion involves two steps. The first step enables virus species assignments and the second, which is restricted to SARSr-CoV, includes phylogenetic analysis. The first classification analysis subjects a query sequence to BLAST and AGA analysi. AGA is a novel alignment method for nucleic acid sequences against annotated genomes from NCBI RefSeq Virus Database. AGA (<a class=\"ref-link\" id=\"cDeforche_2017_a\" href=\"#rDeforche_2017_a\">Deforche 2017</a>) expands the optimal alignment algorithms of Smith-Waterman (<a class=\"ref-link\" id=\"cSmith_1981_a\" href=\"#rSmith_1981_a\">Smith & Waterman 1981</a>) and Gotoh (<a class=\"ref-link\" id=\"cGotoh_1982_a\" href=\"#rGotoh_1982_a\">Gotoh 1982</a>) based on an induction state with additional parameters. The result is a more accurate aligner, as it takes into account both nucleotide and protein scores and identifies all of the polymorphisms at nucleotide and amino acid levels. In the second step, a query sequence is aligned against the phylogenetic reference dataset using -add alignment option in the MAFFT software (<a class=\"ref-link\" id=\"cKatoh_2013_a\" href=\"#rKatoh_2013_a\">Katoh & Standley 2013</a>). In addition, a Neighbor Joining phylogenetic tree is constructed using the HKY distance metric with gamma among-site rate variation with 1,000 bootstrap replicates using PAUP* (Swofford). The query sequence is assigned to a particular phylogenetic cluster if it clusters monophyletically with that clade or a subset of it with bootstrap support >70%. If the bootstrap support is <70%, the genotype is reported to be unassigned.",
+            "The result of the phylogenetic and mutational analysis performed by AGA is available in a detailed report. This report contains an interactive phylogenetic tree and genome mapper (Supplementary Figure 1). It also presents the virus species and cluster assignments and a detailed table that provides information about open reading frames (ORFs), CDS and proteins. This table can be expanded to show nucleotide and amino acid mutations that differentiate a query sequence from their species RefSeq or from a sequence in the phylogenetic reference dataset. All results can be exported to a variety of file formats (XML, CSV, Excel, Nexus or FASTA).",
+            "The Genome Detective Coronavirus Typing Tool correctly classified all of the 175 SARSr-CoV sequences at species level, i.e. specificity, sensitivity and accuracy of 100%. Furthermore, all of the 47 2019-nCoV WGS that were isolated in China (n=36), USA (n=5), France (n=2), Thailand (n=2), Japan (n=1) and Taiwan (n=1) were correctly classified at phylogenetic cluster level as",
+            "2019-nCoV, which may be renamed as SARS-B. In addition, we classified with very high specificity, sensitivity and accuracy (i.e. 100%) all of the 112 SARS outbreak WGS of 2002 and",
+            "2003. We also achieved perfect classification (i.e. specificity, sensitivity and accuracy of 100%)",
+            "Beta coronavirus, Human_coronavirus_HKU1, MERS-CoV, Rousettus_bat_coronavirus_HKU9 and Tylonycteris_bat_coronavirus_HKU4 at species level. For a detailed overview of assignment performance, please refer to the Supplementary Table 3.",
+            "Our tool also allows detailed analysis of coding regions and proteins for each of the coronavirus species. For example, the analysis of the first released 2019-nCoV sequence, the WH_Human1_China_2019Dec (GenBank: MN908947) demonstrated at genome level , the nucleotide (NT) identity was 79.0% to the reference strain of SARSr-CoV (ACCESSION: NC_004718.3) and that the Envelop Small Membrane Protein (protein E) is the most similar protein. In total, 94.8% (73/77) of the amino acids were identical; the four amino acid differences were located at positions 55 (T55S), 56 (V56F), 69 (69deletion) and 70 (G70R). The spike protein (protein S), which can be associated with virulence, was 76.2% identical to the reference strain of SARSr-CoV (Supplementary Table 4A). Interestingly there were four amino acid insertions at position 237 (A237_F238insHRSY, genome NT position 22202_22203insCATAGAAGTTAT)), which is just upstream from a cleavage site. The most diverse coding regions were the CDS Sars8a and Sars8b. In these two regions, only 30% of the amino acids were identical. Sars8b protein was truncated early and its CDS had four stop codons (Supplementary Table 4sA).",
+            "Our Coronavirus Typing Tool also allows a query sequence to be analysed against a sequence in the phylogenetic reference dataset. For example, the WH_Human1_China_2019Dec (GenBank: MN908947) the identity was 87.5% to the Bat sequence bat_SL_CoVZXC21 (Genbank: MG772934). This was one of the Bat-CoV sequences that were most related to n2019-CoV (Lu et al 2020). The Envelop Small Membrane Protein (protein E) was 100% identical (Supplementary Table 4B). When the 2019-nCoV isolated from France (BetaCoV/France/IDF0373/2020) was analysed with our tool and compared with the 2019-nCOv WH_Human1_China_2019Dec strain (Accession: MN908947), this sequence was 99.9% identical and had only two NT mutations (Supplementary Table 4C). These two differences were located on positions: 22551G>T & 26016G>T), which caused three amino acid mutations (E2 glycoprotein Protein mutation: V354F (22551G>T) , sars3a protein mutations: G250V (26016G>T) and sars3b protein mutations: V110F (26016G>T)) (Detailed in Supplementary Table 4C-II). The analysis of a WGS in FASTA format takes approximately 60 seconds."
+        ],
+        "DISCUSSION": [
+            "We developed and released the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections. This tool allows the analysis of whole or partial viral genomes within minutes. It accepts assembled genomes in FASTA format or raw NGS data in FASTQ format from Illumina, Ion Torrent, PACBIO or Oxford Nanopore Technologies (ONT) can be submitted to the Genome Detective Virus Tool (<a class=\"ref-link\" id=\"cVilsker_et+al_2019_a\" href=\"#rVilsker_et+al_2019_a\">Vilsker et al, 2019</a>) to automatically assemble the consensus genome prior to executing the Coronavirus Typing Tool. User effort is minimal, and a user can submit multiple FASTA sequences at once.",
+            "The tool uses a novel and dynamic aligner, AGA, to allow submitted sequences to be queried against reference genomes, using both nucleotide and amino acid similarity scores. This allows accurate identification of other coronavirus species and the tracking of new viral mutations as the outbreak expands globally. It also performs detailed analysis of the coding regions and proteins. Moreover, it can easily be updated to add new phylogenetic clusters if new outbreaks arise or if the classification nomenclature changes. The tool has been able to correctly classify all the recently released nCoV-2019 genomes, as well as all the 2002-2003 SARS outbreak sequences",
+            "In conclusion, the Genome Detective Coronavirus Typing Tool is a web-based and user-friendly software application that allows the identification and characterization of novel coronavirus genomes."
+        ],
+        "ACKNOWLEDGEMENTS": [
+            "Genome data for 2019-nCoV made kindly available by National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC), Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Hubei Provincial Center for Disease Control and Prevention, Wuhan Institute of Virology, Chinese Academy of Sciences, National Institute for Viral Disease Control and Prevention, China CDC, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Department of Medical Sciences, Ministry of Public Health, Thailand | Thai Red Cross Emerging Infectious Diseases - Health Science Centre | Department of Disease Control, Ministry of Public Health, Thailand, Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention, Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Division of Viral Diseases, Centers for Disease Control and Prevention, Centers for Disease Control, R.O.C. (Taiwan) | Centers for Disease Control, R.O.C. (Taiwan), California Department of Public Health | Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Diseases Control and Prevention, Arizona Department of Health Services | Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Disease Control and Prevention, Guangdong Provincial Centers for Diseases Control and Prevention | Guangdong Provincial Institute of Public Health, University of Hong Kong-Shenzhen Hospital, Shenzhen, Guangdong, State Key Laboratory of Virology, Wuhan University, Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris | National Reference Center for Viruses of Respiratory Infections, Institut Pasteur, Paris. We would like to acknowledge all of the data contributors. Research reported in this publication was supported by a research Flagship grant from the South African Medical Research Council (MRC-RFA-UFSP01-2013/UKZN HIVEPI), the VIROGENESIS project, which received funding from the European Union\u2019s Horizon 2020 Research and Innovation Programme (under Grant Agreement no. 634650) and the National Human Genome Research Institute of the National Institutes of Health under Award Number U24HG006941. H3ABioNet is an initiative of the Human Health and Heredity in Africa Consortium (H3Africa). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health."
+        ],
+        "REFERENCES": [
+            "Zhu N, Zhang D, Wang W, Li X, Yang B, Song J, Zhao X, Huang B, Shi W, Lu R, Niu P, Zhan F, Ma X, Wang D, Xu W, Wu G, Gao GF, Tan W; China Novel Coronavirus Investigating and Research Team. A Novel Coronavirus from Patients with Pneumonia in China, 2019. N Engl J Med. 2020, doi: 10.1056/NEJMoa2001017.",
+            "Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, Zhang L, Fan G, Xu J, Gu X, Cheng Z, Yu T, Xia J, Wei Y, Wu W, Xie X, Yin W, Li H, Liu M, Xiao Y, Gao H, Guo L, Xie J, Wang G, Jiang R, Gao Z, Jin Q, Wang J, Cao B. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020, pii: S0140-6736(20)30183-5. doi: 10.1016/S01406736(20)30183-5.",
+            "Lu R, Xiang Zhao, Juan Li, Peihua Niu, Bo Yang, Honglong Wu, Wenling Wang, Hao Song, Baoying Huang, Na Zhu, Yuhai Bi, Xuejun Ma, Faxian Zhan, Liang Wang, Tao Hu, Hong Zhou, Zhenhong Hu, Weimin Zhou, Li Zhao, Jing Chen, Yao Meng, Ji Wang, Yang Lin, Jianying Yuan, Zhihao Xie, Jinmin Ma, William J Liu, Dayan Wang, Wenbo Xu, Edward C Holmes, George F Gao, Guizhen Wu, Weijun Chen, Weifeng Shi, Wenjie Tan. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet. 2020. DOI:https://doi.org/10.1016/S0140-6736(20)30251-8",
+            "World Health Organization (WHO) Novel Coronavirus (2019-nCoV) situational reports. Available online https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/",
+            "Edgar RC. MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Research. 2004, 32 (5): 1792\u201397. doi:10.1093/nar/gkh340",
+            "Guindon S, Gascuel O. A simple, fast, and accurate algorithm to estimate large phylogenies by maxi- mum likelihood. Systematic Biology. 2003; 52(5):696\u2013704. https://doi.org/10.1080/ 10635150390235520",
+            "Lemoine F, Domelevo Entfellner JB, Wilkinson E, Correia D, Davila Felipe M, de Oliveira T, Gascuel O. Renewing Felsenstein's phylogenetic bootstrap in the era of big data. Nature. 2018, doi:10.1038/s41586-018-0043-0",
+            "Ronquist F, Huelsenbeck JP. MrBayes 3: Bayesian phylogenetic inference under mixed models. Bioin- formatics. 2003; 19(12):1572\u20131574. https://doi.org/10.1093/bioinformatics/btg180",
+            "Rambaut A. FigTree v1.4.4. Institute of Evolutionary Biology, University of Edinburgh, Edinburgh. 2018, http://tree.bio.ed.ac.uk/software/figtree/",
+            "Rambaut A. Twitter, 24 Jan 2020. https://twitter.com/arambaut",
+            "Vilsker M, Moosa Y, Nooij S, Fonseca V, Ghysens Y, Dumon K, Pauwels R, Alcantara LC, Vanden Eynden E, Vandamme AM, Deforche K, de Oliveira T. Genome Detective: an automated system for virus identification from high-throughput sequencing data. Bioinformatics. 2019; 35(5):871-873. doi: 10.1093/bioinformatics/bty695.",
+            "Fonseca V, Libin PJK, Theys K, Faria NR, Nunes MRT, Restovic MI, Freire M, Giovanetti M, Cuypers L, Now\u00e9 A, Abecasis A, Deforche K, Santiago GA, Siqueira IC, San EJ, Machado KCB, Azevedo V, Filippis AMB, Cunha RVD, Pybus OG, Vandamme AM, Alcantara LCJ, de Oliveira T. A computational method for the identification of Dengue, Zika and Chikungunya virus species and genotypes. PLoS Negl Trop Dis. 2019; 13(5):e0007231. doi: 10.1371/journal.pntd.0007231.",
+            "Deforche K. An alignment method for nucleic acid sequences against annotated genomes. 2017. doi.org/10.1101/200394.",
+            "<a class=\"ref-link\" id=\"cSmith_1981_a\" href=\"#rSmith_1981_a\">Smith T.F., Waterman M.S. (1981</a>) Identification of common molecular subsequences. J. Mol. Biol., 147, 195\u2013197.",
+            "<a class=\"ref-link\" id=\"cGotoh_1982_a\" href=\"#rGotoh_1982_a\">Gotoh O. (1982</a>) An improved algorithm for matching biological sequences. J. Mol. Biol., 162, 705\u2013708.",
+            "Katoh K, Standley DM. MAFFT multiple sequence alignment software version 7: Improvements in performance and usability. Molecular Biology and Evolution. 2013;30(4):772\u2013780.",
+            "Swofford,D.L. PAUP* 4.0: phylogenetic analysis under parsimony (and other methods), version 4.0b2a. Sinauer Associates Inc., Sunderland, Mass."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "coronavirus species",
+            "number": 10,
+            "context": "The tool can accept up to 2,000 sequences per submission and the analysis of a new whole genome sequence will take approximately one minute. <mark class=\"stats\">The tool has been tested and validated with hundreds of whole genomes from ten coronavirus species, and correctly classified all of the SARS-related coronavirus (SARSr-CoV) and all of the available public data for 2019-nCoV</mark>. The tool also allows tracking of new viral mutations as the outbreak expands globally, which may help to accelerate the development of novel diagnostics, drugs and vaccines.AvailabilityAvailable online: https://www.genomedetective.com/app/typingtool/cov*Contactkoen@emweb.be and deoliveira@ukzn.ac.zaSupplementary informationSupplementary data is available online"
+        },
+        {
+            "participant": "important coronavirus species",
+            "number": 9,
+            "context": "SYSTEMS AND METHODS A reference dataset of previously published coronavirus whole genome sequences (WGS) was compiled from the Virus Pathogen Resource (VIPR) database (www.viprbrc.org). <mark class=\"stats\">This dataset consisted of 386 whole genome sequences (WGS) of nine important coronavirus species</mark>. These included 132 sequences of Severe Acute Respiratory Syndrome related Coronavirus (SARSrCoV), 121 sequences of Beta coronavirus, 97 sequences of Middle East Respiratory Syndrome related Coronavirus (MERSr-CoV), 19 sequences of Human Coronavirus HKU1, 9 sequences of Murine Hepatitis Virus, 4 of Rousettus Bat Coronavirus HKU9, 3 of Rat Coronavirus and one WGS of Tylonycteris Bat Coronavirus HKU4, Zaria_bat_coronavirus and Longquan Rl Rat coronavirus)"
+        },
+        {
+            "participant": "whole genomes",
+            "number": 47,
+            "context": "These included 132 sequences of Severe Acute Respiratory Syndrome related Coronavirus (SARSrCoV), 121 sequences of Beta coronavirus, 97 sequences of Middle East Respiratory Syndrome related Coronavirus (MERSr-CoV), 19 sequences of Human Coronavirus HKU1, 9 sequences of Murine Hepatitis Virus, 4 of Rousettus Bat Coronavirus HKU9, 3 of Rat Coronavirus and one WGS of Tylonycteris Bat Coronavirus HKU4, Zaria_bat_coronavirus and Longquan Rl Rat coronavirus). <mark class=\"stats\">To this reference dataset, we added 47 whole genomes of the current Coronavirus 2019 (2019nCoV) outbreak that originated in Wuhan, China, in December 2019</mark>. The 2019-nCoV sequences were downloaded from the GISAID database (https://www.gisaid.org) together with annotation of its original location, collection date and originating and submitting laboratory"
+        },
+        {
+            "participant": "SARSr-CoV sequences at species",
+            "number": 175,
+            "context": "TESTING AND VALIDATION. <mark class=\"stats\">The Genome Detective Coronavirus Typing Tool correctly classified all of the 175 SARSr-CoV sequences at species level, i.e. specificity, sensitivity and accuracy of 100%</mark>. Furthermore, all of the 47 2019-nCoV WGS that were isolated in China (n=36), USA (n=5), France (n=2), Thailand"
+        },
+        {
+            "participant": "data",
+            "number": 36,
+            "context": "The Genome Detective Coronavirus Typing Tool correctly classified all of the 175 SARSr-CoV sequences at species level, i.e. specificity, sensitivity and accuracy of 100%. <mark class=\"stats\">Furthermore, all of the 47 2019-nCoV WGS that were isolated in China (n=36), USA (n=5), France (n=2), Thailand</mark>. (n=2), Japan (n=1) and Taiwan (n=1) were correctly classified at phylogenetic cluster level as"
+        },
+        {
+            "participant": "data",
+            "number": 2,
+            "context": "Furthermore, all of the 47 2019-nCoV WGS that were isolated in China (n=36), USA (n=5), France (n=2), Thailand. <mark class=\"stats\">(n=2), Japan (n=1) and Taiwan (n=1) were correctly classified at phylogenetic cluster level as</mark>. 2019-nCoV, which may be renamed as SARS-B"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The first classification analysis subjects a query sequence to BLAST and AGA analysi</mark>",
+                "tests": [
+                    {
+                        "test": "BLAST"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "viral mutations",
+        "2019-nCoV",
+        "sars related coronavirus",
+        "new viral mutation",
+        "severe acute respiratory syndrome",
+        "coding sequences",
+        "mutations",
+        "sarsr cov",
+        "coronavirus species",
+        "viral classification",
+        "Institute for Communicable Disease Control and Prevention",
+        "FASTA",
+        "coronavirus",
+        "Rhinolophus sinicus",
+        "fasta format",
+        "SARS",
+        "diagnostics",
+        "phylogenetic",
+        "bioinformatics",
+        "phylogenetic cluster",
+        "open reading frames",
+        "Oxford Nanopore Technologies",
+        "novel coronavirus",
+        "genome detective coronavirus typing tool"
+    ],
+    "keyword_relevance": {
+        "severe acute respiratory syndrome": 0.15,
+        "coronavirus": 0.15,
+        "SARS": 0.14444444444444443,
+        "phylogenetic": 0.1388888888888889,
+        "2019-nCoV": 0.08333333333333333,
+        "mutations": 0.05555555555555555,
+        "phylogenetic cluster": 0.044444444444444446,
+        "FASTA": 0.03888888888888889,
+        "novel coronavirus": 0.03888888888888889,
+        "coding sequences": 0.027777777777777776,
+        "coronavirus species": 0.022222222222222223,
+        "viral mutations": 0.016666666666666666,
+        "new viral mutation": 0.016666666666666666,
+        "bioinformatics": 0.016666666666666666,
+        "Institute for Communicable Disease Control and Prevention": 0.011111111111111112,
+        "Rhinolophus sinicus": 0.011111111111111112,
+        "open reading frames": 0.011111111111111112,
+        "Oxford Nanopore Technologies": 0.011111111111111112,
+        "viral classification": 0.005555555555555556,
+        "diagnostics": 0.005555555555555556,
+        "sars related coronavirus": 0.0,
+        "sarsr cov": 0.0,
+        "fasta format": 0.0,
+        "genome detective coronavirus typing tool": 0.0
+    },
+    "species": [
+        "Rhinolophus sinicus"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The authors are currently faced with a potential global epidemic of a new coronavirus that has infected thousands of people in China and is spreading rapidly around the world.",
+        "The virus is a SARS related coronavirus (SARSr-CoV), and it is genetically associated with SARSr-CoV strains that infect bats in China (Zhu et al, 2020, Lu et al, 2020)",
+        "It causes severe respiratory illness, has high fatality rate (Huang et al, 2020), can be transmitted from person to person and has spread to over 15 countries in less than two months (WHO, 2020).",
+        "The tool identifies changes at nucleotides, coding regions and proteins using a novel dynamic aligner to allow tracking new viral mutations (Figure 1)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors developed and released the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections.",
+        "The tool has been able to correctly classify all the recently released nCoV-2019 genomes, as well as all the 2002-2003 SARS outbreak sequencesGenome Detective is a web-based, user-friendly software application to quickly and accurately assemble all known virus genomes from generation sequencing datasets",
+        "This application allows the identification of phylogenetic clusters and genotypes from assembled genomes in FASTA format.",
+        "The tool allows tracking of new viral mutations as the outbreak expands globally, which may help to accelerate the development of novel diagnostics, drugs and vaccines"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The authors are currently faced with a potential global epidemic of a new coronavirus that has infected thousands of people in China and is spreading rapidly around the world.",
+            "The virus is a SARS related coronavirus (SARSr-CoV), and it is genetically associated with SARSr-CoV strains that infect bats in China (Zhu et al, 2020, Lu et al, 2020)",
+            "It causes severe respiratory illness, has high fatality rate (Huang et al, 2020), can be transmitted from person to person and has spread to over 15 countries in less than two months (WHO, 2020).",
+            "The tool identifies changes at nucleotides, coding regions and proteins using a novel dynamic aligner to allow tracking new viral mutations (Figure 1)"
+        ],
+        "Conclusion": [
+            "The authors developed and released the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections.",
+            "The tool has been able to correctly classify all the recently released nCoV-2019 genomes, as well as all the 2002-2003 SARS outbreak sequencesGenome Detective is a web-based, user-friendly software application to quickly and accurately assemble all known virus genomes from generation sequencing datasets",
+            "This application allows the identification of phylogenetic clusters and genotypes from assembled genomes in FASTA format.",
+            "The tool allows tracking of new viral mutations as the outbreak expands globally, which may help to accelerate the development of novel diagnostics, drugs and vaccines"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Zhu_et+al_2019_a",
+            "alt_id": "1",
+            "entry": "Zhu N, Zhang D, Wang W, Li X, Yang B, Song J, Zhao X, Huang B, Shi W, Lu R, Niu P, Zhan F, Ma X, Wang D, Xu W, Wu G, Gao GF, Tan W; China Novel Coronavirus Investigating and Research Team. A Novel Coronavirus from Patients with Pneumonia in China, 2019. N Engl J Med. 2020, doi: 10.1056/NEJMoa2001017.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001017",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001017"
+        },
+        {
+            "id": "Huang_et+al_2019_a",
+            "alt_id": "2",
+            "entry": "Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, Zhang L, Fan G, Xu J, Gu X, Cheng Z, Yu T, Xia J, Wei Y, Wu W, Xie X, Yin W, Li H, Liu M, Xiao Y, Gao H, Guo L, Xie J, Wang G, Jiang R, Gao Z, Jin Q, Wang J, Cao B. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020, pii: S0140-6736(20)30183-5. doi: 10.1016/S01406736(20)30183-5.",
+            "crossref": "https://dx.doi.org/10.1016/S01406736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S01406736(20)30183-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S01406736%2820%2930183-5"
+        },
+        {
+            "id": "Lu_et+al_2019_a",
+            "alt_id": "3",
+            "entry": "Lu R, Xiang Zhao, Juan Li, Peihua Niu, Bo Yang, Honglong Wu, Wenling Wang, Hao Song, Baoying Huang, Na Zhu, Yuhai Bi, Xuejun Ma, Faxian Zhan, Liang Wang, Tao Hu, Hong Zhou, Zhenhong Hu, Weimin Zhou, Li Zhao, Jing Chen, Yao Meng, Ji Wang, Yang Lin, Jianying Yuan, Zhihao Xie, Jinmin Ma, William J Liu, Dayan Wang, Wenbo Xu, Edward C Holmes, George F Gao, Guizhen Wu, Weijun Chen, Weifeng Shi, Wenjie Tan. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet. 2020. DOI:https://doi.org/10.1016/S0140-6736(20)30251-8",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30251-8",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30251-8",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930251-8"
+        },
+        {
+            "id": "World_0000_a",
+            "alt_id": "4",
+            "entry": "World Health Organization (WHO) Novel Coronavirus (2019-nCoV) situational reports. Available online https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/",
+            "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/"
+        },
+        {
+            "id": "Edgar_0000_a",
+            "alt_id": "5",
+            "entry": "Edgar RC. MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Research. 2004, 32 (5): 1792\u201397. doi:10.1093/nar/gkh340",
+            "crossref": "https://dx.doi.org/10.1093/nar/gkh340",
+            "scite": "https://scite.ai/reports/10.1093/nar/gkh340"
+        },
+        {
+            "id": "Guindon_et+al_2003_a",
+            "alt_id": "6",
+            "entry": "Guindon S, Gascuel O. A simple, fast, and accurate algorithm to estimate large phylogenies by maxi- mum likelihood. Systematic Biology. 2003; 52(5):696\u2013704. https://doi.org/10.1080/10635150390235520",
+            "crossref": "https://dx.doi.org/10.1080/10635150390235520",
+            "scite": "https://scite.ai/reports/10.1080/10635150390235520",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1080/10635150390235520"
+        },
+        {
+            "id": "Lemoine_et+al_2018_a",
+            "alt_id": "7",
+            "entry": "Lemoine F, Domelevo Entfellner JB, Wilkinson E, Correia D, Davila Felipe M, de Oliveira T, Gascuel O. Renewing Felsenstein's phylogenetic bootstrap in the era of big data. Nature. 2018, doi:10.1038/s41586-018-0043-0",
+            "crossref": "https://dx.doi.org/10.1038/s41586-018-0043-0",
+            "scite": "https://scite.ai/reports/10.1038/s41586-018-0043-0",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-018-0043-0"
+        },
+        {
+            "id": "Ronquist_2003_a",
+            "alt_id": "8",
+            "entry": "Ronquist F, Huelsenbeck JP. MrBayes 3: Bayesian phylogenetic inference under mixed models. Bioin- formatics. 2003; 19(12):1572\u20131574. https://doi.org/10.1093/bioinformatics/btg180",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/btg180",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/btg180"
+        },
+        {
+            "id": "V_2018_a",
+            "alt_id": "9",
+            "entry": "Rambaut A. FigTree v1.4.4. Institute of Evolutionary Biology, University of Edinburgh, Edinburgh. 2018, http://tree.bio.ed.ac.uk/software/figtree/",
+            "url": "http://tree.bio.ed.ac.uk/software/figtree/"
+        },
+        {
+            "id": "Twitter_2020_a",
+            "alt_id": "10",
+            "entry": "Rambaut A. Twitter, 24 Jan 2020. https://twitter.com/arambaut",
+            "url": "https://twitter.com/arambaut"
+        },
+        {
+            "id": "Vilsker_et+al_2019_a",
+            "alt_id": "11",
+            "entry": "Vilsker M, Moosa Y, Nooij S, Fonseca V, Ghysens Y, Dumon K, Pauwels R, Alcantara LC, Vanden Eynden E, Vandamme AM, Deforche K, de Oliveira T. Genome Detective: an automated system for virus identification from high-throughput sequencing data. Bioinformatics. 2019; 35(5):871-873. doi: 10.1093/bioinformatics/bty695.",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/bty695",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/bty695"
+        },
+        {
+            "id": "Fonseca_et+al_2019_a",
+            "alt_id": "12",
+            "entry": "Fonseca V, Libin PJK, Theys K, Faria NR, Nunes MRT, Restovic MI, Freire M, Giovanetti M, Cuypers L, Now\u00e9 A, Abecasis A, Deforche K, Santiago GA, Siqueira IC, San EJ, Machado KCB, Azevedo V, Filippis AMB, Cunha RVD, Pybus OG, Vandamme AM, Alcantara LCJ, de Oliveira T. A computational method for the identification of Dengue, Zika and Chikungunya virus species and genotypes. PLoS Negl Trop Dis. 2019; 13(5):e0007231. doi: 10.1371/journal.pntd.0007231.",
+            "crossref": "https://dx.doi.org/10.1371/journal.pntd.0007231",
+            "scite": "https://scite.ai/reports/10.1371/journal.pntd.0007231",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pntd.0007231"
+        },
+        {
+            "id": "Deforche_2017_a",
+            "alt_id": "13",
+            "entry": "Deforche K. An alignment method for nucleic acid sequences against annotated genomes. 2017. doi.org/10.1101/200394.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Deforche%2C%20K.%20An%20alignment%20method%20for%20nucleic%20acid%20sequences%20against%20annotated%20genomes%202017"
+        },
+        {
+            "id": "Smith_1981_a",
+            "alt_id": "14",
+            "entry": "Smith T.F., Waterman M.S. (1981) Identification of common molecular subsequences. J. Mol. Biol., 147, 195\u2013197.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=F.%2C%20Smith%20T.%20S%2C%20Waterman%20M.%20Identification%20of%20common%20molecular%20subsequences%201981",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=F.%2C%20Smith%20T.%20S%2C%20Waterman%20M.%20Identification%20of%20common%20molecular%20subsequences%201981",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=F.%2C%20Smith%20T.%20S%2C%20Waterman%20M.%20Identification%20of%20common%20molecular%20subsequences%201981"
+        },
+        {
+            "id": "Gotoh_1982_a",
+            "alt_id": "15",
+            "entry": "Gotoh O. (1982) An improved algorithm for matching biological sequences. J. Mol. Biol., 162, 705\u2013708.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gotoh%2C%20O.%20An%20improved%20algorithm%20for%20matching%20biological%20sequences%201982",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gotoh%2C%20O.%20An%20improved%20algorithm%20for%20matching%20biological%20sequences%201982",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gotoh%2C%20O.%20An%20improved%20algorithm%20for%20matching%20biological%20sequences%201982"
+        },
+        {
+            "id": "Katoh_2013_a",
+            "alt_id": "16",
+            "entry": "Katoh K, Standley DM. MAFFT multiple sequence alignment software version 7: Improvements in performance and usability. Molecular Biology and Evolution. 2013;30(4):772\u2013780.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Katoh%2C%20K.%20Standley%2C%20D.M.%20MAFFT%20multiple%20sequence%20alignment%20software%20version%207%3A%20Improvements%20in%20performance%20and%20usability%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Katoh%2C%20K.%20Standley%2C%20D.M.%20MAFFT%20multiple%20sequence%20alignment%20software%20version%207%3A%20Improvements%20in%20performance%20and%20usability%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Katoh%2C%20K.%20Standley%2C%20D.M.%20MAFFT%20multiple%20sequence%20alignment%20software%20version%207%3A%20Improvements%20in%20performance%20and%20usability%202013"
+        }
+    ],
+    "facts": [
+        "This application allows the identification of phylogenetic clusters and genotypes from assembled genomes",
+        "accurately identify novel coronavirus sequences isolated in China",
+        "which may help to accelerate the development of novel diagnostics",
+        "The tool identifies changes at nucleotides",
+        "the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections",
+        "Oxford Nanopore Technologies can be submitted to the Genome Detective Virus Tool to automatically assemble the consensus",
+        "allow submitted sequences to be queried against reference genomes",
+        "which was kindly shared by Prof"
+    ],
+    "claims": [
+        "We present The Genome Detective Coronavirus Typing Tool that can accurately identify novel coronavirus (2019-nCoV) sequences isolated in China and around the world",
+        "We present a new contribution that can speed up this communal effort",
+        "We identified five well supported phylogenetic clusters with more than two sequences of SARSr-CoV and used them to set up our automated phylogenetic classification tool",
+        "We identified this cluster with many sequences from GISAID but kept only this one as this is the only GenBank sequence, accession number MN908947, which was kindly shared by Prof",
+        "We developed and released the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We identified five well supported phylogenetic clusters with more than two sequences of SARSr-CoV and used them to set up our automated phylogenetic classification tool",
+        "Cluster 5 includes one public sequence from the outbreak in Wuhan, China. We identified this cluster with many sequences from GISAID but kept only this one as this is the only GenBank sequence, accession number MN908947, which was kindly shared by Prof",
+        "We developed and released the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections",
+        "The tool uses a novel and dynamic aligner, AGA, to allow submitted sequences to be queried against reference genomes, using both nucleotide and amino acid similarity scores"
+    ],
+    "top_statements": [
+        "We are currently faced with a potential global epidemic of a new coronavirus that has infected thousands of people in China and is spreading rapidly around the world",
+        "We identified five well supported phylogenetic clusters with more than two sequences of SARSr-CoV and used them to set up our automated phylogenetic classification tool",
+        "Cluster 5 includes one public sequence from the outbreak in Wuhan, China. We identified this cluster with many sequences from GISAID but kept only this one as this is the only GenBank sequence, accession number MN908947, which was kindly shared by Prof",
+        "We developed and released the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections",
+        "The tool uses a novel and dynamic aligner, AGA, to allow submitted sequences to be queried against reference genomes, using both nucleotide and amino acid similarity scores"
+    ],
+    "headline": "We developed and released the Genome Detective Coronavirus Typing tool as a free-of-charge resource in the third week of January 2020 in order to help the rapid characterization of nCoV2019 infections",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "severe acute respiratory syndrome",
+        "CDS": "coding sequences",
+        "ORFs": "open reading frames",
+        "ONT": "Oxford Nanopore Technologies",
+        "ICDC": "Institute for Communicable Disease Control and Prevention"
+    }
+}

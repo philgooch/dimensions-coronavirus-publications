@@ -1,0 +1,553 @@
+{
+    "filename": "2020.02.21.20026559.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 132760,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.21.20026559",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/25/2020.02.21.20026559.full.pdf"
+        },
+        "title": "Estimating the serial interval of the novel coronavirus disease (COVID-19): A statistical analysis using the public data in Hong Kong from January 16 to February 15, 2020",
+        "author": "Shi Zhao, Daozhou Gao, Zian Zhuang, Marc Chong, Yongli Cai, Jinjun Ran, Peihua Cao, Kai Wang, Yijun Lou, Weiming Wang, Lin Yang, Daihai He, Maggie Wang",
+        "date": 2020,
+        "affiliations": [
+            "1 JC School of Public Health and Primary Care, Chinese University of Hong Kong, Hong Kong, China 8",
+            "Shenzhen Research Institute of Chinese University of Hong Kong, Shenzhen, China 9",
+            "Department of Mathematics, Shanghai Normal University, Shanghai, China 10",
+            "Department of Applied Mathematics, Hong Kong Polytechnic University, Hong Kong, China 11",
+            "School of Mathematics and Statistics, Huaiyin Normal University, Huaian, China 12",
+            "School of Public Health, Li Ka Shing Faculty of Medicine, University of Hong Kong, Hong Kong, China 13",
+            "Clinical Research Centre, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China 14",
+            "Department of Medical Engineering and Technology, Xinjiang Medical University, Urumqi, 830011, China 15",
+            "School of Nursing, Hong Kong Polytechnic University, Hong Kong, China 16",
+            "Correspondence to: zhaoshi.cmsa@gmail.com (SZ), weimingwang2003@163.com (WW), and 17 daihai.he@polyu.edu.hk (DH) 18",
+            "Email address of all authors 20 SZ: zhaoshi.cmsa@gmail.com 21 DG: dzgao@shnu.edu.cn 22 ZZ: larry.zhuang@polyu.edu.hk 23 MKCC: marc@cuhk.edu.hk 24 YC: yonglicai@hytc.edu.cn 25 JR: jimran@connect.hku.hk 26 PC: cphcc@smu.edu.cn 27 KW: wangkaimath@sina.com 28 YL: yijun.lou@polyu.edu.hk 29 WW: weimingwang2003@163.com 30 LY: l.yang@polyu.edu.hk 31 DH: daihai.he@polyu.edu.hk 32 MHW: maggiew@cuhk.edu.hk 33"
+        ],
+        "abstract": "Backgrounds: The emerging virus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has caused a large outbreak of novel coronavirus disease (COVID-19) in Wuhan, China since December 2019. Based on the publicly available surveillance data, we identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19.\nMethods: Index cases were identified and reported after symptoms onset, and contact tracing was conducted to collect the data of the associated secondary cases. An interval censored likelihood framework is adopted to fit a Gamma distribution function to govern the SI of COVID-19. \nFindings: Assuming a Gamma distributed model, we estimated the mean of SI at 4.4 days (95%CI: 2.9\u22126.7) and SD of SI at 3.0 days (95%CI: 1.8\u22125.8) by using the information of all 21 transmission chains in Hong Kong. \nConclusion: The SI of COVID-19 may be shorter than the preliminary estimates in previous works. Given the likelihood that SI could be shorter than the incubation period, pre-symptomatic transmission may occur, and extra efforts on timely contact tracing and quarantine are recommended in combating the COVID-19 outbreak.",
+        "keywords": [
+            "novel coronavirus disease",
+            "serial interval",
+            "statistical analysis",
+            "Hong Kong",
+            "contact tracing"
+        ],
+        "references": "@incollection{unknown-a,\n  title = {Pneumonia of unknown cause \u2013 China'},\n  booktitle = {Emergencies preparedness, response, Disease outbreak news, World Health Organization (WHO)},\n  url = {https://www.who.int/csr/don/05-january-2020-},\n  language = {}\n}\n@article{bogoch-a,\n  author = {Bogoch, II, Watts and A, Thomas-Bachli and A, Huber and C, Kraemer and MU, Khan and K.},\n  title = {Pneumonia of unknown etiology in Wuhan, China: potential for international spread via commercial air travel},\n  journal = {Journal of Travel Medicine},\n  volume = {2020},\n  pages = {10\u20131093},\n  language = {}\n}\n@misc{wu-a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet 2020},\n  language = {}\n}\n@misc{unknown-b,\n  title = {Summary of data and outbreak situation of the Severe Respiratory Disease associated with a},\n  url = {https://www.chp.gov.hk/en/features/102465.html},\n  language = {}\n}\n@misc{unknown-c,\n  title = {The collection of Press Releases by the Centre for Health Protection (CHP) of Hong Kong},\n  url = {https://www.chp.gov.hk/en/media/116/index.html},\n  language = {}\n}\n@article{cowling2009a,\n  author = {Cowling, B.J. and Fang, V.J. and Riley, S. and Peiris, J.M. and Leung, G.M.},\n  title = {Estimation of the serial interval of influenza},\n  journal = {Epidemiology (Cambridge, Mass)},\n  date = {2009},\n  volume = {20},\n  pages = {344},\n  number = {3},\n  language = {}\n}\n@article{fine2003a,\n  author = {Fine, P.E.M.},\n  title = {The Interval between Successive Cases of an Infectious Disease},\n  journal = {American Journal of Epidemiology},\n  date = {2003},\n  volume = {158},\n  pages = {1039\u20131047},\n  number = {11},\n  language = {}\n}\n@article{nishiura2010a,\n  author = {Nishiura, H. and Chowell, G. and Heesterbeek, H. and Wallinga, J.},\n  title = {The ideal reporting interval for an epidemic to objectively interpret the epidemiological time course},\n  journal = {Journal of the Royal Society Interface},\n  date = {2010},\n  volume = {7},\n  pages = \"297-307.\" # \"599-604.\",\n  unmatched-author = {Wallinga J, Lipsitch M.},\n  source = {How generation intervals shape the relationship between growth rates and reproductive numbers},\n  unmatched-journal = {Proceedings of the Royal Society B: Biological Sciences},\n  unmatched-volume = {274(1609):},\n  number = {43},\n  unmatched-pages = {599-604.},\n  language = {}\n}\n@incollection{yang2019a,\n  author = {Yang, Y. and Longini, I. and Halloran, M.E.},\n  title = {Design and evaluation of prophylactic interventions using infectious disease incidence data from close contact groups},\n  editor = {R, J.},\n  date = {2019},\n  booktitle = {suspected human cases, World Health Organization (WHO)},\n  pages = {[https://www.who.int/health-topics/coronavirus/laboratorydiagnostics-for-novel-coronavirus]},\n  source = {Stat Soc Ser C-Appl Stat 2006, 55: 317-330. Laboratory testing for 2019 novel coronavirus},\n  language = {}\n}\n@article{fan2005a,\n  author = {Fan, J. and Huang, T.},\n  title = {Profile likelihood inferences on semiparametric varying-coefficient partially linear models},\n  journal = {Bernoulli},\n  date = {2005},\n  volume = {11},\n  pages = {1031\u20131057},\n  number = {6},\n  language = {}\n}\n@article{lipsitch2003a,\n  author = {Lipsitch, M. and Cohen, T. and Cooper, B. and Robins, J.M. and Ma, S. and James, L. and Gopalakrishna, G. and Chew, S.K.},\n  title = {Transmission dynamics and control of severe acute respiratory syndrome},\n  journal = {Science},\n  date = {2003},\n  volume = {300},\n  pages = {1966\u20131970},\n  number = {5627},\n  language = {},\n  organization = {Tan CC, Samore MH}\n}\n@article{nishiura2019a,\n  author = {Nishiura, H. and Linton, N.M. and Akhmetzhanov, A.R.},\n  title = {Serial interval of novel coronavirus},\n  date = {2019},\n  journal = {medRxiv},\n  volume = {2020},\n  pages = {2020\u20132002},\n  source = {infections},\n  language = {}\n}\n@misc{you-a,\n  author = {You, C. and Deng, Y. and Hu, W. and Sun, J. and Lin, Q. and Zhou, F. and Pang, C.H. and Zhang, Y. and Chen, Z. and Zhou},\n  title = {X-H: Estimation of the Time-Varying Reproduction Number of COVID-19 Outbreak in China. medRxiv 2020: 2020.2002.2008.20021253},\n  language = {}\n}\n@article{backer2019a,\n  author = {Backer, J.A. and Klinkenberg, D. and Wallinga, J.},\n  title = {Incubation period of 2019 novel coronavirus},\n  date = {2019},\n  journal = {Eurosurveillance},\n  volume = {2020},\n  pages = {2000062},\n  source = {infections among travellers from Wuhan, China, 20\u201328 January 2020},\n  number = {25},\n  language = {}\n}\n@article{li2020a,\n  author = {Li, Q. and Guan, X. and Wu, P. and Wang, X. and Zhou, L. and Tong, Y. and Ren, R. and Leung, K.S.M. and Lau, E.H.Y.},\n  title = {Wong JY et al: Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia},\n  journal = {New England Journal of Medicine},\n  date = {2020},\n  language = {}\n}\n@article{linton2020a,\n  author = {Linton, M.N. and Kobayashi, T. and Yang, Y. and Hayashi, K. and Akhmetzhanov, R.A. and S-m, Jung and Yuan, B. and Kinoshita, R.},\n  title = {Nishiura H: Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data},\n  journal = {Journal of Clinical Medicine},\n  volume = {2020},\n  date = {2020},\n  unmatched-author = {Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith H, Azman AS, Rothe C, Schunk M, Sothmann P, Bretzel G, Froeschl G, Wallrauch C, Zimmer T, Thiel V, Janke C,},\n  source = {Reich NG, Lessler J: The incubation period of 2019-nCoV from publicly reported confirmed cases: estimation and application},\n  unmatched-journal = {medRxiv New England Journal of Medicine},\n  unmatched-volume = {2020: 2020.2002.2002.20020016.},\n  number = {9},\n  language = {}\n}\n@misc{chowell-a,\n  author = {Chowell, G. and Dhillon, R. and Srikrishna, D.},\n  title = {Getting to zero quickly in the 2019-nCov epidemic with vaccines or rapid testing. medRxiv 2020: 2020.2002.2003.20020271},\n  language = {}\n}\n",
+        "emails": [
+            "wangkaimath@sina.com",
+            "l.yang@polyu.edu.hk",
+            "daihai.he@polyu.edu.hk",
+            "marc@cuhk.edu.hk",
+            "maggiew@cuhk.edu.hk",
+            "zhaoshi.cmsa@gmail.com",
+            "yonglicai@hytc.edu.cn",
+            "cphcc@smu.edu.cn",
+            "larry.zhuang@polyu.edu.hk",
+            "yijun.lou@polyu.edu.hk",
+            "jimran@connect.hku.hk",
+            "weimingwang2003@163.com",
+            "dzgao@shnu.edu.cn"
+        ],
+        "references_ris": "TY  - CHAP\nTI  - Pneumonia of unknown cause \u2013 China'\nT2  - Emergencies preparedness, response, Disease outbreak news, World Health Organization (WHO)\nUR  - https://www.who.int/csr/don/05-january-2020-\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bogoch, II, Watts\nAU  - A, Thomas-Bachli\nAU  - A, Huber\nAU  - C, Kraemer\nAU  - MU, Khan\nAU  - K.\nTI  - Pneumonia of unknown etiology in Wuhan, China: potential for international spread via commercial air travel\nT2  - Journal of Travel Medicine\nVL  - 2020\nSP  - 10\nEP  - 1093\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet 2020\nLA  - \nER  - \n\nTY  - GEN\nTI  - Summary of data and outbreak situation of the Severe Respiratory Disease associated with a\nUR  - https://www.chp.gov.hk/en/features/102465.html\nLA  - \nER  - \n\nTY  - GEN\nTI  - The collection of Press Releases by the Centre for Health Protection (CHP) of Hong Kong\nUR  - https://www.chp.gov.hk/en/media/116/index.html\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cowling, B.J.\nAU  - Fang, V.J.\nAU  - Riley, S.\nAU  - Peiris, J.M.\nAU  - Leung, G.M.\nTI  - Estimation of the serial interval of influenza\nT2  - Epidemiology (Cambridge, Mass)\nPY  - 2009\nDA  - 2009\nVL  - 20\nSP  - 344\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fine, P.E.M.\nTI  - The Interval between Successive Cases of an Infectious Disease\nT2  - American Journal of Epidemiology\nPY  - 2003\nDA  - 2003\nVL  - 158\nSP  - 1039\nEP  - 1047\nIS  - 11\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Chowell, G.\nAU  - Heesterbeek, H.\nAU  - Wallinga, J.\nTI  - The ideal reporting interval for an epidemic to objectively interpret the epidemiological time course\nT2  - Journal of the Royal Society Interface\nPY  - 2010\nDA  - 2010\nVL  - 7\nSP  - \"297\nEP  - 307.\" # \"599\nC1  - Wallinga J, Lipsitch M.\nT2  - How generation intervals shape the relationship between growth rates and reproductive numbers\nC1  - Proceedings of the Royal Society B: Biological Sciences\nC1  - 274(1609):\nIS  - 43\nC1  - 599-604.\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Yang, Y.\nAU  - Longini, I.\nAU  - Halloran, M.E.\nTI  - Design and evaluation of prophylactic interventions using infectious disease incidence data from close contact groups\nA2  - R, J.\nPY  - 2019\nDA  - 2019\nT2  - suspected human cases, World Health Organization (WHO)\nSP  - [https://www.who.int/health\nEP  - topics/coronavirus/laboratorydiagnostics\nT2  - Stat Soc Ser C-Appl Stat 2006, 55: 317-330. Laboratory testing for 2019 novel coronavirus\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fan, J.\nAU  - Huang, T.\nTI  - Profile likelihood inferences on semiparametric varying-coefficient partially linear models\nT2  - Bernoulli\nPY  - 2005\nDA  - 2005\nVL  - 11\nSP  - 1031\nEP  - 1057\nIS  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lipsitch, M.\nAU  - Cohen, T.\nAU  - Cooper, B.\nAU  - Robins, J.M.\nAU  - Ma, S.\nAU  - James, L.\nAU  - Gopalakrishna, G.\nAU  - Chew, S.K.\nTI  - Transmission dynamics and control of severe acute respiratory syndrome\nT2  - Science\nPY  - 2003\nDA  - 2003\nVL  - 300\nSP  - 1966\nEP  - 1970\nIS  - 5627\nLA  - \nC1  - Tan CC, Samore MH\nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Linton, N.M.\nAU  - Akhmetzhanov, A.R.\nTI  - Serial interval of novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - medRxiv\nVL  - 2020\nSP  - 2020\nEP  - 2002\nT2  - infections\nLA  - \nER  - \n\nTY  - GEN\nAU  - You, C.\nAU  - Deng, Y.\nAU  - Hu, W.\nAU  - Sun, J.\nAU  - Lin, Q.\nAU  - Zhou, F.\nAU  - Pang, C.H.\nAU  - Zhang, Y.\nAU  - Chen, Z.\nAU  - Zhou\nTI  - X-H: Estimation of the Time-Varying Reproduction Number of COVID-19 Outbreak in China. medRxiv 2020: 2020.2002.2008.20021253\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Backer, J.A.\nAU  - Klinkenberg, D.\nAU  - Wallinga, J.\nTI  - Incubation period of 2019 novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Eurosurveillance\nVL  - 2020\nSP  - 2000062\nT2  - infections among travellers from Wuhan, China, 20\u201328 January 2020\nIS  - 25\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nAU  - Wang, X.\nAU  - Zhou, L.\nAU  - Tong, Y.\nAU  - Ren, R.\nAU  - Leung, K.S.M.\nAU  - Lau, E.H.Y.\nTI  - Wong JY et al: Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia\nT2  - New England Journal of Medicine\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Linton, M.N.\nAU  - Kobayashi, T.\nAU  - Yang, Y.\nAU  - Hayashi, K.\nAU  - Akhmetzhanov, R.A.\nAU  - S-m, Jung\nAU  - Yuan, B.\nAU  - Kinoshita, R.\nTI  - Nishiura H: Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data\nT2  - Journal of Clinical Medicine\nVL  - 2020\nPY  - 2020\nDA  - 2020\nC1  - Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith H, Azman AS, Rothe C, Schunk M, Sothmann P, Bretzel G, Froeschl G, Wallrauch C, Zimmer T, Thiel V, Janke C,\nT2  - Reich NG, Lessler J: The incubation period of 2019-nCoV from publicly reported confirmed cases: estimation and application\nC1  - medRxiv New England Journal of Medicine\nC1  - 2020: 2020.2002.2002.20020016.\nIS  - 9\nLA  - \nER  - \n\nTY  - GEN\nAU  - Chowell, G.\nAU  - Dhillon, R.\nAU  - Srikrishna, D.\nTI  - Getting to zero quickly in the 2019-nCov epidemic with vaccines or rapid testing. medRxiv 2020: 2020.2002.2003.20020271\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "methods": [
+            "Index cases were identified and reported after symptoms onset, and contact tracing was conducted to collect the data of the associated secondary cases. An interval censored likelihood framework is adopted to fit a Gamma distribution function to govern the SI of COVID-19."
+        ],
+        "findings": [
+            "Assuming a Gamma distributed model, we estimated the mean of SI at 4.4 days (95%CI: 2.9\u22126.7)<br/><br/>and SD of SI at 3.0 days (95%CI: 1.8\u22125.8) by using the information of all 21 transmission chains in Hong    Kong."
+        ],
+        "conclusion": [
+            "The SI of COVID-19 may be shorter than the preliminary estimates in previous works. Given the likelihood that SI could be shorter than the incubation period, pre-symptomatic transmission may occur, and extra efforts on timely contact tracing and quarantine are recommended in combating the COVID-19 outbreak.<br/><br/>Keywords: novel coronavirus disease; serial interval; statistical analysis; Hong Kong; contact tracing.<br/><br/>Backgrounds: The emerging virus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has caused a large outbreak of novel coronavirus disease (COVID-19) in Wuhan, China since December 2019.<br/><br/>Based on the publicly available surveillance data, we identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19.<br/><br/>author/funder, who has granted medRxiv a license to display the preprint in perpetuity."
+        ],
+        "introduction": [
+            "As of February 15, there were 56 COVID-19 cases confirmed in Hong Kong [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and local transmission was also recognized by the contact tracing investigation. Given the risk of human-to-human transmission, the serial interval (SI), which refers to the time interval from illness onset in a primary case (i.e., infector) to that in a secondary case (i.e., infectee) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>-<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>], was of interested to iterative rate of transmission generations of<br/><br/>COVID-19. SI could be used to assist strategic decision-making of public health policies and construct analytical frameworks for studying the transmission dynamics of SARS-CoV-2.<br/><br/>In this study, we examined the publicly available materials released by the Centre for Health Protection (CHP)<br/><br/>of Hong Kong. Adopting the case-ascertained design [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], we identified the transmission chain from index cases to secondary cases. We estimated the SI of COVID-19 based on 21 identified transmission chains from the surveillance data and contact tracing data in Hong Kong."
+        ],
+        "results": [
+            "<strong>Results and discussion</strong><br/><br/>The observed SIs of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR)<br/><br/>between 2 and 5, and range from 1 to 13 days. For the 12 \u2018infector- infectee\u2019 pairs, the observed SIs have a mean at 3 days, median at 2 days, IQR between 2 and 4, and range from 1 to 8 days. Fig 1 shows the likelihood profiles of varying SI with respect to \u03bc and \u03c3 of SI. By using all 21 samples, we estimated the mean of SI at 4.4 days (95%CI: 2.9\u22126.7) and SD of SI at 3.0 days (95%CI: 1.8\u22125.8). The fitted Gamma distribution was shown in Fig 2. These estimates largely matched the results in the existing literatures [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Limiting to only consider the 12 \u2018infector-infectee\u2019 pairs, we estimated the mean of SI at 3.1 days (95%CI: 2.0\u22125.4) and"
+        ],
+        "ethical_compliance": [
+            "<strong>Ethics approval and consent to participate</strong><br/><br/>The follow-up data of individual patients were collected via public domain [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], and thus neither ethical approval nor individual consent was not applicable.<br/><br/>Availability of materials<br/><br/>All data used in this work were publicly available via [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], and the exacted dataset was attached as a supplementary files of this study.<br/><br/>Consent for publication    Not applicable."
+        ],
+        "funding": [
+            "DH was supported by General Research Fund (Grant Number 15205119) of the Research Grants Council (RGC) of Hong Kong, China. WW was supported by National Natural Science Foundation of China (Grant Number 61672013) and Huaian Key Laboratory for Infectious Diseases Control and Prevention (Grant Number HAP201704), Huaian, Jiangsu, China."
+        ],
+        "acknowledgements": [
+            "None.    Disclaimer<br/><br/>The funding agencies had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; or decision to submit the manuscript for publication."
+        ],
+        "disclosures": [
+            "The authors declared no competing interests"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "supplementary files"
+            ],
+            "supplementary_figure_references": []
+        }
+    },
+    "structured_content": {
+        "Abstract": [],
+        "Methods": [
+            "Index cases were identified and reported after symptoms onset, and contact tracing was conducted to collect the data of the associated secondary cases. An interval censored likelihood framework is adopted to fit a Gamma distribution function to govern the SI of COVID-19.",
+            "Findings: Assuming a Gamma distributed model, we estimated the mean of SI at 4.4 days (95%CI: 2.9\u22126.7)",
+            "and SD of SI at 3.0 days (95%CI: 1.8\u22125.8) by using the information of all 21 transmission chains in Hong",
+            "Kong."
+        ],
+        "Conclusion": [
+            "The SI of COVID-19 may be shorter than the preliminary estimates in previous works. Given the likelihood that SI could be shorter than the incubation period, pre-symptomatic transmission may occur, and extra efforts on timely contact tracing and quarantine are recommended in combating the COVID-19 outbreak.",
+            "Keywords: novel coronavirus disease; serial interval; statistical analysis; Hong Kong; contact tracing.",
+            "Backgrounds: The emerging virus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has caused a large outbreak of novel coronavirus disease (COVID-19) in Wuhan, China since December 2019.",
+            "Based on the publicly available surveillance data, we identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19.",
+            "author/funder, who has granted medRxiv a license to display the preprint in perpetuity."
+        ],
+        "Introduction": [
+            "As of February 15, there were 56 COVID-19 cases confirmed in Hong Kong [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and local transmission was also recognized by the contact tracing investigation. Given the risk of human-to-human transmission, the serial interval (SI), which refers to the time interval from illness onset in a primary case (i.e., infector) to that in a secondary case (i.e., infectee) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>-<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>], was of interested to iterative rate of transmission generations of",
+            "COVID-19. SI could be used to assist strategic decision-making of public health policies and construct analytical frameworks for studying the transmission dynamics of SARS-CoV-2.",
+            "In this study, we examined the publicly available materials released by the Centre for Health Protection (CHP)",
+            "of Hong Kong. Adopting the case-ascertained design [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], we identified the transmission chain from index cases to secondary cases. We estimated the SI of COVID-19 based on 21 identified transmission chains from the surveillance data and contact tracing data in Hong Kong.",
+            "Following previous study [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], we adopted a Gamma distribution with mean \u03bc and standard deviation (SD) \u03c3, denoted by g(\u00b7|\u03bc,\u03c3), to govern the distribution of SI. The interval censored likelihood, denoted by L, of SI estimates is defined in Eqn (1).",
+            "The novel coronavirus disease (COVID-19) is caused by the severe acute respiratory syndrome coronavirus 2",
+            "(SARS-CoV-2, formerly known as the \u20182019-nCoV\u2019), which has emerged in Wuhan, China in December 2019",
+            "[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. The COVID-19 cases were soon exported to other Chinese cities and overseas, and the travel-related risk of disease spreading was suggested by [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Since the first confirmed imported case in Hong Kong on",
+            "January 23, the local government has implemented a series of control and prevention measures for COVID-19, including enhanced border screening and traffic restrictions [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+            "As of February 15, there were 56 confirmed COVID-19 cases in Hong Kong [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], which followed the case definition in official diagnostic protocol released by the World Health Organization (WHO) [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. To identify the pairs of infector (i.e., index case) and infectee (i.e., secondary case), we scanned all news press released by the CHP of Hong Kong between January 16 and February 15, 2020 [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. The exact symptoms onset dates of all individual patients were released by CHP [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], which were publicly available, and used to match each transmission chain. For those infectees associated with multiple infectors, we record the range of onset dates of all associated infectors, i.e., lower and upper bounds. We identified 21 transmission chains, including 12 infectees matched with only one infector, that were used for SI estimation.",
+            "|\u0bdc\u0b6a\u0b6d\u0b75 , \u0bdc\u0b73\u0b6e \u0bdc  |,  d.",
+            "The h(\u00b7) was the probability density function (PDF) of exposure following a uniform distribution with a range from Tlow to Tup. The terms Tilow and Tiup denoted the lower and upper bounds, respectively, for the range of onset dates of multiple infectors linked to the i-th infectee. Specially, for the infectees with only one infector, Tlow = Tup, and thus h(\u00b7) = 1. The \u03c4i was the observed onset date of the i-th infectee. We calculated the maximum likelihood estimates of \u03bc and \u03c3. Their 95% confidence interval (95%CI) were calculated by using the profile likelihood estimation framework with cutoff threshold determined by a Chi-square quantile [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>].",
+            "In the dataset, the latest onset date of all infectors was on January 31 in contrast to the investigation period up to February 15. Given the minimum investigation period at (15 \u2013 0 + 1 =) 16 days, which is approximately twice of the SI of the severe acute respiratory syndrome (SARS) [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], we ignored the right-truncated selection bias, i.e., \u2018infector-infectee\u2019 pairs with longer SI, due to short investigation period. Therefore, the likelihood framework defined in Eqn (1) was sufficient for the estimation in this study."
+        ],
+        "Results and discussion": [
+            "The observed SIs of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR)",
+            "between 2 and 5, and range from 1 to 13 days. For the 12 \u2018infector- infectee\u2019 pairs, the observed SIs have a mean at 3 days, median at 2 days, IQR between 2 and 4, and range from 1 to 8 days. Fig 1 shows the likelihood profiles of varying SI with respect to \u03bc and \u03c3 of SI. By using all 21 samples, we estimated the mean of SI at 4.4 days (95%CI: 2.9\u22126.7) and SD of SI at 3.0 days (95%CI: 1.8\u22125.8). The fitted Gamma distribution was shown in Fig 2. These estimates largely matched the results in the existing literatures [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Limiting to only consider the 12 \u2018infector-infectee\u2019 pairs, we estimated the mean of SI at 3.1 days (95%CI: 2.0\u22125.4) and",
+            "SD of SI at 1.8 days (95%CI: 1.0\u22124.7).",
+            "Comparing to the SI of SARS with mean at 8.4 days and SD at 3.4 days [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], the estimated 4.4-day SI for",
+            "COVID-19 indicated rapid cycles of generation replacement in the transmission chain. Hence, highly efficient public health control measures, including contact tracing, isolation and screening, were strongly recommended to mitigate the epidemic size. The timely supply and delivery of healthcare resources, e.g., facemasks, alcohol sterilizer and manpower and equipment for treatment, were of required in response to the rapid growing incidences of COVID-19.",
+            "As also pointed out by two recent works [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], the mean of SI at 4.4 days is notably smaller than the mean incubation period, roughly 5 days, estimated by many previous studies [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>-19]. The pre-symptomatic transmission may occur when the SI is shorter than the incubation period. If isolation can be conducted immediately after the symptom onset, the pre-symptomatic transmission is likely to contribute to the most of",
+            "SARS-CoV-2 infections. This situation has been recognized by a recent epidemiological investigation evidently [20], and implemented in the mechanistic modelling studies of COVID-19 epidemic [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, 21], where the pre-symptomatic cases were contagious. As such, merely isolating the symptomatic cases will lead to a considerable proportion of secondary cases, and thus contact tracing and immediately quarantine were crucial to reduce the risk of infection.",
+            "A recently epidemiological study used 5 \u2018infector-infectee\u2019 pairs from contact tracing data in Wuhan, China during the early outbreak to estimate the mean SI at 7.5 days (95%CI: 5.3\u221219.0) [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], which appeared larger than our SI estimate at 4.4 days. Although the 95%CIs of SI estimates in this study and [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] were not significantly separated, we note that the difference in SI might exist. If this difference was not due to sampling chance, one of the possible explanations could be the pathogenic heterogenicity in mainland China and Hong",
+            "Kong. The SI estimate can be benefit from larger sample size, and the estimates in our study was backed up by 21 identified transmission chains including 12 \u2018infector-infectee\u2019 pairs, and thus it is likely to be more informative.",
+            "Accurate and consistent records on dates of illness onset were essential to the estimation of the SI. All samples used in this analysis were identified in Hong Kong and collected consistently from the CHP [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Hence, the reporting criteria were most likely to be the same for all COVID-2019 cases, which potentially made our findings more robust.",
+            "The clusters of cases can occur by person-to-person transmission within the cluster, e.g.,",
+            "scenario (I): person A infected B, C and D, or scenario (II): A to B to C to D, or scenario (III): a mixture of (I) and (II), e.g., A to B, B to C and D, or or they can occur through a common exposure to an unrecognized source of infection, e.g., scenario (IV): unknown person X infected A, B, C and D; or scenario (V): a mixture of (IV) and (I) or (II), e.g., X to A and B, B to C and D; or",
+            "The lack of information in the publicly available dataset made it difficult to disentangle such complicated situations. The scenarios (I) and (II) can be covered by the pair of \u2018infector-infectee\u2019 such that we could identify the link between two unique consecutive infections. Under the scenario (III), we cannot clearly identify the pairwise match between the infector and infectee, which means there were multiple candidate of infector for one infectee. As such, we employed the PDF h(\u00b7) in Eqn (1) to account for the possible time of exposure ranging from Tlow to Tup. There is no information available on the SI for scenarios (IV) as well as (V)",
+            "due to the onset date of person X is unknown, and thus our analysis was limited in the scenarios (I)-(III). We note that extra-cautious should be needed to interpret the clusters of cases because of this potential limitation.",
+            "Although we used interval censoring likelihood to deal with the multiple-infector matching issue, more detailed information of the exposure history and clue on \u2018who acquires infection from whom\u2019 (WAIFW)",
+            "would improve our estimates.",
+            "Longer SI might be difficult to occur in reality due to the isolation of confirmed infections, or to identify and link together due to the less accurate information associated with memory error occurred in the backward contact tracing exercise. The issue associated with isolation could possibly bias the SI estimates and lead to an underestimated result. Due to lack of information in the public dataset, our estimation framework could be benefit from detailed records on the date of isolation of individual cases. But isolation occurs for all severe infectious diseases such as SARS and COVID-19, there is no reason to believe that isolation play a bigger role in one than the other, at least more evidence is needed to support that claim. It is however possible that at the initial stage the SI is longer than later when strict isolation takes place. Nevertheless, a comparison of estimated SI for SARS and COVID-19 in Hong Kong is still meaningful. And we found that the SI of",
+            "COVID-19 estimated appears shorter than that of SARS, which is the key message. It would be hard to imagine that isolation is responsible for the difference. There is no reason to believe isolation is more rapid in cases of COVID-19 than in SARS in Hong Kong, as well as other limitations (would have happened for both).",
+            "Thus, the difference we observed for COVID-19 and SARS is likely intrinsic. In conclusion, given the rapid spreading of the COVID-19, effective contact tracing and quarantine/isolation were even more crucial for successful control."
+        ],
+        "Ethics approval and consent to participate": [
+            "The follow-up data of individual patients were collected via public domain [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], and thus neither ethical approval nor individual consent was not applicable.",
+            "All data used in this work were publicly available via [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], and the exacted dataset was attached as a supplementary files of this study.",
+            "Not applicable."
+        ],
+        "Funding": [
+            "DH was supported by General Research Fund (Grant Number 15205119) of the Research Grants Council (RGC) of Hong Kong, China. WW was supported by National Natural Science Foundation of China (Grant",
+            "Number 61672013) and Huaian Key Laboratory for Infectious Diseases Control and Prevention (Grant",
+            "Number HAP201704), Huaian, Jiangsu, China."
+        ],
+        "Acknowledgements": [
+            "None.",
+            "The funding agencies had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; or decision to submit the manuscript for publication."
+        ],
+        "Conflict of Interests": [
+            "The authors declared no competing interests.",
+            "SZ conceived the study, carried out the analysis, and drafted the first manuscript. All authors discussed the results, critically read and revised the manuscript, and gave final approval for publication."
+        ],
+        "References": [
+            "2.",
+            "4.",
+            "6.",
+            "8.",
+            "10.",
+            "12.",
+            "14.",
+            "16.",
+            "'Pneumonia of unknown cause \u2013 China', Emergencies preparedness, response, Disease outbreak news, World Health Organization (WHO) [https://www.who.int/csr/don/05-january-2020pneumonia-of-unkown-cause-china/en/]",
+            "Bogoch II, Watts A, Thomas-Bachli A, Huber C, Kraemer MU, Khan K: Pneumonia of unknown etiology in Wuhan, China: potential for international spread via commercial air travel. Journal of Travel Medicine 2020:doi:10.1093/jtm/taaa1008.",
+            "Wu JT, Leung K, Leung GM: Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet 2020.",
+            "Summary of data and outbreak situation of the Severe Respiratory Disease associated with a",
+            "Novel Infectious Agent, Centre for Health Protection, the government of Hong Kong.",
+            "[https://www.chp.gov.hk/en/features/102465.html]",
+            "The collection of Press Releases by the Centre for Health Protection (CHP) of Hong Kong.",
+            "[https://www.chp.gov.hk/en/media/116/index.html]",
+            "Cowling BJ, Fang VJ, Riley S, Peiris JM, Leung GM: Estimation of the serial interval of influenza.",
+            "Epidemiology (Cambridge, Mass) 2009, 20(3):344.",
+            "Fine PEM: The Interval between Successive Cases of an Infectious Disease. American Journal of",
+            "Epidemiology 2003, 158(11):1039-1047.",
+            "Nishiura H, Chowell G, Heesterbeek H, Wallinga J: The ideal reporting interval for an epidemic to objectively interpret the epidemiological time course. Journal of the Royal Society Interface 2010, 7(43):297-307.",
+            "Wallinga J, Lipsitch M: How generation intervals shape the relationship between growth rates and reproductive numbers. Proceedings of the Royal Society B: Biological Sciences 2007, 274(1609):599-604.",
+            "Yang Y, Longini I, Halloran ME: Design and evaluation of prophylactic interventions using infectious disease incidence data from close contact groups. J R Stat Soc Ser C-Appl Stat 2006, 55:317-330.",
+            "Laboratory testing for 2019 novel coronavirus (2019-nCoV) in suspected human cases, World",
+            "Health",
+            "Organization (WHO)",
+            "[https://www.who.int/health-topics/coronavirus/laboratorydiagnostics-for-novel-coronavirus]",
+            "Fan J, Huang T: Profile likelihood inferences on semiparametric varying-coefficient partially linear models. Bernoulli 2005, 11(6):1031-1057.",
+            "Lipsitch M, Cohen T, Cooper B, Robins JM, Ma S, James L, Gopalakrishna G, Chew SK, Tan CC, Samore MH: Transmission dynamics and control of severe acute respiratory syndrome. Science",
+            "2003, 300(5627):1966-1970.",
+            "Nishiura H, Linton NM, Akhmetzhanov AR: Serial interval of novel coronavirus (2019-nCoV)",
+            "infections. medRxiv 2020:2020.2002.2003.20019497.",
+            "You C, Deng Y, Hu W, Sun J, Lin Q, Zhou F, Pang CH, Zhang Y, Chen Z, Zhou X-H: Estimation of the Time-Varying Reproduction Number of COVID-19 Outbreak in China. medRxiv",
+            "2020:2020.2002.2008.20021253.",
+            "Backer JA, Klinkenberg D, Wallinga J: Incubation period of 2019 novel coronavirus (2019-nCoV)",
+            "infections among travellers from Wuhan, China, 20\u201328 January 2020. Eurosurveillance 2020, 25(5):2000062.",
+            "Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, Ren R, Leung KSM, Lau EHY, Wong JY et al: Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia.",
+            "New England Journal of Medicine 2020.",
+            "19.",
+            "21.",
+            "Linton MN, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov RA, Jung S-m, Yuan B, Kinoshita R, Nishiura H: Incubation Period and Other Epidemiological Characteristics of 2019 Novel",
+            "Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case",
+            "Data. Journal of Clinical Medicine 2020, 9(2).",
+            "Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith H, Azman AS, Reich NG, Lessler J: The incubation period of 2019-nCoV from publicly reported confirmed cases: estimation and application. medRxiv 2020:2020.2002.2002.20020016.",
+            "Rothe C, Schunk M, Sothmann P, Bretzel G, Froeschl G, Wallrauch C, Zimmer T, Thiel V, Janke C, Guggemos W et al: Transmission of 2019-nCoV Infection from an Asymptomatic Contact in",
+            "Germany. New England Journal of Medicine 2020.",
+            "Chowell G, Dhillon R, Srikrishna D: Getting to zero quickly in the 2019-nCov epidemic with vaccines or rapid testing. medRxiv 2020:2020.2002.2003.20020271."
+        ],
+        "Figures": [
+            "Figure 1.",
+            "The likelihood profile of the varying serial interval (SI) of COVID-19 by using all samples. The color scheme is shown on the right-hand side, and a darker color indicates a larger log-likelihood, i.e., ln(L), value.",
+            "Figure 2.",
+            "The distribution of serial interval (SI) by using all samples. The blue dots are the observed distribution of SI, the black bold curve is the fitted distribution of SI, and the light grey curves are 1000 simulation samples."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "infectees",
+            "number": 12,
+            "context": "For those infectees associated with multiple infectors, we record the range of onset dates of all associated infectors, i.e., lower and upper bounds. <mark class=\"stats\">We identified 21 transmission chains, including 12 infectees matched with only one infector, that were used for SI estimation</mark>. |\u0bdc\u0b6a\u0b6d\u0b75 , \u0bdc\u0b73\u0b6e \u0bdc  |,  d"
+        },
+        {
+            "participant": "samples",
+            "number": 21,
+            "context": "Results and discussion. <mark class=\"stats\">The observed SIs of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR)</mark>. between 2 and 5, and range from 1 to 13 days"
+        },
+        {
+            "participant": "samples",
+            "number": 21,
+            "context": "Fig 1 shows the likelihood profiles of varying SI with respect to \u03bc and \u03c3 of SI. <mark class=\"stats\">By using all 21 samples, we estimated the mean of SI at 4.4 days (95%CI: 2.9\u22126.7) and SD of SI at 3.0 days (95%CI: 1.8\u22125.8)</mark>. The fitted Gamma distribution was shown in Fig 2"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We calculated the maximum likelihood estimates of \u03bc and \u03c3</mark>",
+                "tests": [
+                    {
+                        "test": "maximum likelihood estimates"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Their 95% confidence interval (95%CI) were calculated by using the profile likelihood estimation framework with cutoff threshold determined by a Chi-square quantile [12]</mark>",
+                "tests": [
+                    {
+                        "test": "Chi-square"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "World Health Organization",
+        "probability density function",
+        "available surveillance",
+        "secondary case",
+        "syndrome coronavirus",
+        "COVID-19",
+        "novel coronavirus disease",
+        "interquartile range",
+        "symptomatic transmission",
+        "severe acute respiratory syndrome",
+        "large outbreak",
+        "surveillance datum",
+        "transmission chain",
+        "who acquires infection from whom\u2019",
+        "standard deviation",
+        "infections. Under the scenario",
+        "coronavirus",
+        "pre symptomatic",
+        "pneumonia",
+        "95% confidence interval",
+        "statistical analysis",
+        "hong kong",
+        "serial interval",
+        "Centre for Health Protection",
+        "previous work",
+        "index case",
+        "incubation period",
+        "contact tracing",
+        "preliminary estimate",
+        "sars cov",
+        "transmission dynamics",
+        "dynamics"
+    ],
+    "keyword_relevance": {
+        "serial interval": 0.26063829787234044,
+        "COVID-19": 0.1276595744680851,
+        "severe acute respiratory syndrome": 0.0797872340425532,
+        "coronavirus": 0.05851063829787234,
+        "95% confidence interval": 0.05319148936170213,
+        "contact tracing": 0.05319148936170213,
+        "transmission chain": 0.0425531914893617,
+        "Centre for Health Protection": 0.0425531914893617,
+        "standard deviation": 0.031914893617021274,
+        "World Health Organization": 0.026595744680851064,
+        "secondary case": 0.026595744680851064,
+        "novel coronavirus disease": 0.02127659574468085,
+        "infections. Under the scenario": 0.02127659574468085,
+        "incubation period": 0.02127659574468085,
+        "probability density function": 0.015957446808510637,
+        "interquartile range": 0.015957446808510637,
+        "symptomatic transmission": 0.015957446808510637,
+        "syndrome coronavirus": 0.010638297872340425,
+        "who acquires infection from whom\u2019": 0.010638297872340425,
+        "statistical analysis": 0.010638297872340425,
+        "index case": 0.010638297872340425,
+        "dynamics": 0.010638297872340425,
+        "available surveillance": 0.005319148936170213,
+        "large outbreak": 0.005319148936170213,
+        "pneumonia": 0.005319148936170213,
+        "previous work": 0.005319148936170213,
+        "preliminary estimate": 0.005319148936170213,
+        "transmission dynamics": 0.005319148936170213,
+        "surveillance datum": 0.0,
+        "pre symptomatic": 0.0,
+        "hong kong": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> As of February 15, there were 56 COVID-19 cases confirmed in Hong Kong [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and local transmission was recognized by the contact tracing investigation.",
+        "SI could be used to assist strategic decision-making of public health policies and construct analytical frameworks for studying the transmission dynamics of SARS-CoV-2.",
+        "The authors examined the publicly available materials released by the Centre for Health Protection (CHP).",
+        "The authors estimated the SI of COVID-19 based on 21 identified transmission chains from the surveillance data and contact tracing data in Hong Kong",
+        "<h2 style=\"display: inline\">Methods:</h2> Index cases were identified and reported after symptoms onset, and contact tracing was conducted to collect the data of the associated secondary cases.",
+        "An interval censored likelihood framework is adopted to fit a Gamma distribution function to govern the SI of COVID-19",
+        "<h2 style=\"display: inline\">Results:</h2> <strong>Results and discussion</strong><br/><br/>The observed SIs of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR)<br/><br/>between 2 and 5, and range from 1 to 13 days.",
+        "The observed SIs of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR).",
+        "For the 12 \u2018infector- infectee\u2019 pairs, the observed SIs have a mean at 3 days, median at 2 days, IQR between 2 and 4, and range from 1 to 8 days.",
+        "The fitted Gamma distribution was shown in Fig 2.",
+        "These estimates largely matched the results in the existing literatures [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+        "Limiting to only consider the 12 \u2018infector-infectee\u2019 pairs, the authors estimated the mean of SI at 3.1 days (95%CI: 2.0\u22125.4) and",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The SI of COVID-19 may be shorter than the preliminary estimates in previous works. Given the likelihood that SI could be shorter than the incubation period, pre-symptomatic transmission may occur, and extra efforts on timely contact tracing and quarantine are recommended in combating the COVID-19 outbreak.<br/><br/>Keywords: novel coronavirus disease; serial interval; statistical analysis; Hong Kong; contact tracing.<br/><br/>Backgrounds: The emerging virus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has caused a large outbreak of novel coronavirus disease (COVID-19) in Wuhan, China since December 2019.<br/><br/>Based on the publicly available surveillance data, the authors identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19.<br/><br/>author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+        "The SI of COVID-19 may be shorter than the preliminary estimates in previous works.",
+        "Given the likelihood that SI could be shorter than the incubation period, pre-symptomatic transmission may occur, and extra efforts on timely contact tracing and quarantine are recommended in combating the COVID-19 outbreak.",
+        "Based on the publicly available surveillance data, the authors identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "As of February 15, there were 56 COVID-19 cases confirmed in Hong Kong [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and local transmission was recognized by the contact tracing investigation.",
+            "SI could be used to assist strategic decision-making of public health policies and construct analytical frameworks for studying the transmission dynamics of SARS-CoV-2.",
+            "The authors examined the publicly available materials released by the Centre for Health Protection (CHP).",
+            "The authors estimated the SI of COVID-19 based on 21 identified transmission chains from the surveillance data and contact tracing data in Hong Kong"
+        ],
+        "Methods": [
+            "Index cases were identified and reported after symptoms onset, and contact tracing was conducted to collect the data of the associated secondary cases.",
+            "An interval censored likelihood framework is adopted to fit a Gamma distribution function to govern the SI of COVID-19"
+        ],
+        "Results": [
+            "<strong>Results and discussion</strong><br/><br/>The observed SIs of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR)<br/><br/>between 2 and 5, and range from 1 to 13 days.",
+            "The observed SIs of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR).",
+            "For the 12 \u2018infector- infectee\u2019 pairs, the observed SIs have a mean at 3 days, median at 2 days, IQR between 2 and 4, and range from 1 to 8 days.",
+            "The fitted Gamma distribution was shown in Fig 2.",
+            "These estimates largely matched the results in the existing literatures [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+            "Limiting to only consider the 12 \u2018infector-infectee\u2019 pairs, the authors estimated the mean of SI at 3.1 days (95%CI: 2.0\u22125.4) and"
+        ],
+        "Conclusion": [
+            "The SI of COVID-19 may be shorter than the preliminary estimates in previous works. Given the likelihood that SI could be shorter than the incubation period, pre-symptomatic transmission may occur, and extra efforts on timely contact tracing and quarantine are recommended in combating the COVID-19 outbreak.<br/><br/>Keywords: novel coronavirus disease; serial interval; statistical analysis; Hong Kong; contact tracing.<br/><br/>Backgrounds: The emerging virus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has caused a large outbreak of novel coronavirus disease (COVID-19) in Wuhan, China since December 2019.<br/><br/>Based on the publicly available surveillance data, the authors identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19.<br/><br/>author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "The SI of COVID-19 may be shorter than the preliminary estimates in previous works.",
+            "Given the likelihood that SI could be shorter than the incubation period, pre-symptomatic transmission may occur, and extra efforts on timely contact tracing and quarantine are recommended in combating the COVID-19 outbreak.",
+            "Based on the publicly available surveillance data, the authors identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "1._0000_a",
+            "entry": "1. 'Pneumonia of unknown cause \u2013 China', Emergencies preparedness, response, Disease outbreak news, World Health Organization (WHO) [https://www.who.int/csr/don/05-january-2020-",
+            "url": "https://www.who.int/csr/don/05-january-2020-",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pneumonia%20of%20unknown%20cause%20%20China%20Emergencies%20preparedness%20response%20Disease%20outbreak%20news%20World%20Health%20Organization%20WHO%20httpswwwwhointcsrdon05january2020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pneumonia%20of%20unknown%20cause%20%20China%20Emergencies%20preparedness%20response%20Disease%20outbreak%20news%20World%20Health%20Organization%20WHO%20httpswwwwhointcsrdon05january2020"
+        },
+        {
+            "id": "2",
+            "alt_id": "Bogoch_et+al_0000_a",
+            "entry": "2. Bogoch II, Watts A, Thomas-Bachli A, Huber C, Kraemer MU, Khan K. Pneumonia of unknown etiology in Wuhan, China: potential for international spread via commercial air travel. Journal of Travel Medicine 2020:doi:10.1093/jtm/taaa1008.",
+            "crossref": "https://dx.doi.org/10.1093/jtm/taaa1008",
+            "scite": "https://scite.ai/reports/10.1093/jtm/taaa1008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/jtm/taaa1008"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "3. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%20JT%20Leung%20K%20Leung%20GM%20Nowcasting%20and%20forecasting%20the%20potential%20domestic%20and%20international%20spread%20of%20the%202019nCoV%20outbreak%20originating%20in%20Wuhan%20China%20a%20modelling%20study%20The%20Lancet%202020"
+        },
+        {
+            "id": "4",
+            "alt_id": "4._0000_b",
+            "entry": "4. Summary of data and outbreak situation of the Severe Respiratory Disease associated with a [https://www.chp.gov.hk/en/features/102465.html]",
+            "url": "https://www.chp.gov.hk/en/features/102465.html]"
+        },
+        {
+            "id": "5",
+            "alt_id": "5._0000_c",
+            "entry": "5. The collection of Press Releases by the Centre for Health Protection (CHP) of Hong Kong. [https://www.chp.gov.hk/en/media/116/index.html]",
+            "url": "https://www.chp.gov.hk/en/media/116/index.html]"
+        },
+        {
+            "id": "6",
+            "alt_id": "Cowling_et+al_2009_a",
+            "entry": "6. Cowling BJ, Fang VJ, Riley S, Peiris JM, Leung GM. Estimation of the serial interval of influenza. Epidemiology (Cambridge, Mass) 2009, 20(3):344.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cowling%2C%20B.J.%20Fang%2C%20V.J.%20Riley%2C%20S.%20Peiris%2C%20J.M.%20Estimation%20of%20the%20serial%20interval%20of%20influenza%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cowling%2C%20B.J.%20Fang%2C%20V.J.%20Riley%2C%20S.%20Peiris%2C%20J.M.%20Estimation%20of%20the%20serial%20interval%20of%20influenza%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cowling%2C%20B.J.%20Fang%2C%20V.J.%20Riley%2C%20S.%20Peiris%2C%20J.M.%20Estimation%20of%20the%20serial%20interval%20of%20influenza%202009"
+        },
+        {
+            "id": "7",
+            "alt_id": "Fine_2003_a",
+            "entry": "7. Fine PEM. The Interval between Successive Cases of an Infectious Disease. American Journal of Epidemiology 2003, 158(11):1039-1047.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fine%2C%20P.E.M.%20The%20Interval%20between%20Successive%20Cases%20of%20an%20Infectious%20Disease%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fine%2C%20P.E.M.%20The%20Interval%20between%20Successive%20Cases%20of%20an%20Infectious%20Disease%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fine%2C%20P.E.M.%20The%20Interval%20between%20Successive%20Cases%20of%20an%20Infectious%20Disease%202003"
+        },
+        {
+            "id": "8",
+            "alt_id": "Nishiura_et+al_2010_a",
+            "entry": "8. Nishiura H, Chowell G, Heesterbeek H, Wallinga J. The ideal reporting interval for an epidemic to objectively interpret the epidemiological time course. Journal of the Royal Society Interface 2010, 7(43):297-307. Wallinga J, Lipsitch M. How generation intervals shape the relationship between growth rates and reproductive numbers. Proceedings of the Royal Society B: Biological Sciences 2007, 274(1609):599-604.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%2C%20H.%20Chowell%2C%20G.%20Heesterbeek%2C%20H.%20Wallinga%2C%20J.%20The%20ideal%20reporting%20interval%20for%20an%20epidemic%20to%20objectively%20interpret%20the%20epidemiological%20time%20course%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%2C%20H.%20Chowell%2C%20G.%20Heesterbeek%2C%20H.%20Wallinga%2C%20J.%20The%20ideal%20reporting%20interval%20for%20an%20epidemic%20to%20objectively%20interpret%20the%20epidemiological%20time%20course%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%2C%20H.%20Chowell%2C%20G.%20Heesterbeek%2C%20H.%20Wallinga%2C%20J.%20The%20ideal%20reporting%20interval%20for%20an%20epidemic%20to%20objectively%20interpret%20the%20epidemiological%20time%20course%202010"
+        },
+        {
+            "id": "10",
+            "alt_id": "Yang_et+al_2019_a",
+            "entry": "10. Yang Y, Longini I, Halloran ME. Design and evaluation of prophylactic interventions using infectious disease incidence data from close contact groups. J R Stat Soc Ser C-Appl Stat 2006, 55:317-330. Laboratory testing for 2019 novel coronavirus (2019-nCoV) in suspected human cases, World Health Organization (WHO) [https://www.who.int/health-topics/coronavirus/laboratorydiagnostics-for-novel-coronavirus]",
+            "url": "https://www.who.int/health-topics/coronavirus/laboratorydiagnostics-for-novel-coronavirus]",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yang%2C%20Y.%20Longini%2C%20I.%20Halloran%2C%20M.E.%20Design%20and%20evaluation%20of%20prophylactic%20interventions%20using%20infectious%20disease%20incidence%20data%20from%20close%20contact%20groups%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yang%2C%20Y.%20Longini%2C%20I.%20Halloran%2C%20M.E.%20Design%20and%20evaluation%20of%20prophylactic%20interventions%20using%20infectious%20disease%20incidence%20data%20from%20close%20contact%20groups%202019"
+        },
+        {
+            "id": "12",
+            "alt_id": "Fan_2005_a",
+            "entry": "12. Fan J, Huang T. Profile likelihood inferences on semiparametric varying-coefficient partially linear models. Bernoulli 2005, 11(6):1031-1057.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fan%2C%20J.%20Huang%2C%20T.%20Profile%20likelihood%20inferences%20on%20semiparametric%20varying-coefficient%20partially%20linear%20models%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fan%2C%20J.%20Huang%2C%20T.%20Profile%20likelihood%20inferences%20on%20semiparametric%20varying-coefficient%20partially%20linear%20models%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fan%2C%20J.%20Huang%2C%20T.%20Profile%20likelihood%20inferences%20on%20semiparametric%20varying-coefficient%20partially%20linear%20models%202005"
+        },
+        {
+            "id": "13",
+            "alt_id": "Lipsitch_et+al_2003_a",
+            "entry": "13. Lipsitch M, Cohen T, Cooper B, Robins JM, Ma S, James L, Gopalakrishna G, Chew SK, Tan CC, Samore MH. Transmission dynamics and control of severe acute respiratory syndrome. Science 2003, 300(5627):1966-1970.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lipsitch%2C%20M.%20Cohen%2C%20T.%20Cooper%2C%20B.%20Robins%2C%20J.M.%20Transmission%20dynamics%20and%20control%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lipsitch%2C%20M.%20Cohen%2C%20T.%20Cooper%2C%20B.%20Robins%2C%20J.M.%20Transmission%20dynamics%20and%20control%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lipsitch%2C%20M.%20Cohen%2C%20T.%20Cooper%2C%20B.%20Robins%2C%20J.M.%20Transmission%20dynamics%20and%20control%20of%20severe%20acute%20respiratory%20syndrome%202003"
+        },
+        {
+            "id": "14",
+            "alt_id": "Nishiura_et+al_2019_a",
+            "entry": "14. Nishiura H, Linton NM, Akhmetzhanov AR. Serial interval of novel coronavirus (2019-nCoV) infections. medRxiv 2020:2020.2002.2003.20019497.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%2C%20H.%20Linton%2C%20N.M.%20Akhmetzhanov%2C%20A.R.%20Serial%20interval%20of%20novel%20coronavirus%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%2C%20H.%20Linton%2C%20N.M.%20Akhmetzhanov%2C%20A.R.%20Serial%20interval%20of%20novel%20coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%2C%20H.%20Linton%2C%20N.M.%20Akhmetzhanov%2C%20A.R.%20Serial%20interval%20of%20novel%20coronavirus%202019"
+        },
+        {
+            "id": "15",
+            "alt_id": "You_et+al_2020_a",
+            "entry": "15. You C, Deng Y, Hu W, Sun J, Lin Q, Zhou F, Pang CH, Zhang Y, Chen Z, Zhou X-H: Estimation of the Time-Varying Reproduction Number of COVID-19 Outbreak in China. medRxiv 2020:2020.2002.2008.20021253.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=You%20C%20Deng%20Y%20Hu%20W%20Sun%20J%20Lin%20Q%20Zhou%20F%20Pang%20CH%20Zhang%20Y%20Chen%20Z%20Zhou%20XH%20Estimation%20of%20the%20TimeVarying%20Reproduction%20Number%20of%20COVID19%20Outbreak%20in%20China%20medRxiv%20202020202002200820021253"
+        },
+        {
+            "id": "16",
+            "alt_id": "Backer_et+al_2019_a",
+            "entry": "16. Backer JA, Klinkenberg D, Wallinga J. Incubation period of 2019 novel coronavirus (2019-nCoV) infections among travellers from Wuhan, China, 20\u201328 January 2020. Eurosurveillance 2020, 25(5):2000062.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Backer%20JA%20Klinkenberg%20D%20Wallinga%20J%20Incubation%20period%20of%202019%20novel%20coronavirus%202019nCoV%20infections%20among%20travellers%20from%20Wuhan%20China%202028%20January%202020%20Eurosurveillance%202020%202552000062",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Backer%20JA%20Klinkenberg%20D%20Wallinga%20J%20Incubation%20period%20of%202019%20novel%20coronavirus%202019nCoV%20infections%20among%20travellers%20from%20Wuhan%20China%202028%20January%202020%20Eurosurveillance%202020%202552000062",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Backer%20JA%20Klinkenberg%20D%20Wallinga%20J%20Incubation%20period%20of%202019%20novel%20coronavirus%202019nCoV%20infections%20among%20travellers%20from%20Wuhan%20China%202028%20January%202020%20Eurosurveillance%202020%202552000062"
+        },
+        {
+            "id": "17",
+            "alt_id": "Li_et+al_2020_a",
+            "entry": "17. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, Ren R, Leung KSM, Lau EHY, Wong JY et al: Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. New England Journal of Medicine 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Wong%20JY%20et%20al%3A%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Wong%20JY%20et%20al%3A%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Wong%20JY%20et%20al%3A%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020"
+        },
+        {
+            "id": "Linton_et+al_2020_a",
+            "alt_id": "16",
+            "entry": "Linton MN, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov RA, Jung S-m, Yuan B, Kinoshita R, Nishiura H: Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data. Journal of Clinical Medicine 2020, 9(2). Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith H, Azman AS, Reich NG, Lessler J: The incubation period of 2019-nCoV from publicly reported confirmed cases: estimation and application. medRxiv 2020:2020.2002.2002.20020016. Rothe C, Schunk M, Sothmann P, Bretzel G, Froeschl G, Wallrauch C, Zimmer T, Thiel V, Janke C, Guggemos W et al: Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany. New England Journal of Medicine 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Linton%20MN%20Kobayashi%20T%20Yang%20Y%20Hayashi%20K%20Akhmetzhanov%20RA%20Jung%20Sm%20Yuan%20B%20Kinoshita%20R%20Nishiura%20H%20Incubation%20Period%20and%20Other%20Epidemiological%20Characteristics%20of%202019%20Novel%20Coronavirus%20Infections%20with%20Right%20Truncation%20A%20Statistical%20Analysis%20of%20Publicly%20Available%20Case%20Data%20Journal%20of%20Clinical%20Medicine%202020%2092%20Lauer%20SA%20Grantz%20KH%20Bi%20Q%20Jones%20FK%20Zheng%20Q%20Meredith%20H%20Azman%20AS%20Reich%20NG%20Lessler%20J%20The%20incubation%20period%20of%202019nCoV%20from%20publicly%20reported%20confirmed%20cases%20estimation%20and%20application%20medRxiv%20202020202002200220020016%20Rothe%20C%20Schunk%20M%20Sothmann%20P%20Bretzel%20G%20Froeschl%20G%20Wallrauch%20C%20Zimmer%20T%20Thiel%20V%20Janke%20C%20Guggemos%20W%20et%20al%20Transmission%20of%202019nCoV%20Infection%20from%20an%20Asymptomatic%20Contact%20in%20Germany%20New%20England%20Journal%20of%20Medicine%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Linton%20MN%20Kobayashi%20T%20Yang%20Y%20Hayashi%20K%20Akhmetzhanov%20RA%20Jung%20Sm%20Yuan%20B%20Kinoshita%20R%20Nishiura%20H%20Incubation%20Period%20and%20Other%20Epidemiological%20Characteristics%20of%202019%20Novel%20Coronavirus%20Infections%20with%20Right%20Truncation%20A%20Statistical%20Analysis%20of%20Publicly%20Available%20Case%20Data%20Journal%20of%20Clinical%20Medicine%202020%2092%20Lauer%20SA%20Grantz%20KH%20Bi%20Q%20Jones%20FK%20Zheng%20Q%20Meredith%20H%20Azman%20AS%20Reich%20NG%20Lessler%20J%20The%20incubation%20period%20of%202019nCoV%20from%20publicly%20reported%20confirmed%20cases%20estimation%20and%20application%20medRxiv%20202020202002200220020016%20Rothe%20C%20Schunk%20M%20Sothmann%20P%20Bretzel%20G%20Froeschl%20G%20Wallrauch%20C%20Zimmer%20T%20Thiel%20V%20Janke%20C%20Guggemos%20W%20et%20al%20Transmission%20of%202019nCoV%20Infection%20from%20an%20Asymptomatic%20Contact%20in%20Germany%20New%20England%20Journal%20of%20Medicine%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Linton%20MN%20Kobayashi%20T%20Yang%20Y%20Hayashi%20K%20Akhmetzhanov%20RA%20Jung%20Sm%20Yuan%20B%20Kinoshita%20R%20Nishiura%20H%20Incubation%20Period%20and%20Other%20Epidemiological%20Characteristics%20of%202019%20Novel%20Coronavirus%20Infections%20with%20Right%20Truncation%20A%20Statistical%20Analysis%20of%20Publicly%20Available%20Case%20Data%20Journal%20of%20Clinical%20Medicine%202020%2092%20Lauer%20SA%20Grantz%20KH%20Bi%20Q%20Jones%20FK%20Zheng%20Q%20Meredith%20H%20Azman%20AS%20Reich%20NG%20Lessler%20J%20The%20incubation%20period%20of%202019nCoV%20from%20publicly%20reported%20confirmed%20cases%20estimation%20and%20application%20medRxiv%20202020202002200220020016%20Rothe%20C%20Schunk%20M%20Sothmann%20P%20Bretzel%20G%20Froeschl%20G%20Wallrauch%20C%20Zimmer%20T%20Thiel%20V%20Janke%20C%20Guggemos%20W%20et%20al%20Transmission%20of%202019nCoV%20Infection%20from%20an%20Asymptomatic%20Contact%20in%20Germany%20New%20England%20Journal%20of%20Medicine%202020"
+        },
+        {
+            "id": "Chowell_et+al_2019_a",
+            "alt_id": "17",
+            "entry": "Chowell G, Dhillon R, Srikrishna D. Getting to zero quickly in the 2019-nCov epidemic with vaccines or rapid testing. medRxiv 2020:2020.2002.2003.20020271.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chowell%20G%20Dhillon%20R%20Srikrishna%20D%20Getting%20to%20zero%20quickly%20in%20the%202019nCov%20epidemic%20with%20vaccines%20or%20rapid%20testing%20medRxiv%20202020202002200320020271"
+        }
+    ],
+    "facts": [
+        "contact tracing was conducted to collect the data of the associated secondary cases",
+        "a Gamma distribution function to govern the SI of COVID-19",
+        "The SI of COVID-19 may be shorter than the preliminary estimates in previous works",
+        "the likelihood that SI could be shorter than the incubation period",
+        "56 COVID-19 cases confirmed in Hong Kong",
+        "local transmission was recognized by the contact tracing investigation",
+        "which refers to the time interval from illness onset",
+        "publicly available materials released by the Centre for Health Protection",
+        "the SI of COVID-19 based on 21 identified transmission chains from the surveillance data and contact tracing data",
+        "The observed SIs of all 21 samples have a mean at 4.3 days",
+        "the observed SIs have a mean at 3 days",
+        "The fitted Gamma distribution was shown in Fig 2",
+        "These estimates largely matched the results in the existing literatures",
+        "who has granted medRxiv a license to display the preprint in perpetuity",
+        "12 infectees matched with only one infector",
+        "that were used for SI estimation"
+    ],
+    "claims": [
+        "Based on the publicly available surveillance data, we identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19",
+        "In this study, we examined the publicly available materials released by the Centre for Health Protection (CHP)",
+        "Adopting the case-ascertained design [10], we identified the transmission chain from index cases to secondary cases",
+        "We identified 21 transmission chains, including 12 infectees matched with only one infector, that were used for SI estimation",
+        "And we found that the SI of"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "Based on the publicly available surveillance data, we identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19",
+        "We examined the publicly available materials released by the Centre for Health Protection (CHP)",
+        "We identified 21 transmission chains, including 12 infectees matched with only one infector, that were used for serial interval estimation",
+        "The observed serial interval of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR)",
+        "For the 12 \u2018infector- infectee\u2019 pairs, the observed serial interval have a mean at 3 days, median at 2 days, interquartile range between 2 and 4, and range from 1 to 8 days",
+        "These estimates largely matched the results in the existing literatures [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]"
+    ],
+    "top_statements": [
+        "As of February 15, there were 56 COVID-19 cases confirmed in Hong Kong [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and local transmission was also recognized by the contact tracing investigation",
+        "Based on the publicly available surveillance data, we identified 21 transmission chains in Hong Kong and estimated the serial interval (SI) of COVID-19",
+        "We identified 21 transmission chains, including 12 infectees matched with only one infector, that were used for serial interval estimation",
+        "The observed serial interval of all 21 samples have a mean at 4.3 days, median at 4 days, interquartile range (IQR)",
+        "For the 12 \u2018infector- infectee\u2019 pairs, the observed serial interval have a mean at 3 days, median at 2 days, interquartile range between 2 and 4, and range from 1 to 8 days",
+        "These estimates largely matched the results in the existing literatures [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]"
+    ],
+    "headline": "Based on the publicly available surveillance data, we identified 21 transmission chains in Hong Kong and estimated the serial interval of COVID-19",
+    "contexts": [],
+    "abbreviations": {
+        "SI": "serial interval",
+        "CHP": "Centre for Health Protection",
+        "SD": "standard deviation",
+        "WHO": "World Health Organization",
+        "PDF": "probability density function",
+        "95%CI": "95% confidence interval",
+        "SARS": "severe acute respiratory syndrome",
+        "IQR": "interquartile range",
+        "III": "infections. Under the scenario",
+        "WAIFW": "who acquires infection from whom\u2019"
+    }
+}

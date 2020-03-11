@@ -1,0 +1,425 @@
+{
+    "filename": "2020.02.13.20022707.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 492028,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.13.20022707",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/18/2020.02.13.20022707.full.pdf"
+        },
+        "title": "Quantifying bias of COVID-19 prevalence and severity estimates in Wuhan, China that depend on reported cases in international travelers",
+        "date": 2020,
+        "author": "Rene Niehus, Pablo M De Salazar, Aimee Taylor, Marc Lipsitch",
+        "affiliations": [
+            "Center for Communicable Disease Dynamics, Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, Massachusetts, USA"
+        ],
+        "abstract": "Risk of COVID-19 infection in Wuhan has been estimated using imported case counts of international travelers, often under the assumption that all cases in travelers are ascertained. Recent work indicates variation among countries in detection capacity for imported cases. Singapore has historically had very strong epidemiological surveillance and contact-tracing capacity and has shown in the COVID-19 epidemic evidence of a high sensitivity of case detection. We therefore used a Bayesian modeling approach to estimate the relative imported case detection capacity for other countries compared to that of Singapore. We estimate that the global ability to detect imported cases is 38% (95% HPDI 22% - 64%) of Singapore\u2032s capacity. Equivalently, an estimate of 2.8 (95% HPDI 1.5 - 4.4) times the current number of imported cases, could have been detected, if all countries had had the same detection capacity as Singapore. Using the second component of the Global Health Security index to stratify likely case-detection capacities, we found that the ability to detect imported cases relative to Singapore among high surveillance locations is 40% (95% HPDI 22% -  67%), among intermediate surveillance locations it is 37% (95% HPDI 18% - 68%), and among low surveillance locations it is 11% (95% HPDI 0% - 42%). Using a simple mathematical model, we further find that treating all travelers as if they were residents (rather than accounting for the brief stay of some of these travelers in Wuhan) can modestly contribute to underestimation of prevalence as well. We conclude that estimates of case counts in Wuhan based on assumptions of perfect detection in travelers may be underestimated by several fold, and severity correspondingly overestimated by several fold. Undetected cases are likely in countries around the world, with greater risk in countries of low detection capacity and high connectivity to the epicenter of the outbreak.",
+        "keywords": [
+            "outbreak",
+            "underdetection",
+            "COVID-19",
+            "travel"
+        ],
+        "references": "@misc{w2020a,\n  author = {W.H.O.},\n  title = {2019-nCoV situation report - 15},\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf},\n  pages = {88\u20138},\n  date = {2020},\n  language = {}\n}\n@article{fraser2009a,\n  author = {Fraser, C.},\n  title = {Pandemic potential of a strain of influenza A (H1N1): early findings},\n  journal = {Science},\n  volume = {324},\n  pages = {1557\u20131561},\n  date = {2009},\n  more-authors = {true},\n  language = {}\n}\n@article{lipsitch2009a,\n  author = {Lipsitch, M.},\n  title = {Use of cumulative incidence of novel influenza A/H1N1 in foreign travelers to estimate lower bounds on cumulative incidence in Mexico},\n  journal = {PLoS One},\n  volume = {4},\n  pages = {6895},\n  date = {2009},\n  more-authors = {true},\n  language = {}\n}\n@article{wu2020a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study},\n  journal = {Lancet},\n  date = {2020},\n  doi = {doi: 10.1016/S0140-6736(20)30260-9},\n  language = {}\n}\n@book{de-a,\n  author = {De Salazar, P.M. and Niehus, R. and Taylor, A. and Buckee, C.O. and Lipsitch, M.},\n  title = {Using predicted imports of 2019-nCoV cases to determine locations that may not be identifying all imported cases},\n  publisher = {Infectious Diseases (except HIV/AIDS)(2020},\n  doi = {doi: 10.1101/2020.02.04.20020495},\n  language = {}\n}\n@article{james2003a,\n  author = {James, L. and Shindo, N. and Cutter, J. and Ma, S. and Chew, S.K.},\n  title = {Public health measures implemented during the SARS outbreak in},\n  journal = {Singapore},\n  date = {2003},\n  volume = {120},\n  pages = {20\u201326},\n  unmatched-journal = {Public Health},\n  language = {}\n}\n@misc{of2020a,\n  author = {of Health Singapore, Ministry},\n  title = {Updates on Covid-19 Local Situation. Updates on Covid-19 Local},\n  url = {Situation.https},\n  date = {2020},\n  language = {}\n}\n@misc{lai2020a,\n  author = {Lai, S.},\n  title = {Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@incollection{hopkins-a,\n  author = {Hopkins, John},\n  title = {Bloomberg School of Public Health},\n  source = {Global health Security Index.},\n  url = {https://www.ghsindex.org},\n  language = {}\n}\n@article{carpenter2017a,\n  author = {Carpenter, B.},\n  title = {Stan: A probabilistic programming language},\n  journal = {J. Stat. Softw},\n  volume = {76},\n  date = {2017},\n  more-authors = {true},\n  language = {}\n}\n@misc{vehtari2019a,\n  author = {Vehtari, A. and Gelman, A. and Simpson, D. and Carpenter, B. and B\u00fcrkner, P.-C.},\n  title = {Rank-normalization, folding, and localization: An improved R for assessing convergence of MCMC},\n  edition = {arXiv preprint arXiv: 1903. 08008},\n  volume = {18},\n  date = {2019},\n  language = {}\n}\n",
+        "links": [
+            "https://github.com/c2-d2/detect_prob_corona2019"
+        ],
+        "emails": [
+            "mlipsitc@hsph.harvard.edu",
+            "pablom@hsph.harvard.edu",
+            "rniehus@hsph.harvard.edu"
+        ],
+        "cited_by": 1,
+        "references_ris": "TY  - GEN\nAU  - W.H.O.\nTI  - 2019-nCoV situation report - 15\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf\nSP  - 88\nEP  - 8\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fraser, C.\nTI  - Pandemic potential of a strain of influenza A (H1N1): early findings\nT2  - Science\nVL  - 324\nSP  - 1557\nEP  - 1561\nPY  - 2009\nDA  - 2009\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lipsitch, M.\nTI  - Use of cumulative incidence of novel influenza A/H1N1 in foreign travelers to estimate lower bounds on cumulative incidence in Mexico\nT2  - PLoS One\nVL  - 4\nSP  - 6895\nPY  - 2009\nDA  - 2009\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study\nT2  - Lancet\nPY  - 2020\nDA  - 2020\nDO  - 10.1016/S0140-6736(20)30260-9\nLA  - \nER  - \n\nTY  - BOOK\nAU  - De Salazar, P.M.\nAU  - Niehus, R.\nAU  - Taylor, A.\nAU  - Buckee, C.O.\nAU  - Lipsitch, M.\nTI  - Using predicted imports of 2019-nCoV cases to determine locations that may not be identifying all imported cases\nPB  - Infectious Diseases (except HIV/AIDS)(2020\nDO  - 10.1101/2020.02.04.20020495\nLA  - \nER  - \n\nTY  - JOUR\nAU  - James, L.\nAU  - Shindo, N.\nAU  - Cutter, J.\nAU  - Ma, S.\nAU  - Chew, S.K.\nTI  - Public health measures implemented during the SARS outbreak in\nT2  - Singapore\nPY  - 2003\nDA  - 2003\nVL  - 120\nSP  - 20\nEP  - 26\nC1  - Public Health\nLA  - \nER  - \n\nTY  - GEN\nAU  - of Health Singapore, Ministry\nTI  - Updates on Covid-19 Local Situation. Updates on Covid-19 Local\nUR  - Situation.https\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - GEN\nAU  - Lai, S.\nTI  - Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Hopkins, John\nTI  - Bloomberg School of Public Health\nT2  - Global health Security Index.\nUR  - https://www.ghsindex.org\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Carpenter, B.\nTI  - Stan: A probabilistic programming language\nT2  - J. Stat. Softw\nVL  - 76\nPY  - 2017\nDA  - 2017\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Vehtari, A.\nAU  - Gelman, A.\nAU  - Simpson, D.\nAU  - Carpenter, B.\nAU  - B\u00fcrkner, P.-C.\nTI  - Rank-normalization, folding, and localization: An improved R for assessing convergence of MCMC\nET  - arXiv preprint arXiv: 1903. 08008\nVL  - 18\nPY  - 2019\nDA  - 2019\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Posterior distributions of detection probabilities relative to Singapore. The bottom panel shows the posterior distributions of \u03b8low, \u03b8med, \u03b8high . The top panel is a density plot of \u03b8global . HPDI: Highest Posterior Density Interval"
+            },
+            {
+                "id": "2",
+                "caption": "Ratio of infection prevalence in temporary visitors relative to that in residents (V). Plot shows V over a range of durations of visit (d)and a range of durations of detectable infection ( \u03b3 \u22121 ). In the upper panel the doubling time of the epidemic is 5 days and in the lower panel it is 7 days. The ratios are given as numbers (rounded to two decimals) with lighter areas as Vapproaches 1. Discussion"
+            },
+            {
+                "id": "Supplementary 1",
+                "caption": "Diagnostic plots of the MCMC sampler. Shows the rank plots[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] of the posterior samples of the four parameters used in our model. Uniform distributions indicate well-mixed MCMC chains"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.13.20022707.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.13.20022707.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.13.20022707.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.13.20022707.full/img-003.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "During the outbreak of a new virus SARS-Cov[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and its associated disease COVID-19, infection in travelers has been used to estimate the risk of infection in Wuhan, Hubei Province, China, the epicenter of the outbreak[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ].This approach is similar to that used for the the 2009 influenza pandemic where infections in tourists returning from Mexico were used to estimate the time-specific risk of infection (incidence or cumulative incidence) with the novel pandemic H1N1 influenza strain in Mexico (or parts thereof). The idea was that surveillance for the novel virus was not intense during the early days of the pandemic in Mexico, the source country, and that detection would be far more sensitive in travelers leaving Mexico, who would be screened when returning home as a means of preventing introductions of cases into destination countries 2\u200b ,3.Reports that health systems in Wuhan are overwhelmed and many cases are not being counted have led to the use of outgoing traveler data to estimate the time-specific risk of COVID-19 in Wuhan[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b ].This estimate, in turn, has been used to estimate the cumulative incidence of infection by a certain date in Wuhan, and from there (often assuming exponential growth and no appreciable depletion of susceptibles) the cumulative number of cases. Two important assumption underlie this calculation: i) that the detection of cases in the destination country has been 100% sensitive and specific, whether they are detected at the airport (prevalent cases with symptoms) or later after arrival at their destination (cases that were incubating during travel); ii) that travelers have the same prevalence of infection as the average resident of Hubei , so the prevalence inferred in travelers may be directly applied in Hubei. Here we consider the extent to which these two assumptions are justified. We conclude that the first assumption is strongly inconsistent with observed data, resulting in potentially substantial underestimates of prevalence in Hubei and corresponding overestimates of case-severity measures that are normalised by case counts.<br/><br/>We previously showed that there was variability between locations in the world in the relationship between the number of travelers from Wuhan to each international destination and the number of imported cases detected in that destination. On average, for countries presumed to have high surveillance capacity, one imported case reported over the period 8th January to 4th February was associated with each additional 14 passengers/day historical travel volume[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>\u200b ].However there was variation around this average. Among countries with substantial travel volume, Singapore showed the highest ratio of detected imported cases to daily travel volume, a ratio of one case per 5 daily travelers. Singapore is historically known for exceptionally sensitive detection of cases, for example in SARS6\u200b ,and has had extremely detailed case reporting during the COVID-19 outbreak[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>\u200b ].We therefore use Singapore in this work as the upper limit of case detection capacity. And we estimate this capacity of other locations relative to Singapore."
+        ],
+        "methods": [
+            "Data<br/><br/>From a total of 195 worldwide locations (reflecting mainly countries without taking any position on territorial claims), we included n= 194, which excludes the epicenter China. Data on imported cases aggregated by location were obtained from the WHO technical report dated 4th February 20201\u200b (a zero case count was assumed for all locations not listed). We used case counts up to the 4th February, because after this date the number of exported cases from Hubei province drops rapidly1\u200b ,likely due to the Hubei-wide lockdowns. We defined imported cases as those with known travel history from China (of those, 83% had travel history from Hubei province, and 17% from unknown locations in China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ]). Estimates on daily air travel volume were obtained from Lai et al.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>\u200b ].They are based on historical (February 2018) data from the International Air Travel Association and include estimates for the 27 locations that are most connected to Wuhan. They capture the daily average number of passengers traveling via direct and indirect flight itineraries from Wuhan to destinations outside of China. For all 167 locations not listed by Lai et al.8\u200b ,we set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index9\u200b ,which is an assessment of health security across 195 countries agreeing to the International Health Regulations (IHR [2005]). Specifically, we use the second category of the index, Early Detection and Reporting Epidemics of Potential International Concern, henceforth referred to as simply the GHS2\u200b index. We classify locations with GHS2\u200b index above the 80th percentile as high surveillance locations, those with GHS2\u200b index below the 20th percentile as low surveillance locations, with all others classified as locations with intermediate surveillance. We treat Singapore as a special case for surveillance of COVID-19, and we assign it it\u2019s own category of highest-achieved surveillance. This study did not include human subjects, used publicly available data, and therefore no ethical approval was required."
+        ],
+        "results": [
+            "We estimate that the global ability to detect imported cases is 38% (95% HPDI 22% - 64%) of Singapore\u2019s capacity. Equivalently, an estimate of 2.8 (95% HPDI 1.5 - 4.4) times the current number of imported cases, could have been detected, if all countries had had the same detection capacity as Singapore, which leads to 1.8 (95% CI 0.5 - 3.4) undetected cases per detected case. The ability to detect imported cases among high surveillance countries is 40% (95% HPDI 22% - 67%), among intermediate surveillance countries it is 37% (95% HPDI 18% - 68%), and among low surveillance countries it is 11% (95% HPDI 0% - 42%).<br/><br/>In this paper, we have aimed to test two assumptions underlying the estimation of incidence at the epicentre of the SARS-Cov[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] outbreak. The first of these is that the capacity for detection of international imported cases is 100% sensitive and specific across locations. While we know of no reason to doubt specificity of detection, we tested the assumption of perfect sensitivity. Based on our previous estimates[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>\u200b] we assumed Singapore has the highest capacity of surveillance with respect to COVID-19. We regressed the cumulative cases against Wuhan-to-location air travel volume considering Singapore to have the greatest detection capacity and estimating the relative underdetection compared to Singapore in the remaining 190 locations classified according to the GHS2\u200b index[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>\u200b ].While it is unlikely that this index reflects the true ranking of countries for any specific epidemic, such as the current one of COVID-19, we assume that it captures different levels of surveillance capacity. We therefore grouped the remaining locations into three big classes high, medium, and low surveillance capacity instead of using exact ranking."
+        ],
+        "disclosures": [
+            "<strong>Declaration of interests Marc</strong><br/><br/>Lipsitch has received consulting fees from Merck. All other authors declare no competing interests."
+        ],
+        "acknowledgments": [
+            "We thank Shengjie Lai for providing the air travel data, and we thank Nicholas Jewell and Stephen Kissler for valuable feedback along the way. This work was supported by Award Number U54GM088558 from the US National Institute Of General Medical Sciences. P.M.D was supported by the Fellowship Foundation Ramon Areces. A.R.T. was supported by a NIGMS Maximizing Investigator\u2019s Research Award (MIRA) R35GM124715-02. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institute Of General Medical Sciences or the National Institutes of Health."
+        ],
+        "supplementary": [
+            "Figure 1 Diagnostic plots of the MCMC sampler. Shows the rank plots[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] of the posterior samples of the four parameters used in our model. Uniform distributions indicate well-mixed MCMC chains."
+        ],
+        "funding": [
+            "This work was supported by Award Number U54GM088558 from the US National Institute Of General Medical Sciences",
+            "P.M.D was supported by the Fellowship Foundation Ramon Areces",
+            "A.R.T. was supported by a NIGMS Maximizing Investigator\u2019s Research Award (MIRA) R35GM124715-02"
+        ],
+        "ethical_compliance": [
+            "This study did not include human subjects, used publicly available data, and therefore no ethical approval was required"
+        ],
+        "data_availability": [
+            "https://github.com/c2-d2/detect_prob_corona2019"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Supplementary Figure 1\u200b.",
+                "Supplementary Figures",
+                "Supplementary Figure 1"
+            ]
+        }
+    },
+    "structured_content": {
+        "Introduction": [
+            "During the outbreak of a new virus SARS-Cov[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and its associated disease COVID-19, infection in travelers has been used to estimate the risk of infection in Wuhan, Hubei Province, China, the epicenter of the outbreak[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ].This approach is similar to that used for the the 2009 influenza pandemic where infections in tourists returning from Mexico were used to estimate the time-specific risk of infection (incidence or cumulative incidence) with the novel pandemic H1N1 influenza strain in Mexico (or parts thereof). The idea was that surveillance for the novel virus was not intense during the early days of the pandemic in Mexico, the source country, and that detection would be far more sensitive in travelers leaving Mexico, who would be screened when returning home as a means of preventing introductions of cases into destination countries 2\u200b ,3.Reports that health systems in Wuhan are overwhelmed and many cases are not being counted have led to the use of outgoing traveler data to estimate the time-specific risk of COVID-19 in Wuhan[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b ].This estimate, in turn, has been used to estimate the cumulative incidence of infection by a certain date in Wuhan, and from there (often assuming exponential growth and no appreciable depletion of susceptibles) the cumulative number of cases. Two important assumption underlie this calculation: i) that the detection of cases in the destination country has been 100% sensitive and specific, whether they are detected at the airport (prevalent cases with symptoms) or later after arrival at their destination (cases that were incubating during travel); ii) that travelers have the same prevalence of infection as the average resident of Hubei , so the prevalence inferred in travelers may be directly applied in Hubei. Here we consider the extent to which these two assumptions are justified. We conclude that the first assumption is strongly inconsistent with observed data, resulting in potentially substantial underestimates of prevalence in Hubei and corresponding overestimates of case-severity measures that are normalised by case counts.",
+            "We previously showed that there was variability between locations in the world in the relationship between the number of travelers from Wuhan to each international destination and the number of imported cases detected in that destination. On average, for countries presumed to have high surveillance capacity, one imported case reported over the period 8th January to 4th February was associated with each additional 14 passengers/day historical travel volume[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>\u200b ].However there was variation around this average. Among countries with substantial travel volume, Singapore showed the highest ratio of detected imported cases to daily travel volume, a ratio of one case per 5 daily travelers. Singapore is historically known for exceptionally sensitive detection of cases, for example in SARS6\u200b ,and has had extremely detailed case reporting during the COVID-19 outbreak[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>\u200b ].We therefore use Singapore in this work as the upper limit of case detection capacity. And we estimate this capacity of other locations relative to Singapore.",
+            "Regarding the second assumption, we demonstrate that the point prevalence of infection may be lower in visitors who have stayed only briefly in the source population (Wuhan) than in residents. All else equal, the discrepancy between resident and visitor prevalence is most pronounced if the visitors\u2019 durations",
+            "3 of stay are shorter, for slower-growing epidemics, and for longer durations of detectable infection; conversely, visitors are more similar to residents in their prevalence of infections if they stay longer, if the epidemic is growing faster, and if the duration of detectable infection is shorter. We quantify this discrepancy as a function of these features using a simple model."
+        ],
+        "Methods": [
+            "From a total of 195 worldwide locations (reflecting mainly countries without taking any position on territorial claims), we included n= 194, which excludes the epicenter China. Data on imported cases aggregated by location were obtained from the WHO technical report dated 4th February 20201\u200b (a zero case count was assumed for all locations not listed). We used case counts up to the 4th February, because after this date the number of exported cases from Hubei province drops rapidly1\u200b ,likely due to the Hubei-wide lockdowns. We defined imported cases as those with known travel history from China (of those, 83% had travel history from Hubei province, and 17% from unknown locations in China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ]). Estimates on daily air travel volume were obtained from Lai et al.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>\u200b ].They are based on historical (February 2018) data from the International Air Travel Association and include estimates for the 27 locations that are most connected to Wuhan. They capture the daily average number of passengers traveling via direct and indirect flight itineraries from Wuhan to destinations outside of China. For all 167 locations not listed by Lai et al.8\u200b ,we set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index9\u200b ,which is an assessment of health security across 195 countries agreeing to the International Health Regulations (IHR [2005]). Specifically, we use the second category of the index, Early Detection and Reporting Epidemics of Potential International Concern, henceforth referred to as simply the GHS2\u200b index. We classify locations with GHS2\u200b index above the 80th percentile as high surveillance locations, those with GHS2\u200b index below the 20th percentile as low surveillance locations, with all others classified as locations with intermediate surveillance. We treat Singapore as a special case for surveillance of COVID-19, and we assign it it\u2019s own category of highest-achieved surveillance. This study did not include human subjects, used publicly available data, and therefore no ethical approval was required.",
+            "We consider the detection of 18 cases by 4th February 2020 in Singapore[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b] to reflect the highest surveillance capacity among all locations, and estimate the probability of detection in other countries relative to Singapore according to the following model. We model the case detection across i= 1,...,n",
+            "4 worldwide locations, where the n = 194 locations are indexed with Singapore being i = 1, followed by the rest of the locations in order of decreasing GHS2\u200b index. We assume that the observed case count across the n locations follows a Poisson distribution, and that the expected case count is linearly proportional to the daily air travel volume and a random variable, \u03b8level , reflecting the capacity of detecting cases relative to Singapore: where yidenotes the reported case count in the i-th location, \u03bbidenotes the expected case count in the i-th location, \u03b2denotes the regression coefficient, xidenotes the daily air travel volume of the i-th location, and \u03b8level denotes a proportion of Singapore\u2019s detection capacity, with \u03b8level[i] being a realisation of \u03b8level for location i.We assume that there are three different levels: low, medium and high. For each \u03b8level \u2208 {\u03b8low, \u03b8med, \u03b8high} we assign a uniform prior over [0,1], and for log(\u03b2)we assign a weakly informative Normal prior with mean zero and standard deviation 50. Having fit the model (see details below) we approximate the distribution of the average detection probability, realisations of which, \u03b8global , are obtained by transforming draws from the posterior distributions of \u03b8low, \u03b8med, \u03b8high . Specifically, we take the weighted mean of the posterior draws of \u03b8low, \u03b8med, \u03b8high for i= 2,...nwhere weights are proportional to daily air travel volume, xi.Exclusion of Singapore (i= 1) enables the estimation of the global detection probability relative to Singapore. Conversely, 1/\u03b8global is an estimate of the multiplier of the case count that could have been detected globally under a capacity equivalent to that of Singapore. We discuss the mean and 95% highest posterior density interval (HPDI) of the numerical approximation of the posterior distribution of \u03b8global , as well as the mean and 95% HPDI of the numerical approximation of the posterior distribution of 1/\u03b8global . Note that the latter two are not reciprocals of the former two because the inverse of a mean is not equal to the mean of the inverse, and similarly for the HPDIs.",
+            "We fit this model using Stan software (v2.19.1)[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b 0] and we draw 80,000 samples from the posterior using four independent chains (20,000 samples each), each with a burn-in of 500. Diagnostic plots of the MCMC sampler for each of the inferred variables ( \u03b8low, \u03b8med, \u03b8high and \u03b2 ) are shown in Supplementary Figure 1\u200b. All analyses are fully reproducible with the code available online (https://github.com/c2-d2/detect_prob_corona2019).",
+            "Wuhan residents, or that all visitors had stayed long enough during the epidemic that their prevalence was similar to that of residents.",
+            "To quantify the difference between these two scenarios \u2013 assuming that all travellers are short term visitors versus assuming that all travellers are residents or long term visitors \u2013 we considered a simple model of an exponentially growing epidemic, in which the hazard of infection at time t is \u03bb(t) increasing exponentially at rate r . At the beginning of the epidemic, which we call time 0, the hazard of infection is \u03bb(0) and thereafter \u03bb(t) = \u03bb(0)e rt . Then the point prevalence of infection at time u in residents who have stayed in Wuhan for the duration of the epidemic will be the probability that they have become infected and not recovered by time u , assuming that the cumulative hazard remains small enough by that point that there has been no appreciable depletion of susceptibles: u",
+            ", assuming exponentially distributed duration of detectable infectiousness, with mean duration \u03b3 \u22121. The same quantity for a visitor who had only been in Wuhan for d days prior to departure would be",
+            "(r+\u03b3)(u\u2212d)) , assuming that they differ from residents only in the duration of exposure, not in the intensity of exposure. Under these assumptions, the ratio of prevalence in visitors to that in residents, which we call V, would be",
+            ". Once the number of cases is substantial, this term can be well approximated as V \u2248 1 \u2212 e\u2212(r+\u03b3)d. We plot this approximation of Vgiven doubling times aligned with 4\u200b , a range of durations of detectable infection and a range of lengths of stay[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u200b] (Figure 2\u200b)."
+        ],
+        "Results": [
+            "We estimate that the global ability to detect imported cases is 38% (95% HPDI 22% - 64%) of Singapore\u2019s capacity. Equivalently, an estimate of 2.8 (95% HPDI 1.5 - 4.4) times the current number of imported cases, could have been detected, if all countries had had the same detection capacity as Singapore, which leads to 1.8 (95% CI 0.5 - 3.4) undetected cases per detected case. The ability to detect imported cases among high surveillance countries is 40% (95% HPDI 22% - 67%), among intermediate surveillance countries it is 37% (95% HPDI 18% - 68%), and among low surveillance countries it is 11% (95% HPDI 0% - 42%)."
+        ],
+        "1. Discussion": [
+            "In this paper, we have aimed to test two assumptions underlying the estimation of incidence at the epicentre of the SARS-Cov[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] outbreak. The first of these is that the capacity for detection of international imported cases is 100% sensitive and specific across locations. While we know of no reason to doubt specificity of detection, we tested the assumption of perfect sensitivity. Based on our previous estimates[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>\u200b] we assumed Singapore has the highest capacity of surveillance with respect to COVID-19. We regressed the cumulative cases against Wuhan-to-location air travel volume considering Singapore to have the greatest detection capacity and estimating the relative underdetection compared to Singapore in the remaining 190 locations classified according to the GHS2\u200b index[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>\u200b ].While it is unlikely that this index reflects the true ranking of countries for any specific epidemic, such as the current one of COVID-19, we assume that it captures different levels of surveillance capacity. We therefore grouped the remaining locations into three big classes high, medium, and low surveillance capacity instead of using exact ranking.",
+            "We estimated that detection of exported cases from Wuhan worldwide is 38% (95% HPDI 22%-64%) as sensitive as it has been in Singapore. Put another way, this implies that the true number of cases in travelers is at least 2.8 (95% HPDI 1.5 - 4.4) times the number that has been detected. Equivalently, for each detected case there are at least 1.8 (95% CI 0.5-3.4) undetected cases. If the model is correct, this is an upper bound on the detection frequency because (1) Singapore\u2019s detection is probably not 100% efficient. Singapore had as of 12 February 2020 eight documented cases of COVID-19 transmission for which there were no known epidemiological links to China or other known cases1\u200b 1,implying that imported cases in Singapore may have gone undetected (although it is not certain that these imports came from Wuhan or China, and links may still be found). (2) Singapore\u2019s detection like that in other",
+            "8 countries has relied largely on symptoms and travel history, so the number of asymptomatic or low-severity cases missed by such a strategy is unknown.",
+            "The second assumption we tested is that the true prevalence in travelers is similar to that of residents. It may be different for either of two reasons, one of which we attempt to quantify here. It could be less if those who travel for some reason are less well integrated into the social mixing that produces infection, for example if they tend to have stayed in certain parts of the city or in hotels. This aspect could conceivably increase or decrease prevalence in travelers relative to residents. Here we quantify a second difference, which is that some travelers (whom we refer to as visitors) will have been in the city only for a short time and had less exposure to the infection than residents. This effect, we find, is most pronounced when the epidemic is growing slowly, when the visitors have stayed only briefly, and when the duration of detectable infection is short. We find that for plausible parameters for COVID-19, prevalence in visitors staying only 3 days could be as little as half that of residents, but for longer stays of over a week the visitor prevalence should be 80% or more that of residents. Assuming that the traveler population is a mix of visitors of various durations and residents, this suggests that underestimation of source population prevalence due to the presence of short-stay visitors could be appreciable but more modest than the effect of imperfect detection.",
+            "These findings that detected cases in travelers likely underrepresent the source population prevalence have two important implications for public health response to SARS-CoV2. First, this finding has implications for approaches to case burden and severity estimation which use cases in travelers to impute cases in Wuhan, which are then compared (for severity estimation) against deaths in Wuhan. If the true number of cases in travelers is higher than previously thought, this implies more cases in Wuhan and a larger denominator, resulting in reduced estimates of severity compared to estimates assuming perfect detection in travelers. Future studies should account for our evolving understanding of detection capacity when estimating case numbers and severity in source population on the basis of traveler case numbers. Second, the scenario where the virus has been imported from Wuhan and remained undetected in various worldwide locations is a plausible one, at least until the city lockdown (23rd January 2020), and one might speculate that detection capacity remained limited beyond this period as travelers infected elsewhere in China continued to leave China. Based on our model, the risk of undetected circulation correlates both with air travel connectivity and (inversely) to outbreak detection capacity, but could have happened in virtually any location worldwide leading to the potential risk of self-sustained transmission, which may be an early stage of a global pandemic.",
+            "Role of the funding source The funding bodies of this study had no role in the study design, data analysis and interpretation, or writing of the manuscript. The corresponding authors had full access to all the data in the study and had final responsibility for the decision to submit for publication.",
+            "Contributors RN, PMS, and ML designed the study. All authors performed the analysis, reviewed and approved the final manuscript.",
+            "Declaration of interests Marc Lipsitch has received consulting fees from Merck. All other authors declare no competing interests."
+        ],
+        "Acknowledgments": [
+            "We thank Shengjie Lai for providing the air travel data, and we thank Nicholas Jewell and Stephen Kissler for valuable feedback along the way. This work was supported by Award Number U54GM088558 from the US National Institute Of General Medical Sciences. P.M.D was supported by the Fellowship Foundation Ramon Areces. A.R.T. was supported by a NIGMS Maximizing Investigator\u2019s Research Award (MIRA) R35GM124715-02. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institute Of General Medical Sciences or the National Institutes of Health."
+        ],
+        "10 References": [
+            "1. WHO. 2019-nCoV situation report - 15. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf?sf vrsn=88fe8ad6_4\u200b (2020).",
+            "2. Fraser, C. et al.Pandemic potential of a strain of influenza A (H1N1): early findings. Science\u200b324\u200b, 1557\u20131561 (2009).",
+            "3. Lipsitch, M. et al.Use of cumulative incidence of novel influenza A/H1N1 in foreign travelers to estimate lower bounds on cumulative incidence in Mexico. PLoS One[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b], e6895 (2009).",
+            "4. Wu, J. T., Leung, K. & Leung, G. M. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet (2020) doi:\u200b10.1016/S0140-6736(20)30260-9\u200b.",
+            "5. De Salazar, P. M., Niehus, R., Taylor, A., Buckee, C. O. & Lipsitch, M. Using predicted imports of 2019-nCoV cases to determine locations that may not be identifying all imported cases. Infectious Diseases (except HIV/AIDS)(2020) doi:\u200b10.1101/2020.02.04.20020495\u200b.",
+            "6. James, L., Shindo, N., Cutter, J., Ma, S. & Chew, S. K. Public health measures implemented during the SARS outbreak in Singapore, 2003. Public Health[120\u200b, 20\u201326] (2006).",
+            "7. Ministry of Health Singapore. Updates on Covid-19 Local Situation. Updates on Covid-19 Local Situation.https://www.moh.gov.sg/covid-19\u200b (2020).",
+            "8. Lai, S. et al.Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study. medRxiv(2020).",
+            "9. John Hopkins Bloomberg School of Public Health. Global health Security Index. https://www.ghsindex.org(2019).",
+            "10. Carpenter, B. et al.Stan: A probabilistic programming language. J. Stat. Softw.[76\u200b], (2017). 11. MOH | News Highlights.",
+            "https://www.moh.gov.sg/news-highlights/details/six-more-cases-discharged-three-new-cases-of-covid19-infection-confirmed. 12. Vehtari, A., Gelman, A., Simpson, D., Carpenter, B. & B\u00fcrkner, P.-C. Rank-normalization, folding, and localization: An improved R for assessing convergence of MCMC. arXiv preprint arXiv:1903. 08008 18 (2019)."
+        ],
+        "11 Appendix - Supplementary Figures": [],
+        "Supplementary": []
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 18,
+            "context": "This study did not include human subjects, used publicly available data, and therefore no ethical approval was required. <mark class=\"stats\">We consider the detection of 18 cases by 4th February 2020 in Singapore[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b] to reflect the highest surveillance capacity among all locations, and estimate the probability of detection in other countries relative to Singapore according to the following model</mark>. We model the case detection across i= 1,...,n"
+        },
+        {
+            "participant": "samples",
+            "number": 80000,
+            "context": "Note that the latter two are not reciprocals of the former two because the inverse of a mean is not equal to the mean of the inverse, and similarly for the HPDIs. <mark class=\"stats\">We fit this model using Stan software (v2.19.1)[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b 0] and we draw 80,000 samples from the posterior using four independent chains (20,000 samples each), each with a burn-in of 500</mark>. Diagnostic plots of the MCMC sampler for each of the inferred variables ( \u03b8low, \u03b8med, \u03b8high and \u03b2 ) are shown in Supplementary Figure 1\u200b"
+        },
+        {
+            "participant": "passengers",
+            "number": 14,
+            "context": "We previously showed that there was variability between locations in the world in the relationship between the number of travelers from Wuhan to each international destination and the number of imported cases detected in that destination. <mark class=\"stats\">On average, for countries presumed to have high surveillance capacity, one imported case reported over the period 8th January to 4th February was associated with each additional 14 passengers/day historical travel volume[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>\u200b ].However there was variation around this average</mark>. Among countries with substantial travel volume, Singapore showed the highest ratio of detected imported cases to daily travel volume, a ratio of one case per 5 daily travelers"
+        },
+        {
+            "participant": "daily travelers",
+            "number": 5,
+            "context": "On average, for countries presumed to have high surveillance capacity, one imported case reported over the period 8th January to 4th February was associated with each additional 14 passengers/day historical travel volume[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>\u200b ].However there was variation around this average. <mark class=\"stats\">Among countries with substantial travel volume, Singapore showed the highest ratio of detected imported cases to daily travel volume, a ratio of one case per 5 daily travelers</mark>. Singapore is historically known for exceptionally sensitive detection of cases, for example in SARS6\u200b ,and has had extremely detailed case reporting during the COVID-19 outbreak[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>\u200b ].We therefore use Singapore in this work as the upper limit of case detection capacity"
+        },
+        {
+            "participant": "cases",
+            "number": 18,
+            "context": "Estimating detection probability relative to Singapore. <mark class=\"stats\">We consider the detection of 18 cases by 4th February 2020 in Singapore[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b] to reflect the highest surveillance capacity among all locations, and estimate the probability of detection in other countries relative to Singapore according to the following model</mark>. We model the case detection across i= 1,...,n"
+        },
+        {
+            "participant": "samples",
+            "number": 80000,
+            "context": "Note that the latter two are not reciprocals of the former two because the inverse of a mean is not equal to the mean of the inverse, and similarly for the HPDIs. <mark class=\"stats\">We fit this model using Stan software (v2.19.1)[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b 0] and we draw 80,000 samples from the posterior using four independent chains (20,000 samples each), each with a burn-in of 500</mark>. Diagnostic plots of the MCMC sampler for each of the inferred variables ( \u03b8low, \u03b8med, \u03b8high and \u03b2 ) are shown in Supplementary Figure 1\u200b"
+        },
+        {
+            "participant": "documented cases",
+            "number": 16160,
+            "context": "If the model is correct, this is an upper bound on the detection frequency because (1) Singapore\u2019s detection is probably not 100% efficient. <mark class=\"stats\">Singapore had as of 12 February 2020 eight documented cases of COVID-19 transmission for which there were no known epidemiological links to China or other known cases1\u200b 1,implying that imported cases in Singapore may have gone undetected (although it is not certain that these imports came from Wuhan or China, and links may still be found)</mark>. (2) Singapore\u2019s detection like that in other"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "high surveillance",
+        "international traveler",
+        "Communicable disease",
+        "time specific risk",
+        "case count",
+        "surveillance location",
+        "H1N1",
+        "cumulative incidence",
+        "highest posterior density interval",
+        "COVID-19",
+        "detection capacity",
+        "case detection capacity",
+        "underdetection",
+        "travel",
+        "Maximizing Investigator\u2019s Research Award",
+        "outbreak"
+    ],
+    "keyword_relevance": {
+        "travel": 0.37593984962406013,
+        "highest posterior density interval": 0.12781954887218044,
+        "COVID-19": 0.09022556390977443,
+        "detection capacity": 0.08270676691729323,
+        "case count": 0.07518796992481203,
+        "outbreak": 0.06766917293233082,
+        "surveillance location": 0.03759398496240601,
+        "high surveillance": 0.03007518796992481,
+        "cumulative incidence": 0.03007518796992481,
+        "H1N1": 0.022556390977443608,
+        "international traveler": 0.015037593984962405,
+        "case detection capacity": 0.015037593984962405,
+        "underdetection": 0.015037593984962405,
+        "Maximizing Investigator\u2019s Research Award": 0.015037593984962405,
+        "Communicable disease": 0.0,
+        "time specific risk": 0.0
+    },
+    "species": [],
+    "summary": [
+        "During the outbreak of a new virus SARS-Cov[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and its associated disease COVID-19, infection in travelers has been used to estimate the risk of infection in Wuhan, Hubei Province, China, the epicenter of the outbreak[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ].This approach is similar to that used for the the 2009 influenza pandemic where infections in tourists returning from Mexico were used to estimate the time-specific risk of infection with the novel pandemic H1N1 influenza strain in Mexico.",
+        "The authors previously showed that there was variability between locations in the world in the relationship between the number of travelers from Wuhan to each international destination and the number of imported cases detected in that destination.",
+        "The authors demonstrate that the point prevalence of infection may be lower in visitors who have stayed only briefly in the source population (Wuhan) than in residents.",
+        "The authors consider the detection of 18 cases by 4th February 2020 in Singapore[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b] to reflect the highest surveillance capacity among all locations, and estimate the probability of detection in other countries relative to Singapore according to the following model.",
+        "The authors take the weighted mean of the posterior draws of \u03b8low, \u03b8med, \u03b8high for i= 2,...nwhere weights are proportional to daily air travel volume, xi.Exclusion of Singapore (i= 1) enables the estimation of the global detection probability relative to Singapore.",
+        "Many estimates in 2019-20 for COVID19 have instead made the assumption of equal prevalence in travelers leaving Wuhan and in residents, which is equivalent to assuming either that all travellers are",
+        "An estimate of 2.8 (95% HPDI 1.5 - 4.4) times the current number of imported cases, could have been detected, if all countries had had the same detection capacity as Singapore, which leads to 1.8 (95% CI 0.5 - 3.4) undetected cases per detected case.",
+        "Assuming that the traveler population is a mix of visitors of various durations and residents, this suggests that underestimation of source population prevalence due to the presence of short-stay visitors could be appreciable but more modest than the effect of imperfect detection.",
+        "These findings that detected cases in travelers likely underrepresent the source population prevalence have two important implications for public health response to SARS-CoV2.",
+        "Future studies should account for the evolving understanding of detection capacity when estimating case numbers and severity in source population on the basis of traveler case numbers.",
+        "The scenario where the virus has been imported from Wuhan and remained undetected in various worldwide locations is a plausible one, at least until the city lockdown (23rd January 2020), and one might speculate that detection capacity remained limited beyond this period as travelers infected elsewhere in China continued to leave China.",
+        "The risk of undetected circulation correlates both with air travel connectivity and to outbreak detection capacity, but could have happened in virtually any location worldwide leading to the potential risk of self-sustained transmission, which may be an early stage of a global pandemic."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "During the outbreak of a new virus SARS-Cov[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and its associated disease COVID-19, infection in travelers has been used to estimate the risk of infection in Wuhan, Hubei Province, China, the epicenter of the outbreak[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ].This approach is similar to that used for the the 2009 influenza pandemic where infections in tourists returning from Mexico were used to estimate the time-specific risk of infection with the novel pandemic H1N1 influenza strain in Mexico.",
+            "The authors previously showed that there was variability between locations in the world in the relationship between the number of travelers from Wuhan to each international destination and the number of imported cases detected in that destination."
+        ],
+        "Results": [
+            "The authors demonstrate that the point prevalence of infection may be lower in visitors who have stayed only briefly in the source population (Wuhan) than in residents.",
+            "The authors consider the detection of 18 cases by 4th February 2020 in Singapore[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b] to reflect the highest surveillance capacity among all locations, and estimate the probability of detection in other countries relative to Singapore according to the following model.",
+            "The authors take the weighted mean of the posterior draws of \u03b8low, \u03b8med, \u03b8high for i= 2,...nwhere weights are proportional to daily air travel volume, xi.Exclusion of Singapore (i= 1) enables the estimation of the global detection probability relative to Singapore.",
+            "Many estimates in 2019-20 for COVID19 have instead made the assumption of equal prevalence in travelers leaving Wuhan and in residents, which is equivalent to assuming either that all travellers are",
+            "An estimate of 2.8 (95% HPDI 1.5 - 4.4) times the current number of imported cases, could have been detected, if all countries had had the same detection capacity as Singapore, which leads to 1.8 (95% CI 0.5 - 3.4) undetected cases per detected case.",
+            "Assuming that the traveler population is a mix of visitors of various durations and residents, this suggests that underestimation of source population prevalence due to the presence of short-stay visitors could be appreciable but more modest than the effect of imperfect detection.",
+            "These findings that detected cases in travelers likely underrepresent the source population prevalence have two important implications for public health response to SARS-CoV2.",
+            "Future studies should account for the evolving understanding of detection capacity when estimating case numbers and severity in source population on the basis of traveler case numbers."
+        ],
+        "Conclusion": [
+            "The scenario where the virus has been imported from Wuhan and remained undetected in various worldwide locations is a plausible one, at least until the city lockdown (23rd January 2020), and one might speculate that detection capacity remained limited beyond this period as travelers infected elsewhere in China continued to leave China.",
+            "The risk of undetected circulation correlates both with air travel connectivity and to outbreak detection capacity, but could have happened in virtually any location worldwide leading to the potential risk of self-sustained transmission, which may be an early stage of a global pandemic."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "W_2020_a",
+            "entry": "1. WHO. 2019-nCoV situation report - 15. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf?sf vrsn=88fe8ad6_4 (2020).",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200204-sitrep-15-ncov.pdf?sf"
+        },
+        {
+            "id": "2",
+            "alt_id": "Fraser_2009_a",
+            "entry": "2. Fraser, C. et al.Pandemic potential of a strain of influenza A (H1N1): early findings. Science 324, 1557\u20131561 (2009).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fraser%2C%20C.%20Pandemic%20potential%20of%20a%20strain%20of%20influenza%20A%20%28H1N1%29%3A%20early%20findings%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fraser%2C%20C.%20Pandemic%20potential%20of%20a%20strain%20of%20influenza%20A%20%28H1N1%29%3A%20early%20findings%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fraser%2C%20C.%20Pandemic%20potential%20of%20a%20strain%20of%20influenza%20A%20%28H1N1%29%3A%20early%20findings%202009"
+        },
+        {
+            "id": "3",
+            "alt_id": "Lipsitch_2009_a",
+            "entry": "3. Lipsitch, M. et al.Use of cumulative incidence of novel influenza A/H1N1 in foreign travelers to estimate lower bounds on cumulative incidence in Mexico. PLoS One 4, e6895 (2009).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lipsitch%2C%20M.%20Use%20of%20cumulative%20incidence%20of%20novel%20influenza%20A/H1N1%20in%20foreign%20travelers%20to%20estimate%20lower%20bounds%20on%20cumulative%20incidence%20in%20Mexico%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lipsitch%2C%20M.%20Use%20of%20cumulative%20incidence%20of%20novel%20influenza%20A/H1N1%20in%20foreign%20travelers%20to%20estimate%20lower%20bounds%20on%20cumulative%20incidence%20in%20Mexico%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lipsitch%2C%20M.%20Use%20of%20cumulative%20incidence%20of%20novel%20influenza%20A/H1N1%20in%20foreign%20travelers%20to%20estimate%20lower%20bounds%20on%20cumulative%20incidence%20in%20Mexico%202009"
+        },
+        {
+            "id": "4",
+            "alt_id": "Wu_et+al_2020_a",
+            "entry": "4. Wu, J. T., Leung, K. & Leung, G. M. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet (2020) doi: 10.1016/S0140-6736(20)30260-9.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930260-9"
+        },
+        {
+            "id": "5",
+            "alt_id": "de_Salazar_et+al_2019_a",
+            "entry": "5. De Salazar, P. M., Niehus, R., Taylor, A., Buckee, C. O. & Lipsitch, M. Using predicted imports of 2019-nCoV cases to determine locations that may not be identifying all imported cases. Infectious Diseases (except HIV/AIDS)(2020) doi: 10.1101/2020.02.04.20020495.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.04.20020495",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.04.20020495"
+        },
+        {
+            "id": "6",
+            "alt_id": "James_et+al_2003_a",
+            "entry": "6. James, L., Shindo, N., Cutter, J., Ma, S. & Chew, S. K. Public health measures implemented during the SARS outbreak in Singapore, 2003. Public Health 120, 20\u201326 (2006).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=James%2C%20L.%20Shindo%2C%20N.%20Cutter%2C%20J.%20Ma%2C%20S.%20Public%20health%20measures%20implemented%20during%20the%20SARS%20outbreak%20in%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=James%2C%20L.%20Shindo%2C%20N.%20Cutter%2C%20J.%20Ma%2C%20S.%20Public%20health%20measures%20implemented%20during%20the%20SARS%20outbreak%20in%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=James%2C%20L.%20Shindo%2C%20N.%20Cutter%2C%20J.%20Ma%2C%20S.%20Public%20health%20measures%20implemented%20during%20the%20SARS%20outbreak%20in%202003"
+        },
+        {
+            "id": "7",
+            "alt_id": "Of_2020_a",
+            "entry": "7. Ministry of Health Singapore. Updates on Covid-19 Local Situation. Updates on Covid-19 Local Situation.https://www.moh.gov.sg/covid-19 (2020).",
+            "url": "https://www.moh.gov.sg/covid-19"
+        },
+        {
+            "id": "8",
+            "alt_id": "Lai_2020_a",
+            "entry": "8. Lai, S. et al.Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study. medRxiv(2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lai%20S%20et%20alAssessing%20spread%20risk%20of%20Wuhan%20novel%20coronavirus%20within%20and%20beyond%20China%20JanuaryApril%202020%20a%20travel%20networkbased%20modelling%20study%20medRxiv2020"
+        },
+        {
+            "id": "9",
+            "alt_id": "Hopkins_0000_a",
+            "entry": "9. John Hopkins Bloomberg School of Public Health. Global health Security Index. https://www.ghsindex.org(2019).",
+            "url": "https://www.ghsindex.org(2019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hopkins%2C%20John%20Bloomberg%20School%20of%20Public%20Health",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hopkins%2C%20John%20Bloomberg%20School%20of%20Public%20Health"
+        },
+        {
+            "id": "10",
+            "alt_id": "Carpenter_2017_a",
+            "entry": "10. Carpenter, B. et al.Stan: A probabilistic programming language. J. Stat. Softw. 76, (2017).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Carpenter%2C%20B.%20Stan%3A%20A%20probabilistic%20programming%20language%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Carpenter%2C%20B.%20Stan%3A%20A%20probabilistic%20programming%20language%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Carpenter%2C%20B.%20Stan%3A%20A%20probabilistic%20programming%20language%202017"
+        },
+        {
+            "id": "12",
+            "alt_id": "Vehtari_et+al_2019_a",
+            "entry": "12. Vehtari, A., Gelman, A., Simpson, D., Carpenter, B. & B\u00fcrkner, P.-C. Rank-normalization, folding, and localization: An improved R for assessing convergence of MCMC. arXiv preprint arXiv:1903. 08008 18 (2019). ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Vehtari%2C%20A.%20Gelman%2C%20A.%20Simpson%2C%20D.%20Carpenter%2C%20B.%20Rank-normalization%2C%20folding%2C%20and%20localization%3A%20An%20improved%20R%20for%20assessing%20convergence%20of%20MCMC%202019"
+        }
+    ],
+    "facts": [
+        "were residents can modestly contribute to underestimation of prevalence",
+        "that estimates of case counts in Wuhan based on assumptions of perfect detection",
+        "in travelers may be underestimated by several fold",
+        "severity correspondingly overestimated by several fold",
+        "Undetected cases are likely in countries around the world",
+        "infection in travelers has been used to estimate the risk of infection in Wuhan",
+        "the 2009 influenza pandemic where infections in tourists returning from Mexico were used to estimate the time-specific risk of infection",
+        "The idea was that surveillance for the novel virus was not intense during the early days",
+        "many cases are not being counted have led to the use of outgoing traveler data to estimate the time-specific risk of COVID-19",
+        "that travelers have the same prevalence of infection as the average resident",
+        "the prevalence inferred in travelers may be directly applied in",
+        "that the first assumption is strongly inconsistent with observed data",
+        "corresponding overestimates of case-severity measures that are normalised by case counts",
+        "the number of imported cases detected in that destination",
+        "one imported case reported over the period 8th January to 4th February was associated with each additional",
+        "Singapore showed the highest ratio of detected imported cases to daily travel volume",
+        "Singapore is historically known for exceptionally sensitive detection of cases",
+        "extremely detailed case reporting during the COVID-19 outbreak[7\u200b",
+        "Data on imported cases aggregated by location were obtained from the WHO",
+        "Estimates on daily air travel volume were obtained from Lai et al.[8\u200b",
+        "include estimates for the 27 locations that are most connected to Wuhan",
+        "For all 167 locations not listed by Lai et al.8\u200b",
+        "one half of the minimum reported by Lai et al Surveillance capacity was assessed using the",
+        "which is an assessment of health security across 195 countries agreeing to the",
+        "with all others classified as locations with intermediate surveillance",
+        "which leads to 1.8 undetected cases per detected case",
+        "two assumptions underlying the estimation of incidence at the epicentre",
+        "assumed Singapore has the highest capacity of surveillance with respect",
+        "the relative underdetection compared to Singapore",
+        "190 locations classified according to the GHS2\u200b index[9\u200b",
+        "unlikely that this index reflects the true ranking of countries for any specific epidemic",
+        "that the point prevalence of infection may be lower in visitors who have stayed only briefly in the source population",
+        "relative to Singapore according to the following model",
+        "the weighted mean of the posterior draws of \u03b8low",
+        "nwhere weights are proportional to daily air travel volume",
+        "Exclusion of Singapore enables the estimation of the global detection probability",
+        "for COVID19 have instead made the assumption of equal prevalence in travelers leaving Wuhan",
+        "that the traveler population is a mix of visitors of various durations and residents",
+        "the virus has been imported from Wuhan",
+        "that detection capacity remained limited beyond this period as travelers infected",
+        "any location worldwide leading to the potential risk of self-sustained transmission",
+        "which may be an early stage of a global pandemic"
+    ],
+    "claims": [
+        "Using the second component of the Global Health Security index to stratify likely case-detection capacities, we found that the ability to detect imported cases relative to Singapore among high surveillance locations is 40% (95% HPDI 22% -  67%), among intermediate surveillance locations it is 37% (95% HPDI 18% - 68%), and among low surveillance locations it is 11% (95% HPDI 0% - 42%)",
+        "Using a simple mathematical model, we further find that treating all travelers as if they were residents (rather than accounting for the brief stay of some of these travelers in Wuhan) can modestly contribute to underestimation of prevalence as well",
+        "We previously showed that there was variability between locations in the world in the relationship between the number of travelers from Wuhan to each international destination and the number of imported cases detected in that destination",
+        "Regarding the second assumption, we demonstrate that the point prevalence of infection may be lower in visitors who have stayed only briefly in the source population (Wuhan) than in residents",
+        "We model the case detection across i= 1,...,n",
+        "To quantify the difference between these two scenarios \u2013 assuming that all travellers are short term visitors versus assuming that all travellers are residents or long term visitors \u2013 we considered a simple model of an exponentially growing epidemic, in which the hazard of infection at time t is \u03bb(t) increasing exponentially at rate r",
+        "6 We further find that the prevalence ratio between temporary visitors and residents approaches 1 as the epidemic growth rate, the duration of stay, and the recovery rate increase and it approaches zero for short duration of stay, long duration of infection, and slower epidemic growth (Figure 2)",
+        "This effect, we find, is most pronounced when the epidemic is growing slowly, when the visitors have stayed only briefly, and when the duration of detectable infection is short",
+        "We find that for plausible parameters for COVID-19, prevalence in visitors staying only 3 days could be as little as half that of residents, but for longer stays of over a week the visitor prevalence should be 80% or more that of residents"
+    ],
+    "findings": [
+        "An estimate of 2.8 (95% HPDI 1.5 - 4.4) times the current number of imported cases, could have been detected, if all countries had had the same detection capacity as Singapore, which leads to 1.8 (95% CI 0.5 - 3.4) undetected cases per detected case",
+        "For each detected case there are at least 1.8 (95% CI 0.5-3.4) undetected cases"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Undetected cases are likely in countries around the world, with greater risk in countries of low detection capacity and high connectivity to the epicenter of the outbreak",
+        "During the outbreak of a new virus SARS-Cov[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and its associated disease COVID-19, infection in travelers has been used to estimate the risk of infection in Wuhan, Hubei Province, China, the epicenter of the outbreak[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ].This approach is similar to that used for the the 2009 influenza pandemic where infections in tourists returning from Mexico were used to estimate the time-specific risk of infection with the novel pandemic H1N1 influenza strain in Mexico",
+        "The idea was that surveillance for the novel virus was not intense during the early days of the pandemic in Mexico, the source country, and that detection would be far more sensitive in travelers leaving Mexico, who would be screened when returning home as a means of preventing introductions of cases into destination countries 2\u200b ,3.Reports that health systems in Wuhan are overwhelmed and many cases are not being counted have led to the use of outgoing traveler data to estimate the time-specific risk of COVID-19 in Wuhan[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b ].This estimate, in turn, has been used to estimate the cumulative incidence of infection by a certain date in Wuhan, and from there the cumulative number of cases",
+        "Two important assumption underlie this calculation: i) that the detection of cases in the destination country has been 100% sensitive and specific, whether they are detected at the airport or later after arrival at their destination; ii) that travelers have the same prevalence of infection as the average resident of Hubei , so the prevalence inferred in travelers may be directly applied in Hubei",
+        "We conclude that the first assumption is strongly inconsistent with observed data, resulting in potentially substantial underestimates of prevalence in Hubei and corresponding overestimates of case-severity measures that are normalised by case counts",
+        "We previously showed that there was variability between locations in the world in the relationship between the number of travelers from Wuhan to each international destination and the number of imported cases detected in that destination",
+        "For countries presumed to have high surveillance capacity, one imported case reported over the period 8th January to 4th February was associated with each additional 14 passengers/day historical travel volume5\u200b . there was variation around this average",
+        "Singapore is historically known for exceptionally sensitive detection of cases, for example in SARS6\u200b ,and has had extremely detailed case reporting during the COVID-19 outbreak[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>\u200b ].We use Singapore in this work as the upper limit of case detection capacity",
+        "For all 167 locations not listed by Lai et al.8\u200b ,we set the daily air travel volume to 1.5 passengers per day, which is one half of the minimum reported by Lai et al Surveillance capacity was assessed using the Global Health Security Index9\u200b ,which is an assessment of health security across 195 countries agreeing to the International Health Regulations (IHR [2005])",
+        "We classify locations with GHS2\u200b index above the 80th percentile as high surveillance locations, those with GHS2\u200b index below the 20th percentile as low surveillance locations, with all others classified as locations with intermediate surveillance",
+        "We take the weighted mean of the posterior draws of \u03b8low, \u03b8med, \u03b8high for i= 2,...nwhere weights are proportional to daily air travel volume, xi.Exclusion of Singapore (i= 1) enables the estimation of the global detection probability relative to Singapore",
+        "The scenario where the virus has been imported from Wuhan and remained undetected in various worldwide locations is a plausible one, at least until the city lockdown (23rd January 2020), and one might speculate that detection capacity remained limited beyond this period as travelers infected elsewhere in China continued to leave China",
+        "The risk of undetected circulation correlates both with air travel connectivity and to outbreak detection capacity, but could have happened in virtually any location worldwide leading to the potential risk of self-sustained transmission, which may be an early stage of a global pandemic"
+    ],
+    "top_statements": [
+        "During the outbreak of a new virus SARS-Cov[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and its associated disease COVID-19, infection in travelers has been used to estimate the risk of infection in Wuhan, Hubei Province, China, the epicenter of the outbreak[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u200b ].This approach is similar to that used for the the 2009 influenza pandemic where infections in tourists returning from Mexico were used to estimate the time-specific risk of infection with the novel pandemic H1N1 influenza strain in Mexico",
+        "The idea was that surveillance for the novel virus was not intense during the early days of the pandemic in Mexico, the source country, and that detection would be far more sensitive in travelers leaving Mexico, who would be screened when returning home as a means of preventing introductions of cases into destination countries 2\u200b ,3.Reports that health systems in Wuhan are overwhelmed and many cases are not being counted have led to the use of outgoing traveler data to estimate the time-specific risk of COVID-19 in Wuhan[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>\u200b ].This estimate, in turn, has been used to estimate the cumulative incidence of infection by a certain date in Wuhan, and from there the cumulative number of cases",
+        "Singapore is historically known for exceptionally sensitive detection of cases, for example in SARS6\u200b ,and has had extremely detailed case reporting during the COVID-19 outbreak[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>\u200b ].We use Singapore in this work as the upper limit of case detection capacity",
+        "The scenario where the virus has been imported from Wuhan and remained undetected in various worldwide locations is a plausible one, at least until the city lockdown (23rd January 2020), and one might speculate that detection capacity remained limited beyond this period as travelers infected elsewhere in China continued to leave China",
+        "An estimate of 2.8 (95% highest posterior density interval 1.5 - 4.4) times the current number of imported cases, could have been detected, if all countries had had the same detection capacity as Singapore, which leads to 1.8 (95% CI 0.5 - 3.4) undetected cases per detected case",
+        "The risk of undetected circulation correlates both with air travel connectivity and to outbreak detection capacity, but could have happened in virtually any location worldwide leading to the potential risk of self-sustained transmission, which may be an early stage of a global pandemic"
+    ],
+    "headline": "During the outbreak of a new virus SARS-Cov2 and its associated disease COVID-19, infection in travelers has been used to estimate the risk of infection in Wuhan, Hubei Province, China, the epicenter of the outbreak1\u200b.This approach is similar to that used for the the 2009 influenza pandemic where infections in tourists returning from Mexico were used to estimate the time-specific risk of infection with the novel pandemic H1N1 influenza strain in Mexico",
+    "contexts": [],
+    "abbreviations": {
+        "HPDI": "highest posterior density interval",
+        "MIRA": "Maximizing Investigator\u2019s Research Award"
+    }
+}

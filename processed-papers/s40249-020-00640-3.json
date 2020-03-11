@@ -1,0 +1,650 @@
+{
+    "filename": "s40249-020-00640-3.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1173581,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1186/s40249-020-00640-3",
+            "arxiv": null,
+            "isbn": null,
+            "doc_id": null,
+            "url": "https://idpjournal.biomedcentral.com/track/pdf/10.1186/s40249-020-00640-3"
+        },
+        "title": "A mathematical model for simulating the phase-based transmissibility of a novel coronavirus",
+        "keywords": [
+            "Novel coronavirus",
+            "Mathematical model",
+            "Basic reproduction number",
+            "Next generation matrix",
+            "Transmissibility"
+        ],
+        "author": "Tian-Mu Chen, Jia Rui, Qiu-Peng Wang, Ze-Yu Zhao, Jing-An Cui, Ling Yin",
+        "date": 2020,
+        "affiliations": [
+            "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, School of Public Health, Xiamen University, 4221-117 South Xiang\u2019an Road, Xiang\u2019an District, Xiamen, Fujian Province, People\u2019s Republic of China Full list of author information is available at the end of the article which was named as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by International Committee on Taxonomy of Viruses on",
+            "February, 2020, was identified as the causative virus by Chinese authorities on",
+            "January [1]. It is reported that the virus might be bat origin [2], and the transmission of the virus might related to a seafood market (Huanan Seafood Wholesale Market) exposure [3, 4]. The genetic features and some clinical findings of the infection have been reported recently [4\u20136]. Potentials for international spread via"
+        ],
+        "journal": "Infectious Diseases of Poverty",
+        "volume": "9",
+        "abstract": "Background: As reported by the World Health Organization, a novel coronavirus (2019-nCoV) was identified as the causative virus of Wuhan pneumonia of unknown etiology by Chinese authorities on 7 January, 2020. The virus was named as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by International Committee on Taxonomy of Viruses on 11 February, 2020. This study aimed to develop a mathematical model for calculating the transmissibility of the virus.\nMethods: In this study, we developed a Bats-Hosts-Reservoir-People transmission network model for simulating the potential transmission from the infection source (probably be bats) to the human infection. Since the Bats-HostsReservoir network was hard to explore clearly and public concerns were focusing on the transmission from Huanan Seafood Wholesale Market (reservoir) to people, we simplified the model as Reservoir-People (RP) transmission network model. The next generation matrix approach was adopted to calculate the basic reproduction number (R0) from the RP model to assess the transmissibility of the SARS-CoV-2.\nResults: The value of R0 was estimated of 2.30 from reservoir to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58.\nConclusions: Our model showed that the transmissibility of SARS-CoV-2 was higher than the Middle East respiratory syndrome in the Middle East countries, similar to severe acute respiratory syndrome, but lower than MERS in the Republic of Korea.",
+        "references": "@book{organization2020a,\n  author = {Organization, World Health},\n  title = {Coronavirus},\n  publisher = {World Health Organization, cited},\n  date = {2020-01-19},\n  url = {https://www.who.int/health-topics/coronavirus.},\n  language = {}\n}\n@article{zhou2020a,\n  author = {Zhou, P. and Yang, X.L. and Wang, X.G. and Hu, B. and Zhang, L. and Zhang, W.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  date = {2020},\n  url = {https://doi.org/10.1038/s41586-020-2012-7.},\n  more-authors = {true},\n  language = {}\n}\n@article{li-a,\n  author = {Li, Q. and Guan, X. and Wu, P. and Wang, X. and Zhou, L. and Tong, Y.},\n  title = {Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia},\n  journal = {N Engl J Med},\n  volume = {2020},\n  url = {https://doi.org/10.1056/NEJMoa2001316.},\n  more-authors = {true},\n  language = {}\n}\n@article{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X. and Ren, L. and Zhao, J. and Hu, Y.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  volume = {2020},\n  url = {https://doi.org/10.1016/S0140-6736},\n  more-authors = {true},\n  language = {}\n}\n@article{chan-a,\n  author = {Chan, J.F. and Yuan, S. and Kok, K.H. and To, K.K. and Chu, H. and Yang, J.},\n  title = {A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating personto-person transmission: a study of a family cluster},\n  journal = {Lancet},\n  volume = {2020},\n  url = {https://doi.org/10.1016/S0140-6736},\n  more-authors = {true},\n  language = {}\n}\n@article{zhu-a,\n  author = {Zhu, N. and Zhang, D. and Wang, W. and Li, X. and Yang, B. and Song, J.},\n  title = {A novel coronavirus from patients with pneumonia in China, 2019},\n  journal = {N Engl J Med},\n  volume = {2020},\n  url = {https://doi.org/10.1056/NEJMoa2001017.},\n  more-authors = {true},\n  language = {}\n}\n@article{bogoch-a,\n  author = {Bogoch, II, Watts and A, Thomas-Bachli and A, Huber and C, Kraemer and MUG, Khan and K.},\n  title = {Pneumonia of unknown etiology in Wuhan, China: Potential for International Spread Via},\n  journal = {Commercial Air Travel. J Travel Med},\n  volume = {2020},\n  url = {https://doi.org/10.1093/jtm/taaa008.},\n  language = {}\n}\n@article{wu-a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study},\n  journal = {Lancet},\n  volume = {2020},\n  url = {https://doi.org/10.1016/S0140-6736},\n  language = {}\n}\n@article{zhao2019a,\n  author = {Zhao, S. and Lin, Q. and Ran, J. and Musa, S.S. and Yang, G. and Wang, W.},\n  title = {Preliminary estimation of the basic reproduction number of novel coronavirus},\n  date = {2019},\n  journal = {Int J Infect Dis},\n  volume = {2020},\n  url = {https://doi.org/10.1016/j.ijid.2020.01.050.},\n  more-authors = {true},\n  source = {in China, from 2019 to 2020: a data-driven analysis in the early phase of the outbreak},\n  language = {}\n}\n@article{zhao2019b,\n  author = {Zhao, S. and Musa, S.S. and Lin, Q. and Ran, J. and Yang, G. and Wang, W.},\n  title = {Estimating the unreported number of novel coronavirus},\n  date = {2019},\n  journal = {J Clin Med},\n  volume = {2020},\n  url = {https://doi.org/10.3390/jcm9020388.},\n  more-authors = {true},\n  source = {cases in China in the first half of January 2020: a data-driven Modelling analysis of the early outbreak},\n  language = {}\n}\n@misc{organization2020b,\n  author = {Organization, World Health},\n  title = {Novel Coronavirus \u2013 China. World Health Organization},\n  date = {2020-01-20},\n  url = {https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/.},\n  language = {},\n  address = {cited},\n  urldate = {20 Jan 2020.}\n}\n@misc{chen-a,\n  author = {Chen, T. and Rui, J. and Wang, Q. and Zhao, Z. and Cui, J.-A. and Yin, L.},\n  title = {A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv},\n  language = {},\n  urldate = {2020: 2020.2001.2019.911669. 13 Feb 2020.}\n}\n@article{chen2014a,\n  author = {Chen, T. and Ka-Kit Leung, R. and Liu, R. and Chen, F. and Zhang, X. and Zhao, J.},\n  title = {Risk of imported Ebola virus disease in China},\n  journal = {Travel Med Infect Dis},\n  date = {2014},\n  volume = {12},\n  pages = {650\u20138},\n  more-authors = {true},\n  language = {}\n}\n@article{yi2019a,\n  author = {Yi, B. and Chen, Y. and Ma, X. and Rui, J. and Cui, J.A. and Wang, H.},\n  title = {Incidence dynamics and investigation of key interventions in a dengue outbreak in Ningbo City, China},\n  journal = {PLoS Negl Trop Dis},\n  date = {2019},\n  volume = {13},\n  pages = {0007659},\n  more-authors = {true},\n  language = {}\n}\n@article{chen2014b,\n  author = {Chen, T. and Leung, R.K. and Zhou, Z. and Liu, R. and Zhang, X. and Zhang, L.},\n  title = {Investigation of key interventions for shigellosis outbreak control in China},\n  journal = {PLoS One},\n  date = {2014},\n  volume = {9},\n  pages = {95006},\n  language = {}\n}\n@article{zhang-a,\n  author = {Zhang, S. and Hu, Q. and Deng, Z. and Hu, S. and Liu, F. and Yu, S.},\n  title = {Transmissibility of acute haemorrhagic conjunctivitis in small-scale outbreaks in Hunan Province, China},\n  journal = {Sci Rep},\n  volume = {2020},\n  pages = {119},\n  more-authors = {true},\n  number = {10},\n  language = {}\n}\n@article{chen2019a,\n  author = {Chen, S. and Yang, D. and Liu, R. and Zhao, J. and Yang, K. and Chen, T.},\n  title = {Estimating the transmissibility of hand, foot, and mouth disease by a dynamic model},\n  journal = {Public Health},\n  date = {2019},\n  volume = {174},\n  pages = {42\u20138},\n  language = {}\n}\n@article{cui-a,\n  author = {Cui, J.-A. and Zhao, S. and Guo, S. and Bai, Y. and Wang, X. and Chen, T.},\n  title = {Global dynamics of an epidemiological model with acute and chronic HCV infections},\n  journal = {Appl Math Lett},\n  volume = {2020},\n  pages = {106203},\n  number = {103},\n  language = {}\n}\n@book{moh2020a,\n  author = {MoH, Japan},\n  title = {Development of patients with pneumonia associated with new coronavirus},\n  publisher = {Ministry of Health Japan. cited},\n  date = {2020-01-16},\n  url = {https://www.mhlw.go.jp/stf/newpage_08906.html.},\n  language = {}\n}\n@incollection{organization2020c,\n  author = {Organization, World Health},\n  title = {Novel Coronavirus \u2013 Thailand (ex-China). World Health Organization},\n  date = {2020-01-20},\n  url = {https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand/en/.21.},\n  source = {World Health Organization. Novel Coronavirus \u2013 Japan (ex-China). World Health Organization.cited January 20, 2020},\n  publisher = {Xu S, Ungchusak K, Hanshaoworakul},\n  editor = {W, Cummings D.A.},\n  note = {Containing pandemic influenza at the source. Science.2005; 309},\n  pages = {1083\u20137},\n  unmatched-url = {Available:https://www.who.int/csr/don/17-january-2020-novel-coronavirus-japan-ex-china/en/.22.},\n  more-editors = {true},\n  language = {},\n  address = {cited}\n}\n@article{cn2020a,\n  author = {CN, T.A.K.E.F.O.T.O.},\n  title = {Wuhan City set up temperature detection points and screening points to strengthen the temperature detection of passengers leaving Wuhan},\n  source = {China Business Network. Wuhan City has a permanent floating population of 2.87 million, ranking 15th in migration},\n  date = {2020-01-20},\n  url = {https://baijiahao.baidu.com/s},\n  journal = {China Business Network.cited},\n  volume = {785},\n  unmatched-url = {Available:http://www.wuhan.gov.cn/2019_web/zjwh_5},\n  number = {201910},\n  language = {}\n}\n@article{chen2017a,\n  author = {Chen, T.M. and Chen, Q.P. and Liu, R.C. and Szot, A. and Chen, S.L. and Zhao, J.},\n  title = {The transmissibility estimation of influenza with early stage data of small-scale outbreaks in Changsha, China, 2005-2013},\n  journal = {Epidemiol Infect},\n  date = {2017},\n  volume = {145},\n  pages = {424\u201333},\n  more-authors = {true},\n  language = {}\n}\n@article{riley2003a,\n  author = {Riley, S. and Fraser, C. and Donnelly, C.A. and Ghani, A.C. and Abu-Raddad, L.J. and Hedley, A.J.},\n  title = {Transmission dynamics of the etiological agent of SARS in Hong Kong: impact of public health interventions},\n  journal = {Science},\n  date = {2003},\n  volume = {300},\n  pages = {1961\u20136},\n  more-authors = {true},\n  language = {}\n}\n@article{dye2003a,\n  author = {Dye, C. and Epidemiology, Gay N.},\n  title = {Modeling the SARS epidemic},\n  journal = {Science},\n  date = {2003},\n  volume = {300},\n  pages = {1884\u20135},\n  language = {}\n}\n@article{zhou2003a,\n  author = {Zhou, G. and Yan, G.},\n  title = {Severe acute respiratory syndrome epidemic in Asia},\n  journal = {Emerg Infect Dis},\n  date = {2003},\n  volume = {9},\n  pages = {1608\u201310},\n  language = {}\n}\n@incollection{peak2017a,\n  author = {Peak, C.M. and Childs, L.M. and Grad, Y.H.},\n  title = {Comparing nonpharmaceutical interventions for},\n  booktitle = {containing emerging epidemics. Proc Natl Acad Sci U},\n  pages = \"S\" # \"4023\u20138.\",\n  date = {2017},\n  volume = {114},\n  unmatched-author = {A.},\n  unmatched-pages = {4023\u20138.},\n  language = {}\n}\n@article{cauchemez2014a,\n  author = {Cauchemez, S. and Fraser, C. and Van Kerkhove, M.D. and Donnelly, C.A. and Riley, S. and Rambaut, A.},\n  title = {Middle East respiratory syndrome coronavirus: quantification of the extent of the epidemic, surveillance biases, and transmissibility},\n  journal = {Lancet Infect Dis},\n  date = {2014},\n  volume = {14},\n  pages = {50\u20136},\n  more-authors = {true},\n  language = {}\n}\n@article{breban2013a,\n  author = {Breban, R. and Riou, J. and Fontanet, A.},\n  title = {Interhuman transmissibility of Middle East respiratory syndrome coronavirus: estimation of pandemic risk},\n  journal = {Lancet},\n  date = {2013},\n  volume = {382},\n  pages = {694\u20139},\n  language = {}\n}\n@misc{zhang2017a,\n  author = {Zhang, X.S. and Pebody, R. and Charlett, A. and de Angelis, D. and Birrell, P. and Kang, H.},\n  title = {Estimating and modelling the transmissibility of Middle East respiratory syndrome CoronaVirus during the 2015 outbreak in the Republic of Korea. Influenza Other Respir Viruses},\n  date = {2017},\n  volume = {11},\n  pages = {434\u201344},\n  more-authors = {true},\n  language = {}\n}\n@article{xia2015a,\n  author = {Xia, Z.Q. and Zhang, J. and Xue, Y.K. and Sun, G.Q. and Jin, Z.},\n  title = {Modeling the transmission of Middle East respirator syndrome Corona virus in the Republic of Korea},\n  journal = {PLoS One},\n  date = {2015},\n  volume = {10},\n  pages = {0144778},\n  language = {}\n}\n",
+        "emails": [
+            "13698665@qq.com"
+        ],
+        "references_ris": "TY  - BOOK\nAU  - Organization, World Health\nTI  - Coronavirus\nPB  - World Health Organization, cited\nPY  - 2020\nDA  - 2020/01/19\nUR  - https://www.who.int/health-topics/coronavirus.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nAU  - Yang, X.L.\nAU  - Wang, X.G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nPY  - 2020\nDA  - 2020\nUR  - https://doi.org/10.1038/s41586-020-2012-7.\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nAU  - Wang, X.\nAU  - Zhou, L.\nAU  - Tong, Y.\nTI  - Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia\nT2  - N Engl J Med\nVL  - 2020\nUR  - https://doi.org/10.1056/NEJMoa2001316.\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nAU  - Ren, L.\nAU  - Zhao, J.\nAU  - Hu, Y.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nVL  - 2020\nUR  - https://doi.org/10.1016/S0140-6736\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chan, J.F.\nAU  - Yuan, S.\nAU  - Kok, K.H.\nAU  - To, K.K.\nAU  - Chu, H.\nAU  - Yang, J.\nTI  - A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating personto-person transmission: a study of a family cluster\nT2  - Lancet\nVL  - 2020\nUR  - https://doi.org/10.1016/S0140-6736\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, N.\nAU  - Zhang, D.\nAU  - Wang, W.\nAU  - Li, X.\nAU  - Yang, B.\nAU  - Song, J.\nTI  - A novel coronavirus from patients with pneumonia in China, 2019\nT2  - N Engl J Med\nVL  - 2020\nUR  - https://doi.org/10.1056/NEJMoa2001017.\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bogoch, II, Watts\nAU  - A, Thomas-Bachli\nAU  - A, Huber\nAU  - C, Kraemer\nAU  - MUG, Khan\nAU  - K.\nTI  - Pneumonia of unknown etiology in Wuhan, China: Potential for International Spread Via\nT2  - Commercial Air Travel. J Travel Med\nVL  - 2020\nUR  - https://doi.org/10.1093/jtm/taaa008.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study\nT2  - Lancet\nVL  - 2020\nUR  - https://doi.org/10.1016/S0140-6736\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhao, S.\nAU  - Lin, Q.\nAU  - Ran, J.\nAU  - Musa, S.S.\nAU  - Yang, G.\nAU  - Wang, W.\nTI  - Preliminary estimation of the basic reproduction number of novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Int J Infect Dis\nVL  - 2020\nUR  - https://doi.org/10.1016/j.ijid.2020.01.050.\nC1  - true\nT2  - in China, from 2019 to 2020: a data-driven analysis in the early phase of the outbreak\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhao, S.\nAU  - Musa, S.S.\nAU  - Lin, Q.\nAU  - Ran, J.\nAU  - Yang, G.\nAU  - Wang, W.\nTI  - Estimating the unreported number of novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - J Clin Med\nVL  - 2020\nUR  - https://doi.org/10.3390/jcm9020388.\nC1  - true\nT2  - cases in China in the first half of January 2020: a data-driven Modelling analysis of the early outbreak\nLA  - \nER  - \n\nTY  - GEN\nAU  - Organization, World Health\nTI  - Novel Coronavirus \u2013 China. World Health Organization\nPY  - 2020\nDA  - 2020/01/20\nUR  - https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/.\nLA  - \nCY  - cited\nC1  - 20 Jan 2020.\nER  - \n\nTY  - GEN\nAU  - Chen, T.\nAU  - Rui, J.\nAU  - Wang, Q.\nAU  - Zhao, Z.\nAU  - Cui, J.-A.\nAU  - Yin, L.\nTI  - A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv\nLA  - \nC1  - 2020: 2020.2001.2019.911669. 13 Feb 2020.\nER  - \n\nTY  - JOUR\nAU  - Chen, T.\nAU  - Ka-Kit Leung, R.\nAU  - Liu, R.\nAU  - Chen, F.\nAU  - Zhang, X.\nAU  - Zhao, J.\nTI  - Risk of imported Ebola virus disease in China\nT2  - Travel Med Infect Dis\nPY  - 2014\nDA  - 2014\nVL  - 12\nSP  - 650\nEP  - 8\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yi, B.\nAU  - Chen, Y.\nAU  - Ma, X.\nAU  - Rui, J.\nAU  - Cui, J.A.\nAU  - Wang, H.\nTI  - Incidence dynamics and investigation of key interventions in a dengue outbreak in Ningbo City, China\nT2  - PLoS Negl Trop Dis\nPY  - 2019\nDA  - 2019\nVL  - 13\nSP  - 0007659\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, T.\nAU  - Leung, R.K.\nAU  - Zhou, Z.\nAU  - Liu, R.\nAU  - Zhang, X.\nAU  - Zhang, L.\nTI  - Investigation of key interventions for shigellosis outbreak control in China\nT2  - PLoS One\nPY  - 2014\nDA  - 2014\nVL  - 9\nSP  - 95006\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, S.\nAU  - Hu, Q.\nAU  - Deng, Z.\nAU  - Hu, S.\nAU  - Liu, F.\nAU  - Yu, S.\nTI  - Transmissibility of acute haemorrhagic conjunctivitis in small-scale outbreaks in Hunan Province, China\nT2  - Sci Rep\nVL  - 2020\nSP  - 119\nC1  - true\nIS  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, S.\nAU  - Yang, D.\nAU  - Liu, R.\nAU  - Zhao, J.\nAU  - Yang, K.\nAU  - Chen, T.\nTI  - Estimating the transmissibility of hand, foot, and mouth disease by a dynamic model\nT2  - Public Health\nPY  - 2019\nDA  - 2019\nVL  - 174\nSP  - 42\nEP  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cui, J.-A.\nAU  - Zhao, S.\nAU  - Guo, S.\nAU  - Bai, Y.\nAU  - Wang, X.\nAU  - Chen, T.\nTI  - Global dynamics of an epidemiological model with acute and chronic HCV infections\nT2  - Appl Math Lett\nVL  - 2020\nSP  - 106203\nIS  - 103\nLA  - \nER  - \n\nTY  - BOOK\nAU  - MoH, Japan\nTI  - Development of patients with pneumonia associated with new coronavirus\nPB  - Ministry of Health Japan. cited\nPY  - 2020\nDA  - 2020/01/16\nUR  - https://www.mhlw.go.jp/stf/newpage_08906.html.\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Organization, World Health\nTI  - Novel Coronavirus \u2013 Thailand (ex-China). World Health Organization\nPY  - 2020\nDA  - 2020/01/20\nUR  - https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand/en/.21.\nT2  - World Health Organization. Novel Coronavirus \u2013 Japan (ex-China). World Health Organization.cited January 20, 2020\nPB  - Xu S, Ungchusak K, Hanshaoworakul\nA2  - W, Cummings D.A.\nN1  - Containing pandemic influenza at the source. Science.2005; 309\nSP  - 1083\nEP  - 7\nC1  - Available:https://www.who.int/csr/don/17-january-2020-novel-coronavirus-japan-ex-china/en/.22.\nC1  - true\nLA  - \nCY  - cited\nER  - \n\nTY  - JOUR\nAU  - CN, T.A.K.E.F.O.T.O.\nTI  - Wuhan City set up temperature detection points and screening points to strengthen the temperature detection of passengers leaving Wuhan\nT2  - China Business Network. Wuhan City has a permanent floating population of 2.87 million, ranking 15th in migration\nPY  - 2020\nDA  - 2020/01/20\nUR  - https://baijiahao.baidu.com/s\nT2  - China Business Network.cited\nVL  - 785\nC1  - Available:http://www.wuhan.gov.cn/2019_web/zjwh_5\nIS  - 201910\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, T.M.\nAU  - Chen, Q.P.\nAU  - Liu, R.C.\nAU  - Szot, A.\nAU  - Chen, S.L.\nAU  - Zhao, J.\nTI  - The transmissibility estimation of influenza with early stage data of small-scale outbreaks in Changsha, China, 2005-2013\nT2  - Epidemiol Infect\nPY  - 2017\nDA  - 2017\nVL  - 145\nSP  - 424\nEP  - 33\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Riley, S.\nAU  - Fraser, C.\nAU  - Donnelly, C.A.\nAU  - Ghani, A.C.\nAU  - Abu-Raddad, L.J.\nAU  - Hedley, A.J.\nTI  - Transmission dynamics of the etiological agent of SARS in Hong Kong: impact of public health interventions\nT2  - Science\nPY  - 2003\nDA  - 2003\nVL  - 300\nSP  - 1961\nEP  - 6\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Dye, C.\nAU  - Epidemiology, Gay N.\nTI  - Modeling the SARS epidemic\nT2  - Science\nPY  - 2003\nDA  - 2003\nVL  - 300\nSP  - 1884\nEP  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, G.\nAU  - Yan, G.\nTI  - Severe acute respiratory syndrome epidemic in Asia\nT2  - Emerg Infect Dis\nPY  - 2003\nDA  - 2003\nVL  - 9\nSP  - 1608\nEP  - 10\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Peak, C.M.\nAU  - Childs, L.M.\nAU  - Grad, Y.H.\nTI  - Comparing nonpharmaceutical interventions for\nT2  - containing emerging epidemics. Proc Natl Acad Sci U\nSP  - \"S\" # \"4023\nEP  - 8.\"\nPY  - 2017\nDA  - 2017\nVL  - 114\nC1  - A.\nC1  - 4023\u20138.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cauchemez, S.\nAU  - Fraser, C.\nAU  - Van Kerkhove, M.D.\nAU  - Donnelly, C.A.\nAU  - Riley, S.\nAU  - Rambaut, A.\nTI  - Middle East respiratory syndrome coronavirus: quantification of the extent of the epidemic, surveillance biases, and transmissibility\nT2  - Lancet Infect Dis\nPY  - 2014\nDA  - 2014\nVL  - 14\nSP  - 50\nEP  - 6\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Breban, R.\nAU  - Riou, J.\nAU  - Fontanet, A.\nTI  - Interhuman transmissibility of Middle East respiratory syndrome coronavirus: estimation of pandemic risk\nT2  - Lancet\nPY  - 2013\nDA  - 2013\nVL  - 382\nSP  - 694\nEP  - 9\nLA  - \nER  - \n\nTY  - GEN\nAU  - Zhang, X.S.\nAU  - Pebody, R.\nAU  - Charlett, A.\nAU  - de Angelis, D.\nAU  - Birrell, P.\nAU  - Kang, H.\nTI  - Estimating and modelling the transmissibility of Middle East respiratory syndrome CoronaVirus during the 2015 outbreak in the Republic of Korea. Influenza Other Respir Viruses\nPY  - 2017\nDA  - 2017\nVL  - 11\nSP  - 434\nEP  - 44\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xia, Z.Q.\nAU  - Zhang, J.\nAU  - Xue, Y.K.\nAU  - Sun, G.Q.\nAU  - Jin, Z.\nTI  - Modeling the transmission of Middle East respirator syndrome Corona virus in the Republic of Korea\nT2  - PLoS One\nPY  - 2015\nDA  - 2015\nVL  - 10\nSP  - 0144778\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Definition of those parameters in the Bats-HostsReservoir-People (BHRP) model"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Flowchart of the Bats-Hosts-Reservoir-People transmission network model"
+            },
+            {
+                "id": "2",
+                "caption": "Curve fitting results of the RP model"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/s40249-020-00640-3.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/s40249-020-00640-3/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/s40249-020-00640-3/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/s40249-020-00640-3/img-004.png"
+        ]
+    },
+    "sections": {
+        "background": [
+            "As reported by the World Health Organization, a novel coronavirus (2019-nCoV) was identified as the causative virus of Wuhan pneumonia of unknown etiology by Chinese authorities on 7 January, 2020. The virus was named as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by International Committee on Taxonomy of Viruses on 11 February, 2020. This study aimed to develop a mathematical model for calculating the transmissibility of the virus.",
+            "On 31 December 2019, the World Health Organization (WHO) China Country Office was informed of cases of pneumonia of unknown etiology (unknown cause) detected in Wuhan City, Hubei Province of China, and WHO reported that a novel coronavirus (2019-nCoV),<br/><br/>(2020) 9:24 commercial air travel had been assessed [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. Public health concerns are being paid globally on how many people are infected and suspected.<br/><br/>Therefore, it is urgent to develop a mathematical model to estimate the transmissibility and dynamic of the transmission of the virus. There were several researches focusing on mathematical modelling [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. These researches focused on calculating the basic reproduction number (R0) by using the serial intervals and intrinsic growth rate [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>, <a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], or using ordinary differential equations and Markov Chain Monte Carlo methods [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. However, the bat origin and the transmission route form the seafood market to people were not considered in the published models."
+        ],
+        "methods": [
+            "In this study, we developed a Bats-Hosts-Reservoir-People transmission network model for simulating the potential transmission from the infection source (probably be bats) to the human infection. Since the Bats-HostsReservoir network was hard to explore clearly and public concerns were focusing on the transmission from Huanan Seafood Wholesale Market (reservoir) to people, we simplified the model as Reservoir-People (RP) transmission network model. The next generation matrix approach was adopted to calculate the basic reproduction number (R0) from the RP model to assess the transmissibility of the SARS-CoV-2.",
+            "Data source The reported cases of SARS-CoV-2, which have been named as COVID-19, were collected for the modelling study from a published literature [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. As reported by Li et al [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], the onset date of the first case was on 7 December, 2020, and the seafood market was closed on 1 January, 2020 [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. The epidemic curve from 7 December, 2019 to 1 January, 2020 was collected for our study, and the simulation time step was 1 day.",
+            "<strong>Simulation methods and statistical analysis Berkeley</strong><br/><br/>Madonna 8.3.18 (developed by Robert Macey and George Oster of the University of California at Berkeley. Copyright\u00a91993\u20132001 Robert I. Macey & George F. Oster) was employed for the curve fitting. The (2020) 9:24<br/><br/>fourth-order Runge\u2013Kutta method, with tolerance set at 0.001, was used to perform curve fitting. While the curve fitting is in progress, Berkeley Madonna displays the root mean square deviation between the data and best run so far. The coefficient of determination (R2) was employed to assess the goodness-of-fit. SPSS 13.0 (IBM Corp., Armonk, NY, USA) was employed to calculate the R2."
+        ],
+        "results": [
+            "The value of R0 was estimated of 2.30 from reservoir to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58.",
+            "In this study, we assumed that the incubation period (1/ \u03c9P) was the same as latent period (1/\u03c9\u2019P) of human infection, thus \u03c9P = \u03c9\u2019P. Based on the equations of RP model, we can get the disease free equilibrium point as: \u039bP mP    0; F \u03b2P \u03ba    \u03b2W    3 7775;    V \u22121<br/><br/>6666666664 \u03c9P \u00fe A    B mP    0 1 \u03b3P \u00fe mP 0 \u03b3    E    G \u03b5<br/><br/>In the matrix: A \u00f0\u03c9P \u00f01\u2212\u03b4 P \u00de\u03c9P \u00fe mP\u00de\u00f0\u03b3P \u00fe mP \u00de"
+        ],
+        "conclusions": [
+            "Our model showed that the transmissibility of SARS-CoV-2 was higher than the Middle East respiratory syndrome in the Middle East countries, similar to severe acute respiratory syndrome, but lower than MERS in the Republic of Korea.<br/><br/>Keywords: Novel coronavirus, Mathematical model, Basic reproduction number, Next generation matrix, Transmissibility",
+            "By calculating the published data, our model showed that the transmissibility of SARS-CoV-2 might be higher than MERS in the Middle East countries, similar to SARS, but lower than MERS in the Republic of Korea. Since the objective of this study was to provide a mathematical model for calculating the transmissibility of<br/><br/>SARS-CoV-2, the R0 was estimated based on limited data which published in a literature. More data were needed to estimate the transmissibility accurately.<br/><br/>Abbreviations 2019-nCoV: 2019 novel coronavirus; BHRP: Bats-Hosts-Reservoir-People; R0: Basic reproduction number; RP: Reservoir-People; SARS-CoV-2: Severe acute respiratory syndrome coronavirus 2; WHO: World Health Organization"
+        ],
+        "discussion": [
+            "In this study, we developed RP transmission model, which considering the routes from reservoir to person and from person to person of SARS-CoV-2 respectively. We used the models to fit the reported data in Wuhan City, China from published literature [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The simulation results showed that the R0 of SARS-CoV-2 was 3.58 from person to person. There was a research showed that the R0 of SARS-CoV-2 was 2.68 (95% CI: 2.47\u20132.86) [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Another research showed that the R0 of SARS-CoV2 was 2.2 (95% CI: 1.4\u20133.9) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The different values might be due to the different methods. The methods which Li et al employed were based on the epidemic growth rate of the epidemic curve and the serial interval [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Our previous study showed that several methods could be used to calculate the R0 based on the epidemic growth rate of the epidemic curve and the serial interval, and different methods might result in different values of R0 [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]. Our results also showed that the R0 of SARSCoV-2 was 2.30 from reservoir to person which was lower than that of person to person. This means that the transmission route was mainly from person to person rather than from reservoir to person in the early stage of the transmission in Wuhan City. However, this result was based on the limited data from a published literature, and it might not show the real situation at the early stage of the transmission."
+        ],
+        "acknowledgements": [
+            "We thank Qingqing Hu at School of Medicine, University of Utah for her reviewing and editing the English language.<br/><br/>Authors\u2019 contributions TC designed research; TC conceived the experiments, TC, JR, ZZ, QW, JAC, and LY conducted the experiments and analyzed the results; TC and JAC wrote the manuscript. All authors read and approved the final manuscript."
+        ],
+        "funding": [
+            "Funding This study was supported by Xiamen New Coronavirus Prevention and Control Emergency Tackling Special Topic Program (No: 3502Z2020YJ03)."
+        ],
+        "data_availability": [
+            "Availability of data and materials Not applicable Ethics approval and consent to participate Not applicable. Consent for publication Not applicable."
+        ],
+        "disclosures": [
+            "The authors declare that they have no competing interests"
+        ],
+        "ethical_compliance": [
+            "Ethics approval and consent to participate Not applicable"
+        ],
+        "objectives": [
+            "Since the objective of this study was to provide a mathematical model for calculating the transmissibility of"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [],
+        "Background": [
+            "On 31 December 2019, the World Health Organization (WHO) China Country Office was informed of cases of pneumonia of unknown etiology (unknown cause) detected in Wuhan City, Hubei Province of China, and WHO reported that a novel coronavirus (2019-nCoV),",
+            "(2020) 9:24 commercial air travel had been assessed [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. Public health concerns are being paid globally on how many people are infected and suspected.",
+            "Therefore, it is urgent to develop a mathematical model to estimate the transmissibility and dynamic of the transmission of the virus. There were several researches focusing on mathematical modelling [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. These researches focused on calculating the basic reproduction number (R0) by using the serial intervals and intrinsic growth rate [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>, <a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], or using ordinary differential equations and Markov Chain Monte Carlo methods [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. However, the bat origin and the transmission route form the seafood market to people were not considered in the published models.",
+            "In this study, we developed a Bats-Hosts-ReservoirPeople (BHRP) transmission network model for simulating the potential transmission from the infection source (probably be bats) to the human infection. Since the Bats-Hosts-Reservoir network was hard to explore clearly and public concerns were focusing on the transmission from Huanan Seafood Wholesale",
+            "Market (reservoir) to people, we simplified the model as Reservoir-People (RP) transmission network model, and R0 was calculated based on the RP model to assess the transmissibility of the SARS-CoV-2."
+        ],
+        "Methods": [
+            "Data source The reported cases of SARS-CoV-2, which have been named as COVID-19, were collected for the modelling study from a published literature [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. As reported by Li et al [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], the onset date of the first case was on 7 December, 2020, and the seafood market was closed on 1 January, 2020 [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. The epidemic curve from 7 December, 2019 to 1 January, 2020 was collected for our study, and the simulation time step was 1 day.",
+            "Simulation methods and statistical analysis Berkeley Madonna 8.3.18 (developed by Robert Macey and George Oster of the University of California at Berkeley. Copyright\u00a91993\u20132001 Robert I. Macey & George F. Oster) was employed for the curve fitting. The",
+            "fourth-order Runge\u2013Kutta method, with tolerance set at 0.001, was used to perform curve fitting. While the curve fitting is in progress, Berkeley Madonna displays the root mean square deviation between the data and best run so far. The coefficient of determination (R2) was employed to assess the goodness-of-fit. SPSS 13.0 (IBM Corp., Armonk, NY, USA) was employed to calculate the R2.",
+            "The BHRP transmission network model was posted to bioRxiv on 19 January, 2020 [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. We assumed that the virus transmitted among the bats, and then transmitted to unknown hosts (probably some wild animals). The hosts were hunted and sent to the seafood market which was defined as the reservoir of the virus. People exposed to the market got the risks of the infection (Fig. 1). The BHRP transmission network model was based on the following assumptions or facts: a) The bats were divided into four compartments: susceptible bats (SB), exposed bats (EB), infected bats (IB), and removed bats (RB). The birth rate and death rate of bats were defined as nB and mB. In this model, we set \u0245B = nB \u00d7 NB as the number of the newborn bats where NB refer to the total number of bats. The incubation period of bat infection was defined as 1/\u03c9B and the infectious period of bat infection was defined as 1/\u03b3B. The SB will be infected through sufficient contact with IB, and the transmission rate was defined as \u03b2B.",
+            "b) The hosts were also divided into four compartments: susceptible hosts (SH), exposed hosts (EH), infected hosts (IH), and removed hosts (RH). The birth rate and death rate of hosts were defined as nH and mH. In this model, we set \u0245H = nH \u00d7 NH where NH refer to the total number of hosts. The incubation period of host infection was defined as 1/\u03c9H and the infectious period of host infection was defined as 1/\u03b3H. The SH will be infected through sufficient contact with IB and IH, and the transmission rates were defined as \u03b2BH and \u03b2H, respectively.",
+            "c) The SARS-CoV-2 in reservoir (the seafood market) was denoted as W. We assumed that the retail purchases rate of the hosts in the market was a, and that the prevalence of SARS-CoV-2 in the purchases was IH/NH, therefore, the rate of the SARSCoV-2 in W imported form the hosts was aWIH/NH where NH was the total number of hosts. We also assumed that symptomatic infected people and asymptomatic infected people could export the virus into W with the rate of \u03bcP and \u03bc\u2019P, although this assumption might occur in a low probability. The virus in W will subsequently leave the W compartment at a rate of \u03b5W, where 1/\u03b5 is the lifetime of the virus.",
+            "d) The people were divided into five compartments: susceptible people (SP), exposed people (EP), symptomatic infected people (IP), asymptomatic infected people (AP), and removed people (RP) including recovered and death people. The birth rate and death rate of people were defined as nP and mP. In this model, we set \u0245P = nP \u00d7 NP where NP refer to the total number of people. The incubation period and latent period of human infection was defined as 1/\u03c9P and 1/\u03c9\u2019P. The infectious period of IP and AP was defined as 1/\u03b3P and 1/\u03b3\u2019P. The proportion of asymptomatic infection was defined as \u03b4P. The SP will be infected through sufficient contact with W and IP, and the transmission rates were defined as \u03b2W and \u03b2P, respectively. We also assumed that the transmissibility of AP was \u03ba times that of IP, where 0 \u2264 \u03ba \u2264 1.",
+            "The parameters of the BHRP model were shown in Table 1.",
+            "The simplified reservoir-people transmission network model We assumed that the SARS-CoV-2 might be imported to the seafood market in a short time. Therefore, we added the further assumptions as follows: a) The transmission network of Bats-Host was ignored.",
+            "b) Based on our previous studies on simulating importation [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>, <a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], we set the initial value of W as following impulse function: Importation 1\u20444 impulse\u00f0n; t0; ti\u00de",
+            "In the function, n, t0 and ti refer to imported volume of the SARS-CoV-2 to the market, start time of the simulation, and the interval of the importation.",
+            "Parameter Description nB nH nP mB mH mP 1/\u03c9B 1/\u03c9H 1/\u03c9P 1/\u03c9\u2019P 1/\u03b3B 1/\u03b3H 1/\u03b3P 1/\u03b3\u2019P \u03b2B \u03b2BH \u03b2H \u03b2P \u03b2W a",
+            "The multiple of the transmissibility of AP to that of IP.",
+            "Therefore, the BHRP model was simplified as RP model and is shown as follows:",
+            "\u03baAP\u00de\u2212\u03b2W SPW dEP dt \u03b2P SP \u00f0I P \u03baAP \u00de \u03b2W SPW \u2212\u00f01\u2212\u03b4P\u00de\u03c9PEP\u2212\u03b4P\u03c90PEP\u2212mPEP dIP dt \u00f01\u2212\u03b4 P \u00de\u03c9P EP \u2212\u00f0\u03b3 P mP \u00deI P",
+            "During the outbreak period, the natural birth rate and death rate in the population was in a relative low level. However, people would commonly travel into and out from Wuhan City mainly due to the Chinese New Year holiday. Therefore, nP and mP refer to the rate of people traveling into Wuhan City and traveling out from Wuhan City, respectively.",
+            "In the model, people and viruses have different dimensions. Based on our previous research [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], we therefore used the following sets to perform the normalization: sP",
+            "\u03b5W \u03bcPN P \u03bc0P 1\u20444 c\u03bcP; bP \u03b2PN P; and bW \u03bcP\u03b2W N P \u03b5: In the normalization, parameter c refers to the relative shedding coefficient of AP compared to IP. The normalized RP model is changed as follows:",
+            "nP\u2212mPsP\u2212bPsP\u00f0iP \u00fe \u03baaP\u00de\u2212bW sPw bPsP\u00f0iP \u00fe \u03baaP\u00de \u00fe bW sPw\u2212\u00f01\u2212\u03b4P\u00de\u03c9P \u00f01\u2212\u03b4P\u00de\u03c9PeP\u2212\u00f0\u03b3P \u00fe mP\u00deiP",
+            ">>>>>>>>>>>>>>>>:ddddddrwattPtP1\u204441\u204441\u20444\u03b5\u03b3\u03b4\u00f0PiPPi\u03c9P\u00fe0P\u00feecP\u03b3a\u22120PPa\u2212\u03b3Pw0P\u2212\u00de\u00femPmrPP aP",
+            "In this study, we used the R0 to assess the transmissibility of the SARS-CoV-2. Commonly, R0 was defined as the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>, <a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. If R0 > 1, the outbreak will occur. If R0 < 1, the outbreak will toward an end. In this study, R0 was deduced from the RP model by the next generation matrix approach [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>].",
+            "Parameter estimation The parameters were estimated based on the following facts and assumptions: a) The mean incubation period was 5.2 days (95% confidence interval [CI]: 4.1\u20137.0) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. We set the same value (5.2 days) of the incubation period and the latent period in this study. Thus, \u03c9P = \u03c9\u2019P = 0.1923.",
+            "b) There is a mean 5-day delay from symptom onset to detection/hospitalization of a case (the cases detected in Thailand and Japan were hospitalized from 3 to 7 days after onset, respectively) [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>\u2013<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. The duration from illness onset to first medical visit for the 45 patients with illness onset before January 1 was estimated to have a mean of 5.8 days (95% CI: 4.3\u20137.5) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. In our model, we set the infectious period of the cases as 5.8 days. Therefore, \u03b3P = 0.1724.",
+            "c) Since there was no data on the proportion of asymptomatic infection of the virus, we simulated the baseline value of proportion of 0.5 (\u03b4P = 0.5).",
+            "d) Since there was no evidence about the transmissibility of asymptomatic infection, we assumed that the transmissibility of asymptomatic infection was 0.5 times that of symptomatic infection (\u03ba = 0.5), which was the similar value as influenza [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. We assumed that the relative shedding rate of AP compared to IP was 0.5. Thus, c = 0.5.",
+            "e) Since 14 January, 2020, Wuhan City has strengthened the body temperature detection of passengers leaving Wuhan at airports, railway stations, long-distance bus stations and passenger terminals. As of January 17, a total of nearly 0.3 million people had been tested for body temperature [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]. In Wuhan, there are about 2.87 million mobile population [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. We assumed that there was 0.1 million people moving out to Wuhan City per day since January 10, 2020, and we believe that this number would increase (mainly due to the winter vacation and the Chinese New Year holiday) until 24 January, 2020. This means that the 2.87 million would move out from Wuhan City in about 14 days. Therefore, we set the moving volume of 0.2 million per day in our model. Since the population of Wuhan was about 11 million at the end of 2018 [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], the rate of people traveling out from Wuhan City would be 0.018 (0.2/11) per day. However, we assumed that the normal population mobility before January 1 was 0.1 times as that after January 10. Therefore, we set the rate of people moving into and moving out from Wuhan City as 0.0018 per day (nP = mP = 0.0018).",
+            "f) The parameters bP and bW were estimated by fitting the model with the collected data.",
+            "g) At the beginning of the simulation, we assumed that the prevalence of the virus in the market was 1/100000.",
+            "h) Since the SARS-CoV-2 is an RNA virus, we assumed that it could be died in the environment in a short time, but it could be stay for a longer time (10 days) in the unknown hosts in the market. We set \u03b5 = 0.1."
+        ],
+        "Results": [
+            "In this study, we assumed that the incubation period (1/ \u03c9P) was the same as latent period (1/\u03c9\u2019P) of human infection, thus \u03c9P = \u03c9\u2019P. Based on the equations of RP model, we can get the disease free equilibrium point as: \u039bP mP",
+            "By the next generation matrix approach, we can get the next generation matrix and R0 for the RP model: FV \u22121",
+            "Our modelling results showed that the normalized RP model fitted well to the reported SARS-CoV-2 cases data (R2 = 0.512, P < 0.001) (Fig. 2). The value of R0 was estimated of 2.30 from reservoir to person, and from person to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58."
+        ],
+        "Conclusions": [
+            "By calculating the published data, our model showed that the transmissibility of SARS-CoV-2 might be higher than MERS in the Middle East countries, similar to SARS, but lower than MERS in the Republic of Korea. Since the objective of this study was to provide a mathematical model for calculating the transmissibility of",
+            "SARS-CoV-2, the R0 was estimated based on limited data which published in a literature. More data were needed to estimate the transmissibility accurately.",
+            "Abbreviations 2019-nCoV: 2019 novel coronavirus; BHRP: Bats-Hosts-Reservoir-People; R0: Basic reproduction number; RP: Reservoir-People; SARS-CoV-2: Severe acute respiratory syndrome coronavirus 2; WHO: World Health Organization"
+        ],
+        "Discussion": [
+            "In this study, we developed RP transmission model, which considering the routes from reservoir to person and from person to person of SARS-CoV-2 respectively. We used the models to fit the reported data in Wuhan City, China from published literature [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The simulation results showed that the R0 of SARS-CoV-2 was 3.58 from person to person. There was a research showed that the R0 of SARS-CoV-2 was 2.68 (95% CI: 2.47\u20132.86) [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Another research showed that the R0 of SARS-CoV2 was 2.2 (95% CI: 1.4\u20133.9) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The different values might be due to the different methods. The methods which Li et al employed were based on the epidemic growth rate of the epidemic curve and the serial interval [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Our previous study showed that several methods could be used to calculate the R0 based on the epidemic growth rate of the epidemic curve and the serial interval, and different methods might result in different values of R0 [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]. Our results also showed that the R0 of SARSCoV-2 was 2.30 from reservoir to person which was lower than that of person to person. This means that the transmission route was mainly from person to person rather than from reservoir to person in the early stage of the transmission in Wuhan City. However, this result was based on the limited data from a published literature, and it might not show the real situation at the early stage of the transmission.",
+            "Researches showed that the R0 of severe acute respiratory syndrome (SARS) was about 2.7\u20133.4 or 2\u20134 in Hong Kong, China [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>, <a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>]. Another research found that the R0 of SARS was about 2.1 in Hong Kong, China, 2.7 in Singapore, and 3.8 in Beijing, China [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]. Therefore, we believe that the commonly acceptable average value of the R0 of SARS might be 2.9 [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. The transmissibility of the Middle East respiratory syndrome (MERS) is much lower than SARS. The reported value of the R0 of",
+            "MERS was about 0.8\u20131.3 [<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>], with the inter-human transmissibility of the disease was about 0.6 or 0.9 in Middle East countries [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. However, MERS had a high transmissibility in the outbreak in the Republic of Korea with the R0 of 2.5\u20137.2 [<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>, <a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>]. Therefore, the transmissibility of SARS-CoV-2 might be higher than MERS in the Middle East countries, similar to SARS, but lower than MERS transmitted in the Republic of Korea.",
+            "To contain the transmission of the virus, it is important to decrease R0. According to the equation of R0 deduced from the simplified RP model, R0 is related to many parameters. The mainly parameters which could be changed were bP, bW, and \u03b3. Interventions such as wearing masks and increasing social distance could decrease the bP, the intervention that close the seafood market could decrease the bW, and shorten the duration form symptoms onset to be diagnosed could decrease 1/\u03b3. All these interventions could decrease the effective reproduction number and finally be helpful to control the transmission.",
+            "Since there are too many parameters in our model, several limitations exist in this study. Firstly, we did not use the detailed data of the SARS-CoV-2 to perform the estimation instead of using the data from literatures [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. We simulated the natural history of the infection that the proportion of asymptomatic infection was 50%, and the transmissibility of asymptomatic infection was half of that of symptomatic infection, which were different to those of MERS and SARS. It is known that the proportion of asymptomatic infection of MERS and SARS was lower than 10%. Secondly, the parameters of population mobility were not from an accurate dataset. Thirdly, since there was no data of the initial prevalence of the virus in the seafood market, we assumed the initial value of 1/100 000. This assumption might lead to the simulation been under- or over-estimated. In addition, since we did not consider the changing rate of the individual\u2019s activity (such as wearing masks, increasing social distance, and not to travel to Wuhan City), the estimation of importation of the virus might not be correct. All these limitations will lead to the uncertainty of our results. Therefore, the accuracy and the validity of the estimation would be better if the models fit the first-hand data on the population mobility and the data on the natural history, the epidemiological characteristics, and the transmission mechanism of the virus."
+        ],
+        "Acknowledgements": [
+            "We thank Qingqing Hu at School of Medicine, University of Utah for her reviewing and editing the English language.",
+            "Authors\u2019 contributions TC designed research; TC conceived the experiments, TC, JR, ZZ, QW, JAC, and LY conducted the experiments and analyzed the results; TC and JAC wrote the manuscript. All authors read and approved the final manuscript.",
+            "Funding This study was supported by Xiamen New Coronavirus Prevention and Control Emergency Tackling Special Topic Program (No: 3502Z2020YJ03).",
+            "Availability of data and materials Not applicable.",
+            "Ethics approval and consent to participate Not applicable.",
+            "Consent for publication Not applicable.",
+            "Competing interests The authors declare that they have no competing interests.",
+            "Author details 1State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, School of Public Health, Xiamen University, 4221-117 South Xiang\u2019an Road, Xiang\u2019an District, Xiamen, Fujian Province, People\u2019s Republic of China. 2Department of Mathematics, School of Science, Beijing University of Civil Engineering and Architecture, Beijing, People\u2019s Republic of China. 3Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, Guangdong Province, People\u2019s Republic of China."
+        ],
+        "References": [
+            "1. World Health Organization. Coronavirus. World Health Organization, cited",
+            "January 19, 2020. Available: https://www.who.int/health-topics/coronavirus. 2. Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, et al A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020. https://doi.org/10.1038/s41586-020-2012-7. 3. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia. N Engl J Med. 2020. https://doi.org/10.1056/NEJMoa2001316. 4. Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020. https://doi.org/10.1016/S0140-6736(20)30183-5. 5. Chan JF, Yuan S, Kok KH, To KK, Chu H, Yang J, et al A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating personto-person transmission: a study of a family cluster. Lancet. 2020. https://doi. org/10.1016/S0140-6736(20)30154-9. 6. Zhu N, Zhang D, Wang W, Li X, Yang B, Song J, et al A novel coronavirus from patients with pneumonia in China, 2019. N Engl J Med. 2020. https:// doi.org/10.1056/NEJMoa2001017. 7. Bogoch II, Watts A, Thomas-Bachli A, Huber C, Kraemer MUG, Khan K. Pneumonia of unknown etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel. J Travel Med. 2020. https:// doi.org/10.1093/jtm/taaa008. 8. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in",
+            "Wuhan, China: a modelling study. Lancet. 2020. https://doi.org/10.1016/ S0140-6736(20)30260-9. 9. Zhao S, Lin Q, Ran J, Musa SS, Yang G, Wang W, et al Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: a data-driven analysis in the early phase of the outbreak. Int J Infect Dis. 2020. https://doi.org/10.1016/j.ijid.2020.01.050. 10. Zhao S, Musa SS, Lin Q, Ran J, Yang G, Wang W, et al Estimating the unreported number of novel coronavirus (2019-nCoV) cases in China in the first half of January 2020: a data-driven Modelling analysis of the early outbreak. J Clin Med. 2020. https://doi.org/10.3390/jcm9020388. 11. World Health Organization. Novel Coronavirus \u2013 China. World Health Organization. cited January 20, 2020. Available: https://www.who.int/csr/ don/12-january-2020-novel-coronavirus-china/en/. Accessed 20 Jan 2020. 12. Chen T, Rui J, Wang Q, Zhao Z, Cui J-A, Yin L. A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv. 2020: 2020.2001.2019.911669. Accessed 13 Feb 2020. 13. Chen T, Ka-Kit Leung R, Liu R, Chen F, Zhang X, Zhao J, et al Risk of imported Ebola virus disease in China. Travel Med Infect Dis. 2014;12:650\u20138. 14. Yi B, Chen Y, Ma X, Rui J, Cui JA, Wang H, et al Incidence dynamics and investigation of key interventions in a dengue outbreak in Ningbo City, China. PLoS Negl Trop Dis. 2019;13:e0007659. 15. Chen T, Leung RK, Zhou Z, Liu R, Zhang X, Zhang L. Investigation of key interventions for shigellosis outbreak control in China. PLoS One. 2014;9: e95006. 16. Zhang S, Hu Q, Deng Z, Hu S, Liu F, Yu S, et al Transmissibility of acute haemorrhagic conjunctivitis in small-scale outbreaks in Hunan Province, China. Sci Rep. 2020;10:119. 17. Chen S, Yang D, Liu R, Zhao J, Yang K, Chen T. Estimating the transmissibility of hand, foot, and mouth disease by a dynamic model. Public Health. 2019;174:42\u20138. 18. Cui J-A, Zhao S, Guo S, Bai Y, Wang X, Chen T. Global dynamics of an epidemiological model with acute and chronic HCV infections. Appl Math Lett. 2020;103:106203. 19. Japan MoH. Development of patients with pneumonia associated with new coronavirus. Ministry of Health Japan. cited 16 Jan 2020. Available: https:// www.mhlw.go.jp/stf/newpage_08906.html. 20. World Health Organization. Novel Coronavirus \u2013 Thailand (ex-China). World Health Organization. cited January 20, 2020. Available: https://www.who.int/ csr/don/14-january-2020-novel-coronavirus-thailand/en/. 21. World Health Organization. Novel Coronavirus \u2013 Japan (ex-China). World Health Organization. cited January 20, 2020. Available: https://www.who.int/ csr/don/17-january-2020-novel-coronavirus-japan-ex-china/en/. 22. Longini IM Jr, Nizam A, Xu S, Ungchusak K, Hanshaoworakul W, Cummings DA, et al Containing pandemic influenza at the source. Science. 2005;309: 1083\u20137. 23. TAKEFOTO.CN. Wuhan City set up temperature detection points and screening points to strengthen the temperature detection of passengers leaving Wuhan. . TAKEFOTO.CN. cited January 20, 2020. Available: https:// baijiahao.baidu.com/s?id=1656211292146188271&wfr=spider&for=pc. 24. China Business Network. Wuhan City has a permanent floating population of 2.87 million, ranking 15th in migration. China Business Network. cited January 20, 2020:Available: https://baijiahao.baidu.com/s?id=165623751 9515683348&wfr=spider&for=pc. 25. Wuhan Government. Population distribution. Wuhan Government. cited January 20, 2020. Available: http://www.wuhan.gov.cn/2019_web/zjwh_5 785/whgk/201910/t20191022_20290870.html. 26. Chen TM, Chen QP, Liu RC, Szot A, Chen SL, Zhao J, et al The transmissibility estimation of influenza with early stage data of small-scale outbreaks in Changsha, China, 2005-2013. Epidemiol Infect. 2017;145:424\u201333. 27. Riley S, Fraser C, Donnelly CA, Ghani AC, Abu-Raddad LJ, Hedley AJ, et al Transmission dynamics of the etiological agent of SARS in Hong Kong: impact of public health interventions. Science. 2003;300:1961\u20136. 28. Dye C, Gay N. Epidemiology. Modeling the SARS epidemic. Science. 2003; 300:1884\u20135. 29. Zhou G, Yan G. Severe acute respiratory syndrome epidemic in Asia. Emerg Infect Dis. 2003;9:1608\u201310. 30. Peak CM, Childs LM, Grad YH. Comparing nonpharmaceutical interventions for containing emerging epidemics. Proc Natl Acad Sci U S A. 2017;114: 4023\u20138. 31. Cauchemez S, Fraser C, Van Kerkhove MD, Donnelly CA, Riley S, Rambaut A, et al Middle East respiratory syndrome coronavirus: quantification of the extent of the epidemic, surveillance biases, and transmissibility. Lancet Infect Dis. 2014;14:50\u20136. 32. Breban R, Riou J, Fontanet A. Interhuman transmissibility of Middle East respiratory syndrome coronavirus: estimation of pandemic risk. Lancet. 2013; 382:694\u20139. 33. Zhang XS, Pebody R, Charlett A, de Angelis D, Birrell P, Kang H, et al Estimating and modelling the transmissibility of Middle East respiratory syndrome CoronaVirus during the 2015 outbreak in the Republic of Korea. Influenza Other Respir Viruses. 2017;11:434\u201344. 34. Xia ZQ, Zhang J, Xue YK, Sun GQ, Jin Z. Modeling the transmission of Middle East respirator syndrome Corona virus in the Republic of Korea. PLoS One. 2015;10:e0144778."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "patients with illness onset before January 1",
+            "number": 45,
+            "context": "b) There is a mean 5-day delay from symptom onset to detection/hospitalization of a case (the cases detected in Thailand and Japan were hospitalized from 3 to 7 days after onset, respectively) [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>\u2013<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. <mark class=\"stats\">The duration from illness onset to first medical visit for the 45 patients with illness onset before January 1 was estimated to have a mean of 5.8 days (95% CI: 4.3\u20137.5) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]</mark>. In our model, we set the infectious period of the cases as 5.8 days"
+        },
+        {
+            "participant": "people",
+            "number": 300000,
+            "context": "e) Since 14 January, 2020, Wuhan City has strengthened the body temperature detection of passengers leaving Wuhan at airports, railway stations, long-distance bus stations and passenger terminals. <mark class=\"stats\">As of January 17, a total of nearly 0.3 million people had been tested for body temperature [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]</mark>. In Wuhan, there are about 2.87 million mobile population [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]"
+        },
+        {
+            "participant": "people",
+            "number": 100000,
+            "context": "In Wuhan, there are about 2.87 million mobile population [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. <mark class=\"stats\">We assumed that there was 0.1 million people moving out to Wuhan City per day since January 10, 2020, and we believe that this number would increase (mainly due to the winter vacation and the Chinese New Year holiday) until 24 January, 2020</mark>. This means that the 2.87 million would move out from Wuhan City in about 14 days"
+        },
+        {
+            "participant": "patients with illness onset before January 1",
+            "number": 45,
+            "context": "b) There is a mean 5-day delay from symptom onset to detection/hospitalization of a case (the cases detected in Thailand and Japan were hospitalized from 3 to 7 days after onset, respectively) [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>\u2013<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. <mark class=\"stats\">The duration from illness onset to first medical visit for the 45 patients with illness onset before January 1 was estimated to have a mean of 5.8 days (95% CI: 4.3\u20137.5) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]</mark>. In our model, we set the infectious period of the cases as 5.8 days"
+        },
+        {
+            "participant": "people",
+            "number": 300000,
+            "context": "e) Since 14 January, 2020, Wuhan City has strengthened the body temperature detection of passengers leaving Wuhan at airports, railway stations, long-distance bus stations and passenger terminals. <mark class=\"stats\">As of January 17, a total of nearly 0.3 million people had been tested for body temperature [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]</mark>. In Wuhan, there are about 2.87 million mobile population [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]"
+        },
+        {
+            "participant": "people",
+            "number": 100000,
+            "context": "In Wuhan, there are about 2.87 million mobile population [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. <mark class=\"stats\">We assumed that there was 0.1 million people moving out to Wuhan City per day since January 10, 2020, and we believe that this number would increase (mainly due to the winter vacation and the Chinese New Year holiday) until 24 January, 2020</mark>. This means that the 2.87 million would move out from Wuhan City in about 14 days"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The (2020) 9:24<br/><br/>fourth-order Runge\u2013Kutta method, with tolerance set at 0.001, was used to perform curve fitting</mark>",
+                "tests": [
+                    {
+                        "test": "Runge\u2013Kutta method",
+                        "value": "0.001"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">fourth-order Runge\u2013Kutta method, with tolerance set at 0.001, was used to perform curve fitting</mark>",
+                "tests": [
+                    {
+                        "test": "Runge\u2013Kutta method",
+                        "value": "0.001"
+                    }
+                ]
+            }
+        },
+        {
+            "p_value": "P = 0.1923",
+            "context": "We set the same value (5.2 days) of the incubation period and the latent period in this study. <mark class=\"stats\">Thus, \u03c9P = \u03c9\u2019P = 0.1923</mark>. b) There is a mean 5-day delay from symptom onset to detection/hospitalization of a case (the cases detected in Thailand and Japan were hospitalized from 3 to 7 days after onset, respectively) [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>\u2013<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]"
+        },
+        {
+            "p_value": "P = 0.1923",
+            "context": "We set the same value (5.2 days) of the incubation period and the latent period in this study. <mark class=\"stats\">Thus, \u03c9P = \u03c9\u2019P = 0.1923</mark>. b) There is a mean 5-day delay from symptom onset to detection/hospitalization of a case (the cases detected in Thailand and Japan were hospitalized from 3 to 7 days after onset, respectively) [19\u201321]"
+        },
+        {
+            "p_value": "P < 0.001",
+            "context": "\u00fe mP \u00de. <mark class=\"stats\">Our modelling results showed that the normalized RP model fitted well to the reported SARS-CoV-2 cases data (R2 = 0.512, P < 0.001) (Fig. 2)</mark>. The value of R0 was estimated of 2.30 from reservoir to person, and from person to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58"
+        }
+    ],
+    "keywords": [
+        "Next generation matrix",
+        "etiology",
+        "reservoir people",
+        "Middle East respiratory syndrome",
+        "severe acute respiratory syndrome",
+        "middle east country",
+        "severe acute respiratory syndrome coronavirus",
+        "wuhan city",
+        "coronavirus",
+        "basic reproduction number",
+        "pneumonia",
+        "serial interval",
+        "taxonomy",
+        "world health organization",
+        "Transmissibility",
+        "growth rate",
+        "dynamics",
+        "sars cov",
+        "unknown etiology",
+        "transmission dynamics",
+        "novel coronavirus",
+        "mathematical model"
+    ],
+    "keyword_relevance": {
+        "severe acute respiratory syndrome": 0.2484076433121019,
+        "Basic reproduction number": 0.1910828025477707,
+        "coronavirus": 0.14012738853503184,
+        "Middle East respiratory syndrome": 0.09554140127388536,
+        "novel coronavirus": 0.06369426751592357,
+        "pneumonia": 0.044585987261146494,
+        "mathematical model": 0.03821656050955414,
+        "dynamics": 0.025477707006369428,
+        "etiology": 0.01910828025477707,
+        "basic reproduction number": 0.01910828025477707,
+        "serial interval": 0.01910828025477707,
+        "growth rate": 0.01910828025477707,
+        "unknown etiology": 0.01910828025477707,
+        "World Health Organization": 0.01910828025477707,
+        "severe acute respiratory syndrome coronavirus": 0.012738853503184714,
+        "Transmissibility": 0.012738853503184714,
+        "Next generation matrix": 0.006369426751592357,
+        "transmission dynamics": 0.006369426751592357,
+        "reservoir people": 0.0,
+        "middle east country": 0.0,
+        "wuhan city": 0.0,
+        "taxonomy": 0.0,
+        "world health organization": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> As reported by the World Health Organization, a novel coronavirus (2019-nCoV) was identified as the causative virus of Wuhan pneumonia of unknown etiology by Chinese authorities on 7 January, 2020.",
+        "This study aimed to develop a mathematical model for calculating the transmissibility of the virus.",
+        "On 31 December 2019, the World Health Organization (WHO) China Country Office was informed of cases of pneumonia of unknown etiology detected in Wuhan City, Hubei Province of China, and WHO reported that a novel coronavirus (2019-nCoV),.",
+        "The bat origin and the transmission route form the seafood market to people were not considered in the published models",
+        "<h2 style=\"display: inline\">Objectives:</h2> Since the objective of this study was to provide a mathematical model for calculating the transmissibility of.",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors developed a Bats-Hosts-Reservoir-People transmission network model for simulating the potential transmission from the infection source to the human infection.",
+        "Data source The reported cases of SARS-CoV-2, which have been named as COVID-19, were collected for the modelling study from a published literature [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+        "The epidemic curve from 7 December, 2019 to 1 January, 2020 was collected for the study, and the simulation time step was 1 day.",
+        "Madonna 8.3.18 was employed for the curve fitting.",
+        "SPSS 13.0 (IBM Corp., Armonk, NY, USA) was employed to calculate the R2",
+        "<h2 style=\"display: inline\">Results:</h2> The value of R0 was estimated of 2.30 from reservoir to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58.",
+        "Based on the equations of RP model, the authors can get the disease free equilibrium point as: \u039bP mP 0; F \u03b2P \u03ba \u03b2W 3 7775; V \u22121.",
+        "In the matrix: A \u00f0\u03c9P \u00f01\u2212\u03b4 P \u00de\u03c9P \u00fe mP\u00de\u00f0\u03b3P \u00fe mP \u00de",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors developed RP transmission model, which considering the routes from reservoir to person and from person to person of SARS-CoV-2 respectively.",
+        "This result was based on the limited data from a published literature, and it might not show the real situation at the early stage of the transmission.The authors' model showed that the transmissibility of SARS-CoV-2 was higher than the Middle East respiratory syndrome in the Middle East countries, similar to severe acute respiratory syndrome, but lower than MERS in the Republic of Korea.",
+        "Abbreviations 2019-nCoV: 2019 novel coronavirus; BHRP: Bats-Hosts-Reservoir-People; R0: Basic reproduction number; RP: Reservoir-People; SARS-CoV-2: Severe acute respiratory syndrome coronavirus 2; WHO: World Health Organization"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "As reported by the World Health Organization, a novel coronavirus (2019-nCoV) was identified as the causative virus of Wuhan pneumonia of unknown etiology by Chinese authorities on 7 January, 2020.",
+            "This study aimed to develop a mathematical model for calculating the transmissibility of the virus.",
+            "On 31 December 2019, the World Health Organization (WHO) China Country Office was informed of cases of pneumonia of unknown etiology detected in Wuhan City, Hubei Province of China, and WHO reported that a novel coronavirus (2019-nCoV),.",
+            "The bat origin and the transmission route form the seafood market to people were not considered in the published models"
+        ],
+        "Objectives": [
+            "Since the objective of this study was to provide a mathematical model for calculating the transmissibility of."
+        ],
+        "Methods": [
+            "The authors developed a Bats-Hosts-Reservoir-People transmission network model for simulating the potential transmission from the infection source to the human infection.",
+            "Data source The reported cases of SARS-CoV-2, which have been named as COVID-19, were collected for the modelling study from a published literature [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "The epidemic curve from 7 December, 2019 to 1 January, 2020 was collected for the study, and the simulation time step was 1 day.",
+            "Madonna 8.3.18 was employed for the curve fitting.",
+            "SPSS 13.0 (IBM Corp., Armonk, NY, USA) was employed to calculate the R2"
+        ],
+        "Results": [
+            "The value of R0 was estimated of 2.30 from reservoir to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58.",
+            "Based on the equations of RP model, the authors can get the disease free equilibrium point as: \u039bP mP 0; F \u03b2P \u03ba \u03b2W 3 7775; V \u22121.",
+            "In the matrix: A \u00f0\u03c9P \u00f01\u2212\u03b4 P \u00de\u03c9P \u00fe mP\u00de\u00f0\u03b3P \u00fe mP \u00de"
+        ],
+        "Conclusion": [
+            "The authors developed RP transmission model, which considering the routes from reservoir to person and from person to person of SARS-CoV-2 respectively.",
+            "This result was based on the limited data from a published literature, and it might not show the real situation at the early stage of the transmission.The authors' model showed that the transmissibility of SARS-CoV-2 was higher than the Middle East respiratory syndrome in the Middle East countries, similar to severe acute respiratory syndrome, but lower than MERS in the Republic of Korea.",
+            "Abbreviations 2019-nCoV: 2019 novel coronavirus; BHRP: Bats-Hosts-Reservoir-People; R0: Basic reproduction number; RP: Reservoir-People; SARS-CoV-2: Severe acute respiratory syndrome coronavirus 2; WHO: World Health Organization"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Organization_2020_a",
+            "entry": "1. World Health Organization. Coronavirus. World Health Organization, cited January 19, 2020. Available: https://www.who.int/health-topics/coronavirus.",
+            "url": "https://www.who.int/health-topics/coronavirus"
+        },
+        {
+            "id": "2",
+            "alt_id": "Zhou_et+al_2020_a",
+            "entry": "2. Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020. https://doi.org/10.1038/s41586-020-2012-7.",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2012-7",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2012-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2012-7"
+        },
+        {
+            "id": "3",
+            "alt_id": "Li_et+al_0000_a",
+            "entry": "3. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al. Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia. N Engl J Med. 2020. https://doi.org/10.1056/NEJMoa2001316.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "4",
+            "alt_id": "Huang_et+al_2019_a",
+            "entry": "4. Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020. https://doi.org/10.1016/S0140-6736(20)30183-5.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930183-5"
+        },
+        {
+            "id": "5",
+            "alt_id": "Chan_et+al_2019_a",
+            "entry": "5. Chan JF, Yuan S, Kok KH, To KK, Chu H, Yang J, et al. A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating personto-person transmission: a study of a family cluster. Lancet. 2020. https://doi.org/10.1016/S0140-6736(20)30154-9.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30154-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30154-9",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930154-9"
+        },
+        {
+            "id": "6",
+            "alt_id": "Zhu_et+al_2019_a",
+            "entry": "6. Zhu N, Zhang D, Wang W, Li X, Yang B, Song J, et al. A novel coronavirus from patients with pneumonia in China, 2019. N Engl J Med. 2020. https://doi.org/10.1056/NEJMoa2001017.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001017",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001017"
+        },
+        {
+            "id": "7",
+            "alt_id": "Bogoch_et+al_0000_a",
+            "entry": "7. Bogoch II, Watts A, Thomas-Bachli A, Huber C, Kraemer MUG, Khan K. Pneumonia of unknown etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel. J Travel Med. 2020. https://doi.org/10.1093/jtm/taaa008.",
+            "crossref": "https://dx.doi.org/10.1093/jtm/taaa008",
+            "scite": "https://scite.ai/reports/10.1093/jtm/taaa008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/jtm/taaa008"
+        },
+        {
+            "id": "8",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "8. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet. 2020. https://doi.org/10.1016/ S0140-6736(20)30260-9.",
+            "url": "https://doi.org/10.1016/S0140-6736(20)30260-9",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%20JT%20Leung%20K%20Leung%20GM%20Nowcasting%20and%20forecasting%20the%20potential%20domestic%20and%20international%20spread%20of%20the%202019nCoV%20outbreak%20originating%20in%20Wuhan%20China%20a%20modelling%20study%20Lancet%202020%20httpsdoiorg101016%20S0140673620302609",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%20JT%20Leung%20K%20Leung%20GM%20Nowcasting%20and%20forecasting%20the%20potential%20domestic%20and%20international%20spread%20of%20the%202019nCoV%20outbreak%20originating%20in%20Wuhan%20China%20a%20modelling%20study%20Lancet%202020%20httpsdoiorg101016%20S0140673620302609"
+        },
+        {
+            "id": "9",
+            "alt_id": "Zhao_et+al_2019_a",
+            "entry": "9. Zhao S, Lin Q, Ran J, Musa SS, Yang G, Wang W, et al. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: a data-driven analysis in the early phase of the outbreak. Int J Infect Dis. 2020. https://doi.org/10.1016/j.ijid.2020.01.050.",
+            "crossref": "https://dx.doi.org/10.1016/j.ijid.2020.01.050",
+            "scite": "https://scite.ai/reports/10.1016/j.ijid.2020.01.050",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.ijid.2020.01.050"
+        },
+        {
+            "id": "10",
+            "alt_id": "Zhao_et+al_2019_b",
+            "entry": "10. Zhao S, Musa SS, Lin Q, Ran J, Yang G, Wang W, et al. Estimating the unreported number of novel coronavirus (2019-nCoV) cases in China in the first half of January 2020: a data-driven Modelling analysis of the early outbreak. J Clin Med. 2020. https://doi.org/10.3390/jcm9020388.",
+            "crossref": "https://dx.doi.org/10.3390/jcm9020388",
+            "scite": "https://scite.ai/reports/10.3390/jcm9020388",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3390/jcm9020388"
+        },
+        {
+            "id": "11",
+            "alt_id": "Organization_2020_b",
+            "entry": "11. World Health Organization. Novel Coronavirus \u2013 China. World Health Organization. cited January 20, 2020. Available: https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/. Accessed 20 Jan 2020.",
+            "url": "https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/"
+        },
+        {
+            "id": "12",
+            "alt_id": "Chen_et+al_0000_a",
+            "entry": "12. Chen T, Rui J, Wang Q, Zhao Z, Cui J-A, Yin L. A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv. 2020: 2020.2001.2019.911669. Accessed 13 Feb 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20T.%20Rui%2C%20J.%20Wang%2C%20Q.%20Zhao%2C%20Z.%20A%20mathematical%20model%20for%20simulating%20the%20transmission%20of%20Wuhan%20novel%20Coronavirus.%20bioRxiv"
+        },
+        {
+            "id": "13",
+            "alt_id": "Chen_et+al_2014_a",
+            "entry": "13. Chen T, Ka-Kit Leung R, Liu R, Chen F, Zhang X, Zhao J, et al. Risk of imported Ebola virus disease in China. Travel Med Infect Dis. 2014;12:650\u20138.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20T.%20Ka-Kit%20Leung%2C%20R.%20Liu%2C%20R.%20Chen%2C%20F.%20Risk%20of%20imported%20Ebola%20virus%20disease%20in%20China%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20T.%20Ka-Kit%20Leung%2C%20R.%20Liu%2C%20R.%20Chen%2C%20F.%20Risk%20of%20imported%20Ebola%20virus%20disease%20in%20China%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20T.%20Ka-Kit%20Leung%2C%20R.%20Liu%2C%20R.%20Chen%2C%20F.%20Risk%20of%20imported%20Ebola%20virus%20disease%20in%20China%202014"
+        },
+        {
+            "id": "14",
+            "alt_id": "Yi_et+al_2019_a",
+            "entry": "14. Yi B, Chen Y, Ma X, Rui J, Cui JA, Wang H, et al. Incidence dynamics and investigation of key interventions in a dengue outbreak in Ningbo City, China. PLoS Negl Trop Dis. 2019;13:e0007659.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yi%2C%20B.%20Chen%2C%20Y.%20Ma%2C%20X.%20Rui%2C%20J.%20Incidence%20dynamics%20and%20investigation%20of%20key%20interventions%20in%20a%20dengue%20outbreak%20in%20Ningbo%20City%2C%20China%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yi%2C%20B.%20Chen%2C%20Y.%20Ma%2C%20X.%20Rui%2C%20J.%20Incidence%20dynamics%20and%20investigation%20of%20key%20interventions%20in%20a%20dengue%20outbreak%20in%20Ningbo%20City%2C%20China%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yi%2C%20B.%20Chen%2C%20Y.%20Ma%2C%20X.%20Rui%2C%20J.%20Incidence%20dynamics%20and%20investigation%20of%20key%20interventions%20in%20a%20dengue%20outbreak%20in%20Ningbo%20City%2C%20China%202019"
+        },
+        {
+            "id": "15",
+            "alt_id": "Chen_et+al_2014_b",
+            "entry": "15. Chen T, Leung RK, Zhou Z, Liu R, Zhang X, Zhang L. Investigation of key interventions for shigellosis outbreak control in China. PLoS One. 2014;9: e95006.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20T.%20Leung%2C%20R.K.%20Zhou%2C%20Z.%20Liu%2C%20R.%20Investigation%20of%20key%20interventions%20for%20shigellosis%20outbreak%20control%20in%20China%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20T.%20Leung%2C%20R.K.%20Zhou%2C%20Z.%20Liu%2C%20R.%20Investigation%20of%20key%20interventions%20for%20shigellosis%20outbreak%20control%20in%20China%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20T.%20Leung%2C%20R.K.%20Zhou%2C%20Z.%20Liu%2C%20R.%20Investigation%20of%20key%20interventions%20for%20shigellosis%20outbreak%20control%20in%20China%202014"
+        },
+        {
+            "id": "16",
+            "alt_id": "Zhang_et+al_0000_a",
+            "entry": "16. Zhang S, Hu Q, Deng Z, Hu S, Liu F, Yu S, et al. Transmissibility of acute haemorrhagic conjunctivitis in small-scale outbreaks in Hunan Province, China. Sci Rep. 2020;10:119.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%2C%20S.%20Hu%2C%20Q.%20Deng%2C%20Z.%20Hu%2C%20S.%20Transmissibility%20of%20acute%20haemorrhagic%20conjunctivitis%20in%20small-scale%20outbreaks%20in%20Hunan%20Province%2C%20China",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%2C%20S.%20Hu%2C%20Q.%20Deng%2C%20Z.%20Hu%2C%20S.%20Transmissibility%20of%20acute%20haemorrhagic%20conjunctivitis%20in%20small-scale%20outbreaks%20in%20Hunan%20Province%2C%20China",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%2C%20S.%20Hu%2C%20Q.%20Deng%2C%20Z.%20Hu%2C%20S.%20Transmissibility%20of%20acute%20haemorrhagic%20conjunctivitis%20in%20small-scale%20outbreaks%20in%20Hunan%20Province%2C%20China"
+        },
+        {
+            "id": "17",
+            "alt_id": "Chen_et+al_2019_a",
+            "entry": "17. Chen S, Yang D, Liu R, Zhao J, Yang K, Chen T. Estimating the transmissibility of hand, foot, and mouth disease by a dynamic model. Public Health. 2019;174:42\u20138.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20S.%20Yang%2C%20D.%20Liu%2C%20R.%20Zhao%2C%20J.%20Estimating%20the%20transmissibility%20of%20hand%2C%20foot%2C%20and%20mouth%20disease%20by%20a%20dynamic%20model%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20S.%20Yang%2C%20D.%20Liu%2C%20R.%20Zhao%2C%20J.%20Estimating%20the%20transmissibility%20of%20hand%2C%20foot%2C%20and%20mouth%20disease%20by%20a%20dynamic%20model%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20S.%20Yang%2C%20D.%20Liu%2C%20R.%20Zhao%2C%20J.%20Estimating%20the%20transmissibility%20of%20hand%2C%20foot%2C%20and%20mouth%20disease%20by%20a%20dynamic%20model%202019"
+        },
+        {
+            "id": "18",
+            "alt_id": "Cui_et+al_0000_a",
+            "entry": "18. Cui J-A, Zhao S, Guo S, Bai Y, Wang X, Chen T. Global dynamics of an epidemiological model with acute and chronic HCV infections. Appl Math Lett. 2020;103:106203.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cui%2C%20J.-A.%20Zhao%2C%20S.%20Guo%2C%20S.%20Bai%2C%20Y.%20Global%20dynamics%20of%20an%20epidemiological%20model%20with%20acute%20and%20chronic%20HCV%20infections",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cui%2C%20J.-A.%20Zhao%2C%20S.%20Guo%2C%20S.%20Bai%2C%20Y.%20Global%20dynamics%20of%20an%20epidemiological%20model%20with%20acute%20and%20chronic%20HCV%20infections",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cui%2C%20J.-A.%20Zhao%2C%20S.%20Guo%2C%20S.%20Bai%2C%20Y.%20Global%20dynamics%20of%20an%20epidemiological%20model%20with%20acute%20and%20chronic%20HCV%20infections"
+        },
+        {
+            "id": "19",
+            "alt_id": "Moh_2020_a",
+            "entry": "19. Japan MoH. Development of patients with pneumonia associated with new coronavirus. Ministry of Health Japan. cited 16 Jan 2020. Available: https://www.mhlw.go.jp/stf/newpage_08906.html.",
+            "url": "https://www.mhlw.go.jp/stf/newpage_08906.html"
+        },
+        {
+            "id": "20",
+            "alt_id": "Organization_2020_c",
+            "entry": "20. World Health Organization. Novel Coronavirus \u2013 Thailand (ex-China). World Health Organization. cited January 20, 2020. Available: https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand/en/.21. World Health Organization. Novel Coronavirus \u2013 Japan (ex-China). World Health Organization.cited January 20, 2020. Available:https://www.who.int/csr/don/17-january-2020-novel-coronavirus-japan-ex-china/en/.22. Longini IM Jr, Nizam A, Xu S, Ungchusak K, Hanshaoworakul W, Cummings DA, et al. Containing pandemic influenza at the source. Science.2005;309:1083\u20137.",
+            "url": "https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand/en/.21",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Organization%2C%20World%20Health%20Novel%20Coronavirus%20%E2%80%93%20Thailand%20%28ex-China%29.%20World%20Health%20Organization%202020-01-20",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Organization%2C%20World%20Health%20Novel%20Coronavirus%20%E2%80%93%20Thailand%20%28ex-China%29.%20World%20Health%20Organization%202020-01-20"
+        },
+        {
+            "id": "23",
+            "alt_id": "T_2020_a",
+            "entry": "23. TAKEFOTO.CN. Wuhan City set up temperature detection points and screening points to strengthen the temperature detection of passengers leaving Wuhan.. TAKEFOTO.CN. cited January 20, 2020. Available: https://baijiahao.baidu.com/s?id=1656211292146188271&wfr=spider&for=pc.24. China Business Network. Wuhan City has a permanent floating population of 2.87 million, ranking 15th in migration. China Business Network.cited January 20, 2020:Available:https://baijiahao.baidu.com/s?id=165623751 9515683348&wfr=spider&for=pc.25. Wuhan Government. Population distribution. Wuhan Government.cited January 20, 2020. Available:http://www.wuhan.gov.cn/2019_web/zjwh_5 785/whgk/201910/t20191022_20290870.html.",
+            "url": "https://baijiahao.baidu.com/s?id=1656211292146188271&wfr=spider&for=pc.24",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=CN%2C%20T.A.K.E.F.O.T.O.%20Wuhan%20City%20set%20up%20temperature%20detection%20points%20and%20screening%20points%20to%20strengthen%20the%20temperature%20detection%20of%20passengers%20leaving%20Wuhan%202020-01-20",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=CN%2C%20T.A.K.E.F.O.T.O.%20Wuhan%20City%20set%20up%20temperature%20detection%20points%20and%20screening%20points%20to%20strengthen%20the%20temperature%20detection%20of%20passengers%20leaving%20Wuhan%202020-01-20"
+        },
+        {
+            "id": "26",
+            "alt_id": "Chen_et+al_2017_a",
+            "entry": "26. Chen TM, Chen QP, Liu RC, Szot A, Chen SL, Zhao J, et al. The transmissibility estimation of influenza with early stage data of small-scale outbreaks in Changsha, China, 2005-2013. Epidemiol Infect. 2017;145:424\u201333.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%20TM%20Chen%20QP%20Liu%20RC%20Szot%20A%20Chen%20SL%20Zhao%20J%20et%20al%20The%20transmissibility%20estimation%20of%20influenza%20with%20early%20stage%20data%20of%20smallscale%20outbreaks%20in%20Changsha%20China%2020052013%20Epidemiol%20Infect%20201714542433",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%20TM%20Chen%20QP%20Liu%20RC%20Szot%20A%20Chen%20SL%20Zhao%20J%20et%20al%20The%20transmissibility%20estimation%20of%20influenza%20with%20early%20stage%20data%20of%20smallscale%20outbreaks%20in%20Changsha%20China%2020052013%20Epidemiol%20Infect%20201714542433",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%20TM%20Chen%20QP%20Liu%20RC%20Szot%20A%20Chen%20SL%20Zhao%20J%20et%20al%20The%20transmissibility%20estimation%20of%20influenza%20with%20early%20stage%20data%20of%20smallscale%20outbreaks%20in%20Changsha%20China%2020052013%20Epidemiol%20Infect%20201714542433"
+        },
+        {
+            "id": "27",
+            "alt_id": "Riley_et+al_2003_a",
+            "entry": "27. Riley S, Fraser C, Donnelly CA, Ghani AC, Abu-Raddad LJ, Hedley AJ, et al. Transmission dynamics of the etiological agent of SARS in Hong Kong: impact of public health interventions. Science. 2003;300:1961\u20136.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Riley%2C%20S.%20Fraser%2C%20C.%20Donnelly%2C%20C.A.%20Ghani%2C%20A.C.%20Transmission%20dynamics%20of%20the%20etiological%20agent%20of%20SARS%20in%20Hong%20Kong%3A%20impact%20of%20public%20health%20interventions%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Riley%2C%20S.%20Fraser%2C%20C.%20Donnelly%2C%20C.A.%20Ghani%2C%20A.C.%20Transmission%20dynamics%20of%20the%20etiological%20agent%20of%20SARS%20in%20Hong%20Kong%3A%20impact%20of%20public%20health%20interventions%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Riley%2C%20S.%20Fraser%2C%20C.%20Donnelly%2C%20C.A.%20Ghani%2C%20A.C.%20Transmission%20dynamics%20of%20the%20etiological%20agent%20of%20SARS%20in%20Hong%20Kong%3A%20impact%20of%20public%20health%20interventions%202003"
+        },
+        {
+            "id": "28",
+            "alt_id": "Dye_2003_a",
+            "entry": "28. Dye C, Gay N. Epidemiology. Modeling the SARS epidemic. Science. 2003; 300:1884\u20135.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Dye%2C%20C.%20Epidemiology%2C%20Gay%20N.%20Modeling%20the%20SARS%20epidemic%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Dye%2C%20C.%20Epidemiology%2C%20Gay%20N.%20Modeling%20the%20SARS%20epidemic%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Dye%2C%20C.%20Epidemiology%2C%20Gay%20N.%20Modeling%20the%20SARS%20epidemic%202003"
+        },
+        {
+            "id": "29",
+            "alt_id": "Zhou_2003_a",
+            "entry": "29. Zhou G, Yan G. Severe acute respiratory syndrome epidemic in Asia. Emerg Infect Dis. 2003;9:1608\u201310.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20G.%20Yan%2C%20G.%20Severe%20acute%20respiratory%20syndrome%20epidemic%20in%20Asia%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20G.%20Yan%2C%20G.%20Severe%20acute%20respiratory%20syndrome%20epidemic%20in%20Asia%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20G.%20Yan%2C%20G.%20Severe%20acute%20respiratory%20syndrome%20epidemic%20in%20Asia%202003"
+        },
+        {
+            "id": "30",
+            "alt_id": "Peak_et+al_2017_a",
+            "entry": "30. Peak CM, Childs LM, Grad YH. Comparing nonpharmaceutical interventions for containing emerging epidemics. Proc Natl Acad Sci U S A. 2017;114: 4023\u20138.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Peak%2C%20C.M.%20Childs%2C%20L.M.%20Grad%2C%20Y.H.%20Comparing%20nonpharmaceutical%20interventions%20for%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Peak%2C%20C.M.%20Childs%2C%20L.M.%20Grad%2C%20Y.H.%20Comparing%20nonpharmaceutical%20interventions%20for%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Peak%2C%20C.M.%20Childs%2C%20L.M.%20Grad%2C%20Y.H.%20Comparing%20nonpharmaceutical%20interventions%20for%202017"
+        },
+        {
+            "id": "31",
+            "alt_id": "Cauchemez_et+al_2014_a",
+            "entry": "31. Cauchemez S, Fraser C, Van Kerkhove MD, Donnelly CA, Riley S, Rambaut A, et al. Middle East respiratory syndrome coronavirus: quantification of the extent of the epidemic, surveillance biases, and transmissibility. Lancet Infect Dis. 2014;14:50\u20136.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cauchemez%2C%20S.%20Fraser%2C%20C.%20Van%20Kerkhove%2C%20M.D.%20Donnelly%2C%20C.A.%20Middle%20East%20respiratory%20syndrome%20coronavirus%3A%20quantification%20of%20the%20extent%20of%20the%20epidemic%2C%20surveillance%20biases%2C%20and%20transmissibility%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cauchemez%2C%20S.%20Fraser%2C%20C.%20Van%20Kerkhove%2C%20M.D.%20Donnelly%2C%20C.A.%20Middle%20East%20respiratory%20syndrome%20coronavirus%3A%20quantification%20of%20the%20extent%20of%20the%20epidemic%2C%20surveillance%20biases%2C%20and%20transmissibility%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cauchemez%2C%20S.%20Fraser%2C%20C.%20Van%20Kerkhove%2C%20M.D.%20Donnelly%2C%20C.A.%20Middle%20East%20respiratory%20syndrome%20coronavirus%3A%20quantification%20of%20the%20extent%20of%20the%20epidemic%2C%20surveillance%20biases%2C%20and%20transmissibility%202014"
+        },
+        {
+            "id": "32",
+            "alt_id": "Breban_et+al_2013_a",
+            "entry": "32. Breban R, Riou J, Fontanet A. Interhuman transmissibility of Middle East respiratory syndrome coronavirus: estimation of pandemic risk. Lancet. 2013; 382:694\u20139.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Breban%2C%20R.%20Riou%2C%20J.%20Fontanet%2C%20A.%20Interhuman%20transmissibility%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%3A%20estimation%20of%20pandemic%20risk%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Breban%2C%20R.%20Riou%2C%20J.%20Fontanet%2C%20A.%20Interhuman%20transmissibility%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%3A%20estimation%20of%20pandemic%20risk%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Breban%2C%20R.%20Riou%2C%20J.%20Fontanet%2C%20A.%20Interhuman%20transmissibility%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%3A%20estimation%20of%20pandemic%20risk%202013"
+        },
+        {
+            "id": "33",
+            "alt_id": "Zhang_et+al_2017_a",
+            "entry": "33. Zhang XS, Pebody R, Charlett A, de Angelis D, Birrell P, Kang H, et al. Estimating and modelling the transmissibility of Middle East respiratory syndrome CoronaVirus during the 2015 outbreak in the Republic of Korea. Influenza Other Respir Viruses. 2017;11:434\u201344.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%20XS%20Pebody%20R%20Charlett%20A%20de%20Angelis%20D%20Birrell%20P%20Kang%20H%20et%20al%20Estimating%20and%20modelling%20the%20transmissibility%20of%20Middle%20East%20respiratory%20syndrome%20CoronaVirus%20during%20the%202015%20outbreak%20in%20the%20Republic%20of%20Korea%20Influenza%20Other%20Respir%20Viruses%2020171143444"
+        },
+        {
+            "id": "34",
+            "alt_id": "Xia_et+al_2015_a",
+            "entry": "34. Xia ZQ, Zhang J, Xue YK, Sun GQ, Jin Z. Modeling the transmission of Middle East respirator syndrome Corona virus in the Republic of Korea. PLoS One. 2015;10:e0144778. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xia%2C%20Z.Q.%20Zhang%2C%20J.%20Xue%2C%20Y.K.%20Sun%2C%20G.Q.%20Modeling%20the%20transmission%20of%20Middle%20East%20respirator%20syndrome%20Corona%20virus%20in%20the%20Republic%20of%20Korea%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Xia%2C%20Z.Q.%20Zhang%2C%20J.%20Xue%2C%20Y.K.%20Sun%2C%20G.Q.%20Modeling%20the%20transmission%20of%20Middle%20East%20respirator%20syndrome%20Corona%20virus%20in%20the%20Republic%20of%20Korea%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Xia%2C%20Z.Q.%20Zhang%2C%20J.%20Xue%2C%20Y.K.%20Sun%2C%20G.Q.%20Modeling%20the%20transmission%20of%20Middle%20East%20respirator%20syndrome%20Corona%20virus%20in%20the%20Republic%20of%20Korea%202015"
+        }
+    ],
+    "facts": [
+        "a novel coronavirus was identified as the causative virus of Wuhan pneumonia",
+        "This study aimed to develop a mathematical model for calculating the transmissibility of the virus",
+        "public concerns were focusing on the transmission from Huanan Seafood Wholesale Market",
+        "the basic reproduction number from the RP model to assess the transmissibility of the SARS-CoV-2",
+        "from person to person which means that the expected number of secondary infections",
+        "Our model showed that the transmissibility of SARS-CoV-2 was higher than the",
+        "the World Health Organization China Country Office was informed of cases of pneumonia",
+        "of unknown etiology detected in Wuhan City",
+        "WHO reported that a novel coronavirus",
+        "There were several researches focusing on mathematical modelling",
+        "the transmission route form the seafood market to people were not considered in the published models",
+        "which have been named as COVID-19",
+        "the onset date of the first case was on 7 December",
+        "the seafood market was closed on 1 January",
+        "Madonna 8.3.18 was employed for the curve fitting",
+        "While the curve fitting is in progress",
+        "\u03c9'P. Based on the equations of RP model",
+        "which considering the routes from reservoir to person",
+        "The simulation results showed that the R0 of SARS-CoV-2 was",
+        "a research showed that the R0 of SARS-CoV-2 was",
+        "Another research showed that the R0 of SARS-CoV2 was",
+        "The different values might be due to the different methods",
+        "The methods which Li et al employed were based on the epidemic growth rate of the epidemic curve",
+        "Our previous study showed that several methods could be used to calculate the R0 based on the epidemic growth rate",
+        "different methods might result in different values of R0",
+        "Our results showed that the R0 of SARSCoV-2 was",
+        "this result was based on the limited data from a published literature",
+        "our model showed that the transmissibility of SARS-CoV-2 might be higher than MERS",
+        "the R0 was estimated based on limited data",
+        "which published in a literature",
+        "This result was based on the limited data from a published literature"
+    ],
+    "claims": [
+        "This study aimed to develop a mathematical model for calculating the transmissibility of the virus",
+        "Methods: In this study, we developed a Bats-Hosts-Reservoir-People transmission network model for simulating the potential transmission from the infection source (probably be bats) to the human infection",
+        "In this study, we developed a Bats-Hosts-ReservoirPeople (BHRP) transmission network model for simulating the potential transmission from the infection source (probably be bats) to the human infection",
+        "Discussion In this study, we developed RP transmission model, which considering the routes from reservoir to person and from person to person of SARS-CoV-2 respectively",
+        "Our results also showed that the R0 of SARSCoV-2 was 2.30 from reservoir to person which was lower than that of person to person"
+    ],
+    "findings": [
+        "The duration from illness onset to first medical visit for the 45 patients with illness onset before January 1 was estimated to have a mean of 5.8 days (95% CI: 4.3\u20137.5) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "Our modelling results showed that the normalized RP model fitted well to the reported SARS-CoV-2 cases data (R2 = 0.512, P < 0.001) (Fig. 2)",
+        "There was a research showed that the R0 of SARS-CoV-2 was 2.68 (95% CI: 2.47\u20132.86) [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]",
+        "Another research showed that the R0 of SARS-CoV2 was 2.2 (95% CI: 1.4\u20133.9) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]"
+    ],
+    "processes": [],
+    "key_statements": [
+        "On 31 December 2019, the World Health Organization (WHO) China Country Office was informed of cases of pneumonia of unknown etiology detected in Wuhan City, Hubei Province of China, and World Health Organization reported that a novel coronavirus (2019-nCoV),",
+        "There were several researches focusing on mathematical modelling [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]",
+        "As reported by Li et al [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], the onset date of the first case was on 7 December, 2020, and the seafood market was closed on 1 January, 2020 [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]",
+        "The value of Basic reproduction number was estimated of 2.30 from reservoir to person, and from person to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58",
+        "In this study, we developed RP transmission model, which considering the routes from reservoir to person and from person to person of severe acute respiratory syndrome-CoV-2 respectively",
+        "The simulation results showed that the Basic reproduction number of severe acute respiratory syndrome-CoV-2 was 3.58 from person to person",
+        "There was a research showed that the Basic reproduction number of severe acute respiratory syndrome-CoV-2 was 2.68 (95% CI: 2.47\u20132.86) [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]",
+        "Another research showed that the Basic reproduction number of severe acute respiratory syndrome-CoV2 was 2.2 (95% CI: 1.4\u20133.9) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "The methods which Li et al employed were based on the epidemic growth rate of the epidemic curve and the serial interval [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "Our previous study showed that several methods could be used to calculate the Basic reproduction number based on the epidemic growth rate of the epidemic curve and the serial interval, and different methods might result in different values of Basic reproduction number [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]",
+        "Our results showed that the Basic reproduction number of SARSCoV-2 was 2.30 from reservoir to person which was lower than that of person to person",
+        "By calculating the published data, our model showed that the transmissibility of severe acute respiratory syndrome-CoV-2 might be higher than Middle East respiratory syndrome in the Middle East countries, similar to severe acute respiratory syndrome, but lower than Middle East respiratory syndrome in the Republic of Korea",
+        "severe acute respiratory syndrome-CoV-2, the Basic reproduction number was estimated based on limited data which published in a literature"
+    ],
+    "top_statements": [
+        "As reported by the World Health Organization, a novel coronavirus (2019-nCoV) was identified as the causative virus of Wuhan pneumonia of unknown etiology by Chinese authorities on 7 January, 2020",
+        "On 31 December 2019, the World Health Organization (WHO) China Country Office was informed of cases of pneumonia of unknown etiology detected in Wuhan City, Hubei Province of China, and World Health Organization reported that a novel coronavirus (2019-nCoV),",
+        "The value of Basic reproduction number was estimated of 2.30 from reservoir to person, and from person to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58",
+        "Our previous study showed that several methods could be used to calculate the Basic reproduction number based on the epidemic growth rate of the epidemic curve and the serial interval, and different methods might result in different values of Basic reproduction number [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]",
+        "By calculating the published data, our model showed that the transmissibility of severe acute respiratory syndrome-CoV-2 might be higher than Middle East respiratory syndrome in the Middle East countries, similar to severe acute respiratory syndrome, but lower than Middle East respiratory syndrome in the Republic of Korea",
+        "There was a research showed that the Basic reproduction number of severe acute respiratory syndrome-CoV-2 was 2.68 (95% CI: 2.47\u20132.86) [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]",
+        "severe acute respiratory syndrome-CoV-2, the Basic reproduction number was estimated based on limited data which published in a literature"
+    ],
+    "headline": "Severe acute respiratory syndrome-CoV-2, the Basic reproduction number was estimated based on limited data which published in a literature",
+    "contexts": [],
+    "abbreviations": {
+        "R0": "Basic reproduction number",
+        "WHO": "World Health Organization",
+        "SARS": "severe acute respiratory syndrome",
+        "MERS": "Middle East respiratory syndrome"
+    }
+}

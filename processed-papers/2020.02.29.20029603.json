@@ -1,0 +1,223 @@
+{
+    "filename": "2020.02.29.20029603.pdf",
+    "content_type": "text/html",
+    "file_size": 0,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.29.20029603",
+            "url": "https://dx.doi.org/10.1101/2020.02.29.20029603"
+        },
+        "doi": "10.1101/2020.02.29.20029603",
+        "author": "Xiaolong Qi, Zicheng Jiang, QIAN YU, Chuxiao Shao, Hongguang Zhang, Hongmei Yue, Baoyi Ma, Yuancheng Wang, Chuan Liu, Xiangpan Meng, Shan Huang, Jitao Wang, Dan Xu, Junqiang Lei, Guanghang Xie, Huihong Huang, Jie Yang, Jiansong Ji, Hongqiu Pan, Shengqiang Zou, Shenghong Ju",
+        "title": "Machine learning-based CT radiomics model for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection: A multicenter study",
+        "date": 2020,
+        "abstract": "Abstract\nObjectives\nTo develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection.\nDesign\nCross-sectional\nSetting\nMulticenter\nParticipants\nA total of 52 patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT images were enrolled from 5 designated hospitals in Ankang, Lishui, Zhenjiang, Lanzhou, and Linxia between January 23, 2020 and February 8, 2020. As of February 20, patients remained in hospital or with non-findings in CT were excluded. Therefore, 31 patients with 72 lesion segments were included in the final analysis. \nIntervention\nCT radiomics models based on logistic regression (LR) and random forest (RF) were developed on features extracted from pneumonia lesions in training and inter-validation datasets. The predictive performance was further evaluated in test dataset on lung lobe- and patients-level.\nMain outcomes\nShort-term hospital stay (\u226410 days) and long-term hospital stay (&gt;10 days).\nResults\nThe CT radiomics models based on 6 second-order features were effective in discriminating short- and long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection, with areas under the curves of 0.97 (95%CI 0.83-1.0) and 0.92 (95%CI 0.67-1.0) by LR and RF, respectively, in the test dataset. The LR model showed a sensitivity and specificity of 1.0 and 0.89, and the RF model showed similar performance with sensitivity and specificity of 0.75 and 1.0 in test dataset. \nConclusions \nThe machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection.",
+        "references": "",
+        "references_ris": "",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "disclosures": [
+            "<strong>Competing Interest Statement</strong><br/><br/>The authors have declared no competing interest."
+        ],
+        "statement": [
+            "The study was supported by Gansu Provincial COVID-19 Science and Technology Major Project; Shanxi Provincial Emergency Research Project for Chinese Medicine for Prevention and Treatment of COVID-19 (2020-YJ005); Zhenjiang Key Research and Development Plan for COVID-19 Emergency Project (SH2020001)\u3002<br/><br/>Author Declarations<br/><br/>All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.    Yes<br/><br/>All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.<br/><br/>I understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).<br/><br/>I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable."
+        ],
+        "data_availability": [
+            "The imaging or algorithm data used in this study are available upon request.  Copyright"
+        ],
+        "funding": [
+            "The study was supported by Gansu Provincial COVID-19 Science and Technology Major Project; Shanxi Provincial Emergency Research Project for Chinese Medicine for Prevention and Treatment of COVID-19 (2020-YJ005); Zhenjiang Key Research and Development Plan for COVID-19 Emergency Project (SH2020001)\u3002"
+        ],
+        "ethical_compliance": [
+            "All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript",
+            "All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "supplementary files"
+            ],
+            "supplementary_figure_references": []
+        },
+        "introduction": [
+            "Objectives To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection. Design Cross-sectional Setting Multicenter Participants A total of 52 patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT images were enrolled from 5 designated hospitals in Ankang, Lishui, Zhenjiang, Lanzhou, and Linxia between January 23, 2020 and February 8, 2020. As of February 20, patients remained in hospital or with non-findings in CT were excluded. Therefore, 31 patients with 72 lesion segments were included in the final analysis. Intervention CT radiomics models based on logistic regression (LR) and random forest (RF) were developed on features extracted from pneumonia lesions in training and inter-validation datasets. The predictive performance was further evaluated in test dataset on lung lobe- and patients-level. Main outcomes Short-term hospital stay (\u226410 days) and long-term hospital stay (>10 days). Results The CT radiomics models based on 6 second-order features were effective in discriminating short- and long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection, with areas under the curves of 0.97 (95%CI 0.83-1.0) and 0.92 (95%CI 0.67-1.0) by LR and RF, respectively, in the test dataset. The LR model showed a sensitivity and specificity of 1.0 and 0.89, and the RF model showed similar performance with sensitivity and specificity of 0.75 and 1.0 in test dataset. Conclusions The machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection."
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "Abstract Objectives To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection. Design Cross-sectional Setting Multicenter Participants A total of 52 patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT images were enrolled from 5 designated hospitals in Ankang, Lishui, Zhenjiang, Lanzhou, and Linxia between January 23, 2020 and February 8, 2020. As of February 20, patients remained in hospital or with non-findings in CT were excluded. Therefore, 31 patients with 72 lesion segments were included in the final analysis. Intervention CT radiomics models based on logistic regression (LR) and random forest (RF) were developed on features extracted from pneumonia lesions in training and inter-validation datasets. The predictive performance was further evaluated in test dataset on lung lobe- and patients-level. Main outcomes Short-term hospital stay (\u226410 days) and long-term hospital stay (>10 days). Results The CT radiomics models based on 6 second-order features were effective in discriminating short- and long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection, with areas under the curves of 0.97 (95%CI 0.83-1.0) and 0.92 (95%CI 0.67-1.0) by LR and RF, respectively, in the test dataset. The LR model showed a sensitivity and specificity of 1.0 and 0.89, and the RF model showed similar performance with sensitivity and specificity of 0.75 and 1.0 in test dataset. Conclusions The machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection."
+        ],
+        "Competing Interest Statement": [
+            "The authors have declared no competing interest."
+        ],
+        "Funding Statement": [
+            "The study was supported by Gansu Provincial COVID-19 Science and Technology Major Project; Shanxi Provincial Emergency Research Project for Chinese Medicine for Prevention and Treatment of COVID-19 (2020-YJ005); Zhenjiang Key Research and Development Plan for COVID-19 Emergency Project (SH2020001)\u3002"
+        ],
+        "Author Declarations": [
+            "All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.",
+            "All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.",
+            "I understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).",
+            "I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable."
+        ],
+        "Data Availability": [
+            "The imaging or algorithm data used in this study are available upon request."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT",
+            "number": 52,
+            "context": "Participants. <mark class=\"stats\">A total of 52 patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT images were enrolled from 5 designated hospitals in Ankang, Lishui, Zhenjiang, Lanzhou, and Linxia between January 23, 2020 and February 8, 2020</mark>. As of February 20, patients remained in hospital or with non-findings in CT were excluded"
+        },
+        {
+            "participant": "patients with 72 lesion segments",
+            "number": 31,
+            "context": "As of February 20, patients remained in hospital or with non-findings in CT were excluded. <mark class=\"stats\">Therefore, 31 patients with 72 lesion segments were included in the final analysis</mark>. Intervention"
+        },
+        {
+            "participant": "patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT",
+            "number": 52,
+            "context": "Participants. <mark class=\"stats\">A total of 52 patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT images were enrolled from 5 designated hospitals in Ankang, Lishui, Zhenjiang, Lanzhou, and Linxia between January 23, 2020 and February 8, 2020</mark>. Intervention"
+        },
+        {
+            "participant": "patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT",
+            "number": 52,
+            "context": "Abstract Objectives To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection. <mark class=\"stats\">Design Cross-sectional Setting Multicenter Participants A total of 52 patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT images were enrolled from 5 designated hospitals in Ankang, Lishui, Zhenjiang, Lanzhou, and Linxia between January 23, 2020 and February 8, 2020</mark>. As of February 20, patients remained in hospital or with non-findings in CT were excluded"
+        },
+        {
+            "participant": "patients with 72 lesion segments",
+            "number": 31,
+            "context": "As of February 20, patients remained in hospital or with non-findings in CT were excluded. <mark class=\"stats\">Therefore, 31 patients with 72 lesion segments were included in the final analysis</mark>. Intervention CT radiomics models based on logistic regression (LR) and random forest (RF) were developed on features extracted from pneumonia lesions in training and inter-validation datasets"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "long term hospital",
+        "patient level",
+        "lesion segment",
+        "ct image",
+        "hospital stay",
+        "pneumonia lesion",
+        "\u226410 day",
+        "predictive performance",
+        "test dataset",
+        "cross sectional",
+        "lung lobe",
+        "radiomics",
+        "main outcome",
+        "machine learning",
+        "initial ct",
+        "SARS",
+        "non finding",
+        "random forest",
+        "logistic regression",
+        "ct radiomic model",
+        "sars cov",
+        "final analysis",
+        "validation dataset"
+    ],
+    "keyword_relevance": {
+        "hospital stay": 0.15151515151515152,
+        "radiomics": 0.12121212121212122,
+        "SARS": 0.12121212121212122,
+        "random forest": 0.12121212121212122,
+        "logistic regression": 0.12121212121212122,
+        "test dataset": 0.09090909090909091,
+        "machine learning": 0.06060606060606061,
+        "lesion segment": 0.030303030303030304,
+        "pneumonia lesion": 0.030303030303030304,
+        "\u226410 day": 0.030303030303030304,
+        "predictive performance": 0.030303030303030304,
+        "lung lobe": 0.030303030303030304,
+        "final analysis": 0.030303030303030304,
+        "validation dataset": 0.030303030303030304,
+        "long term hospital": 0.0,
+        "patient level": 0.0,
+        "ct image": 0.0,
+        "cross sectional": 0.0,
+        "main outcome": 0.0,
+        "initial ct": 0.0,
+        "non finding": 0.0,
+        "ct radiomic model": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "Objectives To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection.",
+        "To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection.",
+        "Cross-sectional",
+        "A total of 52 patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT images were enrolled from 5 designated hospitals in Ankang, Lishui, Zhenjiang, Lanzhou, and Linxia between January 23, 2020 and February 8, 2020.",
+        "As of February 20, patients remained in hospital or with non-findings in CT were excluded.",
+        "31 patients with 72 lesion segments were included in the final analysis.",
+        "CT radiomics models based on logistic regression (LR) and random forest (RF) were developed on features extracted from pneumonia lesions in training and inter-validation datasets.",
+        "The predictive performance was further evaluated in test dataset on lung lobe- and patients-level.",
+        "Main outcomes",
+        "Short-term hospital stay (\u226410 days) and long-term hospital stay (&gt;10 days).",
+        "The CT radiomics models based on 6 second-order features were effective in discriminating short- and long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection, with areas under the curves of 0.97 (95%CI 0.83-1.0) and 0.92 (95%CI 0.67-1.0) by LR and RF, respectively, in the test dataset.",
+        "The LR model showed a sensitivity and specificity of 1.0 and 0.89, and the RF model showed similar performance with sensitivity and specificity of 0.75 and 1.0 in test dataset.",
+        "The machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Objectives To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection.",
+            "To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection.",
+            "Cross-sectional"
+        ],
+        "Results": [
+            "A total of 52 patients with laboratory-confirmed SARS-CoV-2 infection and their initial CT images were enrolled from 5 designated hospitals in Ankang, Lishui, Zhenjiang, Lanzhou, and Linxia between January 23, 2020 and February 8, 2020.",
+            "As of February 20, patients remained in hospital or with non-findings in CT were excluded.",
+            "31 patients with 72 lesion segments were included in the final analysis.",
+            "CT radiomics models based on logistic regression (LR) and random forest (RF) were developed on features extracted from pneumonia lesions in training and inter-validation datasets.",
+            "The predictive performance was further evaluated in test dataset on lung lobe- and patients-level.",
+            "Main outcomes",
+            "Short-term hospital stay (\u226410 days) and long-term hospital stay (&gt;10 days)."
+        ],
+        "Conclusion": [
+            "The CT radiomics models based on 6 second-order features were effective in discriminating short- and long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection, with areas under the curves of 0.97 (95%CI 0.83-1.0) and 0.92 (95%CI 0.67-1.0) by LR and RF, respectively, in the test dataset.",
+            "The LR model showed a sensitivity and specificity of 1.0 and 0.89, and the RF model showed similar performance with sensitivity and specificity of 0.75 and 1.0 in test dataset.",
+            "The machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection."
+        ]
+    },
+    "reference_links": [],
+    "facts": [
+        "test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection",
+        "their initial CT images were enrolled from 5 designated hospitals in Ankang",
+        "patients remained in hospital",
+        "31 patients with 72 lesion segments were included in the final analysis",
+        "CT radiomics models based on logistic regression",
+        "random forest were developed on features extracted from pneumonia lesions",
+        "The predictive performance was further evaluated in test dataset on lung lobe- and patients-level",
+        "The CT radiomics models based on 6 second-order features were effective in discriminating short-",
+        "long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection",
+        "The machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection",
+        "Intervention CT radiomics models based on logistic regression",
+        "Results The CT radiomics models based on 6 second-order features were effective in discriminating short-",
+        "Conclusions The machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection"
+    ],
+    "claims": [],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection",
+        "CT radiomics models based on logistic regression (LR) and random forest (RF) were developed on features extracted from pneumonia lesions in training and inter-validation datasets",
+        "The predictive performance was further evaluated in test dataset on lung lobe- and patients-level",
+        "The CT radiomics models based on 6 second-order features were effective in discriminating short- and long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection, with areas under the curves of 0.97 (95%CI 0.83-1.0) and 0.92 (95%CI 0.67-1.0) by logistic regression and random forest, respectively, in the test dataset",
+        "The machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection"
+    ],
+    "top_statements": [
+        "To develop and test machine learning-based CT radiomics models for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection",
+        "CT radiomics models based on logistic regression (LR) and random forest (RF) were developed on features extracted from pneumonia lesions in training and inter-validation datasets",
+        "The predictive performance was further evaluated in test dataset on lung lobe- and patients-level",
+        "The CT radiomics models based on 6 second-order features were effective in discriminating short- and long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection, with areas under the curves of 0.97 (95%CI 0.83-1.0) and 0.92 (95%CI 0.67-1.0) by logistic regression and random forest, respectively, in the test dataset",
+        "The machine learning-based CT radiomics models showed feasibility and accuracy for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection"
+    ],
+    "headline": "The CT radiomics models based on 6 second-order features were effective in discriminating short- and long-term hospital stay in patients with pneumonia associated with SARS-CoV-2 infection, with areas under the curves of 0.97 and 0.92 by logistic regression and random forest, respectively, in the test dataset",
+    "contexts": [],
+    "abbreviations": {
+        "LR": "logistic regression",
+        "RF": "random forest"
+    }
+}

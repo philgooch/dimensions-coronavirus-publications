@@ -1,0 +1,383 @@
+{
+    "filename": "2020.02.21.959973.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 540228,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.21.959973",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/25/2020.02.21.959973.full.pdf"
+        },
+        "title": "No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics",
+        "date": 2020,
+        "author": "Galaxy and HyPhy developments teams, Anton Nekrutenko, Sergei L Kosakovsky Pond",
+        "affiliations": [
+            "The Pennsylvania State University, USA",
+            "Johns Hopkins University, USA",
+            "Cleveland Clinic, USA",
+            "University of Freiburg, Germany",
+            "University of Melbourne, Australia",
+            "Queensland Cyber Infrastructure Foundation, Australia",
+            "Department of Plant Biotechnology and Bioinformatics, Ghent University, Belgium",
+            "VIB Center for Plant Systems Biology, Belgium",
+            "Temple University, USA"
+        ],
+        "abstract": "The current state of much of the Wuhan pneumonia virus (COVID-19) research shows a regrettable lack of data sharing and considerable analytical obfuscation. This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure. Here we show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner. Specifically, we use all COVID-19 genomic data available in the public domain so far to (1) underscore the importance of access to raw data and to (2) demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid, reproducible research during global health crises. All our analyses are fully documented at https://github.com/galaxyproject/SARS-CoV-2.",
+        "references": "@article{zhou-a,\n  author = {Zhou, P. and Yang, X.-L. and Wang, X.-G. and Hu, B. and Zhang, L. and Zhang, W. and Si, H.-R. and Zhu, Y. and Li, B. and Huang, C.-L. and Chen, H.-D. and Chen, J. and Luo, Y. and Guo, H. and Jiang, R.-D. and Liu, M.-Q. and Chen, Y. and Shen, X.-R. and Wang, X. and Zheng, X.-S. and Zhao, K. and Chen, Q.-J. and Deng, F. and Liu, L.-L. and Yan, B. and Zhan, F.-X. and Wang, Y.-Y. and Xiao, G.-F. and Shi, Z.-L.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  medium = {Internet},\n  url = {http://dx.doi.org/10.1038/s41586-020-2012-7},\n  note = {PMID: 32015507},\n  language = {},\n  urldate = {2020 Feb 3;}\n}\n@article{lu-a,\n  author = {Lu, R. and Zhao, X. and Li, J. and Niu, P. and Yang, B. and Wu, H. and Wang, W. and Song, H. and Huang, B. and Zhu, N. and Bi, Y. and Ma, X. and Zhan, F. and Wang, L. and Hu, T. and Zhou, H. and Hu, Z. and Zhou, W. and Zhao, L. and Chen, J. and Meng, Y. and Wang, J. and Lin, Y. and Yuan, J. and Xie, Z. and Ma, J. and Liu, W.J. and Wang, D.},\n  title = {Xu},\n  editor = {W, Holmes E.C. and GF, Gao and G, Wu and W, Chen and W, Shi and W, Tan},\n  journal = {Lancet},\n  medium = {Internet},\n  url = {http://dx.doi.org/10.1016/S0140-6736},\n  volume = {PMID:},\n  pages = {32007145},\n  source = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  language = {},\n  urldate = {2020 Jan 30;}\n}\n@article{wu-a,\n  author = {Wu, F. and Zhao, S. and Yu, B. and Chen, Y.-M. and Wang, W. and Song, Z.-G. and Hu, Y. and Tao, Z.-W. and Tian, J.-H. and Pei, Y.-Y. and Yuan, M.-L. and Zhang, Y.-L. and Dai, F.-H. and Liu, Y. and Wang, Q.-M. and Zheng, J.-J. and Xu, L. and Holmes, E.C. and Zhang, Y.-Z.},\n  title = {A new coronavirus associated with human respiratory disease in China},\n  journal = {Nature},\n  medium = {Internet},\n  url = {http://dx.doi.org/10.1038/s41586-020-2008-3},\n  note = {PMID: 32015508},\n  language = {},\n  urldate = {2020 Feb 3;}\n}\n@article{holshue-a,\n  author = {Holshue, M.L. and DeBolt, C. and Lindquist, S. and Lofy, K.H. and Wiesman, J. and Bruce, H. and Spitters, C. and Ericson, K. and Wilkerson, S. and Tural, A. and Diaz, G. and Cohn, A. and Fox, L. and Patel, A. and Gerber, S.I. and Kim, L. and Tong, S. and Lu, X. and Lindstrom, S. and Pallansch, M.A. and Weldon, W.C. and Biggs, H.M. and Uyeki, T.M. and Pillai, S.K.},\n  title = {Washington State 2019-nCoV Case Investigation Team. First Case of 2019 Novel Coronavirus in the United States},\n  journal = {N Engl J Med},\n  medium = {Internet},\n  url = {http://dx.doi.org/10.1056/NEJMoa2001191},\n  language = {},\n  urldate = {2020 Jan 31;}\n}\n@article{gruening2018a,\n  author = {Gr\u00fcning, B. and Dale, R. and Sj\u00f6din, A. and Chapman, B.A. and Rowe, J. and Tomkins-Tinch, C.H. and Valieris, R. and K\u00f6ster, J. and Team, Bioconda},\n  title = {Bioconda: sustainable and comprehensive software distribution for the life sciences},\n  journal = {Nat Methods},\n  date = {2018-07},\n  volume = {15},\n  pages = {475\u2013476},\n  note = {PMID: 29967506},\n  number = {7},\n  language = {}\n}\n@incollection{goecks2010a,\n  author = {Goecks, J. and Nekrutenko, A. and Taylor, J. and Team, G.},\n  title = {Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences},\n  source = {1510 Clifton Road},\n  publisher = {GA 30322, USA. jeremy.goecks@emory.edu: BioMed Central Ltd},\n  date = {2010-01-01},\n  volume = {11},\n  pages = {86},\n  number = {8},\n  language = {},\n  address = {NE, Atlanta},\n  organization = {Biol. Department of Biology and Department of Mathematics and Computer Science, Emory University}\n}\n@article{gruening2017a,\n  author = {Gr\u00fcning, B.A. and Rasche, E. and Rebolledo-Jaramillo, B. and Eberhard, C. and Houwaart, T. and Chilton, J. and Coraor, N. and Backofen, R. and Taylor, J. and Nekrutenko, A.},\n  title = {Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers},\n  journal = {PLoS Comput Biol},\n  date = {2017-05},\n  volume = {13},\n  pages = {1005425},\n  publisher = {PMCID: PMC5444614},\n  number = {5},\n  language = {}\n}\n@article{bankevich2012a,\n  author = {Bankevich, A. and Nurk, S. and Antipov, D. and Gurevich, A.A. and Dvorkin, M. and Kulikov, A.S. and Lesin, V.M. and Nikolenko, S.I. and Pham, S. and Prjibelski, A.D. and Pyshkin, A.V. and Sirotkin, A.V. and Vyahhi, N. and Tesler, G. and Alekseyev, M.A.},\n  title = {Pevzner PA. SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing},\n  journal = {J Comput Biol},\n  date = {2012-05-01},\n  volume = {19},\n  pages = {455\u2013477},\n  number = {5},\n  language = {}\n}\n@article{wick2017a,\n  author = {Wick, R.R. and Judd, L.M. and Gorrie, C.L. and Holt, K.E.},\n  title = {Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads},\n  journal = {PLoS Comput Biol},\n  date = {2017-06},\n  volume = {13},\n  pages = {1005595},\n  publisher = {PMCID: PMC5481147},\n  number = {6},\n  language = {}\n}\n@article{korber2000a,\n  author = {Korber, B. and Muldoon, M. and Theiler, J. and Gao, F. and Gupta, R. and Lapedes, A. and Hahn, B.H. and Wolinsky, S. and Bhattacharya, T.},\n  title = {Timing the ancestor of the HIV-1 pandemic strains},\n  journal = {Science},\n  date = {2000-06-09},\n  volume = {288},\n  pages = \"1789\u20131796.\" # \"12.\",\n  url = {http://virological.org/t/phylodynamic-analysis-93-genomes-15-feb-2020/356},\n  unmatched-journal = {PMID:},\n  unmatched-volume = {10846155},\n  number = {5472},\n  unmatched-pages = {12.},\n  language = {}\n}\n@incollection{schmitt9819a,\n  author = {Schmitt, M.W. and Kennedy, SR, Salk and JJ, Fox and EJ, Hiatt and JB, Loeb and L.A.},\n  title = {Detection of ultra-rare mutations by next-generation sequencing},\n  booktitle = {Proc Natl Acad Sci},\n  pages = \"U\" # \"14508\u201314513.\",\n  date = {9819-09-04},\n  volume = {109},\n  unmatched-author = {S A.},\n  source = {Departments of Pathology, Genome},\n  unmatched-pages = {14508\u201314513.},\n  number = {36},\n  language = {},\n  organization = {Sciences, and Biochemistry, University of Washington School of Medicine, Seattle, WA}\n}\n@article{walls2016a,\n  author = {Walls, A.C. and Tortorici, M.A. and Bosch, B.-J. and Frenz, B. and Rottier, P.J.M. and DiMaio, F. and Rey, F.A. and Veesler, D.},\n  title = {Cryo-electron microscopy structure of a coronavirus spike glycoprotein trimer},\n  journal = {Nature},\n  date = {2016-03-03},\n  volume = {531},\n  pages = \"114\u2013117.\" # \"276\u2013285.\",\n  publisher = {Elsevier},\n  note = {PMID: 15840526},\n  unmatched-author = {14. Duquerroy S, Vigouroux A, Rottier PJM, Rey FA, Bosch BJ.},\n  source = {Central ions and lateral asparagine/glutamine zippers stabilize the post-fusion hairpin conformation of the SARS coronavirus spike glycoprotein. Virology},\n  unmatched-journal = {PMCID:},\n  unmatched-volume = {PMC5018210 335(2):},\n  number = {7592},\n  unmatched-pages = {276\u2013285.},\n  language = {}\n}\n@article{sl2006a,\n  author = {SL, Kosakovsky Pond and D, Posada and MB, Gravenor and CH, Woelk and SDW, Frost},\n  title = {Automated phylogenetic detection of recombination using a genetic algorithm},\n  journal = {Mol Biol Evol},\n  date = {2006-10},\n  volume = {23},\n  pages = {1891\u20131901},\n  note = {PMID: 16818476},\n  number = {10},\n  language = {}\n}\n@Internet{batut2018a,\n  author = {Batut, B. and Hiltemann, S. and Bagnacani, A. and Baker, D. and Bhardwaj, V. and Blank, C. and Bretaudeau, A. and Brillet-Gu\u00e9guen, L. and \u010cech, M. and Chilton, J. and Clements, D. and Doppelt-Azeroual, O. and Erxleben, A. and Freeberg, M.A. and Gladman, S. and Hoogstrate, Y. and Hotz, H.-R. and Houwaart, T. and Jagtap, P. and Larivi\u00e8re, D. and Le Corguill\u00e9, G. and Manke, T. and Mareuil, F. and Ram\u00edrez, F. and Ryan, D. and Sigloch, F.C. and Soranzo, N. and Wolff, J. and Videm, P. and Wolfien, M. and Wubuli, A. and Yusuf, D. and Network, Galaxy Training and Taylor, J. and Backofen, R. and Nekrutenko, A. and Gr\u00fcning, B.},\n  title = {Community-Driven Data Analysis Training for Biology. Cell Syst},\n  date = {2018-06-27},\n  volume = {6},\n  pages = {752\u2013758},\n  publisher = {PMCID: PMC6296361},\n  medium = {Internet},\n  url = {https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html},\n  source = {Novel Coronavirus},\n  booktitle = {Common Workflow Language},\n  unmatched-author = {18. Garrison E, Marth G.},\n  unmatched-volume = {19.},\n  number = {6},\n  unmatched-publisher = {Centers for Disease Control and Prevention. Cornell University Library;},\n  unmatched-medium = {[Internet].},\n  unmatched-accessed = {[Internet].[cited 2020 Feb 21]. [Internet].[cited 2020 Feb 21].},\n  unmatched-url = {Available from: http://arxiv.org/abs/1207.3907v2 Available from:https://www.commonwl.org/20. Available from:https://www.nextflow.io/21.},\n  language = {},\n  urldate = {[cited 2020 Feb 19].}\n}\n@article{koester2012a,\n  author = {K\u00f6ster, J. and Rahmann, S.},\n  title = {Snakemake--a scalable bioinformatics workflow engine},\n  journal = {Bioinformatics},\n  date = {2012-10-01},\n  volume = {28},\n  pages = {2520\u20132522},\n  note = {PMID: 22908215},\n  number = {19},\n  language = {}\n}\n",
+        "links": [
+            "https://github.com/galaxyproject/SARS-CoV-2/and",
+            "https://github.com/galaxyproject/SARS-CoV-2"
+        ],
+        "emails": [
+            "anton@nekrut.org",
+            "jeremy.goecks@emory.edu",
+            "spond@temple.edu"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Zhou, P.\nAU  - Yang, X.-L.\nAU  - Wang, X.-G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nAU  - Si, H.-R.\nAU  - Zhu, Y.\nAU  - Li, B.\nAU  - Huang, C.-L.\nAU  - Chen, H.-D.\nAU  - Chen, J.\nAU  - Luo, Y.\nAU  - Guo, H.\nAU  - Jiang, R.-D.\nAU  - Liu, M.-Q.\nAU  - Chen, Y.\nAU  - Shen, X.-R.\nAU  - Wang, X.\nAU  - Zheng, X.-S.\nAU  - Zhao, K.\nAU  - Chen, Q.-J.\nAU  - Deng, F.\nAU  - Liu, L.-L.\nAU  - Yan, B.\nAU  - Zhan, F.-X.\nAU  - Wang, Y.-Y.\nAU  - Xiao, G.-F.\nAU  - Shi, Z.-L.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nC1  - Internet\nUR  - http://dx.doi.org/10.1038/s41586-020-2012-7\nN1  - PMID: 32015507\nLA  - \nC1  - 2020 Feb 3;\nER  - \n\nTY  - JOUR\nAU  - Lu, R.\nAU  - Zhao, X.\nAU  - Li, J.\nAU  - Niu, P.\nAU  - Yang, B.\nAU  - Wu, H.\nAU  - Wang, W.\nAU  - Song, H.\nAU  - Huang, B.\nAU  - Zhu, N.\nAU  - Bi, Y.\nAU  - Ma, X.\nAU  - Zhan, F.\nAU  - Wang, L.\nAU  - Hu, T.\nAU  - Zhou, H.\nAU  - Hu, Z.\nAU  - Zhou, W.\nAU  - Zhao, L.\nAU  - Chen, J.\nAU  - Meng, Y.\nAU  - Wang, J.\nAU  - Lin, Y.\nAU  - Yuan, J.\nAU  - Xie, Z.\nAU  - Ma, J.\nAU  - Liu, W.J.\nAU  - Wang, D.\nTI  - Xu\nA2  - W, Holmes E.C.\nA2  - GF, Gao\nA2  - G, Wu\nA2  - W, Chen\nA2  - W, Shi\nA2  - W, Tan\nT2  - Lancet\nC1  - Internet\nUR  - http://dx.doi.org/10.1016/S0140-6736\nVL  - PMID:\nSP  - 32007145\nT2  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nLA  - \nC1  - 2020 Jan 30;\nER  - \n\nTY  - JOUR\nAU  - Wu, F.\nAU  - Zhao, S.\nAU  - Yu, B.\nAU  - Chen, Y.-M.\nAU  - Wang, W.\nAU  - Song, Z.-G.\nAU  - Hu, Y.\nAU  - Tao, Z.-W.\nAU  - Tian, J.-H.\nAU  - Pei, Y.-Y.\nAU  - Yuan, M.-L.\nAU  - Zhang, Y.-L.\nAU  - Dai, F.-H.\nAU  - Liu, Y.\nAU  - Wang, Q.-M.\nAU  - Zheng, J.-J.\nAU  - Xu, L.\nAU  - Holmes, E.C.\nAU  - Zhang, Y.-Z.\nTI  - A new coronavirus associated with human respiratory disease in China\nT2  - Nature\nC1  - Internet\nUR  - http://dx.doi.org/10.1038/s41586-020-2008-3\nN1  - PMID: 32015508\nLA  - \nC1  - 2020 Feb 3;\nER  - \n\nTY  - JOUR\nAU  - Holshue, M.L.\nAU  - DeBolt, C.\nAU  - Lindquist, S.\nAU  - Lofy, K.H.\nAU  - Wiesman, J.\nAU  - Bruce, H.\nAU  - Spitters, C.\nAU  - Ericson, K.\nAU  - Wilkerson, S.\nAU  - Tural, A.\nAU  - Diaz, G.\nAU  - Cohn, A.\nAU  - Fox, L.\nAU  - Patel, A.\nAU  - Gerber, S.I.\nAU  - Kim, L.\nAU  - Tong, S.\nAU  - Lu, X.\nAU  - Lindstrom, S.\nAU  - Pallansch, M.A.\nAU  - Weldon, W.C.\nAU  - Biggs, H.M.\nAU  - Uyeki, T.M.\nAU  - Pillai, S.K.\nTI  - Washington State 2019-nCoV Case Investigation Team. First Case of 2019 Novel Coronavirus in the United States\nT2  - N Engl J Med\nC1  - Internet\nUR  - http://dx.doi.org/10.1056/NEJMoa2001191\nLA  - \nC1  - 2020 Jan 31;\nER  - \n\nTY  - JOUR\nAU  - Gr\u00fcning, B.\nAU  - Dale, R.\nAU  - Sj\u00f6din, A.\nAU  - Chapman, B.A.\nAU  - Rowe, J.\nAU  - Tomkins-Tinch, C.H.\nAU  - Valieris, R.\nAU  - K\u00f6ster, J.\nAU  - Team, Bioconda\nTI  - Bioconda: sustainable and comprehensive software distribution for the life sciences\nT2  - Nat Methods\nPY  - 2018\nDA  - 2018/07\nVL  - 15\nSP  - 475\nEP  - 476\nN1  - PMID: 29967506\nIS  - 7\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Goecks, J.\nAU  - Nekrutenko, A.\nAU  - Taylor, J.\nAU  - Team, G.\nTI  - Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences\nT2  - 1510 Clifton Road\nPB  - GA 30322, USA. jeremy.goecks@emory.edu: BioMed Central Ltd\nPY  - 2010\nDA  - 2010/01/01\nVL  - 11\nSP  - 86\nIS  - 8\nLA  - \nCY  - NE, Atlanta\nC1  - Biol. Department of Biology and Department of Mathematics and Computer Science, Emory University\nER  - \n\nTY  - JOUR\nAU  - Gr\u00fcning, B.A.\nAU  - Rasche, E.\nAU  - Rebolledo-Jaramillo, B.\nAU  - Eberhard, C.\nAU  - Houwaart, T.\nAU  - Chilton, J.\nAU  - Coraor, N.\nAU  - Backofen, R.\nAU  - Taylor, J.\nAU  - Nekrutenko, A.\nTI  - Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers\nT2  - PLoS Comput Biol\nPY  - 2017\nDA  - 2017/05\nVL  - 13\nSP  - 1005425\nPB  - PMCID: PMC5444614\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bankevich, A.\nAU  - Nurk, S.\nAU  - Antipov, D.\nAU  - Gurevich, A.A.\nAU  - Dvorkin, M.\nAU  - Kulikov, A.S.\nAU  - Lesin, V.M.\nAU  - Nikolenko, S.I.\nAU  - Pham, S.\nAU  - Prjibelski, A.D.\nAU  - Pyshkin, A.V.\nAU  - Sirotkin, A.V.\nAU  - Vyahhi, N.\nAU  - Tesler, G.\nAU  - Alekseyev, M.A.\nTI  - Pevzner PA. SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing\nT2  - J Comput Biol\nPY  - 2012\nDA  - 2012/05/01\nVL  - 19\nSP  - 455\nEP  - 477\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wick, R.R.\nAU  - Judd, L.M.\nAU  - Gorrie, C.L.\nAU  - Holt, K.E.\nTI  - Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads\nT2  - PLoS Comput Biol\nPY  - 2017\nDA  - 2017/06\nVL  - 13\nSP  - 1005595\nPB  - PMCID: PMC5481147\nIS  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Korber, B.\nAU  - Muldoon, M.\nAU  - Theiler, J.\nAU  - Gao, F.\nAU  - Gupta, R.\nAU  - Lapedes, A.\nAU  - Hahn, B.H.\nAU  - Wolinsky, S.\nAU  - Bhattacharya, T.\nTI  - Timing the ancestor of the HIV-1 pandemic strains\nT2  - Science\nPY  - 2000\nDA  - 2000/06/09\nVL  - 288\nSP  - \"1789\nEP  - 1796.\" # \"12.\"\nUR  - http://virological.org/t/phylodynamic-analysis-93-genomes-15-feb-2020/356\nC1  - PMID:\nC1  - 10846155\nIS  - 5472\nC1  - 12.\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Schmitt, M.W.\nAU  - Kennedy, SR, Salk\nAU  - JJ, Fox\nAU  - EJ, Hiatt\nAU  - JB, Loeb\nAU  - L.A.\nTI  - Detection of ultra-rare mutations by next-generation sequencing\nT2  - Proc Natl Acad Sci\nSP  - \"U\" # \"14508\nEP  - 14513.\"\nPY  - 9819\nDA  - 9819/09/04\nVL  - 109\nC1  - S A.\nT2  - Departments of Pathology, Genome\nC1  - 14508\u201314513.\nIS  - 36\nLA  - \nC1  - Sciences, and Biochemistry, University of Washington School of Medicine, Seattle, WA\nER  - \n\nTY  - JOUR\nAU  - Walls, A.C.\nAU  - Tortorici, M.A.\nAU  - Bosch, B.-J.\nAU  - Frenz, B.\nAU  - Rottier, P.J.M.\nAU  - DiMaio, F.\nAU  - Rey, F.A.\nAU  - Veesler, D.\nTI  - Cryo-electron microscopy structure of a coronavirus spike glycoprotein trimer\nT2  - Nature\nPY  - 2016\nDA  - 2016/03/03\nVL  - 531\nSP  - \"114\nEP  - 117.\" # \"276\nPB  - Elsevier\nN1  - PMID: 15840526\nC1  - 14. Duquerroy S, Vigouroux A, Rottier PJM, Rey FA, Bosch BJ.\nT2  - Central ions and lateral asparagine/glutamine zippers stabilize the post-fusion hairpin conformation of the SARS coronavirus spike glycoprotein. Virology\nC1  - PMCID:\nC1  - PMC5018210 335(2):\nIS  - 7592\nC1  - 276\u2013285.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - SL, Kosakovsky Pond\nAU  - D, Posada\nAU  - MB, Gravenor\nAU  - CH, Woelk\nAU  - SDW, Frost\nTI  - Automated phylogenetic detection of recombination using a genetic algorithm\nT2  - Mol Biol Evol\nPY  - 2006\nDA  - 2006/10\nVL  - 23\nSP  - 1891\nEP  - 1901\nN1  - PMID: 16818476\nIS  - 10\nLA  - \nER  - \n\nTY  - GEN\nAU  - Batut, B.\nAU  - Hiltemann, S.\nAU  - Bagnacani, A.\nAU  - Baker, D.\nAU  - Bhardwaj, V.\nAU  - Blank, C.\nAU  - Bretaudeau, A.\nAU  - Brillet-Gu\u00e9guen, L.\nAU  - \u010cech, M.\nAU  - Chilton, J.\nAU  - Clements, D.\nAU  - Doppelt-Azeroual, O.\nAU  - Erxleben, A.\nAU  - Freeberg, M.A.\nAU  - Gladman, S.\nAU  - Hoogstrate, Y.\nAU  - Hotz, H.-R.\nAU  - Houwaart, T.\nAU  - Jagtap, P.\nAU  - Larivi\u00e8re, D.\nAU  - Le Corguill\u00e9, G.\nAU  - Manke, T.\nAU  - Mareuil, F.\nAU  - Ram\u00edrez, F.\nAU  - Ryan, D.\nAU  - Sigloch, F.C.\nAU  - Soranzo, N.\nAU  - Wolff, J.\nAU  - Videm, P.\nAU  - Wolfien, M.\nAU  - Wubuli, A.\nAU  - Yusuf, D.\nAU  - Network, Galaxy Training\nAU  - Taylor, J.\nAU  - Backofen, R.\nAU  - Nekrutenko, A.\nAU  - Gr\u00fcning, B.\nTI  - Community-Driven Data Analysis Training for Biology. Cell Syst\nPY  - 2018\nDA  - 2018/06/27\nVL  - 6\nSP  - 752\nEP  - 758\nPB  - PMCID: PMC6296361\nC1  - Internet\nUR  - https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html\nT2  - Novel Coronavirus\nT2  - Common Workflow Language\nC1  - 18. Garrison E, Marth G.\nC1  - 19.\nIS  - 6\nC1  - Centers for Disease Control and Prevention. Cornell University Library;\nC1  - [Internet].\nC1  - [Internet].[cited 2020 Feb 21]. [Internet].[cited 2020 Feb 21].\nC1  - Available from: http://arxiv.org/abs/1207.3907v2 Available from:https://www.commonwl.org/20. Available from:https://www.nextflow.io/21.\nLA  - \nC1  - [cited 2020 Feb 19].\nER  - \n\nTY  - JOUR\nAU  - K\u00f6ster, J.\nAU  - Rahmann, S.\nTI  - Snakemake--a scalable bioinformatics workflow engine\nT2  - Bioinformatics\nPY  - 2012\nDA  - 2012/10/01\nVL  - 28\nSP  - 2520\nEP  - 2522\nN1  - PMID: 22908215\nIS  - 19\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "S1",
+                "caption": "Raw COVID-19 sequencing data available at the time of writing (Feb 20, 2020). BALF = bronchoalveolar lavage fluid, * indicates that data may not be reliable (for example, the link between SRR10903402 and [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]is inferred: neither the SRA record nor the manuscript establish this relationship)"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Distribution of nucleotide changes across COVID-19 genome. AF = minor allele frequency, POS = position"
+            },
+            {
+                "id": "2",
+                "caption": "Amino acid alignment of spike glycoprotein regions HR1 (A) and HR2 (B). The site of the Lys\u200b921Gln substitution observed by us in a COVID-19 isolate is highlighted with a black rectangle in panel A. Its corresponding salt bridge partner is highlighted with black rectangle in panel B"
+            },
+            {
+                "id": "3",
+                "caption": "Location ofpotential recombination breakpoints along the S-gene (GARD analysis)"
+            },
+            {
+                "id": "4",
+                "caption": "Analysis of branch-specific positive diversifying selection (aBSREL) along the branch leading to COVID-19 (MN988688)"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.21.959973.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959973.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959973.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959973.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959973.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959973.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959973.full/img-005.png"
+        ]
+    },
+    "sections": {
+        "design": [
+            "Analysis: Writing: System design: Tool development: Infrastructure design: Funding: The current state of much of the Wuhan pneumonia virus (COVID-19) research shows a regrettable lack of data sharing and considerable analytical obfuscation. This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure. Here we show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner. Specifically, we use all COVID-19 genomic data available in the public domain so far to (1) underscore the importance of access to raw data and to (2) demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid, reproducible research during global health crises. All our analyses are fully documented at https://github.com/galaxyproject/SARS-CoV-2.<br/><br/>The initial publications describing genomic features of COVID-19 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]used Illumina and Oxford nanopore data to elucidate the sequence composition of patient specimens (although only Wu et al [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]explicitly provided the accession numbers for their raw short read sequencing data). However, their approaches to processing, assembly, and analysis of raw data differed widely (Table 1) and ranged from transparent [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]to entirely opaque [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Such lack of analytical transparency sets a dangerous precedent. Infectious disease outbreaks often occur in locations where infrastructure necessary for data analysis may be inaccessible or unbiased interpretation of results may be politically untenable. As a consequence, there is a global need to ensure access to free, open, and robust analytical approaches that can be used by anyone in the world to analyze, interpret, and share data. Can existing tools and computational resources support such a global need? Here we show that they can: we analyzed all available raw COVID-19 data to demonstrate that analyses described in [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]can be reproduced on public infrastructure using open source tools by any researcher with an Internet connection."
+        ],
+        "acknowledgments": [
+            "Usegalaxy.org efforts are funded by NIH Grants U41 HG006620 and NSF ABI Grant 1661497. Usegalaxy.eu is supported by the German Federal Ministry of Education and Research grants 031L0101C and de.NBI-epi. Galaxy and HyPhy integration is supported by NIH grant R01 AI134384. Usegalaxy.org.au is supported by Bioplatforms Australia and the Australian Research Data Commons through funding from the Australian Government National Collaborative Research Infrastructure Strategy. Hyphy.org development team is supported by NIH grant R01GM093939. Usegalaxy.be is supported by the Research Foundation-Flanders (FWO) grant I002919N and the Flemish Supercomputer Center (VSC)."
+        ],
+        "funding": [
+            "Usegalaxy.org efforts are funded by NIH Grants U41 HG006620 and NSF ABI Grant 1661497",
+            "Usegalaxy.eu is supported by the German Federal Ministry of Education and Research grants 031L0101C and de.NBI-epi",
+            "Galaxy and HyPhy integration is supported by NIH grant R01 AI134384",
+            "Usegalaxy.org.au is supported by Bioplatforms Australia and the Australian Research Data Commons through funding from the Australian Government National Collaborative Research Infrastructure Strategy",
+            "Hyphy.org development team is supported by NIH grant R01GM093939",
+            "Usegalaxy.be is supported by the Research Foundation-Flanders (FWO) grant I002919N and the Flemish Supercomputer Center (VSC)"
+        ],
+        "data_availability": [
+            "https://github.com/galaxyproject/SARS-CoV-2/and",
+            "https://github.com/galaxyproject/SARS-CoV-2"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Table S1"
+            ]
+        },
+        "introduction": [],
+        "objectives": [
+            "The goal of our study was to (1) raise awareness of the lack of primary data necessary to effectively respond to global emergencies such as the COVID-19 outbreak and (2) demonstrate that all analyses can be performed transparently with already existing open source publicly available tools and computational infrastructure"
+        ]
+    },
+    "structured_content": {
+        "Acknowledgments": [
+            "Usegalaxy.org efforts are funded by NIH Grants U41 HG006620 and NSF ABI Grant 1661497. Usegalaxy.eu is supported by the German Federal Ministry of Education and Research grants 031L0101C and de.NBI-epi. Galaxy and HyPhy integration is supported by NIH grant R01 AI134384. Usegalaxy.org.au is supported by Bioplatforms Australia and the Australian Research Data Commons through funding from the Australian Government National Collaborative Research Infrastructure Strategy. Hyphy.org development team is supported by NIH grant R01GM093939. Usegalaxy.be is supported by the Research Foundation-Flanders (FWO) grant I002919N and the Flemish Supercomputer Center (VSC).",
+            "Table 1\u200b. Methods used for the analysis of primary COVID-19 data. ? = uncertain (e.g., Holshue et al [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] identify FreeBayes as an assembly tool)."
+        ],
+        "1 SRR10903401": [],
+        "2 SRR10903402": [],
+        "3 SRR10971381": [],
+        "4 SRR10948550": [],
+        "5 SRR10948474": [],
+        "6 SRR10902284": [],
+        "References": [
+            "1. Zhou P, Yang X-L, Wang X-G, Hu B, Zhang L, Zhang W, Si H-R, Zhu Y, Li B, Huang C-L, Chen H-D, Chen J, Luo Y, Guo H, Jiang R-D, Liu M-Q, Chen Y, Shen X-R, Wang X, Zheng X-S, Zhao K, Chen Q-J, Deng F, Liu L-L, Yan B, Zhan F-X, Wang Y-Y, Xiao G-F, Shi Z-L. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature [Internet]. 2020 Feb 3; Available from: http://dx.doi.org/10.1038/s41586-020-2012-7\u200b PMID: 32015507",
+            "2. Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, Wang W, Song H, Huang B, Zhu N, Bi Y, Ma X, Zhan F, Wang L, Hu T, Zhou H, Hu Z, Zhou W, Zhao L, Chen J, Meng Y, Wang J, Lin Y, Yuan J, Xie Z, Ma J, Liu WJ, Wang D, Xu W, Holmes EC, Gao GF, Wu G, Chen W, Shi W, Tan W. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet [Internet]. 2020 Jan 30; Available from: http://dx.doi.org/10.1016/S0140-6736(20)30251-8\u200b PMID: 32007145",
+            "3. Wu F, Zhao S, Yu B, Chen Y-M, Wang W, Song Z-G, Hu Y, Tao Z-W, Tian J-H, Pei Y-Y, Yuan M-L, Zhang Y-L, Dai F-H, Liu Y, Wang Q-M, Zheng J-J, Xu L, Holmes EC, Zhang Y-Z. A new coronavirus associated with human respiratory disease in China. Nature [Internet]. 2020 Feb 3; Available from: http://dx.doi.org/10.1038/s41586-020-2008-3\u200b PMID: 32015508",
+            "4. Holshue ML, DeBolt C, Lindquist S, Lofy KH, Wiesman J, Bruce H, Spitters C, Ericson K, Wilkerson S, Tural A, Diaz G, Cohn A, Fox L, Patel A, Gerber SI, Kim L, Tong S, Lu X, Lindstrom S, Pallansch MA, Weldon WC, Biggs HM, Uyeki TM, Pillai SK, Washington State 2019-nCoV Case Investigation Team. First Case of 2019 Novel Coronavirus in the United States. N Engl J Med [Internet]. 2020 Jan 31; Available from: http://dx.doi.org/10.1056/NEJMoa2001191\u200b PMID: 32004427",
+            "5. Gr\u00fcning B, Dale R, Sj\u00f6din A, Chapman BA, Rowe J, Tomkins-Tinch CH, Valieris R, K\u00f6ster J, Bioconda Team. Bioconda: sustainable and comprehensive software distribution for the life sciences. Nat Methods. 2018 Jul;15(7):475\u2013476. PMID: 29967506",
+            "6. Goecks J, Nekrutenko A, Taylor J, Team G. Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences. Genome Biol. Department of Biology and Department of Mathematics and Computer Science, Emory University, 1510 Clifton Road NE, Atlanta, GA 30322, USA. jeremy.goecks@emory.edu: BioMed Central Ltd; 2010 Jan 1;11(8):R86.",
+            "7. Gr\u00fcning BA, Rasche E, Rebolledo-Jaramillo B, Eberhard C, Houwaart T, Chilton J, Coraor N, Backofen R, Taylor J, Nekrutenko A. Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers. PLoS Comput Biol. 2017 May;13(5):e1005425. PMCID: PMC5444614",
+            "8. Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing. J Comput Biol. 2012 May 1;19(5):455\u2013477.",
+            "9. Wick RR, Judd LM, Gorrie CL, Holt KE. Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads. PLoS Comput Biol. 2017 Jun;13(6):e1005595. PMCID: PMC5481147",
+            "10. Korber B, Muldoon M, Theiler J, Gao F, Gupta R, Lapedes A, Hahn BH, Wolinsky S, Bhattacharya T. Timing the ancestor of the HIV-1 pandemic strains. Science. 2000 Jun 9;288(5472):1789\u20131796. PMID: 10846155",
+            "http://virological.org/t/phylodynamic-analysis-93-genomes-15-feb-2020/356 12. Schmitt MW, Kennedy SR, Salk JJ, Fox EJ, Hiatt JB, Loeb LA. Detection of ultra-rare mutations by next-generation sequencing. Proc Natl Acad Sci U S A. Departments of Pathology, Genome Sciences, and Biochemistry, University of Washington School of Medicine, Seattle, WA 98195, USA.; 2012 Sep 4;109(36):14508\u201314513. 13. Walls AC, Tortorici MA, Bosch B-J, Frenz B, Rottier PJM, DiMaio F, Rey FA, Veesler D. Cryo-electron microscopy structure of a coronavirus spike glycoprotein trimer. Nature. 2016 Mar 3;531(7592):114\u2013117. PMCID: PMC5018210 14. Duquerroy S, Vigouroux A, Rottier PJM, Rey FA, Bosch BJ. Central ions and lateral asparagine/glutamine zippers stabilize the post-fusion hairpin conformation of the SARS coronavirus spike glycoprotein. Virology. Elsevier; 2005 May 10;335(2):276\u2013285. PMID: 15840526 15. Kosakovsky Pond SL, Posada D, Gravenor MB, Woelk CH, Frost SDW. Automated phylogenetic detection of recombination using a genetic algorithm. Mol Biol Evol. 2006 Oct;23(10):1891\u20131901. PMID: 16818476 16. Batut B, Hiltemann S, Bagnacani A, Baker D, Bhardwaj V, Blank C, Bretaudeau A, Brillet-Gu\u00e9guen L, \u010cech M, Chilton J, Clements D, Doppelt-Azeroual O, Erxleben A, Freeberg MA, Gladman S, Hoogstrate Y, Hotz H-R, Houwaart T, Jagtap P, Larivi\u00e8re D, Le Corguill\u00e9 G, Manke T, Mareuil F, Ram\u00edrez F, Ryan D, Sigloch FC, Soranzo N, Wolff J, Videm P, Wolfien M, Wubuli A, Yusuf D, Galaxy Training Network, Taylor J, Backofen R, Nekrutenko A, Gr\u00fcning B. Community-Driven Data Analysis Training for Biology. Cell Syst. 2018 Jun 27;6(6):752\u2013758.e1. PMCID: PMC6296361 17. CDC. 2019 Novel Coronavirus (2019-nCoV) [Internet]. Centers for Disease Control and Prevention. 2020 [cited 2020 Feb 19]. Available from: https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html 18. Garrison E, Marth G. Haplotype-based variant detection from short-read sequencing. arXiv.org [Internet]. Cornell University Library; 2012 Jul 17;q-bio.GN. Available from: http://arxiv.org/abs/1207.3907v2 19. Common Workflow Language [Internet]. [cited 2020 Feb 21]. Available from: https://www.commonwl.org/ 20. Nextflow - A DSL for parallel and scalable computational pipelines [Internet]. [cited 2020 Feb 21]. Available from: https://www.nextflow.io/ 21. K\u00f6ster J, Rahmann S. Snakemake--a scalable bioinformatics workflow engine. Bioinformatics. 2012 Oct 1;28(19):2520\u20132522. PMID: 22908215",
+            "Figure 1.Distribution of nucleotide changes across COVID-19 genome. AF = minor allele frequency, POS = position",
+            "A.",
+            "B.",
+            "Figure 2.Amino acid alignment of spike glycoprotein regions HR1 (A) and HR2 (B). The site of the Lys\u200b921Gln substitution observed by us in a COVID-19 isolate is highlighted with a black rectangle in panel A. Its corresponding salt bridge partner is highlighted with black rectangle in panel B.",
+            "Figure 3. Location ofpotential recombination breakpoints along the S-gene (GARD analysis).",
+            "Figure 4.Analysis of branch-specific positive diversifying selection (aBSREL) along the branch leading to COVID-19 (MN988688)."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "samples",
+            "number": 2,
+            "context": "The Lys\u200b921Gln change would prevent the formation of the salt bridge with Gln\u200b1188\u200b and may have structural and functional implications for the spike protein structure and, consequently, COVID-19 virulence. <mark class=\"stats\">This potentially adaptive change was not observed in the other two samples and lack of raw read data prevented us from identifying it in other geographically and temporally distributed samples</mark>. To detect potential genome rearrangement events that might have led to the emergence of COVID-19 we performed analysis of recombination using a genetic algorithm approach [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "porcine epidemic diarrhea virus",
+        "feline peritonitis virus",
+        "coronavirus",
+        "global health",
+        "new coronavirus",
+        "single nucleotide variants",
+        "porcine respiratory coronavirus",
+        "canine coronavirus",
+        "COVID-19",
+        "pneumonia",
+        "health emergency",
+        "genome assembly",
+        "computational infrastructure",
+        "community effort",
+        "life science",
+        "transmissible gastroenteritis coronavirus",
+        "most recent common ancestor"
+    ],
+    "keyword_relevance": {
+        "COVID-19": 0.35135135135135137,
+        "coronavirus": 0.1891891891891892,
+        "computational infrastructure": 0.06756756756756757,
+        "most recent common ancestor": 0.06756756756756757,
+        "porcine epidemic diarrhea virus": 0.02702702702702703,
+        "feline peritonitis virus": 0.02702702702702703,
+        "global health": 0.02702702702702703,
+        "new coronavirus": 0.02702702702702703,
+        "single nucleotide variants": 0.02702702702702703,
+        "porcine respiratory coronavirus": 0.02702702702702703,
+        "canine coronavirus": 0.02702702702702703,
+        "pneumonia": 0.02702702702702703,
+        "genome assembly": 0.02702702702702703,
+        "community effort": 0.02702702702702703,
+        "life science": 0.02702702702702703,
+        "transmissible gastroenteritis coronavirus": 0.02702702702702703,
+        "health emergency": 0.0
+    },
+    "species": [],
+    "summary": [
+        "This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure.",
+        "The authors show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner.",
+        "The authors use all COVID-19 genomic data available in the public domain so far to (1) underscore the importance of access to raw data and to (2) demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid, reproducible research during global health crises.",
+        "Their approaches to processing, assembly, and analysis of raw data differed widely (Table 1) and ranged from transparent [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]to entirely opaque [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+        "There is a global need to ensure access to free, open, and robust analytical approaches that can be used by anyone in the world to analyze, interpret, and share data.",
+        "The authors show that they can: the authors analyzed all available raw COVID-19 data to demonstrate that analyses described in [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]can be reproduced on public infrastructure using open source tools by any researcher with an Internet connection.",
+        "The authors exclusively used free software tools publicly available from the BioConda package distribution system [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], deployed through the worldwide network of open Galaxy platforms [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]and executed using public high throughput computational infrastructure (XSEDE in the US, VSC in Belgium, de.NBI and ELIXIR in EU, NeCTAR Research Cloud in Australia).",
+        "The authors' attempt at reproducing this analysis did identify a set of potential breakpoints similar to the ones reported by Wu et al [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], but lacking robust statistical support (Fig. 3).",
+        "The goal of the study was to (1) raise awareness of the lack of primary data necessary to effectively respond to global emergencies such as the COVID-19 outbreak and (2) demonstrate that all analyses can be performed transparently with already existing open source publicly available tools and computational infrastructure.",
+        "In an ideal world, after reading any of the original COVID-19 manuscripts any researcher should be able to apply the same analytical procedures to their own data.",
+        "The authors' short study demonstrates that viral genome analyses can be performed using open worldwide scientific infrastructure, relying entirely on community-curated and -supported open-source software.",
+        "Whatever the execution environment or workflow engine, using community supported, versioned, open source tools makes data analyses robust and transparent."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure.",
+            "The authors show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner."
+        ],
+        "Objectives": "The goal of our study was to (1) raise awareness of the lack of primary data necessary to effectively respond to global emergencies such as the COVID-19 outbreak and (2) demonstrate that all analyses can be performed transparently with already existing open source publicly available tools and computational infrastructure",
+        "Results": [
+            "The authors use all COVID-19 genomic data available in the public domain so far to (1) underscore the importance of access to raw data and to (2) demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid, reproducible research during global health crises.",
+            "Their approaches to processing, assembly, and analysis of raw data differed widely (Table 1) and ranged from transparent [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]to entirely opaque [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+            "There is a global need to ensure access to free, open, and robust analytical approaches that can be used by anyone in the world to analyze, interpret, and share data.",
+            "The authors show that they can: the authors analyzed all available raw COVID-19 data to demonstrate that analyses described in [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]can be reproduced on public infrastructure using open source tools by any researcher with an Internet connection.",
+            "The authors exclusively used free software tools publicly available from the BioConda package distribution system [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], deployed through the worldwide network of open Galaxy platforms [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]and executed using public high throughput computational infrastructure (XSEDE in the US, VSC in Belgium, de.NBI and ELIXIR in EU, NeCTAR Research Cloud in Australia).",
+            "The authors' attempt at reproducing this analysis did identify a set of potential breakpoints similar to the ones reported by Wu et al [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], but lacking robust statistical support (Fig. 3).",
+            "The goal of the study was to (1) raise awareness of the lack of primary data necessary to effectively respond to global emergencies such as the COVID-19 outbreak and (2) demonstrate that all analyses can be performed transparently with already existing open source publicly available tools and computational infrastructure.",
+            "In an ideal world, after reading any of the original COVID-19 manuscripts any researcher should be able to apply the same analytical procedures to their own data."
+        ],
+        "Conclusion": [
+            "The authors' short study demonstrates that viral genome analyses can be performed using open worldwide scientific infrastructure, relying entirely on community-curated and -supported open-source software.",
+            "Whatever the execution environment or workflow engine, using community supported, versioned, open source tools makes data analyses robust and transparent."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Zhou_et+al_0000_a",
+            "entry": "1. Zhou P, Yang X-L, Wang X-G, Hu B, Zhang L, Zhang W, Si H-R, Zhu Y, Li B, Huang C-L, Chen H-D, Chen J, Luo Y, Guo H, Jiang R-D, Liu M-Q, Chen Y, Shen X-R, Wang X, Zheng X-S, Zhao K, Chen Q-J, Deng F, Liu L-L, Yan B, Zhan F-X, Wang Y-Y, Xiao G-F, Shi Z-L. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature [Internet]. 2020 Feb 3; Available from: http://dx.doi.org/10.1038/s41586-020-2012-7 PMID:32015507",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2012-7",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2012-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2012-7"
+        },
+        {
+            "id": "2",
+            "alt_id": "Lu_et+al_0000_a",
+            "entry": "2. Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, Wang W, Song H, Huang B, Zhu N, Bi Y, Ma X, Zhan F, Wang L, Hu T, Zhou H, Hu Z, Zhou W, Zhao L, Chen J, Meng Y, Wang J, Lin Y, Yuan J, Xie Z, Ma J, Liu WJ, Wang D, Xu W, Holmes EC, Gao GF, Wu G, Chen W, Shi W, Tan W. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet [Internet]. 2020 Jan 30; Available from: http://dx.doi.org/10.1016/S0140-6736(20)30251-8 PMID:32007145",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30251-8",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30251-8",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930251-8"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wu_et+al_0000_a",
+            "entry": "3. Wu F, Zhao S, Yu B, Chen Y-M, Wang W, Song Z-G, Hu Y, Tao Z-W, Tian J-H, Pei Y-Y, Yuan M-L, Zhang Y-L, Dai F-H, Liu Y, Wang Q-M, Zheng J-J, Xu L, Holmes EC, Zhang Y-Z. A new coronavirus associated with human respiratory disease in China. Nature [Internet]. 2020 Feb 3; Available from: http://dx.doi.org/10.1038/s41586-020-2008-3 PMID:32015508",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2008-3",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2008-3",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2008-3"
+        },
+        {
+            "id": "4",
+            "alt_id": "Holshue_et+al_2019_a",
+            "entry": "4. Holshue ML, DeBolt C, Lindquist S, Lofy KH, Wiesman J, Bruce H, Spitters C, Ericson K, Wilkerson S, Tural A, Diaz G, Cohn A, Fox L, Patel A, Gerber SI, Kim L, Tong S, Lu X, Lindstrom S, Pallansch MA, Weldon WC, Biggs HM, Uyeki TM, Pillai SK, Washington State 2019-nCoV Case Investigation Team. First Case of 2019 Novel Coronavirus in the United States. N Engl J Med [Internet]. 2020 Jan 31; Available from: http://dx.doi.org/10.1056/NEJMoa2001191 PMID:32004427",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001191",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001191",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001191"
+        },
+        {
+            "id": "5",
+            "alt_id": "Gruening_et+al_2018_a",
+            "entry": "5. Gr\u00fcning B, Dale R, Sj\u00f6din A, Chapman BA, Rowe J, Tomkins-Tinch CH, Valieris R, K\u00f6ster J, Bioconda Team. Bioconda: sustainable and comprehensive software distribution for the life sciences. Nat Methods. 2018 Jul;15(7):475\u2013476. PMID: 29967506",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pubmed/29967506",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gr%C3%BCning%2C%20B.%20Dale%2C%20R.%20Sj%C3%B6din%2C%20A.%20Chapman%2C%20B.A.%20Bioconda%3A%20sustainable%20and%20comprehensive%20software%20distribution%20for%20the%20life%20sciences%202018-07",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gr%C3%BCning%2C%20B.%20Dale%2C%20R.%20Sj%C3%B6din%2C%20A.%20Chapman%2C%20B.A.%20Bioconda%3A%20sustainable%20and%20comprehensive%20software%20distribution%20for%20the%20life%20sciences%202018-07"
+        },
+        {
+            "id": "6",
+            "alt_id": "Goecks_et+al_2010_a",
+            "entry": "6. Goecks J, Nekrutenko A, Taylor J, Team G. Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences. Genome Biol. Department of Biology and Department of Mathematics and Computer Science, Emory University, 1510 Clifton Road NE, Atlanta, GA 30322, USA. jeremy.goecks@emory.edu: BioMed Central Ltd; 2010 Jan 1;11(8):R86.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Goecks%2C%20J.%20Nekrutenko%2C%20A.%20Taylor%2C%20J.%20Team%2C%20G.%20Galaxy%3A%20a%20comprehensive%20approach%20for%20supporting%20accessible%2C%20reproducible%2C%20and%20transparent%20computational%20research%20in%20the%20life%20sciences%202010-01-01",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Goecks%2C%20J.%20Nekrutenko%2C%20A.%20Taylor%2C%20J.%20Team%2C%20G.%20Galaxy%3A%20a%20comprehensive%20approach%20for%20supporting%20accessible%2C%20reproducible%2C%20and%20transparent%20computational%20research%20in%20the%20life%20sciences%202010-01-01",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Goecks%2C%20J.%20Nekrutenko%2C%20A.%20Taylor%2C%20J.%20Team%2C%20G.%20Galaxy%3A%20a%20comprehensive%20approach%20for%20supporting%20accessible%2C%20reproducible%2C%20and%20transparent%20computational%20research%20in%20the%20life%20sciences%202010-01-01"
+        },
+        {
+            "id": "7",
+            "alt_id": "Gruening_et+al_2017_a",
+            "entry": "7. Gr\u00fcning BA, Rasche E, Rebolledo-Jaramillo B, Eberhard C, Houwaart T, Chilton J, Coraor N, Backofen R, Taylor J, Nekrutenko A. Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers. PLoS Comput Biol. 2017 May;13(5):e1005425. PMCID: PMC5444614",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5444614",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gr%C3%BCning%2C%20B.A.%20Rasche%2C%20E.%20Rebolledo-Jaramillo%2C%20B.%20Eberhard%2C%20C.%20Jupyter%20and%20Galaxy%3A%20Easing%20entry%20barriers%20into%20complex%20data%20analyses%20for%20biomedical%20researchers%202017-05",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gr%C3%BCning%2C%20B.A.%20Rasche%2C%20E.%20Rebolledo-Jaramillo%2C%20B.%20Eberhard%2C%20C.%20Jupyter%20and%20Galaxy%3A%20Easing%20entry%20barriers%20into%20complex%20data%20analyses%20for%20biomedical%20researchers%202017-05"
+        },
+        {
+            "id": "8",
+            "alt_id": "Bankevich_et+al_2012_a",
+            "entry": "8. Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing. J Comput Biol. 2012 May 1;19(5):455\u2013477.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bankevich%2C%20A.%20Nurk%2C%20S.%20Antipov%2C%20D.%20Gurevich%2C%20A.A.%20Pevzner%20PA.%20SPAdes%3A%20A%20New%20Genome%20Assembly%20Algorithm%20and%20Its%20Applications%20to%20Single-Cell%20Sequencing%202012-05-01",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bankevich%2C%20A.%20Nurk%2C%20S.%20Antipov%2C%20D.%20Gurevich%2C%20A.A.%20Pevzner%20PA.%20SPAdes%3A%20A%20New%20Genome%20Assembly%20Algorithm%20and%20Its%20Applications%20to%20Single-Cell%20Sequencing%202012-05-01",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bankevich%2C%20A.%20Nurk%2C%20S.%20Antipov%2C%20D.%20Gurevich%2C%20A.A.%20Pevzner%20PA.%20SPAdes%3A%20A%20New%20Genome%20Assembly%20Algorithm%20and%20Its%20Applications%20to%20Single-Cell%20Sequencing%202012-05-01"
+        },
+        {
+            "id": "9",
+            "alt_id": "Wick_et+al_2017_a",
+            "entry": "9. Wick RR, Judd LM, Gorrie CL, Holt KE. Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads. PLoS Comput Biol. 2017 Jun;13(6):e1005595. PMCID: PMC5481147",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5481147",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wick%2C%20R.R.%20Judd%2C%20L.M.%20Gorrie%2C%20C.L.%20Holt%2C%20K.E.%20Unicycler%3A%20Resolving%20bacterial%20genome%20assemblies%20from%20short%20and%20long%20sequencing%20reads%202017-06",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wick%2C%20R.R.%20Judd%2C%20L.M.%20Gorrie%2C%20C.L.%20Holt%2C%20K.E.%20Unicycler%3A%20Resolving%20bacterial%20genome%20assemblies%20from%20short%20and%20long%20sequencing%20reads%202017-06"
+        },
+        {
+            "id": "10",
+            "alt_id": "Korber_et+al_2000_a",
+            "entry": "10. Korber B, Muldoon M, Theiler J, Gao F, Gupta R, Lapedes A, Hahn BH, Wolinsky S, Bhattacharya T. Timing the ancestor of the HIV-1 pandemic strains. Science. 2000 Jun 9;288(5472):1789\u20131796. PMID: 10846155 http://virological.org/t/phylodynamic-analysis-93-genomes-15-feb-2020/356 12.",
+            "url": "http://virological.org/t/phylodynamic-analysis-93-genomes-15-feb-2020/356",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pubmed/10846155",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Korber%2C%20B.%20Muldoon%2C%20M.%20Theiler%2C%20J.%20Gao%2C%20F.%20Timing%20the%20ancestor%20of%20the%20HIV-1%20pandemic%20strains%202000-06-09",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Korber%2C%20B.%20Muldoon%2C%20M.%20Theiler%2C%20J.%20Gao%2C%20F.%20Timing%20the%20ancestor%20of%20the%20HIV-1%20pandemic%20strains%202000-06-09"
+        },
+        {
+            "id": "Schmitt_et+al_9819_a",
+            "alt_id": "11",
+            "entry": "Schmitt MW, Kennedy SR, Salk JJ, Fox EJ, Hiatt JB, Loeb LA. Detection of ultra-rare mutations by next-generation sequencing. Proc Natl Acad Sci U S A. Departments of Pathology, Genome Sciences, and Biochemistry, University of Washington School of Medicine, Seattle, WA 98195, USA.; 2012 Sep 4;109(36):14508\u201314513.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Schmitt%2C%20M.W.%20Kennedy%2C%20SR%2C%20Salk%20JJ%2C%20Fox%20EJ%2C%20Hiatt%20Detection%20of%20ultra-rare%20mutations%20by%20next-generation%20sequencing%209819-09-04",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Schmitt%2C%20M.W.%20Kennedy%2C%20SR%2C%20Salk%20JJ%2C%20Fox%20EJ%2C%20Hiatt%20Detection%20of%20ultra-rare%20mutations%20by%20next-generation%20sequencing%209819-09-04",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Schmitt%2C%20M.W.%20Kennedy%2C%20SR%2C%20Salk%20JJ%2C%20Fox%20EJ%2C%20Hiatt%20Detection%20of%20ultra-rare%20mutations%20by%20next-generation%20sequencing%209819-09-04"
+        },
+        {
+            "id": "13",
+            "alt_id": "Walls_et+al_2016_a",
+            "entry": "13. Walls AC, Tortorici MA, Bosch B-J, Frenz B, Rottier PJM, DiMaio F, Rey FA, Veesler D. Cryo-electron microscopy structure of a coronavirus spike glycoprotein trimer. Nature. 2016 Mar 3;531(7592):114\u2013117. PMCID: PMC5018210 14. Duquerroy S, Vigouroux A, Rottier PJM, Rey FA, Bosch BJ. Central ions and lateral asparagine/glutamine zippers stabilize the post-fusion hairpin conformation of the SARS coronavirus spike glycoprotein. Virology. Elsevier; 2005 May 10;335(2):276\u2013285. PMID: 15840526",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pubmed/15840526",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Walls%2C%20A.C.%20Tortorici%2C%20M.A.%20Bosch%2C%20B.-J.%20Frenz%2C%20B.%20Cryo-electron%20microscopy%20structure%20of%20a%20coronavirus%20spike%20glycoprotein%20trimer%202016-03-03",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Walls%2C%20A.C.%20Tortorici%2C%20M.A.%20Bosch%2C%20B.-J.%20Frenz%2C%20B.%20Cryo-electron%20microscopy%20structure%20of%20a%20coronavirus%20spike%20glycoprotein%20trimer%202016-03-03"
+        },
+        {
+            "id": "15",
+            "alt_id": "Kosakovsky_et+al_2006_a",
+            "entry": "15. Kosakovsky Pond SL, Posada D, Gravenor MB, Woelk CH, Frost SDW. Automated phylogenetic detection of recombination using a genetic algorithm. Mol Biol Evol. 2006 Oct;23(10):1891\u20131901. PMID: 16818476",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pubmed/16818476",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=SL%2C%20Kosakovsky%20Pond%20D%2C%20Posada%20MB%2C%20Gravenor%20CH%2C%20Woelk%20Automated%20phylogenetic%20detection%20of%20recombination%20using%20a%20genetic%20algorithm%202006-10",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=SL%2C%20Kosakovsky%20Pond%20D%2C%20Posada%20MB%2C%20Gravenor%20CH%2C%20Woelk%20Automated%20phylogenetic%20detection%20of%20recombination%20using%20a%20genetic%20algorithm%202006-10"
+        },
+        {
+            "id": "16",
+            "alt_id": "Batut_et+al_2018_a",
+            "entry": "16. Batut B, Hiltemann S, Bagnacani A, Baker D, Bhardwaj V, Blank C, Bretaudeau A, Brillet-Gu\u00e9guen L, \u010cech M, Chilton J, Clements D, Doppelt-Azeroual O, Erxleben A, Freeberg MA, Gladman S, Hoogstrate Y, Hotz H-R, Houwaart T, Jagtap P, Larivi\u00e8re D, Le Corguill\u00e9 G, Manke T, Mareuil F, Ram\u00edrez F, Ryan D, Sigloch FC, Soranzo N, Wolff J, Videm P, Wolfien M, Wubuli A, Yusuf D, Galaxy Training Network, Taylor J, Backofen R, Nekrutenko A, Gr\u00fcning B. Community-Driven Data Analysis Training for Biology. Cell Syst. 2018 Jun 27;6(6):752\u2013758.e1. PMCID: PMC6296361 17. CDC. 2019 Novel Coronavirus (2019-nCoV) [Internet]. Centers for Disease Control and Prevention. 2020 [cited 2020 Feb 19]. Available from: https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html 18. Garrison E, Marth G. Haplotype-based variant detection from short-read sequencing. arXiv.org [Internet]. Cornell University Library; 2012 Jul 17;q-bio.GN. Available from: http://arxiv.org/abs/1207.3907v2 19. Common Workflow Language [Internet].[cited 2020 Feb 21]. Available from:https://www.commonwl.org/20. Nextflow - A DSL for parallel and scalable computational pipelines [Internet].[cited 2020 Feb 21]. Available from:https://www.nextflow.io/21.",
+            "url": "https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html",
+            "arxiv_url": "https://arxiv.org/pdf/1207.3907v2",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6296361"
+        },
+        {
+            "id": "Koester_2012_a",
+            "alt_id": "15",
+            "entry": "K\u00f6ster J, Rahmann S. Snakemake--a scalable bioinformatics workflow engine. Bioinformatics. 2012 Oct 1;28(19):2520\u20132522. PMID: 22908215",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pubmed/22908215",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=K%C3%B6ster%2C%20J.%20Rahmann%2C%20S.%20Snakemake--a%20scalable%20bioinformatics%20workflow%20engine%202012-10-01",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=K%C3%B6ster%2C%20J.%20Rahmann%2C%20S.%20Snakemake--a%20scalable%20bioinformatics%20workflow%20engine%202012-10-01"
+        }
+    ],
+    "facts": [
+        "much of the Wuhan pneumonia virus research shows a regrettable lack of data sharing",
+        "which is essential for tackling public health emergencies",
+        "All our analyses are fully documented at https://github.com/galaxyproject/SARS-CoV-2",
+        "Infectious disease outbreaks often occur in locations where infrastructure",
+        "robust analytical approaches that can be used by anyone in the world to analyze",
+        "all available raw COVID-19 data to demonstrate that analyses described in",
+        "this analysis did identify a set of potential breakpoints",
+        "similar to the ones reported by Wu et al",
+        "Our short study demonstrates that viral genome analyses can be performed using open worldwide scientific infrastructure"
+    ],
+    "claims": [
+        "We show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner",
+        "Can existing tools and computational resources support such a global need? Here we show that they can: we analyzed all available raw COVID-19 data to demonstrate that analyses described in [1\u20134]can be reproduced on public infrastructure using open source tools by any researcher with an Internet connection",
+        "We found statistically significant evidence of positive diversifying selection (~7% of S-gene sites) along the branch leading to COVID-19 (Fig. 4)"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "The current state of much of the Wuhan pneumonia virus (COVID-19) research shows a regrettable lack of data sharing and considerable analytical obfuscation. This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure",
+        "All our analyses are fully documented at https://github.com/galaxyproject/SARS-CoV-2",
+        "Infectious disease outbreaks often occur in locations where infrastructure necessary for data analysis may be inaccessible or unbiased interpretation of results may be politically untenable",
+        "There is a global need to ensure access to free, open, and robust analytical approaches that can be used by anyone in the world to analyze, interpret, and share data",
+        "Can existing tools and computational resources support such a global need? Here we show that they can: we analyzed all available raw COVID-19 data to demonstrate that analyses described in [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]can be reproduced on public infrastructure using open source tools by any researcher with an Internet connection",
+        "Our attempt at reproducing this analysis did identify a set of potential breakpoints similar to the ones reported by Wu et al [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], but lacking robust statistical support (Fig. 3)",
+        "We found statistically significant evidence of positive diversifying selection (~7% of S-gene sites) along the branch leading to COVID-19 (Fig. 4)",
+        "Our short study demonstrates that viral genome analyses can be performed using open worldwide scientific infrastructure, relying entirely on community-curated and -supported open-source software"
+    ],
+    "top_statements": [
+        "The current state of much of the Wuhan pneumonia virus (COVID-19) research shows a regrettable lack of data sharing and considerable analytical obfuscation. This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure",
+        "All our analyses are fully documented at https://github.com/galaxyproject/SARS-CoV-2",
+        "Infectious disease outbreaks often occur in locations where infrastructure necessary for data analysis may be inaccessible or unbiased interpretation of results may be politically untenable",
+        "Can existing tools and computational resources support such a global need? Here we show that they can: we analyzed all available raw COVID-19 data to demonstrate that analyses described in [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]can be reproduced on public infrastructure using open source tools by any researcher with an Internet connection",
+        "Our attempt at reproducing this analysis did identify a set of potential breakpoints similar to the ones reported by Wu et al [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], but lacking robust statistical support (Fig. 3)"
+    ],
+    "headline": "Can existing tools and computational resources support such a global need? Here we show that they can: we analyzed all available raw COVID-19 data to demonstrate that analyses described in can be reproduced on public infrastructure using open source tools by any researcher with an Internet connection",
+    "contexts": [],
+    "abbreviations": {
+        "MRCA": "most recent common ancestor",
+        "SNVs": "single nucleotide variants",
+        "TGEV": "transmissible gastroenteritis coronavirus",
+        "PRCV": "porcine respiratory coronavirus",
+        "CCV": "canine coronavirus",
+        "FIPV": "feline peritonitis virus",
+        "PDEV": "porcine epidemic diarrhea virus"
+    }
+}

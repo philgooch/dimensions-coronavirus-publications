@@ -1,0 +1,355 @@
+{
+    "filename": "2020.02.07.20021071.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 2052495,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.07.20021071",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/09/2020.02.07.20021071.full.pdf"
+        },
+        "title": "Incorporating Human Movement Data to Improve Epidemiological Estimates for 2019-nCoV",
+        "date": 2020,
+        "author": "Zhidong Cao, Qingpeng Zhang, Xin Lu, Dirk Pfeiffer, Lei Wang, Hongbing Song, Tao Pei, Zhongwei Jia, Daniel Dajun Zeng",
+        "affiliations": [
+            "The State Key Laboratory of Management and Control for Complex Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China.",
+            "School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China.",
+            "Shenzhen Artificial Intelligence and Data Science Institute (Longhua), Shenzhen, China.",
+            "School of Data Science, City University of Hong Kong, Hong Kong, China.",
+            "College of Systems Engineering, National University of Defense Technology, Changsha, China.",
+            "Department of Infectious Diseases and Public Health, City University of Hong Kong, Hong Kong, China.",
+            "Wenge Tech Corporation, Beijing, China.",
+            "Chinese PLA Center for Disease Control and Prevention, Beijing, China.",
+            "State Key Laboratory of Resources and Environmental Information System, Institute of Geographical Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China.",
+            "College of Resources and Environment, University of Chinese Academy of Sciences, Beijing, China.",
+            "School of Public Health, Peking University, Beijing, China.",
+            "Correspondence to: dajun.zeng@ia.ac.cn (Daniel Dajun Zeng), urchinjj@163.com Zhongwei Jia)",
+            "These first authors contributed equally to this work."
+        ],
+        "abstract": "Estimating the key epidemiological features of the novel coronavirus (2019-nCoV) epidemic proves to be challenging, given incompleteness and delays in early data reporting, in particular, the severe under-reporting bias in the epicenter, Wuhan, Hubei Province, China. As a result, the current literature reports widely varying estimates. We developed an alternative geo-stratified debiasing estimation framework by incorporating human mobility with case reporting data in three stratified zones, i.e., Wuhan, Hubei Province excluding Wuhan, and mainland China excluding Hubei. We estimated the latent infection ratio to be around 0.12% (18,556 people) and the basic reproduction number to be 3.24 in Wuhan before the city's lockdown on January 23, 2020. The findings based on this debiasing framework have important implications to prioritization of control and prevention efforts.",
+        "references": "@misc{unknown-a,\n  title = {Ministry of Industry and Information Technology of the People's Republic of China. Regulations on the protection of personal information of telecommunications and Internet users},\n  url = {http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057729/c4700145/content.html},\n  language = {},\n  urldate = {(Jan 30, 2020).}\n}\n@misc{g-a,\n  author = {G.S.M.A.},\n  title = {GSMA guidelines on the protection of privacy in the use of mobile phone data for responding to the Ebola outbreak},\n  url = {https://www.gsma.com/mobilefordevelopment/resources/gsma-guidelines-on-theprotectionof-privacy-in-the-use-of-mobile-phone-data-for-responding-to-the-ebolaoutbreak/},\n  date = {Jan},\n  volume = {30},\n  pages = {2020},\n  language = {}\n}\n@book{sugiyama2012a,\n  author = {Sugiyama, M. and Suzuki, T. and Kanamori, T.},\n  title = {Density ratio estimation in machine learning},\n  publisher = {Cambridge University Press},\n  date = {2012},\n  unmatched-publisher = {UK,},\n  language = {},\n  address = {Cambridge}\n}\n@article{chowell2007a,\n  author = {Chowell, G. and Nishiura, H. and Bettencourt, L.M.A.},\n  title = {Comparative estimation of the reproduction number for pandemic influenza from daily case notification data},\n  journal = {Journal of the Royal Society Interface},\n  volume = {4},\n  pages = {155\u2013166},\n  date = {2007},\n  language = {}\n}\n",
+        "links": [
+            "http://www.nhc.gov.cn/xcs/yqfkdt/gzbd_index.shtml",
+            "http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml",
+            "https://www.who.int/publications-detail/global-surveillance-for-"
+        ],
+        "emails": [
+            "dajun.zeng@ia.ac.cn",
+            "urchinjj@163.com"
+        ],
+        "references_ris": "TY  - GEN\nTI  - Ministry of Industry and Information Technology of the People's Republic of China. Regulations on the protection of personal information of telecommunications and Internet users\nUR  - http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057729/c4700145/content.html\nLA  - \nC1  - (Jan 30, 2020).\nER  - \n\nTY  - GEN\nAU  - G.S.M.A.\nTI  - GSMA guidelines on the protection of privacy in the use of mobile phone data for responding to the Ebola outbreak\nUR  - https://www.gsma.com/mobilefordevelopment/resources/gsma-guidelines-on-theprotectionof-privacy-in-the-use-of-mobile-phone-data-for-responding-to-the-ebolaoutbreak/\nPY  - Jan\nDA  - Jan\nVL  - 30\nSP  - 2020\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Sugiyama, M.\nAU  - Suzuki, T.\nAU  - Kanamori, T.\nTI  - Density ratio estimation in machine learning\nPB  - Cambridge University Press\nPY  - 2012\nDA  - 2012\nC1  - UK,\nLA  - \nCY  - Cambridge\nER  - \n\nTY  - JOUR\nAU  - Chowell, G.\nAU  - Nishiura, H.\nAU  - Bettencourt, L.M.A.\nTI  - Comparative estimation of the reproduction number for pandemic influenza from daily case notification data\nT2  - Journal of the Royal Society Interface\nVL  - 4\nSP  - 155\nEP  - 166\nPY  - 2007\nDA  - 2007\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "S1",
+                "caption": "The number of people traveling from Wuhan (N), the cumulative number of confirmed cases (C), and the latent infection ratio ( ) as of January 29, 2020"
+            },
+            {
+                "id": "S2",
+                "caption": "The cumulative number of confirmed cases as of January 29, 2020, with information concerning secondary transmission for the seven provinces and municipalities providing such information"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "A geo-stratified debiasing estimation framework. The latent infection ratio was estimated from the number of people traveling from Wuhan to other destinations of mainland China. before the lockdown, and the confirmed 2019-nCoV case reporting data in these destinations. The estimation of the latent infection ratio enabled additional epidemiological modeling work such as calculating the 2019-nCoV\u2019s basic reproduction number and inferring the actual size of the epidemic in Wuhan"
+            },
+            {
+                "id": "2",
+                "caption": "The relationship between the number of people traveling from Wuhan during the period of January 16, 2020 to January 22, 2020, and the number of confirmed 2019-nCoV cases during the period of January 23, 2020 to January 29, 2020. (A) For 12 provinces and municipalities each receiving 30,000+ travelers from Wuhan. (B) For 14 cities in Hubei each receiving 100,000+ travelers from Wuhan. (C) data aggregated for Wuhan, Hubei Province excluding Wuhan, and mainland China excluding Hubei, as well as linear fits"
+            },
+            {
+                "id": "3",
+                "caption": "The model-predicted size of the 2019-nCoV epidemic. (A) The model-predicted cumulative number of confirmed cases in Wuhan, Hubei excluding Wuhan, and Mainland China excluding Hubei. (B) The number of 2019-nCoV L&I persons spread across Chinese Mainland on January 22, 2020"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.07.20021071.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.20021071.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.20021071.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.20021071.full/img-002.png"
+        ]
+    },
+    "sections": {
+        "discussion": [
+            "This report introduces a geo-stratified approach for estimating the latent infection ratio in Wuhan with the presence of severe under-screening and underreporting biases. The estimated latent infection ratio enabled us to conduct further epidemiological investigations to better understand the ongoing 2019-nCoV epidemic.<br/><br/>Our findings have important implications with respect to the development of 2019-nCoV control and prevention policies in mainland China. First, the previous estimates of R0 are likely to have resulted in an underestimation of the transmissibility of 2019-nCoV, mainly due to the under-reporting bias during the early phase in Wuhan. Second, the actual epidemic size in Wuhan and Hubei is larger than what has so far been reported based on confirmed case data. Third, for parts of Mainland China outside Hubei the risk of further outbreaks is likely to be limited, as long as locally occurring cases of secondary and tertiary transmissions can be detected and isolated effectively. The recent quarantine lockdown of Wenzhou was in response to detection of large numbers of secondary transmissions."
+        ],
+        "acknowledgments": [
+            "The authors thank J. Yang, L. Li, H. Zhou, Y. Ye and K. Tang who helped with the initial data collection and cleaning."
+        ],
+        "funding": [
+            "This work was supported in part by grants from the Ministry of Science and Technology (2016QY02D0305), National Natural Science Foundation of China (71621002, 71771213, 71790615, 71972164 and 91846301), Chinese Academy of Sciences (ZDRW-XH2017-3), and the Hunan Science and Technology Plan Project (2017RS3040, 2018JJ1034). Author contributions: DDZ, ZC and QZ proposed the idea. ZC and QZ did the modeling and analytics. All authors contributed to the writing. Competing interests: Authors declare no competing interests. Data and materials availability: The human movement data is not available for sharing due to the constraint in the consent. All other data is available in the main text or the supplementary materials. This study was approved by the Biomedical Research Ethics Review Board of Chinese Academy of Sciences Institute of Automation (approval #IA-202001). Supplementary Materials: Materials and Methods Tables S1-S2 References (11-14)"
+        ],
+        "supplementary": [
+            "Materials for<br/><br/>Incorporating Human Movement Data to Improve Epidemiological Estimates for 2019-nCoV<br/><br/>Zhidong Cao\u2020, Qingpeng Zhang\u2020, Xin Lu, Dirk Pfeiffer, Lei Wang, Hongbing Song, Tao Pei, Zhongwei Jia*, Daniel Dajun Zeng*<br/><br/>This PDF file includes: Materials and Methods Tables S1 to S2 References 11-14"
+        ],
+        "methods": [
+            "Daily counts of confirmed 2019-nCoV cases<br/><br/>The daily counts of confirmed 2019-nCoV cases were collected from the National Health Commission of the People\u2019s Republic of China through its website accessible at http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml.<br/><br/>Additional information about these confirmed cases was retrieved from the websites of the official provincial and municipal health commissions throughout mainland China. A listing of these websites is provided by the National Health Commission of People\u2019s Republic of China at http://www.nhc.gov.cn/xcs/yqfkdt/gzbd_index.shtml.<br/><br/>Human movement data The human movement data used in the study consists of aggregated statistics provided by the two largest telecommunications operators in China, covering the daily counts of the number of mobile phone users traveling from Wuhan and reaching other destinations outside of Wuhan in mainland China, between January 1, 2020 and January 22, 2020. Given the very high mobile phone user penetration rate in China and the 80% market share held by these two operators, these statistics are expected to be representative of the actual size of the human migration originating from Wuhan. Note that some users may have returned to Wuhan before traveling outbound again. These users were counted more than once in the human movement dataset."
+        ],
+        "disclosures": [
+            "Competing interests: Authors declare no competing interests. Data and materials availability: The human movement data is not available for sharing due to the constraint in the consent. All other data is available in the main text or the supplementary materials. This study was approved by the Biomedical Research Ethics Review Board of Chinese Academy of Sciences Institute of Automation (approval #IA-202001). Supplementary Materials: Materials and Methods Tables S1-S2 References (11-14)"
+        ],
+        "ethical_compliance": [
+            "This study was approved by the Biomedical Research Ethics Review Board of Chinese Academy of Sciences Institute of Automation (approval #IA-202001)"
+        ],
+        "data_availability": [
+            "All other data is available in the main text or the supplementary materials"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "supplementary materials"
+            ],
+            "supplementary_figure_references": [
+                "Tables S1-S2",
+                "Tables S1 to S2",
+                "Table S1",
+                "Table S2",
+                "Tables S1 and S2"
+            ]
+        },
+        "introduction": [
+            "Similarly, Fig. 2B presents the same relationship for 14 cities within Hubei Province. These cities had received at least 100,000 travelers from Wuhan. From Fig. 2A and Fig. 2B, we observe a statistically significant positive linear relationship between the number of travelers from Wuhan and the cumulative case count in most provinces and cities. For two provinces, Zhejiang and Jiangsu (in Fig. 2A), and two Hubei cities, Xiaogan and Huanggang (in Fig. 2B), we observe superlinear growth in the cumulative case counts, explainable by the known significant secondary local transmissions. Fig. 2C presents zone-level aggregated results.",
+            "Under our proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%). Based on this latent infection ratio, we inferred that there were in total 18,556 (95% CI: 14,13422,978) L&I persons in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan. Among these L&I persons, 10,887 (95% CI: 8,292-13,481) stayed in Wuhan on January 23, 2020, when the lockdown was initiated, and the remaining 7,669 (95% CI: 5,842-9,497) traveled to other parts of mainland China. Among the traveling L&I persons, 4,644-7,549 went to other places in Hubei Province, and 1,198 to 1,947 to places outside Hubei."
+        ]
+    },
+    "structured_content": {
+        "Discussion": [
+            "This report introduces a geo-stratified approach for estimating the latent infection ratio in Wuhan with the presence of severe under-screening and underreporting biases. The estimated latent infection ratio enabled us to conduct further epidemiological investigations to better understand the ongoing 2019-nCoV epidemic.",
+            "Our findings have important implications with respect to the development of 2019-nCoV control and prevention policies in mainland China. First, the previous estimates of R0 are likely to have resulted in an underestimation of the transmissibility of 2019-nCoV, mainly due to the under-reporting bias during the early phase in Wuhan. Second, the actual epidemic size in Wuhan and Hubei is larger than what has so far been reported based on confirmed case data. Third, for parts of Mainland China outside Hubei the risk of further outbreaks is likely to be limited, as long as locally occurring cases of secondary and tertiary transmissions can be detected and isolated effectively. The recent quarantine lockdown of Wenzhou was in response to detection of large numbers of secondary transmissions.",
+            "It is absolute key for being able to prevent this epidemic from becoming a pandemic that cases of clinical disease are detected and isolated as early as possible. In addition, all high-risk contacts need to be traced to identify secondary transmissions. The public health surveillance system in China is facing tremendous challenge give the population size and sensitivity of the system is to be enhanced. It is therefore paramount that available resources are used optimally. An understanding of the spatial distribution of the L&I persons is critical in this context, since they are the reservoir of clinical cases and of secondary transmission, although to a lesser extent than clinical cases. The annual migration around the Lunar New Year compounded the situation in that it immensely increased movements across the country. The human movement data utilized in this study provides a robust data source for estimating the likely dissemination of 2019-nCoV cases across the country (Fig. 3B), providing important epidemiological information that is much less affected by delayed- or under-reporting bias. The management of the epidemic over the coming weeks when people travel back from their hometowns to their work places will be critical for being able to bring it under control. We recommend that the national and local authorities process real-time human movement data through mathematical models to forecast the spatio-temporal dynamics of further 2019-nCoV outbreaks across Mainland China. This will allow developing early detection, isolation and quarantine strategies tailored to the very dynamic epidemiological situation, as well as identify potential problems in the implementation of local disease control policies and inform the design of any necessary adjustments.",
+            "References and Notes: 1. Q. Li, X. Guan, P. Wu, X. Wang, L. Zhou, Y. Tong, R. Ren, K. S. M. Leung, E. H. Y. Lau, J. Y. Wong, X. Xing, N. Xiang, Y. Wu, C. Li, Q. Chen, D. Li, T. Liu, J. Zhao, M. Li, W. Tu, C. Chen, L. Jin, R. Yang, Q. Wang, S. Zhou, R. Wang, H. Liu, Y. Luo, Y. Liu, G. Shao, H. Li, Z. Tao, Y. Yang, Z. Deng, B. Liu, Z. Ma, Y. Zhang, G. Shi, T. T. Y. Lam, J. T. K. Wu, G. F. Gao, B. J. Cowling, B. Yang, G. M. Leung, Z. Feng, Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N. Engl. J. Med., NEJMoa2001316 (2020).",
+            "2. C. Wang, P. W. Horby, F. G. Hayden, G. F. Gao, A novel coronavirus outbreak of global health concern. Lancet (2020), doi:10.1016/S0140-6736(20)30185-9.",
+            "3. World Health Organization, \u201cNovel Coronavirus(2019-nCoV) Situation Report-7\u201d (2020), (available at https://www.who.int/publications-detail/global-surveillance-for-).",
+            "4. J. T. Wu, K. Leung, G. M. Leung, Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet (2020), doi:10.1016/S0140-6736(20)30260-9.",
+            "5. J. M. Read, J. R. Bridgen, D. A. Cummings, A. Ho, C. P. Jewell, medRxiv, in press, doi:10.1101/2020.01.23.20018549.",
+            "6. D. M. Hartley, D. L. Smith, Uncertainty in SARS epidemiology [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Lancet. 362 (2003), pp. 170\u2013171.",
+            "7. O. Razum, H. Becher, A. Kapaun, T. Junghanss, SARS, lay epidemiology, and fear [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. Lancet. 361 (2003), pp. 1739\u20131740.",
+            "8. J. Wallinga, P. Teunis, Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures. Am. J. Epidemiol. 160, 509\u2013516 (2004).",
+            "9. C. E. Mills, J. M. Robins, M. Lipsitch, Transmissibility of 1918 pandemic influenza. Nature. 432, 904\u2013906 (2004).",
+            "10. C. L. Althaus, Estimating the Reproduction Number of Ebola Virus (EBOV) During the 2014 Outbreak in West Africa. PLoS Curr. (2014), doi:10.1371/currents.outbreaks.91afb5e0f279e7f29e7056095255b288."
+        ],
+        "Acknowledgments": [
+            "The authors thank J. Yang, L. Li, H. Zhou, Y. Ye and K. Tang who helped with the initial data collection and cleaning.",
+            "Funding: This work was supported in part by grants from the Ministry of Science and Technology (2016QY02D0305), National Natural Science Foundation of China (71621002, 71771213, 71790615, 71972164 and 91846301), Chinese Academy of Sciences (ZDRW-XH2017-3), and the Hunan Science and Technology Plan Project (2017RS3040, 2018JJ1034). Author contributions: DDZ, ZC and QZ proposed the idea. ZC and QZ did the modeling and analytics. All authors contributed to the writing. Competing interests: Authors declare no competing interests. Data and materials availability: The human movement data is not available for sharing due to the constraint in the consent. All other data is available in the main text or the supplementary materials. This study was approved by the Biomedical Research Ethics Review Board of Chinese Academy of Sciences Institute of Automation (approval #IA-202001). Supplementary Materials: Materials and Methods Tables S1-S2 References (11-14)"
+        ],
+        "Supplementary": [
+            "Incorporating Human Movement Data to Improve Epidemiological Estimates for 2019-nCoV",
+            "Zhidong Cao\u2020, Qingpeng Zhang\u2020, Xin Lu, Dirk Pfeiffer, Lei Wang, Hongbing Song, Tao Pei, Zhongwei Jia*, Daniel Dajun Zeng*"
+        ],
+        "Materials and Methods": [
+            "The daily counts of confirmed 2019-nCoV cases were collected from the National Health Commission of the People\u2019s Republic of China through its website accessible at http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml.",
+            "Additional information about these confirmed cases was retrieved from the websites of the official provincial and municipal health commissions throughout mainland China. A listing of these websites is provided by the National Health Commission of People\u2019s Republic of China at http://www.nhc.gov.cn/xcs/yqfkdt/gzbd_index.shtml.",
+            "Human movement data The human movement data used in the study consists of aggregated statistics provided by the two largest telecommunications operators in China, covering the daily counts of the number of mobile phone users traveling from Wuhan and reaching other destinations outside of Wuhan in mainland China, between January 1, 2020 and January 22, 2020. Given the very high mobile phone user penetration rate in China and the 80% market share held by these two operators, these statistics are expected to be representative of the actual size of the human migration originating from Wuhan. Note that some users may have returned to Wuhan before traveling outbound again. These users were counted more than once in the human movement dataset.",
+            "Due to the sensitive nature of the telecommunications data records, data processing and aggregation was conducted in-house in the telecommunications operators\u2019 secure computing environment by their own staff, without any participation from the author team. The applicable law of \u201cProvisions on Protection of Personal Information of Telecommunications and Internet Users (Mainland China)\u201d (11), and the guidelines from the Global System for Mobile Communications Association (GSMA) on the protection of privacy in the use of mobile phone data, were followed (12). The authors have access to only exported data aggregated at the provincial and municipal level. No personal information was processed in the analysis of this study. This study was approved by the Biomedical Research Ethics Review Board of Chinese Academy of Sciences Institute of Automation (approval #IA-202001).",
+            "Estimation of latent infection ratio Among all mainland China provinces and municipalities, we first chose those to which there were at least 30,000 people traveling from Wuhan between January 1, 2020 and January 22, 2020. From this selected list of 12 provinces and municipalities, Zhejiang Province and Jiangsu Province were excluded from our latent infection ratio estimation because of known substantial secondary local transmissions, given that the first objective of our study is to estimate the latent infection ratio in Wuhan during the early stage of the epidemic. For the remaining 10 provinces and municipalities, to accommodate the commonly-assumed 7-day incubation period for 2019nCoV, we calculated the ratio between the count of confirmed cases between January 23, 2020 and January 29, 2020, and the number of people travelling from Wuhan during the period of January 16, 2020 and January 22, 2020. Table S1 presents these counts and the calculated ratios. Seven provinces and municipalities offered detailed information concerning secondary local transmissions when publishing daily case counts. Table S2 presents the cumulative data for these places.",
+            "The estimated latent infection ratio (0.12%) as reported in the main manuscript was calculated from the data reported in Tables S1 and S2, following the estimation model presented below.",
+            "Let  \" denote the number of cumulative confirmed cases in province  , and  \" the number of people traveling from Wuhan to province  . Mainland China has 31 provinces. Given the available data from the 10 selected provinces/municipalities, the latent infection ratio, the proportion of latently infected and undiagnosed infectious (L&I) persons in all people traveling from Wuhan,  , were calculated following the standard approach for ratio estimation (13), as follows.",
+            "The resulting estimated latent infection ratio is 0.12% (95% CI: 0.09%-0.15%). Using this ratio, we in turn estimated that there were 18,556 (95% CI: 14,134-22,978) L&I persons (out of 15.34 million population) in Wuhan before the city\u2019s lockdown. Among these L&I persons, 7,670 traveled to other destinations in Mainland China while the rest 10,886 remained in Wuhan.",
+            "The SEIRDC model The standard SEIR model assumes four categories of persons: Susceptible, Exposed (corresponding to the latently infected cases in the main manuscript), Infectious, and Recovered. To investigate the 2019-nCoV epidemic, we adopted a the SEIRDC model (14), which enhances the standard SEIR model by introducing an additional category of persons, Dead, and an auxiliary variable  ( ) that tracks the cumulative number of infectious persons during the outbreak. Furthermore, to take into account human movements, we customized the SEIRDC model for two epidemic areas: Wuhan and non-Wuhan (mainland China excluding Wuhan). The model is as follows.",
+            "Y( ).",
+            "dI^(t) dt k.",
+            "Table S1.",
+            "The number of people traveling from Wuhan (N), the cumulative number of confirmed cases (C), and the latent infection ratio ( ) as of January 29, 2020.",
+            "Huangsi, Hubei Jingmen, Hubei Suizhou, Hubei Xiantao, Hubei Yichang, Hubei Tianmen, Hubei",
+            "Table S2.",
+            "The cumulative number of confirmed cases as of January 29, 2020, with information concerning secondary transmission for the seven provinces and municipalities providing such information."
+        ],
+        "References": [
+            "11. Ministry of Industry and Information Technology of the People's Republic of China.",
+            "Regulations on the protection of personal information of telecommunications and Internet users. http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057729/c4700145/content.html (accessed Jan 30, 2020). 12. GSMA. GSMA guidelines on the protection of privacy in the use of mobile phone data for responding to the Ebola outbreak. https://www.gsma.com/mobilefordevelopment/resources/gsma-guidelines-on-theprotectionof-privacy-in-the-use-of-mobile-phone-data-for-responding-to-the-ebolaoutbreak/ (accessed Jan 30, 2020). 13. M. Sugiyama, T. Suzuki, T. Kanamori. Density ratio estimation in machine learning. (Cambridge University Press, Cambridge, UK, 2012). 14. G. Chowell, H. Nishiura, L. M. A. Bettencourt, Comparative estimation of the reproduction number for pandemic influenza from daily case notification data. Journal of the Royal Society Interface. 4, 155\u2013166 (2007)."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "people",
+            "number": 18556,
+            "context": "We developed an alternative geo-stratified debiasing estimation framework by incorporating human mobility with case reporting data in three stratified zones, i.e., Wuhan, Hubei Province excluding Wuhan, and mainland China excluding Hubei. <mark class=\"stats\">We estimated the latent infection ratio to be around 0.12% (18,556 people) and the basic reproduction number to be 3.24 in Wuhan before the city's lockdown on January 23, 2020</mark>. The findings based on this debiasing framework have important implications to prioritization of control and prevention efforts"
+        },
+        {
+            "participant": "people",
+            "number": 30000,
+            "context": "This study was approved by the Biomedical Research Ethics Review Board of Chinese Academy of Sciences Institute of Automation (approval #IA-202001). <mark class=\"stats\">Estimation of latent infection ratio Among all mainland China provinces and municipalities, we first chose those to which there were at least 30,000 people traveling from Wuhan between January 1, 2020 and January 22, 2020</mark>. From this selected list of 12 provinces and municipalities, Zhejiang Province and Jiangsu Province were excluded from our latent infection ratio estimation because of known substantial secondary local transmissions, given that the first objective of our study is to estimate the latent infection ratio in Wuhan during the early stage of the epidemic"
+        },
+        {
+            "participant": "categories of persons",
+            "number": 4,
+            "context": "Among these L&I persons, 7,670 traveled to other destinations in Mainland China while the rest 10,886 remained in Wuhan. <mark class=\"stats\">The SEIRDC model The standard SEIR model assumes four categories of persons: Susceptible, Exposed (corresponding to the latently infected cases in the main manuscript), Infectious, and Recovered</mark>. To investigate the 2019-nCoV epidemic, we adopted a the SEIRDC model (14), which enhances the standard SEIR model by introducing an additional category of persons, Dead, and an auxiliary variable  ( ) that tracks the cumulative number of infectious persons during the outbreak"
+        },
+        {
+            "participant": "travelers",
+            "number": 30000,
+            "context": "The lag between these two time intervals was introduced to accommodate the commonlyassumed 7-day incubation period for 2019-nCoV (3). <mark class=\"stats\">These representative provinces and municipalities are those that had received at least 30,000 travelers from Wuhan within a threeweek window starting on January 1, 2020 and ending on January 22, 2020, prior to the lockdown</mark>. Similarly, Fig. 2B presents the same relationship for 14 cities within Hubei Province"
+        },
+        {
+            "participant": "travelers",
+            "number": 100000,
+            "context": "Similarly, Fig. 2B presents the same relationship for 14 cities within Hubei Province. <mark class=\"stats\">These cities had received at least 100,000 travelers from Wuhan</mark>. From Fig. 2A and Fig. 2B, we observe a statistically significant positive linear relationship between the number of travelers from Wuhan and the cumulative case count in most provinces and cities"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Given the available data from the 10 selected provinces/municipalities, the latent infection ratio, the proportion of latently infected and undiagnosed infectious (L&I) persons in all people traveling from Wuhan,  , were calculated following the standard approach for ratio estimation (13), as follows</mark>",
+                "tests": [
+                    {
+                        "test": "ratio estimation"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "geo stratified",
+        "important implication",
+        "mainland china",
+        "hubei province",
+        "latently infected and undiagnosed infectious",
+        "cumulative case",
+        "l&i person",
+        "latent infection ratio",
+        "Ebola Virus",
+        "Global System for Mobile Communications Association",
+        "reproduction number"
+    ],
+    "keyword_relevance": {
+        "latent infection ratio": 0.3541666666666667,
+        "latently infected and undiagnosed infectious": 0.3333333333333333,
+        "reproduction number": 0.10416666666666667,
+        "Global System for Mobile Communications Association": 0.08333333333333333,
+        "important implication": 0.041666666666666664,
+        "cumulative case": 0.041666666666666664,
+        "Ebola Virus": 0.041666666666666664,
+        "geo stratified": 0.0,
+        "mainland china": 0.0,
+        "hubei province": 0.0,
+        "l&i person": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Fig. 2B presents the same relationship for 14 cities within Hubei Province.",
+        "Under the proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%)",
+        "Based on this latent infection ratio, the authors inferred that there were in total 18,556 (95% CI: 14,13422,978) L&The author personss in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan.",
+        "Among the traveling L&The author personss, 4,644-7,549 went to other places in Hubei Province, and 1,198 to 1,947 to places outside Hubei",
+        "<h2 style=\"display: inline\">Methods:</h2> Counts of confirmed 2019-nCoV cases<br/><br/>The daily counts of confirmed 2019-nCoV cases were collected from the National Health Commission of the People\u2019s Republic of China through its website accessible at http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml.<br/><br/>Additional information about these confirmed cases was retrieved from the websites of the official provincial and municipal health commissions throughout mainland China.",
+        "The daily counts of confirmed 2019-nCoV cases were collected from the National Health Commission of the People\u2019s Republic of China through its website accessible at http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml.",
+        "Additional information about these confirmed cases was retrieved from the websites of the official provincial and municipal health commissions throughout mainland China.",
+        "These users were counted more than once in the human movement dataset",
+        "<h2 style=\"display: inline\">Results:</h2> Under the proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%)",
+        "Based on this latent infection ratio, the authors inferred that there were in total 18,556 (95% CI: 14,13422,978) L&The author personss in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan.",
+        "The authors in turn estimated that there were 18,556 (95% CI: 14,134-22,978) L&The author personss in Wuhan before the city\u2019s lockdown",
+        "<h2 style=\"display: inline\">Conclusion:</h2> This report introduces a geo-stratified approach for estimating the latent infection ratio in Wuhan with the presence of severe under-screening and underreporting biases.",
+        "The estimated latent infection ratio enabled them to conduct further epidemiological investigations to better understand the ongoing 2019-nCoV epidemic.",
+        "For parts of Mainland China outside Hubei the risk of further outbreaks is likely to be limited, as long as locally occurring cases of secondary and tertiary transmissions can be detected and isolated effectively.",
+        "The recent quarantine lockdown of Wenzhou was in response to detection of large numbers of secondary transmissions"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Fig. 2B presents the same relationship for 14 cities within Hubei Province.",
+            "Under the proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%)",
+            "Based on this latent infection ratio, the authors inferred that there were in total 18,556 (95% CI: 14,13422,978) L&The author personss in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan.",
+            "Among the traveling L&The author personss, 4,644-7,549 went to other places in Hubei Province, and 1,198 to 1,947 to places outside Hubei"
+        ],
+        "Methods": [
+            "Counts of confirmed 2019-nCoV cases<br/><br/>The daily counts of confirmed 2019-nCoV cases were collected from the National Health Commission of the People\u2019s Republic of China through its website accessible at http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml.<br/><br/>Additional information about these confirmed cases was retrieved from the websites of the official provincial and municipal health commissions throughout mainland China.",
+            "The daily counts of confirmed 2019-nCoV cases were collected from the National Health Commission of the People\u2019s Republic of China through its website accessible at http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml.",
+            "Additional information about these confirmed cases was retrieved from the websites of the official provincial and municipal health commissions throughout mainland China.",
+            "These users were counted more than once in the human movement dataset"
+        ],
+        "Results": [
+            "Under the proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%)",
+            "Based on this latent infection ratio, the authors inferred that there were in total 18,556 (95% CI: 14,13422,978) L&The author personss in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan.",
+            "The authors in turn estimated that there were 18,556 (95% CI: 14,134-22,978) L&The author personss in Wuhan before the city\u2019s lockdown"
+        ],
+        "Conclusion": [
+            "This report introduces a geo-stratified approach for estimating the latent infection ratio in Wuhan with the presence of severe under-screening and underreporting biases.",
+            "The estimated latent infection ratio enabled them to conduct further epidemiological investigations to better understand the ongoing 2019-nCoV epidemic.",
+            "For parts of Mainland China outside Hubei the risk of further outbreaks is likely to be limited, as long as locally occurring cases of secondary and tertiary transmissions can be detected and isolated effectively.",
+            "The recent quarantine lockdown of Wenzhou was in response to detection of large numbers of secondary transmissions"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "11",
+            "alt_id": "11._0000_a",
+            "entry": "11. Ministry of Industry and Information Technology of the People's Republic of China. Regulations on the protection of personal information of telecommunications and Internet users. http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057729/c4700145/content.html (accessed Jan 30, 2020).",
+            "url": "http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057729/c4700145/content.html"
+        },
+        {
+            "id": "12",
+            "alt_id": "G_Jan_a",
+            "entry": "12. GSMA. GSMA guidelines on the protection of privacy in the use of mobile phone data for responding to the Ebola outbreak. https://www.gsma.com/mobilefordevelopment/resources/gsma-guidelines-on-theprotectionof-privacy-in-the-use-of-mobile-phone-data-for-responding-to-the-ebolaoutbreak/ (accessed Jan 30, 2020).",
+            "url": "https://www.gsma.com/mobilefordevelopment/resources/gsma-guidelines-on-theprotectionof-privacy-in-the-use-of-mobile-phone-data-for-responding-to-the-ebolaoutbreak/"
+        },
+        {
+            "id": "13",
+            "alt_id": "Sugiyama_et+al_2012_a",
+            "entry": "13. M. Sugiyama, T. Suzuki, T. Kanamori. Density ratio estimation in machine learning. (Cambridge University Press, Cambridge, UK, 2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sugiyama%2C%20M.%20Suzuki%2C%20T.%20Kanamori%2C%20T.%20Density%20ratio%20estimation%20in%20machine%20learning%202012"
+        },
+        {
+            "id": "14",
+            "alt_id": "Chowell_et+al_2007_a",
+            "entry": "14. G. Chowell, H. Nishiura, L. M. A. Bettencourt, Comparative estimation of the reproduction number for pandemic influenza from daily case notification data. Journal of the Royal Society Interface. 4, 155\u2013166 (2007). ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chowell%2C%20G.%20Nishiura%2C%20H.%20Bettencourt%2C%20L.M.A.%20Comparative%20estimation%20of%20the%20reproduction%20number%20for%20pandemic%20influenza%20from%20daily%20case%20notification%20data%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chowell%2C%20G.%20Nishiura%2C%20H.%20Bettencourt%2C%20L.M.A.%20Comparative%20estimation%20of%20the%20reproduction%20number%20for%20pandemic%20influenza%20from%20daily%20case%20notification%20data%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chowell%2C%20G.%20Nishiura%2C%20H.%20Bettencourt%2C%20L.M.A.%20Comparative%20estimation%20of%20the%20reproduction%20number%20for%20pandemic%20influenza%20from%20daily%20case%20notification%20data%202007"
+        }
+    ],
+    "facts": [
+        "the latent infection ratio to be around 0.12%",
+        "The findings based on this debiasing framework have important implications to prioritization",
+        "2B presents the same relationship for 14 cities within Hubei Province",
+        "the cumulative case count in most provinces and cities",
+        "the latent infection ratio among the people traveling from Wuhan to other destinations",
+        "2019-nCoV cases were collected from the National Health Commission of the People's Republic",
+        "Additional information about these confirmed cases was retrieved from the websites",
+        "A listing of these websites is provided by the National Health Commission of People's Republic",
+        "Human movement data The human movement data used in the study consists of aggregated statistics provided by the",
+        "the daily counts of the number of mobile phone users traveling from Wuhan",
+        "the 80% market share held by these two operators",
+        "these statistics are expected to be representative of the actual size of the human migration originating from",
+        "that some users may have returned to Wuhan",
+        "likely to have resulted in an underestimation of the transmissibility",
+        "Hubei is larger than what has so far been reported based on confirmed case data",
+        "The recent quarantine lockdown of Wenzhou was in response to detection",
+        "a geo-stratified debiasing estimation framework based on the following observation",
+        "a customized epidemiological model to simulate the progression of the 2019-nCoV epidemic after the lockdown",
+        "The human movement data utilized in this study provides a robust data source",
+        "providing important epidemiological information that is much less affected by delayed-"
+    ],
+    "claims": [
+        "We developed an alternative geo-stratified debiasing estimation framework by incorporating human mobility with case reporting data in three stratified zones, i.e., Wuhan, Hubei Province excluding Wuhan, and mainland China excluding Hubei",
+        "To tackle this major challenge, we developed a geo-stratified debiasing estimation framework based on the following observation",
+        "Building on the estimated latent infection ratio, R0, and the number of L&I persons in Wuhan when the lockdown started, we developed a customized epidemiological model to simulate the progression of the 2019-nCoV epidemic after the lockdown of Wuhan (see supplementary materials for details)",
+        "The human movement data utilized in this study provides a robust data source for estimating the likely dissemination of 2019-nCoV cases across the country (Fig. 3B), providing important epidemiological information that is much less affected by delayed- or under-reporting bias"
+    ],
+    "findings": [
+        "Under our proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%)",
+        "Based on this latent infection ratio, we inferred that there were in total 18,556 (95% CI: 14,13422,978) L&I persons in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan",
+        "Under our proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%). Based on this latent infection ratio, we inferred that there were in total 18,556 (95% CI: 14,13422,978) L&I persons in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan. Among these L&I persons, 10,887 (95% CI: 8,292-13,481) stayed in Wuhan on January 23, 2020, when the lockdown was initiated, and the remaining 7,669 (95% CI: 5,842-9,497) traveled to other parts of mainland China",
+        "The resulting estimated latent infection ratio is 0.12% (95% CI: 0.09%-0.15%)",
+        "Using this ratio, we in turn estimated that there were 18,556 (95% CI: 14,134-22,978) L&I persons (out of 15.34 million population) in Wuhan before the city\u2019s lockdown"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Under our proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%)",
+        "Based on this latent infection ratio, we inferred that there were in total 18,556 (95% CI: 14,13422,978) latently infected and undiagnosed infectious persons in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan",
+        "Building on the estimated latent infection ratio, R0, and the number of latently infected and undiagnosed infectious persons in Wuhan when the lockdown started, we developed a customized epidemiological model to simulate the progression of the 2019-nCoV epidemic after the lockdown of Wuhan",
+        "Human movement data The human movement data used in the study consists of aggregated statistics provided by the two largest telecommunications operators in China, covering the daily counts of the number of mobile phone users traveling from Wuhan and reaching other destinations outside of Wuhan in mainland China, between January 1, 2020 and January 22, 2020",
+        "We in turn estimated that there were 18,556 (95% CI: 14,134-22,978) latently infected and undiagnosed infectious persons in Wuhan before the city\u2019s lockdown"
+    ],
+    "top_statements": [
+        "Similarly, Fig. 2B presents the same relationship for 14 cities within Hubei Province",
+        "Under our proposed geo-stratified debiasing framework, the latent infection ratio among the people traveling from Wuhan to other destinations in mainland China excluding Hubei within a three-week window prior to the lockdown, is estimated as 0.12% (95% CI: 0.09%-0.15%)",
+        "Based on this latent infection ratio, we inferred that there were in total 18,556 (95% CI: 14,13422,978) latently infected and undiagnosed infectious persons in Wuhan before the lockdown, under the assumption that this latent infection ratio remained the same for people traveling from and remaining in Wuhan",
+        "Building on the estimated latent infection ratio, R0, and the number of latently infected and undiagnosed infectious persons in Wuhan when the lockdown started, we developed a customized epidemiological model to simulate the progression of the 2019-nCoV epidemic after the lockdown of Wuhan",
+        "Human movement data The human movement data used in the study consists of aggregated statistics provided by the two largest telecommunications operators in China, covering the daily counts of the number of mobile phone users traveling from Wuhan and reaching other destinations outside of Wuhan in mainland China, between January 1, 2020 and January 22, 2020",
+        "We in turn estimated that there were 18,556 (95% CI: 14,134-22,978) latently infected and undiagnosed infectious persons in Wuhan before the city\u2019s lockdown"
+    ],
+    "headline": "Building on the estimated latent infection ratio, R0, and the number of latently infected and undiagnosed infectious persons in Wuhan when the lockdown started, we developed a customized epidemiological model to simulate the progression of the 2019-nCoV epidemic after the lockdown of Wuhan",
+    "contexts": [],
+    "abbreviations": {
+        "L&I": "latently infected and undiagnosed infectious",
+        "EBOV": "Ebola Virus",
+        "GSMA": "Global System for Mobile Communications Association"
+    }
+}

@@ -1,0 +1,572 @@
+{
+    "filename": "2020.02.21.959817.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 2657033,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.21.959817",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/21/2020.02.21.959817.full.pdf"
+        },
+        "title": "Rapid reconstruction of SARS-CoV-2 using a synthetic genomics platform",
+        "date": 2020,
+        "author": "Tran Thi Nhu Thao, Fabien Labroussaa, Nadine Ebert, Philip V\u2019kovski, Hanspeter Stalder, Jasmine Portmann, Jenna Kelly, Silvio Steiner, Melle Holwerda, Annika Kratzel, Mitra Gultom, Laura Laloli, Linda H\u00fcsser, Manon Wider, Stephanie Pfaender, Dagny Hirt, Valentina Cipp\u00e0, Silvia Crespo-Pomar, Simon Schr\u00f6der, Doreen Muth, Daniela Niemeyer, Marcel A. M\u00fcller, Christian Drosten, Ronald Dijkman, Joerg Jores, Volker Thiel",
+        "affiliations": [
+            "Institute of Virology and Immunology (IVI), Bern, Switzerland 10",
+            "Department of Infectious Diseases and Pathobiology, Vetsuisse Faculty, University of Bern,",
+            "Bern, Switzerland 12",
+            "Graduate School for Biomedical Science, University of Bern, Bern, Switzerland 13",
+            "Institute of Veterinary Bacteriology, Vetsuisse Faculty, University of Bern, Bern, Switzerland 14",
+            "Insitute for Infectious Diseases, University of Bern, Bern, Switzerland 15",
+            "Institute of Virology, Charit\u00e9-Universit\u00e4tsmedizin Berlin, corporate member of Freie",
+            "Universit\u00e4t Berlin, Humboldt-Universit\u00e4t zu Berlin, and Berlin Institute of Health, Berlin,",
+            "German Centre for Infection Research, associated partner Charit\u00e9, Berlin, Germany. 19",
+            "Martsinovsky Institute of Medical Parasitology, Tropical and Vector Borne Diseases, 20 Sechenov University, Moscow, Russia. 21 22 \u00b6, \u00a7: equally contributed 23 *corresponding authors:"
+        ],
+        "abstract": "Reverse genetics has been an indispensable tool revolutionising our insights into viral pathogenesis and vaccine development. Large RNA virus genomes, such as from Coronaviruses, are cumbersome to clone and to manipulate in E. coli hosts due to size and occasional instability[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Therefore, an alternative rapid and robust reverse genetics platform for RNA viruses would benefit the research community. Here we show the full functionality of a yeast-based synthetic genomics platform for the genetic reconstruction of diverse RNA viruses, including members of the Coronaviridae, Flaviviridae and Paramyxoviridae families. Viral subgenomic fragments were generated using viral isolates, cloned viral DNA, clinical samples, or synthetic DNA, and reassembled in one step in Saccharomyces cerevisiae using transformation associated recombination (TAR) cloning to maintain the genome as a yeast artificial chromosome (YAC). T7-RNA polymerase has been used to generate infectious RNA, which was then used to rescue viable virus. Based on this platform we have been able to engineer and resurrect chemically-synthetized clones of the recent epidemic SARS-CoV-24 in only a week after receipt of the synthetic DNA fragments. The technical advance we describe here allows to rapidly responding to emerging viruses as it enables the generation and functional characterization of evolving RNA virus variants - in real-time - during an outbreak.",
+        "references": "@incollection{almazan2000a,\n  author = {Almazan, F.},\n  title = {Engineering the largest RNA virus genome as an infectious},\n  booktitle = {bacterial artificial chromosome. Proc Natl Acad Sci},\n  publisher = {U S A},\n  doi = {97},\n  pages = {5516\u20135521},\n  date = {2000},\n  more-authors = {true},\n  unmatched-doi = {doi: 10.1073/pnas.97.10.5516},\n  language = {}\n}\n@article{thiel2001a,\n  author = {Thiel, V. and Herold, J. and Schelle, B. and Siddell, S.G.},\n  title = {Infectious RNA transcribed in vitro from a cDNA copy of the human coronavirus genome cloned in vaccinia virus},\n  journal = {J Gen Virol},\n  volume = {82},\n  pages = {1273\u20131281},\n  date = {2001},\n  language = {}\n}\n@article{yount2000a,\n  author = {Yount, B. and Curtis, K.M. and Baric, R.S.},\n  title = {Strategy for systematic assembly of large RNA and DNA genomes: transmissible gastroenteritis virus model},\n  journal = {J Virol},\n  volume = {74},\n  pages = {1060010611},\n  doi = {doi: 10.1128/jvi.74.22.10600-10611.2000},\n  date = {2000},\n  language = {}\n}\n@article{zhu-a,\n  author = {Zhu, N.},\n  title = {A Novel Coronavirus from Patients with Pneumonia in China, 2019},\n  journal = {N Engl J Med},\n  doi = {doi: 10.1056/NEJMoa2001017 (2020},\n  more-authors = {true},\n  language = {}\n}\n@article{zaki2012a,\n  author = {Zaki, A.M. and van Boheemen, S. and Bestebroer, T.M. and Osterhaus, A.D. and Fouchier, R.A.},\n  title = {Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia},\n  journal = {N Engl J Med},\n  volume = {367},\n  pages = {1814\u20131820},\n  doi = {doi: 10.1056/NEJMoa1211721},\n  date = {2012},\n  language = {}\n}\n@incollection{cao-lormeau2013a,\n  author = {Cao-Lormeau, V.M.},\n  title = {Zika virus, French polynesia},\n  date = {2013},\n  doi = {doi: 10.3201/eid2006.140138},\n  more-authors = {true},\n  source = {Emerg Infect Dis 20, 1085-1086},\n  language = {},\n  address = {South pacific}\n}\n@article{baize2014a,\n  author = {Baize, S.},\n  title = {Emergence of Zaire Ebola virus disease in Guinea},\n  journal = {N Engl J Med},\n  volume = {371},\n  pages = {1418\u20131425},\n  doi = {doi: 10.1056/NEJMoa1404505},\n  date = {2014},\n  more-authors = {true},\n  language = {}\n}\n@misc{unknown2010a,\n  volume = {1190719},\n  date = {2010}\n}\n@misc{unknown2009a,\n  volume = {1173759},\n  date = {2009},\n  unmatched-volume = {12}\n}\n@article{benders2010a,\n  author = {Benders, G.A.},\n  title = {Cloning whole bacterial genomes in yeast},\n  journal = {Nucleic Acids Res},\n  volume = {38},\n  pages = {2558\u20132569},\n  doi = {doi: 10.1093/nar/gkq119},\n  date = {2010},\n  more-authors = {true},\n  language = {}\n}\n@book{hutchison2016a,\n  author = {Hutchison, C. A., 3rd},\n  title = {Design and synthesis of a minimal bacterial genome},\n  publisher = {Science 351, aad6253},\n  doi = {doi: 10.1126/science.aad6253},\n  date = {2016},\n  more-authors = {true},\n  language = {}\n}\n@article{kouprina2008a,\n  author = {Kouprina, N. and Larionov, V.},\n  title = {Selective isolation of genomic loci from complex genomes by transformation-associated recombination cloning in the yeast Saccharomyces cerevisiae},\n  journal = {Nat Protoc},\n  volume = {3},\n  pages = {371\u2013377},\n  doi = {doi: 10.1038/nprot.2008.5},\n  date = {2008},\n  language = {}\n}\n@book{vashee2017a,\n  author = {Vashee, S.},\n  title = {and Modification of the Primary Human Cytomegalovirus Isolate Toledo by Yeast-Based Transformation-Associated Recombination},\n  publisher = {mSphere 2},\n  doi = {doi: 10.1128/mSphereDirect.00331-17},\n  date = {2017},\n  more-authors = {true},\n  language = {}\n}\n@incollection{oldfield2017a,\n  author = {Oldfield, L.M.},\n  title = {Genome-wide engineering of an infectious clone of herpes simplex virus type 1 using synthetic},\n  booktitle = {genomics assembly methods. Proc Natl Acad Sci},\n  publisher = {U S A 114, E8885-E8894},\n  doi = {doi: 10.1073/pnas.1700534114},\n  date = {2017},\n  more-authors = {true},\n  language = {}\n}\n@article{coley2005a,\n  author = {Coley, S.E.},\n  title = {Recombinant mouse hepatitis virus strain A59 from cloned, fulllength cDNA replicates to high titers in vitro and is fully pathogenic in vivo},\n  journal = {J Virol},\n  volume = {79},\n  pages = {3097\u20133106},\n  doi = {doi: 10.1128/JVI.79.5.3097-3106.2005},\n  date = {2005},\n  more-authors = {true},\n  language = {}\n}\n@book{zust2007a,\n  author = {Zust, R.},\n  title = {Coronavirus non-structural protein 1 is a major pathogenicity factor: implications for the rational design of coronavirus vaccines},\n  publisher = {PLoS Pathog 3, e109},\n  doi = {doi: 10.1371/journal.ppat.0030109},\n  date = {2007},\n  more-authors = {true},\n  language = {}\n}\n@article{muth2017a,\n  author = {Muth, D.},\n  title = {Transgene expression in the genome of Middle East respiratory syndrome coronavirus based on a novel reverse genetics system utilizing Redmediated recombination cloning},\n  journal = {J Gen Virol},\n  volume = {98},\n  pages = {2461\u20132469},\n  doi = {doi: 10.1099/jgv.0.000919},\n  date = {2017},\n  more-authors = {true},\n  language = {}\n}\n@article{hu2018a,\n  author = {Hu, D.},\n  title = {Genomic characterization and infectivity of a novel SARS-like coronavirus in Chinese bats},\n  journal = {Emerg Microbes Infect},\n  volume = {7},\n  doi = {doi: 10.1038/s41426-0180155-5},\n  date = {2018},\n  more-authors = {true},\n  number = {154},\n  language = {}\n}\n@article{thiel2003a,\n  author = {Thiel, V.},\n  title = {Mechanisms and enzymes involved in SARS coronavirus genome expression},\n  journal = {J Gen Virol},\n  volume = {84},\n  pages = {2305\u20132315},\n  doi = {doi: 10.1099/vir.0.19424-0},\n  date = {2003},\n  publisher = {PLoS One 7, e32857},\n  unmatched-author = {den Worm, S. H.et al.},\n  more-authors = {true},\n  source = {Reverse genetics of SARS-related coronavirus using vaccinia virus-based recombination},\n  unmatched-doi = {doi: 10.1371/journal.pone.0032857},\n  language = {}\n}\n@article{polo1997a,\n  author = {Polo, S. and Ketner, G. and Levis, R. and Falgout, B.},\n  title = {Infectious RNA transcripts from fulllength dengue virus type 2 cDNA clones made in yeast},\n  journal = {J Virol},\n  volume = {71},\n  pages = {5366\u20135374},\n  date = {1997},\n  language = {}\n}\n@article{chan-a,\n  author = {Chan, J.F.},\n  title = {Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan},\n  journal = {Emerg Microbes Infect},\n  volume = {9},\n  pages = {221\u2013236},\n  doi = {doi: 10.1080/22221751.2020.1719902 (2020},\n  more-authors = {true},\n  language = {}\n}\n",
+        "links": [
+            "https://www.the-scientist.com/news-opinion/australian-lab-cultures-new-coronavirus-as157"
+        ],
+        "emails": [
+            "volker.thiel@vetsuisse.unibe.ch",
+            "joerg.jores@vetsuisse.unibe.ch"
+        ],
+        "references_ris": "TY  - CHAP\nAU  - Almazan, F.\nTI  - Engineering the largest RNA virus genome as an infectious\nT2  - bacterial artificial chromosome. Proc Natl Acad Sci\nPB  - U S A\nDO  - 97\nSP  - 5516\nEP  - 5521\nPY  - 2000\nDA  - 2000\nC1  - true\nC1  - doi: 10.1073/pnas.97.10.5516\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thiel, V.\nAU  - Herold, J.\nAU  - Schelle, B.\nAU  - Siddell, S.G.\nTI  - Infectious RNA transcribed in vitro from a cDNA copy of the human coronavirus genome cloned in vaccinia virus\nT2  - J Gen Virol\nVL  - 82\nSP  - 1273\nEP  - 1281\nPY  - 2001\nDA  - 2001\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yount, B.\nAU  - Curtis, K.M.\nAU  - Baric, R.S.\nTI  - Strategy for systematic assembly of large RNA and DNA genomes: transmissible gastroenteritis virus model\nT2  - J Virol\nVL  - 74\nSP  - 1060010611\nDO  - 10.1128/jvi.74.22.10600-10611.2000\nPY  - 2000\nDA  - 2000\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, N.\nTI  - A Novel Coronavirus from Patients with Pneumonia in China, 2019\nT2  - N Engl J Med\nDO  - 10.1056/NEJMoa2001017 (2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zaki, A.M.\nAU  - van Boheemen, S.\nAU  - Bestebroer, T.M.\nAU  - Osterhaus, A.D.\nAU  - Fouchier, R.A.\nTI  - Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia\nT2  - N Engl J Med\nVL  - 367\nSP  - 1814\nEP  - 1820\nDO  - 10.1056/NEJMoa1211721\nPY  - 2012\nDA  - 2012\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Cao-Lormeau, V.M.\nTI  - Zika virus, French polynesia\nPY  - 2013\nDA  - 2013\nDO  - 10.3201/eid2006.140138\nC1  - true\nT2  - Emerg Infect Dis 20, 1085-1086\nLA  - \nCY  - South pacific\nER  - \n\nTY  - JOUR\nAU  - Baize, S.\nTI  - Emergence of Zaire Ebola virus disease in Guinea\nT2  - N Engl J Med\nVL  - 371\nSP  - 1418\nEP  - 1425\nDO  - 10.1056/NEJMoa1404505\nPY  - 2014\nDA  - 2014\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nVL  - 1190719\nPY  - 2010\nDA  - 2010\nER  - \n\nTY  - GEN\nVL  - 1173759\nPY  - 2009\nDA  - 2009\nC1  - 12\nER  - \n\nTY  - JOUR\nAU  - Benders, G.A.\nTI  - Cloning whole bacterial genomes in yeast\nT2  - Nucleic Acids Res\nVL  - 38\nSP  - 2558\nEP  - 2569\nDO  - 10.1093/nar/gkq119\nPY  - 2010\nDA  - 2010\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Hutchison, C. A., 3rd\nTI  - Design and synthesis of a minimal bacterial genome\nPB  - Science 351, aad6253\nDO  - 10.1126/science.aad6253\nPY  - 2016\nDA  - 2016\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kouprina, N.\nAU  - Larionov, V.\nTI  - Selective isolation of genomic loci from complex genomes by transformation-associated recombination cloning in the yeast Saccharomyces cerevisiae\nT2  - Nat Protoc\nVL  - 3\nSP  - 371\nEP  - 377\nDO  - 10.1038/nprot.2008.5\nPY  - 2008\nDA  - 2008\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Vashee, S.\nTI  - and Modification of the Primary Human Cytomegalovirus Isolate Toledo by Yeast-Based Transformation-Associated Recombination\nPB  - mSphere 2\nDO  - 10.1128/mSphereDirect.00331-17\nPY  - 2017\nDA  - 2017\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Oldfield, L.M.\nTI  - Genome-wide engineering of an infectious clone of herpes simplex virus type 1 using synthetic\nT2  - genomics assembly methods. Proc Natl Acad Sci\nPB  - U S A 114, E8885-E8894\nDO  - 10.1073/pnas.1700534114\nPY  - 2017\nDA  - 2017\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Coley, S.E.\nTI  - Recombinant mouse hepatitis virus strain A59 from cloned, fulllength cDNA replicates to high titers in vitro and is fully pathogenic in vivo\nT2  - J Virol\nVL  - 79\nSP  - 3097\nEP  - 3106\nDO  - 10.1128/JVI.79.5.3097-3106.2005\nPY  - 2005\nDA  - 2005\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Zust, R.\nTI  - Coronavirus non-structural protein 1 is a major pathogenicity factor: implications for the rational design of coronavirus vaccines\nPB  - PLoS Pathog 3, e109\nDO  - 10.1371/journal.ppat.0030109\nPY  - 2007\nDA  - 2007\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Muth, D.\nTI  - Transgene expression in the genome of Middle East respiratory syndrome coronavirus based on a novel reverse genetics system utilizing Redmediated recombination cloning\nT2  - J Gen Virol\nVL  - 98\nSP  - 2461\nEP  - 2469\nDO  - 10.1099/jgv.0.000919\nPY  - 2017\nDA  - 2017\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hu, D.\nTI  - Genomic characterization and infectivity of a novel SARS-like coronavirus in Chinese bats\nT2  - Emerg Microbes Infect\nVL  - 7\nDO  - 10.1038/s41426-0180155-5\nPY  - 2018\nDA  - 2018\nC1  - true\nIS  - 154\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thiel, V.\nTI  - Mechanisms and enzymes involved in SARS coronavirus genome expression\nT2  - J Gen Virol\nVL  - 84\nSP  - 2305\nEP  - 2315\nDO  - 10.1099/vir.0.19424-0\nPY  - 2003\nDA  - 2003\nPB  - PLoS One 7, e32857\nC1  - den Worm, S. H.et al.\nC1  - true\nT2  - Reverse genetics of SARS-related coronavirus using vaccinia virus-based recombination\nC1  - doi: 10.1371/journal.pone.0032857\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Polo, S.\nAU  - Ketner, G.\nAU  - Levis, R.\nAU  - Falgout, B.\nTI  - Infectious RNA transcripts from fulllength dengue virus type 2 cDNA clones made in yeast\nT2  - J Virol\nVL  - 71\nSP  - 5366\nEP  - 5374\nPY  - 1997\nDA  - 1997\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chan, J.F.\nTI  - Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan\nT2  - Emerg Microbes Infect\nVL  - 9\nSP  - 221\nEP  - 236\nDO  - 10.1080/22221751.2020.1719902 (2020\nC1  - true\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "RNA virus genomes cloned using the synthetic genomics platform"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Application of yeast-based TAR cloning to generate viral cDNA clones and the recovery of recombinant MHV-GFP. a, Schematic representation of the general workflow of TAR cloning and virus rescue. In331 yeast assembly require the delivery of overlapping DNA fragments covering the viral genome and a TAR vector into yeast in one transformation event. Transformed DNA fragments are joined by homologous recombination in yeast generating a YAC-cloned full-length viral genomic cDNA. The in vitro production of infectious capped viral RNA starts with the isolation of the YAC, followed by plasmid linearization to provide DNA template for run-off T7 polymerase-based transcription. Virus rescue starts with electroporation of BHK-21 and/or BHK-21 cells expressing the corresponding coronavirus N protein, followed by co-cultivation of electroporated cells with susceptible cell line for virus production and amplification. b, Schematic representation of MHV-GFP genome organisation with 9 viral subgenomic overlapping cDNA fragments used for TAR cloning. pT7, T7 RNA polymerase promoter; UTR, untranslated region; An, poly (A) tail; J represents assembly junction between two overlapping DNA fragments. c, Recovery of infectious recombinant MHV-GFP. Cell culture supernatants containing viruses produced after virus rescue from two MHV-GFP YAC clones (Clone[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], Clone 2) were used to infect 17Cl-1 cells. At 48 hours post-infection, infected cells were visualised for GFP expression (left panels) and by bright field microscopy (right panels). Mock represents 17Cl-1 cells inoculated with supernatant from BHK-MHV-N cells electroporated without viral RNAs. d, Replication kinetics of parental MHV-GFP and recombinant MHV-GFP Clone 1 and Clone 2. L929 cells were infected at an MOI of 0.1. Cell culture supernatants were harvested at indicated time points post-infection and titrated by plaque assay. Data are representative of three independent experiments with two replicates per"
+            },
+            {
+                "id": "2",
+                "caption": "Generation of viral cDNA clones and recovery of recombinant MERS-CoV and MERS-CoV-GFP. a, Schematic representation of MERS-CoV (upper panel) and MERS-CoV-GFP (lower panel) genome organization with 8 and 10 viral subgenomic overlapping cDNA fragments, respectively, used for TAR cloning. pT7, T7 RNA polymerase promoter; UTR, untranslated region; An, poly (A) tail; J represents assembly junction between two overlapping DNA fragments. b, Rescue of recombinant MERS-CoV and MERS-CoV-GFP. Following delivery of viral RNAs into BHK-21 cells via electroporation the cells were co-cultivated with VeroB4 cells and supernatants containing recombinant viruses produced were used to infect new VeroB4 cells. Infected cells were visualised by bright field microscopy for recombinant MERS-CoV (upper panel; 5 days post infection), and for GFP expression for recombinant MERS-CoV-GFP (lower panel, 3 days post infection). Mock represents VeroB4 cells inoculated with supernatant from BHK-21 cells electroporated without viral RNAs. c, Replication kinetics of the MERS-CoV-EMC (laboratory adapted isolate), rMERS-CoV and rMERS-CoV-GFP. VeroB4 cells were infected at an MOI of 0.01. Cell culture supernatants were harvested at indicated time points post infection and titrated by TCID50 assay. Data are representative of three independent experiments with two replicates per virus in each experiment. Error bars show standard deviation (SD) from the mean. TCID50/ml, 50% tissue culture infectious dose per millilitre. 374"
+            },
+            {
+                "id": "3",
+                "caption": "Generation of viral cDNA clones and recovery of recombinant SARS-CoV-2 375 and SARS-CoV-2-GFP. a, Schematic representation of SARS-CoV-2 (upper panel) and"
+            },
+            {
+                "id": "Extended Data 1",
+                "caption": "a, Schematic representation of the MHV-GFP genome organisation (upper panel) and nine viral subgenomic cDNA fragments (F1-9) used for TAR cloning. Viral open reading frames (ORFs), the ORF for GFP and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in Extended Data Table 1. J2-9 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments. J1 and J10 represent junctions with the TAR vector. Gel images show results from two multiplex PCRs that were designed to detect the presence of correctly recombined junctions J1-10, confirming the proper assembly of the YAC containing the viral genome in 12 out of 12 clones. kb, kilobases; pT7, T7 RNA polymerase promoter; An, poly (A) tail. 416 417 b, Schematic representation of the MERS-CoV genome organisation (upper panel) and eight viral subgenomic cDNA fragments (F1-8) used for TAR cloning. Viral open reading frames (ORFs) and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in Extended Data Table 1. J2-8 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments. J1 and J9 represent junctions with the TAR vector. Gel image shows results from a multiplex PCR that was designed to detect the presence of correctly recombined junctions J1-9, confirming the proper assembly of the YAC containing the viral genome in 6 out of 8 clones. kb, kilobases; pT7, T7 RNA polymerase promoter; An, poly (A) tail"
+            },
+            {
+                "id": "Extended Data 2",
+                "caption": "a, Six constructs were initially designed based on 3 different 5\u2019-UTR regions. These regions contain i) a modified sequence of the 5\u2019-UTR region of the SARS-CoV-2 (5\u2019- ATAUUAGG; 5\u2019-terminal 8 nucleotides are shown, modified nucleotides underlined) were nucleotides 3-5 (UAA) of SARS-CoV-2 were changed to AUU to match the SARS-CoV nucleotides 3-5 (synthetic fragment 1.1 for constructs 1 and 4), ii) a SARS-CoV-2 5\u2019-terminus with the first 124 nucleotides exchanged by the corresponding 5\u2019-terminal sequence of SARS-CoV (synthetic fragment 1.2; construct 2 and 5) and iii) the reported sequence of the SARS-CoV-2 (GISAID: EPI_ISL_402119) (synthetic fragment 1.3; constructs 3 and 6). After yeast transformation, 10 colonies were randomly picked for each of the six constructs and all the junctions bridging the overlapping fragments were verified by multiplex PCR. For each construct, two clones (x.1 and x.2) were randomly selected and YAC DNAs were isolated (12 clones in total). RNAs were generated by in vitro transcription and electroporated together with an mRNA encoding the SARS-CoV-2 N protein either into BHK-21 cells (12 clones) or BHK-SARS-N cells (cells expressing the SARS-CoV N protein) (6 clones). Electroporated cells were then co-cultivated with susceptible VeroE6 cells to rescue the recombinant viruses. P.0 supernatants were collected at different time points after electroporation (from 2 dpe to 5"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.21.959817.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959817.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959817.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.21.959817.full/img-002.png"
+        ]
+    },
+    "sections": {
+        "acknowledgements": [
+            "This work was supported by the European Commission (Marie Sklodowska-Curie Innovative<br/><br/>Training Network \u201cHONOURS\u201d; grant agreement No 721367), the Swiss National Science<br/><br/>Foundation (SNF; grants CRSII3_160780, and 310030_173085), the German Research<br/><br/>Council (DFG; grants SFB-TR84 (TRR 84/3, A07), and DR 772/7-2), the Federal Ministry of<br/><br/>Education and Research (BMBF; grant RAPID, #01KI1723A) and by core funds of the<br/><br/>University of Bern. We thank the J. Craig Venter Institute (JCVI) for provision of the TAR vectors. We thank specifically Eric Sun and Tibbers Zhang and are grateful for the timely provision of the synthetic DNA fragments from GenScript. We thank Jeanne Peters Zocher from VETCOM Z\u00fcrich for her advice in generating the figures and we thank Franziska Suter-<br/><br/>Riniker and Pascal Bittel, Institute for Infectious Diseases, University of Bern, for providing clinical samples. We thank Philippe Plattet, Markus Gerber, Martina Friesland, Marco Alves, Nathalie Vielle, Beatrice Zumkehr, Melanie Br\u00fcgger, Daniel Brechb\u00fchl for reagents, technical advise and helpful discussions."
+        ],
+        "ethical_compliance": [
+            "The authors are aware that this work contains aspects of Dual Use Research of Concern (DURC). The benefits were carefully balanced against the risks and the benefits outweigh the risks. Permission to generate and work with recombinant SARS-CoV-2 and SARS-CoV-215<br/><br/>GFP was granted by the Swiss Federal Office of Public Health (#A131191/3) with consultation of the Federal Office for Environment, Federal Food Safety and Veterinary<br/><br/>Office, and the Swiss Expert Committee for Biosafety."
+        ],
+        "disclosures": [
+            "The authors declare no competing interests<br/><br/>Additional information<br/><br/>Correspondence and requests for material should be addressed to V.T. or J.J"
+        ],
+        "funding": [
+            "This work was supported by the European Commission (Marie Sklodowska-Curie Innovative Training Network \u201cHONOURS\u201d; grant agreement No 721367), the Swiss National Science Foundation (SNF; grants CRSII3_160780, and 310030_173085), the German Research Council (DFG; grants SFB-TR84 (TRR 84/3, A07), and DR 772/7-2), the Federal Ministry of Education and Research (BMBF; grant RAPID, #01KI1723A) and by core funds of the University of Bern"
+        ],
+        "introduction": [
+            "Reverse genetics has been an indispensable tool revolutionising our insights into viral pathogenesis and vaccine development. Large RNA virus genomes, such as from",
+            "Coronaviruses, are cumbersome to clone and to manipulate in E. coli hosts due to size and occasional instability[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Therefore, an alternative rapid and robust reverse genetics platform for RNA viruses would benefit the research community. Here we show the full functionality of a yeast-based synthetic genomics platform for the genetic reconstruction of diverse RNA viruses, including members of the Coronaviridae, Flaviviridae and Paramyxoviridae families."
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "Reverse genetics has been an indispensable tool revolutionising our insights into viral pathogenesis and vaccine development. Large RNA virus genomes, such as from",
+            "Coronaviruses, are cumbersome to clone and to manipulate in E. coli hosts due to size and occasional instability[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Therefore, an alternative rapid and robust reverse genetics platform for RNA viruses would benefit the research community. Here we show the full functionality of a yeast-based synthetic genomics platform for the genetic reconstruction of diverse RNA viruses, including members of the Coronaviridae, Flaviviridae and Paramyxoviridae families.",
+            "Viral subgenomic fragments were generated using viral isolates, cloned viral DNA, clinical samples, or synthetic DNA, and reassembled in one step in Saccharomyces cerevisiae using transformation associated recombination (TAR) cloning to maintain the genome as a yeast artificial chromosome (YAC). T7-RNA polymerase has been used to generate infectious",
+            "RNA, which was then used to rescue viable virus. Based on this platform we have been able to engineer and resurrect chemically-synthetized clones of the recent epidemic SARS-CoV-24 in only a week after receipt of the synthetic DNA fragments. The technical advance we describe here allows to rapidly responding to emerging viruses as it enables the generation and functional characterization of evolving RNA virus variants - in real-time - during an outbreak.",
+            "Population growth, increased travel and climate change foster epidemic and pandemic threats by (re)emerging RNA viruses. Although black swan events cannot be predicted, our medical sector should be ready to use the latest advancements in science to combat emerging viruses.",
+            "Within the past decade we have seen outbreaks of Middle-East Respiratory Syndrome coronavirus (MERS-CoV)[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], ZIKA virus (ZIKV)[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], Ebola virus[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], and at the end of 2019, SARS-CoV-2 that was first detected in Wuhan, Hubei province, China[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], but meanwhile spread throughout China and beyond. Until now SARS-CoV-2 isolates from China have not been shared with health authorities and the scientific community, although they are urgently needed to build up serological diagnostics, to develop and assess antivirals and vaccines, and to establish appropriate in vivo models. Generation of SARS-CoV-2 from chemically synthesized DNA could bypass the limited availability of virus isolates and would furthermore allow genetic modifications and functional characterization of individual genes.",
+            "However, although the workhorse E. coli did prove very useful for cloning many viral genomes, it has drawbacks for a number of emerging RNA viruses, including coronaviruses, in terms of assembling and stably maintaining full-length molecular clones.",
+            "Synthetic genomics is a field that was fuelled by the efforts to create a bacterial cell that is controlled by a synthetic genome 8. Genome-wide reassembly of the ~1.1Mb Mycoplasma genome was first attempted using E. coli as an intermediate host 8, but the maintenance of these 100-kbp DNA fragments appeared to be very difficult in this host. Therefore, the yeast",
+            "Saccharomyces cerevisiae was chosen to clone, assemble and even mutagenize entire",
+            "Syn3.0, a cell carrying the minimal set of genes allowing its autonomous replication in auxotrophic medium 11. The rationale for using a yeast cloning system is the ability of yeast to",
+            ". This ultimately led to the construction of the Mycoplasma JCVI recombine overlapping DNA fragments in cellulo, which led to the development of a technique called \u201ctransformation-associated recombination\u201d (TAR) cloning[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>].",
+            "More recently, TAR cloning was successfully applied for the assembly, genetic engineering and rescue of large DNA viruses such as cytomegalovirus and herpes simplex virus 113,14.",
+            "While large DNA viruses such as herpesviruses can be rescued by transfecting the entire viral",
+            "DNA genome into eukaryotic cells, the rescue of RNA viruses requires the transcription of a viral genomic RNA from the cloned DNA template. For coronaviruses that belong to a family of positive-stranded RNA viruses termed Coronaviridae, the generation of full-length molecular clones has long been hampered by the extraordinary genome size (27-31 kb) and occasional instability of cloned DNA in E. coli. It took until 2000/2001 before unconventional approaches, such as cloning in low copy bacterial artificial chromosomes (BACs) or vaccinia virus, or cloning of subgenomic DNA fragments followed by in-vitro ligation, were successful[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. However, each system has caveats leaving the generation of recombinant coronaviruses cumbersome. We therefore aimed to assess the use of the yeast S. cerevisiae to assemble and maintain genomes of diverse RNA viruses in order to establish a rapid, stable, and universal reverse genetics pipeline for RNA viruses.",
+            "In an effort to adopt a yeast-based reverse genetics platform to RNA viruses we first tested the",
+            "Murine hepatitis virus strain A59 containing the gene for the green fluorescent protein (MHV-",
+            "GFP), which is routinely used in our laboratory and has an established vaccinia virus-based reverse genetics platform[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>,<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. The overall strategy is shown in Fig. 1a. Viral RNA was prepared from MHV-GFP-infected murine 17Cl-1 cells and used to amplify 7 overlapping",
+            "29672. Fragments containing the 5\u2019- and 3\u2019-termini were PCR-amplified from the vaccinia virus-cloned genome to include a T7-RNA polymerase promoter and a cleavage site (PacI)",
+            "following the polyA sequence. Overlaps to the TAR vector pVC604 were included in the primers used to amplify the 5\u2019- and 3\u2019-terminal fragments and the pVC604 backbone that was also generated by PCR (Fig. 1b, Table 1, Extended Data Table 1, Extended Data Figure 1a).",
+            "All DNA fragments were used to transform Saccharomyces cerevisiae (strain VL6-48N) and resulting colonies were screened for correct assembly of the YAC containing the MHV genome by multiplex PCRs that covered the junctions of the different fragments. This screen revealed that > 90 % of the clones tested were positive indicating a highly efficient assembly in yeast (Extended Data Figure 1a). To rescue MHV-GFP we randomly chose two clones, purified the YAC, linearized the plasmid using the restriction endonuclease PacI (Extended",
+            "Data Table 2) and subjected it to T7 RNA polymerase-based in vitro transcription to generate capped viral genomic RNA. This RNA was transfected together with an in vitro transcribed mRNA encoding the MHV nucleocapsid (N) protein into BHK-MHV-N cells as previously described[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Transfected BHK-MHV-N cells were mixed with MHV-susceptible 17Cl-1 cells and cytopathic effect (CPE), virus-induced syncytia, and GFP-expressing cells were readily detectable for both clones within 48 hours, indicating successful recovery of infectious virus (Fig. 1c). Finally, we assessed the replication kinetics of the recovered viruses, which were indistinguishable compared to the parental MHV-GFP (Fig. 1d).",
+            "To address if the synthetic genomics platform can be applied to other coronaviruses, and if it can be used for rapid mutagenesis, we used a molecular BAC clone of MERS-CoV17. We",
+            "PCR-amplified eight subgenomic overlapping DNA fragments covering the entire MERS-",
+            "CoV genome (Figure 2a, Extended Data Figure 1b, Extended Data Table 1). The 5\u2019- and 3\u2019-",
+            "terminal DNA fragments contained the T7-RNA polymerase promoter upstream the MERS-",
+            "CoV 5\u2019-end and a restriction endonuclease cleavage site MluI downstream the polyA sequence, and overlapping sequences with the TAR plasmid pVC604. To mutagenize the",
+            "MERS-CoV clone and introduce the GFP gene, fragment 7 was modified to overlap with the",
+            "PCR-amplified GFP gene. Following transformation almost all YAC clones were positive for the junctions indicating a successful assembly (Figure 2a, Extended Data Figure 1b). Virus rescue from cloned DNA was performed as described previously[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] and virus-induced CPE became apparent in VeroB4 cells inoculated with recovered recombinant MERS-CoV (Fig.",
+            "2b). Importantly, we could readily detect green fluorescent VeroB4 cells that had been infected with recovered MERS-CoV-GFP demonstrating that the synthetic genomics platform is suitable to genetically modify coronavirus genomes (Fig. 2b). As expected replication kinetics of recombinant MERS-CoV and MERS-CoV-GFP were slightly reduced compared to cell-culture-adapted MERS-CoV-EMC (Fig. 2c).",
+            "Having shown that the TAR cloning approach is robust and reproducible, we aimed to thoroughly evaluate the system concerning stability of cloned sequences, the range of applicability to other virus genomes, and if molecular clones can even be generated from clinical samples. The yeast clones containing YACs encoding MHV-GFP and MERS-CoV were passaged 15-17 times followed by re-sequencing. Results of this experiment were very supportive of the yeast-based platform (Extended Data Table 3), since the genomes could be stably maintained and no mutations arose. We then embarked on cloning a number of other coronaviruses (HCoV-229E2, HCoV-HKU1; GenBank: NC_006577, MERS-CoV-Riyadh-",
+            "1734-2015; GenBank: MN481979) and viruses of other families, such as ZIKV (family",
+            "Flaviviridae, GenBank: KX377337) and human respiratory-syncytial-virus (hRSV; family",
+            "Paramyxoviridae) (Table 1) that are known to be difficult to clone and stably maintain in E.",
+            "coli. As shown in Extended data Figure 1d-h, we followed the same strategy to prepare the genome termini in cloned plasmids to include genetic elements that are later needed for virus rescue (e.g. T7-RNA polymerase promoter, cleavages sites or ribozyme elements) and produced a set of overlapping DNA fragments covering the rest of the genome. This strategy proved to be successful irrespectively of the source of virus or nucleic acid template or the number of DNA fragments that were used for the one-step assembly in yeast. Of note, we were also able to clone hRSV-B, without any prior information on the virus genotype, directly from a clinical sample (nasopharyngeal aspirate) by designing RSV consensus primers to amplify 4 overlapping DNA fragments (sequence submitted to GenBank). Collectively, these results demonstrate the synthetic genomics platform provides the technical advance to rapidly generate molecular clones of diverse RNA viruses by using viral isolates, cloned DNA, synthetic DNA, and even clinical samples as starting material.",
+            "The appearance of a novel CoV in China at the end of 2019 prompted us to go a step further and to test the applicability of our synthetic genomics platform to reconstruct the virus based on its released genome sequence and chemically synthesized DNA fragments. Notably, at the time when the first genome sequences of SARS-CoV-2 were released (Jan 10/11th, 2020) no virus isolate has been made available and it took until the end of January 2020 when successful (https://www.the-scientist.com/news-opinion/australian-lab-cultures-new-coronavirus-asinfections-climb-67031). We fragmented the genome into 12 subgenomic DNA fragments ranging in size between 0.5-3.4 kbp (Fig. 3a, Extended Data Figure 1i, Extended Data Tables",
+            "1, 4). In parallel, we also aimed to generate a SARS-CoV-2 expressing GFP that could be valuable to facilitate the establishment of serological diagnostics (e.g. virus neutralization assay) and detection in cell culture. To do this we divided fragment 11 into 3 sub-fragments (Fig. 3a, Extended Data Figure 1i, Extended Data Tables 1, 4) to include the GFP sequence, which was inserted in frame within the ORF7a. We noticed at the 5\u2019 end of the reported",
+            "SARS-CoV-2 sequence that nucleotides 3-5 (5\u2019-AUUAAAGG; Genbank MN996528.1) were different compared to the closely related SARS-CoV (5\u2019-AUAUUAGG; GenBank",
+            "AY291315) and to the even more closely related bat SARS-related CoVs ZXC21 and ZC45",
+            "(5\u2019-AUAUUAGG)[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], and that for all three the 5\u2019-end has been experimentally determined by",
+            "5\u2019-RACE4,18,19. Therefore, we designed three 5\u2019-end versions of fragment 1 containing the reported SARS-CoV-2 sequence (fragment 1.3; 5\u2019-AUUAAAGG), a version modified by 3 nucleotides (fragment 1.1; 5\u2019-AUAUUAGG), and a version containing the 124 5\u2019-terminal nucleotides spanning the first four 5\u2019-terminal stem-loop structures of SARS-CoV (fragment isolation of",
+            "1.2; Fig. 3b). Notably, nucleotide differences between SARS-CoV-2 and SARS-CoV within this region are in agreement with the predicted RNA secondary structures (Fig. 3b).",
+            "We ordered the synthetic DNA constructs on January 14th (Fig. 3d, Extended data Table 4, Extended Data Document 1), and until February 4th 12 of 14 constructs were delivered as sequence-confirmed plasmids. However, fragments 5 and 7 turned out to be problematic to clone in E. coli and could not be delivered. Since we received at the same time SARS-CoV-2 viral RNA obtained from an isolate of a Munich patient (SARS-CoV-2/M\u00fcnchen-",
+            "1.1/2020/929), we decided to amplify the regions of fragments 5 and 7 by RT-PCR. TAR cloning was immediately initiated, and for all 6 SARS-CoV-2 constructs we obtained correctly assembled molecular clones (3 versions of the 5\u2019-end and each version with and without GFP; Extended Data Fig. 2). Since sequence verification was not possible within this short time frame, we randomly selected two clones for each construct for rescuing recombinant rSARS-CoV-2 and rSARS-CoV-2-GFP. YAC DNA were isolated, in vitro transcribed and the resulting RNAs electroporated together with an mRNA encoding the",
+            "SARS-CoV-2 N protein into BHK-21 and, in parallel, into BHK-SARS-N cells expressing the",
+            "SARS-CoV N protein[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. The BHK-21 and BHK-SARS-N cells were seeded over VeroE6 cells and at two days post electroporation we observed green fluorescent signals in cells that received the GFP-encoding SARS-CoV-2 RNAs. Indeed supernatants transferred to fresh",
+            "VeroE6 cells contained infectious recombinant viruses for almost all recombinant rSARS-",
+            "CoV-2 and rSARS-CoV-GFP constructs (Extended Data Fig. 2). As shown in Figure 3c for",
+            "SARS-CoV-2 clones 1.1, 2.2, and 3.1, plaques were detectable on VeroE6 cells that were inoculated with supernatants containing the RNA-electroporated cells, demonstrating the infectious virus has been recovered for recombinant rSARS-CoV-2 and for the variants containing modified 5\u2019-termini. Similarly, we could detect green fluorescent cells on VeroE6 monolayers that were inoculated with supernatants from RNA-electroporated cells of rSARS-",
+            "CoV-2-GFP clones 4.1, 5.2 and 6.1, demonstrating that recombinant GFP-expressing viruses have been recoverd for all 5\u2019-end variants. This result demonstrates the full functionality of the SARS-CoV-2 reverse genetics system and also shows that the 5\u2019-ends of SARS-CoV and bat SARS-related CoVs ZXC21 and ZC45 are compatible with the replication machinery of",
+            "SARS-CoV-2.",
+            "We expect that the fast, robust and versatile synthetic genomics platform we describe here will provide new insights into the molecular biology and pathogenesis of a number of emerging RNA viruses and will specifically facilitate the molecular characterization of the novel coronavirus SARS-CoV-2. Although homologous recombination in yeast has already been used for the generation of a number of molecular virus clones in the past[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>,<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>,<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>], we present here a thorough evaluation of the feasibility of this approach to rapidly generate fulllength cDNAs for large RNA viruses that have a known history of instability in E. coli. We show that one main advantage of the TAR cloning system is that the viral genomes can be fragmented to at least 14 overlapping fragments and re-assembled with remarkable efficacy (usually >90% of the clones are correct). This allowed us to complete the cloning and rescue of rSARS-CoV-2 and rSARS-CoV-2-GFP within one week. It should also be noted that we see considerable potential to reduce the time of DNA synthesis. Currently, synthetic DNA fragments are still routinely cloned in E. coli, which turned out to be problematic for SARS-",
+            "CoV-2 fragments 5 and 7. We could however use 4 and 3 shorter dsDNA parts of fragments 5 and 7, respectively, that we received, to assemble the full-length fragments 5 and 7 by TAR cloning which is an additional proof of the superior cloning efficiency of our yeast system versus E. coli-based systems. This allowed us to generate a molecular clone of SARS-CoV-2 by using exclusively chemically synthesized DNA, and the rescue of this version is currently in progress.",
+            "The appearance of SARS-CoV-2 emphasizes the need for preparedness to rapidly respond to emerging virus threats. While the availability of SARS-CoV-2 isolates is still limited, full virus genome sequences were disclosed very early during the outbreak. The rapidity of our synthetic genomics approach to generate SARS-CoV-2 and the applicability to other emerging RNA viruses make this system an attractive alternative to provide infectious virus to health authorities and diagnostic laboratories without the need to have access to clinical samples. Finally, as the SARS-CoV-2 outbreak is ongoing, we expect to see sequence variations and possibly phenotypic changes of evolving SARS-CoV-2 in the human host.",
+            "With the synthetic genomics platform it is now possible to introduce such sequence variations into the infectious clone and to functionally characterize SARS-CoV-2 evolution in real-time."
+        ],
+        "References": [
+            "Almazan, F. et al Engineering the largest RNA virus genome as an infectious bacterial artificial chromosome. Proc Natl Acad Sci U S A 97, 5516-5521, doi:10.1073/pnas.97.10.5516 (2000).",
+            "Thiel, V., Herold, J., Schelle, B. & Siddell, S. G. Infectious RNA transcribed in vitro from a cDNA copy of the human coronavirus genome cloned in vaccinia virus. J Gen",
+            "Virol 82, 1273\u20131281 (2001).",
+            "Yount, B., Curtis, K. M. & Baric, R. S. Strategy for systematic assembly of large RNA and DNA genomes: transmissible gastroenteritis virus model. J Virol 74, 10600-",
+            "10611, doi:10.1128/jvi.74.22.10600-10611.2000 (2000).",
+            "Zhu, N. et al A Novel Coronavirus from Patients with Pneumonia in China, 2019. N",
+            "Engl J Med, doi:10.1056/NEJMoa2001017 (2020).",
+            "Zaki, A. M., van Boheemen, S., Bestebroer, T. M., Osterhaus, A. D. & Fouchier, R. A.",
+            "Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N Engl",
+            "J Med 367, 1814-1820, doi:10.1056/NEJMoa1211721 (2012).",
+            "Infect Dis 20, 1085-1086, doi:10.3201/eid2006.140138 (2014).",
+            "Cao-Lormeau, V. M. et al Zika virus, French polynesia, South pacific, 2013. Emerg",
+            "Baize, S. et al Emergence of Zaire Ebola virus disease in Guinea. N Engl J Med 371, 1418-1425, doi:10.1056/NEJMoa1404505 (2014).",
+            "Gibson, D. G. et al Creation of a Bacterial Cell Controlled by a Chemically",
+            "Synthesized Genome. Science 329, 52-56, doi:science.1190719 [pii]",
+            "10.1126/science.1190719 (2010).",
+            "Lartigue, C. et al Creating bacterial strains from genomes that have been cloned and engineered in yeast. Science 325, 1693-1696, doi:1173759 [pii]",
+            "10.1126/science.1173759 (2009).",
+            "2558-2569, doi:10.1093/nar/gkq[119] (2010).",
+            "Benders, G. A. et al Cloning whole bacterial genomes in yeast. Nucleic Acids Res 38, Hutchison, C. A., 3rd et al Design and synthesis of a minimal bacterial genome.",
+            "Science 351, aad6253, doi:10.1126/science.aad6253 (2016).",
+            "Kouprina, N. & Larionov, V. Selective isolation of genomic loci from complex genomes by transformation-associated recombination cloning in the yeast",
+            "Saccharomyces cerevisiae. Nat Protoc 3, 371-377, doi:10.1038/nprot.2008.5 (2008).",
+            "Vashee, S. et al Cloning, Assembly, and Modification of the Primary Human",
+            "Cytomegalovirus Isolate Toledo by Yeast-Based Transformation-Associated",
+            "Recombination. mSphere 2, doi:10.1128/mSphereDirect.00331-17 (2017).",
+            "Oldfield, L. M. et al Genome-wide engineering of an infectious clone of herpes simplex virus type 1 using synthetic genomics assembly methods. Proc Natl Acad Sci",
+            "U S A 114, E8885-E8894, doi:10.1073/pnas.1700534114 (2017).",
+            "Coley, S. E. et al Recombinant mouse hepatitis virus strain A59 from cloned, fulllength cDNA replicates to high titers in vitro and is fully pathogenic in vivo. J Virol",
+            "79, 3097-3106, doi:10.1128/JVI.79.5.3097-3106.2005 (2005).",
+            "Zust, R. et al Coronavirus non-structural protein 1 is a major pathogenicity factor: implications for the rational design of coronavirus vaccines. PLoS Pathog 3, e109, doi:10.1371/journal.ppat.0030109 (2007).",
+            "Muth, D. et al Transgene expression in the genome of Middle East respiratory syndrome coronavirus based on a novel reverse genetics system utilizing Redmediated recombination cloning. J Gen Virol 98, 2461-2469, doi:10.1099/jgv.0.000919 (2017).",
+            "Hu, D. et al Genomic characterization and infectivity of a novel SARS-like coronavirus in Chinese bats. Emerg Microbes Infect 7, 154, doi:10.1038/s41426-018-",
+            "0155-5 (2018).",
+            "Thiel, V. et al Mechanisms and enzymes involved in SARS coronavirus genome expression. J Gen Virol 84, 2305-2315, doi:10.1099/vir.0.19424-0 (2003).",
+            "van den Worm, S. H. et al Reverse genetics of SARS-related coronavirus using vaccinia virus-based recombination. PLoS One 7, e32857, doi:10.1371/journal.pone.0032857 (2012).",
+            "Polo, S., Ketner, G., Levis, R. & Falgout, B. Infectious RNA transcripts from fulllength dengue virus type 2 cDNA clones made in yeast. J Virol 71, 5366-5374 (1997).",
+            "Chan, J. F. et al Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan.",
+            "Emerg Microbes Infect 9, 221-236, doi:10.1080/22221751.2020.1719902 (2020).",
+            ""
+        ],
+        "Acknowledgements": [
+            "This work was supported by the European Commission (Marie Sklodowska-Curie Innovative",
+            "Training Network \u201cHONOURS\u201d; grant agreement No 721367), the Swiss National Science",
+            "Council (DFG; grants SFB-TR84 (TRR 84/3, A07), and DR 772/7-2), the Federal Ministry of",
+            "University of Bern. We thank the J. Craig Venter Institute (JCVI) for provision of the TAR vectors. We thank specifically Eric Sun and Tibbers Zhang and are grateful for the timely provision of the synthetic DNA fragments from GenScript. We thank Jeanne Peters Zocher from VETCOM Z\u00fcrich for her advice in generating the figures and we thank Franziska Suter-",
+            "Riniker and Pascal Bittel, Institute for Infectious Diseases, University of Bern, for providing clinical samples. We thank Philippe Plattet, Markus Gerber, Martina Friesland, Marco Alves, Nathalie Vielle, Beatrice Zumkehr, Melanie Br\u00fcgger, Daniel Brechb\u00fchl for reagents, technical advise and helpful discussions.",
+            "VT and JJ conceived the study. TT, NE and FL performed most of the experiments. PV, HS, JP, SSt, MH, AK, MG, LL, LH, MW, SP, DH, VC, SC, SSch, DM, DN, MM, CD, RD, did experimental work and/or provided essential experimental systems and reagents. TT, NE, FL, HS, JK, and RD performed sequencing including computational analyses. VT, JJ, TT, FL, NE wrote the manuscript and made the figures. All authors read and approved the final manuscript."
+        ],
+        "Ethical statement": [
+            "The authors are aware that this work contains aspects of Dual Use Research of Concern (DURC). The benefits were carefully balanced against the risks and the benefits outweigh the risks. Permission to generate and work with recombinant SARS-CoV-2 and SARS-CoV-215",
+            "GFP was granted by the Swiss Federal Office of Public Health (#A131191/3) with consultation of the Federal Office for Environment, Federal Food Safety and Veterinary",
+            "Office, and the Swiss Expert Committee for Biosafety."
+        ],
+        "Competing interests": [
+            "Correspondence and requests for material should be addressed to V.T. or J.J.",
+            "a, Schematic representation of the general workflow of TAR cloning and virus rescue. Inyeast assembly require the delivery of overlapping DNA fragments covering the viral genome and a TAR vector into yeast in one transformation event. Transformed DNA fragments are joined by homologous recombination in yeast generating a YAC-cloned full-length viral genomic cDNA. The in vitro production of infectious capped viral RNA starts with the isolation of the YAC, followed by plasmid linearization to provide DNA template for run-off",
+            "T7 polymerase-based transcription. Virus rescue starts with electroporation of BHK-21 and/or",
+            "BHK-21 cells expressing the corresponding coronavirus N protein, followed by co-cultivation of electroporated cells with susceptible cell line for virus production and amplification. b, Schematic representation of MHV-GFP genome organisation with 9 viral subgenomic overlapping cDNA fragments used for TAR cloning. pT7, T7 RNA polymerase promoter; UTR, untranslated region; An, poly (A) tail; J represents assembly junction between two overlapping DNA fragments. c, Recovery of infectious recombinant MHV-GFP. Cell culture supernatants containing viruses produced after virus rescue from two MHV-GFP YAC clones (Clone[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], Clone 2) were used to infect 17Cl-1 cells. At 48 hours post-infection, infected cells were visualised for GFP expression (left panels) and by bright field microscopy (right panels).",
+            "Mock represents 17Cl-1 cells inoculated with supernatant from BHK-MHV-N cells electroporated without viral RNAs. d, Replication kinetics of parental MHV-GFP and recombinant MHV-GFP Clone 1 and Clone 2. L929 cells were infected at an MOI of 0.1. Cell culture supernatants were harvested at indicated time points post-infection and titrated by plaque assay. Data are representative of three independent experiments with two replicates per virus in each experiment. Error bars show standard deviation (SD) from the mean. pfu/ml, plaque forming units per millilitre.",
+            "a, Schematic representation of MERS-CoV (upper panel) and MERS-CoV-GFP (lower panel) genome organization with 8 and 10 viral subgenomic overlapping cDNA fragments, respectively, used for TAR cloning. pT7, T7 RNA polymerase promoter; UTR, untranslated region; An, poly (A) tail; J represents assembly junction between two overlapping DNA fragments. b, Rescue of recombinant MERS-CoV and MERS-CoV-GFP. Following delivery of viral RNAs into BHK-21 cells via electroporation the cells were co-cultivated with VeroB4 cells and supernatants containing recombinant viruses produced were used to infect new",
+            "VeroB4 cells. Infected cells were visualised by bright field microscopy for recombinant",
+            "MERS-CoV (upper panel; 5 days post infection), and for GFP expression for recombinant",
+            "MERS-CoV-GFP (lower panel, 3 days post infection). Mock represents VeroB4 cells inoculated with supernatant from BHK-21 cells electroporated without viral RNAs. c, Replication kinetics of the MERS-CoV-EMC (laboratory adapted isolate), rMERS-CoV and rMERS-CoV-GFP. VeroB4 cells were infected at an MOI of 0.01. Cell culture supernatants were harvested at indicated time points post infection and titrated by TCID50 assay. Data are representative of three independent experiments with two replicates per virus in each experiment. Error bars show standard deviation (SD) from the mean. TCID50/ml, 50% tissue culture infectious dose per millilitre.",
+            "SARS-CoV-2-GFP (lower panel) genome organisation with 12 and 14 viral subgenomic overlapping cDNA fragments, respectively, used for TAR cloning. pT7, T7 RNA polymerase promoter; UTR, untranslated region; An, poly (A) tail; J represents assembly junction between two overlapping DNA fragments. b, Representation of predicted RNA stem-loop (SL) secondary structures formed in the 5'-UTR of SARS-CoV-2. The SARS-CoV-2 RNA secondary structures were manually adjusted based on RNA structure predictions by Chan et al.[22]. Black letters and numbering represents the SARS-CoV-2 5\u2019-terminal sequence. Red letters depict nucleotides that are different within the SARS-CoV 5\u2019-terminal sequence ( \u201c-\u201c",
+            "indicates nucleotide deletion in SARS-CoV versus SARS-CoV-2). N20 indicates 20 nucleotides. SL structures 1, 2, and 4 are shown according to Chan et al.[22]. Note that recombinant virus construct 1 (rSARS-CoV-2 clone 1) and construct 4 (rSARS-CoV-GFP clone 4) contain the SARS-CoV-2 5\u2019-terminus with nucleotides 3-5 (UAA) exchanged by nucleotides 3-5 (AUU) of SARS-CoV; recombinant virus construct 2 (rSARS-CoV-2 clone 2)",
+            "and construct 5 (rSARS-CoV-2-GFP clone 5) contain a 5\u2019-terminus with the first 124 nucleotides from SARS-CoV; and recombinant virus construct 3 (rSARS-CoV-2 clone 3) and construct 6 (rSARS-CoV-GFP clone 6) contain the authentic SARS-CoV-2 5\u2019-terminus. c, Rescue of recombinant rSARS-CoV-2 and rSARS-CoV-2-GFP. The experimental setting is illustrated in the upper panel. Two clones of each construct 1-6 were used to prepare YAC",
+            "DNAs and in-vitro transcribed viral genome RNAs were electroporated into BHK-21 cells and/or BHK-SARS-N together with an mRNA encoding the SARS-CoV-2 N protein.",
+            "Electroporated cells were co-cultivated with VeroE6 cells in a T25 flask and cell culture supernatants were transferred to 12-well plates to perform plaque assay for rSARS-CoV-2 constructs 1-3 and fluorescence microscopy for rSARS-CoV-2-GFP constructs 4-6. Plaque assays are shown in the lower panel for SARS-CoV-2 clones 1.1, 2.2, and 3.1. VeroE6 cells were infected with 10-1, 10-2, and 10-3 dilutions of 1 ml supernatant from the individual rescue experiments and are compared to non-infected cells (Mock). The expression of GFP in SARS19",
+            "CoV-2-GFP infected VeroE6 cells is shown for clones 4.1, 5.2, and 6.1. Mock represents noninfected VeroE6 cells. d, Summary of the timeline of events of the SARS-CoV-2 outbreak and the work leading to the reconstruction and recovery of rSARS-CoV-2.",
+            "b, Schematic representation of the MERS-CoV genome organisation (upper panel) and eight viral subgenomic cDNA fragments (F1-8) used for TAR cloning. Viral open reading frames (ORFs) and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated.",
+            "Primers used to generate the fragments are listed in Extended Data Table 1. J2-8 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments. J1 and J9 represent junctions with the TAR vector. Gel image shows results from a multiplex PCR that was designed to detect the presence of correctly recombined junctions J1-9, confirming the proper assembly of the YAC containing the viral genome in 6 out of 8 clones. kb, kilobases; pT7, T7 RNA polymerase promoter; An, poly (A) tail.",
+            "c, Schematic representation of the MERS-CoV-GFP genome organisation (upper panel) and ten viral subgenomic cDNA fragments (F1-10 and F13) used for TAR cloning. Viral open reading frames (ORFs), ORF for GFP and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in Extended",
+            "Data Table 1. J2-8 and J10-11 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments. J1 and J9 represent junctions with the TAR vector. Gel images show results from two multiplex PCRs that were designed to detect the presence of correctly recombined junctions J1-11, confirming the proper assembly of the YAC containing the viral genome in 5 out of 8 clones. kb, kilobases; pT7, T7 RNA polymerase promoter; An, poly (A)",
+            "tail.",
+            "d, Schematic representation of the HCoV-229E genome organisation (upper panel) and thirteen viral subgenomic cDNA fragments (F1-13) used for TAR cloning. Viral open reading frames (ORFs) and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in Extended Data Table 1. J2-13 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments.",
+            "J1 and J14 represent junctions with the TAR vector. Gel images show results from two multiplex PCRs that were designed to detect the presence of correctly recombined junctions",
+            "J1-14, confirming the proper assembly of the YAC containing the viral genome in 7 out of 10 clones. kb, kilobases; pT7, T7 RNA polymerase promoter; An, poly (A) tail.",
+            "d, Schematic representation of the HCoV-HKU1 genome organisation (upper panel) and eleven viral subgenomic cDNA fragments (F1-11) used for TAR cloning. Viral open reading frames (ORFs) and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in Extended Data Table 1. J2-11",
+            "represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments.",
+            "J1 and J12 represent junctions with the TAR vector. Gel images show results from two multiplex PCRs that were designed to detect the presence of correctly recombined junctions",
+            "J1-12, confirming the proper assembly of the YAC containing the viral genome in 14 out of clones. kb, kilobases; pT7, T7 RNA polymerase promoter; An, poly (A) tail.",
+            "e, Schematic representation of the MERS-CoV-Riadh-1734-2015 genome organisation (upper panel) and eight viral subgenomic cDNA fragments (F1-8) used for TAR cloning. Viral open reading frames (ORFs) and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in Extended Data Table 1. J2-8 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments.",
+            "J1 and J9 represent junctions with the TAR vector. Gel images show results from a multiplex",
+            "PCR and a simplex PCR, both of which were designed to detect the presence of correctly recombined junctions J1-9, confirming the proper assembly of the YAC containing the viral genome in 5 out of 8 clones. kb, kilobases; pT7, T7 RNA polymerase promoter; An, poly (A)",
+            "f, Schematic representation of the ZIKA virus genome organisation (upper panel) and six viral subgenomic cDNA fragments (F1-6) used for TAR cloning. Viral open reading frames",
+            "Primers used to generate the fragments are listed in Extended Data Table 1. J2-5 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments. J1 and J6 represent junctions with the TAR vector. Gel image shows results from a multiplex PCR that was designed to detect the presence of correctly recombined junctions J1-6, confirming the proper assembly of the YAC containing the viral genome in 3 out of 15 clones. kb, kilobases; pT7, T7 RNA polymerase promoter; HDR, hepatitis delta virus ribozyme.",
+            "g, Schematic representation of the human RSV-B virus genome organisation (upper panel) and six viral subgenomic cDNA fragments (F1-6) used for TAR cloning. Viral open reading frames (ORFs) and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in Extended Data Table 1. J1-5 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments.",
+            "J1 and J5 contain junctions with the TAR vector. Gel image shows results from a multiplex",
+            "PCR that was designed to detect the presence of correctly recombined junctions J1-5, confirming the proper assembly of the YAC containing the viral genome in 7 out of 8 clones.",
+            "kb, kilobases; pT7, T7 RNA polymerase promoter; HHrb, hammerhead ribozyme, Rb-T7ter, Ribozyme and T7 RNA polymerase terminator seqeunce.",
+            "h, Schematic representation of the SARS-CoV-2 genome organisation (upper panel) and twelve viral subgenomic cDNA fragments (F1-12) used for TAR cloning. Viral open reading frames (ORFs) and sequence elements at the 5\u2019- and 3\u2019-untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in Extended Data Table 1. J2-12 represent the junctions, i.e. overlapping regions, between the subgenomic cDNA fragments.",
+            "J1 and J13 represent junctions with the TAR vector. Gel images show results from two multiplex PCRs that were designed to detect the presence of correctly recombined junctions",
+            "J1-13, confirming the proper assembly of the YAC containing the viral genome in 6 out of 6 clones. kb, kilobases; pT7, T7 RNA polymerase promoter; An, poly (A) tail.",
+            "i, Schematic representation of the SARS-CoV-2 genome organisation (upper panel) and fourteen viral subgenomic cDNA fragments (F1-10 and F12-15) used for TAR cloning. Viral open reading frames (ORFs), ORF for GFP and sequence elements at the 5\u2019- and 3\u201923",
+            "untranslated regions (UTRs) are indicated. Primers used to generate the fragments are listed in",
+            "a, Six constructs were initially designed based on 3 different 5\u2019-UTR regions. These regions contain i) a modified sequence of the 5\u2019-UTR region of the SARS-CoV-2 (5\u2019- ATAUUAGG; 5\u2019-terminal 8 nucleotides are shown, modified nucleotides underlined) were nucleotides 3-5",
+            "(synthetic fragment 1.1 for constructs 1 and 4), ii) a SARS-CoV-2 5\u2019-terminus with the first nucleotides exchanged by the corresponding 5\u2019-terminal sequence of SARS-CoV (synthetic fragment 1.2; construct 2 and 5) and iii) the reported sequence of the SARS-CoV-2",
+            "(GISAID: EPI_ISL_402119) (synthetic fragment 1.3; constructs 3 and 6). After yeast transformation, 10 colonies were randomly picked for each of the six constructs and all the junctions bridging the overlapping fragments were verified by multiplex PCR. For each construct, two clones (x.1 and x.2) were randomly selected and YAC DNAs were isolated (12 clones in total). RNAs were generated by in vitro transcription and electroporated together with an mRNA encoding the SARS-CoV-2 N protein either into BHK-21 cells (12 clones) or",
+            "BHK-SARS-N cells (cells expressing the SARS-CoV N protein) (6 clones). Electroporated cells were then co-cultivated with susceptible VeroE6 cells to rescue the recombinant viruses.",
+            "P.0 supernatants were collected at different time points after electroporation (from 2 dpe to 5",
+            "dpe) and transferred to VeroE6 cells to generate P.1 virus stocks, and in parallel to demonstrate presence of infectious virus by plaque assay (virus clones that do not encode",
+            "GFP) or fluorescence microscopy (GFP-encoding virus clones). YAC, yeast artificial chromosome; h.p.e, hours post-electroporation; d.p.e, days post-electroporation; CPE, cytopathic effects; GFP, green fluorescent protein; pfu/ml, plaque forming units per millilitre.",
+            "RT-PCR plasmid DNA restriction/ RT-PCR restriction/RTPCR/PCR in progress in progress yes"
+        ]
+    },
+    "participants": [],
+    "statistics": [],
+    "keywords": [
+        "synthetic genomic platform",
+        "genetic reconstruction",
+        "indispensable tool",
+        "paramyxoviridae family",
+        "pathogenic",
+        "genomic characterization",
+        "large rna virus genome",
+        "genomics",
+        "promoter and a cleavage site",
+        "diverse rna virus",
+        "alternative rapid",
+        "Respiratory syndrome",
+        "vaccine development",
+        "pathogenesis",
+        "Saccharomyces cerevisiae",
+        "research community",
+        "e. coli host",
+        "synthetic dna",
+        "coronavirus",
+        "pneumonia",
+        "viral pathogenesis",
+        "genetics",
+        "SARS",
+        "synthetic genomics",
+        "bacterial artificial chromosomes",
+        "transformation associated recombination",
+        "ZIKA virus",
+        "sars cov",
+        "infectious rna",
+        "cDNA",
+        "E. coli",
+        "yeast artificial chromosome",
+        "robust reverse genetic platform"
+    ],
+    "keyword_relevance": {
+        "SARS": 0.34191176470588236,
+        "transformation associated recombination": 0.13970588235294118,
+        "cDNA": 0.11397058823529412,
+        "yeast artificial chromosome": 0.08823529411764706,
+        "coronavirus": 0.0661764705882353,
+        "genomics": 0.04411764705882353,
+        "synthetic genomics": 0.04044117647058824,
+        "genetics": 0.029411764705882353,
+        "E. coli": 0.029411764705882353,
+        "ZIKA virus": 0.01838235294117647,
+        "Saccharomyces cerevisiae": 0.014705882352941176,
+        "bacterial artificial chromosomes": 0.014705882352941176,
+        "pathogenic": 0.011029411764705883,
+        "promoter and a cleavage site": 0.011029411764705883,
+        "pathogenesis": 0.007352941176470588,
+        "pneumonia": 0.007352941176470588,
+        "genetic reconstruction": 0.003676470588235294,
+        "indispensable tool": 0.003676470588235294,
+        "alternative rapid": 0.003676470588235294,
+        "vaccine development": 0.003676470588235294,
+        "research community": 0.003676470588235294,
+        "viral pathogenesis": 0.003676470588235294,
+        "synthetic genomic platform": 0.0,
+        "paramyxoviridae family": 0.0,
+        "genomic characterization": 0.0,
+        "large rna virus genome": 0.0,
+        "diverse rna virus": 0.0,
+        "Respiratory syndrome": 0.0,
+        "e. coli host": 0.0,
+        "synthetic dna": 0.0,
+        "sars cov": 0.0,
+        "infectious rna": 0.0,
+        "robust reverse genetic platform": 0.0
+    },
+    "species": [
+        "E. coli",
+        "Saccharomyces cerevisiae"
+    ],
+    "summary": [
+        "Reverse genetics has been an indispensable tool revolutionising the insights into viral pathogenesis and vaccine development.",
+        "Coli did prove very useful for cloning many viral genomes, it has drawbacks for a number of emerging RNA viruses, including coronaviruses, in terms of assembling and stably maintaining full-length molecular clones.",
+        "Fragments containing the 5\u2019- and 3\u2019-termini were PCR-amplified from the vaccinia virus-cloned genome to include a T7-RNA polymerase promoter and a cleavage site (PacI)",
+        "The authors could readily detect green fluorescent VeroB4 cells that had been infected with recovered MERS-CoV-GFP demonstrating that the synthetic genomics platform is suitable to genetically modify coronavirus genomes (Fig. 2b).",
+        "As shown in Extended data Figure 1d-h, the authors followed the same strategy to prepare the genome termini in cloned plasmids to include genetic elements that are later needed for virus rescue (e.g. T7-RNA polymerase promoter, cleavages sites or ribozyme elements) and produced a set of overlapping DNA fragments covering the rest of the genome.",
+        "These results demonstrate the synthetic genomics platform provides the technical advance to rapidly generate molecular clones of diverse RNA viruses by using viral isolates, cloned DNA, synthetic DNA, and even clinical samples as starting material.",
+        "The appearance of a novel CoV in China at the end of 2019 prompted them to go a step further and to test the applicability of the synthetic genomics platform to reconstruct the virus based on its released genome sequence and chemically synthesized DNA fragments.",
+        "At the time when the first genome sequences of SARS-CoV-2 were released (Jan 10/11th, 2020) no virus isolate has been made available and it took until the end of January 2020 when successful.",
+        "Cloning was immediately initiated, and for all 6 SARS-CoV-2 constructs the authors obtained correctly assembled molecular clones (3 versions of the 5\u2019-end and each version with and without GFP; Extended Data Fig. 2).",
+        "SARS-CoV-2 clones 1.1, 2.2, and 3.1, plaques were detectable on VeroE6 cells that were inoculated with supernatants containing the RNA-electroporated cells, demonstrating the infectious virus has been recovered for recombinant rSARS-CoV-2 and for the variants containing modified 5\u2019-termini.",
+        "The rapidity of the synthetic genomics approach to generate SARS-CoV-2 and the applicability to other emerging RNA viruses make this system an attractive alternative to provide infectious virus to health authorities and diagnostic laboratories without the need to have access to clinical samples.",
+        "With the synthetic genomics platform it is possible to introduce such sequence variations into the infectious clone and to functionally characterize SARS-CoV-2 evolution in real-time."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Reverse genetics has been an indispensable tool revolutionising the insights into viral pathogenesis and vaccine development.",
+            "Coli did prove very useful for cloning many viral genomes, it has drawbacks for a number of emerging RNA viruses, including coronaviruses, in terms of assembling and stably maintaining full-length molecular clones."
+        ],
+        "Results": [
+            "Fragments containing the 5\u2019- and 3\u2019-termini were PCR-amplified from the vaccinia virus-cloned genome to include a T7-RNA polymerase promoter and a cleavage site (PacI)",
+            "The authors could readily detect green fluorescent VeroB4 cells that had been infected with recovered MERS-CoV-GFP demonstrating that the synthetic genomics platform is suitable to genetically modify coronavirus genomes (Fig. 2b).",
+            "As shown in Extended data Figure 1d-h, the authors followed the same strategy to prepare the genome termini in cloned plasmids to include genetic elements that are later needed for virus rescue (e.g. T7-RNA polymerase promoter, cleavages sites or ribozyme elements) and produced a set of overlapping DNA fragments covering the rest of the genome.",
+            "These results demonstrate the synthetic genomics platform provides the technical advance to rapidly generate molecular clones of diverse RNA viruses by using viral isolates, cloned DNA, synthetic DNA, and even clinical samples as starting material.",
+            "The appearance of a novel CoV in China at the end of 2019 prompted them to go a step further and to test the applicability of the synthetic genomics platform to reconstruct the virus based on its released genome sequence and chemically synthesized DNA fragments.",
+            "At the time when the first genome sequences of SARS-CoV-2 were released (Jan 10/11th, 2020) no virus isolate has been made available and it took until the end of January 2020 when successful.",
+            "Cloning was immediately initiated, and for all 6 SARS-CoV-2 constructs the authors obtained correctly assembled molecular clones (3 versions of the 5\u2019-end and each version with and without GFP; Extended Data Fig. 2).",
+            "SARS-CoV-2 clones 1.1, 2.2, and 3.1, plaques were detectable on VeroE6 cells that were inoculated with supernatants containing the RNA-electroporated cells, demonstrating the infectious virus has been recovered for recombinant rSARS-CoV-2 and for the variants containing modified 5\u2019-termini."
+        ],
+        "Conclusion": [
+            "The rapidity of the synthetic genomics approach to generate SARS-CoV-2 and the applicability to other emerging RNA viruses make this system an attractive alternative to provide infectious virus to health authorities and diagnostic laboratories without the need to have access to clinical samples.",
+            "With the synthetic genomics platform it is possible to introduce such sequence variations into the infectious clone and to functionally characterize SARS-CoV-2 evolution in real-time."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Almazan_2000_a",
+            "alt_id": "1",
+            "entry": "Almazan, F. et al. Engineering the largest RNA virus genome as an infectious bacterial artificial chromosome. Proc Natl Acad Sci U S A 97, 5516-5521, doi:10.1073/pnas.97.10.5516 (2000).",
+            "crossref": "https://dx.doi.org/10.1073/pnas.97.10.5516",
+            "scite": "https://scite.ai/reports/10.1073/pnas.97.10.5516",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1073/pnas.97.10.5516"
+        },
+        {
+            "id": "Thiel_et+al_2001_a",
+            "alt_id": "2",
+            "entry": "Thiel, V., Herold, J., Schelle, B. & Siddell, S. G. Infectious RNA transcribed in vitro from a cDNA copy of the human coronavirus genome cloned in vaccinia virus. J Gen Virol 82, 1273\u20131281 (2001).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thiel%2C%20V.%20Herold%2C%20J.%20Schelle%2C%20B.%20Siddell%2C%20S.G.%20Infectious%20RNA%20transcribed%20in%20vitro%20from%20a%20cDNA%20copy%20of%20the%20human%20coronavirus%20genome%20cloned%20in%20vaccinia%20virus%202001",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thiel%2C%20V.%20Herold%2C%20J.%20Schelle%2C%20B.%20Siddell%2C%20S.G.%20Infectious%20RNA%20transcribed%20in%20vitro%20from%20a%20cDNA%20copy%20of%20the%20human%20coronavirus%20genome%20cloned%20in%20vaccinia%20virus%202001",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thiel%2C%20V.%20Herold%2C%20J.%20Schelle%2C%20B.%20Siddell%2C%20S.G.%20Infectious%20RNA%20transcribed%20in%20vitro%20from%20a%20cDNA%20copy%20of%20the%20human%20coronavirus%20genome%20cloned%20in%20vaccinia%20virus%202001"
+        },
+        {
+            "id": "Yount_et+al_2000_a",
+            "alt_id": "3",
+            "entry": "Yount, B., Curtis, K. M. & Baric, R. S. Strategy for systematic assembly of large RNA and DNA genomes: transmissible gastroenteritis virus model. J Virol 74, 1060010611, doi:10.1128/jvi.74.22.10600-10611.2000 (2000).",
+            "crossref": "https://dx.doi.org/10.1128/jvi.74.22.10600-10611.2000",
+            "scite": "https://scite.ai/reports/10.1128/jvi.74.22.10600-10611.2000",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1128/jvi.74.22.10600-10611.2000"
+        },
+        {
+            "id": "Zhu_2019_a",
+            "alt_id": "4",
+            "entry": "Zhu, N. et al. A Novel Coronavirus from Patients with Pneumonia in China, 2019. N Engl J Med, doi:10.1056/NEJMoa2001017 (2020).",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001017",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001017"
+        },
+        {
+            "id": "Zaki_et+al_2012_a",
+            "alt_id": "5",
+            "entry": "Zaki, A. M., van Boheemen, S., Bestebroer, T. M., Osterhaus, A. D. & Fouchier, R. A. Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N Engl J Med 367, 1814-1820, doi:10.1056/NEJMoa1211721 (2012).",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa1211721",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa1211721",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa1211721"
+        },
+        {
+            "id": "Cao-Lormeau_2013_a",
+            "alt_id": "6",
+            "entry": "Cao-Lormeau, V. M. et al. Zika virus, French polynesia, South pacific, 2013. Emerg Infect Dis 20, 1085-1086, doi:10.3201/eid2006.140138 (2014).",
+            "crossref": "https://dx.doi.org/10.3201/eid2006.140138",
+            "scite": "https://scite.ai/reports/10.3201/eid2006.140138",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3201/eid2006.140138"
+        },
+        {
+            "id": "Baize_2014_a",
+            "alt_id": "7",
+            "entry": "Baize, S. et al. Emergence of Zaire Ebola virus disease in Guinea. N Engl J Med 371, 1418-1425, doi:10.1056/NEJMoa1404505 (2014).",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa1404505",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa1404505",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa1404505"
+        },
+        {
+            "id": "10",
+            "alt_id": "10.1126/science.1190719_2010_a",
+            "entry": "10.1126/science.1190719 (2010).",
+            "crossref": "https://dx.doi.org/10.1126/science.1190719",
+            "scite": "https://scite.ai/reports/10.1126/science.1190719"
+        },
+        {
+            "id": "10",
+            "alt_id": "10.1126/science.1173759_2009_a",
+            "entry": "10.1126/science.1173759 (2009). 12",
+            "crossref": "https://dx.doi.org/10.1126/science.1173759",
+            "scite": "https://scite.ai/reports/10.1126/science.1173759"
+        },
+        {
+            "id": "Benders_2010_a",
+            "alt_id": "10",
+            "entry": "Benders, G. A. et al. Cloning whole bacterial genomes in yeast. Nucleic Acids Res 38, 2558-2569, doi:10.1093/nar/gkq119 (2010).",
+            "crossref": "https://dx.doi.org/10.1093/nar/gkq119",
+            "scite": "https://scite.ai/reports/10.1093/nar/gkq119",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/nar/gkq119"
+        },
+        {
+            "id": "Hutchison_2016_a",
+            "alt_id": "11",
+            "entry": "Hutchison, C. A., 3rd et al. Design and synthesis of a minimal bacterial genome. Science 351, aad6253, doi:10.1126/science.aad6253 (2016).",
+            "crossref": "https://dx.doi.org/10.1126/science.aad6253",
+            "scite": "https://scite.ai/reports/10.1126/science.aad6253"
+        },
+        {
+            "id": "Kouprina_2008_a",
+            "alt_id": "12",
+            "entry": "Kouprina, N. & Larionov, V. Selective isolation of genomic loci from complex genomes by transformation-associated recombination cloning in the yeast Saccharomyces cerevisiae. Nat Protoc 3, 371-377, doi:10.1038/nprot.2008.5 (2008).",
+            "crossref": "https://dx.doi.org/10.1038/nprot.2008.5",
+            "scite": "https://scite.ai/reports/10.1038/nprot.2008.5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/nprot.2008.5"
+        },
+        {
+            "id": "Vashee_2017_a",
+            "alt_id": "13",
+            "entry": "Vashee, S. et al. Cloning, Assembly, and Modification of the Primary Human Cytomegalovirus Isolate Toledo by Yeast-Based Transformation-Associated Recombination. mSphere 2, doi:10.1128/mSphereDirect.00331-17 (2017).",
+            "crossref": "https://dx.doi.org/10.1128/mSphereDirect.00331-17",
+            "scite": "https://scite.ai/reports/10.1128/mSphereDirect.00331-17"
+        },
+        {
+            "id": "Oldfield_2017_a",
+            "alt_id": "14",
+            "entry": "Oldfield, L. M. et al. Genome-wide engineering of an infectious clone of herpes simplex virus type 1 using synthetic genomics assembly methods. Proc Natl Acad Sci U S A 114, E8885-E8894, doi:10.1073/pnas.1700534114 (2017).",
+            "crossref": "https://dx.doi.org/10.1073/pnas.1700534114",
+            "scite": "https://scite.ai/reports/10.1073/pnas.1700534114",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1073/pnas.1700534114"
+        },
+        {
+            "id": "Coley_2005_a",
+            "alt_id": "15",
+            "entry": "Coley, S. E. et al. Recombinant mouse hepatitis virus strain A59 from cloned, fulllength cDNA replicates to high titers in vitro and is fully pathogenic in vivo. J Virol 79, 3097-3106, doi:10.1128/JVI.79.5.3097-3106.2005 (2005).",
+            "crossref": "https://dx.doi.org/10.1128/JVI.79.5.3097-3106.2005",
+            "scite": "https://scite.ai/reports/10.1128/JVI.79.5.3097-3106.2005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1128/JVI.79.5.3097-3106.2005"
+        },
+        {
+            "id": "Zust_2007_a",
+            "alt_id": "16",
+            "entry": "Zust, R. et al. Coronavirus non-structural protein 1 is a major pathogenicity factor: implications for the rational design of coronavirus vaccines. PLoS Pathog 3, e109, doi:10.1371/journal.ppat.0030109 (2007).",
+            "crossref": "https://dx.doi.org/10.1371/journal.ppat.0030109",
+            "scite": "https://scite.ai/reports/10.1371/journal.ppat.0030109"
+        },
+        {
+            "id": "Muth_2017_a",
+            "alt_id": "17",
+            "entry": "Muth, D. et al. Transgene expression in the genome of Middle East respiratory syndrome coronavirus based on a novel reverse genetics system utilizing Redmediated recombination cloning. J Gen Virol 98, 2461-2469, doi:10.1099/jgv.0.000919 (2017).",
+            "crossref": "https://dx.doi.org/10.1099/jgv.0.000919",
+            "scite": "https://scite.ai/reports/10.1099/jgv.0.000919",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1099/jgv.0.000919"
+        },
+        {
+            "id": "Hu_2018_a",
+            "alt_id": "18",
+            "entry": "Hu, D. et al. Genomic characterization and infectivity of a novel SARS-like coronavirus in Chinese bats. Emerg Microbes Infect 7, 154, doi:10.1038/s41426-0180155-5 (2018).",
+            "crossref": "https://dx.doi.org/10.1038/s41426-0180155-5",
+            "scite": "https://scite.ai/reports/10.1038/s41426-0180155-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41426-0180155-5"
+        },
+        {
+            "id": "Thiel_2003_a",
+            "alt_id": "19",
+            "entry": "Thiel, V. et al. Mechanisms and enzymes involved in SARS coronavirus genome expression. J Gen Virol 84, 2305-2315, doi:10.1099/vir.0.19424-0 (2003). van den Worm, S. H. et al. Reverse genetics of SARS-related coronavirus using vaccinia virus-based recombination. PLoS One 7, e32857, doi:10.1371/journal.pone.0032857 (2012).",
+            "crossref": "https://dx.doi.org/10.1099/vir.0.19424-0",
+            "scite": "https://scite.ai/reports/10.1099/vir.0.19424-0",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1099/vir.0.19424-0"
+        },
+        {
+            "id": "Polo_et+al_1997_a",
+            "alt_id": "20",
+            "entry": "Polo, S., Ketner, G., Levis, R. & Falgout, B. Infectious RNA transcripts from fulllength dengue virus type 2 cDNA clones made in yeast. J Virol 71, 5366-5374 (1997).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Polo%2C%20S.%20Ketner%2C%20G.%20Levis%2C%20R.%20Falgout%2C%20B.%20Infectious%20RNA%20transcripts%20from%20fulllength%20dengue%20virus%20type%202%20cDNA%20clones%20made%20in%20yeast%201997",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Polo%2C%20S.%20Ketner%2C%20G.%20Levis%2C%20R.%20Falgout%2C%20B.%20Infectious%20RNA%20transcripts%20from%20fulllength%20dengue%20virus%20type%202%20cDNA%20clones%20made%20in%20yeast%201997",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Polo%2C%20S.%20Ketner%2C%20G.%20Levis%2C%20R.%20Falgout%2C%20B.%20Infectious%20RNA%20transcripts%20from%20fulllength%20dengue%20virus%20type%202%20cDNA%20clones%20made%20in%20yeast%201997"
+        },
+        {
+            "id": "Chan_2019_a",
+            "alt_id": "21",
+            "entry": "Chan, J. F. et al. Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan. Emerg Microbes Infect 9, 221-236, doi:10.1080/22221751.2020.1719902 (2020).",
+            "crossref": "https://dx.doi.org/10.1080/22221751.2020.1719902",
+            "scite": "https://scite.ai/reports/10.1080/22221751.2020.1719902",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1080/22221751.2020.1719902"
+        }
+    ],
+    "facts": [
+        "in one step in Saccharomyces cerevisiae using transformation associated recombination cloning to maintain the genome as a yeast artificial chromosome",
+        "functional characterization of evolving RNA virus variants - in real-time - during an outbreak",
+        "Coli did prove very useful for cloning many viral genomes",
+        "readily detect green fluorescent VeroB4 cells that had been infected with recovered MERS-CoV-GFP demonstrating that the synthetic genomics platform is suitable",
+        "plaques were detectable on VeroE6 cells",
+        "that were inoculated with supernatants containing the RNA-electroporated cells",
+        "the infectious virus has been recovered for recombinant rSARS-CoV-2",
+        "homologous recombination in yeast has already been used for the generation of a number",
+        "that one main advantage of the TAR cloning system is that the viral genomes can be fragmented to"
+    ],
+    "claims": [
+        "We show the full functionality of a yeast-based synthetic genomics platform for the genetic reconstruction of diverse RNA viruses, including members of the Coronaviridae, Flaviviridae and Paramyxoviridae families",
+        "The technical advance we describe here allows to rapidly responding to emerging viruses as it enables the generation and functional characterization of evolving RNA virus variants - in real-time - during an outbreak",
+        "We expect that the fast, robust and versatile synthetic genomics platform we describe here will provide new insights into the molecular biology and pathogenesis of a number of emerging RNA viruses and will specifically facilitate the molecular characterization of the novel coronavirus SARS-CoV-2",
+        "Although homologous recombination in yeast has already been used for the generation of a number of molecular virus clones in the past13,14,21, we present here a thorough evaluation of the feasibility of this approach to rapidly generate fulllength cDNAs for large RNA viruses that have a known history of instability in E. coli",
+        "We show that one main advantage of the TAR cloning system is that the viral genomes can be fragmented to at least 14 overlapping fragments and re-assembled with remarkable efficacy (usually >90% of the clones are correct)"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We could readily detect green fluorescent VeroB4 cells that had been infected with recovered MERS-CoV-GFP demonstrating that the synthetic genomics platform is suitable to genetically modify coronavirus genomes (Fig. 2b)",
+        "SARS-CoV-2 clones 1.1, 2.2, and 3.1, plaques were detectable on VeroE6 cells that were inoculated with supernatants containing the RNA-electroporated cells, demonstrating the infectious virus has been recovered for recombinant rSARS-CoV-2 and for the variants containing modified 5\u2019-termini",
+        "We expect that the fast, robust and versatile synthetic genomics platform we describe here will provide new insights into the molecular biology and pathogenesis of a number of emerging RNA viruses and will facilitate the molecular characterization of the novel coronavirus SARS-CoV-2",
+        "Homologous recombination in yeast has already been used for the generation of a number of molecular virus clones in the past[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>,<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>,<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>], we present here a thorough evaluation of the feasibility of this approach to rapidly generate fulllength cDNAs for large RNA viruses that have a known history of instability in E. coli",
+        "We show that one main advantage of the transformation associated recombination cloning system is that the viral genomes can be fragmented to at least 14 overlapping fragments and re-assembled with remarkable efficacy"
+    ],
+    "top_statements": [
+        "Reverse genetics has been an indispensable tool revolutionising our insights into viral pathogenesis and vaccine development",
+        "We could readily detect green fluorescent VeroB4 cells that had been infected with recovered MERS-CoV-GFP demonstrating that the synthetic genomics platform is suitable to genetically modify coronavirus genomes (Fig. 2b)",
+        "SARS-CoV-2 clones 1.1, 2.2, and 3.1, plaques were detectable on VeroE6 cells that were inoculated with supernatants containing the RNA-electroporated cells, demonstrating the infectious virus has been recovered for recombinant rSARS-CoV-2 and for the variants containing modified 5\u2019-termini",
+        "We expect that the fast, robust and versatile synthetic genomics platform we describe here will provide new insights into the molecular biology and pathogenesis of a number of emerging RNA viruses and will facilitate the molecular characterization of the novel coronavirus SARS-CoV-2",
+        "Homologous recombination in yeast has already been used for the generation of a number of molecular virus clones in the past[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>,<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>,<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>], we present here a thorough evaluation of the feasibility of this approach to rapidly generate fulllength cDNAs for large RNA viruses that have a known history of instability in E. coli",
+        "We show that one main advantage of the transformation associated recombination cloning system is that the viral genomes can be fragmented to at least 14 overlapping fragments and re-assembled with remarkable efficacy"
+    ],
+    "headline": "Homologous recombination in yeast has already been used for the generation of a number of molecular virus clones in the past13,14,21, we present here a thorough evaluation of the feasibility of this approach to rapidly generate fulllength cDNAs for large RNA viruses that have a known history of instability in E. coli",
+    "contexts": [],
+    "abbreviations": {
+        "TAR": "transformation associated recombination",
+        "YAC": "yeast artificial chromosome",
+        "ZIKV": "ZIKA virus",
+        "BACs": "bacterial artificial chromosomes",
+        "PacI": "promoter and a cleavage site"
+    }
+}

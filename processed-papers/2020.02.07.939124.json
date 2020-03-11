@@ -1,0 +1,557 @@
+{
+    "filename": "2020.02.07.939124.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1425571,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.07.939124",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/11/2020.02.07.939124.full.pdf"
+        },
+        "title": "Exploring the coronavirus epidemic using the new WashU Virus Genome Browser",
+        "author": "Jennifer A. Flynn, Deepak Purushotham, Mayank NK Choudhary, Xiaoyu Zhuo, Changxu Fan, Gavriel Matt, Daofeng Li, Ting Wang",
+        "date": 2020,
+        "affiliations": [
+            "The Edison Family Center for Genome Sciences & Systems Biology, Department of Genetics,",
+            "Washington University, 4515 McKinley Avenue, Campus Box 8510, St. Louis, MO 63110, USA 13",
+            "McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO 63108,"
+        ],
+        "abstract": "Since its debut in mid-December, 2019, the novel coronavirus (2019-nCoV) has rapidly spread from its origin in Wuhan, China, to several countries across the globe, leading to a global health crisis. As of February 7, 2020, 44 strains of the virus have been sequenced and uploaded to NCBI\u2019s GenBank [1], providing insight into the virus\u2019s evolutionary history and pathogenesis. Here, we present the WashU Virus Genome Browser, a web-based portal for viewing virus genomic data. The browser is home to 16 complete 2019-nCoV genome sequences, together with hundreds of related viral sequences including severe acute respiratory syndrome coronavirus (SARS-CoV), Middle East respiratory syndrome coronavirus (MERS-CoV), and Ebola virus. In addition, the browser features unique customizability, supporting user-provided upload of novel viral sequences in various formats. Sequences can be viewed in both a track-based representation as well as a phylogenetic tree-based view, allowing the user to easily compare sequence features across multiple strains. The WashU Virus Genome Browser inherited many features and track types from the WashU Epigenome Browser, and additionally incorporated a new type of SNV track to address the specific needs of viral research. Our Virus Browser portal can be accessed at https://virusgateway.wustl.edu, and documentation is available at https://virusgateway.readthedocs.io/.",
+        "references": "@incollection{unknown2019a,\n  booktitle = {NCBI GeneBank [https://www.ncbi.nlm.nih.gov/genbank/2019-ncov-seqs/] Novel Coronavirus},\n  date = {2019},\n  title = {Situation Report-17},\n  language = {}\n}\n@misc{unknown-a,\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200206-}\n}\n@misc{unknown-b,\n  url = {https://talk.ictvonline.org/taxonomy/}\n}\n@article{cui2019a,\n  author = {Cui, J. and Li, F. and Shi, Z.L.},\n  title = {Origin and evolution of pathogenic coronaviruses},\n  journal = {Nat Rev Microbiol},\n  date = {2019},\n  volume = {17},\n  pages = {181\u2013192},\n  number = {3},\n  language = {}\n}\n@article{li2019a,\n  author = {Li, D. and Hsu, S. and Purushotham, D. and Sears, R.L. and Wang, T.},\n  title = {WashU Epigenome Browser update 2019},\n  journal = {Nucleic Acids Res},\n  date = {2019},\n  volume = {47},\n  pages = {158\u2013165},\n  number = {1},\n  language = {}\n}\n@article{zhou2015a,\n  author = {Zhou, X. and Li, D. and Zhang, B. and Lowdon, R.F. and Rockweiler, N.B. and Sears, R.L. and Madden, P.A. and Smirnov, I. and Costello, J.F. and Wang, T.},\n  title = {Epigenomic annotation of genetic variants using the Roadmap Epigenome Browser},\n  journal = {Nature biotechnology},\n  date = {2015},\n  volume = {33},\n  pages = {345\u2013346},\n  number = {4},\n  language = {}\n}\n@article{zhou2013a,\n  author = {Zhou, X. and Lowdon, R.F. and Li, D. and Lawson, H.A. and Madden, P.A. and Costello, J.F. and Wang, T.},\n  title = {Exploring longrange genome interactions using the WashU Epigenome Browser},\n  journal = {Nat Methods},\n  date = {2013},\n  volume = {10},\n  pages = {375\u2013376},\n  number = {5},\n  language = {}\n}\n@article{zhou2011a,\n  author = {Zhou, X. and Maricque, B. and Xie, M. and Li, D. and Sundaram, V. and Martin, E.A. and Koebbe, B.C. and Nielsen, C. and Hirst, M. and Farnham},\n  title = {P et al: The Human Epigenome Browser at Washington University},\n  journal = {Nat Methods},\n  date = {2011},\n  volume = {8},\n  pages = {989\u2013990},\n  number = {12},\n  language = {}\n}\n@article{myers-a,\n  author = {Myers, E.W. and Miller, W.},\n  title = {Optimal alignments in linear space},\n  journal = {Comput Appl Biosci},\n  volume = {1988},\n  pages = {11\u201317},\n  number = {4},\n  language = {}\n}\n@article{katoh2002a,\n  author = {Katoh, K. and Misawa, K. and Kuma, K. and Miyata, T.},\n  title = {MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform},\n  journal = {Nucleic Acids Res},\n  date = {2002},\n  volume = {30},\n  pages = {3059\u20133066},\n  number = {14},\n  language = {}\n}\n@article{katoh2013a,\n  author = {Katoh, K. and Standley, D.M.},\n  title = {MAFFT multiple sequence alignment software version 7: improvements in performance and usability},\n  journal = {Mol Biol Evol},\n  date = {2013},\n  volume = {30},\n  pages = {772\u2013780},\n  number = {4},\n  language = {}\n}\n@article{price2009a,\n  author = {Price, M.N. and Dehal, P.S. and Arkin, A.P.},\n  title = {FastTree: computing large minimum evolution trees with profiles instead of a distance matrix},\n  journal = {Mol Biol Evol},\n  date = {2009},\n  volume = {26},\n  pages = {1641\u20131650},\n  number = {7},\n  language = {}\n}\n@article{price2010a,\n  author = {Price, M.N. and Dehal, P.S. and Arkin, A.P.},\n  title = {FastTree 2--approximately maximum-likelihood trees for large alignments},\n  journal = {PLoS One},\n  date = {2010},\n  volume = {5},\n  pages = {9490},\n  publisher = {Virus Browser Source Code},\n  url = {https://github.com/debugpoint136/WashU-Virus-Genome-},\n  number = {3},\n  language = {}\n}\n@article{vita-a,\n  author = {Vita, R. and Mahajan, S. and Overton, J.A. and Dhanda, S.K. and Martini, S. and Cantrell, JR, Wheeler and DK, Sette and A, Peters and B.},\n  title = {The Immune Epitope Database (IEDB): 2018 update. Nucleic Acids Res 2019, 47(D1)},\n  pages = {339\u2013343},\n  journal = {Nature},\n  unmatched-author = {Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B,},\n  source = {Huang CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  language = {}\n}\n@article{shank2018a,\n  author = {Shank, S.D. and Weaver, S.},\n  title = {Kosakovsky Pond SL: phylotree.js - a JavaScript library for application development and interactive data visualization in phylogenetics},\n  journal = {BMC Bioinformatics},\n  date = {2018},\n  volume = {19},\n  pages = {276},\n  number = {1},\n  language = {}\n}\n",
+        "links": [
+            "https://github.com/debugpoint136/WashU-Virus-Genome-Browser]",
+            "https://virusgateway.wustl.edu",
+            "https://github.com/debugpoint136/WashU-Virus-Genome272",
+            "https://virusgateway.readthedocs.io/"
+        ],
+        "emails": [
+            "twang@genetics.wustl.edu",
+            "dli23@wustl.edu"
+        ],
+        "references_ris": "TY  - CHAP\nT2  - NCBI GeneBank [https://www.ncbi.nlm.nih.gov/genbank/2019-ncov-seqs/] Novel Coronavirus\nPY  - 2019\nDA  - 2019\nTI  - Situation Report-17\nLA  - \nER  - \n\nTY  - GEN\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200206-\nER  - \n\nTY  - GEN\nUR  - https://talk.ictvonline.org/taxonomy/\nER  - \n\nTY  - JOUR\nAU  - Cui, J.\nAU  - Li, F.\nAU  - Shi, Z.L.\nTI  - Origin and evolution of pathogenic coronaviruses\nT2  - Nat Rev Microbiol\nPY  - 2019\nDA  - 2019\nVL  - 17\nSP  - 181\nEP  - 192\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, D.\nAU  - Hsu, S.\nAU  - Purushotham, D.\nAU  - Sears, R.L.\nAU  - Wang, T.\nTI  - WashU Epigenome Browser update 2019\nT2  - Nucleic Acids Res\nPY  - 2019\nDA  - 2019\nVL  - 47\nSP  - 158\nEP  - 165\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, X.\nAU  - Li, D.\nAU  - Zhang, B.\nAU  - Lowdon, R.F.\nAU  - Rockweiler, N.B.\nAU  - Sears, R.L.\nAU  - Madden, P.A.\nAU  - Smirnov, I.\nAU  - Costello, J.F.\nAU  - Wang, T.\nTI  - Epigenomic annotation of genetic variants using the Roadmap Epigenome Browser\nT2  - Nature biotechnology\nPY  - 2015\nDA  - 2015\nVL  - 33\nSP  - 345\nEP  - 346\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, X.\nAU  - Lowdon, R.F.\nAU  - Li, D.\nAU  - Lawson, H.A.\nAU  - Madden, P.A.\nAU  - Costello, J.F.\nAU  - Wang, T.\nTI  - Exploring longrange genome interactions using the WashU Epigenome Browser\nT2  - Nat Methods\nPY  - 2013\nDA  - 2013\nVL  - 10\nSP  - 375\nEP  - 376\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, X.\nAU  - Maricque, B.\nAU  - Xie, M.\nAU  - Li, D.\nAU  - Sundaram, V.\nAU  - Martin, E.A.\nAU  - Koebbe, B.C.\nAU  - Nielsen, C.\nAU  - Hirst, M.\nAU  - Farnham\nTI  - P et al: The Human Epigenome Browser at Washington University\nT2  - Nat Methods\nPY  - 2011\nDA  - 2011\nVL  - 8\nSP  - 989\nEP  - 990\nIS  - 12\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Myers, E.W.\nAU  - Miller, W.\nTI  - Optimal alignments in linear space\nT2  - Comput Appl Biosci\nVL  - 1988\nSP  - 11\nEP  - 17\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Katoh, K.\nAU  - Misawa, K.\nAU  - Kuma, K.\nAU  - Miyata, T.\nTI  - MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform\nT2  - Nucleic Acids Res\nPY  - 2002\nDA  - 2002\nVL  - 30\nSP  - 3059\nEP  - 3066\nIS  - 14\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Katoh, K.\nAU  - Standley, D.M.\nTI  - MAFFT multiple sequence alignment software version 7: improvements in performance and usability\nT2  - Mol Biol Evol\nPY  - 2013\nDA  - 2013\nVL  - 30\nSP  - 772\nEP  - 780\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Price, M.N.\nAU  - Dehal, P.S.\nAU  - Arkin, A.P.\nTI  - FastTree: computing large minimum evolution trees with profiles instead of a distance matrix\nT2  - Mol Biol Evol\nPY  - 2009\nDA  - 2009\nVL  - 26\nSP  - 1641\nEP  - 1650\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Price, M.N.\nAU  - Dehal, P.S.\nAU  - Arkin, A.P.\nTI  - FastTree 2--approximately maximum-likelihood trees for large alignments\nT2  - PLoS One\nPY  - 2010\nDA  - 2010\nVL  - 5\nSP  - 9490\nPB  - Virus Browser Source Code\nUR  - https://github.com/debugpoint136/WashU-Virus-Genome-\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Vita, R.\nAU  - Mahajan, S.\nAU  - Overton, J.A.\nAU  - Dhanda, S.K.\nAU  - Martini, S.\nAU  - Cantrell, JR, Wheeler\nAU  - DK, Sette\nAU  - A, Peters\nAU  - B.\nTI  - The Immune Epitope Database (IEDB): 2018 update. Nucleic Acids Res 2019, 47(D1)\nSP  - 339\nEP  - 343\nT2  - Nature\nC1  - Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B,\nT2  - Huang CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shank, S.D.\nAU  - Weaver, S.\nTI  - Kosakovsky Pond SL: phylotree.js - a JavaScript library for application development and interactive data visualization in phylogenetics\nT2  - BMC Bioinformatics\nPY  - 2018\nDA  - 2018\nVL  - 19\nSP  - 276\nIS  - 1\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Screenshot of the WashU Virus Genome Browser data page. This view demonstrates several customizable features of the browser, including which genome reference to use, which data tracks to select based on several metadata features, and which browser view to use: \u201cgenomic\u201d view (green arrow) or phylogenetic tree view (orange arrow). 343"
+            },
+            {
+                "id": "2",
+                "caption": "Illustration of genomic-level and nucleotide-level track views. A: \u201czoomed out\u201d track view of the entire genome. 2019-nCoV reference genome (shown in red, NC045512.2) and 2 SARS strains (shown in green, DQ071615.1 and AY278488.2) are aligned to the SARS reference genome (NC_004718.3). The box in the top left corner allows users to upload and use any sequence in FASTA format as the reference genome. The shaded vertical bar demonstrates the user\u2019s ability to select a region by mouse for further magnification. B: \u201cZoomed in\u201d view of the sequence flanking the 5\u2019 end of the S protein. C: A further \u201czoomed in\u201d view to the level of individual nucleotides. Stretches of grey indicate matching while variations are color coded. 353"
+            },
+            {
+                "id": "3",
+                "caption": "Alignment of the genomic region encoding the nucleocapsid protein. A: 2 SARS strains (DQ071615.1 and AY278488.2) and 5 2019-nCoV strains (MN938384.1, MN975262.1, MN985325.1, MN988668.1, and MN988669.1) are aligned to the 2019-nCoV reference. The region encoding the nucleocapsid protein is shown. Putative SARS immune epitopes [Materials and Methods] are displayed in \u201cdensity mode\u201d. B: A zoomed-in view of A (orange box), displaying the first 9 amino acids of the reference. Results show a \u201cTCA\u201d insertion in the AY278488.2 alignment between positions 28294 and 28295 of the 2019-nCoV reference sequence, which is not present in DQ071615.1. These results are consistent with the results reported in Extended Data Figure 5 of Zhou et al [16]. C: A zoomed-in view of A (purple box), displaying a region conserved between SARS and 2019363 nCoV, overlapping several putative immune epitopes. 364 365"
+            },
+            {
+                "id": "4",
+                "caption": "Screenshot of a linear, right-aligned tree view displaying all housed 2019-nCoV sequences with accompanying metadata. Solid lines signify distance. 368"
+            },
+            {
+                "id": "5",
+                "caption": "A: Screenshot of a linear, left-aligned phylogenetic tree view, displaying all 2019369 nCoV strains hosted by the browser. B: Screenshot of a radial tree view for all 2019-nCoV strains. 372"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.939124.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.939124.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.939124.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.939124.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.939124.full/img-011.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.07.939124.full/img-015.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "On December 12, 2019, the first case of a novel coronavirus (2019-nCoV) was reported in<br/><br/>Wuhan, China, and by February 6, 2020, the virus spread to 24 additional countries, infecting more than 27,000 individuals and resulting in 565 fatalities, according to the World Health<br/><br/>Organization (WHO) [2]. The 2019-nCoV is a member of the Betacoronavirus genus, which is one of four genera of coronaviruses of the subfamily Orthocoronavirinae in the family<br/><br/>Coronaviridae, of the order Nidovirales [3, 4]. The species in this genus are enveloped, contain a positive single-stranded RNA genome, and are of zoonotic, likely bat, origins [5]. 2019-nCoV is one of the largest RNA virus genomes varying from 27kb to 32kb in size, with this particular strain ringing in at 29,903 bps long [6]. The virus is one of 7 coronaviruses known to infect humans, and along with the severe acute respiratory syndrome coronavirus (SARS-CoV) and the Middle East respiratory syndrome coronavirus (MERS-CoV), 2019-nCoV is one of the species responsible for severe respiratory distress in humans as well as other animals [4]. In an effort to better understand the pathogenesis of this family of viruses, several groups have sequenced individual strains, providing a powerful resource hosted by NCBI.<br/><br/>The WashU Epigenome Browser is a powerful tool for visualizing multiple functional genomic datasets and data types simultaneously [5-8]. The general layout of the Epigenome Browser displays the genome on the x-axis, and individual tracks encompassing many different varieties can be loaded and viewed in the context of the genome and accompanying metadata. Recent updates to the browser have incorporated new functionality, including live browsing, greatly enhancing its functionality [5]. With this powerful tool in-hand, we sought to adapt the browser for use of visualizing viral genomes, to support more efficient research and more rapid knowledge dissemination in response to the recent 2019-nCoV outbreak. To accomplish this, we created the WashU Virus Genome Browser, adapted from the WashU Epigenome Browser."
+        ],
+        "methods": [
+            "Reference sequences, additional strains, and gene annotations: Genomic sequences of all viral strains were downloaded as FASTA files from NCBI [Supplementary Table 1]. All available sequences as of January 31, 2020, for 2019-nCoV, MERS, SARS, and Ebola were downloaded (n=16, 551, 332, and 1574, respectively). The reference genomic sequence of the selected virus (2019-nCoV: NC_045512.2; MERS: NC_019843.3; SARS: NC_004718.3, Ebola: KM034562.1) is automatically displayed as a color coded track when opening the genomic track browser viewing format. Genic annotations of reference genomes were downloaded as GFF3 files from NCBI and converted to refBed format for viewing on the browser.<br/><br/>author/funder. It is made available under a CC-BY-NC-ND 4.0 International license.<br/><br/>Sequence alignment and tree generation: The genomes of all individual strains of each virus were aligned to the reference genome using the pairwise alignment tool stretcher [9] with parameters \u201c-gapopen 16 -gapextend 4\u201d. To generate the phylogenetic trees, we used the MAFFT program, employing the fast option to align individual strains of each viral genome to its reference [10, 11]. Phylogenetic trees were built using FastTree with the GTR model [12, 13]."
+        ],
+        "results": [
+            "Organization of the Virus Genome Browser<br/><br/>The WashU Virus Genome Browser houses consensus reference genomic sequences for 4 different pathogenic virus species: 2019-nCoV, MERS, SARS, and Ebola, as well as a comprehensive set of genome assemblies for the individual strains of each virus (16, 551, 332, and 1574, respectively). When users first navigate to the WashU Virus Browser and select \u201cBrowse Data\u201d, they are directed to a page with several customizable options, including a dropdown menu from which they may choose a reference genome [Figure 1]. Corresponding with the reference genome selected, a metadata table is displayed containing sortable features such as species, strain, isolate, isolation source, host, country, and collection date, to allow for quick and easy sorting of individual strains. The user may select viral isolates from the metadata table to be visualized in one of our two displayable platforms: the track view (green arrow, Figures 2 and 3) or the phylogenetic tree view (orange arrow, Figures 4 and 5).    The Track View<br/><br/>The track view option has a standard genome browser layout similar to that of the WashU<br/><br/>Epigenome Browser, in which a reference genome sequence is visualized as a sliding window.<br/><br/>Various annotation data tracks are hosted on the browser and can be loaded for visualization in a genomic context. For each virus, we downloaded publicly available annotations of the reference genome and converted these annotations into refBed tracks that can be visualized in the genome browser. Likewise, immune epitopes identified in SARS were aligned to the 2019nCoV reference [Materials and Methods], and a track displaying their coordinates in 2019-nCoV is provided. GC-density tracks were also created for each reference genome, and display the percentage of Gs (Guanines) and Cs (Cytosines) per 5bp window. An entropy track [Materials and Methods] showing the degree of sequence diversity at each position and a diversity track [Materials and Methods] showing the percentage of each of the 4 nucleotides at each position across all strains of the given virus species are also included in the database. In addition to hosting 4 virus species reference genomes, The Virus Genome Browser also supports displaying user-specified genomes provided in FASTA format, as shown in the top left part of"
+        ],
+        "discussion": [
+            "Maps help us understand the world around us and navigate it. Moreover, they play a critical role in disaster management during disease outbreaks. Herein, we describe the first genetic mapping, exploration, and visualization tool from the WashU Epigenome Browser team that is specifically dedicated to viral genomes. We provide reference genome maps and genomic datasets related to 4 viral disease outbreaks: SARS (2002-03), MERS (2012), Ebola (2014-16)<br/><br/>and the latest nCoV (2019-20). More importantly, we not only present publicly available information in the format of easily accessible data tracks, but also offer a platform with high customizability and flexibility where individual investigators and teams can upload and visualize their own genomic datasets in a plethora of formats. In this report, we have demonstrated using the Virus Browser to 1) quickly and intuitively compare multiple viral genomes and study the viral genome at multiple levels [Figure 2, Figure 4, Figure 5]; and 2) combine viral genome information with other functional genomic information (amino acid sequence and putative immune epitope locations, as shown Figure 3) through multiple track types the browser supports, and identify potential therapeutic targets."
+        ],
+        "acknowledgements": [
+            "We thank doctors, nurses, investigators, and all other people fighting on the front line against this viral outbreak, and we sincerely hope that this tool will aid in this battle.<br/><br/>Author Contribution: Conceptualization, T.W. Web development, D.L and D.P. SNV track development, J.F. and C.F.<br/><br/>Immune epitope analysis, M.C. Data download, metadata generation and annotation, G.M."
+        ],
+        "funding": [
+            "Author Support: J.F. is supported in part by the Siteman Cancer Center Precision Medicine Pathway",
+            "X.Z. is supported in part by 5R25DA027995",
+            "TW is supported by NIH grants R01HG007175, U24ES026699, U01CA200060, U01HG009391, and U41HG010972, and by the American Cancer Society Research Scholar grant RSG-14-049-01-DMC"
+        ],
+        "data_availability": [
+            "https://github.com/debugpoint136/WashU-Virus-Genome-Browser]",
+            "https://github.com/debugpoint136/WashU-Virus-Genome272"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary Data"
+            ],
+            "supplementary_figure_references": [
+                "Supplementary Table 1].",
+                "Supplementary Table 2]"
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "Since its debut in mid-December, 2019, the novel coronavirus (2019-nCoV) has rapidly spread from its origin in Wuhan, China, to several countries across the globe, leading to a global health crisis. As of February 7, 2020, 44 strains of the virus have been sequenced and uploaded to",
+            "NCBI\u2019s GenBank [1], providing insight into the virus\u2019s evolutionary history and pathogenesis.",
+            "Here, we present the WashU Virus Genome Browser, a web-based portal for viewing virus genomic data. The browser is home to 16 complete 2019-nCoV genome sequences, together with hundreds of related viral sequences including severe acute respiratory syndrome coronavirus (SARS-CoV), Middle East respiratory syndrome coronavirus (MERS-CoV), and",
+            "Ebola virus. In addition, the browser features unique customizability, supporting user-provided upload of novel viral sequences in various formats. Sequences can be viewed in both a trackbased representation as well as a phylogenetic tree-based view, allowing the user to easily compare sequence features across multiple strains. The WashU Virus Genome Browser inherited many features and track types from the WashU Epigenome Browser, and additionally incorporated a new type of SNV track to address the specific needs of viral research. Our Virus",
+            "Browser portal can be accessed at https://virusgateway.wustl.edu, and documentation is available at https://virusgateway.readthedocs.io/."
+        ],
+        "Introduction": [
+            "On December 12, 2019, the first case of a novel coronavirus (2019-nCoV) was reported in",
+            "Wuhan, China, and by February 6, 2020, the virus spread to 24 additional countries, infecting more than 27,000 individuals and resulting in 565 fatalities, according to the World Health",
+            "Organization (WHO) [2]. The 2019-nCoV is a member of the Betacoronavirus genus, which is one of four genera of coronaviruses of the subfamily Orthocoronavirinae in the family",
+            "Coronaviridae, of the order Nidovirales [3, 4]. The species in this genus are enveloped, contain a positive single-stranded RNA genome, and are of zoonotic, likely bat, origins [5]. 2019-nCoV is one of the largest RNA virus genomes varying from 27kb to 32kb in size, with this particular strain ringing in at 29,903 bps long [6]. The virus is one of 7 coronaviruses known to infect humans, and along with the severe acute respiratory syndrome coronavirus (SARS-CoV) and the Middle East respiratory syndrome coronavirus (MERS-CoV), 2019-nCoV is one of the species responsible for severe respiratory distress in humans as well as other animals [4]. In an effort to better understand the pathogenesis of this family of viruses, several groups have sequenced individual strains, providing a powerful resource hosted by NCBI.",
+            "The WashU Epigenome Browser is a powerful tool for visualizing multiple functional genomic datasets and data types simultaneously [5-8]. The general layout of the Epigenome Browser displays the genome on the x-axis, and individual tracks encompassing many different varieties can be loaded and viewed in the context of the genome and accompanying metadata. Recent updates to the browser have incorporated new functionality, including live browsing, greatly enhancing its functionality [5]. With this powerful tool in-hand, we sought to adapt the browser for use of visualizing viral genomes, to support more efficient research and more rapid knowledge dissemination in response to the recent 2019-nCoV outbreak. To accomplish this, we created the WashU Virus Genome Browser, adapted from the WashU Epigenome Browser.",
+            "Ebola virus, along with several annotation tracks including gene annotation, putative antibodybinding epitopes, CG density, and sequence diversity. Complete genomes of individual strains of each virus species (16, 551, 332, and 1574, respectively as of February 7, 2020, and periodically updated) are available as a database for instant viewing on the Virus Browser via multiple track types designed to display pairwise comparison to the references. Additionally, we aligned the genomes of all available strains in the database and generated a phylogenetic tree for each virus species that allows the user to directly select strains from the tree and view as tracks in the genomic display. In addition to all track types supported by the Epigenome",
+            "Browser, we designed a new SNV track type to display sequence variation. Users can upload their own alignment results from any aligner and display them as SNV tracks on the browser.",
+            "The functionality of the Virus Browser is not limited to the 4 species currently housed. Users can upload their own reference genome in FASTA format and display tracks in the context of the user-specified reference. While maintaining the same functionality as that of the Epigenome",
+            "Browser and providing novel functionality to aid specifically in viral genome research, we hope that the Virus Browser may facilitate research against new epidemic viruses."
+        ],
+        "Materials and Methods": [
+            "Reference sequences, additional strains, and gene annotations: Genomic sequences of all viral strains were downloaded as FASTA files from NCBI [Supplementary Table 1]. All available sequences as of January 31, 2020, for 2019-nCoV, MERS, SARS, and Ebola were downloaded (n=16, 551, 332, and 1574, respectively). The reference genomic sequence of the selected virus (2019-nCoV: NC_045512.2; MERS: NC_019843.3; SARS: NC_004718.3, Ebola: KM034562.1) is automatically displayed as a color coded track when opening the genomic track browser viewing format. Genic annotations of reference genomes were downloaded as GFF3 files from NCBI and converted to refBed format for viewing on the browser.",
+            "author/funder. It is made available under a CC-BY-NC-ND 4.0 International license.",
+            "Sequence alignment and tree generation: The genomes of all individual strains of each virus were aligned to the reference genome using the pairwise alignment tool stretcher [9] with parameters \u201c-gapopen 16 -gapextend 4\u201d. To generate the phylogenetic trees, we used the MAFFT program, employing the fast option to align individual strains of each viral genome to its reference [10, 11]. Phylogenetic trees were built using FastTree with the GTR model [12, 13].",
+            "Data Tracks: Genome Comparison Track: We adopted the genome comparison tracks from the WashU Epigenome Browser. Any pairwise alignment results in markx3 or FASTA format can be converted with our publicly accessible script \u201caligned_fa_2_genomealign.py\u201d [14] and directly displayed as genome comparison tracks on the Virus Browser.",
+            "SNV Track: Congeneric (or Closely-related) Immune Epitope Locations: We wrote a text processing utility to import antibody-binding epitopes curated by the Immune",
+            "Epitope Database and Analysis Resource (IEDB) for MERS-CoV and SARS-CoV [15].",
+            "Subsequently, we used tblastn to align linear epitopes to the Wuhan seafood market pneumonia virus isolate Wuhan-Hu-1 (Taxonomy ID: 2697049; NCBI:txid2697049). We found 955 out of",
+            "2,817 linear epitopes identified in SARS had at least 1 \u201chit\u201d in the 2019-nCoV genome [Supplementary Data 1]. Three epitopes have 2 \u201chits\u201d each. However, the secondary hit is on the negative strand with very low percent identity (37.5% to 53.8%) to the 2019-nCoV genome and are hence filtered out as 2019-nCoV is a (+) ssRNA virus. Similarly, we found 1 hit out of 38 linear epitopes identified in MERS. We also provide scripts [14] that can be used to obtain a quick overview of the similarity of linear epitopes identified in other viruses in databases like",
+            "IEDB. These tracks can provide researchers preliminary data to support exploratory analyses pertaining to the immunogenicity of 2019-nCoV\u2014an actively explored vertical of 2019-nCoV research.",
+            "GC Density Track: Sequence Diversity Track and Shannon Track: We developed the SNV track type to display sequence variation of individual strains relative to their reference. Variations from the reference genome, including mismatches and deletions, are displayed with customizable colors. Insertions compared to the reference genome can be expanded upon selecting to show the nucleotides inserted. When viewing large regions, such as the whole genome, it is not possible to display all individual variation events. Therefore, the frequency of variation events is also displayed in a \u201cdensity mode\u201d where a high value over a region signifies multiple sequence variation events within the region.",
+            "GC density tracks were created for each reference genome, displaying the percentage of G (guanine) and C (cytosine) bases in 5-bp windows.",
+            "In order to display a measure of sequence conservation across the genome, we calculated the percentage of each of the 4 nucleotides at each position in the genome across all strains for a given virus species. The resulting bed tracks display the percentages each nucleotide comprises across all strain for each genomic position. We also calculated Shannon entropy for each position along the genome using the percentages of each of the 4 nucleotides. A high",
+            "Shannon entropy at a position signifies that the 4 possible nucleotides are equally likely across all strains of this virus, and thus the position is likely divergent. A low Shannon entropy at a position means that the identity of the nucleotide at this position is highly conserved across all strains. The entropy() function of the R package \u201centropy\u201d was used for calculations.",
+            "Resources for User-Defined Bed and Categorical Tracks: In addition to our housed data tracks, we also offer scripts (\u201cpublicParseAlignment.py\u201d,",
+            "\u201cpublicAlignment.py\u201d, and \u201cpublicConvertMarkx3.py\u201d) to convert any markx3 or FASTAformatted alignment into displayable bed and categorical formats, and a script (\u201cpublicJsonGen.py\u201d) to generate a json file for uploading multiple data files together for display [https://github.com/debugpoint136/WashU-Virus-Genome-Browser]. A default color code for sequence variation is also included in the script."
+        ],
+        "Results": [
+            "The WashU Virus Genome Browser houses consensus reference genomic sequences for 4 different pathogenic virus species: 2019-nCoV, MERS, SARS, and Ebola, as well as a comprehensive set of genome assemblies for the individual strains of each virus (16, 551, 332, and 1574, respectively). When users first navigate to the WashU Virus Browser and select \u201cBrowse Data\u201d, they are directed to a page with several customizable options, including a dropdown menu from which they may choose a reference genome [Figure 1]. Corresponding with the reference genome selected, a metadata table is displayed containing sortable features such as species, strain, isolate, isolation source, host, country, and collection date, to allow for quick and easy sorting of individual strains. The user may select viral isolates from the metadata table to be visualized in one of our two displayable platforms: the track view (green arrow, Figures 2 and 3) or the phylogenetic tree view (orange arrow, Figures 4 and 5).",
+            "The track view option has a standard genome browser layout similar to that of the WashU",
+            "Epigenome Browser, in which a reference genome sequence is visualized as a sliding window.",
+            "Various annotation data tracks are hosted on the browser and can be loaded for visualization in a genomic context. For each virus, we downloaded publicly available annotations of the reference genome and converted these annotations into refBed tracks that can be visualized in the genome browser. Likewise, immune epitopes identified in SARS were aligned to the 2019nCoV reference [Materials and Methods], and a track displaying their coordinates in 2019-nCoV is provided. GC-density tracks were also created for each reference genome, and display the percentage of Gs (Guanines) and Cs (Cytosines) per 5bp window. An entropy track [Materials and Methods] showing the degree of sequence diversity at each position and a diversity track [Materials and Methods] showing the percentage of each of the 4 nucleotides at each position across all strains of the given virus species are also included in the database. In addition to hosting 4 virus species reference genomes, The Virus Genome Browser also supports displaying user-specified genomes provided in FASTA format, as shown in the top left part of",
+            "Figure 2A, under the browser logo.",
+            "The WashU Virus Browser supports a \u201czoomed-out\u201d view of the entire viral genome. The zoomed-out view can help the user quickly determine the regions of interest that have high frequencies of variation from the reference (SNV track), and also the regions with high nucleotide diversity among all strains (Shannon tracks) [Figure 2A]. Figure 2A illustrates a genome-level browser view of the 2019-nCoV reference genome and 2 SARS strains, each aligned to the SARS reference genome (AY278488.2 = BJ01, DQ071615.1 = Bat rp3, NC_045512.2 = 2019-nCoV). Sequence variation displayed in density mode [Materials and",
+            "Methods] shows that the divergence between the 2019-nCoV reference genome (red) and the",
+            "SARS reference genome is higher than the divergence between the two additional SARS strains (green) and the SARS reference genome. For AY278488.2, the variation from reference is mainly confined to the beginning of the genome, while the remainder of the genome is relatively consistent with the reference. However, for DQ071615.1 (bat-derived), the 5\u2019 end of gene S displays high variation from the reference genome. Likewise, the SARS Shannon track shows that the SARS genome is highly diverse across different strains at gene S.",
+            "Once a region of interest is identified, the standard magnification tool of the browser can be used to quickly zoom into the region [Figure 2A]. Upon zooming in, a genome comparison track can be used to inspect variations from the reference genome, particularly useful for comparing cross-species alignments and viewing structural variations [Figure 2B]. The genome comparison track is adopted from the Epigenome Browser. The top navy-colored horizontal bar represents the reference genome loaded (SARS in the case of Figure 2B) and the bottom purple-colored horizontal bar represents the sequence being aligned to the reference (the 2019-nCoV reference sequence, NC_045512.2, in this case). Insertions and deletions are represented as gaps in either the reference or the query. Matches are represented by black lines linking the 2 genomes while mismatches are distinguished by omission of the black bar. When the user hovers over a specific nucleotide, the alignment details around that specific nucleotide are shown.",
+            "Upon further magnification, regions can be inspected on a nucleotide level. Mismatches, insertions, and deletions are color-coded in the SNV tracks and stretches of grey signify positions matching the reference [Figure 2C]. Detailed information, such as inserted nucleotides, is displayed upon clicking. When zoomed into individual nucleotides, as shown in",
+            "Figure 2C, The diversity bed track shows the percentage of each nucleotide across all strains of",
+            "SARS at the specific position.",
+            "The versatility of the WashU browser framework makes it possible to adapt the browser to address various questions of interest. Figure 3 demonstrates the utility of using the browser for immune epitope conservation discovery. We recapitulated Zhou et al.\u2019s [16] alignment results of two SARS strains to the reference 2019-nCoV nucleocapsid protein sequence [Figure 3A, 3B].",
+            "Upon inspection of the region, we could directly observe that many immune epitopes are conserved between SARS and 2019-nCoV [Figure 3C]. The user can identify the amino acid sequence of an epitope by simply clicking the track.",
+            "Encouraged by the high sequence similarity between SARS-CoV and the 2019-nCoV reference strain (NCBI:txid2697049), we mined the list of experimentally identified linear epitopes from Tcell, B-cell and MHC-ligand assays from IEDB [15]. We identified a list of 320 high-confidence linear epitopes [Supplementary Table 2] whose amino acids are identical to predicted translated products from the 2019-nCoV reference strain. These provide a catalogue of epitopes for researchers testing immune targets that can potentially elicit T-cell, B-cell and antibody response to 2019-nCoV.",
+            "The second viewing option offered by the WashU Virus Genome Browser is a \u201ctree\u201d format, in which the evolutionary relationships of different viral isolates can be visualized as a phylogenetic tree [17]. When the user navigates to the data page of the browser, and selects \u201cTree View\u201d [Figure 1], all viral genomes hosted on the browser for the selected virus species are displayed in the form of a right-aligned phylogenetic tree, where solid lines indicate branch lengths [Figure 4]. To the right of the tree is a metadata heatmap displaying strain-specific details such as isolate, isolation source, host, country, and collection date. Additionally, if the user added any individual tracks to their cart from the main page, those selected will display a checkmark to the right, allowing the user to easily see where their strains of interest lie among all other strains.",
+            "We also provide these as an annotated bed track to the reference 2019-nCoV genome. Along with the individual strains\u2019 SNV tracks, the epitope tracks can provide a quick, intuitive and visual resource to guide prioritization of experimental resources towards developing diagnostics and therapeutics against 2019-nCoV. The value of our novel SNV tracks will only increase as additional strains are sequenced, helping us better understand the evolving 2019-nCoV genome and prioritize epitopes.",
+            "In addition to the right-aligned tree view, the browser also supports a more traditional leftaligned linear tree view and a radial view. The left-aligned tree view displays branch lengths indicating relatedness of isolates [Figure 5A]. We noticed that in each virus type, several individual strains maintained high sequence similarity, resulting in several short branch lengths and a long vertical tree. In order to improve visualization, we also created a radial tree view [Figure 5B]."
+        ],
+        "Discussion": [
+            "Maps help us understand the world around us and navigate it. Moreover, they play a critical role in disaster management during disease outbreaks. Herein, we describe the first genetic mapping, exploration, and visualization tool from the WashU Epigenome Browser team that is specifically dedicated to viral genomes. We provide reference genome maps and genomic datasets related to 4 viral disease outbreaks: SARS (2002-03), MERS (2012), Ebola (2014-16)",
+            "and the latest nCoV (2019-20). More importantly, we not only present publicly available information in the format of easily accessible data tracks, but also offer a platform with high customizability and flexibility where individual investigators and teams can upload and visualize their own genomic datasets in a plethora of formats. In this report, we have demonstrated using the Virus Browser to 1) quickly and intuitively compare multiple viral genomes and study the viral genome at multiple levels [Figure 2, Figure 4, Figure 5]; and 2) combine viral genome information with other functional genomic information (amino acid sequence and putative immune epitope locations, as shown Figure 3) through multiple track types the browser supports, and identify potential therapeutic targets.",
+            "We expect that the WashU Virus Browser can support research related to the latest novel",
+            "Coronavirus outbreak of 2019-20, and hope that this tool helps accelerate research to further our understanding of 2019-nCoV and aid in the development of therapeutics. In addition, our platform supports the study of any user-specified viral genome, and can be expanded to other viral research.",
+            "To aid in the battle against this crisis, we are releasing the browser at first moment. The browser is still under active construction and is constantly being updated. General feedback, suggestions for additional tracks, and bug reports may be sent to the WashU Virus Genome Browser team by opening an issue request at https://github.com/debugpoint136/WashU-Virus-GenomeBrowser/issues."
+        ],
+        "References": [
+            "2.",
+            "NCBI GeneBank [https://www.ncbi.nlm.nih.gov/genbank/2019-ncov-seqs/]",
+            "Novel Coronavirus (2019-nCoV) Situation Report - 17",
+            "International Committee on Taxonomy of Viruses (ICTV)",
+            "5.",
+            "7.",
+            "9.",
+            "[https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200206sitrep-17-ncov.pdf?sfvrsn=17f0dca_4]",
+            "[https://talk.ictvonline.org/taxonomy/]",
+            "Cui J, Li F, Shi ZL: Origin and evolution of pathogenic coronaviruses. Nat Rev Microbiol",
+            "2019, 17(3):181-192.",
+            "Li D, Hsu S, Purushotham D, Sears RL, Wang T: WashU Epigenome Browser update",
+            "2019. Nucleic Acids Res 2019, 47(W1):W158-W165.",
+            "Zhou X, Li D, Zhang B, Lowdon RF, Rockweiler NB, Sears RL, Madden PA, Smirnov I, Costello JF, Wang T: Epigenomic annotation of genetic variants using the Roadmap",
+            "Epigenome Browser. Nature biotechnology 2015, 33(4):345-346.",
+            "Zhou X, Lowdon RF, Li D, Lawson HA, Madden PA, Costello JF, Wang T: Exploring longrange genome interactions using the WashU Epigenome Browser. Nat Methods 2013, 10(5):375-376.",
+            "Zhou X, Maricque B, Xie M, Li D, Sundaram V, Martin EA, Koebbe BC, Nielsen C, Hirst M, Farnham P et al: The Human Epigenome Browser at Washington University. Nat",
+            ""
+        ],
+        "Methods": [
+            "2011, 8(12):989-990.",
+            "Myers EW, Miller W: Optimal alignments in linear space. Comput Appl Biosci 1988, 4(1):11-17.",
+            "Katoh K, Misawa K, Kuma K, Miyata T: MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res 2002, 30(14):3059-3066.",
+            "Katoh K, Standley DM: MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol 2013, 30(4):772-780.",
+            "Price MN, Dehal PS, Arkin AP: FastTree: computing large minimum evolution trees with profiles instead of a distance matrix. Mol Biol Evol 2009, 26(7):1641-1650.",
+            "Price MN, Dehal PS, Arkin AP: FastTree 2--approximately maximum-likelihood trees for large alignments. PLoS One 2010, 5(3):e9490.",
+            "Virus Browser Source Code [https://github.com/debugpoint136/WashU-Virus-GenomeBrowser]",
+            "Vita R, Mahajan S, Overton JA, Dhanda SK, Martini S, Cantrell JR, Wheeler DK, Sette A, Peters B: The Immune Epitope Database (IEDB): 2018 update. Nucleic Acids Res 2019, 47(D1):D339-D343.",
+            "Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature",
+            "Shank SD, Weaver S, Kosakovsky Pond SL: phylotree.js - a JavaScript library for application development and interactive data visualization in phylogenetics. BMC",
+            "Bioinformatics 2018, 19(1):276."
+        ],
+        "Acknowledgements": [
+            "We thank doctors, nurses, investigators, and all other people fighting on the front line against this viral outbreak, and we sincerely hope that this tool will aid in this battle.",
+            "Author Contribution: Conceptualization, T.W. Web development, D.L and D.P. SNV track development, J.F. and C.F.",
+            "Immune epitope analysis, M.C. Data download, metadata generation and annotation, G.M.",
+            "Sequence alignments and tree generation, X.Z. Manuscript preparation, J.F, C.F, M.C, G.M, T.W.",
+            "Author Support: J.F. is supported in part by the Siteman Cancer Center Precision Medicine Pathway.",
+            "X.Z. is supported in part by 5R25DA027995.",
+            "TW is supported by NIH grants R01HG007175, U24ES026699, U01CA200060, U01HG009391, and U41HG010972, and by the American Cancer Society Research Scholar grant RSG-14-049-01-DMC."
+        ],
+        "Figure Captions": [
+            "\u201cgenomic\u201d view (green arrow) or phylogenetic tree view (orange arrow).",
+            "SARS strains (shown in green, DQ071615.1 and AY278488.2) are aligned to the SARS reference genome (NC_004718.3). The box in the top left corner allows users to upload and use any sequence in FASTA format as the reference genome. The shaded vertical bar demonstrates the user\u2019s ability to select a region by mouse for further magnification. B:",
+            "\u201cZoomed in\u201d view of the sequence flanking the 5\u2019 end of the S protein. C: A further \u201czoomed in\u201d",
+            "view to the level of individual nucleotides. Stretches of grey indicate matching while variations are color coded.",
+            "B: A zoomed-in view of A (orange box), displaying the first 9 amino acids of the reference.",
+            "Results show a \u201cTCA\u201d insertion in the AY278488.2 alignment between positions 28294 and of the 2019-nCoV reference sequence, which is not present in DQ071615.1. These results are consistent with the results reported in Extended Data Figure 5 of Zhou et al [16]. C:",
+            "A zoomed-in view of A (purple box), displaying a region conserved between SARS and 2019nCoV, overlapping several putative immune epitopes."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "strains",
+            "number": 44,
+            "context": "Since its debut in mid-December, 2019, the novel coronavirus (2019-nCoV) has rapidly spread from its origin in Wuhan, China, to several countries across the globe, leading to a global health crisis. <mark class=\"stats\">As of February 7, 2020, 44 strains of the virus have been sequenced and uploaded to NCBI\u2019s GenBank [1], providing insight into the virus\u2019s evolutionary history and pathogenesis</mark>. Here, we present the WashU Virus Genome Browser, a web-based portal for viewing virus genomic data"
+        },
+        {
+            "participant": "data",
+            "number": 16,
+            "context": "Reference sequences, additional strains, and gene annotations: Genomic sequences of all viral strains were downloaded as FASTA files from NCBI [Supplementary Table 1]. <mark class=\"stats\">All available sequences as of January 31, 2020, for 2019-nCoV, MERS, SARS, and Ebola were downloaded (n=16, 551, 332, and 1574, respectively)</mark>. The reference genomic sequence of the selected virus (2019-nCoV: NC_045512.2; MERS: NC_019843.3; SARS: NC_004718.3, Ebola: KM034562.1) is automatically displayed as a color coded track when opening the genomic track browser viewing format"
+        },
+        {
+            "participant": "data",
+            "number": 16,
+            "context": "Phylogenetic trees were built using FastTree with the GTR model [12, 13].Reference sequences, additional strains, and gene annotations: Genomic sequences of all viral strains were downloaded as FASTA files from NCBI [Supplementary Table 1]. <mark class=\"stats\">All available sequences as of January 31, 2020, for 2019-nCoV, MERS, SARS, and Ebola were downloaded (n=16, 551, 332, and 1574, respectively)</mark>. The reference genomic sequence of the selected virus (2019-nCoV: NC_045512.2; MERS: NC_019843.3; SARS: NC_004718.3, Ebola: KM034562.1) is automatically displayed as a color coded track when opening the genomic track browser viewing format"
+        },
+        {
+            "participant": "individuals",
+            "number": 27000,
+            "context": "On December 12, 2019, the first case of a novel coronavirus (2019-nCoV) was reported in. <mark class=\"stats\">Wuhan, China, and by February 6, 2020, the virus spread to 24 additional countries, infecting more than 27,000 individuals and resulting in 565 fatalities, according to the World Health</mark>. Organization (WHO) [2]"
+        },
+        {
+            "participant": "species",
+            "number": 4,
+            "context": "Users can upload their own alignment results from any aligner and display them as SNV tracks on the browser. <mark class=\"stats\">The functionality of the Virus Browser is not limited to the 4 species currently housed</mark>. Users can upload their own reference genome in FASTA format and display tracks in the context of the user-specified reference"
+        },
+        {
+            "participant": "data",
+            "number": 16,
+            "context": "[Supplementary Table 1]. <mark class=\"stats\">All available sequences as of January 31, 2020, for 2019-nCoV, MERS, SARS, and Ebola were downloaded (n=16, 551, 332, and 1574, respectively)</mark>. The reference genomic sequence of the selected virus (2019-nCoV: NC_045512.2; MERS: NC_019843.3; SARS: NC_004718.3, Ebola: KM034562.1) is automatically displayed as a color coded track when opening the genomic track browser viewing format"
+        },
+        {
+            "participant": "virus species reference genomes",
+            "number": 4,
+            "context": "It is made available under a CC-BY-NC-ND 4.0 International license. <mark class=\"stats\">hosting 4 virus species reference genomes, The Virus Genome Browser also supports displaying user-specified genomes provided in FASTA format, as shown in the top left part of</mark>. Figure 2A, under the browser logo"
+        },
+        {
+            "participant": "SARS strains",
+            "number": 2,
+            "context": "The zoomed-out view can help the user quickly determine the regions of interest that have high frequencies of variation from the reference (SNV track), and also the regions with high nucleotide diversity among all strains (Shannon tracks) [Figure 2A]. <mark class=\"stats\">Figure 2A illustrates a genome-level browser view of the 2019-nCoV reference genome and 2 SARS strains, each aligned to the SARS reference genome (AY278488.2 = BJ01, DQ071615.1 = Bat rp3, NC_045512.2 = 2019-nCoV)</mark>. Sequence variation displayed in density mode [Materials and"
+        },
+        {
+            "participant": "genomes",
+            "number": 2,
+            "context": "Insertions and deletions are represented as gaps in either the reference or the query. <mark class=\"stats\">Matches are represented by black lines linking the 2 genomes while mismatches are distinguished by omission of the black bar</mark>. When the user hovers over a specific nucleotide, the alignment details around that specific nucleotide are shown"
+        },
+        {
+            "participant": "SARS strains",
+            "number": 2,
+            "context": "Figure 3 demonstrates the utility of using the browser for immune epitope conservation discovery. <mark class=\"stats\">We recapitulated Zhou et al.\u2019s [16] alignment results of two SARS strains to the reference 2019-nCoV nucleocapsid protein sequence [Figure 3A, 3B]</mark>. Upon inspection of the region, we could directly observe that many immune epitopes are conserved between SARS and 2019-nCoV [Figure 3C]"
+        },
+        {
+            "participant": "SARS strains",
+            "number": 2,
+            "context": "Screenshot of the WashU Virus Genome Browser data page. This view demonstrates several customizable features of the browser, including which genome reference to use, which data tracks to select based on several metadata features, and which browser view to use: \u201cgenomic\u201d view (green arrow) or phylogenetic tree view (orange arrow). 343. <mark class=\"stats\">Illustration of genomic-level and nucleotide-level track views. A: \u201czoomed out\u201d track view of the entire genome. 2019-nCoV reference genome (shown in red, NC045512.2) and 2 SARS strains (shown in green, DQ071615.1 and AY278488.2) are aligned to the SARS reference genome (NC_004718.3). The box in the top left corner allows users to upload and use any sequence in FASTA format as the reference genome. The shaded vertical bar demonstrates the user\u2019s ability to select a region by mouse for further magnification. B: \u201cZoomed in\u201d view of the sequence flanking the 5\u2019 end of the S protein. C: A further \u201czoomed in\u201d view to the level of individual nucleotides. Stretches of grey indicate matching while variations are color coded. 353</mark>. Alignment of the genomic region encoding the nucleocapsid protein. A: 2 SARS strains (DQ071615.1 and AY278488.2) and 5 2019-nCoV strains (MN938384.1, MN975262.1, MN985325.1, MN988668.1, and MN988669.1) are aligned to the 2019-nCoV reference. The region encoding the nucleocapsid protein is shown. Putative SARS immune epitopes [Materials and Methods] are displayed in \u201cdensity mode\u201d. B: A zoomed-in view of A (orange box), displaying the first 9 amino acids of the reference. Results show a \u201cTCA\u201d insertion in the AY278488.2 alignment between positions 28294 and 28295 of the 2019-nCoV reference sequence, which is not present in DQ071615.1. These results are consistent with the results reported in Extended Data Figure 5 of Zhou et al [16]. C: A zoomed-in view of A (purple box), displaying a region conserved between SARS and 2019363 nCoV, overlapping several putative immune epitopes. 364 365"
+        },
+        {
+            "participant": "SARS strains",
+            "number": 2,
+            "context": "Illustration of genomic-level and nucleotide-level track views. A: \u201czoomed out\u201d track view of the entire genome. 2019-nCoV reference genome (shown in red, NC045512.2) and 2 SARS strains (shown in green, DQ071615.1 and AY278488.2) are aligned to the SARS reference genome (NC_004718.3). The box in the top left corner allows users to upload and use any sequence in FASTA format as the reference genome. The shaded vertical bar demonstrates the user\u2019s ability to select a region by mouse for further magnification. B: \u201cZoomed in\u201d view of the sequence flanking the 5\u2019 end of the S protein. C: A further \u201czoomed in\u201d view to the level of individual nucleotides. Stretches of grey indicate matching while variations are color coded. 353. <mark class=\"stats\">Alignment of the genomic region encoding the nucleocapsid protein. A: 2 SARS strains (DQ071615.1 and AY278488.2) and 5 2019-nCoV strains (MN938384.1, MN975262.1, MN985325.1, MN988668.1, and MN988669.1) are aligned to the 2019-nCoV reference. The region encoding the nucleocapsid protein is shown. Putative SARS immune epitopes [Materials and Methods] are displayed in \u201cdensity mode\u201d. B: A zoomed-in view of A (orange box), displaying the first 9 amino acids of the reference. Results show a \u201cTCA\u201d insertion in the AY278488.2 alignment between positions 28294 and 28295 of the 2019-nCoV reference sequence, which is not present in DQ071615.1. These results are consistent with the results reported in Extended Data Figure 5 of Zhou et al [16]. C: A zoomed-in view of A (purple box), displaying a region conserved between SARS and 2019363 nCoV, overlapping several putative immune epitopes. 364 365</mark>. Screenshot of a linear, right-aligned tree view displaying all housed 2019-nCoV sequences with accompanying metadata. Solid lines signify distance. 368"
+        },
+        {
+            "participant": "nCoV strains",
+            "number": 2019369,
+            "context": "Screenshot of a linear, right-aligned tree view displaying all housed 2019-nCoV sequences with accompanying metadata. Solid lines signify distance. 368. <mark class=\"stats\">A: Screenshot of a linear, left-aligned phylogenetic tree view, displaying all 2019369 nCoV strains hosted by the browser. B: Screenshot of a radial tree view for all 2019-nCoV strains. 372</mark>. "
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "viral genome",
+        "viral sequence",
+        "virus browser",
+        "MERS",
+        "World HealthOrganization",
+        "severe acute",
+        "acute respiratory",
+        "respiratory syndrome coronavirus",
+        "epigenome browser",
+        "pathogenesis",
+        "functional genomic",
+        "Betacoronavirus genus",
+        "washu epigenome browser",
+        "coronavirus",
+        "east respiratory",
+        "SARS",
+        "washu virus genome browser",
+        "mers cov",
+        "middle east",
+        "sars cov",
+        "novel coronavirus"
+    ],
+    "keyword_relevance": {
+        "SARS": 0.39759036144578314,
+        "coronavirus": 0.1566265060240964,
+        "viral genome": 0.12048192771084337,
+        "MERS": 0.10843373493975904,
+        "respiratory syndrome coronavirus": 0.04819277108433735,
+        "viral sequence": 0.024096385542168676,
+        "severe acute": 0.024096385542168676,
+        "acute respiratory": 0.024096385542168676,
+        "pathogenesis": 0.024096385542168676,
+        "functional genomic": 0.024096385542168676,
+        "novel coronavirus": 0.024096385542168676,
+        "World HealthOrganization": 0.012048192771084338,
+        "Betacoronavirus genus": 0.012048192771084338,
+        "virus browser": 0.0,
+        "epigenome browser": 0.0,
+        "washu epigenome browser": 0.0,
+        "east respiratory": 0.0,
+        "washu virus genome browser": 0.0,
+        "mers cov": 0.0,
+        "middle east": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [
+        "Betacoronavirus genus"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> On December 12, 2019, the first case of a novel coronavirus (2019-nCoV) was reported in<br/><br/>Wuhan, China, and by February 6, 2020, the virus spread to 24 additional countries, infecting more than 27,000 individuals and resulting in 565 fatalities, according to the World Health<br/><br/>Organization (WHO) [2].",
+        "Recent updates to the browser have incorporated new functionality, including live browsing, greatly enhancing its functionality [5].",
+        "With this powerful tool in-hand, the authors sought to adapt the browser for use of visualizing viral genomes, to support more efficient research and more rapid knowledge dissemination in response to the recent 2019-nCoV outbreak.",
+        "The authors created the WashU Virus Genome Browser, adapted from the WashU Epigenome Browser",
+        "<h2 style=\"display: inline\">Methods:</h2> Additional strains, and gene annotations: Genomic sequences of all viral strains were downloaded as FASTA files from NCBI [Supplementary Table 1].",
+        "The reference genomic sequence of the selected virus (2019-nCoV: NC_045512.2; MERS: NC_019843.3; SARS: NC_004718.3, Ebola: KM034562.1) is automatically displayed as a color coded track when opening the genomic track browser viewing format.",
+        "Genic annotations of reference genomes were downloaded as GFF3 files from NCBI and converted to refBed format for viewing on the browser.",
+        "To generate the phylogenetic trees, the authors used the MAFFT program, employing the fast option to align individual strains of each viral genome to its reference [10, 11].",
+        "Phylogenetic trees were built using FastTree with the GTR model [12, 13]",
+        "<h2 style=\"display: inline\">Results:</h2> Organization of the Virus Genome Browser<br/><br/>The WashU Virus Genome Browser houses consensus reference genomic sequences for 4 different pathogenic virus species: 2019-nCoV, MERS, SARS, and Ebola, as well as a comprehensive set of genome assemblies for the individual strains of each virus (16, 551, 332, and 1574, respectively).",
+        "When users first navigate to the WashU Virus Browser and select \u201cBrowse Data\u201d, they are directed to a page with several customizable options, including a dropdown menu from which they may choose a reference genome [Figure 1].",
+        "In addition to hosting 4 virus species reference genomes, The Virus Genome Browser supports displaying user-specified genomes provided in FASTA format, as shown in the top left part of",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Maps help them understand the world around them and navigate it.",
+        "They play a critical role in disaster management during disease outbreaks.",
+        "The authors describe the first genetic mapping, exploration, and visualization tool from the WashU Epigenome Browser team that is dedicated to viral genomes.",
+        "The authors have demonstrated using the Virus Browser to 1) quickly and intuitively compare multiple viral genomes and study the viral genome at multiple levels [Figure 2, Figure 4, Figure 5]; and 2) combine viral genome information with other functional genomic information through multiple track types the browser supports, and identify potential therapeutic targets"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "On December 12, 2019, the first case of a novel coronavirus (2019-nCoV) was reported in<br/><br/>Wuhan, China, and by February 6, 2020, the virus spread to 24 additional countries, infecting more than 27,000 individuals and resulting in 565 fatalities, according to the World Health<br/><br/>Organization (WHO) [2].",
+            "Recent updates to the browser have incorporated new functionality, including live browsing, greatly enhancing its functionality [5].",
+            "With this powerful tool in-hand, the authors sought to adapt the browser for use of visualizing viral genomes, to support more efficient research and more rapid knowledge dissemination in response to the recent 2019-nCoV outbreak.",
+            "The authors created the WashU Virus Genome Browser, adapted from the WashU Epigenome Browser"
+        ],
+        "Methods": [
+            "Additional strains, and gene annotations: Genomic sequences of all viral strains were downloaded as FASTA files from NCBI [Supplementary Table 1].",
+            "The reference genomic sequence of the selected virus (2019-nCoV: NC_045512.2; MERS: NC_019843.3; SARS: NC_004718.3, Ebola: KM034562.1) is automatically displayed as a color coded track when opening the genomic track browser viewing format.",
+            "Genic annotations of reference genomes were downloaded as GFF3 files from NCBI and converted to refBed format for viewing on the browser.",
+            "To generate the phylogenetic trees, the authors used the MAFFT program, employing the fast option to align individual strains of each viral genome to its reference [10, 11].",
+            "Phylogenetic trees were built using FastTree with the GTR model [12, 13]"
+        ],
+        "Results": [
+            "Organization of the Virus Genome Browser<br/><br/>The WashU Virus Genome Browser houses consensus reference genomic sequences for 4 different pathogenic virus species: 2019-nCoV, MERS, SARS, and Ebola, as well as a comprehensive set of genome assemblies for the individual strains of each virus (16, 551, 332, and 1574, respectively).",
+            "When users first navigate to the WashU Virus Browser and select \u201cBrowse Data\u201d, they are directed to a page with several customizable options, including a dropdown menu from which they may choose a reference genome [Figure 1].",
+            "In addition to hosting 4 virus species reference genomes, The Virus Genome Browser supports displaying user-specified genomes provided in FASTA format, as shown in the top left part of"
+        ],
+        "Conclusion": [
+            "Maps help them understand the world around them and navigate it.",
+            "They play a critical role in disaster management during disease outbreaks.",
+            "The authors describe the first genetic mapping, exploration, and visualization tool from the WashU Epigenome Browser team that is dedicated to viral genomes.",
+            "The authors have demonstrated using the Virus Browser to 1) quickly and intuitively compare multiple viral genomes and study the viral genome at multiple levels [Figure 2, Figure 4, Figure 5]; and 2) combine viral genome information with other functional genomic information through multiple track types the browser supports, and identify potential therapeutic targets"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "NCBI_2019_a",
+            "alt_id": "1",
+            "entry": "NCBI GeneBank [https://www.ncbi.nlm.nih.gov/genbank/2019-ncov-seqs/] Novel Coronavirus (2019-nCoV) Situation Report-17",
+            "url": "https://www.ncbi.nlm.nih.gov/genbank/2019-ncov-seqs/]",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=NCBI%20GeneBank%20httpswwwncbinlmnihgovgenbank2019ncovseqs%20Novel%20Coronavirus%202019nCoV%20Situation%20Report17",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=NCBI%20GeneBank%20httpswwwncbinlmnihgovgenbank2019ncovseqs%20Novel%20Coronavirus%202019nCoV%20Situation%20Report17"
+        },
+        {
+            "id": "_0000_a",
+            "alt_id": "2",
+            "entry": "[https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200206-",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200206-"
+        },
+        {
+            "id": "_0000_b",
+            "alt_id": "3",
+            "entry": "[https://talk.ictvonline.org/taxonomy/]",
+            "url": "https://talk.ictvonline.org/taxonomy/]"
+        },
+        {
+            "id": "Cui_et+al_2019_a",
+            "alt_id": "4",
+            "entry": "Cui J, Li F, Shi ZL. Origin and evolution of pathogenic coronaviruses. Nat Rev Microbiol 2019, 17(3):181-192.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019"
+        },
+        {
+            "id": "Li_et+al_2019_a",
+            "alt_id": "5",
+            "entry": "Li D, Hsu S, Purushotham D, Sears RL, Wang T. WashU Epigenome Browser update 2019. Nucleic Acids Res 2019, 47(W1):W158-W165.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%20D%20Hsu%20S%20Purushotham%20D%20Sears%20RL%20Wang%20T%20WashU%20Epigenome%20Browser%20update%202019%20Nucleic%20Acids%20Res%202019%2047W1W158W165",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%20D%20Hsu%20S%20Purushotham%20D%20Sears%20RL%20Wang%20T%20WashU%20Epigenome%20Browser%20update%202019%20Nucleic%20Acids%20Res%202019%2047W1W158W165",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%20D%20Hsu%20S%20Purushotham%20D%20Sears%20RL%20Wang%20T%20WashU%20Epigenome%20Browser%20update%202019%20Nucleic%20Acids%20Res%202019%2047W1W158W165"
+        },
+        {
+            "id": "Zhou_et+al_2015_a",
+            "alt_id": "6",
+            "entry": "Zhou X, Li D, Zhang B, Lowdon RF, Rockweiler NB, Sears RL, Madden PA, Smirnov I, Costello JF, Wang T. Epigenomic annotation of genetic variants using the Roadmap Epigenome Browser. Nature biotechnology 2015, 33(4):345-346.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20X.%20Li%2C%20D.%20Zhang%2C%20B.%20Lowdon%2C%20R.F.%20Epigenomic%20annotation%20of%20genetic%20variants%20using%20the%20Roadmap%20Epigenome%20Browser%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20X.%20Li%2C%20D.%20Zhang%2C%20B.%20Lowdon%2C%20R.F.%20Epigenomic%20annotation%20of%20genetic%20variants%20using%20the%20Roadmap%20Epigenome%20Browser%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20X.%20Li%2C%20D.%20Zhang%2C%20B.%20Lowdon%2C%20R.F.%20Epigenomic%20annotation%20of%20genetic%20variants%20using%20the%20Roadmap%20Epigenome%20Browser%202015"
+        },
+        {
+            "id": "Zhou_et+al_2013_a",
+            "alt_id": "7",
+            "entry": "Zhou X, Lowdon RF, Li D, Lawson HA, Madden PA, Costello JF, Wang T. Exploring longrange genome interactions using the WashU Epigenome Browser. Nat Methods 2013, 10(5):375-376.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20X.%20Lowdon%2C%20R.F.%20Li%2C%20D.%20Lawson%2C%20H.A.%20Exploring%20longrange%20genome%20interactions%20using%20the%20WashU%20Epigenome%20Browser%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20X.%20Lowdon%2C%20R.F.%20Li%2C%20D.%20Lawson%2C%20H.A.%20Exploring%20longrange%20genome%20interactions%20using%20the%20WashU%20Epigenome%20Browser%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20X.%20Lowdon%2C%20R.F.%20Li%2C%20D.%20Lawson%2C%20H.A.%20Exploring%20longrange%20genome%20interactions%20using%20the%20WashU%20Epigenome%20Browser%202013"
+        },
+        {
+            "id": "Zhou_et+al_2011_a",
+            "alt_id": "8",
+            "entry": "Zhou X, Maricque B, Xie M, Li D, Sundaram V, Martin EA, Koebbe BC, Nielsen C, Hirst M, Farnham P et al: The Human Epigenome Browser at Washington University. Nat Methods 2011, 8(12):989-990.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20X.%20Maricque%2C%20B.%20Xie%2C%20M.%20Li%2C%20D.%20P%20et%20al%3A%20The%20Human%20Epigenome%20Browser%20at%20Washington%20University%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20X.%20Maricque%2C%20B.%20Xie%2C%20M.%20Li%2C%20D.%20P%20et%20al%3A%20The%20Human%20Epigenome%20Browser%20at%20Washington%20University%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20X.%20Maricque%2C%20B.%20Xie%2C%20M.%20Li%2C%20D.%20P%20et%20al%3A%20The%20Human%20Epigenome%20Browser%20at%20Washington%20University%202011"
+        },
+        {
+            "id": "Myers_0000_a",
+            "alt_id": "9",
+            "entry": "Myers EW, Miller W. Optimal alignments in linear space. Comput Appl Biosci 1988, 4(1):11-17.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Myers%2C%20E.W.%20Miller%2C%20W.%20Optimal%20alignments%20in%20linear%20space",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Myers%2C%20E.W.%20Miller%2C%20W.%20Optimal%20alignments%20in%20linear%20space",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Myers%2C%20E.W.%20Miller%2C%20W.%20Optimal%20alignments%20in%20linear%20space"
+        },
+        {
+            "id": "Katoh_et+al_2002_a",
+            "alt_id": "10",
+            "entry": "Katoh K, Misawa K, Kuma K, Miyata T. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res 2002, 30(14):3059-3066.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Katoh%2C%20K.%20Misawa%2C%20K.%20Kuma%2C%20K.%20Miyata%2C%20T.%20MAFFT%3A%20a%20novel%20method%20for%20rapid%20multiple%20sequence%20alignment%20based%20on%20fast%20Fourier%20transform%202002",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Katoh%2C%20K.%20Misawa%2C%20K.%20Kuma%2C%20K.%20Miyata%2C%20T.%20MAFFT%3A%20a%20novel%20method%20for%20rapid%20multiple%20sequence%20alignment%20based%20on%20fast%20Fourier%20transform%202002",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Katoh%2C%20K.%20Misawa%2C%20K.%20Kuma%2C%20K.%20Miyata%2C%20T.%20MAFFT%3A%20a%20novel%20method%20for%20rapid%20multiple%20sequence%20alignment%20based%20on%20fast%20Fourier%20transform%202002"
+        },
+        {
+            "id": "Katoh_2013_a",
+            "alt_id": "11",
+            "entry": "Katoh K, Standley DM. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol 2013, 30(4):772-780.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Katoh%2C%20K.%20Standley%2C%20D.M.%20MAFFT%20multiple%20sequence%20alignment%20software%20version%207%3A%20improvements%20in%20performance%20and%20usability%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Katoh%2C%20K.%20Standley%2C%20D.M.%20MAFFT%20multiple%20sequence%20alignment%20software%20version%207%3A%20improvements%20in%20performance%20and%20usability%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Katoh%2C%20K.%20Standley%2C%20D.M.%20MAFFT%20multiple%20sequence%20alignment%20software%20version%207%3A%20improvements%20in%20performance%20and%20usability%202013"
+        },
+        {
+            "id": "Price_et+al_2009_a",
+            "alt_id": "12",
+            "entry": "Price MN, Dehal PS, Arkin AP. FastTree: computing large minimum evolution trees with profiles instead of a distance matrix. Mol Biol Evol 2009, 26(7):1641-1650.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Price%2C%20M.N.%20Dehal%2C%20P.S.%20Arkin%2C%20A.P.%20FastTree%3A%20computing%20large%20minimum%20evolution%20trees%20with%20profiles%20instead%20of%20a%20distance%20matrix%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Price%2C%20M.N.%20Dehal%2C%20P.S.%20Arkin%2C%20A.P.%20FastTree%3A%20computing%20large%20minimum%20evolution%20trees%20with%20profiles%20instead%20of%20a%20distance%20matrix%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Price%2C%20M.N.%20Dehal%2C%20P.S.%20Arkin%2C%20A.P.%20FastTree%3A%20computing%20large%20minimum%20evolution%20trees%20with%20profiles%20instead%20of%20a%20distance%20matrix%202009"
+        },
+        {
+            "id": "Price_et+al_2010_a",
+            "alt_id": "13",
+            "entry": "Price MN, Dehal PS, Arkin AP. FastTree 2--approximately maximum-likelihood trees for large alignments. PLoS One 2010, 5(3):e9490. Virus Browser Source Code [https://github.com/debugpoint136/WashU-Virus-Genome-",
+            "url": "https://github.com/debugpoint136/WashU-Virus-Genome-",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Price%2C%20M.N.%20Dehal%2C%20P.S.%20Arkin%2C%20A.P.%20FastTree%202--approximately%20maximum-likelihood%20trees%20for%20large%20alignments%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Price%2C%20M.N.%20Dehal%2C%20P.S.%20Arkin%2C%20A.P.%20FastTree%202--approximately%20maximum-likelihood%20trees%20for%20large%20alignments%202010"
+        },
+        {
+            "id": "Vita_et+al_2018_a",
+            "alt_id": "14",
+            "entry": "Vita R, Mahajan S, Overton JA, Dhanda SK, Martini S, Cantrell JR, Wheeler DK, Sette A, Peters B. The Immune Epitope Database (IEDB): 2018 update. Nucleic Acids Res 2019, 47(D1):D339-D343. Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Vita%20R%20Mahajan%20S%20Overton%20JA%20Dhanda%20SK%20Martini%20S%20Cantrell%20JR%20Wheeler%20DK%20Sette%20A%20Peters%20B%20The%20Immune%20Epitope%20Database%20IEDB%202018%20update%20Nucleic%20Acids%20Res%202019%2047D1D339D343%20Zhou%20P%20Yang%20XL%20Wang%20XG%20Hu%20B%20Zhang%20L%20Zhang%20W%20Si%20HR%20Zhu%20Y%20Li%20B%20Huang%20CL%20et%20al%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%20Nature",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Vita%20R%20Mahajan%20S%20Overton%20JA%20Dhanda%20SK%20Martini%20S%20Cantrell%20JR%20Wheeler%20DK%20Sette%20A%20Peters%20B%20The%20Immune%20Epitope%20Database%20IEDB%202018%20update%20Nucleic%20Acids%20Res%202019%2047D1D339D343%20Zhou%20P%20Yang%20XL%20Wang%20XG%20Hu%20B%20Zhang%20L%20Zhang%20W%20Si%20HR%20Zhu%20Y%20Li%20B%20Huang%20CL%20et%20al%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%20Nature",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Vita%20R%20Mahajan%20S%20Overton%20JA%20Dhanda%20SK%20Martini%20S%20Cantrell%20JR%20Wheeler%20DK%20Sette%20A%20Peters%20B%20The%20Immune%20Epitope%20Database%20IEDB%202018%20update%20Nucleic%20Acids%20Res%202019%2047D1D339D343%20Zhou%20P%20Yang%20XL%20Wang%20XG%20Hu%20B%20Zhang%20L%20Zhang%20W%20Si%20HR%20Zhu%20Y%20Li%20B%20Huang%20CL%20et%20al%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%20Nature"
+        },
+        {
+            "id": "Shank_2018_a",
+            "alt_id": "15",
+            "entry": "2020. Shank SD, Weaver S, Kosakovsky Pond SL: phylotree.js - a JavaScript library for application development and interactive data visualization in phylogenetics. BMC Bioinformatics 2018, 19(1):276.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shank%2C%20S.D.%20Weaver%2C%20S.%20Kosakovsky%20Pond%20SL%3A%20phylotree.js%20-%20a%20JavaScript%20library%20for%20application%20development%20and%20interactive%20data%20visualization%20in%20phylogenetics%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Shank%2C%20S.D.%20Weaver%2C%20S.%20Kosakovsky%20Pond%20SL%3A%20phylotree.js%20-%20a%20JavaScript%20library%20for%20application%20development%20and%20interactive%20data%20visualization%20in%20phylogenetics%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Shank%2C%20S.D.%20Weaver%2C%20S.%20Kosakovsky%20Pond%20SL%3A%20phylotree.js%20-%20a%20JavaScript%20library%20for%20application%20development%20and%20interactive%20data%20visualization%20in%20phylogenetics%202018"
+        }
+    ],
+    "facts": [
+        "the novel coronavirus has rapidly spread from its origin in Wuhan",
+        "a new type of SNV track to address the specific needs of viral research",
+        "Our Virus Browser portal can be accessed at https://virusgateway.wustl.edu",
+        "documentation is available at https://virusgateway.readthedocs.io/.",
+        "the virus spread to 24 additional countries",
+        "of the largest RNA virus genomes varying from 27kb to 32kb",
+        "In an effort to better understand the pathogenesis of this family of viruses",
+        "The WashU Epigenome Browser is a powerful tool for visualizing multiple functional genomic datasets and data types",
+        "The general layout of the Epigenome Browser displays the genome on the x-axis",
+        "Genomic sequences of all viral strains were downloaded as FASTA files",
+        "The reference genomic sequence of the selected virus is automatically displayed as a color coded track when opening the genomic track browser viewing format",
+        "Genic annotations of reference genomes were downloaded as GFF3 files",
+        "The genomes of all individual strains of each virus were aligned to the reference genome using the pairwise alignment tool stretcher",
+        "When users first navigate to the WashU Virus Browser",
+        "a reference genome sequence is visualized as a sliding window",
+        "Various annotation data tracks are hosted on the browser",
+        "these annotations into refBed tracks that can be visualized in the genome browser",
+        "immune epitopes identified in SARS were aligned to the",
+        "GC-density tracks were created for each reference",
+        "each of the 4 nucleotides at each position across all strains of the given virus species are included in the database",
+        "The Virus Genome Browser supports displaying user-specified genomes provided in FASTA format",
+        "visualization tool from the WashU Epigenome Browser team that is dedicated to viral genomes",
+        "provide reference genome maps and genomic datasets related to 4 viral disease outbreaks",
+        "of 38 linear epitopes identified in MERS",
+        "that can be used to obtain a quick overview of the similarity of linear epitopes identified in other viruses"
+    ],
+    "claims": [
+        "We present the WashU Virus Genome Browser, a web-based portal for viewing virus genomic data",
+        "We found 955 out of",
+        "We found 1 hit out of 38 linear epitopes identified in MERS",
+        "We also provide scripts [14] that can be used to obtain a quick overview of the similarity of linear epitopes identified in other viruses in databases like",
+        "GC Density Track: Sequence Diversity Track and Shannon Track: We developed the SNV track type to display sequence variation of individual strains relative to their reference",
+        "We identified a list of 320 high-confidence author/funder",
+        "We also provide these as an annotated bed track to the reference 2019-nCoV genome",
+        "Herein, we describe the first genetic mapping, exploration, and visualization tool from the WashU Epigenome Browser team that is specifically dedicated to viral genomes",
+        "We provide reference genome maps and genomic datasets related to 4 viral disease outbreaks: SARS (2002-03), MERS (2012), Ebola (2014-16)",
+        "In this report, we have demonstrated using the Virus Browser to 1) quickly and intuitively compare multiple viral genomes and study the viral genome at multiple levels [Figure 2, Figure 4, Figure 5]; and 2) combine viral genome information with other functional genomic information (amino acid sequence and putative author/funder"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "The WashU Epigenome Browser is a powerful tool for visualizing multiple functional genomic datasets and data types simultaneously [5-8]",
+        "When users first navigate to the WashU Virus Browser and select",
+        "Epigenome Browser, in which a reference genome sequence is visualized as a sliding window",
+        "Various annotation data tracks are hosted on the browser and can be loaded for visualization in a genomic context",
+        "Immune epitopes identified in SARS were aligned to the 2019nCoV reference [Materials and Methods], and a track displaying their coordinates in 2019-nCoV",
+        "We describe the first genetic mapping, exploration, and visualization tool from the WashU Epigenome Browser team that is dedicated to viral genomes",
+        "We provide reference genome maps and genomic datasets related to 4 viral disease outbreaks: SARS (2002-03), MERS (2012), Ebola (2014-16)",
+        "We have demonstrated using the Virus Browser to 1) quickly and intuitively compare multiple viral genomes and study the viral genome at multiple levels [Figure 2, Figure 4, Figure 5]; and 2) combine viral genome information with other functional genomic information (amino acid sequence and putative author/funder"
+    ],
+    "top_statements": [
+        "On December 12, 2019, the first case of a novel coronavirus (2019-nCoV) was reported in<br/><br/>Wuhan, China, and by February 6, 2020, the virus spread to 24 additional countries, infecting more than 27,000 individuals and resulting in 565 fatalities, according to the World Health<br/><br/>Organization (WHO) [2]",
+        "The WashU Epigenome Browser is a powerful tool for visualizing multiple functional genomic datasets and data types simultaneously [5-8]",
+        "When users first navigate to the WashU Virus Browser and select",
+        "We describe the first genetic mapping, exploration, and visualization tool from the WashU Epigenome Browser team that is dedicated to viral genomes",
+        "We provide reference genome maps and genomic datasets related to 4 viral disease outbreaks: SARS (2002-03), MERS (2012), Ebola (2014-16)",
+        "We have demonstrated using the Virus Browser to 1) quickly and intuitively compare multiple viral genomes and study the viral genome at multiple levels [Figure 2, Figure 4, Figure 5]; and 2) combine viral genome information with other functional genomic information (amino acid sequence and putative author/funder"
+    ],
+    "headline": "We provide reference genome maps and genomic datasets related to 4 viral disease outbreaks: SARS, MERS, Ebola",
+    "contexts": [],
+    "abbreviations": {
+        "WHO": "World HealthOrganization"
+    }
+}

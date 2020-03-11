@@ -1,0 +1,593 @@
+{
+    "filename": "2020.02.24.20027474.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1142250,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.24.20027474",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/29/2020.02.24.20027474.full.pdf"
+        },
+        "title": "Estimate the incubation period of coronavirus 2019 (COVID-19)",
+        "date": 2020,
+        "author": "Henry Han",
+        "affiliations": [
+            "Institute for Research on Health Information and Technology, School of Public Health, Xi\u2019an Medical University, Xi\u2019an, Shaanxi 710021, China",
+            "The Air Force Military Medical University, Xi\u2019an, Shaanxi 710032, China",
+            "Business Analytics, Fordham University, Lincoln Center, New York, NY 10023, USA",
+            "Computer and Information Science, Fordham University, Lincoln Center, New York, NY 10023, USA"
+        ],
+        "abstract": "Motivation: Wuhan pneumonia is an acute infectious disease caused by the 2019 novel coronavirus (COVID-19). It is being treated as a Class A infectious disease though it was classified as Class B according to the Infectious Disease Prevention Act of China. Accurate estimation of the incubation period of the coronavirus is essential to the prevention and control. However, it remains unclear about its exact incubation period though it is believed that symptoms of COVID-19 can appear in as few as 2 days or as long as 14 or even more after exposure. The accurate incubation period calculation requires original chain-of-infection data that may not be fully available in the Wuhan regions. In this study, we aim to accurately calculate the incubation period of COVID-19 by taking advantage of the chain-of-infection data, which is well-documented and epidemiologically informative, outside the Wuhan regions. Methods: We acquired and collected officially reported COVID-19 data from 10 regions in China except for Hubei province. To achieve the accurate calculation of the incubation period, we only involved the officially confirmed cases with a clear history of exposure and time of onset. We excluded those without relevant epidemiological descriptions, working or living in Wuhan for a long time, or hard to determine the possible exposure time. We proposed a Monte Caro simulation approach to estimate the incubation of COVID-19 as well as employed nonparametric ways. We also employed manifold learning and related statistical analysis to decipher the incubation relationships between different age/gender groups. Result: The incubation period of COVID-19 did not follow general incubation distributions such as lognormal, Weibull, and Gamma distributions. We estimated that the mean and median of its incubation were 5.84 and 5.0 days via bootstrap and proposed Monte Carlo simulations.  We found that the incubation periods of the groups with age&gt;=40 years and age&lt;40 years demonstrated a statistically significant difference. The former group had a longer incubation period and a larger variance than the latter. It further suggested that different quarantine time should be applied to the groups for their different incubation periods. Our machine learning analysis also showed that the two groups were linearly separable. incubation of COVID-19 along with previous statistical analysis. Our results further indicated that the incubation difference between males and females did not demonstrate a statistical significance.",
+        "references": "@misc{tan-a,\n  author = {Tan, W. and Zhao, X. and Ma, X.},\n  title = {A novel coronavirus genome identified in a cluster of pneumonia cases \u2014 Wuhan, China 2019\u22122020},\n  url = {http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e4253b453d10c.},\n  more-authors = {true},\n  language = {}\n}\n@incollection{unknown2020a,\n  title = {Huang et},\n  unknown = {al},\n  date = {2020},\n  url = {https://doi.org/10.1016/S0140-6736},\n  source = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  language = {}\n}\n@article{nishiura2020a,\n  author = {Nishiura, Hiroshi and Jung, Sung-mok and Linton, Natalie M. and Kinoshita, Ryo and Yang, Yichi and Hayashi, Katsuma and Kobayashi, Tetsuro and Yuan, Baoyin and R, Andrei},\n  journal = {Akhmetzhanov},\n  date = {2020},\n  title = {The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020},\n  volume = {2020},\n  doi = {doi: 10.3390/jcm9020330},\n  unmatched-journal = {J. Clin. Med.},\n  number = {9},\n  language = {}\n}\n@misc{zhao2020a,\n  author = {Zhao, Shi and Ran, Jinjun and Musa, Salihu S. and Yang, Guangpu and Lou, Yijun and Gao, Daozhou and Yang, Lin and He, Daihai},\n  date = {2020},\n  title = {Preliminary estimation of the basic reproduction number of novel coronavirus (COVID-19) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv},\n  url = {http://dx.doi.org/10.1101/2020.01.23.916395},\n  language = {}\n}\n@article{cowling2013a,\n  author = {Cowling, B.J. and Jin, L. and Lau, E.H.Y.},\n  title = {Comparative epidemiology of human infections with avian influenza A H7N9 and H5N1 viruses in China: a population-based study of laboratory-confirmed cases},\n  journal = {Lancet},\n  date = {2013},\n  volume = {382},\n  pages = {129\u2013137},\n  more-authors = {true},\n  number = {9887},\n  language = {}\n}\n@article{nishiura2011a,\n  author = {Nishiura, H. and Inaba, H.},\n  title = {Estimation of the incubation period of influenza A (H1N1-2009) among imported cases: addressing censoring using outbreak data at the origin of importation},\n  journal = {J Theor Biol},\n  date = {2011},\n  volume = {272},\n  pages = {123\u2013130},\n  number = {1},\n  language = {}\n}\n@misc{w-a,\n  author = {W.H.O.},\n  title = {Novel coronavirus \u2013 Republic of Korea (ex-China)},\n  date = {Jan},\n  volume = {21},\n  url = {http://www.who.int/csr/don/21january-2020-novel-coronavirus-republic-of-korea-ex-china/en/},\n  number = {2020},\n  language = {}\n}\n@misc{c-a,\n  author = {C.D.C.},\n  title = {First travel-related case of 2019 novel coronavirus detected in United States},\n  date = {Jan},\n  volume = {21},\n  url = {https://www.cdc.gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html},\n  number = {2020},\n  language = {}\n}\n@misc{unknown-a,\n  title = {Google Colab},\n  url = {https://colab.research.google.com/10.},\n  language = {}\n}\n@article{daniel1990a,\n  author = {Daniel, Wayne W.},\n  date = {1990},\n  title = {\"Kolmogorov\u2013Smirnov one-sample test\". Applied Nonparametric Statistics},\n  edition = {2nd ed},\n  pages = \"PWS-Kent. pp. 319\u2013330 12.\" # \"219\u2013236.\",\n  journal = {Rahman und Govidarajulu},\n  volume = {24},\n  source = {Hiroshi Nishiura Early efforts in modeling the incubation period of infectious diseases with an acute course of illness, Emerging Themes in Epidemiology volume 4, Article number: 2 2007 13},\n  unmatched-pages = {219\u2013236.},\n  unmatched-journal = {Journal of Applied Statistics.},\n  language = {},\n  address = {Boston}\n}\n@article{unknown1994a,\n  title = {R package: goft https://cran.r-project.org/web/packages/goft/index.html 15},\n  source = {Statistical analysis of ordinal categorical status after therapies},\n  date = {1994},\n  journal = {Journal of},\n  language = {}\n}\n@misc{unknown-b,\n  title = {Consulting and Clinical Psychology. 62},\n  date = {( 2):},\n  pages = {281\u2013284},\n  doi = {doi: 10.1037/0022-006X.62.2.281},\n  language = {}\n}\n@article{han2010a,\n  author = {Han, X.},\n  title = {Nonnegative principal component analysis for cancer molecular pattern discovery},\n  journal = {IEEE/ACM Transactions on Computational Biology & Bioinformatics},\n  date = {2010},\n  volume = {7},\n  pages = {537\u2013549},\n  number = {3},\n  language = {}\n}\n@article{li2017a,\n  author = {Li, W. and Cerise, J.E. and Yang, Y. and Han, H.},\n  title = {Application of t-SNE to human genetic data},\n  journal = {Journal of Bioinformatics & Computational Biology},\n  date = {2017},\n  volume = {15},\n  pages = {1750017},\n  number = {4},\n  language = {}\n}\n@article{roweis2000a,\n  author = {Roweis, S. and Saul},\n  title = {K: Nonlinear Dimensionality Reduction by Locally Linear Embedding,\"},\n  journal = {Science},\n  volume = {290},\n  pages = {2323\u20132326},\n  date = {2000},\n  number = {5500},\n  language = {}\n}\n@article{jenatton2014a,\n  author = {Jenatton, R. and Obozinski, G. and Bach},\n  title = {F: Structured Sparse Principal Component Analysis, ICML 2009 20},\n  unknown = {Xia et al},\n  date = {2014-12-19},\n  journal = {Infections, American Journal of Epidemiology},\n  volume = {182},\n  pages = {8},\n  doi = {DOI: 10.1093/aje/kwv115},\n  source = {Middle East respiratory syndrome coronavirus (MERS-CoV) entry inhibitors targeting spike protein, Virus Res},\n  language = {}\n}\n@book{li2020a,\n  author = {Li},\n  date = {2020},\n  title = {Early Transmission Dynamics in Wuhan, China},\n  publisher = {of Novel Coronavirus\u2013Infected},\n  more-authors = {true},\n  language = {}\n}\n@article{pneumonia-a,\n  author = {Pneumonia},\n  title = {The New England},\n  journal = {Journal of Medicine},\n  doi = {DOI: 10.1056/NEJMoa2001316},\n  language = {}\n}\n@misc{guan2020a,\n  author = {Guan},\n  date = {2020},\n  title = {Clinical characteristics of 2019 novel coronavirus infection in China},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.02.06.20020974},\n  more-authors = {true},\n  language = {}\n}\n",
+        "references_ris": "TY  - GEN\nAU  - Tan, W.\nAU  - Zhao, X.\nAU  - Ma, X.\nTI  - A novel coronavirus genome identified in a cluster of pneumonia cases \u2014 Wuhan, China 2019\u22122020\nUR  - http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e4253b453d10c.\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nTI  - Huang et\nC1  - al\nPY  - 2020\nDA  - 2020\nUR  - https://doi.org/10.1016/S0140-6736\nT2  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, Hiroshi\nAU  - Jung, Sung-mok\nAU  - Linton, Natalie M.\nAU  - Kinoshita, Ryo\nAU  - Yang, Yichi\nAU  - Hayashi, Katsuma\nAU  - Kobayashi, Tetsuro\nAU  - Yuan, Baoyin\nAU  - R, Andrei\nT2  - Akhmetzhanov\nPY  - 2020\nDA  - 2020\nTI  - The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020\nVL  - 2020\nDO  - 10.3390/jcm9020330\nC1  - J. Clin. Med.\nIS  - 9\nLA  - \nER  - \n\nTY  - GEN\nAU  - Zhao, Shi\nAU  - Ran, Jinjun\nAU  - Musa, Salihu S.\nAU  - Yang, Guangpu\nAU  - Lou, Yijun\nAU  - Gao, Daozhou\nAU  - Yang, Lin\nAU  - He, Daihai\nPY  - 2020\nDA  - 2020\nTI  - Preliminary estimation of the basic reproduction number of novel coronavirus (COVID-19) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv\nUR  - http://dx.doi.org/10.1101/2020.01.23.916395\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cowling, B.J.\nAU  - Jin, L.\nAU  - Lau, E.H.Y.\nTI  - Comparative epidemiology of human infections with avian influenza A H7N9 and H5N1 viruses in China: a population-based study of laboratory-confirmed cases\nT2  - Lancet\nPY  - 2013\nDA  - 2013\nVL  - 382\nSP  - 129\nEP  - 137\nC1  - true\nIS  - 9887\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Inaba, H.\nTI  - Estimation of the incubation period of influenza A (H1N1-2009) among imported cases: addressing censoring using outbreak data at the origin of importation\nT2  - J Theor Biol\nPY  - 2011\nDA  - 2011\nVL  - 272\nSP  - 123\nEP  - 130\nIS  - 1\nLA  - \nER  - \n\nTY  - GEN\nAU  - W.H.O.\nTI  - Novel coronavirus \u2013 Republic of Korea (ex-China)\nPY  - Jan\nDA  - Jan\nVL  - 21\nUR  - http://www.who.int/csr/don/21january-2020-novel-coronavirus-republic-of-korea-ex-china/en/\nIS  - 2020\nLA  - \nER  - \n\nTY  - GEN\nAU  - C.D.C.\nTI  - First travel-related case of 2019 novel coronavirus detected in United States\nPY  - Jan\nDA  - Jan\nVL  - 21\nUR  - https://www.cdc.gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html\nIS  - 2020\nLA  - \nER  - \n\nTY  - GEN\nTI  - Google Colab\nUR  - https://colab.research.google.com/10.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Daniel, Wayne W.\nPY  - 1990\nDA  - 1990\nTI  - \"Kolmogorov\u2013Smirnov one-sample test\". Applied Nonparametric Statistics\nET  - 2nd ed\nSP  - \"PWS\nEP  - Kent. pp. 319\nT2  - Rahman und Govidarajulu\nVL  - 24\nT2  - Hiroshi Nishiura Early efforts in modeling the incubation period of infectious diseases with an acute course of illness, Emerging Themes in Epidemiology volume 4, Article number: 2 2007 13\nC1  - 219\u2013236.\nC1  - Journal of Applied Statistics.\nLA  - \nCY  - Boston\nER  - \n\nTY  - JOUR\nTI  - R package: goft https://cran.r-project.org/web/packages/goft/index.html 15\nT2  - Statistical analysis of ordinal categorical status after therapies\nPY  - 1994\nDA  - 1994\nT2  - Journal of\nLA  - \nER  - \n\nTY  - GEN\nTI  - Consulting and Clinical Psychology. 62\nPY  - ( 2):\nDA  - ( 2):\nSP  - 281\nEP  - 284\nDO  - 10.1037/0022-006X.62.2.281\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Han, X.\nTI  - Nonnegative principal component analysis for cancer molecular pattern discovery\nT2  - IEEE/ACM Transactions on Computational Biology & Bioinformatics\nPY  - 2010\nDA  - 2010\nVL  - 7\nSP  - 537\nEP  - 549\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, W.\nAU  - Cerise, J.E.\nAU  - Yang, Y.\nAU  - Han, H.\nTI  - Application of t-SNE to human genetic data\nT2  - Journal of Bioinformatics & Computational Biology\nPY  - 2017\nDA  - 2017\nVL  - 15\nSP  - 1750017\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Roweis, S.\nAU  - Saul\nTI  - K: Nonlinear Dimensionality Reduction by Locally Linear Embedding,\"\nT2  - Science\nVL  - 290\nSP  - 2323\nEP  - 2326\nPY  - 2000\nDA  - 2000\nIS  - 5500\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jenatton, R.\nAU  - Obozinski, G.\nAU  - Bach\nTI  - F: Structured Sparse Principal Component Analysis, ICML 2009 20\nC1  - Xia et al\nPY  - 2014\nDA  - 2014/12/19\nT2  - Infections, American Journal of Epidemiology\nVL  - 182\nSP  - 8\nDO  - 10.1093/aje/kwv115\nT2  - Middle East respiratory syndrome coronavirus (MERS-CoV) entry inhibitors targeting spike protein, Virus Res\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Li\nPY  - 2020\nDA  - 2020\nTI  - Early Transmission Dynamics in Wuhan, China\nPB  - of Novel Coronavirus\u2013Infected\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pneumonia\nTI  - The New England\nT2  - Journal of Medicine\nDO  - 10.1056/NEJMoa2001316\nLA  - \nER  - \n\nTY  - GEN\nAU  - Guan\nPY  - 2020\nDA  - 2020\nTI  - Clinical characteristics of 2019 novel coronavirus infection in China\nDO  - doi\nUR  - https://doi.org/10.1101/2020.02.06.20020974\nC1  - true\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Incubation statistics for different groups"
+            },
+            {
+                "id": "2",
+                "caption": "p-values for probability distribution tests"
+            },
+            {
+                "id": "3",
+                "caption": "Estimated COVID-19 incubation statistics"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Age and incubation time summary with respect to region and gender"
+            },
+            {
+                "id": "2",
+                "caption": "The probability density functions (p.d.f.) under Gaussian kernel density estimation for different groups"
+            },
+            {
+                "id": "3",
+                "caption": "Compare the incubation periods of Age>=40 and Age< 40 groups"
+            },
+            {
+                "id": "4",
+                "caption": "The PCA, sparse PCA, t-SNE, and LLE visualization of the incubation of COVID-19 partitioned as Age>=40 and Age<40 groups COVID-19 incubation statistics estimation We further estimated population mean and standard deviation, median and 2.5th and 97.5th percentile by using Bootstrap under 106 times resampling"
+            },
+            {
+                "id": "5",
+                "caption": "The histograms of the sizes of large samples, incubation median, and means in simulation"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.24.20027474.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.24.20027474.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.24.20027474.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.24.20027474.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.24.20027474.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.24.20027474.full/img-007.png"
+        ]
+    },
+    "sections": {
+        "motivation": [
+            "Wuhan pneumonia is an acute infectious disease caused by the 2019 novel coronavirus (COVID-19). It is being treated as a Class A infectious disease though it was classified as Class B according to the Infectious Disease Prevention Act of China. Accurate estimation of the incubation period of the coronavirus is essential to the prevention and control. However, it remains unclear about its exact incubation period though it is believed that symptoms of COVID-19 can appear in as few as 2 days or as long as 14 or even more after exposure. The accurate incubation period calculation requires original chainof-infection data that may not be fully available in the Wuhan regions. In this study, we aim to accurately calculate the incubation period of COVID-19 by taking advantage of the chain-of-infection data, which is well-documented and epidemiologically informative, outside the Wuhan regions."
+        ],
+        "methods": [
+            "We acquired and collected officially reported COVID-19 data from 10 regions in China except for Hubei province. To achieve the accurate calculation of the incubation period, we only involved the officially confirmed cases with a clear history of exposure and time of onset. We excluded those without relevant epidemiological descriptions, working or living in Wuhan for a long time, or hard to determine the possible exposure time. We proposed a Monte Caro simulation approach to estimate the incubation of COVID-19 as well as employed nonparametric ways. We also employed manifold learning and related statistical analysis to decipher the incubation relationships between different age/gender groups.<br/><br/>Result: The incubation period of COVID-19 did not follow general incubation distributions such as lognormal, Weibull, and Gamma distributions. We estimated that the mean and median of its incubation were 5.84 and 5.0 days via bootstrap and proposed Monte Carlo simulations. We found that the incubation periods of the groups with age>=40 years and age<40 years demonstrated a statistically significant difference. The former group had a longer incubation period and a larger variance than the latter. It further suggested that different quarantine time should be applied to the groups for their different incubation periods. Our machine learning analysis also showed that the two groups were linearly separable. incubation of COVID-19 along with previous statistical analysis. Our results further indicated that the incubation difference between males and females did not demonstrate a statistical significance.",
+            "Data collection and preprocessing<br/><br/>We collected a dataset with 59 officially confirmed COVID-19 cases from 10 regions in China except for Hubei province, the assumed origin of the virus. The patient data was dated from Dec 29, 2019, to Feb 5, 2020. We only involved the officially confirmed cases with a clear history of exposure and time of onset in data collection. We exclude those without relevant epidemiological descriptions, working or living in Wuhan for a long time, or hard to determine the possible exposure time.<br/><br/>Data collected for this study included region, age, gender, exposure history, and illness onset. For those cases whose incubation periods locate in an interval [ !,"
+        ],
+        "introduction": [
+            "Novel coronaviruses (COVID-19), which was found in Wuhan, China in December 2019 presents an acute public health threat to the whole world [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The new virus is different from known coronaviruses such as SARS and MERS, though they share some similar respiratory illness symptoms such as fever, cough, or/and shortness of breath [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. It is believed to root from the animal but spreads from person-to-person. The COVID-19 spread even shows that persons without any symptoms or clinically negative in infection can still spread it to others. There is no official vaccine or antiviral drug available up to now (Jan 30, 2020) to treat COVID-19 infected patients [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The outbreak of COVID-19 infection is forcing China and many countries to take harsh protection policies. More than eight-thousands of infections have been reported in China and more than a dozen of countries until Jan 30, 2020. More than 15 cities including Wuhan have been quarantined to halt the spread of the COVID-19. It is expected that millions of people can be on lockdown because of COVID-19. WHO declared the coronavirus outbreak a global health emergency on Jan 30, 2020."
+        ],
+        "discussion": [
+            "We estimate the incubation period of COVID-19 in this study and analyze its properties by employing statistical and machine learning techniques. We estimate that the mean and median of COVID-19 as 5.84 and 5.01 days by employing nonparametric techniques. The proposed Monte Carlo simulation method echo the nonparametric estimation results. The incubation median of COVID-19: 5.01days (95% CI (4.0, 6.0) days is close to that of SARS (4.6 days) (95%CI: (3.8,5.8)). Compared to the incubation mean of MERS: 5.5 days (95% CI: (3.6-10.2) days), the COVID-19 mean incubation period: 5.84 days (95% CI: (5.07, 6.45)) are also slightly longer [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. It suggests that COVID-19 could have a faster distribution speed than H7N9, but the same spread speed as SARS and MERS in terms of their incubation periods [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. The existing spread of COVID-19 is faster than SARS partially because it has more complicate spread dynamics [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. For example, those without clinical symptoms can still spread the virus even if they are \u2018officially negative\u2019 in the COVID-19 virus test [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]."
+        ],
+        "acknowledgement": [
+            "This research was funded by The Emergency Program for Prevention and Control of Novel Coronavirus of Xi\u2019an Medical University (grant No 2020ZX01).    Reference<br/><br/>1. Tan W, Zhao X, Ma X, et al A novel coronavirus genome identified in a cluster of pneumonia cases \u2014 Wuhan, China 2019\u22122020. http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e4253b453d10c.<br/><br/>2. Huang et al (2020) Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China, https://doi.org/10.1016/ S0140-6736(20)30183-5<br/><br/>3. Hiroshi Nishiura, Sung-mok Jung, Natalie M. Linton, Ryo Kinoshita, Yichi Yang, Katsuma Hayashi, Tetsuro Kobayashi, Baoyin Yuan and Andrei R. Akhmetzhanov (2020) The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020. J. Clin. Med. 2020, 9, 330; doi:10.3390/jcm9020330"
+        ],
+        "funding": [
+            "This research was funded by The Emergency Program for Prevention and Control of Novel Coronavirus of Xi\u2019an Medical University (grant No 2020ZX01)"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "Motivation: Wuhan pneumonia is an acute infectious disease caused by the 2019 novel coronavirus (COVID-19). It is being treated as a Class A infectious disease though it was classified as Class B according to the Infectious Disease Prevention Act of China. Accurate estimation of the incubation period of the coronavirus is essential to the prevention and control. However, it remains unclear about its exact incubation period though it is believed that symptoms of COVID-19 can appear in as few as 2 days or as long as 14 or even more after exposure. The accurate incubation period calculation requires original chainof-infection data that may not be fully available in the Wuhan regions. In this study, we aim to accurately calculate the incubation period of COVID-19 by taking advantage of the chain-of-infection data, which is well-documented and epidemiologically informative, outside the Wuhan regions."
+        ],
+        "Methods": [
+            "We collected a dataset with 59 officially confirmed COVID-19 cases from 10 regions in China except for Hubei province, the assumed origin of the virus. The patient data was dated from Dec 29, 2019, to Feb 5, 2020. We only involved the officially confirmed cases with a clear history of exposure and time of onset in data collection. We exclude those without relevant epidemiological descriptions, working or living in Wuhan for a long time, or hard to determine the possible exposure time.",
+            "Data collected for this study included region, age, gender, exposure history, and illness onset. For those cases whose incubation periods locate in an interval [ !,",
+            "to represent its incubation period. For example, Case no. 2 in our dataset went on a business trip in Wuhan on Jan 12th, 2020 and returned to Shaanxi on Jan 15th, 2020, but had fever symptoms on Jan 20th 2020. The incubation will be calculated as   = (\"&'!\")$(\"&'!)) = 6.5 days. More details about the dataset can be found in the \"",
+            "Result section.",
+            "\u2211/*-!  *.",
+            "Colab with TPU acceleration [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>-<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. The confidence level probability is calculated by the ratio  / , where counts the times that  * falls in the interval F . \u2212 2 .,  . + 2 .H in the simulation.",
+            "Similarly, we can estimate the population mean by using the same way where the large incubation sample mean is calculated as",
+            "each time.",
+            "and the estimated standard deviation  .",
+            "According to the central limit theorem, the population mean will be subject to the normal distribution. The confidence interval probability is calculated by following the same procedure.",
+            "Our data consists of 34 male cases, 24 female cases and 1 unidentified gender case from ten regions in China. All 59 cases have complete epidemiological descriptions about the history of exposure. The total 57 cases have complete information in age and gender One case from Beijing has unknown age. The mean and standard deviation of age are 41.9 and 13.2 years old. The mode of his dataset is 4.0 with 14 support cases. The minimum and maximum age are 10 and 70 respectively.",
+            "Figure 1 summarizes age and incubation time variables with respect to region and gender. The median incubation period of males (5.0 days) is slightly shorter than that of females 5.5 days. The median ages of male and female groups are 41 and 42 years old although their age distributions are quite different. The minimum and maximum incubation periods are 1 and 15 days respectively. Among all 10 regions, Shaanxi and Guangdong have 18 and 14 cases that are the largest and 2nd largest subgroups whose median incubation periods are 5.0 and 5.5 respectively.",
+            "Figure 2 illustrates the probability density functions (p.d.f) of \u2018male\u2019, \u2018female\u2019, and \u2018all\u2019 group incubation using Gaussian kernel density estimation on the left plot. The three groups seem to have similar or the same incubation distributions. The right plot in Figure 2 compares the probability function distributions (p.d.f.) of those of the \u2018age>= 40 years\u2019 and \u2018age < 40 years\u2019 groups. It suggests that the age>=40 group demonstrates very different incubation distributions compared to the age<40 group.",
+            "The distributions of the incubation of COVID-19. The incubation of COVID-19 is not subject to neither of the widely used incubation distributions such as normal, lognormal, Gamma, and Weibull distributions well [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. We employ Shapiro-Wilk tests rather than Kolmogorov\u2013Smirnov tests to conduct normality tests because we only have 59 records and Shapiro-Wilk tests can do a much better job on small datasets with a sample size of from 3 to 5000 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. Table 2 shows the p-values under the Shapiro-Wilk tests for normal and lognormal distributions as well as Goodness-of-fit tests for Gamma and Weibull distributions by using the R package \u2018goft\u2019 [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. We can reject normal, lognormal, and Weibull distributions strongly under the significance level of 0.05 cutoff [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>-<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. Although we can\u2019t reject Gamma distributions for its boundary line p-value (0.06086), it can be risky to use it to fit and estimate the distribution of the incubation period under a small sample size. We further employ the maximum likelihood estimates (MLEs) for the parameters of the gamma, conduct the goodness-fit test, and obtain p-value=8.6807e-04. As such, we only rely on nonparametric techniques in data analysis rather than use any pre-assumed distributions.",
+            "Distribution Normal Lognormal Gamma Weibull p-value 2.009e-06 0.01396 0.06086 6e-05",
+            "Mann-Whitney rank test shows that there are no significant differences between the incubation of males and females with respect to median with p-value=0.267 for the null hypothesis  &: Male and female groups have the same median. Similarly, we employ the Siegal-Tukey test to find the variances of incubation of males and females are at the same level statistically. We have p-values: 0.74725, 0.376, and 0.6258 for the corresponding hypotheses respectively:  !: male and female groups have different incubation variances,  \": the variance of male incubation > and that of the females, and  3: the variance of male incubation < that of the females. The results indicate that gender may not be a key factor affecting the incubation period of COVID-19.",
+            "The incubation period of the age<40 group is statistically shorter than that of the age>=40 group",
+            "Pearson correlation coefficient analysis shows the R statistics is 0.244 with p-value: 0.06758. It suggests that that the incubation period is somewhat correlated with age though not that strong. To verify whether the incubation of the age>=40 group is different from that of the age<40 group statistically, Figure 3 compares their incubation periods groups using different visualization tools. It indicates that the younger group tends to have a shorter incubation period. The variance of their incubation period also seems to be smaller.",
+            "The Mann-Whitney rank test shows that there\u2019s a statistically significant difference between the incubation of age<40 and age>=40 groups with the null hypothesis: the medians of incubation period between two groups are the same. The p-values for corresponding alternative hypotheses: the age<40 group has a smaller incubation median is 0.00474. It suggests that the age<40 group has a shorter incubation period than the age>=40 group. Similarly, the Siegal-Tukey test indicates the younger group\u2019s incubation variance is less than the older group\u2019s by p-value: 0.0083. It may suggest COVID-19 has a faster but relatively constant spread speed among people <40 years old than people >=40 years old.",
+            "The incubation data of COVID-19 is linearly separable for Age>=40 and Age<40 groups Figure 4 illustrates biplots of the dataset by removing two cases with missing items by using PCA (principal component analysis), sparse PCA (sparse principal component analysis, t-SNE (t-distributed stochastic neighbor embedding), and LLE (locally linear embedding) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>-<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. Data is partitioned as the age>=40 and age<40 groups in visualization. t-SNE shows that only one case in the age>=40 group falls in the cluster of the age < 40 group. But PCA, sparse PCA and LLE all show that the incubation of two groups is linearly separable, which means there exists an obvious linear boundary to separate them, in the subspaces generated by PCA, SPCA, t-SNE, or LLE. Such machine learning results indicate that the two groups are actually independent clusters spatially. However, we also find that the incubation data will no longer demonstrate the linear separability property when we partition it as age>=50 and age<50 groups or age>=55",
+            "and age<55 groups. It suggests that age 40 can be a key age cutoff for the incubation of COVID-19 along with previous statistical analysis.",
+            "95% CI (5.07, 6.55) (5.42, 6.25) (2.31, 3.72) (4.00, 6.00) (4.59, 5.39) (2.45, 2.95) (11.00, 16.13)"
+        ],
+        "Introduction": [
+            "Novel coronaviruses (COVID-19), which was found in Wuhan, China in December 2019 presents an acute public health threat to the whole world [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The new virus is different from known coronaviruses such as SARS and MERS, though they share some similar respiratory illness symptoms such as fever, cough, or/and shortness of breath [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. It is believed to root from the animal but spreads from person-to-person. The COVID-19 spread even shows that persons without any symptoms or clinically negative in infection can still spread it to others. There is no official vaccine or antiviral drug available up to now (Jan 30, 2020) to treat COVID-19 infected patients [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The outbreak of COVID-19 infection is forcing China and many countries to take harsh protection policies. More than eight-thousands of infections have been reported in China and more than a dozen of countries until Jan 30, 2020. More than 15 cities including Wuhan have been quarantined to halt the spread of the COVID-19. It is expected that millions of people can be on lockdown because of COVID-19. WHO declared the coronavirus outbreak a global health emergency on Jan 30, 2020.",
+            "It is essential to know the accurate incubation period of COVID-19 for the sake of deciphering dynamics of its spread. The incubation period is the time from infection to the onset of the disease. It provides the foundation for epidemiological prevention, clinical actions, and drug discovery. Different viruses have different incubation periods that determine their different dynamics epidemiologically. The incubation period of H7N9 (Human Avian Influenza A) is about 6.5 days, but the incubation period for SARS-CoV is typically 2 to 7 days [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>-<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. However, it remains unclear about its exact incubation period of COVID-19, although WHO estimates it is between 2 to 14 days after exposure [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. It can be difficult to estimate the",
+            "incubation period of COVID-19 by using original chain-of-infection data that may not be fully available in the Wuhan regions. Or data may lack meaningful exposure history. Furthermore, it is also unknown whether the incubation time will show some statistically significant with respect to Age and Gender. In this study, we aim to accurately estimate the incubation period of COVID-19 by taking advantage of datasets with a well-documented history of exposure. Our results show the incubation mean and median of COVID-19 are 5.84 and 5.0 days respectively and there is a statistical significance with the role of gender. However, the incubation periods of the groups with age>=40 years and age<40 years show a statistically significant difference. Our machine learning analysis also shows that the two groups are linearly separable that demonstrate a clear boundary in knowledge discovery visualization."
+        ],
+        "Discussion": [
+            "We estimate the incubation period of COVID-19 in this study and analyze its properties by employing statistical and machine learning techniques. We estimate that the mean and median of COVID-19 as 5.84 and 5.01 days by employing nonparametric techniques. The proposed Monte Carlo simulation method echo the nonparametric estimation results. The incubation median of COVID-19: 5.01days (95% CI (4.0, 6.0) days is close to that of SARS (4.6 days) (95%CI: (3.8,5.8)). Compared to the incubation mean of MERS: 5.5 days (95% CI: (3.6-10.2) days), the COVID-19 mean incubation period: 5.84 days (95% CI: (5.07, 6.45)) are also slightly longer [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. It suggests that COVID-19 could have a faster distribution speed than H7N9, but the same spread speed as SARS and MERS in terms of their incubation periods [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. The existing spread of COVID-19 is faster than SARS partially because it has more complicate spread dynamics [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. For example, those without clinical symptoms can still spread the virus even if they are \u2018officially negative\u2019 in the COVID-19 virus test [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>].",
+            "We also investigate the incubation period of 12 family cases and 47 non-family cases in the dataset. The family cases simply refer to the patients who were caught by COVID-19 because their family members had been infected. The Mann-Whitney rank test shows that there are not significant differences between family patients and non-family patients in terms of the median of incubation period. The Siegal-Tukey tests on scale also verify that the incubation scales are at the same level for family patients and non-family patients.",
+            "Our studies indicate that incubation periods of the age>=40 years and age<40 years groups not only statistically significant but also linearly separable in machine learning. It may suggest different treatments should be considered for the two different groups. It will be more interesting to estimate different incubation time for them separately. That the estimated 97.5th percentile of COVID-19 incubation is 12.89 days (95% CI: (11.00, 16.13)) may suggest a long isolation or quarantine time (e.g. 17 days) can be better than the widely accepted 14 days. Furthermore, different quarantine time should be applied to the age>=40 years and age<40 years groups for their different incubation periods. Generally speaking, a longer quarantine time can be considered for the old patients (>=40 years) than young patients (<40 years old). Our ongoing work is to collect more qualified data to extend our existing results and investigate incubation of COVID-19 for different groups besides comparing our incubation estimation with other studies [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]."
+        ],
+        "Acknowledgement": [
+            "This research was funded by The Emergency Program for Prevention and Control of Novel Coronavirus of Xi\u2019an Medical University (grant No 2020ZX01).",
+            "1. Tan W, Zhao X, Ma X, et al A novel coronavirus genome identified in a cluster of pneumonia cases \u2014 Wuhan, China 2019\u22122020. http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e4253b453d10c.",
+            "2. Huang et al (2020) Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China, https://doi.org/10.1016/ S0140-6736(20)30183-5",
+            "3. Hiroshi Nishiura, Sung-mok Jung, Natalie M. Linton, Ryo Kinoshita, Yichi Yang, Katsuma Hayashi, Tetsuro Kobayashi, Baoyin Yuan and Andrei R. Akhmetzhanov (2020) The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020. J. Clin. Med. 2020, 9, 330; doi:10.3390/jcm9020330",
+            "4. Shi Zhao, Jinjun Ran, Salihu S Musa, Guangpu Yang, Yijun Lou, Daozhou Gao, Lin Yang and Daihai He (2020) Preliminary estimation of the basic reproduction number of novel coronavirus (COVID-19) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv, http://dx.doi.org/10.1101/2020.01.23.916395",
+            "5. Cowling BJ, Jin L, Lau EHY, et al Comparative epidemiology of human infections with avian influenza A H7N9 and H5N1 viruses in China: a population-based study of laboratory-confirmed cases. Lancet. 2013;382(9887): 129\u2013137.",
+            "6. Nishiura H, Inaba H. Estimation of the incubation period of influenza A (H1N1-2009) among imported cases: addressing censoring using outbreak data at the origin of importation. J Theor Biol. 2011;272(1):123\u2013130",
+            "7. WHO. Novel coronavirus \u2013 Republic of Korea (ex-China). Jan 21, 2020. http://www.who.int/csr/don/21january-2020-novel-coronavirus-republic-of-korea-ex-china/en/",
+            "8. CDC. First travel-related case of 2019 novel coronavirus detected in United States. Jan 21, 2020. https://www.cdc.gov/media/ releases/2020/p0121-novel-coronavirus-travel-case.html",
+            "9. Google Colab: https://colab.research.google.com/ 10. TPU: https://cloud.google.com/tpu/ 11. Daniel, Wayne W. (1990). \"Kolmogorov\u2013Smirnov one-sample test\". Applied Nonparametric Statistics (2nd ed.). Boston: PWS-Kent. pp. 319\u2013330 12. Hiroshi Nishiura Early efforts in modeling the incubation period of infectious diseases with an acute course of illness, Emerging Themes in Epidemiology volume 4, Article number: 2 2007 13. Rahman und Govidarajulu (1997). \"A modification of the test of Shapiro and Wilk for normality\". Journal of Applied Statistics. 24 (2): 219\u2013236. 14. R package: goft https://cran.r-project.org/web/packages/goft/index.html 15. Grissom RJ (1994). \"Statistical analysis of ordinal categorical status after therapies\". Journal of",
+            "Consulting and Clinical Psychology. 62 (2): 281\u2013284. doi:10.1037/0022-006X.62.2.281 16. Han X: Nonnegative principal component analysis for cancer molecular pattern discovery. IEEE/ACM",
+            "Transactions on Computational Biology & Bioinformatics 2010, 7(3):537-549 17. Li W, Cerise JE, Yang Y, Han H: Application of t-SNE to human genetic data. Journal of Bioinformatics",
+            "& Computational Biology 2017, 15(4):1750017.",
+            "18. Roweis, S and Saul, K: Nonlinear Dimensionality Reduction by Locally Linear Embedding,\" Science, vol 290, no. 5500, pp. 2323-2326, 2000",
+            "19. Jenatton, R, Obozinski, G, Bach, F: Structured Sparse Principal Component Analysis, ICML 2009 20. Xia et al (2014) Middle East respiratory syndrome coronavirus (MERS-CoV) entry inhibitors targeting spike protein, Virus Res. 2014 Dec 19;194:200-10 21. Virlogeux et al Estimating the Distribution of the Incubation Periods of Human Avian Influenza",
+            "A(H7N9) Virus Infections, American Journal of Epidemiology, 182:8, DOI: 10.1093/aje/kwv115, 2015 22. Li, et al (2020) Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected",
+            "Pneumonia, The New England Journal of Medicine, DOI: 10.1056/NEJMoa2001316 23. Guan et al (2020) Clinical characteristics of 2019 novel coronavirus infection in China, doi: https://doi.org/10.1101/2020.02.06.20020974"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "male cases",
+            "number": 34,
+            "context": "The confidence interval probability is calculated by following the same procedure. <mark class=\"stats\">Our data consists of 34 male cases, 24 female cases and 1 unidentified gender case from ten regions in China</mark>. All 59 cases have complete epidemiological descriptions about the history of exposure"
+        },
+        {
+            "participant": "cases",
+            "number": 59,
+            "context": "Our data consists of 34 male cases, 24 female cases and 1 unidentified gender case from ten regions in China. <mark class=\"stats\">All 59 cases have complete epidemiological descriptions about the history of exposure</mark>. The total 57 cases have complete information in age and gender One case from Beijing has unknown age"
+        },
+        {
+            "participant": "cases",
+            "number": 57,
+            "context": "All 59 cases have complete epidemiological descriptions about the history of exposure. <mark class=\"stats\">The total 57 cases have complete information in age and gender One case from Beijing has unknown age</mark>. The mean and standard deviation of age are 41.9 and 13.2 years old"
+        },
+        {
+            "participant": "support cases",
+            "number": 14,
+            "context": "The mean and standard deviation of age are 41.9 and 13.2 years old. <mark class=\"stats\">The mode of his dataset is 4.0 with 14 support cases</mark>. The minimum and maximum age are 10 and 70 respectively"
+        },
+        {
+            "participant": "cases",
+            "number": 14,
+            "context": "The minimum and maximum incubation periods are 1 and 15 days respectively. <mark class=\"stats\">Among all 10 regions, Shaanxi and Guangdong have 18 and 14 cases that are the largest and 2nd largest subgroups whose median incubation periods are 5.0 and 5.5 respectively</mark>. Figure 2 illustrates the probability density functions (p.d.f) of \u2018male\u2019, \u2018female\u2019, and \u2018all\u2019 group incubation using Gaussian kernel density estimation on the left plot"
+        },
+        {
+            "participant": "records",
+            "number": 59,
+            "context": "The incubation of COVID-19 is not subject to neither of the widely used incubation distributions such as normal, lognormal, Gamma, and Weibull distributions well [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. <mark class=\"stats\">We employ Shapiro-Wilk tests rather than Kolmogorov\u2013Smirnov tests to conduct normality tests because we only have 59 records and Shapiro-Wilk tests can do a much better job on small datasets with a sample size of from 3 to 5000 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]</mark>. Table 2 shows the p-values under the Shapiro-Wilk tests for normal and lognormal distributions as well as Goodness-of-fit tests for Gamma and Weibull distributions by using the R package \u2018goft\u2019 [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]"
+        },
+        {
+            "participant": "cases with missing items by using PCA",
+            "number": 2,
+            "context": "It may suggest COVID-19 has a faster but relatively constant spread speed among people <40 years old than people >=40 years old. <mark class=\"stats\">The incubation data of COVID-19 is linearly separable for Age>=40 and Age<40 groups Figure 4 illustrates biplots of the dataset by removing two cases with missing items by using PCA (principal component analysis), sparse PCA (sparse principal component analysis, t-SNE (t-distributed stochastic neighbor embedding), and LLE (locally linear embedding) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>-<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]</mark>. Data is partitioned as the age>=40 and age<40 groups in visualization. t-SNE shows that only one case in the age>=40 group falls in the cluster of the age < 40 group"
+        },
+        {
+            "participant": "cases",
+            "number": 59,
+            "context": "Monte Carlo simulation for incubation median and mean estimation. <mark class=\"stats\">We propose a Monte Carlo simulation approach that takes advantage of bootstrap techniques to estimate incubation median and mean estimation for the small sample with 59 cases</mark>. It is more data-driven compared to traditional parametric approaches to handle parameter estimation for small datasets"
+        },
+        {
+            "participant": "cases",
+            "number": 14,
+            "context": "The minimum and maximum incubation periods are 1 and 15 days respectively. <mark class=\"stats\">Among all 10 regions, Shaanxi and Guangdong have 18 and 14 cases that are the largest and 2nd largest subgroups whose median incubation periods are 5.0 and 5.5 respectively</mark>. Group The number of cases mean \u00b1 std median IQR"
+        },
+        {
+            "participant": "records",
+            "number": 59,
+            "context": "The incubation of COVID-19 is not subject to neither of the widely used incubation distributions such as normal, lognormal, Gamma, and Weibull distributions well [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. <mark class=\"stats\">We employ Shapiro-Wilk tests rather than Kolmogorov\u2013Smirnov tests to conduct normality tests because we only have 59 records and Shapiro-Wilk tests can do a much better job on small datasets with a sample size of from 3 to 5000 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]</mark>. Table 2 shows the p-values under the Shapiro-Wilk tests for normal and lognormal distributions as well as Goodness-of-fit tests for Gamma and Weibull distributions by using the R package \u2018goft\u2019 [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]"
+        },
+        {
+            "participant": "cases with missing items by using PCA",
+            "number": 2,
+            "context": "It may suggest COVID-19 has a faster but relatively constant spread speed among people <40 years old than people >=40 years old. <mark class=\"stats\">The incubation data of COVID-19 is linearly separable for Age>=40 and Age<40 groups Figure 4 illustrates biplots of the dataset by removing two cases with missing items by using PCA (principal component analysis), sparse PCA (sparse principal component analysis, t-SNE (t-distributed stochastic neighbor embedding), and LLE (locally linear embedding) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>-<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]</mark>. Data is partitioned as the age>=40 and age<40 groups in visualization. t-SNE shows that only one case in the age>=40 group falls in the cluster of the age < 40 group"
+        },
+        {
+            "participant": "family cases",
+            "number": 12,
+            "context": "For example, those without clinical symptoms can still spread the virus even if they are \u2018officially negative\u2019 in the COVID-19 virus test [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. <mark class=\"stats\">We also investigate the incubation period of 12 family cases and 47 non-family cases in the dataset</mark>. The family cases simply refer to the patients who were caught by COVID-19 because their family members had been infected"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We employ Shapiro-Wilk tests rather than Kolmogorov\u2013Smirnov tests to conduct normality tests because we only have 59 records and Shapiro-Wilk tests can do a much better job on small datasets with a sample size of from 3 to 5000 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]</mark>",
+                "tests": [
+                    {
+                        "test": "Shapiro-Wilk"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Table 2 shows the p-values under the Shapiro-Wilk tests for normal and lognormal distributions as well as Goodness-of-fit tests for Gamma and Weibull distributions by using the R package \u2018goft\u2019 [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]</mark>",
+                "tests": [
+                    {
+                        "test": "Shapiro-Wilk"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Mann-Whitney rank test shows that there are no significant differences between the incubation of males and females with respect to median with p-value=0.267 for the null hypothesis  &: Male and female groups have the same median</mark>",
+                "tests": [
+                    {
+                        "test": "Mann-Whitney rank test"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Pearson correlation coefficient analysis shows the R statistics is 0.244 with p-value: 0.06758</mark>",
+                "tests": [
+                    {
+                        "test": "Pearson correlation coefficient",
+                        "value": "0.244"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The Mann-Whitney rank test shows that there\u2019s a statistically significant difference between the incubation of age<40 and age>=40 groups with the null hypothesis: the medians of incubation period between two groups are the same</mark>",
+                "tests": [
+                    {
+                        "test": "Mann-Whitney rank test"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The incubation data of COVID-19 is linearly separable for Age>=40 and Age<40 groups Figure 4 illustrates biplots of the dataset by removing two cases with missing items by using PCA (principal component analysis), sparse PCA (sparse principal component analysis, t-SNE (t-distributed stochastic neighbor embedding), and LLE (locally linear embedding) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>-<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">But PCA, sparse PCA and LLE all show that the incubation of two groups is linearly separable, which means there exists an obvious linear boundary to separate them, in the subspaces generated by PCA, SPCA, t-SNE, or LLE</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We employ Shapiro-Wilk tests rather than Kolmogorov\u2013Smirnov tests to conduct normality tests because we only have 59 records and Shapiro-Wilk tests can do a much better job on small datasets with a sample size of from 3 to 5000 [13]</mark>",
+                "tests": [
+                    {
+                        "test": "Shapiro-Wilk"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Table 2 shows the p-values under the Shapiro-Wilk tests for normal and lognormal distributions as well as Goodness-of-fit tests for Gamma and Weibull distributions by using the R package \u2018goft\u2019 [14]</mark>",
+                "tests": [
+                    {
+                        "test": "Shapiro-Wilk"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The incubation data of COVID-19 is linearly separable for Age>=40 and Age<40 groups Figure 4 illustrates biplots of the dataset by removing two cases with missing items by using PCA (principal component analysis), sparse PCA (sparse principal component analysis, t-SNE (t-distributed stochastic neighbor embedding), and LLE (locally linear embedding) [16-19]</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The Mann-Whitney rank test shows that there are not significant differences between family patients and non-family patients in terms of the median of incubation period</mark>",
+                "tests": [
+                    {
+                        "test": "Mann-Whitney rank test"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "MERS",
+        "wuhan region",
+        "coronavirus",
+        "principal component analysis",
+        "maximum likelihood estimates",
+        "H7N9",
+        "pneumonia",
+        "monte carlo simulation",
+        "SARS",
+        "dynamics",
+        "incubation period",
+        "Infectious disease",
+        "statistical analysis",
+        "novel coronavirus",
+        "infection datum",
+        "COVID-19"
+    ],
+    "keyword_relevance": {
+        "incubation period": 0.32575757575757575,
+        "COVID-19": 0.3181818181818182,
+        "coronavirus": 0.11363636363636363,
+        "novel coronavirus": 0.045454545454545456,
+        "SARS": 0.03787878787878788,
+        "MERS": 0.030303030303030304,
+        "H7N9": 0.030303030303030304,
+        "principal component analysis": 0.022727272727272728,
+        "dynamics": 0.022727272727272728,
+        "statistical analysis": 0.022727272727272728,
+        "maximum likelihood estimates": 0.015151515151515152,
+        "pneumonia": 0.015151515151515152,
+        "wuhan region": 0.0,
+        "monte carlo simulation": 0.0,
+        "Infectious disease": 0.0,
+        "infection datum": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Novel coronaviruses (COVID-19), which was found in Wuhan, China in December 2019 presents an acute public health threat to the whole world [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "The outbreak of COVID-19 infection is forcing China and many countries to take harsh protection policies.",
+        "More than eight-thousands of infections have been reported in China and more than a dozen of countries until Jan 30, 2020.",
+        "More than 15 cities including Wuhan have been quarantined to halt the spread of the COVID-19.",
+        "WHO declared the coronavirus outbreak a global health emergency on Jan 30, 2020",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors acquired and collected officially reported COVID-19 data from 10 regions in China except for Hubei province.",
+        "To achieve the accurate calculation of the incubation period, the authors only involved the officially confirmed cases with a clear history of exposure and time of onset",
+        "The authors excluded those without relevant epidemiological descriptions, working or living in Wuhan for a long time, or hard to determine the possible exposure time.",
+        "Data collected for this study included region, age, gender, exposure history, and illness onset",
+        "For those cases whose incubation periods locate in an interval [ !,",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors estimate the incubation period of COVID-19 in this study and analyze its properties by employing statistical and machine learning techniques.",
+        "The authors estimate that the mean and median of COVID-19 as 5.84 and 5.01 days by employing nonparametric techniques.",
+        "Compared to the incubation mean of MERS: 5.5 days (95% CI: (3.6-10.2) days), the COVID-19 mean incubation period: 5.84 days (95% CI: (5.07, 6.45)) are slightly longer [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>].",
+        "The existing spread of COVID-19 is faster than SARS partially because it has more complicate spread dynamics [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "Those without clinical symptoms can still spread the virus even if they are \u2018officially negative\u2019 in the COVID-19 virus test [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Novel coronaviruses (COVID-19), which was found in Wuhan, China in December 2019 presents an acute public health threat to the whole world [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "The outbreak of COVID-19 infection is forcing China and many countries to take harsh protection policies.",
+            "More than eight-thousands of infections have been reported in China and more than a dozen of countries until Jan 30, 2020.",
+            "More than 15 cities including Wuhan have been quarantined to halt the spread of the COVID-19.",
+            "WHO declared the coronavirus outbreak a global health emergency on Jan 30, 2020"
+        ],
+        "Methods": [
+            "The authors acquired and collected officially reported COVID-19 data from 10 regions in China except for Hubei province.",
+            "To achieve the accurate calculation of the incubation period, the authors only involved the officially confirmed cases with a clear history of exposure and time of onset",
+            "The authors excluded those without relevant epidemiological descriptions, working or living in Wuhan for a long time, or hard to determine the possible exposure time.",
+            "Data collected for this study included region, age, gender, exposure history, and illness onset",
+            "For those cases whose incubation periods locate in an interval [ !,"
+        ],
+        "Conclusion": [
+            "The authors estimate the incubation period of COVID-19 in this study and analyze its properties by employing statistical and machine learning techniques.",
+            "The authors estimate that the mean and median of COVID-19 as 5.84 and 5.01 days by employing nonparametric techniques.",
+            "Compared to the incubation mean of MERS: 5.5 days (95% CI: (3.6-10.2) days), the COVID-19 mean incubation period: 5.84 days (95% CI: (5.07, 6.45)) are slightly longer [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>].",
+            "The existing spread of COVID-19 is faster than SARS partially because it has more complicate spread dynamics [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "Those without clinical symptoms can still spread the virus even if they are \u2018officially negative\u2019 in the COVID-19 virus test [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Tan_et+al_2019_a",
+            "entry": "1. Tan W, Zhao X, Ma X, et al. A novel coronavirus genome identified in a cluster of pneumonia cases \u2014 Wuhan, China 2019\u22122020. http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e4253b453d10c.",
+            "url": "http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e4253b453d10c"
+        },
+        {
+            "id": "2",
+            "alt_id": "2._2020_a",
+            "entry": "2. Huang et al (2020) Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China, https://doi.org/10.1016/ S0140-6736(20)30183-5",
+            "url": "https://doi.org/10.1016/S0140-6736(20)30183-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Huang%20et%20al%202020%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20httpsdoiorg101016%20S0140673620301835",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Huang%20et%20al%202020%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20httpsdoiorg101016%20S0140673620301835"
+        },
+        {
+            "id": "3",
+            "alt_id": "Nishiura_et+al_2020_a",
+            "entry": "3. Hiroshi Nishiura, Sung-mok Jung, Natalie M. Linton, Ryo Kinoshita, Yichi Yang, Katsuma Hayashi, Tetsuro Kobayashi, Baoyin Yuan and Andrei R. Akhmetzhanov (2020) The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020. J. Clin. Med. 2020, 9, 330; doi:10.3390/jcm9020330",
+            "crossref": "https://dx.doi.org/10.3390/jcm9020330",
+            "scite": "https://scite.ai/reports/10.3390/jcm9020330",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3390/jcm9020330"
+        },
+        {
+            "id": "4",
+            "alt_id": "Zhao_et+al_2020_a",
+            "entry": "4. Shi Zhao, Jinjun Ran, Salihu S Musa, Guangpu Yang, Yijun Lou, Daozhou Gao, Lin Yang and Daihai He (2020) Preliminary estimation of the basic reproduction number of novel coronavirus (COVID-19) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv, http://dx.doi.org/10.1101/2020.01.23.916395",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.916395",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.916395"
+        },
+        {
+            "id": "5",
+            "alt_id": "Cowling_et+al_2013_a",
+            "entry": "5. Cowling BJ, Jin L, Lau EHY, et al. Comparative epidemiology of human infections with avian influenza A H7N9 and H5N1 viruses in China: a population-based study of laboratory-confirmed cases. Lancet. 2013;382(9887): 129\u2013137.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cowling%2C%20B.J.%20Jin%2C%20L.%20Lau%2C%20E.H.Y.%20Comparative%20epidemiology%20of%20human%20infections%20with%20avian%20influenza%20A%20H7N9%20and%20H5N1%20viruses%20in%20China%3A%20a%20population-based%20study%20of%20laboratory-confirmed%20cases%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cowling%2C%20B.J.%20Jin%2C%20L.%20Lau%2C%20E.H.Y.%20Comparative%20epidemiology%20of%20human%20infections%20with%20avian%20influenza%20A%20H7N9%20and%20H5N1%20viruses%20in%20China%3A%20a%20population-based%20study%20of%20laboratory-confirmed%20cases%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cowling%2C%20B.J.%20Jin%2C%20L.%20Lau%2C%20E.H.Y.%20Comparative%20epidemiology%20of%20human%20infections%20with%20avian%20influenza%20A%20H7N9%20and%20H5N1%20viruses%20in%20China%3A%20a%20population-based%20study%20of%20laboratory-confirmed%20cases%202013"
+        },
+        {
+            "id": "6",
+            "alt_id": "Nishiura_2011_a",
+            "entry": "6. Nishiura H, Inaba H. Estimation of the incubation period of influenza A (H1N1-2009) among imported cases: addressing censoring using outbreak data at the origin of importation. J Theor Biol. 2011;272(1):123\u2013130",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%2C%20H.%20Inaba%2C%20H.%20Estimation%20of%20the%20incubation%20period%20of%20influenza%20A%20%28H1N1-2009%29%20among%20imported%20cases%3A%20addressing%20censoring%20using%20outbreak%20data%20at%20the%20origin%20of%20importation%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%2C%20H.%20Inaba%2C%20H.%20Estimation%20of%20the%20incubation%20period%20of%20influenza%20A%20%28H1N1-2009%29%20among%20imported%20cases%3A%20addressing%20censoring%20using%20outbreak%20data%20at%20the%20origin%20of%20importation%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%2C%20H.%20Inaba%2C%20H.%20Estimation%20of%20the%20incubation%20period%20of%20influenza%20A%20%28H1N1-2009%29%20among%20imported%20cases%3A%20addressing%20censoring%20using%20outbreak%20data%20at%20the%20origin%20of%20importation%202011"
+        },
+        {
+            "id": "7",
+            "alt_id": "W_Jan_a",
+            "entry": "7. WHO. Novel coronavirus \u2013 Republic of Korea (ex-China). Jan 21, 2020. http://www.who.int/csr/don/21january-2020-novel-coronavirus-republic-of-korea-ex-china/en/",
+            "url": "http://www.who.int/csr/don/21january-2020-novel-coronavirus-republic-of-korea-ex-china/en/"
+        },
+        {
+            "id": "8",
+            "alt_id": "C_Jan_a",
+            "entry": "8. CDC. First travel-related case of 2019 novel coronavirus detected in United States. Jan 21, 2020. https://www.cdc.gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html",
+            "url": "https://www.cdc.gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html"
+        },
+        {
+            "id": "9",
+            "alt_id": "9._0000_a",
+            "entry": "9. Google Colab: https://colab.research.google.com/10. TPU:https://cloud.google.com/tpu/",
+            "url": "https://colab.research.google.com/10"
+        },
+        {
+            "id": "11",
+            "alt_id": "Daniel_1990_a",
+            "entry": "11. Daniel, Wayne W. (1990). \"Kolmogorov\u2013Smirnov one-sample test\". Applied Nonparametric Statistics (2nd ed.). Boston: PWS-Kent. pp. 319\u2013330 12. Hiroshi Nishiura Early efforts in modeling the incubation period of infectious diseases with an acute course of illness, Emerging Themes in Epidemiology volume 4, Article number: 2 2007 13. Rahman und Govidarajulu (1997). \"A modification of the test of Shapiro and Wilk for normality\". Journal of Applied Statistics. 24 (2): 219\u2013236.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Daniel%2C%20Wayne%20W.%20%22Kolmogorov%E2%80%93Smirnov%20one-sample%20test%22.%20Applied%20Nonparametric%20Statistics%201990",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Daniel%2C%20Wayne%20W.%20%22Kolmogorov%E2%80%93Smirnov%20one-sample%20test%22.%20Applied%20Nonparametric%20Statistics%201990",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Daniel%2C%20Wayne%20W.%20%22Kolmogorov%E2%80%93Smirnov%20one-sample%20test%22.%20Applied%20Nonparametric%20Statistics%201990"
+        },
+        {
+            "id": "14",
+            "alt_id": "14._1994_a",
+            "entry": "14. R package: goft https://cran.r-project.org/web/packages/goft/index.html 15. Grissom RJ (1994). \"Statistical analysis of ordinal categorical status after therapies\". Journal of",
+            "url": "https://cran.r-project.org/web/packages/goft/index.html",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=R%20package%20goft%20httpscranrprojectorgwebpackagesgoftindexhtml%2015%20Grissom%20RJ%201994%20Statistical%20analysis%20of%20ordinal%20categorical%20status%20after%20therapies%20Journal%20of",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=R%20package%20goft%20httpscranrprojectorgwebpackagesgoftindexhtml%2015%20Grissom%20RJ%201994%20Statistical%20analysis%20of%20ordinal%20categorical%20status%20after%20therapies%20Journal%20of"
+        },
+        {
+            "id": "Consulting_( 2):_b",
+            "alt_id": "12",
+            "entry": "Consulting and Clinical Psychology. 62 (2): 281\u2013284. doi:10.1037/0022-006X.62.2.281",
+            "crossref": "https://dx.doi.org/10.1037/0022-006X.62.2.281",
+            "scite": "https://scite.ai/reports/10.1037/0022-006X.62.2.281"
+        },
+        {
+            "id": "16",
+            "alt_id": "Han_2010_a",
+            "entry": "16. Han X. Nonnegative principal component analysis for cancer molecular pattern discovery. IEEE/ACM Transactions on Computational Biology & Bioinformatics 2010, 7(3):537-549 17.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Han%2C%20X.%20Nonnegative%20principal%20component%20analysis%20for%20cancer%20molecular%20pattern%20discovery%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Han%2C%20X.%20Nonnegative%20principal%20component%20analysis%20for%20cancer%20molecular%20pattern%20discovery%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Han%2C%20X.%20Nonnegative%20principal%20component%20analysis%20for%20cancer%20molecular%20pattern%20discovery%202010"
+        },
+        {
+            "id": "Li_et+al_2017_a",
+            "alt_id": "14",
+            "entry": "Li W, Cerise JE, Yang Y, Han H. Application of t-SNE to human genetic data. Journal of Bioinformatics & Computational Biology 2017, 15(4):1750017.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20W.%20Cerise%2C%20J.E.%20Yang%2C%20Y.%20Han%2C%20H.%20Application%20of%20t-SNE%20to%20human%20genetic%20data%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20W.%20Cerise%2C%20J.E.%20Yang%2C%20Y.%20Han%2C%20H.%20Application%20of%20t-SNE%20to%20human%20genetic%20data%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20W.%20Cerise%2C%20J.E.%20Yang%2C%20Y.%20Han%2C%20H.%20Application%20of%20t-SNE%20to%20human%20genetic%20data%202017"
+        },
+        {
+            "id": "18",
+            "alt_id": "Roweis_2000_a",
+            "entry": "18. Roweis, S and Saul, K: Nonlinear Dimensionality Reduction by Locally Linear Embedding,\" Science, vol. 290, no. 5500, pp. 2323-2326, 2000",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Roweis%2C%20S.%20Saul%20K%3A%20Nonlinear%20Dimensionality%20Reduction%20by%20Locally%20Linear%20Embedding%2C%22%202000",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Roweis%2C%20S.%20Saul%20K%3A%20Nonlinear%20Dimensionality%20Reduction%20by%20Locally%20Linear%20Embedding%2C%22%202000",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Roweis%2C%20S.%20Saul%20K%3A%20Nonlinear%20Dimensionality%20Reduction%20by%20Locally%20Linear%20Embedding%2C%22%202000"
+        },
+        {
+            "id": "19",
+            "alt_id": "Jenatton_et+al_2014_a",
+            "entry": "19. Jenatton, R, Obozinski, G, Bach, F: Structured Sparse Principal Component Analysis, ICML 2009 20. Xia et al (2014) Middle East respiratory syndrome coronavirus (MERS-CoV) entry inhibitors targeting spike protein, Virus Res. 2014 Dec 19;194:200-10 21. Virlogeux et al Estimating the Distribution of the Incubation Periods of Human Avian Influenza A(H7N9) Virus Infections, American Journal of Epidemiology, 182:8, DOI: 10.1093/aje/kwv115, 2015 22.",
+            "crossref": "https://dx.doi.org/10.1093/aje/kwv115",
+            "scite": "https://scite.ai/reports/10.1093/aje/kwv115",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/aje/kwv115"
+        },
+        {
+            "id": "Li_2020_a",
+            "alt_id": "17",
+            "entry": "Li, et al (2020) Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%202020"
+        },
+        {
+            "id": "Pneumonia_0000_a",
+            "alt_id": "18",
+            "entry": "Pneumonia, The New England Journal of Medicine, DOI: 10.1056/NEJMoa2001316",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "23",
+            "alt_id": "Guan_2020_a",
+            "entry": "23. Guan et al (2020) Clinical characteristics of 2019 novel coronavirus infection in China, doi: https://doi.org/10.1101/2020.02.06.20020974 ",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.06.20020974",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.06.20020974"
+        }
+    ],
+    "facts": [
+        "an acute infectious disease caused by the 2019 novel coronavirus",
+        "as Class B according to the Infectious Disease Prevention Act of China",
+        "Accurate estimation of the incubation period of the coronavirus is essential to the prevention and control",
+        "The accurate incubation period calculation requires original chain-of-infection data that may not be fully available in the Wuhan regions",
+        "a Monte Caro simulation approach to estimate the incubation of COVID-19",
+        "that different quarantine time should be applied to the groups for their different incubation periods",
+        "Our machine learning analysis showed that the two groups were linearly separable",
+        "Our results further indicated that the incubation difference between males and females did not demonstrate a statistical significance",
+        "which was found in Wuhan",
+        "The new virus is different from known coronaviruses",
+        "The COVID-19 spread even shows that persons without any symptoms",
+        "More than eight-thousands of infections have been reported in China",
+        "More than 15 cities including Wuhan have been quarantined to halt the spread of the COVID-19",
+        "that millions of people can be on lockdown",
+        "The existing spread of COVID-19 is faster than SARS",
+        "Data collected for this study included region"
+    ],
+    "claims": [
+        "We found that the incubation periods of the groups with age&gt;=40 years and age&lt;40 years demonstrated a statistically significant difference",
+        "We proposed a Monte Caro simulation approach to estimate the incubation of COVID-19 as well as employed nonparametric ways",
+        "We found that the incubation periods of the groups with age>=40 years and age<40 years demonstrated a statistically significant difference",
+        "Our results show the incubation mean and median of COVID-19 are 5.84 and 5.0 days respectively and there is a statistical significance with the role of gender",
+        "We propose a Monte Carlo simulation approach that takes advantage of bootstrap techniques to estimate incubation median and mean estimation for the small sample with 59 cases",
+        "We also find that the incubation data will no longer demonstrate the linear separability property when we partition it as age>=50 and age<50 groups or age>=55",
+        "We also investigate the incubation period of 12 family cases and 47 non-family cases in the dataset"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We proposed a Monte Caro simulation approach to estimate the incubation of COVID-19 as well as employed nonparametric ways",
+        "We found that the incubation periods of the groups with age>=40 years and age<40 years demonstrated a statistically significant difference",
+        "It further suggested that different quarantine time should be applied to the groups for their different incubation periods",
+        "Novel coronaviruses (COVID-19), which was found in Wuhan, China in December 2019 presents an acute public health threat to the whole world [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "The new virus is different from known coronaviruses such as SARS and MERS, though they share some similar respiratory illness symptoms such as fever, cough, or/and shortness of breath [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "More than 15 cities including Wuhan have been quarantined to halt the spread of the COVID-19",
+        "Our results show the incubation mean and median of COVID-19 are 5.84 and 5.0 days respectively and there is a statistical significance with the role of gender",
+        "We propose a Monte Carlo simulation approach that takes advantage of bootstrap techniques to estimate incubation median and mean estimation for the small sample with 59 cases",
+        "The existing spread of COVID-19 is faster than SARS partially because it has more complicate spread dynamics [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]"
+    ],
+    "top_statements": [
+        "We proposed a Monte Caro simulation approach to estimate the incubation of COVID-19 as well as employed nonparametric ways",
+        "We found that the incubation periods of the groups with age>=40 years and age<40 years demonstrated a statistically significant difference",
+        "Novel coronaviruses (COVID-19), which was found in Wuhan, China in December 2019 presents an acute public health threat to the whole world [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "The new virus is different from known coronaviruses such as SARS and MERS, though they share some similar respiratory illness symptoms such as fever, cough, or/and shortness of breath [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "The existing spread of COVID-19 is faster than SARS partially because it has more complicate spread dynamics [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]"
+    ],
+    "headline": "The existing spread of COVID-19 is faster than SARS partially because it has more complicate spread dynamics",
+    "contexts": [],
+    "abbreviations": {
+        "MLEs": "maximum likelihood estimates"
+    }
+}

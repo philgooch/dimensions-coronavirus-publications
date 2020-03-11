@@ -1,0 +1,366 @@
+{
+    "filename": "2020.02.19.20025262.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 259117,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.19.20025262",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/23/2020.02.19.20025262.full.pdf"
+        },
+        "title": "A Note on NCP Diagnosis Number Prediction Model",
+        "date": 2020,
+        "author": "Yi Li, Xianhong Yin, Meng Liang, Xiaoyu Liu, Meng Hao, Yi Wang",
+        "affiliations": [
+            "Human Phenome Institute, Fudan University, Shanghai, China",
+            "Ministry of Education Key Laboratory of Contemporary Anthropology, Department of Anthropology and Human Genetics, School of Life Sciences, Fudan University, China",
+            "Institute for Six-sector Economy, Fudan University, Shanghai, China"
+        ],
+        "abstract": "In December 2019, pneumonia infected with the novel coronavirus burst in Wuhan, China. We aimed to use a mathematical model to predict number of diagnosed patients in future to ease anxiety on the emergent situation. In this retrospective, all diagnosis number from Jan 21 to Feb 10, 2020 reported from China was included and downloaded from WHO website. We develop a simple but accurate formula to predict the next day diagnosis number:N_i/N_(i-1) =\u3016(N_(i-1)/N_(i-2) )\u3017^\u03b1\uff0cwhere Ni is the total diagnosed patient till the ith day, and \u03b1 was estimated as 0.904 at Feb 10. Based on this model, it is predicted that the rate of disease infection will decrease exponentially. The total number of infected people is limited; thus, the disease will have limited impact. However, new diagnosis will last to March.",
+        "references": "@misc{chaolin-a,\n  author = {Chaolin, H.},\n  title = {Clinical features of patients infected with 2019 novelcoronavirus in Wuhan, China. The Lancet. ISSN0140-6736,(2020)},\n  more-authors = {true},\n  language = {}\n}\n@misc{paulesc-a,\n  author = {PaulesC, I.},\n  title = {Coronavirus Infections\u2014More Than Just the Common Cold},\n  unknown = {JAMA.(2020},\n  more-authors = {true},\n  language = {}\n}\n@article{nishiura2020a,\n  author = {Nishiura, H.},\n  title = {The extent of transmission of novel coronavirus in Wuhan, China, 2020},\n  journal = {Journal Of Clinical Medicine},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@misc{tao2019a,\n  author = {Tao, L.},\n  title = {Transmission dynamics of 2019 novel coronavirus},\n  date = {2019},\n  volume = {bioRxiv},\n  more-authors = {true},\n  language = {}\n}\n@article{zhu-a,\n  author = {Zhu, N.},\n  title = {A Novel Coronavirus from Patients with Pneumonia in China, 2019},\n  journal = {New England Journal of Medicine,(},\n  volume = {2020},\n  more-authors = {true},\n  language = {}\n}\n@misc{unknown-a,\n  url = {http://www.nhc.gov.cn/xcs/zhengcwj/202002/18c1bb43965a4492907957875de02a}\n}\n@misc{ning-a,\n  author = {Ning, D.},\n  title = {Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China. bioRxiv 2020.01.20.913368;(2020)},\n  more-authors = {true},\n  language = {}\n}\n@misc{unknown-b,\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200122sitrep-2-2019-ncov.pdf}\n}\n@misc{unknown-c,\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128sitrep-8-ncov-cleared.pdf}\n}\n@article{zhao2020a,\n  author = {Zhao, S.},\n  title = {Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak},\n  journal = {International Journal of Infectious Diseases},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{li2020a,\n  author = {Li, Q.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia},\n  journal = {New England Journal of Medicine},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@misc{mingwang-a,\n  author = {Mingwang, S.},\n  title = {Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020.01.23.916726;(2020)},\n  more-authors = {true},\n  language = {}\n}\n@misc{tianmu-a,\n  author = {Tianmu, C.},\n  title = {A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv 2020.01.19.911669;(2020)},\n  more-authors = {true},\n  language = {}\n}\n@misc{shi-a,\n  author = {Shi, Z.},\n  title = {Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv 2020.01.23.916395;(2020)},\n  more-authors = {true},\n  language = {}\n}\n@article{w-a,\n  author = {W.et.al, Kermack},\n  title = {Contributions to the mathematical theory of epidemics: IV. Analysis of experimental epidemics of the virus disease mouse ectromelia},\n  journal = {J Hyg (Lond)},\n  volume = {37},\n  pages = {172\u2013187},\n  language = {}\n}\n@article{chowell-a,\n  author = {Chowell, G.},\n  title = {Mathematical models to characterize early epidemic growth: A Review},\n  journal = {Physics of Life Reviews},\n  volume = {1571064516300641},\n  more-authors = {true},\n  source = {Data Download Daily diagnosis number of China is download from WHO situation reports (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). The data starts from Jan 21 and currently it ends at Feb 10},\n  number = {2016},\n  language = {}\n}\n@book{unknown-d,\n  title = {The source code of model},\n  publisher = {estimation is at},\n  url = {https://github.com/wangyi-fudan/ncp_model},\n  language = {}\n}\n",
+        "links": [
+            "http://www.nhc.gov.cn/"
+        ],
+        "emails": [
+            "wangyi_fudan@fudan.edu.cn"
+        ],
+        "references_ris": "TY  - GEN\nAU  - Chaolin, H.\nTI  - Clinical features of patients infected with 2019 novelcoronavirus in Wuhan, China. The Lancet. ISSN0140-6736,(2020)\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - PaulesC, I.\nTI  - Coronavirus Infections\u2014More Than Just the Common Cold\nC1  - JAMA.(2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nTI  - The extent of transmission of novel coronavirus in Wuhan, China, 2020\nT2  - Journal Of Clinical Medicine\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Tao, L.\nTI  - Transmission dynamics of 2019 novel coronavirus\nPY  - 2019\nDA  - 2019\nVL  - bioRxiv\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, N.\nTI  - A Novel Coronavirus from Patients with Pneumonia in China, 2019\nT2  - New England Journal of Medicine,(\nVL  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nUR  - http://www.nhc.gov.cn/xcs/zhengcwj/202002/18c1bb43965a4492907957875de02a\nER  - \n\nTY  - GEN\nAU  - Ning, D.\nTI  - Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China. bioRxiv 2020.01.20.913368;(2020)\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200122sitrep-2-2019-ncov.pdf\nER  - \n\nTY  - GEN\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128sitrep-8-ncov-cleared.pdf\nER  - \n\nTY  - JOUR\nAU  - Zhao, S.\nTI  - Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak\nT2  - International Journal of Infectious Diseases\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia\nT2  - New England Journal of Medicine\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Mingwang, S.\nTI  - Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020.01.23.916726;(2020)\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Tianmu, C.\nTI  - A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv 2020.01.19.911669;(2020)\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Shi, Z.\nTI  - Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv 2020.01.23.916395;(2020)\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - W.et.al, Kermack\nTI  - Contributions to the mathematical theory of epidemics: IV. Analysis of experimental epidemics of the virus disease mouse ectromelia\nT2  - J Hyg (Lond)\nVL  - 37\nSP  - 172\nEP  - 187\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chowell, G.\nTI  - Mathematical models to characterize early epidemic growth: A Review\nT2  - Physics of Life Reviews\nVL  - 1571064516300641\nC1  - true\nT2  - Data Download Daily diagnosis number of China is download from WHO situation reports (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). The data starts from Jan 21 and currently it ends at Feb 10\nIS  - 2016\nLA  - \nER  - \n\nTY  - BOOK\nTI  - The source code of model\nPB  - estimation is at\nUR  - https://github.com/wangyi-fudan/ncp_model\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Observed and Predicted number of diagnosis in China"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Estimation of Alpha Parameter"
+            },
+            {
+                "id": "2",
+                "caption": "Observed (Blue) and Predicted (Orange) number of daily new diagnosis"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.19.20025262.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.19.20025262.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.19.20025262.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.19.20025262.full/img-004.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "In December of 2019, the increasing number of patients with pneumonia of unknown cause emerged in Wuhan, the capital of Hubei province, Central China. Most of the early patients had directly or indirectly related to wild animal source in the seafood and wet animal wholesale market through epidemiological survey[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Then laboratory tests found that the infection was caused by a novel coronavirus (now named as NCP 6-7).<br/><br/>The spread of NCP is expeditious. According to WHO statistics, the total number of diagnosed people in China was 309 in Jan 218, but rapidly grew to 4537 in Jan 279. Considering a simple constant exponential growth rate model[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>-<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], the diagnosis number will be unimaginable soon. This triggered a major concern and motivated this study[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. A mathematical model is required to predict the spread trend and emergent situation."
+        ],
+        "conclusion": [
+            "Our model indicates that the NCP disease infection rate decreases exponentially. This model converges to a maximum number as time increases, indicating a limited impact of NCP. The model also predict that the new diagnosis number will last to March, indicating that the NCP disease will be well controlled."
+        ],
+        "discussion": [
+            "We only analyzed the total number of diagnoses in China. The province scale data is available but is not as complete as total number. Here, we did not show these details analyses.<br/><br/>Our model is attractive as it not only predicts data accurately but also is minimal.<br/><br/>The minimal number of parameters and robust statistics make our model robust in the real-world scenario. We develop a formula to predict the next day diagnosis number:"
+        ],
+        "methods": [
+            "Data Download Daily diagnosis number of China is download from WHO situation reports (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). The data starts from Jan 21 and currently it ends at Feb 10.    Model<br/><br/>The following model is proposed based on our observations:<br/><br/>!\" = (!\"#$)), where Ni is the number of diagnosed patients in China according to WHO at the ith day,   is a parameter modeling the decay of diagnosis growth rate.<br/><br/>A simple estimation of   at the ith day would be ln ln ( - /- 0 ) ( --//01)<br/><br/>As we have multiple days of observations, historical  , - with the median statistic, which is well known for its robustness, can be aggregated.<br/><br/>,  =  ( , -) The source code of model estimation is at: https://github.com/wangyi-fudan/ncp_ model<br/><br/>Author Contribution YW conceived the idea and wrote the source code. YL, XY and YW contributed data analysis, generating tables and figures, and manuscript writing. YL, XY, ML, MH, LX and YW contributed the theoretical analysis and manuscript revision. All authors contributed to final revision of the manuscript."
+        ],
+        "disclosures": [
+            "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+        ],
+        "acknowledgements": [
+            "We thank the Fudan University High-End Computing Center for supporting computations involved in this study."
+        ],
+        "funding": [
+            "We thank the Fudan University High-End Computing Center for supporting computations involved in this study"
+        ]
+    },
+    "structured_content": {
+        "A Note on NCP Diagnosis Number Prediction Model": [
+            "Yi Li1,2,3\u262f, Xianhong Yin1,2\u262f, Meng Liang[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], Xiaoyu Liu[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], Meng Hao[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], Yi Wang1,2*"
+        ],
+        "Abstract": [
+            "In December 2019, pneumonia infected with the novel coronavirus burst in Wuhan, China. We aimed to use a mathematical model to predict number of diagnosed patients in future to ease anxiety on the emergent situation. In this retrospective, all diagnosis number from Jan 21 to Feb 10, 2020 reported from China was included and downloaded from WHO website. We develop a simple but accurate formula to predict the next day diagnosis number: !\"",
+            "Ni is the total diagnosed patient till the ith day, and   was estimated as 0.904 at Feb 10. Based on this model, it is predicted that the rate of disease infection will decrease exponentially. The total number of infected people is limited; thus, the disease will have limited impact.",
+            "However, new diagnosis will last to March."
+        ],
+        "Introduction": [
+            "In December of 2019, the increasing number of patients with pneumonia of unknown cause emerged in Wuhan, the capital of Hubei province, Central China. Most of the early patients had directly or indirectly related to wild animal source in the seafood and wet animal wholesale market through epidemiological survey[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Then laboratory tests found that the infection was caused by a novel coronavirus (now named as NCP 6-7).",
+            "The spread of NCP is expeditious. According to WHO statistics, the total number of diagnosed people in China was 309 in Jan 218, but rapidly grew to 4537 in Jan 279. Considering a simple constant exponential growth rate model[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>-<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], the diagnosis number will be unimaginable soon. This triggered a major concern and motivated this study[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. A mathematical model is required to predict the spread trend and emergent situation.",
+            "Over the last few decades, mathematical models of disease transmission have been useful to gain insights into the transmission dynamics of infectious diseases and the potential role of intervention strategies[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Epidemic transmission models focused on the spread of an infectious disease through a population. But this spread can be modeled in two fundamental ways: by looking at the entire population as a single group or set of linked subgroups (population-based) or by considering everyone that makes up the population and how interactions between unique individuals facilitate disease spread (individual-based). Common models of infectious disease included meta-population models, individual-based network models, and simple SIR-type models that incorporate the effects of reactive behavior changes or inhomogeneous mixing[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>].",
+            "Considering the limited number of data points and the complexity of the real situation, a simple but robust model is expected to work better than sophisticated epidemiology models. In this paper, we propose a robust model for next day diagnosis number predict. This model had excellent performance on prediction of infected patients in past few days. The prediction is expected to provide practical significance",
+            "Previous numbers of diagnoses in China are used to predict the number for the next day. The prediction is started from Jan 29 as several data points are needed to build the model (Table 1). We obtain nice concordance (<2.5% error) with the real numbers next day.",
+            "29-Jan 30-Jan 31-Jan 1-Feb 2-Feb 3-Feb 4-Feb 5-Feb 6-Feb 7-Feb 8-Feb 9-Feb 10-Feb 11-Feb",
+            "New Diagnosis Number Prediction We predict the new diagnosis number in China according to our model as Fig.[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The model predicts that new diagnosis will last to March."
+        ],
+        "Conclusion": [
+            "Our model indicates that the NCP disease infection rate decreases exponentially. This model converges to a maximum number as time increases, indicating a limited impact of NCP. The model also predict that the new diagnosis number will last to March, indicating that the NCP disease will be well controlled."
+        ],
+        "Discussion": [
+            "We only analyzed the total number of diagnoses in China. The province scale data is available but is not as complete as total number. Here, we did not show these details analyses.",
+            "Our model is attractive as it not only predicts data accurately but also is minimal.",
+            "The minimal number of parameters and robust statistics make our model robust in the real-world scenario. We develop a formula to predict the next day diagnosis number:",
+            "We obtain this elegant formula with both curve plot visualization and mathematical intuition. We plot ln (Ni/Ni-1) against time (Fig.[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]). First few observations showed a linear decay of spread rate. However, later data points realized us at Feb 4 that it is an exponential decay. Later data points further confirm our model.",
+            "Fig. 3| ln (Ni/Ni-1) against time.",
+            "1. Chaolin H. et al Clinical features of patients infected with 2019 novelcoronavirus in Wuhan, China. The Lancet. ISSN0140-6736,(2020).",
+            "2. PaulesC I.et al Coronavirus Infections\u2014More Than Just the Common Cold. JAMA.(2020)",
+            "3. Nishiura H. et al The extent of transmission of novel coronavirus in Wuhan, China, 2020. Journal Of Clinical Medicine, (2020).",
+            "4. Tao L. et al Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioRxiv 2020.01.25.919787;(2020).",
+            "5. Zhu N.et al A Novel Coronavirus from Patients with Pneumonia in China, 2019. New England Journal of Medicine,( 2020).",
+            "6. http://www.nhc.gov.cn/xcs/zhengcwj/202002/18c1bb43965a4492907957875de02a e7.shtml.",
+            "7. Ning D. et al Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China. bioRxiv 2020.01.20.913368;(2020)",
+            "8. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200122sitrep-2-2019-ncov.pdf?sfvrsn=4d5bcbca_2.",
+            "9. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128sitrep-8-ncov-cleared.pdf?sfvrsn=8b671ce5_2.",
+            "10. Zhao S. et al Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. International Journal of Infectious Diseases, (2020).",
+            "11. Li Q. et al Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. New England Journal of Medicine, (2020).",
+            "12. Mingwang S. et al Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020.01.23.916726;(2020)",
+            "13. Tianmu C . et al A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv 2020.01.19.911669;(2020).",
+            "14. Shi Z, .et al Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv 2020.01.23.916395;(2020).",
+            "15. Kermack W.et.al. Contributions to the mathematical theory of epidemics: IV. Analysis of experimental epidemics of the virus disease mouse ectromelia. J Hyg (Lond) ;37:172\u2013187,(1937)",
+            "16. Chowell G . et al Mathematical models to characterize early epidemic growth: A Review. Physics of Life Reviews, S1571064516300641,(2016)."
+        ],
+        "Methods": [
+            "Data Download Daily diagnosis number of China is download from WHO situation reports (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). The data starts from Jan 21 and currently it ends at Feb 10.",
+            "The following model is proposed based on our observations:",
+            "!\" = (!\"#$)), where Ni is the number of diagnosed patients in China according to WHO at the ith day,   is a parameter modeling the decay of diagnosis growth rate.",
+            "As we have multiple days of observations, historical  , - with the median statistic, which is well known for its robustness, can be aggregated.",
+            ",  =  ( , -) The source code of model estimation is at: https://github.com/wangyi-fudan/ncp_ model",
+            "Author Contribution YW conceived the idea and wrote the source code. YL, XY and YW contributed data analysis, generating tables and figures, and manuscript writing. YL, XY, ML, MH, LX and YW contributed the theoretical analysis and manuscript revision. All authors contributed to final revision of the manuscript.",
+            "Competing interests The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+        ],
+        "Acknowledgements": [
+            "We thank the Fudan University High-End Computing Center for supporting computations involved in this study."
+        ]
+    },
+    "participants": [],
+    "statistics": [],
+    "keywords": [
+        "transmission dynamics",
+        "mathematical model",
+        "coronavirus",
+        "epidemics",
+        "limited impact",
+        "statistics",
+        "pneumonia",
+        "basic reproduction number",
+        "emergent situation",
+        "formula",
+        "day diagnosis number",
+        "new diagnosis",
+        "dynamics",
+        "total number",
+        "novel coronavirus",
+        "diagnosis number",
+        "disease infection",
+        "ncp disease"
+    ],
+    "keyword_relevance": {
+        "coronavirus": 0.18461538461538463,
+        "diagnosis number": 0.13846153846153847,
+        "novel coronavirus": 0.1076923076923077,
+        "new diagnosis": 0.07692307692307693,
+        "mathematical model": 0.06153846153846154,
+        "formula": 0.06153846153846154,
+        "total number": 0.06153846153846154,
+        "pneumonia": 0.046153846153846156,
+        "epidemics": 0.03076923076923077,
+        "limited impact": 0.03076923076923077,
+        "statistics": 0.03076923076923077,
+        "basic reproduction number": 0.03076923076923077,
+        "emergent situation": 0.03076923076923077,
+        "day diagnosis number": 0.03076923076923077,
+        "dynamics": 0.03076923076923077,
+        "disease infection": 0.03076923076923077,
+        "transmission dynamics": 0.015384615384615385,
+        "ncp disease": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> In December of 2019, the increasing number of patients with pneumonia of unknown cause emerged in Wuhan, the capital of Hubei province, Central China.",
+        "Considering a simple constant exponential growth rate model[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>-<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], the diagnosis number will be unimaginable soon.",
+        "This triggered a major concern and motivated this study[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>].",
+        "A mathematical model is required to predict the spread trend and emergent situation",
+        "<h2 style=\"display: inline\">Methods:</h2> Data Download Daily diagnosis number of China is download from WHO situation reports.",
+        "!\" = (!\"#$)), where Ni is the number of diagnosed patients in China according to WHO at the ith day, is a parameter modeling the decay of diagnosis growth rate.",
+        "YL, XY and YW contributed data analysis, generating tables and figures, and manuscript writing.",
+        "YL, XY, ML, MH, LX and YW contributed the theoretical analysis and manuscript revision.",
+        "All authors contributed to final revision of the manuscript",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The province scale data is available but is not as complete as total number.",
+        "The authors develop a formula to predict the day diagnosis number:The authors' model indicates that the NCP disease infection rate decreases exponentially.",
+        "This model converges to a maximum number as time increases, indicating a limited impact of NCP.",
+        "The model predict that the new diagnosis number will last to March, indicating that the NCP disease will be well controlled"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "In December of 2019, the increasing number of patients with pneumonia of unknown cause emerged in Wuhan, the capital of Hubei province, Central China.",
+            "Considering a simple constant exponential growth rate model[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>-<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], the diagnosis number will be unimaginable soon.",
+            "This triggered a major concern and motivated this study[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>].",
+            "A mathematical model is required to predict the spread trend and emergent situation"
+        ],
+        "Methods": [
+            "Data Download Daily diagnosis number of China is download from WHO situation reports.",
+            "!\" = (!\"#$)), where Ni is the number of diagnosed patients in China according to WHO at the ith day, is a parameter modeling the decay of diagnosis growth rate.",
+            "YL, XY and YW contributed data analysis, generating tables and figures, and manuscript writing.",
+            "YL, XY, ML, MH, LX and YW contributed the theoretical analysis and manuscript revision.",
+            "All authors contributed to final revision of the manuscript"
+        ],
+        "Conclusion": [
+            "The province scale data is available but is not as complete as total number.",
+            "The authors develop a formula to predict the day diagnosis number:The authors' model indicates that the NCP disease infection rate decreases exponentially.",
+            "This model converges to a maximum number as time increases, indicating a limited impact of NCP.",
+            "The model predict that the new diagnosis number will last to March, indicating that the NCP disease will be well controlled"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Chaolin_2019_a",
+            "entry": "1. Chaolin H. et al. Clinical features of patients infected with 2019 novelcoronavirus in Wuhan, China. The Lancet. ISSN0140-6736,(2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chaolin%20H%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novelcoronavirus%20in%20Wuhan%20China%20The%20Lancet%20ISSN014067362020"
+        },
+        {
+            "id": "2",
+            "alt_id": "Paulesc_0000_a",
+            "entry": "2. PaulesC I.et al. Coronavirus Infections\u2014More Than Just the Common Cold. JAMA.(2020)",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=PaulesC%2C%20I.%20Coronavirus%20Infections%E2%80%94More%20Than%20Just%20the%20Common%20Cold"
+        },
+        {
+            "id": "3",
+            "alt_id": "Nishiura_2020_a",
+            "entry": "3. Nishiura H. et al. The extent of transmission of novel coronavirus in Wuhan, China, 2020. Journal Of Clinical Medicine, (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%20H%20et%20al%20The%20extent%20of%20transmission%20of%20novel%20coronavirus%20in%20Wuhan%20China%202020%20Journal%20Of%20Clinical%20Medicine%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%20H%20et%20al%20The%20extent%20of%20transmission%20of%20novel%20coronavirus%20in%20Wuhan%20China%202020%20Journal%20Of%20Clinical%20Medicine%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%20H%20et%20al%20The%20extent%20of%20transmission%20of%20novel%20coronavirus%20in%20Wuhan%20China%202020%20Journal%20Of%20Clinical%20Medicine%202020"
+        },
+        {
+            "id": "4",
+            "alt_id": "Tao_2019_a",
+            "entry": "4. Tao L. et al. Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioRxiv 2020.01.25.919787;(2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tao%20L%20et%20al%20Transmission%20dynamics%20of%202019%20novel%20coronavirus%202019nCoV%20bioRxiv%20202001259197872020"
+        },
+        {
+            "id": "5",
+            "alt_id": "Zhu_2019_a",
+            "entry": "5. Zhu N.et al. A Novel Coronavirus from Patients with Pneumonia in China, 2019. New England Journal of Medicine,( 2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhu%20Net%20al%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20New%20England%20Journal%20of%20Medicine%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhu%20Net%20al%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20New%20England%20Journal%20of%20Medicine%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhu%20Net%20al%20A%20Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China%202019%20New%20England%20Journal%20of%20Medicine%202020"
+        },
+        {
+            "id": "6",
+            "alt_id": "6._0000_a",
+            "entry": "6. http://www.nhc.gov.cn/xcs/zhengcwj/202002/18c1bb43965a4492907957875de02a e7.shtml.",
+            "url": "http://www.nhc.gov.cn/xcs/zhengcwj/202002/18c1bb43965a4492907957875de02a"
+        },
+        {
+            "id": "7",
+            "alt_id": "Ning_2019_a",
+            "entry": "7. Ning D. et al. Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China. bioRxiv 2020.01.20.913368;(2020)",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ning%20D%20et%20al%20Genomic%20and%20protein%20structure%20modelling%20analysis%20depicts%20the%20origin%20and%20infectivity%20of%202019nCoV%20a%20new%20coronavirus%20which%20caused%20a%20pneumonia%20outbreak%20in%20Wuhan%20China%20bioRxiv%20202001209133682020"
+        },
+        {
+            "id": "8",
+            "alt_id": "8._0000_b",
+            "entry": "8. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200122sitrep-2-2019-ncov.pdf?sfvrsn=4d5bcbca_2.",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200122sitrep-2-2019-ncov.pdf?sfvrsn=4d5bcbca_2"
+        },
+        {
+            "id": "9",
+            "alt_id": "9._0000_c",
+            "entry": "9. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128sitrep-8-ncov-cleared.pdf?sfvrsn=8b671ce5_2.",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128sitrep-8-ncov-cleared.pdf?sfvrsn=8b671ce5_2"
+        },
+        {
+            "id": "10",
+            "alt_id": "Zhao_2020_a",
+            "entry": "10. Zhao S. et al. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. International Journal of Infectious Diseases, (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhao%20S%20et%20al%20Preliminary%20estimation%20of%20the%20basic%20reproduction%20number%20of%20novel%20coronavirus%202019nCoV%20in%20China%20from%202019%20to%202020%20A%20datadriven%20analysis%20in%20the%20early%20phase%20of%20the%20outbreak%20International%20Journal%20of%20Infectious%20Diseases%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhao%20S%20et%20al%20Preliminary%20estimation%20of%20the%20basic%20reproduction%20number%20of%20novel%20coronavirus%202019nCoV%20in%20China%20from%202019%20to%202020%20A%20datadriven%20analysis%20in%20the%20early%20phase%20of%20the%20outbreak%20International%20Journal%20of%20Infectious%20Diseases%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhao%20S%20et%20al%20Preliminary%20estimation%20of%20the%20basic%20reproduction%20number%20of%20novel%20coronavirus%202019nCoV%20in%20China%20from%202019%20to%202020%20A%20datadriven%20analysis%20in%20the%20early%20phase%20of%20the%20outbreak%20International%20Journal%20of%20Infectious%20Diseases%202020"
+        },
+        {
+            "id": "11",
+            "alt_id": "Li_2020_a",
+            "entry": "11. Li Q. et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. New England Journal of Medicine, (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020"
+        },
+        {
+            "id": "12",
+            "alt_id": "Mingwang_2019_a",
+            "entry": "12. Mingwang S. et al. Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020.01.23.916726;(2020)",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Mingwang%20S%20et%20al%20Modelling%20the%20epidemic%20trend%20of%20the%202019%20novel%20coronavirus%20outbreak%20in%20China%20bioRxiv%20202001239167262020"
+        },
+        {
+            "id": "13",
+            "alt_id": "Tianmu_2020_a",
+            "entry": "13. Tianmu C. et al. A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv 2020.01.19.911669;(2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tianmu%20C%20et%20al%20A%20mathematical%20model%20for%20simulating%20the%20transmission%20of%20Wuhan%20novel%20Coronavirus%20bioRxiv%20202001199116692020"
+        },
+        {
+            "id": "14",
+            "alt_id": "Shi_2019_a",
+            "entry": "14. Shi Z,.et al. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv 2020.01.23.916395;(2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shi%20Zet%20al%20Preliminary%20estimation%20of%20the%20basic%20reproduction%20number%20of%20novel%20coronavirus%202019nCoV%20in%20China%20from%202019%20to%202020%20A%20datadriven%20analysis%20in%20the%20early%20phase%20of%20the%20outbreak%20bioRxiv%20202001239163952020"
+        },
+        {
+            "id": "15",
+            "alt_id": "W_0000_a",
+            "entry": "15. Kermack W.et.al. Contributions to the mathematical theory of epidemics: IV. Analysis of experimental epidemics of the virus disease mouse ectromelia. J Hyg (Lond);37:172\u2013187,(1937)",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=W.et.al%2C%20Kermack%20Contributions%20to%20the%20mathematical%20theory%20of%20epidemics%3A%20IV.%20Analysis%20of%20experimental%20epidemics%20of%20the%20virus%20disease%20mouse%20ectromelia",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=W.et.al%2C%20Kermack%20Contributions%20to%20the%20mathematical%20theory%20of%20epidemics%3A%20IV.%20Analysis%20of%20experimental%20epidemics%20of%20the%20virus%20disease%20mouse%20ectromelia",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=W.et.al%2C%20Kermack%20Contributions%20to%20the%20mathematical%20theory%20of%20epidemics%3A%20IV.%20Analysis%20of%20experimental%20epidemics%20of%20the%20virus%20disease%20mouse%20ectromelia"
+        },
+        {
+            "id": "16",
+            "alt_id": "Chowell_0000_a",
+            "entry": "16. Chowell G. et al. Mathematical models to characterize early epidemic growth: A Review. Physics of Life Reviews, S1571064516300641,(2016). Data Download Daily diagnosis number of China is download from WHO situation reports (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). The data starts from Jan 21 and currently it ends at Feb 10.",
+            "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chowell%2C%20G.%20Mathematical%20models%20to%20characterize%20early%20epidemic%20growth%3A%20A%20Review",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chowell%2C%20G.%20Mathematical%20models%20to%20characterize%20early%20epidemic%20growth%3A%20A%20Review"
+        },
+        {
+            "id": "_0000_d",
+            "alt_id": "17",
+            "entry": ", = (, -) The source code of model estimation is at: https://github.com/wangyi-fudan/ncp_model",
+            "url": "https://github.com/wangyi-fudan/ncp_model"
+        }
+    ],
+    "facts": [
+        "pneumonia infected with the novel coronavirus burst in",
+        "new diagnosis will last to March",
+        "the increasing number of patients with pneumonia of unknown cause emerged in Wuhan",
+        "laboratory tests found that the infection was caused by a novel coronavirus",
+        "The data starts from Jan 21",
+        "The following model is proposed based on our observations",
+        "where Ni is the number of diagnosed patients in China according to WHO",
+        "a parameter modeling the decay of diagnosis growth rate",
+        "which is well known for its robustness",
+        "All authors contributed to final revision of the manuscript",
+        "Our model indicates that the NCP disease infection rate decreases",
+        "This model converges to a maximum number as time increases",
+        "The model predict that the new diagnosis number will last to"
+    ],
+    "claims": [
+        "We develop a simple but accurate formula to predict the next day diagnosis number:N_i/N_(i-1) =\u3016(N_(i-1)/N_(i-2) )\u3017^\u03b1\uff0cwhere Ni is the total diagnosed patient till the ith day, and \u03b1 was estimated as 0.904 at Feb 10",
+        "In this paper, we propose a robust model for next day diagnosis number predict",
+        "We develop a formula to predict the next day diagnosis number:"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "Laboratory tests found that the infection was caused by a novel coronavirus",
+        "We propose a robust model for day diagnosis number predict",
+        "Our model indicates that the NCP disease infection rate decreases exponentially",
+        "This model converges to a maximum number as time increases, indicating a limited impact of NCP",
+        "We develop a formula to predict the day diagnosis number:"
+    ],
+    "top_statements": [
+        "In December of 2019, the increasing number of patients with pneumonia of unknown cause emerged in Wuhan, the capital of Hubei province, Central China",
+        "Laboratory tests found that the infection was caused by a novel coronavirus",
+        "We propose a robust model for day diagnosis number predict",
+        "Our model indicates that the NCP disease infection rate decreases exponentially",
+        "This model converges to a maximum number as time increases, indicating a limited impact of NCP",
+        "We develop a formula to predict the day diagnosis number:"
+    ],
+    "headline": "Our model indicates that the NCP disease infection rate decreases exponentially",
+    "contexts": [],
+    "abbreviations": {}
+}

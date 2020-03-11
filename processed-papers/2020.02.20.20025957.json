@@ -1,0 +1,227 @@
+{
+    "filename": "2020.02.20.20025957.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 325037,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.20.20025957",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/23/2020.02.20.20025957.full.pdf"
+        },
+        "title": "From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?",
+        "date": 2020,
+        "author": "Yunkai Zhai, Yichuan Wang, Minhao Zhang, Jody Hoffer Gittell, Shuai Jiang, Baozhan Chen, Fangfang Cui, Xianying He, Jie Zhao, Xiaojun Wang",
+        "affiliations": [
+            "The First Affiliated Hospital of Zhengzhou University",
+            "Sheffield University Management School, University of Sheffield, UK",
+            "School of Management, University of Bristol, UK",
+            "The Heller School for Social Policy and Management, Brandeis University, Waltham, MA, USA",
+            "National Telemedicine Center of China",
+            "Management Engineering School, Zhengzhou University, China"
+        ],
+        "abstract": "The rapid spread of Coronavirus disease 2019 (COVID-19) presents China with a critical challenge. As normal capacity of the Chinese hospitals is exceeded, healthcare professionals struggling to manage this unprecedented crisis face the difficult question of how best to coordinate the medical resources used in highly separated locations. Responding rapidly to this crisis, the National Telemedicine Center of China (NTCC), located in Zhengzhou, Henan Province, has established the Emergency Telemedicine Consultation System (ETCS), a telemedicine-enabled outbreak alert and response network. ETCS is built upon a doctor-to-doctor (D2D) approach, in which health services can be accessed remotely through terminals across hospitals. The system architecture of ETCS comprises three major architectural layers: (1) telemedicine service platform layer, (2) telemedicine cloud layer, and (3) telemedicine service application layer. Our ETCS has demonstrated substantial benefits in terms of the effectiveness of consultations and remote patient monitoring, multidisciplinary care, and prevention education and training.",
+        "references": "@article{phan-a,\n  author = {Phan, L.T. and Nguyen, T.V. and Luong, Q.C.},\n  title = {Importation and human-to-human transmission of a novel coronavirus in Vietnam},\n  journal = {N Engl J Med},\n  volume = {2020},\n  doi = {DOI: 10.1056/NEJMc2001272},\n  more-authors = {true},\n  language = {}\n}\n@article{williams2016a,\n  author = {Williams, A.R. and Bisaga, A.},\n  title = {From AIDS to opioids\u2014how to combat an epidemic},\n  journal = {N Engl J Med},\n  date = {2016},\n  volume = {375},\n  pages = {813\u2013815},\n  language = {}\n}\n@article{gittell2016a,\n  author = {Gittell, J.H.},\n  title = {Rethinking autonomy: Relationships as a source of resilience in a changing healthcare system},\n  journal = {Health Serv Res},\n  date = {2016},\n  volume = {51},\n  pages = {1701\u20131705},\n  language = {}\n}\n",
+        "references_ris": "TY  - JOUR\nAU  - Phan, L.T.\nAU  - Nguyen, T.V.\nAU  - Luong, Q.C.\nTI  - Importation and human-to-human transmission of a novel coronavirus in Vietnam\nT2  - N Engl J Med\nVL  - 2020\nDO  - 10.1056/NEJMc2001272\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Williams, A.R.\nAU  - Bisaga, A.\nTI  - From AIDS to opioids\u2014how to combat an epidemic\nT2  - N Engl J Med\nPY  - 2016\nDA  - 2016\nVL  - 375\nSP  - 813\nEP  - 815\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gittell, J.H.\nTI  - Rethinking autonomy: Relationships as a source of resilience in a changing healthcare system\nT2  - Health Serv Res\nPY  - 2016\nDA  - 2016\nVL  - 51\nSP  - 1701\nEP  - 1705\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Architecture of the Emergency Telemedicine Consultation System"
+            },
+            {
+                "id": "2",
+                "caption": "System performance of ETCS during the COVID-19 outbreak presented by the number of confirmed cases, the number of connected hospitals with ETCS, the number of consulted cases through ETCS, and the number of severe patients reported through ETCS Notes: 1.28 and 2.17 in the chart refer to January 28, 2020 and February 17, 2020 respectively. The number of consulted cases through ETCS refers to the number of consultations provided by the provincial specialist treatment team to the municipal and county hospitals, excluding the consultations provided by the municipal hospitals to the county hospitals"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.20.20025957.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.20.20025957.full/img-002.png"
+        ]
+    },
+    "sections": {
+        "funding": [
+            "Implementation of the telemedicine system is supported by grants from the Novel Coronavirus Pneumonia Prevention and Control Headquarters (NCPPCH) and the Finance Department of Henan Province"
+        ],
+        "introduction": [
+            "Responding rapidly to this crisis, the National Telemedicine Center of China (NTCC), located in Zhengzhou, Henan Province, has established the Emergency Telemedicine Consultation System (ETCS), a telemedicine-enabled outbreak alert and response network. Implementation of the telemedicine system is supported by grants from the Novel Coronavirus Pneumonia Prevention and Control Headquarters (NCPPCH) and the Finance Department of Henan Province. A subsidy of 10 million Chinese yuan has been allocated to the construction and operation of ETCS. Collaborating with China Mobile and Huawei Technologies Co., Ltd., on January 29, 2020 the NTCC sent 18 workgroups to isolation wards to set up telemedicine networks and equipment. The total round-trip distance we travelled was about 9,320 miles, via box trucks, while the approximate round-trip distance to the farthest hospital from the NTCC headquarters in Zhengzhou was 743 miles. Based on our previous experience of building 5G networks and smart medical terminals, 126 network hospitals were successfully connected to the NTCC on ETCS within 82 hours.",
+            "ETCS is built upon a doctor-to-doctor (D2D) approach, in which health services can be accessed remotely through terminals across hospitals. The system architecture of ETCS comprises three major architectural layers: (1) telemedicine service platform layer, (2) telemedicine cloud layer, and (3) telemedicine service application layer, as depicted in Figure 1. The telemedicine service platform layer enables a specialist treatment team of provincial specialists to conquer distance and provide access to clinicians working in the regional hospitals. It provides clinicians and patients with immediate diagnosis and consultations regarding COVID-19, wireless remote patient monitoring, remote multiple disciplinary care, and telehealth for education and training, utilizing interactive live video conferencing. The specialist treatment team members work closely with the NCPPCH and Health Commission of Henan Province to prevent and control the spread of COVID-19. The telemedicine cloud layer allows clinicians to capture, store and process patient medical records, and to achieve real-time data exchange. In addition, prevention and treatment guidelines, and guidance on drug use and management of coronavirus patients can be accessed via the telemedicine cloud. The telemedicine service application layer involves 2 provincial-level hospitals, 18 municipal hospitals and 106 county-level hospitals, which can obtain consultations from the specialist treatment team. This logical structure supports a system of telemedicine clinical management to combat the COVID-19 outbreak."
+        ]
+    },
+    "structured_content": {
+        "References": [
+            "1. Phan LT, Nguyen TV, Luong QC, et al Importation and human-to-human transmission of a novel coronavirus in Vietnam. N Engl J Med. 2020. DOI: 10.1056/NEJMc2001272",
+            "2. Williams AR, Bisaga A. From AIDS to opioids\u2014how to combat an epidemic. N Engl J Med. 2016; 375:813-",
+            "3. Gittell JH. Rethinking autonomy: Relationships as a source of resilience in a changing healthcare system.",
+            "Health Serv Res. 2016; 51:1701-1705."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "severe cases",
+            "number": 63,
+            "context": "Our ETCS has demonstrated substantial benefits in terms of the effectiveness of consultations and remote patient monitoring, multidisciplinary care, and prevention education and training. <mark class=\"stats\">First, 63 severe cases and 591 patients with mild and moderate respiratory infections received telemedicine consultations through the ETCS between January 28, 2020 and February 17, 2020</mark>. As of February 17, 2020, 420 cases had been cured and discharged from the hospitals"
+        },
+        {
+            "participant": "cases",
+            "number": 420,
+            "context": "First, 63 severe cases and 591 patients with mild and moderate respiratory infections received telemedicine consultations through the ETCS between January 28, 2020 and February 17, 2020. <mark class=\"stats\">As of February 17, 2020, 420 cases had been cured and discharged from the hospitals</mark>. Second, in the isolation wards, the mobile telemedicine device effectively collects, transforms, and evaluates patient health data such as blood pressure, oxygen level, and respiratory rate, and reports them to the care team"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "specialist treatment team",
+        "outbreak alert",
+        "telemedicine cloud layer",
+        "major architectural layer",
+        "emergency telemedicine consultation",
+        "response network",
+        "henan province",
+        "National Telemedicine Center of China",
+        "telemedicine consultation system",
+        "Coronavirus disease",
+        "round trip distance",
+        "telemedicine service application layer",
+        "health service",
+        "coronavirus",
+        "Novel Coronavirus Pneumonia Prevention and Control Headquarters",
+        "COVID-19",
+        "remote patient monitoring",
+        "Emergency Telemedicine Consultation System",
+        "national telemedicine center",
+        "system architecture",
+        "telemedicine service platform layer"
+    ],
+    "keyword_relevance": {
+        "Emergency Telemedicine Consultation System": 0.23728813559322035,
+        "COVID-19": 0.1694915254237288,
+        "specialist treatment team": 0.1016949152542373,
+        "National Telemedicine Center of China": 0.1016949152542373,
+        "coronavirus": 0.1016949152542373,
+        "Novel Coronavirus Pneumonia Prevention and Control Headquarters": 0.05084745762711865,
+        "telemedicine cloud layer": 0.03389830508474576,
+        "telemedicine service application layer": 0.03389830508474576,
+        "remote patient monitoring": 0.03389830508474576,
+        "telemedicine service platform layer": 0.03389830508474576,
+        "outbreak alert": 0.01694915254237288,
+        "major architectural layer": 0.01694915254237288,
+        "response network": 0.01694915254237288,
+        "Coronavirus disease": 0.01694915254237288,
+        "health service": 0.01694915254237288,
+        "system architecture": 0.01694915254237288,
+        "emergency telemedicine consultation": 0.0,
+        "henan province": 0.0,
+        "telemedicine consultation system": 0.0,
+        "round trip distance": 0.0,
+        "national telemedicine center": 0.0
+    },
+    "species": [],
+    "summary": [
+        "Responding rapidly to this crisis, the National Telemedicine Center of China (NTCC), located in Zhengzhou, Henan Province, has established the Emergency Telemedicine Consultation System (ETCS), a telemedicine-enabled outbreak alert and response network.",
+        "When facing the rapid spread of an epidemic, the ability to deliver clinical care in a timely manner requires effective relational coordination mechanisms amongst government authorities, hospitals, and patients[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+        "This raises the question: How can telemedicine systems operate in a coordinated manner to deliver effective care to patients with COVID-19 and to combat the crisis outbreak?",
+        "The telemedicine service platform layer enables a specialist treatment team of provincial specialists to conquer distance and provide access to clinicians working in the regional hospitals.",
+        "The specialist treatment team members work closely with the NCPPCH and Health Commission of Henan Province to prevent and control the spread of COVID-19.",
+        "Prevention and treatment guidelines, and guidance on drug use and management of coronavirus patients can be accessed via the telemedicine cloud.",
+        "The telemedicine service application layer involves 2 provincial-level hospitals, 18 municipal hospitals and 106 county-level hospitals, which can obtain consultations from the specialist treatment team.",
+        "The authors' ETCS has demonstrated substantial benefits in terms of the effectiveness of consultations and remote patient monitoring, multidisciplinary care, and prevention education and training.",
+        "63 severe cases and 591 patients with mild and moderate respiratory infections received telemedicine consultations through the ETCS between January 28, 2020 and February 17, 2020.",
+        "In the isolation wards, the mobile telemedicine device effectively collects, transforms, and evaluates patient health data such as blood pressure, oxygen level, and respiratory rate, and reports them to the care team.",
+        "Nurse care managers and social workers can be involved strategically to help patients with pneumonia obtain post-treatment care to avoid coronavirus re-infection.",
+        "The specialist treatment team provides primary care guidance on coronavirus to all physicians and nurses at 126 connected hospitals via video conference.",
+        "Frequent, timely, accurate, and problem-solving focused communication among clinical staffs from hospitals at different levels in the healthcare system is essential to minimize the risk incurred in handling patients with possible COVID-19 infection[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+        "A learning telemedicine system platform for coronavirus care was developed across connected hospitals, serving as the overarching authoritative source for diagnostic decision making and knowledge sharing for treatment.",
+        "The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Responding rapidly to this crisis, the National Telemedicine Center of China (NTCC), located in Zhengzhou, Henan Province, has established the Emergency Telemedicine Consultation System (ETCS), a telemedicine-enabled outbreak alert and response network.",
+            "When facing the rapid spread of an epidemic, the ability to deliver clinical care in a timely manner requires effective relational coordination mechanisms amongst government authorities, hospitals, and patients[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "This raises the question: How can telemedicine systems operate in a coordinated manner to deliver effective care to patients with COVID-19 and to combat the crisis outbreak?"
+        ],
+        "Results": [
+            "The telemedicine service platform layer enables a specialist treatment team of provincial specialists to conquer distance and provide access to clinicians working in the regional hospitals.",
+            "The specialist treatment team members work closely with the NCPPCH and Health Commission of Henan Province to prevent and control the spread of COVID-19.",
+            "Prevention and treatment guidelines, and guidance on drug use and management of coronavirus patients can be accessed via the telemedicine cloud.",
+            "The telemedicine service application layer involves 2 provincial-level hospitals, 18 municipal hospitals and 106 county-level hospitals, which can obtain consultations from the specialist treatment team.",
+            "The authors' ETCS has demonstrated substantial benefits in terms of the effectiveness of consultations and remote patient monitoring, multidisciplinary care, and prevention education and training.",
+            "63 severe cases and 591 patients with mild and moderate respiratory infections received telemedicine consultations through the ETCS between January 28, 2020 and February 17, 2020.",
+            "In the isolation wards, the mobile telemedicine device effectively collects, transforms, and evaluates patient health data such as blood pressure, oxygen level, and respiratory rate, and reports them to the care team.",
+            "Nurse care managers and social workers can be involved strategically to help patients with pneumonia obtain post-treatment care to avoid coronavirus re-infection.",
+            "The specialist treatment team provides primary care guidance on coronavirus to all physicians and nurses at 126 connected hospitals via video conference."
+        ],
+        "Conclusion": [
+            "Frequent, timely, accurate, and problem-solving focused communication among clinical staffs from hospitals at different levels in the healthcare system is essential to minimize the risk incurred in handling patients with possible COVID-19 infection[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "A learning telemedicine system platform for coronavirus care was developed across connected hospitals, serving as the overarching authoritative source for diagnostic decision making and knowledge sharing for treatment.",
+            "The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Phan_et+al_0000_a",
+            "entry": "1. Phan LT, Nguyen TV, Luong QC, et al. Importation and human-to-human transmission of a novel coronavirus in Vietnam. N Engl J Med. 2020. DOI: 10.1056/NEJMc2001272",
+            "crossref": "https://dx.doi.org/10.1056/NEJMc2001272",
+            "scite": "https://scite.ai/reports/10.1056/NEJMc2001272",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMc2001272"
+        },
+        {
+            "id": "2",
+            "alt_id": "Williams_2016_a",
+            "entry": "2. Williams AR, Bisaga A. From AIDS to opioids\u2014how to combat an epidemic. N Engl J Med. 2016; 375:813-815.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Williams%2C%20A.R.%20Bisaga%2C%20A.%20From%20AIDS%20to%20opioids%E2%80%94how%20to%20combat%20an%20epidemic%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Williams%2C%20A.R.%20Bisaga%2C%20A.%20From%20AIDS%20to%20opioids%E2%80%94how%20to%20combat%20an%20epidemic%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Williams%2C%20A.R.%20Bisaga%2C%20A.%20From%20AIDS%20to%20opioids%E2%80%94how%20to%20combat%20an%20epidemic%202016"
+        },
+        {
+            "id": "3",
+            "alt_id": "Gittell_2016_a",
+            "entry": "3. Gittell JH. Rethinking autonomy: Relationships as a source of resilience in a changing healthcare system. Health Serv Res. 2016; 51:1701-1705.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gittell%2C%20J.H.%20Rethinking%20autonomy%3A%20Relationships%20as%20a%20source%20of%20resilience%20in%20a%20changing%20healthcare%20system%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gittell%2C%20J.H.%20Rethinking%20autonomy%3A%20Relationships%20as%20a%20source%20of%20resilience%20in%20a%20changing%20healthcare%20system%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gittell%2C%20J.H.%20Rethinking%20autonomy%3A%20Relationships%20as%20a%20source%20of%20resilience%20in%20a%20changing%20healthcare%20system%202016"
+        }
+    ],
+    "facts": [
+        "the medical resources used in highly separated locations",
+        "ETCS is built upon a doctor-to-doctor approach",
+        "Implementation of the telemedicine system is supported by grants from the Novel Coronavirus Pneumonia Prevention",
+        "A subsidy of 10 million Chinese yuan has been allocated to the construction and operation of ETCS",
+        "126 network hospitals were successfully connected to the NTCC on ETCS",
+        "provide access to clinicians working in the regional hospitals",
+        "guidance on drug use and management of coronavirus patients can be accessed via the telemedicine cloud",
+        "This logical structure supports a system of telemedicine clinical management to combat the COVID-19 outbreak",
+        "How can telemedicine systems operate in a coordinated manner to deliver effective care to patients",
+        "the risk incurred in handling patients with possible COVID-19 infection[3",
+        "A learning telemedicine system platform for coronavirus care was developed across connected hospitals",
+        "that high quality of communication is not always maintained during the telemedicine coordination"
+    ],
+    "claims": [
+        "We have found that high quality of communication is not always maintained during the telemedicine coordination"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "When facing the rapid spread of an epidemic, the ability to deliver clinical care in a timely manner requires effective relational coordination mechanisms amongst government authorities, hospitals, and patients[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. This raises the question: How can telemedicine systems operate in a coordinated manner to deliver effective care to patients with COVID-19 and to combat the crisis outbreak?",
+        "A subsidy of 10 million Chinese yuan has been allocated to the construction and operation of Emergency Telemedicine Consultation System",
+        "Based on our previous experience of building 5G networks and smart medical terminals, 126 network hospitals were successfully connected to the National Telemedicine Center of China on Emergency Telemedicine Consultation System within 82 hours",
+        "The telemedicine service platform layer enables a specialist treatment team of provincial specialists to conquer distance and provide access to clinicians working in the regional hospitals",
+        "Prevention and treatment guidelines, and guidance on drug use and management of coronavirus patients can be accessed via the telemedicine cloud",
+        "The telemedicine service application layer involves 2 provincial-level hospitals, 18 municipal hospitals and 106 county-level hospitals, which can obtain consultations from the specialist treatment team. This logical structure supports a system of telemedicine clinical management to combat the COVID-19 outbreak"
+    ],
+    "top_statements": [
+        "Responding rapidly to this crisis, the National Telemedicine Center of China (NTCC), located in Zhengzhou, Henan Province, has established the Emergency Telemedicine Consultation System (ETCS), a telemedicine-enabled outbreak alert and response network",
+        "When facing the rapid spread of an epidemic, the ability to deliver clinical care in a timely manner requires effective relational coordination mechanisms amongst government authorities, hospitals, and patients[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. This raises the question: How can telemedicine systems operate in a coordinated manner to deliver effective care to patients with COVID-19 and to combat the crisis outbreak?",
+        "A subsidy of 10 million Chinese yuan has been allocated to the construction and operation of Emergency Telemedicine Consultation System",
+        "Based on our previous experience of building 5G networks and smart medical terminals, 126 network hospitals were successfully connected to the National Telemedicine Center of China on Emergency Telemedicine Consultation System within 82 hours",
+        "The telemedicine service platform layer enables a specialist treatment team of provincial specialists to conquer distance and provide access to clinicians working in the regional hospitals",
+        "Prevention and treatment guidelines, and guidance on drug use and management of coronavirus patients can be accessed via the telemedicine cloud"
+    ],
+    "headline": "Based on our previous experience of building 5G networks and smart medical terminals, 126 network hospitals were successfully connected to the National Telemedicine Center of China on Emergency Telemedicine Consultation System within 82 hours",
+    "contexts": [],
+    "abbreviations": {
+        "NTCC": "National Telemedicine Center of China",
+        "ETCS": "Emergency Telemedicine Consultation System",
+        "NCPPCH": "Novel Coronavirus Pneumonia Prevention and Control Headquarters"
+    }
+}

@@ -1,0 +1,539 @@
+{
+    "filename": "pdf.pdf",
+    "content_type": "application/pdf",
+    "file_size": 618156,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.3390/jcm9030637",
+            "url": "https://www.mdpi.com/2077-0383/9/3/637/pdf"
+        },
+        "title": "Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019\u20142020",
+        "author": "Sung-mok Jung, Ryo Kinoshita, Robin N. Thompson, Natalie M. Linton, Yichi Yang, Andrei R. Akhmetzhanov, Hiroshi Nishiura",
+        "date": 2020,
+        "affiliations": [
+            "Graduate School of Medicine, Hokkaido University, Kita 15 Jo Nishi",
+            "Chome, Kita\u2010ku, Sapporo\u2010shi, Hokkaido 060\u20108638, Japan; seductmd@med.hokudai.ac.jp (S.\u2010m.J.); kinoshitaryo@gmail.com (R.K.); nlinton@med.hokudai.ac.jp (N.M.L.); lukeyang1993@eis.hokudai.ac.jp (Y.Y.); akhmetzhanov@gmail.com (A.R.A.)",
+            "Mathematical Institute, University of Oxford, Andrew Wiles Building, Radcliffe Observatory Quarter, Woodstock Road, Oxford OX2 6GG, UK; robin.thompson1988@gmail.com",
+            "Christ Church, University of Oxford, St Aldates, Oxford OX1 1DP, UK",
+            "CREST, Japan Science and Technology Agency, Honcho 4\u20101\u20108, Kawaguchi, Saitama 332\u20100012, Japan",
+            "Correspondence: nishiurah@med.hokudai.ac.jp; Tel.: +81\u201011\u2010706\u20105066",
+            "These authors equally contributed to this work."
+        ],
+        "journal": "Journal of Clinical Medicine",
+        "volume": "9",
+        "abstract": "Virological tests have now shown conclusively that a novel coronavirus is causing the 2019\u20132020 atypical pneumonia outbreak in Wuhan, China. We demonstrate that non-virological descriptive characteristics could have determined that the outbreak is caused by a novel pathogen in advance of virological testing. Characteristics of the ongoing outbreak were collected in real time from two medical social media sites. These were compared against characteristics of eleven pathogens that have previously caused cases of atypical pneumonia. The probability that the current outbreak is due to \u201cDisease X\u201d (i.e., previously unknown etiology) as opposed to one of the known pathogens was inferred, and this estimate was updated as the outbreak continued. The probability (expressed as a percentage) that Disease X is driving the outbreak was assessed as over 29% on 31 December 2019, one week before virus identification. After some specific pathogens were ruled out by laboratory tests on 5 January 2020, the inferred probability of Disease X was over 49%. We showed quantitatively that the emerging outbreak of atypical pneumonia cases is consistent with causation by a novel pathogen. The proposed approach, which uses only routinely observed non-virological data, can aid ongoing risk assessments in advance of virological test results becoming available.",
+        "keywords": [
+            "epidemic",
+            "causation",
+            "Bayes\u2019 theorem",
+            "diagnosis",
+            "prediction",
+            "statistical model"
+        ],
+        "references": "@techreport{unknown-a,\n  title = {Wuhan Municipal Health Commission\u2019s Briefing on the Current Pneumonia Epidemic},\n  url = {http://wjw.wuhan.gov.cn/front/web/showDetail/2019123108989},\n  unmatched-accessed = {(accessed on 14 January 2020).},\n  language = {},\n  urldate = {Available online:},\n  institution = {Wuhan Municipal Health Commission}\n}\n@misc{organization-a,\n  author = {Organization, World Health},\n  title = {WHO Statement Regarding Cluster of Pneumonia Cases in Wuhan, China},\n  url = {https://www.who.int/china/news/detail/09},\n  unmatched-accessed = {pneumonia\u2010cases\u2010in\u2010wuhan\u2010china (accessed on 14 January 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@techreport{unknown-b,\n  title = {Wuhan Municipal Health and Health Committee\u2019s Report on Unexplained Viral Pneumonia},\n  url = {http://wjw.wuhan.gov.cn/front/web/showDetail/20200103},\n  unmatched-accessed = {09017 (accessed on 14 January 2020).},\n  language = {},\n  urldate = {Available online:},\n  institution = {Wuhan Municipal Health Commission}\n}\n@book{normile-a,\n  author = {Normile, D.},\n  title = {Novel Human Virus? Pneumonia Cases Linked to Seafood Market in China Stir Concern},\n  publisher = {Available online: https://www.sciencemag.org/news/2020/01/novel\u2010human\u2010virus\u2010pneumonia\u2010cases\u2010linked\u2010 seafood\u2010market\u2010china\u2010stir\u2010concern},\n  doi = {doi},\n  language = {},\n  urldate = {10.1126/science.aba7672 (on 14 January 2020).}\n}\n@article{normile-b,\n  author = {Normile, D.},\n  title = {Mystery Virus Found in Wuhan Resembles Bat Viruses but Not SARS, Chinese Scientist Says},\n  journal = {Available},\n  url = {https://www.sciencemag.org/news/2020/01/mystery},\n  unmatched-accessed = {\u2010viruses\u2010not\u2010sars\u2010chinese\u2010scientist\u2010says (accessed on 14 January 2020).},\n  language = {},\n  urldate = {online:}\n}\n@techreport{unknown-c,\n  title = {Pneumonia Cases Possibly Associated with a Novel Coronavirus in Wuhan, China},\n  url = {https://www.ecdc.europa.eu/en/publications},\n  unmatched-accessed = {(accessed on 14 January 2020).},\n  language = {},\n  urldate = {Available online:},\n  institution = {European Centers for Disease Control and Prevention}\n}\n@article{li-a,\n  author = {Li, Q. and Guan, X. and Wu, P. and Wang, X. and Zhou, L. and Tong, Y. and Ren, R. and Leung, K.S.M. and Lau, E.H.Y. and Wong, J.Y.},\n  title = {Early transmission dynamics in Wuhan, China, of novel coronavirus\u2010infected pneumonia},\n  journal = {N. Engl. J. Med. 2020},\n  doi = {doi: 10.1056/NEJMoa2001316},\n  more-authors = {true},\n  language = {}\n}\n@book{gorbalenya-a,\n  author = {Gorbalenya, A.E. and Baker, S.C. and Baric, R.S. and de Groot, R.J. and Drosten, C. and Gulyaeva, A.A. and Haagmans, B.L. and Lauber, C. and Leontovich, A.M. and Neuman, B.W.},\n  title = {Severe Acute Respiratory Syndrome\u2010Related Coronavirus: The Species and Its Viruses\u2014A Statement of the},\n  publisher = {Coronavirus Study Group},\n  url = {https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1},\n  more-authors = {true},\n  unmatched-accessed = {(accessed on 18 February 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@book{unknown2020a,\n  publisher = {ProMED. Available online},\n  url = {https://promedmail.org/},\n  event = {on 14},\n  date = {2020-01},\n  language = {}\n}\n@techreport{unknown-d,\n  urldate = {Available online: https://flutrackers.com/forum/forum/china\u2010other\u2010health\u2010threats/china \u2010emerging\u2010diseases\u2010other\u2010health\u2010threats/821830\u2010china\u201041\u2010diagnosed\u2010viral\u2010pneumonia\u2010coronavirus\u2010cases\u2010in \u2010wuhan\u2010hubei\u2010province\u2010december\u201030\u20102019\u20101\u2010fatal\u2010case\u2010739\u2010screened\u2010so\u2010far\u2010including\u2010419\u2010hcw (on 14 January 2020).},\n  institution = {Flutracker}\n}\n@article{nishiura2012a,\n  author = {Nishiura, H. and Mizumoto, K. and Ejima, K. and Zhong, Y. and Cowling, B. and Omori, R.},\n  title = {Incubation period as part of the case definition of severe respiratory illness caused by a novel coronavirus},\n  journal = {Euro. Surveill},\n  date = {2012},\n  volume = {17},\n  pages = {20296},\n  language = {}\n}\n@article{ejima2014a,\n  author = {Ejima, K. and Aihara, K. and Nishiura, H.},\n  title = {Probabilistic differential diagnosis of Middle East respiratory syndrome (MERS) using the time from immigration to illness onset among imported cases},\n  journal = {J. Theor. Biol},\n  date = {2014},\n  volume = {346},\n  pages = {47},\n  source = {53.},\n  language = {}\n}\n@article{krauer2017a,\n  author = {Krauer, F. and Riesen, M. and Reveiz, L. and Oladapo, O.T. and Martinez\u2010Vega, R. and Porgo, T.V. and Haefliger, A. and Broutet, N.J. and Low, N.},\n  title = {WHO Zika Causality Working Group. Zika virus infection as a cause of congenital brain abnormalities and guillain\u2010barre syndrome: Systematic review},\n  journal = {PLoS Med},\n  date = {2017},\n  volume = {14},\n  pages = {1002203},\n  language = {}\n}\n@article{nishiura-a,\n  author = {Nishiura, H. and Linton, N.M. and Akhmetzhanov, A.R.},\n  title = {Initial cluster of novel coronavirus (2019\u2010nCoV) infections in Wuhan, China is consistent with substantial human\u2010to\u2010human transmission},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {488},\n  number = {9},\n  language = {}\n}\n@book{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X. and Ren, L. and Zhao, J. and Hu, Y. and Zhang, L. and Fan, G. and Xu, J. and Gu, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  publisher = {Lancet 2020},\n  doi = {doi: 10.1016/S0140\u20106736(20)30183\u20105},\n  more-authors = {true},\n  language = {}\n}\n@misc{thompson-a,\n  author = {Thompson, R.N.},\n  title = {Pandemic potential of 2019\u2010nCoV. Lancet Infect. Dis. 2020},\n  doi = {doi: 10.1016/S1473\u20103099(20)30068\u20102},\n  language = {}\n}\n@book{wu-a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019\u2010nCoV outbreak originating in Wuhan, China: A modelling study},\n  publisher = {Lancet 2020},\n  doi = {doi: 10.1016/S0140\u20106736},\n  language = {}\n}\n@article{jung-a,\n  author = {Jung, S.\u2010M. and Akhmetzhanov, A.R. and Hayashi, K. and Linton, N.M. and Yang, Y. and Yuan, B. and Kobayashi, T. and Kinoshita, R. and Nishiura, H.},\n  title = {Real\u2010time estimation of the risk of death from novel coronavirus (COVID\u201019) infection: Inference using exported cases},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {523},\n  number = {9},\n  language = {}\n}\n@article{thompson-b,\n  author = {Thompson, R.N.},\n  title = {Novel coronavirus outbreak in Wuhan, China, 2020: Intense surveillance is vital for preventing sustained transmission in new locations},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {498},\n  number = {9},\n  language = {}\n}\n@article{tang-a,\n  author = {Tang, B. and Wang, X. and Li, Q. and Bragazzi, N.L. and Tang, S. and Xiao, Y. and Wu, J.},\n  title = {Estimation of the transmission risk of the 2019\u2010nCoV and its implication for public health interventions},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {462},\n  number = {9},\n  language = {}\n}\n",
+        "links": [
+            "http://www.mdpi.com/journal/jcm",
+            "http://www.mdpi.com/xxx/s1",
+            "http://www.mdpi.com/xxx/s1"
+        ],
+        "emails": [
+            "seductmd@med.hokudai.ac.jp",
+            "robin.thompson1988@gmail.com",
+            "kinoshitaryo@gmail.com",
+            "nlinton@med.hokudai.ac.jp",
+            "lukeyang1993@eis.hokudai.ac.jp",
+            "nishiurah@med.hokudai.ac.jp",
+            "akhmetzhanov@gmail.com"
+        ],
+        "pages": "637",
+        "references_ris": "TY  - RPRT\nTI  - Wuhan Municipal Health Commission\u2019s Briefing on the Current Pneumonia Epidemic\nUR  - http://wjw.wuhan.gov.cn/front/web/showDetail/2019123108989\nC1  - (accessed on 14 January 2020).\nLA  - \nC1  - Available online:\nC1  - Wuhan Municipal Health Commission\nER  - \n\nTY  - GEN\nAU  - Organization, World Health\nTI  - WHO Statement Regarding Cluster of Pneumonia Cases in Wuhan, China\nUR  - https://www.who.int/china/news/detail/09\nC1  - pneumonia\u2010cases\u2010in\u2010wuhan\u2010china (accessed on 14 January 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - RPRT\nTI  - Wuhan Municipal Health and Health Committee\u2019s Report on Unexplained Viral Pneumonia\nUR  - http://wjw.wuhan.gov.cn/front/web/showDetail/20200103\nC1  - 09017 (accessed on 14 January 2020).\nLA  - \nC1  - Available online:\nC1  - Wuhan Municipal Health Commission\nER  - \n\nTY  - BOOK\nAU  - Normile, D.\nTI  - Novel Human Virus? Pneumonia Cases Linked to Seafood Market in China Stir Concern\nPB  - Available online: https://www.sciencemag.org/news/2020/01/novel\u2010human\u2010virus\u2010pneumonia\u2010cases\u2010linked\u2010 seafood\u2010market\u2010china\u2010stir\u2010concern\nDO  - doi\nLA  - \nC1  - 10.1126/science.aba7672 (on 14 January 2020).\nER  - \n\nTY  - JOUR\nAU  - Normile, D.\nTI  - Mystery Virus Found in Wuhan Resembles Bat Viruses but Not SARS, Chinese Scientist Says\nT2  - Available\nUR  - https://www.sciencemag.org/news/2020/01/mystery\nC1  - \u2010viruses\u2010not\u2010sars\u2010chinese\u2010scientist\u2010says (accessed on 14 January 2020).\nLA  - \nC1  - online:\nER  - \n\nTY  - RPRT\nTI  - Pneumonia Cases Possibly Associated with a Novel Coronavirus in Wuhan, China\nUR  - https://www.ecdc.europa.eu/en/publications\nC1  - (accessed on 14 January 2020).\nLA  - \nC1  - Available online:\nC1  - European Centers for Disease Control and Prevention\nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nAU  - Wang, X.\nAU  - Zhou, L.\nAU  - Tong, Y.\nAU  - Ren, R.\nAU  - Leung, K.S.M.\nAU  - Lau, E.H.Y.\nAU  - Wong, J.Y.\nTI  - Early transmission dynamics in Wuhan, China, of novel coronavirus\u2010infected pneumonia\nT2  - N. Engl. J. Med. 2020\nDO  - 10.1056/NEJMoa2001316\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Gorbalenya, A.E.\nAU  - Baker, S.C.\nAU  - Baric, R.S.\nAU  - de Groot, R.J.\nAU  - Drosten, C.\nAU  - Gulyaeva, A.A.\nAU  - Haagmans, B.L.\nAU  - Lauber, C.\nAU  - Leontovich, A.M.\nAU  - Neuman, B.W.\nTI  - Severe Acute Respiratory Syndrome\u2010Related Coronavirus: The Species and Its Viruses\u2014A Statement of the\nPB  - Coronavirus Study Group\nUR  - https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1\nC1  - true\nC1  - (accessed on 18 February 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - BOOK\nPB  - ProMED. Available online\nUR  - https://promedmail.org/\nC1  - on 14\nPY  - 2020\nDA  - 2020/01\nLA  - \nER  - \n\nTY  - RPRT\nC1  - Available online: https://flutrackers.com/forum/forum/china\u2010other\u2010health\u2010threats/china \u2010emerging\u2010diseases\u2010other\u2010health\u2010threats/821830\u2010china\u201041\u2010diagnosed\u2010viral\u2010pneumonia\u2010coronavirus\u2010cases\u2010in \u2010wuhan\u2010hubei\u2010province\u2010december\u201030\u20102019\u20101\u2010fatal\u2010case\u2010739\u2010screened\u2010so\u2010far\u2010including\u2010419\u2010hcw (on 14 January 2020).\nC1  - Flutracker\nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Mizumoto, K.\nAU  - Ejima, K.\nAU  - Zhong, Y.\nAU  - Cowling, B.\nAU  - Omori, R.\nTI  - Incubation period as part of the case definition of severe respiratory illness caused by a novel coronavirus\nT2  - Euro. Surveill\nPY  - 2012\nDA  - 2012\nVL  - 17\nSP  - 20296\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ejima, K.\nAU  - Aihara, K.\nAU  - Nishiura, H.\nTI  - Probabilistic differential diagnosis of Middle East respiratory syndrome (MERS) using the time from immigration to illness onset among imported cases\nT2  - J. Theor. Biol\nPY  - 2014\nDA  - 2014\nVL  - 346\nSP  - 47\nT2  - 53.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Krauer, F.\nAU  - Riesen, M.\nAU  - Reveiz, L.\nAU  - Oladapo, O.T.\nAU  - Martinez\u2010Vega, R.\nAU  - Porgo, T.V.\nAU  - Haefliger, A.\nAU  - Broutet, N.J.\nAU  - Low, N.\nTI  - WHO Zika Causality Working Group. Zika virus infection as a cause of congenital brain abnormalities and guillain\u2010barre syndrome: Systematic review\nT2  - PLoS Med\nPY  - 2017\nDA  - 2017\nVL  - 14\nSP  - 1002203\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Linton, N.M.\nAU  - Akhmetzhanov, A.R.\nTI  - Initial cluster of novel coronavirus (2019\u2010nCoV) infections in Wuhan, China is consistent with substantial human\u2010to\u2010human transmission\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 488\nIS  - 9\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nAU  - Ren, L.\nAU  - Zhao, J.\nAU  - Hu, Y.\nAU  - Zhang, L.\nAU  - Fan, G.\nAU  - Xu, J.\nAU  - Gu, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nPB  - Lancet 2020\nDO  - 10.1016/S0140\u20106736(20)30183\u20105\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Thompson, R.N.\nTI  - Pandemic potential of 2019\u2010nCoV. Lancet Infect. Dis. 2020\nDO  - 10.1016/S1473\u20103099(20)30068\u20102\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019\u2010nCoV outbreak originating in Wuhan, China: A modelling study\nPB  - Lancet 2020\nDO  - 10.1016/S0140\u20106736\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jung, S.\u2010M.\nAU  - Akhmetzhanov, A.R.\nAU  - Hayashi, K.\nAU  - Linton, N.M.\nAU  - Yang, Y.\nAU  - Yuan, B.\nAU  - Kobayashi, T.\nAU  - Kinoshita, R.\nAU  - Nishiura, H.\nTI  - Real\u2010time estimation of the risk of death from novel coronavirus (COVID\u201019) infection: Inference using exported cases\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 523\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thompson, R.N.\nTI  - Novel coronavirus outbreak in Wuhan, China, 2020: Intense surveillance is vital for preventing sustained transmission in new locations\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 498\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tang, B.\nAU  - Wang, X.\nAU  - Li, Q.\nAU  - Bragazzi, N.L.\nAU  - Tang, S.\nAU  - Xiao, Y.\nAU  - Wu, J.\nTI  - Estimation of the transmission risk of the 2019\u2010nCoV and its implication for public health interventions\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 462\nIS  - 9\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Observed characteristics of the current outbreak in Wuhan, China, as well as general characteristics of outbreaks driven by previously known pneumonia\u2010causing pathogens"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Real\u2010time estimation of the probability that the ongoing pneumonia outbreak is driven by each candidate pathogen, given available information on different days. The probability that the outbreak is due to an unknown pathogen (Disease X) increases as more information becomes available, for two reasons: (i) the current outbreak can be seen to exhibit characteristics that are not similar to those observed in previous outbreaks, and; (ii) previously observed pathogens are ruled out by laboratory test results. Arrows indicate new information available on each date. Results are shown for different metrics describing the distance between characteristics of the ongoing outbreak and each candidate pathogen, and either including or excluding initial exposure information for the current outbreak (i.e., worked at/visited a wet market), specifically: (A) Hamming distance (the sum of squares difference between the entries in the columns of Table 1 corresponding to the ongoing outbreak and the candidate pathogen considered) with wet market exposure; (B) Euclidean distance (the square root of the Hamming distance) with wet market exposure; (C) Hamming distance without wet market exposure; (D) Euclidean distance without wet market exposure. Dashed grey lines show the probability for every pathogen (including Disease X) if the only information included is the ruling out of different pathogens through laboratory tests (i.e., a probability of 1/(1 + number of candidate pathogens remaining on that day)). Note that the probability corresponding to different pathogens can be identical, for example, severe acute respiratory syndrome (SARS) and Mycoplasma pneumoniae were assessing as being equally likely as the causative pathogen from 30 December to 4 January, and Legionellosis and Chlamydia pneumoniae had equal probability from 30 December to 12 January (Details in Supplementary Material S1)"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/6f38b4d456a712e088733647b7794eea.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/6f38b4d456a712e088733647b7794eea/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/6f38b4d456a712e088733647b7794eea/img-003.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "A cluster of cases of atypical pneumonia with unknown etiology in Wuhan, China attracted global attention towards the end of 2019 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. An impressive series of rapid virological examinations ruled out common pneumonia\u2010causing viruses such as influenza viruses, adenoviruses, and the coronaviruses associated with Middle East respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS)<br/><br/>[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u2013<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Early in the outbreak, the causative agent was suspected to be a coronavirus of non\u2010human origin [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. The coronavirus was subsequently found to be a relative of SARS and named the severe acute respiratory syndrome coronavirus 2 (SARS\u2010CoV\u20102) [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].<br/><br/>J. Clin. Med. 2020, 9, 637; doi:10.3390/jcm9030637 www.mdpi.com/journal/jcm"
+        ],
+        "methods": [
+            "2.1. Epidemiological Data<br/><br/>As the outbreak unfolded, we calculated in real\u2010time the probability that the pathogen responsible for the atypical pneumonia cases was novel (Disease X), as opposed to the outbreak instead being generated by a previously known pathogen that can cause atypical pneumonia. Our analysis began on 30 December<br/><br/>2019, when the Wuhan Municipal Health Commission announced that there had been a surprisingly large number of atypical pneumonia cases. At that time, we assumed the causative agent could have been one of eight known viral or three known bacterial pathogens, along with the chance that it was instead Disease X.<br/><br/>We tracked two active medical social media sites (ProMED [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] and Flutracker [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]) that collected reports of the non\u2010virological characteristics of the outbreak as it progressed. These characteristics were basic observations from the outbreak and do not necessarily represent the features that were causing symptoms."
+        ],
+        "results": [
+            "We show temporal changes in estimates of the probability that the ongoing outbreak is driven by each candidate pathogen in Figure 1. Because the only information on 30 December 2019 was that cases had symptoms of atypical pneumonia, the distances between the ongoing outbreak and the eleven known pathogens were all zero; thus, all eleven candidate pathogens initially showed an identical probability of 8.3% (i.e., 1/12, when the possibility of Disease X is accounted for). If no further information had become available during the outbreak, other than the gradual ruling out of candidate pathogens through laboratory tests, then the inferred uninformative probability for each candidate pathogen would have been given by the dotted gray lines in Figure 1.<br/><br/>(the square root of the Hamming distance) with wet market exposure; (C) Hamming distance without wet market exposure; (D) Euclidean distance without wet market exposure. Dashed grey lines show the probability for every pathogen (including Disease X) if the only information included is the ruling out of different pathogens through laboratory tests (i.e., a probability of 1/(1 + number of candidate pathogens remaining on that day)). Note that the probability corresponding to different pathogens can be identical, for example, severe acute respiratory syndrome (SARS) and Mycoplasma pneumoniae were assessing as being equally likely as the causative pathogen from 30 December to 4<br/><br/>January, and Legionellosis and Chlamydia pneumoniae had equal probability from 30 December to<br/><br/>January (Details in Supplementary Material S1).<br/><br/>However, additional characteristics of the ongoing outbreak were observed on 31 December"
+        ],
+        "discussion": [
+            "In this analysis, we showed how the outbreak of pneumonia cases in Wuhan was assessed in early January 2020 as being caused by a novel pathogen. This was demonstrated using a series of clinical, occupational, and behavioral observations extracted from fragmented reports describing the cases as these reports became available in real time [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Although virological investigation is the gold standard for pathogen identification, and the virus has now been confirmed to be a novel coronavirus that is a relative of SARS, laboratory\u2010based outcomes can only be obtained after successfully sequencing the novel virus, which can sometimes be a lengthy process. At the time of writing, it still remains for the microbiological causal link to be established, for instance by ensuring that Koch\u2019s postulates are met (as seen, e.g., in a study of Zika virus [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]). In the ongoing outbreak, the provisional identification of a novel coronavirus was performed on 7 January 2020 and announced formally on 9 January 2020 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. We have shown that non\u2010virological information can indicate that the cause of the outbreak is likely to be a novel pathogen (\u201cDisease X\u201d), and that this conclusion was obtained before virological test results were announced. Disease X was inferred to be very likely on all dates from 31 December 2019 onwards\u2014the date on which descriptions of outbreak characteristics began to emerge."
+        ],
+        "supplementary": [
+            "Material: The following are available online at www.mdpi.com/xxx/s1, Table S1: Estimated values of the probability of Disease X, given available information at different timepoints using Hamming distance and including wet market exposure, Table S2: Estimated values of the probability of Disease X, given available information at different timepoints using Euclidean distance and including wet market exposure, Disease X, given available information at different timepoints using Euclidean distance and excluding wet market exposure.<br/><br/>Author Contributions: S.\u2010m.J., R.N.T., A.R.A., and H.N. conceived the study and participated in the study design. All authors assisted in collecting the data. S.\u2010m.J., R.N.T., A.R.A. analyzed the data. R.K. visualized the results. S.\u2010m.J., R.K., R.N.T., A.R.A., and H.N. drafted the manuscript. All authors edited the manuscript and approved the final version."
+        ],
+        "funding": [
+            "The authors thank Rebecca Spriggs for help devising the statistical approach. R.N.T. would like to thank Christ Church (Oxford) for funding via a Junior Research Fellowship. H.N. received funding from the Japan Agency for Medical Research and Development (AMED) [grant number: JP18fk0108050]; the Japan Society for the Promotion of Science (JSPS) KAKENHI [grant numbers, H.N.: 17H04701, 17H05808, 18H04895 and 19H01074; R.K.: 18J21587], the Inamori Foundation, and the Japan Science and Technology Agency (JST) CREST program [grant number: JPMJCR1413]."
+        ],
+        "disclosures": [
+            "The authors declare no conflicts of interest."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary Material"
+            ],
+            "supplementary_figure_references": [
+                "Table S1",
+                "Table S2",
+                "Table S3",
+                "Table S4"
+            ]
+        }
+    },
+    "structured_content": {
+        "1. Introduction": [
+            "A cluster of cases of atypical pneumonia with unknown etiology in Wuhan, China attracted global attention towards the end of 2019 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. An impressive series of rapid virological examinations ruled out common pneumonia\u2010causing viruses such as influenza viruses, adenoviruses, and the coronaviruses associated with Middle East respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS)",
+            "[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>\u2013<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Early in the outbreak, the causative agent was suspected to be a coronavirus of non\u2010human origin [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. The coronavirus was subsequently found to be a relative of SARS and named the severe acute respiratory syndrome coronavirus 2 (SARS\u2010CoV\u20102) [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "While examination of the viral genome was critical for identifying the pathogen, information made publicly available in real time describing clinical characteristics and other outbreak\u2010related factors also allowed experts to consider the etiology and thereby differential diagnoses. For instance, most cases shared a history of visiting or working at a seafood market in Wuhan [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], where exposure to the novel coronavirus is suspected to have occurred with no evidence of direct human\u2010to\u2010human transmission [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], although human\u2010to\u2010human transmission was found later to be common. Observed characteristics of the outbreak led us to believe that the cluster of cases was due to \u201cDisease X\u201d (i.e., an infectious disease of previously unknown viral etiology). However, rigorous quantitative assessment based on these characteristics of the chance that the manifestations of atypical pneumonia were in fact Disease X has not previously been undertaken. The present study addresses this, demonstrating that non\u2010virological information can lead to an objective classification of Disease X, using a simple statistical model that exploits the well\u2010known Bayes\u2019",
+            "theorem."
+        ],
+        "2. Methods": [],
+        "2.1. Epidemiological Data": [
+            "As the outbreak unfolded, we calculated in real\u2010time the probability that the pathogen responsible for the atypical pneumonia cases was novel (Disease X), as opposed to the outbreak instead being generated by a previously known pathogen that can cause atypical pneumonia. Our analysis began on 30 December",
+            "2019, when the Wuhan Municipal Health Commission announced that there had been a surprisingly large number of atypical pneumonia cases. At that time, we assumed the causative agent could have been one of eight known viral or three known bacterial pathogens, along with the chance that it was instead Disease X.",
+            "We tracked two active medical social media sites (ProMED [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] and Flutracker [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]) that collected reports of the non\u2010virological characteristics of the outbreak as it progressed. These characteristics were basic observations from the outbreak and do not necessarily represent the features that were causing symptoms.",
+            "Given these characteristics, we then calculated the probability that the ongoing outbreak was due to a known pathogen or unknown Disease X. On the first day of calculation (i.e., 30 December 2019)\u2014the day that we became aware of the outbreak\u2014the only explanatory factor we included was diagnosis of atypical pneumonia, which was common to all pathogens considered in our dataset. Our analysis represents simple logical deductions from the limited data that were available during the outbreak in a quantitative manner and was updated to reflect new information about the outbreak as it became available in real time.",
+            "Table 1 shows the information compiled about the current outbreak, and the dates on which each of these characteristics were discovered. Each characteristic listed was assigned a value of zero or one, denoting whether or not the outbreak characteristic was likely in general (rather than for individual cases) for the emerging outbreak, and the equivalent values for outbreaks of previously observed pathogens were also noted. We note that some information believed at the time was later found to be untrue; for example, it was believed that human\u2010to\u2010human transmission was infrequent. Consequently, inclusion of a large number of characteristics is important for our analysis. Once pathogens were ruled out as the causative agent of the current outbreak, they were removed from our analysis: for example, highly pathogenic avian influenza (HPAI; H5N1) was confirmed not to be the causative agent by laboratory testing on 3 January",
+            "2020. Hence, we omitted this pathogen from our analysis from that date onwards. We performed two versions of our analysis to demonstrate how our results might change with the inclusion of different outbreak characteristics. In the first, all characteristics in Table 1 were included in the analysis. In the second, information about the exposure location (i.e., exposure at a wet market) was excluded from the analysis.",
+            "SARS, Severe acute respiratory syndrome; MERS, Middle East respiratory syndrome; HPAI, Highly pathogenic avian influenza; RSV, Respiratory syncytial virus.",
+            "Zeros represent characteristics that are unlikely for outbreaks of that pathogen, and ones represent characteristics that occur. Dates and characteristics for the ongoing outbreak were obtained from two online information systems [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], and information for other pathogens was summarized from the pathogen\u2010specific pages on the WHO and CDC websites."
+        ],
+        "2.2. Statistical Models": [
+            "To assess the probability that the emerging outbreak was caused by a known pathogen, we first calculated the distance between the set of characteristics of the ongoing outbreak and those of previously known pathogens. The distance between the characteristics of the ongoing outbreak and cases due to pathogen j is denoted by dj. We assumed that the probability that the outbreak is due to a variant of pathogen j decreased exponentially with distance dj. Then, by Bayes\u2019 theorem, Pr pathogen j | observed characteristics",
+            "in which the sum in the denominator is over all possible pathogens i (i.e., each of the columns of",
+            "Table 1, including the column describing the current outbreak). The constants qi represented a priori probabilities that the outbreak is due to pathogen i [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>,<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. We set uninformative priors for all pathogens considered, so that qi was simply the reciprocal of the number of pathogens being considered (including Disease X) on each date in our analysis. We initially estimated the distance between observed characteristics of the outbreak and each known candidate pathogen using the",
+            "Hamming distance (i.e., the sum of squares differences between the entries in the columns of Table corresponding to the Disease X and the candidate pathogen). Then, we assumed that the probability that the outbreak is driven by pathogen j was governed by a negative exponential function, Pr observed characteristics | pathogen j \u221d exp d (2)",
+            "where dj is the calculated Hamming distance, although in principle any decreasing relationship, and any metric describing the distance between two vectors, could have been used.",
+            "We also repeated our analysis using an alternative measure of the distance between observed characteristics of the outbreak and each known candidate pathogen, namely the Euclidean distance (i.e., the square root of the Hamming distance). In each case, we assumed that the importance of each characteristic had an identical weight in our analysis, so that a simple quantitative assessment could be obtained in a probabilistic manner without the need for subjective judgement.",
+            "Combining Equations (1) and (2), and assuming uninformative priors for qi, gives, exp d",
+            "The probability that the outbreak was driven by Disease X corresponds to the distance d",
+            "0, and represents a risk score taking values between the reciprocal of the number of candidate pathogens including Disease X itself and one: Pr Disease X | observed characteristics",
+            "If there are n known pathogens that can potentially cause atypical pneumonia, the probability of observing Disease X without any information would be identical to the probability of observing any other listed pathogen (i.e., 1/(1 + n)). As pathogens were ruled out by laboratory testing, that uninformative probability increased (i.e., 1/12 until 2 January 2020, 1/8 from 3 January 2020 and 1/6 from 5 January 2020 in the current outbreak). In addition, if the probability of observing Disease X according to Equation (3) takes a value close to the probability of observing other candidate pathogens, the overall probability that the outbreak is due to a novel pathogen should be interpreted as being low. A result of significant practical importance, however, is when the probability of observing Disease X is close to one or much larger than the probability corresponding to each previously observed candidate pathogen. In that case, all candidate pathogens are not similar to the causative agent of the ongoing outbreak, and so the outbreak is likely to be due to a novel pathogen.",
+            "We converted the probability of Disease X into the equivalent percentage value (so that, for example, a result of 0.8 in Equation (1) is assumed to mean an 80% probability) and refer to the percentage value as the \u201cprobability of Disease X\u201d hereafter."
+        ],
+        "3. Results": [
+            "We show temporal changes in estimates of the probability that the ongoing outbreak is driven by each candidate pathogen in Figure 1. Because the only information on 30 December 2019 was that cases had symptoms of atypical pneumonia, the distances between the ongoing outbreak and the eleven known pathogens were all zero; thus, all eleven candidate pathogens initially showed an identical probability of 8.3% (i.e., 1/12, when the possibility of Disease X is accounted for). If no further information had become available during the outbreak, other than the gradual ruling out of candidate pathogens through laboratory tests, then the inferred uninformative probability for each candidate pathogen would have been given by the dotted gray lines in Figure 1.",
+            "January, and Legionellosis and Chlamydia pneumoniae had equal probability from 30 December to",
+            "January (Details in Supplementary Material S1).",
+            "However, additional characteristics of the ongoing outbreak were observed on 31 December",
+            "2019. These characteristics allowed the ongoing outbreak to be distinguished from outbreaks due to previous pathogens, and consequently the inferred probability that the outbreak was driven by a novel pathogen increased substantially to 54.3% and 33.8% for Hamming and Euclidean distance metrics, respectively (Figure 1A,B). If instead the exposure characteristic (i.e., exposure at a wet market) was excluded from the analyses, the probability of observing Disease X given observed characteristics was still as high as 41.3% and 29.1% for the Hamming and Euclidean distance metrics (Figure 1C,D).",
+            "Adenoviruses, HPAI (H5N1 and H7N9) and other influenza viruses were ruled out on 3",
+            "January 2020, leading to an estimated probability that the outbreak was due to Disease X of 80.8%",
+            "and 50.2% for the Hamming and Euclidean distance metrics when all factors were considered.",
+            "Excluding the characteristic corresponding to wet market exposure, the probability that the outbreak was due to Disease X was assessed to be 60.7% and 42.7% for the Hamming and Euclidean distance metrics, respectively. SARS and MERS coronaviruses were ruled out as possible causative agents on",
+            "January 2020, leading to a very high estimate for the probability that the outbreak was caused by a novel pathogen once all information was collected. On 12 January 2020, the probability the outbreak was due to Disease X was estimated to be 82.2% and 56.5% according to the model considering all the characteristics (again, for the Hamming and Euclidean distances, respectively), while the model excluding the characteristic of exposure at the wet market suggested probabilities of 62.9% and"
+        ],
+        "4. Discussion": [
+            "In this analysis, we showed how the outbreak of pneumonia cases in Wuhan was assessed in early January 2020 as being caused by a novel pathogen. This was demonstrated using a series of clinical, occupational, and behavioral observations extracted from fragmented reports describing the cases as these reports became available in real time [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Although virological investigation is the gold standard for pathogen identification, and the virus has now been confirmed to be a novel coronavirus that is a relative of SARS, laboratory\u2010based outcomes can only be obtained after successfully sequencing the novel virus, which can sometimes be a lengthy process. At the time of writing, it still remains for the microbiological causal link to be established, for instance by ensuring that Koch\u2019s postulates are met (as seen, e.g., in a study of Zika virus [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]). In the ongoing outbreak, the provisional identification of a novel coronavirus was performed on 7 January 2020 and announced formally on 9 January 2020 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. We have shown that non\u2010virological information can indicate that the cause of the outbreak is likely to be a novel pathogen (\u201cDisease X\u201d), and that this conclusion was obtained before virological test results were announced. Disease X was inferred to be very likely on all dates from 31 December 2019 onwards\u2014the date on which descriptions of outbreak characteristics began to emerge.",
+            "When sufficient clinical details of cases (e.g., complete blood cell counts) are available, the number of causative pathogens considered can be limited to a reasonable number. In this instance, atypical pneumonia combined with reduced white blood cell counts and the lack of response to antibiotics indicated that the pathogen was consistent with viral rather than bacterial infection. With such information, non\u2010virological data can be used for convenient quantification of the probability that the outbreak was due to a novel pathogen, while awaiting the results of virological tests. We believe that the proposed approach can improve risk assessment practices across the world.",
+            "It is important to consider two issues about the compilation of Table 1. First, a critical underlying assumption is that Table 1 represents general outbreak characteristics of the ongoing outbreak and previously known outbreaks. The representation does not reflect observations from all confirmed cases nor epidemiological findings from a case control study (e.g., statistically significant risk factors). Rather, zeros and ones in the table were defined in a phenomenological manner, and values may change as the ongoing outbreak continues. Depending on the opinions of different experts (e.g., [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]), the defined nominal values could have been different to those shown in Table 1; in this study, we are simply demonstrating how such an approach might work in practice. Second, as we have shown, quantitative estimates depend on the precise characteristics that are used. We showed results including and not including information on wet market exposure. In Table 1, infections due to previously observed pathogens other than HPAI were assumed not to be associated with exposure to wet markets. Since this assumption was not derived from empirical observations, it could be debated.",
+            "In the past, descriptive outbreak information has been used to generate outbreak case definitions, and causative agents have been pinpointed without using statistical methods in combination with epidemiological observations. In the present study, we have shown that such assessments can be made quantitatively using a simple statistical model, allowing for comparisons between the possible causative agents among different candidates. When outbreak characteristics are shared and updated in real\u2010time (Table 1), these data can contribute to efforts to narrow down the possible range of causative agents. In the case of the outbreak in Wuhan, our calculation of the probability that each pathogen is the causative agent indicates that virological exclusion of influenza viruses, adenoviruses and known virulent coronaviruses associated with SARS and MERS on 3 and",
+            "January 2020 can be regarded as an \u201cunsurprising\u201d finding.",
+            "As important limitations, the precision and credibility of the input data and the method for calculating the distance between the candidate pathogens and the observed outbreak, must be refined in future. First, our proposed approach used very limited data in Table 1 for logical quantification of the probability that each pathogen was the causative agent. However, with more clinical data, the binary characteristics could be replaced by continuous frequencies (e.g., the proportion of cases experiencing coughing and/or breathing difficulties). Second, with sufficient data it would also be possible to estimate the probability that each pathogen is the causal agent (Equation (1)) not by arbitrarily measuring the distance but by using classification models involving regression or more sophisticated machine learning approaches. Third, the erroneous input of incorrect information may be a challenge in real time analyses. The veracity of the sources of information for future analyses could have an impact on the resulting probability calculations.",
+            "Fourth, the estimated probability that an outbreak is driven by a novel pathogen might be slightly over\u2010 or underestimated due to limited information about the mode of transmission and small numbers of observed cases. Of note, the respiratory syncytial virus (RSV) was not completely ruled out as a candidate pathogen in our real\u2010time analysis. However, RSV was an unlikely candidate since the majority of cases in the ongoing outbreak are adults [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] while most RSV infections are observed in infants and young children. Finally, we had to restrict ourselves to assuming the a priori probability that the ongoing outbreak driven by each candidate pathogens (q ) is identical for each pathogen. However, since no alternative information was available, we believe such uninformative priors to be the optimal choice.",
+            "Despite the future improvements to our statistical modelling framework that are required, including the need to test our approach using data from outbreaks of previously known pathogens, this short study demonstrated clearly that the ongoing outbreak is consistent with causation by a novel pathogen, \u201cDisease X\u201d. We reached this conclusion after only a few days of the outbreak had passed. Attention has now rightly turned towards identifying the pandemic potential of this outbreak [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>\u2013<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], as well as planning control interventions within China and elsewhere [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>].",
+            "However, at the start of the next outbreak of an unknown pathogen, virological testing and quantitative analyses of clinical data are two complementary methods that can be used. Thus, analyses of the type conducted in this study can greatly support efforts to characterize causal agents in future outbreaks, with the benefit that analyses like this one can be carried out extremely quickly."
+        ],
+        "Supplementary": [
+            "Material: The following are available online at www.mdpi.com/xxx/s1, Table S1: Estimated values of the probability of Disease X, given available information at different timepoints using Hamming distance and including wet market exposure, Table S2: Estimated values of the probability of Disease X, given available information at different timepoints using Euclidean distance and including wet market exposure, Table S3: Estimated values of the probability of Disease X, given available information at different timepoints using Hamming distance and excluding wet market exposure, Table S4: Estimated values of the probability of",
+            "Disease X, given available information at different timepoints using Euclidean distance and excluding wet market exposure.",
+            "Author Contributions: S.\u2010m.J., R.N.T., A.R.A., and H.N. conceived the study and participated in the study design. All authors assisted in collecting the data. S.\u2010m.J., R.N.T., A.R.A. analyzed the data. R.K. visualized the results. S.\u2010m.J., R.K., R.N.T., A.R.A., and H.N. drafted the manuscript. All authors edited the manuscript and approved the final version.",
+            "Funding: The authors thank Rebecca Spriggs for help devising the statistical approach. R.N.T. would like to thank Christ Church (Oxford) for funding via a Junior Research Fellowship. H.N. received funding from the",
+            "Japan Agency for Medical Research and Development (AMED) [grant number: JP18fk0108050]; the Japan",
+            "Society for the Promotion of Science (JSPS) KAKENHI [grant numbers, H.N.: 17H04701, 17H05808, 18H04895 and 19H01074; R.K.: 18J21587], the Inamori Foundation, and the Japan Science and Technology Agency (JST)",
+            "CREST program [grant number: JPMJCR1413].",
+            "Conflicts of Interest: The authors declare no conflicts of interest."
+        ],
+        "References": [
+            "2.",
+            "4.",
+            "6.",
+            "8.",
+            "10.",
+            "12.",
+            "14.",
+            "Wuhan Municipal Health Commission. Wuhan Municipal Health Commission\u2019s Briefing on the Current",
+            "Pneumonia Epidemic. Available online: http://wjw.wuhan.gov.cn/front/web/showDetail/2019123108989",
+            "(accessed on 14 January 2020).",
+            "World Health Organization. WHO Statement Regarding Cluster of Pneumonia Cases in Wuhan, China.",
+            "Available online: https://www.who.int/china/news/detail/09\u201001\u20102020\u2010who\u2010statement\u2010regarding\u2010cluster\u2010of\u2010",
+            "pneumonia\u2010cases\u2010in\u2010wuhan\u2010china (accessed on 14 January 2020).",
+            "Wuhan Municipal Health Commission. Wuhan Municipal Health and Health Committee\u2019s Report on",
+            "Unexplained Viral Pneumonia. Available online: http://wjw.wuhan.gov.cn/front/web/showDetail/20200103",
+            "Normile, D. Novel Human Virus? Pneumonia Cases Linked to Seafood Market in China Stir Concern.",
+            "Available online: https://www.sciencemag.org/news/2020/01/novel\u2010human\u2010virus\u2010pneumonia\u2010cases\u2010linked\u2010",
+            "seafood\u2010market\u2010china\u2010stir\u2010concern, doi:10.1126/science.aba7672 (accessed on 14 January 2020).",
+            "Normile, D. Mystery Virus Found in Wuhan Resembles Bat Viruses but Not SARS, Chinese Scientist Says.",
+            "Available online: https://www.sciencemag.org/news/2020/01/mystery\u2010virus\u2010found\u2010wuhan\u2010resembles\u2010bat",
+            "\u2010viruses\u2010not\u2010sars\u2010chinese\u2010scientist\u2010says (accessed on 14 January 2020).",
+            "European Centers for Disease Control and Prevention. Pneumonia Cases Possibly Associated with a Novel",
+            "Coronavirus in Wuhan, China. Available online: https://www.ecdc.europa.eu/en/publications\u2010data/",
+            "pneumonia\u2010cases\u2010possibly\u2010associated\u2010novel\u2010coronavirus\u2010wuhan\u2010china (accessed on 14 January 2020).",
+            "Li, Q.; Guan, X.; Wu, P.; Wang, X.; Zhou, L.; Tong, Y.; Ren, R.; Leung, K.S.M.; Lau, E.H.Y.; Wong, J.Y.; et al.",
+            "Early transmission dynamics in Wuhan, China, of novel coronavirus\u2010infected pneumonia. N. Engl. J. Med.",
+            "2020, doi:10.1056/NEJMoa2001316.",
+            "Gorbalenya, A.E.; Baker, S.C.; Baric, R.S.; de Groot, R.J.; Drosten, C.; Gulyaeva, A.A.; Haagmans, B.L.; Lauber, C.; Leontovich, A.M.; Neuman, B.W.; et al Severe Acute Respiratory Syndrome\u2010Related",
+            "Coronavirus: The Species and Its Viruses\u2014A Statement of the Coronavirus Study Group. Available online: https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1 (accessed on 18 February 2020).",
+            "ProMED. Available online: https://promedmail.org/ (accessed on 14 January 2020).",
+            "Flutracker. Available online: https://flutrackers.com/forum/forum/china\u2010other\u2010health\u2010threats/china",
+            "\u2010emerging\u2010diseases\u2010other\u2010health\u2010threats/821830\u2010china\u201041\u2010diagnosed\u2010viral\u2010pneumonia\u2010coronavirus\u2010cases\u2010in",
+            "\u2010wuhan\u2010hubei\u2010province\u2010december\u201030\u20102019\u20101\u2010fatal\u2010case\u2010739\u2010screened\u2010so\u2010far\u2010including\u2010419\u2010hcw",
+            "Nishiura, H.; Mizumoto, K.; Ejima, K.; Zhong, Y.; Cowling, B.; Omori, R. Incubation period as part of the case definition of severe respiratory illness caused by a novel coronavirus. Euro. Surveill. 2012, 17, 20296.",
+            "Ejima, K.; Aihara, K.; Nishiura, H. Probabilistic differential diagnosis of Middle East respiratory syndrome (MERS) using the time from immigration to illness onset among imported cases. J. Theor. Biol. 2014, 346, 47\u2013",
+            "Krauer, F.; Riesen, M.; Reveiz, L.; Oladapo, O.T.; Martinez\u2010Vega, R.; Porgo, T.V.; Haefliger, A.; Broutet, N.J.; Low, N.; WHO Zika Causality Working Group. Zika virus infection as a cause of congenital brain abnormalities and guillain\u2010barre syndrome: Systematic review. PLoS Med. 2017, 14, e1002203.",
+            "Nishiura, H.; Linton, N.M.; Akhmetzhanov, A.R. Initial cluster of novel coronavirus (2019\u2010nCoV) infections in Wuhan, China is consistent with substantial human\u2010to\u2010human transmission. J. Clin. Med. 2020, 9, 488.",
+            "15. Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X.; et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020, doi:10.1016/S0140\u20106736(20)30183\u20105.",
+            "16. Thompson, R.N.",
+            "Pandemic potential of",
+            "2019\u2010nCoV.",
+            "Lancet",
+            "Infect.",
+            "Dis.",
+            "2020, doi:10.1016/S1473\u20103099(20)30068\u20102.",
+            "17. Wu, J.T.; Leung, K.; Leung, G.M. Nowcasting and forecasting the potential domestic and international spread of the 2019\u2010nCoV outbreak originating in Wuhan, China: A modelling study. Lancet 2020, doi:10.1016/S0140\u20106736.",
+            "18. Jung, S.\u2010M.; Akhmetzhanov, A.R.; Hayashi, K.; Linton, N.M.; Yang, Y.; Yuan, B.; Kobayashi, T.; Kinoshita, R.; Nishiura, H. Real\u2010time estimation of the risk of death from novel coronavirus (COVID\u201019) infection: Inference using exported cases. J. Clin. Med. 2020, 9, 523.",
+            "19. Thompson, R.N. Novel coronavirus outbreak in Wuhan, China, 2020: Intense surveillance is vital for preventing sustained transmission in new locations. J. Clin. Med. 2020, 9, 498.",
+            "20. Tang, B.; Wang, X.; Li, Q.; Bragazzi, N.L.; Tang, S.; Xiao, Y.; Wu, J. Estimation of the transmission risk of the",
+            "2019\u2010nCoV and its implication for public health interventions. J. Clin. Med. 2020, 9, 462.",
+            "\u00a9 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/)."
+        ]
+    },
+    "participants": [],
+    "statistics": [],
+    "keywords": [
+        "wuhan municipal health",
+        "disease x",
+        "highly pathogenic avian influenza",
+        "epidemic",
+        "severe acute respiratory syndrome",
+        "pneumonia case",
+        "prediction",
+        "novel pathogen",
+        "coronavirus",
+        "atypical pneumonia outbreak",
+        "causation",
+        "non virological",
+        "unknown etiology",
+        "etiology",
+        "novel coronavirus",
+        "virological test result",
+        "Acute Respiratory syndrome",
+        "Bayes\u2019 theorem",
+        "ongoing outbreak",
+        "Japan Science and Technology Agency",
+        "Chlamydia pneumoniae",
+        "statistical model",
+        "middle east respiratory syndrome",
+        "Mycoplasma pneumoniae",
+        "respiratory syncytial virus",
+        "real time"
+    ],
+    "keyword_relevance": {
+        "coronavirus": 0.14516129032258066,
+        "ongoing outbreak": 0.14516129032258066,
+        "severe acute respiratory syndrome": 0.10483870967741936,
+        "novel pathogen": 0.08870967741935484,
+        "novel coronavirus": 0.07258064516129033,
+        "highly pathogenic avian influenza": 0.056451612903225805,
+        "respiratory syncytial virus": 0.04838709677419355,
+        "Middle East respiratory syndrome": 0.04838709677419355,
+        "real time": 0.04032258064516129,
+        "pneumonia case": 0.03225806451612903,
+        "etiology": 0.03225806451612903,
+        "statistical model": 0.03225806451612903,
+        "causation": 0.024193548387096774,
+        "Japan Science and Technology Agency": 0.024193548387096774,
+        "unknown etiology": 0.016129032258064516,
+        "virological test result": 0.016129032258064516,
+        "Bayes\u2019 theorem": 0.016129032258064516,
+        "Chlamydia pneumoniae": 0.016129032258064516,
+        "Mycoplasma pneumoniae": 0.016129032258064516,
+        "epidemic": 0.008064516129032258,
+        "prediction": 0.008064516129032258,
+        "atypical pneumonia outbreak": 0.008064516129032258,
+        "wuhan municipal health": 0.0,
+        "disease x": 0.0,
+        "non virological": 0.0,
+        "Acute Respiratory syndrome": 0.0,
+        "middle east respiratory syndrome": 0.0
+    },
+    "species": [
+        "Chlamydia pneumoniae",
+        "Mycoplasma pneumoniae"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> A cluster of cases of atypical pneumonia with unknown etiology in Wuhan, China attracted global attention towards the end of 2019 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors tracked two active medical social media sites (ProMED [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] and Flutracker [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]) that collected reports of the non\u2010virological characteristics of the outbreak as it progressed.",
+        "These characteristics were basic observations from the outbreak and do not necessarily represent the features that were causing symptoms",
+        "<h2 style=\"display: inline\">Results:</h2> The authors show temporal changes in estimates of the probability that the ongoing outbreak is driven by each candidate pathogen in Figure 1.",
+        "Because the only information on 30 December 2019 was that cases had symptoms of atypical pneumonia, the distances between the ongoing outbreak and the eleven known pathogens were all zero; all eleven candidate pathogens initially showed an identical probability of 8.3% (i.e., 1/12, when the possibility of Disease X is accounted for).",
+        "If no further information had become available during the outbreak, other than the gradual ruling out of candidate pathogens through laboratory tests, the inferred uninformative probability for each candidate pathogen would have been given by the dotted gray lines in Figure 1.",
+        "Note that the probability corresponding to different pathogens can be identical, for example, severe acute respiratory syndrome (SARS) and Mycoplasma pneumoniae were assessing as being likely as the causative pathogen from 30 December to 4",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors showed how the outbreak of pneumonia cases in Wuhan was assessed in early January 2020 as being caused by a novel pathogen.",
+        "This was demonstrated using a series of clinical, occupational, and behavioral observations extracted from fragmented reports describing the cases as these reports became available in real time [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+        "Disease X was inferred to be very likely on all dates from 31 December 2019 onwards\u2014the date on which descriptions of outbreak characteristics began to emerge"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A cluster of cases of atypical pneumonia with unknown etiology in Wuhan, China attracted global attention towards the end of 2019 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]."
+        ],
+        "Methods": [
+            "The authors tracked two active medical social media sites (ProMED [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] and Flutracker [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]) that collected reports of the non\u2010virological characteristics of the outbreak as it progressed.",
+            "These characteristics were basic observations from the outbreak and do not necessarily represent the features that were causing symptoms"
+        ],
+        "Results": [
+            "The authors show temporal changes in estimates of the probability that the ongoing outbreak is driven by each candidate pathogen in Figure 1.",
+            "Because the only information on 30 December 2019 was that cases had symptoms of atypical pneumonia, the distances between the ongoing outbreak and the eleven known pathogens were all zero; all eleven candidate pathogens initially showed an identical probability of 8.3% (i.e., 1/12, when the possibility of Disease X is accounted for).",
+            "If no further information had become available during the outbreak, other than the gradual ruling out of candidate pathogens through laboratory tests, the inferred uninformative probability for each candidate pathogen would have been given by the dotted gray lines in Figure 1.",
+            "Note that the probability corresponding to different pathogens can be identical, for example, severe acute respiratory syndrome (SARS) and Mycoplasma pneumoniae were assessing as being likely as the causative pathogen from 30 December to 4"
+        ],
+        "Conclusion": [
+            "The authors showed how the outbreak of pneumonia cases in Wuhan was assessed in early January 2020 as being caused by a novel pathogen.",
+            "This was demonstrated using a series of clinical, occupational, and behavioral observations extracted from fragmented reports describing the cases as these reports became available in real time [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+            "Disease X was inferred to be very likely on all dates from 31 December 2019 onwards\u2014the date on which descriptions of outbreak characteristics began to emerge"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "1._0000_a",
+            "entry": "1. Wuhan Municipal Health Commission. Wuhan Municipal Health Commission\u2019s Briefing on the Current Pneumonia Epidemic. Available online: http://wjw.wuhan.gov.cn/front/web/showDetail/2019123108989 (accessed on 14 January 2020).",
+            "url": "http://wjw.wuhan.gov.cn/front/web/showDetail/2019123108989"
+        },
+        {
+            "id": "2",
+            "alt_id": "Organization_0000_a",
+            "entry": "2. World Health Organization. WHO Statement Regarding Cluster of Pneumonia Cases in Wuhan, China. Available online: https://www.who.int/china/news/detail/09\u201001\u20102020\u2010who\u2010statement\u2010regarding\u2010cluster\u2010of\u2010 pneumonia\u2010cases\u2010in\u2010wuhan\u2010china (accessed on 14 January 2020).",
+            "url": "https://www.who.int/china/news/detail/09\u201001\u20102020\u2010who\u2010statement\u2010regarding\u2010cluster\u2010of\u2010"
+        },
+        {
+            "id": "3",
+            "alt_id": "3._0000_b",
+            "entry": "3. Wuhan Municipal Health Commission. Wuhan Municipal Health and Health Committee\u2019s Report on Unexplained Viral Pneumonia. Available online: http://wjw.wuhan.gov.cn/front/web/showDetail/20200103 09017 (accessed on 14 January 2020).",
+            "url": "http://wjw.wuhan.gov.cn/front/web/showDetail/20200103"
+        },
+        {
+            "id": "4",
+            "alt_id": "Normile_0000_a",
+            "entry": "4. Normile, D. Novel Human Virus? Pneumonia Cases Linked to Seafood Market in China Stir Concern. Available online: https://www.sciencemag.org/news/2020/01/novel\u2010human\u2010virus\u2010pneumonia\u2010cases\u2010linked\u2010 seafood\u2010market\u2010china\u2010stir\u2010concern, doi:10.1126/science.aba7672 (accessed on 14 January 2020).",
+            "crossref": "https://dx.doi.org/10.1126/science.aba7672",
+            "scite": "https://scite.ai/reports/10.1126/science.aba7672"
+        },
+        {
+            "id": "5",
+            "alt_id": "Normile_0000_b",
+            "entry": "5. Normile, D. Mystery Virus Found in Wuhan Resembles Bat Viruses but Not SARS, Chinese Scientist Says. Available online: https://www.sciencemag.org/news/2020/01/mystery\u2010virus\u2010found\u2010wuhan\u2010resembles\u2010bat \u2010viruses\u2010not\u2010sars\u2010chinese\u2010scientist\u2010says (accessed on 14 January 2020).",
+            "url": "https://www.sciencemag.org/news/2020/01/mystery\u2010virus\u2010found\u2010wuhan\u2010resembles\u2010bat",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Normile%2C%20D.%20Mystery%20Virus%20Found%20in%20Wuhan%20Resembles%20Bat%20Viruses%20but%20Not%20SARS%2C%20Chinese%20Scientist%20Says",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Normile%2C%20D.%20Mystery%20Virus%20Found%20in%20Wuhan%20Resembles%20Bat%20Viruses%20but%20Not%20SARS%2C%20Chinese%20Scientist%20Says"
+        },
+        {
+            "id": "6",
+            "alt_id": "6._0000_c",
+            "entry": "6. European Centers for Disease Control and Prevention. Pneumonia Cases Possibly Associated with a Novel Coronavirus in Wuhan, China. Available online: https://www.ecdc.europa.eu/en/publications\u2010data/pneumonia\u2010cases\u2010possibly\u2010associated\u2010novel\u2010coronavirus\u2010wuhan\u2010china (accessed on 14 January 2020).",
+            "url": "https://www.ecdc.europa.eu/en/publications\u2010data/pneumonia\u2010cases\u2010possibly\u2010associated\u2010novel\u2010coronavirus\u2010wuhan\u2010china"
+        },
+        {
+            "id": "7",
+            "alt_id": "Li_et+al_0000_a",
+            "entry": "7. Li, Q.; Guan, X.; Wu, P.; Wang, X.; Zhou, L.; Tong, Y.; Ren, R.; Leung, K.S.M.; Lau, E.H.Y.; Wong, J.Y.; et al. Early transmission dynamics in Wuhan, China, of novel coronavirus\u2010infected pneumonia. N. Engl. J. Med. 2020, doi:10.1056/NEJMoa2001316.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "8",
+            "alt_id": "Gorbalenya_et+al_0000_a",
+            "entry": "8. Gorbalenya, A.E.; Baker, S.C.; Baric, R.S.; de Groot, R.J.; Drosten, C.; Gulyaeva, A.A.; Haagmans, B.L.; Lauber, C.; Leontovich, A.M.; Neuman, B.W.; et al. Severe Acute Respiratory Syndrome\u2010Related Coronavirus: The Species and Its Viruses\u2014A Statement of the Coronavirus Study Group. Available online: https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1 (accessed on 18 February 2020).",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1"
+        },
+        {
+            "id": "9",
+            "alt_id": "9._2020_a",
+            "entry": "9. ProMED. Available online: https://promedmail.org/ (accessed on 14 January 2020).",
+            "url": "https://promedmail.org/"
+        },
+        {
+            "id": "10",
+            "alt_id": "10._0000_d",
+            "entry": "10. Flutracker. Available online: https://flutrackers.com/forum/forum/china\u2010other\u2010health\u2010threats/china \u2010emerging\u2010diseases\u2010other\u2010health\u2010threats/821830\u2010china\u201041\u2010diagnosed\u2010viral\u2010pneumonia\u2010coronavirus\u2010cases\u2010in \u2010wuhan\u2010hubei\u2010province\u2010december\u201030\u20102019\u20101\u2010fatal\u2010case\u2010739\u2010screened\u2010so\u2010far\u2010including\u2010419\u2010hcw (accessed on 14 January 2020).",
+            "url": "https://flutrackers.com/forum/forum/china\u2010other\u2010health\u2010threats/china"
+        },
+        {
+            "id": "11",
+            "alt_id": "Nishiura_et+al_2012_a",
+            "entry": "11. Nishiura, H.; Mizumoto, K.; Ejima, K.; Zhong, Y.; Cowling, B.; Omori, R. Incubation period as part of the case definition of severe respiratory illness caused by a novel coronavirus. Euro. Surveill. 2012, 17, 20296.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%2C%20H.%20Mizumoto%2C%20K.%20Ejima%2C%20K.%20Zhong%2C%20Y.%20Incubation%20period%20as%20part%20of%20the%20case%20definition%20of%20severe%20respiratory%20illness%20caused%20by%20a%20novel%20coronavirus%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%2C%20H.%20Mizumoto%2C%20K.%20Ejima%2C%20K.%20Zhong%2C%20Y.%20Incubation%20period%20as%20part%20of%20the%20case%20definition%20of%20severe%20respiratory%20illness%20caused%20by%20a%20novel%20coronavirus%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%2C%20H.%20Mizumoto%2C%20K.%20Ejima%2C%20K.%20Zhong%2C%20Y.%20Incubation%20period%20as%20part%20of%20the%20case%20definition%20of%20severe%20respiratory%20illness%20caused%20by%20a%20novel%20coronavirus%202012"
+        },
+        {
+            "id": "12",
+            "alt_id": "Ejima_et+al_2014_a",
+            "entry": "12. Ejima, K.; Aihara, K.; Nishiura, H. Probabilistic differential diagnosis of Middle East respiratory syndrome (MERS) using the time from immigration to illness onset among imported cases. J. Theor. Biol. 2014, 346, 47\u2013 53.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ejima%2C%20K.%20Aihara%2C%20K.%20Nishiura%2C%20H.%20Probabilistic%20differential%20diagnosis%20of%20Middle%20East%20respiratory%20syndrome%20%28MERS%29%20using%20the%20time%20from%20immigration%20to%20illness%20onset%20among%20imported%20cases%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ejima%2C%20K.%20Aihara%2C%20K.%20Nishiura%2C%20H.%20Probabilistic%20differential%20diagnosis%20of%20Middle%20East%20respiratory%20syndrome%20%28MERS%29%20using%20the%20time%20from%20immigration%20to%20illness%20onset%20among%20imported%20cases%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ejima%2C%20K.%20Aihara%2C%20K.%20Nishiura%2C%20H.%20Probabilistic%20differential%20diagnosis%20of%20Middle%20East%20respiratory%20syndrome%20%28MERS%29%20using%20the%20time%20from%20immigration%20to%20illness%20onset%20among%20imported%20cases%202014"
+        },
+        {
+            "id": "13",
+            "alt_id": "Krauer_et+al_2017_a",
+            "entry": "13. Krauer, F.; Riesen, M.; Reveiz, L.; Oladapo, O.T.; Martinez\u2010Vega, R.; Porgo, T.V.; Haefliger, A.; Broutet, N.J.; Low, N.; WHO Zika Causality Working Group. Zika virus infection as a cause of congenital brain abnormalities and guillain\u2010barre syndrome: Systematic review. PLoS Med. 2017, 14, e1002203.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Krauer%2C%20F.%20Riesen%2C%20M.%20Reveiz%2C%20L.%20Oladapo%2C%20O.T.%20WHO%20Zika%20Causality%20Working%20Group.%20Zika%20virus%20infection%20as%20a%20cause%20of%20congenital%20brain%20abnormalities%20and%20guillain%E2%80%90barre%20syndrome%3A%20Systematic%20review%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Krauer%2C%20F.%20Riesen%2C%20M.%20Reveiz%2C%20L.%20Oladapo%2C%20O.T.%20WHO%20Zika%20Causality%20Working%20Group.%20Zika%20virus%20infection%20as%20a%20cause%20of%20congenital%20brain%20abnormalities%20and%20guillain%E2%80%90barre%20syndrome%3A%20Systematic%20review%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Krauer%2C%20F.%20Riesen%2C%20M.%20Reveiz%2C%20L.%20Oladapo%2C%20O.T.%20WHO%20Zika%20Causality%20Working%20Group.%20Zika%20virus%20infection%20as%20a%20cause%20of%20congenital%20brain%20abnormalities%20and%20guillain%E2%80%90barre%20syndrome%3A%20Systematic%20review%202017"
+        },
+        {
+            "id": "14",
+            "alt_id": "Nishiura_et+al_2019_a",
+            "entry": "14. Nishiura, H.; Linton, N.M.; Akhmetzhanov, A.R. Initial cluster of novel coronavirus (2019\u2010nCoV) infections in Wuhan, China is consistent with substantial human\u2010to\u2010human transmission. J. Clin. Med. 2020, 9, 488.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%20H%20Linton%20NM%20Akhmetzhanov%20AR%20Initial%20cluster%20of%20novel%20coronavirus%202019nCoV%20infections%20in%20Wuhan%20China%20is%20consistent%20with%20substantial%20humantohuman%20transmission%20J%20Clin%20Med%202020%209%20488",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%20H%20Linton%20NM%20Akhmetzhanov%20AR%20Initial%20cluster%20of%20novel%20coronavirus%202019nCoV%20infections%20in%20Wuhan%20China%20is%20consistent%20with%20substantial%20humantohuman%20transmission%20J%20Clin%20Med%202020%209%20488",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%20H%20Linton%20NM%20Akhmetzhanov%20AR%20Initial%20cluster%20of%20novel%20coronavirus%202019nCoV%20infections%20in%20Wuhan%20China%20is%20consistent%20with%20substantial%20humantohuman%20transmission%20J%20Clin%20Med%202020%209%20488"
+        },
+        {
+            "id": "15",
+            "alt_id": "Huang_et+al_2019_a",
+            "entry": "15. Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X.; et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020, doi:10.1016/S0140\u20106736(20)30183\u20105.",
+            "crossref": "https://dx.doi.org/10.1016/S0140\u20106736(20)30183\u20105",
+            "scite": "https://scite.ai/reports/10.1016/S0140\u20106736(20)30183\u20105"
+        },
+        {
+            "id": "16",
+            "alt_id": "Thompson_2019_a",
+            "entry": "16. Thompson, R.N. Pandemic potential of 2019\u2010nCoV. Lancet Infect. Dis. 2020, doi:10.1016/S1473\u20103099(20)30068\u20102.",
+            "crossref": "https://dx.doi.org/10.1016/S1473\u20103099(20)30068\u20102",
+            "scite": "https://scite.ai/reports/10.1016/S1473\u20103099(20)30068\u20102"
+        },
+        {
+            "id": "17",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "17. Wu, J.T.; Leung, K.; Leung, G.M. Nowcasting and forecasting the potential domestic and international spread of the 2019\u2010nCoV outbreak originating in Wuhan, China: A modelling study. Lancet 2020, doi:10.1016/S0140\u20106736.",
+            "crossref": "https://dx.doi.org/10.1016/S0140\u20106736",
+            "scite": "https://scite.ai/reports/10.1016/S0140\u20106736"
+        },
+        {
+            "id": "18",
+            "alt_id": "Jung_et+al_0000_a",
+            "entry": "18. Jung, S.\u2010M.; Akhmetzhanov, A.R.; Hayashi, K.; Linton, N.M.; Yang, Y.; Yuan, B.; Kobayashi, T.; Kinoshita, R.; Nishiura, H. Real\u2010time estimation of the risk of death from novel coronavirus (COVID\u201019) infection: Inference using exported cases. J. Clin. Med. 2020, 9, 523.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jung%2C%20S.%E2%80%90M.%20Akhmetzhanov%2C%20A.R.%20Hayashi%2C%20K.%20Linton%2C%20N.M.%20Real%E2%80%90time%20estimation%20of%20the%20risk%20of%20death%20from%20novel%20coronavirus%20%28COVID%E2%80%9019%29%20infection%3A%20Inference%20using%20exported%20cases",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jung%2C%20S.%E2%80%90M.%20Akhmetzhanov%2C%20A.R.%20Hayashi%2C%20K.%20Linton%2C%20N.M.%20Real%E2%80%90time%20estimation%20of%20the%20risk%20of%20death%20from%20novel%20coronavirus%20%28COVID%E2%80%9019%29%20infection%3A%20Inference%20using%20exported%20cases",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jung%2C%20S.%E2%80%90M.%20Akhmetzhanov%2C%20A.R.%20Hayashi%2C%20K.%20Linton%2C%20N.M.%20Real%E2%80%90time%20estimation%20of%20the%20risk%20of%20death%20from%20novel%20coronavirus%20%28COVID%E2%80%9019%29%20infection%3A%20Inference%20using%20exported%20cases"
+        },
+        {
+            "id": "19",
+            "alt_id": "Thompson_2020_b",
+            "entry": "19. Thompson, R.N. Novel coronavirus outbreak in Wuhan, China, 2020: Intense surveillance is vital for preventing sustained transmission in new locations. J. Clin. Med. 2020, 9, 498.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thompson%20RN%20Novel%20coronavirus%20outbreak%20in%20Wuhan%20China%202020%20Intense%20surveillance%20is%20vital%20for%20preventing%20sustained%20transmission%20in%20new%20locations%20J%20Clin%20Med%202020%209%20498",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thompson%20RN%20Novel%20coronavirus%20outbreak%20in%20Wuhan%20China%202020%20Intense%20surveillance%20is%20vital%20for%20preventing%20sustained%20transmission%20in%20new%20locations%20J%20Clin%20Med%202020%209%20498",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thompson%20RN%20Novel%20coronavirus%20outbreak%20in%20Wuhan%20China%202020%20Intense%20surveillance%20is%20vital%20for%20preventing%20sustained%20transmission%20in%20new%20locations%20J%20Clin%20Med%202020%209%20498"
+        },
+        {
+            "id": "20",
+            "alt_id": "Tang_et+al_2019_a",
+            "entry": "20. Tang, B.; Wang, X.; Li, Q.; Bragazzi, N.L.; Tang, S.; Xiao, Y.; Wu, J. Estimation of the transmission risk of the 2019\u2010nCoV and its implication for public health interventions. J. Clin. Med. 2020, 9, 462. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tang%20B%20Wang%20X%20Li%20Q%20Bragazzi%20NL%20Tang%20S%20Xiao%20Y%20Wu%20J%20Estimation%20of%20the%20transmission%20risk%20of%20the%202019nCoV%20and%20its%20implication%20for%20public%20health%20interventions%20J%20Clin%20Med%202020%209%20462",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tang%20B%20Wang%20X%20Li%20Q%20Bragazzi%20NL%20Tang%20S%20Xiao%20Y%20Wu%20J%20Estimation%20of%20the%20transmission%20risk%20of%20the%202019nCoV%20and%20its%20implication%20for%20public%20health%20interventions%20J%20Clin%20Med%202020%209%20462",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tang%20B%20Wang%20X%20Li%20Q%20Bragazzi%20NL%20Tang%20S%20Xiao%20Y%20Wu%20J%20Estimation%20of%20the%20transmission%20risk%20of%20the%202019nCoV%20and%20its%20implication%20for%20public%20health%20interventions%20J%20Clin%20Med%202020%209%20462"
+        }
+    ],
+    "facts": [
+        "that non-virological descriptive characteristics could have determined that the outbreak is caused by a novel pathogen",
+        "Characteristics of the ongoing outbreak were collected in real time from two medical social media sites",
+        "this estimate was updated as the outbreak continued",
+        "the inferred probability of Disease X was over 49%",
+        "quantitatively that the emerging outbreak of atypical pneumonia cases is consistent with causation by a novel pathogen",
+        "the coronaviruses associated with Middle East respiratory syndrome",
+        "the causative agent was suspected to be a coronavirus of non\u2010human origin",
+        "The coronavirus was subsequently found to be a relative of SARS",
+        "Our analysis began on 30 December",
+        "show temporal changes in estimates of the probability that the ongoing outbreak is driven by each candidate pathogen in Figure 1",
+        "Because the only information on 30 December 2019 was that cases had symptoms of atypical pneumonia",
+        "all eleven candidate pathogens initially showed an identical probability of 8.3%",
+        "If no further information had become available during the outbreak",
+        "the inferred uninformative probability for each candidate pathogen would have been given by the dotted gray lines in Figure 1",
+        "Dashed grey lines show the probability for every pathogen if the only information included is the ruling out",
+        "that the probability corresponding to different pathogens can be identical",
+        "Mycoplasma pneumoniae were assessing as being likely as the causative pathogen from 30 December",
+        "additional characteristics of the ongoing outbreak were observed on 31 December",
+        "the outbreak of pneumonia cases in Wuhan was assessed in early January 2020",
+        "behavioral observations extracted from fragmented reports describing the cases as these reports became available in real time",
+        "virological investigation is the gold standard for pathogen identification",
+        "a novel coronavirus that is a relative of SARS",
+        "the provisional identification of a novel coronavirus was performed on 7 January 2020",
+        "that non\u2010virological information can indicate that the cause of the outbreak is likely to be a novel pathogen",
+        "that this conclusion was obtained before virological test results were announced",
+        "Disease X was inferred to be very likely on all dates from 31 December 2019",
+        "Note that the probability corresponding to different pathogens can be identical",
+        "that non\u2010virological descriptive characteristics could have determined that the outbreak is caused by a novel pathogen",
+        "that non\u2010virological information can lead to an objective classification of Disease X",
+        "quantitative estimates depend on the precise characteristics"
+    ],
+    "claims": [
+        "We demonstrate that non-virological descriptive characteristics could have determined that the outbreak is caused by a novel pathogen in advance of virological testing",
+        "We demonstrate that non\u2010virological descriptive characteristics could have determined that the outbreak is caused by a novel pathogen in advance of virological testing",
+        "We showed quantitatively that the emerging outbreak of atypical pneumonia cases is consistent with causation by a novel pathogen",
+        "The present study addresses this, demonstrating that non\u2010virological information can lead to an objective classification of Disease X, using a simple statistical model that exploits the well\u2010known Bayes\u2019",
+        "We show temporal changes in estimates of the probability that the ongoing outbreak is driven by each candidate pathogen in Figure 1",
+        "In this analysis, we showed how the outbreak of pneumonia cases in Wuhan was assessed in early January 2020 as being caused by a novel pathogen",
+        "We have shown that non\u2010virological information can indicate that the cause of the outbreak is likely to be a novel pathogen (\u201cDisease X\u201d), and that this conclusion was obtained before virological test results were announced",
+        "As we have shown, quantitative estimates depend on the precise characteristics that are used",
+        "We showed results including and not including information on wet market exposure",
+        "In the present study, we have shown that such assessments can be made quantitatively using a simple statistical model, allowing for comparisons between the possible causative agents among different candidates"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We demonstrate that non\u2010virological descriptive characteristics could have determined that the outbreak is caused by a novel pathogen in advance of virological testing",
+        "We showed quantitatively that the emerging outbreak of atypical pneumonia cases is consistent with causation by a novel pathogen",
+        "An impressive series of rapid virological examinations ruled out common pneumonia\u2010causing viruses such as influenza viruses, adenoviruses, and the coronaviruses associated with Middle East respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS)",
+        "The coronavirus was subsequently found to be a relative of severe acute respiratory syndrome and named the severe acute respiratory syndrome coronavirus 2 (SARS\u2010CoV\u20102) [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]",
+        "The present study addresses this, demonstrating that non\u2010virological information can lead to an objective classification of Disease X, using a simple statistical model that exploits the well\u2010known Bayes\u2019",
+        "We show temporal changes in estimates of the probability that the ongoing outbreak is driven by each candidate pathogen in Figure 1",
+        "Because the only information on 30 December 2019 was that cases had symptoms of atypical pneumonia, the distances between the ongoing outbreak and the eleven known pathogens were all zero; all eleven candidate pathogens initially showed an identical probability of 8.3% (i.e., 1/12, when the possibility of Disease X is accounted for)",
+        "Additional characteristics of the ongoing outbreak were observed on 31 December",
+        "We showed how the outbreak of pneumonia cases in Wuhan was assessed in early January 2020 as being caused by a novel pathogen",
+        "This was demonstrated using a series of clinical, occupational, and behavioral observations extracted from fragmented reports describing the cases as these reports became available in real time [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]",
+        "Virological investigation is the gold standard for pathogen identification, and the virus has been confirmed to be a novel coronavirus that is a relative of severe acute respiratory syndrome, laboratory\u2010based outcomes can only be obtained after successfully sequencing the novel virus, which can sometimes be a lengthy process",
+        "The provisional identification of a novel coronavirus was performed on 7 January 2020 and announced formally on 9 January 2020 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "We have shown that non\u2010virological information can indicate that the cause of the outbreak is likely to be a novel pathogen (\u201cDisease X\u201d), and that this conclusion was obtained before virological test results were announced",
+        "Disease X was inferred to be very likely on all dates from 31 December 2019 onwards\u2014the date on which descriptions of outbreak characteristics began to emerge"
+    ],
+    "top_statements": [
+        "A cluster of cases of atypical pneumonia with unknown etiology in Wuhan, China attracted global attention towards the end of 2019 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "Because the only information on 30 December 2019 was that cases had symptoms of atypical pneumonia, the distances between the ongoing outbreak and the eleven known pathogens were all zero; all eleven candidate pathogens initially showed an identical probability of 8.3% (i.e., 1/12, when the possibility of Disease X is accounted for)",
+        "We showed how the outbreak of pneumonia cases in Wuhan was assessed in early January 2020 as being caused by a novel pathogen",
+        "Virological investigation is the gold standard for pathogen identification, and the virus has been confirmed to be a novel coronavirus that is a relative of severe acute respiratory syndrome, laboratory\u2010based outcomes can only be obtained after successfully sequencing the novel virus, which can sometimes be a lengthy process",
+        "The provisional identification of a novel coronavirus was performed on 7 January 2020 and announced formally on 9 January 2020 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "We have shown that non\u2010virological information can indicate that the cause of the outbreak is likely to be a novel pathogen (\u201cDisease X\u201d), and that this conclusion was obtained before virological test results were announced"
+    ],
+    "headline": "We have shown that non\u2010virological information can indicate that the cause of the outbreak is likely to be a novel pathogen, and that this conclusion was obtained before virological test results were announced",
+    "contexts": [],
+    "abbreviations": {
+        "MERS": "Middle East respiratory syndrome",
+        "SARS": "severe acute respiratory syndrome",
+        "HPAI": "highly pathogenic avian influenza",
+        "RSV": "respiratory syncytial virus",
+        "JST": "Japan Science and Technology Agency"
+    }
+}

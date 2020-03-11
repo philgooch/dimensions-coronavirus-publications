@@ -1,0 +1,560 @@
+{
+    "filename": "2020.01.31.929547.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 238049,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.01.31.929547",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/02/2020.01.31.929547.full.pdf"
+        },
+        "title": "Predicting commercially available antiviral drugs that may act on the novel coronavirus (2019-nCoV), Wuhan, China through a drug-target interaction deep learning model",
+        "author": "Bo Ram Beck, Bonggun Shin, Yoonjung Choi, Sungsoo Park, Keunsoo Kang",
+        "date": 2020,
+        "affiliations": [
+            "Department of Computer Science, Emory University, Atlanta, GA, United States",
+            "Department of Microbiology, College of Natural Sciences, Dankook University, Cheonan, Republic of Korea",
+            "Correspondences: K. Kang: kang1204@dankook.ac.kr, S. Park: sspark@deargen.me",
+            "National Center for Biotechnology Information (NCBI) database. The raw prediction results were screened for antiviral drugs that are FDA approved, target viral proteins, and have a Kd value less than 1,000 nM."
+        ],
+        "abstract": "The infection of a novel coronavirus found in Wuhan of China (2019-nCoV) is rapidly spreading, and the incidence rate is increasing worldwide. Due to the lack of effective treatment options for 2019-nCoV, various strategies are being tested in China, including drug repurposing. In this study, we used our pretrained deep learning-based drug-target interaction model called Molecule Transformer-Drug Target Interaction (MT-DTI) to identify commercially available drugs that could act on viral proteins of 2019-nCoV. The result showed that atazanavir, an antiretroviral medication used to treat and prevent the human immunodeficiency virus (HIV), is the best chemical compound, showing a inhibitory potency with Kd of 94.94 nM against the 2019-nCoV 3C-like proteinase, followed by efavirenz (199.17 nM), ritonavir (204.05 nM), and dolutegravir (336.91 nM). Interestingly, lopinavir, ritonavir, and darunavir are all designed to target viral proteinases. However, in our prediction, they may also bind to the replication complex components of 2019-nCoV with an inhibitory potency with Kd &lt; 1000 nM. In addition, we also found that several antiviral agents, such as Kaletra, could be used for the treatment of 2019-nCoV, although there is no real-world evidence supporting the prediction. Overall, we suggest that the list of antiviral drugs identified by the MT-DTI model should be considered, when establishing effective treatment strategies for 2019-nCoV.",
+        "references": "@article{cavanagh2007a,\n  author = {Cavanagh, D.},\n  title = {Coronavirus avian infectious bronchitis virus},\n  journal = {Veterinary research},\n  date = {2007},\n  volume = {38},\n  pages = {281\u201397},\n  language = {}\n}\n@misc{lim2016a,\n  author = {Lim, Y.X. and Ng, Y.L. and Tam, J.P. and Liu, D.X.},\n  title = {Human coronaviruses: a review of virus-host interactions. Diseases},\n  date = {2016},\n  volume = {4},\n  number = {3},\n  language = {}\n}\n@misc{weiss2011a,\n  author = {Weiss, SR, Leibowitz and J.L.},\n  title = {Coronavirus pathogenesis. Adv Virus Res},\n  date = {2011},\n  volume = {81},\n  pages = {85\u2013164},\n  language = {}\n}\n@misc{woo2010a,\n  author = {Woo, P.C. and Huang, Y. and Lau, S.K. and Yuen, K.Y.},\n  title = {Coronavirus genomics and bioinformatics analysis. Viruses},\n  date = {2010},\n  volume = {2},\n  pages = {1804\u201320},\n  language = {}\n}\n@article{kuiken2003a,\n  author = {Kuiken, T. and Fouchier, R.A. and Schutten, M. and Rimmelzwaan, G.F. and van Amerongen, G. and van Riel, D.},\n  title = {Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome},\n  journal = {Lancet},\n  date = {2003},\n  volume = {362},\n  pages = {263\u201370},\n  more-authors = {true},\n  language = {}\n}\n@article{zaki2012a,\n  author = {Zaki, A.M. and van Boheemen, S. and Bestebroer, T.M. and Osterhaus, A.D. and Fouchier, R.A.},\n  title = {Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia},\n  journal = {N Engl J Med},\n  date = {2012},\n  volume = {367},\n  pages = {1814\u201320},\n  language = {}\n}\n@misc{w2003a,\n  author = {W.H.O.},\n  title = {Summary of probable SARS cases with oneset of illness from 1 November 2002 to},\n  date = {2003-07-31},\n  url = {(https://wwwwhoint/csr/sars/country/table2004_04_21/en/).2020.},\n  language = {}\n}\n@misc{w2019a,\n  author = {W.H.O.},\n  title = {Middle East respiratory syndrome coronavirus},\n  date = {2019-11},\n  url = {(http://wwwwhoint/emergencies/mers-cov/en/).2020.},\n  language = {}\n}\n@article{li2020a,\n  author = {Li, Q. and Guan, X. and Wu, P. and Wang, X. and Zhou, L. and Tong, Y.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia},\n  journal = {N Engl J Med},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{shin2019a,\n  author = {Shin, B. and Park, S. and Kang, K. and Ho, J.C.},\n  title = {Self-attention based molecule representation for predicting drug-target interaction},\n  journal = {Proceedings of Machine Learning Research},\n  date = {2019},\n  volume = {106},\n  pages = {230\u201348},\n  language = {}\n}\n@article{tanoli2018a,\n  author = {Tanoli, Z. and Alam, Z. and Vaha-Koskela, M. and Ravikumar, B. and Malyutina, A. and Jaiswal, A.},\n  journal = {Drug Target Database (Oxford)},\n  date = {2018},\n  pages = {1\u201313},\n  more-authors = {true}\n}\n@article{liu2007a,\n  author = {Liu, T. and Lin, Y. and Wen, X. and Jorissen, R.N. and Gilson, M.K.},\n  title = {BindingDB: a web-accessible database of experimentally determined protein-ligand binding affinities},\n  journal = {Nucleic Acids Res},\n  date = {2007},\n  volume = {35},\n  pages = {198\u2013201},\n  language = {}\n}\n@article{paolini2006a,\n  author = {Paolini, G.V. and Shapland, R.H. and van Hoorn, W.P. and Mason, J.S. and Hopkins, A.L.},\n  title = {Global mapping of pharmacological space},\n  journal = {Nat Biotechnol},\n  date = {2006},\n  volume = {24},\n  pages = {805\u201315},\n  number = {7},\n  language = {}\n}\n@article{dayer2017a,\n  author = {Dayer, M.R. and Taleb-Gassabi, S. and Dayer, M.S.},\n  title = {Lopinavir; a potent drug against coronavirus Infection: insight from molecular docking study. Archives of Clinical Infectious Diseases},\n  date = {2017},\n  volume = {12},\n  pages = \"e13823.\" # \"523-34.\",\n  editor = {de Wit E and van Doremalen N and D, Falzarano and SARS, Munster V.J.},\n  journal = {Nat Rev Microbiol},\n  source = {and MERS: recent insights into emerging coronaviruses},\n  unmatched-volume = {14:},\n  unmatched-pages = {523-34.},\n  language = {}\n}\n@incollection{s-a,\n  author = {S, Hopkins J.S.U.},\n  title = {drugmakers ship therapies to China, seeking to treat coronavirus},\n  source = {The Wall Street Journal. 2020.},\n  language = {}\n}\n@article{chu2004a,\n  author = {Chu, C.M. and Cheng, V.C. and Hung, I.F. and Wong, M.M. and Chan, K.H. and Chan, K.S.},\n  title = {Role of lopinavir/ritonavir in the treatment of SARS: initial virological and clinical findings},\n  journal = {Thorax},\n  date = {2004},\n  volume = {59},\n  pages = {252\u20136},\n  more-authors = {true},\n  number = {3},\n  language = {}\n}\n",
+        "links": [
+            "http://wwwwhoint/emergencies/mers-cov/en/",
+            "https://wwwwhoint/csr/sars/country/table2004_04_21/en/"
+        ],
+        "emails": [
+            "sspark@deargen.me",
+            "kang1204@dankook.ac.kr"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Cavanagh, D.\nTI  - Coronavirus avian infectious bronchitis virus\nT2  - Veterinary research\nPY  - 2007\nDA  - 2007\nVL  - 38\nSP  - 281\nEP  - 97\nLA  - \nER  - \n\nTY  - GEN\nAU  - Lim, Y.X.\nAU  - Ng, Y.L.\nAU  - Tam, J.P.\nAU  - Liu, D.X.\nTI  - Human coronaviruses: a review of virus-host interactions. Diseases\nPY  - 2016\nDA  - 2016\nVL  - 4\nIS  - 3\nLA  - \nER  - \n\nTY  - GEN\nAU  - Weiss, SR, Leibowitz\nAU  - J.L.\nTI  - Coronavirus pathogenesis. Adv Virus Res\nPY  - 2011\nDA  - 2011\nVL  - 81\nSP  - 85\nEP  - 164\nLA  - \nER  - \n\nTY  - GEN\nAU  - Woo, P.C.\nAU  - Huang, Y.\nAU  - Lau, S.K.\nAU  - Yuen, K.Y.\nTI  - Coronavirus genomics and bioinformatics analysis. Viruses\nPY  - 2010\nDA  - 2010\nVL  - 2\nSP  - 1804\nEP  - 20\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kuiken, T.\nAU  - Fouchier, R.A.\nAU  - Schutten, M.\nAU  - Rimmelzwaan, G.F.\nAU  - van Amerongen, G.\nAU  - van Riel, D.\nTI  - Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome\nT2  - Lancet\nPY  - 2003\nDA  - 2003\nVL  - 362\nSP  - 263\nEP  - 70\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zaki, A.M.\nAU  - van Boheemen, S.\nAU  - Bestebroer, T.M.\nAU  - Osterhaus, A.D.\nAU  - Fouchier, R.A.\nTI  - Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia\nT2  - N Engl J Med\nPY  - 2012\nDA  - 2012\nVL  - 367\nSP  - 1814\nEP  - 20\nLA  - \nER  - \n\nTY  - GEN\nAU  - W.H.O.\nTI  - Summary of probable SARS cases with oneset of illness from 1 November 2002 to\nPY  - 2003\nDA  - 2003/07/31\nUR  - (https://wwwwhoint/csr/sars/country/table2004_04_21/en/).2020.\nLA  - \nER  - \n\nTY  - GEN\nAU  - W.H.O.\nTI  - Middle East respiratory syndrome coronavirus\nPY  - 2019\nDA  - 2019/11\nUR  - (http://wwwwhoint/emergencies/mers-cov/en/).2020.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nAU  - Wang, X.\nAU  - Zhou, L.\nAU  - Tong, Y.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shin, B.\nAU  - Park, S.\nAU  - Kang, K.\nAU  - Ho, J.C.\nTI  - Self-attention based molecule representation for predicting drug-target interaction\nT2  - Proceedings of Machine Learning Research\nPY  - 2019\nDA  - 2019\nVL  - 106\nSP  - 230\nEP  - 48\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tanoli, Z.\nAU  - Alam, Z.\nAU  - Vaha-Koskela, M.\nAU  - Ravikumar, B.\nAU  - Malyutina, A.\nAU  - Jaiswal, A.\nT2  - Drug Target Database (Oxford)\nPY  - 2018\nDA  - 2018\nSP  - 1\nEP  - 13\nC1  - true\nER  - \n\nTY  - JOUR\nAU  - Liu, T.\nAU  - Lin, Y.\nAU  - Wen, X.\nAU  - Jorissen, R.N.\nAU  - Gilson, M.K.\nTI  - BindingDB: a web-accessible database of experimentally determined protein-ligand binding affinities\nT2  - Nucleic Acids Res\nPY  - 2007\nDA  - 2007\nVL  - 35\nSP  - 198\nEP  - 201\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Paolini, G.V.\nAU  - Shapland, R.H.\nAU  - van Hoorn, W.P.\nAU  - Mason, J.S.\nAU  - Hopkins, A.L.\nTI  - Global mapping of pharmacological space\nT2  - Nat Biotechnol\nPY  - 2006\nDA  - 2006\nVL  - 24\nSP  - 805\nEP  - 15\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Dayer, M.R.\nAU  - Taleb-Gassabi, S.\nAU  - Dayer, M.S.\nTI  - Lopinavir; a potent drug against coronavirus Infection: insight from molecular docking study. Archives of Clinical Infectious Diseases\nPY  - 2017\nDA  - 2017\nVL  - 12\nSP  - \"e13823.\" # \"523\nEP  - 34.\"\nA2  - de Wit E\nA2  - van Doremalen N\nA2  - D, Falzarano\nA2  - SARS, Munster V.J.\nT2  - Nat Rev Microbiol\nT2  - and MERS: recent insights into emerging coronaviruses\nC1  - 14:\nC1  - 523-34.\nLA  - \nER  - \n\nTY  - CHAP\nAU  - S, Hopkins J.S.U.\nTI  - drugmakers ship therapies to China, seeking to treat coronavirus\nT2  - The Wall Street Journal. 2020.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chu, C.M.\nAU  - Cheng, V.C.\nAU  - Hung, I.F.\nAU  - Wong, M.M.\nAU  - Chan, K.H.\nAU  - Chan, K.S.\nTI  - Role of lopinavir/ritonavir in the treatment of SARS: initial virological and clinical findings\nT2  - Thorax\nPY  - 2004\nDA  - 2004\nVL  - 59\nSP  - 252\nEP  - 6\nC1  - true\nIS  - 3\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Drug-target interaction (DTI) prediction results of FDA approved antviral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) 3C-like proteinase (accession YP_009725301.1). Ritonavir is expressed in canonical and isomeric forms"
+            },
+            {
+                "id": "2",
+                "caption": "Drug-target interaction (DTI) prediction results of antiviral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) RNA-dependent RNA"
+            },
+            {
+                "id": "3",
+                "caption": "Drug-target interaction (DTI) prediction results of antiviral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2)"
+            },
+            {
+                "id": "4",
+                "caption": "Drug-target interaction (DTI) prediction results of anti-viral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) 3'-to-5' exonuclease"
+            },
+            {
+                "id": "5",
+                "caption": "Drug-target interaction (DTI) prediction results of anti-viral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) endoRNAse (accession"
+            },
+            {
+                "id": "6",
+                "caption": "Drug-target interaction (DTI) prediction results of anti-viral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) 2'-O-ribose methyltransferase (accession YP_009725311.1)"
+            }
+        ],
+        "figure_captions": [],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.01.31.929547.full.xlsx"
+    },
+    "sections": {
+        "introduction": [
+            "Coronaviruses (CoVs), belonging to the family Coronaviridae, are positive-sense enveloped RNA viruses and cause infections in birds, mammals, and humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The family includes four genera, such as Alphacoronavirus, Betacoronavirus, Deltacoronavirus, and Gammacoronavirus [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Two infamous infectious coronaviruses in the genus Betacoronavirus are severe acute respiratory syndrome coronavirus (SARS-CoV) [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and Middle East respiratory syndrome coronavirus (MERS-CoV) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], which have infected more than 10,000 people around the world in the past two decades. Unfortunately, the incidence was accompanied by high mortality rates (9.6% for SARS-CoV and 34.4% for MERSCoV), indicating that there is an urgent need for effective treatment at the beginning of the outbreak to prevent the spread [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. However, this cannot be achieved with current drug development or an application system, taking several years for newly developed drugs to come to the market. Unexpectedly, the world is facing the same situation as the previous outbreak due to a recent epidemic of atypical pneumonia caused by a novel coronavirus (2019-nCoV) in Wuhan, China [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>, <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Thus, a rapid drug application strategy that can be immediately applied to the patient is necessary. Currently, the only way to address this matter is to repurpose commercially available drugs for the pathogen in so-called \u201cdrug-repurposing\u201d. However, in theory, artificial intelligence (AI)-based architectures must be taken into account in order to accurately predict drug-target interactions (DTIs). This is because of the enormous amount of complex information (e.g. hydrophobic interactions, ionic interactions, hydrogen bonding, and/or van der Waals forces) between molecules. To this end, we previously developed a deep learning-based drug-target interaction prediction model, called Molecule Transformer-Drug Target Interaction (MT-DTI) [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. In this study, we applied our pre-trained MT-DTI model to identify commercially available antiviral drugs that could potentially disrupt 2019-nCoV\u2019s viral components, such as proteinase, RNA-dependent RNA polymerase, and/or helicase. Since the model utilizes simplified molecular-input line-entry system (SMILES) strings and amino acid (AA) sequences, which are 1D string inputs, it is possible to quickly apply target proteins that do not have experimentally confirmed 3D crystal structures, such as viral proteins of 2019-nCoV. We share a list of top commercially available antiviral drugs that could potentially hinder the multiplication cycle of 2019-nCoV with the hope that effective drugs can be developed based on these AI-proposed drug candidates and act against 2019-nCoV."
+        ],
+        "methods": [
+            "Amino acid sequences used in this study Amino acid sequences of 3C-like proteinase (accession YP_009725301.1), RNA-dependent RNA polymerase (accession YP_009725307.1), helicase (accession YP_009725308.1), 3'-to-5' exonuclease (accession YP_009725309.1), endoRNAse (accession YP_009725310.1), and 2'-O-ribose methyltransferase (accession YP_009725311.1) of the 2019-nCoV replication complex were extracted from the 2019-nCoV whole genome sequence (accession NC_045512.2), from the National Center for Biotechnology Information (NCBI) database. The raw prediction results were screened for antiviral drugs that are FDA approved, target viral proteins, and have a Kd value less than 1,000 nM.<br/><br/>Prediction of drug-target interactions using binding affinity scores Molecule transformer-drug target interaction (MT-DTI) was used to predict binding affinity values between commercially available antiviral drugs and target proteins. Briefly, the natural language processing (NLP) based Bidirectional Encoder Representations from Transformers (BERT) framework is a core algorithm of the model with good performance and robust results in diverse drug-target interaction datasets through pretraining with \u2018chemical language\u2019 SMILES of approximately 1,000,000,000 compounds. To train the model, the Drug Target Common (DTC) database [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] and BindingDB [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>] database were manually curated and combined. Three types of efficacy value, Ki, Kd, and IC50 were integrated by a consistence-score-based averaging algorithm [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] to make the Pearson correlation score over 0.9 in terms of Ki, Kd, and IC50. Since the BindingDB database includes a wide variety of species and target proteins, the MT-DTI model has the potential power to predict interactions between antiviral drugs and 2019-nCoV proteins."
+        ],
+        "results": [
+            "<strong>Results and Discussion</strong><br/><br/>The 2019-nCoV 3C-like proteinase was predicted to bind with atazanavir (Kd 94.94 nM), followed by efavirenz, ritonavir, and other antiviral drugs that have a predicted affinity of Kd > 100 nM potency (Table 1). No other protease inhibitor antiviral drug was found in the Kd < 1,000 nM range. Although there is no real-world evidence about whether these drugs will act as predicted against 2019-nCoV yet, some case studies have been identified. For example, a docking study of lopinavir along with other HIV proteinase inhibitors of the CoV proteinase (PDBID 1UK3) suggests atazanavir and ritonavir, which are listed in the present prediction results, may inhibit the CoV proteinase in line with the inhibitory potency of lopinavir [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. According to the prediction, viral proteinase-targeting drugs were predicted to act more favorably on the viral replication process than viral proteinase through the DTI model (Table 2-6). The results include antiviral drugs other than proteinase inhibitors, such as guanosine analogues (e.g., acyclovir, ganciclovir, and penciclovir), reverse transcriptase inhibitors, and integrase inhibitors. Among the prediction results, atazanavir was predicted to have a potential binding affinity to bind to RNA-dependent RNA polymerase (Kd 21.83 nM), helicase (Kd 25.92 nM), 3'-to-5' exonuclease (Kd 82.36 nM), 2'-O-ribose methyltransferase (Kd of 390 nM), and endoRNAse (Kd 50.32 nM), which suggests that all subunits of the 2019-nCoV replication complex may be inhibited simultaneously by atazanavir (Table 2-6). Also, ganciclovir was predicted to bind to three subunits of the replication complex of the 2019nCoV: RNA-dependent RNA polymerase (Kd 11.91 nM), 3'-to-5' exonuclease (Kd 56.29 nM), and RNA helicase (Kd 108.21 nM). Lopinavir and ritonavir, active materials of AbbVie\u2019s Kaletra, both were predicted to have a potential affinity to 2019-nCoV helicase (Table 3) and are suggested as potential MERS therapeutics [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Recently, approximately $2 million worth of Kaletra doses were donated to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and a previous clinical study of SARS by Chu et al [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] may support this decision [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. Another anti-HIV drug, Prezcobix of Johnson & Johnson, which consists of darunavir and cobicistat, was to be sent to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and darunavir is also predicted to have a Kd of 90.38 nM against 2019nCoV\u2019s helicase (Table 3). However, there was no current supporting literature found for darunavir to be used as a CoV therapeutic."
+        ],
+        "conclusion": [
+            "In many cases, DTI prediction models serve as a tool to repurpose drugs to develop novel usages of existing drugs. However, the application of DTI prediction in the present study may be useful to control unexpected and rapidly spreading infections such SARS-CoV, MERS-CoV, and 2019-nCoV at the frontline of the disease control until better therapeutic measures are developed. Nevertheless, we hope our prediction results may support and helpful to experimental therapy options for China and other countries identified 2019-nCoV infection."
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "The infection of a novel coronavirus found in Wuhan of China (2019-nCoV) is rapidly spreading, and the incidence rate is increasing worldwide. Due to the lack of effective treatment options for 2019-nCoV, various strategies are being tested in China, including drug repurposing. In this study, we used our pretrained deep learning-based drug-target interaction model called Molecule Transformer-Drug Target Interaction (MT-DTI) to identify commercially available drugs that could act on viral proteins of 2019nCoV. The result showed that atazanavir, an antiretroviral medication used to treat and prevent the human immunodeficiency virus (HIV), is the best chemical compound, showing a inhibitory potency with Kd of 94.94 nM against the 2019-nCoV 3C-like proteinase, followed by efavirenz (199.17 nM), ritonavir (204.05 nM), and dolutegravir (336.91 nM). Interestingly, lopinavir, ritonavir, and darunavir are all designed to target viral proteinases. However, in our prediction, they may also bind to the replication complex components of 2019-nCoV with an inhibitory potency with Kd < 1000 nM. In addition, we also found that several antiviral agents, such as Kaletra, could be used for the treatment of 2019-nCoV, although there is no real-world evidence supporting the prediction. Overall, we suggest that the list of antiviral drugs identified by the MT-DTI model should be considered, when establishing effective treatment strategies for 2019-nCoV."
+        ],
+        "Introduction": [
+            "Coronaviruses (CoVs), belonging to the family Coronaviridae, are positive-sense enveloped RNA viruses and cause infections in birds, mammals, and humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The family includes four genera, such as Alphacoronavirus, Betacoronavirus, Deltacoronavirus, and Gammacoronavirus [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Two infamous infectious coronaviruses in the genus Betacoronavirus are severe acute respiratory syndrome coronavirus (SARS-CoV) [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and Middle East respiratory syndrome coronavirus (MERS-CoV) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], which have infected more than 10,000 people around the world in the past two decades. Unfortunately, the incidence was accompanied by high mortality rates (9.6% for SARS-CoV and 34.4% for MERSCoV), indicating that there is an urgent need for effective treatment at the beginning of the outbreak to prevent the spread [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. However, this cannot be achieved with current drug development or an application system, taking several years for newly developed drugs to come to the market. Unexpectedly, the world is facing the same situation as the previous outbreak due to a recent epidemic of atypical pneumonia caused by a novel coronavirus (2019-nCoV) in Wuhan, China [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>, <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Thus, a rapid drug application strategy that can be immediately applied to the patient is necessary. Currently, the only way to address this matter is to repurpose commercially available drugs for the pathogen in so-called \u201cdrug-repurposing\u201d. However, in theory, artificial intelligence (AI)-based architectures must be taken into account in order to accurately predict drug-target interactions (DTIs). This is because of the enormous amount of complex information (e.g. hydrophobic interactions, ionic interactions, hydrogen bonding, and/or van der Waals forces) between molecules. To this end, we previously developed a deep learning-based drug-target interaction prediction model, called Molecule Transformer-Drug Target Interaction (MT-DTI) [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. In this study, we applied our pre-trained MT-DTI model to identify commercially available antiviral drugs that could potentially disrupt 2019-nCoV\u2019s viral components, such as proteinase, RNA-dependent RNA polymerase, and/or helicase. Since the model utilizes simplified molecular-input line-entry system (SMILES) strings and amino acid (AA) sequences, which are 1D string inputs, it is possible to quickly apply target proteins that do not have experimentally confirmed 3D crystal structures, such as viral proteins of 2019-nCoV. We share a list of top commercially available antiviral drugs that could potentially hinder the multiplication cycle of 2019-nCoV with the hope that effective drugs can be developed based on these AI-proposed drug candidates and act against 2019-nCoV."
+        ],
+        "Methods": [
+            "Amino acid sequences used in this study Amino acid sequences of 3C-like proteinase (accession YP_009725301.1), RNA-dependent RNA polymerase (accession YP_009725307.1), helicase (accession YP_009725308.1), 3'-to-5' exonuclease (accession YP_009725309.1), endoRNAse (accession YP_009725310.1), and 2'-O-ribose methyltransferase (accession YP_009725311.1) of the 2019-nCoV replication complex were extracted from the 2019-nCoV whole genome sequence (accession NC_045512.2), from the National Center for Biotechnology Information (NCBI) database. The raw prediction results were screened for antiviral drugs that are FDA approved, target viral proteins, and have a Kd value less than 1,000 nM.",
+            "Prediction of drug-target interactions using binding affinity scores Molecule transformer-drug target interaction (MT-DTI) was used to predict binding affinity values between commercially available antiviral drugs and target proteins. Briefly, the natural language processing (NLP) based Bidirectional Encoder Representations from Transformers (BERT) framework is a core algorithm of the model with good performance and robust results in diverse drug-target interaction datasets through pretraining with \u2018chemical language\u2019 SMILES of approximately 1,000,000,000 compounds. To train the model, the Drug Target Common (DTC) database [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] and BindingDB [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>] database were manually curated and combined. Three types of efficacy value, Ki, Kd, and IC50 were integrated by a consistence-score-based averaging algorithm [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] to make the Pearson correlation score over 0.9 in terms of Ki, Kd, and IC50. Since the BindingDB database includes a wide variety of species and target proteins, the MT-DTI model has the potential power to predict interactions between antiviral drugs and 2019-nCoV proteins."
+        ],
+        "Results and Discussion": [
+            "The 2019-nCoV 3C-like proteinase was predicted to bind with atazanavir (Kd 94.94 nM), followed by efavirenz, ritonavir, and other antiviral drugs that have a predicted affinity of Kd > 100 nM potency (Table 1). No other protease inhibitor antiviral drug was found in the Kd < 1,000 nM range. Although there is no real-world evidence about whether these drugs will act as predicted against 2019-nCoV yet, some case studies have been identified. For example, a docking study of lopinavir along with other HIV proteinase inhibitors of the CoV proteinase (PDBID 1UK3) suggests atazanavir and ritonavir, which are listed in the present prediction results, may inhibit the CoV proteinase in line with the inhibitory potency of lopinavir [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. According to the prediction, viral proteinase-targeting drugs were predicted to act more favorably on the viral replication process than viral proteinase through the DTI model (Table 2-6). The results include antiviral drugs other than proteinase inhibitors, such as guanosine analogues (e.g., acyclovir, ganciclovir, and penciclovir), reverse transcriptase inhibitors, and integrase inhibitors. Among the prediction results, atazanavir was predicted to have a potential binding affinity to bind to RNA-dependent RNA polymerase (Kd 21.83 nM), helicase (Kd 25.92 nM), 3'-to-5' exonuclease (Kd 82.36 nM), 2'-O-ribose methyltransferase (Kd of 390 nM), and endoRNAse (Kd 50.32 nM), which suggests that all subunits of the 2019-nCoV replication complex may be inhibited simultaneously by atazanavir (Table 2-6). Also, ganciclovir was predicted to bind to three subunits of the replication complex of the 2019nCoV: RNA-dependent RNA polymerase (Kd 11.91 nM), 3'-to-5' exonuclease (Kd 56.29 nM), and RNA helicase (Kd 108.21 nM). Lopinavir and ritonavir, active materials of AbbVie\u2019s Kaletra, both were predicted to have a potential affinity to 2019-nCoV helicase (Table 3) and are suggested as potential MERS therapeutics [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Recently, approximately $2 million worth of Kaletra doses were donated to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and a previous clinical study of SARS by Chu et al [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] may support this decision [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. Another anti-HIV drug, Prezcobix of Johnson & Johnson, which consists of darunavir and cobicistat, was to be sent to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and darunavir is also predicted to have a Kd of 90.38 nM against 2019nCoV\u2019s helicase (Table 3). However, there was no current supporting literature found for darunavir to be used as a CoV therapeutic."
+        ],
+        "Conclusion": [
+            "In many cases, DTI prediction models serve as a tool to repurpose drugs to develop novel usages of existing drugs. However, the application of DTI prediction in the present study may be useful to control unexpected and rapidly spreading infections such SARS-CoV, MERS-CoV, and 2019-nCoV at the frontline of the disease control until better therapeutic measures are developed. Nevertheless, we hope our prediction results may support and helpful to experimental therapy options for China and other countries identified 2019-nCoV infection."
+        ],
+        "References": [
+            "Cavanagh D. Coronavirus avian infectious bronchitis virus. Veterinary research. 2007;38:281-",
+            "2.",
+            "Lim YX, Ng YL, Tam JP, Liu DX. Human coronaviruses: a review of virus-host interactions.",
+            "Diseases. 2016;4[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "Weiss SR, Leibowitz JL. Coronavirus pathogenesis. Adv Virus Res. 2011;81:85-164.",
+            "Woo PC, Huang Y, Lau SK, Yuen KY. Coronavirus genomics and bioinformatics analysis.",
+            "Viruses. 2010;2:1804-20.",
+            "Kuiken T, Fouchier RA, Schutten M, Rimmelzwaan GF, van Amerongen G, van Riel D, et al.",
+            "Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome. Lancet.",
+            "2003;362:263-70.",
+            "Zaki AM, van Boheemen S, Bestebroer TM, Osterhaus AD, Fouchier RA. Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N Engl J Med. 2012;367:1814-20.",
+            "WHO. Summary of probable SARS cases with oneset of illness from 1 November 2002 to 31",
+            "July 2003. Dec 31, 2003. (https://wwwwhoint/csr/sars/country/table2004_04_21/en/). 2020.",
+            "WHO. Middle East respiratory syndrome coronavirus (MERS-CoV). November, 2019.",
+            "(http://wwwwhoint/emergencies/mers-cov/en/). 2020.",
+            "Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med. 2020.",
+            "Shin B, Park S, Kang K, Ho JC. Self-attention based molecule representation for predicting drug-target interaction. Proceedings of Machine Learning Research. 2019;106:230-48.",
+            "Tanoli Z, Alam Z, Vaha-Koskela M, Ravikumar B, Malyutina A, Jaiswal A, et al Drug Target",
+            "Commons 2.0: a community platform for systematic analysis of drug-target interaction profiles.",
+            "Database (Oxford). 2018;2018:1-13.",
+            "Liu T, Lin Y, Wen X, Jorissen RN, Gilson MK. BindingDB: a web-accessible database of experimentally determined protein-ligand binding affinities. Nucleic Acids Res. 2007;35(Database issue):D198-201.",
+            "Paolini GV, Shapland RH, van Hoorn WP, Mason JS, Hopkins AL. Global mapping of pharmacological space. Nat Biotechnol. 2006;24[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]:805-15.",
+            "Dayer MR, Taleb-Gassabi S, Dayer MS. Lopinavir; a potent drug against coronavirus Infection: insight from molecular docking study. Archives of Clinical Infectious Diseases. 2017;12:e13823.",
+            "de Wit E, van Doremalen N, Falzarano D, Munster VJ. SARS and MERS: recent insights into emerging coronaviruses. Nat Rev Microbiol. 2016;14:523-34.",
+            "Hopkins JS. U.S drugmakers ship therapies to China, seeking to treat coronavirus. The Wall",
+            "Street Journal. 2020.",
+            "Chu CM, Cheng VC, Hung IF, Wong MM, Chan KH, Chan KS, et al Role of lopinavir/ritonavir in the treatment of SARS: initial virological and clinical findings. Thorax. 2004;59[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]:252-6.",
+            "Table 1. Drug-target interaction (DTI) prediction results of FDA approved antviral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) 3C-like proteinase (accession YP_009725301.1). Ritonavir is expressed in canonical and isomeric forms",
+            "SMILES, and * indicates isomeric form SMILES of ritonavir.",
+            "Small molecules Atazanavir Efavirenz Ritonavir Dolutegravir Asunaprevir Ritonavir*",
+            "Simeprevir",
+            "SMILES used in the DTI prediction COC(=O)NC(C(=O)NC(Cc1ccccc1)C(O)CN(Cc1ccc(c2ccccn2)cc1)NC(=O)C(NC(=O)OC)C(C)(C)C)C(C)(C)C O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1 CC(C)c1nc(CN(C)C(=O)NC(C(=O)NC(Cc2ccccc2)CC(O)C(Cc 2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1 CC1CCOC2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c(O)c3C(=O) N12 C=CC1CC1(NC(=O)C1CC(Oc2ncc(OC)c3ccc(Cl)cc23)CN1C(= O)C(NC(=O)OC(C)(C)C)C(C)(C)C)C(=O)NS(=O)(=O)C1CC1 CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc 2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs 1 COc1ccc2c(O[C@H]3CC4C(=O)N(C)CCCC/C=C\\[C@H]5C[C @@]5(C(=O)NS(=O)(=O)C5CC5)NC(=O)[C@@H]4C3)cc(c3nc(C(C)C)cs3)nc2c1C",
+            "Kd in nM 94.94 199.17 204.05 336.91 581.77 609.02",
+            "Table 2. Drug-target interaction (DTI) prediction results of antiviral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) RNA-dependent RNA polymerase (accession YP_009725307.1).",
+            "Small molecules Grazoprevir",
+            "Ganciclovir Atazanavir",
+            "Daclatasvir",
+            "Acyclovir Etravirine Entecavir",
+            "Efavirenz Asunaprevir",
+            "Abacavir",
+            "SMILES used in the DTI prediction C=C[C@H]1C[C@]1(NC(=O)[C@@H]1C[C@@H]2CN1C(= O)[C@H](C(C)(C)C)NC(=O)O[C@@H]1C[C@H]1CCCCCc1n c3ccc(OC)cc3nc1O2)C(=O)NS(=O)(=O)C1CC1 Nc1nc(=O)c2ncn(COC(CO)CO)c2[nH]1 COC(=O)NC(C(=O)NC(Cc1ccccc1)C(O)CN(Cc1ccc(c2ccccn2)cc1)NC(=O)C(NC(=O)OC)C(C)(C)C)C(C)(C)C COC(=O)NC(C(=O)N1CCCC1c1ncc(-c2ccc(-c3ccc(c4cnc(C5CCCN5C(=O)C(NC(=O)OC)C(C)C)[nH]4)cc3)cc2)[n H]1)C(C)C Nc1nc(=O)c2ncn(COCCO)c2[nH]1 Cc1cc(C#N)cc(C)c1Oc1nc(Nc2ccc(C#N)cc2)nc(N)c1Br C=C1[C@@H](n2cnc3c(=O)nc(N)[nH]c32)C[C@H](O)[C@H] 1CO O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1 C=CC1CC1(NC(=O)C1CC(Oc2ncc(OC)c3ccc(Cl)cc23)CN1C(= O)C(NC(=O)OC(C)(C)C)C(C)(C)C)C(=O)NS(=O)(=O)C1CC1 Nc1nc(NC2CC2)c2ncn(C3C=CC(CO)C3)c2n1",
+            "Kd in nM 8.69",
+            "23.31",
+            "76.70 78.36",
+            "Dolutegravir Lomibuvir Penciclovir Triflurdine Danoprevir",
+            "Ritonavir Saquinavir",
+            "Raltegravir Lamivudine",
+            "CC1CCOC2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c(O)c3C(=O) N12 CC1CCC(C(=O)N(c2cc(C#CC(C)(C)C)sc2C(=O)O)C2CCC(O) CC2)CC1 Nc1nc(=O)c2ncn(CCC(CO)CO)c2[nH]1 O=c1[nH]c(=O)n(C2CC(O)C(CO)O2)cc1C(F)(F)F CC(C)(C)OC(=O)N[C@H]1CCCCC/C=C\\[C@@H]2C[C@@]2 (CNS(=O)(=O)C2CC2)NC(=O)[C@@H]2C[C@@H](OC(=O) N3Cc4cccc(F)c4C3)CN2C1=O CC(C)c1nc(CN(C)C(=O)NC(C(=O)NC(Cc2ccccc2)CC(O)C(Cc 2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1 CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@H]2CN1C[ C@@H](O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(N)=O)NC( =O)c1ccc2ccccc2n1 Cc1nnc(C(=O)NC(C)(C)c2nc(C(=O)NCc3ccc(F)cc3)c(O)c(=O) n2C)o1 Nc1ccn([C@@H]2CS[C@H](CO)O2)c(=O)n1",
+            "150.15 280.96 312,93 315.79 405.66",
+            "832.25 999.92",
+            "Table 3. Drug-target interaction (DTI) prediction results of antiviral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2)",
+            "helicase (accession YP_009725308.1). Ritonavir is expressed in canonical and isomeric form",
+            "Small molecules",
+            "SMILES used in the DTI prediction",
+            "Kd in nM",
+            "Atazanavir Grazoprevir",
+            "Asunaprevir Telaprevir Ritonavir Lopinavir Darunavir Ganciclovir",
+            "COc1ccc2c(O[C@H]3CC4C(=O)N(C)CCCC/C=C\\[C@H]5C[C@ @]5(C(=O)NS(=O)(=O)C5CC5)NC(=O)[C@@H]4C3)cc(c3nc(C(C)C)cs3)nc2c1C COC(=O)NC(C(=O)NC(Cc1ccccc1)C(O)CN(Cc1ccc(c2ccccn2)cc1)NC(=O)C(NC(=O)OC)C(C)(C)C)C(C)(C)C C=C[C@H]1C[C@]1(NC(=O)[C@@H]1C[C@@H]2CN1C(=O)[C @H](C(C)(C)C)NC(=O)O[C@@H]1C[C@H]1CCCCCc1nc3ccc( OC)cc3nc1O2)C(=O)NS(=O)(=O)C1CC1 C=CC1CC1(NC(=O)C1CC(Oc2ncc(OC)c3ccc(Cl)cc23)CN1C(= O)C(NC(=O)OC(C)(C)C)C(C)(C)C)C(=O)NS(=O)(=O)C1CC1 CCCC(NC(=O)C1C2CCCC2CN1C(=O)C(NC(=O)C(NC(=O)c1cn ccn1)C1CCCCC1)C(C)(C)C)C(=O)C(=O)NC1CC1 CC(C)c1nc(CN(C)C(=O)NC(C(=O)NC(Cc2ccccc2)CC(O)C(Cc2c cccc2)NC(=O)OCc2cncs2)C(C)C)cs1 Cc1cccc(C)c1OCC(=O)N[C@@H](Cc1ccccc1)[C@@H](O)C[C @H](Cc1ccccc1)NC(=O)[C@H](C(C)C)N1CCCNC1=O CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)/N=C(\\O)O[C@H]1C O[C@H]2OCC[C@@H]12)S(=O)(=O)c1ccc(N)cc1 Nc1nc(=O)c2ncn(COC(CO)CO)c2[nH]1",
+            "25.92 26.28",
+            "Penciclovir",
+            "Nc1nc(=O)c2ncn(CCC(CO)CO)c2[nH]1",
+            "Etravirine",
+            "Cc1cc(C#N)cc(C)c1Oc1nc(Nc2ccc(C#N)cc2)nc(N)c1Br",
+            "Raltegravir",
+            "Cc1nnc(C(=O)NC(C)(C)c2nc(C(=O)NCc3ccc(F)cc3)c(O)c(=O)n2 C)o1",
+            "Dolutegravir Nelfinavir Indinavir Efavirenz Entecavir Ritonavir* Boceprevir Lomibuvir Acyclovir",
+            "CC1CCOC2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c(O)c3C(=O)N 12 Cc1c(O)cccc1C(=O)NC(CSc1ccccc1)C(O)CN1CC2CCCCC2CC 1C(=O)NC(C)(C)C CC(C)(C)NC(=O)[C@@H]1CN(Cc2cccnc2)CCN1C[C@@H](O) C[C@@H](Cc1ccccc1)C(=O)N[C@H]1c2ccccc2C[C@H]1O O=C1Nc2ccc(Cl)cc2C(C#CC2CC2)(C(F)(F)F)O1",
+            "C=C1[C@@H](n2cnc3c(=O)nc(N)[nH]c32)C[C@H](O)[C@H]1C O CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C [C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1 CC(C)(C)NC(=O)NC(C(=O)N1CC2C(C1C(=O)NC(CC1CCC1)C( =O)C(N)=O)C2(C)C)C(C)(C)C CC1CCC(C(=O)N(c2cc(C#CC(C)(C)C)sc2C(=O)O)C2CCC(O)C C2)CC1 Nc1nc(=O)c2ncn(COCCO)c2[nH]1",
+            "Table 4. Drug-target interaction (DTI) prediction results of anti-viral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) 3'-to-5' exonuclease (accession YP_009725309.1).",
+            "Simeprevir Efavirenz",
+            "COc1ccc2c(O[C@H]3CC4C(=O)N(C)CCCC/C=C\\[C@H]5C[C@ @]5(C(=O)NS(=O)(=O)C5CC5)NC(=O)[C@@H]4C3)cc(c3nc(C(C)C)cs3)nc2c1C O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1",
+            "Danoprevir Ganciclovir",
+            "CC(C)(C)OC(=O)N[C@H]1CCCCC/C=C\\[C@@H]2C[C@@]2(C NS(=O)(=O)C2CC2)NC(=O)[C@@H]2C[C@@H](OC(=O)N3Cc 4cccc(F)c4C3)CN2C1=O Nc1nc(=O)c2ncn(COC(CO)CO)c2[nH]1",
+            "71.76",
+            "Atazanavir Entecavir Daclatasvir",
+            "Grazoprevir",
+            "Asunaprevir Ritonavir Lomibuvir Darunavir",
+            "COC(=O)NC(C(=O)NC(Cc1ccccc1)C(O)CN(Cc1ccc(c2ccccn2)cc1)NC(=O)C(NC(=O)OC)C(C)(C)C)C(C)(C)C C=C1[C@@H](n2cnc3c(=O)nc(N)[nH]c32)C[C@H](O)[C@H]1C O COC(=O)NC(C(=O)N1CCCC1c1ncc(-c2ccc(-c3ccc(c4cnc(C5CCCN5C(=O)C(NC(=O)OC)C(C)C)[nH]4)cc3)cc2)[nH] 1)C(C)C C=C[C@H]1C[C@]1(NC(=O)[C@@H]1C[C@@H]2CN1C(=O)[C @H](C(C)(C)C)NC(=O)O[C@@H]1C[C@H]1CCCCCc1nc3ccc( OC)cc3nc1O2)C(=O)NS(=O)(=O)C1CC1 C=CC1CC1(NC(=O)C1CC(Oc2ncc(OC)c3ccc(Cl)cc23)CN1C(= O)C(NC(=O)OC(C)(C)C)C(C)(C)C)C(=O)NS(=O)(=O)C1CC1 CC(C)c1nc(CN(C)C(=O)NC(C(=O)NC(Cc2ccccc2)CC(O)C(Cc2c cccc2)NC(=O)OCc2cncs2)C(C)C)cs1 CC1CCC(C(=O)N(c2cc(C#CC(C)(C)C)sc2C(=O)O)C2CCC(O)C C2)CC1 CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)/N=C(\\O)O[C@H]1C O[C@H]2OCC[C@@H]12)S(=O)(=O)c1ccc(N)cc1",
+            "111.90",
+            "Raltegravir Dolutegravir",
+            "Lopinavir",
+            "Cc1nnc(C(=O)NC(C)(C)c2nc(C(=O)NCc3ccc(F)cc3)c(O)c(=O)n2 C)o1 CC1CCOC2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c(O)c3C(=O)N 12 Cc1cccc(C)c1OCC(=O)NC(Cc1ccccc1)C(O)CC(Cc1ccccc1)NC( =O)C(C(C)C)N1CCCNC1=O",
+            "Table 5. Drug-target interaction (DTI) prediction results of anti-viral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) endoRNAse (accession",
+            "YP_009725310.1).",
+            "Efavirenz",
+            "O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1",
+            "Atazanavir",
+            "COC(=O)NC(C(=O)NC(Cc1ccccc1)C(O)CN(Cc1ccc(-",
+            "c2ccccn2)cc1)NC(=O)C(NC(=O)OC)C(C)(C)C)C(C)(C)C",
+            "Ritonavir",
+            "CC(C)c1nc(CN(C)C(=O)NC(C(=O)NC(Cc2ccccc2)CC(O)C(Cc2c 124.36",
+            "cccc2)NC(=O)OCc2cncs2)C(C)C)cs1",
+            "Danoprevir",
+            "CC(C)(C)OC(=O)N[C@H]1CCCCC/C=C\\[C@@H]2C[C@@]2(C 235.15",
+            "NS(=O)(=O)C2CC2)NC(=O)[C@@H]2C[C@@H](OC(=O)N3Cc",
+            "4cccc(F)c4C3)CN2C1=O",
+            "Grazoprevir Dolutegravir",
+            "C=C[C@H]1C[C@]1(NC(=O)[C@@H]1C[C@@H]2CN1C(=O)[C @H](C(C)(C)C)NC(=O)O[C@@H]1C[C@H]1CCCCCc1nc3ccc( OC)cc3nc1O2)C(=O)NS(=O)(=O)C1CC1 CC1CCOC2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c(O)c3C(=O)N",
+            "Lomibuvir",
+            "CC1CCC(C(=O)N(c2cc(C#CC(C)(C)C)sc2C(=O)O)C2CCC(O)C 398.81",
+            "C2)CC1",
+            "Cc1cccc(C)c1OCC(=O)N[C@@H](Cc1ccccc1)[C@@H](O)C[C",
+            "@H](Cc1ccccc1)NC(=O)[C@H](C(C)C)N1CCCNC1=O",
+            "Darunavir",
+            "CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)/N=C(\\O)O[C@H]1C 562.40",
+            "O[C@H]2OCC[C@@H]12)S(=O)(=O)c1ccc(N)cc1",
+            "Nelfinavir",
+            "Cc1c(O)cccc1C(=O)NC(CSc1ccccc1)C(O)CN1CC2CCCCC2CC 576.82",
+            "1C(=O)NC(C)(C)C",
+            "Telaprevir",
+            "CCCC(NC(=O)C1C2CCCC2CN1C(=O)C(NC(=O)C(NC(=O)c1cn 618.11",
+            "ccn1)C1CCCCC1)C(C)(C)C)C(=O)C(=O)NC1CC1",
+            "Nc1nc(NC2CC2)c2ncn(C3C=CC(CO)C3)c2n1",
+            "Cc1nnc(C(=O)NC(C)(C)c2nc(C(=O)NCc3ccc(F)cc3)c(O)c(=O)n2 727.37",
+            "C)o1",
+            "Boceprevir",
+            "CC(C)(C)NC(=O)NC(C(=O)N1CC2C(C1C(=O)NC(CC1CCC1)C( 891.62",
+            "=O)C(N)=O)C2(C)C)C(C)(C)C",
+            "Table 6. Drug-target interaction (DTI) prediction results of anti-viral drugs available on markets against a novel coronavirus (2019-nCoV, NCBI reference sequence NC_045512.2) 2'-O-ribose methyltransferase (accession YP_009725311.1).",
+            "Atazanavir Efavirenz",
+            "COC(=O)NC(C(=O)NC(Cc1ccccc1)C(O)CN(Cc1ccc(c2ccccn2)cc1)NC(=O)C(NC(=O)OC)C(C)(C)C)C(C)(C)C O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1",
+            "CC(C)(C)NC(=O)NC(C(=O)N1CC2C(C1C(=O)NC(CC1CCC1)C( =O)C(N)=O)C2(C)C)C(C)(C)C",
+            "433.93"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "people",
+            "number": 10000,
+            "context": "The family includes four genera, such as Alphacoronavirus, Betacoronavirus, Deltacoronavirus, and Gammacoronavirus [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. <mark class=\"stats\">Two infamous infectious coronaviruses in the genus Betacoronavirus are severe acute respiratory syndrome coronavirus (SARS-CoV) [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and Middle East respiratory syndrome coronavirus (MERS-CoV) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], which have infected more than 10,000 people around the world in the past two decades</mark>. Unfortunately, the incidence was accompanied by high mortality rates (9.6% for SARS-CoV and 34.4% for MERSCoV), indicating that there is an urgent need for effective treatment at the beginning of the outbreak to prevent the spread [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Three types of efficacy value, Ki, Kd, and IC50 were integrated by a consistence-score-based averaging algorithm [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] to make the Pearson correlation score over 0.9 in terms of Ki, Kd, and IC50</mark>",
+                "tests": [
+                    {
+                        "test": "Pearson correlation",
+                        "value": "0.9"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Three types of efficacy value, Ki, Kd, and IC50 were integrated by a consistence-score-based averaging algorithm (13) to make the Pearson correlation score over 0.9 in terms of Ki, Kd, and IC50</mark>",
+                "tests": [
+                    {
+                        "test": "Pearson correlation",
+                        "value": "0.9"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "artificial intelligence",
+        "viral protein",
+        "effective treatment",
+        "amino acid",
+        "molecule transformer drug",
+        "SARS",
+        "mers cov",
+        "drug-target interactions",
+        "antiviral drug",
+        "inhibitory potency",
+        "Bidirectional Encoder Representations from Transformers",
+        "deep learning",
+        "Coronavirus pathogenesis",
+        "lopinavir",
+        "available antiviral drug",
+        "natural language processing",
+        "ritonavir",
+        "National Center for Biotechnology Information",
+        "Molecule Transformer-Drug Target Interaction",
+        "sars cov",
+        "human immunodeficiency virus",
+        "betacoronavirus",
+        "drug target interaction",
+        "respiratory syndrome coronavirus",
+        "novel coronavirus",
+        "available drug",
+        "coronavirus",
+        "dti model",
+        "pneumonia",
+        "mt dti",
+        "simplified molecular-input line-entry system",
+        "east respiratory",
+        "Drug Target Common",
+        "repurpose"
+    ],
+    "keyword_relevance": {
+        "coronavirus": 0.15584415584415584,
+        "drug-target interactions": 0.13636363636363635,
+        "antiviral drug": 0.07792207792207792,
+        "novel coronavirus": 0.06493506493506493,
+        "National Center for Biotechnology Information": 0.05194805194805195,
+        "Molecule Transformer-Drug Target Interaction": 0.05194805194805195,
+        "simplified molecular-input line-entry system": 0.05194805194805195,
+        "SARS": 0.045454545454545456,
+        "ritonavir": 0.045454545454545456,
+        "viral protein": 0.03896103896103896,
+        "lopinavir": 0.025974025974025976,
+        "available antiviral drug": 0.025974025974025976,
+        "human immunodeficiency virus": 0.025974025974025976,
+        "artificial intelligence": 0.01948051948051948,
+        "effective treatment": 0.01948051948051948,
+        "inhibitory potency": 0.01948051948051948,
+        "deep learning": 0.01948051948051948,
+        "respiratory syndrome coronavirus": 0.01948051948051948,
+        "amino acid": 0.012987012987012988,
+        "Bidirectional Encoder Representations from Transformers": 0.012987012987012988,
+        "natural language processing": 0.012987012987012988,
+        "available drug": 0.012987012987012988,
+        "pneumonia": 0.012987012987012988,
+        "Drug Target Common": 0.012987012987012988,
+        "repurpose": 0.012987012987012988,
+        "Coronavirus pathogenesis": 0.006493506493506494,
+        "drug target interaction": 0.006493506493506494,
+        "molecule transformer drug": 0.0,
+        "mers cov": 0.0,
+        "sars cov": 0.0,
+        "betacoronavirus": 0.0,
+        "dti model": 0.0,
+        "mt dti": 0.0,
+        "east respiratory": 0.0
+    },
+    "species": [
+        "Coronavirus pathogenesis"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Coronaviruses (CoVs), belonging to the family Coronaviridae, are positive-sense enveloped RNA viruses and cause infections in birds, mammals, and humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+        "The incidence was accompanied by high mortality rates (9.6% for SARS-CoV and 34.4% for MERSCoV), indicating that there is an urgent need for effective treatment at the beginning of the outbreak to prevent the spread [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]",
+        "This cannot be achieved with current drug development or an application system, taking several years for newly developed drugs to come to the market.",
+        "The authors share a list of top commercially available antiviral drugs that could potentially hinder the multiplication cycle of 2019-nCoV with the hope that effective drugs can be developed based on these AI-proposed drug candidates and act against 2019-nCoV",
+        "<h2 style=\"display: inline\">Methods:</h2> Amino acid sequences used in this study Amino acid sequences of 3C-like proteinase, RNA-dependent RNA polymerase, helicase, 3'-to-5' exonuclease, endoRNAse, and 2'-O-ribose methyltransferase of the 2019-nCoV replication complex were extracted from the 2019-nCoV whole genome sequence, from the National Center for Biotechnology Information (NCBI) database.",
+        "The raw prediction results were screened for antiviral drugs that are FDA approved, target viral proteins, and have a Kd value less than 1,000 nM.",
+        "The natural language processing (NLP) based Bidirectional Encoder Representations from Transformers (BERT) framework is a core algorithm of the model with good performance and robust results in diverse drug-target interaction datasets through pretraining with \u2018chemical language\u2019 SMILES of approximately 1,000,000,000 compounds.",
+        "Since the BindingDB database includes a wide variety of species and target proteins, the MT-DTI model has the potential power to predict interactions between antiviral drugs and 2019-nCoV proteins",
+        "<h2 style=\"display: inline\">Results:</h2> <strong>Results and Discussion</strong><br/><br/>The 2019-nCoV 3C-like proteinase was predicted to bind with atazanavir (Kd 94.94 nM), followed by efavirenz, ritonavir, and other antiviral drugs that have a predicted affinity of Kd > 100 nM potency (Table 1).",
+        "Approximately $2 million worth of Kaletra doses were donated to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and a previous clinical study of SARS by Chu et al [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] may support this decision [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]",
+        "Another anti-HIV drug, Prezcobix of Johnson & Johnson, which consists of darunavir and cobicistat, was to be sent to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and darunavir is predicted to have a Kd of 90.38 nM against 2019nCoV\u2019s helicase (Table 3).",
+        "There was no current supporting literature found for darunavir to be used as a CoV therapeutic",
+        "<h2 style=\"display: inline\">Conclusion:</h2> DTI prediction models serve as a tool to repurpose drugs to develop novel usages of existing drugs.",
+        "The application of DTI prediction in the present study may be useful to control unexpected and rapidly spreading infections such SARS-CoV, MERS-CoV, and 2019-nCoV at the frontline of the disease control until better therapeutic measures are developed.",
+        "The authors hope the prediction results may support and helpful to experimental therapy options for China and other countries identified 2019-nCoV infection"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Coronaviruses (CoVs), belonging to the family Coronaviridae, are positive-sense enveloped RNA viruses and cause infections in birds, mammals, and humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "The incidence was accompanied by high mortality rates (9.6% for SARS-CoV and 34.4% for MERSCoV), indicating that there is an urgent need for effective treatment at the beginning of the outbreak to prevent the spread [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]",
+            "This cannot be achieved with current drug development or an application system, taking several years for newly developed drugs to come to the market.",
+            "The authors share a list of top commercially available antiviral drugs that could potentially hinder the multiplication cycle of 2019-nCoV with the hope that effective drugs can be developed based on these AI-proposed drug candidates and act against 2019-nCoV"
+        ],
+        "Methods": [
+            "Amino acid sequences used in this study Amino acid sequences of 3C-like proteinase, RNA-dependent RNA polymerase, helicase, 3'-to-5' exonuclease, endoRNAse, and 2'-O-ribose methyltransferase of the 2019-nCoV replication complex were extracted from the 2019-nCoV whole genome sequence, from the National Center for Biotechnology Information (NCBI) database.",
+            "The raw prediction results were screened for antiviral drugs that are FDA approved, target viral proteins, and have a Kd value less than 1,000 nM.",
+            "The natural language processing (NLP) based Bidirectional Encoder Representations from Transformers (BERT) framework is a core algorithm of the model with good performance and robust results in diverse drug-target interaction datasets through pretraining with \u2018chemical language\u2019 SMILES of approximately 1,000,000,000 compounds.",
+            "Since the BindingDB database includes a wide variety of species and target proteins, the MT-DTI model has the potential power to predict interactions between antiviral drugs and 2019-nCoV proteins"
+        ],
+        "Results": [
+            "<strong>Results and Discussion</strong><br/><br/>The 2019-nCoV 3C-like proteinase was predicted to bind with atazanavir (Kd 94.94 nM), followed by efavirenz, ritonavir, and other antiviral drugs that have a predicted affinity of Kd > 100 nM potency (Table 1).",
+            "Approximately $2 million worth of Kaletra doses were donated to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and a previous clinical study of SARS by Chu et al [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] may support this decision [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]",
+            "Another anti-HIV drug, Prezcobix of Johnson & Johnson, which consists of darunavir and cobicistat, was to be sent to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and darunavir is predicted to have a Kd of 90.38 nM against 2019nCoV\u2019s helicase (Table 3).",
+            "There was no current supporting literature found for darunavir to be used as a CoV therapeutic"
+        ],
+        "Conclusion": [
+            "DTI prediction models serve as a tool to repurpose drugs to develop novel usages of existing drugs.",
+            "The application of DTI prediction in the present study may be useful to control unexpected and rapidly spreading infections such SARS-CoV, MERS-CoV, and 2019-nCoV at the frontline of the disease control until better therapeutic measures are developed.",
+            "The authors hope the prediction results may support and helpful to experimental therapy options for China and other countries identified 2019-nCoV infection"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Cavanagh_2007_a",
+            "entry": "1. Cavanagh D. Coronavirus avian infectious bronchitis virus. Veterinary research. 2007;38:281-97.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cavanagh%2C%20D.%20Coronavirus%20avian%20infectious%20bronchitis%20virus%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cavanagh%2C%20D.%20Coronavirus%20avian%20infectious%20bronchitis%20virus%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cavanagh%2C%20D.%20Coronavirus%20avian%20infectious%20bronchitis%20virus%202007"
+        },
+        {
+            "id": "2",
+            "alt_id": "Lim_et+al_2016_a",
+            "entry": "2. Lim YX, Ng YL, Tam JP, Liu DX. Human coronaviruses: a review of virus-host interactions. Diseases. 2016;4(3).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lim%2C%20Y.X.%20Ng%2C%20Y.L.%20Tam%2C%20J.P.%20Liu%2C%20D.X.%20Human%20coronaviruses%3A%20a%20review%20of%20virus-host%20interactions.%20Diseases%202016"
+        },
+        {
+            "id": "3",
+            "alt_id": "Weiss_2011_a",
+            "entry": "3. Weiss SR, Leibowitz JL. Coronavirus pathogenesis. Adv Virus Res. 2011;81:85-164.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Weiss%2C%20SR%2C%20Leibowitz%20J.L.%20Coronavirus%20pathogenesis.%20Adv%20Virus%20Res%202011"
+        },
+        {
+            "id": "4",
+            "alt_id": "Woo_et+al_2010_a",
+            "entry": "4. Woo PC, Huang Y, Lau SK, Yuen KY. Coronavirus genomics and bioinformatics analysis. Viruses. 2010;2:1804-20.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Woo%2C%20P.C.%20Huang%2C%20Y.%20Lau%2C%20S.K.%20Yuen%2C%20K.Y.%20Coronavirus%20genomics%20and%20bioinformatics%20analysis.%20Viruses%202010"
+        },
+        {
+            "id": "5",
+            "alt_id": "Kuiken_et+al_2003_a",
+            "entry": "5. Kuiken T, Fouchier RA, Schutten M, Rimmelzwaan GF, van Amerongen G, van Riel D, et al. Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome. Lancet. 2003;362:263-70.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kuiken%2C%20T.%20Fouchier%2C%20R.A.%20Schutten%2C%20M.%20Rimmelzwaan%2C%20G.F.%20Newly%20discovered%20coronavirus%20as%20the%20primary%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kuiken%2C%20T.%20Fouchier%2C%20R.A.%20Schutten%2C%20M.%20Rimmelzwaan%2C%20G.F.%20Newly%20discovered%20coronavirus%20as%20the%20primary%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kuiken%2C%20T.%20Fouchier%2C%20R.A.%20Schutten%2C%20M.%20Rimmelzwaan%2C%20G.F.%20Newly%20discovered%20coronavirus%20as%20the%20primary%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003"
+        },
+        {
+            "id": "6",
+            "alt_id": "Zaki_et+al_2012_a",
+            "entry": "6. Zaki AM, van Boheemen S, Bestebroer TM, Osterhaus AD, Fouchier RA. Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N Engl J Med. 2012;367:1814-20.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zaki%2C%20A.M.%20van%20Boheemen%2C%20S.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zaki%2C%20A.M.%20van%20Boheemen%2C%20S.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zaki%2C%20A.M.%20van%20Boheemen%2C%20S.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012"
+        },
+        {
+            "id": "7",
+            "alt_id": "W_2003_a",
+            "entry": "7. WHO. Summary of probable SARS cases with oneset of illness from 1 November 2002 to 31 July 2003. Dec 31, 2003. (https://wwwwhoint/csr/sars/country/table2004_04_21/en/).2020.",
+            "url": "https://wwwwhoint/csr/sars/country/table2004_04_21/en/).2020"
+        },
+        {
+            "id": "8",
+            "alt_id": "W_2019_a",
+            "entry": "8. WHO. Middle East respiratory syndrome coronavirus (MERS-CoV). November, 2019. (http://wwwwhoint/emergencies/mers-cov/en/).2020.",
+            "url": "http://wwwwhoint/emergencies/mers-cov/en/).2020"
+        },
+        {
+            "id": "9",
+            "alt_id": "Li_et+al_2020_a",
+            "entry": "9. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia%202020"
+        },
+        {
+            "id": "10",
+            "alt_id": "Shin_et+al_2019_a",
+            "entry": "10. Shin B, Park S, Kang K, Ho JC. Self-attention based molecule representation for predicting drug-target interaction. Proceedings of Machine Learning Research. 2019;106:230-48.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shin%2C%20B.%20Park%2C%20S.%20Kang%2C%20K.%20Ho%2C%20J.C.%20Self-attention%20based%20molecule%20representation%20for%20predicting%20drug-target%20interaction%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Shin%2C%20B.%20Park%2C%20S.%20Kang%2C%20K.%20Ho%2C%20J.C.%20Self-attention%20based%20molecule%20representation%20for%20predicting%20drug-target%20interaction%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Shin%2C%20B.%20Park%2C%20S.%20Kang%2C%20K.%20Ho%2C%20J.C.%20Self-attention%20based%20molecule%20representation%20for%20predicting%20drug-target%20interaction%202019"
+        },
+        {
+            "id": "11",
+            "alt_id": "Tanoli_et+al_2018_a",
+            "entry": "11. Tanoli Z, Alam Z, Vaha-Koskela M, Ravikumar B, Malyutina A, Jaiswal A, et al. Drug Target Database (Oxford). 2018;2018:1-13.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tanoli%20Z%20Alam%20Z%20VahaKoskela%20M%20Ravikumar%20B%20Malyutina%20A%20Jaiswal%20A%20et%20al%20Drug%20Target%20Database%20Oxford%2020182018113",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tanoli%20Z%20Alam%20Z%20VahaKoskela%20M%20Ravikumar%20B%20Malyutina%20A%20Jaiswal%20A%20et%20al%20Drug%20Target%20Database%20Oxford%2020182018113",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tanoli%20Z%20Alam%20Z%20VahaKoskela%20M%20Ravikumar%20B%20Malyutina%20A%20Jaiswal%20A%20et%20al%20Drug%20Target%20Database%20Oxford%2020182018113"
+        },
+        {
+            "id": "12",
+            "alt_id": "Liu_et+al_2007_a",
+            "entry": "12. Liu T, Lin Y, Wen X, Jorissen RN, Gilson MK. BindingDB: a web-accessible database of experimentally determined protein-ligand binding affinities. Nucleic Acids Res. 2007;35(Database issue):D198-201.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Liu%2C%20T.%20Lin%2C%20Y.%20Wen%2C%20X.%20Jorissen%2C%20R.N.%20BindingDB%3A%20a%20web-accessible%20database%20of%20experimentally%20determined%20protein-ligand%20binding%20affinities%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Liu%2C%20T.%20Lin%2C%20Y.%20Wen%2C%20X.%20Jorissen%2C%20R.N.%20BindingDB%3A%20a%20web-accessible%20database%20of%20experimentally%20determined%20protein-ligand%20binding%20affinities%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Liu%2C%20T.%20Lin%2C%20Y.%20Wen%2C%20X.%20Jorissen%2C%20R.N.%20BindingDB%3A%20a%20web-accessible%20database%20of%20experimentally%20determined%20protein-ligand%20binding%20affinities%202007"
+        },
+        {
+            "id": "13",
+            "alt_id": "Paolini_et+al_2006_a",
+            "entry": "13. Paolini GV, Shapland RH, van Hoorn WP, Mason JS, Hopkins AL. Global mapping of pharmacological space. Nat Biotechnol. 2006;24(7):805-15.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Paolini%2C%20G.V.%20Shapland%2C%20R.H.%20van%20Hoorn%2C%20W.P.%20Mason%2C%20J.S.%20Global%20mapping%20of%20pharmacological%20space%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Paolini%2C%20G.V.%20Shapland%2C%20R.H.%20van%20Hoorn%2C%20W.P.%20Mason%2C%20J.S.%20Global%20mapping%20of%20pharmacological%20space%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Paolini%2C%20G.V.%20Shapland%2C%20R.H.%20van%20Hoorn%2C%20W.P.%20Mason%2C%20J.S.%20Global%20mapping%20of%20pharmacological%20space%202006"
+        },
+        {
+            "id": "14",
+            "alt_id": "Dayer_et+al_2017_a",
+            "entry": "14. Dayer MR, Taleb-Gassabi S, Dayer MS. Lopinavir; a potent drug against coronavirus Infection: insight from molecular docking study. Archives of Clinical Infectious Diseases. 2017;12:e13823. de Wit E, van Doremalen N, Falzarano D, Munster VJ. SARS and MERS: recent insights into emerging coronaviruses. Nat Rev Microbiol. 2016;14:523-34.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Dayer%2C%20M.R.%20Taleb-Gassabi%2C%20S.%20Dayer%2C%20M.S.%20Lopinavir%3B%20a%20potent%20drug%20against%20coronavirus%20Infection%3A%20insight%20from%20molecular%20docking%20study.%20Archives%20of%20Clinical%20Infectious%20Diseases%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Dayer%2C%20M.R.%20Taleb-Gassabi%2C%20S.%20Dayer%2C%20M.S.%20Lopinavir%3B%20a%20potent%20drug%20against%20coronavirus%20Infection%3A%20insight%20from%20molecular%20docking%20study.%20Archives%20of%20Clinical%20Infectious%20Diseases%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Dayer%2C%20M.R.%20Taleb-Gassabi%2C%20S.%20Dayer%2C%20M.S.%20Lopinavir%3B%20a%20potent%20drug%20against%20coronavirus%20Infection%3A%20insight%20from%20molecular%20docking%20study.%20Archives%20of%20Clinical%20Infectious%20Diseases%202017"
+        },
+        {
+            "id": "16",
+            "alt_id": "Hopkins_0000_a",
+            "entry": "16. Hopkins JS. U.S. drugmakers ship therapies to China, seeking to treat coronavirus. The Wall Street Journal. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=S%2C%20Hopkins%20J.S.U.%20drugmakers%20ship%20therapies%20to%20China%2C%20seeking%20to%20treat%20coronavirus",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=S%2C%20Hopkins%20J.S.U.%20drugmakers%20ship%20therapies%20to%20China%2C%20seeking%20to%20treat%20coronavirus",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=S%2C%20Hopkins%20J.S.U.%20drugmakers%20ship%20therapies%20to%20China%2C%20seeking%20to%20treat%20coronavirus"
+        },
+        {
+            "id": "17",
+            "alt_id": "Chu_et+al_2004_a",
+            "entry": "17. Chu CM, Cheng VC, Hung IF, Wong MM, Chan KH, Chan KS, et al. Role of lopinavir/ritonavir in the treatment of SARS: initial virological and clinical findings. Thorax. 2004;59(3):252-6. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chu%2C%20C.M.%20Cheng%2C%20V.C.%20Hung%2C%20I.F.%20Wong%2C%20M.M.%20Role%20of%20lopinavir/ritonavir%20in%20the%20treatment%20of%20SARS%3A%20initial%20virological%20and%20clinical%20findings%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chu%2C%20C.M.%20Cheng%2C%20V.C.%20Hung%2C%20I.F.%20Wong%2C%20M.M.%20Role%20of%20lopinavir/ritonavir%20in%20the%20treatment%20of%20SARS%3A%20initial%20virological%20and%20clinical%20findings%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chu%2C%20C.M.%20Cheng%2C%20V.C.%20Hung%2C%20I.F.%20Wong%2C%20M.M.%20Role%20of%20lopinavir/ritonavir%20in%20the%20treatment%20of%20SARS%3A%20initial%20virological%20and%20clinical%20findings%202004"
+        }
+    ],
+    "facts": [
+        "The infection of a novel coronavirus found in Wuhan of China is rapidly spreading",
+        "various strategies are being tested in China",
+        "commercially available drugs that could act on viral proteins",
+        "The result showed that atazanavir",
+        "that the list of antiviral drugs identified by the MT-DTI model should be considered",
+        "which have infected more than 10,000 people around the world",
+        "the incidence was accompanied by high mortality rates",
+        "taking several years for newly developed drugs to come to the market",
+        "the world is facing the same situation as the previous outbreak",
+        "to a recent epidemic of atypical pneumonia caused by a novel coronavirus in Wuhan",
+        "a rapid drug application strategy that can be immediately applied to the patient is necessary",
+        "artificial intelligence-based architectures must be taken into account in order to accurately predict drug-target interactions",
+        "with the hope that effective drugs can be developed based on these AI-proposed drug candidates",
+        "Amino acid sequences used in this study Amino acid sequences of 3C-like proteinase",
+        "2'-O-ribose methyltransferase of the 2019-nCoV replication complex were extracted from the 2019-nCoV whole genome sequence",
+        "The raw prediction results were screened for antiviral drugs",
+        "the natural language processing based Bidirectional Encoder Representations from Transformers framework is a core algorithm of the model with good performance",
+        "robust results in diverse drug-target interaction datasets through pretraining with \u2018chemical language",
+        "IC50 were integrated by a consistence-score-based averaging algorithm",
+        "Since the BindingDB database includes a wide variety of species and target proteins",
+        "The 2019-nCoV 3C-like proteinase was predicted to bind with atazanavir",
+        "No other protease inhibitor antiviral drug was found in the Kd 14",
+        "which suggests that all subunits of the 2019-nCoV replication complex may be inhibited",
+        "ganciclovir was predicted to bind to three subunits of the replication complex",
+        "2 million worth of Kaletra doses were donated to China",
+        "which consists of darunavir and cobicistat",
+        "supporting literature found for darunavir to be used as a",
+        "DTI prediction models serve as a tool to repurpose drugs to develop novel usages of existing drugs",
+        "The incidence was accompanied by high mortality rates",
+        "The natural language processing based Bidirectional Encoder Representations from Transformers framework is a core algorithm of the model with good performance"
+    ],
+    "claims": [
+        "We also found that several antiviral agents, such as Kaletra, could be used for the treatment of 2019-nCoV, although there is no real-world evidence supporting the prediction",
+        "To this end, we previously developed a deep learning-based drug-target interaction prediction model, called Molecule Transformer-Drug Target Interaction (MT-DTI) (10)"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "Two infamous infectious coronaviruses in the genus Betacoronavirus are severe acute respiratory syndrome coronavirus (SARS-CoV) [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and Middle East respiratory syndrome coronavirus (MERS-CoV) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], which have infected more than 10,000 people around the world in the past two decades",
+        "The world is facing the same situation as the previous outbreak due to a recent epidemic of atypical pneumonia caused by a novel coronavirus (2019-nCoV) in Wuhan, China [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>, <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]",
+        "We previously developed a deep learning-based drug-target interaction prediction model, called Molecule Transformer-Drug Target Interaction (MT-drug-target interactions) [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]",
+        "We share a list of top commercially available antiviral drugs that could potentially hinder the multiplication cycle of 2019-nCoV with the hope that effective drugs can be developed based on these artificial intelligence-proposed drug candidates and act against 2019-nCoV",
+        "Amino acid sequences used in this study Amino acid sequences of 3C-like proteinase, RNA-dependent RNA polymerase, helicase, 3'-to-5' exonuclease, endoRNAse, and 2'-O-ribose methyltransferase of the 2019-nCoV replication complex were extracted from the 2019-nCoV whole genome sequence, from the National Center for Biotechnology Information (NCBI) database",
+        "The raw prediction results were screened for antiviral drugs that are FDA approved, target viral proteins, and have a Kd value less than 1,000 nM",
+        "The natural language processing (NLP) based Bidirectional Encoder Representations from Transformers (BERT) framework is a core algorithm of the model with good performance and robust results in diverse drug-target interaction datasets through pretraining with \u2018chemical language\u2019 simplified molecular-input line-entry system of approximately 1,000,000,000 compounds",
+        "Since the BindingDB database includes a wide variety of species and target proteins, the Molecule Transformer-Drug Target Interaction model has the potential power to predict interactions between antiviral drugs and 2019-nCoV proteins",
+        "The 2019-nCoV 3C-like proteinase was predicted to bind with atazanavir (Kd 94.94 nM), followed by efavirenz, ritonavir, and other antiviral drugs that have a predicted affinity of Kd > 100 nM potency (Table 1)",
+        "Approximately $2 million worth of Kaletra doses were donated to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and a previous clinical study of SARS by Chu et al [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] may support this decision [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]",
+        "Another anti-human immunodeficiency virus drug, Prezcobix of Johnson & Johnson, which consists of darunavir and cobicistat, was to be sent to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and darunavir is predicted to have a Kd of 90.38 nM against 2019nCoV\u2019s helicase (Table 3)",
+        "There was no current supporting literature found for darunavir to be used as a CoV therapeutic",
+        "drug-target interactions prediction models serve as a tool to repurpose drugs to develop novel usages of existing drugs"
+    ],
+    "top_statements": [
+        "Coronaviruses (CoVs), belonging to the family Coronaviridae, are positive-sense enveloped RNA viruses and cause infections in birds, mammals, and humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "We previously developed a deep learning-based drug-target interaction prediction model, called Molecule Transformer-Drug Target Interaction (MT-drug-target interactions) [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]",
+        "The natural language processing (NLP) based Bidirectional Encoder Representations from Transformers (BERT) framework is a core algorithm of the model with good performance and robust results in diverse drug-target interaction datasets through pretraining with \u2018chemical language\u2019 simplified molecular-input line-entry system of approximately 1,000,000,000 compounds",
+        "The 2019-nCoV 3C-like proteinase was predicted to bind with atazanavir (Kd 94.94 nM), followed by efavirenz, ritonavir, and other antiviral drugs that have a predicted affinity of Kd > 100 nM potency (Table 1)",
+        "Another anti-human immunodeficiency virus drug, Prezcobix of Johnson & Johnson, which consists of darunavir and cobicistat, was to be sent to China [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>], and darunavir is predicted to have a Kd of 90.38 nM against 2019nCoV\u2019s helicase (Table 3)",
+        "drug-target interactions prediction models serve as a tool to repurpose drugs to develop novel usages of existing drugs"
+    ],
+    "headline": "Another anti-human immunodeficiency virus drug, Prezcobix of Johnson & Johnson, which consists of darunavir and cobicistat, was to be sent to China, and darunavir is predicted to have a Kd of 90.38 nM against 2019nCoV\u2019s helicase",
+    "contexts": [],
+    "abbreviations": {
+        "MT-DTI": "Molecule Transformer-Drug Target Interaction",
+        "HIV": "human immunodeficiency virus",
+        "AI": "artificial intelligence",
+        "DTIs": "drug-target interactions",
+        "SMILES": "simplified molecular-input line-entry system",
+        "AA": "amino acid",
+        "NCBI": "National Center for Biotechnology Information",
+        "NLP": "natural language processing",
+        "BERT": "Bidirectional Encoder Representations from Transformers",
+        "DTC": "Drug Target Common"
+    }
+}

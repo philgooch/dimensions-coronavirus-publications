@@ -1,0 +1,546 @@
+{
+    "filename": "2020.02.14.20022913.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 233635,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.14.20022913",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/25/2020.02.14.20022913.full.pdf"
+        },
+        "title": "Estimating the Efficacy of Traffic Blockage and Quarantine for the Epidemic Caused by 2019-nCoV (COVID-19)",
+        "author": "Deqiang Li, Zhicheng Liu, Qinghe Liu, Zefei Gao, Junkai Zhu, Junyan Yang, Qiao Wang",
+        "date": 2020,
+        "affiliations": [
+            "School of Information Science and Engineering, Southeast University, Nanjing, 210096, China {deqiang_li, zhichengliu, liuqinghe, zf_gao, junkai_zhu} @seu.edu.cn",
+            "School of Architecture, Southeast University, Nanjing, 210096, China yjy-2@163.com"
+        ],
+        "abstract": "Background: Since the 2019-nCoV (COVID-19) outbreaks in Wuhan, China, the cumulative number of confirmed cases is increasing every day, and a large number of populations all over the world are at risk. The quarantine and traffic blockage can alleviate the risk of the epidemic and the infections, henceforth evaluating the efficacy of such actions is essential to inform policy makers and raise the public awareness of the importance of self-isolation and quarantine.\n\nMethod: We collected confirmed case data and the migration data, and introduced the quarantine factor and traffic blockage factor to the Flow-SEIR model. By varying the quarantine factor and traffic blockage factor, we simulated the change of the peak number and arrival time of infections, then the efficacy of these two intervation measures can be analyzed in our simulation. In our study,  the self-protection at home is also included in quarantine.\n\nResults: In the simulated results, the quarantine and traffic blockage are effective for epidemic control. For Hubei province, the current quarantine factor is estimaed to be 0.405, which means around 40.5% of suceptibles who are close contacting with are in quarantine, and the current traffic blockage factor is estimaed to be 0.66, which indicates around 34% of suceptibles who had flowed out from Hubei. For the other provinces outside Hubei, the current quarantine factor is estimated to be 0.285, and the current traffic blockage factor is estimated to be 0.26. With the quarantine and traffic blockage factor increasing, the number of infections decrease dramatically. We also simulated the start dates of quarantine and traffic blockage at four time points, the simulated results show that the early of warning is also effective for epidemic containing. However, provincial level traffic blockage can only alleviate 21.06% - 22.38% of the peak number of infections. In general, the quarantine is much more effective than the traffic blockage control. \n\nConclusion: Both of quarantine and traffic blockage are effective ways to control the spread of COVID-19. However, the eff  icacy of quarantine is found to be much stronger than that of traffic blockage. Considering traffic blockage may also cause huge losses of economy, we propose to gradually deregulate the traffic blockage, and improve quarantine instead. Also, there might be a large number of asymptomatic carriers of COVID-19, the quarantine should be continued for a long time until the epidemic is totally under control.",
+        "keywords": [
+            "2019-nCoV",
+            "SARS-COV-2",
+            "COVID-19",
+            "Flow-SEIR model",
+            "quarantine",
+            "traffic blockage control Abbreviations: 2019-nCoV",
+            "2019 Novel Coronavirus",
+            "SARS-COV-2",
+            "Flow-SEIR model",
+            "flow-suceptible-exposed-infection-recovery model",
+            "COVID-19",
+            "corona virus disease 2019"
+        ],
+        "references": "@misc{kucharski-a,\n  author = {Kucharski, A.J. and Russell, T.W. and Diamond, C.},\n  title = {Early dynamics of transmission; and control of 2019-nCoV: a mathematical modelling study. medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.01.31.20019901.},\n  more-authors = {true},\n  language = {}\n}\n@book{boldog-a,\n  author = {Boldog, P. and Tekeli, T. and Vizi, Z.},\n  title = {Risk assessment of novel coronavirus 2019- ; nCoV outbreaks outside China},\n  publisher = {medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.},\n  more-authors = {true},\n  language = {}\n}\n@misc{wu-a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study},\n  url = {https://doi.org/10.1016/S0140-6736},\n  language = {},\n  urldate = {31 Jan 2020.}\n}\n@book{lodge-a,\n  author = {Lodge, E.K. and Schatz, A.M. and Drake, J.M.},\n  title = {Protective Population Behavior Change in Outbreaks of Emerging Infectious Disease},\n  publisher = {bioRxiv 2020},\n  doi = {doi: https://doi.org/10.1},\n  language = {}\n}\n@book{read-a,\n  author = {Read, J.M. and Bridgen, JR, Cummings and D.A.},\n  title = {Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions},\n  publisher = {medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.01.23.20018549.},\n  more-authors = {true},\n  language = {}\n}\n@article{tang-a,\n  author = {Tang, B. and Wang, X. and Li, Q.},\n  title = {Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions},\n  journal = {Journal of Clinical Medicine},\n  volume = {2020},\n  pages = {462},\n  more-authors = {true},\n  number = {9},\n  language = {}\n}\n@incollection{li2019a,\n  author = {Li, X. and Zhao, X. and Sun, Y.},\n  title = {The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus},\n  date = {2019},\n  publisher = {medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.02.09.20021477.},\n  source = {in Wuhan and Beijing},\n  language = {}\n}\n@misc{ai-a,\n  author = {Ai, S. and Zhu, G. and Tian, F.},\n  title = {Population movement, city closure and spatial tran smission of the 2019-nCoV infection in China. medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.or},\n  more-authors = {true},\n  unmatched-doi = {g/10.1101/2020.02.04.20020339.},\n  language = {}\n}\n@article{lu2016a,\n  author = {Lu, J. and Liu, W. and Xia, R.},\n  title = {Effects of closing and reopening live poultry markets on the epidemic of human infection with avian influenza A virus},\n  journal = {Journal of biomedical research},\n  date = {2016},\n  volume = {30},\n  pages = {112},\n  more-authors = {true},\n  number = {2},\n  language = {}\n}\n@misc{liu-a,\n  author = {Liu, Q. and Li, D. and Liu, Z.},\n  title = {Assessing the Tendency of 2019-nCoV (COVID-19) Outbreak in China. medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.02.09.20021444.},\n  more-authors = {true},\n  language = {}\n}\n@article{aron1984a,\n  author = {Aron, J.L. and Schwartz, I.B.},\n  title = {Seasonality and period-doubling bifurcations in an epidemic model},\n  journal = {Journal of theoretical biology},\n  date = {1984},\n  volume = {110},\n  pages = {665\u201379},\n  number = {4},\n  language = {}\n}\n@article{li2001a,\n  author = {Li, M.Y. and Smith, H.L. and Wang, L.},\n  title = {Global dynamics of an SEIR epidemic model with vertical transmission},\n  journal = {SIAM Journal on Applied Mathematics},\n  date = {2001},\n  volume = {62},\n  pages = {58\u201369},\n  number = {1},\n  language = {}\n}\n@article{smirnova2019a,\n  author = {Smirnova, A. and deCamp L and Chowell, G.},\n  title = {Forecasting epidemics through nonparametric estimation of time-dependent transmission rates using the SEIR model},\n  journal = {Bulletin of mathematical biology},\n  date = {2019},\n  volume = {81},\n  pages = {4343\u201365},\n  number = {11},\n  language = {}\n}\n@article{cori2013a,\n  author = {Cori, A. and Ferguson, N.M. and Fraser, C.},\n  title = {A new framework and software to estimate time-varying reproduction numbers during epidemics},\n  journal = {American journal of epidemiology},\n  date = {2013},\n  volume = {178},\n  pages = {1505\u201312},\n  more-authors = {true},\n  number = {9},\n  language = {}\n}\n@article{cauchemez2006a,\n  author = {Cauchemez, S. and Bo\u00eblle, P.-Y. and Thomas, G.},\n  title = {Estimating in real time the efficacy of measures to control emerging communicable diseases},\n  journal = {American journal of epidemiology},\n  date = {2006},\n  volume = {164},\n  pages = {591\u20137},\n  more-authors = {true},\n  number = {6},\n  language = {}\n}\n@article{chowell2004a,\n  author = {Chowell, G. and Castillo-Chavez, C. and Fenimore, P.W.},\n  title = {Model parameters and outbreak control for SARS},\n  journal = {Emerging Infectious Diseases},\n  date = {2004},\n  volume = {10},\n  pages = {1258},\n  more-authors = {true},\n  number = {7},\n  language = {}\n}\n@book{brauer2012a,\n  author = {Brauer, F. and Castillo-Chavez, C. and Castillo-Chavez, C.},\n  title = {Mathematical models in population biology and epidemiology},\n  publisher = {Springer},\n  date = {2012},\n  language = {}\n}\n@incollection{anastassopoulou2019a,\n  author = {Anastassopoulou, C. and Russo, L. and Tsakris, A.},\n  title = {Data-Based Analysis, Modelling and Forecasting of the novel Coronavirus},\n  date = {2019},\n  publisher = {medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.02.11.20022186.},\n  more-authors = {true},\n  source = {outbreak},\n  language = {}\n}\n@book{zhao-a,\n  author = {Zhao, H. and Man, S. and Wang, B.},\n  title = {Epidemic size of novel coronavirus-infected pneumonia in the Epicenter Wuhan: using data of five-countries&#039; evacuation action},\n  publisher = {medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.02.12.20022285.},\n  more-authors = {true},\n  language = {}\n}\n@book{sun-a,\n  author = {Sun, H. and Dickens, B.L. and Chen, M.},\n  title = {Estimating number of global importations of COVID-19 from Wuhan, risk of transmission outside mainland China and COVID-19 introduction index between countries outside mainland China},\n  publisher = {medRxiv 2020},\n  doi = {doi},\n  url = {https://doi.org/10.1101/2020.02.17.20024075.},\n  more-authors = {true},\n  language = {}\n}\n",
+        "emails": [
+            "qiaowang@seu.edu.cn",
+            "yjy-2@163.com"
+        ],
+        "references_ris": "TY  - GEN\nAU  - Kucharski, A.J.\nAU  - Russell, T.W.\nAU  - Diamond, C.\nTI  - Early dynamics of transmission; and control of 2019-nCoV: a mathematical modelling study. medRxiv 2020\nDO  - doi\nUR  - https://doi.org/10.1101/2020.01.31.20019901.\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Boldog, P.\nAU  - Tekeli, T.\nAU  - Vizi, Z.\nTI  - Risk assessment of novel coronavirus 2019- ; nCoV outbreaks outside China\nPB  - medRxiv 2020\nDO  - doi\nUR  - https://doi.org/10.1101/2020.\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study\nUR  - https://doi.org/10.1016/S0140-6736\nLA  - \nC1  - 31 Jan 2020.\nER  - \n\nTY  - BOOK\nAU  - Lodge, E.K.\nAU  - Schatz, A.M.\nAU  - Drake, J.M.\nTI  - Protective Population Behavior Change in Outbreaks of Emerging Infectious Disease\nPB  - bioRxiv 2020\nDO  - https://doi.org/10.1\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Read, J.M.\nAU  - Bridgen, JR, Cummings\nAU  - D.A.\nTI  - Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions\nPB  - medRxiv 2020\nDO  - doi\nUR  - https://doi.org/10.1101/2020.01.23.20018549.\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tang, B.\nAU  - Wang, X.\nAU  - Li, Q.\nTI  - Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions\nT2  - Journal of Clinical Medicine\nVL  - 2020\nSP  - 462\nC1  - true\nIS  - 9\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Li, X.\nAU  - Zhao, X.\nAU  - Sun, Y.\nTI  - The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus\nPY  - 2019\nDA  - 2019\nPB  - medRxiv 2020\nDO  - doi\nUR  - https://doi.org/10.1101/2020.02.09.20021477.\nT2  - in Wuhan and Beijing\nLA  - \nER  - \n\nTY  - GEN\nAU  - Ai, S.\nAU  - Zhu, G.\nAU  - Tian, F.\nTI  - Population movement, city closure and spatial tran smission of the 2019-nCoV infection in China. medRxiv 2020\nDO  - doi\nUR  - https://doi.or\nC1  - true\nC1  - g/10.1101/2020.02.04.20020339.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lu, J.\nAU  - Liu, W.\nAU  - Xia, R.\nTI  - Effects of closing and reopening live poultry markets on the epidemic of human infection with avian influenza A virus\nT2  - Journal of biomedical research\nPY  - 2016\nDA  - 2016\nVL  - 30\nSP  - 112\nC1  - true\nIS  - 2\nLA  - \nER  - \n\nTY  - GEN\nAU  - Liu, Q.\nAU  - Li, D.\nAU  - Liu, Z.\nTI  - Assessing the Tendency of 2019-nCoV (COVID-19) Outbreak in China. medRxiv 2020\nDO  - doi\nUR  - https://doi.org/10.1101/2020.02.09.20021444.\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Aron, J.L.\nAU  - Schwartz, I.B.\nTI  - Seasonality and period-doubling bifurcations in an epidemic model\nT2  - Journal of theoretical biology\nPY  - 1984\nDA  - 1984\nVL  - 110\nSP  - 665\nEP  - 79\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, M.Y.\nAU  - Smith, H.L.\nAU  - Wang, L.\nTI  - Global dynamics of an SEIR epidemic model with vertical transmission\nT2  - SIAM Journal on Applied Mathematics\nPY  - 2001\nDA  - 2001\nVL  - 62\nSP  - 58\nEP  - 69\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Smirnova, A.\nAU  - deCamp L\nAU  - Chowell, G.\nTI  - Forecasting epidemics through nonparametric estimation of time-dependent transmission rates using the SEIR model\nT2  - Bulletin of mathematical biology\nPY  - 2019\nDA  - 2019\nVL  - 81\nSP  - 4343\nEP  - 65\nIS  - 11\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cori, A.\nAU  - Ferguson, N.M.\nAU  - Fraser, C.\nTI  - A new framework and software to estimate time-varying reproduction numbers during epidemics\nT2  - American journal of epidemiology\nPY  - 2013\nDA  - 2013\nVL  - 178\nSP  - 1505\nEP  - 12\nC1  - true\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cauchemez, S.\nAU  - Bo\u00eblle, P.-Y.\nAU  - Thomas, G.\nTI  - Estimating in real time the efficacy of measures to control emerging communicable diseases\nT2  - American journal of epidemiology\nPY  - 2006\nDA  - 2006\nVL  - 164\nSP  - 591\nEP  - 7\nC1  - true\nIS  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chowell, G.\nAU  - Castillo-Chavez, C.\nAU  - Fenimore, P.W.\nTI  - Model parameters and outbreak control for SARS\nT2  - Emerging Infectious Diseases\nPY  - 2004\nDA  - 2004\nVL  - 10\nSP  - 1258\nC1  - true\nIS  - 7\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Brauer, F.\nAU  - Castillo-Chavez, C.\nAU  - Castillo-Chavez, C.\nTI  - Mathematical models in population biology and epidemiology\nPB  - Springer\nPY  - 2012\nDA  - 2012\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Anastassopoulou, C.\nAU  - Russo, L.\nAU  - Tsakris, A.\nTI  - Data-Based Analysis, Modelling and Forecasting of the novel Coronavirus\nPY  - 2019\nDA  - 2019\nPB  - medRxiv 2020\nDO  - doi\nUR  - https://doi.org/10.1101/2020.02.11.20022186.\nC1  - true\nT2  - outbreak\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Zhao, H.\nAU  - Man, S.\nAU  - Wang, B.\nTI  - Epidemic size of novel coronavirus-infected pneumonia in the Epicenter Wuhan: using data of five-countries&#039; evacuation action\nPB  - medRxiv 2020\nDO  - doi\nUR  - https://doi.org/10.1101/2020.02.12.20022285.\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Sun, H.\nAU  - Dickens, B.L.\nAU  - Chen, M.\nTI  - Estimating number of global importations of COVID-19 from Wuhan, risk of transmission outside mainland China and COVID-19 introduction index between countries outside mainland China\nPB  - medRxiv 2020\nDO  - doi\nUR  - https://doi.org/10.1101/2020.02.17.20024075.\nC1  - true\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Description of the variables of the model and control factors"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Flow-SEIR model, based on the SEIR model, was proposed to to estimate the epidemic trend with a large number of population flowing in and out all provinces of China during the Chinese Spring Festival. And the efficacy of traffic blockage can be estimated in this model"
+            },
+            {
+                "id": "2",
+                "caption": "Confirmed cases under different \u07dd, the x-axis is date, the y-axis is number of confirmed cases"
+            },
+            {
+                "id": "3",
+                "caption": "Confirmed cases under different \u07ec, the x-axis is date, the y-axis is the number of confirmed cases. 9"
+            },
+            {
+                "id": "4",
+                "caption": "The quarantine factor \u07dd is set to take effect on four time: January 23, January 30,"
+            },
+            {
+                "id": "5",
+                "caption": "The traffic blockage factor \u07ec is set to take effect on four time: January 9, January 16,"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.14.20022913.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20022913.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20022913.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20022913.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20022913.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20022913.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20022913.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.14.20022913.full/img-006.png"
+        ]
+    },
+    "sections": {
+        "conclusion": [
+            "Both of quarantine and traffic blockage are effective ways to control the spread of<br/><br/>COVID-19. However, the eff icacy of quarantine is found to be much stronger than that of traffic blockage. Considering traffic blockage may also cause huge losses of economy, we propose to gradually deregulate the traffic blockage, and improve quarantine instead. Also, there might be a large number of asymptomatic carriers of COVID-19, the quarantine should be continued for a long time until the epidemic is totally under control. 1<br/><br/>Keywords: 2019-nCoV; SARS-COV-2; COVID-19; Flow-SEIR model; quarantine; traffic blockage control Abbreviations: 2019-nCoV, 2019 Novel Coronavirus; SARS-COV-2, severe acute respiratory syndrome coronavirus 2; Flow-SEIR model, flow-suceptible-exposed-infection-recovery model; COVID-19, corona virus disease 2019."
+        ],
+        "background": [
+            "Since the 2019-nCoV (COVID-19) outbreaks in Wuhan, China, the cumulative number of confirmed cases is increasing every day, and a large number of populations all over the world are at risk. The recent study [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] on the efficacy of traffic blockage for the COVID-19 indicated that the the population flows will certainly increase the cumulative number of cases and the quarantine and traffic blockage will lower this risk.<br/><br/>On January 24, 2020, J. M. Read et al [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] applied the transmission model and found that the reproduction number of infection is 3.8, and 72% - 75% of the transmission needed to be restricted in order to inhibit the growing infection rate; In addition, they found that traffic blockage only slowed the spread of the epidemic by 24.9%.<br/><br/>On January 27, 2020, B. Tang et al [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] proposed a deterministic compartmental model based on clinical progression of the epidemic. They showed that the reproduction number of infection is 6.47 and the intervention measures can reduce the reproductive number of infection and the risk of transmission. The sensitivity results show that the number of infections in Beijing will decrease by 91.14% in 7 days with the intervation of travel."
+        ],
+        "methods": [
+            "The outbreaks of COVID-19 occured around the Chinese Spring Festival, when a huge number of populatin flows in and out the origin outbreak area, Wuhan, which resulted in that the epidemic was severe in mainland of China and worldwide. The policy of traffic blockage was executed since Janurary 23rd, 2020, after then the chance of cross-infection decreased sharply. Here we make the following assumptions regrading to the status quo of the epidemic and the SARS empirical parameters. A1: The outbreak of COVID-19 started on the beginning of Dec., 2019. A2: The flows in domestic provinces are concluded, the abroad flow-in is not considered. A3: Only the susceptible with no clinical symptoms can flow in and out, the exposed and infections will be quarantined. A4: There is no super spreaders, in other words, the chance of infected was equal to those who are contact with the infections. A5: The COVID-19 has weak seasonality in its transmission, unlike influenza. A6: The recovery rate is time-dependent and will linearly increase. 3"
+        ],
+        "results": [
+            "The efficacy of quarantine and traffic blockage<br/><br/>Both the quarantine factors and traffic blockage factors are taken between 0 to 1. In Fig 2, the current quarantine factor of Hubei province is estimaed to be 0.405, which means around 40.5% of suceptibles who are close contacting with are in quarantine. If we increase the factor by 0.01, the peak number of infections will decrease by 5.53%. For the other provinces outside Hubei, the current quarantine factor is estimated to be 0.285, if we incease the factor by 0.01, the peak number of infections will decrease by 14.64%. On the other hand, when \u07dd is close to 1, all the population is isolated from others, the peak value will decrease by 89.68%. However, when \u07dd tends to 0, all the population flows are control free, and the peak value will increase by 20.4%. As shown in Fig 3, the peak number of cases decrease as the traffic blockage factor increases."
+        ],
+        "conclusions": [
+            "In this study, we have used a Flow-SEIR model to numerically estimate the efficacy of the quarantine and traffic blockage. We introduced both the the quarantine factor and the traffic blockage factor, then the flow variable and transmission rate in the model will vary as the change of these two intervation factors, then the effectiveness of the traffic blockage and quarantine can be simulated and evaluated.<br/><br/>In the simulated results, we conclude that if the masses take protective measures, the peak number of cases will decrease greatly by 89.68%. However, if the masses completely ignored self-isolation, the peak is predicted to increase by 20.40%. And if the external population flows to the target area is almost completely blocked, the peak number will decrease by 21.06%-22.38%. Earlier warning, timely traffic blockage and quarantine measures are extremely effective, especially for areas with slight epidemic situations. The experimental results also show that if there is one day earlier of traffic blockage, about 3,600 cases will eventually be reduced in the mainland China, and one day delay will result in additional 1,800 cases at risk."
+        ],
+        "discussion": [
+            "Applying the latest migration population data from Baidu Migration, and varying the traffic blockage factor, we can use the Flow-SEIR model to simulate the number of infections and then intuitively understand the efficacy of the traffic blockage.<br/><br/>However, our study has several major limitations. First, the accuracy of results can be improved provided the source of data is more reliable and sufficient. Since in Hubei the medical resources are overburdened and the methods to diagnose the COVID-9 are not accurate, even the diagnosis changed several times, the underdiagnosis and misdiagnosis are invetiable, then the confirmed cases are underestimated. Secondly, there is heterogenity in transmission, it is not added in our study, and we also did not district the age distribution in our model.<br/><br/>The study has numerically estimated the efficacy of traffic blockage and quarantine. We confirm by simulated quantification evidence that the traffic blockage is effective in controlling the epidemic of COVID-19, and the quarantine is a more effective way to help the public to prevent cross-infection. With the development of the epidemic, we have to admit the fact that there are still a number of population who are exposed to the COVID-19 without clinical symptoms [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Those population may carry the COVID-19 for several days and might infect others who are closely contacting with, which makes the potentional risk. Thus we encourage the people to be self-protective until the epidemic is totally under control."
+        ],
+        "appendix": [
+            "1 Parameters estimation According to our the assumption A1, firstly we estimated the number of potential suceptibles by the iteration process. We define the loss function as follows:    \u202b\u072e\u202c    \u0d4c    1 \u0730    \u0bc7    \u0dcd\u123a\u202b\u0756\u202c\u0be1    \u0d46    \u202b\u0302\u0756\u202c\u0be1\u123b\u0b36    #\u123a4\u123b<br/><br/>\u0be1\u0b40\u0b35 where N is the length of the real data, which in practical is the count of days. \u202b\u0756\u202c\u0be1 is the nth real data value, and n=1,2,...,N , \u202b\u0302\u0756\u202c\u0be1 is the nth predicted value, based on the model. We fitted the confirmed data from Jan.12 to Feb. 7 to get the optimal number of potential suceptibles by minimizing the loss value. The loss value is small enough to make the estimated results fitting the real data well. The parameters in the Flow-SEIR model can also be estimated in the same way.<br/><br/>For the problem of high death rate in Hubei Province, we reduced the ratio of \u07db\u0b35 and \u07db\u0b36 of Hubei\u2019s model according to the real data that \u07db\u0b35\u0be5\u0bd8\u0bd4\u0bdf \u0d4c \u202b\u07db \u07db \u074d\u202c, \u0b35 \u0b35 \u0b36\u0be5\u0bd8\u0bd4\u0bdf \u0d4c \u202b\u074d\u202c\u0b36\u07db\u0b36. For the situation that the medical resouces are limited in Wuhan, the number of infections will be larger than the released data, we enlarged the ratio of \u03b1 of Hubei\u2019s model, that \u07d9\u0be5\u0bd8\u0bd4\u0bdf \u0d4c \u202b\u07d9\u074c\u202c.",
+            "2 Data Source<br/><br/>Provincial-Level Migration Data of China: http://qianxi.baidu.com/<br/><br/>Official Reported Cases Data: https://www.who.int/health-topics/coronavirus http://www.nhc.gov.cn/ http://wjw.beijing.gov.cn/ http://wjw.fujian.gov.cn/ http://wsjk.tj.gov.cn/ http://wsjkw.hebei.gov.cn/ http://www.xjhfpc.gov.cn/ http://wsjkw.nx.gov.cn/ http://ynswsjkw.yn.gov.cn/wjwWebsite/web/index http://www.gzhfpc.gov.cn/ http://wsjkw.sc.gov.cn/ http://wsjkw.cq.gov.cn/ http://wst.hainan.gov.cn/swjw/index.html http://wsjkw.gxzf.gov.cn/<br/><br/>http://wsjkw.gd.gov.cn/ http://wjw.hunan.gov.cn/ http://wjw.hubei.gov.cn/ http://www.hnwsjsw.gov.cn/ http://wsjkw.shandong.gov.cn/ http://hc.jiangxi.gov.cn/ http://wjw.ah.gov.cn/ http://www.zjwjw.gov.cn/ http://wjw.jiangsu.gov.cn/ http://wsjkw.sh.gov.cn/ http://wsjkw.jl.gov.cn/ http://wjw.nmg.gov.cn/ http://wjw.beijing.gov.cn/ http://sxwjw.shaanxi.gov.cn/ http://wjw.shanxi.gov.cn/ http://wsjk.ln.gov.cn/ http://wsjk.gansu.gov.cn/ http://wsjkw.hlj.gov.cn/ https://wsjkw.qinghai.gov.cn/ http://wjw.xizang.gov.cn/"
+        ],
+        "limitations": [
+            "Our study has several major limitations. First, the accuracy of results can be improved provided the source of data is more reliable and sufficient. Since in Hubei the medical resources are overburdened and the methods to diagnose the COVID-9 are not accurate, even the diagnosis changed several times, the underdiagnosis and misdiagnosis are invetiable, then the confirmed cases are underestimated. Secondly, there is heterogenity in transmission, it is not added in our study, and we also did not district the age distribution in our model."
+        ]
+    },
+    "structured_content": {
+        "Conclusion": [
+            "Both of quarantine and traffic blockage are effective ways to control the spread of",
+            "COVID-19. However, the eff icacy of quarantine is found to be much stronger than that of traffic blockage. Considering traffic blockage may also cause huge losses of economy, we propose to gradually deregulate the traffic blockage, and improve quarantine instead. Also, there might be a large number of asymptomatic carriers of COVID-19, the quarantine should be continued for a long time until the epidemic is totally under control. 1",
+            "Keywords: 2019-nCoV; SARS-COV-2; COVID-19; Flow-SEIR model; quarantine; traffic blockage control Abbreviations: 2019-nCoV, 2019 Novel Coronavirus; SARS-COV-2, severe acute respiratory syndrome coronavirus 2; Flow-SEIR model, flow-suceptible-exposed-infection-recovery model; COVID-19, corona virus disease 2019."
+        ],
+        "Background": [
+            "Since the 2019-nCoV (COVID-19) outbreaks in Wuhan, China, the cumulative number of confirmed cases is increasing every day, and a large number of populations all over the world are at risk. The recent study [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] on the efficacy of traffic blockage for the COVID-19 indicated that the the population flows will certainly increase the cumulative number of cases and the quarantine and traffic blockage will lower this risk.",
+            "On January 24, 2020, J. M. Read et al [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] applied the transmission model and found that the reproduction number of infection is 3.8, and 72% - 75% of the transmission needed to be restricted in order to inhibit the growing infection rate; In addition, they found that traffic blockage only slowed the spread of the epidemic by 24.9%.",
+            "On January 27, 2020, B. Tang et al [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] proposed a deterministic compartmental model based on clinical progression of the epidemic. They showed that the reproduction number of infection is 6.47 and the intervention measures can reduce the reproductive number of infection and the risk of transmission. The sensitivity results show that the number of infections in Beijing will decrease by 91.14% in 7 days with the intervation of travel.",
+            "On Feb.4, 2020, S. Ai et al [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] investigated both the effectiveness of closure of Wuhan and that of restricting the flow of people in and out the provinces (cities) in China.",
+            "On Feb.9, 2020, X. Li et al [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] simulated the dynamics of the 2019-nCOV (COVID-19), on account of the strict control measures in Wuhan and Beijing. They showed that after the the traffic blockage on Jan.23,2020, the reproductive number in Wuhan will be 2.5, significantly lower than before.",
+            "Unlike our previous work [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] on H7N9 avian influenza which was a retrospective analysis, we are now doing predictive analysis of COVID-19 in an emergency. Beside our Flow-SEIHR model based predition for the trends of COVID-19 [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], this paper will focus on quantifying the quarantine factor and the traffic blockage factor such that we may numerically evaluate the effects of various policies. Specifically, we apply a Flow-SEIR model, a simplified version of Flow-SEIHR model proposed in [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>], which may enable us to perform a wide range of assessments nationwide."
+        ],
+        "Methods": [
+            "The outbreaks of COVID-19 occured around the Chinese Spring Festival, when a huge number of populatin flows in and out the origin outbreak area, Wuhan, which resulted in that the epidemic was severe in mainland of China and worldwide. The policy of traffic blockage was executed since Janurary 23rd, 2020, after then the chance of cross-infection decreased sharply. Here we make the following assumptions regrading to the status quo of the epidemic and the SARS empirical parameters. A1: The outbreak of COVID-19 started on the beginning of Dec., 2019. A2: The flows in domestic provinces are concluded, the abroad flow-in is not considered. A3: Only the susceptible with no clinical symptoms can flow in and out, the exposed and infections will be quarantined. A4: There is no super spreaders, in other words, the chance of infected was equal to those who are contact with the infections. A5: The COVID-19 has weak seasonality in its transmission, unlike influenza. A6: The recovery rate is time-dependent and will linearly increase. 3",
+            "A7: The empirical parameters on SARS will also work on COVID-19. A8: Most people will follow the official instructions and stay at home after the traffic blockage.",
+            "We denote S, E, I, R,F in the flow-SEIR model [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] and the parameters as shown in Table 1. In addition, we introduce the traffic blockage factor \u03c4, and the quarantine factor \u03b5, which stands for the quantifications of traffic blockage and quarantine, respectively. Since the people was urged to stay at home, this self-protection is also regarded as quarantine.",
+            "Flow-SEIR model Basically, we follow the standard SEIR [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>-<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] model to evaluate the state of infections.",
+            "However, since the epidemic of COVID-19 appeared around the Chinese Spring Festival, the nationwide traffic should be modeled by the traffic network flow, in order to characterize the huge number of population flows in and out all provinces (cities), which formed the flow-SEHIR model in [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. Here we simplify it into a Flow-SEIR model, and then estimate the influence of the migration and the efficacy of traffic blockage. The Flow-SEIR model is:",
+            "+\u03b32I where all the variables are presented in Table 1. The migration data can represent the quantification of the susceptibles flow function F in the first equation of (1). In practice, we collect the migration data from the Baidu Migration API, which is available online. More precisely, the susceptibles flow to the ith province from other areas can be expressed as follows:",
+            "where \u03b4 ji is the ratio of migration population to the whole population independent of the traffic blockage. In equation (2), the traffic blockage factor \u07ec is introduced, which ranges from 0 to 1. Here \u07ec tends to 0 implies free, and 1 blockage.",
+            "According to our assumptions, the transmission with quarantine can be rewritten as:",
+            "\u0733 \u0d4c \u0734\u0747\u0b34\u123a1 \u0d46 \u03b5\u123b\u0735#\u123a3\u123b where \u0733 is the number of susceptibles who are independent of quarantine, and k is a constant which will be estimated, \u0734\u0b34 is basic reproductive number [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>,<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. As the epidemic grows fastly, the public was aware of cross-infection, so the quarantine factor \u03b5 will increase to 1, thus \u0733 is in decline gradually. In appendix 1, all the parameters concerned in equaration (1) can be estimatied by fitting the confirmed data (cf. [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>,<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]). The practical considerations are also discussed there in appendix 1.",
+            "Data source: All the data we used is available online. The data of confirmed cases is released by the National",
+            "Health Commission of China and each provinces\u2019 health commissions, and the migration data is from Baidu Migration API. For data source websites, please see Appendix 2"
+        ],
+        "Results": [
+            "Both the quarantine factors and traffic blockage factors are taken between 0 to 1. In Fig 2, the current quarantine factor of Hubei province is estimaed to be 0.405, which means around 40.5% of suceptibles who are close contacting with are in quarantine. If we increase the factor by 0.01, the peak number of infections will decrease by 5.53%. For the other provinces outside Hubei, the current quarantine factor is estimated to be 0.285, if we incease the factor by 0.01, the peak number of infections will decrease by 14.64%. On the other hand, when \u07dd is close to 1, all the population is isolated from others, the peak value will decrease by 89.68%. However, when \u07dd tends to 0, all the population flows are control free, and the peak value will increase by 20.4%. As shown in Fig 3, the peak number of cases decrease as the traffic blockage factor increases.",
+            "For Hubei province, the current traffic blockage factor is estimaed to be 0.66, which indicates around 34% of suceptibles who flowed out from Hubei, if we increase the factor by 0.1, the peak number of infections will decrease by 2.14%. For the provinces except Hubei, the current traffic blockage factor is estimated to be 0.26, if we incease the factor by 0.1, the peak number of infections will decrease by 4.01%. When the traffic blockage factor \u07ec is close to 1, the target area is almost completely in blockage, the peak value will decrease by 21.06% - 22.39% to the case that \u07ec tends to 0.",
+            "Clearly, self-isolation and quarantine is more effective than traffic blockage.",
+            "The efficacy of earlier warning of COVID-19 We estimated the trend of confirmed cases with quarantine at different time periods. As shown in Fig 4, the quarantine factor \u07dd increase by 0.01, the peak arrival time in Hubei will arrive 0-2 days earlier, and the peak arrival time of other provinces outside Hubei will arrive 1-3 days earlier. For Hubei Province, if the quarantine is 1 week delay, the peak value will increase by 8.50% 10.95%. Oppsitely, if the quarantine is 1 week earlier, the peak value will decrease by 24.26% 25.33%, and 2 weeks by 57.10% - 57.46%. For the other provinces, if the quarantine is 1 week of delay, the peak value will increase by 20.92% - 22.77%, but 1 (or 2, resp.) week earlier will decrease by 32.78% - 35.60% (or 63.75% - 67.13%, resp.).",
+            "Concretely, we estimated the trends of epidemic, assume that the traffic blockage started on Jan. 9, Jan. 16, Jan. 23 and Jan. 30, respectively. In this experiment, we assumed that the traffic flow between provinces would be completely cut off. As shown in Fig 5, when the traffic blockage factor \u07ec increase by 0.1 for Hubei, the peak arrival time will be earlier and the peak number of cases will be lower. If the traffic blockage is one week earlier, the peak number of cases only decreased by 3.10% - 3.79%, and two weeks by 6.64% - 8.08%. This illustrates that in the eve of city closure in Wuhan, the epidemic in Hubei province had been severe, and the transmission rate was quite high. However, in other provinces outside Hubei, if the traffic blockage is one week earlier, the peak number of cases will decrease by 15.30% - 16.70%, and two weeks earlier, it will decrease by 31.74% - 33.09% .",
+            "Finally, we estimated the daily change of number of cases nationwide. If there is one day earlier of traffic blockage, about 3,600 cases will eventually be reduced in the mainland of China, but one day delay might increase 1,800 cases."
+        ],
+        "Conclusions": [
+            "In this study, we have used a Flow-SEIR model to numerically estimate the efficacy of the quarantine and traffic blockage. We introduced both the the quarantine factor and the traffic blockage factor, then the flow variable and transmission rate in the model will vary as the change of these two intervation factors, then the effectiveness of the traffic blockage and quarantine can be simulated and evaluated.",
+            "In the simulated results, we conclude that if the masses take protective measures, the peak number of cases will decrease greatly by 89.68%. However, if the masses completely ignored self-isolation, the peak is predicted to increase by 20.40%. And if the external population flows to the target area is almost completely blocked, the peak number will decrease by 21.06%-22.38%. Earlier warning, timely traffic blockage and quarantine measures are extremely effective, especially for areas with slight epidemic situations. The experimental results also show that if there is one day earlier of traffic blockage, about 3,600 cases will eventually be reduced in the mainland China, and one day delay will result in additional 1,800 cases at risk."
+        ],
+        "Discussion": [
+            "Applying the latest migration population data from Baidu Migration, and varying the traffic blockage factor, we can use the Flow-SEIR model to simulate the number of infections and then intuitively understand the efficacy of the traffic blockage.",
+            "However, our study has several major limitations. First, the accuracy of results can be improved provided the source of data is more reliable and sufficient. Since in Hubei the medical resources are overburdened and the methods to diagnose the COVID-9 are not accurate, even the diagnosis changed several times, the underdiagnosis and misdiagnosis are invetiable, then the confirmed cases are underestimated. Secondly, there is heterogenity in transmission, it is not added in our study, and we also did not district the age distribution in our model.",
+            "The study has numerically estimated the efficacy of traffic blockage and quarantine. We confirm by simulated quantification evidence that the traffic blockage is effective in controlling the epidemic of COVID-19, and the quarantine is a more effective way to help the public to prevent cross-infection. With the development of the epidemic, we have to admit the fact that there are still a number of population who are exposed to the COVID-19 without clinical symptoms [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>-<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Those population may carry the COVID-19 for several days and might infect others who are closely contacting with, which makes the potentional risk. Thus we encourage the people to be self-protective until the epidemic is totally under control."
+        ],
+        "References": [
+            "1. Kucharski AJ, Russell TW, Diamond C, et al Early dynamics of transmission",
+            "; and control of 2019-nCoV: a mathematical modelling study. medRxiv 2020 doi: https://doi.org/10.1101/2020.01.31.20019901. 2. Boldog P, Tekeli T, Vizi Z, et al Risk assessment of novel coronavirus 2019-",
+            "; nCoV outbreaks outside China. medRxiv 2020 doi: https://doi.org/10.1101/2020.",
+            "02.04.20020503. 3. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study.",
+            "The",
+            "Lancet https://doi.org/10.1016/S0140-6736(20)30260-9.Accessed 31 Jan 2020. 4. Lodge EK, Schatz AM, Drake JM. Protective Population Behavior Change in",
+            "Outbreaks of Emerging Infectious Disease. bioRxiv 2020; doi: https://doi.org/10.1",
+            "101/2020.01.27.921536. 5. Read JM, Bridgen JR, Cummings DA, et al Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020; doi: https://doi.org/10.1101/2020.01.23.20018549.",
+            "6. Tang B, Wang X, Li Q, et al Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions. Journal of Clinical Medicine 2020;9(2):462.",
+            "7. Li X, Zhao X, Sun Y. The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus (2019-nCoV) in Wuhan and Beijing. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.09.20021477.",
+            "8. Ai S, Zhu G, Tian F, et al Population movement, city closure and spatial tran smission of the 2019-nCoV infection in China. medRxiv 2020; doi: https://doi.or g/10.1101/2020.02.04.20020339.",
+            "9. Lu J, Liu W, Xia R, et al Effects of closing and reopening live poultry markets on the epidemic of human infection with avian influenza A virus. Journal of biomedical research 2016;30(2):112.",
+            "10. Liu Q, Li D, Liu Z, et al Assessing the Tendency of 2019-nCoV (COVID-19) Outbreak in China. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.09.20021444.",
+            "11. Aron JL, Schwartz IB. Seasonality and period-doubling bifurcations in an epidemic model. Journal of theoretical biology 1984;110(4):665-79. 12. Li MY, Smith HL, Wang L. Global dynamics of an SEIR epidemic model with vertical transmission. SIAM Journal on Applied Mathematics 2001;62(1):58-69. 13. Smirnova A, deCamp L, Chowell G. Forecasting epidemics through nonparametric estimation of time-dependent transmission rates using the SEIR model. Bulletin of mathematical biology 2019;81(11):4343-65. 14. Cori A, Ferguson NM, Fraser C, et al A new framework and software to estimate time-varying reproduction numbers during epidemics. American journal of epidemiology 2013;178(9):1505-12.",
+            "15. Cauchemez S, Bo\u00eblle P-Y, Thomas G, et al Estimating in real time the efficacy of measures to control emerging communicable diseases. American journal of epidemiology 2006;164(6):591-7. 16. Chowell G, Castillo-Chavez C, Fenimore PW, et al Model parameters and outbreak control for SARS. Emerging Infectious Diseases 2004;10(7):1258. 17. Brauer F, Castillo-Chavez C, Castillo-Chavez C. Mathematical models in population biology and epidemiology. Springer; 2012. 18. Anastassopoulou C, Russo L, Tsakris A, et al Data-Based Analysis, Modelling and Forecasting of the novel Coronavirus (2019-nCoV) outbreak. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.11.20022186. 19. Zhao H, Man S, Wang B, et al Epidemic size of novel coronavirus-infected pneumonia in the Epicenter Wuhan: using data of five-countries&#039; evacuation action. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.12.20022285. 20. Sun H, Dickens BL, Chen M, et al Estimating number of global importations of COVID-19 from Wuhan, risk of transmission outside mainland China and COVID-19 introduction index between countries outside mainland China. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.17.20024075.",
+            "FIGURE 1. Flow-SEIR model, based on the SEIR model, was proposed to to estimate the epidemic trend with a large number of population flowing in and out all provinces of China during the Chinese Spring Festival. And the efficacy of traffic blockage can be estimated in this model.",
+            "FIGURE 2. Confirmed cases under different \u07dd, the x-axis is date, the y-axis is number of confirmed cases.",
+            "FIGURE 3. Confirmed cases under different \u07ec, the x-axis is date, the y-axis is the number of confirmed cases. 9",
+            "FIGURE 4. The quarantine factor \u07dd is set to take effect on four time: January 23, January 30, Feburary 6, Feburary 13. The x-axis is the date and the y-axis is the number of patients.",
+            "FIGURE 5. The traffic blockage factor \u07ec is set to take effect on four time: January 9, January 16, January 23, January 30. The x-axis is the date and the y-axis is the number of patients. 10",
+            "Table 1 Description of the variables of the model and control factors",
+            "Variable",
+            "Description",
+            "S",
+            "Number of those susceptible",
+            "E",
+            "Number of those exposed",
+            "I",
+            "Number of those infective",
+            "R",
+            "Number of those recovered",
+            "Population flows in and out \u03b2",
+            "Rate of those who are susceptible and being infected \u03b1",
+            "Rate of those who are exposed and being infectious.",
+            "\u03b31",
+            "Those who are infectious and being recovered.",
+            "\u03b32",
+            "Those who are exposed and being recovered.",
+            "\u03b5",
+            "Rate of susceptibles who are in quarantine \u03c4",
+            "Rate of susceptibles who flowed out",
+            "APPENDIX 1 Parameters estimation According to our the assumption A1, firstly we estimated the number of potential suceptibles by the iteration process. We define the loss function as follows:",
+            "\u202b\u072e\u202c",
+            "\u0d4c",
+            "1 \u0730",
+            "\u0bc7",
+            "\u0dcd\u123a\u202b\u0756\u202c\u0be1",
+            "\u0d46",
+            "\u202b\u0302\u0756\u202c\u0be1\u123b\u0b36",
+            "#\u123a4\u123b",
+            "\u0be1\u0b40\u0b35 where N is the length of the real data, which in practical is the count of days. \u202b\u0756\u202c\u0be1 is the nth real data value, and n=1,2,...,N , \u202b\u0302\u0756\u202c\u0be1 is the nth predicted value, based on the model. We fitted the confirmed data from Jan.12 to Feb. 7 to get the optimal number of potential suceptibles by minimizing the loss value. The loss value is small enough to make the estimated results fitting the real data well. The parameters in the Flow-SEIR model can also be estimated in the same way.",
+            "For the problem of high death rate in Hubei Province, we reduced the ratio of \u07db\u0b35 and \u07db\u0b36 of Hubei\u2019s model according to the real data that \u07db\u0b35\u0be5\u0bd8\u0bd4\u0bdf \u0d4c \u202b\u07db \u07db \u074d\u202c, \u0b35 \u0b35 \u0b36\u0be5\u0bd8\u0bd4\u0bdf \u0d4c \u202b\u074d\u202c\u0b36\u07db\u0b36. For the situation that the medical resouces are limited in Wuhan, the number of infections will be larger than the released data, we enlarged the ratio of \u03b1 of Hubei\u2019s model, that \u07d9\u0be5\u0bd8\u0bd4\u0bdf \u0d4c \u202b\u07d9\u074c\u202c.",
+            "And there is data latency problem, because the epidemic has an incubation period and the infections can not be diagnosed timely. For the data latency problem, it can be assumed that the number of confirmed cases published on one day is the number of confirmed cases \u074a\u0bdc days ago, and \u074a\u0bdc is the number of delayed days in the ith province, expressed as",
+            "\u202b\u072b\u202c\u0be5\u0bd8\u0bd4\u0bdf\u123a\u202b\u0750\u202c\u123b \u0d4c \u202b \u072b\u202c\u123a\u202b \u0750\u202c\u0bd7\u0bd4\u0be7\u0bd4 \u0d46 \u074a\u0bdc\u123b#\u123a5\u123b",
+            "For Hubei, due to the above factors, the latency will be relatively long, which may reach 5-7 days. For other provinces, if patients can get treatment in time, the delay should only include the time waiting for the result of the diagnostic reagents, is about 1-2 day."
+        ],
+        "APPENDIX 2 Data Source": [
+            "Official Reported Cases Data: https://www.who.int/health-topics/coronavirus http://www.nhc.gov.cn/ http://wjw.beijing.gov.cn/ http://wjw.fujian.gov.cn/ http://wsjk.tj.gov.cn/ http://wsjkw.hebei.gov.cn/ http://www.xjhfpc.gov.cn/ http://wsjkw.nx.gov.cn/ http://ynswsjkw.yn.gov.cn/wjwWebsite/web/index http://www.gzhfpc.gov.cn/ http://wsjkw.sc.gov.cn/ http://wsjkw.cq.gov.cn/ http://wst.hainan.gov.cn/swjw/index.html http://wsjkw.gxzf.gov.cn/",
+            "http://wsjkw.gd.gov.cn/ http://wjw.hunan.gov.cn/ http://wjw.hubei.gov.cn/ http://www.hnwsjsw.gov.cn/ http://wsjkw.shandong.gov.cn/ http://hc.jiangxi.gov.cn/ http://wjw.ah.gov.cn/ http://www.zjwjw.gov.cn/ http://wjw.jiangsu.gov.cn/ http://wsjkw.sh.gov.cn/ http://wsjkw.jl.gov.cn/ http://wjw.nmg.gov.cn/ http://wjw.beijing.gov.cn/ http://sxwjw.shaanxi.gov.cn/ http://wjw.shanxi.gov.cn/ http://wsjk.ln.gov.cn/ http://wsjk.gansu.gov.cn/ http://wsjkw.hlj.gov.cn/ https://wsjkw.qinghai.gov.cn/ http://wjw.xizang.gov.cn/"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 3600,
+            "context": "Finally, we estimated the daily change of number of cases nationwide. <mark class=\"stats\">If there is one day earlier of traffic blockage, about 3,600 cases will eventually be reduced in the mainland of China, but one day delay might increase 1,800 cases</mark>. Conclusions In this study, we have used a Flow-SEIR model to numerically estimate the efficacy of the quarantine and traffic blockage"
+        },
+        {
+            "participant": "cases",
+            "number": 3600,
+            "context": "Earlier warning, timely traffic blockage and quarantine measures are extremely effective, especially for areas with slight epidemic situations. <mark class=\"stats\">The experimental results also show that if there is one day earlier of traffic blockage, about 3,600 cases will eventually be reduced in the mainland China, and one day delay will result in additional 1,800 cases at risk</mark>. Discussion Applying the latest migration population data from Baidu Migration, and varying the traffic blockage factor, we can use the Flow-SEIR model to simulate the number of infections and then intuitively understand the efficacy of the traffic blockage"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "epidemics",
+        "quarantine factor",
+        "2019-nCoV",
+        "SARS-COV-2",
+        "peak number",
+        "quarantine",
+        "COVID-19",
+        "flow-suceptible-exposed-infection-recovery model",
+        "self isolation",
+        "Flow-SEIR model",
+        "hubei province",
+        "current traffic blockage factor",
+        "corona virus disease 2019",
+        "traffic blockage control Abbreviations: 2019-nCoV",
+        "coronavirus",
+        "current quarantine factor",
+        "traffic blockage factor",
+        "Emerging Infectious disease",
+        "flow seir model",
+        "2019 Novel Coronavirus",
+        "SEIR",
+        "large number",
+        "cumulative number",
+        "dynamics"
+    ],
+    "keyword_relevance": {
+        "quarantine": 0.2459016393442623,
+        "COVID-19": 0.12568306010928962,
+        "traffic blockage factor": 0.09289617486338798,
+        "SEIR": 0.08743169398907104,
+        "quarantine factor": 0.07103825136612021,
+        "2019-nCoV": 0.07103825136612021,
+        "peak number": 0.06557377049180328,
+        "Flow-SEIR model": 0.060109289617486336,
+        "coronavirus": 0.03278688524590164,
+        "current traffic blockage factor": 0.02185792349726776,
+        "current quarantine factor": 0.02185792349726776,
+        "large number": 0.02185792349726776,
+        "dynamics": 0.02185792349726776,
+        "cumulative number": 0.01639344262295082,
+        "epidemics": 0.01092896174863388,
+        "SARS-COV-2": 0.01092896174863388,
+        "flow-suceptible-exposed-infection-recovery model": 0.00546448087431694,
+        "corona virus disease 2019": 0.00546448087431694,
+        "traffic blockage control Abbreviations: 2019-nCoV": 0.00546448087431694,
+        "2019 Novel Coronavirus": 0.00546448087431694,
+        "self isolation": 0.0,
+        "hubei province": 0.0,
+        "Emerging Infectious disease": 0.0,
+        "flow seir model": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Since the 2019-nCoV (COVID-19) outbreaks in Wuhan, China, the cumulative number of confirmed cases is increasing every day, and a large number of populations all over the world are at risk.",
+        "Tang et al [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] proposed a deterministic compartmental model based on clinical progression of the epidemic.",
+        "They showed that the reproduction number of infection is 6.47 and the intervention measures can reduce the reproductive number of infection and the risk of transmission.",
+        "The sensitivity results show that the number of infections in Beijing will decrease by 91.14% in 7 days with the intervation of travel",
+        "<h2 style=\"display: inline\">Methods:</h2> The outbreaks of COVID-19 occured around the Chinese Spring Festival, when a huge number of populatin flows in and out the origin outbreak area, Wuhan, which resulted in that the epidemic was severe in mainland of China and worldwide.",
+        "The policy of traffic blockage was executed since Janurary 23rd, 2020, after the chance of cross-infection decreased sharply.",
+        "A3: Only the susceptible with no clinical symptoms can flow in and out, the exposed and infections will be quarantined.",
+        "A6: The recovery rate is time-dependent and will linearly increase. 3",
+        "<h2 style=\"display: inline\">Results:</h2> The efficacy of quarantine and traffic blockage<br/><br/>Both the quarantine factors and traffic blockage factors are taken between 0 to 1.",
+        "In Fig 2, the current quarantine factor of Hubei province is estimaed to be 0.405, which means around 40.5% of suceptibles who are close contacting with are in quarantine.",
+        "For the other provinces outside Hubei, the current quarantine factor is estimated to be 0.285, if the authors incease the factor by 0.01, the peak number of infections will decrease by 14.64%.",
+        "As shown in Fig 3, the peak number of cases decrease as the traffic blockage factor increases",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Applying the latest migration population data from Baidu Migration, and varying the traffic blockage factor, the authors can use the Flow-SEIR model to simulate the number of infections and intuitively understand the efficacy of the traffic blockage.<br/><br/>the study has several major limitations.",
+        "The authors encourage the people to be self-protective until the epidemic is totally under control.In this study, the authors have used a Flow-SEIR model to numerically estimate the efficacy of the quarantine and traffic blockage.",
+        "The authors introduced both the the quarantine factor and the traffic blockage factor, the flow variable and transmission rate in the model will vary as the change of these two intervation factors, the effectiveness of the traffic blockage and quarantine can be simulated and evaluated.",
+        "The experimental results show that if there is one day earlier of traffic blockage, about 3,600 cases will eventually be reduced in the mainland China, and one day delay will result in additional 1,800 cases at risk"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Since the 2019-nCoV (COVID-19) outbreaks in Wuhan, China, the cumulative number of confirmed cases is increasing every day, and a large number of populations all over the world are at risk.",
+            "Tang et al [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] proposed a deterministic compartmental model based on clinical progression of the epidemic.",
+            "They showed that the reproduction number of infection is 6.47 and the intervention measures can reduce the reproductive number of infection and the risk of transmission.",
+            "The sensitivity results show that the number of infections in Beijing will decrease by 91.14% in 7 days with the intervation of travel"
+        ],
+        "Methods": [
+            "The outbreaks of COVID-19 occured around the Chinese Spring Festival, when a huge number of populatin flows in and out the origin outbreak area, Wuhan, which resulted in that the epidemic was severe in mainland of China and worldwide.",
+            "The policy of traffic blockage was executed since Janurary 23rd, 2020, after the chance of cross-infection decreased sharply.",
+            "A3: Only the susceptible with no clinical symptoms can flow in and out, the exposed and infections will be quarantined.",
+            "A6: The recovery rate is time-dependent and will linearly increase. 3"
+        ],
+        "Results": [
+            "The efficacy of quarantine and traffic blockage<br/><br/>Both the quarantine factors and traffic blockage factors are taken between 0 to 1.",
+            "In Fig 2, the current quarantine factor of Hubei province is estimaed to be 0.405, which means around 40.5% of suceptibles who are close contacting with are in quarantine.",
+            "For the other provinces outside Hubei, the current quarantine factor is estimated to be 0.285, if the authors incease the factor by 0.01, the peak number of infections will decrease by 14.64%.",
+            "As shown in Fig 3, the peak number of cases decrease as the traffic blockage factor increases"
+        ],
+        "Conclusion": [
+            "Applying the latest migration population data from Baidu Migration, and varying the traffic blockage factor, the authors can use the Flow-SEIR model to simulate the number of infections and intuitively understand the efficacy of the traffic blockage.<br/><br/>the study has several major limitations.",
+            "The authors encourage the people to be self-protective until the epidemic is totally under control.In this study, the authors have used a Flow-SEIR model to numerically estimate the efficacy of the quarantine and traffic blockage.",
+            "The authors introduced both the the quarantine factor and the traffic blockage factor, the flow variable and transmission rate in the model will vary as the change of these two intervation factors, the effectiveness of the traffic blockage and quarantine can be simulated and evaluated.",
+            "The experimental results show that if there is one day earlier of traffic blockage, about 3,600 cases will eventually be reduced in the mainland China, and one day delay will result in additional 1,800 cases at risk"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Kucharski_et+al_2019_a",
+            "entry": "1. Kucharski AJ, Russell TW, Diamond C, et al. Early dynamics of transmission; and control of 2019-nCoV: a mathematical modelling study. medRxiv 2020 doi: https://doi.org/10.1101/2020.01.31.20019901.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.31.20019901",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.31.20019901"
+        },
+        {
+            "id": "2",
+            "alt_id": "Boldog_et+al_2019_a",
+            "entry": "2. Boldog P, Tekeli T, Vizi Z, et al. Risk assessment of novel coronavirus 2019- ; nCoV outbreaks outside China. medRxiv 2020 doi: https://doi.org/10.1101/2020.",
+            "crossref": "https://dx.doi.org/10.1101/2020",
+            "scite": "https://scite.ai/reports/10.1101/2020"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "3. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. https://doi.org/10.1016/S0140-6736(20)30260-9.Accessed 31 Jan 2020.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9.Accessed",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9.Accessed"
+        },
+        {
+            "id": "4",
+            "alt_id": "Lodge_et+al_0000_a",
+            "entry": "4. Lodge EK, Schatz AM, Drake JM. Protective Population Behavior Change in Outbreaks of Emerging Infectious Disease. bioRxiv 2020; doi: https://doi.org/10.1",
+            "url": "https://doi.org/10.1"
+        },
+        {
+            "id": "5",
+            "alt_id": "Read_et+al_2019_a",
+            "entry": "5. Read JM, Bridgen JR, Cummings DA, et al. Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020; doi: https://doi.org/10.1101/2020.01.23.20018549.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.20018549",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.20018549"
+        },
+        {
+            "id": "6",
+            "alt_id": "Tang_et+al_2019_a",
+            "entry": "6. Tang B, Wang X, Li Q, et al. Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions. Journal of Clinical Medicine 2020;9(2):462.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tang%20B%20Wang%20X%20Li%20Q%20et%20al%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20Journal%20of%20Clinical%20Medicine%20202092462",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tang%20B%20Wang%20X%20Li%20Q%20et%20al%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20Journal%20of%20Clinical%20Medicine%20202092462",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tang%20B%20Wang%20X%20Li%20Q%20et%20al%20Estimation%20of%20the%20Transmission%20Risk%20of%20the%202019nCoV%20and%20Its%20Implication%20for%20Public%20Health%20Interventions%20Journal%20of%20Clinical%20Medicine%20202092462"
+        },
+        {
+            "id": "7",
+            "alt_id": "Li_et+al_2019_a",
+            "entry": "7. Li X, Zhao X, Sun Y. The lockdown of Hubei Province causing different transmission dynamics of the novel coronavirus (2019-nCoV) in Wuhan and Beijing. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.09.20021477.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.09.20021477",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.09.20021477",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.09.20021477"
+        },
+        {
+            "id": "8",
+            "alt_id": "Ai_et+al_2019_a",
+            "entry": "8. Ai S, Zhu G, Tian F, et al. Population movement, city closure and spatial tran smission of the 2019-nCoV infection in China. medRxiv 2020; doi: https://doi.or g/10.1101/2020.02.04.20020339.",
+            "url": "https://doi.or"
+        },
+        {
+            "id": "9",
+            "alt_id": "Lu_et+al_2016_a",
+            "entry": "9. Lu J, Liu W, Xia R, et al. Effects of closing and reopening live poultry markets on the epidemic of human infection with avian influenza A virus. Journal of biomedical research 2016;30(2):112.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lu%2C%20J.%20Liu%2C%20W.%20Xia%2C%20R.%20Effects%20of%20closing%20and%20reopening%20live%20poultry%20markets%20on%20the%20epidemic%20of%20human%20infection%20with%20avian%20influenza%20A%20virus%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lu%2C%20J.%20Liu%2C%20W.%20Xia%2C%20R.%20Effects%20of%20closing%20and%20reopening%20live%20poultry%20markets%20on%20the%20epidemic%20of%20human%20infection%20with%20avian%20influenza%20A%20virus%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lu%2C%20J.%20Liu%2C%20W.%20Xia%2C%20R.%20Effects%20of%20closing%20and%20reopening%20live%20poultry%20markets%20on%20the%20epidemic%20of%20human%20infection%20with%20avian%20influenza%20A%20virus%202016"
+        },
+        {
+            "id": "10",
+            "alt_id": "Liu_et+al_2019_a",
+            "entry": "10. Liu Q, Li D, Liu Z, et al. Assessing the Tendency of 2019-nCoV (COVID-19) Outbreak in China. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.09.20021444.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.09.20021444",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.09.20021444"
+        },
+        {
+            "id": "11",
+            "alt_id": "Aron_1984_a",
+            "entry": "11. Aron JL, Schwartz IB. Seasonality and period-doubling bifurcations in an epidemic model. Journal of theoretical biology 1984;110(4):665-79.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Aron%2C%20J.L.%20Schwartz%2C%20I.B.%20Seasonality%20and%20period-doubling%20bifurcations%20in%20an%20epidemic%20model%201984",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Aron%2C%20J.L.%20Schwartz%2C%20I.B.%20Seasonality%20and%20period-doubling%20bifurcations%20in%20an%20epidemic%20model%201984",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Aron%2C%20J.L.%20Schwartz%2C%20I.B.%20Seasonality%20and%20period-doubling%20bifurcations%20in%20an%20epidemic%20model%201984"
+        },
+        {
+            "id": "12",
+            "alt_id": "Li_et+al_2001_a",
+            "entry": "12. Li MY, Smith HL, Wang L. Global dynamics of an SEIR epidemic model with vertical transmission. SIAM Journal on Applied Mathematics 2001;62(1):58-69.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20M.Y.%20Smith%2C%20H.L.%20Wang%2C%20L.%20Global%20dynamics%20of%20an%20SEIR%20epidemic%20model%20with%20vertical%20transmission%202001",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20M.Y.%20Smith%2C%20H.L.%20Wang%2C%20L.%20Global%20dynamics%20of%20an%20SEIR%20epidemic%20model%20with%20vertical%20transmission%202001",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20M.Y.%20Smith%2C%20H.L.%20Wang%2C%20L.%20Global%20dynamics%20of%20an%20SEIR%20epidemic%20model%20with%20vertical%20transmission%202001"
+        },
+        {
+            "id": "13",
+            "alt_id": "Smirnova_et+al_2019_a",
+            "entry": "13. Smirnova A, deCamp L, Chowell G. Forecasting epidemics through nonparametric estimation of time-dependent transmission rates using the SEIR model. Bulletin of mathematical biology 2019;81(11):4343-65.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Smirnova%2C%20A.%20deCamp%20L%20Chowell%2C%20G.%20Forecasting%20epidemics%20through%20nonparametric%20estimation%20of%20time-dependent%20transmission%20rates%20using%20the%20SEIR%20model%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Smirnova%2C%20A.%20deCamp%20L%20Chowell%2C%20G.%20Forecasting%20epidemics%20through%20nonparametric%20estimation%20of%20time-dependent%20transmission%20rates%20using%20the%20SEIR%20model%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Smirnova%2C%20A.%20deCamp%20L%20Chowell%2C%20G.%20Forecasting%20epidemics%20through%20nonparametric%20estimation%20of%20time-dependent%20transmission%20rates%20using%20the%20SEIR%20model%202019"
+        },
+        {
+            "id": "14",
+            "alt_id": "Cori_et+al_2013_a",
+            "entry": "14. Cori A, Ferguson NM, Fraser C, et al. A new framework and software to estimate time-varying reproduction numbers during epidemics. American journal of epidemiology 2013;178(9):1505-12.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cori%2C%20A.%20Ferguson%2C%20N.M.%20Fraser%2C%20C.%20A%20new%20framework%20and%20software%20to%20estimate%20time-varying%20reproduction%20numbers%20during%20epidemics%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cori%2C%20A.%20Ferguson%2C%20N.M.%20Fraser%2C%20C.%20A%20new%20framework%20and%20software%20to%20estimate%20time-varying%20reproduction%20numbers%20during%20epidemics%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cori%2C%20A.%20Ferguson%2C%20N.M.%20Fraser%2C%20C.%20A%20new%20framework%20and%20software%20to%20estimate%20time-varying%20reproduction%20numbers%20during%20epidemics%202013"
+        },
+        {
+            "id": "15",
+            "alt_id": "Cauchemez_et+al_2006_a",
+            "entry": "15. Cauchemez S, Bo\u00eblle P-Y, Thomas G, et al. Estimating in real time the efficacy of measures to control emerging communicable diseases. American journal of epidemiology 2006;164(6):591-7.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cauchemez%2C%20S.%20Bo%C3%ABlle%2C%20P.-Y.%20Thomas%2C%20G.%20Estimating%20in%20real%20time%20the%20efficacy%20of%20measures%20to%20control%20emerging%20communicable%20diseases%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cauchemez%2C%20S.%20Bo%C3%ABlle%2C%20P.-Y.%20Thomas%2C%20G.%20Estimating%20in%20real%20time%20the%20efficacy%20of%20measures%20to%20control%20emerging%20communicable%20diseases%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cauchemez%2C%20S.%20Bo%C3%ABlle%2C%20P.-Y.%20Thomas%2C%20G.%20Estimating%20in%20real%20time%20the%20efficacy%20of%20measures%20to%20control%20emerging%20communicable%20diseases%202006"
+        },
+        {
+            "id": "16",
+            "alt_id": "Chowell_et+al_2004_a",
+            "entry": "16. Chowell G, Castillo-Chavez C, Fenimore PW, et al. Model parameters and outbreak control for SARS. Emerging Infectious Diseases 2004;10(7):1258.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chowell%2C%20G.%20Castillo-Chavez%2C%20C.%20Fenimore%2C%20P.W.%20Model%20parameters%20and%20outbreak%20control%20for%20SARS%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chowell%2C%20G.%20Castillo-Chavez%2C%20C.%20Fenimore%2C%20P.W.%20Model%20parameters%20and%20outbreak%20control%20for%20SARS%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chowell%2C%20G.%20Castillo-Chavez%2C%20C.%20Fenimore%2C%20P.W.%20Model%20parameters%20and%20outbreak%20control%20for%20SARS%202004"
+        },
+        {
+            "id": "17",
+            "alt_id": "Brauer_et+al_2012_a",
+            "entry": "17. Brauer F, Castillo-Chavez C, Castillo-Chavez C. Mathematical models in population biology and epidemiology. Springer; 2012.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Brauer%2C%20F.%20Castillo-Chavez%2C%20C.%20Castillo-Chavez%2C%20C.%20Mathematical%20models%20in%20population%20biology%20and%20epidemiology%202012"
+        },
+        {
+            "id": "18",
+            "alt_id": "Anastassopoulou_et+al_2019_a",
+            "entry": "18. Anastassopoulou C, Russo L, Tsakris A, et al. Data-Based Analysis, Modelling and Forecasting of the novel Coronavirus (2019-nCoV) outbreak. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.11.20022186.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.11.20022186",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.11.20022186",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.11.20022186"
+        },
+        {
+            "id": "19",
+            "alt_id": "Zhao_et+al_0000_a",
+            "entry": "19. Zhao H, Man S, Wang B, et al. Epidemic size of novel coronavirus-infected pneumonia in the Epicenter Wuhan: using data of five-countries&#039; evacuation action. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.12.20022285.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.12.20022285",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.12.20022285"
+        },
+        {
+            "id": "20",
+            "alt_id": "Sun_et+al_0000_a",
+            "entry": "20. Sun H, Dickens BL, Chen M, et al. Estimating number of global importations of COVID-19 from Wuhan, risk of transmission outside mainland China and COVID-19 introduction index between countries outside mainland China. medRxiv 2020; doi: https://doi.org/10.1101/2020.02.17.20024075. ",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.17.20024075",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.17.20024075"
+        }
+    ],
+    "facts": [
+        "all over the world are at risk",
+        "The quarantine and traffic blockage can alleviate the risk of the epidemic",
+        "the efficacy of these two intervation measures can be analyzed in our simulation",
+        "the self-protection at home is included in quarantine",
+        "the quarantine and traffic blockage are effective for epidemic control",
+        "which means around 40.5% of suceptibles who are close contacting with are in quarantine",
+        "early of warning is effective for epidemic containing",
+        "Both of quarantine and traffic blockage are effective ways to control the spread of COVID-19",
+        "the quarantine should be continued for a long time until the epidemic is",
+        "the population flows will certainly increase the cumulative number of cases",
+        "75% of the transmission needed to be restricted in order to inhibit the growing infection rate",
+        "that traffic blockage only slowed the spread of the epidemic by 24.9%",
+        "a deterministic compartmental model based on clinical progression of the epidemic",
+        "the intervention measures can reduce the reproductive number of infection",
+        "The sensitivity results show that the number of infections",
+        "in Beijing will decrease by 91.14% in 7 days",
+        "The outbreaks of COVID-19 occured around the Chinese Spring Festival",
+        "that the epidemic was severe in mainland of China",
+        "The policy of traffic blockage was executed since Janurary 23rd",
+        "the following assumptions regrading to the status quo of the epidemic",
+        "The outbreak of COVID-19 started on the beginning of Dec.",
+        "the peak number of infections will decrease by 5.53%",
+        "the peak number of infections will decrease by 14.64%",
+        "the population is isolated from others",
+        "the peak value will decrease by 89.68%",
+        "the peak value will increase by 20.4%",
+        "the Flow-SEIR model to simulate the number of infections",
+        "the accuracy of results can be improved provided the source of data is more reliable",
+        "The study has numerically estimated the efficacy of traffic blockage and quarantine",
+        "by simulated quantification evidence that the traffic blockage is effective in controlling the epidemic of COVID-19",
+        "a number of population who are exposed to the COVID-19 without clinical symptoms",
+        "Those population may carry the COVID-19 for several days",
+        "the people to be self-protective until the epidemic is",
+        "a Flow-SEIR model to numerically estimate the efficacy of the quarantine and traffic blockage",
+        "the flow variable and transmission rate in the model will vary as the change of these two intervation factors",
+        "the peak is predicted to increase by 20.40%",
+        "if the external population flows to the target area is almost completely blocked",
+        "the peak number will decrease by 21.06%-22.38%",
+        "about 3,600 cases will eventually be reduced in the mainland China",
+        "which stands for the quantifications of traffic blockage and quarantine"
+    ],
+    "claims": [
+        "Considering traffic blockage may also cause huge losses of economy, we propose to gradually deregulate the traffic blockage, and improve quarantine instead",
+        "We introduce the traffic blockage factor \u03c4, and the quarantine factor \u03b5, which stands for the quantifications of traffic blockage and quarantine, respectively",
+        "We introduced both the the quarantine factor and the traffic blockage factor, then the flow variable and transmission rate in the model will vary as the change of these two intervation factors, then the effectiveness of the traffic blockage and quarantine can be simulated and evaluated"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "There might be a large number of asymptomatic carriers of COVID-19, the quarantine should be continued for a long time until the epidemic is totally under control. 1",
+        "Since the 2019-nCoV (COVID-19) outbreaks in Wuhan, China, the cumulative number of confirmed cases is increasing every day, and a large number of populations all over the world are at risk",
+        "The recent study [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] on the efficacy of traffic blockage for the COVID-19 indicated that the the population flows will certainly increase the cumulative number of cases and the quarantine and traffic blockage will lower this risk",
+        "The outbreaks of COVID-19 occured around the Chinese Spring Festival, when a huge number of populatin flows in and out the origin outbreak area, Wuhan, which resulted in that the epidemic was severe in mainland of China and worldwide",
+        "We introduce the traffic blockage factor \u03c4, and the quarantine factor \u03b5, which stands for the quantifications of traffic blockage and quarantine, respectively",
+        "In Fig 2, the current quarantine factor of Hubei province is estimaed to be 0.405, which means around 40.5% of suceptibles who are close contacting with are in quarantine",
+        "If we increase the factor by 0.01, the peak number of infections will decrease by 5.53%",
+        "For the other provinces outside Hubei, the current quarantine factor is estimated to be 0.285, if we incease the factor by 0.01, the peak number of infections will decrease by 14.64%",
+        "In this study, we have used a Flow-SEIR model to numerically estimate the efficacy of the quarantine and traffic blockage",
+        "We introduced both the the quarantine factor and the traffic blockage factor, the flow variable and transmission rate in the model will vary as the change of these two intervation factors, the effectiveness of the traffic blockage and quarantine can be simulated and evaluated",
+        "If the external population flows to the target area is almost completely blocked, the peak number will decrease by 21.06%-22.38%",
+        "Applying the latest migration population data from Baidu Migration, and varying the traffic blockage factor, we can use the Flow-SEIR model to simulate the number of infections and intuitively understand the efficacy of the traffic blockage",
+        "We confirm by simulated quantification evidence that the traffic blockage is effective in controlling the epidemic of COVID-19, and the quarantine is a more effective way to help the public to prevent cross-infection"
+    ],
+    "top_statements": [
+        "Since the 2019-nCoV (COVID-19) outbreaks in Wuhan, China, the cumulative number of confirmed cases is increasing every day, and a large number of populations all over the world are at risk",
+        "In Fig 2, the current quarantine factor of Hubei province is estimaed to be 0.405, which means around 40.5% of suceptibles who are close contacting with are in quarantine",
+        "For the other provinces outside Hubei, the current quarantine factor is estimated to be 0.285, if we incease the factor by 0.01, the peak number of infections will decrease by 14.64%",
+        "In this study, we have used a Flow-SEIR model to numerically estimate the efficacy of the quarantine and traffic blockage",
+        "We introduced both the the quarantine factor and the traffic blockage factor, the flow variable and transmission rate in the model will vary as the change of these two intervation factors, the effectiveness of the traffic blockage and quarantine can be simulated and evaluated",
+        "If the external population flows to the target area is almost completely blocked, the peak number will decrease by 21.06%-22.38%"
+    ],
+    "headline": "We introduced both the the quarantine factor and the traffic blockage factor, the flow variable and transmission rate in the model will vary as the change of these two intervation factors, the effectiveness of the traffic blockage and quarantine can be simulated and evaluated",
+    "contexts": [],
+    "abbreviations": {}
+}

@@ -1,0 +1,830 @@
+{
+    "filename": "2020.02.08.926006.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1167173,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.08.926006",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/16/2020.02.08.926006.full.pdf"
+        },
+        "title": "The insert sequence in SARS-CoV-2 enhances spike protein cleavage by TMPRSS",
+        "author": "Tong Meng, Hao Cao, Hao Zhang, Zijian Kang, Da Xu, Haiyi Gong, Jing Wang, Zifu Li, Xingang Cui, Huji Xu, Haifeng Wei, Xiuwu Pan, Rongrong Zhu, Jianru Xiao, Wang Zhou, Liming Cheng, Jianmin Liu",
+        "date": 2020,
+        "affiliations": [
+            "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji",
+            "University School of Medicine, 200065 Shanghai, China 8",
+            "Tongji University Cancer Center, School of Medicine, Tongji University, 200092",
+            "Shanghai, China 10",
+            "School of Life Science and Biopharmaceutics, Shenyang Pharmaceutical University, 11 103 Wenhua Road, 110016 Shenyang, China 12",
+            "Peking-Tsinghua Center for Life Sciences, TsinghuaUniversity, 100084 Beijing,",
+            "Department of Orthopaedic Oncology, Changzheng Hospital, Second Military",
+            "Medical University, 200003 Shanghai, China 16",
+            "Department of Rheumatology and Immunology, Changzheng Hospital, Second",
+            "Military Medical University, 200003 Shanghai, China 18",
+            "Depanrtment of Urology, The Third Affiliated Hospital of Second Military Medical",
+            "University, 201805 Shanghai, China 20",
+            "Department of Neurosurgery, Changhai hospital, Second Military Medical 21 University, 200003 Shanghai, China",
+            "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of",
+            "Ministry of Education, Orthopaedic Department of Tongji Hospital, School of Life",
+            "Science and Technology, Tongji University, 200092 Shanghai, China 4",
+            "Qiu-Jiang Bioinformatics Institute, 200003 Shanghai, China 5",
+            "These authors contributed equally to this work: Tong Meng, Hao Cao, Hao Zhang 6 *e-mail: chstroke@163.com; limingcheng@tongji.edu.cn; brilliant212@163.com; 7 jianruxiao83@163.com",
+            "Abstract 9 At the end of 2019, the SARS-CoV-2 induces an ongoing outbreak of pneumonia in",
+            "China1, even more spread than SARS-CoV infection2. The entry of SARS-CoV into 11 host cells mainly depends on the cell receptor (ACE2) recognition and spike protein 12 cleavage-induced cell membrane fusion3,4. The spike protein of SARS-CoV-2 also 13 binds to ACE2 with a similar affinity, whereas its spike protein cleavage remains 14 unclear5,6. Here we show that an insertion sequence in the spike protein of",
+            "SARS-CoV-2 enhances the cleavage efficiency, and besides pulmonary alveoli, 16 intestinal and esophagus epithelium were also the target tissues of SARS-CoV-2.",
+            "Compared with SARS-CoV, we found",
+            "SPRR insertion in the S1/S2 protease 18 cleavage sites of SARS-CoV-2 spike protein increasing the cleavage efficiency by the 19 protein sequence aligment and furin score calculation. Additionally, the insertion 20 sequence facilitates the formation of an extended loop which was more suitable for 21 protease recognition by the homology modeling and molicular docking. Furthermore,"
+        ],
+        "abstract": "At the end of 2019, the SARS-CoV-2 induces an ongoing outbreak of pneumonia in China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], even more spread than SARS-CoV infection[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The entry of SARS-CoV into host cells mainly depends on the cell receptor (ACE2) recognition and spike protein cleavage-induced cell membrane fusion[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The spike protein of SARS-CoV-2 also binds to ACE2 with a similar affinity, whereas its spike protein cleavage remains unclear[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Here we show that an insertion sequence in the spike protein of SARS-CoV-2 enhances the cleavage efficiency, and besides pulmonary alveoli, intestinal and esophagus epithelium were also the target tissues of SARS-CoV-2. Compared with SARS-CoV, we found a SPRR insertion in the S1/S2 protease cleavage sites of SARS-CoV-2 spike protein increasing the cleavage efficiency by the protein sequence aligment and furin score calculation. Additionally, the insertion sequence facilitates the formation of an extended loop which was more suitable for protease recognition by the homology modeling and molicular docking. Furthermore, the single-cell transcriptomes identified that ACE2 and TMPRSSs are highly coexpressed in AT2 cells of lung, along with esophageal upper epithelial cells and absorptive enterocytes. Our results provide the bioinformatics evidence for the increased spike protein cleavage of SARS-CoV-2 and indicate its potential target cells.",
+        "references": "@incollection{unknown-a,\n  title = {Introduction 7 At the end of 2019, a rising number of pneumonia patients with unknown pathogen},\n  date = {8},\n  source = {emerged from Wuhan to nearly the entire China7. A novel coronavirus was isolated 9 and based on its phylogeny, taxonomy and established practice, the Coronavirus 10 Study Group (CSG) recognized it as a sister to severe acute respiratory syndrome 11 coronaviruses (SARS-CoVs) and labeled it as severe acute respiratory syndrome 12 coronavirus 2 (SARS-CoV-2) 1,8. Although SARS-CoV-2 is generally less pathogenic 13 than SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), it 14 has a relatively high transmissibility 9},\n  language = {}\n}\n@incollection{unknown2019a,\n  title = {Discussion 5 The coronaviruses is the common infection source of respiratory, enteric and central 6 nervous system in humans and other mammals22. At the beginning of the twenty-first 7 century, two betacoronaviruses, SARS-CoV and MERS-CoV, result},\n  booktitle = {persistent 8 public panics and became the most significant public health events23. In},\n  date = {2019-12},\n  volume = {9},\n  source = {a novel identified coronavirus (SARS-CoV-2) induced an ongoing outbreak of 10 pneumonia},\n  unmatched-booktitle = {in Wuhan, Hubei, China 7. The rapidly increasing number of},\n  unmatched-volume = {11 SARS-CoV-2-infected},\n  language = {}\n}\n@misc{unknown-b,\n  title = {Previous studies identified that SARS-CoV mutated between 2002 and 2004 to better 14 bind to its cell receptor, replicate in human cells and enhance the virulence 9},\n  language = {}\n}\n@article{gallagher2001a,\n  author = {Gallagher, T.M. and Buchmeier, M.J.},\n  title = {Coronavirus spike proteins in viral entry and pathogenesis},\n  journal = {Virology},\n  volume = {279},\n  pages = {371\u2013374},\n  doi = {doi: 10.1006/viro.2000.0757},\n  date = {2001},\n  language = {}\n}\n@article{zhou2015a,\n  author = {Zhou, Y.},\n  title = {Protease inhibitors targeting coronavirus and filovirus entry},\n  journal = {Antiviral research},\n  volume = {116},\n  pages = {76\u201384},\n  doi = {doi: 10.1016/j.antiviral.2015.01.011},\n  date = {2015},\n  more-authors = {true},\n  language = {}\n}\n@article{millet2015a,\n  author = {Millet, J.K. and Whittaker, G.R.},\n  title = {Host cell proteases: Critical determinants of coronavirus tropism and pathogenesis},\n  journal = {Virus research},\n  volume = {202},\n  pages = {120\u2013134},\n  doi = {doi: 10.1016/j.virusres.2014.11.021},\n  date = {2015},\n  language = {}\n}\n@article{shirato2018a,\n  author = {Shirato, K. and Kawase, M. and Matsuyama, S.},\n  title = {Wild-type human coronaviruses prefer cell-surface TMPRSS2 to endosomal cathepsins for cell entry},\n  journal = {Virology},\n  volume = {517},\n  pages = {9\u201315},\n  doi = {doi: 10.1016/j.virol.2017.11.012},\n  date = {2018},\n  language = {}\n}\n@article{heurich2014a,\n  author = {Heurich, A.},\n  title = {TMPRSS2 and ADAM17 cleave ACE2 differentially and only proteolysis by TMPRSS2 augments entry driven by the severe acute respiratory syndrome coronavirus spike protein},\n  journal = {Journal of virology},\n  volume = {88},\n  pages = {1293\u20131307},\n  doi = {doi: 10.1128/jvi.02202-13},\n  date = {2014},\n  more-authors = {true},\n  language = {}\n}\n@article{herter2005a,\n  author = {Herter, S.},\n  title = {Hepatocyte growth factor is a preferred in vitro substrate for human hepsin, a membrane-anchored serine protease implicated in prostate and ovarian cancers},\n  journal = {The Biochemical journal},\n  volume = {390},\n  pages = {125\u2013136},\n  doi = {doi: 10.1042/bj20041955},\n  date = {2005},\n  more-authors = {true},\n  language = {}\n}\n@article{holshue2019a,\n  author = {Holshue, M.L.},\n  journal = {et al. First Case of},\n  date = {2019},\n  title = {Novel Coronavirus in the United},\n  language = {}\n}\n@misc{guan2020a,\n  author = {Guan, W.J. and Z., N. and Hu, Y. and Liang, W.H. and Ou, C.Q. and He, J.X. and Liu, L. and Shan, H. and Lei, C.L. and C., Hui David S. and Du, B.},\n  title = {Clinical characteristics of 2019 novel coronavirus infection in China. medRxiv},\n  doi = {doi:doi},\n  url = {http://dx.doi.org/10.1101/2020.02.06.20020974},\n  date = {2020},\n  language = {}\n}\n@article{perlman2009a,\n  author = {Perlman, S. and Netland, J.},\n  title = {Coronaviruses post-SARS: update on replication and pathogenesis},\n  journal = {Nature reviews. Microbiology},\n  volume = {7},\n  pages = {439\u2013450},\n  doi = {doi: 10.1038/nrmicro2147},\n  date = {2009},\n  language = {}\n}\n@book{lee-a,\n  author = {Lee, P.I. and Hsueh, P.R.},\n  title = {Emerging threats from zoonotic coronaviruses-from SARS and MERS to 2019-nCoV. Journal of microbiology, immunology, and infection = Wei mian yu},\n  publisher = {gan ran za zhi},\n  doi = {doi: 10.1016/j.jmii.2020.02.001 (2020},\n  language = {}\n}\n@article{li2003a,\n  author = {Li, W.},\n  title = {Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus},\n  journal = {Nature},\n  volume = {426},\n  pages = {450\u2013454},\n  doi = {doi: 10.1038/nature02145},\n  date = {2003},\n  more-authors = {true},\n  language = {}\n}\n@article{kuiken2003a,\n  author = {Kuiken, T.},\n  title = {Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome},\n  journal = {Lancet},\n  volume = {362},\n  pages = {263\u2013270},\n  doi = {doi: 10.1016/s0140-6736(03)13967-0},\n  date = {2003},\n  more-authors = {true},\n  language = {}\n}\n@article{shen2017a,\n  author = {Shen, L.W. and Mao, H.J. and Wu, Y.L. and Tanaka, Y. and Zhang, W.},\n  title = {TMPRSS2: A potential target for treatment of influenza virus and coronavirus infections},\n  journal = {Biochimie},\n  volume = {142},\n  pages = {1\u201310},\n  doi = {doi: 10.1016/j.biochi.2017.07.016},\n  date = {2017},\n  language = {}\n}\n@misc{shin2017a,\n  author = {Shin, W.J. and Seong, B.L.},\n  title = {Type II transmembrane serine proteases as potential target for anti-influenza drug discovery. Expert opinion on drug discovery 12},\n  pages = {1139\u20131152},\n  doi = {doi: 10.1080/17460441.2017.1372417},\n  date = {2017},\n  language = {}\n}\n@article{biasini2014a,\n  author = {Biasini, M.},\n  title = {SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information},\n  journal = {Nucleic acids research},\n  volume = {42},\n  pages = {252\u2013258},\n  doi = {doi: 10.1093/nar/gku340},\n  date = {2014},\n  more-authors = {true},\n  language = {}\n}\n@article{wiehe2005a,\n  author = {Wiehe, K.},\n  title = {ZDOCK and RDOCK performance in CAPRI rounds 3, 4, and 5},\n  journal = {Proteins},\n  volume = {60},\n  pages = {207\u2013213},\n  doi = {doi: 10.1002/prot.20559},\n  date = {2005},\n  more-authors = {true},\n  language = {}\n}\n@book{duckert2004a,\n  author = {Duckert, P. and Brunak, S. and Blom, N.},\n  title = {Prediction of proprotein convertase cleavage sites},\n  publisher = {Protein engineering, design & selection: PEDS},\n  doi = {17},\n  pages = {107\u2013112},\n  date = {2004},\n  unmatched-doi = {doi: 10.1093/protein/gzh013},\n  language = {}\n}\n@article{vieira2019a,\n  author = {Vieira Braga, F.A.},\n  title = {A cellular census of human lungs identifies novel cell states in health and in asthma},\n  journal = {Nature medicine},\n  volume = {25},\n  pages = {1153\u20131163},\n  doi = {doi: 10.1038/s41591-019-0468-5},\n  date = {2019},\n  more-authors = {true},\n  language = {}\n}\n@article{valenzi2019a,\n  author = {Valenzi, E.},\n  title = {Single-cell analysis reveals fibroblast heterogeneity and myofibroblasts in systemic sclerosis-associated interstitial lung disease},\n  journal = {Annals of the rheumatic diseases},\n  volume = {78},\n  pages = {1379\u20131387},\n  doi = {doi: 10.1136/annrheumdis-2018-214865},\n  date = {2019},\n  more-authors = {true},\n  language = {}\n}\n@article{smillie2019a,\n  author = {Smillie, C.S.},\n  title = {Intra- and Inter-cellular Rewiring of the Human Colon during Ulcerative Colitis},\n  journal = {Cell},\n  volume = {178},\n  pages = {714\u2013730},\n  doi = {doi: 10.1016/j.cell.2019.06.029},\n  date = {2019},\n  more-authors = {true},\n  language = {}\n}\n@article{stuart2019a,\n  author = {Stuart, T.},\n  title = {Comprehensive Integration of Single-Cell Data},\n  journal = {Cell},\n  volume = {177},\n  pages = {1888\u20131902},\n  doi = {doi: 10.1016/j.cell.2019.05.031},\n  date = {2019},\n  more-authors = {true},\n  language = {}\n}\n@article{unknown2015a,\n  title = {Human genomics. The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans},\n  journal = {Science (New York, N. Y.)},\n  volume = {348},\n  pages = {648\u2013660},\n  doi = {doi: 10.1126/science.1262110},\n  date = {2015},\n  language = {}\n}\n",
+        "links": [
+            "https://doi.org/10.1038/s41586-020-2012-7",
+            "https://singlecell.broadinstitute.org/single_cell",
+            "https://github.com/bmbolstad/preprocessCore",
+            "https://www.ncbi.nlm.nih.gov/",
+            "https://data.humancellatlas.org"
+        ],
+        "emails": [
+            "brilliant212@163.com",
+            "limingcheng@tongji.edu.cn",
+            "chstroke@163.com",
+            "jianruxiao83@163.com"
+        ],
+        "cited_by": 1,
+        "references_ris": "TY  - CHAP\nTI  - Introduction 7 At the end of 2019, a rising number of pneumonia patients with unknown pathogen\nPY  - 8\nDA  - 8\nT2  - emerged from Wuhan to nearly the entire China7. A novel coronavirus was isolated 9 and based on its phylogeny, taxonomy and established practice, the Coronavirus 10 Study Group (CSG) recognized it as a sister to severe acute respiratory syndrome 11 coronaviruses (SARS-CoVs) and labeled it as severe acute respiratory syndrome 12 coronavirus 2 (SARS-CoV-2) 1,8. Although SARS-CoV-2 is generally less pathogenic 13 than SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), it 14 has a relatively high transmissibility 9\nLA  - \nER  - \n\nTY  - CHAP\nTI  - Discussion 5 The coronaviruses is the common infection source of respiratory, enteric and central 6 nervous system in humans and other mammals22. At the beginning of the twenty-first 7 century, two betacoronaviruses, SARS-CoV and MERS-CoV, result\nT2  - persistent 8 public panics and became the most significant public health events23. In\nPY  - 2019\nDA  - 2019/12\nVL  - 9\nT2  - a novel identified coronavirus (SARS-CoV-2) induced an ongoing outbreak of 10 pneumonia\nC1  - in Wuhan, Hubei, China 7. The rapidly increasing number of\nC1  - 11 SARS-CoV-2-infected\nLA  - \nER  - \n\nTY  - GEN\nTI  - Previous studies identified that SARS-CoV mutated between 2002 and 2004 to better 14 bind to its cell receptor, replicate in human cells and enhance the virulence 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gallagher, T.M.\nAU  - Buchmeier, M.J.\nTI  - Coronavirus spike proteins in viral entry and pathogenesis\nT2  - Virology\nVL  - 279\nSP  - 371\nEP  - 374\nDO  - 10.1006/viro.2000.0757\nPY  - 2001\nDA  - 2001\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, Y.\nTI  - Protease inhibitors targeting coronavirus and filovirus entry\nT2  - Antiviral research\nVL  - 116\nSP  - 76\nEP  - 84\nDO  - 10.1016/j.antiviral.2015.01.011\nPY  - 2015\nDA  - 2015\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Millet, J.K.\nAU  - Whittaker, G.R.\nTI  - Host cell proteases: Critical determinants of coronavirus tropism and pathogenesis\nT2  - Virus research\nVL  - 202\nSP  - 120\nEP  - 134\nDO  - 10.1016/j.virusres.2014.11.021\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shirato, K.\nAU  - Kawase, M.\nAU  - Matsuyama, S.\nTI  - Wild-type human coronaviruses prefer cell-surface TMPRSS2 to endosomal cathepsins for cell entry\nT2  - Virology\nVL  - 517\nSP  - 9\nEP  - 15\nDO  - 10.1016/j.virol.2017.11.012\nPY  - 2018\nDA  - 2018\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Heurich, A.\nTI  - TMPRSS2 and ADAM17 cleave ACE2 differentially and only proteolysis by TMPRSS2 augments entry driven by the severe acute respiratory syndrome coronavirus spike protein\nT2  - Journal of virology\nVL  - 88\nSP  - 1293\nEP  - 1307\nDO  - 10.1128/jvi.02202-13\nPY  - 2014\nDA  - 2014\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Herter, S.\nTI  - Hepatocyte growth factor is a preferred in vitro substrate for human hepsin, a membrane-anchored serine protease implicated in prostate and ovarian cancers\nT2  - The Biochemical journal\nVL  - 390\nSP  - 125\nEP  - 136\nDO  - 10.1042/bj20041955\nPY  - 2005\nDA  - 2005\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Holshue, M.L.\nT2  - et al. First Case of\nPY  - 2019\nDA  - 2019\nTI  - Novel Coronavirus in the United\nLA  - \nER  - \n\nTY  - GEN\nAU  - Guan, W.J.\nAU  - Z., N.\nAU  - Hu, Y.\nAU  - Liang, W.H.\nAU  - Ou, C.Q.\nAU  - He, J.X.\nAU  - Liu, L.\nAU  - Shan, H.\nAU  - Lei, C.L.\nAU  - C., Hui David S.\nAU  - Du, B.\nTI  - Clinical characteristics of 2019 novel coronavirus infection in China. medRxiv\nDO  - doi\nUR  - http://dx.doi.org/10.1101/2020.02.06.20020974\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Perlman, S.\nAU  - Netland, J.\nTI  - Coronaviruses post-SARS: update on replication and pathogenesis\nT2  - Nature reviews. Microbiology\nVL  - 7\nSP  - 439\nEP  - 450\nDO  - 10.1038/nrmicro2147\nPY  - 2009\nDA  - 2009\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Lee, P.I.\nAU  - Hsueh, P.R.\nTI  - Emerging threats from zoonotic coronaviruses-from SARS and MERS to 2019-nCoV. Journal of microbiology, immunology, and infection = Wei mian yu\nPB  - gan ran za zhi\nDO  - 10.1016/j.jmii.2020.02.001 (2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, W.\nTI  - Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus\nT2  - Nature\nVL  - 426\nSP  - 450\nEP  - 454\nDO  - 10.1038/nature02145\nPY  - 2003\nDA  - 2003\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kuiken, T.\nTI  - Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome\nT2  - Lancet\nVL  - 362\nSP  - 263\nEP  - 270\nDO  - 10.1016/s0140-6736(03)13967-0\nPY  - 2003\nDA  - 2003\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shen, L.W.\nAU  - Mao, H.J.\nAU  - Wu, Y.L.\nAU  - Tanaka, Y.\nAU  - Zhang, W.\nTI  - TMPRSS2: A potential target for treatment of influenza virus and coronavirus infections\nT2  - Biochimie\nVL  - 142\nSP  - 1\nEP  - 10\nDO  - 10.1016/j.biochi.2017.07.016\nPY  - 2017\nDA  - 2017\nLA  - \nER  - \n\nTY  - GEN\nAU  - Shin, W.J.\nAU  - Seong, B.L.\nTI  - Type II transmembrane serine proteases as potential target for anti-influenza drug discovery. Expert opinion on drug discovery 12\nSP  - 1139\nEP  - 1152\nDO  - 10.1080/17460441.2017.1372417\nPY  - 2017\nDA  - 2017\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Biasini, M.\nTI  - SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information\nT2  - Nucleic acids research\nVL  - 42\nSP  - 252\nEP  - 258\nDO  - 10.1093/nar/gku340\nPY  - 2014\nDA  - 2014\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wiehe, K.\nTI  - ZDOCK and RDOCK performance in CAPRI rounds 3, 4, and 5\nT2  - Proteins\nVL  - 60\nSP  - 207\nEP  - 213\nDO  - 10.1002/prot.20559\nPY  - 2005\nDA  - 2005\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Duckert, P.\nAU  - Brunak, S.\nAU  - Blom, N.\nTI  - Prediction of proprotein convertase cleavage sites\nPB  - Protein engineering, design & selection: PEDS\nDO  - 17\nSP  - 107\nEP  - 112\nPY  - 2004\nDA  - 2004\nC1  - doi: 10.1093/protein/gzh013\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Vieira Braga, F.A.\nTI  - A cellular census of human lungs identifies novel cell states in health and in asthma\nT2  - Nature medicine\nVL  - 25\nSP  - 1153\nEP  - 1163\nDO  - 10.1038/s41591-019-0468-5\nPY  - 2019\nDA  - 2019\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Valenzi, E.\nTI  - Single-cell analysis reveals fibroblast heterogeneity and myofibroblasts in systemic sclerosis-associated interstitial lung disease\nT2  - Annals of the rheumatic diseases\nVL  - 78\nSP  - 1379\nEP  - 1387\nDO  - 10.1136/annrheumdis-2018-214865\nPY  - 2019\nDA  - 2019\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Smillie, C.S.\nTI  - Intra- and Inter-cellular Rewiring of the Human Colon during Ulcerative Colitis\nT2  - Cell\nVL  - 178\nSP  - 714\nEP  - 730\nDO  - 10.1016/j.cell.2019.06.029\nPY  - 2019\nDA  - 2019\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Stuart, T.\nTI  - Comprehensive Integration of Single-Cell Data\nT2  - Cell\nVL  - 177\nSP  - 1888\nEP  - 1902\nDO  - 10.1016/j.cell.2019.05.031\nPY  - 2019\nDA  - 2019\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Human genomics. The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans\nT2  - Science (New York, N. Y.)\nVL  - 348\nSP  - 648\nEP  - 660\nDO  - 10.1126/science.1262110\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "The schematic diagram of the project"
+            },
+            {
+                "id": "2",
+                "caption": "The two potential Spike protein cleavage sites of SARS-CoV and"
+            },
+            {
+                "id": "3",
+                "caption": "Single-cell analysis of the normal lung tissue"
+            },
+            {
+                "id": "4",
+                "caption": "Expression levels of ACE2, TMPRSS restriction signature and functional gene sets in lung and digestive tracts"
+            },
+            {
+                "id": "Extended Data 1",
+                "caption": "The overall structure of the Spike protein in SARS-CoV"
+            },
+            {
+                "id": "Extended Data 2",
+                "caption": "The structure and catalytic mechanism of TMPRSS2 3 a-b. The overall structure and surface of TMPRSS2 (Modelled by SWISS-MODEL). 4 The TMPRSS2, catalytic triad comprised of H296, D345 and S441 are marked with 5 cyan, blue, cyan and green, respectively. The substrate binding residue D435 located 6 in the bottom of pocket is marked with red. 7 c. The polypeptide substrate analogue KQLR. The cleavage site Arg is marked with 8 orange. Gln and Leu are marked with yellow. Lys is marked with pink. 9 d. The state of substrate analogue binding in the catalytic pocket. The state of 10 substrate analogue binding in the catalytic pocket. 11 e. The detail of d. Arg of substrate analogue is strongly interacted with D435"
+            },
+            {
+                "id": "Extended Data 3",
+                "caption": "Subset-specific markers"
+            },
+            {
+                "id": "Extended Data 4",
+                "caption": "All cell subset distributions across samples. 3 The fractions of cells (y axis) in each cell subset (bars) that are derived from each 4 sample in 3 databases (red, green and blue). The numbers of cells in each cluster are 5 labeled above"
+            },
+            {
+                "id": "Extended Data 5",
+                "caption": "The expression levels of ACE2, TMPRSS genes and exocytosis-associated genes in lung subsets"
+            },
+            {
+                "id": "Extended Data 6",
+                "caption": "The single-cell analysis of esophageal cells, gastric mucosal cells, ileal epithelial cells and colonic epithelial cells"
+            },
+            {
+                "id": "Extended Data 7",
+                "caption": "The expression levels of ACE2 and TMPRSS family genes 3 in lung and digestive tracts. 4 The violin plots of ACE2 and TMPRSS family genes across clusters in esophagus (a), 5 stomach (b), ileum (c) and colon (d). The expression is measured as the mean log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a> <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] (TP10K+1) value. 7 8"
+            },
+            {
+                "id": "Extended Data 8",
+                "caption": "The expression levels of ASE2 and TMPRSS family genes in lung and digestive tracts a. The violin plots of TMPRSS family genes in lung and digestive tracts. The expression is measured as the mean log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] (TP10K+1) value"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-007.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-009.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-010.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-011.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-012.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-013.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-014.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-015.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-016.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-017.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-018.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-027.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-028.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.926006.full/img-029.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "At the end of 2019, a rising number of pneumonia patients with unknown pathogen emerged from Wuhan to nearly the entire China[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. A novel coronavirus was isolated and based on its phylogeny, taxonomy and established practice, the Coronavirus<br/><br/>Study Group (CSG) recognized it as a sister to severe acute respiratory syndrome coronaviruses (SARS-CoVs) and labeled it as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) 1,8. Although SARS-CoV-2 is generally less pathogenic than SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), it has a relatively high transmissibility 9.<br/><br/>With regard to human coronavirus, the transmissibility and infectivity is largely controlled by the spike (S) surface envelope protein 10. Its surface unit (S1) mediates the entry into host cells by binding to cell receptor and the transmembrane unit (S2)<br/><br/>subunit regulates the fusion of viral and cellular membranes 3. Prior to membrane fusion, the S protein should be cleaved and activated to allow for the fusion peptide releasing onto host cell membranes (Fig. 1a) 11. SARS-CoV-2 uses the same cell receptor (angiotensin converting enzyme II, ACE2) as SARS-CoV, with a similar binding affinity, whereas their transmissibility and infectivity are different 5,6,12,13."
+        ],
+        "results": [
+            "The comparison of the S1/S2 and S2' cleavage sites between SARS-CoV-2 and    SARS-CoV<br/><br/>Generally, compared with SARS-CoV, the major differences in SARS-CoV-2 are the three short insertions in the N-terminal domain and four out of five key residues changes in the receptor-binding motif 5. Here we used the alignment, furin score and homology modeling to compare the sequence of the S1/S2 and S2' cleavage sites between SARS-CoV-2 and SARS-CoV (Fig. 1c). The amino acid sequence of the<br/><br/>S1/S2 and S2' cleavage sites among ten beta-coronavirus were then analyzed and we found that compared with SARS, there was an insertion sequence (SPRR) in the<br/><br/>S1/S2 cleavage sites of SARS-CoV-2 (Fig. 2a). The furin score was next used to identify the cleavage efficiency of the insertion sequence in SARS-CoV-2. Its furin score was 0.688, which was obviously higher than that of the corresponding sequence in SARS-CoV (0.139), indicating that the insertion sequence may increase the cleavage efficiency by proteases (Fig. 2b).<br/><br/>The structures of SARS-S and SARS-CoV-2 S protein were presented in Extended"
+        ],
+        "discussion": [
+            "The coronaviruses is the common infection source of respiratory, enteric and central nervous system in humans and other mammals[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. At the beginning of the twenty-first century, two betacoronaviruses, SARS-CoV and MERS-CoV, result in persistent public panics and became the most significant public health events[<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]. In December<br/><br/>2019, a novel identified coronavirus (SARS-CoV-2) induced an ongoing outbreak of pneumonia in Wuhan, Hubei, China 7. The rapidly increasing number of<br/><br/>SARS-CoV-2-infected cases suggests that SARS-CoV-2 may be transmitted effectively among humans and give rise to a high pandemic potential 7,8,24.<br/><br/>Previous studies identified that SARS-CoV mutated between 2002 and 2004 to better bind to its cell receptor, replicate in human cells and enhance the virulence 9. Thus, it is important to explore whether SARS-CoV-2 behaves like SARS-CoV to adapt to the host cell. Notably, SARS-CoV and SARS-CoV-2 share the same receptor protein"
+        ],
+        "methods": [
+            "Structure modelling<br/><br/>The structures of SARS-CoV-2 S protein and TMPRSS2 were generated by<br/><br/>SWISS-MODEL online server[<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. The structures were marked, superimposed and visualized by Chimera[<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>]. To further explore the possible catalytic mechanism of the<br/><br/>SARS-CoV-2 S protein cleaved by TMPRSS2, ZDOCK program was used to predict their interaction 34. A total of 5000 models were generated and were set to 50 clusters, then the best scoring models from the 5 largest clusters were selected for further analysis.    Furin score<br/><br/>The fragmentation maps, scoring and residue coverage analysis were conducted using arginine and lysine propeptide cleavage sites prediction algorithms ProP 1.0 server[<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>].<br/><br/>Single cell transcriptome data sources"
+        ],
+        "acknowledgements": [
+            "This study was jointly supported by the National Natural<br/><br/>Science Foundation of China (Grants 81702659 and 81572746) and National Key<br/><br/>R&D Program of China (Grants 2016YFA0100800).<br/><br/>Author contributions J.L., L.C., W.Z. and J.X. conceived the idea and directed the team. T.M., H.C., H.Z. and W.Z. designed and coordinated the analysis and characterization. H.Z., Z.K., D.X., H.G. performed single-cell sequencing and characterization under the guidance of X.C., H.X., and H.W.. Data collection and generation were performed by J.W., Z.L., R.Z. and X.P.. Data interpretation was performed by J.L., L.C., W.Z. and J.X.. The alignment and structure comparison was performed by H.C. under the guidance of W.Z. The manuscript was written by T.M., H.C., Z.K. and W.Z. All authors contributed to the analysis and discussion of the results leading to the manuscript."
+        ],
+        "disclosures": [
+            "The authors declare no competing interests"
+        ],
+        "funding": [
+            "This study was jointly supported by the National Natural Science Foundation of China (Grants 81702659 and 81572746) and National Key R&D Program of China (Grants 2016YFA0100800). Author contributions J.L., L.C., W.Z. and J.X. conceived the idea and directed the team"
+        ],
+        "data_availability": [
+            "https://github.com/bmbolstad/preprocessCore",
+            "https://data.humancellatlas.org"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "China[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], even more spread than SARS-CoV infection[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The entry of SARS-CoV into host cells mainly depends on the cell receptor (ACE2) recognition and spike protein cleavage-induced cell membrane fusion[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. The spike protein of SARS-CoV-2 also binds to ACE2 with a similar affinity, whereas its spike protein cleavage remains unclear[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Here we show that an insertion sequence in the spike protein of",
+            "SARS-CoV-2 enhances the cleavage efficiency, and besides pulmonary alveoli, intestinal and esophagus epithelium were also the target tissues of SARS-CoV-2.",
+            "Compared with SARS-CoV, we found a SPRR insertion in the S1/S2 protease cleavage sites of SARS-CoV-2 spike protein increasing the cleavage efficiency by the protein sequence aligment and furin score calculation. Additionally, the insertion sequence facilitates the formation of an extended loop which was more suitable for protease recognition by the homology modeling and molicular docking. Furthermore, author/funder. It is made available under a CC-BY-NC-ND 4.0 International license.",
+            "the single-cell transcriptomes identified that ACE2 and TMPRSSs are highly coexpressed in AT2 cells of lung, along with esophageal upper epithelial cells and absorptive enterocytes. Our results provide the bioinformatics evidence for the increased spike protein cleavage of SARS-CoV-2 and indicate its potential target cells."
+        ],
+        "Introduction": [
+            "At the end of 2019, a rising number of pneumonia patients with unknown pathogen emerged from Wuhan to nearly the entire China[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. A novel coronavirus was isolated and based on its phylogeny, taxonomy and established practice, the Coronavirus",
+            "Study Group (CSG) recognized it as a sister to severe acute respiratory syndrome coronaviruses (SARS-CoVs) and labeled it as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) 1,8. Although SARS-CoV-2 is generally less pathogenic than SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), it has a relatively high transmissibility 9.",
+            "With regard to human coronavirus, the transmissibility and infectivity is largely controlled by the spike (S) surface envelope protein 10. Its surface unit (S1) mediates the entry into host cells by binding to cell receptor and the transmembrane unit (S2)",
+            "subunit regulates the fusion of viral and cellular membranes 3. Prior to membrane fusion, the S protein should be cleaved and activated to allow for the fusion peptide releasing onto host cell membranes (Fig. 1a) 11. SARS-CoV-2 uses the same cell receptor (angiotensin converting enzyme II, ACE2) as SARS-CoV, with a similar binding affinity, whereas their transmissibility and infectivity are different 5,6,12,13.",
+            "Thus, the different virus transmission and infectivity may be associated with the differentiated protease-induced S protein cleavage between SARS-CoV-2 and",
+            "SARS-CoV.",
+            "The transmembrane serine proteases (TMPRSSs) were the main host cell proteases on the cell membrane[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a> ]. The substrate specificity of TMPRSSs are almost similar and revealing a strong preference for arginine or lysine residues in the P1 position.",
+            "SARS-CoV and MERS-CoV pneumonia[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. In the SARS-CoV-infected alveolar cells, TMPRSSs, especially the TMPRSS2 and TMPRSS11D, cleave the SARS-CoV S protein (SARS-S) at residue R667 (the S1/S2 cleavage site) and residue R797 (the S2\u2019",
+            "cleavage site) (Fig. 1a)[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>,<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. Besides cleaving S protein, they can also promote viral spread in the host by cleaving ACE2 (Fig. 1b)[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>,<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. Although SARS-CoV-2 and",
+            "SARS-CoV-2 S protein cleavage induced by TMPRSS remains unclear which may be associated with the viral infectivity 4,5."
+        ],
+        "Results": [
+            "Generally, compared with SARS-CoV, the major differences in SARS-CoV-2 are the three short insertions in the N-terminal domain and four out of five key residues changes in the receptor-binding motif 5. Here we used the alignment, furin score and homology modeling to compare the sequence of the S1/S2 and S2' cleavage sites between SARS-CoV-2 and SARS-CoV (Fig. 1c). The amino acid sequence of the",
+            "S1/S2 and S2' cleavage sites among ten beta-coronavirus were then analyzed and we found that compared with SARS, there was an insertion sequence (SPRR) in the",
+            "S1/S2 cleavage sites of SARS-CoV-2 (Fig. 2a). The furin score was next used to identify the cleavage efficiency of the insertion sequence in SARS-CoV-2. Its furin score was 0.688, which was obviously higher than that of the corresponding sequence in SARS-CoV (0.139), indicating that the insertion sequence may increase the cleavage efficiency by proteases (Fig. 2b).",
+            "Data Fig. 1a and 1b, along with their structural superimposition (Extended Data Fig.",
+            "SARS-S protein (PDB: 5x5b) showed that a exposed loop was formed by the insertion which comprised R682 and R683 (S1/S2 site) on the surface of SARS-CoV-2 S protein, and no significant difference of them in S2\u2019 site (Fig. 2c, d).",
+            "Structurally, TMPRSSs include extracellular domain, transmembrane domain and intracellular domain in which extracellular domain is the main catalytic domain. They show similar substrate-specificity and catalytic mechanism. Take TMPRSS2 as an example. The catalytic triad consisted of H296, D345 and S441 and the substrate binding residue D435, a conserved aspartate residue, was located in the bottom of pocket[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>,<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. The substrate binding pocket is deeper than most of serine proteinase (Extended Data Fig. 2a, b). The bottom of the catalytic pocket has a negatively charged aspartic acid residue which can facilitate the binding and stabilization of arginine or lysine residues in the P1 position[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>,<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>].",
+            "Polypeptide substrate analogue KQLR included arginine, glutamine, leucine and lysine (Extended Data Fig. 2c). The substrate analogue could bind to the catalytic pocket of TMPRSS2 (Extended Data Fig. 2d, e). The conformation of the insertion sequence in SARS-CoV-2 S protein and TMPRSS2 was next simulated by molecular docking. We found the insertion sequence formed a loop which was easily recognized by the catalytic pocket of TMPRSS2 (Extended Data Fig. 2f, g). Thus, both the furin score and molecular docking revealed that the insertion sequence of SARS-CoV-2 facilitates the TMPRSS2 recognition and S protein cleavage.",
+            "The entry of SARS-CoV-2 into host cells depends on the cell receptor recognition and cell proteases cleaving. Thus, the target cells should coexpress both the cell receptor",
+            "ACE2 and cell proteases TMPRSSs. In order to identify the coexpressing cell composition and proportion, we utilized 3 datasets including 32 samples and built the largest single-cell transcriptome atlas of normal lung, the commonest infected organ of SARS-CoV-2.",
+            "After initial quality controls, a total of 113,045 cells and 29 sub-clusters were identified in the lung (Fig. 3a). The marker genes and dataset proportions of each sub-cluster were presented in Extended Data Fig. 3-4.",
+            "We detected the expression of ACE2 and TMPRSSs in 29 cell groups, in which the expression of the whole 17 TMPRSS genes is in the form of total signature value.",
+            "Pseudodyeing analysis was performed and we found that ACE2 was mainly expressed in AT2 cells and marked with red (Fig. 3b, c). The total 17 TMPRSS genes was found in AT1, AT2, airway secretory and ciliated cells colored with blue (Fig. 3b, d, Extended Data Fig. 5a). Thus, we found an obvious coexpression between TMPRSSs and ACE2 in AT2. Among the whole TMPRSS genes, TMPRSS1 and TMPRSS2 were highly expressed in AT2 and AT1 cells, which were co-expressed with ACE2 in lung (Fig. 3b, Extended Data Fig. 5b). Due to the entry of virus into host cell is related to endocytosis, we also detected the endocytosis-related genes among different cells. We found that these genes had consistent distribution and highly expressed in",
+            "AT1, AT2, airway secretory, ciliated cells and M2 macrophage (Extended Data Fig.",
+            "5c).",
+            "SARS-CoV-2-infected patient[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], the digestive system may also be the potential route of COVID-19. Thus, in addition to lung, 4 datasets with the single-cell transcriptomes of the esophagus, gastric, small intestine and colon were analyzed to identify the expression of ACE2 and TMPRSSs in the digestive system. The co-expression of",
+            "ACE2 and TMPRSS was analyzed in esophagus, stomach, small intestine and colon by 87947, 29678, 11218 and 47442 high-quality single cells, respectively (Extended",
+            "Data Fig. 6a). The coexpression of ACE2 and total TMPRSS genes were found in the upper epithelial cells of esophagus, the absorptive enterocytes of ileum epithelia and the enterocytes of colon epithelia (Extended Data Fig. 6b-e, 7a-d).",
+            "As both ACE2 and TMPRSSs are expressed in the lung and digestive system, we next compared their relative expression values in the ACE2-expressing cells. A similar distribution was found between ACE2 and TMPRSSs in all the 9 clusters with high expressions in the esophageal upper epithelial cells, the ileal absorptive enterocytes and the colonic enterocytes (Fig. 4a). In addition, their expression of AT2 was relatively lower than that of epithelial cells in the digestive system. Among all the",
+            "TMPRSSs, TMPRSS1 and TMPRSS2 were relatively highly expressed in AT2, and most TMPRSSs were highly found in the esophageal upper epithelial cells (Extended",
+            "Data Fig. 8a). The endocytosis- and exocytosis-associated genes which are related to the entry of virus into host cells and virus infection were also detected in all the 9 clusters. The endocytosis signature was more expressed in AT1 and AT2 cells, whereas the exocytosis signature was highly gathered in esophageal upper epithelial cells. It can explain that the commonest infected tissue in COVID-19 is pulmonary alveoli and SARS-CoV-2 can also be detected in the esophageal erosion (Fig. 4b)[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>].",
+            "The RNA-seq data of lung, esophagus, stomach, small intestine, colon-transverse and colon-sigmoid were obtained from GTEx database. The expressions of ACE2 and",
+            "TMPRSS2 also had a similar tendency and were highly expressed in small intestine and colon, while the TMPRSS11D was mainly found in the esophagus (Extended",
+            "Data Fig. 8b)."
+        ],
+        "Discussion": [
+            "The coronaviruses is the common infection source of respiratory, enteric and central nervous system in humans and other mammals[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. At the beginning of the twenty-first century, two betacoronaviruses, SARS-CoV and MERS-CoV, result in persistent public panics and became the most significant public health events[<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]. In December",
+            "2019, a novel identified coronavirus (SARS-CoV-2) induced an ongoing outbreak of pneumonia in Wuhan, Hubei, China 7. The rapidly increasing number of",
+            "SARS-CoV-2-infected cases suggests that SARS-CoV-2 may be transmitted effectively among humans and give rise to a high pandemic potential 7,8,24.",
+            "Previous studies identified that SARS-CoV mutated between 2002 and 2004 to better bind to its cell receptor, replicate in human cells and enhance the virulence 9. Thus, it is important to explore whether SARS-CoV-2 behaves like SARS-CoV to adapt to the host cell. Notably, SARS-CoV and SARS-CoV-2 share the same receptor protein",
+            "ACE25,25. Besides, the receptor-binding domain (RBD) in S protein of SARS-CoV-2 binds to ACE2 with the similar affinity as SARS-CoV RBD does[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Thus, during the process of viral and host cellular membrane fusion, whether the specific structure of",
+            "SARS-CoV and SARS-CoV-26.",
+            "In this study, we found the furin score of the S1/S2 cleavage sites in SARS-CoV-2 was higher than that of SARS, implying a more degree of hydrolysis. Through the comparison of the two structures, R682, R683 and relative S680, P681 extended the original exposed loop combined with R685 of SARS-CoV-2, which was more suitable for hydrolysis by TMPRSSs. The substrate specificity of TMPRSSs are almost similar, revealing a strong preference for arginine or lysine residues in the P1 position represented by R. More R (R682, R683 and R685) in the S1/S2 cleavage sites of SARS-CoV-2 can enhance the cleavage of S1 with S2, which means that the structurally constrains of S1 on S2 is removed, and the fusion peptides in S2 are exposed and insert into the target host cell membrane, finally it increases the efficiency of fuse membranes[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>,<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>].",
+            "By the way, some researchers previously supposed the SARS-CoV-2 was artificial due to four inserts in the S protein of SARS-CoV-2 from HIV sequence. However, the results of protein sequence alignment revealed that the similar sequence of the reported fourth insertion site (680-SPRR-683) in SARS-CoV-2 was commonly found in many beta-coronavirus. Therefore, we supposed that based on the current evidence, it is not scientific to consider the insertion sequence in SARS-CoV-2 S protein being artificial.",
+            "ACE2 and TMPRSSs, in especial TMPRSS1and TMPRSS2, in lung AT2 cells, which was also the main infected cell type in SARS-CoV pneumonia[<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]. Moreover, we also found the endocytosis-associated genes was highly expressed in AT2 cells, implying that endocytosis may also facilitate the entry of SARS-CoV-2 into host cells. As the alveolar stem-like cells, AT2 cells are in charge of surfactant biosynthesis, self-renewal and immunoregulation[<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]. Thus, SARS-CoV-2 not only damages the AT2 cells leading to the direct injury to alveoli, but also raises alveolar surface tension to induce dyspnea[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>]. Additionally, the injuryed AT2 also damages the immunologic balance in alveoli and results in inflammatory cascade[<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]. In addition, they are also highly co-expressed in absorptive enterocytes and upper epithelial cells of esophagus, implying that intestinal epithelium and esophagus epithelium may also be the potential target tissues. This can explain the cases whose SARS-CoV-2 was detected in the esophageal erosion or stool specimen, implying that the digestive system is a potential route of COVID-19 7,20,21.",
+            "Due to the critical role of TMPRSSs in influenza virus and coronavirus infections, serine protease inhibitors, such as camostat, nafamostat and leupeptin, have been used in the antiviral treatment targeting TMPRSSs with high antiviral activities 14,30,31.",
+            "Nowadays, Remdesivir (GS-5734) has been used in the treatment of SARS-CoV-2, however, the therapeutic effects are still unclear. Based on our results, we also supposed that TMPRSSs may also serve as candidate antiviral targets for",
+            "SARS-CoV-2 infection and the clinical trials of serine protease inhibitors should also be performed for COVID-19."
+        ],
+        "Methods": [
+            "SWISS-MODEL online server[<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. The structures were marked, superimposed and visualized by Chimera[<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>]. To further explore the possible catalytic mechanism of the",
+            "SARS-CoV-2 S protein cleaved by TMPRSS2, ZDOCK program was used to predict their interaction 34. A total of 5000 models were generated and were set to 50 clusters, then the best scoring models from the 5 largest clusters were selected for further analysis.",
+            "The fragmentation maps, scoring and residue coverage analysis were conducted using arginine and lysine propeptide cleavage sites prediction algorithms ProP 1.0 server[<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>].",
+            "Single cell transcriptome data were obtained from Single Cell Portal (https://singlecell.broadinstitute.org/single_cell), Human Cell Atlas Data Protal (https://data.humancellatlas.org) and Gene Expression Omnibus (GEO; https://www.ncbi.nlm.nih.gov/). Esophageal and lung data were obtained from the research of E Madissoon et al containing 21 esophageal and 19 lung tissue samples[<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>].",
+            "Two lung datasets were further obtained from GSE12296038 and GSE12816939, including eight and five lung tissues respectively. GSE134520 included 6 gastric mucosal samples from 3 non-atrophic gastritis and 2 chronic atrophic gastritis patients[<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]. GSE134809 comprises 11 noninflammatory ileal samples from Crohn\u2019s disease patients[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]. The data from Christopher S et al consisted of 12 normal colon samples[<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>].",
+            "Cells would be identified as poor-quality once (1) the number of expressed genes fewer than 200 or greater than 5000, or (2) more than 20% of UMIs being mapped to mitochondrial or ribosomal genes.",
+            "Different methods were performed to process the downloaded data: 1. Esophagus dataset. Rdata were obtained and dimension reduction and clustering had already been implemented by the authors 36.",
+            "2. Lung, stomach and ileum datasets. We utilized functions in the Seurat package to normalize and scale the single-cell gene expression data[<a class=\"ref-link\" id=\"c43\" href=\"#r43\">43</a>]. Unique molecularidentifier (UMI) counts were normalized by the total number of UMIs per cell, multiplied by 10000 for normalization and log-transformed using the",
+            "NormalizeData\u2019\u2019 function. Then, multiple sample data within each dataset were merged using the \u201cFindIntegrationAnchors\u201d and \u201cIntegratedata\u201d functions. After identifying highly variable genes (HVGs) using the \u201cFindVariableGenes\u201d function a principal component analysis (PCA) was performed on the single-cell expression matrix using the \u2018\u2018RunPCA\u2019\u2019 function. The \u2018\u2018FindClusters\u2019\u2019 function in the Seurat package was next utilized to conduct the cell clustering analysis into a graph structure in PCA space after constructing a K-nearest-neighbor graph based on the Euclidean distance in PCA space. Uniform Manifold Approximation and",
+            "Projection (UMAP) visualization was performed for obtaining the clusters of cells.",
+            "3. Colon Dataset. The single cell data was processed with the R packages LIGER44 and Seurat[<a class=\"ref-link\" id=\"c43\" href=\"#r43\">43</a>]. The gene expression matrix was first normalized to remove differences in sequencing depth and capture efficiency among cells. Variable genes in each dataset were identified using the \u201cselectGenes\u201d function. Then we used the \u201coptimizeALS\u201d function in LIGER to perform the integrative nonnegative matrix factorization and selecte a k of 15 and lambda of 5.0 to obtain a plot of expected alignment. The \u201cquantileAlignSNF\u201d function was then performed to builds a shared factor neighborhood graph to jointly cluster cells, then quantile normalizes corresponding clusters. Next nonlinear dimensionality reduction was calculated using the \u201cRunUMAP\u201d function and the results were visualized with UMAP.",
+            "Clusters were annotated on the expression of known cell markers and the clustering information provided in the articles. Then, we utilized the \u201cRunALRA\u201d function to impute lost values in the gene expression matrix. The imputed gene expression was shown in Feature plots and violin plots. We used \u201cQuantile normalization\u201d in the R package preprocessCore (R package version 1.46.0.",
+            "https://github.com/bmbolstad/preprocessCore) to remove unwanted technical variability across different datasets. The data were further denoised to compare the gene expression levels of gene signature.",
+            "Endocytosis or exocytosis associated genes were obtained from Harmonizome dataset endocytosis or exocytosis among clusters.",
+            "To minimize bias, external databases of Genotype-Tissue Expression (GTEx)[<a class=\"ref-link\" id=\"c46\" href=\"#r46\">46</a>] was used to detect gene expression of ACE2, TMPRSS1 and TMPRSS2 at the tissue levels including normal lung and digestive system, such as esophagus, stomach, small intestine and colon."
+        ],
+        "Acknowledgements": [
+            "R&D Program of China (Grants 2016YFA0100800).",
+            "Author contributions J.L., L.C., W.Z. and J.X. conceived the idea and directed the team. T.M., H.C., H.Z. and W.Z. designed and coordinated the analysis and characterization. H.Z., Z.K., D.X., H.G. performed single-cell sequencing and characterization under the guidance of X.C., H.X., and H.W.. Data collection and generation were performed by J.W., Z.L., R.Z. and X.P.. Data interpretation was performed by J.L., L.C., W.Z. and J.X.. The alignment and structure comparison was performed by H.C. under the guidance of W.Z. The manuscript was written by T.M., H.C., Z.K. and W.Z. All authors contributed to the analysis and discussion of the results leading to the manuscript.",
+            "Competing interests The authors declare no competing interests.",
+            "Gorbalenya AE, B. S., Baric RS, de Groot RJ, Drosten C, Gulyaeva AA, Haagmans BL, Lauber C, Leontovich AM, Neuman BW, Penzar D, Perlman S, Poon LL, Samborskiy D, Sidorov IA, Sola I, Ziebuhr J.",
+            "Severe acute respiratory syndrome-related coronavirus: The species and its viruses \u2013 a statement of the Coronavirus Study Group. bioRxiv doi:doi: https://doi.org/10.1101/2020.02.07.937862 (2020).",
+            "Zhong, N. S. et al Epidemiology and cause of severe acute respiratory syndrome (SARS) in Guangdong, People's Republic of China, in",
+            "February, doi:10.1016/s0140-6736(03)14630-2 (2003).",
+            "362, 1353-1358, Hofmann, H. & Pohlmann, S. Cellular entry of the SARS coronavirus.",
+            "(2004).",
+            "Chan, J. F. et al A familial cluster of pneumonia associated with the novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet, doi:10.1016/s0140-6736(20)30154-9",
+            "(2020).",
+            "P Zhou, X. Y., XG Wang, B Hu, L Zhang, W Zhang, HR Si, Y Zhu, B Li, CL Huang, HD Chen, J Chen, Y Luo, H Guo, RD Jiang, MQ Liu, Y Chen, XR Shen, X Wang, XS Zheng, K Zhao, QJ Chen, F Deng, LL Liu, B Yan, FX Zhan, YY Wang, GF Xiao, ZL Shi. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature, doi:https:// doi.org/10.1038/s41586-020-2012-7 (2020).",
+            "Tian XL, L. C., Huang A, Xia S, Lu SC, Shi ZL, Lu L, Jiang SB, Yang ZL, Wu YL, Ying TL. Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody. bioRxiv doi:doi: https://doi.org/10.1101/2020.01.28.923011 (2020).",
+            "Huang, C. et al Clinical features of patients infected with 2019 novel coronavirus doi:10.1016/s0140-6736(20)30183-5 (2020).",
+            "Wuhan, China, doi:10.1056/NEJMoa2001017 (2020).",
+            "China.",
+            "England journal of medicine, Chen, J. Pathogenicity and Transmissibility of 2019-nCoV-A Quick",
+            "Overview and Comparison with Other Emerging Viruses. Microbes and infection, doi:10.1016/j.micinf.2020.01.004 (2020).",
+            "Activation of Coronavirus Fusion. Cell 176, 1026-1039.e1015, doi:10.1016/j.cell.2018.12.028 (2019).",
+            "Gallagher, T. M. & Buchmeier, M. J. Coronavirus spike proteins in viral entry doi:10.1006/viro.2000.0757 (2001).",
+            "and pathogenesis.",
+            "279, 371-374, Gui, M. et al Cryo-electron microscopy structures of the SARS-CoV spike glycoprotein reveal a prerequisite conformational state for receptor binding. Cell research 27, 119-129, doi:10.1038/cr.2016.152",
+            "(2017).",
+            "Zhao S, R. J., MUSA SS, Yang G, Lou Y, Gao D, Yang L, He D. .",
+            "Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. . bioRxiv, 916395, doi:doi: https://doi.org/10.1101/2020.01.23.916395 (2020).",
+            "Zhou, Y. et al Protease inhibitors targeting coronavirus and filovirus entry. Antiviral research 116, 76-84, doi:10.1016/j.antiviral.2015.01.011",
+            "(2015).",
+            "Millet, J. K. & Whittaker, G. R. Host cell proteases: Critical determinants of coronavirus tropism and pathogenesis. Virus research 202, 120-134, doi:10.1016/j.virusres.2014.11.021 (2015).",
+            "Shirato, K., Kawase, M. & Matsuyama, S. Wild-type human coronaviruses prefer cell-surface TMPRSS2 to endosomal cathepsins for cell entry. Virology 517, 9-15, doi:10.1016/j.virol.2017.11.012",
+            "(2018).",
+            "Heurich, A. et al TMPRSS2 and ADAM17 cleave ACE2 differentially and only proteolysis by TMPRSS2 augments entry driven by the severe acute respiratory syndrome coronavirus spike protein. Journal of virology 88, 1293-1307, doi:10.1128/jvi.02202-13 (2014).",
+            "Herter, S. et al Hepatocyte growth factor is a preferred in vitro substrate for human hepsin, a membrane-anchored serine protease implicated in prostate and ovarian cancers. The Biochemical journal 390, 125-136, doi:10.1042/bj20041955 (2005).",
+            "Influenza A Virus in Primary Human Airway Cells and Influenza B Virus in doi:10.1128/jvi.00649-19 (2019).",
+            "Pneumocytes.",
+            "States.",
+            "doi:10.1056/NEJMoa2001191 (2020).",
+            "Guan WJ, N. Z., Hu Y, Liang WH, Ou CQ, He JX, Liu L, Shan H, Lei CL, Hui David S.C., Du B coronavirus http://dx.doi.org/10.1101/2020.02.06.20020974 (2020).",
+            "Clinical characteristics of 2019 novel in medRxiv, doi:doi: Perlman, S. & Netland, J. Coronaviruses post-SARS: update on replication and pathogenesis. Nature reviews. Microbiology 7, 439-450, doi:10.1038/nrmicro2147 (2009).",
+            "de Wit, E., van Doremalen, N., Falzarano, D. & Munster, V. J. SARS and MERS: recent insights into emerging coronaviruses. Nature reviews. Microbiology 14, 523-534, doi:10.1038/nrmicro.2016.81",
+            "(2016).",
+            "Lee, P. I. & Hsueh, P. R. Emerging threats from zoonotic coronaviruses-from SARS and MERS to 2019-nCoV. Journal of microbiology, immunology, and infection = Wei mian yu gan ran za zhi, doi:10.1016/j.jmii.2020.02.001 (2020).",
+            "Li, W. et al Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus. Nature 426, 450-454, doi:10.1038/nature02145",
+            "(2003).",
+            "Kuiken, T. et al Newly discovered coronavirus as the primary cause of severe doi:10.1016/s0140-6736(03)13967-0 (2003).",
+            "acute respiratory syndrome.",
+            "Desai, T. J. Single-cell Wnt signaling niches maintain stemness of alveolar type 2 cells. Science (New York, N.Y.) 359, 1118-1123, doi:10.1126/science.aam6603 (2018).",
+            "Barkauskas, C. E. et al Type 2 alveolar cells are stem cells in adult lung.",
+            "The doi:10.1172/jci68782 (2013).",
+            "123, 3025-3036, Kroetz, D. N. et al Type I Interferon Induced Epigenetic Regulation of",
+            "Infection.",
+            "11, e1005338, doi:10.1371/journal.ppat.1005338 (2015).",
+            "Shen, L. W., Mao, H. J., Wu, Y. L., Tanaka, Y. & Zhang, W. TMPRSS2:",
+            "A potential target for treatment of influenza virus and coronavirus infections. Biochimie 142, 1-10, doi:10.1016/j.biochi.2017.07.016",
+            "Shin, W. J. & Seong, B. L. Type II transmembrane serine proteases as potential target for anti-influenza drug discovery. Expert opinion on drug discovery 12, 1139-1152, doi:10.1080/17460441.2017.1372417 (2017).",
+            "Biasini, M. et al SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information. Nucleic acids research 42, W252-258, doi:10.1093/nar/gku[340] (2014).",
+            "Pettersen, E. F. et al UCSF Chimera--a visualization system for exploratory research and analysis. Journal of computational chemistry",
+            "25, 1605-1612, doi:10.1002/jcc.20084 (2004).",
+            "4, and 5. Proteins 60, 207-213, doi:10.1002/prot.20559 (2005).",
+            "Wiehe, K. et al ZDOCK and RDOCK performance in CAPRI rounds 3, Duckert, P., Brunak, S. & Blom, N. Prediction of proprotein convertase cleavage sites. Protein engineering, design & selection : PEDS 17, 107-112, doi:10.1093/protein/gzh[<a class=\"ref-link\" id=\"c013\" href=\"#r013\">013</a>] (2004).",
+            "21, 1, doi:10.1186/s13059-019-1906-x (2019).",
+            "Madissoon, E. et al scRNA-seq assessment of the human lung, spleen, Vieira Braga, F. A. et al A cellular census of human lungs identifies novel cell states in health and in asthma. Nature medicine 25, 1153-1163, doi:10.1038/s41591-019-0468-5 (2019).",
+            "Lung Provides Insights into the Pathobiology of Pulmonary Fibrosis.",
+            "American journal of respiratory and critical care medicine 199, 1517-1536, doi:10.1164/rccm.201712-2410OC (2019).",
+            "Valenzi, E. et al Single-cell analysis reveals fibroblast heterogeneity and myofibroblasts in systemic sclerosis-associated interstitial lung disease.",
+            "doi:10.1136/annrheumdis-2018-214865 (2019).",
+            "Underlying Gastric Premalignant Lesions and Early Gastric Cancer.",
+            "(2019).",
+            "Anti-TNF doi:10.1016/j.cell.2019.08.008 (2019).",
+            "Therapy.",
+            "Cell during doi:10.1016/j.cell.2019.06.029 (2019).",
+            "1493-1508.e1420, Smillie, C. S. et al Intra- and Inter-cellular Rewiring of the Human Colon",
+            "Colitis.",
+            "714-730.e722, Stuart, T. et al Comprehensive Integration of Single-Cell Data. Cell 177, 1888-1902.e1821, doi:10.1016/j.cell.2019.05.031 (2019).",
+            "Contrasts Features of Brain Cell Identity. Cell 177, 1873-1887.e1817, doi:10.1016/j.cell.2019.05.006 (2019).",
+            "Rouillard, A. D. et al The harmonizome: a collection of processed datasets gathered to serve and mine knowledge about genes and proteins. Database : the journal of biological databases and curation",
+            "2016, doi:10.1093/database/baw[100] (2016).",
+            "Human genomics. The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans. Science (New York, N.Y.) 348, 648-660, doi:10.1126/science.1262110 (2015).",
+            "Uhlen, M. et al Proteomics. Tissue-based map of the human proteome.",
+            "TMPRSS2 at the S1/S2 boundary or within S2 subunit, which removes the structural constraint of S1 on S2, and releases the internal fusion peptide combined with the Spike TM domain for the fusion of viral and cellular membranes. Finally, the viral genomes enter into the host cells.",
+            "b. ACE2 cleaving by TMPRSSs: TMPRSS2 can also cleave ACE2 amino acids 697 to 716, resulting in the shedding of 13kD ACE2 fragment in culture supernatants and augmented viral infectivity.",
+            "c. The difference between SARS-CoV-2 and SARS-CoV in the Spike protein cleavage: The Spike protein of SARS involves two cleavage sites recognized by",
+            "TMPRSSs, one at arginine 667 and the other at arginine 797 (right). Compared with SARS-CoV, the Spike protein of SARS-CoV-2 (left) has an insertion sequence 680-SPRR-683 at the S1/S2 cleavage site. We speculated that R682, R683 and R685 (red box) could be used as the most suitable substrates for",
+            "TMPRSSs, which can increase the Spike protein cleavage efficiency of TMPRSSs, promote its activation and enhance SARS-CoV-2 infection.",
+            "SARS-CoV-2 by TMPRSS2.",
+            "a. Phylogenetic tree based on the protein sequences of Spike protein in SARS-CoV-2, SARS-CoV and other eight beta-coronaviruses are presented, along with the amino acid sequence alignment of two potential cleavage sites by TMPRSS2.",
+            "b. The putative furin scores of the two potential cleavage sites of the ten coronaviruses.",
+            "SARS-CoV-2. The insert 675-690 of SARS-CoV-2 Spike protein (yellow) and the corresponding loci to SARS-CoV Spike protein 661-672 (green). Three important residues, R682, R683, R685, are specially marked.",
+            "d. The detail of c. The similarly SARS-CoV R797 with SARS-CoV-2 R815 are marked with forest green and orange, respectively.",
+            "a. The UMAP plots of the landscape of lung cells. Thirteen clusters are colored, distinctively labeled. T, B and myeloid cell subsets are further divided into finer cell subsets according to the heterogeneity within the cell population.",
+            "b. The feature plots of the 17 TMPRSS genes, ACE2, TMPRSS1 and TMPRSS2.",
+            "c. The expression of ACE2 across clusters in the violin plot. The expression is measured as the log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] (TP10K+1) value.",
+            "d. The mean expression of TMPRSS family genes across clusters in the boxplot. The expression is measured as the mean log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] (TP10K+1) value.",
+            "a. The expression levels of ACE2 and TMPRSS restriction signature in 2 lung clusters and 7 digestive tract clusters. The expression is measured as the log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+            "(TP10K+1) value.",
+            "b. The expression levels of endocytosis and exocytosis-associated genes in 2 lung clusters and 7 digestive tract clusters. The expression is measured as the log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+            "b. The structure of the SARS-CoV-2 Spike protein (Modelled by SWISS-MODEL).",
+            "The insert aa[675-690] of 2019-nCoV Spike protein that corresponds to the insert region of SARS-V Spike protein is marked with yellow.",
+            "SARS-CoV-2 (blue).",
+            "The TMPRSS2, catalytic triad comprised of H296, D345 and S441 are marked with cyan, blue, cyan and green, respectively. The substrate binding residue D435 located in the bottom of pocket is marked with red.",
+            "c. The polypeptide substrate analogue KQLR. The cleavage site Arg is marked with orange. Gln and Leu are marked with yellow. Lys is marked with pink.",
+            "d. The state of substrate analogue binding in the catalytic pocket. The state of substrate analogue binding in the catalytic pocket.",
+            "f. The predicted state of SARS-CoV-2 Spike protein binding to the catalytic pocket of",
+            "TMPRSS2.",
+            "g. The detail of f. SARS-CoV-2 Spike protein and D345 of TMPRSS2 are marked with wheat and medium blue, respectively.",
+            "a. The heatmap of marker genes (rows) across cell subsets (columns). The bubble diagram of marker genes in thirteen clusters (b) and the sub-clusters of T cells (c),",
+            "B cells (d) and Myeloid cells (e).",
+            "The fractions of cells (y axis) in each cell subset (bars) that are derived from each sample in 3 databases (red, green and blue). The numbers of cells in each cluster are labeled above.",
+            "a. The Violin plots of ACE2 and TMPRSS family genes across clusters. The expression is measured as the log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] (TP10K+1) value.",
+            "b. The boxplot of exocytosis-associated across clusters. The expression is measured as the mean log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] (TP10K+1) value.",
+            "a. The UMAP plots of esophageal cells, gastric mucosal cells, ileal epithelial cells and colonic epithelial cells. The Feature plots show the expression of ACE2 (red) and TMPSS family genes (green). The plots were merged to reveal the co-expression of these genes (brown).",
+            "c. The expression levels ACE2 and TMPRSS restriction signature across clusters in esophagus (b), stomach(c), ileum(d) and colon(d). The expression is measured as the mean log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] (TP10K+1) value.",
+            "The violin plots of ACE2 and TMPRSS family genes across clusters in esophagus (a), stomach (b), ileum (c) and colon (d). The expression is measured as the mean log[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+            "b. The expression levels of ACE2, TMPRSS1 and TMPRSS2 verified by RNA-seq data from the GTEx database."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "lung tissue samples",
+            "number": 19,
+            "context": "Single cell transcriptome data were obtained from Single Cell Portal (https://singlecell.broadinstitute.org/single_cell), Human Cell Atlas Data Protal (https://data.humancellatlas.org) and Gene Expression Omnibus (GEO; https://www.ncbi.nlm.nih.gov/). <mark class=\"stats\">Esophageal and lung data were obtained from the research of E Madissoon et al containing 21 esophageal and 19 lung tissue samples[<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>]</mark>. Two lung datasets were further obtained from GSE12296038 and GSE12816939, including eight and five lung tissues respectively"
+        },
+        {
+            "participant": "lung datasets",
+            "number": 2,
+            "context": "Esophageal and lung data were obtained from the research of E Madissoon et al containing 21 esophageal and 19 lung tissue samples[<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>]. <mark class=\"stats\">Two lung datasets were further obtained from GSE12296038 and GSE12816939, including eight and five lung tissues respectively</mark>. GSE134520 included 6 gastric mucosal samples from 3 non-atrophic gastritis and 2 chronic atrophic gastritis patients[<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]"
+        },
+        {
+            "participant": "gastric mucosal samples",
+            "number": 6,
+            "context": "Two lung datasets were further obtained from GSE12296038 and GSE12816939, including eight and five lung tissues respectively. <mark class=\"stats\">GSE134520 included 6 gastric mucosal samples from 3 non-atrophic gastritis and 2 chronic atrophic gastritis patients[<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]</mark>. GSE134809 comprises 11 noninflammatory ileal samples from Crohn\u2019s disease patients[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]"
+        },
+        {
+            "participant": "noninflammatory ileal samples",
+            "number": 11,
+            "context": "GSE134520 included 6 gastric mucosal samples from 3 non-atrophic gastritis and 2 chronic atrophic gastritis patients[<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]. <mark class=\"stats\">GSE134809 comprises 11 noninflammatory ileal samples from Crohn\u2019s disease patients[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]</mark>. The data from Christopher S et al consisted of 12 normal colon samples[<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>]"
+        },
+        {
+            "participant": "normal colon samples",
+            "number": 12,
+            "context": "GSE134809 comprises 11 noninflammatory ileal samples from Crohn\u2019s disease patients[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]. <mark class=\"stats\">The data from Christopher S et al consisted of 12 normal colon samples[<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>]</mark>. Cells would be identified as poor-quality once (1) the number of expressed genes fewer than 200 or greater than 5000, or (2) more than 20% of UMIs being mapped to mitochondrial or ribosomal genes"
+        },
+        {
+            "participant": "datasets",
+            "number": 3,
+            "context": "ACE2 and cell proteases TMPRSSs. <mark class=\"stats\">In order to identify the coexpressing cell composition and proportion, we utilized 3 datasets including 32 samples and built the largest single-cell transcriptome atlas of normal lung, the commonest infected organ of SARS-CoV-2</mark>. author/funder"
+        },
+        {
+            "participant": "TMPRSS genes",
+            "number": 17,
+            "context": "The marker genes and dataset proportions of each sub-cluster were presented in Extended Data Fig. 3-4. <mark class=\"stats\">We detected the expression of ACE2 and TMPRSSs in 29 cell groups, in which the expression of the whole 17 TMPRSS genes is in the form of total signature value</mark>. Pseudodyeing analysis was performed and we found that ACE2 was mainly expressed in AT2 cells and marked with red (Fig. 3b, c)"
+        },
+        {
+            "participant": "TMPRSS genes",
+            "number": 17,
+            "context": "Pseudodyeing analysis was performed and we found that ACE2 was mainly expressed in AT2 cells and marked with red (Fig. 3b, c). <mark class=\"stats\">The total 17 TMPRSS genes was found in AT1, AT2, airway secretory and ciliated cells colored with blue (Fig. 3b, d, Extended Data Fig. 5a)</mark>. Thus, we found an obvious coexpression between TMPRSSs and ACE2 in AT2"
+        },
+        {
+            "participant": "datasets with the single-cell transcriptomes of the esophagus",
+            "number": 4,
+            "context": "SARS-CoV-2-infected patient[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], the digestive system may also be the potential route of COVID-19. <mark class=\"stats\">Thus, in addition to lung, 4 datasets with the single-cell transcriptomes of the esophagus, gastric, small intestine and colon were analyzed to identify the expression of ACE2 and TMPRSSs in the digestive system</mark>. The co-expression of author/funder"
+        },
+        {
+            "participant": "lung datasets",
+            "number": 2,
+            "context": "Esophageal and lung data were obtained from the research of E Madissoon et al containing 21 esophageal and 19 lung tissue samples36. <mark class=\"stats\">Two lung datasets were further obtained from GSE12296038 and GSE12816939, author/funder</mark>. It is made available under a CC-BY-NC-ND 4.0 International license"
+        },
+        {
+            "participant": "gastric mucosal samples",
+            "number": 6,
+            "context": "including eight and five lung tissues respectively. <mark class=\"stats\">GSE134520 included 6 gastric mucosal samples from 3 non-atrophic gastritis and 2 chronic atrophic gastritis patients40</mark>. GSE134809 comprises 11 noninflammatory ileal samples from Crohn\u2019s disease patients[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>]"
+        },
+        {
+            "participant": "noninflammatory ileal samples",
+            "number": 11,
+            "context": "GSE134520 included 6 gastric mucosal samples from 3 non-atrophic gastritis and 2 chronic atrophic gastritis patients40. <mark class=\"stats\">GSE134809 comprises 11 noninflammatory ileal samples from Crohn\u2019s disease patients41</mark>. The data from Christopher S et al consisted of 12 normal colon samples[<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>]"
+        },
+        {
+            "participant": "TMPRSS genes",
+            "number": 17,
+            "context": "b. <mark class=\"stats\">The feature plots of the 17 TMPRSS genes, ACE2, TMPRSS1 and TMPRSS2</mark>. c"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">After identifying highly variable genes (HVGs) using the \u201cFindVariableGenes\u201d function a principal component analysis (PCA) was performed on the single-cell expression matrix using the \u2018\u2018RunPCA\u2019\u2019 function</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The \u2018\u2018FindClusters\u2019\u2019 function in the Seurat package was next utilized to conduct the cell clustering analysis into a graph structure in PCA space after constructing a K-nearest-neighbor graph based on the Euclidean distance in PCA space</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">After identifying highly variable genes (HVGs) using the \u201cFindVariableGenes\u201d function a principal component analysis (PCA) was performed on the single-cell author/funder</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "MERS",
+        "Unique molecularidentifier",
+        "highly variable genes",
+        "severe acute respiratory syndrome",
+        "coronavirus",
+        "Gene Expression Omnibus",
+        "spike protein cleavage",
+        "Crohn disease",
+        "ACE2",
+        "principal component analysis",
+        "potential target",
+        "CoronavirusStudy Group",
+        "novel coronavirus",
+        "Genotype-Tissue Expression",
+        "sars cov",
+        "common infection",
+        "host cell",
+        "cell receptor",
+        "respiratory syndrome coronavirus",
+        "TMPRSS",
+        "single cell",
+        "pneumonia",
+        "receptor-binding domain",
+        "pathogenesis",
+        "mers cov"
+    ],
+    "keyword_relevance": {
+        "severe acute respiratory syndrome": 0.3390804597701149,
+        "TMPRSS": 0.22988505747126436,
+        "ACE2": 0.10632183908045977,
+        "coronavirus": 0.08908045977011494,
+        "host cell": 0.04310344827586207,
+        "cell receptor": 0.020114942528735632,
+        "pneumonia": 0.020114942528735632,
+        "Genotype-Tissue Expression": 0.017241379310344827,
+        "MERS": 0.014367816091954023,
+        "principal component analysis": 0.014367816091954023,
+        "potential target": 0.014367816091954023,
+        "novel coronavirus": 0.014367816091954023,
+        "Unique molecularidentifier": 0.011494252873563218,
+        "spike protein cleavage": 0.011494252873563218,
+        "respiratory syndrome coronavirus": 0.011494252873563218,
+        "single cell": 0.008620689655172414,
+        "receptor-binding domain": 0.008620689655172414,
+        "pathogenesis": 0.008620689655172414,
+        "highly variable genes": 0.005747126436781609,
+        "Gene Expression Omnibus": 0.005747126436781609,
+        "CoronavirusStudy Group": 0.0028735632183908046,
+        "common infection": 0.0028735632183908046,
+        "Crohn disease": 0.0,
+        "sars cov": 0.0,
+        "mers cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> At the end of 2019, a rising number of pneumonia patients with unknown pathogen emerged from Wuhan to nearly the entire China[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>].",
+        "SARS-CoV-2 is generally less pathogenic than SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), it has a relatively high transmissibility 9.",
+        "With regard to human coronavirus, the transmissibility and infectivity is largely controlled by the spike (S) surface envelope protein 10.",
+        "Its surface unit (S1) mediates the entry into host cells by binding to cell receptor and the transmembrane unit (S2).",
+        "SARS-CoV-2 uses the same cell receptor as SARS-CoV, with a similar binding affinity, whereas their transmissibility and infectivity are different 5,6,12,13",
+        "<h2 style=\"display: inline\">Methods:</h2> Structure modelling<br/><br/>The structures of SARS-CoV-2 S protein and TMPRSS2 were generated by<br/><br/>SWISS-MODEL online server[<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>].",
+        "The structures of SARS-CoV-2 S protein and TMPRSS2 were generated by.",
+        "SARS-CoV-2 S protein cleaved by TMPRSS2, ZDOCK program was used to predict their interaction 34.",
+        "A total of 5000 models were generated and were set to 50 clusters, the best scoring models from the 5 largest clusters were selected for further analysis.",
+        "Furin score.",
+        "The fragmentation maps, scoring and residue coverage analysis were conducted using arginine and lysine propeptide cleavage sites prediction algorithms ProP 1.0 server[<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>].",
+        "<h2 style=\"display: inline\">Results:</h2> The comparison of the S1/S2 and S2' cleavage sites between SARS-CoV-2 and SARS-CoV<br/><br/>Generally, compared with SARS-CoV, the major differences in SARS-CoV-2 are the three short insertions in the N-terminal domain and four out of five key residues changes in the receptor-binding motif 5.",
+        "The authors used the alignment, furin score and homology modeling to compare the sequence of the S1/S2 and S2' cleavage sites between SARS-CoV-2 and SARS-CoV (Fig. 1c).",
+        "The furin score was used to identify the cleavage efficiency of the insertion sequence in SARS-CoV-2.",
+        "Its furin score was 0.688, which was obviously higher than that of the corresponding sequence in SARS-CoV (0.139), indicating that the insertion sequence may increase the cleavage efficiency by proteases (Fig. 2b).",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The coronaviruses is the common infection source of respiratory, enteric and central nervous system in humans and other mammals[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>].",
+        "2019, a novel identified coronavirus (SARS-CoV-2) induced an ongoing outbreak of pneumonia in Wuhan, Hubei, China 7.",
+        "SARS-CoV-2-infected cases suggests that SARS-CoV-2 may be transmitted effectively among humans and give rise to a high pandemic potential 7,8,24.",
+        "Previous studies identified that SARS-CoV mutated between 2002 and 2004 to better bind to its cell receptor, replicate in human cells and enhance the virulence 9.",
+        "SARS-CoV and SARS-CoV-2 share the same receptor protein"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "At the end of 2019, a rising number of pneumonia patients with unknown pathogen emerged from Wuhan to nearly the entire China[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>].",
+            "SARS-CoV-2 is generally less pathogenic than SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), it has a relatively high transmissibility 9.",
+            "With regard to human coronavirus, the transmissibility and infectivity is largely controlled by the spike (S) surface envelope protein 10.",
+            "Its surface unit (S1) mediates the entry into host cells by binding to cell receptor and the transmembrane unit (S2).",
+            "SARS-CoV-2 uses the same cell receptor as SARS-CoV, with a similar binding affinity, whereas their transmissibility and infectivity are different 5,6,12,13"
+        ],
+        "Methods": [
+            "Structure modelling<br/><br/>The structures of SARS-CoV-2 S protein and TMPRSS2 were generated by<br/><br/>SWISS-MODEL online server[<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>].",
+            "The structures of SARS-CoV-2 S protein and TMPRSS2 were generated by.",
+            "SARS-CoV-2 S protein cleaved by TMPRSS2, ZDOCK program was used to predict their interaction 34.",
+            "A total of 5000 models were generated and were set to 50 clusters, the best scoring models from the 5 largest clusters were selected for further analysis.",
+            "Furin score.",
+            "The fragmentation maps, scoring and residue coverage analysis were conducted using arginine and lysine propeptide cleavage sites prediction algorithms ProP 1.0 server[<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>]."
+        ],
+        "Results": [
+            "The comparison of the S1/S2 and S2' cleavage sites between SARS-CoV-2 and SARS-CoV<br/><br/>Generally, compared with SARS-CoV, the major differences in SARS-CoV-2 are the three short insertions in the N-terminal domain and four out of five key residues changes in the receptor-binding motif 5.",
+            "The authors used the alignment, furin score and homology modeling to compare the sequence of the S1/S2 and S2' cleavage sites between SARS-CoV-2 and SARS-CoV (Fig. 1c).",
+            "The furin score was used to identify the cleavage efficiency of the insertion sequence in SARS-CoV-2.",
+            "Its furin score was 0.688, which was obviously higher than that of the corresponding sequence in SARS-CoV (0.139), indicating that the insertion sequence may increase the cleavage efficiency by proteases (Fig. 2b)."
+        ],
+        "Conclusion": [
+            "The coronaviruses is the common infection source of respiratory, enteric and central nervous system in humans and other mammals[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>].",
+            "2019, a novel identified coronavirus (SARS-CoV-2) induced an ongoing outbreak of pneumonia in Wuhan, Hubei, China 7.",
+            "SARS-CoV-2-infected cases suggests that SARS-CoV-2 may be transmitted effectively among humans and give rise to a high pandemic potential 7,8,24.",
+            "Previous studies identified that SARS-CoV mutated between 2002 and 2004 to better bind to its cell receptor, replicate in human cells and enhance the virulence 9.",
+            "SARS-CoV and SARS-CoV-2 share the same receptor protein"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "6",
+            "alt_id": "6_8_a",
+            "entry": "6 Introduction 7 At the end of 2019, a rising number of pneumonia patients with unknown pathogen 8 emerged from Wuhan to nearly the entire China7. A novel coronavirus was isolated 9 and based on its phylogeny, taxonomy and established practice, the Coronavirus 10 Study Group (CSG) recognized it as a sister to severe acute respiratory syndrome 11 coronaviruses (SARS-CoVs) and labeled it as severe acute respiratory syndrome 12 coronavirus 2 (SARS-CoV-2) 1,8. Although SARS-CoV-2 is generally less pathogenic 13 than SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), it 14 has a relatively high transmissibility 9.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Introduction%207%20At%20the%20end%20of%202019%20a%20rising%20number%20of%20pneumonia%20patients%20with%20unknown%20pathogen%208%20emerged%20from%20Wuhan%20to%20nearly%20the%20entire%20China7%20A%20novel%20coronavirus%20was%20isolated%209%20and%20based%20on%20its%20phylogeny%20taxonomy%20and%20established%20practice%20the%20Coronavirus%2010%20Study%20Group%20CSG%20recognized%20it%20as%20a%20sister%20to%20severe%20acute%20respiratory%20syndrome%2011%20coronaviruses%20SARSCoVs%20and%20labeled%20it%20as%20severe%20acute%20respiratory%20syndrome%2012%20coronavirus%202%20SARSCoV2%2018%20Although%20SARSCoV2%20is%20generally%20less%20pathogenic%2013%20than%20SARSCoV%20and%20Middle%20East%20respiratory%20syndrome%20coronavirus%20MERSCoV%20it%2014%20has%20a%20relatively%20high%20transmissibility%209",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Introduction%207%20At%20the%20end%20of%202019%20a%20rising%20number%20of%20pneumonia%20patients%20with%20unknown%20pathogen%208%20emerged%20from%20Wuhan%20to%20nearly%20the%20entire%20China7%20A%20novel%20coronavirus%20was%20isolated%209%20and%20based%20on%20its%20phylogeny%20taxonomy%20and%20established%20practice%20the%20Coronavirus%2010%20Study%20Group%20CSG%20recognized%20it%20as%20a%20sister%20to%20severe%20acute%20respiratory%20syndrome%2011%20coronaviruses%20SARSCoVs%20and%20labeled%20it%20as%20severe%20acute%20respiratory%20syndrome%2012%20coronavirus%202%20SARSCoV2%2018%20Although%20SARSCoV2%20is%20generally%20less%20pathogenic%2013%20than%20SARSCoV%20and%20Middle%20East%20respiratory%20syndrome%20coronavirus%20MERSCoV%20it%2014%20has%20a%20relatively%20high%20transmissibility%209",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Introduction%207%20At%20the%20end%20of%202019%20a%20rising%20number%20of%20pneumonia%20patients%20with%20unknown%20pathogen%208%20emerged%20from%20Wuhan%20to%20nearly%20the%20entire%20China7%20A%20novel%20coronavirus%20was%20isolated%209%20and%20based%20on%20its%20phylogeny%20taxonomy%20and%20established%20practice%20the%20Coronavirus%2010%20Study%20Group%20CSG%20recognized%20it%20as%20a%20sister%20to%20severe%20acute%20respiratory%20syndrome%2011%20coronaviruses%20SARSCoVs%20and%20labeled%20it%20as%20severe%20acute%20respiratory%20syndrome%2012%20coronavirus%202%20SARSCoV2%2018%20Although%20SARSCoV2%20is%20generally%20less%20pathogenic%2013%20than%20SARSCoV%20and%20Middle%20East%20respiratory%20syndrome%20coronavirus%20MERSCoV%20it%2014%20has%20a%20relatively%20high%20transmissibility%209"
+        },
+        {
+            "id": "4",
+            "alt_id": "4_2019_a",
+            "entry": "4 Discussion 5 The coronaviruses is the common infection source of respiratory, enteric and central 6 nervous system in humans and other mammals22. At the beginning of the twenty-first 7 century, two betacoronaviruses, SARS-CoV and MERS-CoV, result in persistent 8 public panics and became the most significant public health events23. In December 9 2019, a novel identified coronavirus (SARS-CoV-2) induced an ongoing outbreak of 10 pneumonia in Wuhan, Hubei, China 7. The rapidly increasing number of 11 SARS-CoV-2-infected cases suggests that SARS-CoV-2 may be transmitted 12 effectively among humans and give rise to a high pandemic potential 7,8,24.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Discussion%205%20The%20coronaviruses%20is%20the%20common%20infection%20source%20of%20respiratory%20enteric%20and%20central%206%20nervous%20system%20in%20humans%20and%20other%20mammals22%20At%20the%20beginning%20of%20the%20twentyfirst%207%20century%20two%20betacoronaviruses%20SARSCoV%20and%20MERSCoV%20result%20in%20persistent%208%20public%20panics%20and%20became%20the%20most%20significant%20public%20health%20events23%20In%20December%209%202019%20a%20novel%20identified%20coronavirus%20SARSCoV2%20induced%20an%20ongoing%20outbreak%20of%2010%20pneumonia%20in%20Wuhan%20Hubei%20China%207%20The%20rapidly%20increasing%20number%20of%2011%20SARSCoV2infected%20cases%20suggests%20that%20SARSCoV2%20may%20be%20transmitted%2012%20effectively%20among%20humans%20and%20give%20rise%20to%20a%20high%20pandemic%20potential%207824",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Discussion%205%20The%20coronaviruses%20is%20the%20common%20infection%20source%20of%20respiratory%20enteric%20and%20central%206%20nervous%20system%20in%20humans%20and%20other%20mammals22%20At%20the%20beginning%20of%20the%20twentyfirst%207%20century%20two%20betacoronaviruses%20SARSCoV%20and%20MERSCoV%20result%20in%20persistent%208%20public%20panics%20and%20became%20the%20most%20significant%20public%20health%20events23%20In%20December%209%202019%20a%20novel%20identified%20coronavirus%20SARSCoV2%20induced%20an%20ongoing%20outbreak%20of%2010%20pneumonia%20in%20Wuhan%20Hubei%20China%207%20The%20rapidly%20increasing%20number%20of%2011%20SARSCoV2infected%20cases%20suggests%20that%20SARSCoV2%20may%20be%20transmitted%2012%20effectively%20among%20humans%20and%20give%20rise%20to%20a%20high%20pandemic%20potential%207824",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Discussion%205%20The%20coronaviruses%20is%20the%20common%20infection%20source%20of%20respiratory%20enteric%20and%20central%206%20nervous%20system%20in%20humans%20and%20other%20mammals22%20At%20the%20beginning%20of%20the%20twentyfirst%207%20century%20two%20betacoronaviruses%20SARSCoV%20and%20MERSCoV%20result%20in%20persistent%208%20public%20panics%20and%20became%20the%20most%20significant%20public%20health%20events23%20In%20December%209%202019%20a%20novel%20identified%20coronavirus%20SARSCoV2%20induced%20an%20ongoing%20outbreak%20of%2010%20pneumonia%20in%20Wuhan%20Hubei%20China%207%20The%20rapidly%20increasing%20number%20of%2011%20SARSCoV2infected%20cases%20suggests%20that%20SARSCoV2%20may%20be%20transmitted%2012%20effectively%20among%20humans%20and%20give%20rise%20to%20a%20high%20pandemic%20potential%207824"
+        },
+        {
+            "id": "13",
+            "alt_id": "13_2002_b",
+            "entry": "13 Previous studies identified that SARS-CoV mutated between 2002 and 2004 to better 14 bind to its cell receptor, replicate in human cells and enhance the virulence 9.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Previous%20studies%20identified%20that%20SARSCoV%20mutated%20between%202002%20and%202004%20to%20better%2014%20bind%20to%20its%20cell%20receptor%20replicate%20in%20human%20cells%20and%20enhance%20the%20virulence%209"
+        },
+        {
+            "id": "11",
+            "alt_id": "Gallagher_2001_a",
+            "entry": "11 Gallagher, T. M. & Buchmeier, M. J. Coronavirus spike proteins in viral entry and pathogenesis. Virology 279, 371-374, doi:10.1006/viro.2000.0757 (2001).",
+            "crossref": "https://dx.doi.org/10.1006/viro.2000.0757",
+            "scite": "https://scite.ai/reports/10.1006/viro.2000.0757",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1006/viro.2000.0757"
+        },
+        {
+            "id": "14",
+            "alt_id": "Zhou_2015_a",
+            "entry": "14 Zhou, Y. et al. Protease inhibitors targeting coronavirus and filovirus entry. Antiviral research 116, 76-84, doi:10.1016/j.antiviral.2015.01.011 (2015).",
+            "crossref": "https://dx.doi.org/10.1016/j.antiviral.2015.01.011",
+            "scite": "https://scite.ai/reports/10.1016/j.antiviral.2015.01.011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.antiviral.2015.01.011"
+        },
+        {
+            "id": "15",
+            "alt_id": "Millet_2015_a",
+            "entry": "15 Millet, J. K. & Whittaker, G. R. Host cell proteases: Critical determinants of coronavirus tropism and pathogenesis. Virus research 202, 120-134, doi:10.1016/j.virusres.2014.11.021 (2015).",
+            "crossref": "https://dx.doi.org/10.1016/j.virusres.2014.11.021",
+            "scite": "https://scite.ai/reports/10.1016/j.virusres.2014.11.021",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.virusres.2014.11.021"
+        },
+        {
+            "id": "16",
+            "alt_id": "Shirato_et+al_2018_a",
+            "entry": "16 Shirato, K., Kawase, M. & Matsuyama, S. Wild-type human coronaviruses prefer cell-surface TMPRSS2 to endosomal cathepsins for cell entry. Virology 517, 9-15, doi:10.1016/j.virol.2017.11.012 (2018).",
+            "crossref": "https://dx.doi.org/10.1016/j.virol.2017.11.012",
+            "scite": "https://scite.ai/reports/10.1016/j.virol.2017.11.012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.virol.2017.11.012"
+        },
+        {
+            "id": "17",
+            "alt_id": "Heurich_2014_a",
+            "entry": "17 Heurich, A. et al. TMPRSS2 and ADAM17 cleave ACE2 differentially and only proteolysis by TMPRSS2 augments entry driven by the severe acute respiratory syndrome coronavirus spike protein. Journal of virology 88, 1293-1307, doi:10.1128/jvi.02202-13 (2014).",
+            "crossref": "https://dx.doi.org/10.1128/jvi.02202-13",
+            "scite": "https://scite.ai/reports/10.1128/jvi.02202-13",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1128/jvi.02202-13"
+        },
+        {
+            "id": "18",
+            "alt_id": "Herter_2005_a",
+            "entry": "18 Herter, S. et al. Hepatocyte growth factor is a preferred in vitro substrate for human hepsin, a membrane-anchored serine protease implicated in prostate and ovarian cancers. The Biochemical journal 390, 125-136, doi:10.1042/bj20041955 (2005).",
+            "crossref": "https://dx.doi.org/10.1042/bj20041955",
+            "scite": "https://scite.ai/reports/10.1042/bj20041955",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1042/bj20041955"
+        },
+        {
+            "id": "20",
+            "alt_id": "Holshue_2019_a",
+            "entry": "20 Holshue, M. L. et al. First Case of 2019 Novel Coronavirus in the United",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Holshue%2C%20M.L.%20Novel%20Coronavirus%20in%20the%20United%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Holshue%2C%20M.L.%20Novel%20Coronavirus%20in%20the%20United%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Holshue%2C%20M.L.%20Novel%20Coronavirus%20in%20the%20United%202019"
+        },
+        {
+            "id": "21",
+            "alt_id": "Guan_et+al_2020_a",
+            "entry": "21 Guan WJ, N. Z., Hu Y, Liang WH, Ou CQ, He JX, Liu L, Shan H, Lei CL, Hui David S.C., Du B Clinical characteristics of 2019 novel coronavirus infection in China. medRxiv, doi:doi: http://dx.doi.org/10.1101/2020.02.06.20020974 (2020).",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.06.20020974",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.06.20020974"
+        },
+        {
+            "id": "22",
+            "alt_id": "Perlman_2009_a",
+            "entry": "22 Perlman, S. & Netland, J. Coronaviruses post-SARS: update on replication and pathogenesis. Nature reviews. Microbiology 7, 439-450, doi:10.1038/nrmicro2147 (2009).",
+            "crossref": "https://dx.doi.org/10.1038/nrmicro2147",
+            "scite": "https://scite.ai/reports/10.1038/nrmicro2147",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/nrmicro2147"
+        },
+        {
+            "id": "24",
+            "alt_id": "Lee_2019_a",
+            "entry": "24 Lee, P. I. & Hsueh, P. R. Emerging threats from zoonotic coronaviruses-from SARS and MERS to 2019-nCoV. Journal of microbiology, immunology, and infection = Wei mian yu gan ran za zhi, doi:10.1016/j.jmii.2020.02.001 (2020).",
+            "crossref": "https://dx.doi.org/10.1016/j.jmii.2020.02.001",
+            "scite": "https://scite.ai/reports/10.1016/j.jmii.2020.02.001"
+        },
+        {
+            "id": "25",
+            "alt_id": "Li_2003_a",
+            "entry": "25 Li, W. et al. Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus. Nature 426, 450-454, doi:10.1038/nature02145 (2003).",
+            "crossref": "https://dx.doi.org/10.1038/nature02145",
+            "scite": "https://scite.ai/reports/10.1038/nature02145",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/nature02145"
+        },
+        {
+            "id": "26",
+            "alt_id": "Kuiken_2003_a",
+            "entry": "26 Kuiken, T. et al. Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome. Lancet 362, 263-270, doi:10.1016/s0140-6736(03)13967-0 (2003).",
+            "crossref": "https://dx.doi.org/10.1016/s0140-6736(03)13967-0",
+            "scite": "https://scite.ai/reports/10.1016/s0140-6736(03)13967-0",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/s0140-6736%2803%2913967-0"
+        },
+        {
+            "id": "30",
+            "alt_id": "Shen_et+al_2017_a",
+            "entry": "30 Shen, L. W., Mao, H. J., Wu, Y. L., Tanaka, Y. & Zhang, W. TMPRSS2: A potential target for treatment of influenza virus and coronavirus infections. Biochimie 142, 1-10, doi:10.1016/j.biochi.2017.07.016 (2017).",
+            "crossref": "https://dx.doi.org/10.1016/j.biochi.2017.07.016",
+            "scite": "https://scite.ai/reports/10.1016/j.biochi.2017.07.016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.biochi.2017.07.016"
+        },
+        {
+            "id": "31",
+            "alt_id": "Shin_2017_a",
+            "entry": "31 Shin, W. J. & Seong, B. L. Type II transmembrane serine proteases as potential target for anti-influenza drug discovery. Expert opinion on drug discovery 12, 1139-1152, doi:10.1080/17460441.2017.1372417 (2017).",
+            "crossref": "https://dx.doi.org/10.1080/17460441.2017.1372417",
+            "scite": "https://scite.ai/reports/10.1080/17460441.2017.1372417"
+        },
+        {
+            "id": "32",
+            "alt_id": "Biasini_2014_a",
+            "entry": "32 Biasini, M. et al. SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information. Nucleic acids research 42, W252-258, doi:10.1093/nar/gku340 (2014).",
+            "crossref": "https://dx.doi.org/10.1093/nar/gku340",
+            "scite": "https://scite.ai/reports/10.1093/nar/gku340",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/nar/gku340"
+        },
+        {
+            "id": "34",
+            "alt_id": "Wiehe_2005_a",
+            "entry": "34 Wiehe, K. et al. ZDOCK and RDOCK performance in CAPRI rounds 3, 4, and 5. Proteins 60, 207-213, doi:10.1002/prot.20559 (2005).",
+            "crossref": "https://dx.doi.org/10.1002/prot.20559",
+            "scite": "https://scite.ai/reports/10.1002/prot.20559",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/prot.20559"
+        },
+        {
+            "id": "35",
+            "alt_id": "Duckert_et+al_2004_a",
+            "entry": "35 Duckert, P., Brunak, S. & Blom, N. Prediction of proprotein convertase cleavage sites. Protein engineering, design & selection: PEDS 17, 107-112, doi:10.1093/protein/gzh013 (2004).",
+            "crossref": "https://dx.doi.org/10.1093/protein/gzh013",
+            "scite": "https://scite.ai/reports/10.1093/protein/gzh013"
+        },
+        {
+            "id": "37",
+            "alt_id": "Vieira_2019_a",
+            "entry": "37 Vieira Braga, F. A. et al. A cellular census of human lungs identifies novel cell states in health and in asthma. Nature medicine 25, 1153-1163, doi:10.1038/s41591-019-0468-5 (2019).",
+            "crossref": "https://dx.doi.org/10.1038/s41591-019-0468-5",
+            "scite": "https://scite.ai/reports/10.1038/s41591-019-0468-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41591-019-0468-5"
+        },
+        {
+            "id": "39",
+            "alt_id": "Valenzi_2019_a",
+            "entry": "39 Valenzi, E. et al. Single-cell analysis reveals fibroblast heterogeneity and myofibroblasts in systemic sclerosis-associated interstitial lung disease. Annals of the rheumatic diseases 78, 1379-1387, doi:10.1136/annrheumdis-2018-214865 (2019).",
+            "crossref": "https://dx.doi.org/10.1136/annrheumdis-2018-214865",
+            "scite": "https://scite.ai/reports/10.1136/annrheumdis-2018-214865",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1136/annrheumdis-2018-214865"
+        },
+        {
+            "id": "42",
+            "alt_id": "Smillie_2019_a",
+            "entry": "42 Smillie, C. S. et al. Intra- and Inter-cellular Rewiring of the Human Colon during Ulcerative Colitis. Cell 178, 714-730.e722, doi:10.1016/j.cell.2019.06.029 (2019).",
+            "crossref": "https://dx.doi.org/10.1016/j.cell.2019.06.029",
+            "scite": "https://scite.ai/reports/10.1016/j.cell.2019.06.029",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.cell.2019.06.029"
+        },
+        {
+            "id": "43",
+            "alt_id": "Stuart_2019_a",
+            "entry": "43 Stuart, T. et al. Comprehensive Integration of Single-Cell Data. Cell 177, 1888-1902.e1821, doi:10.1016/j.cell.2019.05.031 (2019).",
+            "crossref": "https://dx.doi.org/10.1016/j.cell.2019.05.031",
+            "scite": "https://scite.ai/reports/10.1016/j.cell.2019.05.031",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.cell.2019.05.031"
+        },
+        {
+            "id": "46",
+            "alt_id": "46_2015_a",
+            "entry": "46 Human genomics. The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans. Science (New York, N.Y.) 348, 648-660, doi:10.1126/science.1262110 (2015).",
+            "crossref": "https://dx.doi.org/10.1126/science.1262110",
+            "scite": "https://scite.ai/reports/10.1126/science.1262110",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.1262110"
+        }
+    ],
+    "facts": [
+        "the SARS-CoV-2 induces an ongoing outbreak of pneumonia in China1",
+        "The entry of SARS-CoV into host cells mainly depends on the cell receptor recognition and spike protein cleavage-induced cell membrane fusion3,4",
+        "a SPRR insertion in the S1/S2 protease cleavage sites of SARS-CoV-2 spike protein increasing the cleavage efficiency by the protein sequence aligment",
+        "the insertion sequence facilitates the formation of an extended loop",
+        "which was more suitable for protease recognition by the homology modeling",
+        "the single-cell transcriptomes identified that ACE2",
+        "TMPRSSs are highly coexpressed in AT2 cells of lung",
+        "a rising number of pneumonia patients with unknown pathogen emerged from Wuhan",
+        "the transmissibility and infectivity is largely controlled by the spike surface envelope protein 10",
+        "Its surface unit mediates the entry into host cells",
+        "for the fusion peptide releasing onto host cell membranes 11",
+        "SARS-CoV-2 S protein cleaved by TMPRSS2",
+        "the best scoring models from the 5 largest clusters were selected for further analysis",
+        "furin score and homology modeling to compare the sequence of the S1/S2",
+        "The furin score was used to identify the cleavage efficiency of the insertion sequence in SARS-CoV-2",
+        "that the insertion sequence may increase the cleavage efficiency by proteases",
+        "The structures of SARS-S and SARS-CoV-2 S protein were presented in Extended",
+        "a novel identified coronavirus induced an ongoing outbreak of pneumonia in Wuhan",
+        "SARS-CoV-2-infected cases suggests that SARS-CoV-2 may be transmitted",
+        "better bind to its cell receptor",
+        "important to explore whether SARS-CoV-2 behaves like SARS-CoV to adapt to the host cell",
+        "a loop which was recognized by the catalytic pocket of TMPRSS2",
+        "that ACE2 was mainly expressed in AT2 cells",
+        "the endocytosis-associated genes was highly expressed in AT2 cells",
+        "that endocytosis may facilitate the entry of SARS-CoV-2 into host cells"
+    ],
+    "claims": [
+        "We show that an insertion sequence in the spike protein of SARS-CoV-2 enhances the cleavage efficiency, and besides pulmonary alveoli, intestinal and esophagus epithelium were also the target tissues of SARS-CoV-2",
+        "We show that an insertion sequence in the spike protein of",
+        "Compared with SARS-CoV, we found a SPRR insertion in the S1/S2 protease cleavage sites of SARS-CoV-2 spike protein increasing the cleavage efficiency by the protein sequence aligment and furin score calculation",
+        "Our results provide the bioinformatics evidence for the increased spike protein cleavage of SARS-CoV-2 and indicate its potential target cells",
+        "S1/S2 and S2' cleavage sites among ten beta-coronavirus were then analyzed and we found that compared with SARS, there was an insertion sequence (SPRR) in the",
+        "We found the insertion sequence formed a loop which was easily recognized by the catalytic pocket of TMPRSS2 (Extended Data Fig. 2f, g)",
+        "Pseudodyeing analysis was performed and we found that ACE2 was mainly expressed in AT2 cells and marked with red (Fig. 3b, c)",
+        "We found an obvious coexpression between TMPRSSs and ACE2 in AT2",
+        "We found that these genes had consistent distribution and highly expressed in",
+        "In this study, we found the furin score of the S1/S2 cleavage sites in SARS-CoV-2 was higher than that of SARS, implying a more degree of hydrolysis",
+        "With the help of single cell sequencing, we found a strong co-expression between",
+        "We also found the endocytosis-associated genes was highly expressed in AT2 cells, implying that endocytosis may also facilitate the entry of SARS-CoV-2 into host cells"
+    ],
+    "findings": [
+        "Cells would be identified as poor-quality once (1) the number of expressed genes fewer than 200 or greater than 5000, or (2) more than 20% of UMIs being mapped to mitochondrial or ribosomal genes"
+    ],
+    "processes": [],
+    "key_statements": [
+        "The single-cell transcriptomes identified that ACE2 and TMPRSSs are highly coexpressed in AT2 cells of lung, along with esophageal upper epithelial cells and absorptive enterocytes",
+        "Our results provide the bioinformatics evidence for the increased spike protein cleavage of severe acute respiratory syndrome-CoV-2 and indicate its potential target cells",
+        "At the end of 2019, a rising number of pneumonia patients with unknown pathogen emerged from Wuhan to nearly the entire China[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]",
+        "We used the alignment, furin score and homology modeling to compare the sequence of the S1/S2 and S2' cleavage sites between severe acute respiratory syndrome-CoV-2 and severe acute respiratory syndrome-CoV (Fig. 1c)",
+        "S1/S2 and S2' cleavage sites among ten beta-coronavirus were analyzed and we found that compared with severe acute respiratory syndrome, there was an insertion sequence (SPRR) in the",
+        "Its furin score was 0.688, which was obviously higher than that of the corresponding sequence in severe acute respiratory syndrome-CoV (0.139), indicating that the insertion sequence may increase the cleavage efficiency by proteases (Fig. 2b)",
+        "The structures of severe acute respiratory syndrome-S and severe acute respiratory syndrome-CoV-2 S protein were presented in Extended",
+        "Pseudodyeing analysis was performed and we found that ACE2 was mainly expressed in AT2 cells and marked with red (Fig. 3b, c)",
+        "severe acute respiratory syndrome-CoV-2-infected cases suggests that severe acute respiratory syndrome-CoV-2 may be transmitted effectively among humans and give rise to a high pandemic potential 7,8,24",
+        "Previous studies identified that severe acute respiratory syndrome-CoV mutated between 2002 and 2004 to better bind to its cell receptor, replicate in human cells and enhance the virulence 9",
+        "It is important to explore whether severe acute respiratory syndrome-CoV-2 behaves like severe acute respiratory syndrome-CoV to adapt to the host cell"
+    ],
+    "top_statements": [
+        "At the end of 2019, a rising number of pneumonia patients with unknown pathogen emerged from Wuhan to nearly the entire China[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]",
+        "The single-cell transcriptomes identified that ACE2 and TMPRSSs are highly coexpressed in AT2 cells of lung, along with esophageal upper epithelial cells and absorptive enterocytes",
+        "S1/S2 and S2' cleavage sites among ten beta-coronavirus were analyzed and we found that compared with severe acute respiratory syndrome, there was an insertion sequence (SPRR) in the",
+        "Pseudodyeing analysis was performed and we found that ACE2 was mainly expressed in AT2 cells and marked with red (Fig. 3b, c)",
+        "Previous studies identified that severe acute respiratory syndrome-CoV mutated between 2002 and 2004 to better bind to its cell receptor, replicate in human cells and enhance the virulence 9",
+        "It is important to explore whether severe acute respiratory syndrome-CoV-2 behaves like severe acute respiratory syndrome-CoV to adapt to the host cell"
+    ],
+    "headline": "Previous studies identified that severe acute respiratory syndrome-CoV mutated between 2002 and 2004 to better bind to its cell receptor, replicate in human cells and enhance the virulence 9",
+    "contexts": [],
+    "abbreviations": {
+        "CSG": "CoronavirusStudy Group",
+        "RBD": "receptor-binding domain",
+        "GEO": "Gene Expression Omnibus",
+        "UMI": "Unique molecularidentifier",
+        "HVGs": "highly variable genes",
+        "PCA": "principal component analysis",
+        "GTEx": "Genotype-Tissue Expression",
+        "SARS": "severe acute respiratory syndrome"
+    }
+}

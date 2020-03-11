@@ -1,0 +1,833 @@
+{
+    "filename": "2020.02.22.951178.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1062439,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.22.951178",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/27/2020.02.22.951178.full.pdf"
+        },
+        "title": "Spike protein binding prediction with neutralizing antibodies of SARS-CoV-2",
+        "author": "Tamina Park, Sang-Yeop Lee, Seil Kim, Mi Jeong Kim, Hong Gi Kim, Sangmi Jun, Seung Il Kim, Bum Tae Kim, Edmond Changkyun Park, Daeui Park",
+        "date": 2020,
+        "affiliations": [
+            "Center for Convergent Research of Emerging Virus Infection, Korea Research Institute of Chemical Technology,",
+            "Daejeon 34114, Republic of Korea 8",
+            "Department of Predictive Toxicology, Korea Institute of Toxicology, Daejeon 34114, Republic of Korea 9",
+            "Department of Human and Environmental Toxicology, University of Science and Technology, Daejeon 34113,",
+            "Republic of Korea 11",
+            "Research Center for Bioconvergence Analysis, Korea Basic Science Institute, Cheongju 28119, Republic of",
+            "Division of Chemical and Medical Metrology, Center for Bioanalysis, Korea Research Institute of Standards and",
+            "Science, Daejeon 34113, Republic of Korea 15",
+            "Department of Bio-Analysis Science, University of Science & Technology (UST), Daejeon 34113, Republic of",
+            "Center for Research Equipment, Korea Basic Science Institute, Cheongju 28119, Republic of Korea 18 19 20",
+            "These authors contributed equally to this work. 21",
+            "Corresponding authors: Park, D. (daeui.park@kitox.re.kr), Park E.C. (edpark@kbsi.re.kr)"
+        ],
+        "abstract": "Coronavirus disease 2019 (COVID-19) is a new emerging human infectious disease caused by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2, also previously known as 2019-nCoV), originated in Wuhan seafood and animal market, China. Since December 2019, more than 69,000 cases of COVID-19 have been confirmed in China and quickly spreads to other counties. Currently, researchers put their best efforts to identify effective drugs for COVID-19. The neutralizing antibody, which binds to viral capsid in a manner that inhibits cellular entry of virus and uncoating of the genome, is the specific defense against viral invaders. In this study, we investigate to identify neutralizing antibodies that can bind to SARS-CoV-2 Sipke (S) protein and interfere with the interaction between viral S protein and a host receptor by bioinformatic methods. The sequence analysis of S protein showed two major differences in the RBD region of the SARS-CoV-2 S protein compared to SARS-CoV and SARS-CoV related bat viruses (btSARS-CoV). The insertion regions were close to interacting residues with the human ACE2 receptor. Epitope analysis of neutralizing antibodies revealed that SARS-CoV neutralizing antibodies used conformational epitopes, whereas MERS-CoV neutralizing antibodies used a common linear epitope region, which contributes to form the \u03b2-sheet structure in MERS-CoV S protein and deleted in SARS-CoV-2 S protein. To identify effective neutralizing antibodies for SARS-CoV-2, the binding affinities of neutralizing antibodies with SARS-CoV-2 S protein were predicted and compared by antibody-antigen docking simulation. The result showed that CR3022 neutralizing antibody from human may have higher binding affinity with SARS-CoV-2 S protein than SARS-CoV S protein. We also found that F26G19 and D12 mouse antibodies could bind to SARS-CoV S protein with high affinity. Our findings provide crucial clues towards the development of antigen diagnosis, therapeutic antibody, and the vaccine against SARS-CoV-2.",
+        "keywords": [
+            "SARS-CoV-2",
+            "2019-nCoV",
+            "Spike protein",
+            "Neutralizing antibody",
+            "MERS-CoV 47"
+        ],
+        "references": "@misc{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X. and Ren, L. and Zhao, J. and Hu, Y. and Zhang, L. and Fan, G. and Xu, J.},\n  title = {Gu X et al: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020},\n  language = {}\n}\n@incollection{chen2020a,\n  author = {Chen, N. and Zhou, M. and Dong, X. and Qu, J. and Gong, F. and Han, Y. and Qiu, Y. and Wang, J. and Liu, Y.},\n  title = {Wei Y et al: Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet 2020. Coronavirus disease 2019 (COVID-19) Situation Report \u2013 24},\n  date = {2020-02-13},\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200213-sitrep-24-covid19.pdf},\n  unmatched-author = {Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, Wang W, Song H, Huang B, Zhu},\n  source = {N et al: Genomic characterisation and epidemiology of 2019 novel coronavirus:implications for virus origins and receptor binding. Lancet 2020},\n  language = {}\n}\n@article{li2003a,\n  author = {Li, W. and Moore, M.J. and Vasilieva, N. and Sui, J. and Wong, S.K. and Berne, M.A. and Somasundaran, M. and Sullivan, J.L. and Luzuriaga, K. and Greenough},\n  title = {TC et al: Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus},\n  journal = {Nature},\n  date = {2003},\n  volume = {426},\n  pages = {450\u2013454},\n  number = {6965},\n  language = {}\n}\n@article{zhou2020a,\n  author = {Zhou, P. and Yang, X.L. and Wang, X.G. and Hu, B. and Zhang, L. and Zhang, W. and Si, H.R. and Zhu, Y. and Li, B. and Huang},\n  title = {CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  date = {2020},\n  publisher = {BioRxiv},\n  unmatched-author = {Tian, Cheng Li, Ailing Huang, Shuai Xia, Sicong Lu, Zhengli Shi, Lu Lu, Shibo Jiang, Zhenlin Yang,},\n  source = {Yanling Wu et al: Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody},\n  language = {},\n  address = {In}\n}\n@article{wrapp2020a,\n  author = {Wrapp, D. and Wang, N. and Corbett, K.S. and Goldsmith, J.A. and Hsieh, C.L. and Abiona, O. and Graham, B.S. and McLellan, J.S.},\n  title = {Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation},\n  journal = {Science},\n  date = {2020},\n  language = {}\n}\n@article{wan2020a,\n  author = {Wan, Y. and Shang, J. and Graham, R. and Baric, R.S. and Li, F.},\n  title = {Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS},\n  journal = {J Virol},\n  date = {2020},\n  language = {}\n}\n@article{coughlin2012a,\n  author = {Coughlin, M.M. and Prabhakar, B.S.},\n  title = {Neutralizing human monoclonal antibodies to severe acute respiratory syndrome coronavirus: target, mechanism of action, and therapeutic potential},\n  journal = {Rev Med Virol},\n  date = {2012},\n  volume = {22},\n  pages = {2\u201317},\n  number = {1},\n  language = {}\n}\n@article{han2018a,\n  author = {Han, H.J. and Liu, J.W. and Yu, H. and Yu, X.J.},\n  title = {Neutralizing Monoclonal Antibodies as Promising Therapeutics against Middle East Respiratory Syndrome Coronavirus Infection},\n  journal = {Viruses},\n  date = {2018},\n  volume = {10},\n  pages = {3209\u20133226},\n  unmatched-author = {Pickett BE, Greer DS, Zhang Y, Stewart L, Zhou L, Sun G, Gu Z, Kumar S, Zaremba S,},\n  source = {Shu Y, McCauley J: GISAID: Global initiative on sharing all influenza data - from vision to reality},\n  unmatched-journal = {Euro Surveill Viruses},\n  unmatched-volume = {22(13). 4(11):},\n  number = {12},\n  language = {}\n}\n@article{kumar2018a,\n  author = {Kumar, S. and Stecher, G. and Li, M. and Knyaz, C. and Tamura, K.},\n  title = {MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms},\n  journal = {Mol Biol Evol},\n  date = {2018},\n  volume = {35},\n  pages = {1547\u20131549},\n  number = {6},\n  language = {}\n}\n@article{saitou1981a,\n  author = {Saitou, N. and Nei, M.},\n  title = {The neighbor-joining method: a new method for reconstructing phylogenetic trees},\n  journal = {Mol Biol Evol},\n  volume = {1987},\n  pages = \"406-425.\" # \"368-376.\" # \"406-416.\",\n  date = {1981},\n  source = {Felsenstein J: Evolutionary trees from DNA sequences: a maximum likelihood approach},\n  unmatched-journal = {J Mol Evol Systematic Zoology},\n  unmatched-volume = {17(6): 20(4):},\n  number = {4},\n  unmatched-pages = {368-376. 406-416.},\n  language = {}\n}\n@article{jukes1969a,\n  author = {Jukes, T.H. and Cantor, C.R.},\n  title = {Evolution of protein molecules},\n  editor = {H, Mammalian Protein Metabolismby Munro},\n  publisher = {Academic Press, New York},\n  date = {1969},\n  pages = \"21-132.\" # \"783-791.\",\n  journal = {Evolution},\n  volume = {1985},\n  source = {Felsenstein J: Confidence Limits on Phylogenies: An Approach Using the Bootstrap},\n  unmatched-pages = {783-791.},\n  number = {39},\n  language = {}\n}\n@misc{landau-a,\n  author = {Landau, M. and Mayrose, I. and Rosenberg, Y. and Glaser, F. and Martz, E. and Pupko, T. and Ben-Tal, N.},\n  title = {ConSurf 2005: the projection of evolutionary conservation scores of residues on protein structures. Nucleic Acids Res 2005, 33(Web Server issue)},\n  pages = {299\u2013302},\n  language = {}\n}\n@misc{biasini-a,\n  author = {Biasini, M. and Bienert, S. and Waterhouse, A. and Arnold, K. and Studer, G. and Schmidt, T. and Kiefer, F. and Gallo Cassarino, T. and Bertoni, M.},\n  title = {Bordoli L et al: SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information. Nucleic Acids Res 2014, 42(Web Server issue)},\n  pages = {252\u2013258},\n  language = {}\n}\n@article{meng2006a,\n  author = {Meng, E.C. and Pettersen, E.F. and Couch, G.S. and Huang, C.C. and Ferrin, T.E.},\n  title = {Tools for integrated sequence-structure analysis with UCSF Chimera},\n  journal = {BMC Bioinformatics},\n  date = {2006},\n  volume = {7},\n  pages = \"339.\" # \"e237.\",\n  editor = {ter Meulen J and van den Brink EN and LL, Poon and WE, Marissen and CS, Leung and F, Cox and CY, Cheung and AQ, Bakker and JA, Bogaards and van Deventer E},\n  source = {et al: Human monoclonal antibody combination against SARS coronavirus: synergy and coverage of escape mutants},\n  unmatched-journal = {PLoS Med},\n  unmatched-volume = {3(7):},\n  unmatched-pages = {e237.},\n  language = {}\n}\n@article{leaver-fay2011a,\n  author = {Leaver-Fay, A. and Tyka, M. and Lewis, S.M. and Lange, O.F. and Thompson, J. and Jacak, R. and Kaufman, K. and Renfrew, P.D. and Smith, C.A. and Sheffler, W.},\n  title = {et al: ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules},\n  journal = {Methods Enzymol},\n  date = {2011},\n  volume = {487},\n  pages = {545\u2013574},\n  language = {}\n}\n@article{weitzner2017a,\n  author = {Weitzner, B.D. and Jeliazkov, JR, Lyskov and S, Marze and N, Kuroda and D, Frick and R, Adolf-Bryfogle and J, Biswas and N, Dunbrack and RL, Jr., Gray},\n  title = {JJ: Modeling and docking of antibody structures with Rosetta},\n  journal = {Nat Protoc},\n  date = {2017},\n  volume = {12},\n  pages = {401\u2013416},\n  number = {2},\n  language = {}\n}\n@article{sircar2010a,\n  author = {Sircar, A. and Gray, J.J.},\n  title = {SnugDock: paratope structural optimization during antibody-antigen docking compensates for errors in antibody homology models},\n  journal = {PLoS Comput Biol},\n  date = {2010},\n  volume = {6},\n  pages = {1000644},\n  number = {1},\n  language = {}\n}\n@article{tengs2016a,\n  author = {Tengs, T. and Jonassen, C.M.},\n  title = {Distribution and Evolutionary History of the Mobile Genetic Element s2m in Coronaviruses},\n  journal = {Diseases},\n  date = {2016},\n  volume = {4},\n  pages = {8904\u20138911},\n  unmatched-author = {Wu K, Peng G, Wilken M, Geraghty RJ,},\n  source = {Li F: Mechanisms of host receptor adaptation by severe acute respiratory syndrome coronavirus},\n  unmatched-journal = {J Biol Chem},\n  unmatched-volume = {287(12):},\n  number = {3},\n  language = {}\n}\n@article{ge2013a,\n  author = {Ge, X.Y. and Li, J.L. and Yang, X.L. and Chmura, A.A. and Zhu, G. and Epstein, J.H. and Mazet, J.K. and Hu, B. and Zhang, W.},\n  title = {Peng C et al: Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor},\n  journal = {Nature},\n  date = {2013},\n  volume = {503},\n  pages = {535\u2013538},\n  number = {7477},\n  language = {}\n}\n@article{wang2013a,\n  author = {Wang, N. and Shi, X. and Jiang, L. and Zhang, S. and Wang, D. and Tong, P. and Guo, D. and Fu, L. and Cui, Y.},\n  title = {Liu X et al: Structure of MERSCoV spike receptor-binding domain complexed with human receptor DPP4},\n  journal = {Cell Res},\n  date = {2013},\n  volume = {23},\n  pages = {986993},\n  note = {In: BioRxiv. 2020},\n  source = {Qiang Huang, Herrmann A: Fast assessment of human receptor-binding capability of 2019 novel coronavirus},\n  number = {8},\n  language = {}\n}\n@article{zhu2007a,\n  author = {Zhu, Z. and Chakraborti, S. and He, Y. and Roberts, A. and Sheahan, T. and Xiao, X. and Hensley, L.E. and Prabakaran, P. and Rockx, B. and Sidorov},\n  title = {IA et al: Potent cross-reactive neutralization of SARS coronavirus isolates by human monoclonal antibodies},\n  booktitle = {Proc Natl Acad Sci},\n  publisher = {U S A},\n  date = {2007},\n  volume = {104},\n  pages = \"12123-12128.\" # \"34610-34616.\",\n  journal = {J Biol Chem},\n  unmatched-author = {Hwang WC, Lin Y, Santelli E, Sui J, Jaroszewski L, Stec B, Farzan M, Marasco WA,},\n  source = {Liddington RC: Structural basis of neutralization by a human anti-severe acute respiratory syndrome spike protein antibody, 80R},\n  unmatched-volume = {281(45):},\n  number = {29},\n  unmatched-pages = {34610-34616.},\n  language = {}\n}\n@article{walls2019a,\n  author = {Walls, A.C. and Xiong, X. and Park, Y.J. and Tortorici, M.A. and Snijder, J. and Quispe, J. and Cameroni, E. and Gopal, R. and Dai, M.},\n  title = {Lanzavecchia A et al: Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion},\n  journal = {Cell},\n  date = {2019},\n  volume = {176},\n  pages = {1026\u20131039},\n  number = {5},\n  language = {}\n}\n@article{li2015a,\n  author = {Li, Y. and Wan, Y. and Liu, P. and Zhao, J. and Lu, G. and Qi, J. and Wang, Q. and Lu, X. and Wu, Y.},\n  title = {Liu W et al: A humanized neutralizing antibody against MERS-CoV targeting the receptor-binding domain of the spike protein},\n  journal = {Cell Res},\n  date = {2015},\n  volume = {25},\n  pages = {1237\u20131249},\n  number = {11},\n  language = {}\n}\n@article{wang2015a,\n  author = {Wang, L. and Shi, W. and Joyce, M.G. and Modjarrad, K. and Zhang, Y. and Leung, K. and Lees, C.R. and Zhou, T. and Yassine, H.M. and Kanekiyo, M.},\n  title = {et al: Evaluation of candidate vaccine approaches for MERS-CoV},\n  journal = {Nat Commun},\n  date = {2015},\n  volume = {6},\n  pages = {7712},\n  language = {}\n}\n",
+        "emails": [
+            "edpark@kbsi.re.kr",
+            "daeui.park@kitox.re.kr"
+        ],
+        "references_ris": "TY  - GEN\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nAU  - Ren, L.\nAU  - Zhao, J.\nAU  - Hu, Y.\nAU  - Zhang, L.\nAU  - Fan, G.\nAU  - Xu, J.\nTI  - Gu X et al: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Chen, N.\nAU  - Zhou, M.\nAU  - Dong, X.\nAU  - Qu, J.\nAU  - Gong, F.\nAU  - Han, Y.\nAU  - Qiu, Y.\nAU  - Wang, J.\nAU  - Liu, Y.\nTI  - Wei Y et al: Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet 2020. Coronavirus disease 2019 (COVID-19) Situation Report \u2013 24\nPY  - 2020\nDA  - 2020/02/13\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200213-sitrep-24-covid19.pdf\nC1  - Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, Wang W, Song H, Huang B, Zhu\nT2  - N et al: Genomic characterisation and epidemiology of 2019 novel coronavirus:implications for virus origins and receptor binding. Lancet 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, W.\nAU  - Moore, M.J.\nAU  - Vasilieva, N.\nAU  - Sui, J.\nAU  - Wong, S.K.\nAU  - Berne, M.A.\nAU  - Somasundaran, M.\nAU  - Sullivan, J.L.\nAU  - Luzuriaga, K.\nAU  - Greenough\nTI  - TC et al: Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus\nT2  - Nature\nPY  - 2003\nDA  - 2003\nVL  - 426\nSP  - 450\nEP  - 454\nIS  - 6965\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nAU  - Yang, X.L.\nAU  - Wang, X.G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nAU  - Si, H.R.\nAU  - Zhu, Y.\nAU  - Li, B.\nAU  - Huang\nTI  - CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nPY  - 2020\nDA  - 2020\nPB  - BioRxiv\nC1  - Tian, Cheng Li, Ailing Huang, Shuai Xia, Sicong Lu, Zhengli Shi, Lu Lu, Shibo Jiang, Zhenlin Yang,\nT2  - Yanling Wu et al: Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody\nLA  - \nCY  - In\nER  - \n\nTY  - JOUR\nAU  - Wrapp, D.\nAU  - Wang, N.\nAU  - Corbett, K.S.\nAU  - Goldsmith, J.A.\nAU  - Hsieh, C.L.\nAU  - Abiona, O.\nAU  - Graham, B.S.\nAU  - McLellan, J.S.\nTI  - Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation\nT2  - Science\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wan, Y.\nAU  - Shang, J.\nAU  - Graham, R.\nAU  - Baric, R.S.\nAU  - Li, F.\nTI  - Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS\nT2  - J Virol\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Coughlin, M.M.\nAU  - Prabhakar, B.S.\nTI  - Neutralizing human monoclonal antibodies to severe acute respiratory syndrome coronavirus: target, mechanism of action, and therapeutic potential\nT2  - Rev Med Virol\nPY  - 2012\nDA  - 2012\nVL  - 22\nSP  - 2\nEP  - 17\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Han, H.J.\nAU  - Liu, J.W.\nAU  - Yu, H.\nAU  - Yu, X.J.\nTI  - Neutralizing Monoclonal Antibodies as Promising Therapeutics against Middle East Respiratory Syndrome Coronavirus Infection\nT2  - Viruses\nPY  - 2018\nDA  - 2018\nVL  - 10\nSP  - 3209\nEP  - 3226\nC1  - Pickett BE, Greer DS, Zhang Y, Stewart L, Zhou L, Sun G, Gu Z, Kumar S, Zaremba S,\nT2  - Shu Y, McCauley J: GISAID: Global initiative on sharing all influenza data - from vision to reality\nC1  - Euro Surveill Viruses\nC1  - 22(13). 4(11):\nIS  - 12\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kumar, S.\nAU  - Stecher, G.\nAU  - Li, M.\nAU  - Knyaz, C.\nAU  - Tamura, K.\nTI  - MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms\nT2  - Mol Biol Evol\nPY  - 2018\nDA  - 2018\nVL  - 35\nSP  - 1547\nEP  - 1549\nIS  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Saitou, N.\nAU  - Nei, M.\nTI  - The neighbor-joining method: a new method for reconstructing phylogenetic trees\nT2  - Mol Biol Evol\nVL  - 1987\nSP  - \"406\nEP  - 425.\" # \"368\nPY  - 1981\nDA  - 1981\nT2  - Felsenstein J: Evolutionary trees from DNA sequences: a maximum likelihood approach\nC1  - J Mol Evol Systematic Zoology\nC1  - 17(6): 20(4):\nIS  - 4\nC1  - 368-376. 406-416.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jukes, T.H.\nAU  - Cantor, C.R.\nTI  - Evolution of protein molecules\nA2  - H, Mammalian Protein Metabolismby Munro\nPB  - Academic Press, New York\nPY  - 1969\nDA  - 1969\nSP  - \"21\nEP  - 132.\" # \"783\nT2  - Evolution\nVL  - 1985\nT2  - Felsenstein J: Confidence Limits on Phylogenies: An Approach Using the Bootstrap\nC1  - 783-791.\nIS  - 39\nLA  - \nER  - \n\nTY  - GEN\nAU  - Landau, M.\nAU  - Mayrose, I.\nAU  - Rosenberg, Y.\nAU  - Glaser, F.\nAU  - Martz, E.\nAU  - Pupko, T.\nAU  - Ben-Tal, N.\nTI  - ConSurf 2005: the projection of evolutionary conservation scores of residues on protein structures. Nucleic Acids Res 2005, 33(Web Server issue)\nSP  - 299\nEP  - 302\nLA  - \nER  - \n\nTY  - GEN\nAU  - Biasini, M.\nAU  - Bienert, S.\nAU  - Waterhouse, A.\nAU  - Arnold, K.\nAU  - Studer, G.\nAU  - Schmidt, T.\nAU  - Kiefer, F.\nAU  - Gallo Cassarino, T.\nAU  - Bertoni, M.\nTI  - Bordoli L et al: SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information. Nucleic Acids Res 2014, 42(Web Server issue)\nSP  - 252\nEP  - 258\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Meng, E.C.\nAU  - Pettersen, E.F.\nAU  - Couch, G.S.\nAU  - Huang, C.C.\nAU  - Ferrin, T.E.\nTI  - Tools for integrated sequence-structure analysis with UCSF Chimera\nT2  - BMC Bioinformatics\nPY  - 2006\nDA  - 2006\nVL  - 7\nSP  - \"339.\" # \"e237.\"\nA2  - ter Meulen J\nA2  - van den Brink EN\nA2  - LL, Poon\nA2  - WE, Marissen\nA2  - CS, Leung\nA2  - F, Cox\nA2  - CY, Cheung\nA2  - AQ, Bakker\nA2  - JA, Bogaards\nA2  - van Deventer E\nT2  - et al: Human monoclonal antibody combination against SARS coronavirus: synergy and coverage of escape mutants\nC1  - PLoS Med\nC1  - 3(7):\nC1  - e237.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Leaver-Fay, A.\nAU  - Tyka, M.\nAU  - Lewis, S.M.\nAU  - Lange, O.F.\nAU  - Thompson, J.\nAU  - Jacak, R.\nAU  - Kaufman, K.\nAU  - Renfrew, P.D.\nAU  - Smith, C.A.\nAU  - Sheffler, W.\nTI  - et al: ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules\nT2  - Methods Enzymol\nPY  - 2011\nDA  - 2011\nVL  - 487\nSP  - 545\nEP  - 574\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Weitzner, B.D.\nAU  - Jeliazkov, JR, Lyskov\nAU  - S, Marze\nAU  - N, Kuroda\nAU  - D, Frick\nAU  - R, Adolf-Bryfogle\nAU  - J, Biswas\nAU  - N, Dunbrack\nAU  - RL, Jr., Gray\nTI  - JJ: Modeling and docking of antibody structures with Rosetta\nT2  - Nat Protoc\nPY  - 2017\nDA  - 2017\nVL  - 12\nSP  - 401\nEP  - 416\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sircar, A.\nAU  - Gray, J.J.\nTI  - SnugDock: paratope structural optimization during antibody-antigen docking compensates for errors in antibody homology models\nT2  - PLoS Comput Biol\nPY  - 2010\nDA  - 2010\nVL  - 6\nSP  - 1000644\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tengs, T.\nAU  - Jonassen, C.M.\nTI  - Distribution and Evolutionary History of the Mobile Genetic Element s2m in Coronaviruses\nT2  - Diseases\nPY  - 2016\nDA  - 2016\nVL  - 4\nSP  - 8904\nEP  - 8911\nC1  - Wu K, Peng G, Wilken M, Geraghty RJ,\nT2  - Li F: Mechanisms of host receptor adaptation by severe acute respiratory syndrome coronavirus\nC1  - J Biol Chem\nC1  - 287(12):\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ge, X.Y.\nAU  - Li, J.L.\nAU  - Yang, X.L.\nAU  - Chmura, A.A.\nAU  - Zhu, G.\nAU  - Epstein, J.H.\nAU  - Mazet, J.K.\nAU  - Hu, B.\nAU  - Zhang, W.\nTI  - Peng C et al: Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor\nT2  - Nature\nPY  - 2013\nDA  - 2013\nVL  - 503\nSP  - 535\nEP  - 538\nIS  - 7477\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, N.\nAU  - Shi, X.\nAU  - Jiang, L.\nAU  - Zhang, S.\nAU  - Wang, D.\nAU  - Tong, P.\nAU  - Guo, D.\nAU  - Fu, L.\nAU  - Cui, Y.\nTI  - Liu X et al: Structure of MERSCoV spike receptor-binding domain complexed with human receptor DPP4\nT2  - Cell Res\nPY  - 2013\nDA  - 2013\nVL  - 23\nSP  - 986993\nN1  - In: BioRxiv. 2020\nT2  - Qiang Huang, Herrmann A: Fast assessment of human receptor-binding capability of 2019 novel coronavirus\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, Z.\nAU  - Chakraborti, S.\nAU  - He, Y.\nAU  - Roberts, A.\nAU  - Sheahan, T.\nAU  - Xiao, X.\nAU  - Hensley, L.E.\nAU  - Prabakaran, P.\nAU  - Rockx, B.\nAU  - Sidorov\nTI  - IA et al: Potent cross-reactive neutralization of SARS coronavirus isolates by human monoclonal antibodies\nT2  - Proc Natl Acad Sci\nPB  - U S A\nPY  - 2007\nDA  - 2007\nVL  - 104\nSP  - \"12123\nEP  - 12128.\" # \"34610\nT2  - J Biol Chem\nC1  - Hwang WC, Lin Y, Santelli E, Sui J, Jaroszewski L, Stec B, Farzan M, Marasco WA,\nT2  - Liddington RC: Structural basis of neutralization by a human anti-severe acute respiratory syndrome spike protein antibody, 80R\nC1  - 281(45):\nIS  - 29\nC1  - 34610-34616.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Walls, A.C.\nAU  - Xiong, X.\nAU  - Park, Y.J.\nAU  - Tortorici, M.A.\nAU  - Snijder, J.\nAU  - Quispe, J.\nAU  - Cameroni, E.\nAU  - Gopal, R.\nAU  - Dai, M.\nTI  - Lanzavecchia A et al: Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion\nT2  - Cell\nPY  - 2019\nDA  - 2019\nVL  - 176\nSP  - 1026\nEP  - 1039\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Y.\nAU  - Wan, Y.\nAU  - Liu, P.\nAU  - Zhao, J.\nAU  - Lu, G.\nAU  - Qi, J.\nAU  - Wang, Q.\nAU  - Lu, X.\nAU  - Wu, Y.\nTI  - Liu W et al: A humanized neutralizing antibody against MERS-CoV targeting the receptor-binding domain of the spike protein\nT2  - Cell Res\nPY  - 2015\nDA  - 2015\nVL  - 25\nSP  - 1237\nEP  - 1249\nIS  - 11\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, L.\nAU  - Shi, W.\nAU  - Joyce, M.G.\nAU  - Modjarrad, K.\nAU  - Zhang, Y.\nAU  - Leung, K.\nAU  - Lees, C.R.\nAU  - Zhou, T.\nAU  - Yassine, H.M.\nAU  - Kanekiyo, M.\nTI  - et al: Evaluation of candidate vaccine approaches for MERS-CoV\nT2  - Nat Commun\nPY  - 2015\nDA  - 2015\nVL  - 6\nSP  - 7712\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Neutralizing antibodies and their epitopes analyzed in the study"
+            },
+            {
+                "id": "2",
+                "caption": "Antibody-antigen docking score and experimental affinity"
+            },
+            {
+                "id": "S1",
+                "caption": "The sequence alignments and phylogenetic analysis were done using MEGA X [21]. The nucleotide sequence were codon aligned using ClustalW with default parameters and the phylogenetic tree was inferred using neighbor-joining [22], maximum-likelihood [23], and maximum-parsimony methods [24]. The distance matrix was calculated based on the Jukes-Cantor methods [25]. The bootstrap values of the phylogenetic tree were derived from 1,000 replicates [26]. 104 Conservation score and epitope mapping of SARS-CoV-2 S protein The conservation score of amino acid positions on S protein in SARS-CoV-2 was calculated by ConSurf program [27]. The multiple sequence alignment of SARS-CoV-2 strain Wuhan-Hu-1and 12 related strains (Supplementary Table S1) was used as an input for ConSurf. In ConSurf, conservation scores and confidence intervals for the conservation scores were calculated using the empirical Bayesian method. The scores were normalized using the number of inputted sequences. Also, the highest score of ConSurf program means the most conserved position among sequences. We additionally checked the epitope positions on the SARS-CoV-2 S protein based on the known epitope information of 11 neutralizing antibodies developing for SARS-CoV and MERS-CoV. Each information of epitope positions was acquired from literatures (Table 1). 114 Structure of SARS-CoV-2 S protein S-RBD protein structure was used cryo-EM structure (Protein Data Bank ID : 6VSB) [15]. To predict the missing region of cryo-EM structure in SARS-CoV-2 S-RBD, we performed homology modeling based on known the three dimensional structure of SARS-CoV (PDB ID: 6NB7) using SWISS-MODEL (https://swissmodel.expasy.org/) [28]. Then, the best homology models were selected according to Qualitative Model Energy ANalysis (QMEAN) statistical parameter. The structures were visualized with UCSF\u2019s Chimera (https://www.cgl.ucsf.edu/chimera/). 122 Neutralizing antibody candidates 123 As neutralizing antibody candidates of SARS-CoV-2, the five antibodies against SARS-CoV and the six"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "A) Neighbor-joining tree based on spike protein gene sequences showing the relationship between 384 2019-nCoV and related SARS-related viruses. The bootstrap value greater than 50 are shown at the branch nodes. The filled circles indicated that the corresponding nodes are conserved in all tree-drawing methods. MERS-CoV KNIH002/05/2015 is used as the outgroup. Bar, 0.1 substitutions per nucleotide position. (B) The upper panel is structure of spike gene of SARS-CoV-2. The middle panel is the result of the Sim plot analysis. The sequence similarity of NTD domain region was the lowest among spike genes. Nevertheless, SARS-CoV-2_bat-RaTG13 had highly conserved in NTD domain than other SARS-CoVs. On the other hand, in the RBD region, not only SARS-CoV but also SARS-CoV-2_bat-RaTG13 showed low sequence similarity. The lower panel indicates the conservation score of the protein sequences of 27 SARS-CoV species. (C) Intersertional regions in SARS-CoV-2 S protein. The amino acid position 445-449 (VGGNY) and 470-486 (TEIYQAGSTPCNGVEGF) were conserved in SARS-CoV-2 related group except bat-SL-CoVZC45 strains (red color), and the corresponding sequences in SARS-related groups were \u2018STGNY\u2019 and \u2018NVPFSPDGKPCTPPAL\u2019 (blue color)"
+            },
+            {
+                "id": "2",
+                "caption": "Epitope map and conversation score of the RBD region in SARS-CoV and MERS-CoV S protein. The 399 blue bar chart shows the conservation score. The numbers are the amino acid positions in the S protein. Color 400 boxes indicate binding epitopes for SARS-CoV (red color) and MERS-CoV (green color) antibodies. The amino 401 acid residues in red color indicate binding epitopes for host receptors. 402"
+            },
+            {
+                "id": "3",
+                "caption": "The three dimensional structure of SARS-CoV-2 S protein. (A) The three dimensional structure of RBD domain in S protein was colored gray. The RBD structure shown from various sides. On the surface representation, the SARS-CoV antibodies, MERS-CoV antibodies, and both SARS-CoV and MERS-CoV antibodies binding epitopes are colored red, green, and purple, respectively. The sky blue color represents SARS-CoV-2 S protein and the RBD domain were highlighted with orange color. The red box indicates the RBD region, which is containing SARS-CoV or MERS-CoV antibody binding epitope. The predicted RBD structure of SARS-CoV-2 S protein in complex with five SARS-CoV antibodies (B) and six MERS-CoV antibodies (C). The complex structure was predicted by integrating the previously known complex structures of SARS-CoV or MERS-CoV with antibodies using the superimposition of structures. Each colored structure in surface representation indicates antibody labeled with the same color. More detail information about antibodies were described in Table 1"
+            },
+            {
+                "id": "4",
+                "caption": "The distiribution of docking scores between antibody and antigen using interface RMD (interface 418 RMS) versus the binding energy (dG binding). The docking simulation were performed by 1000 generated 419 antibody-antigen structures. The statistical significance was tested using student\u2019s t-test. (A) Mean score of 420 docking simulation between CR3022 and SARS-CoV S-RBD was -11.21 dG score, and mean score of CR-3022 421 and SARS-CoV2 S-RBD was -13.61 dG score (p-value = 0.00367). 422"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.22.951178.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.22.951178.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.22.951178.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.22.951178.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.22.951178.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.22.951178.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.22.951178.full/img-008.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "Coronaviridae is a family of enveloped viruses which have a single strand, positive-stranded RNA genome and classified into four genera: \u0251, \u03b2, \u03b3, and \u03b4. Coronavirus (CoV) has been identified in human and animals including bats, camels, zpigs, cats, and mice. The viruses usually cause mild to moderate upper-respiratory tract illnesses in human [1]. Two of betacoronaviruses, severe acute respiratory syndrome (SARS) coronavirus (SARS-CoV)<br/><br/>and Middle East respiratory syndrome (MERS) coronavirus (MERS-CoV), caused severe epidemics during the last two decades. SARS-CoV emerged in November 2002 in Guangdong province, China and affected 29 countries. The epidemic of SARS-CoV resulted in 8,096 human infections and 774 deaths (9.6% fatality rate) by"
+        ],
+        "methods": [
+            "Phylogenetic analysis of SARS-CoV-2 S protein<br/><br/>To comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20]. The S genes of SARS-CoV-2 were retrieved from initially sequenced 62 genomes of SARS-CoV-2 strains. After removal of identical S gene sequences, 16 genes of S protein were used in the study. The sequence from SARS-CoV-2 Wuhan-Hu-1<br/><br/>(Genbank MN908947.3 or GISAID EPI ISL 402125) was used as a representative sequence of SARS-CoV-2 strains throughout this study. The closely related strains of SARS-CoV-2 were selected from preliminary and extensive phylogenetic analaysis of SARS-CoV related strains including btSARS-CoV, SARS-CoV and a<br/><br/>MERS-CoV strain. More detail information of the sequences used in this study were listed in Supplementary"
+        ],
+        "results": [
+            "<strong>Results and Discussion</strong><br/><br/>Phylogenetic analysis and amino acid variation of S protein<br/><br/>The phylogenetic tree showed that the protein gene sequences were clearly clustered into three groups; SARS-<br/><br/>CoV-2 related, SARS-CoV related and HKU3 related groups (Fig. 1A). SARS-CoV and SARS-CoV-2 groups formed a rigid monophyletic group with their own closest bat SARS-CoV related strains, respectively. The result suggested that these two human-pathogenic CoV strains were derived from common ancestral bat CoV. The sequence alignments showed that there were insertions and deletion during the divergence among the strains (Fig. 1B and 1C). Various deletions were observed in SARS-CoV related group. The NTD region (position 71-"
+        ],
+        "conclusions": [
+            "The fact that CoVs similar to SARS in Chinese bats is most identical to SARS-CoV-2 suggests that SARS-CoV may have been originated from a common ancestral bat CoV. Comparing the sequences among the three groups, various deletions were observed in the SARS-CoV related group. Especially, amino acid positions 71-77<br/><br/>(GTNGTKR) in the NTD region of the S protein, 445-449 (VGGNY) and 470-486 (TEIYQAGSTPCNGVEGF)<br/><br/>were noteworthy. The regions were highly conserved in SARS-CoV-2, unlike other SARS-CoVs.<br/><br/>Among the neutralizing antibodies for SARS-CoV and MERS-CoV, CR3022 was predicted to have better binding affinity to the S-RBD region of SARS-CoV-2 than other antibodies. The comparison of antibody binding region between SARS-CoV-2 and other coronaviruses, such as SARS-CoV and MERS-CoV, was conducted to apply the suitable diagnostic or therapeutic antibodies and vaccines that are mimetics of extremely infectious SARS-CoV-2."
+        ],
+        "acknowledgment": [
+            "We thanks to Prof. Jason S. McLellan for providing cyro-EM structure of of SARS-CoV-2 S protein, Korea Institute of Science and Technology Information\u2019s 5th supercomputer NURION, and bio bigdata center of Clinomics Inc.. This work was supported by National Research Council of Science and<br/><br/>Technology grant by the Ministry of Science and ICT (Grant No CRC\u201016\u201001\u2010KRICT)."
+        ],
+        "summary": [
+            "<strong>Summary of probable</strong><br/><br/>SARS cases with onset of illness form 1 November 2002 to 31 July 2003<br/><br/>[https://www.who.int/csr/sars/country/table2004_04_21/en/]<br/><br/>MERS situation update. November 2019 [https://www.who.int/emergencies/mers-cov/en/]    Novel<br/><br/>Coronavirus (2019-nCoV)    Situation    Report (21<br/><br/>January [https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-<br/><br/>ncov.pdf?sfvrsn=20a99c10_4]    2020)<br/><br/>Fan Wu, Su Zhao, Bin Yu, Yan-Mei Chen, Wen Wang, Yi Hu, Zhi-Gang Song, Zhao-Wu Tao, Jun-Hua"
+        ],
+        "funding": [
+            "This work was supported by National Research Council of Science and Technology grant by the Ministry of Science and ICT (Grant No CRC\u201016\u201001\u2010KRICT)"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Table S1",
+                "Supplementary Table S1"
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "Coronavirus disease 2019 (COVID-19) is a new emerging human infectious disease caused by Severe Acute",
+            "Respiratory Syndrome Coronavirus 2 (SARS-CoV-2, also previously known as 2019-nCoV), originated in",
+            "Wuhan seafood and animal market, China. Since December 2019, more than 69,000 cases of COVID-19 have been confirmed in China and quickly spreads to other counties. Currently, researchers put their best efforts to identify effective drugs for COVID-19. The neutralizing antibody, which binds to viral capsid in a manner that inhibits cellular entry of virus and uncoating of the genome, is the specific defense against viral invaders. In this study, we investigate to identify neutralizing antibodies that can bind to SARS-CoV-2 Sipke (S) protein and interfere with the interaction between viral S protein and a host receptor by bioinformatic methods. The sequence analysis of S protein showed two major differences in the RBD region of the SARS-CoV-2 S protein compared to SARS-CoV and SARS-CoV related bat viruses (btSARS-CoV). The insertion regions were close to interacting residues with the human ACE2 receptor. Epitope analysis of neutralizing antibodies revealed that",
+            "SARS-CoV neutralizing antibodies used conformational epitopes, whereas MERS-CoV neutralizing antibodies used a common linear epitope region, which contributes to form the \u03b2-sheet structure in MERS-CoV S protein and deleted in SARS-CoV-2 S protein. To identify effective neutralizing antibodies for SARS-CoV-2, the binding affinities of neutralizing antibodies with SARS-CoV-2 S protein were predicted and compared by antibody-antigen docking simulation. The result showed that CR3022 neutralizing antibody from human may have higher binding affinity with SARS-CoV-2 S protein than SARS-CoV S protein. We also found that",
+            "F26G19 and D12 mouse antibodies could bind to SARS-CoV S protein with high affinity. Our findings provide crucial clues towards the development of antigen diagnosis, therapeutic antibody, and the vaccine against SARS-",
+            "CoV-2."
+        ],
+        "Introduction": [
+            "Coronaviridae is a family of enveloped viruses which have a single strand, positive-stranded RNA genome and classified into four genera: \u0251, \u03b2, \u03b3, and \u03b4. Coronavirus (CoV) has been identified in human and animals including bats, camels, zpigs, cats, and mice. The viruses usually cause mild to moderate upper-respiratory tract illnesses in human [1]. Two of betacoronaviruses, severe acute respiratory syndrome (SARS) coronavirus (SARS-CoV)",
+            "and Middle East respiratory syndrome (MERS) coronavirus (MERS-CoV), caused severe epidemics during the last two decades. SARS-CoV emerged in November 2002 in Guangdong province, China and affected 29 countries. The epidemic of SARS-CoV resulted in 8,096 human infections and 774 deaths (9.6% fatality rate) by",
+            "July 2003 [2]. MERS-CoV was first reported in Saudi Arabia in September 2012 and spread to 28 countries. The epidemic of MERS-CoV resulted in 2,494 human infections and 858 deaths (34.4% fatality rate) by November [3].",
+            "Coronavirus disease 2019 (COVID-19) is newly emerging human infectious disease caused by Severe",
+            "Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2, also previous known as 2019-nCoV) originated in",
+            "Wuhan seafood and animal market. In December 2019, a series of pneumonia cases of unknown cause have been reported in Wuhan, Hubei province, China [4]. Later, on January 7, a novel CoV was identified from the bronchoalveolar lavage fluid of a patient [5], and named SARS-CoV-2 by International Committee on",
+            "Taxonomy of Viruses [6]. The early COVID-19 patients show symptoms of severe acute respiratory infection, such as fever, cough, sore throat, nasal congestion, headache, muscle pain or malaise, and severe patients develop to acute respiratory distress syndrome, sepsis or septic shock [7-9]. As of February 16, 2020, more than",
+            "69,200 cases of COVID-19 have been confirmed in China and quickly spreads to other counties [10].",
+            "The SARS-CoV-2 is a member of betacoronavirus and shows 79% and 50% sequence identity with",
+            "SARS-CoV and MERS-CoV, respectively. Phylogenetic analysis revealed that SARS-CoV-2 is most similar (88% sequence identity) to SARS-like CoVs previously collected from bats in China [5, 11, 12]. Although the viral pathogenesis of SARS-CoV-2 is unknown, most recent reports suggest that SARS-CoV-2 may use angiotensin-converting enzyme II (ACE2) as a cellular entry receptor. ACE2 is a well known host cell receptor for SARS-CoV [12]. Shi and colleges showed that SARS-CoV-2 uses ACE2 as a cellular entry receptor but not other CoV receptors, aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) [13]. Ying and colleges showed the receptor-binding domain (RBD) of SARS-CoV-2 spike glycoprotein (S protein) interacts with ACE2",
+            "[14]. McLaellen and colleges showed that ACE2 binds to SARS-CoV-2 S protein with much higher affinity than to SARS-CoV S protein [15]. In addition, bioinformatic analysis proposed binding structure of RBD of S protein (S-RBD) and ACE2 [16]. Thus, it is of great interest to identify neutralizing antibodies that can interact with",
+            "SARS-CoV-2 S-RBD and interfere with the binding between viral S protein and host receptor ACE2.",
+            "After the severe epidemic events of SARS and MERS, researchers have been made great efforts to discover neutralizing antibodies for CoVs [17, 18]. The neutralizing antibodies for CoVs mainly targeted to S-",
+            "RBD. S protein of SARS-CoV-2 shows 76.2% and 34.1% amino acid sequence identity to those of SARS-CoV and MERS-CoV, respectively. Therefore, the neutralizing antibodies of SARS-CoV and MERS-CoV S proteins may have a possibility to interact with SARS-CoV-2 S protein and show similar viral neutralization effect. In the present study, we employed a antibody-antigen docking approach to predict the interaction between SARS-CoV-",
+            "S-RBD and previously reported neutralization antibodies for SARS-CoV and MERS-CoV."
+        ],
+        "Methods": [
+            "To comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20]. The S genes of SARS-CoV-2 were retrieved from initially sequenced 62 genomes of SARS-CoV-2 strains. After removal of identical S gene sequences, 16 genes of S protein were used in the study. The sequence from SARS-CoV-2 Wuhan-Hu-1",
+            "(Genbank MN908947.3 or GISAID EPI ISL 402125) was used as a representative sequence of SARS-CoV-2 strains throughout this study. The closely related strains of SARS-CoV-2 were selected from preliminary and extensive phylogenetic analaysis of SARS-CoV related strains including btSARS-CoV, SARS-CoV and a",
+            "MERS-CoV strain. More detail information of the sequences used in this study were listed in Supplementary",
+            "The conservation score of amino acid positions on S protein in SARS-CoV-2 was calculated by ConSurf program [27]. The multiple sequence alignment of SARS-CoV-2 strain Wuhan-Hu-1and 12 related strains (Supplementary Table S1) was used as an input for ConSurf. In ConSurf, conservation scores and confidence intervals for the conservation scores were calculated using the empirical Bayesian method. The scores were normalized using the number of inputted sequences. Also, the highest score of ConSurf program means the most conserved position among sequences. We additionally checked the epitope positions on the SARS-CoV-2 S protein based on the known epitope information of 11 neutralizing antibodies developing for SARS-CoV and",
+            "MERS-CoV. Each information of epitope positions was acquired from literatures (Table 1).",
+            "S-RBD protein structure was used cryo-EM structure (Protein Data Bank ID : 6VSB) [15]. To predict the missing region of cryo-EM structure in SARS-CoV-2 S-RBD, we performed homology modeling based on known the three dimensional structure of SARS-CoV (PDB ID: 6NB7) using SWISS-MODEL (https://swissmodel.expasy.org/) [28]. Then, the best homology models were selected according to Qualitative",
+            "Model Energy ANalysis (QMEAN) statistical parameter. The structures were visualized with UCSF\u2019s Chimera (https://www.cgl.ucsf.edu/chimera/).",
+            "As neutralizing antibody candidates of SARS-CoV-2, the five antibodies against SARS-CoV and the six antibodies to prevent MERS-CoV were selected in the study (Table 1). The complex structure of RBD and ten neutralizing antibodies was retrieved from PDB. The complex structures were superimposed to the RBD structure of SARS-CoV-2 which were built by homology modeling. The procedures were performed that the",
+            "RBD structures of SARS-CoV2 and SARS-CoV were aligned by pairwise sequence alignment. And then the structures were superimposed according to those pairwise alignments using MatchMaker program [29]. Finally, we suceesfully predicted the complex structures of neutralizaing antibody candidates and RBD of SARS-CoV-2.",
+            "About the antibody such as CR3022 [30] that the structure was not revealed, we performed the antibody strcture modeling with Rosetta program [31].",
+            "Docking simlutation between the RBD of SARS-CoV-2 and certain SARS-CoV and MERS-CoV antibodies were implemented with Rosetta antibody-antigen docking protocols [32]. Rosetta SnugDock program can refine homology models with the flexible and uncertain region, because the program simulates most of conformation space available to antibody paratopes [33]. With the complex structures of RBD and antibody candidates, allatom relax protocol, docking prepack protocol, and antibody-antigen docking simulation were carried out to calculate the free energy of low-energy binding conformations. The distiribution of docking scores displayed as funnel plots using interface RMD (interface RMS) versus the binding score (dG binding) between antibody and antigen (Fig. 4). The binding score was used Rosetta\u2019s docking interface score (based on the Talaris2013 force field) to rank the complexes. Rosetta interface score is defined as Isc = Ebound \u2212 Eunbound, where Ebound is the score of the bound complex and Eunbound is the sum of the scores of the individual protein partners in isolation. In addition, 1000 independent docking runs were performed to generate the antibody-antigen models.",
+            "To predict possible neutralizing antibody candidates of SARS-CoV-2, the docking results were compared between interface binding scores of SARS-CoV-2 S-RBD (homology modeling) and interface binding scores of",
+            "SARS-CoV or MERS-CoV S-RBD (crystal structure) with 11 antibodies for SARS-CoV and MERS-CoV have been developed. The statistical significance was tested using student\u2019s t-test."
+        ],
+        "Results and Discussion": [
+            "The phylogenetic tree showed that the protein gene sequences were clearly clustered into three groups; SARS-",
+            "CoV-2 related, SARS-CoV related and HKU3 related groups (Fig. 1A). SARS-CoV and SARS-CoV-2 groups formed a rigid monophyletic group with their own closest bat SARS-CoV related strains, respectively. The result suggested that these two human-pathogenic CoV strains were derived from common ancestral bat CoV. The sequence alignments showed that there were insertions and deletion during the divergence among the strains (Fig. 1B and 1C). Various deletions were observed in SARS-CoV related group. The NTD region (position 71-",
+            "77, GTNGTKR) of S protein in the strain Wuhan-Hu-1 was mostly conserved in SARS-CoV-2 group but not in",
+            "SARS-CoV related group. The NTD region was also conserved in other btSARS-CoV strains but the sequence similarity was low.",
+            "Interestingly, human pathogenic strains and their closest strains had two insertion sequences in RBD region of SARS-CoV-2. The amino acid position 445-449 (VGGNY) and 470-486 (TEIYQAGSTPCNGVEGF)",
+            "were conserved in SARS-CoV-2 related group except bat-SL-CoVZC45 strain and the corresponding sequences in SARS-related groups were \u2018STGNY\u2019 and \u2018NVPFSPDGKPCTPPAL\u2019 (Fig. 1C). The results could not give clear answers that these insertion sequences had directly diverged from the common ancestor of SARS-CoV and",
+            "SARS-CoV-2 or that the sequences in SARS-CoV-2 were derived from SARS-CoV related group by mobile genetic elements [34]. Nevertheless, the insertion sequences have several antibody epitope regions (Fig. 2) and the two key residues (amino acid position 455 and 486) interacting with human ACE2 [35] which is used as a cellular receptor of btSARS-CoV strain WIV1 [36]. This suggested that these sequence were might be related with human susceptibility and virulence.",
+            "Previously, numbers of neutralizing antibodies for SARS-CoV and MERS-CoV have been developed [17, 18].",
+            "To suggest possible SARS-CoV-2 neutralizing antibodies, monoclonal antibodies were selected from the literature and PDB (Table 1). Epitope map showed that the antibody-binding residues of S protein are located within RDB region (Fig. 2). Four SARS-CoV neutralizing antibodies had the epitopes about 5 to 14 residues (total 34 residues, average 9.5 residues) of S-RBD and six MERS-CoV neutralizing antibodies bound to 22 to 33",
+            "(total 52 residues, average 25 residues) residues. Distribution of the antibody-binding residues indicates that",
+            "SARS-CoV neutralizing antibodies might be bind to mainly conformational epitopes of S-RDB, whereas MERS-",
+            "CoV neutralizing antibodies bound to linear epitopes of S-RBD (Fig. 2). Interestingly, the major linear epitope region (EDGDYYRKQL) for MERS-CoV neutralizing antibodies was specific insertion of MERS-CoV S protein. MERS-CoV neutralizing antibodies interacted with three receptor binding residues (E536, D537, D539)",
+            "in the linear epitope region, which results in the neutralizing activity of antibodies by directly interferes the binding between S protein and dipeptidyl peptidase 4 of human . In addition, the difference of binding aspect of neutralizing antibodies might be caused by the difference of subdomain structure of receptor binding motif (RBM). The RBM of SARS-CoV S protein is made of mainly coiled structure with two short \u03b2-sheets, whereas the RBM of MERS-CoV S protein consists of four long \u03b2-sheets [37]. Sequence alignment revealed that RBD of",
+            "SARS-CoV-2 was more similar to that of SARS-CoV than MERS-CoV (Fig. 2). Therefore, this suggested that",
+            "SARS-CoV neutralizing antibodies could be effective for SARS-CoV-2.",
+            "Human infection of SARS-CoV-2 was firstly reported in Wuhan, Hubei province, China last December [4].",
+            "Previous studies have reported several results for the interaction between S protein of SARS-CoV-2 and ACE2 as a receptor [13, 14, 16, 38]. However, any interaction of SARS-CoV-2 S protein with developed neutralizing antibodies for SARS-CoV and MERS-CoV has not been reported yet. The structure of SARS-CoV-2 S protein was used S protein which revealed by cryo electron microscopy structure. Subsequently, the missing region of",
+            "SARS-CoV-2 S-RBD region comprising of 181 amino acids were built from SARS-CoV S proteins (PDB ID: 6NB7) which were good structural templates (Fig. 3 box). In the S-RBD structure, we also displayed experimentally defined epitope information based on position specific aligment with SARS-CoV or MERS-CoV antibody binding epitopes.",
+            "To visualize the overall antibody binding region to SARS-CoV-2, we superimposed the predicted structure of SARS-CoV-2 RBD protein at the X-ray crystal structure of known antibody-antigen complex from",
+            "SARS and MERS (Fig. 3). The structures of five antibodies including m396, 80R, F26G19, S230, and CR3022 developing to prevent SARS-CoV were aligned on SARS-CoV-2 S-RBD successfully (Fig. 3A). The six MERS-",
+            "CoV antibodies such as MERS-27, CDC2-C2, m336, 4C2, D12, and MCA1 were also aligned on SARS-CoV-2",
+            "S-RBD (Fig. 3B). Because the X-ray crystal structure of CR3022 was not revealed, the optimized structure was predicted using antibody homology modeling by 1000 structures generated using Rosetta program. As a results, two SARS-CoV antibodies including CR3022 (-13.91 dG score) and F26G19 (-15.98 dG score) and MERS-CoV",
+            "D12 (-14.01 dG score) antibody had higher binding score than other antibodies with SARS-CoV-2 S-RBD region. However, various MERS-CoV antibodies did not match SARS-CoV-2 because MERS-CoV antibodies were interacted with the outter regon of S-RBD which was located in major linear epitope region (EDGDYYRKQL) (Fig. 2).",
+            "Based on antibody-antigen docking simulation, we calculated the binding scores between 11 antibodies and S-",
+            "RBD structures. The antibody-antigen docking simulation generated not only the crystal structures of SARS-",
+            "CoV and MERS-CoV S-RBD proteins, but also the high-quaility homology models with SARS-CoV-2 S-RBD.",
+            "To suggest S-RBD binding antibody, antibody-RBD docking comparisons were performed using the mean value of caculated scores from the generated models. The mean scores of the docking simulation are shown in Table 2.",
+            "Among the SARS-CoV antibodies, only CR3022 showed that the binding affinity of SARS-CoV-2 was higher than SARS-CoV. In addition, the docking score distribution of CR3022 was significantly changed between SARS-CoV-2 and SARS-CoV-2 (Fig. 4). For the CR3022 antibody, the mean score of binding affinity was increased from -11.21 dG score (SARS-CoV, crystal structure) to -13.91 dG score (SARS-CoV-2, cryo-EM structure) with a p-value of 0.00367. The binding affinity of all antibody-antibgen docking was tested using generated structures. Interestingly, the CR3022 was experimentally performed for the binding effect of",
+            "SARS-CoV-2 S-RBD [14]. The researchers found that the CR3022 had the binding effect anainst SARS-CoV-2",
+            "S-RBD and that m396 and m336 antibodies did not bind to SARS-CoV-2 S-RBD. The researchers also reported that the binding affinity of CR3022 was increased to 6.28nM with SARS-CoV-2 from 0.125nM with SARS-",
+            "CoV, The results of the docking simulation were consistent with the evidence although more research was needed to prevent effects, including an experiment using live viruses."
+        ],
+        "Conclusions": [
+            "The fact that CoVs similar to SARS in Chinese bats is most identical to SARS-CoV-2 suggests that SARS-CoV may have been originated from a common ancestral bat CoV. Comparing the sequences among the three groups, various deletions were observed in the SARS-CoV related group. Especially, amino acid positions 71-77",
+            "(GTNGTKR) in the NTD region of the S protein, 445-449 (VGGNY) and 470-486 (TEIYQAGSTPCNGVEGF)",
+            "were noteworthy. The regions were highly conserved in SARS-CoV-2, unlike other SARS-CoVs.",
+            "Among the neutralizing antibodies for SARS-CoV and MERS-CoV, CR3022 was predicted to have better binding affinity to the S-RBD region of SARS-CoV-2 than other antibodies. The comparison of antibody binding region between SARS-CoV-2 and other coronaviruses, such as SARS-CoV and MERS-CoV, was conducted to apply the suitable diagnostic or therapeutic antibodies and vaccines that are mimetics of extremely infectious SARS-CoV-2."
+        ],
+        "Acknowledgment": [
+            "We thanks to Prof. Jason S. McLellan for providing cyro-EM structure of of SARS-CoV-2 S protein, Korea Institute of Science and Technology Information\u2019s 5th supercomputer NURION, and bio bigdata center of Clinomics Inc.. This work was supported by National Research Council of Science and",
+            "Technology grant by the Ministry of Science and ICT (Grant No CRC\u201016\u201001\u2010KRICT)."
+        ],
+        "References": [
+            "Li G, Fan Y, Lai Y, Han T, Li Z, Zhou P, Pan P, Wang W, Hu D, Liu X et al: Coronavirus infections and immune responses. J Med Virol 2020.",
+            "Summary of probable SARS cases with onset of illness form 1 November 2002 to 31 July 2003",
+            "[https://www.who.int/csr/sars/country/table2004_04_21/en/]",
+            "MERS situation update. November 2019 [https://www.who.int/emergencies/mers-cov/en/]",
+            "Novel",
+            "Coronavirus (2019-nCoV)",
+            "Situation",
+            "Report",
+            "-1",
+            "(21",
+            "January [https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-",
+            "ncov.pdf?sfvrsn=20a99c10_4]",
+            "2020)",
+            "Fan Wu, Su Zhao, Bin Yu, Yan-Mei Chen, Wen Wang, Yi Hu, Zhi-Gang Song, Zhao-Wu Tao, Jun-Hua",
+            "Tian, Yuan-Yuan Pei et al: Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China. In: BioRxiv. 2020.",
+            "Alexander E. Gorbalenya, Susan C. Baker, Ralph S. Baric, Raoul J. de Groot, Christian Drosten, Anastasia",
+            "A. Gulyaeva, Bart L. Haagmans, Chris Lauber, Andrey M Leontovich, Benjamin W. Neuman et al: Severe acute respiratory syndrome-related coronavirus: The species and its viruses \u2013 a statement of the",
+            "Coronavirus Study Group. In: BioRxiv. 2020.",
+            "K BA, Madhavan A, T RR, Thomas S, Nisha P: Short chain fatty acids enriched fermentation metabolites of soluble dietary fibre from Musa paradisiaca drives HT29 colon cancer cells to apoptosis. PLoS One 2019, 14(5):e0216604.",
+            "Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, Zhang L, Fan G, Xu J, Gu X et al: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020.",
+            "Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, Qiu Y, Wang J, Liu Y, Wei Y et al: Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet 2020.",
+            "Coronavirus disease (COVID-19)",
+            "\u2013",
+            "(13",
+            "February [https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200213-sitrep-24-covid-",
+            "19.pdf?sfvrsn=9a7406a4_4]",
+            "Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, Wang W, Song H, Huang B, Zhu N et al: Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet 2020.",
+            "Li W, Moore MJ, Vasilieva N, Sui J, Wong SK, Berne MA, Somasundaran M, Sullivan JL, Luzuriaga K, Greenough TC et al: Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus. Nature 2003, 426(6965):450-454.",
+            "Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020.",
+            "Xiaolong Tian, Cheng Li, Ailing Huang, Shuai Xia, Sicong Lu, Zhengli Shi, Lu Lu, Shibo Jiang, Zhenlin",
+            "Yang, Yanling Wu et al: Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody. In: BioRxiv. 2020.",
+            "structure of the 2019-nCoV spike in the prefusion conformation. Science 2020.",
+            "Wrapp D, Wang N, Corbett KS, Goldsmith JA, Hsieh CL, Abiona O, Graham BS, McLellan JS: Cryo-EM",
+            "Wan Y, Shang J, Graham R, Baric RS, Li F: Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS. J Virol 2020.",
+            "Coughlin MM, Prabhakar BS: Neutralizing human monoclonal antibodies to severe acute respiratory syndrome coronavirus: target, mechanism of action, and therapeutic potential. Rev Med Virol 2012, 22(1):2-17.",
+            "Middle East Respiratory Syndrome Coronavirus Infection. Viruses 2018, 10(12).",
+            "Han HJ, Liu JW, Yu H, Yu XJ: Neutralizing Monoclonal Antibodies as Promising Therapeutics against",
+            "Shu Y, McCauley J: GISAID: Global initiative on sharing all influenza data - from vision to reality.",
+            "Euro Surveill 2017, 22(13).",
+            "Pickett BE, Greer DS, Zhang Y, Stewart L, Zhou L, Sun G, Gu Z, Kumar S, Zaremba S, Larsen CN et al: Virus pathogen database and analysis resource (ViPR): a comprehensive bioinformatics database and analysis resource for the coronavirus research community. Viruses 2012, 4(11):3209-3226.",
+            "across Computing Platforms. Mol Biol Evol 2018, 35(6):1547-1549.",
+            "23.",
+            "25.",
+            "Jukes TH, Cantor CR: Evolution of protein molecules. In: Mammalian Protein Metabolism. Edited by",
+            "Munro H: Academic Press, New York; 1969: 21-132.",
+            "Fitch WM: Toward Defining the Course of Evolution: Minimum Change for a Specific Tree Topology.",
+            "Systematic Zoology 1971, 20(4):406-416.",
+            "Felsenstein J: Evolutionary trees from DNA sequences: a maximum likelihood approach. J Mol Evol",
+            "1981, 17(6):368-376.",
+            "Saitou N, Nei M: The neighbor-joining method: a new method for reconstructing phylogenetic trees.",
+            "Mol Biol Evol 1987, 4(4):406-425.",
+            "Kumar S, Stecher G, Li M, Knyaz C, Tamura K: MEGA X: Molecular Evolutionary Genetics Analysis",
+            "Felsenstein J: Confidence Limits on Phylogenies: An Approach Using the Bootstrap. Evolution 1985, 39(4):783-791.",
+            "Landau M, Mayrose I, Rosenberg Y, Glaser F, Martz E, Pupko T, Ben-Tal N: ConSurf 2005: the projection of evolutionary conservation scores of residues on protein structures. Nucleic Acids Res",
+            "2005, 33(Web Server issue):W299-302.",
+            "Biasini M, Bienert S, Waterhouse A, Arnold K, Studer G, Schmidt T, Kiefer F, Gallo Cassarino T, Bertoni",
+            "M, Bordoli L et al: SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information. Nucleic Acids Res 2014, 42(Web Server issue):W252-258.",
+            "Meng EC, Pettersen EF, Couch GS, Huang CC, Ferrin TE: Tools for integrated sequence-structure analysis with UCSF Chimera. BMC Bioinformatics 2006, 7:339.",
+            "ter Meulen J, van den Brink EN, Poon LL, Marissen WE, Leung CS, Cox F, Cheung CY, Bakker AQ, Bogaards JA, van Deventer E et al: Human monoclonal antibody combination against SARS coronavirus: synergy and coverage of escape mutants. PLoS Med 2006, 3(7):e237.",
+            "Leaver-Fay A, Tyka M, Lewis SM, Lange OF, Thompson J, Jacak R, Kaufman K, Renfrew PD, Smith CA, Sheffler W et al: ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules. Methods Enzymol 2011, 487:545-574.",
+            "Weitzner BD, Jeliazkov JR, Lyskov S, Marze N, Kuroda D, Frick R, Adolf-Bryfogle J, Biswas N, Dunbrack",
+            "RL, Jr., Gray JJ: Modeling and docking of antibody structures with Rosetta. Nat Protoc 2017, 12(2):401-416.",
+            "compensates for errors in antibody homology models. PLoS Comput Biol 2010, 6(1):e1000644.",
+            "Tengs T, Jonassen CM: Distribution and Evolutionary History of the Mobile Genetic Element s2m in",
+            "Coronaviruses. Diseases 2016, 4(3).",
+            "Sircar A, Gray JJ: SnugDock: paratope structural optimization during antibody-antigen docking",
+            "Wu K, Peng G, Wilken M, Geraghty RJ, Li F: Mechanisms of host receptor adaptation by severe acute respiratory syndrome coronavirus. J Biol Chem 2012, 287(12):8904-8911.",
+            "Ge XY, Li JL, Yang XL, Chmura AA, Zhu G, Epstein JH, Mazet JK, Hu B, Zhang W, Peng C et al: Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. Nature",
+            "2013, 503(7477):535-538.",
+            "Wang N, Shi X, Jiang L, Zhang S, Wang D, Tong P, Guo D, Fu L, Cui Y, Liu X et al: Structure of MERS-",
+            "CoV spike receptor-binding domain complexed with human receptor DPP4. Cell Res 2013, 23(8):986-",
+            "38.",
+            "Qiang Huang, Herrmann A: Fast assessment of human receptor-binding capability of 2019 novel coronavirus (2019-nCoV). In: BioRxiv. 2020.",
+            "Zhu Z, Chakraborti S, He Y, Roberts A, Sheahan T, Xiao X, Hensley LE, Prabakaran P, Rockx B, Sidorov",
+            "IA et al: Potent cross-reactive neutralization of SARS coronavirus isolates by human monoclonal antibodies. Proc Natl Acad Sci U S A 2007, 104(29):12123-12128.",
+            "Hwang WC, Lin Y, Santelli E, Sui J, Jaroszewski L, Stec B, Farzan M, Marasco WA, Liddington RC: Structural basis of neutralization by a human anti-severe acute respiratory syndrome spike protein antibody, 80R. J Biol Chem 2006, 281(45):34610-34616.",
+            "Walls AC, Xiong X, Park YJ, Tortorici MA, Snijder J, Quispe J, Cameroni E, Gopal R, Dai M, Lanzavecchia A et al: Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus",
+            "Fusion. Cell 2019, 176(5):1026-1039 e1015.",
+            "Pak JE, Sharon C, Satkunarajah M, Auperin TC, Cameron CM, Kelvin DJ, Seetharaman J, Cochrane A, Plummer FA, Berry JD et al: Structural insights into immune recognition of the severe acute respiratory syndrome coronavirus S protein receptor binding domain. J Mol Biol 2009, 388(4):815-",
+            "43.",
+            "Wang L, Shi W, Chappell JD, Joyce MG, Zhang Y, Kanekiyo M, Becker MM, van Doremalen N, Fischer",
+            "R, Wang N et al: Importance of Neutralizing Monoclonal Antibodies Targeting Multiple Antigenic",
+            "Sites on the Middle East Respiratory Syndrome Coronavirus Spike Glycoprotein To Avoid",
+            "Neutralization Escape. J Virol 2018, 92(10).",
+            "Yu X, Zhang S, Jiang L, Cui Y, Li D, Wang D, Wang N, Fu L, Shi X, Li Z et al: Structural basis for the neutralization of MERS-CoV by a human monoclonal antibody MERS-27. Sci Rep 2015, 5:13133.",
+            "Ying T, Prabakaran P, Du L, Shi W, Feng Y, Wang Y, Wang L, Li W, Jiang S, Dimitrov DS et al: Junctional and allele-specific residues are critical for MERS-CoV neutralization by an exceptionally potent germline-like antibody. Nat Commun 2015, 6:8223.",
+            "Chen Z, Bao L, Chen C, Zou T, Xue Y, Li F, Lv Q, Gu S, Gao X, Cui S et al: Human Neutralizing",
+            "Monoclonal Antibody Inhibition of Middle East Respiratory Syndrome Coronavirus Replication in the Common Marmoset. J Infect Dis 2017, 215(12):1807-1815.",
+            "Li Y, Wan Y, Liu P, Zhao J, Lu G, Qi J, Wang Q, Lu X, Wu Y, Liu W et al: A humanized neutralizing antibody against MERS-CoV targeting the receptor-binding domain of the spike protein. Cell Res",
+            "2015, 25(11):1237-1249.",
+            "Wang L, Shi W, Joyce MG, Modjarrad K, Zhang Y, Leung K, Lees CR, Zhou T, Yassine HM, Kanekiyo",
+            "Met al: Evaluation of candidate vaccine approaches for MERS-CoV. Nat Commun 2015, 6:7712."
+        ],
+        "Figures and Tables": [
+            "2019-nCoV and related SARS-related viruses. The bootstrap value greater than 50 are shown at the branch nodes.",
+            "The filled circles indicated that the corresponding nodes are conserved in all tree-drawing methods. MERS-CoV",
+            "KNIH002/05/2015 is used as the outgroup. Bar, 0.1 substitutions per nucleotide position. (B) The upper panel is structure of spike gene of SARS-CoV-2. The middle panel is the result of the Sim plot analysis. The sequence similarity of NTD domain region was the lowest among spike genes. Nevertheless, SARS-CoV-2_bat-RaTG13 had highly conserved in NTD domain than other SARS-CoVs. On the other hand, in the RBD region, not only",
+            "SARS-CoV but also SARS-CoV-2_bat-RaTG13 showed low sequence similarity. The lower panel indicates the conservation score of the protein sequences of 27 SARS-CoV species. (C) Intersertional regions in SARS-CoV-2",
+            "S protein. The amino acid position 445-449 (VGGNY) and 470-486 (TEIYQAGSTPCNGVEGF) were conserved in SARS-CoV-2 related group except bat-SL-CoVZC45 strains (red color), and the corresponding sequences in",
+            "SARS-related groups were \u2018STGNY\u2019 and \u2018NVPFSPDGKPCTPPAL\u2019 (blue color).",
+            "RBD domain in S protein was colored gray. The RBD structure shown from various sides. On the surface representation, the SARS-CoV antibodies, MERS-CoV antibodies, and both SARS-CoV and MERS-CoV antibodies binding epitopes are colored red, green, and purple, respectively. The sky blue color represents",
+            "SARS-CoV-2 S protein and the RBD domain were highlighted with orange color. The red box indicates the",
+            "RBD region, which is containing SARS-CoV or MERS-CoV antibody binding epitope. The predicted RBD structure of SARS-CoV-2 S protein in complex with five SARS-CoV antibodies (B) and six MERS-CoV antibodies (C). The complex structure was predicted by integrating the previously known complex structures of",
+            "SARS-CoV or MERS-CoV with antibodies using the superimposition of structures. Each colored structure in surface representation indicates antibody labeled with the same color. More detail information about antibodies were described in Table 1.",
+            "RMS) versus the binding energy (dG binding). The docking simulation were performed by 1000 generated antibody-antigen structures. The statistical significance was tested using student\u2019s t-test. (A) Mean score of docking simulation between CR3022 and SARS-CoV S-RBD was -11.21 dG score, and mean score of CR-3022 and SARS-CoV2 S-RBD was -13.61 dG score (p-value = 0.00367).",
+            "K365, K390, D392, R395, R426, D429, R441, E452, D454, F483, Y484, T485, T486, T487, G488, I489, Y491, Q492",
+            "Human n.a.",
+            "n.a.",
+            "T392, N398, L495, K496, V527, S528, I529, V530, P531, S532, T533, W535, E536, D537, G538, D539, Y540, Y541, R542, K543, W553",
+            "N501, K502, S504, F506, D510, R511, T512, E513, W535, E536, D537, G538, D539, Y540, Y541, R542, W553, V555, A556, S557",
+            "Y499, N501, K502, S504, R505, F506, D510, R511, T512, E513, P515, W535, E536, D537, G538, D539, Y540, Y541, R542, W553, V555, S557, G558, S589",
+            "K502, F506, S508, D510, R511, E513, S528, I529, P531, T533, W535, E536, G538, D539, Y540, Y541, R542, K543, Q544, W553, V555, S557",
+            "G391, T392, P394, Y397, N398, K400, L495, K496, Y523, P525, C526, V527, S528, I529, V530, P531, S532, T533, V534, W535, E536, D537, D539, Y540, Y541, R542, K543, Q544, L545, S546, E549, W553, T560",
+            "G391, T392, P394, Y397, N398, F399, K400, L495, K496, P525, V527, S528, I529, P531, S532, T533, W535, E536, D537, D539, Y540, Y541, R542, K543, Q544, L545, S546, E549, W553, T560"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 69000,
+            "context": "Coronavirus disease 2019 (COVID-19) is a new emerging human infectious disease caused by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2, also previously known as 2019-nCoV), originated in Wuhan seafood and animal market, China. <mark class=\"stats\">Since December 2019, more than 69,000 cases of COVID-19 have been confirmed in China and quickly spreads to other counties</mark>. Currently, researchers put their best efforts to identify effective drugs for COVID-19"
+        },
+        {
+            "participant": "genomes",
+            "number": 62,
+            "context": "Phylogenetic analysis of SARS-CoV-2 S protein<br/><br/>To comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20]. <mark class=\"stats\">The S genes of SARS-CoV-2 were retrieved from initially sequenced 62 genomes of SARS-CoV-2 strains</mark>. After removal of identical S gene sequences, 16 genes of S protein were used in the study"
+        },
+        {
+            "participant": "genes",
+            "number": 16,
+            "context": "The S genes of SARS-CoV-2 were retrieved from initially sequenced 62 genomes of SARS-CoV-2 strains. <mark class=\"stats\">After removal of identical S gene sequences, 16 genes of S protein were used in the study</mark>. The sequence from SARS-CoV-2 Wuhan-Hu-1<br/><br/>(Genbank MN908947.3 or GISAID EPI ISL 402125) was used as a representative sequence of SARS-CoV-2 strains throughout this study"
+        },
+        {
+            "participant": "genomes",
+            "number": 62,
+            "context": "More detail information of the sequences used in this study were listed in SupplementaryTo comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20]. <mark class=\"stats\">The S genes of SARS-CoV-2 were retrieved from initially sequenced 62 genomes of SARS-CoV-2 strains</mark>. After removal of identical S gene sequences, 16 genes of S protein were used in the study"
+        },
+        {
+            "participant": "genes",
+            "number": 16,
+            "context": "The S genes of SARS-CoV-2 were retrieved from initially sequenced 62 genomes of SARS-CoV-2 strains. <mark class=\"stats\">After removal of identical S gene sequences, 16 genes of S protein were used in the study</mark>. The sequence from SARS-CoV-2 Wuhan-Hu-1"
+        },
+        {
+            "participant": "related strains",
+            "number": 12,
+            "context": "The conservation score of amino acid positions on S protein in SARS-CoV-2 was calculated by ConSurf program [27]. <mark class=\"stats\">The multiple sequence alignment of SARS-CoV-2 strain Wuhan-Hu-1and 12 related strains (Supplementary Table S1) was used as an input for ConSurf</mark>. In ConSurf, conservation scores and confidence intervals for the conservation scores were calculated using the empirical Bayesian method"
+        },
+        {
+            "participant": "neutralizing antibodies",
+            "number": 11,
+            "context": "Also, the highest score of ConSurf program means the most conserved position among sequences. <mark class=\"stats\">We additionally checked the epitope positions on the SARS-CoV-2 S protein based on the known epitope information of 11 neutralizing antibodies developing for SARS-CoV and</mark>. MERS-CoV"
+        },
+        {
+            "participant": "antibodies",
+            "number": 5,
+            "context": "The structures were visualized with UCSF\u2019s Chimera (https://www.cgl.ucsf.edu/chimera/). <mark class=\"stats\">As neutralizing antibody candidates of SARS-CoV-2, the five antibodies against SARS-CoV and the six antibodies to prevent MERS-CoV were selected in the study (Table 1)</mark>. The complex structure of RBD and ten neutralizing antibodies was retrieved from PDB"
+        },
+        {
+            "participant": "neutralizing antibodies",
+            "number": 10,
+            "context": "As neutralizing antibody candidates of SARS-CoV-2, the five antibodies against SARS-CoV and the six antibodies to prevent MERS-CoV were selected in the study (Table 1). <mark class=\"stats\">The complex structure of RBD and ten neutralizing antibodies was retrieved from PDB</mark>. The complex structures were superimposed to the RBD structure of SARS-CoV-2 which were built by homology modeling"
+        },
+        {
+            "participant": "antibodies",
+            "number": 11,
+            "context": "To predict possible neutralizing antibody candidates of SARS-CoV-2, the docking results were compared between interface binding scores of SARS-CoV-2 S-RBD (homology modeling) and interface binding scores of. <mark class=\"stats\">SARS-CoV or MERS-CoV S-RBD (crystal structure) with 11 antibodies for SARS-CoV and MERS-CoV have been developed</mark>. The statistical significance was tested using student\u2019s t-test"
+        },
+        {
+            "participant": "genomes",
+            "number": 62,
+            "context": "To comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20]. <mark class=\"stats\">The S genes of SARS-CoV-2 were retrieved from initially sequenced 62 genomes of SARS-CoV-2 strains</mark>. After removal of identical S gene sequences, 16 genes of S protein were used in the study"
+        },
+        {
+            "participant": "genes",
+            "number": 16,
+            "context": "The S genes of SARS-CoV-2 were retrieved from initially sequenced 62 genomes of SARS-CoV-2 strains. <mark class=\"stats\">After removal of identical S gene sequences, 16 genes of S protein were used in the study</mark>. The sequence from SARS-CoV-2 Wuhan-Hu-1 (Genbank MN908947.3 or GISAID EPI ISL 402125) was used as a representative sequence of SARS-CoV-2 strains throughout this study"
+        },
+        {
+            "participant": "neutralizing antibodies",
+            "number": 11,
+            "context": "We additionally checked the epitope positions on the SARS-CoV-2 S. <mark class=\"stats\">protein based on the known epitope information of 11 neutralizing antibodies developing for SARS-CoV and</mark>. MERS-CoV"
+        },
+        {
+            "participant": "neutralizing antibodies",
+            "number": 10,
+            "context": "Neutralizing antibody candidates antibodies to prevent MERS-CoV were selected in the study (Table 1). <mark class=\"stats\">The complex structure of RBD and ten neutralizing antibodies was retrieved from PDB</mark>. The complex structures were superimposed to the RBD"
+        },
+        {
+            "participant": "human-pathogenic CoV strains",
+            "number": 2,
+            "context": "SARS-CoV and SARS-CoV-2 groups formed a rigid monophyletic group with their own closest bat SARS-CoV related strains, respectively. <mark class=\"stats\">The result suggested that these two human-pathogenic CoV strains were derived from common ancestral bat CoV</mark>. The sequence alignments showed that there were insertions and deletion during the divergence among the strains (Fig. 1B and 1C)"
+        },
+        {
+            "participant": "SARS-CoV neutralizing antibodies",
+            "number": 4,
+            "context": "Epitope map showed that the antibody-binding residues of S protein are located within RDB region (Fig. 2). <mark class=\"stats\">Four SARS-CoV neutralizing antibodies had the epitopes about 5 to 14 residues (total 34 residues, average 9.5 residues) of S-RBD and six MERS-CoV neutralizing antibodies bound to 22 to 33 (total 52 residues, average 25 residues) residues</mark>. Distribution of the antibody-binding residues indicates that"
+        },
+        {
+            "participant": "antibodies",
+            "number": 5,
+            "context": "SARS and MERS (Fig. 3). <mark class=\"stats\">The structures of five antibodies including m396, 80R, F26G19, S230, and CR3022 developing to prevent SARS-CoV were aligned on SARS-CoV-2 S-RBD successfully (Fig. 3A)</mark>. The six MERS-"
+        },
+        {
+            "participant": "SARS-CoV antibodies",
+            "number": 2,
+            "context": "Because the X-ray crystal structure of CR3022 was not revealed, the optimized structure was predicted using antibody homology modeling by 1000 structures generated using Rosetta program. <mark class=\"stats\">As a results, two SARS-CoV antibodies including CR3022 (-13.91 dG score) and F26G19 (-15.98 dG score) and MERS-CoV</mark>. D12 (-14.01 dG score) antibody had higher binding score than other antibodies with SARS-CoV-2 S-RBD"
+        },
+        {
+            "participant": "antibodies",
+            "number": 11,
+            "context": "Comparison of Antibody-RBD protein binding interaction. <mark class=\"stats\">Based on antibody-antigen docking simulation, we calculated the binding scores between 11 antibodies and S-</mark>. RBD structures"
+        },
+        {
+            "participant": "cases",
+            "number": 99,
+            "context": "9. <mark class=\"stats\">Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, Qiu Y, Wang J, Liu Y, Wei Y et al: Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</mark>. Lancet 2020"
+        },
+        {
+            "participant": "SARS-CoV species",
+            "number": 27,
+            "context": "SARS-CoV but also SARS-CoV-2_bat-RaTG13 showed low sequence similarity. <mark class=\"stats\">The lower panel indicates the conservation score of the protein sequences of 27 SARS-CoV species. (C) Intersertional regions in SARS-CoV-2</mark>. S protein"
+        },
+        {
+            "participant": "SARS-CoV antibodies",
+            "number": 5,
+            "context": "The predicted RBD. <mark class=\"stats\">structure of SARS-CoV-2 S protein in complex with five SARS-CoV antibodies (B) and six MERS-CoV</mark>. antibodies (C)"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">In ConSurf, conservation scores and confidence intervals for the conservation scores were calculated using the empirical Bayesian method</mark>",
+                "tests": [
+                    {
+                        "test": "Bayesian method"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The statistical significance was tested using student\u2019s t-test</mark>",
+                "tests": [
+                    {
+                        "test": "t-test"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The statistical significance was tested using student\u2019s t-test. (A) Mean score of docking simulation between CR3022 and SARS-CoV S-RBD was -11.21 dG score, and mean score of CR-3022 and SARS-CoV2 S-RBD was -13.61 dG score (p-value = 0.00367)</mark>",
+                "tests": [
+                    {
+                        "test": "t-test"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "dipeptidyl peptidase 4",
+        "rbd region",
+        "cov s protein",
+        "Neutralizing antibody",
+        "MERS-CoV 47",
+        "Virus pathogen database and analysis resource",
+        "severe acute respiratory syndrome",
+        "CR3022",
+        "Middle East respiratory syndrome",
+        "SARS-CoV-2",
+        "COVID-19",
+        "cov related",
+        "therapeutic antibody",
+        "s protein",
+        "ACE2",
+        "receptor binding motif",
+        "antigen docking",
+        "aminopeptidase N",
+        "coronavirus disease",
+        "antibody antigen",
+        "2019-nCoV",
+        "sars cov",
+        "East Respiratory syndrome",
+        "respiratory syndrome coronavirus",
+        "Spike protein",
+        "ace2 receptor",
+        "pneumonia",
+        "receptor-binding domain",
+        "mers cov"
+    ],
+    "keyword_relevance": {
+        "severe acute respiratory syndrome": 0.39869281045751637,
+        "SARS-CoV-2": 0.1830065359477124,
+        "Middle East respiratory syndrome": 0.1394335511982571,
+        "receptor-binding domain": 0.11982570806100218,
+        "CR3022": 0.032679738562091505,
+        "ACE2": 0.023965141612200435,
+        "antigen docking": 0.0196078431372549,
+        "COVID-19": 0.015250544662309368,
+        "2019-nCoV": 0.015250544662309368,
+        "dipeptidyl peptidase 4": 0.008714596949891068,
+        "receptor binding motif": 0.008714596949891068,
+        "Virus pathogen database and analysis resource": 0.006535947712418301,
+        "respiratory syndrome coronavirus": 0.006535947712418301,
+        "pneumonia": 0.006535947712418301,
+        "Neutralizing antibody": 0.004357298474945534,
+        "aminopeptidase N": 0.004357298474945534,
+        "Spike protein": 0.004357298474945534,
+        "therapeutic antibody": 0.002178649237472767,
+        "rbd region": 0.0,
+        "cov s protein": 0.0,
+        "MERS-CoV 47": 0.0,
+        "cov related": 0.0,
+        "s protein": 0.0,
+        "coronavirus disease": 0.0,
+        "antibody antigen": 0.0,
+        "sars cov": 0.0,
+        "East Respiratory syndrome": 0.0,
+        "ace2 receptor": 0.0,
+        "mers cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Coronaviridae is a family of enveloped viruses which have a single strand, positive-stranded RNA genome and classified into four genera: \u0251, \u03b2, \u03b3, and \u03b4.",
+        "Coronavirus (CoV) has been identified in human and animals including bats, camels, zpigs, cats, and mice.",
+        "The viruses usually cause mild to moderate upper-respiratory tract illnesses in human [1].",
+        "Severe acute respiratory syndrome (SARS) coronavirus (SARS-CoV).",
+        "Middle East respiratory syndrome (MERS) coronavirus (MERS-CoV), caused severe epidemics during the last two decades.",
+        "SARS-CoV emerged in November 2002 in Guangdong province, China and affected 29 countries.",
+        "The epidemic of SARS-CoV resulted in 8,096 human infections and 774 deaths (9.6% fatality rate) by",
+        "<h2 style=\"display: inline\">Methods:</h2> Phylogenetic analysis of SARS-CoV-2 S protein<br/><br/>To comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20].",
+        "Phylogenetic analysis of SARS-CoV-2 S protein.",
+        "To comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20].",
+        "After removal of identical S gene sequences, 16 genes of S protein were used in the study.",
+        "The sequence from SARS-CoV-2 Wuhan-Hu-1.",
+        "(Genbank MN908947.3 or GISAID EPI ISL 402125) was used as a representative sequence of SARS-CoV-2 strains throughout this study.",
+        "More detail information of the sequences used in this study were listed in Supplementary",
+        "<h2 style=\"display: inline\">Results:</h2> <strong>Results and Discussion</strong><br/><br/>Phylogenetic analysis and amino acid variation of S protein<br/><br/>The phylogenetic tree showed that the protein gene sequences were clearly clustered into three groups; SARS-<br/><br/>CoV-2 related, SARS-CoV related and HKU3 related groups (Fig. 1A).",
+        "The phylogenetic tree showed that the protein gene sequences were clearly clustered into three groups; SARS-.",
+        "CoV-2 related, SARS-CoV related and HKU3 related groups (Fig. 1A).",
+        "SARS-CoV and SARS-CoV-2 groups formed a rigid monophyletic group with their own closest bat SARS-CoV related strains, respectively.",
+        "The result suggested that these two human-pathogenic CoV strains were derived from common ancestral bat CoV.",
+        "The sequence alignments showed that there were insertions and deletion during the divergence among the strains (Fig. 1B and 1C).",
+        "Various deletions were observed in SARS-CoV related group.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The fact that CoVs similar to SARS in Chinese bats is most identical to SARS-CoV-2 suggests that SARS-CoV may have been originated from a common ancestral bat CoV.",
+        "The regions were highly conserved in SARS-CoV-2, unlike other SARS-CoVs. Among the neutralizing antibodies for SARS-CoV and MERS-CoV, CR3022 was predicted to have better binding affinity to the S-RBD region of SARS-CoV-2 than other antibodies.",
+        "The comparison of antibody binding region between SARS-CoV-2 and other coronaviruses, such as SARS-CoV and MERS-CoV, was conducted to apply the suitable diagnostic or therapeutic antibodies and vaccines that are mimetics of extremely infectious SARS-CoV-2"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Coronaviridae is a family of enveloped viruses which have a single strand, positive-stranded RNA genome and classified into four genera: \u0251, \u03b2, \u03b3, and \u03b4.",
+            "Coronavirus (CoV) has been identified in human and animals including bats, camels, zpigs, cats, and mice.",
+            "The viruses usually cause mild to moderate upper-respiratory tract illnesses in human [1].",
+            "Severe acute respiratory syndrome (SARS) coronavirus (SARS-CoV).",
+            "Middle East respiratory syndrome (MERS) coronavirus (MERS-CoV), caused severe epidemics during the last two decades.",
+            "SARS-CoV emerged in November 2002 in Guangdong province, China and affected 29 countries.",
+            "The epidemic of SARS-CoV resulted in 8,096 human infections and 774 deaths (9.6% fatality rate) by"
+        ],
+        "Methods": [
+            "Phylogenetic analysis of SARS-CoV-2 S protein<br/><br/>To comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20].",
+            "Phylogenetic analysis of SARS-CoV-2 S protein.",
+            "To comparing of S gene containing S protein among SARS-CoV-2, SARS-CoV, and MERS-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and ViPR [20].",
+            "After removal of identical S gene sequences, 16 genes of S protein were used in the study.",
+            "The sequence from SARS-CoV-2 Wuhan-Hu-1.",
+            "(Genbank MN908947.3 or GISAID EPI ISL 402125) was used as a representative sequence of SARS-CoV-2 strains throughout this study.",
+            "More detail information of the sequences used in this study were listed in Supplementary"
+        ],
+        "Results": [
+            "<strong>Results and Discussion</strong><br/><br/>Phylogenetic analysis and amino acid variation of S protein<br/><br/>The phylogenetic tree showed that the protein gene sequences were clearly clustered into three groups; SARS-<br/><br/>CoV-2 related, SARS-CoV related and HKU3 related groups (Fig. 1A).",
+            "The phylogenetic tree showed that the protein gene sequences were clearly clustered into three groups; SARS-.",
+            "CoV-2 related, SARS-CoV related and HKU3 related groups (Fig. 1A).",
+            "SARS-CoV and SARS-CoV-2 groups formed a rigid monophyletic group with their own closest bat SARS-CoV related strains, respectively.",
+            "The result suggested that these two human-pathogenic CoV strains were derived from common ancestral bat CoV.",
+            "The sequence alignments showed that there were insertions and deletion during the divergence among the strains (Fig. 1B and 1C).",
+            "Various deletions were observed in SARS-CoV related group."
+        ],
+        "Conclusion": [
+            "The fact that CoVs similar to SARS in Chinese bats is most identical to SARS-CoV-2 suggests that SARS-CoV may have been originated from a common ancestral bat CoV.",
+            "The regions were highly conserved in SARS-CoV-2, unlike other SARS-CoVs. Among the neutralizing antibodies for SARS-CoV and MERS-CoV, CR3022 was predicted to have better binding affinity to the S-RBD region of SARS-CoV-2 than other antibodies.",
+            "The comparison of antibody binding region between SARS-CoV-2 and other coronaviruses, such as SARS-CoV and MERS-CoV, was conducted to apply the suitable diagnostic or therapeutic antibodies and vaccines that are mimetics of extremely infectious SARS-CoV-2"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Huang_et+al_2019_a",
+            "alt_id": "1",
+            "entry": "Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, Zhang L, Fan G, Xu J, Gu X et al: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20Wang%20Y%20Li%20X%20Ren%20L%20Zhao%20J%20Hu%20Y%20Zhang%20L%20Fan%20G%20Xu%20J%20Gu%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020"
+        },
+        {
+            "id": "Chen_et+al_2020_a",
+            "alt_id": "2",
+            "entry": "Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, Qiu Y, Wang J, Liu Y, Wei Y et al: Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet 2020. Coronavirus disease 2019 (COVID-19) Situation Report \u2013 24 (13 February 2020) [https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200213-sitrep-24-covid19.pdf?sfvrsn=9a7406a4_4] Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, Wang W, Song H, Huang B, Zhu N et al: Genomic characterisation and epidemiology of 2019 novel coronavirus:implications for virus origins and receptor binding. Lancet 2020.",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200213-sitrep-24-covid19.pdf?sfvrsn=9a7406a4_4]",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%20N%20Zhou%20M%20Dong%20X%20Qu%20J%20Gong%20F%20Han%20Y%20Qiu%20Y%20Wang%20J%20Liu%20Y%20Wei%20Y%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%202020%20Coronavirus%20disease%202019%20COVID19%20Situation%20Report%20%2024%2013%20February%202020%20httpswwwwhointdocsdefaultsourcecoronavirusesituationreports20200213sitrep24covid19pdfsfvrsn9a7406a44%20Lu%20R%20Zhao%20X%20Li%20J%20Niu%20P%20Yang%20B%20Wu%20H%20Wang%20W%20Song%20H%20Huang%20B%20Zhu%20N%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirusimplications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%20N%20Zhou%20M%20Dong%20X%20Qu%20J%20Gong%20F%20Han%20Y%20Qiu%20Y%20Wang%20J%20Liu%20Y%20Wei%20Y%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%202020%20Coronavirus%20disease%202019%20COVID19%20Situation%20Report%20%2024%2013%20February%202020%20httpswwwwhointdocsdefaultsourcecoronavirusesituationreports20200213sitrep24covid19pdfsfvrsn9a7406a44%20Lu%20R%20Zhao%20X%20Li%20J%20Niu%20P%20Yang%20B%20Wu%20H%20Wang%20W%20Song%20H%20Huang%20B%20Zhu%20N%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirusimplications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020"
+        },
+        {
+            "id": "Li_et+al_2003_a",
+            "alt_id": "3",
+            "entry": "Li W, Moore MJ, Vasilieva N, Sui J, Wong SK, Berne MA, Somasundaran M, Sullivan JL, Luzuriaga K, Greenough TC et al: Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus. Nature 2003, 426(6965):450-454.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20W.%20Moore%2C%20M.J.%20Vasilieva%2C%20N.%20Sui%2C%20J.%20TC%20et%20al%3A%20Angiotensin-converting%20enzyme%202%20is%20a%20functional%20receptor%20for%20the%20SARS%20coronavirus%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20W.%20Moore%2C%20M.J.%20Vasilieva%2C%20N.%20Sui%2C%20J.%20TC%20et%20al%3A%20Angiotensin-converting%20enzyme%202%20is%20a%20functional%20receptor%20for%20the%20SARS%20coronavirus%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20W.%20Moore%2C%20M.J.%20Vasilieva%2C%20N.%20Sui%2C%20J.%20TC%20et%20al%3A%20Angiotensin-converting%20enzyme%202%20is%20a%20functional%20receptor%20for%20the%20SARS%20coronavirus%202003"
+        },
+        {
+            "id": "Zhou_et+al_2020_a",
+            "alt_id": "4",
+            "entry": "Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020. Xiaolong Tian, Cheng Li, Ailing Huang, Shuai Xia, Sicong Lu, Zhengli Shi, Lu Lu, Shibo Jiang, Zhenlin Yang, Yanling Wu et al: Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody. In: BioRxiv. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20P.%20Yang%2C%20X.L.%20Wang%2C%20X.G.%20Hu%2C%20B.%20CL%20et%20al%3A%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20P.%20Yang%2C%20X.L.%20Wang%2C%20X.G.%20Hu%2C%20B.%20CL%20et%20al%3A%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20P.%20Yang%2C%20X.L.%20Wang%2C%20X.G.%20Hu%2C%20B.%20CL%20et%20al%3A%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020"
+        },
+        {
+            "id": "Wrapp_et+al_2020_a",
+            "alt_id": "5",
+            "entry": "Wrapp D, Wang N, Corbett KS, Goldsmith JA, Hsieh CL, Abiona O, Graham BS, McLellan JS. Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. Science 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wrapp%20D%20Wang%20N%20Corbett%20KS%20Goldsmith%20JA%20Hsieh%20CL%20Abiona%20O%20Graham%20BS%20McLellan%20JS%20CryoEM%20structure%20of%20the%202019nCoV%20spike%20in%20the%20prefusion%20conformation%20Science%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wrapp%20D%20Wang%20N%20Corbett%20KS%20Goldsmith%20JA%20Hsieh%20CL%20Abiona%20O%20Graham%20BS%20McLellan%20JS%20CryoEM%20structure%20of%20the%202019nCoV%20spike%20in%20the%20prefusion%20conformation%20Science%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wrapp%20D%20Wang%20N%20Corbett%20KS%20Goldsmith%20JA%20Hsieh%20CL%20Abiona%20O%20Graham%20BS%20McLellan%20JS%20CryoEM%20structure%20of%20the%202019nCoV%20spike%20in%20the%20prefusion%20conformation%20Science%202020"
+        },
+        {
+            "id": "Wan_et+al_2020_a",
+            "alt_id": "6",
+            "entry": "Wan Y, Shang J, Graham R, Baric RS, Li F. Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS. J Virol 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wan%2C%20Y.%20Shang%2C%20J.%20Graham%2C%20R.%20Baric%2C%20R.S.%20Receptor%20recognition%20by%20novel%20coronavirus%20from%20Wuhan%3A%20An%20analysis%20based%20on%20decade-long%20structural%20studies%20of%20SARS%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wan%2C%20Y.%20Shang%2C%20J.%20Graham%2C%20R.%20Baric%2C%20R.S.%20Receptor%20recognition%20by%20novel%20coronavirus%20from%20Wuhan%3A%20An%20analysis%20based%20on%20decade-long%20structural%20studies%20of%20SARS%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wan%2C%20Y.%20Shang%2C%20J.%20Graham%2C%20R.%20Baric%2C%20R.S.%20Receptor%20recognition%20by%20novel%20coronavirus%20from%20Wuhan%3A%20An%20analysis%20based%20on%20decade-long%20structural%20studies%20of%20SARS%202020"
+        },
+        {
+            "id": "Coughlin_2012_a",
+            "alt_id": "7",
+            "entry": "Coughlin MM, Prabhakar BS. Neutralizing human monoclonal antibodies to severe acute respiratory syndrome coronavirus: target, mechanism of action, and therapeutic potential. Rev Med Virol 2012, 22(1):2-17.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Coughlin%2C%20M.M.%20Prabhakar%2C%20B.S.%20Neutralizing%20human%20monoclonal%20antibodies%20to%20severe%20acute%20respiratory%20syndrome%20coronavirus%3A%20target%2C%20mechanism%20of%20action%2C%20and%20therapeutic%20potential%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Coughlin%2C%20M.M.%20Prabhakar%2C%20B.S.%20Neutralizing%20human%20monoclonal%20antibodies%20to%20severe%20acute%20respiratory%20syndrome%20coronavirus%3A%20target%2C%20mechanism%20of%20action%2C%20and%20therapeutic%20potential%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Coughlin%2C%20M.M.%20Prabhakar%2C%20B.S.%20Neutralizing%20human%20monoclonal%20antibodies%20to%20severe%20acute%20respiratory%20syndrome%20coronavirus%3A%20target%2C%20mechanism%20of%20action%2C%20and%20therapeutic%20potential%202012"
+        },
+        {
+            "id": "Han_et+al_2018_a",
+            "alt_id": "8",
+            "entry": "Han HJ, Liu JW, Yu H, Yu XJ. Neutralizing Monoclonal Antibodies as Promising Therapeutics against Middle East Respiratory Syndrome Coronavirus Infection. Viruses 2018, 10(12). Shu Y, McCauley J: GISAID: Global initiative on sharing all influenza data - from vision to reality. Euro Surveill 2017, 22(13). Pickett BE, Greer DS, Zhang Y, Stewart L, Zhou L, Sun G, Gu Z, Kumar S, Zaremba S, Larsen CN et al: Virus pathogen database and analysis resource (ViPR): a comprehensive bioinformatics database and analysis resource for the coronavirus research community. Viruses 2012, 4(11):3209-3226.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Han%2C%20H.J.%20Liu%2C%20J.W.%20Yu%2C%20H.%20Yu%2C%20X.J.%20Neutralizing%20Monoclonal%20Antibodies%20as%20Promising%20Therapeutics%20against%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20Infection%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Han%2C%20H.J.%20Liu%2C%20J.W.%20Yu%2C%20H.%20Yu%2C%20X.J.%20Neutralizing%20Monoclonal%20Antibodies%20as%20Promising%20Therapeutics%20against%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20Infection%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Han%2C%20H.J.%20Liu%2C%20J.W.%20Yu%2C%20H.%20Yu%2C%20X.J.%20Neutralizing%20Monoclonal%20Antibodies%20as%20Promising%20Therapeutics%20against%20Middle%20East%20Respiratory%20Syndrome%20Coronavirus%20Infection%202018"
+        },
+        {
+            "id": "Kumar_et+al_2018_a",
+            "alt_id": "9",
+            "entry": "Kumar S, Stecher G, Li M, Knyaz C, Tamura K. MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms. Mol Biol Evol 2018, 35(6):1547-1549.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kumar%2C%20S.%20Stecher%2C%20G.%20Li%2C%20M.%20Knyaz%2C%20C.%20MEGA%20X%3A%20Molecular%20Evolutionary%20Genetics%20Analysis%20across%20Computing%20Platforms%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kumar%2C%20S.%20Stecher%2C%20G.%20Li%2C%20M.%20Knyaz%2C%20C.%20MEGA%20X%3A%20Molecular%20Evolutionary%20Genetics%20Analysis%20across%20Computing%20Platforms%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kumar%2C%20S.%20Stecher%2C%20G.%20Li%2C%20M.%20Knyaz%2C%20C.%20MEGA%20X%3A%20Molecular%20Evolutionary%20Genetics%20Analysis%20across%20Computing%20Platforms%202018"
+        },
+        {
+            "id": "Saitou_1981_a",
+            "alt_id": "10",
+            "entry": "Saitou N, Nei M. The neighbor-joining method: a new method for reconstructing phylogenetic trees. Mol Biol Evol 1987, 4(4):406-425. Felsenstein J: Evolutionary trees from DNA sequences: a maximum likelihood approach. J Mol Evol 1981, 17(6):368-376. Fitch WM: Toward Defining the Course of Evolution: Minimum Change for a Specific Tree Topology. Systematic Zoology 1971, 20(4):406-416.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Saitou%2C%20N.%20Nei%2C%20M.%20The%20neighbor-joining%20method%3A%20a%20new%20method%20for%20reconstructing%20phylogenetic%20trees%201981",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Saitou%2C%20N.%20Nei%2C%20M.%20The%20neighbor-joining%20method%3A%20a%20new%20method%20for%20reconstructing%20phylogenetic%20trees%201981",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Saitou%2C%20N.%20Nei%2C%20M.%20The%20neighbor-joining%20method%3A%20a%20new%20method%20for%20reconstructing%20phylogenetic%20trees%201981"
+        },
+        {
+            "id": "Jukes_1969_a",
+            "alt_id": "11",
+            "entry": "Jukes TH, Cantor CR. Evolution of protein molecules. In: Mammalian Protein Metabolism. Edited by Munro H: Academic Press, New York; 1969: 21-132. Felsenstein J: Confidence Limits on Phylogenies: An Approach Using the Bootstrap. Evolution 1985, 39(4):783-791.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jukes%2C%20T.H.%20Cantor%2C%20C.R.%20Evolution%20of%20protein%20molecules%201969",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jukes%2C%20T.H.%20Cantor%2C%20C.R.%20Evolution%20of%20protein%20molecules%201969",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jukes%2C%20T.H.%20Cantor%2C%20C.R.%20Evolution%20of%20protein%20molecules%201969"
+        },
+        {
+            "id": "Landau_et+al_2005_a",
+            "alt_id": "12",
+            "entry": "Landau M, Mayrose I, Rosenberg Y, Glaser F, Martz E, Pupko T, Ben-Tal N. ConSurf 2005: the projection of evolutionary conservation scores of residues on protein structures. Nucleic Acids Res 2005, 33(Web Server issue):W299-302.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Landau%20M%20Mayrose%20I%20Rosenberg%20Y%20Glaser%20F%20Martz%20E%20Pupko%20T%20BenTal%20N%20ConSurf%202005%20the%20projection%20of%20evolutionary%20conservation%20scores%20of%20residues%20on%20protein%20structures%20Nucleic%20Acids%20Res%202005%2033Web%20Server%20issueW299302"
+        },
+        {
+            "id": "Biasini_et+al_2014_a",
+            "alt_id": "13",
+            "entry": "Biasini M, Bienert S, Waterhouse A, Arnold K, Studer G, Schmidt T, Kiefer F, Gallo Cassarino T, Bertoni M, Bordoli L et al: SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information. Nucleic Acids Res 2014, 42(Web Server issue):W252-258.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Biasini%20M%20Bienert%20S%20Waterhouse%20A%20Arnold%20K%20Studer%20G%20Schmidt%20T%20Kiefer%20F%20Gallo%20Cassarino%20T%20Bertoni%20M%20Bordoli%20L%20et%20al%20SWISSMODEL%20modelling%20protein%20tertiary%20and%20quaternary%20structure%20using%20evolutionary%20information%20Nucleic%20Acids%20Res%202014%2042Web%20Server%20issueW252258"
+        },
+        {
+            "id": "Meng_et+al_2006_a",
+            "alt_id": "14",
+            "entry": "Meng EC, Pettersen EF, Couch GS, Huang CC, Ferrin TE. Tools for integrated sequence-structure analysis with UCSF Chimera. BMC Bioinformatics 2006, 7:339. ter Meulen J, van den Brink EN, Poon LL, Marissen WE, Leung CS, Cox F, Cheung CY, Bakker AQ, Bogaards JA, van Deventer E et al: Human monoclonal antibody combination against SARS coronavirus: synergy and coverage of escape mutants. PLoS Med 2006, 3(7):e237.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Meng%2C%20E.C.%20Pettersen%2C%20E.F.%20Couch%2C%20G.S.%20Huang%2C%20C.C.%20Tools%20for%20integrated%20sequence-structure%20analysis%20with%20UCSF%20Chimera%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Meng%2C%20E.C.%20Pettersen%2C%20E.F.%20Couch%2C%20G.S.%20Huang%2C%20C.C.%20Tools%20for%20integrated%20sequence-structure%20analysis%20with%20UCSF%20Chimera%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Meng%2C%20E.C.%20Pettersen%2C%20E.F.%20Couch%2C%20G.S.%20Huang%2C%20C.C.%20Tools%20for%20integrated%20sequence-structure%20analysis%20with%20UCSF%20Chimera%202006"
+        },
+        {
+            "id": "Leaver-Fay_et+al_2011_a",
+            "alt_id": "15",
+            "entry": "Leaver-Fay A, Tyka M, Lewis SM, Lange OF, Thompson J, Jacak R, Kaufman K, Renfrew PD, Smith CA, Sheffler W et al: ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules. Methods Enzymol 2011, 487:545-574.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Leaver-Fay%2C%20A.%20Tyka%2C%20M.%20Lewis%2C%20S.M.%20Lange%2C%20O.F.%20et%20al%3A%20ROSETTA3%3A%20an%20object-oriented%20software%20suite%20for%20the%20simulation%20and%20design%20of%20macromolecules%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Leaver-Fay%2C%20A.%20Tyka%2C%20M.%20Lewis%2C%20S.M.%20Lange%2C%20O.F.%20et%20al%3A%20ROSETTA3%3A%20an%20object-oriented%20software%20suite%20for%20the%20simulation%20and%20design%20of%20macromolecules%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Leaver-Fay%2C%20A.%20Tyka%2C%20M.%20Lewis%2C%20S.M.%20Lange%2C%20O.F.%20et%20al%3A%20ROSETTA3%3A%20an%20object-oriented%20software%20suite%20for%20the%20simulation%20and%20design%20of%20macromolecules%202011"
+        },
+        {
+            "id": "Weitzner_et+al_2017_a",
+            "alt_id": "16",
+            "entry": "Weitzner BD, Jeliazkov JR, Lyskov S, Marze N, Kuroda D, Frick R, Adolf-Bryfogle J, Biswas N, Dunbrack RL, Jr., Gray JJ: Modeling and docking of antibody structures with Rosetta. Nat Protoc 2017, 12(2):401-416.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Weitzner%2C%20B.D.%20Jeliazkov%2C%20JR%2C%20Lyskov%20S%2C%20Marze%20N%2C%20Kuroda%20JJ%3A%20Modeling%20and%20docking%20of%20antibody%20structures%20with%20Rosetta%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Weitzner%2C%20B.D.%20Jeliazkov%2C%20JR%2C%20Lyskov%20S%2C%20Marze%20N%2C%20Kuroda%20JJ%3A%20Modeling%20and%20docking%20of%20antibody%20structures%20with%20Rosetta%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Weitzner%2C%20B.D.%20Jeliazkov%2C%20JR%2C%20Lyskov%20S%2C%20Marze%20N%2C%20Kuroda%20JJ%3A%20Modeling%20and%20docking%20of%20antibody%20structures%20with%20Rosetta%202017"
+        },
+        {
+            "id": "Sircar_2010_a",
+            "alt_id": "17",
+            "entry": "Sircar A, Gray JJ. SnugDock: paratope structural optimization during antibody-antigen docking compensates for errors in antibody homology models. PLoS Comput Biol 2010, 6(1):e1000644.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sircar%2C%20A.%20Gray%2C%20J.J.%20SnugDock%3A%20paratope%20structural%20optimization%20during%20antibody-antigen%20docking%20compensates%20for%20errors%20in%20antibody%20homology%20models%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Sircar%2C%20A.%20Gray%2C%20J.J.%20SnugDock%3A%20paratope%20structural%20optimization%20during%20antibody-antigen%20docking%20compensates%20for%20errors%20in%20antibody%20homology%20models%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Sircar%2C%20A.%20Gray%2C%20J.J.%20SnugDock%3A%20paratope%20structural%20optimization%20during%20antibody-antigen%20docking%20compensates%20for%20errors%20in%20antibody%20homology%20models%202010"
+        },
+        {
+            "id": "Tengs_2016_a",
+            "alt_id": "18",
+            "entry": "Tengs T, Jonassen CM. Distribution and Evolutionary History of the Mobile Genetic Element s2m in Coronaviruses. Diseases 2016, 4(3). Wu K, Peng G, Wilken M, Geraghty RJ, Li F: Mechanisms of host receptor adaptation by severe acute respiratory syndrome coronavirus. J Biol Chem 2012, 287(12):8904-8911.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tengs%2C%20T.%20Jonassen%2C%20C.M.%20Distribution%20and%20Evolutionary%20History%20of%20the%20Mobile%20Genetic%20Element%20s2m%20in%20Coronaviruses%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tengs%2C%20T.%20Jonassen%2C%20C.M.%20Distribution%20and%20Evolutionary%20History%20of%20the%20Mobile%20Genetic%20Element%20s2m%20in%20Coronaviruses%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tengs%2C%20T.%20Jonassen%2C%20C.M.%20Distribution%20and%20Evolutionary%20History%20of%20the%20Mobile%20Genetic%20Element%20s2m%20in%20Coronaviruses%202016"
+        },
+        {
+            "id": "Ge_et+al_2013_a",
+            "alt_id": "19",
+            "entry": "Ge XY, Li JL, Yang XL, Chmura AA, Zhu G, Epstein JH, Mazet JK, Hu B, Zhang W, Peng C et al: Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. Nature 2013, 503(7477):535-538.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ge%2C%20X.Y.%20Li%2C%20J.L.%20Yang%2C%20X.L.%20Chmura%2C%20A.A.%20Peng%20C%20et%20al%3A%20Isolation%20and%20characterization%20of%20a%20bat%20SARS-like%20coronavirus%20that%20uses%20the%20ACE2%20receptor%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ge%2C%20X.Y.%20Li%2C%20J.L.%20Yang%2C%20X.L.%20Chmura%2C%20A.A.%20Peng%20C%20et%20al%3A%20Isolation%20and%20characterization%20of%20a%20bat%20SARS-like%20coronavirus%20that%20uses%20the%20ACE2%20receptor%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ge%2C%20X.Y.%20Li%2C%20J.L.%20Yang%2C%20X.L.%20Chmura%2C%20A.A.%20Peng%20C%20et%20al%3A%20Isolation%20and%20characterization%20of%20a%20bat%20SARS-like%20coronavirus%20that%20uses%20the%20ACE2%20receptor%202013"
+        },
+        {
+            "id": "Wang_et+al_2013_a",
+            "alt_id": "20",
+            "entry": "Wang N, Shi X, Jiang L, Zhang S, Wang D, Tong P, Guo D, Fu L, Cui Y, Liu X et al: Structure of MERSCoV spike receptor-binding domain complexed with human receptor DPP4. Cell Res 2013, 23(8):986993. Qiang Huang, Herrmann A: Fast assessment of human receptor-binding capability of 2019 novel coronavirus (2019-nCoV). In: BioRxiv. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20N.%20Shi%2C%20X.%20Jiang%2C%20L.%20Zhang%2C%20S.%20Liu%20X%20et%20al%3A%20Structure%20of%20MERSCoV%20spike%20receptor-binding%20domain%20complexed%20with%20human%20receptor%20DPP4%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20N.%20Shi%2C%20X.%20Jiang%2C%20L.%20Zhang%2C%20S.%20Liu%20X%20et%20al%3A%20Structure%20of%20MERSCoV%20spike%20receptor-binding%20domain%20complexed%20with%20human%20receptor%20DPP4%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20N.%20Shi%2C%20X.%20Jiang%2C%20L.%20Zhang%2C%20S.%20Liu%20X%20et%20al%3A%20Structure%20of%20MERSCoV%20spike%20receptor-binding%20domain%20complexed%20with%20human%20receptor%20DPP4%202013"
+        },
+        {
+            "id": "Zhu_et+al_2007_a",
+            "alt_id": "21",
+            "entry": "Zhu Z, Chakraborti S, He Y, Roberts A, Sheahan T, Xiao X, Hensley LE, Prabakaran P, Rockx B, Sidorov IA et al: Potent cross-reactive neutralization of SARS coronavirus isolates by human monoclonal antibodies. Proc Natl Acad Sci U S A 2007, 104(29):12123-12128. Hwang WC, Lin Y, Santelli E, Sui J, Jaroszewski L, Stec B, Farzan M, Marasco WA, Liddington RC: Structural basis of neutralization by a human anti-severe acute respiratory syndrome spike protein antibody, 80R. J Biol Chem 2006, 281(45):34610-34616.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhu%2C%20Z.%20Chakraborti%2C%20S.%20He%2C%20Y.%20Roberts%2C%20A.%20IA%20et%20al%3A%20Potent%20cross-reactive%20neutralization%20of%20SARS%20coronavirus%20isolates%20by%20human%20monoclonal%20antibodies%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhu%2C%20Z.%20Chakraborti%2C%20S.%20He%2C%20Y.%20Roberts%2C%20A.%20IA%20et%20al%3A%20Potent%20cross-reactive%20neutralization%20of%20SARS%20coronavirus%20isolates%20by%20human%20monoclonal%20antibodies%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhu%2C%20Z.%20Chakraborti%2C%20S.%20He%2C%20Y.%20Roberts%2C%20A.%20IA%20et%20al%3A%20Potent%20cross-reactive%20neutralization%20of%20SARS%20coronavirus%20isolates%20by%20human%20monoclonal%20antibodies%202007"
+        },
+        {
+            "id": "Walls_et+al_2019_a",
+            "alt_id": "22",
+            "entry": "Walls AC, Xiong X, Park YJ, Tortorici MA, Snijder J, Quispe J, Cameroni E, Gopal R, Dai M, Lanzavecchia A et al: Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion. Cell 2019, 176(5):1026-1039 e1015.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Walls%2C%20A.C.%20Xiong%2C%20X.%20Park%2C%20Y.J.%20Tortorici%2C%20M.A.%20Lanzavecchia%20A%20et%20al%3A%20Unexpected%20Receptor%20Functional%20Mimicry%20Elucidates%20Activation%20of%20Coronavirus%20Fusion%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Walls%2C%20A.C.%20Xiong%2C%20X.%20Park%2C%20Y.J.%20Tortorici%2C%20M.A.%20Lanzavecchia%20A%20et%20al%3A%20Unexpected%20Receptor%20Functional%20Mimicry%20Elucidates%20Activation%20of%20Coronavirus%20Fusion%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Walls%2C%20A.C.%20Xiong%2C%20X.%20Park%2C%20Y.J.%20Tortorici%2C%20M.A.%20Lanzavecchia%20A%20et%20al%3A%20Unexpected%20Receptor%20Functional%20Mimicry%20Elucidates%20Activation%20of%20Coronavirus%20Fusion%202019"
+        },
+        {
+            "id": "Li_et+al_2015_a",
+            "alt_id": "23",
+            "entry": "Li Y, Wan Y, Liu P, Zhao J, Lu G, Qi J, Wang Q, Lu X, Wu Y, Liu W et al: A humanized neutralizing antibody against MERS-CoV targeting the receptor-binding domain of the spike protein. Cell Res 2015, 25(11):1237-1249.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Y.%20Wan%2C%20Y.%20Liu%2C%20P.%20Zhao%2C%20J.%20Liu%20W%20et%20al%3A%20A%20humanized%20neutralizing%20antibody%20against%20MERS-CoV%20targeting%20the%20receptor-binding%20domain%20of%20the%20spike%20protein%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Y.%20Wan%2C%20Y.%20Liu%2C%20P.%20Zhao%2C%20J.%20Liu%20W%20et%20al%3A%20A%20humanized%20neutralizing%20antibody%20against%20MERS-CoV%20targeting%20the%20receptor-binding%20domain%20of%20the%20spike%20protein%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Y.%20Wan%2C%20Y.%20Liu%2C%20P.%20Zhao%2C%20J.%20Liu%20W%20et%20al%3A%20A%20humanized%20neutralizing%20antibody%20against%20MERS-CoV%20targeting%20the%20receptor-binding%20domain%20of%20the%20spike%20protein%202015"
+        },
+        {
+            "id": "Wang_et+al_2015_a",
+            "alt_id": "24",
+            "entry": "Wang L, Shi W, Joyce MG, Modjarrad K, Zhang Y, Leung K, Lees CR, Zhou T, Yassine HM, Kanekiyo M et al: Evaluation of candidate vaccine approaches for MERS-CoV. Nat Commun 2015, 6:7712.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20L.%20Shi%2C%20W.%20Joyce%2C%20M.G.%20Modjarrad%2C%20K.%20et%20al%3A%20Evaluation%20of%20candidate%20vaccine%20approaches%20for%20MERS-CoV%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20L.%20Shi%2C%20W.%20Joyce%2C%20M.G.%20Modjarrad%2C%20K.%20et%20al%3A%20Evaluation%20of%20candidate%20vaccine%20approaches%20for%20MERS-CoV%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20L.%20Shi%2C%20W.%20Joyce%2C%20M.G.%20Modjarrad%2C%20K.%20et%20al%3A%20Evaluation%20of%20candidate%20vaccine%20approaches%20for%20MERS-CoV%202015"
+        }
+    ],
+    "facts": [
+        "emerging human infectious disease caused by Severe Acute Respiratory Syndrome Coronavirus 2",
+        "more than 69,000 cases of COVID-19 have been confirmed in China",
+        "which binds to viral capsid in a manner",
+        "identify neutralizing antibodies that can bind to SARS-CoV-2 Sipke protein",
+        "two major differences in the RBD region of the SARS-CoV-2 S protein compared to SARS-CoV",
+        "The insertion regions were close to interacting residues with the human ACE2 receptor",
+        "Epitope analysis of neutralizing antibodies revealed that SARS-CoV neutralizing antibodies used conformational epitopes",
+        "The result showed that CR3022 neutralizing antibody from human may have higher binding affinity",
+        "D12 mouse antibodies could bind to SARS-CoV S protein with high affinity",
+        "Coronaviridae is a family of enveloped viruses",
+        "\u03b4. Coronavirus has been identified in human and animals including bats",
+        "SARS-CoV emerged in November 2002 in Guangdong province",
+        "The epidemic of SARS-CoV resulted in 8,096 human infections",
+        "the nucleotide sequences of S gene were retrieved from GISAID",
+        "16 genes of S protein were used in the study",
+        "The sequence from SARS-CoV-2 Wuhan-Hu-1 was used as a representative sequence of SARS-CoV-2 strains throughout this study",
+        "More detail information of the sequences used in this study were listed in",
+        "The phylogenetic tree showed that the protein gene sequences were clearly clustered into",
+        "The result suggested that these two human-pathogenic CoV strains were derived from common ancestral bat CoV.",
+        "The sequence alignments showed that there were insertions and deletion during the divergence",
+        "Various deletions were observed in SARS-CoV related group",
+        "similar to SARS in Chinese bats is most identical to SARS-CoV-2 suggests that SARS-CoV may have been originated from a common ancestral bat CoV. Comparing the sequences among the",
+        "various deletions were observed in the SARS-CoV related group",
+        "The regions were highly conserved in SARS-CoV-2",
+        "Coronavirus has been identified in human and animals including bats",
+        "as a representative sequence of SARS-CoV-2 strains throughout this study",
+        "similar to SARS in Chinese bats is most identical to SARS-CoV-2 suggests that SARS-CoV may have been originated from a common ancestral bat CoV."
+    ],
+    "claims": [
+        "In this study, we investigate to identify neutralizing antibodies that can bind to SARS-CoV-2 Sipke (S) protein and interfere with the interaction between viral S protein and a host receptor by bioinformatic methods",
+        "We also found that F26G19 and D12 mouse antibodies could bind to SARS-CoV S protein with high affinity",
+        "Our findings provide crucial clues towards the development of antigen diagnosis, therapeutic antibody, and the vaccine against SARS-CoV-2"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "To comparing of S gene containing S protein among severe acute respiratory syndrome-CoV-2, severe acute respiratory syndrome-CoV, and Middle East respiratory syndrome-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and Virus pathogen database and analysis resource [20]",
+        "The phylogenetic tree showed that the protein gene sequences were clearly clustered into three groups; severe acute respiratory syndrome-",
+        "Various deletions were observed in severe acute respiratory syndrome-CoV related group",
+        "Comparing the sequences among the three groups, various deletions were observed in the severe acute respiratory syndrome-CoV related group",
+        "The regions were highly conserved in severe acute respiratory syndrome-CoV-2, unlike other severe acute respiratory syndrome-CoVs"
+    ],
+    "top_statements": [
+        "Coronaviridae is a family of enveloped viruses which have a single strand, positive-stranded RNA genome and classified into four genera: \u0251, \u03b2, \u03b3, and \u03b4",
+        "To comparing of S gene containing S protein among severe acute respiratory syndrome-CoV-2, severe acute respiratory syndrome-CoV, and Middle East respiratory syndrome-CoV strains, the nucleotide sequences of S gene were retrieved from GISAID [19] and Virus pathogen database and analysis resource [20]",
+        "The phylogenetic tree showed that the protein gene sequences were clearly clustered into three groups; severe acute respiratory syndrome-",
+        "Various deletions were observed in severe acute respiratory syndrome-CoV related group",
+        "Comparing the sequences among the three groups, various deletions were observed in the severe acute respiratory syndrome-CoV related group",
+        "The regions were highly conserved in severe acute respiratory syndrome-CoV-2, unlike other severe acute respiratory syndrome-CoVs"
+    ],
+    "headline": "Comparing the sequences among the three groups, various deletions were observed in the severe acute respiratory syndrome-CoV related group",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "severe acute respiratory syndrome",
+        "MERS": "Middle East respiratory syndrome",
+        "APN": "aminopeptidase N",
+        "DPP4": "dipeptidyl peptidase 4",
+        "RBD": "receptor-binding domain",
+        "RBM": "receptor binding motif",
+        "ViPR": "Virus pathogen database and analysis resource"
+    }
+}

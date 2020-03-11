@@ -1,0 +1,517 @@
+{
+    "filename": "2020.02.04.933135.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 3083748,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.04.933135",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/08/2020.02.04.933135.full.pdf"
+        },
+        "title": "Protein structure and sequence re-analysis of 2019-nCoV genome does not indicate snakes as its intermediate host or the unique similarity between its spike protein insertions and HIV-1",
+        "date": 2020,
+        "author": "Chengxin Zhang, Wei Zheng, Xiaoqiang Huang, Eric W. Bell, Xiaogen Zhou, Yang Zhang",
+        "affiliations": [
+            "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA"
+        ],
+        "abstract": "As the infection of 2019-nCoV coronavirus is quickly developing into a global pneumonia epidemic, careful analysis of its transmission and cellular mechanisms is sorely needed. In this report, we re-analyzed the computational approaches and findings presented in two recent manuscripts by Ji et al. (https://doi.org/10.1002/jmv.25682) and by Pradhan et al. (https://doi.org/10.1101/2020.01.30.927871), which concluded that snakes are the intermediate hosts of 2019-nCoV and that the 2019-nCoV spike protein insertions shared a unique similarity to HIV-1. Results from our re-implementation of the analyses, built on larger-scale datasets using state-of-the-art bioinformatics methods and databases, do not support the conclusions proposed by these manuscripts. Based on our analyses and existing data of coronaviruses, we concluded that the intermediate hosts of 2019-nCoV are more likely to be mammals and birds than snakes, and that the \u201cnovel insertions\u201d observed in the spike protein are naturally evolved from bat coronaviruses.",
+        "references": "@article{zhou2020a,\n  author = {Zhou, P. and Yang, X.-L. and Wang, X.-G. and Hu, B. and Zhang, L. and Zhang, W. and Si, H.-R. and Zhu, Y. and Li, B. and Huang, C.-L. and Chen, H.-D. and Chen, J. and Luo, Y. and Guo, H. and Jiang, R.-D. and Liu, M.-Q. and Chen, Y. and Shen, X.-R. and Wang, X. and Zheng, X.-S. and Zhao, K. and Chen, Q.-J. and Deng, F. and Liu, L.-L. and Yan, B. and Zhan, F.-X. and Wang, Y.-Y. and Xiao, G.-F. and Shi, Z.-L.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  date = {2020},\n  language = {}\n}\n@misc{letko-a,\n  author = {Letko, M. and Munster, V.},\n  title = {Functional assessment of cell entry and receptor usage for lineage B \u03b2-coronaviruses, including 2019-nCoV. bioRxiv 2020, 2020.01.22.915660},\n  language = {}\n}\n@article{pradhan-a,\n  author = {Pradhan, P. and Pandey, A.K. and Mishra, A. and Gupta, P. and Tripathi, P.K. and Menon, M.B. and Gomes, J. and Vivekanandan, P. and Kundu, B.},\n  title = {Uncanny similarity of unique inserts in the 2019-nCoV spike protein to HIV-1 gp120 and Gag},\n  journal = {bioRxiv},\n  volume = {2020},\n  number = {2020},\n  language = {}\n}\n@article{ji2020a,\n  author = {Ji, W. and Wang, W. and Zhao, X. and Zai, J. and Li, X.},\n  title = {Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission from snake to human},\n  journal = {Journal of Medical Virology},\n  date = {2020},\n  language = {}\n}\n@book{zheng2019a,\n  author = {Zheng, W. and Li, Y. and Zhang, C.X. and Pearce, R. and Mortuza, S.M. and Zhang, Y.},\n  title = {Deep-learning contact-map guided protein structure prediction in CASP13},\n  publisher = {Proteins},\n  date = {2019},\n  language = {}\n}\n@article{zhang2004a,\n  author = {Zhang, Y. and Skolnick, J.},\n  title = {Scoring function for automated assessment of protein structure template quality},\n  journal = {Proteins},\n  date = {2004},\n  volume = {57},\n  pages = {702\u2013710},\n  number = {4},\n  language = {}\n}\n@article{song2018a,\n  author = {Song, W. and Gui, M. and Wang, X. and Xiang, Y.},\n  title = {Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2},\n  journal = {PLoS Pathog},\n  date = {2018},\n  volume = {14},\n  pages = {1007236},\n  number = {8},\n  language = {}\n}\n@article{zhou2019a,\n  author = {Zhou, X.G. and Hu, J. and Zhang, C.X. and Zhang, G.J. and Zhang, Y.},\n  title = {Assembling multidomain protein structures through analogous global structural alignments},\n  journal = {Proceedings of the National Academy of Sciences of the United States of America},\n  date = {2019},\n  volume = {116},\n  pages = {15930\u201315938},\n  number = {32},\n  language = {}\n}\n@article{altschul1997a,\n  author = {Altschul, S.F. and Madden, T.L. and Sch\u00e4ffer, A.A. and Zhang, J. and Zhang, Z. and Miller, W. and Lipman, D.J.},\n  title = {Gapped BLAST and PSI-BLAST: a new generation of protein database search programs},\n  journal = {Nucleic Acids Research},\n  date = {1997},\n  volume = {25},\n  pages = {3389\u20133402},\n  number = {17},\n  language = {}\n}\n@article{li2005a,\n  author = {Li, W. and Shi, Z. and Yu, M. and Ren, W. and Smith, C. and Epstein, J.H. and Wang, H. and Crameri, G. and Hu, Z. and Zhang, H. and Zhang, J. and McEachern, J. and Field, H. and Daszak, P. and Eaton, B.T. and Zhang, S. and Wang, L.-F.},\n  title = {Bats Are Natural Reservoirs of SARS-Like Coronaviruses},\n  journal = {Science},\n  date = {2005},\n  volume = {310},\n  pages = {676},\n  number = {5748},\n  language = {}\n}\n@incollection{wang2014a,\n  author = {Wang, Q. and Qi, J. and Yuan, Y. and Xuan, Y. and Han, P. and Wan, Y. and Ji, W. and Li, Y. and Wu, Y. and Wang, J. and Iwamoto, A. and Woo, Patrick C.Y. and Yuen, K.-Y. and Yan, J. and Lu, G. and Gao, George F.},\n  title = {Bat Origins of MERS-CoV Supported by Bat Coronavirus HKU4 Usage of Human Receptor CD26},\n  source = {Cell Host & Microbe},\n  date = {2014},\n  volume = {16},\n  pages = {328\u2013337},\n  number = {3},\n  language = {}\n}\n@article{corman2015a,\n  author = {Corman, V.M. and Baldwin, H.J. and Tateno, A.F. and Zerbinati, R.M. and Annan, A. and Owusu, M. and Nkrumah, E.E. and Maganga, G.D. and Oppong, S. and Adu-Sarkodie, Y. and Vallo, P. and da Silva Filho, L.V.R.F. and Leroy, E.M. and Thiel, V. and van der Hoek, L. and Poon, L.L.M. and Tschapka, M. and Drosten, C. and Drexler, J.F.},\n  title = {Evidence for an Ancestral Association of Human Coronavirus 229E with Bats},\n  journal = {Journal of Virology},\n  date = {2015},\n  volume = {89},\n  pages = {11858},\n  number = {23},\n  language = {}\n}\n@article{hu2017a,\n  author = {Hu, B. and Zeng, L.-P. and Yang, X.-L. and Ge, X.-Y. and Zhang, W. and Li, B. and Xie, J.-Z. and Shen, X.-R. and Zhang, Y.-Z. and Wang, N. and Luo, D.-S. and Zheng, X.-S. and Wang, M.-N. and Daszak, P. and Wang, L.-F. and Cui, J. and Shi, Z.-L.},\n  title = {Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus},\n  journal = {PLOS Pathogens},\n  date = {2017},\n  volume = {13},\n  pages = {1006698},\n  number = {11},\n  language = {}\n}\n@misc{g2020a,\n  author = {G.I.S.A.I.D.},\n  title = {Phylogenetic tree of CoV families (larger context, including nearest bat precursor)},\n  date = {2020},\n  pages = {3\u2013983930542},\n  language = {}\n}\n@article{callaway2020a,\n  author = {Callaway, E. and Cyranoski, D.},\n  title = {Why snakes probably aren\u2019t spreading the new China virus},\n  journal = {Nature},\n  date = {2020},\n  language = {}\n}\n@article{meintjes2005a,\n  author = {Meintjes, P.L. and Rodrigo, A.G.},\n  title = {Evolution of relative synonymous codon usage in Human Immunodeficiency Virus type-1},\n  journal = {Journal of bioinformatics and computational biology},\n  date = {2005},\n  volume = {3},\n  pages = {157\u2013168},\n  number = {1},\n  language = {}\n}\n@article{edgar2004a,\n  author = {Edgar, R.C.},\n  title = {MUSCLE: multiple sequence alignment with high accuracy and high throughput},\n  journal = {Nucleic Acids Research},\n  date = {2004},\n  volume = {32},\n  pages = {1792\u20131797},\n  number = {5},\n  language = {}\n}\n@article{gouy2009a,\n  author = {Gouy, M. and Guindon, S. and Gascuel, O.},\n  title = {SeaView Version 4: A Multiplatform Graphical User Interface for Sequence Alignment and Phylogenetic Tree Building},\n  journal = {Molecular Biology and Evolution},\n  date = {2009},\n  volume = {27},\n  pages = {221\u2013224},\n  number = {2},\n  language = {}\n}\n@article{yang2015a,\n  author = {Yang, J. and Yan, R. and Roy, A. and Xu, D. and Poisson, J. and Zhang, Y.},\n  title = {The I-TASSER Suite: protein structure and function prediction},\n  journal = {Nature Methods},\n  date = {2015},\n  volume = {12},\n  pages = {7\u20138},\n  number = {1},\n  language = {}\n}\n@book{li2019a,\n  author = {Li, Y. and Zhang, C. and Bell, E.W. and Yu, D.J. and Zhang, Y.},\n  title = {Ensembling multiple raw coevolutionary features with deep residual neural networks for contact-map prediction in CASP13},\n  publisher = {Proteins},\n  date = {2019},\n  language = {}\n}\n@article{alexaki2019a,\n  author = {Alexaki, A. and Kames, J. and Holcomb, D.D. and Athey, J. and Santana-Quintero, L.V. and Lam, P.V.N. and Hamasaki-Katagiri, N. and Osipova, E. and Simonyan, V. and Bar, H.},\n  title = {Codon and Codon-Pair Usage Tables (CoCoPUTs): facilitating genetic variation analyses and recombinant gene design},\n  journal = {Journal of molecular biology},\n  date = {2019},\n  volume = {431},\n  pages = {2434\u20132441},\n  number = {13},\n  language = {}\n}\n@article{nakamura2000a,\n  author = {Nakamura, Y. and Gojobori, T. and Ikemura, T.},\n  title = {Codon usage tabulated from international DNA sequence databases: status for the year 2000},\n  journal = {Nucleic Acids Research},\n  date = {2000},\n  volume = {28},\n  pages = {292\u2013292},\n  number = {1},\n  language = {}\n}\n@misc{peden2000a,\n  author = {Peden, J.F.},\n  title = {Analysis of codon usage},\n  date = {2000},\n  language = {}\n}\n@article{towns2014a,\n  author = {Towns, J. and Cockerill, T. and Dahan, M. and Foster, I. and Gaither, K. and Grimshaw, A. and Hazlewood, V. and Lathrop, S. and Lifka, D. and Peterson, G.D. and Roskies, R. and Scott, J.R. and Wilkins-Diehr, N.},\n  title = {XSEDE: Accelerating Scientific Discovery},\n  journal = {Comput Sci Eng},\n  date = {2014},\n  volume = {16},\n  pages = {62\u201374},\n  number = {5},\n  language = {}\n}\n",
+        "links": [
+            "https://zhanglab.ccmb.med.umich.edu/C-ITASSER/2019-nCov/",
+            "https://www.uniprot.org/proteomes/UP000018936"
+        ],
+        "emails": [
+            "zhng@umich.edu"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Zhou, P.\nAU  - Yang, X.-L.\nAU  - Wang, X.-G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nAU  - Si, H.-R.\nAU  - Zhu, Y.\nAU  - Li, B.\nAU  - Huang, C.-L.\nAU  - Chen, H.-D.\nAU  - Chen, J.\nAU  - Luo, Y.\nAU  - Guo, H.\nAU  - Jiang, R.-D.\nAU  - Liu, M.-Q.\nAU  - Chen, Y.\nAU  - Shen, X.-R.\nAU  - Wang, X.\nAU  - Zheng, X.-S.\nAU  - Zhao, K.\nAU  - Chen, Q.-J.\nAU  - Deng, F.\nAU  - Liu, L.-L.\nAU  - Yan, B.\nAU  - Zhan, F.-X.\nAU  - Wang, Y.-Y.\nAU  - Xiao, G.-F.\nAU  - Shi, Z.-L.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - GEN\nAU  - Letko, M.\nAU  - Munster, V.\nTI  - Functional assessment of cell entry and receptor usage for lineage B \u03b2-coronaviruses, including 2019-nCoV. bioRxiv 2020, 2020.01.22.915660\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pradhan, P.\nAU  - Pandey, A.K.\nAU  - Mishra, A.\nAU  - Gupta, P.\nAU  - Tripathi, P.K.\nAU  - Menon, M.B.\nAU  - Gomes, J.\nAU  - Vivekanandan, P.\nAU  - Kundu, B.\nTI  - Uncanny similarity of unique inserts in the 2019-nCoV spike protein to HIV-1 gp120 and Gag\nT2  - bioRxiv\nVL  - 2020\nIS  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ji, W.\nAU  - Wang, W.\nAU  - Zhao, X.\nAU  - Zai, J.\nAU  - Li, X.\nTI  - Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission from snake to human\nT2  - Journal of Medical Virology\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Zheng, W.\nAU  - Li, Y.\nAU  - Zhang, C.X.\nAU  - Pearce, R.\nAU  - Mortuza, S.M.\nAU  - Zhang, Y.\nTI  - Deep-learning contact-map guided protein structure prediction in CASP13\nPB  - Proteins\nPY  - 2019\nDA  - 2019\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, Y.\nAU  - Skolnick, J.\nTI  - Scoring function for automated assessment of protein structure template quality\nT2  - Proteins\nPY  - 2004\nDA  - 2004\nVL  - 57\nSP  - 702\nEP  - 710\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Song, W.\nAU  - Gui, M.\nAU  - Wang, X.\nAU  - Xiang, Y.\nTI  - Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2\nT2  - PLoS Pathog\nPY  - 2018\nDA  - 2018\nVL  - 14\nSP  - 1007236\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, X.G.\nAU  - Hu, J.\nAU  - Zhang, C.X.\nAU  - Zhang, G.J.\nAU  - Zhang, Y.\nTI  - Assembling multidomain protein structures through analogous global structural alignments\nT2  - Proceedings of the National Academy of Sciences of the United States of America\nPY  - 2019\nDA  - 2019\nVL  - 116\nSP  - 15930\nEP  - 15938\nIS  - 32\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Altschul, S.F.\nAU  - Madden, T.L.\nAU  - Sch\u00e4ffer, A.A.\nAU  - Zhang, J.\nAU  - Zhang, Z.\nAU  - Miller, W.\nAU  - Lipman, D.J.\nTI  - Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\nT2  - Nucleic Acids Research\nPY  - 1997\nDA  - 1997\nVL  - 25\nSP  - 3389\nEP  - 3402\nIS  - 17\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, W.\nAU  - Shi, Z.\nAU  - Yu, M.\nAU  - Ren, W.\nAU  - Smith, C.\nAU  - Epstein, J.H.\nAU  - Wang, H.\nAU  - Crameri, G.\nAU  - Hu, Z.\nAU  - Zhang, H.\nAU  - Zhang, J.\nAU  - McEachern, J.\nAU  - Field, H.\nAU  - Daszak, P.\nAU  - Eaton, B.T.\nAU  - Zhang, S.\nAU  - Wang, L.-F.\nTI  - Bats Are Natural Reservoirs of SARS-Like Coronaviruses\nT2  - Science\nPY  - 2005\nDA  - 2005\nVL  - 310\nSP  - 676\nIS  - 5748\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Wang, Q.\nAU  - Qi, J.\nAU  - Yuan, Y.\nAU  - Xuan, Y.\nAU  - Han, P.\nAU  - Wan, Y.\nAU  - Ji, W.\nAU  - Li, Y.\nAU  - Wu, Y.\nAU  - Wang, J.\nAU  - Iwamoto, A.\nAU  - Woo, Patrick C.Y.\nAU  - Yuen, K.-Y.\nAU  - Yan, J.\nAU  - Lu, G.\nAU  - Gao, George F.\nTI  - Bat Origins of MERS-CoV Supported by Bat Coronavirus HKU4 Usage of Human Receptor CD26\nT2  - Cell Host & Microbe\nPY  - 2014\nDA  - 2014\nVL  - 16\nSP  - 328\nEP  - 337\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Corman, V.M.\nAU  - Baldwin, H.J.\nAU  - Tateno, A.F.\nAU  - Zerbinati, R.M.\nAU  - Annan, A.\nAU  - Owusu, M.\nAU  - Nkrumah, E.E.\nAU  - Maganga, G.D.\nAU  - Oppong, S.\nAU  - Adu-Sarkodie, Y.\nAU  - Vallo, P.\nAU  - da Silva Filho, L.V.R.F.\nAU  - Leroy, E.M.\nAU  - Thiel, V.\nAU  - van der Hoek, L.\nAU  - Poon, L.L.M.\nAU  - Tschapka, M.\nAU  - Drosten, C.\nAU  - Drexler, J.F.\nTI  - Evidence for an Ancestral Association of Human Coronavirus 229E with Bats\nT2  - Journal of Virology\nPY  - 2015\nDA  - 2015\nVL  - 89\nSP  - 11858\nIS  - 23\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hu, B.\nAU  - Zeng, L.-P.\nAU  - Yang, X.-L.\nAU  - Ge, X.-Y.\nAU  - Zhang, W.\nAU  - Li, B.\nAU  - Xie, J.-Z.\nAU  - Shen, X.-R.\nAU  - Zhang, Y.-Z.\nAU  - Wang, N.\nAU  - Luo, D.-S.\nAU  - Zheng, X.-S.\nAU  - Wang, M.-N.\nAU  - Daszak, P.\nAU  - Wang, L.-F.\nAU  - Cui, J.\nAU  - Shi, Z.-L.\nTI  - Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus\nT2  - PLOS Pathogens\nPY  - 2017\nDA  - 2017\nVL  - 13\nSP  - 1006698\nIS  - 11\nLA  - \nER  - \n\nTY  - GEN\nAU  - G.I.S.A.I.D.\nTI  - Phylogenetic tree of CoV families (larger context, including nearest bat precursor)\nPY  - 2020\nDA  - 2020\nSP  - 3\nEP  - 983930542\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Callaway, E.\nAU  - Cyranoski, D.\nTI  - Why snakes probably aren\u2019t spreading the new China virus\nT2  - Nature\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Meintjes, P.L.\nAU  - Rodrigo, A.G.\nTI  - Evolution of relative synonymous codon usage in Human Immunodeficiency Virus type-1\nT2  - Journal of bioinformatics and computational biology\nPY  - 2005\nDA  - 2005\nVL  - 3\nSP  - 157\nEP  - 168\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Edgar, R.C.\nTI  - MUSCLE: multiple sequence alignment with high accuracy and high throughput\nT2  - Nucleic Acids Research\nPY  - 2004\nDA  - 2004\nVL  - 32\nSP  - 1792\nEP  - 1797\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gouy, M.\nAU  - Guindon, S.\nAU  - Gascuel, O.\nTI  - SeaView Version 4: A Multiplatform Graphical User Interface for Sequence Alignment and Phylogenetic Tree Building\nT2  - Molecular Biology and Evolution\nPY  - 2009\nDA  - 2009\nVL  - 27\nSP  - 221\nEP  - 224\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yang, J.\nAU  - Yan, R.\nAU  - Roy, A.\nAU  - Xu, D.\nAU  - Poisson, J.\nAU  - Zhang, Y.\nTI  - The I-TASSER Suite: protein structure and function prediction\nT2  - Nature Methods\nPY  - 2015\nDA  - 2015\nVL  - 12\nSP  - 7\nEP  - 8\nIS  - 1\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Li, Y.\nAU  - Zhang, C.\nAU  - Bell, E.W.\nAU  - Yu, D.J.\nAU  - Zhang, Y.\nTI  - Ensembling multiple raw coevolutionary features with deep residual neural networks for contact-map prediction in CASP13\nPB  - Proteins\nPY  - 2019\nDA  - 2019\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Alexaki, A.\nAU  - Kames, J.\nAU  - Holcomb, D.D.\nAU  - Athey, J.\nAU  - Santana-Quintero, L.V.\nAU  - Lam, P.V.N.\nAU  - Hamasaki-Katagiri, N.\nAU  - Osipova, E.\nAU  - Simonyan, V.\nAU  - Bar, H.\nTI  - Codon and Codon-Pair Usage Tables (CoCoPUTs): facilitating genetic variation analyses and recombinant gene design\nT2  - Journal of molecular biology\nPY  - 2019\nDA  - 2019\nVL  - 431\nSP  - 2434\nEP  - 2441\nIS  - 13\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nakamura, Y.\nAU  - Gojobori, T.\nAU  - Ikemura, T.\nTI  - Codon usage tabulated from international DNA sequence databases: status for the year 2000\nT2  - Nucleic Acids Research\nPY  - 2000\nDA  - 2000\nVL  - 28\nSP  - 292\nEP  - 292\nIS  - 1\nLA  - \nER  - \n\nTY  - GEN\nAU  - Peden, J.F.\nTI  - Analysis of codon usage\nPY  - 2000\nDA  - 2000\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Towns, J.\nAU  - Cockerill, T.\nAU  - Dahan, M.\nAU  - Foster, I.\nAU  - Gaither, K.\nAU  - Grimshaw, A.\nAU  - Hazlewood, V.\nAU  - Lathrop, S.\nAU  - Lifka, D.\nAU  - Peterson, G.D.\nAU  - Roskies, R.\nAU  - Scott, J.R.\nAU  - Wilkins-Diehr, N.\nTI  - XSEDE: Accelerating Scientific Discovery\nT2  - Comput Sci Eng\nPY  - 2014\nDA  - 2014\nVL  - 16\nSP  - 62\nEP  - 74\nIS  - 5\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "BLAST search result for IS1. For Table 1 to 4, if there are multiple redundant hits for the same gene from different strains of the same species removed, only one hit is shown. The residue non-identical to query is highlighted in bold. Sequence identity is calculated as the number of identical residues divided by query length. Only the sequence portion aligned to the query is shown. In this table, we also list the closest BLAST hit from bat coronavirus, which is known to be closely related to 2019-nCoV 1"
+            },
+            {
+                "id": "2",
+                "caption": "BLAST search result for IS2"
+            },
+            {
+                "id": "3",
+                "caption": "BLAST search result for IS3"
+            },
+            {
+                "id": "4",
+                "caption": "BLAST search result for IS4"
+            },
+            {
+                "id": "5",
+                "caption": "Squared Euclidean among coronaviruses and representative vertebrates"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Sequence alignment of 2019-nCoV spike protein (NCBI accession: QHD43416) and SARS-CoV spike protein (UniProt ID: P59594). The four \u201cnovel\u201d insertions \u201cGTNGTKR\u201d (IS1), \u201cYYHKNNKS\u201d (IS2), \u201cGDSSSG\u201d (IS3) and \u201cQTNSPRRA\u201d (IS4) by Pradhan et al are highlighted in dashed rectangles. We noted that these fragments are not bona fide \u201cinsertions\u201d; in fact, at least three out of all four fragments are also shared with Bat Coronavirus RaTG13 spike glycoprotein (NCBI accession: QHR63300.1), as shown in Table 1-3. Nevertheless, we still refer these fragments as \u201cinsertions\u201d in this manuscript for consistency with the original report. The receptor binding domain of spike is marked within the solid box, which corresponds to residue positions 323 to 545 in the above alignment"
+            },
+            {
+                "id": "2",
+                "caption": "Complex structure model between human ACE2 (left yellow) and 2019-nCoV spike protein trimer (right, with three chains colored in magenta, cyan, and blue respectively) constructed by C-I-TASSER. The four insertions are shown as spheres. During different stages of coronavirus infection, the spike proteins may be post-processed (i.e. cleaved) to produce different isoforms. Therefore, the eventual spike complex might not include all residues of a full-length spike protein. Nevertheless, we construct the complex model using fulllength spike sequence to illustrate the locations of the four insertions"
+            },
+            {
+                "id": "3",
+                "caption": "Proposed transmission history of representative coronaviruses (A) and multiple sequence alignment for the bat coronavirus and 7 known human coronaviruses (B). Bat CoV (QHR63300.1), 2019-nCoV (QHD43416.1), MERS-CoV (YP_009047204.1), HCoV-NL63 (YP_003767.1), HCoV-229E (NP_073551.1), SARS-CoV (P59594), HCoV-OC43 YP_009555241.1) and HCoV-HKU1 (YP_173238.1) are downloaded from the NCBI and UniProt databases. For brevity, only the regions near the four \u201cinsertions\u201d are displayed in the figure"
+            },
+            {
+                "id": "4",
+                "caption": "Top 20 vertebrate species ranked in ascending order of squared Euclidean distance of RSCU to 2019-nCoV (A, D), SARS-CoV (B, E), and to MERS-CoV (C, F). The upper panels (A-C) are for all vertebrates with known codon usage in CoCoPUTS database, while the lower panel (D-F) is for the subset of species where more than 2000 CDSs are available for codon usage calculation"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.04.933135.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.933135.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.933135.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.933135.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.04.933135.full/img-003.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "The 2019 novel conronavirus, or 2019-nCoV, recently caused a major pneumonia outbreak in Wuhan, China and has spread to at least 20 countries in the world. As of February 3, 2020, there are more than 20,000 patients diagnosed with 2019-nCoV infection in China alone with more than 400 deaths. Understanding the viral infection mechanisms and animal hosts are of high urgency for the control and treatment of the 2019-nCoV virus. While it is now commonly recognized that bats such as Rhinolophus affinis may serve as the natural reservoir of 2019nCoV1, it is still unclear which animal serves as an intermediate host that brought the bat coronavirus to human hosts. During the 2019-nCoV\u2019s infection of host cells, a critical virion protein is the Spike surface glycoprotein, also known as the S protein. Spike proteins constitute the outermost component in a coronavirus virion particle and are responsible for viral recognition of Angiotensin Converting Enzyme 2 (ACE2), a transmembrane receptor on mammalian hosts that facilitate viral entrance into host cells[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Therefore, the spike protein largely determines host specificity and infectivity of a coronavirus. In this report, we re-analyzed two recent studies[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], which have spurred numerous interests and discussions in the community and the society, regarding the sequence and structure of spike protein in the 2019-nCoV and the identification of its intermediate hosts."
+        ],
+        "discussion": [
+            "<strong>Discussion and Conclusion</strong><br/><br/>Due to the scarcity of experimental and clinical data, as well as the urgency to understand the infectivity of the deadly coronaviruses, we have been increasingly relying on computational analyses to study the 2019-nCoV virus in terms of protein structures, functions, phylogeny, and interactions at both molecular and organismal levels. Indeed, within less than a month of the publication of the 2019-nCoV genome in January 2020, multiple bioinformatics analyses regarding 2019-nCoV have been either published or posted as preprint. While such expeditious analyses provide much needed insights into the biology of the 2019-nCoV virus, there is a caution to avoid over-interpretation of the data at the absence of comprehensive benchmarks or follow-up experimental validations. In this report, we have investigated two recently published computational analyses regarding intermediate host identification and the analysis of spike protein insertions. In both cases, we found that the conclusions proposed by the original studies do not hold in the face of more comprehensive replications of these analyses. We hope our analysis presented herein can clarify some of the misinterpretations resulted from previous bioinformatics analyses for the 2019-nCoV virus."
+        ],
+        "methods": [
+            "Protein Sequence Alignment<br/><br/>Global protein sequence alignment of the full-length coronavirus spike proteins was performed by MUSCLE 17 and visualized by SeaView 18.<br/><br/>Structure Prediction of Spike-ACE2 complex<br/><br/>We use C-I-TASSER 5 to create structural models of the full-length spike protein. Here, C-ITASSER is an extended pipeline of I-TASSER19 and utilizes the deep convolutional neuralnetwork based contact-maps 20 to guide the Monte Carlo fragment assembly simulations. Since the RBD domain of spike exhibits different conformations relative to the remaining portion of the protein, the DEMO pipeline 8 was then used to re-assembly the domains and to construct a complex structure consisting of spike trimer and the extracellular domain of human ACE2, using the ACE2-bound conformation 2 of SARS-CoV spike glycoprotein (PDB ID: 6ACJ) as a template. Our complex modeling did not use the template originally used in the Pradhan et al study (PDB ID: 6ACD) because it did not include the ACE2 receptor.<br/><br/>Relative Synonymous Codon Usage (RSCU) Analysis As per the previous study 4, the RSCU for codon j in a species is calculated as where kj is the number of codons synonymous to codon j (including j itself), pj is the probability of the respective amino acid being encoded by codon j among all kj synonymous codons in the CDSs of the whole genome. The difference of codon usage in two different species (a virus versus a vertebrate in our case) is defined by squared Euclidean distance of RSCU, i.e.,"
+        ],
+        "acknowledgements": [
+            "This work is supported in part by the National Institute of General Medical Sciences (GM083107, GM116960), the National Institute of Allergy and Infectious Diseases (AI134678), and the National Science Foundation (DBI1564756, IIS1901191). This work used the Extreme Science and Engineering Discovery Environment (XSEDE) 24, which is supported by National Science Foundation (ACI-1548562)."
+        ],
+        "funding": [
+            "This work is supported in part by the National Institute of General Medical Sciences (GM083107, GM116960), the National Institute of Allergy and Infectious Diseases (AI134678), and the National Science Foundation (DBI1564756, IIS1901191)",
+            "This work used the Extreme Science and Engineering Discovery Environment (XSEDE) 24, which is supported by National Science Foundation (ACI-1548562)"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "As the infection of 2019-nCoV coronavirus is quickly developing into a global pneumonia epidemic, careful analysis of its transmission and cellular mechanisms is sorely needed. In this report, we re-analyzed the computational approaches and findings presented in two recent manuscripts by Ji et al (https://doi.org/10.1002/jmv.25682) and by Pradhan et al (https://doi.org/10.1101/2020.01.30.927871), which concluded that snakes are the intermediate hosts of 2019-nCoV and that the 2019-nCoV spike protein insertions shared a unique similarity to HIV-1. Results from our re-implementation of the analyses, built on larger-scale datasets using state-of-the-art bioinformatics methods and databases, do not support the conclusions proposed by these manuscripts. Based on our analyses and existing data of coronaviruses, we concluded that the intermediate hosts of 2019-nCoV are more likely to be mammals and birds than snakes, and that the \u201cnovel insertions\u201d observed in the spike protein are naturally evolved from bat coronaviruses."
+        ],
+        "Introduction": [
+            "The 2019 novel conronavirus, or 2019-nCoV, recently caused a major pneumonia outbreak in Wuhan, China and has spread to at least 20 countries in the world. As of February 3, 2020, there are more than 20,000 patients diagnosed with 2019-nCoV infection in China alone with more than 400 deaths. Understanding the viral infection mechanisms and animal hosts are of high urgency for the control and treatment of the 2019-nCoV virus. While it is now commonly recognized that bats such as Rhinolophus affinis may serve as the natural reservoir of 2019nCoV1, it is still unclear which animal serves as an intermediate host that brought the bat coronavirus to human hosts. During the 2019-nCoV\u2019s infection of host cells, a critical virion protein is the Spike surface glycoprotein, also known as the S protein. Spike proteins constitute the outermost component in a coronavirus virion particle and are responsible for viral recognition of Angiotensin Converting Enzyme 2 (ACE2), a transmembrane receptor on mammalian hosts that facilitate viral entrance into host cells[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Therefore, the spike protein largely determines host specificity and infectivity of a coronavirus. In this report, we re-analyzed two recent studies[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], which have spurred numerous interests and discussions in the community and the society, regarding the sequence and structure of spike protein in the 2019-nCoV and the identification of its intermediate hosts."
+        ],
+        "Results": [
+            "2019-nCoV Spike Protein does not Include Insertions Unique to HIV-1 In a recent manuscript entitled \u201cUncanny similarity of unique inserts in the 2019-nCoV spike protein to HIV-1 gp[120] and Gag\u201d 3, Pradhan et al presented a discovery of four novel insertions unique to 2019-nCoV spike protein (Figure 1). They further concluded that these four insertions are part of the receptor binding site of 2019-nCoV, and that these insertions shared \u201cuncanny similarity\u201d to Human Immunodeficiency Virus 1 (HIV-1) proteins but not to other coronaviruses. These claims have resulted in considerable controversy in the community. To investigate whether the conclusions by Pradhan et al are scientifically precise, we re-analyzed the structural location and sequence homology of the four spike protein insertions discussed therein.",
+            "Since the structure of the spike protein in 2019-nCoV is not yet available, we used C-ITASSER5 to model its tertiary structure, as part of our efforts for full genome structure and function analyses of 2019-nCoV that are available at https://zhanglab.ccmb.med.umich.edu/C-ITASSER/2019-nCov/. The C-I-TASSER model has a reasonable confidence score which corresponds to an estimated TM-score 6 of 0.61. The 2019-nCoV spike model was then",
+            "assembled with the human ACE2 structure (PDB ID: 6ACJ)[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] by DEMO8 to form a spike-ACE2 complex. As shown in Figure 2, all four insertions are located outside the Receptor Binding Domain (RBD) of spike, in contrast to the original conclusion made by Pradhan et al which stated that the insertions are located on the interface with ACE2.",
+            "To investigate viral homologs of the four insertions, we further performed a BLAST sequence search of these four insertions against the non-redundant (NR) sequence database, restricting the search results to viruses (taxid:10239), but leaving other search parameters at default values. The choice of BLAST instead of the more sensitive PSI-BLAST algorithm[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] is to emulate the original report by Pradhan et al which mainly aimed to identify near identical sequences. The top 5 sequence homologs (including the query itself) identified for each insertion are listed in Tables 1-4. In contrast to the previous claim that the four insertions are unique to 2019-nCoV and HIV-1, all four insertion fragments can be found in other viruses. In fact, an HIV-1 protein is among the top BLAST hits for only one of the four insertion fragments, while three of the four insertion fragments are found in bat coronavirus RaTG13. Moreover, partly due to the very short length of these insertions, which range from 6 to 8 amino acids, the E-value of the BLAST hits, which is a parameter used by BLAST for assessing the statistical significance of the alignments and usually needs to be below 0.01 to be considered as significant[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>], are all greater than 4, except for a bat coronavirus hit for IS2. These high E-values suggest that the majority of these similarities are likely to be coincidental.",
+            "Prokaryotic dsDNA virus sp.",
+            "Given that 3 out of the 4 insertion fragments are found in the bat coronavirus RaTG13, it is attempting to assume that these \u201cinsertions\u201d may be directly inherited from bat coronaviruses. Currently, there are at least 7 known human coronaviruses (2019-nCoV, SARS-CoV, MERSCoV, HCoV-229E, HCoV-OC43, HCoV-NL63 and HCoV-HKU1), where many of them, including Severe Acute Respiratory Syndrome-related Coronavirus (SARS-CoV) and Middle East Respiratory Syndrome-related Coronavirus (MERS-CoV), were shown to be transmitted from bat[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] (Figure 3A). To further examine the evolutionary relationship between the 2019nCoV genome and the bat coronavirus, in comparison with other human coronaviruses, in Figure 3B we created by MUSCLE a multiple sequence alignment (MSA) for all the 7 human coronaviruses and the bat coronavirus RaTG13 that is currently known to be the closest relative to 2019-nCoV14 among known coronaviruses. Among the 4 \u201cinsertions\u201d of the 2019-nCoV, IS1 has only 1 residue different from the bat coronavirus, and 3 out of 7 residues are identical with MERS-CoV. IS2 and IS3 are all identical to the bat coronavirus. For IS4, although the local sequence alignment by BLAST did not hit the bat coronavirus in Table 4, it has a close evolutionary relation with the bat coronavirus in the MSA. In particular, the first 6 residues in the IS4 fragment \u201cQTQTNSPRRA\u201d from 2019-nCoV are identical to the bat CoV, while the last 4 residues, which were absent in the bat coronavirus or SARS-CoV, have at least 50% identity to MERS-CoV and HCoV-HKU1.",
+            "Putting these together, we believe that there is a close evolutionary relation between 2019nCoV and bat coronavirus RaTG13. The four insertions highlighted by Pradhan et al in the spike protein are not unique to 2019-nCoV and HIV-1. In fact, they are shared with many other viruses including the bat coronavirus. Yes, the similarities in the sequence-based alignments built on these very short fragments are statistically insignificant, as assessed by the BLAST E-values. Structurally, these \u201cinsertions\u201d are far away from the binding interface of the spike protein with the ACE2 receptor, as shown in Figure 2, which are also contradictory with the conclusion made by Pradhan et al.",
+            "Another early study attempting to understanding the infection of 2019-nCoV was performed by Ji et al 4. In this study, the authors analyzed the Relative Synonymous Codon Usage (RSCU) of 2019-nCoV and 8 vertebrates, including two species of snakes (Bungarus multicinctus and Naja atra), hedgehog (Erinaceus europaeus), bat (Rhinolophus sinicus), marmot (Marmota), pangolin (manis javanica), chicken (Gallus gallus), and human (Homo sapiens). Among these vertebrates, snakes have the smallest codon usage difference (squared Euclidiean distance of RSCU) from 2019-nCoV and were therefore proposed by Ji et al as the intermediate hosts of 2019-nCoV. This conclusion is controversial among virologists, mainly due to the lack of prior biological evidence that coronavirus can infect animals other than mammals and birds 15. In this report, we further scrutinize the bioinformatics approach and the underlying biological assumptions by a large-scale replication of the RSCU analysis.",
+            "The bioinformatics analysis performed in Ji et al study has several limitations. First, there are only approximately 300 protein coding sequences (CDSs) in the NCBI GenBank for the snake species they chose from Bungarus multicinctus and Naja atra. These CDSs represent <2% of all protein coding genes in a typical snake genome; the genome of King cobra (Naja hannah), for example, encodes 18,387 proteins according to UniProt (https://www.uniprot.org/proteomes/UP000018936). The limited numbers of known CDSs in Bungarus multicinctus and Naja atra mean that the RSCU statistics may not reflect the actual RSCU distribution in the whole genome. Second, the Codon Usage Database used in the analysis of Ji et al has not been updated since 2007; a re-analysis using more recent codon usage database such as CoCoPUTs is needed. Third, only 8 vertebrates were analyzed in their study, while there are >100,000 vertebrates with at least one CDS in the NCBI GenBank database. Finally, there is no established evidence that viruses evolve their codon usage to resemble that of their animal hosts 16; this calls for a careful benchmark of RSCU analysis in terms of its ability to re-discover known hosts of characterized viruses.",
+            "To address these issues, we re-implemented the RSCU comparison algorithm proposed by Ji et al to analyze the codon usage in the 2019-nCoV genome (NCBI accession MN908947.3) and those of all 102,367 vertebrate species in the CoCoPUTS database. To test whether this kind of analysis can recover known hosts of well-studied coronavirus, severe acute respiratory syndrome-related coronavirus (SARS-CoV, NCBI accession NC_004718) and Middle East respiratory syndrome-related coronavirus (MERS-CoV, NCBI accession NC_019843) are also included. Codon usage frequency are converted to squared Euclidean distance of RSCU in two separate analyses: one based on all vertebrates (Figure 4A-C) and the other on the subset of vertebrates with enough statistics, i.e. >2000 known CDSs (Figure 4D-F), roughly corresponding to 10% of all protein coding genes in a typical vertebrate genome.",
+            "As shown in Figure 4, the top-ranking vertebrates with lowest RSCU distances to the three different coronavirus are very similar. For example, for all three viruses, two kinds of frogs (Megophrys feae and Liophryne schlaginhaufeni) have the smallest RSCU distances among all vertebrates, while another two kinds of frogs (Xenopus laevis and Xenopus tropicalis) have the smallest RSCU distances among all vertebrates with sufficient sequences. In fact, the RSCU distances between coronaviruses and frogs are consistently smaller than that between coronaviruses and the two snakes (Bungarus multicinctus and Naja atra) analyzed in Ji et al, as shown in Table 5.",
+            "Table 5 also showed that the RSCU analysis cannot identify the known natural, intermediate, and eventual hosts (Rhinolophus sinicus, Paguma larvata, and Homo sapiens) of SARS-CoV or the hosts (Camelus dromedarius and Homo sapiens) of MERS-CoV, as the RSCU distances of these vertebrates are all larger than the cold blooded vertebrates (frogs and snakes). In fact, SARS-CoV and MERS-CoV, the two coronaviruses known to utilize different intermediate hosts (Paguma larvata and Camelus dromedarius), have almost no difference in RSCU. These data suggest that the RSCU analysis proposed by Ji et al cannot provide conclusive evidence for the natural, intermediate or eventual hosts of coronavirus. Based on our current knowledge of existing zoonotic coronaviruses 15, we conceive that, if 2019-nCoV requires an intermediate host, this host is more likely to be a warm-blooded vertebrate (a mammal or a bird), than snakes.",
+            "2019-nCoV SARS-CoV MERS-CoV Megophrys feae Liophryne schlaginhaufeni Rhinolophus affinis Rhinolophus sinicus Bungarus multicinctus Naja atra Paguma larvata Camelus dromedarius Homo sapiens"
+        ],
+        "Discussion and Conclusion": [
+            "Due to the scarcity of experimental and clinical data, as well as the urgency to understand the infectivity of the deadly coronaviruses, we have been increasingly relying on computational analyses to study the 2019-nCoV virus in terms of protein structures, functions, phylogeny, and interactions at both molecular and organismal levels. Indeed, within less than a month of the publication of the 2019-nCoV genome in January 2020, multiple bioinformatics analyses regarding 2019-nCoV have been either published or posted as preprint. While such expeditious analyses provide much needed insights into the biology of the 2019-nCoV virus, there is a caution to avoid over-interpretation of the data at the absence of comprehensive benchmarks or follow-up experimental validations. In this report, we have investigated two recently published computational analyses regarding intermediate host identification and the analysis of spike protein insertions. In both cases, we found that the conclusions proposed by the original studies do not hold in the face of more comprehensive replications of these analyses. We hope our analysis presented herein can clarify some of the misinterpretations resulted from previous bioinformatics analyses for the 2019-nCoV virus."
+        ],
+        "Methods": [
+            "Global protein sequence alignment of the full-length coronavirus spike proteins was performed by MUSCLE 17 and visualized by SeaView 18.",
+            "We use C-I-TASSER 5 to create structural models of the full-length spike protein. Here, C-ITASSER is an extended pipeline of I-TASSER19 and utilizes the deep convolutional neuralnetwork based contact-maps 20 to guide the Monte Carlo fragment assembly simulations. Since the RBD domain of spike exhibits different conformations relative to the remaining portion of the protein, the DEMO pipeline 8 was then used to re-assembly the domains and to construct a complex structure consisting of spike trimer and the extracellular domain of human ACE2, using the ACE2-bound conformation 2 of SARS-CoV spike glycoprotein (PDB ID: 6ACJ) as a template. Our complex modeling did not use the template originally used in the Pradhan et al study (PDB ID: 6ACD) because it did not include the ACE2 receptor.",
+            "Relative Synonymous Codon Usage (RSCU) Analysis As per the previous study 4, the RSCU for codon j in a species is calculated as where kj is the number of codons synonymous to codon j (including j itself), pj is the probability of the respective amino acid being encoded by codon j among all kj synonymous codons in the CDSs of the whole genome. The difference of codon usage in two different species (a virus versus a vertebrate in our case) is defined by squared Euclidean distance of RSCU, i.e.,",
+            "Here, N=61 is the number of codons that encodes amino acids, thereby excluding the 3 stop codons. Xj and Xj\u2019 are the RSCU for codon j in the virus and in the vertebrate, respectively. In our report, the codon usages of all vertebrates are taken from the CoCoPUTS database, which was last updated in January 2020. This database was therefore much more recent than the Codon Usage Database last updated in 2007 that was used in the previous research 4. To obtain the codon usage of coronaviruses, we imported the GenBank annotations of the three coronavirus genomes to SnapGene (GSL Biotech LLC] to export the codon usage table based on the GenBank annotations. CodonW was not used for codon usage calculation as in the previous study because it cannot account for the -1 frameshift translation of the first open reading frame (ORF) in the coronavirus genome."
+        ],
+        "Acknowledgements": [
+            "This work is supported in part by the National Institute of General Medical Sciences (GM083107, GM116960), the National Institute of Allergy and Infectious Diseases (AI134678), and the National Science Foundation (DBI1564756, IIS1901191). This work used the Extreme Science and Engineering Discovery Environment (XSEDE) 24, which is supported by National Science Foundation (ACI-1548562)."
+        ],
+        "References": [
+            "1. Zhou, P.; Yang, X.-L.; Wang, X.-G.; Hu, B.; Zhang, L.; Zhang, W.; Si, H.-R.; Zhu, Y.; Li, B.; Huang, C.-L.; Chen, H.-D.; Chen, J.; Luo, Y.; Guo, H.; Jiang, R.-D.; Liu, M.-Q.; Chen, Y.; Shen, X.-R.; Wang, X.; Zheng, X.-S.; Zhao, K.; Chen, Q.-J.; Deng, F.; Liu, L.-L.; Yan, B.; Zhan, F.-X.; Wang, Y.-Y.; Xiao, G.-F.; Shi, Z.-L., A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020. 2. Letko, M.; Munster, V., Functional assessment of cell entry and receptor usage for lineage B \u03b2-coronaviruses, including 2019-nCoV. bioRxiv 2020, 2020.01.22.915660.",
+            "3. Pradhan, P.; Pandey, A. K.; Mishra, A.; Gupta, P.; Tripathi, P. K.; Menon, M. B.; Gomes, J.; Vivekanandan, P.; Kundu, B., Uncanny similarity of unique inserts in the 2019-nCoV spike protein to HIV-1 gp[120] and Gag. bioRxiv 2020, 2020.01.30.927871. 4. Ji, W.; Wang, W.; Zhao, X.; Zai, J.; Li, X., Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission from snake to human. Journal of Medical Virology 2020. 5. Zheng, W.; Li, Y.; Zhang, C. X.; Pearce, R.; Mortuza, S. M.; Zhang, Y., Deep-learning contact-map guided protein structure prediction in CASP13. Proteins 2019. 6. Zhang, Y.; Skolnick, J., Scoring function for automated assessment of protein structure template quality. Proteins 2004, 57 (4), 702-710. 7. Song, W.; Gui, M.; Wang, X.; Xiang, Y., Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2. PLoS Pathog 2018, 14 (8), e1007236. 8. Zhou, X. G.; Hu, J.; Zhang, C. X.; Zhang, G. J.; Zhang, Y., Assembling multidomain protein structures through analogous global structural alignments. Proceedings of the National Academy of Sciences of the United States of America 2019, 116 (32), 15930-15938. 9. Altschul, S. F.; Madden, T. L.; Sch\u00e4ffer, A. A.; Zhang, J.; Zhang, Z.; Miller, W.; Lipman, D. J., Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Research 1997, 25 (17), 3389-3402. 10. Li, W.; Shi, Z.; Yu, M.; Ren, W.; Smith, C.; Epstein, J. H.; Wang, H.; Crameri, G.; Hu, Z.; Zhang, H.; Zhang, J.; McEachern, J.; Field, H.; Daszak, P.; Eaton, B. T.; Zhang, S.; Wang, L.-F., Bats Are Natural Reservoirs of SARS-Like Coronaviruses. Science 2005, 310 (5748), 676. 11. Wang, Q.; Qi, J.; Yuan, Y.; Xuan, Y.; Han, P.; Wan, Y.; Ji, W.; Li, Y.; Wu, Y.; Wang, J.; Iwamoto, A.; Woo, Patrick C. Y.; Yuen, K.-Y.; Yan, J.; Lu, G.; Gao, George F., Bat Origins of MERS-CoV Supported by Bat Coronavirus HKU4 Usage of Human Receptor CD26. Cell Host & Microbe 2014, 16 (3), 328-337. 12. Corman, V. M.; Baldwin, H. J.; Tateno, A. F.; Zerbinati, R. M.; Annan, A.; Owusu, M.; Nkrumah, E. E.; Maganga, G. D.; Oppong, S.; Adu-Sarkodie, Y.; Vallo, P.; da Silva Filho, L. V. R. F.; Leroy, E. M.; Thiel, V.; van der Hoek, L.; Poon, L. L. M.; Tschapka, M.; Drosten, C.; Drexler, J. F., Evidence for an Ancestral Association of Human Coronavirus 229E with Bats. Journal of Virology 2015, 89 (23), 11858. 13. Hu, B.; Zeng, L.-P.; Yang, X.-L.; Ge, X.-Y.; Zhang, W.; Li, B.; Xie, J.-Z.; Shen, X.-R.; Zhang, Y.-Z.; Wang, N.; Luo, D.-S.; Zheng, X.-S.; Wang, M.-N.; Daszak, P.; Wang, L.-F.; Cui, J.; Shi, Z.-L., Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus. PLOS Pathogens 2017, 13 (11), e1006698. 14. GISAID, Phylogenetic tree of CoV families (larger context, including nearest bat precursor) (2020-02-03). https://platform.gisaid.org/epi3/frontend#lightbox983930542 2020. 15. Callaway, E.; Cyranoski, D., Why snakes probably aren\u2019t spreading the new China virus. Nature 2020. 16. Meintjes, P. L.; Rodrigo, A. G., Evolution of relative synonymous codon usage in Human Immunodeficiency Virus type-1. Journal of bioinformatics and computational biology 2005, 3 (01), 157-168. 17. Edgar, R. C., MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Research 2004, 32 (5), 1792-1797. 18. Gouy, M.; Guindon, S.; Gascuel, O., SeaView Version 4: A Multiplatform Graphical User Interface for Sequence Alignment and Phylogenetic Tree Building. Molecular Biology and Evolution 2009, 27 (2), 221-224. 19. Yang, J.; Yan, R.; Roy, A.; Xu, D.; Poisson, J.; Zhang, Y., The I-TASSER Suite: protein structure and function prediction. Nature Methods 2015, 12 (1), 7-8.",
+            "20. Li, Y.; Zhang, C.; Bell, E. W.; Yu, D. J.; Zhang, Y., Ensembling multiple raw coevolutionary features with deep residual neural networks for contact-map prediction in CASP13. Proteins 2019. 21. Alexaki, A.; Kames, J.; Holcomb, D. D.; Athey, J.; Santana-Quintero, L. V.; Lam, P. V. N.; Hamasaki-Katagiri, N.; Osipova, E.; Simonyan, V.; Bar, H., Codon and Codon-Pair Usage Tables (CoCoPUTs): facilitating genetic variation analyses and recombinant gene design. Journal of molecular biology 2019, 431 (13), 2434-2441. 22. Nakamura, Y.; Gojobori, T.; Ikemura, T., Codon usage tabulated from international DNA sequence databases: status for the year 2000. Nucleic Acids Research 2000, 28 (1), 292-292. 23. Peden, J. F., Analysis of codon usage. 2000. 24. Towns, J.; Cockerill, T.; Dahan, M.; Foster, I.; Gaither, K.; Grimshaw, A.; Hazlewood, V.; Lathrop, S.; Lifka, D.; Peterson, G. D.; Roskies, R.; Scott, J. R.; Wilkins-Diehr, N., XSEDE: Accelerating Scientific Discovery. Comput Sci Eng 2014, 16 (5), 62-74."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "coronavirus genomes",
+            "number": 3,
+            "context": "This database was therefore much more recent than the Codon Usage Database last updated in 2007 that was used in the previous research 4. <mark class=\"stats\">To obtain the codon usage of coronaviruses, we imported the GenBank annotations of the three coronavirus genomes to SnapGene (GSL Biotech LLC] to export the codon usage table based on the GenBank annotations</mark>. CodonW was not used for codon usage calculation as in the previous study because it cannot account for the -1 frameshift translation of the first open reading frame (ORF) in the coronavirus genome"
+        },
+        {
+            "participant": "patients",
+            "number": 20000,
+            "context": "The 2019 novel conronavirus, or 2019-nCoV, recently caused a major pneumonia outbreak in Wuhan, China and has spread to at least 20 countries in the world. <mark class=\"stats\">As of February 3, 2020, there are more than 20,000 patients diagnosed with 2019-nCoV infection in China alone with more than 400 deaths</mark>. Understanding the viral infection mechanisms and animal hosts are of high urgency for the control and treatment of the 2019-nCoV virus"
+        },
+        {
+            "participant": "species",
+            "number": 2,
+            "context": "Another early study attempting to understanding the infection of 2019-nCoV was performed by Ji et al 4. <mark class=\"stats\">In this study, the authors analyzed the Relative Synonymous Codon Usage (RSCU) of 2019-nCoV and 8 vertebrates, including two species of snakes (Bungarus multicinctus and Naja atra), hedgehog (Erinaceus europaeus), bat (Rhinolophus sinicus), marmot (Marmota), pangolin (manis javanica), chicken (Gallus gallus), and human (Homo sapiens)</mark>. Among these vertebrates, snakes have the smallest codon usage difference (squared Euclidiean distance of RSCU) from 2019-nCoV and were therefore proposed by Ji et al as the intermediate hosts of 2019-nCoV"
+        },
+        {
+            "participant": "proteins",
+            "number": 18387,
+            "context": "First, there are only approximately 300 protein coding sequences (CDSs) in the NCBI GenBank for the snake species they chose from Bungarus multicinctus and Naja atra. <mark class=\"stats\">These CDSs represent <2% of all protein coding genes in a typical snake genome; the genome of King cobra (Naja hannah), for example, encodes 18,387 proteins according to UniProt (https://www.uniprot.org/proteomes/UP000018936)</mark>. The limited numbers of known CDSs in Bungarus multicinctus and Naja atra mean that the RSCU statistics may not reflect the actual RSCU distribution in the whole genome"
+        },
+        {
+            "participant": "vertebrate species",
+            "number": 102367,
+            "context": "Finally, there is no established evidence that viruses evolve their codon usage to resemble that of their animal hosts 16; this calls for a careful benchmark of RSCU analysis in terms of its ability to re-discover known hosts of characterized viruses. <mark class=\"stats\">To address these issues, we re-implemented the RSCU comparison algorithm proposed by Ji et al to analyze the codon usage in the 2019-nCoV genome (NCBI accession MN908947.3) and those of all 102,367 vertebrate species in the CoCoPUTS database</mark>. To test whether this kind of analysis can recover known hosts of well-studied coronavirus, severe acute respiratory syndrome-related coronavirus (SARS-CoV, NCBI accession NC_004718) and Middle East respiratory syndrome-related coronavirus (MERS-CoV, NCBI accession NC_019843) are also included"
+        },
+        {
+            "participant": "coronavirus genomes",
+            "number": 3,
+            "context": "This database was therefore much more recent than the Codon Usage Database 22 last updated in 2007 that was used in the previous research 4. <mark class=\"stats\">To obtain the codon usage of coronaviruses, we imported the GenBank annotations of the three coronavirus genomes to SnapGene (GSL Biotech LLC] to export the codon usage table based on the GenBank annotations</mark>. CodonW 23 was not used for codon usage calculation as in the previous study because it cannot account for the -1 frameshift translation of the first open reading frame (ORF) in the coronavirus genome"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">To investigate viral homologs of the four insertions, we further performed a BLAST sequence search of these four insertions against the non-redundant (NR) sequence database, restricting the search results to viruses (taxid:10239), but leaving other search parameters at default values</mark>",
+                "tests": [
+                    {
+                        "test": "BLAST"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Moreover, partly due to the very short length of these insertions, which range from 6 to 8 amino acids, the E-value of the BLAST hits, which is a parameter used by BLAST for assessing the statistical significance of the alignments and usually needs to be below 0.01 to be considered as significant9, are all greater than 4, except for a bat coronavirus hit for IS2</mark>",
+                "tests": [
+                    {
+                        "test": "BLAST"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "computational analysis",
+        "multiple sequence alignment",
+        "bioinformatics",
+        "Human Immunodeficiency Virus 1",
+        "protein structure",
+        "coronavirus",
+        "BLAST",
+        "coding sequences",
+        "ncov virus",
+        "intermediate host",
+        "Relative Synonymous Codon Usage",
+        "CASP13",
+        "SARS",
+        "Bungarus multicinctus",
+        "Receptor Binding Domain",
+        "bioinformatic analysis",
+        "unique similarity",
+        "Rhinolophus sinicus",
+        "Camelus dromedarius",
+        "host cell",
+        "spike protein insertion",
+        "Angiotensin Converting Enzyme 2",
+        "bat coronavirus",
+        "pneumonia outbreak"
+    ],
+    "keyword_relevance": {
+        "coronavirus": 0.26066350710900477,
+        "Relative Synonymous Codon Usage": 0.11374407582938388,
+        "SARS": 0.08056872037914692,
+        "bat coronavirus": 0.08056872037914692,
+        "BLAST": 0.07109004739336493,
+        "Angiotensin Converting Enzyme 2": 0.05687203791469194,
+        "Human Immunodeficiency Virus 1": 0.04739336492890995,
+        "intermediate host": 0.04739336492890995,
+        "coding sequences": 0.037914691943127965,
+        "bioinformatics": 0.02843601895734597,
+        "multiple sequence alignment": 0.023696682464454975,
+        "protein structure": 0.023696682464454975,
+        "Bungarus multicinctus": 0.023696682464454975,
+        "spike protein insertion": 0.018957345971563982,
+        "Receptor Binding Domain": 0.014218009478672985,
+        "Rhinolophus sinicus": 0.014218009478672985,
+        "Camelus dromedarius": 0.014218009478672985,
+        "host cell": 0.014218009478672985,
+        "CASP13": 0.009478672985781991,
+        "unique similarity": 0.009478672985781991,
+        "pneumonia outbreak": 0.009478672985781991,
+        "computational analysis": 0.0,
+        "ncov virus": 0.0,
+        "bioinformatic analysis": 0.0
+    },
+    "species": [
+        "Bungarus multicinctus",
+        "Rhinolophus sinicus",
+        "Camelus dromedarius"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The 2019 novel conronavirus, or 2019-nCoV, recently caused a major pneumonia outbreak in Wuhan, China and has spread to at least 20 countries in the world.",
+        "While it is commonly recognized that bats such as Rhinolophus affinis may serve as the natural reservoir of 2019nCoV1, it is still unclear which animal serves as an intermediate host that brought the bat coronavirus to human hosts.",
+        "Spike proteins constitute the outermost component in a coronavirus virion particle and are responsible for viral recognition of Angiotensin Converting Enzyme 2 (ACE2), a transmembrane receptor on mammalian hosts that facilitate viral entrance into host cells[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "The authors re-analyzed two recent studies[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], which have spurred numerous interests and discussions in the community and the society, regarding the sequence and structure of spike protein in the 2019-nCoV and the identification of its intermediate hosts",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors use C-I-TASSER 5 to create structural models of the full-length spike protein.",
+        "Since the RBD domain of spike exhibits different conformations relative to the remaining portion of the protein, the DEMO pipeline 8 was used to re-assembly the domains and to construct a complex structure consisting of spike trimer and the extracellular domain of human ACE2, using the ACE2-bound conformation 2 of SARS-CoV spike glycoprotein (PDB ID: 6ACJ) as a template.",
+        "The difference of codon usage in two different species is defined by squared Euclidean distance of RSCU, i.e.,",
+        "<h2 style=\"display: inline\">Conclusion:</h2> <strong>Discussion and Conclusion</strong><br/><br/>Due to the scarcity of experimental and clinical data, as well as the urgency to understand the infectivity of the deadly coronaviruses, the authors have been increasingly relying on computational analyses to study the 2019-nCoV virus in terms of protein structures, functions, phylogeny, and interactions at both molecular and organismal levels.",
+        "Within less than a month of the publication of the 2019-nCoV genome in January 2020, multiple bioinformatics analyses regarding 2019-nCoV have been either published or posted as preprint",
+        "While such expeditious analyses provide much needed insights into the biology of the 2019-nCoV virus, there is a caution to avoid over-interpretation of the data at the absence of comprehensive benchmarks or follow-up experimental validations.",
+        "The authors hope the analysis presented herein can clarify some of the misinterpretations resulted from previous bioinformatics analyses for the 2019-nCoV virus"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The 2019 novel conronavirus, or 2019-nCoV, recently caused a major pneumonia outbreak in Wuhan, China and has spread to at least 20 countries in the world.",
+            "While it is commonly recognized that bats such as Rhinolophus affinis may serve as the natural reservoir of 2019nCoV1, it is still unclear which animal serves as an intermediate host that brought the bat coronavirus to human hosts.",
+            "Spike proteins constitute the outermost component in a coronavirus virion particle and are responsible for viral recognition of Angiotensin Converting Enzyme 2 (ACE2), a transmembrane receptor on mammalian hosts that facilitate viral entrance into host cells[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "The authors re-analyzed two recent studies[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], which have spurred numerous interests and discussions in the community and the society, regarding the sequence and structure of spike protein in the 2019-nCoV and the identification of its intermediate hosts"
+        ],
+        "Methods": [
+            "The authors use C-I-TASSER 5 to create structural models of the full-length spike protein.",
+            "Since the RBD domain of spike exhibits different conformations relative to the remaining portion of the protein, the DEMO pipeline 8 was used to re-assembly the domains and to construct a complex structure consisting of spike trimer and the extracellular domain of human ACE2, using the ACE2-bound conformation 2 of SARS-CoV spike glycoprotein (PDB ID: 6ACJ) as a template.",
+            "The difference of codon usage in two different species is defined by squared Euclidean distance of RSCU, i.e.,"
+        ],
+        "Conclusion": [
+            "<strong>Discussion and Conclusion</strong><br/><br/>Due to the scarcity of experimental and clinical data, as well as the urgency to understand the infectivity of the deadly coronaviruses, the authors have been increasingly relying on computational analyses to study the 2019-nCoV virus in terms of protein structures, functions, phylogeny, and interactions at both molecular and organismal levels.",
+            "Within less than a month of the publication of the 2019-nCoV genome in January 2020, multiple bioinformatics analyses regarding 2019-nCoV have been either published or posted as preprint",
+            "While such expeditious analyses provide much needed insights into the biology of the 2019-nCoV virus, there is a caution to avoid over-interpretation of the data at the absence of comprehensive benchmarks or follow-up experimental validations.",
+            "The authors hope the analysis presented herein can clarify some of the misinterpretations resulted from previous bioinformatics analyses for the 2019-nCoV virus"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Zhou_et+al_2020_a",
+            "entry": "1. Zhou, P.; Yang, X.-L.; Wang, X.-G.; Hu, B.; Zhang, L.; Zhang, W.; Si, H.-R.; Zhu, Y.; Li, B.; Huang, C.-L.; Chen, H.-D.; Chen, J.; Luo, Y.; Guo, H.; Jiang, R.-D.; Liu, M.-Q.; Chen, Y.; Shen, X.-R.; Wang, X.; Zheng, X.-S.; Zhao, K.; Chen, Q.-J.; Deng, F.; Liu, L.-L.; Yan, B.; Zhan, F.-X.; Wang, Y.-Y.; Xiao, G.-F.; Shi, Z.-L., A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020"
+        },
+        {
+            "id": "2",
+            "alt_id": "Letko_2019_a",
+            "entry": "2. Letko, M.; Munster, V., Functional assessment of cell entry and receptor usage for lineage B \u03b2-coronaviruses, including 2019-nCoV. bioRxiv 2020, 2020.01.22.915660.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Letko%20M%20Munster%20V%20Functional%20assessment%20of%20cell%20entry%20and%20receptor%20usage%20for%20lineage%20B%20%CE%B2coronaviruses%20including%202019nCoV%20bioRxiv%202020%2020200122915660"
+        },
+        {
+            "id": "3",
+            "alt_id": "Pradhan_et+al_2019_a",
+            "entry": "3. Pradhan, P.; Pandey, A. K.; Mishra, A.; Gupta, P.; Tripathi, P. K.; Menon, M. B.; Gomes, J.; Vivekanandan, P.; Kundu, B., Uncanny similarity of unique inserts in the 2019-nCoV spike protein to HIV-1 gp120 and Gag. bioRxiv 2020, 2020.01.30.927871.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pradhan%20P%20Pandey%20A%20K%20Mishra%20A%20Gupta%20P%20Tripathi%20P%20K%20Menon%20M%20B%20Gomes%20J%20Vivekanandan%20P%20Kundu%20B%20Uncanny%20similarity%20of%20unique%20inserts%20in%20the%202019nCoV%20spike%20protein%20to%20HIV1%20gp120%20and%20Gag%20bioRxiv%202020%2020200130927871",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pradhan%20P%20Pandey%20A%20K%20Mishra%20A%20Gupta%20P%20Tripathi%20P%20K%20Menon%20M%20B%20Gomes%20J%20Vivekanandan%20P%20Kundu%20B%20Uncanny%20similarity%20of%20unique%20inserts%20in%20the%202019nCoV%20spike%20protein%20to%20HIV1%20gp120%20and%20Gag%20bioRxiv%202020%2020200130927871",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pradhan%20P%20Pandey%20A%20K%20Mishra%20A%20Gupta%20P%20Tripathi%20P%20K%20Menon%20M%20B%20Gomes%20J%20Vivekanandan%20P%20Kundu%20B%20Uncanny%20similarity%20of%20unique%20inserts%20in%20the%202019nCoV%20spike%20protein%20to%20HIV1%20gp120%20and%20Gag%20bioRxiv%202020%2020200130927871"
+        },
+        {
+            "id": "4",
+            "alt_id": "Ji_et+al_2020_a",
+            "entry": "4. Ji, W.; Wang, W.; Zhao, X.; Zai, J.; Li, X., Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission from snake to human. Journal of Medical Virology 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ji%2C%20W.%20Wang%2C%20W.%20Zhao%2C%20X.%20Zai%2C%20J.%20Homologous%20recombination%20within%20the%20spike%20glycoprotein%20of%20the%20newly%20identified%20coronavirus%20may%20boost%20cross-species%20transmission%20from%20snake%20to%20human%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ji%2C%20W.%20Wang%2C%20W.%20Zhao%2C%20X.%20Zai%2C%20J.%20Homologous%20recombination%20within%20the%20spike%20glycoprotein%20of%20the%20newly%20identified%20coronavirus%20may%20boost%20cross-species%20transmission%20from%20snake%20to%20human%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ji%2C%20W.%20Wang%2C%20W.%20Zhao%2C%20X.%20Zai%2C%20J.%20Homologous%20recombination%20within%20the%20spike%20glycoprotein%20of%20the%20newly%20identified%20coronavirus%20may%20boost%20cross-species%20transmission%20from%20snake%20to%20human%202020"
+        },
+        {
+            "id": "5",
+            "alt_id": "Zheng_et+al_2019_a",
+            "entry": "5. Zheng, W.; Li, Y.; Zhang, C. X.; Pearce, R.; Mortuza, S. M.; Zhang, Y., Deep-learning contact-map guided protein structure prediction in CASP13. Proteins 2019.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zheng%2C%20W.%20Li%2C%20Y.%20Zhang%2C%20C.X.%20Pearce%2C%20R.%20Deep-learning%20contact-map%20guided%20protein%20structure%20prediction%20in%20CASP13%202019"
+        },
+        {
+            "id": "6",
+            "alt_id": "Zhang_2004_a",
+            "entry": "6. Zhang, Y.; Skolnick, J., Scoring function for automated assessment of protein structure template quality. Proteins 2004, 57 (4), 702-710.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%2C%20Y.%20Skolnick%2C%20J.%20Scoring%20function%20for%20automated%20assessment%20of%20protein%20structure%20template%20quality%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%2C%20Y.%20Skolnick%2C%20J.%20Scoring%20function%20for%20automated%20assessment%20of%20protein%20structure%20template%20quality%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%2C%20Y.%20Skolnick%2C%20J.%20Scoring%20function%20for%20automated%20assessment%20of%20protein%20structure%20template%20quality%202004"
+        },
+        {
+            "id": "7",
+            "alt_id": "Song_et+al_2018_a",
+            "entry": "7. Song, W.; Gui, M.; Wang, X.; Xiang, Y., Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2. PLoS Pathog 2018, 14 (8), e1007236.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-EM%20structure%20of%20the%20SARS%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ACE2%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-EM%20structure%20of%20the%20SARS%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ACE2%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-EM%20structure%20of%20the%20SARS%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ACE2%202018"
+        },
+        {
+            "id": "8",
+            "alt_id": "Zhou_et+al_2019_a",
+            "entry": "8. Zhou, X. G.; Hu, J.; Zhang, C. X.; Zhang, G. J.; Zhang, Y., Assembling multidomain protein structures through analogous global structural alignments. Proceedings of the National Academy of Sciences of the United States of America 2019, 116 (32), 15930-15938.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20X.G.%20Hu%2C%20J.%20Zhang%2C%20C.X.%20Zhang%2C%20G.J.%20Assembling%20multidomain%20protein%20structures%20through%20analogous%20global%20structural%20alignments%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20X.G.%20Hu%2C%20J.%20Zhang%2C%20C.X.%20Zhang%2C%20G.J.%20Assembling%20multidomain%20protein%20structures%20through%20analogous%20global%20structural%20alignments%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20X.G.%20Hu%2C%20J.%20Zhang%2C%20C.X.%20Zhang%2C%20G.J.%20Assembling%20multidomain%20protein%20structures%20through%20analogous%20global%20structural%20alignments%202019"
+        },
+        {
+            "id": "9",
+            "alt_id": "Altschul_et+al_1997_a",
+            "entry": "9. Altschul, S. F.; Madden, T. L.; Sch\u00e4ffer, A. A.; Zhang, J.; Zhang, Z.; Miller, W.; Lipman, D. J., Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Research 1997, 25 (17), 3389-3402.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Altschul%2C%20S.F.%20Madden%2C%20T.L.%20Sch%C3%A4ffer%2C%20A.A.%20Zhang%2C%20J.%20Gapped%20BLAST%20and%20PSI-BLAST%3A%20a%20new%20generation%20of%20protein%20database%20search%20programs%201997",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Altschul%2C%20S.F.%20Madden%2C%20T.L.%20Sch%C3%A4ffer%2C%20A.A.%20Zhang%2C%20J.%20Gapped%20BLAST%20and%20PSI-BLAST%3A%20a%20new%20generation%20of%20protein%20database%20search%20programs%201997",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Altschul%2C%20S.F.%20Madden%2C%20T.L.%20Sch%C3%A4ffer%2C%20A.A.%20Zhang%2C%20J.%20Gapped%20BLAST%20and%20PSI-BLAST%3A%20a%20new%20generation%20of%20protein%20database%20search%20programs%201997"
+        },
+        {
+            "id": "10",
+            "alt_id": "Li_et+al_2005_a",
+            "entry": "10. Li, W.; Shi, Z.; Yu, M.; Ren, W.; Smith, C.; Epstein, J. H.; Wang, H.; Crameri, G.; Hu, Z.; Zhang, H.; Zhang, J.; McEachern, J.; Field, H.; Daszak, P.; Eaton, B. T.; Zhang, S.; Wang, L.-F., Bats Are Natural Reservoirs of SARS-Like Coronaviruses. Science 2005, 310 (5748), 676.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20W.%20Shi%2C%20Z.%20Yu%2C%20M.%20Ren%2C%20W.%20Bats%20Are%20Natural%20Reservoirs%20of%20SARS-Like%20Coronaviruses%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20W.%20Shi%2C%20Z.%20Yu%2C%20M.%20Ren%2C%20W.%20Bats%20Are%20Natural%20Reservoirs%20of%20SARS-Like%20Coronaviruses%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20W.%20Shi%2C%20Z.%20Yu%2C%20M.%20Ren%2C%20W.%20Bats%20Are%20Natural%20Reservoirs%20of%20SARS-Like%20Coronaviruses%202005"
+        },
+        {
+            "id": "11",
+            "alt_id": "Wang_et+al_2014_a",
+            "entry": "11. Wang, Q.; Qi, J.; Yuan, Y.; Xuan, Y.; Han, P.; Wan, Y.; Ji, W.; Li, Y.; Wu, Y.; Wang, J.; Iwamoto, A.; Woo, Patrick C. Y.; Yuen, K.-Y.; Yan, J.; Lu, G.; Gao, George F., Bat Origins of MERS-CoV Supported by Bat Coronavirus HKU4 Usage of Human Receptor CD26. Cell Host & Microbe 2014, 16 (3), 328-337.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20Q.%20Qi%2C%20J.%20Yuan%2C%20Y.%20Xuan%2C%20Y.%20Bat%20Origins%20of%20MERS-CoV%20Supported%20by%20Bat%20Coronavirus%20HKU4%20Usage%20of%20Human%20Receptor%20CD26%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20Q.%20Qi%2C%20J.%20Yuan%2C%20Y.%20Xuan%2C%20Y.%20Bat%20Origins%20of%20MERS-CoV%20Supported%20by%20Bat%20Coronavirus%20HKU4%20Usage%20of%20Human%20Receptor%20CD26%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20Q.%20Qi%2C%20J.%20Yuan%2C%20Y.%20Xuan%2C%20Y.%20Bat%20Origins%20of%20MERS-CoV%20Supported%20by%20Bat%20Coronavirus%20HKU4%20Usage%20of%20Human%20Receptor%20CD26%202014"
+        },
+        {
+            "id": "12",
+            "alt_id": "Corman_et+al_2015_a",
+            "entry": "12. Corman, V. M.; Baldwin, H. J.; Tateno, A. F.; Zerbinati, R. M.; Annan, A.; Owusu, M.; Nkrumah, E. E.; Maganga, G. D.; Oppong, S.; Adu-Sarkodie, Y.; Vallo, P.; da Silva Filho, L. V. R. F.; Leroy, E. M.; Thiel, V.; van der Hoek, L.; Poon, L. L. M.; Tschapka, M.; Drosten, C.; Drexler, J. F., Evidence for an Ancestral Association of Human Coronavirus 229E with Bats. Journal of Virology 2015, 89 (23), 11858.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Corman%2C%20V.M.%20Baldwin%2C%20H.J.%20Tateno%2C%20A.F.%20Zerbinati%2C%20R.M.%20Evidence%20for%20an%20Ancestral%20Association%20of%20Human%20Coronavirus%20229E%20with%20Bats%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Corman%2C%20V.M.%20Baldwin%2C%20H.J.%20Tateno%2C%20A.F.%20Zerbinati%2C%20R.M.%20Evidence%20for%20an%20Ancestral%20Association%20of%20Human%20Coronavirus%20229E%20with%20Bats%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Corman%2C%20V.M.%20Baldwin%2C%20H.J.%20Tateno%2C%20A.F.%20Zerbinati%2C%20R.M.%20Evidence%20for%20an%20Ancestral%20Association%20of%20Human%20Coronavirus%20229E%20with%20Bats%202015"
+        },
+        {
+            "id": "13",
+            "alt_id": "Hu_et+al_2017_a",
+            "entry": "13. Hu, B.; Zeng, L.-P.; Yang, X.-L.; Ge, X.-Y.; Zhang, W.; Li, B.; Xie, J.-Z.; Shen, X.-R.; Zhang, Y.-Z.; Wang, N.; Luo, D.-S.; Zheng, X.-S.; Wang, M.-N.; Daszak, P.; Wang, L.-F.; Cui, J.; Shi, Z.-L., Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus. PLOS Pathogens 2017, 13 (11), e1006698.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hu%2C%20B.%20Zeng%2C%20L.-P.%20Yang%2C%20X.-L.%20Ge%2C%20X.-Y.%20Discovery%20of%20a%20rich%20gene%20pool%20of%20bat%20SARS-related%20coronaviruses%20provides%20new%20insights%20into%20the%20origin%20of%20SARS%20coronavirus%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hu%2C%20B.%20Zeng%2C%20L.-P.%20Yang%2C%20X.-L.%20Ge%2C%20X.-Y.%20Discovery%20of%20a%20rich%20gene%20pool%20of%20bat%20SARS-related%20coronaviruses%20provides%20new%20insights%20into%20the%20origin%20of%20SARS%20coronavirus%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hu%2C%20B.%20Zeng%2C%20L.-P.%20Yang%2C%20X.-L.%20Ge%2C%20X.-Y.%20Discovery%20of%20a%20rich%20gene%20pool%20of%20bat%20SARS-related%20coronaviruses%20provides%20new%20insights%20into%20the%20origin%20of%20SARS%20coronavirus%202017"
+        },
+        {
+            "id": "14",
+            "alt_id": "G_2020_a",
+            "entry": "14. GISAID, Phylogenetic tree of CoV families (larger context, including nearest bat precursor) (2020-02-03). https://platform.gisaid.org/epi3/frontend#lightbox983930542 2020.",
+            "url": "https://platform.gisaid.org/epi3/frontend#lightbox983930542"
+        },
+        {
+            "id": "15",
+            "alt_id": "Callaway_2020_a",
+            "entry": "15. Callaway, E.; Cyranoski, D., Why snakes probably aren\u2019t spreading the new China virus. Nature 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Callaway%2C%20E.%20Cyranoski%2C%20D.%20Why%20snakes%20probably%20aren%E2%80%99t%20spreading%20the%20new%20China%20virus%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Callaway%2C%20E.%20Cyranoski%2C%20D.%20Why%20snakes%20probably%20aren%E2%80%99t%20spreading%20the%20new%20China%20virus%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Callaway%2C%20E.%20Cyranoski%2C%20D.%20Why%20snakes%20probably%20aren%E2%80%99t%20spreading%20the%20new%20China%20virus%202020"
+        },
+        {
+            "id": "16",
+            "alt_id": "Meintjes_2005_a",
+            "entry": "16. Meintjes, P. L.; Rodrigo, A. G., Evolution of relative synonymous codon usage in Human Immunodeficiency Virus type-1. Journal of bioinformatics and computational biology 2005, 3 (01), 157-168.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Meintjes%2C%20P.L.%20Rodrigo%2C%20A.G.%20Evolution%20of%20relative%20synonymous%20codon%20usage%20in%20Human%20Immunodeficiency%20Virus%20type-1%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Meintjes%2C%20P.L.%20Rodrigo%2C%20A.G.%20Evolution%20of%20relative%20synonymous%20codon%20usage%20in%20Human%20Immunodeficiency%20Virus%20type-1%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Meintjes%2C%20P.L.%20Rodrigo%2C%20A.G.%20Evolution%20of%20relative%20synonymous%20codon%20usage%20in%20Human%20Immunodeficiency%20Virus%20type-1%202005"
+        },
+        {
+            "id": "17",
+            "alt_id": "Edgar_2004_a",
+            "entry": "17. Edgar, R. C., MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Research 2004, 32 (5), 1792-1797.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Edgar%2C%20R.C.%20MUSCLE%3A%20multiple%20sequence%20alignment%20with%20high%20accuracy%20and%20high%20throughput%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Edgar%2C%20R.C.%20MUSCLE%3A%20multiple%20sequence%20alignment%20with%20high%20accuracy%20and%20high%20throughput%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Edgar%2C%20R.C.%20MUSCLE%3A%20multiple%20sequence%20alignment%20with%20high%20accuracy%20and%20high%20throughput%202004"
+        },
+        {
+            "id": "18",
+            "alt_id": "Gouy_et+al_2009_a",
+            "entry": "18. Gouy, M.; Guindon, S.; Gascuel, O., SeaView Version 4: A Multiplatform Graphical User Interface for Sequence Alignment and Phylogenetic Tree Building. Molecular Biology and Evolution 2009, 27 (2), 221-224.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gouy%2C%20M.%20Guindon%2C%20S.%20Gascuel%2C%20O.%20SeaView%20Version%204%3A%20A%20Multiplatform%20Graphical%20User%20Interface%20for%20Sequence%20Alignment%20and%20Phylogenetic%20Tree%20Building%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gouy%2C%20M.%20Guindon%2C%20S.%20Gascuel%2C%20O.%20SeaView%20Version%204%3A%20A%20Multiplatform%20Graphical%20User%20Interface%20for%20Sequence%20Alignment%20and%20Phylogenetic%20Tree%20Building%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gouy%2C%20M.%20Guindon%2C%20S.%20Gascuel%2C%20O.%20SeaView%20Version%204%3A%20A%20Multiplatform%20Graphical%20User%20Interface%20for%20Sequence%20Alignment%20and%20Phylogenetic%20Tree%20Building%202009"
+        },
+        {
+            "id": "19",
+            "alt_id": "Yang_et+al_2015_a",
+            "entry": "19. Yang, J.; Yan, R.; Roy, A.; Xu, D.; Poisson, J.; Zhang, Y., The I-TASSER Suite: protein structure and function prediction. Nature Methods 2015, 12 (1), 7-8.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yang%2C%20J.%20Yan%2C%20R.%20Roy%2C%20A.%20Xu%2C%20D.%20The%20I-TASSER%20Suite%3A%20protein%20structure%20and%20function%20prediction%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yang%2C%20J.%20Yan%2C%20R.%20Roy%2C%20A.%20Xu%2C%20D.%20The%20I-TASSER%20Suite%3A%20protein%20structure%20and%20function%20prediction%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yang%2C%20J.%20Yan%2C%20R.%20Roy%2C%20A.%20Xu%2C%20D.%20The%20I-TASSER%20Suite%3A%20protein%20structure%20and%20function%20prediction%202015"
+        },
+        {
+            "id": "20",
+            "alt_id": "Li_et+al_2019_a",
+            "entry": "20. Li, Y.; Zhang, C.; Bell, E. W.; Yu, D. J.; Zhang, Y., Ensembling multiple raw coevolutionary features with deep residual neural networks for contact-map prediction in CASP13. Proteins 2019.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Y.%20Zhang%2C%20C.%20Bell%2C%20E.W.%20Yu%2C%20D.J.%20Ensembling%20multiple%20raw%20coevolutionary%20features%20with%20deep%20residual%20neural%20networks%20for%20contact-map%20prediction%20in%20CASP13%202019"
+        },
+        {
+            "id": "21",
+            "alt_id": "Alexaki_et+al_2019_a",
+            "entry": "21. Alexaki, A.; Kames, J.; Holcomb, D. D.; Athey, J.; Santana-Quintero, L. V.; Lam, P. V. N.; Hamasaki-Katagiri, N.; Osipova, E.; Simonyan, V.; Bar, H., Codon and Codon-Pair Usage Tables (CoCoPUTs): facilitating genetic variation analyses and recombinant gene design. Journal of molecular biology 2019, 431 (13), 2434-2441.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Alexaki%2C%20A.%20Kames%2C%20J.%20Holcomb%2C%20D.D.%20Athey%2C%20J.%20Codon%20and%20Codon-Pair%20Usage%20Tables%20%28CoCoPUTs%29%3A%20facilitating%20genetic%20variation%20analyses%20and%20recombinant%20gene%20design%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Alexaki%2C%20A.%20Kames%2C%20J.%20Holcomb%2C%20D.D.%20Athey%2C%20J.%20Codon%20and%20Codon-Pair%20Usage%20Tables%20%28CoCoPUTs%29%3A%20facilitating%20genetic%20variation%20analyses%20and%20recombinant%20gene%20design%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Alexaki%2C%20A.%20Kames%2C%20J.%20Holcomb%2C%20D.D.%20Athey%2C%20J.%20Codon%20and%20Codon-Pair%20Usage%20Tables%20%28CoCoPUTs%29%3A%20facilitating%20genetic%20variation%20analyses%20and%20recombinant%20gene%20design%202019"
+        },
+        {
+            "id": "22",
+            "alt_id": "Nakamura_et+al_2000_a",
+            "entry": "22. Nakamura, Y.; Gojobori, T.; Ikemura, T., Codon usage tabulated from international DNA sequence databases: status for the year 2000. Nucleic Acids Research 2000, 28 (1), 292-292.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nakamura%20Y%20Gojobori%20T%20Ikemura%20T%20Codon%20usage%20tabulated%20from%20international%20DNA%20sequence%20databases%20status%20for%20the%20year%202000%20Nucleic%20Acids%20Research%202000%2028%201%20292292",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nakamura%20Y%20Gojobori%20T%20Ikemura%20T%20Codon%20usage%20tabulated%20from%20international%20DNA%20sequence%20databases%20status%20for%20the%20year%202000%20Nucleic%20Acids%20Research%202000%2028%201%20292292",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nakamura%20Y%20Gojobori%20T%20Ikemura%20T%20Codon%20usage%20tabulated%20from%20international%20DNA%20sequence%20databases%20status%20for%20the%20year%202000%20Nucleic%20Acids%20Research%202000%2028%201%20292292"
+        },
+        {
+            "id": "23",
+            "alt_id": "Peden_2000_a",
+            "entry": "23. Peden, J. F., Analysis of codon usage. 2000.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Peden%2C%20J.F.%20Analysis%20of%20codon%20usage%202000"
+        },
+        {
+            "id": "24",
+            "alt_id": "Towns_et+al_2014_a",
+            "entry": "24. Towns, J.; Cockerill, T.; Dahan, M.; Foster, I.; Gaither, K.; Grimshaw, A.; Hazlewood, V.; Lathrop, S.; Lifka, D.; Peterson, G. D.; Roskies, R.; Scott, J. R.; Wilkins-Diehr, N., XSEDE: Accelerating Scientific Discovery. Comput Sci Eng 2014, 16 (5), 62-74. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Towns%2C%20J.%20Cockerill%2C%20T.%20Dahan%2C%20M.%20Foster%2C%20I.%20XSEDE%3A%20Accelerating%20Scientific%20Discovery%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Towns%2C%20J.%20Cockerill%2C%20T.%20Dahan%2C%20M.%20Foster%2C%20I.%20XSEDE%3A%20Accelerating%20Scientific%20Discovery%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Towns%2C%20J.%20Cockerill%2C%20T.%20Dahan%2C%20M.%20Foster%2C%20I.%20XSEDE%3A%20Accelerating%20Scientific%20Discovery%202014"
+        }
+    ],
+    "facts": [
+        "As the infection of 2019-nCoV coronavirus is quickly developing into a global pneumonia epidemic",
+        "the computational approaches and findings presented in two recent manuscripts by Ji et al",
+        "which concluded that snakes are the intermediate hosts of",
+        "that the 2019-nCoV spike protein insertions shared a unique similarity to HIV-1",
+        "the conclusions proposed by these manuscripts",
+        "in the spike protein are naturally evolved from bat coronaviruses",
+        "more than 20,000 patients diagnosed with 2019-nCoV infection in China",
+        "the viral infection mechanisms and animal hosts are of high urgency for the control and treatment",
+        "such as Rhinolophus affinis may serve as the natural reservoir",
+        "still unclear which animal serves as an intermediate host",
+        "Spike proteins constitute the outermost component in a coronavirus virion particle",
+        "Global protein sequence alignment of the full-length coronavirus spike proteins was performed by MUSCLE 17",
+        "C-ITASSER is an extended pipeline of I-TASSER19",
+        "a complex structure consisting of spike trimer",
+        "the template originally used in the Pradhan et al study",
+        "the RSCU for codon j in a species is calculated as where kj is the number of codons",
+        "the probability of the respective amino acid being encoded by codon j",
+        "The difference of codon usage in two different species is defined by squared Euclidean distance of RSCU",
+        "well as the urgency to understand the infectivity of the deadly coronaviruses",
+        "that the conclusions proposed by the original studies do not hold in the face",
+        "some of the misinterpretations resulted from previous bioinformatics analyses for the 2019-nCoV virus"
+    ],
+    "claims": [
+        "In this report, we have investigated two recently published computational analyses regarding intermediate host identification and the analysis of spike protein insertions",
+        "In both cases, we found that the conclusions proposed by the original studies do not hold in the face of more comprehensive replications of these analyses"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We re-analyzed the computational approaches and findings presented in two recent manuscripts by Ji et al and by Pradhan et al, which concluded that snakes are the intermediate hosts of 2019-nCoV and that the 2019-nCoV spike protein insertions shared a unique similarity to Human Immunodeficiency Virus 1",
+        "Based on our analyses and existing data of coronaviruses, we concluded that the intermediate hosts of 2019-nCoV are more likely to be mammals and birds than snakes, and that the \u201cnovel insertions\u201d observed in the spike protein are naturally evolved from bat coronaviruses",
+        "While it is commonly recognized that bats such as Rhinolophus affinis may serve as the natural reservoir of 2019nCoV1, it is still unclear which animal serves as an intermediate host that brought the bat coronavirus to human hosts",
+        "Spike proteins constitute the outermost component in a coronavirus virion particle and are responsible for viral recognition of Angiotensin Converting Enzyme 2 (ACE2), a transmembrane receptor on mammalian hosts that facilitate viral entrance into host cells[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "Due to the scarcity of experimental and clinical data, as well as the urgency to understand the infectivity of the deadly coronaviruses, we have been increasingly relying on computational analyses to study the 2019-nCoV virus in terms of protein structures, functions, phylogeny, and interactions at both molecular and organismal levels",
+        "We have investigated two recently published computational analyses regarding intermediate host identification and the analysis of spike protein insertions",
+        "We hope our analysis presented herein can clarify some of the misinterpretations resulted from previous bioinformatics analyses for the 2019-nCoV virus",
+        "Relative Synonymous Codon Usage (RSCU) Analysis As per the previous study 4, the Relative Synonymous Codon Usage for codon j in a species is calculated as where kj is the number of codons synonymous to codon j, pj is the probability of the respective amino acid being encoded by codon j among all kj synonymous codons in the coding sequences of the whole genome"
+    ],
+    "top_statements": [
+        "The 2019 novel conronavirus, or 2019-nCoV, recently caused a major pneumonia outbreak in Wuhan, China and has spread to at least 20 countries in the world",
+        "We re-analyzed the computational approaches and findings presented in two recent manuscripts by Ji et al and by Pradhan et al, which concluded that snakes are the intermediate hosts of 2019-nCoV and that the 2019-nCoV spike protein insertions shared a unique similarity to Human Immunodeficiency Virus 1",
+        "While it is commonly recognized that bats such as Rhinolophus affinis may serve as the natural reservoir of 2019nCoV1, it is still unclear which animal serves as an intermediate host that brought the bat coronavirus to human hosts",
+        "Due to the scarcity of experimental and clinical data, as well as the urgency to understand the infectivity of the deadly coronaviruses, we have been increasingly relying on computational analyses to study the 2019-nCoV virus in terms of protein structures, functions, phylogeny, and interactions at both molecular and organismal levels",
+        "We have investigated two recently published computational analyses regarding intermediate host identification and the analysis of spike protein insertions",
+        "We hope our analysis presented herein can clarify some of the misinterpretations resulted from previous bioinformatics analyses for the 2019-nCoV virus"
+    ],
+    "headline": "Due to the scarcity of experimental and clinical data, as well as the urgency to understand the infectivity of the deadly coronaviruses, we have been increasingly relying on computational analyses to study the 2019-nCoV virus in terms of protein structures, functions, phylogeny, and interactions at both molecular and organismal levels",
+    "contexts": [],
+    "abbreviations": {
+        "ACE2": "Angiotensin Converting Enzyme 2",
+        "HIV-1": "Human Immunodeficiency Virus 1",
+        "RBD": "Receptor Binding Domain",
+        "MSA": "multiple sequence alignment",
+        "RSCU": "Relative Synonymous Codon Usage",
+        "CDSs": "coding sequences"
+    }
+}

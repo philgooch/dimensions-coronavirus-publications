@@ -1,0 +1,518 @@
+{
+    "filename": "2020.02.23.20026930.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 612049,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.23.20026930",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/25/2020.02.23.20026930.full.pdf"
+        },
+        "title": "Deep learning Enables Accurate Diagnosis of Novel Coronavirus (COVID-19) with CT images",
+        "author": "Ying Song, Shuangjia Zheng, Liang Li, Xiang Zhang, Xiaodong Zhang, Ziwang Huang, Jianwen Chen, Huiying Zhao, Yusheng Jie, Ruixuan Wang, Yutian Chong, Jun Shen, Yunfei Zha, Yuedong Yang",
+        "date": 2020,
+        "affiliations": [
+            "National Supercomputer Center in Guangzhou, Sun Yat-sen University, Guangzhou 510006, China",
+            "Department of Radiology, Renmin Hospital of Wuhan University, Wuhan 430060, China",
+            "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510530, China",
+            "Department of Radiology, The Third Affiliated Hospital of Sun Yat-Sen University, Guangzhou 510220, China",
+            "School of Data and Computer Science, Sun Yat-sen University, Guangzhou 510006, China",
+            "School of Systems Sciences and Engineering, Sun Yat-sen University, Guangzhou 510006, China"
+        ],
+        "abstract": "Background\nA novel coronavirus (COVID-19) has emerged recently as an acute respiratory syndrome. The outbreak was originally reported in Wuhan, China, but has subsequently been spread world-widely. As the COVID-19 continues to spread rapidly across the world, computed tomography (CT) has become essentially important for fast diagnoses. Thus, it is urgent to develop an accurate computer-aided method to assist clinicians to identify COVID-19-infected patients by CT images.   \n\nMaterials and Methods\nWe collected chest CT scans of 88 patients diagnosed with the COVID-19 from hospitals of two provinces in China, 101 patients infected with bacteria pneumonia, and 86 healthy persons for comparison and modeling. Based on the collected dataset, a deep learning-based CT diagnosis system (DeepPneumonia) was developed to identify patients with COVID-19.\n\nResults\nThe experimental results showed that our model can accurately identify the COVID-19 patients from others with an excellent AUC of 0.99 and recall (sensitivity) of 0.93. In addition, our model was capable of discriminating the COVID-19 infected patients and bacteria pneumonia-infected patients with an AUC of 0.95, recall (sensitivity) of 0.96. Moreover, our model could localize the main lesion features, especially the ground-glass opacity (GGO) that is of great help to assist doctors in diagnosis. The diagnosis for a patient could be finished in 30 seconds, and the implementation on Tianhe-2 supercompueter enables a parallel executions of thousands of tasks simultaneously. An online server is available for online diagnoses with CT images by http://biomed.nscc-gz.cn/server/Ncov2019.\n\nConclusions\nThe established models can achieve a rapid and accurate identification of COVID-19 in human samples, thereby allowing identification of patients.",
+        "references": "@article{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  volume = {2020},\n  pages = {497\u2013506},\n  more-authors = {true},\n  number = {395},\n  language = {}\n}\n@techreport{unknown2020a,\n  url = {https://www.who.int.accessed},\n  unknown = {February 5th},\n  date = {2020},\n  institution = {WHO Homepage}\n}\n@article{lu2020a,\n  author = {Lu, R. and Zhao, X. and Li, J.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  journal = {The Lancet},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{li2020a,\n  author = {Li, Q. and Guan, X. and Wu, P.},\n  title = {Early transmission dynamics in Wuhan, China, of novel coronavirus\u2013infected pneumonia},\n  journal = {New England Journal of Medicine},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{hui-a,\n  author = {Hui, D.S. and Azhar, I. and E, Madani and T.A.},\n  title = {The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China},\n  journal = {International Journal of Infectious Diseases},\n  volume = {2020},\n  pages = {264\u2013266},\n  more-authors = {true},\n  number = {91},\n  language = {}\n}\n@article{zhu2020a,\n  author = {Zhu, N. and Zhang, D. and Wang, W.},\n  title = {A novel coronavirus from patients with pneumonia in China, 2019},\n  journal = {New England Journal of Medicine},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@incollection{unknown2020b,\n  url = {https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/},\n  booktitle = {on February 6th},\n  date = {2020},\n  language = {}\n}\n@article{chu2019a,\n  author = {Chu, D.K. and Pan, Y. and Cheng, S.},\n  title = {Molecular diagnosis of a novel coronavirus},\n  date = {2019},\n  journal = {Clinical Chemistry},\n  more-authors = {true},\n  source = {causing an outbreak of pneumonia},\n  language = {}\n}\n@article{lei2019a,\n  author = {Lei, J. and Li, J. and Li, X. and Qi, X.},\n  title = {CT Imaging of the 2019 Novel Coronavirus},\n  date = {2019},\n  journal = {Radiology},\n  volume = {2020},\n  source = {Pneumonia},\n  language = {}\n}\n@article{shi2019a,\n  author = {Shi, H. and Han, X. and Zheng, C.},\n  title = {Evolution of CT Manifestations in a Patient Recovered from 2019 Novel Coronavirus},\n  date = {2019},\n  journal = {Radiology},\n  volume = {2020},\n  source = {Pneumonia in Wuhan, China},\n  language = {}\n}\n@article{song2019a,\n  author = {Song, F. and Shi, N. and Shan, F.},\n  journal = {Emerging Coronavirus},\n  date = {2019},\n  note = {Pneumonia. Radiology},\n  more-authors = {true}\n}\n@misc{bradski2008a,\n  author = {Bradski, G. and Kaehler, A.},\n  title = {Learning OpenCV: Computer vision with the OpenCV library. \" O'Reilly Media, Inc.\"},\n  date = {2008},\n  language = {}\n}\n@inproceedings{he-a,\n  author = {He, K. and Zhang, X. and Ren, S. and Sun, J.},\n  title = {Deep residual learning for image recognition. Paper presented},\n  booktitle = {at: Proceedings of the IEEE conference on computer vision and pattern recognition2016},\n  language = {}\n}\n@inproceedings{lin-a,\n  author = {Lin, T.-Y. and Doll\u00e1r, P. and Girshick, R. and He, K. and Hariharan, B. and Belongie, S.},\n  title = {Feature pyramid networks for object detection. Paper presented},\n  booktitle = {at: Proceedings of the IEEE conference on computer vision and pattern recognition2017},\n  language = {}\n}\n@inproceedings{fu-a,\n  author = {Fu, J. and Zheng, H. and Mei, T.},\n  title = {Look closer to see better: Recurrent attention convolutional neural network for fine-grained image recognition. Paper presented},\n  booktitle = {at: Proceedings of the IEEE conference on computer vision and pattern recognition2017},\n  language = {}\n}\n@incollection{luna2020a,\n  author = {16, LUNA},\n  url = {Available},\n  booktitle = {at.(Assessed on February 6th},\n  date = {2020},\n  language = {}\n}\n@misc{iandola2014a,\n  author = {Iandola, F. and Moskewicz, M. and Karayev, S. and Girshick, R. and Darrell, T. and Keutzer, K.},\n  title = {Densenet: Implementing efficient convnet descriptor pyramids},\n  edition = {arXiv preprint arXiv: 14041869},\n  date = {2014},\n  language = {}\n}\n@misc{simonyan2014a,\n  author = {Simonyan, K. and Zisserman, A.},\n  title = {Very deep convolutional networks for large-scale image recognition},\n  edition = {arXiv preprint arXiv: 14091556},\n  date = {2014},\n  language = {}\n}\n",
+        "emails": [
+            "yangyd25@mail.sysu.edu.cn",
+            "zhayunfei999@126.com",
+            "chongyt@mail.sysu.edu.cn",
+            "shenjun@mail.sysu.edu.cn"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nVL  - 2020\nSP  - 497\nEP  - 506\nC1  - true\nIS  - 395\nLA  - \nER  - \n\nTY  - RPRT\nUR  - https://www.who.int.accessed\nC1  - February 5th\nPY  - 2020\nDA  - 2020\nC1  - WHO Homepage\nER  - \n\nTY  - JOUR\nAU  - Lu, R.\nAU  - Zhao, X.\nAU  - Li, J.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nT2  - The Lancet\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nTI  - Early transmission dynamics in Wuhan, China, of novel coronavirus\u2013infected pneumonia\nT2  - New England Journal of Medicine\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hui, D.S.\nAU  - Azhar, I.\nAU  - E, Madani\nAU  - T.A.\nTI  - The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China\nT2  - International Journal of Infectious Diseases\nVL  - 2020\nSP  - 264\nEP  - 266\nC1  - true\nIS  - 91\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, N.\nAU  - Zhang, D.\nAU  - Wang, W.\nTI  - A novel coronavirus from patients with pneumonia in China, 2019\nT2  - New England Journal of Medicine\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nUR  - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/\nT2  - on February 6th\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chu, D.K.\nAU  - Pan, Y.\nAU  - Cheng, S.\nTI  - Molecular diagnosis of a novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Clinical Chemistry\nC1  - true\nT2  - causing an outbreak of pneumonia\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lei, J.\nAU  - Li, J.\nAU  - Li, X.\nAU  - Qi, X.\nTI  - CT Imaging of the 2019 Novel Coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Radiology\nVL  - 2020\nT2  - Pneumonia\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shi, H.\nAU  - Han, X.\nAU  - Zheng, C.\nTI  - Evolution of CT Manifestations in a Patient Recovered from 2019 Novel Coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Radiology\nVL  - 2020\nT2  - Pneumonia in Wuhan, China\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Song, F.\nAU  - Shi, N.\nAU  - Shan, F.\nT2  - Emerging Coronavirus\nPY  - 2019\nDA  - 2019\nN1  - Pneumonia. Radiology\nC1  - true\nER  - \n\nTY  - GEN\nAU  - Bradski, G.\nAU  - Kaehler, A.\nTI  - Learning OpenCV: Computer vision with the OpenCV library. \" O'Reilly Media, Inc.\"\nPY  - 2008\nDA  - 2008\nLA  - \nER  - \n\nTY  - CONF\nAU  - He, K.\nAU  - Zhang, X.\nAU  - Ren, S.\nAU  - Sun, J.\nTI  - Deep residual learning for image recognition. Paper presented\nT2  - at: Proceedings of the IEEE conference on computer vision and pattern recognition2016\nLA  - \nER  - \n\nTY  - CONF\nAU  - Lin, T.-Y.\nAU  - Doll\u00e1r, P.\nAU  - Girshick, R.\nAU  - He, K.\nAU  - Hariharan, B.\nAU  - Belongie, S.\nTI  - Feature pyramid networks for object detection. Paper presented\nT2  - at: Proceedings of the IEEE conference on computer vision and pattern recognition2017\nLA  - \nER  - \n\nTY  - CONF\nAU  - Fu, J.\nAU  - Zheng, H.\nAU  - Mei, T.\nTI  - Look closer to see better: Recurrent attention convolutional neural network for fine-grained image recognition. Paper presented\nT2  - at: Proceedings of the IEEE conference on computer vision and pattern recognition2017\nLA  - \nER  - \n\nTY  - CHAP\nAU  - 16, LUNA\nUR  - Available\nT2  - at.(Assessed on February 6th\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - GEN\nAU  - Iandola, F.\nAU  - Moskewicz, M.\nAU  - Karayev, S.\nAU  - Girshick, R.\nAU  - Darrell, T.\nAU  - Keutzer, K.\nTI  - Densenet: Implementing efficient convnet descriptor pyramids\nET  - arXiv preprint arXiv: 14041869\nPY  - 2014\nDA  - 2014\nLA  - \nER  - \n\nTY  - GEN\nAU  - Simonyan, K.\nAU  - Zisserman, A.\nTI  - Very deep convolutional networks for large-scale image recognition\nET  - arXiv preprint arXiv: 14091556\nPY  - 2014\nDA  - 2014\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [
+            "In conclusion, our study demonstrated the feasibility of a deep learning approach to assist doctors to detect the patients with COVID-19 and automatically to identify the lesions from CT images. By achieving a high performance on both the pneumonia detection and classification tasks, the proposed system may enable a rapid identification of patients."
+        ],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Performance comparisons on pneumonia classification dataset"
+            },
+            {
+                "id": "2",
+                "caption": "Performance comparisons on pneumonia diagnosis dataset"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Illustration of DeepPneumonia framework"
+            },
+            {
+                "id": "2",
+                "caption": "Performance of the DRE-Net on the pneumonia classification. A) Receiver operating characteristic curves for the classification between COVID-19 and normal bacteria pneumonia. B) Confusion matrix of the DRE-Net on the test set"
+            },
+            {
+                "id": "3",
+                "caption": "Performance of the DRE-Net on the pneumonia diagnosis. A) Receiver operating characteristic curves for the diagnosis of COVID-19. B) Confusion matrix of the DRE-Net on the test set"
+            },
+            {
+                "id": "4",
+                "caption": "Visualization of the DeepPneumonia on the pneumonia diagnosis. For each patient, we showed the top-3 predicted slices and the extracted details (bounding boxes with red color) with normalized predicted scores above 0.8 (range from 0 to 1). The model can accurately identify the regions of the GGO abnormality"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.23.20026930.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.23.20026930.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.23.20026930.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.23.20026930.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.23.20026930.full/img-006.png"
+        ]
+    },
+    "sections": {
+        "background": [
+            "A novel coronavirus (COVID-19) has emerged recently as an acute respiratory syndrome. The outbreak was originally reported in Wuhan, China, but has subsequently been spread world-widely. As the COVID-19 continues to spread rapidly across the world, computed tomography (CT) has become essentially important for fast diagnoses. Thus, it is urgent to develop an accurate computer-aided method to assist clinicians to identify COVID-19-infected patients by CT images."
+        ],
+        "methods": [
+            "We collected chest CT scans of 88 patients diagnosed with the COVID-19 from hospitals of two provinces in China, 101 patients infected with bacteria pneumonia, and 86 healthy persons for comparison and modeling. Based on the collected dataset, a deep learning-based CT diagnosis system (DeepPneumonia) was developed to identify patients with COVID-19.",
+            "Our institutional review board waived written informed consent for this study that evaluated de-identified data and involved no potential risk to patients. Data acquisition This study is based on the reliable resources that were provided by the Renmin Hospital of Wuhan University, and two affiliated hospitals (the Third Affiliated Hospital and Sun Yat-Sen Memorial Hospital) of the Sun Yat-sen University in Guangzhou.<br/><br/>We obtained totally CT images of 88 COVID-19 infected patients, which comprised of 76 and 12 patients from the Renmin Hospital of Wuhan University and the Third Affiliated Hospital, respectively. Wuhan\u2019s chest CT examinations were performed with a 64-section scanner (Optima 680, GE Medical Systems, Milwaukee, WI, USA) without the use of contrast material. The CT protocol was as follows: 120 kV; automatic tube current; detector, 35 mm; rotation time, 0.35 second; section thickness, 5 mm; collimation, 0.75 mm; pitch, 1-1.2; matrix, 512\u00d7512; and inspiration breath hold. The images were photographed at lung (window width, 1000\u20131500 HU; window level, \u2013700 HU) and mediastinal (window width, 350 HU; window level, 35\u2013 40 HU) settings. The reconstructions were made at 0.625 mm slice thickness on lung settings. These data consist of only transverse plane images of lung. For patients in Guangzhou, we obtained his/her lung images in anterior view, lateral view and transverse view. The chest CT examinations were performed with a 64-slice spiral scanner (Somatom Sensation 64; Siemens, Germany)."
+        ],
+        "results": [
+            "The experimental results showed that our model can accurately identify the COVID-19 patients from others with an excellent AUC of 0.99 and recall (sensitivity) of 0.93. In addition, our model was capable of discriminating the COVID-19 infected patients and bacteria pneumonia-infected patients with an AUC of 0.95, recall (sensitivity) of 0.96. Moreover, our model could localize the main lesion features, especially the groundglass opacity (GGO) that is of great help to assist doctors in diagnosis. The diagnosis for a patient could be finished in 30 seconds, and the implementation on Tianhe-2 supercompueter enables a parallel executions of thousands of tasks simultaneously. An online server is available for online diagnoses with CT images by http://biomed.nsccgz.cn/server/Ncov2019.",
+            "<strong>Results and discussion</strong><br/><br/>Deep Learning Model for Pneumonia Classification An important tool for assisted diagnoses is to accurately discriminate the bacterial pneumonia and viral pneumonia (COVID-19) in order to decrease the unnecessary waste of medical resources. To this end, we built a pneumonia classification model based on 88 COVID-19 and 100 bacterial pneumonia patients, from which we collected 777 and 505 images. By tuning hyperparameters according to the validation set, we achieved AUC of 0.91 in the image level, and AUC of 0.95 in the human level. The performances are essentially the same on the test set with AUC of 0.92 in the image level, and AUC of 0.95 and recall of 0.96 in the human level. The higher AUC in the test set is partly due to the relatively small datasets. To indicate the effectiveness of our proposed DRENet architecture, we also employed deep residual network (Resnet),[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] DenseNet[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], and VGG1618 for comparisons. As shown in Table 1, by selecting the topK important details and the relationships among them, our DRE-Net improves about 7.0% recall and 3.0% F1-score over VGG16 with the same fold assignments, respectively. Figure 2 shows the receiver-operating characteristic curves for comparisons with other baseline models and the confusion matrix of DRE-Net on the test set."
+        ],
+        "conclusions": [
+            "The established models can achieve a rapid and accurate identification of COVID-19 in human samples, thereby allowing identification of patients."
+        ],
+        "introduction": [
+            "In late December, 2019, a cluster of pneumonia cases with unknown etiology were reported in Wuhan city, Hubei Province, China.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] Deep sequencing analyses from lower respiratory tract samples revealed a novel coronavirus that was currently named 2019 novel coronavirus (COVID-19) by the World Health Organization (WHO),[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] which resembled severe acute respiratory syndrome coronavirus (SARS-CoV).[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] Outbreaks in healthcare workers and families indicated human-to-human transmission.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] The COVID-19 is a beta-CoV of group 2B with at least 70% similarity in genetic sequence to SARS-CoV 5 and is the seventh member of the family of enveloped RNA coronavirus that infect humans. 6<br/><br/>Since January 17, the confirmed cases dramatically increased, and COVID-19 has been designated as a public health emergency of international concerns by the WHO. As of February 23, 2020, China has documented 77048 confirmed cases while the death toll rose to 2445. Moreover, more than 2000 confirmed cases were identified in other countries worldwide. The COVID-19 has posed significant threats to international health. 7"
+        ],
+        "conclusion": [
+            "In conclusion, our study demonstrated the feasibility of a deep learning approach to assist doctors to detect the patients with COVID-19 and automatically to identify the lesions from CT images. By achieving a high performance on both the pneumonia detection and classification tasks, the proposed system may enable a rapid identification of patients."
+        ],
+        "funding": [
+            "The work was supported in part by the National Key R&D Program of China (2018YFC0910500), National Natural Science Foundation of China (U1611261, 61772566, and 81801132), Guangdong Frontier & Key Tech Innovation Program (2018B010109006 and 2019B020228001), Natural Science Foundation of Guangdong, China (2019A1515012207), and Introducing Innovative and Entrepreneurial Teams (2016ZT06D211).  Reference 1. Huang C, Wang Y, Li X, et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020;395(10223):[497-506]. 2. WHO Homepage. Available at: https://www.who.int.accessed February 5th, 2020."
+        ],
+        "ethical_compliance": [
+            "Our institutional review board waived written informed consent for this study that evaluated de-identified data and involved no potential risk to patients"
+        ]
+    },
+    "structured_content": {
+        "Background": [
+            "A novel coronavirus (COVID-19) has emerged recently as an acute respiratory syndrome. The outbreak was originally reported in Wuhan, China, but has subsequently been spread world-widely. As the COVID-19 continues to spread rapidly across the world, computed tomography (CT) has become essentially important for fast diagnoses. Thus, it is urgent to develop an accurate computer-aided method to assist clinicians to identify COVID-19-infected patients by CT images."
+        ],
+        "Materials and Methods": [
+            "Our institutional review board waived written informed consent for this study that evaluated de-identified data and involved no potential risk to patients. Data acquisition This study is based on the reliable resources that were provided by the Renmin Hospital of Wuhan University, and two affiliated hospitals (the Third Affiliated Hospital and Sun Yat-Sen Memorial Hospital) of the Sun Yat-sen University in Guangzhou.",
+            "We obtained totally CT images of 88 COVID-19 infected patients, which comprised of 76 and 12 patients from the Renmin Hospital of Wuhan University and the Third Affiliated Hospital, respectively. Wuhan\u2019s chest CT examinations were performed with a 64-section scanner (Optima 680, GE Medical Systems, Milwaukee, WI, USA) without the use of contrast material. The CT protocol was as follows: 120 kV; automatic tube current; detector, 35 mm; rotation time, 0.35 second; section thickness, 5 mm; collimation, 0.75 mm; pitch, 1-1.2; matrix, 512\u00d7512; and inspiration breath hold. The images were photographed at lung (window width, 1000\u20131500 HU; window level, \u2013700 HU) and mediastinal (window width, 350 HU; window level, 35\u2013 40 HU) settings. The reconstructions were made at 0.625 mm slice thickness on lung settings. These data consist of only transverse plane images of lung. For patients in Guangzhou, we obtained his/her lung images in anterior view, lateral view and transverse view. The chest CT examinations were performed with a 64-slice spiral scanner (Somatom Sensation 64; Siemens, Germany).",
+            "All patients' nasopharyngeal swabs were subjected to nucleic acid kit lysis extraction and calculation to the laboratory of Renmin Hospital of Wuhan University performed fluorescence RT-PCR to detect the viral nucleic acid gene sequence, and compared it with the novel coronavirus nucleocapsid protein gene (nCoV-NP) and the novel coronavirus open reading coding frame lab (nCoV ORFlab) sequence. The results were positive, and the HRCT image quality of the chest was acceptable, with no significant artifacts or missing images.",
+            "For comparison, we also retrieved CT underwent chest images of 86 healthy people and 100 patients with bacterial pneumonia from the Renmin Hospital of Wuhan University and Sun Yat-Sen Memorial Hospital.",
+            "Model Architecture and Model Training We developed a deep learning-based CT diagnosis system (referred to as DeepPneumonia) to assist doctors to detect the COVID-19 causing pneumonia and to localize the main lesions. As shown in Figure 1, our fully automated lung CT diagnosis system was developed by three main steps. First, we extracted the main regions of lungs and filled the blank of lung segmentation with the lung itself to avoid noises caused by different lung contours. Then, we designed a Details Relation Extraction neural network (DRE-Net) to extract the top-K details in the CT images and obtain the image-level predictions. Finally, the image-level predictions were aggregated to achieve patientlevel diagnoses.",
+            "Data preprocessing. Each set of 3D CT images was equally divided into 15 slices. The slices with incomplete lung were removed. The lung region in each slice were automatically extracted by the open source package OpenCV.[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>] As the lung contours are of large differences between humans, the images were filled with an background composed of 10 translational and rotational lungs. Finally, we kept 88 COVID-19 patients with 777 CT images, 100 bacterial pneumonia patients with 505 slices, and 86 healthy people with 708 slices in this study.",
+            "DRE-Net. Our training models were concretely constructed on the pretrained ResNet5013, on which the Feature Pyramid Network (FPN) 14 was added to extract the top-K details from each image. An attention module is coupled to learn the importance of each detail.[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] By using the FPN and attention modules, our model can not only detect the most important part of images, but also interpret the outputs by the neural network.",
+            "Aggregation. The image-level scored results of slices were aggregated for each patient. Here, the mean pooling was used to integrate the image-level results into the morbidity of each person as the human-level result.",
+            "Implementation and evaluation For practical purposes, we designed the models with two tasks, discriminating COVID19-infected patients from the bacterial-infected patients, and separating COVID-19 patients from healthy controls, respectively. For each task, we employed the patientlevel split strategy following the LUNA16 competition[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] by using random splits of 60%/10%/30% for training, validation, and test sets, respectively. The training set were used to train models, and the validation set was used to optimize the hyperparameters for the best performance. The final optimal models were independently assessed on the test set. We computed accuracy, precision, recall as",
+            "where TP, TN, FP, and FN are the numbers of true positives, true negatives, false positives, and false negatives, respectively. We also computed Area under the receiveroperating characteristics Curve (AUC) by the scikit-learn 0.19 (scikit-learn.org)."
+        ],
+        "Results": [
+            "The experimental results showed that our model can accurately identify the COVID-19 patients from others with an excellent AUC of 0.99 and recall (sensitivity) of 0.93. In addition, our model was capable of discriminating the COVID-19 infected patients and bacteria pneumonia-infected patients with an AUC of 0.95, recall (sensitivity) of 0.96. Moreover, our model could localize the main lesion features, especially the groundglass opacity (GGO) that is of great help to assist doctors in diagnosis. The diagnosis for a patient could be finished in 30 seconds, and the implementation on Tianhe-2 supercompueter enables a parallel executions of thousands of tasks simultaneously. An online server is available for online diagnoses with CT images by http://biomed.nsccgz.cn/server/Ncov2019."
+        ],
+        "Conclusions": [
+            "The established models can achieve a rapid and accurate identification of COVID-19 in human samples, thereby allowing identification of patients."
+        ],
+        "Introduction": [
+            "In late December, 2019, a cluster of pneumonia cases with unknown etiology were reported in Wuhan city, Hubei Province, China.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] Deep sequencing analyses from lower respiratory tract samples revealed a novel coronavirus that was currently named 2019 novel coronavirus (COVID-19) by the World Health Organization (WHO),[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] which resembled severe acute respiratory syndrome coronavirus (SARS-CoV).[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] Outbreaks in healthcare workers and families indicated human-to-human transmission.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] The COVID-19 is a beta-CoV of group 2B with at least 70% similarity in genetic sequence",
+            "to SARS-CoV 5 and is the seventh member of the family of enveloped RNA coronavirus that infect humans. 6",
+            "Since January 17, the confirmed cases dramatically increased, and COVID-19 has been designated as a public health emergency of international concerns by the WHO. As of February 23, 2020, China has documented 77048 confirmed cases while the death toll rose to 2445. Moreover, more than 2000 confirmed cases were identified in other countries worldwide. The COVID-19 has posed significant threats to international health. 7",
+            "The spectrum of this disease in humans is yet to be fully determined. Signs of infection are nonspecific, including respiratory symptoms, fever, cough, dyspnea, and viral pneumonia.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] With the daily increase in the number of newly diagnosed and suspected cases, the diagnosis has become a growing problem in major hospitals due to the insufficient supply of nucleic acid detection boxes and limited detection rates in the epidemic area.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] Computed tomography (CT) and radiography have thus emerged as integral players in the COVID-19\u2019s preliminary identification and diagnosis.[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>-<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] However, the overwhelming patients and relatively insufficient radiologists led to high false positive rate.[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] Advanced computer-aided lung CT diagnosis systems are urgently needed for accurately confirming suspected cases, screening patients, and conducting virus surveillance.",
+            "In this study, we have developed a deep learning-based lung CT diagnosis system to detect the patients with COVID-19, which can automatically extract radiographic features of the novel pneumonia, especially the ground-glass opacity (GGO) from radiographs."
+        ],
+        "Results and discussion": [
+            "Deep Learning Model for Pneumonia Classification An important tool for assisted diagnoses is to accurately discriminate the bacterial pneumonia and viral pneumonia (COVID-19) in order to decrease the unnecessary waste of medical resources. To this end, we built a pneumonia classification model based on 88 COVID-19 and 100 bacterial pneumonia patients, from which we collected 777 and 505 images. By tuning hyperparameters according to the validation set, we achieved AUC of 0.91 in the image level, and AUC of 0.95 in the human level. The performances are essentially the same on the test set with AUC of 0.92 in the image level, and AUC of 0.95 and recall of 0.96 in the human level. The higher AUC in the test set is partly due to the relatively small datasets. To indicate the effectiveness of our proposed DRENet architecture, we also employed deep residual network (Resnet),[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] DenseNet[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], and VGG1618 for comparisons. As shown in Table 1, by selecting the topK important details and the relationships among them, our DRE-Net improves about 7.0% recall and 3.0% F1-score over VGG16 with the same fold assignments, respectively. Figure 2 shows the receiver-operating characteristic curves for comparisons with other baseline models and the confusion matrix of DRE-Net on the test set.",
+            "Deep Learning Model for Pneumonia Diagnosis Additionally, we also performed experiments on 88 COVID-19 patients and 86 healthy persons, from which 777 and 708 images were collected. By tuning hyperparameters on the 10% validation set, we achieved AUC of 0.97 in the image level, and 0.99 in the patient level. The performances are essentially the same on the test set with 0.98 in the image level, and AUC of 0.99 and recall of 0.93 in the patient level.",
+            "As shown in Table 2, DRE-Net achieved better performance than those of ResNet, DenseNet and VGG16 because of the strong power of details extraction. The high performance of these deep learning models also demonstrated that the CT images of pneumonia patients and healthy people were well differentiated.",
+            "The receiver-operating characteristic curves for comparisons with other baseline models and the confusion matrix are shown in Figure 3.",
+            "Model Interpretation and Visualization Another advantage of our model is its interpretability. In diagnosis of COVID-19, ground-glass opacity (GGO) in CT image is one of the most important factors to recognize the patients.[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>-<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] Therefore, we expected our model can localize GGO in CT images, especially in the early stage patients and suspected patients. We visualized the automatically extracted details of two successfully predicted pneumonia patients from the test set. For each patient, the top 3 predicted slices and the extracted details were indicated with predicted scores above 0.8 (range from 0 to 1). As shown in Figure 4, the assessments of DRNet mainly focused on the region of the GGO abnormality. These findings indicate that DRNet learned to assess the correct features instead of learning image correlations. Moreover, our model provides reasonable clues on the factors for its judgements, which is of great help to assist doctors in diagnosis."
+        ],
+        "Conclusion": [
+            "In conclusion, our study demonstrated the feasibility of a deep learning approach to assist doctors to detect the patients with COVID-19 and automatically to identify the lesions from CT images. By achieving a high performance on both the pneumonia detection and classification tasks, the proposed system may enable a rapid identification of patients."
+        ],
+        "Funding": [
+            "The work was supported in part by the National Key R&D Program of China (2018YFC0910500), National Natural Science Foundation of China (U1611261, 61772566, and 81801132), Guangdong Frontier & Key Tech Innovation Program (2018B010109006 and 2019B020228001), Natural Science Foundation of Guangdong, China (2019A1515012207), and Introducing Innovative and Entrepreneurial Teams (2016ZT06D211).",
+            "1. Huang C, Wang Y, Li X, et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020;395(10223):[497-506].",
+            "2. WHO Homepage. Available at: https://www.who.int.accessed February 5th, 2020.",
+            "3. Lu R, Zhao X, Li J, et al Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. The Lancet. 2020.",
+            "4. Li Q, Guan X, Wu P, et al Early transmission dynamics in Wuhan, China, of novel coronavirus\u2013infected pneumonia. New England Journal of Medicine. 2020.",
+            "5. Hui DS, I Azhar E, Madani TA, et al The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China. International Journal of Infectious Diseases. 2020;91:264-266.",
+            "6. Zhu N, Zhang D, Wang W, et al A novel coronavirus from patients with pneumonia in",
+            "China, 2019. New England Journal of Medicine. 2020.",
+            "Reports, WHONC-ns.",
+            "Available at: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/ (Assessed on February 6th, 2020).",
+            "8. Chu DK, Pan Y, Cheng S, et al Molecular diagnosis of a novel coronavirus (2019-nCoV)",
+            "causing an outbreak of pneumonia. Clinical Chemistry. 2020.",
+            "9. Lei J, Li J, Li X, Qi X. CT Imaging of the 2019 Novel Coronavirus (2019-nCoV) Pneumonia.",
+            "Radiology. 2020:200236.",
+            "10. Shi H, Han X, Zheng C. Evolution of CT Manifestations in a Patient Recovered from 2019",
+            "Novel Coronavirus (2019-nCoV) Pneumonia in Wuhan, China. Radiology. 2020:200269.",
+            "11. Song F, Shi N, Shan F, et al Emerging Coronavirus 2019-nCoV Pneumonia. Radiology.",
+            "2020:200274.",
+            "12. Bradski G, Kaehler A. Learning OpenCV: Computer vision with the OpenCV library. \"",
+            "O'Reilly Media, Inc.\"; 2008.",
+            "13. He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. Paper presented at: Proceedings of the IEEE conference on computer vision and pattern recognition2016.",
+            "14. Lin T-Y, Doll\u00e1r P, Girshick R, He K, Hariharan B, Belongie S. Feature pyramid networks for object detection. Paper presented at: Proceedings of the IEEE conference on computer vision and pattern recognition2017.",
+            "15. Fu J, Zheng H, Mei T. Look closer to see better: Recurrent attention convolutional neural network for fine-grained image recognition. Paper presented at: Proceedings of the IEEE conference on computer vision and pattern recognition2017.",
+            "16. LUNA 16. Available at.(Assessed on February 6th, 2020). 17. Iandola F, Moskewicz M, Karayev S, Girshick R, Darrell T, Keutzer K. Densenet: Implementing efficient convnet descriptor pyramids. arXiv preprint arXiv:14041869. 2014. 18. Simonyan K, Zisserman A. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:14091556. 2014."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "patients",
+            "number": 88,
+            "context": "Materials and Methods. <mark class=\"stats\">We collected chest CT scans of 88 patients diagnosed with the COVID-19 from hospitals of two provinces in China, 101 patients infected with bacteria pneumonia, and 86 healthy persons for comparison and modeling</mark>. Based on the collected dataset, a deep learning-based CT diagnosis system (DeepPneumonia) was developed to identify patients with COVID-19"
+        },
+        {
+            "participant": "patients",
+            "number": 88,
+            "context": "The established models can achieve a rapid and accurate identification of COVID-19 in human samples, thereby allowing identification of patients. <mark class=\"stats\">We collected chest CT scans of 88 patients diagnosed with the COVID-19 from hospitals of two provinces in China, 101 patients infected with bacteria pneumonia, and 86 healthy persons for comparison and modeling</mark>. Based on the collected dataset, a deep learning-based CT diagnosis system (DeepPneumonia) was developed to identify patients with COVID-19"
+        },
+        {
+            "participant": "patients",
+            "number": 12,
+            "context": "Our institutional review board waived written informed consent for this study that evaluated de-identified data and involved no potential risk to patients. <mark class=\"stats\">Data acquisition This study is based on the reliable resources that were provided by the Renmin Hospital of Wuhan University, and two affiliated hospitals (the Third Affiliated Hospital and Sun Yat-Sen Memorial Hospital) of the Sun Yat-sen University in Guangzhou.<br/><br/>We obtained totally CT images of 88 COVID-19 infected patients, which comprised of 76 and 12 patients from the Renmin Hospital of Wuhan University and the Third Affiliated Hospital, respectively</mark>. Wuhan\u2019s chest CT examinations were performed with a 64-section scanner (Optima 680, GE Medical Systems, Milwaukee, WI, USA) without the use of contrast material"
+        },
+        {
+            "participant": "patients",
+            "number": 12,
+            "context": "Data acquisition This study is based on the reliable resources that were provided by the Renmin Hospital of Wuhan University, and two affiliated hospitals (the Third Affiliated Hospital and Sun Yat-Sen Memorial Hospital) of the Sun Yat-sen University in Guangzhou. <mark class=\"stats\">We obtained totally CT images of 88 COVID-19 infected patients, which comprised of 76 and 12 patients from the Renmin Hospital of Wuhan University and the Third Affiliated Hospital, respectively</mark>. Wuhan\u2019s chest CT examinations were performed with a 64-section scanner (Optima 680, GE Medical Systems, Milwaukee, WI, USA) without the use of contrast material"
+        },
+        {
+            "participant": "healthy people",
+            "number": 86,
+            "context": "The results were positive, and the HRCT image quality of the chest was acceptable, with no significant artifacts or missing images. <mark class=\"stats\">For comparison, we also retrieved CT underwent chest images of 86 healthy people and 100 patients with bacterial pneumonia from the Renmin Hospital of Wuhan University and Sun Yat-Sen Memorial Hospital</mark>. Model Architecture and Model Training We developed a deep learning-based CT diagnosis system (referred to as DeepPneumonia) to assist doctors to detect the COVID-19 causing pneumonia and to localize the main lesions"
+        },
+        {
+            "participant": "bacterial pneumonia patients with 505 slices",
+            "number": 100,
+            "context": "The lung region in each slice were automatically extracted by the open source package OpenCV.[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>] As the lung contours are of large differences between humans, the images were filled with an background composed of 10 translational and rotational lungs. <mark class=\"stats\">Finally, we kept 88 COVID-19 patients with 777 CT images, 100 bacterial pneumonia patients with 505 slices, and 86 healthy people with 708 slices in this study</mark>. DRE-Net"
+        },
+        {
+            "participant": "patients",
+            "number": 88,
+            "context": "Thus, it is urgent to develop an accurate computer-aided method to assist clinicians to identify COVID-19-infected patients by CT images. <mark class=\"stats\">We collected chest CT scans of 88 patients diagnosed with the COVID-19 from hospitals of two provinces in China, 101 patients infected with bacteria pneumonia, and 86 healthy persons for comparison and modeling</mark>. Based on the collected dataset, a deep learning-based CT diagnosis system (DeepPneumonia) was developed to identify patients with COVID-19"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 77048,
+            "context": "Since January 17, the confirmed cases dramatically increased, and COVID-19 has been designated as a public health emergency of international concerns by the WHO. <mark class=\"stats\">As of February 23, 2020, China has documented 77048 confirmed cases while the death toll rose to 2445</mark>. Moreover, more than 2000 confirmed cases were identified in other countries worldwide"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 2000,
+            "context": "As of February 23, 2020, China has documented 77048 confirmed cases while the death toll rose to 2445. <mark class=\"stats\">Moreover, more than 2000 confirmed cases were identified in other countries worldwide</mark>. The COVID-19 has posed significant threats to international health. 7"
+        },
+        {
+            "participant": "bacterial pneumonia patients with 505 slices",
+            "number": 100,
+            "context": "As the lung contours are of large differences between humans, the images were filled with an background composed of 10 translational and rotational lungs. <mark class=\"stats\">Finally, we kept 88 COVID-19 patients with 777 CT images, 100 bacterial pneumonia patients with 505 slices, and 86 healthy people with 708 slices in this study</mark>. DRE-Net"
+        },
+        {
+            "participant": "bacterial pneumonia patients",
+            "number": 100,
+            "context": "Deep Learning Model for Pneumonia Classification An important tool for assisted diagnoses is to accurately discriminate the bacterial pneumonia and viral pneumonia (COVID-19) in order to decrease the unnecessary waste of medical resources. <mark class=\"stats\">To this end, we built a pneumonia classification model based on 88 COVID-19 and 100 bacterial pneumonia patients, from which we collected 777 and 505 images</mark>. By tuning hyperparameters according to the validation set, we achieved AUC of 0.91 in the image level, and AUC of 0.95 in the human level"
+        },
+        {
+            "participant": "healthy persons",
+            "number": 86,
+            "context": "Recall Precision F1-score Accuracy. <mark class=\"stats\">Deep Learning Model for Pneumonia Diagnosis Additionally, we also performed experiments on 88 COVID-19 patients and 86 healthy persons, from which 777 and 708 images were collected</mark>. By tuning hyperparameters on the 10% validation set, we achieved AUC of 0.97 in the image level, and 0.99 in the patient level"
+        },
+        {
+            "participant": "successfully predicted pneumonia patients",
+            "number": 2,
+            "context": "Therefore, we expected our model can localize GGO in CT images, especially in the early stage patients and suspected patients. <mark class=\"stats\">We visualized the automatically extracted details of two successfully predicted pneumonia patients from the test set</mark>. For each patient, the top 3 predicted slices and the extracted details were indicated with predicted scores above 0.8 (range from 0 to 1)"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "Area under the receiveroperating characteristics Curve",
+        "bacteria pneumonia",
+        "accurate identification",
+        "World Health Organization",
+        "Feature Pyramid Network",
+        "residual network",
+        "ct image",
+        "acute respiratory syndrome",
+        "tomography",
+        "computed tomography",
+        "accurate computer",
+        "coronavirus",
+        "diagnoses",
+        "COVID-19",
+        "infected patient",
+        "novel coronavirus nucleocapsid protein gene",
+        "ground-glass opacity",
+        "pneumonia",
+        "Details Relation Extraction neural network",
+        "novel coronavirus",
+        "fast diagnosis",
+        "human sample"
+    ],
+    "keyword_relevance": {
+        "computed tomography": 0.1588235294117647,
+        "COVID-19": 0.15294117647058825,
+        "pneumonia": 0.1411764705882353,
+        "coronavirus": 0.08823529411764706,
+        "Area under the receiveroperating characteristics Curve": 0.07647058823529412,
+        "Details Relation Extraction neural network": 0.07058823529411765,
+        "novel coronavirus": 0.07058823529411765,
+        "ground-glass opacity": 0.047058823529411764,
+        "World Health Organization": 0.03529411764705882,
+        "infected patient": 0.03529411764705882,
+        "diagnoses": 0.023529411764705882,
+        "bacteria pneumonia": 0.01764705882352941,
+        "Feature Pyramid Network": 0.01764705882352941,
+        "residual network": 0.011764705882352941,
+        "acute respiratory syndrome": 0.011764705882352941,
+        "tomography": 0.011764705882352941,
+        "novel coronavirus nucleocapsid protein gene": 0.011764705882352941,
+        "accurate identification": 0.0058823529411764705,
+        "accurate computer": 0.0058823529411764705,
+        "human sample": 0.0058823529411764705,
+        "ct image": 0.0,
+        "fast diagnosis": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> In late December, 2019, a cluster of pneumonia cases with unknown etiology were reported in Wuhan city, Hubei Province, China.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "6. Since January 17, the confirmed cases dramatically increased, and COVID-19 has been designated as a public health emergency of international concerns by the WHO.",
+        "It is urgent to develop an accurate computer-aided method to assist clinicians to identify COVID-19-infected patients by CT images",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors collected chest CT scans of 88 patients diagnosed with the COVID-19 from hospitals of two provinces in China, 101 patients infected with bacteria pneumonia, and 86 healthy persons for comparison and modeling.",
+        "The authors obtained totally CT images of 88 COVID-19 infected patients, which comprised of 76 and 12 patients from the Renmin Hospital of Wuhan University and the Third Affiliated Hospital, respectively.",
+        "The reconstructions were made at 0.625 mm slice thickness on lung settings.",
+        "These data consist of only transverse plane images of lung.",
+        "For patients in Guangzhou, the authors obtained his/her lung images in anterior view, lateral view and transverse view.",
+        "The chest CT examinations were performed with a 64-slice spiral scanner (Somatom Sensation 64; Siemens, Germany)",
+        "<h2 style=\"display: inline\">Results:</h2> The experimental results showed that the model can accurately identify the COVID-19 patients from others with an excellent AUC of 0.99 and recall of 0.93.",
+        "Deep Learning Model for Pneumonia Classification An important tool for assisted diagnoses is to accurately discriminate the bacterial pneumonia and viral pneumonia (COVID-19) in order to decrease the unnecessary waste of medical resources.",
+        "To this end, the authors built a pneumonia classification model based on 88 COVID-19 and 100 bacterial pneumonia patients, from which the authors collected 777 and 505 images.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The established models can achieve a rapid and accurate identification of COVID-19 in human samples, thereby allowing identification of patients."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "In late December, 2019, a cluster of pneumonia cases with unknown etiology were reported in Wuhan city, Hubei Province, China.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "6. Since January 17, the confirmed cases dramatically increased, and COVID-19 has been designated as a public health emergency of international concerns by the WHO.",
+            "It is urgent to develop an accurate computer-aided method to assist clinicians to identify COVID-19-infected patients by CT images"
+        ],
+        "Methods": [
+            "The authors collected chest CT scans of 88 patients diagnosed with the COVID-19 from hospitals of two provinces in China, 101 patients infected with bacteria pneumonia, and 86 healthy persons for comparison and modeling.",
+            "The authors obtained totally CT images of 88 COVID-19 infected patients, which comprised of 76 and 12 patients from the Renmin Hospital of Wuhan University and the Third Affiliated Hospital, respectively.",
+            "The reconstructions were made at 0.625 mm slice thickness on lung settings.",
+            "These data consist of only transverse plane images of lung.",
+            "For patients in Guangzhou, the authors obtained his/her lung images in anterior view, lateral view and transverse view.",
+            "The chest CT examinations were performed with a 64-slice spiral scanner (Somatom Sensation 64; Siemens, Germany)"
+        ],
+        "Results": [
+            "The experimental results showed that the model can accurately identify the COVID-19 patients from others with an excellent AUC of 0.99 and recall of 0.93.",
+            "Deep Learning Model for Pneumonia Classification An important tool for assisted diagnoses is to accurately discriminate the bacterial pneumonia and viral pneumonia (COVID-19) in order to decrease the unnecessary waste of medical resources.",
+            "To this end, the authors built a pneumonia classification model based on 88 COVID-19 and 100 bacterial pneumonia patients, from which the authors collected 777 and 505 images."
+        ],
+        "Conclusion": [
+            "The established models can achieve a rapid and accurate identification of COVID-19 in human samples, thereby allowing identification of patients."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Huang_et+al_2019_a",
+            "entry": "1. Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020;395(10223):497-506.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20Wang%20Y%20Li%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%20202039510223497506",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Huang%20C%20Wang%20Y%20Li%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%20202039510223497506",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Huang%20C%20Wang%20Y%20Li%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%20202039510223497506"
+        },
+        {
+            "id": "2",
+            "alt_id": "2._2020_a",
+            "entry": "2. WHO Homepage. Available at: https://www.who.int.accessed February 5th, 2020.",
+            "url": "https://www.who.int.accessed"
+        },
+        {
+            "id": "3",
+            "alt_id": "Lu_et+al_2020_a",
+            "entry": "3. Lu R, Zhao X, Li J, et al. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. The Lancet. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lu%20R%20Zhao%20X%20Li%20J%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20The%20Lancet%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lu%20R%20Zhao%20X%20Li%20J%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20The%20Lancet%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lu%20R%20Zhao%20X%20Li%20J%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20The%20Lancet%202020"
+        },
+        {
+            "id": "4",
+            "alt_id": "Li_et+al_2020_a",
+            "entry": "4. Li Q, Guan X, Wu P, et al. Early transmission dynamics in Wuhan, China, of novel coronavirus\u2013infected pneumonia. New England Journal of Medicine. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20transmission%20dynamics%20in%20Wuhan%2C%20China%2C%20of%20novel%20coronavirus%E2%80%93infected%20pneumonia%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20transmission%20dynamics%20in%20Wuhan%2C%20China%2C%20of%20novel%20coronavirus%E2%80%93infected%20pneumonia%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20transmission%20dynamics%20in%20Wuhan%2C%20China%2C%20of%20novel%20coronavirus%E2%80%93infected%20pneumonia%202020"
+        },
+        {
+            "id": "5",
+            "alt_id": "Hui_et+al_2019_a",
+            "entry": "5. Hui DS, I Azhar E, Madani TA, et al. The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China. International Journal of Infectious Diseases. 2020;91:264-266.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hui%20DS%20I%20Azhar%20E%20Madani%20TA%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20International%20Journal%20of%20Infectious%20Diseases%20202091264266",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hui%20DS%20I%20Azhar%20E%20Madani%20TA%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20International%20Journal%20of%20Infectious%20Diseases%20202091264266",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hui%20DS%20I%20Azhar%20E%20Madani%20TA%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20International%20Journal%20of%20Infectious%20Diseases%20202091264266"
+        },
+        {
+            "id": "6",
+            "alt_id": "Zhu_et+al_2020_a",
+            "entry": "6. Zhu N, Zhang D, Wang W, et al. A novel coronavirus from patients with pneumonia in China, 2019. New England Journal of Medicine. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhu%20N%20Zhang%20D%20Wang%20W%20et%20al%20A%20novel%20coronavirus%20from%20patients%20with%20pneumonia%20in%20China%202019%20New%20England%20Journal%20of%20Medicine%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhu%20N%20Zhang%20D%20Wang%20W%20et%20al%20A%20novel%20coronavirus%20from%20patients%20with%20pneumonia%20in%20China%202019%20New%20England%20Journal%20of%20Medicine%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhu%20N%20Zhang%20D%20Wang%20W%20et%20al%20A%20novel%20coronavirus%20from%20patients%20with%20pneumonia%20in%20China%202019%20New%20England%20Journal%20of%20Medicine%202020"
+        },
+        {
+            "id": "Available_2020_b",
+            "alt_id": "7",
+            "entry": "Available at: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/ (Assessed on February 6th, 2020).",
+            "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situationreports/",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Available%20at%20httpswwwwhointemergenciesdiseasesnovelcoronavirus2019situationreports%20Assessed%20on%20February%206th%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Available%20at%20httpswwwwhointemergenciesdiseasesnovelcoronavirus2019situationreports%20Assessed%20on%20February%206th%202020"
+        },
+        {
+            "id": "8",
+            "alt_id": "Chu_et+al_2019_a",
+            "entry": "8. Chu DK, Pan Y, Cheng S, et al. Molecular diagnosis of a novel coronavirus (2019-nCoV) causing an outbreak of pneumonia. Clinical Chemistry. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chu%2C%20D.K.%20Pan%2C%20Y.%20Cheng%2C%20S.%20Molecular%20diagnosis%20of%20a%20novel%20coronavirus%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chu%2C%20D.K.%20Pan%2C%20Y.%20Cheng%2C%20S.%20Molecular%20diagnosis%20of%20a%20novel%20coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chu%2C%20D.K.%20Pan%2C%20Y.%20Cheng%2C%20S.%20Molecular%20diagnosis%20of%20a%20novel%20coronavirus%202019"
+        },
+        {
+            "id": "9",
+            "alt_id": "Lei_et+al_2019_a",
+            "entry": "9. Lei J, Li J, Li X, Qi X. CT Imaging of the 2019 Novel Coronavirus (2019-nCoV) Pneumonia. Radiology. 2020:200236.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lei%20J%20Li%20J%20Li%20X%20Qi%20X%20CT%20Imaging%20of%20the%202019%20Novel%20Coronavirus%202019nCoV%20Pneumonia%20Radiology%202020200236",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lei%20J%20Li%20J%20Li%20X%20Qi%20X%20CT%20Imaging%20of%20the%202019%20Novel%20Coronavirus%202019nCoV%20Pneumonia%20Radiology%202020200236",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lei%20J%20Li%20J%20Li%20X%20Qi%20X%20CT%20Imaging%20of%20the%202019%20Novel%20Coronavirus%202019nCoV%20Pneumonia%20Radiology%202020200236"
+        },
+        {
+            "id": "10",
+            "alt_id": "Shi_et+al_2019_a",
+            "entry": "10. Shi H, Han X, Zheng C. Evolution of CT Manifestations in a Patient Recovered from 2019 Novel Coronavirus (2019-nCoV) Pneumonia in Wuhan, China. Radiology. 2020:200269.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shi%20H%20Han%20X%20Zheng%20C%20Evolution%20of%20CT%20Manifestations%20in%20a%20Patient%20Recovered%20from%202019%20Novel%20Coronavirus%202019nCoV%20Pneumonia%20in%20Wuhan%20China%20Radiology%202020200269",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Shi%20H%20Han%20X%20Zheng%20C%20Evolution%20of%20CT%20Manifestations%20in%20a%20Patient%20Recovered%20from%202019%20Novel%20Coronavirus%202019nCoV%20Pneumonia%20in%20Wuhan%20China%20Radiology%202020200269",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Shi%20H%20Han%20X%20Zheng%20C%20Evolution%20of%20CT%20Manifestations%20in%20a%20Patient%20Recovered%20from%202019%20Novel%20Coronavirus%202019nCoV%20Pneumonia%20in%20Wuhan%20China%20Radiology%202020200269"
+        },
+        {
+            "id": "11",
+            "alt_id": "Song_et+al_2019_a",
+            "entry": "11. Song F, Shi N, Shan F, et al. Emerging Coronavirus 2019-nCoV Pneumonia. Radiology.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Song%20F%20Shi%20N%20Shan%20F%20et%20al%20Emerging%20Coronavirus%202019nCoV%20Pneumonia%20Radiology",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Song%20F%20Shi%20N%20Shan%20F%20et%20al%20Emerging%20Coronavirus%202019nCoV%20Pneumonia%20Radiology",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Song%20F%20Shi%20N%20Shan%20F%20et%20al%20Emerging%20Coronavirus%202019nCoV%20Pneumonia%20Radiology"
+        },
+        {
+            "id": "12",
+            "alt_id": "Bradski_2008_a",
+            "entry": "12. Bradski G, Kaehler A. Learning OpenCV: Computer vision with the OpenCV library. \" O'Reilly Media, Inc.\"; 2008.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bradski%2C%20G.%20Kaehler%2C%20A.%20Learning%20OpenCV%3A%20Computer%20vision%20with%20the%20OpenCV%20library.%20%22%20O%27Reilly%20Media%2C%20Inc.%22%202008"
+        },
+        {
+            "id": "13",
+            "alt_id": "He_et+al_0000_a",
+            "entry": "13. He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. Paper presented at: Proceedings of the IEEE conference on computer vision and pattern recognition2016.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=He%2C%20K.%20Zhang%2C%20X.%20Ren%2C%20S.%20Sun%2C%20J.%20Deep%20residual%20learning%20for%20image%20recognition.%20Paper%20presented",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=He%2C%20K.%20Zhang%2C%20X.%20Ren%2C%20S.%20Sun%2C%20J.%20Deep%20residual%20learning%20for%20image%20recognition.%20Paper%20presented",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=He%2C%20K.%20Zhang%2C%20X.%20Ren%2C%20S.%20Sun%2C%20J.%20Deep%20residual%20learning%20for%20image%20recognition.%20Paper%20presented"
+        },
+        {
+            "id": "14",
+            "alt_id": "Lin_et+al_0000_a",
+            "entry": "14. Lin T-Y, Doll\u00e1r P, Girshick R, He K, Hariharan B, Belongie S. Feature pyramid networks for object detection. Paper presented at: Proceedings of the IEEE conference on computer vision and pattern recognition2017.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lin%2C%20T.-Y.%20Doll%C3%A1r%2C%20P.%20Girshick%2C%20R.%20He%2C%20K.%20Feature%20pyramid%20networks%20for%20object%20detection.%20Paper%20presented",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lin%2C%20T.-Y.%20Doll%C3%A1r%2C%20P.%20Girshick%2C%20R.%20He%2C%20K.%20Feature%20pyramid%20networks%20for%20object%20detection.%20Paper%20presented",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lin%2C%20T.-Y.%20Doll%C3%A1r%2C%20P.%20Girshick%2C%20R.%20He%2C%20K.%20Feature%20pyramid%20networks%20for%20object%20detection.%20Paper%20presented"
+        },
+        {
+            "id": "15",
+            "alt_id": "Fu_et+al_0000_a",
+            "entry": "15. Fu J, Zheng H, Mei T. Look closer to see better: Recurrent attention convolutional neural network for fine-grained image recognition. Paper presented at: Proceedings of the IEEE conference on computer vision and pattern recognition2017.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fu%2C%20J.%20Zheng%2C%20H.%20Mei%2C%20T.%20Look%20closer%20to%20see%20better%3A%20Recurrent%20attention%20convolutional%20neural%20network%20for%20fine-grained%20image%20recognition.%20Paper%20presented",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fu%2C%20J.%20Zheng%2C%20H.%20Mei%2C%20T.%20Look%20closer%20to%20see%20better%3A%20Recurrent%20attention%20convolutional%20neural%20network%20for%20fine-grained%20image%20recognition.%20Paper%20presented",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fu%2C%20J.%20Zheng%2C%20H.%20Mei%2C%20T.%20Look%20closer%20to%20see%20better%3A%20Recurrent%20attention%20convolutional%20neural%20network%20for%20fine-grained%20image%20recognition.%20Paper%20presented"
+        },
+        {
+            "id": "16",
+            "alt_id": "Luna_2020_a",
+            "entry": "16. LUNA 16. Available at.(Assessed on February 6th, 2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=LUNA%2016%20Available%20atAssessed%20on%20February%206th%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=LUNA%2016%20Available%20atAssessed%20on%20February%206th%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=LUNA%2016%20Available%20atAssessed%20on%20February%206th%202020"
+        },
+        {
+            "id": "17",
+            "alt_id": "Iandola_et+al_2014_a",
+            "entry": "17. Iandola F, Moskewicz M, Karayev S, Girshick R, Darrell T, Keutzer K. Densenet: Implementing efficient convnet descriptor pyramids. arXiv preprint arXiv:14041869. 2014.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Iandola%2C%20F.%20Moskewicz%2C%20M.%20Karayev%2C%20S.%20Girshick%2C%20R.%20Densenet%3A%20Implementing%20efficient%20convnet%20descriptor%20pyramids%202014"
+        },
+        {
+            "id": "18",
+            "alt_id": "Simonyan_2014_a",
+            "entry": "18. Simonyan K, Zisserman A. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:14091556. 2014. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Simonyan%2C%20K.%20Zisserman%2C%20A.%20Very%20deep%20convolutional%20networks%20for%20large-scale%20image%20recognition%202014"
+        }
+    ],
+    "facts": [
+        "The outbreak was originally reported in Wuhan",
+        "computed tomography has become essentially important for fast diagnoses",
+        "collected chest CT scans of 88 patients diagnosed with the COVID-19 from hospitals",
+        "101 patients infected with bacteria pneumonia",
+        "The experimental results showed that our model can accurately identify the COVID-19 patients",
+        "the ground-glass opacity that is of great help to assist doctors in diagnosis",
+        "The diagnosis for a patient could be finished in 30 seconds",
+        "the implementation on Tianhe-2 supercompueter enables a parallel executions of thousands of tasks",
+        "An online server is available for online diagnoses with CT images",
+        "a cluster of pneumonia cases with unknown etiology were reported in Wuhan city",
+        "Deep sequencing analyses from lower respiratory tract samples revealed a novel coronavirus that was currently named",
+        "The COVID-19 is a beta-CoV of group 2B",
+        "COVID-19 has been designated as a public health emergency of international concerns",
+        "more than 2000 confirmed cases were identified in other countries",
+        "Data acquisition This study is based on the reliable resources",
+        "that were provided by the Renmin Hospital of Wuhan University",
+        "Wuhan's chest CT examinations were performed with a 64-section scanner without the use",
+        "The images were photographed at lung",
+        "The reconstructions were made at 0.625 mm slice thickness on lung settings",
+        "These data consist of only transverse plane images of lung",
+        "The chest CT examinations were performed with a 64-slice spiral scanner",
+        "the groundglass opacity that is of great help to assist doctors in diagnosis",
+        "viral pneumonia in order to decrease the unnecessary waste of medical resources",
+        "a pneumonia classification model based on 88 COVID-19",
+        "By tuning hyperparameters according to the validation set",
+        "same on the test set with AUC"
+    ],
+    "claims": [
+        "In this study, we have developed a deep learning-based lung CT diagnosis system to detect the patients with COVID-19, which can automatically extract radiographic features of the novel pneumonia, especially the ground-glass opacity (GGO) from radiographs",
+        "Model Architecture and Model Training We developed a deep learning-based CT diagnosis system (referred to as DeepPneumonia) to assist doctors to detect the COVID-19 causing pneumonia and to localize the main lesions"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We have developed a deep learning-based lung computed tomography diagnosis system to detect the patients with COVID-19, which can automatically extract radiographic features of the novel pneumonia, especially the ground-glass opacity (GGO) from radiographs",
+        "Model Architecture and Model Training We developed a deep learning-based computed tomography diagnosis system to assist doctors to detect the COVID-19 causing pneumonia and to localize the main lesions",
+        "We built a pneumonia classification model based on 88 COVID-19 and 100 bacterial pneumonia patients, from which we collected 777 and 505 images",
+        "By tuning hyperparameters according to the validation set, we achieved Area under the receiveroperating characteristics Curve of 0.91 in the image level, and Area under the receiveroperating characteristics Curve of 0.95 in the human level",
+        "The performances are essentially the same on the test set with Area under the receiveroperating characteristics Curve of 0.92 in the image level, and Area under the receiveroperating characteristics Curve of 0.95 and recall of 0.96 in the human level"
+    ],
+    "top_statements": [
+        "In late December, 2019, a cluster of pneumonia cases with unknown etiology were reported in Wuhan city, Hubei Province, China.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "We have developed a deep learning-based lung computed tomography diagnosis system to detect the patients with COVID-19, which can automatically extract radiographic features of the novel pneumonia, especially the ground-glass opacity (GGO) from radiographs",
+        "Model Architecture and Model Training We developed a deep learning-based computed tomography diagnosis system to assist doctors to detect the COVID-19 causing pneumonia and to localize the main lesions",
+        "We built a pneumonia classification model based on 88 COVID-19 and 100 bacterial pneumonia patients, from which we collected 777 and 505 images",
+        "By tuning hyperparameters according to the validation set, we achieved Area under the receiveroperating characteristics Curve of 0.91 in the image level, and Area under the receiveroperating characteristics Curve of 0.95 in the human level",
+        "The performances are essentially the same on the test set with Area under the receiveroperating characteristics Curve of 0.92 in the image level, and Area under the receiveroperating characteristics Curve of 0.95 and recall of 0.96 in the human level"
+    ],
+    "headline": "We built a pneumonia classification model based on 88 COVID-19 and 100 bacterial pneumonia patients, from which we collected 777 and 505 images",
+    "contexts": [],
+    "abbreviations": {
+        "CT": "computed tomography",
+        "GGO": "ground-glass opacity",
+        "WHO": "World Health Organization",
+        "nCoV-NP": "novel coronavirus nucleocapsid protein gene",
+        "DRE-Net": "Details Relation Extraction neural network",
+        "FPN": "Feature Pyramid Network",
+        "AUC": "Area under the receiveroperating characteristics Curve",
+        "Resnet": "residual network"
+    }
+}

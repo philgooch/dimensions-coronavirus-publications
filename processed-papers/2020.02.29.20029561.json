@@ -1,0 +1,379 @@
+{
+    "filename": "2020.02.29.20029561.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 454566,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.29.20029561",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/03/03/2020.02.29.20029561.full.pdf"
+        },
+        "title": "A simple model to assess Wuhan lock-down effect and region efforts during COVID-19 epidemic in China Mainland",
+        "author": "Yuan zheming, Chen Yuan",
+        "date": 2020,
+        "affiliations": [
+            "Technology Research Centre for Agricultural Big Data Analysis & Decision-making, Hunan Agricultural University, Changsha, Hunan, 410128, China. #These authors contributed equally to this work.",
+            "Correspondence and requests for materials should be addressed to Y.C. (email: chenyuan0510@126.com)"
+        ],
+        "abstract": "Since COVID-19 emerged in early December, 2019 in Wuhan and swept across China Mainland, a series of large-scale public health interventions, especially Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement, have been taken by the government to control the epidemic. Based on Baidu Migration data and the confirmed cases data, we identified two key factors affecting the later (e.g February 27, 2020) cumulative confirmed cases in non-Wuhan region (y). One is the sum travelers from Wuhan during January 20 to January 26 (x1), which had higher infected probability but lower transmission ability because the human-to-human transmission risk of COVID-19 was confirmed and announced on January 20. The other is the seed cases from Wuhan before January 19, which had higher transmission ability and could be represented with the confirmed cases before January 29 (x2) due to a mean 10-day delay between infection and detection. A simple yet effective regression model then was established as follow: y= 70.0916+0.0054*x1+2.3455*x2 (n = 44, R2 = 0.9330, P&lt;10-7). Even the lock-down date only delay or in advance 3 days, the estimated confirmed cases by February 27 in non-Wuhan region will increase 35.21% or reduce 30.74% - 48.59%. Although the above interventions greatly reduced the human mobility, Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement do have a determining effect on the ongoing spread of COVID-19 across China Mainland. The strategy adopted by China has changed the fast-rising curve of newly diagnosed cases, the international community should learn from lessons of Wuhan and experience from China. Efforts of 29 Provinces and 44 prefecture-level cities against COVID-19 were also assessed preliminarily according to the interpretive model. Big data has played and will continue playing an important role in public health.",
+        "keywords": [
+            "COVID-19",
+            "Baidu Migration",
+            "Wuhan lock-down",
+            "large-scale public health interventions",
+            "assess"
+        ],
+        "links": [
+            "https://www.imperial.ac.uk/media/",
+            "http://qianxi.baidu.com",
+            "http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml",
+            "https://blog.csdn.net/BigDataDigest/article/details/104197152"
+        ],
+        "emails": [
+            "chenyuan0510@126.com"
+        ],
+        "references": "",
+        "references_ris": "",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Different lock-down plans and the hypothetical emigrants from Wuhan after January 20"
+            },
+            {
+                "id": "2",
+                "caption": "Preliminarily assess 29 Provinces efforts against COVID-19"
+            },
+            {
+                "id": "3",
+                "caption": "Preliminarily assess 44 prefecture-level cities efforts against COVID-19#"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Number of travelers from or to Wuhan during January 1 to February 15, 2020 and the same period last year Due to nationwide traffic restrictions, only 185 million travelers left 316 cities during January 24 to February 15, 2020 according to Baidu Migration. The emigrants were down 69.77% and 67.60%, compared to the same period last year (611 million) and the first 23d (570 million), respectively (Fig.2)"
+            },
+            {
+                "id": "2",
+                "caption": "Number of travelers left 316 cities during January 1 to February 15, 2020 and the same period last year"
+            },
+            {
+                "id": "3",
+                "caption": "The mean intensity of intra-city activities for 316 cities during January 1 to February 15, 2020 and the same period last year Obviously, COVID-19 greatly reduced the human mobility of China Mainland. 2.2 Two key factors affecting the later cumulative confirmed cases of each non-Wuhan region We consider 44 regions in China Mainland which accept travelers from Wuhan, including 29 Provinces (Tibet was excluded since only one confirmed case was reported) and 15 prefecture-level cities in Hubei province. We noticed that the number of confirmed cases between non-Hubei and Hubei were closer in the early period. For example, the number of cumulative confirmed cases by the end of January 26 in Chongqing (non-Hubei) and Xiaogan (Hubei) were 110 and 100, respectively. Their cumulative confirmed cases by the end of February 27, however, were 576 and 3,517, respectively. We surmise that this is partly because Xiaogan has received more infected cases from Wuhan than Chongqing since the human-to-human transmission risk of COVID-19 was confirmed and announced on January 20. This surmise was confirmed by Fig.4. The proportion of travelers from Wuhan accepted by Hubei regions to the total travelers from Wuhan increased rapidly from 70% (before January 19) to 74% (January 20), even over 77% after January 26. So we concluded that the first key factor affecting the later (e.g. February 27) cumulative confirmed cases of each non-Wuhan region is the sum immigrants from Wuhan during January 20 to January 26 (few immigrants after January 27). These immigrants had higher infected probability but lower transmission"
+            },
+            {
+                "id": "4",
+                "caption": "Size and proportion of travelers from Wuhan accepted by Hubei regions and non-Hubei regions before and after warning date"
+            },
+            {
+                "id": "5",
+                "caption": "The observed and expected values of the cumulative confirmed cases by February 27 of each non-Wuhan region"
+            },
+            {
+                "id": "6",
+                "caption": "Relationship between Baidu Migration index and the number of real travelers The confirmed case data on each Province and prefecture-level city are from the National Health Commission of China (http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml) and its affiliates"
+            },
+            {
+                "id": "7",
+                "caption": "The number of newly diagnosed cases in Hubei and non- Hubei regions in China Mainland The SARS-CoV-2 epidemic is still rapidly growing and spread to more than 42 countries as of February 27, 2020. At present, the most serious countries outside China are South Korea, Italy, Iran, and Japan. It is worrying that although some measures have been taken, the current prevention and control measures of these countries may still be insufficient. None of them has reached the level of prevention and control in China's moderately affecting"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.29.20029561.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.29.20029561.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.29.20029561.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.29.20029561.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.29.20029561.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.29.20029561.full/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.29.20029561.full/img-010.png"
+        ]
+    },
+    "sections": {
+        "results": [
+            "2.1 Effect of COVID-19 on human mobility of China Mainland residents<br/><br/>Due to Wuhan lock-down, more than 9 million residents were isolated in Wuhan City since January 23, 2020, only 1.2 million travelers from or to Wuhan during January 24 to February 15, 2020 according to Baidu Migration. The travelers were down 91.61% and 91.62%, compared to the same period last year (14 million) and the first 23d (14 million from January 1 to January 23, 2020), respectively (Fig.1).<br/><br/>Due to Stay At Home Movement, the mean intensity of intra-city activities for 316 cities was 2.61/d during January 24 to February 15, 2020 according to Baidu Migration. It was down 42.42% and 50.27% when compared to the same period last year (4.53/d) and the first 23d (5.25/d), respectively (Fig.3).<br/><br/>ability because the susceptible strengthened protection awareness and measures after the declaration of human-to-human transmission.<br/><br/>The second key factor is the sum number of the infected immigrants from Wuhan before January 19. According to the recent report, there is a mean 10-day delay between infection and detection, comprising a mean about 5 day incubation period and a mean 5 day delay from symptom onset to detection of a case (Imai et al, 2020; Yang et al, 2020; Li et al, 2020). So the second key factor can be represented with the number of cumulative confirmed cases by the end of January 29. These \u201cseed cases\u201d had higher transmission ability because the susceptible had no any protection measure. A simple regression model was established as follow."
+        ],
+        "discussion": [
+            "4.1 Accuracy of estimating human mobility based on Baidu Migration Baidu Migration recorded more types of spatial displacement, including airplane, high-speed rail, ship, coach and private car, so it theoretically has higher accuracy. The real inter-city travel population of each city, however, is difficult to estimate because Baidu Migration can only list the migration index and the proportion. Based on a complicated hyper-network model (Chan and Hsu, 2015), Zhang and Xiu (2020, unpublished, https://blog.csdn.net/BigDataDigest/article/details/104197152) estimated that the emigration population of Shenzhen and the immigration population of Beijing from January 10 to January 23, 2020 (14d) were 7,469,192 and 3,570,184, and the corresponding Baidu Migration index were 245.48 and 116.95. One Baidu Migration index is about equal to 30,427-30,526 travelers according to their model, this is far below our estimated value 56,137. The sum immigration index of Wuhan from the first day of the Spring Festival travel rush (January 10) to the last day before lock-down (January 22) is 95.98, then the two model estimated travelers are 2.9 million and 5.4 million, respectively. News Release Conference of Wuhan on 26 January confirmed that more than 5 million people had left Wuhan after 10 January due to the Spring Festival travel rush and epidemic. Our estimated value is closer to official reports. It is worth noting that the Baidu Migration index still has the following disadvantages for estimating real traveler population. 1) The mobility behavior of a large number of groups un-connected to Baidu Map and third-party users has not been recorded. 2) The spatial displacement of users is recorded only within 8 hours. 3) Most of the trips are disassembled and not fully identified. For example, one user travel from A, pass through B and arrive final destination C, and the user also has location information in C by coincidence, then this trip will be disassembled into A-B and B-C. Regardless, big data has and will continue to play an important role in public health. 4.2 How many Wuhan residents were infected with SARS-CoV-2 Several models have estimated the number of infected individuals in Wuhan. Based on the domestic and international confirmed case, Imai et al (2020) estimated that the total number of infected individuals was 21,022 (CI: 11,090-33,490) by January 22. Based on the number of cases exported from Wuhan internationally, number of international flights arriving in Wuhan and the latest human mobility data from Tencent, Wu et al (2020) estimated that the total number was 75,815 (CI: 37,304-130,330) by January 25. Based on the meta-data of five countries\u2019 evacuation action from January 29 to February 2, Zhao et al (2020) estimated that almost 110,000 (CI: 40,000-310,000) individuals were infected with SARS-CoV-2 in Wuhan by February 2. Wang et al (2020) estimated 4 phases divided by the dates when various levels of prevention and control measures were taken in effect in Wuhan, the number of infections would reach the peak 58,077-84,520 or 55,869-81,393 in late February. There are 9.48 million residents in Wuhan around January 26, the cumulative confirmed cases are 2,261 by January 29. We estimate at least 56,916 people were infected in Wuhan according to our model (up to February 27 the confirmed cases are 48,137). In other words, more than 8,000 undetected but infected individuals still wait for checking out in the center of epidemic storm. Wuhan still has much to do. 4.3 Lesson from Wuhan and experience from China SARS-CoV-2 has diversity transmission approaches, including respiratory (mouth foam) and contact routes which have been confirmed, as well as aerosol and digestive (fecal-oral) routes which cannot be ruled out (National Health Commission of China, 2020). It is also highly concealed according to the recent report of transmission of the virus from asymptomatic and mild individuals (Zhang et al, 2020; Sanche et al, 2020). Initially, the basic reproductive number, R0, was estimated to be 2.2 (CI: 1.4-3.9) by Li et al (2020), 2.68 (CI: 2.47-2.86) by Wu et al (2020), 3.6-4.0 by Imai et al (2020) and Read et al (2020), and 3.77 (range 2.23-4.82) by Yang et al (2020), respectively. At the beginning of the outbreak, the infected individuals may be greatly underestimated due to the asymptomatic transmissions, insufficient sensitivity of diagnostic reagents and delayed diagnosis. The latest estimated value of R0 and the control reproductive number is 4.7-6.6 (Steven et al, 2020) and 6.47 (CI: 5.71-7.23) (Tang et al, 2020), respectively. SARS-CoV-2 is highly contagious, Wang et al (2020) projected that without any control measure the infected population would exceed 200,000 in Wuhan by the end of February. As for Steven et al (2020) and Read et al (2020), the estimated number was 233,400 (CI: 38,757-778,278) by the end of January and 191,529 (CI: 132,751-273,649) by February 4, respectively. Up to February 27, the confirmed cases are 48,137. The only lesson that humans have learned from history is that humans have not learned anything from history. Clearly, Wuhan has not learned anything from the SARS epidemic in 2003, now she is suffering from her early delays. Fortunately, China Government has implemented a series of large-scale public health interventions to control the epidemic. In fact, many prevention and control measures taken by China, especially Wuhan lock-down, nationwide traffic restrictions and Stay At Home Movement, go far beyond the requirements for responding to emergencies, setting new benchmarks for epidemic prevention in other countries. The Chinese method has proven to be successful. The strategy adopted by China has changed the fast-rising curve of newly diagnosed cases, and the simplest and most direct thing that can explain this is the data (Fig.7)."
+        ],
+        "funding": [
+            "This work was supported by the Scientific Research Foundation of Education Office of Hunan Province, China [17A096]; the National Natural Science Foundation of China [61701177]"
+        ],
+        "introduction": [
+            "Since Corona Virus Disease 2019 (COVID-19) caused by SARS-CoV-2, a novel coronavirus, emerged on December 1, 2019 in Wuhan City, Hubei Province, China (Huang et al, 2020), the overall confirmed cases in China had reached 78,959 by the end of February 27, 2020, and a total of 2,791 people had died of the disease. COVID-19 had also spread to other 50 country with the confirmed cases and deaths were 4,696 and 67 respectively, by the end of February 27, 2020. The World Health Organization declared the COVID-19 epidemic as an international public health emergency on January 30, 2020. To prevent further dissemination of SARS-CoV-2, 31 Provinces in China Mainland had raised their public health response level to the highest state of emergency (level-1) by January 29, 2020. The Chinese government has implemented a series of large-scale public health interventions to control the epidemic, many of which have far exceeded what International Health Regulations required, especially Wuhan lock-down, nationwide traffic restrictions and Stay At Home Movement. Wuhan had prohibited all transport in and out of the city as of 10:00 on January 23, 2020, this is maybe the largest quarantine/movement restriction in human history to prevent infectious disease spread (Tian et al, 2020). Hundreds of millions Chinese residents, including 9 million Wuhan residents, have to reduce even stop their inter-city travel and intra-city activities due to these strict measures. Due to Wuhan lock-down, Kucharski et al (2020) estimated that the median daily reproduction number had declined from 2.35 of January 16 to 1.05 of January 30, Tian et al (2020) estimated that the dispersal of infection to other cities was deferred 2.91 days (CI: 2.54-3.29). However, Read et al (2020) suggested that travel restrictions from and to Wuhan city are unlikely to be effective in halting transmission across China; with a 99% effective reduction in travel, the size of the epidemic outside of Wuhan may only be reduced by 24.9% on February 4. Do these large-scale public health interventions really work well in China? Besides, hundreds of officials were fired or appointed rapidly according to their incompetent or outstanding performances during the epidemic. How to assess the efforts of different regions in China Mainland against COVID-19? Here we present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic."
+        ]
+    },
+    "structured_content": {
+        "2 Results": [],
+        "2.1 Effect of COVID-19 on human mobility of China Mainland residents": [
+            "Due to Wuhan lock-down, more than 9 million residents were isolated in Wuhan City since January 23, 2020, only 1.2 million travelers from or to Wuhan during January 24 to February 15, 2020 according to Baidu Migration. The travelers were down 91.61% and 91.62%, compared to the same period last year (14 million) and the first 23d (14 million from January 1 to January 23, 2020), respectively (Fig.1).",
+            "Due to Stay At Home Movement, the mean intensity of intra-city activities for 316 cities was 2.61/d during January 24 to February 15, 2020 according to Baidu Migration. It was down 42.42% and 50.27% when compared to the same period last year (4.53/d) and the first 23d (5.25/d), respectively (Fig.3).",
+            "The second key factor is the sum number of the infected immigrants from Wuhan before January 19. According to the recent report, there is a mean 10-day delay between infection and detection, comprising a mean about 5 day incubation period and a mean 5 day delay from symptom onset to detection of a case (Imai et al, 2020; Yang et al, 2020; Li et al, 2020). So the second key factor can be represented with the number of cumulative confirmed cases by the end of January 29. These \u201cseed cases\u201d had higher transmission ability because the susceptible had no any protection measure. A simple regression model was established as follow.",
+            "Here, y is the number of cumulative confirmed cases by February 27 of each non-Wuhan region, x1 is the sum number of immigrants from Wuhan during January 20 to January 26 of each non-Wuhan region, and x2 is the number of cumulative confirmed cases by January 29 of each non-Wuhan region.",
+            "The standard regression coefficients of x1 and x2 are 0.6620 and 0.3796 respectively, indicating that x1 is more important than x2 for determining y. The observed and expected values of the cumulative confirmed cases by",
+            "February 27 of each non-Wuhan regions were shown in Fig.5.",
+            "2.3 Effect of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home",
+            "To evaluate the effect of Wuhan lock-down, x2, the number of cumulative confirmed cases by January 29, should be fixed. Then we assumed three different lock-down plans besides the real plan (Table 1).",
+            "According to Table 1, even the lock-down date only delay 3 days, the estimated sum number of cumulative confirmed cases by February 27 in 44 non-Wuhan region will increase 35.21% (41,477 cases), compared with the real plan (30,675 cases). On the contrary, even the lock-down date only in advance 3 days with normal and strict strength, the estimated number will reduce 30.74% (21,245 cases) and 48.59% (15,768 cases), respectively.",
+            "It is clearly that Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement have a determining effect on the ongoing spread of COVID-19 across China Mainland according to our interpretative model.",
+            "Strict*: none left Wuhan since the date of lock-down. I20 ~ I29 are the real emigrants from January 20 to January 29, respectively."
+        ],
+        "2.4 Preliminarily assess region efforts against COVID-19": [
+            "It's not fair to assess the effort of different regions only based on the final number of cumulative confirmed cases due to the difference of the number of immigrants from Wuhan. The aforementioned interpretative model has taken this difference into account and the results are listed with 5 grade (Excellent, Good, Normal, Poor, Very poor) according to standard residuals (Table 2 and Table 3). We emphasize that this is only a preliminary evaluation and the results are for reference only."
+        ],
+        "3 Dataset and Methods": [
+            "The human mobility data on inter-city travel and intra-city activity from January 1, 2020 to February 21, 2020",
+            "(including the same period data in 2019) in China Mainland is from Baidu Migration (http://qianxi.baidu.com).",
+            "The inter-city travel population of each city is represented with immigration and emigration index, the travelers proportions of different destination and departure, on the level of Province and city (but only the top 100 cities), are also listed. The intra-city activity intensity of each city is represented with the index (not proportion) of",
+            "*: the confirmed cases by February 27.",
+            "#: Only the city which the confirmed cases by February 27 more than 90 was assessed. *: the confirmed cases by February 27.",
+            "activity population to total population. Real immigration and emigration populations of Beijing and Shanghai, emigration populations of Wuhan, Nanjing, Qingdao, Shenzhen and Foshan during the 2019 Spring Festival travel rush (40d) are from their Official website of the Transportation Commission. We estimate one Baidu Migration index is about equal to 56,137 travelers (Fig.6)."
+        ],
+        "4 Discussion": [
+            "4.1 Accuracy of estimating human mobility based on Baidu Migration Baidu Migration recorded more types of spatial displacement, including airplane, high-speed rail, ship, coach and private car, so it theoretically has higher accuracy. The real inter-city travel population of each city, however, is difficult to estimate because Baidu Migration can only list the migration index and the proportion. Based on a complicated hyper-network model (Chan and Hsu, 2015), Zhang and Xiu (2020, unpublished, https://blog.csdn.net/BigDataDigest/article/details/104197152) estimated that the emigration population of Shenzhen and the immigration population of Beijing from January 10 to January 23, 2020 (14d) were 7,469,192 and 3,570,184, and the corresponding Baidu Migration index were 245.48 and 116.95. One Baidu Migration index is about equal to 30,427-30,526 travelers according to their model, this is far below our estimated value 56,137. The sum immigration index of Wuhan from the first day of the Spring Festival travel rush (January 10) to the last day before lock-down (January 22) is 95.98, then the two model estimated travelers are 2.9 million and 5.4 million, respectively. News Release Conference of Wuhan on 26 January confirmed that more than 5 million people had left Wuhan after 10 January due to the Spring Festival travel rush and epidemic. Our estimated value is closer to official reports. It is worth noting that the Baidu Migration index still has the following disadvantages for estimating real traveler population. 1) The mobility behavior of a large number of groups un-connected to Baidu Map and third-party users has not been recorded. 2) The spatial displacement of users is recorded only within 8 hours. 3) Most of the trips are disassembled and not fully identified. For example, one user travel from A, pass through B and arrive final destination C, and the user also has location information in C by coincidence, then this trip will be disassembled into A-B and B-C. Regardless, big data has and will continue to play an important role in public health. 4.2 How many Wuhan residents were infected with SARS-CoV-2 Several models have estimated the number of infected individuals in Wuhan. Based on the domestic and international confirmed case, Imai et al (2020) estimated that the total number of infected individuals was 21,022 (CI: 11,090-33,490) by January 22. Based on the number of cases exported from Wuhan internationally, number of international flights arriving in Wuhan and the latest human mobility data from Tencent, Wu et al (2020) estimated that the total number was 75,815 (CI: 37,304-130,330) by January 25. Based on the meta-data of five countries\u2019 evacuation action from January 29 to February 2, Zhao et al (2020) estimated that almost 110,000 (CI: 40,000-310,000) individuals were infected with SARS-CoV-2 in Wuhan by February 2. Wang et al (2020) estimated 4 phases divided by the dates when various levels of prevention and control measures were taken in effect in Wuhan, the number of infections would reach the peak 58,077-84,520 or 55,869-81,393 in late February. There are 9.48 million residents in Wuhan around January 26, the cumulative confirmed cases are 2,261 by January 29. We estimate at least 56,916 people were infected in Wuhan according to our model (up to February 27 the confirmed cases are 48,137). In other words, more than 8,000 undetected but infected individuals still wait for checking out in the center of epidemic storm. Wuhan still has much to do. 4.3 Lesson from Wuhan and experience from China SARS-CoV-2 has diversity transmission approaches, including respiratory (mouth foam) and contact routes which have been confirmed, as well as aerosol and digestive (fecal-oral) routes which cannot be ruled out (National Health Commission of China, 2020). It is also highly concealed according to the recent report of transmission of the virus from asymptomatic and mild individuals (Zhang et al, 2020; Sanche et al, 2020). Initially, the basic reproductive number, R0, was estimated to be 2.2 (CI: 1.4-3.9) by Li et al (2020), 2.68 (CI: 2.47-2.86) by Wu et al (2020), 3.6-4.0 by Imai et al (2020) and Read et al (2020), and 3.77 (range 2.23-4.82) by Yang et al (2020), respectively. At the beginning of the outbreak, the infected individuals may be greatly underestimated due to the asymptomatic transmissions, insufficient sensitivity of diagnostic reagents and delayed diagnosis. The latest estimated value of R0 and the control reproductive number is 4.7-6.6 (Steven et al, 2020) and 6.47 (CI: 5.71-7.23) (Tang et al, 2020), respectively. SARS-CoV-2 is highly contagious, Wang et al (2020) projected that without any control measure the infected population would exceed 200,000 in Wuhan by the end of February. As for Steven et al (2020) and Read et al (2020), the estimated number was 233,400 (CI: 38,757-778,278) by the end of January and 191,529 (CI: 132,751-273,649) by February 4, respectively. Up to February 27, the confirmed cases are 48,137. The only lesson that humans have learned from history is that humans have not learned anything from history. Clearly, Wuhan has not learned anything from the SARS epidemic in 2003, now she is suffering from her early delays. Fortunately, China Government has implemented a series of large-scale public health interventions to control the epidemic. In fact, many prevention and control measures taken by China, especially Wuhan lock-down, nationwide traffic restrictions and Stay At Home Movement, go far beyond the requirements for responding to emergencies, setting new benchmarks for epidemic prevention in other countries. The Chinese method has proven to be successful. The strategy adopted by China has changed the fast-rising curve of newly diagnosed cases, and the simplest and most direct thing that can explain this is the data (Fig.7).",
+            "Provinces some time ago. The controllable window period is narrowing, the international community should learn from lessons of Wuhan and experience from China. It\u2019s Time for Action. References Chan Wai Kin Victor, Hsu Cheng. (2015). When human networks collide: the degree distributions of hyper-networks. IIE Transactions, 47(9):929\u2013942. Huang Chaolin, Wang Yeming, Li Xingwang, et al (2020). Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. The Lancet, 395(10223):497-506. Imai Natsuko, Dorigatti Ilaria, Cori Anne, et al (2020). Estimating the potential total number of novel Coronavirus cases in Wuhan City, China. Available at: https://www.imperial.ac.uk/media/ imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf. Kucharski Adam J, Russell Timothy W, Diamond Charlie, et al (2020). Early dynamics of transmission and control of COVID-19: a mathematical modelling study. MedRxiv, doi: https://doi.org/10.1101/2020.01.31.20019901. Li Qun, Guan Xuhua, Wu Peng, et al (2020). Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. New England Journal of Medicine, DOI: 10.1056/NEJMoa2001316. National Health Commission of China. (2020). New coronavirus pneumonia diagnosis and treatment plan (Trial version 6). Available at: http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml. Read Jonathan M, Bridgen Jessica RE, Cummings Derek AT, et al (2020). Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. MedRxiv, doi: https://doi.org/10.1101/2020.01.23.20018549. Sanche Steven, Lin Yen Ting, Xu Chonggang, et al (2020). The novel coronavirus, 2019-nCoV, is highly contagious and more infectious than initially estimated. Medrxiv, doi:10.1101/2020.02.07.20021154. Tang Biao, Wang Xia, Li Qian, et al (2020). Estimation of the transmission risk of 2019-ncov and its implication for public health interventions. J. Clin. Med., 9(2), 462. Tian Huaiyu, Liu Yonghong, Li Yidan, et al (2020). Early evaluation of transmission control measures in response to the 2019 novel coronavirus outbreak in China. MedRxiv, doi: https://doi.org/10.1101/2020.01.30.20019844. Wang Huwen, Wang Zezhou, Dong Yinqiao, et al (2020). Phase adjusted estimation of the number of 2019 novel coronavirus cases in Wuhan, China. Medrxiv, doi: https://doi.org/10.1101/2020.02.18.20024281.",
+            "Wu Joseph T, Leung Kathy, Leung Gabriel M. (2020). Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet, doi: https://doi.org/10.1016/S0140-6736(20)30260-9. Yang Yang, Lu Qingbin, Liu Mingjin, et.al. (2020). Epidemiological and clinical features of the 2019 novel coronavirus outbreak in China. MedRxiv, doi: https://doi.org/10.1101/2020.02.10.20021675. Zhang Rongqiang, Liu Hui, Li Fengying, et al (2020). Transmission and epidemiological characteristics of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infected pneumonia (COVID-19): Preliminarily evidence obtained in comparison with 2003-SARS. MedRxiv, doi: https://doi.org/10.1101/2020.01.30.20019836. Zhao Hongxin, Man Sailimai, Wang Bo, et al (2020). Epidemic size of novel coronavirus-infected pneumonia in the Epicenter Wuhan: using data of five countries\u2019 evacuation action. MedRxiv, doi: https://doi.org/10.1101/2020.02.12.20022285.",
+            "Author Contributions Y. X. collected and pre-processed the data, Z.Y., Y.C. and Y. X. analysed the data, Z.Y., Y. X., Z. D., J. H. and Y.C. wrote the paper. All the authors reviewed the manuscript. This work was supported by the Scientific Research Foundation of Education Office of Hunan Province, China [17A096]; the National Natural Science Foundation of China [61701177]."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "data",
+            "number": 44,
+            "context": "The other is the seed cases from Wuhan before January 19, which had higher transmission ability and could be represented with the confirmed cases before January 29 (x2) due to a mean 10-day delay between infection and detection. <mark class=\"stats\">A simple yet effective regression model then was established as follow: y= 70.0916+0.0054*x1+2.3455*x2 (n = 44, R2 = 0.9330, P&lt;10-7)</mark>. Even the lock-down date only delay or in advance 3 days, the estimated confirmed cases by February 27 in non-Wuhan region will increase 35.21% or reduce 30.74% - 48.59%"
+        },
+        {
+            "participant": "travelers",
+            "number": 56137,
+            "context": "Real immigration and emigration populations of Beijing and Shanghai, emigration populations of Wuhan, Nanjing, Qingdao, Shenzhen and Foshan during the 2019 Spring Festival travel rush (40d) are from their Official website of the Transportation Commission. <mark class=\"stats\">We estimate one Baidu Migration index is about equal to 56,137 travelers (Fig.6)</mark>. "
+        },
+        {
+            "participant": "data",
+            "number": 44,
+            "context": "The other is the seed cases from Wuhan before January 19, which had higher transmission ability and could be represented with the confirmed cases before January 29 (x2) due to a mean 10-day delay between infection and detection. <mark class=\"stats\">A simple yet effective regression model then was established as follow: y= 70.0916+0.0054*x1+2.3455*x2 (n = 44, R2 = 0.9330, P&lt;10-7)</mark>. A simple model to assess Wuhan lock-down effect and region efforts during COVID-19 epidemic in China Mainland"
+        },
+        {
+            "participant": "data",
+            "number": 44,
+            "context": "The other is the \u201cseed cases\u201d from Wuhan before January 19, which had higher transmission ability and could be represented with the confirmed cases before January 29 (x2) due to a mean 10-day delay between infection and detection. <mark class=\"stats\">A simple yet effective regression model then was established as follow: y= 70.0916+0.0054\u00d7x1+2.3455\u00d7x2 (n = 44, R2 = 0.9330, P<10-7)</mark>. Even the lock-down date only delay or in advance 3 days, the estimated confirmed cases by February 27 in non-Wuhan region will increase 35.21% or reduce 30.74% - 48.59%"
+        },
+        {
+            "participant": "people",
+            "number": 2791,
+            "context": "It is made available under a CC-BY-NC-ND 4.0 International license. <mark class=\"stats\">Since Corona Virus Disease 2019 (COVID-19) caused by SARS-CoV-2, a novel coronavirus, emerged on December 1, 2019 in Wuhan City, Hubei Province, China (Huang et al, 2020), the overall confirmed cases in China had reached 78,959 by the end of February 27, 2020, and a total of 2,791 people had died of the disease</mark>. COVID-19 had also spread to other 50 country with the confirmed cases and deaths were 4,696 and 67 respectively, by the end of February 27, 2020"
+        },
+        {
+            "participant": "Wuhan residents",
+            "number": 9000000,
+            "context": "Wuhan had prohibited all transport in and out of the city as of 10:00 on January 23, 2020, this is maybe the largest quarantine/movement restriction in human history to prevent infectious disease spread (Tian et al, 2020). <mark class=\"stats\">Hundreds of millions Chinese residents, including 9 million Wuhan residents, have to reduce even stop their inter-city travel and intra-city activities due to these strict measures</mark>. Due to Wuhan lock-down, Kucharski et al (2020) estimated that the median daily reproduction number had declined from 2.35 of January 16 to 1.05 of January 30, Tian et al (2020) estimated that the dispersal of infection to other cities was deferred 2.91 days (CI: 2.54-3.29)"
+        },
+        {
+            "participant": "residents",
+            "number": 9000000,
+            "context": "2.1 Effect of COVID-19 on human mobility of China Mainland residents. <mark class=\"stats\">Due to Wuhan lock-down, more than 9 million residents were isolated in Wuhan City since January 23, 2020, only 1.2 million travelers from or to Wuhan during January 24 to February 15, 2020 according to Baidu Migration</mark>. The travelers were down 91.61% and 91.62%, compared to the same period last year (14 million) and the first 23d (14 million from January 1 to January 23, 2020), respectively (Fig.1)"
+        },
+        {
+            "participant": "data",
+            "number": 44,
+            "context": "A simple regression model was established as follow. <mark class=\"stats\">y= 70.0916+0.0054\u00d7x1+2.3455\u00d7x2 (n = 44, R2 = 0.9330, P<10-7)</mark>. Here, y is the number of cumulative confirmed cases by February 27 of each non-Wuhan region, x1 is the sum number of immigrants from Wuhan during January 20 to January 26 of each non-Wuhan region, and x2 is the number of cumulative confirmed cases by January 29 of each non-Wuhan region"
+        },
+        {
+            "participant": "cases",
+            "number": 41477,
+            "context": "Then we assumed three different lock-down plans besides the real plan (Table 1). <mark class=\"stats\">According to Table 1, even the lock-down date only delay 3 days, the estimated sum number of cumulative confirmed cases by February 27 in 44 non-Wuhan region will increase 35.21% (41,477 cases), compared with the real plan (30,675 cases)</mark>. On the contrary, even the lock-down date only in advance 3 days with normal and strict strength, the estimated number will reduce 30.74% (21,245 cases) and 48.59% (15,768 cases), respectively"
+        },
+        {
+            "participant": "cases",
+            "number": 21245,
+            "context": "According to Table 1, even the lock-down date only delay 3 days, the estimated sum number of cumulative confirmed cases by February 27 in 44 non-Wuhan region will increase 35.21% (41,477 cases), compared with the real plan (30,675 cases). <mark class=\"stats\">On the contrary, even the lock-down date only in advance 3 days with normal and strict strength, the estimated number will reduce 30.74% (21,245 cases) and 48.59% (15,768 cases), respectively</mark>. It is clearly that Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement have a determining effect on the ongoing spread of COVID-19 across China Mainland according to our interpretative model"
+        },
+        {
+            "participant": "travelers",
+            "number": 56137,
+            "context": "Real immigration and emigration populations of Beijing and Shanghai, emigration populations of Wuhan, Nanjing, Qingdao, Shenzhen and Foshan during the 2019 Spring Festival travel rush (40d) are from their Official website of the Transportation Commission. <mark class=\"stats\">We estimate one Baidu Migration index is about equal to 56,137 travelers (Fig.6)</mark>. 4.1 Accuracy of estimating human mobility based on Baidu Migration Baidu Migration recorded more types of spatial displacement, including airplane, high-speed rail, ship, coach and private car, so it theoretically has higher accuracy"
+        },
+        {
+            "participant": "model estimated travelers",
+            "number": 2,
+            "context": "One Baidu Migration index is about equal to 30,427-30,526 travelers according to their model, this is far below our estimated value 56,137. <mark class=\"stats\">The sum immigration index of Wuhan from the first day of the Spring Festival travel rush (January 10) to the last day before lock-down (January 22) is 95.98, then the two model estimated travelers are 2.9 million and 5.4 million, respectively</mark>. News Release Conference of Wuhan on 26 January confirmed that more than 5 million people had left Wuhan after 10 January due to the Spring Festival travel rush and epidemic"
+        },
+        {
+            "participant": "people",
+            "number": 5000000,
+            "context": "The sum immigration index of Wuhan from the first day of the Spring Festival travel rush (January 10) to the last day before lock-down (January 22) is 95.98, then the two model estimated travelers are 2.9 million and 5.4 million, respectively. <mark class=\"stats\">News Release Conference of Wuhan on 26 January confirmed that more than 5 million people had left Wuhan after 10 January due to the Spring Festival travel rush and epidemic</mark>. Our estimated value is closer to official reports"
+        },
+        {
+            "participant": "residents",
+            "number": 9480000,
+            "context": "Wang et al (2020) estimated 4 phases divided by the dates when various levels of prevention and control measures were taken in effect in Wuhan, the number of infections would reach the peak 58,077-84,520 or 55,869-81,393 in late February. <mark class=\"stats\">There are 9.48 million residents in Wuhan around January 26, the cumulative confirmed cases are 2,261 by January 29</mark>. We estimate at least 56,916 people were infected in Wuhan according to our model (up to February 27 the confirmed cases are 48,137)"
+        },
+        {
+            "participant": "people",
+            "number": 56916,
+            "context": "There are 9.48 million residents in Wuhan around January 26, the cumulative confirmed cases are 2,261 by January 29. <mark class=\"stats\">We estimate at least 56,916 people were infected in Wuhan according to our model (up to February 27 the confirmed cases are 48,137)</mark>. In other words, more than 8,000 undetected but infected individuals still wait for checking out in the center of epidemic storm"
+        },
+        {
+            "participant": "undetected but infected individuals",
+            "number": 8000,
+            "context": "We estimate at least 56,916 people were infected in Wuhan according to our model (up to February 27 the confirmed cases are 48,137). <mark class=\"stats\">In other words, more than 8,000 undetected but infected individuals still wait for checking out in the center of epidemic storm</mark>. Wuhan still has much to do. 4.3 Lesson from Wuhan and experience from China SARS-CoV-2 has diversity transmission approaches, including respiratory (mouth foam) and contact routes which have been confirmed, as well as aerosol and digestive (fecal-oral) routes which cannot be ruled out (National Health Commission of China, 2020)"
+        },
+        {
+            "participant": "novel coronavirus cases",
+            "number": 2019,
+            "context": "Wang Huwen, Wang Zezhou, Dong Yinqiao, et al (2020). <mark class=\"stats\">Phase adjusted estimation of the number of 2019 novel coronavirus cases in Wuhan, China</mark>. Medrxiv, doi: https://doi.org/10.1101/2020.02.18.20024281"
+        }
+    ],
+    "statistics": [
+        {
+            "p_value": "P<10-7",
+            "context": "The other is the \u201cseed cases\u201d from Wuhan before January 19, which had higher transmission ability and could be represented with the confirmed cases before January 29 (x2) due to a mean 10-day delay between infection and detection. <mark class=\"stats\">A simple yet effective regression model then was established as follow: y= 70.0916+0.0054\u00d7x1+2.3455\u00d7x2 (n = 44, R2 = 0.9330, P<10-7)</mark>. Even the lock-down date only delay or in advance 3 days, the estimated confirmed cases by February 27 in non-Wuhan region will increase 35.21% or reduce 30.74% - 48.59%"
+        },
+        {
+            "p_value": "P<10-7",
+            "context": "A simple regression model was established as follow. <mark class=\"stats\">y= 70.0916+0.0054\u00d7x1+2.3455\u00d7x2 (n = 44, R2 = 0.9330, P<10-7)</mark>. Here, y is the number of cumulative confirmed cases by February 27 of each non-Wuhan region, x1 is the sum number of immigrants from Wuhan during January 20 to January 26 of each non-Wuhan region, and x2 is the number of cumulative confirmed cases by January 29 of each non-Wuhan region"
+        }
+    ],
+    "keywords": [
+        "Baidu Migration",
+        "sars cov",
+        "traffic restrictions",
+        "baidu migration index",
+        "migration index",
+        "china mainland",
+        "large scale public health intervention",
+        "home movement",
+        "COVID-19",
+        "large-scale public health interventions",
+        "Corona Virus disease",
+        "nationwide traffic restriction",
+        "Wuhan lock-down",
+        "assess",
+        "human mobility"
+    ],
+    "keyword_relevance": {
+        "COVID-19": 0.23863636363636365,
+        "Baidu Migration": 0.17045454545454544,
+        "Wuhan lock-down": 0.13636363636363635,
+        "assess": 0.11363636363636363,
+        "traffic restrictions": 0.09090909090909091,
+        "nationwide traffic restriction": 0.09090909090909091,
+        "human mobility": 0.06818181818181818,
+        "large-scale public health interventions": 0.056818181818181816,
+        "migration index": 0.03409090909090909,
+        "sars cov": 0.0,
+        "baidu migration index": 0.0,
+        "china mainland": 0.0,
+        "large scale public health intervention": 0.0,
+        "home movement": 0.0,
+        "Corona Virus disease": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Since Corona Virus Disease 2019 (COVID-19) caused by SARS-CoV-2, a novel coronavirus, emerged on December 1, 2019 in Wuhan City, Hubei Province, China (Huang et al, 2020), the overall confirmed cases in China had reached 78,959 by the end of February 27, 2020, and a total of 2,791 people had died of the disease.",
+        "The authors present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic",
+        "How to assess the efforts of different regions in China Mainland against COVID-19? Here the authors present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic",
+        "<h2 style=\"display: inline\">Results:</h2> 2.1 Effect of COVID-19 on human mobility of China Mainland residents<br/><br/>Due to Wuhan lock-down, more than 9 million residents were isolated in Wuhan City since January 23, 2020, only 1.2 million travelers from or to Wuhan during January 24 to February 15, 2020 according to Baidu Migration.",
+        "Due to Stay At Home Movement, the mean intensity of intra-city activities for 316 cities was 2.61/d during January 24 to February 15, 2020 according to Baidu Migration",
+        "It was down 42.42% and 50.27% when compared to the same period last year (4.53/d) and the first 23d (5.25/d), respectively (Fig.3).",
+        "The second key factor can be represented with the number of cumulative confirmed cases by the end of January 29",
+        "These \u201cseed cases\u201d had higher transmission ability because the susceptible had no any protection measure.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> 4.1 Accuracy of estimating human mobility based on Baidu Migration Baidu Migration recorded more types of spatial displacement, including airplane, high-speed rail, ship, coach and private car, so it theoretically has higher accuracy.",
+        "Based on the domestic and international confirmed case, Imai et al (2020) estimated that the total number of infected individuals was 21,022 (CI: 11,090-33,490) by January 22.",
+        "Based on the meta-data of five countries\u2019 evacuation action from January 29 to February 2, Zhao et al (2020) estimated that almost 110,000 (CI: 40,000-310,000) individuals were infected with SARS-CoV-2 in Wuhan by February 2.",
+        "SARS-CoV-2 is highly contagious, Wang et al (2020) projected that without any control measure the infected population would exceed 200,000 in Wuhan by the end of February.",
+        "The strategy adopted by China has changed the fast-rising curve of newly diagnosed cases, and the simplest and most direct thing that can explain this is the data (Fig.7)"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Since Corona Virus Disease 2019 (COVID-19) caused by SARS-CoV-2, a novel coronavirus, emerged on December 1, 2019 in Wuhan City, Hubei Province, China (Huang et al, 2020), the overall confirmed cases in China had reached 78,959 by the end of February 27, 2020, and a total of 2,791 people had died of the disease.",
+            "The authors present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic",
+            "How to assess the efforts of different regions in China Mainland against COVID-19? Here the authors present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic"
+        ],
+        "Results": [
+            "2.1 Effect of COVID-19 on human mobility of China Mainland residents<br/><br/>Due to Wuhan lock-down, more than 9 million residents were isolated in Wuhan City since January 23, 2020, only 1.2 million travelers from or to Wuhan during January 24 to February 15, 2020 according to Baidu Migration.",
+            "Due to Stay At Home Movement, the mean intensity of intra-city activities for 316 cities was 2.61/d during January 24 to February 15, 2020 according to Baidu Migration",
+            "It was down 42.42% and 50.27% when compared to the same period last year (4.53/d) and the first 23d (5.25/d), respectively (Fig.3).",
+            "The second key factor can be represented with the number of cumulative confirmed cases by the end of January 29",
+            "These \u201cseed cases\u201d had higher transmission ability because the susceptible had no any protection measure."
+        ],
+        "Conclusion": [
+            "4.1 Accuracy of estimating human mobility based on Baidu Migration Baidu Migration recorded more types of spatial displacement, including airplane, high-speed rail, ship, coach and private car, so it theoretically has higher accuracy.",
+            "Based on the domestic and international confirmed case, Imai et al (2020) estimated that the total number of infected individuals was 21,022 (CI: 11,090-33,490) by January 22.",
+            "Based on the meta-data of five countries\u2019 evacuation action from January 29 to February 2, Zhao et al (2020) estimated that almost 110,000 (CI: 40,000-310,000) individuals were infected with SARS-CoV-2 in Wuhan by February 2.",
+            "SARS-CoV-2 is highly contagious, Wang et al (2020) projected that without any control measure the infected population would exceed 200,000 in Wuhan by the end of February.",
+            "The strategy adopted by China has changed the fast-rising curve of newly diagnosed cases, and the simplest and most direct thing that can explain this is the data (Fig.7)"
+        ]
+    },
+    "reference_links": [],
+    "facts": [
+        "Since COVID-19 emerged in early December",
+        "especially Wuhan lock-down combined with nationwide traffic restrictions",
+        "effective regression model was established as follow",
+        "Wuhan lock-down combined with nationwide traffic restrictions",
+        "The strategy adopted by China has changed the fast-rising curve",
+        "the international community should learn from lessons of Wuhan and experience",
+        "Since Corona Virus Disease 2019 caused by SARS-CoV-2",
+        "a total of 2,791 people had died of the disease",
+        "The Chinese government has implemented a series of large-scale public health interventions to control the epidemic",
+        "Kucharski et al estimated that the median daily reproduction number had declined from",
+        "Tian et al estimated that the dispersal of infection",
+        "Read et al suggested that travel restrictions",
+        "unlikely to be effective in halting transmission across China",
+        "of Wuhan may only be reduced by 24.9% on February 4",
+        "effective model based on Baidu Migration data",
+        "the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions",
+        "more than 9 million residents were isolated in Wuhan City since January 23",
+        "50.27% when compared to the same period last year",
+        "the second key factor can be represented with the number",
+        "A simple regression model was established as follow",
+        "4.1 Accuracy of estimating human mobility based on Baidu Migration Baidu Migration recorded more types of spatial displacement",
+        "difficult to estimate because Baidu Migration can only list the migration index",
+        "Xiu estimated that the emigration population of Shenzhen",
+        "equal to 30,427-30,526 travelers according to their model",
+        "estimated value is closer to official reports",
+        "worth noting that the Baidu Migration index still has the following disadvantages",
+        "this trip will be disassembled into A-B",
+        "How many Wuhan residents were infected with SARS-CoV-2 Several models have estimated the number of infected individuals",
+        "Imai et al estimated that the total number of infected individuals was",
+        "on the number of cases exported from Wuhan",
+        "number of international flights arriving in Wuhan",
+        "Wu et al estimated that the total number was",
+        "Zhao et al estimated that almost 110,000 individuals were infected with SARS-CoV-2",
+        "4 phases divided by the dates when various levels of prevention and control measures were taken in effect",
+        "at least 56,916 people were infected in Wuhan according to our model",
+        "The only lesson that humans have learned from history is that humans have not learned anything",
+        "China Government has implemented a series of large-scale public health interventions to control the epidemic",
+        "many prevention and control measures taken by China",
+        "Due to Stay At Home Movement",
+        "The second key factor can be represented with the number"
+    ],
+    "claims": [
+        "Based on Baidu Migration data and the confirmed cases data, we identified two key factors affecting the later (e.g February 27, 2020) cumulative confirmed cases in non-Wuhan region (y)",
+        "How to assess the efforts of different regions in China Mainland against COVID-19? Here we present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic"
+    ],
+    "findings": [
+        "A simple yet effective regression model then was established as follow: y= 70.0916+0.0054\u00d7x1+2.3455\u00d7x2 (n = 44, R2 = 0.9330, P<10-7)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Since COVID-19 emerged in early December, 2019 in Wuhan and swept across China Mainland, a series of large-scale public health interventions, especially Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement, have been taken by the government to control the epidemic",
+        "The above interventions greatly reduced the human mobility, Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement do have a determining effect on the ongoing spread of COVID-19 across China Mainland",
+        "How to assess the efforts of different regions in China Mainland against COVID-19? Here we present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic",
+        "4.1 Accuracy of estimating human mobility based on Baidu Migration Baidu Migration recorded more types of spatial displacement, including airplane, high-speed rail, ship, coach and private car, so it theoretically has higher accuracy",
+        "The real inter-city travel population of each city, is difficult to estimate because Baidu Migration can only list the migration index and the proportion",
+        "One Baidu Migration index is about equal to 30,427-30,526 travelers according to their model, this is far below our estimated value 56,137",
+        "It is worth noting that the Baidu Migration index still has the following disadvantages for estimating real traveler population",
+        "Based on the number of cases exported from Wuhan internationally, number of international flights arriving in Wuhan and the latest human mobility data from Tencent, Wu et al (2020) estimated that the total number was 75,815 (CI: 37,304-130,330) by January 25",
+        "Many prevention and control measures taken by China, especially Wuhan lock-down, nationwide traffic restrictions and Stay At Home Movement, go far beyond the requirements for responding to emergencies, setting new benchmarks for epidemic prevention in other countries"
+    ],
+    "top_statements": [
+        "Since Corona Virus Disease 2019 (COVID-19) caused by SARS-CoV-2, a novel coronavirus, emerged on December 1, 2019 in Wuhan City, Hubei Province, China (Huang et al, 2020), the overall confirmed cases in China had reached 78,959 by the end of February 27, 2020, and a total of 2,791 people had died of the disease",
+        "Since COVID-19 emerged in early December, 2019 in Wuhan and swept across China Mainland, a series of large-scale public health interventions, especially Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement, have been taken by the government to control the epidemic",
+        "How to assess the efforts of different regions in China Mainland against COVID-19? Here we present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic",
+        "One Baidu Migration index is about equal to 30,427-30,526 travelers according to their model, this is far below our estimated value 56,137",
+        "It is worth noting that the Baidu Migration index still has the following disadvantages for estimating real traveler population",
+        "Many prevention and control measures taken by China, especially Wuhan lock-down, nationwide traffic restrictions and Stay At Home Movement, go far beyond the requirements for responding to emergencies, setting new benchmarks for epidemic prevention in other countries"
+    ],
+    "headline": "How to assess the efforts of different regions in China Mainland against COVID-19? Here we present a simple yet effective model based on Baidu Migration data and the confirmed cases data to quantify the consequences and importance of Wuhan lock-down combined with nationwide traffic restrictions and Stay At Home Movement on the ongoing spread of COVID-19 across China Mainland, and preliminarily assess the efforts of 29 Provinces and 44 prefecture-level cities during the epidemic",
+    "contexts": [],
+    "abbreviations": {}
+}

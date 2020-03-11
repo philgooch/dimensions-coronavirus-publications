@@ -1,0 +1,925 @@
+{
+    "filename": "2020.01.29.925354.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 317324,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.01.29.925354",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/01/2020.01.29.925354.full.pdf"
+        },
+        "title": "Interpretable detection of novel human viruses from genome sequencing data",
+        "keywords": [
+            "Machine Learning",
+            "ICML",
+            "Viruses",
+            "Next-Generation Sequencing",
+            "Pathogenicity",
+            "Infectious",
+            "Interpretable",
+            "Deep Learning"
+        ],
+        "author": "Jakub M. Bartoszewicz, Anja Seidel, Bernhard Y. Renard",
+        "date": 2020,
+        "affiliations": [
+            "Department of Methodology and Research Infrastructure, Robert Koch Institute, Berlin, Germany",
+            "Department of Mathematics and Computer Science, Free University of Berlin, Berlin, Germany",
+            "Hasso Plattner Institute for Digital Engineering, Potsdam, Brandenburg, Germany",
+            "Digital Engineering Faculty, University of Postdam, Potsdam, Brandenburg, Germany",
+            "Currently at: Central Research Institute of Ambulatory Health Care, Berlin, Germany. Correspondence to: Jakub M. Bartoszewicz <jakub.bartoszewicz@hpi.de>, Bernhard Y. Renard <bernhard.renard@hpi.de>."
+        ],
+        "abstract": "Viruses evolve extremely quickly, so reliable methods for viral host prediction are necessary to safeguard biosecurity and biosafety alike. Novel human-infecting viruses are difficult to detect with standard bioinformatics workflows. Here, we predict whether a virus can infect humans directly from next-generation sequencing reads. We show that deep neural architectures significantly outperform both shallow machine learning and standard, homology-based algorithms, cutting the error rates in half and generalizing to taxonomic units distant from those presented during training. We propose a new approach for convolutional filter visualization to disentangle the information content of each nucleotide from its contribution to the final classification decision. Nucleotide-resolution maps of the learned associations between pathogen genomes and the infectious phenotype can be used to detect virulence-related genes in novel agents, as we show here for the 2019-nCoV coronavirus, unknown before it caused a pneumonia outbreak in December 2019.",
+        "references": "@article{alipanahi2015a,\n  author = {Alipanahi, B. and Delong, A. and Weirauch, M.T. and Frey, B.J.},\n  title = {Predicting the sequence specificities of DNA- and RNAbinding proteins by deep learning},\n  journal = {Nature Biotechnology},\n  volume = {33},\n  pages = {831\u2013838},\n  date = {2015},\n  doi = {doi: 10.1038/nbt.3300},\n  source = {ISSN 1546-1696},\n  number = {8},\n  language = {}\n}\n@article{altschul1990a,\n  author = {Altschul, S.F. and Gish, W. and Miller, W. and Myers, E.W. and Lipman, D.J.},\n  title = {Basic local alignment search tool},\n  journal = {Journal of Molecular Biology},\n  volume = {215},\n  pages = {403\u2013410},\n  date = {1990},\n  doi = {ISSN 00222836. doi: 10.1016/S0022-2836(05)80360-2},\n  number = {3},\n  language = {}\n}\n@misc{avsec2019a,\n  author = {Avsec, \u017d. and Weilert, M. and Shrikumar, A. and Alexandari, A. and Krueger, S. and Dalal, K. and Fropf, R. and McAnany, C. and Gagneur, J. and Kundaje, A. and Zeitlinger, J.},\n  title = {Deep learning at baseresolution reveals motif syntax of the cis-regulatory code. bioRxiv},\n  pages = {737981},\n  date = {2019-08},\n  doi = {doi: 10.1101/737981},\n  language = {}\n}\n@article{babayan2018a,\n  author = {Babayan, S.A. and Orton, R.J. and Streicker, D.G.},\n  title = {Predicting reservoir hosts and arthropod vectors from evolutionary signatures in RNA virus genomes},\n  journal = {Science},\n  volume = {362},\n  pages = \"577\u2013580,\" # \"1095-9203.\",\n  date = {2018-11},\n  doi = {doi: 10.1126/science.aap9072},\n  source = {ISSN 0036-8075},\n  number = {6414},\n  unmatched-pages = {1095-9203.},\n  language = {}\n}\n@article{bach2015a,\n  author = {Bach, S. and Binder, A. and Montavon, G. and Klauschen, F. and M\u00fcller, K.-R. and Samek, W.},\n  title = {On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation},\n  journal = {PLOS ONE},\n  volume = {10},\n  pages = {0130140},\n  date = {2015-07},\n  doi = {doi: 10.1371/journal.pone.0130140},\n  source = {ISSN 1932-6203},\n  number = {7},\n  language = {}\n}\n@article{bartoszewicz2019a,\n  author = {Bartoszewicz, J.M. and Seidel, A. and Rentzsch, R. and Renard, B.Y.},\n  title = {DeePaC: predicting pathogenic potential of novel DNA with reverse-complement neural networks},\n  journal = {Bioinformatics},\n  volume = {36},\n  pages = {81\u201389},\n  date = {2019},\n  doi = {doi: 10.1093/bioinformatics/btz541},\n  source = {ISSN 1367-4803},\n  unmatched-volume = {07},\n  number = {1},\n  language = {}\n}\n@incollection{imagenet2019a,\n  author = {ImageNet},\n  booktitle = {International Conference on Learning Representations},\n  date = {2019},\n  language = {}\n}\n@article{calistri2015a,\n  author = {Calistri, A. and Pal\u00f9, G.},\n  title = {Editorial commentary: Unbiased next-generation sequencing and new pathogen discovery: undeniable advantages and still-existing drawbacks. Clinical Infectious Diseases: An Official Publication of the},\n  journal = {Infectious Diseases Society of America},\n  volume = {60},\n  pages = {889\u2013891},\n  date = {2015},\n  doi = {doi: 10.1093/cid/ciu913},\n  source = {ISSN 1537-6591},\n  number = {6},\n  language = {}\n}\n@article{calvignac-spencer2014a,\n  author = {Calvignac-Spencer, S. and Schulze, J.M. and Zickmann, F. and Renard, B.Y.},\n  title = {Clock rooting further demonstrates that guinea 2014 ebov is a member of the za\u00efre lineage},\n  journal = {PLoS currents},\n  volume = {6},\n  date = {2014},\n  language = {}\n}\n@article{crooks2004a,\n  author = {Crooks, G.E. and Hon, G. and Chandonia, J.-M. and Brenner, S.E.},\n  title = {WebLogo: a sequence logo generator},\n  journal = {Genome Research},\n  volume = {14},\n  pages = {1188\u20131190},\n  date = {2004-06},\n  doi = {doi: 10.1101/gr.849004},\n  source = {ISSN 1088-9051},\n  number = {6},\n  language = {}\n}\n@article{edwards2016a,\n  author = {Edwards, R.A. and McNair, K. and Faust, K. and Raes, J. and Dutilh, B.E.},\n  title = {Computational approaches to predict bacteriophagehost relationships},\n  journal = {FEMS microbiology reviews},\n  volume = {40},\n  pages = {258\u2013272},\n  date = {2016},\n  doi = {doi: 10.1093/femsre/fuv048},\n  source = {ISSN 1574-6976},\n  number = {2},\n  language = {}\n}\n@article{eng2014a,\n  author = {Eng, C.L. and Tong, J.C. and Tan, T.W.},\n  title = {Predicting host tropism of influenza a virus proteins using random forest},\n  journal = {BMC Medical Genomics},\n  volume = {7},\n  pages = {1},\n  date = {2014},\n  doi = {doi: 10.1186/1755-8794-7-S3-S1},\n  source = {ISSN 1755-8794},\n  number = {3},\n  language = {}\n}\n@article{eraslan2019a,\n  author = {},\n  title = {Deep learning: new computational modelling techniques for genomics},\n  journal = {Nature Reviews Genetics},\n  volume = {20},\n  pages = {389},\n  date = {2019-07},\n  doi = {doi: 10.1038/s41576-019-0122-6},\n  unmatched-author = {403,},\n  source = {ISSN 1471-0064},\n  number = {7},\n  language = {}\n}\n@article{ga2019a,\n  author = {Ga\u0142an, W. and Bak, M. and Jakubowska, M.},\n  title = {Host taxon predictor - a tool for predicting taxon of the host of a newly discovered virus},\n  journal = {Scientific Reports},\n  volume = {9},\n  pages = {3436},\n  date = {2019},\n  doi = {doi: 10.1038/s41598-019-39847-2},\n  source = {ISSN 2045-2322},\n  number = {1},\n  language = {}\n}\n@article{greenside2018a,\n  author = {Greenside, P. and Shimko, T. and Fordyce, P. and Kundaje, A.},\n  title = {Discovering epistatic feature interactions from neural network models of regulatory DNA sequences},\n  journal = {Bioinformatics},\n  volume = {34},\n  pages = {629\u2013637},\n  date = {2018},\n  doi = {doi: 10.1093/bioinformatics/bty575},\n  source = {ISSN 1367-4803},\n  number = {17},\n  language = {}\n}\n@article{herfst2012a,\n  author = {Herfst, S. and Schrauwen, E.J.A. and Linster, M. and Chutinimitkul, S. and Wit, E.d and Munster, V.J. and Sorrell, E.M. and Bestebroer, T.M. and Burke, D.F. and Smith, D.J. and Rimmelzwaan, G.F. and Osterhaus, A.D.M.E. and Fouchier, R.A.M.},\n  title = {Airborne Transmission of Influenza A/H5n1 Virus Between Ferrets},\n  journal = {Science},\n  volume = {336},\n  pages = \"1534\u20131541,\" # \"1095-9203.\",\n  date = {2012-06},\n  doi = {doi: 10.1126/science.1213362},\n  unmatched-volume = {00368075,},\n  number = {6088},\n  unmatched-pages = {1095-9203.},\n  language = {}\n}\n@misc{holtgrewe2010a,\n  author = {Holtgrewe, M.},\n  title = {Mason \u2013 a read simulator for second generation sequencing data},\n  date = {2010},\n  language = {},\n  type = {Technical Report FU},\n  address = {Berlin}\n}\n@article{imai2012a,\n  author = {Imai, M. and Watanabe, T. and Hatta, M. and Das, S.C. and Ozawa, M. and Shinya, K. and Zhong, G. and Hanson, A. and Katsura, H. and Watanabe, S. and Li, C. and Kawakami, E. and Yamada, S. and Kiso, M. and Suzuki, Y. and Maher, E.A. and Neumann, G. and Kawaoka, Y.},\n  title = {Experimental adaptation of an influenza H5 HA confers respiratory droplet transmission to a reassortant H5 HA/H1n1 virus in ferrets},\n  journal = {Nature},\n  volume = {486},\n  pages = {420\u2013428},\n  date = {2012-06},\n  doi = {doi: 10.1038/nature10831},\n  source = {ISSN 1476-4687},\n  number = {7403},\n  language = {}\n}\n@article{jha2019a,\n  author = {Jha, A. and Aicher, J.K. and Singh, D. and Barash, Y.},\n  title = {Improving interpretability of deep learning models: splicing codes as a case study},\n  journal = {bioRxiv},\n  date = {2019},\n  doi = {doi: 10.1101/700096},\n  language = {}\n}\n@article{kelley2016a,\n  author = {Kelley, D.R. and Snoek, J. and Rinn, J.L.},\n  title = {Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks},\n  journal = {Genome Research},\n  date = {2016},\n  pages = {990\u2013999},\n  doi = {doi: 10.1101/gr.200535.115},\n  source = {ISSN 1088-9051},\n  language = {}\n}\n@article{lanchantin2016a,\n  author = {Lanchantin, J. and Singh, R. and Lin, Z. and Qi, Y.},\n  title = {Deep Motif: Visualizing Genomic Sequence Classifications},\n  journal = {CoRR},\n  volume = {1605},\n  date = {2016},\n  number = {1133},\n  language = {}\n}\n@article{lanchantin2017a,\n  author = {Lanchantin, J. and Singh, R. and Wang, B. and Qi, Y.},\n  title = {Deep motif dashboard: visualizing and understanding genomic sequences using deep neural networks. Pacific Symposium on Biocomputing},\n  journal = {Pacific Symposium on Biocomputing},\n  volume = {22},\n  pages = {254\u2013265},\n  date = {2017},\n  doi = {doi: 10.1142/9789813207813_0025},\n  source = {ISSN 2335-6936},\n  language = {}\n}\n@article{lecuit2014a,\n  author = {Lecuit, M. and Eloit, M.},\n  title = {The diagnosis of infectious diseases by whole genome next generation sequencing: a new era is opening},\n  journal = {Frontiers in Cellular and Infection Microbiology},\n  volume = {4},\n  pages = {25},\n  date = {2014},\n  doi = {doi: 10.3389/fcimb.2014.00025},\n  source = {ISSN 2235-2988},\n  language = {}\n}\n@article{leendertz2016a,\n  author = {Leendertz, S.A.J. and Gogarten, J.F. and D\u00fcx, A. and CalvignacSpencer, S. and Leendertz, F.H.},\n  title = {Assessing the evidence supporting fruit bats as the primary reservoirs for ebola viruses},\n  journal = {EcoHealth},\n  volume = {13},\n  pages = {18\u201325},\n  date = {2016-03},\n  doi = {ISSN 16129210. doi: 10.1007/s10393-015-1053-0},\n  number = {1},\n  language = {}\n}\n@article{li2016a,\n  author = {Li, F.Structure and Function},\n  title = {and Evolution of Coronavirus Spike Proteins},\n  journal = {Annual Review of Virology},\n  volume = {3},\n  pages = {237\u2013261},\n  date = {2016},\n  doi = {doi: 10.1146/annurev-virology-110615-042301},\n  number = {1},\n  language = {}\n}\n@article{li2018a,\n  author = {Li, H. and Sun, F.},\n  title = {Comparative studies of alignment, alignment-free and SVM based approaches for predicting the hosts of viruses based on viral sequences},\n  journal = {Scientific Reports},\n  volume = {8},\n  pages = {10032},\n  date = {2018},\n  doi = {doi: 10.1038/s41598-018-28308-x},\n  source = {ISSN 2045-2322},\n  number = {1},\n  language = {}\n}\n@article{lipsitch2014a,\n  author = {Lipsitch, M. and Inglesby, T.V.},\n  title = {Moratorium on Research Intended To Create Novel Potential Pandemic Pathogens},\n  journal = {mBio},\n  volume = {5},\n  date = {2014-12},\n  doi = {doi: 10.1128/mBio.02366-14},\n  source = {ISSN 2150-7511},\n  number = {6},\n  language = {}\n}\n@incollection{lundberg2017a,\n  author = {Lundberg, S.M. and Lee, S.-I.},\n  title = {A Unified Approach to Interpreting Model Predictions},\n  section = {In},\n  booktitle = {(eds.), Advances in Neural Information Processing Systems},\n  volume = {30},\n  pages = {4765\u20134774},\n  publisher = {Curran Associates, Inc},\n  date = {2017},\n  unmatched-author = {Guyon, I., Luxburg, U. V., Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S., and Garnett, R.},\n  language = {}\n}\n@article{marchler-bauer2017a,\n  author = {Marchler-Bauer, A. and Bo, Y. and Han, L. and He, J. and Lanczycki, C.J. and Lu, S. and Chitsaz, F. and Derbyshire, M.K. and Geer, R.C. and Gonzales, N.R. and Gwadz, M. and Hurwitz, D.I. and Lu, F. and Marchler, G.H. and Song, J.S. and Thanki, N. and Wang, Z. and Yamashita, R.A. and Zhang, D. and Zheng, C. and Geer, L.Y. and Bryant, S.H.},\n  title = {CDD/SPARCLE: functional classification of proteins via subfamily domain architectures},\n  journal = {Nucleic Acids Research},\n  volume = {45},\n  pages = {200\u2013203},\n  date = {2017},\n  doi = {doi: 10.1093/nar/gkw1129},\n  source = {ISSN 1362-4962},\n  number = {1},\n  language = {}\n}\n@article{mihara2016a,\n  author = {Mihara, T. and Nishimura, Y. and Shimizu, Y. and Nishiyama, H. and Yoshikawa, G. and Uehara, H. and Hingamp, P. and Goto, S. and Ogata, H.},\n  title = {Linking virus genomes with host taxonomy},\n  journal = {Viruses},\n  volume = {8},\n  pages = {66},\n  date = {2016},\n  doi = {doi: 10.3390/v8030066},\n  source = {ISSN 1999-4915},\n  number = {3},\n  language = {}\n}\n@misc{mock2019a,\n  author = {Mock, F. and Viehweger, A. and Barth, E. and Marz, M.},\n  title = {Viral host prediction with deep learning. bioRxiv},\n  pages = {575571},\n  date = {2019},\n  doi = {doi: 10.1101/575571},\n  language = {}\n}\n@article{moustafa2017a,\n  author = {Moustafa, A. and Xie, C. and Kirkness, E. and Biggs, W. and Wong, E. and Turpaz, Y. and Bloom, K. and Delwart, E. and Nelson, K.E. and Venter, J.C. and Telenti, A.},\n  title = {The blood DNA virome in 8,000 humans},\n  journal = {PLOS Pathogens},\n  volume = {13},\n  pages = {1006292},\n  date = {2017-03},\n  doi = {doi: 10.1371/journal.ppat.1006292},\n  source = {ISSN 1553-7374},\n  number = {3},\n  language = {}\n}\n@incollection{naftaly1997a,\n  author = {Naftaly, U. and Intrator, N. and Horn, D.},\n  title = {Optimal ensemble averaging of neural networks},\n  booktitle = {Network: Computation in Neural Systems},\n  volume = {8},\n  pages = {283\u2013296},\n  date = {1997-01},\n  doi = {ISSN 0954-898X. doi: 10.1088/0954-898X_8_3_004},\n  number = {3},\n  language = {}\n}\n@article{nair2019a,\n  author = {Nair, S. and Kim, D.S. and Perricone, J. and Kundaje, A.},\n  title = {Integrating regulatory DNA sequence and gene expression to predict genome-wide chromatin accessibility across cellular contexts},\n  journal = {Bioinformatics},\n  volume = {35},\n  pages = {108\u2013116},\n  date = {2019-07},\n  doi = {doi: 10.1093/bioinformatics/btz352},\n  source = {ISSN 1367-4803},\n  number = {14},\n  language = {}\n}\n@incollection{noyce2018a,\n  author = {Noyce, R.S. and Lederman, S. and Evans, D.H.},\n  title = {Construction of an infectious horsepox virus vaccine from chemically synthesized DNA fragments},\n  publisher = {PLOS ONE},\n  date = {2018-01-13},\n  pages = {0188453},\n  doi = {doi: 10.1371/journal.pone.0188453},\n  source = {ISSN 1932-6203},\n  language = {}\n}\n@article{poplin2018a,\n  author = {Poplin, R. and Chang, P.-C. and Alexander, D. and Schwartz, S. and Colthurst, T. and Ku, A. and Newburger, D. and Dijamco, J. and Nguyen, N. and Afshar, P.T. and Gross, S.S. and Dorfman, L. and McLean, C.Y. and DePristo, M.A.},\n  title = {A universal SNP and small-indel variant caller using deep neural networks},\n  journal = {Nature Biotechnology},\n  volume = {36},\n  pages = {983\u2013987},\n  date = {2018},\n  doi = {ISSN 15461696. doi: 10.1038/nbt.4235},\n  number = {10},\n  language = {}\n}\n@article{quang2016a,\n  author = {Quang, D. and Xie, X.},\n  title = {DanQ: a hybrid convolutional and recurrent deep neural network for quantifying the function of DNA sequences},\n  journal = {Nucleic Acids Research},\n  volume = {44},\n  pages = {107},\n  date = {2016},\n  doi = {doi: 10.1093/nar/gkw226},\n  unmatched-author = {e107,},\n  source = {ISSN 0305-1048},\n  number = {11},\n  language = {}\n}\n@book{ren2018a,\n  author = {Ren, J. and Song, K. and Deng, C. and Ahlgren, N.A. and Fuhrman, J.A. and Li, Y. and Xie, X. and Sun, F.},\n  title = {Identifying viruses from metagenomic data by deep learning},\n  publisher = {arXiv: 1806.07810 [q-bio},\n  date = {2018-06},\n  language = {}\n}\n@article{schneider1990a,\n  author = {Schneider, T.D. and Stephens, R.M.},\n  title = {Sequence logos: a new way to display consensus sequences},\n  journal = {Nucleic Acids Research},\n  volume = {18},\n  pages = {6097\u20136100},\n  date = {1990-10},\n  doi = {ISSN 03051048. doi: 10.1093/nar/18.20.6097},\n  number = {20},\n  language = {}\n}\n@misc{shrikumar2019a,\n  author = {Shrikumar, A. and Greenside, P. and Kundaje, A.},\n  title = {Learning Important Features Through Propagating Activation Differences. arXiv: 1704.02685},\n  date = {2019-10},\n  volume = {arXiv:},\n  pages = {1704\u201302685},\n  language = {}\n}\n@book{shrikumar2019b,\n  author = {},\n  title = {TF-MoDISco v0},\n  publisher = {Technical Note. arXiv: 1811.00416 [cs, q-bio, stat},\n  date = {2019-03},\n  volume = {1811},\n  number = {416},\n  language = {},\n  address = {4.2.2-alpha}\n}\n@article{stojkova2019a,\n  author = {Stojkova, P. and Spidlova, P. and Stulik, J.},\n  title = {Nucleoid-associated protein hu: A lilliputian in gene regulation of bacterial virulence},\n  journal = {Frontiers in Cellular and Infection Microbiology},\n  volume = {9},\n  date = {2019},\n  doi = {doi: 10.3389/fcimb.2019.00159},\n  source = {ISSN 2235-2988},\n  number = {159},\n  language = {}\n}\n@article{vouga2016a,\n  author = {Vouga, M. and Greub, G.},\n  title = {Emerging bacterial pathogens: the past and beyond},\n  journal = {Clinical Microbiology and Infection},\n  volume = {22},\n  pages = {12\u201321},\n  date = {2016-01},\n  doi = {ISSN 1198-743X. doi: 10.1016/j.cmi.2015.10.010},\n  number = {1},\n  language = {}\n}\n@incollection{wu2020a,\n  author = {Wu, F. and Zhao, S. and Yu, B. and Chen, Y.-M. and Wang, W. and Hu, Y. and Song, Z.-G. and Tao, Z.-W. and Tian, J.-H. and Pei, Y.-Y. and Yuan, M.L. and Zhang, Y.-L. and Dai, F.-H. and Liu, Y. and Wang, Q.-M. and Zheng, J.-J. and Xu, L. and Holmes, E.C. and Zhang, Y.-Z.},\n  title = {Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China},\n  date = {2020-01-01},\n  pages = {pp.},\n  doi = {doi: 10.1101/2020.01.24.919183},\n  source = {2020},\n  language = {}\n}\n@article{zeng2016a,\n  author = {Zeng, H. and Edwards, M.D. and Liu, G. and Gifford, D.K.},\n  title = {Convolutional neural network architectures for predicting DNA\u2013protein binding},\n  journal = {Bioinformatics},\n  volume = {32},\n  pages = {121\u2013127},\n  date = {2016},\n  doi = {doi: 10.1093/bioinformatics/btw255},\n  source = {ISSN 1367-4803},\n  number = {12},\n  language = {}\n}\n@misc{zhang2019a,\n  author = {Zhang, Z. and Cai, Z. and Tan, Z. and Lu, C. and Jiang, T. and Zhang, G. and Peng, Y.},\n  title = {Rapid identification of human-infecting viruses. Transboundary and Emerging Diseases},\n  date = {2019-08},\n  doi = {ISSN 1865-1682. doi: 10.1111/tbed.13314},\n  language = {}\n}\n@article{zhou2015a,\n  author = {Zhou, J. and Troyanskaya, O.G.},\n  title = {Predicting effects of noncoding variants with deep learning\u2013based sequence model},\n  journal = {Nature Methods},\n  volume = {12},\n  pages = {931\u2013934},\n  date = {2015},\n  doi = {doi: 10.1038/nmeth.3547},\n  source = {ISSN 1548-7105},\n  number = {10},\n  language = {}\n}\n@article{sundararajan2016a,\n  author = {Sundararajan, M. and Taly, A. and Yan, Q.},\n  title = {Gradients of Counterfactuals},\n  journal = {CoRR},\n  volume = {1611},\n  date = {2016},\n  number = {2639},\n  language = {}\n}\n@incollection{tampuu0222a,\n  author = {Tampuu, A. and Bzhalava, Z. and Dillner, J. and Vicente, R.},\n  title = {ViraMiner: Deep learning on raw DNA sequences for identifying viral genomes in human samples. PLOS ONE},\n  date = {0222-09-14},\n  doi = {doi: 10.1371/journal.pone.0222271},\n  source = {ISSN 1932-6203},\n  language = {}\n}\n@article{thiel2018a,\n  author = {Thiel, V.},\n  title = {Synthetic viruses-Anything new?},\n  journal = {PLoS pathogens},\n  volume = {14},\n  pages = {1007019},\n  date = {2018},\n  doi = {doi: 10.1371/journal.ppat.1007019},\n  source = {ISSN 1553-7374},\n  number = {10},\n  language = {}\n}\n@article{thorvaldsd2013a,\n  author = {Thorvaldsd\u00f3ttir, H. and Robinson, J.T. and Mesirov, J.P.},\n  title = {Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration},\n  journal = {Briefings in Bioinformatics},\n  volume = {14},\n  pages = {178\u2013192},\n  date = {2013-03},\n  doi = {ISSN 14675463. doi: 10.1093/bib/bbs017},\n  number = {2},\n  language = {}\n}\n@article{trappe2016a,\n  author = {Trappe, K. and Marschall, T. and Renard, B.Y.},\n  title = {Detecting horizontal gene transfer by mapping sequencing reads across species boundaries},\n  journal = {Bioinformatics},\n  volume = {32},\n  pages = {595},\n  date = {2016-09},\n  doi = {doi: 10.1093/bioinformatics/btw423},\n  source = {ISSN 1367-4803},\n  number = {17},\n  language = {}\n}\n",
+        "links": [
+            "https://gitlab.com/rki_bioinformatics/deepac"
+        ],
+        "emails": [
+            "bernhard.renard@hpi.de>",
+            "jakub.bartoszewicz@hpi.de>"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Alipanahi, B.\nAU  - Delong, A.\nAU  - Weirauch, M.T.\nAU  - Frey, B.J.\nTI  - Predicting the sequence specificities of DNA- and RNAbinding proteins by deep learning\nT2  - Nature Biotechnology\nVL  - 33\nSP  - 831\nEP  - 838\nPY  - 2015\nDA  - 2015\nDO  - 10.1038/nbt.3300\nT2  - ISSN 1546-1696\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Altschul, S.F.\nAU  - Gish, W.\nAU  - Miller, W.\nAU  - Myers, E.W.\nAU  - Lipman, D.J.\nTI  - Basic local alignment search tool\nT2  - Journal of Molecular Biology\nVL  - 215\nSP  - 403\nEP  - 410\nPY  - 1990\nDA  - 1990\nDO  - ISSN 00222836. doi: 10.1016/S0022-2836(05)80360-2\nIS  - 3\nLA  - \nER  - \n\nTY  - GEN\nAU  - Avsec, \u017d.\nAU  - Weilert, M.\nAU  - Shrikumar, A.\nAU  - Alexandari, A.\nAU  - Krueger, S.\nAU  - Dalal, K.\nAU  - Fropf, R.\nAU  - McAnany, C.\nAU  - Gagneur, J.\nAU  - Kundaje, A.\nAU  - Zeitlinger, J.\nTI  - Deep learning at baseresolution reveals motif syntax of the cis-regulatory code. bioRxiv\nSP  - 737981\nPY  - 2019\nDA  - 2019/08\nDO  - 10.1101/737981\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Babayan, S.A.\nAU  - Orton, R.J.\nAU  - Streicker, D.G.\nTI  - Predicting reservoir hosts and arthropod vectors from evolutionary signatures in RNA virus genomes\nT2  - Science\nVL  - 362\nSP  - \"577\nEP  - 580,\" # \"1095\nPY  - 2018\nDA  - 2018/11\nDO  - 10.1126/science.aap9072\nT2  - ISSN 0036-8075\nIS  - 6414\nC1  - 1095-9203.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bach, S.\nAU  - Binder, A.\nAU  - Montavon, G.\nAU  - Klauschen, F.\nAU  - M\u00fcller, K.-R.\nAU  - Samek, W.\nTI  - On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation\nT2  - PLOS ONE\nVL  - 10\nSP  - 0130140\nPY  - 2015\nDA  - 2015/07\nDO  - 10.1371/journal.pone.0130140\nT2  - ISSN 1932-6203\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bartoszewicz, J.M.\nAU  - Seidel, A.\nAU  - Rentzsch, R.\nAU  - Renard, B.Y.\nTI  - DeePaC: predicting pathogenic potential of novel DNA with reverse-complement neural networks\nT2  - Bioinformatics\nVL  - 36\nSP  - 81\nEP  - 89\nPY  - 2019\nDA  - 2019\nDO  - 10.1093/bioinformatics/btz541\nT2  - ISSN 1367-4803\nC1  - 07\nIS  - 1\nLA  - \nER  - \n\nTY  - CHAP\nAU  - ImageNet\nT2  - International Conference on Learning Representations\nPY  - 2019\nDA  - 2019\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Calistri, A.\nAU  - Pal\u00f9, G.\nTI  - Editorial commentary: Unbiased next-generation sequencing and new pathogen discovery: undeniable advantages and still-existing drawbacks. Clinical Infectious Diseases: An Official Publication of the\nT2  - Infectious Diseases Society of America\nVL  - 60\nSP  - 889\nEP  - 891\nPY  - 2015\nDA  - 2015\nDO  - 10.1093/cid/ciu913\nT2  - ISSN 1537-6591\nIS  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Calvignac-Spencer, S.\nAU  - Schulze, J.M.\nAU  - Zickmann, F.\nAU  - Renard, B.Y.\nTI  - Clock rooting further demonstrates that guinea 2014 ebov is a member of the za\u00efre lineage\nT2  - PLoS currents\nVL  - 6\nPY  - 2014\nDA  - 2014\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Crooks, G.E.\nAU  - Hon, G.\nAU  - Chandonia, J.-M.\nAU  - Brenner, S.E.\nTI  - WebLogo: a sequence logo generator\nT2  - Genome Research\nVL  - 14\nSP  - 1188\nEP  - 1190\nPY  - 2004\nDA  - 2004/06\nDO  - 10.1101/gr.849004\nT2  - ISSN 1088-9051\nIS  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Edwards, R.A.\nAU  - McNair, K.\nAU  - Faust, K.\nAU  - Raes, J.\nAU  - Dutilh, B.E.\nTI  - Computational approaches to predict bacteriophagehost relationships\nT2  - FEMS microbiology reviews\nVL  - 40\nSP  - 258\nEP  - 272\nPY  - 2016\nDA  - 2016\nDO  - 10.1093/femsre/fuv048\nT2  - ISSN 1574-6976\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Eng, C.L.\nAU  - Tong, J.C.\nAU  - Tan, T.W.\nTI  - Predicting host tropism of influenza a virus proteins using random forest\nT2  - BMC Medical Genomics\nVL  - 7\nSP  - 1\nPY  - 2014\nDA  - 2014\nDO  - 10.1186/1755-8794-7-S3-S1\nT2  - ISSN 1755-8794\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Deep learning: new computational modelling techniques for genomics\nT2  - Nature Reviews Genetics\nVL  - 20\nSP  - 389\nPY  - 2019\nDA  - 2019/07\nDO  - 10.1038/s41576-019-0122-6\nC1  - 403,\nT2  - ISSN 1471-0064\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ga\u0142an, W.\nAU  - Bak, M.\nAU  - Jakubowska, M.\nTI  - Host taxon predictor - a tool for predicting taxon of the host of a newly discovered virus\nT2  - Scientific Reports\nVL  - 9\nSP  - 3436\nPY  - 2019\nDA  - 2019\nDO  - 10.1038/s41598-019-39847-2\nT2  - ISSN 2045-2322\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Greenside, P.\nAU  - Shimko, T.\nAU  - Fordyce, P.\nAU  - Kundaje, A.\nTI  - Discovering epistatic feature interactions from neural network models of regulatory DNA sequences\nT2  - Bioinformatics\nVL  - 34\nSP  - 629\nEP  - 637\nPY  - 2018\nDA  - 2018\nDO  - 10.1093/bioinformatics/bty575\nT2  - ISSN 1367-4803\nIS  - 17\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Herfst, S.\nAU  - Schrauwen, E.J.A.\nAU  - Linster, M.\nAU  - Chutinimitkul, S.\nAU  - Wit, E.d\nAU  - Munster, V.J.\nAU  - Sorrell, E.M.\nAU  - Bestebroer, T.M.\nAU  - Burke, D.F.\nAU  - Smith, D.J.\nAU  - Rimmelzwaan, G.F.\nAU  - Osterhaus, A.D.M.E.\nAU  - Fouchier, R.A.M.\nTI  - Airborne Transmission of Influenza A/H5n1 Virus Between Ferrets\nT2  - Science\nVL  - 336\nSP  - \"1534\nEP  - 1541,\" # \"1095\nPY  - 2012\nDA  - 2012/06\nDO  - 10.1126/science.1213362\nC1  - 00368075,\nIS  - 6088\nC1  - 1095-9203.\nLA  - \nER  - \n\nTY  - GEN\nAU  - Holtgrewe, M.\nTI  - Mason \u2013 a read simulator for second generation sequencing data\nPY  - 2010\nDA  - 2010\nLA  - \nCY  - Berlin\nER  - \n\nTY  - JOUR\nAU  - Imai, M.\nAU  - Watanabe, T.\nAU  - Hatta, M.\nAU  - Das, S.C.\nAU  - Ozawa, M.\nAU  - Shinya, K.\nAU  - Zhong, G.\nAU  - Hanson, A.\nAU  - Katsura, H.\nAU  - Watanabe, S.\nAU  - Li, C.\nAU  - Kawakami, E.\nAU  - Yamada, S.\nAU  - Kiso, M.\nAU  - Suzuki, Y.\nAU  - Maher, E.A.\nAU  - Neumann, G.\nAU  - Kawaoka, Y.\nTI  - Experimental adaptation of an influenza H5 HA confers respiratory droplet transmission to a reassortant H5 HA/H1n1 virus in ferrets\nT2  - Nature\nVL  - 486\nSP  - 420\nEP  - 428\nPY  - 2012\nDA  - 2012/06\nDO  - 10.1038/nature10831\nT2  - ISSN 1476-4687\nIS  - 7403\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jha, A.\nAU  - Aicher, J.K.\nAU  - Singh, D.\nAU  - Barash, Y.\nTI  - Improving interpretability of deep learning models: splicing codes as a case study\nT2  - bioRxiv\nPY  - 2019\nDA  - 2019\nDO  - 10.1101/700096\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kelley, D.R.\nAU  - Snoek, J.\nAU  - Rinn, J.L.\nTI  - Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks\nT2  - Genome Research\nPY  - 2016\nDA  - 2016\nSP  - 990\nEP  - 999\nDO  - 10.1101/gr.200535.115\nT2  - ISSN 1088-9051\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lanchantin, J.\nAU  - Singh, R.\nAU  - Lin, Z.\nAU  - Qi, Y.\nTI  - Deep Motif: Visualizing Genomic Sequence Classifications\nT2  - CoRR\nVL  - 1605\nPY  - 2016\nDA  - 2016\nIS  - 1133\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lanchantin, J.\nAU  - Singh, R.\nAU  - Wang, B.\nAU  - Qi, Y.\nTI  - Deep motif dashboard: visualizing and understanding genomic sequences using deep neural networks. Pacific Symposium on Biocomputing\nT2  - Pacific Symposium on Biocomputing\nVL  - 22\nSP  - 254\nEP  - 265\nPY  - 2017\nDA  - 2017\nDO  - 10.1142/9789813207813_0025\nT2  - ISSN 2335-6936\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lecuit, M.\nAU  - Eloit, M.\nTI  - The diagnosis of infectious diseases by whole genome next generation sequencing: a new era is opening\nT2  - Frontiers in Cellular and Infection Microbiology\nVL  - 4\nSP  - 25\nPY  - 2014\nDA  - 2014\nDO  - 10.3389/fcimb.2014.00025\nT2  - ISSN 2235-2988\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Leendertz, S.A.J.\nAU  - Gogarten, J.F.\nAU  - D\u00fcx, A.\nAU  - CalvignacSpencer, S.\nAU  - Leendertz, F.H.\nTI  - Assessing the evidence supporting fruit bats as the primary reservoirs for ebola viruses\nT2  - EcoHealth\nVL  - 13\nSP  - 18\nEP  - 25\nPY  - 2016\nDA  - 2016/03\nDO  - ISSN 16129210. doi: 10.1007/s10393-015-1053-0\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, F.Structure\nAU  - Function\nTI  - and Evolution of Coronavirus Spike Proteins\nT2  - Annual Review of Virology\nVL  - 3\nSP  - 237\nEP  - 261\nPY  - 2016\nDA  - 2016\nDO  - 10.1146/annurev-virology-110615-042301\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, H.\nAU  - Sun, F.\nTI  - Comparative studies of alignment, alignment-free and SVM based approaches for predicting the hosts of viruses based on viral sequences\nT2  - Scientific Reports\nVL  - 8\nSP  - 10032\nPY  - 2018\nDA  - 2018\nDO  - 10.1038/s41598-018-28308-x\nT2  - ISSN 2045-2322\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lipsitch, M.\nAU  - Inglesby, T.V.\nTI  - Moratorium on Research Intended To Create Novel Potential Pandemic Pathogens\nT2  - mBio\nVL  - 5\nPY  - 2014\nDA  - 2014/12\nDO  - 10.1128/mBio.02366-14\nT2  - ISSN 2150-7511\nIS  - 6\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Lundberg, S.M.\nAU  - Lee, S.-I.\nTI  - A Unified Approach to Interpreting Model Predictions\nSE  - In\nT2  - (eds.), Advances in Neural Information Processing Systems\nVL  - 30\nSP  - 4765\nEP  - 4774\nPB  - Curran Associates, Inc\nPY  - 2017\nDA  - 2017\nC1  - Guyon, I., Luxburg, U. V., Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S., and Garnett, R.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Marchler-Bauer, A.\nAU  - Bo, Y.\nAU  - Han, L.\nAU  - He, J.\nAU  - Lanczycki, C.J.\nAU  - Lu, S.\nAU  - Chitsaz, F.\nAU  - Derbyshire, M.K.\nAU  - Geer, R.C.\nAU  - Gonzales, N.R.\nAU  - Gwadz, M.\nAU  - Hurwitz, D.I.\nAU  - Lu, F.\nAU  - Marchler, G.H.\nAU  - Song, J.S.\nAU  - Thanki, N.\nAU  - Wang, Z.\nAU  - Yamashita, R.A.\nAU  - Zhang, D.\nAU  - Zheng, C.\nAU  - Geer, L.Y.\nAU  - Bryant, S.H.\nTI  - CDD/SPARCLE: functional classification of proteins via subfamily domain architectures\nT2  - Nucleic Acids Research\nVL  - 45\nSP  - 200\nEP  - 203\nPY  - 2017\nDA  - 2017\nDO  - 10.1093/nar/gkw1129\nT2  - ISSN 1362-4962\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Mihara, T.\nAU  - Nishimura, Y.\nAU  - Shimizu, Y.\nAU  - Nishiyama, H.\nAU  - Yoshikawa, G.\nAU  - Uehara, H.\nAU  - Hingamp, P.\nAU  - Goto, S.\nAU  - Ogata, H.\nTI  - Linking virus genomes with host taxonomy\nT2  - Viruses\nVL  - 8\nSP  - 66\nPY  - 2016\nDA  - 2016\nDO  - 10.3390/v8030066\nT2  - ISSN 1999-4915\nIS  - 3\nLA  - \nER  - \n\nTY  - GEN\nAU  - Mock, F.\nAU  - Viehweger, A.\nAU  - Barth, E.\nAU  - Marz, M.\nTI  - Viral host prediction with deep learning. bioRxiv\nSP  - 575571\nPY  - 2019\nDA  - 2019\nDO  - 10.1101/575571\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Moustafa, A.\nAU  - Xie, C.\nAU  - Kirkness, E.\nAU  - Biggs, W.\nAU  - Wong, E.\nAU  - Turpaz, Y.\nAU  - Bloom, K.\nAU  - Delwart, E.\nAU  - Nelson, K.E.\nAU  - Venter, J.C.\nAU  - Telenti, A.\nTI  - The blood DNA virome in 8,000 humans\nT2  - PLOS Pathogens\nVL  - 13\nSP  - 1006292\nPY  - 2017\nDA  - 2017/03\nDO  - 10.1371/journal.ppat.1006292\nT2  - ISSN 1553-7374\nIS  - 3\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Naftaly, U.\nAU  - Intrator, N.\nAU  - Horn, D.\nTI  - Optimal ensemble averaging of neural networks\nT2  - Network: Computation in Neural Systems\nVL  - 8\nSP  - 283\nEP  - 296\nPY  - 1997\nDA  - 1997/01\nDO  - ISSN 0954-898X. doi: 10.1088/0954-898X_8_3_004\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nair, S.\nAU  - Kim, D.S.\nAU  - Perricone, J.\nAU  - Kundaje, A.\nTI  - Integrating regulatory DNA sequence and gene expression to predict genome-wide chromatin accessibility across cellular contexts\nT2  - Bioinformatics\nVL  - 35\nSP  - 108\nEP  - 116\nPY  - 2019\nDA  - 2019/07\nDO  - 10.1093/bioinformatics/btz352\nT2  - ISSN 1367-4803\nIS  - 14\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Noyce, R.S.\nAU  - Lederman, S.\nAU  - Evans, D.H.\nTI  - Construction of an infectious horsepox virus vaccine from chemically synthesized DNA fragments\nPB  - PLOS ONE\nPY  - 2018\nDA  - 2018/01/13\nSP  - 0188453\nDO  - 10.1371/journal.pone.0188453\nT2  - ISSN 1932-6203\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Poplin, R.\nAU  - Chang, P.-C.\nAU  - Alexander, D.\nAU  - Schwartz, S.\nAU  - Colthurst, T.\nAU  - Ku, A.\nAU  - Newburger, D.\nAU  - Dijamco, J.\nAU  - Nguyen, N.\nAU  - Afshar, P.T.\nAU  - Gross, S.S.\nAU  - Dorfman, L.\nAU  - McLean, C.Y.\nAU  - DePristo, M.A.\nTI  - A universal SNP and small-indel variant caller using deep neural networks\nT2  - Nature Biotechnology\nVL  - 36\nSP  - 983\nEP  - 987\nPY  - 2018\nDA  - 2018\nDO  - ISSN 15461696. doi: 10.1038/nbt.4235\nIS  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Quang, D.\nAU  - Xie, X.\nTI  - DanQ: a hybrid convolutional and recurrent deep neural network for quantifying the function of DNA sequences\nT2  - Nucleic Acids Research\nVL  - 44\nSP  - 107\nPY  - 2016\nDA  - 2016\nDO  - 10.1093/nar/gkw226\nC1  - e107,\nT2  - ISSN 0305-1048\nIS  - 11\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Ren, J.\nAU  - Song, K.\nAU  - Deng, C.\nAU  - Ahlgren, N.A.\nAU  - Fuhrman, J.A.\nAU  - Li, Y.\nAU  - Xie, X.\nAU  - Sun, F.\nTI  - Identifying viruses from metagenomic data by deep learning\nPB  - arXiv: 1806.07810 [q-bio\nPY  - 2018\nDA  - 2018/06\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Schneider, T.D.\nAU  - Stephens, R.M.\nTI  - Sequence logos: a new way to display consensus sequences\nT2  - Nucleic Acids Research\nVL  - 18\nSP  - 6097\nEP  - 6100\nPY  - 1990\nDA  - 1990/10\nDO  - ISSN 03051048. doi: 10.1093/nar/18.20.6097\nIS  - 20\nLA  - \nER  - \n\nTY  - GEN\nAU  - Shrikumar, A.\nAU  - Greenside, P.\nAU  - Kundaje, A.\nTI  - Learning Important Features Through Propagating Activation Differences. arXiv: 1704.02685\nPY  - 2019\nDA  - 2019/10\nVL  - arXiv:\nSP  - 1704\nEP  - 02685\nLA  - \nER  - \n\nTY  - BOOK\nTI  - TF-MoDISco v0\nPB  - Technical Note. arXiv: 1811.00416 [cs, q-bio, stat\nPY  - 2019\nDA  - 2019/03\nVL  - 1811\nIS  - 416\nLA  - \nCY  - 4.2.2-alpha\nER  - \n\nTY  - JOUR\nAU  - Stojkova, P.\nAU  - Spidlova, P.\nAU  - Stulik, J.\nTI  - Nucleoid-associated protein hu: A lilliputian in gene regulation of bacterial virulence\nT2  - Frontiers in Cellular and Infection Microbiology\nVL  - 9\nPY  - 2019\nDA  - 2019\nDO  - 10.3389/fcimb.2019.00159\nT2  - ISSN 2235-2988\nIS  - 159\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Vouga, M.\nAU  - Greub, G.\nTI  - Emerging bacterial pathogens: the past and beyond\nT2  - Clinical Microbiology and Infection\nVL  - 22\nSP  - 12\nEP  - 21\nPY  - 2016\nDA  - 2016/01\nDO  - ISSN 1198-743X. doi: 10.1016/j.cmi.2015.10.010\nIS  - 1\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Wu, F.\nAU  - Zhao, S.\nAU  - Yu, B.\nAU  - Chen, Y.-M.\nAU  - Wang, W.\nAU  - Hu, Y.\nAU  - Song, Z.-G.\nAU  - Tao, Z.-W.\nAU  - Tian, J.-H.\nAU  - Pei, Y.-Y.\nAU  - Yuan, M.L.\nAU  - Zhang, Y.-L.\nAU  - Dai, F.-H.\nAU  - Liu, Y.\nAU  - Wang, Q.-M.\nAU  - Zheng, J.-J.\nAU  - Xu, L.\nAU  - Holmes, E.C.\nAU  - Zhang, Y.-Z.\nTI  - Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China\nPY  - 2020\nDA  - 2020/01/01\nSP  - pp.\nDO  - 10.1101/2020.01.24.919183\nT2  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zeng, H.\nAU  - Edwards, M.D.\nAU  - Liu, G.\nAU  - Gifford, D.K.\nTI  - Convolutional neural network architectures for predicting DNA\u2013protein binding\nT2  - Bioinformatics\nVL  - 32\nSP  - 121\nEP  - 127\nPY  - 2016\nDA  - 2016\nDO  - 10.1093/bioinformatics/btw255\nT2  - ISSN 1367-4803\nIS  - 12\nLA  - \nER  - \n\nTY  - GEN\nAU  - Zhang, Z.\nAU  - Cai, Z.\nAU  - Tan, Z.\nAU  - Lu, C.\nAU  - Jiang, T.\nAU  - Zhang, G.\nAU  - Peng, Y.\nTI  - Rapid identification of human-infecting viruses. Transboundary and Emerging Diseases\nPY  - 2019\nDA  - 2019/08\nDO  - ISSN 1865-1682. doi: 10.1111/tbed.13314\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, J.\nAU  - Troyanskaya, O.G.\nTI  - Predicting effects of noncoding variants with deep learning\u2013based sequence model\nT2  - Nature Methods\nVL  - 12\nSP  - 931\nEP  - 934\nPY  - 2015\nDA  - 2015\nDO  - 10.1038/nmeth.3547\nT2  - ISSN 1548-7105\nIS  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sundararajan, M.\nAU  - Taly, A.\nAU  - Yan, Q.\nTI  - Gradients of Counterfactuals\nT2  - CoRR\nVL  - 1611\nPY  - 2016\nDA  - 2016\nIS  - 2639\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Tampuu, A.\nAU  - Bzhalava, Z.\nAU  - Dillner, J.\nAU  - Vicente, R.\nTI  - ViraMiner: Deep learning on raw DNA sequences for identifying viral genomes in human samples. PLOS ONE\nPY  - 0222\nDA  - 0222/09/14\nDO  - 10.1371/journal.pone.0222271\nT2  - ISSN 1932-6203\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thiel, V.\nTI  - Synthetic viruses-Anything new?\nT2  - PLoS pathogens\nVL  - 14\nSP  - 1007019\nPY  - 2018\nDA  - 2018\nDO  - 10.1371/journal.ppat.1007019\nT2  - ISSN 1553-7374\nIS  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thorvaldsd\u00f3ttir, H.\nAU  - Robinson, J.T.\nAU  - Mesirov, J.P.\nTI  - Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration\nT2  - Briefings in Bioinformatics\nVL  - 14\nSP  - 178\nEP  - 192\nPY  - 2013\nDA  - 2013/03\nDO  - ISSN 14675463. doi: 10.1093/bib/bbs017\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Trappe, K.\nAU  - Marschall, T.\nAU  - Renard, B.Y.\nTI  - Detecting horizontal gene transfer by mapping sequencing reads across species boundaries\nT2  - Bioinformatics\nVL  - 32\nSP  - 595\nPY  - 2016\nDA  - 2016/09\nDO  - 10.1093/bioinformatics/btw423\nT2  - ISSN 1367-4803\nIS  - 17\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Classification accuracy depending on the negative class definition, read pairs. Euk. \u2013 Eukaryota dataset; Met. \u2013 Metazoa dataset, Cho. \u2013 Chordata dataset, Str. \u2013 Stratified dataset, Str-150 \u2013 first 150 bp of each read in Str. Training set in subscript of the model name; test set in column headers. Recall (Rec.) is identical in all cases, as the positive class remains unchanged. Best performance in bold. CNNStr-150 achieves best accuracy, and LSTMAll is the most sensitive"
+            },
+            {
+                "id": "2",
+                "caption": "Classification performance in the fully open-view setting (all virus hosts), reads pairs. Acc. \u2013 accuracy, Prec. \u2013 precision, Rec. \u2013 recall. BLAST yields no predictions for over 10% of the samples. Best performance in bold"
+            },
+            {
+                "id": "3",
+                "caption": "Classification performance in the open-view setting (all virus hosts). Whole genomes or full available sequences. Negative class is the majority class. Rec. \u2013 recall, Spec. \u2013 specificity, BAcc"
+            },
+            {
+                "id": "4",
+                "caption": "Classification performance on the human blood virome dataset. Positive class is the majority class. Rec. \u2013 recall, Spec. \u2013 specificity, BAcc. \u2013 balanced accuracy"
+            },
+            {
+                "id": "5",
+                "caption": "Gene ranking for S. aureus (top 3 out of 870). hupB is indirectly engaged in virulence. Our method detects functionally relevant genes using the model of <a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al (2019</a>)"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Nucleotide contribution logos of example filters. 1a: Highest mean contribution score. 1b: Lowest mean contribution score. 1c: Local counter-contributions. 1d: Gaps resembling a codon structure, extracted from <a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al (2019</a>)"
+            },
+            {
+                "id": "2",
+                "caption": "Ta\u00ef Forest ebolavirus. Genes that can be detected by at least one model are highlighted in black. Top: score predicted by LSTMAll. Middle: score predicted by CNNStr-150. Heatmap: nucleotide contributions of CNNStr-150.. Bottom, in blue: reference sequence"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.01.29.925354.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.01.29.925354.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.01.29.925354.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.01.29.925354.full/img-008.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "1.1. Background<br/><br/>Within a globally interconnected and densely populated world, pathogens can spread more easily than they ever did before. As the recent outbreaks of Ebola and Zika viruses have shown, the risks posed even by these previously known agents remain unpredictable and their expansion hard to control (<a class=\"ref-link\" id=\"cCalvignac-Spencer_et+al_2014_a\" href=\"#rCalvignac-Spencer_et+al_2014_a\">Calvignac-Spencer et al, 2014</a>). What is more, it is almost certain that more unknown pathogen species and strains are yet to be discovered, given their constant, extremely fast-paced evolution and unexplored biodiversity, as well as increasing human exposure (<a class=\"ref-link\" id=\"cVouga_2016_a\" href=\"#rVouga_2016_a\">Vouga & Greub, 2016</a>; <a class=\"ref-link\" id=\"cTrappe_et+al_2016_a\" href=\"#rTrappe_et+al_2016_a\">Trappe et al, 2016</a>). Some of those novel pathogens may cause epidemics (similar to the SARS and MERS coronavirus outbreaks in 2002 and 2012) or even pandemics (e.g. the \u201cswine flu\u201d H1N1/09 influenza A strain). Many have more than one host or vector, which makes assessing and predicting the risks even more difficult. For example, Ebola has its natural reservoir most likely in fruit bats (<a class=\"ref-link\" id=\"cLeendertz_et+al_2016_a\" href=\"#rLeendertz_et+al_2016_a\">Leendertz et al, 2016</a>), but causes deadly epidemics in both humans and chimpanzees. As the state-of-the art approach for the open-view detection of pathogens is genome sequencing (<a class=\"ref-link\" id=\"cLecuit_2014_a\" href=\"#rLecuit_2014_a\">Lecuit & Eloit, 2014</a>; <a class=\"ref-link\" id=\"cCalistri_2015_a\" href=\"#rCalistri_2015_a\">Calistri & Pal\u00f9, 2015</a>), it is crucial to develop automated pipelines for characterizing the infectious potential of currently unidentifiable sequences."
+        ],
+        "methods": [
+            "2.1. Data collection and preprocessing<br/><br/>2.1.1. VHDB DATASET<br/><br/>We accessed the Virus-Host Database (<a class=\"ref-link\" id=\"cMihara_et+al_2016_a\" href=\"#rMihara_et+al_2016_a\">Mihara et al, 2016</a>) on July 31, 2019 and downloaded all the available data. The original dataset contained 14,380 records comprising RefSeq IDs for viral sequences and associated metadata. Some viruses are divided into discontiguous segments, which are represented as separate records in VHDB; in those cases the segments were treated as contigs of a single genome in further analysis. We removed records with unspecified host information and those confusing the highly pathogenic Variola virus with a similarly named genus of fish. Further, we filtered out viroids and satellites. Human-infecting viruses were extracted by searching for records containing \"Homo sapiens\" in the \"host name\" field. Note that VHDB contains information about multiple possible hosts for a given virus where appropriate. Any virus infecting humans was assigned to the positive class, also if other, non-human hosts exist. In total, the dataset contained 9,496 viruses, including 1,309 human viruses. We considered both DNA and RNA viruses; RNA sequences were encoded in the DNA alphabet, as in RefSeq."
+        ],
+        "results": [
+            "3.1. Negative class definition<br/><br/>Choosing which viruses should constitute the negative class is application dependent and influences the performance of the trained models. Table 1 summarizes the prediction accuracy for different combinations of the training and test set composition. The models trained only on human and Chordata-infecting viruses maintain similar, or even better performance when evaluated on viruses infecting a much broader host range, including bacteria. This suggests that the learned decision boundary separates human viruses from all the others surprisingly well. We hypothesize that the human host signal must be relatively strong and contained within the Chordata host signal."
+        ],
+        "discussion": [
+            "4.1. Accurate predictions from short DNA reads<br/><br/>Compared to the previous state-of-the-art in viral host prediction directly from next-generation sequencing reads    RANK    GENE    SARR HUPB SSPB    SCORE<br/><br/>BIOLOGICAL PROCESS<br/><br/>VIRULENCE DNA CONDENSATION<br/><br/>VIRULENCE (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>), our models drastically reduce the error rates. This holds also for novel viruses not present in the training set. In the paired read scenario, the previously described method fails, and standard, alignment-based homology testing algorithm cannot find any matches in more than 10% of the cases, resulting in relatively low accuracy. On a real human virome sample, where a main source of negative class reads is most likely contamination (<a class=\"ref-link\" id=\"cMoustafa_et+al_2017_a\" href=\"#rMoustafa_et+al_2017_a\">Moustafa et al, 2017</a>), our method filters out non-human viruses with high specificity. In this scenario, the BLAST-derived groundtruth labels were mined using the complete database (as opposed to just a training set). In all cases, our results are only as good as the training data used; high quality labels and sequences are needed to develop trustworthy models. Ideally, sources of error should be investigated with an in-depth analysis of a model\u2019s performance on multiple genomes covering a wide selection of taxonomic units. This is especially important as the method assumes no mechanistic link between an input sequence and the phenotype of interest, and the input sequence constitutes only a small fraction of the target genome without a wider biological context. Still, it is possible to predict a label even from those small, local fragments. A similar effect was also observed for image classification with CNNs (Brendel & Bethge, 2019)."
+        ],
+        "conclusion": [
+            "We presented a new approach for predicting a host of a novel virus based on a single DNA read or a read pair, cutting the error rates in half compared to the previous state-of-the-art. For convolutional filters, we jointly visualize nucleotide contributions and information content. Finally, we use GWPA plots to gain insights into the models\u2019 behavior and analyze a recently emerged 2019-nCoV virus. Data is available at https://doi.org/10.5281/zenodo.3630803 and the code at https://gitlab.com/rki_bioinformatics/deepac."
+        ],
+        "acknowledgements": [
+            "We gratefully acknowledge Yong-Zhen Zhang and the scientists at the Shanghai Public Health Clinical Center & School of Public Health, Fudan University, who shared the sequence of the 2019-nCoV virus ahead of publication. We thank Melania Nowicka (Max Plank Institute for Molecular Genetics) for inspiring discussions on efficient calculations of partial Shapley values and Lothar H. Wieler (Robert Koch Institute) for useful comments on the first draft of the manuscript. This work was supported by the German Academic Scholarship Foundation (JMB) and the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A537B, 031A533A, 031A538A, 031A533B, 031A535A, 031A537C, 031A534A, 031A532B)."
+        ],
+        "funding": [
+            "This work was supported by the German Academic Scholarship Foundation (JMB) and the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A537B, 031A533A, 031A538A, 031A533B, 031A535A, 031A537C, 031A534A, 031A532B)"
+        ],
+        "data_availability": [
+            "Data is available at https://doi.org/10.5281/zenodo.3630803 and the code at https://gitlab.com/rki_bioinformatics/deepac"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "Viruses evolve extremely quickly, so reliable methods for viral host prediction are necessary to safeguard biosecurity and biosafety alike. Novel human-infecting viruses are difficult to detect with standard bioinformatics workflows. Here, we predict whether a virus can infect humans directly from next-generation sequencing reads. We show that deep neural architectures significantly outperform both shallow machine learning and standard, homology-based algorithms, cutting the error rates in half and generalizing to taxonomic units distant from those presented during training. We propose a new approach for convolutional filter visualization to disentangle the information content of each nucleotide from its contribution to the final classification decision. Nucleotide-resolution maps of the learned associations between pathogen genomes and the infectious phenotype can be used to detect virulencerelated genes in novel agents, as we show here for the 2019-nCoV coronavirus, unknown before it caused a pneumonia outbreak in December 2019."
+        ],
+        "1. Introduction": [],
+        "1.1. Background": [
+            "Within a globally interconnected and densely populated world, pathogens can spread more easily than they ever did before. As the recent outbreaks of Ebola and Zika viruses have shown, the risks posed even by these previously known agents remain unpredictable and their expansion hard to control (<a class=\"ref-link\" id=\"cCalvignac-Spencer_et+al_2014_a\" href=\"#rCalvignac-Spencer_et+al_2014_a\">Calvignac-Spencer et al, 2014</a>). What is more, it",
+            "is almost certain that more unknown pathogen species and strains are yet to be discovered, given their constant, extremely fast-paced evolution and unexplored biodiversity, as well as increasing human exposure (<a class=\"ref-link\" id=\"cVouga_2016_a\" href=\"#rVouga_2016_a\">Vouga & Greub, 2016</a>; <a class=\"ref-link\" id=\"cTrappe_et+al_2016_a\" href=\"#rTrappe_et+al_2016_a\">Trappe et al, 2016</a>). Some of those novel pathogens may cause epidemics (similar to the SARS and MERS coronavirus outbreaks in 2002 and 2012) or even pandemics (e.g. the \u201cswine flu\u201d H1N1/09 influenza A strain). Many have more than one host or vector, which makes assessing and predicting the risks even more difficult. For example, Ebola has its natural reservoir most likely in fruit bats (<a class=\"ref-link\" id=\"cLeendertz_et+al_2016_a\" href=\"#rLeendertz_et+al_2016_a\">Leendertz et al, 2016</a>), but causes deadly epidemics in both humans and chimpanzees. As the state-of-the art approach for the open-view detection of pathogens is genome sequencing (<a class=\"ref-link\" id=\"cLecuit_2014_a\" href=\"#rLecuit_2014_a\">Lecuit & Eloit, 2014</a>; <a class=\"ref-link\" id=\"cCalistri_2015_a\" href=\"#rCalistri_2015_a\">Calistri & Pal\u00f9, 2015</a>), it is crucial to develop automated pipelines for characterizing the infectious potential of currently unidentifiable sequences.",
+            "Screening against potentially dangerous subsequences before their synthesis may also be used as a way of ensuring responsible research in synthetic biology. While potentially useful in some applications, engineering of viral genomes could also pose a biosecurity and biosafety threat. Two controversial studies modified the influenza A/H5N1 (\"bird flu\") virus to be airborne transmissible in mammals (<a class=\"ref-link\" id=\"cHerfst_et+al_2012_a\" href=\"#rHerfst_et+al_2012_a\">Herfst et al, 2012</a>; <a class=\"ref-link\" id=\"cImai_et+al_2012_a\" href=\"#rImai_et+al_2012_a\">Imai et al, 2012</a>). A possibility of modifying coronaviruses to enhance their virulence triggered calls for a moratorium on this kind of research (<a class=\"ref-link\" id=\"cLipsitch_2014_a\" href=\"#rLipsitch_2014_a\">Lipsitch & Inglesby, 2014</a>). Synthesis of an infectious horsepox virus closely related to the smallpox-causing Variola virus (<a class=\"ref-link\" id=\"cNoyce_et+al_2018_a\" href=\"#rNoyce_et+al_2018_a\">Noyce et al, 2018</a>) caused a public uproar and calls for intensified discussion on risk control in synthetic biology (<a class=\"ref-link\" id=\"cThiel_2018_a\" href=\"#rThiel_2018_a\">Thiel, 2018</a>)."
+        ],
+        "1.2. Current tools for host range prediction": [
+            "Several computational, genome-based methods exist that allow to predict the host-range of a bacteriophage (a bacteriainfecting virus). A selection of composition-based and alignment-based approaches has been presented in an extensive review by <a class=\"ref-link\" id=\"cEdwards_et+al_2016_a\" href=\"#rEdwards_et+al_2016_a\">Edwards et al (2016</a>). Prediction of eukariotic host tropism (including humans) based on known protein sequences was shown for the influenza A virus (<a class=\"ref-link\" id=\"cEng_et+al_2014_a\" href=\"#rEng_et+al_2014_a\">Eng et al, 2014</a>). Two recent studies employ k-mer based, kNN classifiers (<a class=\"ref-link\" id=\"cLi_2018_a\" href=\"#rLi_2018_a\">Li & Sun, 2018</a>) and deep learning (<a class=\"ref-link\" id=\"cMock_et+al_2019_a\" href=\"#rMock_et+al_2019_a\">Mock et al, 2019</a>) to predict host range for a small set of three well-studied species directly from viral sequences. While",
+            "those approaches are limited to those particular species and do not scale to viral host-range prediction in general, the Host Taxon Predictor (HTP) (Ga\u0142an et al, 2019) uses logistic regression and support vector machines to predict if a novel virus infects bacteria, plants, vertebrates or arthropods. Yet, the authors argue that it is not possible to use HTP in a read-based manner; it requires long sequences of at least 3,000 nucleotides. This is incompatible with modern metagenomic next-generation sequencing workflows, where the DNA reads obtained are at least 10-20 times shorter. Another study used gradient boosting machines to predict reservoir hosts and transmission via arthropod vectors for known human-infecting viruses (<a class=\"ref-link\" id=\"cBabayan_et+al_2018_a\" href=\"#rBabayan_et+al_2018_a\">Babayan et al, 2018</a>).",
+            "<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al (2019</a>) designed several classifiers explicitly predicting whether a new virus can potentially infect humans. Their best model, a k-NN classifier, uses k-mer frequencies as features representing the query sequence and can yield predictions for sequences as short as 500 base pairs (bp). It worked also with 150bp-long reads from real DNA sequencing runs, although in this case the reads originated also from the viruses present in the training set (and were therefore not \"novel\")."
+        ],
+        "1.3. Deep Learning for DNA sequences": [
+            "While DNA sequences mapped to a reference genome may be represented as images (<a class=\"ref-link\" id=\"cPoplin_et+al_2018_a\" href=\"#rPoplin_et+al_2018_a\">Poplin et al, 2018</a>), a majority of studies uses a distributed orthographic representation, where each nucleotide {A, C, G, T } in a sequence is represented by a one-hot encoded vector of length 4. An \"unknown\" nucleotide (N ) can be represented as an all-zero vector. CNNs and LSTMs have been successfully used for a variety of DNA-based prediction tasks. Early works focused mainly on regulation of gene expression in humans (<a class=\"ref-link\" id=\"cAlipanahi_et+al_2015_a\" href=\"#rAlipanahi_et+al_2015_a\">Alipanahi et al, 2015</a>; <a class=\"ref-link\" id=\"cZhou_2015_a\" href=\"#rZhou_2015_a\">Zhou & Troyanskaya, 2015</a>; <a class=\"ref-link\" id=\"cZeng_et+al_2016_a\" href=\"#rZeng_et+al_2016_a\">Zeng et al, 2016</a>; <a class=\"ref-link\" id=\"cQuang_2016_a\" href=\"#rQuang_2016_a\">Quang & Xie, 2016</a>; <a class=\"ref-link\" id=\"cKelley_et+al_2016_a\" href=\"#rKelley_et+al_2016_a\">Kelley et al, 2016</a>), which is still an area of active research (<a class=\"ref-link\" id=\"cGreenside_et+al_2018_a\" href=\"#rGreenside_et+al_2018_a\">Greenside et al, 2018</a>; <a class=\"ref-link\" id=\"cNair_et+al_2019_a\" href=\"#rNair_et+al_2019_a\">Nair et al, 2019</a>; <a class=\"ref-link\" id=\"cAvsec_et+al_2019_a\" href=\"#rAvsec_et+al_2019_a\">Avsec et al, 2019</a>). In the field of pathogen genomics, deep learning models trained directly on DNA sequences were developed to predict host ranges of three multi-host viral species (<a class=\"ref-link\" id=\"cMock_et+al_2019_a\" href=\"#rMock_et+al_2019_a\">Mock et al, 2019</a>) and to predict pathogenic potentials of novel bacteria (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>). DeepVirFinder (<a class=\"ref-link\" id=\"cRen_et+al_2018_a\" href=\"#rRen_et+al_2018_a\">Ren et al, 2018</a>) and ViraMiner (Tampuu et al, 2019) can detect viral sequences in metagenomic samples, but they cannot predict the host and focus on previously known species. For a broader view on deep learning in genomics we refer to a recent review by Eraslan et al (2019).",
+            "Interpretability and explainability of deep learning models for genomics is crucial for their wide-spread adoption, as it is necessary for delivering trustworthy and actionable results. Convolutional filters can be visualized by forward-passing multiple sequences through the network and extracting the most-activating subsequences (<a class=\"ref-link\" id=\"cAlipanahi_et+al_2015_a\" href=\"#rAlipanahi_et+al_2015_a\">Alipanahi et al, 2015</a>) to create a position-weighted matrix (PWM) which can be visualized as a sequence logo (<a class=\"ref-link\" id=\"cSchneider_1990_a\" href=\"#rSchneider_1990_a\">Schneider & Stephens, 1990</a>; <a class=\"ref-link\" id=\"cCrooks_et+al_2004_a\" href=\"#rCrooks_et+al_2004_a\">Crooks et al, 2004</a>). Direct optimization of input sequences is problematic, as it results in generating a dense matrix even though the input sequences are one-hot encoded (<a class=\"ref-link\" id=\"cLanchantin_et+al_2016_a\" href=\"#rLanchantin_et+al_2016_a\">Lanchantin et al, 2016</a>; 2017). This problem can be alleviated with Integrated Gradients (<a class=\"ref-link\" id=\"cSundararajan_et+al_2016_a\" href=\"#rSundararajan_et+al_2016_a\">Sundararajan et al, 2016</a>; <a class=\"ref-link\" id=\"cJha_et+al_2019_a\" href=\"#rJha_et+al_2019_a\">Jha et al, 2019</a>) or DeepLIFT, which propagates activation differences relative to a selected reference back to the input, reducing the computational overhead of obtaining accurate gradients (<a class=\"ref-link\" id=\"cShrikumar_et+al_2019_a\" href=\"#rShrikumar_et+al_2019_a\">Shrikumar et al, 2019a</a>). If a reference of all-zeros is used, the method is analogous to Layer-wise Relevance Propagation (<a class=\"ref-link\" id=\"cBach_et+al_2015_a\" href=\"#rBach_et+al_2015_a\">Bach et al, 2015</a>). DeepLIFT is an additive feature attribution method, and may used to approximate Shapley values if the input features are independent (<a class=\"ref-link\" id=\"cLundberg_2017_a\" href=\"#rLundberg_2017_a\">Lundberg & Lee, 2017</a>). TF-MoDISco (Shrikumar et al, 2019b) uses DeepLIFT to discover consolidated, biologically meaningful DNA motifs (transcription factor binding sites)."
+        ],
+        "1.4. Contributions": [
+            "In this paper, we first improve the performance of read-based predictions of the viral host (human or non-human) from next-generation sequencing reads. We show that reversecomplement (RC) neural networks (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>) significantly outperform both the previous state-ofthe-art (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>) and the traditional, alignmentbased algorithm \u2013 BLAST (<a class=\"ref-link\" id=\"cAltschul_et+al_1990_a\" href=\"#rAltschul_et+al_1990_a\">Altschul et al, 1990</a>), which constitutes a gold standard in homology-based bioinformatics analyses. We show that defining the negative (nonhuman) class is non-trivial and compare different ways of constructing the training set. Strikingly, a model trained to distinguish between viruses infecting humans and viruses infecting other chordates (a phylum of animals including vertebrates) generalizes well to evolutionarily distant nonhuman hosts, including even bacteria. This suggests that the host-related signal is strong and the learned decision boundary separates human viruses from other DNA sequences surprisingly well.",
+            "Next, we propose a new approach for convolutional filter visualization using partial Shapley values to differentiate between simple nucleotide information content and the contribution of each sequence position to the final classification score. To test the biological plausibility of our models, we generate genome-wide maps of \"infectious potential\" and nucleotide contributions. We show that those maps can be used to visualize and detect virulence-related regions of interest (e.g. genes) in novel genomes. Finally, we analyze a recently discovered 2019-nCoV coronavirus, which caused a pneumonia outbreak in December 2019 (<a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\">Wu et al, 2020</a>)."
+        ],
+        "2. Methods": [],
+        "2.1. Data collection and preprocessing": [],
+        "2.1.1. VHDB DATASET": [
+            "We accessed the Virus-Host Database (<a class=\"ref-link\" id=\"cMihara_et+al_2016_a\" href=\"#rMihara_et+al_2016_a\">Mihara et al, 2016</a>) on July 31, 2019 and downloaded all the available data. The original dataset contained 14,380 records comprising RefSeq IDs for viral sequences and associated metadata. Some viruses are divided into discontiguous segments, which are represented as separate records in VHDB; in those cases the segments were treated as contigs of a single genome in further analysis. We removed records with unspecified host information and those confusing the highly pathogenic Variola virus with a similarly named genus of fish. Further, we filtered out viroids and satellites. Human-infecting viruses were extracted by searching for records containing \"Homo sapiens\" in the \"host name\" field. Note that VHDB contains information about multiple possible hosts for a given virus where appropriate. Any virus infecting humans was assigned to the positive class, also if other, non-human hosts exist. In total, the dataset contained 9,496 viruses, including 1,309 human viruses. We considered both DNA and RNA viruses; RNA sequences were encoded in the DNA alphabet, as in RefSeq."
+        ],
+        "2.1.2. DEFINING THE NEGATIVE CLASS": [
+            "While defining a human-infecting class is relatively straightforward, the reference negative class may be conceptualized in a variety of ways. The broadest definition takes all non-human viruses into account, including bacteriophages (bacterial viruses). This is especially important, as most of known bacteriophages are DNA viruses, while many important human (and animal) viruses are RNA viruses. One could expect that the multitude of available bacteriophage genomes dominating the negative class could lower the prediction performance on viruses similar to those infecting humans. This offers an open-view approach covering a wider part of the sequence space, but may lead to misclassification of potentially dangerous mammalian or avian viruses. As they are often involved in clinically relevant host-switching events, a stricter approach must also be considered. In this case, the negative class comprises only viruses infecting Chordata (a group containing vertebrates and closely related taxa). Two intermediate approaches consider all eukaryotic viruses (including plant and fungi viruses), or only animal-infecting viruses. This amounts to four nested host sets: \"All\" (8,187 non-human viruses), \"Eukaryota\" (5,114 viruses), \"Metazoa\" (2,942 viruses) and \"Chordata\" (2,078 viruses). Auxiliary sets containing only non-eukaryotic viruses (\"non-Eukaryota\"), non-animal eukaryotic viruses (\"non-Metazoa Eukaryota\") etc. can be easily constructed by set subtraction.",
+            "For the positive class, we generated a training set containing 80% of the genomes, and validation and test sets with 10% of the genomes each. Importantly, the nested structure was kept also during the training-validation-test split: for example, the species assigned to the smallest test set (\"Chordata\") were also present in all the bigger test sets. The same applied to other taxonomic levels, as well as the training and validation sets wherever applicable."
+        ],
+        "2.1.3. READ SIMULATION": [
+            "We simulated 250bp long Illumina reads following a modification of a previously described protocol (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>) and using the Mason read simulator (<a class=\"ref-link\" id=\"cHoltgrewe_2010_a\" href=\"#rHoltgrewe_2010_a\">Holtgrewe, 2010</a>). First, we only generated the reads from the genomes of human-infecting viruses. Then, the same steps were applied to each of the four negative class sets. Finally, we also generated a fifth set, \"Stratified\", containing an equal number of reads drawn from genomes of the following disjunct host classes: \"Chordata\" (25%), \"nonChordata Metazoa\" (25%), \"non-Metazoa Eukaryota\" (25%) and \"non-Eukaryota\" (25%).",
+            "In each of the evaluated settings, we used a total of 20 million (80%) reads for training, 2.5 million (10%) reads for validation and 2.5 million (10%) paired reads as the heldout test set. Read number per genome was proportional to genome length, keeping the coverage uniform on average. While the original datasets are heavily imbalanced, we generated the same number of negative and positive data points (reads) regardless of the negative class definition used.",
+            "This protocol allowed us to test the impact of defining the negative class, while using the exactly same data as representatives of the positive class. We used three training and validation sets (\"All\", \"Stratified\", and \"Chordata\"), representing the fully open-view setting, a setting more balanced with regard to the host taxonomy, and a setting focused on cases most likely to be clinically relevant. In each setting, the validation set matched the composition of the training set. The evaluation was performed using all five test sets to gain a more detailed insight on the effects of negative class definition on the prediction performance."
+        ],
+        "2.1.4. HUMAN BLOOD VIROME DATASET": [
+            "Similarily to <a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al (2019</a>), we used the human blood DNA virome dataset (<a class=\"ref-link\" id=\"cMoustafa_et+al_2017_a\" href=\"#rMoustafa_et+al_2017_a\">Moustafa et al, 2017</a>) to test the selected classifiers on real data. We obtained 14,242,329 reads of 150bp and searched all of VHDB using blastn (with default parameters) to obtain high-quality reference labels. If a read\u2019s best hit was a human-infecting virus, we assigned it to a positive class; the negative class was assigned if this was not the case. This procedure yielded 14,012,665 \"positive\" and 229,664 \"negative\" reads."
+        ],
+        "2.2. Training": [
+            "We used the DeePaC package (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>) to investigate RC-CNN and RC-LSTM architectures, previously shown to accurately predict bacterial pathogenicity. Here, we employ a CNN with two convolutional layers with 512 filters of size 15 each, average pooling and 2 fully connected layers with 256 units each. The LSTM used has 384 units. We use dropout regularization in both cases, together with aggressive input dropout at the rate of 0.25 and 0.2 for the CNN and the LSTM, respectively. Input dropout may be interpreted as a special case of noise injection, where a fraction of input nucleotides is turned to N s. Representations of forward and reverse-complement strands are summed before the fully connected layers. As two mates in a read pair should originate from the same virus, predictions obtained for them can be averaged for a boost in performance. If a contig or genome is available, averaging predictions for constituting reads yields a prediction for the whole sequence. Furthermore, averaging the outputs of selected networks may reduce variance while keeping the bias term unaffected (<a class=\"ref-link\" id=\"cNaftaly_et+al_1997_a\" href=\"#rNaftaly_et+al_1997_a\">Naftaly et al, 1997</a>). We used Tesla P100 GPUs for training and an RTX 2080 Ti for visualizations.",
+            "We wanted the networks to yield accurate predictions for both 250bp (our data, modelling a sequencing run of an Illumina MiSeq device) and 150bp long reads (as in the Human Blood Virome dataset). As shorter reads are padded with zeroes, we expected the CNNs trained using average pooling to misclassify many of them. Therefore, we prepared a modified version of the \"Stratified\" dataset, in which the last 100bp of each read were turned to zeros, mocking a shorter sequencing run while preserving the error model. Then, we retrained the CNN which had performed best on the original dataset. Since in principle, the Human Blood Virome dataset should not contain viruses infecting non-human Chordata, a \"Chordata\"-trained classifier was not used in this setting."
+        ],
+        "2.3. Benchmarking": [
+            "We compare the networks to the k-NN classifier proposed by <a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al (2019</a>) and used by them for read-based predictions. We trained the classifier on the \"All\" dataset as described by the authors, i.e. using non-overlapping, 500bplong contigs generated from the training genomes (retraining on simulated reads is computationally prohibitive). We also tested the performance of using BLAST to search against an indexed database of labelled genomes. We constructed the database from the \"All\" training set and used discontiguous megablast to achieve high inter-species sensitivity.",
+            "Note that both BLAST and k-NN can yield conflicting predictions for the individual mates in a read pair. What is more, BLAST yields no prediction at all if no match is found. Therefore, similarly to <a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al (2019</a>), we used the accept anything operator to integrate binary predictions for read pairs. At least one match is needed to predict a label, and conflicting predictions are treated as if no match was found at all. Missing predictions lower both true positive and true negative rates."
+        ],
+        "2.4. Filter visualization": [],
+        "2.4.1. SUBSTRING EXTRACTION": [
+            "In order to visualize the learned convolutional filters, we downsample a matching test set to 125,000 reads and pass it through the network. This is modelled after the method presented by <a class=\"ref-link\" id=\"cAlipanahi_et+al_2015_a\" href=\"#rAlipanahi_et+al_2015_a\">Alipanahi et al (2015</a>). For each filter and each input sequence, the authors extracted a subsequence leading to the highest activation, and created sequence logos from the obtained sequence sets (\"max-activation\"). We used DeepLIFT (<a class=\"ref-link\" id=\"cShrikumar_et+al_2019_a\" href=\"#rShrikumar_et+al_2019_a\">Shrikumar et al, 2019a</a>) to extract subsequences with the highest contribution score (\"max-contrib\") or all subsequences with non-zero contributions (\"all-contrib\"). Computing the latter was costly and did not yield better quality logos.",
+            "We use an all-zero reference. As reads from real sequencing runs are usually not equally long, shorter reads must be padded with N s; the \"unknown\" nucleotide is also called whenever there is not enough evidence to assign any other to the raw sequencing signal. Therefore, N s are \"null\" nucleotides and are a natural candidate for the reference input. We do not consider alternative solutions based on GC content or dinucleotide shuffling, as the input reads originate from multiple different species, and the sequence composition may itself be a strong marker of both virus and host taxonomy.",
+            "However, some of the training sequences contain N s themselves. It is therefore possible that a filter will learn only negative weights at a given position, even though there is no biological justification for that. This may lead to assigning only negative contributions to all four possible nucleotides at a given position if the filter\u2019s contribution is positive (and positive nucleotide contributions if the filter\u2019s contribution is negative). To solve the problem, we first normalize the weight matrices position-wise, as described by <a class=\"ref-link\" id=\"cShrikumar_et+al_2019_a\" href=\"#rShrikumar_et+al_2019_a\">Shrikumar et al (2019a</a>). Finally, we calculate average filter contributions to obtain a crude ranking of feature importance with regard to both the positive and negative class."
+        ],
+        "2.4.2. PARTIAL SHAPLEY VALUES": [
+            "Building sequence logos involves calculating information content (IC) of each nucleotide at each position in a prospective DNA motif. This can be then interpreted as measure of evolutionary sequence conservation. However, high information content does not necessarily imply that a given nucleotide is relevant in terms of its contribution to the classifier\u2019s output. Some sub-motifs may be present in the sequences used to build the logo, even if they do not contribute to the final prediction (or even a given filter\u2019s activation).",
+            "To test this hypothesis, we use partial Shapley values. Intuitively speaking, we capture the contributions of a nucleotide to the network\u2019s output, but only in the context of a given intermediate neuron of the convolutional layer. More precisely, for any given feature xi, intermediate neuron yj and the output neuron z, we aim to measure how xi contributes to z while regarding only the fraction of the total contribution of xi that influences how yj contributes to z.",
+            "Using the formalism of DeepLIFT\u2019s multipliers (<a class=\"ref-link\" id=\"cShrikumar_et+al_2019_a\" href=\"#rShrikumar_et+al_2019_a\">Shrikumar et al, 2019a</a>) and their reinterpretation in SHAP (<a class=\"ref-link\" id=\"cLundberg_2017_a\" href=\"#rLundberg_2017_a\">Lundberg & Lee, 2017</a>), we backpropagate the activation differences only along the paths \"passing through\" yj. In Eq 1, we define partial multipliers \u03bc(xyijz) and express them in terms of Shapley values \u03c6 and activation differences w.r.t. the expected activation values (reference activation). Calculating partial multipliers is equivalent to zeroing out the multipliers mykz for all k = j before backpropagating myjz further.",
+            "We define partial Shapley values \u03c6(iyj)(z, x) analogously to how Shapley values can be approximated by a product of multipliers and input differences w.r.t. the reference (Eq 2): \u03c6(iyj)(z, x) \u03bc(xyijz)(xi \u2212 E[xi])",
+            "From the chain rule for multipliers (<a class=\"ref-link\" id=\"cShrikumar_et+al_2019_a\" href=\"#rShrikumar_et+al_2019_a\">Shrikumar et al, 2019a</a>), it follows that standard multipliers are a sum over all partial multipliers for a given layer y. Therefore, Shapley values as approximated by DeepLIFT are a sum of partial Shapley values for the layer y.",
+            "Once we calculate the contributions of convolutional filters for the first layer, \u03c6(iyj)(z, x) for the first convolutional layer of a network with one-hot encoded inputs and an all-zero reference can be efficiently calculated using weight matrices and filter activation differences (Eq 3-4). First, in this case we do not traverse any non-linearities and can directly use the linear rule (<a class=\"ref-link\" id=\"cShrikumar_et+al_2019_a\" href=\"#rShrikumar_et+al_2019_a\">Shrikumar et al, 2019a</a>) to calculate the contributions of xi to yj as a product of the weight wi and the input xi. Second, the input values may only be 0 or 1.",
+            "Resulting partial contributions can be visualized along the information content of each nucleotide of a convolutional kernel. To this end, we design extended sequence logos, where each nucleotide is colored according to its contribution. Positive contributions are shown in red, negative contributions are blue, and near-zero contributions are gray. Therefore, no information is lost compared to standard sequence logos, but the relevance of individual nucleotides and the filter as a whole can be easily seen."
+        ],
+        "2.5. Genome-wide phenotype analysis": [
+            "We create genome-wide phenotype analysis (GWPA) plots to analyse which parts of a viral genome are associated with the infectious phenotype. We scramble the genome into overlapping, 250bp long subsequences (pseudo-reads) without adding any sequencing noise. For the highest resolution, we use a stride of one nucleotide. We predict the infectious potential of each pseudo-read and average the obtained values at each position of the genome. Analogously, we calculate average contributions of each nucleotide to the final prediction of the convolutional network. We visualize the resulting nucleotide-resolution maps with IGV (<a class=\"ref-link\" id=\"cThorvaldsd\u00f3ttir_et+al_2013_a\" href=\"#rThorvaldsd\u00f3ttir_et+al_2013_a\">Thorvaldsd\u00f3ttir et al, 2013</a>).",
+            "For well-annotated genomes, we compile a ranking of genes (or other genomic features) sorted by the average infectious potential within a given region. In addition to that, we scan the genome with the learned filters of the first convolutional layer to find genes enriched in subsequences yielding nonzero filter activations. We use Gene Ontology to connect the identified genes of interest with their molecular functions and biological processes they are engaged in.",
+            "As a proof of concept, we analyze one of the viruses randomly assigned to the test set \u2013 the Ta\u00ef Forest ebolavirus, which has a history of host-switching and can cause a serious disease. To show that the method can also be used for other biological problems, we investigated the networks trained by <a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al (2019</a>) and their predictions on a genome of a pathogenic bacterium Staphylococcus aureus. The authors used this particular species to assess the performance of their method on real sequencing data. In this case, we used a stride of 125bp to generate the pseudo-reads. Finally, we analyzed the 2019-nCoV coronavirus, which emerged in December 2019, causing a pneumonia outbreak (<a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\">Wu et al, 2020</a>)."
+        ],
+        "3. Results": [],
+        "3.1. Negative class definition": [
+            "Choosing which viruses should constitute the negative class is application dependent and influences the performance of the trained models. Table 1 summarizes the prediction accuracy for different combinations of the training and test set composition. The models trained only on human and Chordata-infecting viruses maintain similar, or even better performance when evaluated on viruses infecting a much broader host range, including bacteria. This suggests that the learned decision boundary separates human viruses from all the others surprisingly well. We hypothesize that the human host signal must be relatively strong and contained within the Chordata host signal.",
+            "Adding more diversity to the negative class may still boost performance on more diverse test sets, as in the case of LSTM trained on the \"All\" dataset (LSTMAll). This model underperforms on viruses infecting hosts related to humans, but achieves higher accuracy than the \"Chordata\"-trained models and the best recall overall. Rebalancing the negative class using the \"Stratified\" dataset helps to achieve higher performance on animal viruses without sacrificing the overall accuracy. CNNStr-150 trained on the first 150bp of each read in \"Stratified\" has the best accuracy overall. In this case, shortening the reads could have a regularizing effect."
+        ],
+        "3.2. Prediction performance": [
+            "We selected LSTMAll and CNNStr-150 for further evaluation. Table 2 presents the results of a benchmark using the \"All\" test set. Low performance of the k-NN classifier (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>) is caused by frequent conflicting predictions for each read in a read pair (in a single-read setting it achieves 75.5% accuracy, while our best model \u2013 87.6%). Although BLAST achieves the highest precision, it yields no predictions for over 10% of the samples. Averaging (AVG) the predictions of LSTMAll and CNNStr-150 reduces the variance (<a class=\"ref-link\" id=\"cNaftaly_et+al_1997_a\" href=\"#rNaftaly_et+al_1997_a\">Naftaly et al, 1997</a>), maintaining high recall and precision, as well as improving accuracy. This results in the highest balanced accuracy also for whole genomes or full available sequences (Table 3).",
+            "We benchmarked our models against the human blood virome dataset used by <a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al (2019</a>). Our models outperform their k-NN classifier. As the positive class massively outnumbers the negative class, all models achieve over 99% precision. We expected that the recall would have the strongest influence on the overall performance. Here, CNNStr-150 is the most sensitive. This is probably because the positive class is dominated by viruses which are not necessarily novel. The CNN was more accurate on training data, so we expected it to detect those viruses easily. Averaging the predictions lead to more balanced performance and the highest balanced accuracy."
+        ],
+        "3.3. Filter visualization": [
+            "In the Fig. 1 we present example filters, visualized as \"maxcontrib\" sequence logos based on mean partial Shapley values for each nucelotide at each position. All nucleotides of the filters with the highest (Fig. 1a) or lowest (Fig. 1b)",
+            "EUK.",
+            "MET.",
+            "CHO.",
+            "STR.",
+            "REC.",
+            "ACC.",
+            "PREC.",
+            "52.1 79.1 78.3 83.0 82.2 score have relatively strong contributions in accordance with the filters\u2019 own contributions. However, we observe that sometimes, there is a \"conserved\" nucleotide which consistently appears in the activating subsequences, but the sign of its contributions is opposite to the filter\u2019s (Fig. 1c). Those \"counter-contributions\" may arise if a nucleotide with a negative weight forms a frequent motif with others with positive weights strong enough to activate the filter. We comment on this fact in the Section 4.2. Some filters seem to learn gapped motifs resembling a codon structure (Fig. 1d). We extracted this filter from a network predicting bacterial pathogenicity trained by <a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al (2019</a>), but we find similar filters in our networks as well. We scanned a genome of S. aureus with this filter and discovered that the learned motif is indeed significantly enriched in coding sequences (Fisher exact test with Benjamini-Hochberg correction, q < 10\u221215). It is also enriched in a number of specific genes. The one with the most hits (sraP, q < 10\u221215) is associated with virulence in endovascular infection."
+        ],
+        "3.4. Genome-wide phenotype analysis": [
+            "We created a GWPA plot for the Ta\u00ef Forest ebolavirus genome (Fig. 2). Most genes can be detected by finding",
+            "\u2013 balanced accuracy.",
+            "AUPR REC. SPEC. BACC.",
+            "SPEC.",
+            "BACC.",
+            "83.1 83.9 91.8 95.9 peaks of elevated pathogenic potential score predicted by at least one of the models. Intergenic regions are characterized by lower mean scores.",
+            "We ran a similar analysis of S. aureus using the built-in DeePaC models (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>) and our interpretation workflow. While a viral genome contains usually only a handful of genes, by compiling a ranking of 870 annotated genes of the analyzed S. aureus strain we could test if the high-ranking regions are indeed associated with pathogenicity. Indeed, out of three top-ranking genes, sarR and sspB are directly engaged in virulence, while hupB regulates expression of virulence-involved genes in many pathogens (<a class=\"ref-link\" id=\"cStojkova_et+al_2019_a\" href=\"#rStojkova_et+al_2019_a\">Stojkova et al, 2019</a>).",
+            "Fig. 3a presents a GWPA plot for the whole genome of the 2019-nCoV coronavirus. We highlighted the score peaks aligning with the gene encoding the spike protein, which plays a significant role in host entry (<a class=\"ref-link\" id=\"cLi_2016_a\" href=\"#rLi_2016_a\">Li, 2016</a>), as well as the E and N genes, which were scored the highest (apart from an unconfirmed ORF10 of just 38aa downstream of N) by the CNN and the LSTM, respectively. Fig. 3b shows the nucleotide-level contributions in a small peak within the receptor-binding domain of the S protein, crucial for recognizing the host cell. The domain location was predicted with CD-search (<a class=\"ref-link\" id=\"cMarchler-Bauer_et+al_2017_a\" href=\"#rMarchler-Bauer_et+al_2017_a\">Marchler-Bauer et al, 2017</a>). While this could suggest a host adaptation, more research is needed."
+        ],
+        "4. Discussion": [],
+        "4.1. Accurate predictions from short DNA reads": [
+            "VIRULENCE (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>), our models drastically reduce the error rates. This holds also for novel viruses not present in the training set. In the paired read scenario, the previously described method fails, and standard, alignment-based homology testing algorithm cannot find any matches in more than 10% of the cases, resulting in relatively low accuracy. On a real human virome sample, where a main source of negative class reads is most likely contamination (<a class=\"ref-link\" id=\"cMoustafa_et+al_2017_a\" href=\"#rMoustafa_et+al_2017_a\">Moustafa et al, 2017</a>), our method filters out non-human viruses with high specificity. In this scenario, the BLAST-derived groundtruth labels were mined using the complete database (as opposed to just a training set). In all cases, our results are only as good as the training data used; high quality labels and sequences are needed to develop trustworthy models. Ideally, sources of error should be investigated with an in-depth analysis of a model\u2019s performance on multiple genomes covering a wide selection of taxonomic units. This is especially important as the method assumes no mechanistic link between an input sequence and the phenotype of interest, and the input sequence constitutes only a small fraction of the target genome without a wider biological context. Still, it is possible to predict a label even from those small, local fragments. A similar effect was also observed for image classification with CNNs (Brendel & Bethge, 2019)."
+        ],
+        "4.2. Nucleotide contribution logos": [
+            "Visualizing convolutional filters may help to identify potential problems. If the input data contains N s, a ReLU network may learn only negative weights at some positions, resulting",
+            "(a) Whole genome and sequences encoding the spike protein (S), envelope protein (E) and nucleocapsid protein (N).",
+            "(b) Spike protein gene, a small peak (positions 22,595-22,669) within the receptor-binding domain (predictied by CD-search). Binding to the receptor is crucial for entry to the host cell. Local host adaptation could help switch hosts between the animal reservoir and humans.",
+            "Figure 3. 2019-nCoV coronavirus. Top: score predicted by LSTMAll. Middle: score predicted by CNNStr-150. Heatmap: nucleotide contributions of CNNStr-150.. Bottom, in blue: reference sequence.",
+            "in counter-contributions for all possible nucleotides at those positions. In our case, as the filters were weight-normalized, the counter-contributions suggest that the information content and the contribution of a nucleotide are not necessarily correlated. Visualizing learned motifs by aligning the activating sequences (<a class=\"ref-link\" id=\"cAlipanahi_et+al_2015_a\" href=\"#rAlipanahi_et+al_2015_a\">Alipanahi et al, 2015</a>) would not fully describe how the filter reacts to presented data. It seems that the assumption of nucleotide independence \u2013 which is crucial for treating DeepLIFT as a method of estimating Shapley values for input nucleotides \u2013 is broken. Indeed, k-mer distribution profiles are frequently used features for modelling DNA sequences (as shown also by the dimershuffling method of generating reference sequences proposed by <a class=\"ref-link\" id=\"cShrikumar_et+al_2019_a\" href=\"#rShrikumar_et+al_2019_a\">Shrikumar et al (2019a</a>)). However, DeepLIFT\u2019s multiple successful applications in genomics indicate that the assumption probably holds approximately. We see information content and DeepLIFT\u2019s contribution values as two complementary channels that can be jointly visualized for better interpretability and explainability of CNNs in genomics."
+        ],
+        "4.3. Genome-scale interpretability": [
+            "Mapping predictions back to a target genome can be used both as a way of investigating a given model\u2019s performance and as a method of genome analysis. GWPA plots of wellannotated genomes highlight the sequences with erroneous and correct phenotype predictions at both genome and gene level, and nucleotide-resolution contribution maps help track those regions down to individual amino-acids. On the other hand, once a trusted model is developed, it can be used on newly emerging pathogens, as the 2019-nCoV virus briefly analyzed in this work. The methods presented here may also be applied to other biological problems outside of the field of pathogen genomics. However, experimental work and traditional sequence analysis are required to truly understand the biology behind host adaptation and distinguish true hits from false positives."
+        ],
+        "4.4. Conclusion": [
+            "We presented a new approach for predicting a host of a novel virus based on a single DNA read or a read pair, cutting the error rates in half compared to the previous state-of-the-art. For convolutional filters, we jointly visualize nucleotide contributions and information content. Finally, we use GWPA plots to gain insights into the models\u2019 behavior and analyze a recently emerged 2019-nCoV virus. Data is available at https://doi.org/10.5281/zenodo.3630803 and the code at https://gitlab.com/rki_bioinformatics/deepac."
+        ],
+        "Acknowledgements": [
+            "We gratefully acknowledge Yong-Zhen Zhang and the scientists at the Shanghai Public Health Clinical Center & School of Public Health, Fudan University, who shared the sequence of the 2019-nCoV virus ahead of publication. We thank Melania Nowicka (Max Plank Institute for Molecular Genetics) for inspiring discussions on efficient calculations of partial Shapley values and Lothar H. Wieler (Robert Koch Institute) for useful comments on the first draft of the manuscript. This work was supported by the German Academic Scholarship Foundation (JMB) and the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A537B, 031A533A, 031A538A, 031A533B, 031A535A, 031A537C, 031A534A, 031A532B)."
+        ],
+        "References": [
+            "Alipanahi, B., Delong, A., Weirauch, M. T., and Frey, B. J. Predicting the sequence specificities of DNA- and RNAbinding proteins by deep learning. Nature Biotechnology, 33(8):831\u2013838, 2015. ISSN 1546-1696. doi: 10.1038/ nbt.3300.",
+            "Altschul, S. F., Gish, W., Miller, W., Myers, E. W., and Lipman, D. J. Basic local alignment search tool. Journal of Molecular Biology, 215(3):403\u2013410, 1990. ISSN 00222836. doi: 10.1016/S0022-2836(05)80360-2.",
+            "Avsec, \u017d., Weilert, M., Shrikumar, A., Alexandari, A., Krueger, S., Dalal, K., Fropf, R., McAnany, C., Gagneur, J., Kundaje, A., and Zeitlinger, J. Deep learning at baseresolution reveals motif syntax of the cis-regulatory code. bioRxiv, pp. 737981, August 2019. doi: 10.1101/737981.",
+            "Babayan, S. A., Orton, R. J., and Streicker, D. G. Predicting reservoir hosts and arthropod vectors from evolutionary signatures in RNA virus genomes. Science, 362(6414): 577\u2013580, November 2018. ISSN 0036-8075, 1095-9203. doi: 10.1126/science.aap9072.",
+            "Bach, S., Binder, A., Montavon, G., Klauschen, F., M\u00fcller, K.-R., and Samek, W. On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation. PLOS ONE, 10(7):e0130140, July 2015. ISSN 1932-6203. doi: 10.1371/journal.pone. 0130140.",
+            "Bartoszewicz, J. M., Seidel, A., Rentzsch, R., and Renard, B. Y. DeePaC: predicting pathogenic potential of novel DNA with reverse-complement neural networks. Bioinformatics, 36(1):81\u201389, 07 2019. ISSN 1367-4803. doi: 10.1093/bioinformatics/btz541.",
+            "Brendel, W. and Bethge, M. Approximating CNNs with bag-of-local-features models works surprisingly well on",
+            "ImageNet. In International Conference on Learning Representations, 2019.",
+            "Calistri, A. and Pal\u00f9, G. Editorial commentary: Unbiased next-generation sequencing and new pathogen discovery: undeniable advantages and still-existing drawbacks. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America, 60(6):889\u2013891, 2015. ISSN 1537-6591. doi: 10.1093/cid/ciu913.",
+            "Calvignac-Spencer, S., Schulze, J. M., Zickmann, F., and Renard, B. Y. Clock rooting further demonstrates that guinea 2014 ebov is a member of the za\u00efre lineage. PLoS currents, 6, 2014.",
+            "Crooks, G. E., Hon, G., Chandonia, J.-M., and Brenner, S. E. WebLogo: a sequence logo generator. Genome Research, 14(6):1188\u20131190, June 2004. ISSN 1088-9051. doi: 10.1101/gr.849004.",
+            "Edwards, R. A., McNair, K., Faust, K., Raes, J., and Dutilh, B. E. Computational approaches to predict bacteriophagehost relationships. FEMS microbiology reviews, 40(2): 258\u2013272, 2016. ISSN 1574-6976. doi: 10.1093/femsre/ fuv048.",
+            "Eng, C. L., Tong, J. C., and Tan, T. W. Predicting host tropism of influenza a virus proteins using random forest. BMC Medical Genomics, 7(3):S1, 2014. ISSN 1755-8794. doi: 10.1186/1755-8794-7-S3-S1.",
+            "Eraslan, G., Avsec, \u017d., Gagneur, J., and Theis, F. J. Deep learning: new computational modelling techniques for genomics. Nature Reviews Genetics, 20(7):389\u2013 403, July 2019. ISSN 1471-0064. doi: 10.1038/ s41576-019-0122-6.",
+            "Ga\u0142an, W., Bak, M., and Jakubowska, M. Host taxon predictor - a tool for predicting taxon of the host of a newly discovered virus. Scientific Reports, 9(1):3436, 2019. ISSN 2045-2322. doi: 10.1038/s41598-019-39847-2.",
+            "Greenside, P., Shimko, T., Fordyce, P., and Kundaje, A. Discovering epistatic feature interactions from neural network models of regulatory DNA sequences. Bioinformatics, 34(17):i629\u2013i637, 2018. ISSN 1367-4803. doi: 10.1093/bioinformatics/bty575.",
+            "Herfst, S., Schrauwen, E. J. A., Linster, M., Chutinimitkul, S., Wit, E. d., Munster, V. J., Sorrell, E. M., Bestebroer, T. M., Burke, D. F., Smith, D. J., Rimmelzwaan, G. F., Osterhaus, A. D. M. E., and Fouchier, R. A. M. Airborne Transmission of Influenza A/H5n1 Virus Between Ferrets. Science, 336(6088):1534\u20131541, June 2012. ISSN 00368075, 1095-9203. doi: 10.1126/science.1213362.",
+            "Holtgrewe, M. Mason \u2013 a read simulator for second generation sequencing data. Technical Report FU Berlin, 2010.",
+            "Imai, M., Watanabe, T., Hatta, M., Das, S. C., Ozawa, M., Shinya, K., Zhong, G., Hanson, A., Katsura, H., Watanabe, S., Li, C., Kawakami, E., Yamada, S., Kiso, M., Suzuki, Y., Maher, E. A., Neumann, G., and Kawaoka, Y. Experimental adaptation of an influenza H5 HA confers respiratory droplet transmission to a reassortant H5 HA/H1n1 virus in ferrets. Nature, 486(7403):420\u2013428, June 2012. ISSN 1476-4687. doi: 10.1038/nature10831.",
+            "Jha, A., Aicher, J. K., Singh, D., and Barash, Y. Improving interpretability of deep learning models: splicing codes as a case study. bioRxiv, 2019. doi: 10.1101/700096.",
+            "Kelley, D. R., Snoek, J., and Rinn, J. L. Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks. Genome Research, 26 (7):990\u2013999, 2016. ISSN 1088-9051. doi: 10.1101/gr. 200535.115.",
+            "Lanchantin, J., Singh, R., Lin, Z., and Qi, Y. Deep Motif: Visualizing Genomic Sequence Classifications. CoRR, abs/1605.01133, 2016.",
+            "Lanchantin, J., Singh, R., Wang, B., and Qi, Y. Deep motif dashboard: visualizing and understanding genomic sequences using deep neural networks. Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing, 22:254\u2013265, 2017. ISSN 2335-6936. doi: 10.1142/9789813207813_0025.",
+            "Lecuit, M. and Eloit, M. The diagnosis of infectious diseases by whole genome next generation sequencing: a new era is opening. Frontiers in Cellular and Infection Microbiology, 4:25, 2014. ISSN 2235-2988. doi: 10.3389/fcimb.2014.00025.",
+            "Leendertz, S. A. J., Gogarten, J. F., D\u00fcx, A., CalvignacSpencer, S., and Leendertz, F. H. Assessing the evidence supporting fruit bats as the primary reservoirs for ebola viruses. EcoHealth, 13(1):18\u201325, Mar 2016. ISSN 16129210. doi: 10.1007/s10393-015-1053-0.",
+            "Li, F. Structure, Function, and Evolution of Coronavirus Spike Proteins. Annual Review of Virology, 3(1):237\u2013261, 2016. doi: 10.1146/annurev-virology-110615-042301.",
+            "Li, H. and Sun, F. Comparative studies of alignment, alignment-free and SVM based approaches for predicting the hosts of viruses based on viral sequences. Scientific Reports, 8(1):10032, 2018. ISSN 2045-2322. doi: 10.1038/s41598-018-28308-x.",
+            "Lipsitch, M. and Inglesby, T. V. Moratorium on Research Intended To Create Novel Potential Pandemic Pathogens. mBio, 5(6), December 2014. ISSN 2150-7511. doi: 10.1128/mBio.02366-14.",
+            "Lundberg, S. M. and Lee, S.-I. A Unified Approach to Interpreting Model Predictions. In Guyon, I., Luxburg, U. V., Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S., and Garnett, R. (eds.), Advances in Neural Information Processing Systems 30, pp. 4765\u20134774. Curran Associates, Inc., 2017.",
+            "Marchler-Bauer, A., Bo, Y., Han, L., He, J., Lanczycki, C. J., Lu, S., Chitsaz, F., Derbyshire, M. K., Geer, R. C., Gonzales, N. R., Gwadz, M., Hurwitz, D. I., Lu, F., Marchler, G. H., Song, J. S., Thanki, N., Wang, Z., Yamashita, R. A., Zhang, D., Zheng, C., Geer, L. Y., and Bryant, S. H. CDD/SPARCLE: functional classification of proteins via subfamily domain architectures. Nucleic Acids Research, 45(D1):D200\u2013D203, 2017. ISSN 1362-4962. doi: 10.1093/nar/gkw1129.",
+            "Mihara, T., Nishimura, Y., Shimizu, Y., Nishiyama, H., Yoshikawa, G., Uehara, H., Hingamp, P., Goto, S., and Ogata, H. Linking virus genomes with host taxonomy. Viruses, 8(3):66, 2016. ISSN 1999-4915. doi: 10.3390/ v8030066.",
+            "Mock, F., Viehweger, A., Barth, E., and Marz, M. Viral host prediction with deep learning. bioRxiv, pp. 575571, 2019. doi: 10.1101/575571.",
+            "Moustafa, A., Xie, C., Kirkness, E., Biggs, W., Wong, E., Turpaz, Y., Bloom, K., Delwart, E., Nelson, K. E., Venter, J. C., and Telenti, A. The blood DNA virome in 8,000 humans. PLOS Pathogens, 13(3):e1006292, March 2017. ISSN 1553-7374. doi: 10.1371/journal.ppat.1006292.",
+            "Naftaly, U., Intrator, N., and Horn, D. Optimal ensemble averaging of neural networks. Network: Computation in Neural Systems, 8(3):283\u2013296, January 1997. ISSN 0954-898X. doi: 10.1088/0954-898X_8_3_004.",
+            "Nair, S., Kim, D. S., Perricone, J., and Kundaje, A. Integrating regulatory DNA sequence and gene expression to predict genome-wide chromatin accessibility across cellular contexts. Bioinformatics, 35(14):i108\u2013i116, July 2019. ISSN 1367-4803. doi: 10.1093/bioinformatics/btz352.",
+            "Noyce, R. S., Lederman, S., and Evans, D. H. Construction of an infectious horsepox virus vaccine from chemically synthesized DNA fragments. PLOS ONE, 13 (1):e0188453, January 2018. ISSN 1932-6203. doi: 10.1371/journal.pone.0188453.",
+            "Poplin, R., Chang, P.-C., Alexander, D., Schwartz, S., Colthurst, T., Ku, A., Newburger, D., Dijamco, J., Nguyen, N., Afshar, P. T., Gross, S. S., Dorfman, L., McLean, C. Y., and DePristo, M. A. A universal SNP and small-indel variant caller using deep neural networks. Nature Biotechnology, 36(10):983\u2013987, 2018. ISSN 15461696. doi: 10.1038/nbt.4235.",
+            "Quang, D. and Xie, X. DanQ: a hybrid convolutional and recurrent deep neural network for quantifying the function of DNA sequences. Nucleic Acids Research, 44(11):e107\u2013 e107, 2016. ISSN 0305-1048. doi: 10.1093/nar/gkw226.",
+            "Ren, J., Song, K., Deng, C., Ahlgren, N. A., Fuhrman, J. A., Li, Y., Xie, X., and Sun, F. Identifying viruses from metagenomic data by deep learning. arXiv:1806.07810 [q-bio], June 2018. arXiv: 1806.07810.",
+            "Schneider, T. D. and Stephens, R. M. Sequence logos: a new way to display consensus sequences. Nucleic Acids Research, 18(20):6097\u20136100, October 1990. ISSN 03051048. doi: 10.1093/nar/18.20.6097.",
+            "Shrikumar, A., Greenside, P., and Kundaje, A. Learning Important Features Through Propagating Activation Differences. arXiv:1704.02685 [cs], October 2019a. arXiv: 1704.02685.",
+            "Shrikumar, A., Tian, K., Shcherbina, A., Avsec, \u017d., Banerjee, A., Sharmin, M., Nair, S., and Kundaje, A. TF-MoDISco v0.4.2.2-alpha: Technical Note. arXiv:1811.00416 [cs, q-bio, stat], March 2019b. arXiv: 1811.00416.",
+            "Stojkova, P., Spidlova, P., and Stulik, J. Nucleoid-associated protein hu: A lilliputian in gene regulation of bacterial virulence. Frontiers in Cellular and Infection Microbiology, 9:159, 2019. ISSN 2235-2988. doi: 10.3389/fcimb.2019.00159.",
+            "Vouga, M. and Greub, G. Emerging bacterial pathogens: the past and beyond. Clinical Microbiology and Infection, 22(1):12\u201321, January 2016. ISSN 1198-743X. doi: 10. 1016/j.cmi.2015.10.010.",
+            "Wu, F., Zhao, S., Yu, B., Chen, Y.-M., Wang, W., Hu, Y., Song, Z.-G., Tao, Z.-W., Tian, J.-H., Pei, Y.-Y., Yuan, M.L., Zhang, Y.-L., Dai, F.-H., Liu, Y., Wang, Q.-M., Zheng, J.-J., Xu, L., Holmes, E. C., and Zhang, Y.-Z. Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China. bioRxiv, pp. 2020.01.24.919183, January 2020. doi: 10. 1101/2020.01.24.919183.",
+            "Zeng, H., Edwards, M. D., Liu, G., and Gifford, D. K. Convolutional neural network architectures for predicting DNA\u2013protein binding. Bioinformatics, 32(12):i121\u2013i127, 2016. ISSN 1367-4803. doi: 10.1093/bioinformatics/ btw255.",
+            "Zhang, Z., Cai, Z., Tan, Z., Lu, C., Jiang, T., Zhang, G., and Peng, Y. Rapid identification of human-infecting viruses. Transboundary and Emerging Diseases, August 2019. ISSN 1865-1682. doi: 10.1111/tbed.13314.",
+            "Zhou, J. and Troyanskaya, O. G. Predicting effects of noncoding variants with deep learning\u2013based sequence model. Nature Methods, 12(10):931\u2013934, 2015. ISSN 1548-7105. doi: 10.1038/nmeth.3547.",
+            "Sundararajan, M., Taly, A., and Yan, Q. Gradients of Counterfactuals. CoRR, abs/1611.02639, 2016.",
+            "Tampuu, A., Bzhalava, Z., Dillner, J., and Vicente, R. ViraMiner: Deep learning on raw DNA sequences for identifying viral genomes in human samples. PLOS ONE, 14 (9):e0222271, September 2019. ISSN 1932-6203. doi: 10.1371/journal.pone.0222271.",
+            "Thiel, V. Synthetic viruses-Anything new? PLoS pathogens, 14(10):e1007019, 2018. ISSN 1553-7374. doi: 10.1371/ journal.ppat.1007019.",
+            "Thorvaldsd\u00f3ttir, H., Robinson, J. T., and Mesirov, J. P. Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration. Briefings in Bioinformatics, 14(2):178\u2013192, March 2013. ISSN 14675463. doi: 10.1093/bib/bbs017.",
+            "Trappe, K., Marschall, T., and Renard, B. Y. Detecting horizontal gene transfer by mapping sequencing reads across species boundaries. Bioinformatics, 32(17):i595\u2013 i604, September 2016. ISSN 1367-4803. doi: 10.1093/ bioinformatics/btw423."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "records",
+            "number": 14380,
+            "context": "VHDB DATASET<br/><br/>We accessed the Virus-Host Database (<a class=\"ref-link\" id=\"cMihara_et+al_2016_a\" href=\"#rMihara_et+al_2016_a\">Mihara et al, 2016</a>) on July 31, 2019 and downloaded all the available data. <mark class=\"stats\">The original dataset contained 14,380 records comprising RefSeq IDs for viral sequences and associated metadata</mark>. Some viruses are divided into discontiguous segments, which are represented as separate records in VHDB; in those cases the segments were treated as contigs of a single genome in further analysis"
+        },
+        {
+            "participant": "controversial studies",
+            "number": 2,
+            "context": "While potentially useful in some applications, engineering of viral genomes could also pose a biosecurity and biosafety threat. <mark class=\"stats\">Two controversial studies modified the influenza A/H5N1 (\"bird flu\") virus to be airborne transmissible in mammals (<a class=\"ref-link\" id=\"cHerfst_et+al_2012_a\" href=\"#rHerfst_et+al_2012_a\">Herfst et al, 2012</a>; <a class=\"ref-link\" id=\"cImai_et+al_2012_a\" href=\"#rImai_et+al_2012_a\">Imai et al, 2012</a>)</mark>. A possibility of modifying coronaviruses to enhance their virulence triggered calls for a moratorium on this kind of research (<a class=\"ref-link\" id=\"cLipsitch_2014_a\" href=\"#rLipsitch_2014_a\">Lipsitch & Inglesby, 2014</a>)"
+        },
+        {
+            "participant": "recent studies",
+            "number": 2,
+            "context": "Prediction of eukariotic host tropism (including humans) based on known protein sequences was shown for the influenza A virus (<a class=\"ref-link\" id=\"cEng_et+al_2014_a\" href=\"#rEng_et+al_2014_a\">Eng et al, 2014</a>). <mark class=\"stats\">Two recent studies employ k-mer based, kNN classifiers (<a class=\"ref-link\" id=\"cLi_2018_a\" href=\"#rLi_2018_a\">Li & Sun, 2018</a>) and deep learning (<a class=\"ref-link\" id=\"cMock_et+al_2019_a\" href=\"#rMock_et+al_2019_a\">Mock et al, 2019</a>) to predict host range for a small set of three well-studied species directly from viral sequences</mark>. While bioRxiv preprint doi: https://doi.org/10.1101/2020.01.29.925354"
+        },
+        {
+            "participant": "base pairs",
+            "number": 500,
+            "context": "<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al (2019</a>) designed several classifiers explicitly predicting whether a new virus can potentially infect humans. <mark class=\"stats\">Their best model, a k-NN classifier, uses k-mer frequencies as features representing the query sequence and can yield predictions for sequences as short as 500 base pairs (bp)</mark>. It worked also with 150bp-long reads from real DNA sequencing runs, although in this case the reads originated also from the viruses present in the training set (and were therefore not \"novel\")"
+        },
+        {
+            "participant": "multi-host viral species",
+            "number": 3,
+            "context": "Early works focused mainly on regulation of gene expression in humans (<a class=\"ref-link\" id=\"cAlipanahi_et+al_2015_a\" href=\"#rAlipanahi_et+al_2015_a\">Alipanahi et al, 2015</a>; <a class=\"ref-link\" id=\"cZhou_2015_a\" href=\"#rZhou_2015_a\">Zhou & Troyanskaya, 2015</a>; <a class=\"ref-link\" id=\"cZeng_et+al_2016_a\" href=\"#rZeng_et+al_2016_a\">Zeng et al, 2016</a>; <a class=\"ref-link\" id=\"cQuang_2016_a\" href=\"#rQuang_2016_a\">Quang & Xie, 2016</a>; <a class=\"ref-link\" id=\"cKelley_et+al_2016_a\" href=\"#rKelley_et+al_2016_a\">Kelley et al, 2016</a>), which is still an area of active research (<a class=\"ref-link\" id=\"cGreenside_et+al_2018_a\" href=\"#rGreenside_et+al_2018_a\">Greenside et al, 2018</a>; <a class=\"ref-link\" id=\"cNair_et+al_2019_a\" href=\"#rNair_et+al_2019_a\">Nair et al, 2019</a>; <a class=\"ref-link\" id=\"cAvsec_et+al_2019_a\" href=\"#rAvsec_et+al_2019_a\">Avsec et al, 2019</a>). <mark class=\"stats\">In the field of pathogen genomics, deep learning models trained directly on DNA sequences were developed to predict host ranges of three multi-host viral species (<a class=\"ref-link\" id=\"cMock_et+al_2019_a\" href=\"#rMock_et+al_2019_a\">Mock et al, 2019</a>) and to predict pathogenic potentials of novel bacteria (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>)</mark>. DeepVirFinder (<a class=\"ref-link\" id=\"cRen_et+al_2018_a\" href=\"#rRen_et+al_2018_a\">Ren et al, 2018</a>) and ViraMiner (Tampuu et al, 2019) can detect viral sequences in metagenomic samples, but they cannot predict the host and focus on previously known species"
+        },
+        {
+            "participant": "records",
+            "number": 14380,
+            "context": "We accessed the Virus-Host Database (<a class=\"ref-link\" id=\"cMihara_et+al_2016_a\" href=\"#rMihara_et+al_2016_a\">Mihara et al, 2016</a>) on July 31, 2019 and downloaded all the available data. <mark class=\"stats\">The original dataset contained 14,380 records comprising RefSeq IDs for viral sequences and associated metadata</mark>. Some viruses are divided into discontiguous segments, which are represented as separate records in VHDB; in those cases the segments were treated as contigs of a single genome in further analysis"
+        },
+        {
+            "participant": "annotated genes",
+            "number": 870,
+            "context": "We ran a similar analysis of S. aureus using the built-in DeePaC models (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>) and our interpretation workflow. <mark class=\"stats\">While a viral genome contains usually only a handful of genes, by compiling a ranking of 870 annotated genes of the analyzed S. aureus strain we could test if the high-ranking regions are indeed associated with pathogenicity</mark>. Indeed, out of three top-ranking genes, sarR and sspB are directly engaged in virulence, while hupB regulates expression of virulence-involved genes in many pathogens (<a class=\"ref-link\" id=\"cStojkova_et+al_2019_a\" href=\"#rStojkova_et+al_2019_a\">Stojkova et al, 2019</a>)"
+        },
+        {
+            "participant": "top-ranking genes",
+            "number": 3,
+            "context": "While a viral genome contains usually only a handful of genes, by compiling a ranking of 870 annotated genes of the analyzed S. aureus strain we could test if the high-ranking regions are indeed associated with pathogenicity. <mark class=\"stats\">Indeed, out of three top-ranking genes, sarR and sspB are directly engaged in virulence, while hupB regulates expression of virulence-involved genes in many pathogens (<a class=\"ref-link\" id=\"cStojkova_et+al_2019_a\" href=\"#rStojkova_et+al_2019_a\">Stojkova et al, 2019</a>)</mark>. Fig. 3a presents a GWPA plot for the whole genome of the 2019-nCoV coronavirus"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">those approaches are limited to those particular species and do not scale to viral host-range prediction in general, the Host Taxon Predictor (HTP) (Ga\u0142an et al, 2019) uses logistic regression and support vector machines to predict if a novel virus infects bacteria, plants, vertebrates or arthropods</mark>",
+                "tests": [
+                    {
+                        "test": "logistic regression"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We show that reversecomplement (RC) neural networks (Bartoszewicz et al, 2019) significantly outperform both the previous state-ofthe-art (Zhang et al, 2019) and the traditional, alignmentbased algorithm \u2013 BLAST (Altschul et al, 1990), which constitutes a gold standard in homology-based bioinformatics analyses</mark>",
+                "tests": [
+                    {
+                        "test": "BLAST"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We also tested the performance of using BLAST to search against an indexed database of labelled genomes</mark>",
+                "tests": [
+                    {
+                        "test": "BLAST"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We scanned a genome of S. aureus with this filter and discovered that the learned motif is indeed significantly enriched in coding sequences (Fisher exact test with Benjamini-Hochberg correction, q < 10\u221215)</mark>",
+                "tests": [
+                    {
+                        "test": "Fisher exact test",
+                        "value": "q < 10"
+                    },
+                    {
+                        "test": "Benjamini-Hochberg",
+                        "value": "q < 10"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "genome-wide phenotype analysis",
+        "nucleotide",
+        "position-weighted matrix",
+        "Deep Learning",
+        "coronavirus",
+        "generation sequencing",
+        "Machine Learning",
+        "Interpretable",
+        "Pathogenicity",
+        "convolutional neural",
+        "Host Taxon Predictor",
+        "ICML",
+        "Viruses",
+        "Next-Generation Sequencing",
+        "Infectious",
+        "viral host prediction",
+        "error rate",
+        "genomics",
+        "information content",
+        "homology"
+    ],
+    "keyword_relevance": {
+        "nucleotide": 0.358695652173913,
+        "information content": 0.10869565217391304,
+        "coronavirus": 0.08695652173913043,
+        "genomics": 0.08695652173913043,
+        "generation sequencing": 0.07608695652173914,
+        "genome-wide phenotype analysis": 0.06521739130434782,
+        "Host Taxon Predictor": 0.03260869565217391,
+        "error rate": 0.03260869565217391,
+        "homology": 0.03260869565217391,
+        "position-weighted matrix": 0.021739130434782608,
+        "Viruses": 0.021739130434782608,
+        "Infectious": 0.021739130434782608,
+        "viral host prediction": 0.021739130434782608,
+        "Deep Learning": 0.010869565217391304,
+        "Interpretable": 0.010869565217391304,
+        "convolutional neural": 0.010869565217391304,
+        "Machine Learning": 0.0,
+        "Pathogenicity": 0.0,
+        "ICML": 0.0,
+        "Next-Generation Sequencing": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> It is almost certain that more unknown pathogen species and strains are yet to be discovered, given their constant, extremely fast-paced evolution and unexplored biodiversity, as well as increasing human exposure (<a class=\"ref-link\" id=\"cVouga_2016_a\" href=\"#rVouga_2016_a\">Vouga & Greub, 2016</a>; <a class=\"ref-link\" id=\"cTrappe_et+al_2016_a\" href=\"#rTrappe_et+al_2016_a\">Trappe et al, 2016</a>)",
+        "Some of those novel pathogens may cause epidemics or even pandemics.",
+        "As the state-of-the art approach for the open-view detection of pathogens is genome sequencing (<a class=\"ref-link\" id=\"cLecuit_2014_a\" href=\"#rLecuit_2014_a\">Lecuit & Eloit, 2014</a>; <a class=\"ref-link\" id=\"cCalistri_2015_a\" href=\"#rCalistri_2015_a\">Calistri & Pal\u00f9, 2015</a>), it is crucial to develop automated pipelines for characterizing the infectious potential of currently unidentifiable sequences",
+        "<h2 style=\"display: inline\">Methods:</h2> The original dataset contained 14,380 records comprising RefSeq IDs for viral sequences and associated metadata.",
+        "Human-infecting viruses were extracted by searching for records containing \"Homo sapiens\" in the \"host name\" field.",
+        "The dataset contained 9,496 viruses, including 1,309 human viruses.",
+        "The authors considered both DNA and RNA viruses; RNA sequences were encoded in the DNA alphabet, as in RefSeq",
+        "<h2 style=\"display: inline\">Results:</h2> The models trained only on human and Chordata-infecting viruses maintain similar, or even better performance when evaluated on viruses infecting a much broader host range, including bacteria.",
+        "This suggests that the learned decision boundary separates human viruses from all the others surprisingly well.",
+        "The authors hypothesize that the human host signal must be relatively strong and contained within the Chordata host signal",
+        "<h2 style=\"display: inline\">Conclusion:</h2> On a real human virome sample, where a main source of negative class reads is most likely contamination (<a class=\"ref-link\" id=\"cMoustafa_et+al_2017_a\" href=\"#rMoustafa_et+al_2017_a\">Moustafa et al, 2017</a>), the method filters out non-human viruses with high specificity.",
+        "In this scenario, the BLAST-derived groundtruth labels were mined using the complete database.",
+        "Data is available at https://doi.org/10.5281/zenodo.3630803 and the code at https://gitlab.com/rki_bioinformatics/deepac"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "It is almost certain that more unknown pathogen species and strains are yet to be discovered, given their constant, extremely fast-paced evolution and unexplored biodiversity, as well as increasing human exposure (<a class=\"ref-link\" id=\"cVouga_2016_a\" href=\"#rVouga_2016_a\">Vouga & Greub, 2016</a>; <a class=\"ref-link\" id=\"cTrappe_et+al_2016_a\" href=\"#rTrappe_et+al_2016_a\">Trappe et al, 2016</a>)",
+            "Some of those novel pathogens may cause epidemics or even pandemics.",
+            "As the state-of-the art approach for the open-view detection of pathogens is genome sequencing (<a class=\"ref-link\" id=\"cLecuit_2014_a\" href=\"#rLecuit_2014_a\">Lecuit & Eloit, 2014</a>; <a class=\"ref-link\" id=\"cCalistri_2015_a\" href=\"#rCalistri_2015_a\">Calistri & Pal\u00f9, 2015</a>), it is crucial to develop automated pipelines for characterizing the infectious potential of currently unidentifiable sequences"
+        ],
+        "Methods": [
+            "The original dataset contained 14,380 records comprising RefSeq IDs for viral sequences and associated metadata.",
+            "Human-infecting viruses were extracted by searching for records containing \"Homo sapiens\" in the \"host name\" field.",
+            "The dataset contained 9,496 viruses, including 1,309 human viruses.",
+            "The authors considered both DNA and RNA viruses; RNA sequences were encoded in the DNA alphabet, as in RefSeq"
+        ],
+        "Results": [
+            "The models trained only on human and Chordata-infecting viruses maintain similar, or even better performance when evaluated on viruses infecting a much broader host range, including bacteria.",
+            "This suggests that the learned decision boundary separates human viruses from all the others surprisingly well.",
+            "The authors hypothesize that the human host signal must be relatively strong and contained within the Chordata host signal"
+        ],
+        "Conclusion": [
+            "On a real human virome sample, where a main source of negative class reads is most likely contamination (<a class=\"ref-link\" id=\"cMoustafa_et+al_2017_a\" href=\"#rMoustafa_et+al_2017_a\">Moustafa et al, 2017</a>), the method filters out non-human viruses with high specificity.",
+            "In this scenario, the BLAST-derived groundtruth labels were mined using the complete database.",
+            "Data is available at https://doi.org/10.5281/zenodo.3630803 and the code at https://gitlab.com/rki_bioinformatics/deepac"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Alipanahi_et+al_2015_a",
+            "alt_id": "1",
+            "entry": "Alipanahi, B., Delong, A., Weirauch, M. T., and Frey, B. J. Predicting the sequence specificities of DNA- and RNAbinding proteins by deep learning. Nature Biotechnology, 33(8):831\u2013838, 2015. ISSN 1546-1696. doi: 10.1038/ nbt.3300.",
+            "crossref": "https://dx.doi.org/10.1038/nbt.3300",
+            "scite": "https://scite.ai/reports/10.1038/nbt.3300",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/nbt.3300"
+        },
+        {
+            "id": "Altschul_et+al_1990_a",
+            "alt_id": "2",
+            "entry": "Altschul, S. F., Gish, W., Miller, W., Myers, E. W., and Lipman, D. J. Basic local alignment search tool. Journal of Molecular Biology, 215(3):403\u2013410, 1990. ISSN 00222836. doi: 10.1016/S0022-2836(05)80360-2.",
+            "crossref": "https://dx.doi.org/10.1016/S0022-2836(05)80360-2",
+            "scite": "https://scite.ai/reports/10.1016/S0022-2836(05)80360-2",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0022-2836%2805%2980360-2"
+        },
+        {
+            "id": "Avsec_et+al_2019_a",
+            "alt_id": "3",
+            "entry": "Avsec, \u017d., Weilert, M., Shrikumar, A., Alexandari, A., Krueger, S., Dalal, K., Fropf, R., McAnany, C., Gagneur, J., Kundaje, A., and Zeitlinger, J. Deep learning at baseresolution reveals motif syntax of the cis-regulatory code. bioRxiv, pp. 737981, August 2019. doi: 10.1101/737981.",
+            "crossref": "https://dx.doi.org/10.1101/737981",
+            "scite": "https://scite.ai/reports/10.1101/737981"
+        },
+        {
+            "id": "Babayan_et+al_2018_a",
+            "alt_id": "4",
+            "entry": "Babayan, S. A., Orton, R. J., and Streicker, D. G. Predicting reservoir hosts and arthropod vectors from evolutionary signatures in RNA virus genomes. Science, 362(6414): 577\u2013580, November 2018. ISSN 0036-8075, 1095-9203. doi: 10.1126/science.aap9072.",
+            "crossref": "https://dx.doi.org/10.1126/science.aap9072",
+            "scite": "https://scite.ai/reports/10.1126/science.aap9072",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.aap9072"
+        },
+        {
+            "id": "Bach_et+al_2015_a",
+            "alt_id": "5",
+            "entry": "Bach, S., Binder, A., Montavon, G., Klauschen, F., M\u00fcller, K.-R., and Samek, W. On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation. PLOS ONE, 10(7):e0130140, July 2015. ISSN 1932-6203. doi: 10.1371/journal.pone. 0130140.",
+            "crossref": "https://dx.doi.org/10.1371/journal.pone.0130140",
+            "scite": "https://scite.ai/reports/10.1371/journal.pone.0130140",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pone.0130140"
+        },
+        {
+            "id": "Bartoszewicz_et+al_2019_a",
+            "alt_id": "6",
+            "entry": "Bartoszewicz, J. M., Seidel, A., Rentzsch, R., and Renard, B. Y. DeePaC: predicting pathogenic potential of novel DNA with reverse-complement neural networks. Bioinformatics, 36(1):81\u201389, 07 2019. ISSN 1367-4803. doi: 10.1093/bioinformatics/btz541.",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/btz541",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/btz541",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/bioinformatics/btz541"
+        },
+        {
+            "id": "Imagenet_2019_a",
+            "alt_id": "7",
+            "entry": "ImageNet. In International Conference on Learning Representations, 2019.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=ImageNet%20In%20International%20Conference%20on%20Learning%20Representations%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=ImageNet%20In%20International%20Conference%20on%20Learning%20Representations%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=ImageNet%20In%20International%20Conference%20on%20Learning%20Representations%202019"
+        },
+        {
+            "id": "Calistri_2015_a",
+            "alt_id": "8",
+            "entry": "Calistri, A. and Pal\u00f9, G. Editorial commentary: Unbiased next-generation sequencing and new pathogen discovery: undeniable advantages and still-existing drawbacks. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America, 60(6):889\u2013891, 2015. ISSN 1537-6591. doi: 10.1093/cid/ciu913.",
+            "crossref": "https://dx.doi.org/10.1093/cid/ciu913",
+            "scite": "https://scite.ai/reports/10.1093/cid/ciu913",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/cid/ciu913"
+        },
+        {
+            "id": "Calvignac-Spencer_et+al_2014_a",
+            "alt_id": "9",
+            "entry": "Calvignac-Spencer, S., Schulze, J. M., Zickmann, F., and Renard, B. Y. Clock rooting further demonstrates that guinea 2014 ebov is a member of the za\u00efre lineage. PLoS currents, 6, 2014.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=CalvignacSpencer%20S%20Schulze%20J%20M%20Zickmann%20F%20and%20Renard%20B%20Y%20Clock%20rooting%20further%20demonstrates%20that%20guinea%202014%20ebov%20is%20a%20member%20of%20the%20za%C3%AFre%20lineage%20PLoS%20currents%206%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=CalvignacSpencer%20S%20Schulze%20J%20M%20Zickmann%20F%20and%20Renard%20B%20Y%20Clock%20rooting%20further%20demonstrates%20that%20guinea%202014%20ebov%20is%20a%20member%20of%20the%20za%C3%AFre%20lineage%20PLoS%20currents%206%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=CalvignacSpencer%20S%20Schulze%20J%20M%20Zickmann%20F%20and%20Renard%20B%20Y%20Clock%20rooting%20further%20demonstrates%20that%20guinea%202014%20ebov%20is%20a%20member%20of%20the%20za%C3%AFre%20lineage%20PLoS%20currents%206%202014"
+        },
+        {
+            "id": "Crooks_et+al_2004_a",
+            "alt_id": "10",
+            "entry": "Crooks, G. E., Hon, G., Chandonia, J.-M., and Brenner, S. E. WebLogo: a sequence logo generator. Genome Research, 14(6):1188\u20131190, June 2004. ISSN 1088-9051. doi: 10.1101/gr.849004.",
+            "crossref": "https://dx.doi.org/10.1101/gr.849004",
+            "scite": "https://scite.ai/reports/10.1101/gr.849004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/gr.849004"
+        },
+        {
+            "id": "Edwards_et+al_2016_a",
+            "alt_id": "11",
+            "entry": "Edwards, R. A., McNair, K., Faust, K., Raes, J., and Dutilh, B. E. Computational approaches to predict bacteriophagehost relationships. FEMS microbiology reviews, 40(2): 258\u2013272, 2016. ISSN 1574-6976. doi: 10.1093/femsre/ fuv048.",
+            "crossref": "https://dx.doi.org/10.1093/femsre/fuv048",
+            "scite": "https://scite.ai/reports/10.1093/femsre/fuv048",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/femsre/fuv048"
+        },
+        {
+            "id": "Eng_et+al_2014_a",
+            "alt_id": "12",
+            "entry": "Eng, C. L., Tong, J. C., and Tan, T. W. Predicting host tropism of influenza a virus proteins using random forest. BMC Medical Genomics, 7(3):S1, 2014. ISSN 1755-8794. doi: 10.1186/1755-8794-7-S3-S1.",
+            "crossref": "https://dx.doi.org/10.1186/1755-8794-7-S3-S1",
+            "scite": "https://scite.ai/reports/10.1186/1755-8794-7-S3-S1",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1186/1755-8794-7-S3-S1"
+        },
+        {
+            "id": "Eraslan_2019_a",
+            "alt_id": "13",
+            "entry": "Eraslan, G., Avsec, \u017d., Gagneur, J., and Theis, F. J. Deep learning: new computational modelling techniques for genomics. Nature Reviews Genetics, 20(7):389\u2013 403, July 2019. ISSN 1471-0064. doi: 10.1038/ s41576-019-0122-6.",
+            "crossref": "https://dx.doi.org/10.1038/s41576-019-0122-6",
+            "scite": "https://scite.ai/reports/10.1038/s41576-019-0122-6",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41576-019-0122-6"
+        },
+        {
+            "id": "Ga_et+al_2019_a",
+            "alt_id": "14",
+            "entry": "Ga\u0142an, W., Bak, M., and Jakubowska, M. Host taxon predictor - a tool for predicting taxon of the host of a newly discovered virus. Scientific Reports, 9(1):3436, 2019. ISSN 2045-2322. doi: 10.1038/s41598-019-39847-2.",
+            "crossref": "https://dx.doi.org/10.1038/s41598-019-39847-2",
+            "scite": "https://scite.ai/reports/10.1038/s41598-019-39847-2",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41598-019-39847-2"
+        },
+        {
+            "id": "Greenside_et+al_2018_a",
+            "alt_id": "15",
+            "entry": "Greenside, P., Shimko, T., Fordyce, P., and Kundaje, A. Discovering epistatic feature interactions from neural network models of regulatory DNA sequences. Bioinformatics, 34(17):i629\u2013i637, 2018. ISSN 1367-4803. doi: 10.1093/bioinformatics/bty575.",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/bty575",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/bty575",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/bioinformatics/bty575"
+        },
+        {
+            "id": "Herfst_et+al_2012_a",
+            "alt_id": "16",
+            "entry": "Herfst, S., Schrauwen, E. J. A., Linster, M., Chutinimitkul, S., Wit, E. d., Munster, V. J., Sorrell, E. M., Bestebroer, T. M., Burke, D. F., Smith, D. J., Rimmelzwaan, G. F., Osterhaus, A. D. M. E., and Fouchier, R. A. M. Airborne Transmission of Influenza A/H5n1 Virus Between Ferrets. Science, 336(6088):1534\u20131541, June 2012. ISSN 00368075, 1095-9203. doi: 10.1126/science.1213362.",
+            "crossref": "https://dx.doi.org/10.1126/science.1213362",
+            "scite": "https://scite.ai/reports/10.1126/science.1213362",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.1213362"
+        },
+        {
+            "id": "Holtgrewe_2010_a",
+            "alt_id": "17",
+            "entry": "Holtgrewe, M. Mason \u2013 a read simulator for second generation sequencing data. Technical Report FU Berlin, 2010.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Holtgrewe%2C%20M.%20Mason%20%E2%80%93%20a%20read%20simulator%20for%20second%20generation%20sequencing%20data%202010"
+        },
+        {
+            "id": "Imai_et+al_2012_a",
+            "alt_id": "18",
+            "entry": "Imai, M., Watanabe, T., Hatta, M., Das, S. C., Ozawa, M., Shinya, K., Zhong, G., Hanson, A., Katsura, H., Watanabe, S., Li, C., Kawakami, E., Yamada, S., Kiso, M., Suzuki, Y., Maher, E. A., Neumann, G., and Kawaoka, Y. Experimental adaptation of an influenza H5 HA confers respiratory droplet transmission to a reassortant H5 HA/H1n1 virus in ferrets. Nature, 486(7403):420\u2013428, June 2012. ISSN 1476-4687. doi: 10.1038/nature10831.",
+            "crossref": "https://dx.doi.org/10.1038/nature10831",
+            "scite": "https://scite.ai/reports/10.1038/nature10831",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/nature10831"
+        },
+        {
+            "id": "Jha_et+al_2019_a",
+            "alt_id": "19",
+            "entry": "Jha, A., Aicher, J. K., Singh, D., and Barash, Y. Improving interpretability of deep learning models: splicing codes as a case study. bioRxiv, 2019. doi: 10.1101/700096.",
+            "crossref": "https://dx.doi.org/10.1101/700096",
+            "scite": "https://scite.ai/reports/10.1101/700096",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/700096"
+        },
+        {
+            "id": "Kelley_et+al_2016_a",
+            "alt_id": "20",
+            "entry": "Kelley, D. R., Snoek, J., and Rinn, J. L. Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks. Genome Research, 26 (7):990\u2013999, 2016. ISSN 1088-9051. doi: 10.1101/gr. 200535.115.",
+            "crossref": "https://dx.doi.org/10.1101/gr.200535.115",
+            "scite": "https://scite.ai/reports/10.1101/gr.200535.115",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/gr.200535.115"
+        },
+        {
+            "id": "Lanchantin_et+al_2016_a",
+            "alt_id": "21",
+            "entry": "Lanchantin, J., Singh, R., Lin, Z., and Qi, Y. Deep Motif: Visualizing Genomic Sequence Classifications. CoRR, abs/1605.01133, 2016.",
+            "arxiv_url": "https://arxiv.org/pdf/1605.01133"
+        },
+        {
+            "id": "Lanchantin_et+al_2017_a",
+            "alt_id": "22",
+            "entry": "Lanchantin, J., Singh, R., Wang, B., and Qi, Y. Deep motif dashboard: visualizing and understanding genomic sequences using deep neural networks. Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing, 22:254\u2013265, 2017. ISSN 2335-6936. doi: 10.1142/9789813207813_0025.",
+            "crossref": "https://dx.doi.org/10.1142/9789813207813_0025",
+            "scite": "https://scite.ai/reports/10.1142/9789813207813_0025",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1142/9789813207813_0025"
+        },
+        {
+            "id": "Lecuit_2014_a",
+            "alt_id": "23",
+            "entry": "Lecuit, M. and Eloit, M. The diagnosis of infectious diseases by whole genome next generation sequencing: a new era is opening. Frontiers in Cellular and Infection Microbiology, 4:25, 2014. ISSN 2235-2988. doi: 10.3389/fcimb.2014.00025.",
+            "crossref": "https://dx.doi.org/10.3389/fcimb.2014.00025",
+            "scite": "https://scite.ai/reports/10.3389/fcimb.2014.00025",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3389/fcimb.2014.00025"
+        },
+        {
+            "id": "Leendertz_et+al_2016_a",
+            "alt_id": "24",
+            "entry": "Leendertz, S. A. J., Gogarten, J. F., D\u00fcx, A., CalvignacSpencer, S., and Leendertz, F. H. Assessing the evidence supporting fruit bats as the primary reservoirs for ebola viruses. EcoHealth, 13(1):18\u201325, Mar 2016. ISSN 16129210. doi: 10.1007/s10393-015-1053-0.",
+            "crossref": "https://dx.doi.org/10.1007/s10393-015-1053-0",
+            "scite": "https://scite.ai/reports/10.1007/s10393-015-1053-0",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1007/s10393-015-1053-0"
+        },
+        {
+            "id": "Li_2016_a",
+            "alt_id": "25",
+            "entry": "Li, F. Structure, Function, and Evolution of Coronavirus Spike Proteins. Annual Review of Virology, 3(1):237\u2013261, 2016. doi: 10.1146/annurev-virology-110615-042301.",
+            "crossref": "https://dx.doi.org/10.1146/annurev-virology-110615-042301",
+            "scite": "https://scite.ai/reports/10.1146/annurev-virology-110615-042301",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1146/annurev-virology-110615-042301"
+        },
+        {
+            "id": "Li_2018_a",
+            "alt_id": "26",
+            "entry": "Li, H. and Sun, F. Comparative studies of alignment, alignment-free and SVM based approaches for predicting the hosts of viruses based on viral sequences. Scientific Reports, 8(1):10032, 2018. ISSN 2045-2322. doi: 10.1038/s41598-018-28308-x.",
+            "crossref": "https://dx.doi.org/10.1038/s41598-018-28308-x",
+            "scite": "https://scite.ai/reports/10.1038/s41598-018-28308-x",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41598-018-28308-x"
+        },
+        {
+            "id": "Lipsitch_2014_a",
+            "alt_id": "27",
+            "entry": "Lipsitch, M. and Inglesby, T. V. Moratorium on Research Intended To Create Novel Potential Pandemic Pathogens. mBio, 5(6), December 2014. ISSN 2150-7511. doi: 10.1128/mBio.02366-14.",
+            "crossref": "https://dx.doi.org/10.1128/mBio.02366-14",
+            "scite": "https://scite.ai/reports/10.1128/mBio.02366-14",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1128/mBio.02366-14"
+        },
+        {
+            "id": "Lundberg_2017_a",
+            "alt_id": "28",
+            "entry": "Lundberg, S. M. and Lee, S.-I. A Unified Approach to Interpreting Model Predictions. In Guyon, I., Luxburg, U. V., Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S., and Garnett, R. (eds.), Advances in Neural Information Processing Systems 30, pp. 4765\u20134774. Curran Associates, Inc., 2017.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lundberg%2C%20S.M.%20Lee%2C%20S.-I.%20A%20Unified%20Approach%20to%20Interpreting%20Model%20Predictions%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lundberg%2C%20S.M.%20Lee%2C%20S.-I.%20A%20Unified%20Approach%20to%20Interpreting%20Model%20Predictions%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lundberg%2C%20S.M.%20Lee%2C%20S.-I.%20A%20Unified%20Approach%20to%20Interpreting%20Model%20Predictions%202017"
+        },
+        {
+            "id": "Marchler-Bauer_et+al_2017_a",
+            "alt_id": "29",
+            "entry": "Marchler-Bauer, A., Bo, Y., Han, L., He, J., Lanczycki, C. J., Lu, S., Chitsaz, F., Derbyshire, M. K., Geer, R. C., Gonzales, N. R., Gwadz, M., Hurwitz, D. I., Lu, F., Marchler, G. H., Song, J. S., Thanki, N., Wang, Z., Yamashita, R. A., Zhang, D., Zheng, C., Geer, L. Y., and Bryant, S. H. CDD/SPARCLE: functional classification of proteins via subfamily domain architectures. Nucleic Acids Research, 45(D1):D200\u2013D203, 2017. ISSN 1362-4962. doi: 10.1093/nar/gkw1129.",
+            "crossref": "https://dx.doi.org/10.1093/nar/gkw1129",
+            "scite": "https://scite.ai/reports/10.1093/nar/gkw1129",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/nar/gkw1129"
+        },
+        {
+            "id": "Mihara_et+al_2016_a",
+            "alt_id": "30",
+            "entry": "Mihara, T., Nishimura, Y., Shimizu, Y., Nishiyama, H., Yoshikawa, G., Uehara, H., Hingamp, P., Goto, S., and Ogata, H. Linking virus genomes with host taxonomy. Viruses, 8(3):66, 2016. ISSN 1999-4915. doi: 10.3390/ v8030066.",
+            "crossref": "https://dx.doi.org/10.3390/v8030066",
+            "scite": "https://scite.ai/reports/10.3390/v8030066",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3390/v8030066"
+        },
+        {
+            "id": "Mock_et+al_2019_a",
+            "alt_id": "31",
+            "entry": "Mock, F., Viehweger, A., Barth, E., and Marz, M. Viral host prediction with deep learning. bioRxiv, pp. 575571, 2019. doi: 10.1101/575571.",
+            "crossref": "https://dx.doi.org/10.1101/575571",
+            "scite": "https://scite.ai/reports/10.1101/575571"
+        },
+        {
+            "id": "Moustafa_et+al_2017_a",
+            "alt_id": "32",
+            "entry": "Moustafa, A., Xie, C., Kirkness, E., Biggs, W., Wong, E., Turpaz, Y., Bloom, K., Delwart, E., Nelson, K. E., Venter, J. C., and Telenti, A. The blood DNA virome in 8,000 humans. PLOS Pathogens, 13(3):e1006292, March 2017. ISSN 1553-7374. doi: 10.1371/journal.ppat.1006292.",
+            "crossref": "https://dx.doi.org/10.1371/journal.ppat.1006292",
+            "scite": "https://scite.ai/reports/10.1371/journal.ppat.1006292",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.ppat.1006292"
+        },
+        {
+            "id": "Naftaly_et+al_1997_a",
+            "alt_id": "33",
+            "entry": "Naftaly, U., Intrator, N., and Horn, D. Optimal ensemble averaging of neural networks. Network: Computation in Neural Systems, 8(3):283\u2013296, January 1997. ISSN 0954-898X. doi: 10.1088/0954-898X_8_3_004.",
+            "crossref": "https://dx.doi.org/10.1088/0954-898X_8_3_004",
+            "scite": "https://scite.ai/reports/10.1088/0954-898X_8_3_004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1088/0954-898X_8_3_004"
+        },
+        {
+            "id": "Nair_et+al_2019_a",
+            "alt_id": "34",
+            "entry": "Nair, S., Kim, D. S., Perricone, J., and Kundaje, A. Integrating regulatory DNA sequence and gene expression to predict genome-wide chromatin accessibility across cellular contexts. Bioinformatics, 35(14):i108\u2013i116, July 2019. ISSN 1367-4803. doi: 10.1093/bioinformatics/btz352.",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/btz352",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/btz352",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/bioinformatics/btz352"
+        },
+        {
+            "id": "Noyce_et+al_2018_a",
+            "alt_id": "35",
+            "entry": "Noyce, R. S., Lederman, S., and Evans, D. H. Construction of an infectious horsepox virus vaccine from chemically synthesized DNA fragments. PLOS ONE, 13 (1):e0188453, January 2018. ISSN 1932-6203. doi: 10.1371/journal.pone.0188453.",
+            "crossref": "https://dx.doi.org/10.1371/journal.pone.0188453",
+            "scite": "https://scite.ai/reports/10.1371/journal.pone.0188453",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pone.0188453"
+        },
+        {
+            "id": "Poplin_et+al_2018_a",
+            "alt_id": "36",
+            "entry": "Poplin, R., Chang, P.-C., Alexander, D., Schwartz, S., Colthurst, T., Ku, A., Newburger, D., Dijamco, J., Nguyen, N., Afshar, P. T., Gross, S. S., Dorfman, L., McLean, C. Y., and DePristo, M. A. A universal SNP and small-indel variant caller using deep neural networks. Nature Biotechnology, 36(10):983\u2013987, 2018. ISSN 15461696. doi: 10.1038/nbt.4235.",
+            "crossref": "https://dx.doi.org/10.1038/nbt.4235",
+            "scite": "https://scite.ai/reports/10.1038/nbt.4235",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/nbt.4235"
+        },
+        {
+            "id": "Quang_2016_a",
+            "alt_id": "37",
+            "entry": "Quang, D. and Xie, X. DanQ: a hybrid convolutional and recurrent deep neural network for quantifying the function of DNA sequences. Nucleic Acids Research, 44(11):e107\u2013 e107, 2016. ISSN 0305-1048. doi: 10.1093/nar/gkw226.",
+            "crossref": "https://dx.doi.org/10.1093/nar/gkw226",
+            "scite": "https://scite.ai/reports/10.1093/nar/gkw226",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/nar/gkw226"
+        },
+        {
+            "id": "Ren_et+al_2018_a",
+            "alt_id": "38",
+            "entry": "Ren, J., Song, K., Deng, C., Ahlgren, N. A., Fuhrman, J. A., Li, Y., Xie, X., and Sun, F. Identifying viruses from metagenomic data by deep learning. arXiv:1806.07810 [q-bio], June 2018. arXiv: 1806.07810.",
+            "arxiv_url": "https://arxiv.org/pdf/1806.07810"
+        },
+        {
+            "id": "Schneider_1990_a",
+            "alt_id": "39",
+            "entry": "Schneider, T. D. and Stephens, R. M. Sequence logos: a new way to display consensus sequences. Nucleic Acids Research, 18(20):6097\u20136100, October 1990. ISSN 03051048. doi: 10.1093/nar/18.20.6097.",
+            "crossref": "https://dx.doi.org/10.1093/nar/18.20.6097",
+            "scite": "https://scite.ai/reports/10.1093/nar/18.20.6097",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/nar/18.20.6097"
+        },
+        {
+            "id": "Shrikumar_et+al_2019_a",
+            "alt_id": "40",
+            "entry": "Shrikumar, A., Greenside, P., and Kundaje, A. Learning Important Features Through Propagating Activation Differences. arXiv:1704.02685 [cs], October 2019a. arXiv: 1704.02685.",
+            "arxiv_url": "https://arxiv.org/pdf/1704.02685"
+        },
+        {
+            "id": "Shrikumar_2019_b",
+            "alt_id": "41",
+            "entry": "Shrikumar, A., Tian, K., Shcherbina, A., Avsec, \u017d., Banerjee, A., Sharmin, M., Nair, S., and Kundaje, A. TF-MoDISco v0.4.2.2-alpha: Technical Note. arXiv:1811.00416 [cs, q-bio, stat], March 2019b. arXiv: 1811.00416.",
+            "arxiv_url": "https://arxiv.org/pdf/1811.00416"
+        },
+        {
+            "id": "Stojkova_et+al_2019_a",
+            "alt_id": "42",
+            "entry": "Stojkova, P., Spidlova, P., and Stulik, J. Nucleoid-associated protein hu: A lilliputian in gene regulation of bacterial virulence. Frontiers in Cellular and Infection Microbiology, 9:159, 2019. ISSN 2235-2988. doi: 10.3389/fcimb.2019.00159.",
+            "crossref": "https://dx.doi.org/10.3389/fcimb.2019.00159",
+            "scite": "https://scite.ai/reports/10.3389/fcimb.2019.00159",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3389/fcimb.2019.00159"
+        },
+        {
+            "id": "Vouga_2016_a",
+            "alt_id": "43",
+            "entry": "Vouga, M. and Greub, G. Emerging bacterial pathogens: the past and beyond. Clinical Microbiology and Infection, 22(1):12\u201321, January 2016. ISSN 1198-743X. doi: 10. 1016/j.cmi.2015.10.010.",
+            "crossref": "https://dx.doi.org/10.1016/j.cmi.2015.10.010",
+            "scite": "https://scite.ai/reports/10.1016/j.cmi.2015.10.010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.cmi.2015.10.010"
+        },
+        {
+            "id": "Wu_et+al_2020_a",
+            "alt_id": "44",
+            "entry": "Wu, F., Zhao, S., Yu, B., Chen, Y.-M., Wang, W., Hu, Y., Song, Z.-G., Tao, Z.-W., Tian, J.-H., Pei, Y.-Y., Yuan, M.L., Zhang, Y.-L., Dai, F.-H., Liu, Y., Wang, Q.-M., Zheng, J.-J., Xu, L., Holmes, E. C., and Zhang, Y.-Z. Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China. bioRxiv, pp. 2020.01.24.919183, January 2020. doi: 10. 1101/2020.01.24.919183.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.24.919183",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.24.919183",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.24.919183"
+        },
+        {
+            "id": "Zeng_et+al_2016_a",
+            "alt_id": "45",
+            "entry": "Zeng, H., Edwards, M. D., Liu, G., and Gifford, D. K. Convolutional neural network architectures for predicting DNA\u2013protein binding. Bioinformatics, 32(12):i121\u2013i127, 2016. ISSN 1367-4803. doi: 10.1093/bioinformatics/ btw255.",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/btw255",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/btw255",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/bioinformatics/btw255"
+        },
+        {
+            "id": "Zhang_et+al_2019_a",
+            "alt_id": "46",
+            "entry": "Zhang, Z., Cai, Z., Tan, Z., Lu, C., Jiang, T., Zhang, G., and Peng, Y. Rapid identification of human-infecting viruses. Transboundary and Emerging Diseases, August 2019. ISSN 1865-1682. doi: 10.1111/tbed.13314.",
+            "crossref": "https://dx.doi.org/10.1111/tbed.13314",
+            "scite": "https://scite.ai/reports/10.1111/tbed.13314"
+        },
+        {
+            "id": "Zhou_2015_a",
+            "alt_id": "47",
+            "entry": "Zhou, J. and Troyanskaya, O. G. Predicting effects of noncoding variants with deep learning\u2013based sequence model. Nature Methods, 12(10):931\u2013934, 2015. ISSN 1548-7105. doi: 10.1038/nmeth.3547.",
+            "crossref": "https://dx.doi.org/10.1038/nmeth.3547",
+            "scite": "https://scite.ai/reports/10.1038/nmeth.3547",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/nmeth.3547"
+        },
+        {
+            "id": "Sundararajan_et+al_2016_a",
+            "alt_id": "48",
+            "entry": "Sundararajan, M., Taly, A., and Yan, Q. Gradients of Counterfactuals. CoRR, abs/1611.02639, 2016.",
+            "arxiv_url": "https://arxiv.org/pdf/1611.02639"
+        },
+        {
+            "id": "Tampuu_et+al_0222_a",
+            "alt_id": "49",
+            "entry": "Tampuu, A., Bzhalava, Z., Dillner, J., and Vicente, R. ViraMiner: Deep learning on raw DNA sequences for identifying viral genomes in human samples. PLOS ONE, 14 (9):e0222271, September 2019. ISSN 1932-6203. doi: 10.1371/journal.pone.0222271.",
+            "crossref": "https://dx.doi.org/10.1371/journal.pone.0222271",
+            "scite": "https://scite.ai/reports/10.1371/journal.pone.0222271",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pone.0222271"
+        },
+        {
+            "id": "Thiel_2018_a",
+            "alt_id": "50",
+            "entry": "Thiel, V. Synthetic viruses-Anything new? PLoS pathogens, 14(10):e1007019, 2018. ISSN 1553-7374. doi: 10.1371/ journal.ppat.1007019.",
+            "crossref": "https://dx.doi.org/10.1371/journal.ppat.1007019",
+            "scite": "https://scite.ai/reports/10.1371/journal.ppat.1007019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.ppat.1007019"
+        },
+        {
+            "id": "Thorvaldsd\u00f3ttir_et+al_2013_a",
+            "alt_id": "51",
+            "entry": "Thorvaldsd\u00f3ttir, H., Robinson, J. T., and Mesirov, J. P. Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration. Briefings in Bioinformatics, 14(2):178\u2013192, March 2013. ISSN 14675463. doi: 10.1093/bib/bbs017.",
+            "crossref": "https://dx.doi.org/10.1093/bib/bbs017",
+            "scite": "https://scite.ai/reports/10.1093/bib/bbs017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/bib/bbs017"
+        },
+        {
+            "id": "Trappe_et+al_2016_a",
+            "alt_id": "52",
+            "entry": "Trappe, K., Marschall, T., and Renard, B. Y. Detecting horizontal gene transfer by mapping sequencing reads across species boundaries. Bioinformatics, 32(17):i595\u2013 i604, September 2016. ISSN 1367-4803. doi: 10.1093/ bioinformatics/btw423.",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/btw423",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/btw423",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/bioinformatics/btw423"
+        }
+    ],
+    "facts": [
+        "difficult to detect with standard bioinformatics workflows",
+        "Many have more than one host or vector",
+        "Some viruses are divided into discontiguous segments",
+        "which are represented as separate records in VHDB",
+        "in those cases the segments were treated as contigs of a single genome",
+        "Human-infecting viruses were extracted by searching for records containing",
+        "Any virus infecting humans was assigned to the positive class",
+        "RNA sequences were encoded in the DNA alphabet",
+        "even better performance when evaluated on viruses infecting a",
+        "sources of error should be investigated with an in-depth analysis of a model's performance",
+        "on multiple genomes covering a wide selection of taxonomic units",
+        "important as the method assumes no mechanistic link between an input sequence",
+        "a small fraction of the target genome without a wider biological context",
+        "A similar effect was observed for image classification with CNNs",
+        "a host of a novel virus based on a single DNA read",
+        "the error rates in half compared to the previous state-of-the-art",
+        "Data is available at https://doi.org/10.5281/zenodo.3630803",
+        "which constitutes a gold standard in homology-based bioinformatics analyses",
+        "a new approach for convolutional filter visualization using partial Shapley values to differentiate between simple nucleotide information content",
+        "that the method can be used for other biological problems",
+        "the networks trained by Bartoszewicz et al",
+        "sequence logos based on mean partial Shapley values for each nucelotide",
+        "this filter from a network predicting bacterial pathogenicity trained by Bartoszewicz et al"
+    ],
+    "claims": [
+        "We show that deep neural architectures significantly outperform both shallow machine learning and standard, homology-based algorithms, cutting the error rates in half and generalizing to taxonomic units distant from those presented during training",
+        "We propose a new approach for convolutional filter visualization to disentangle the information content of each nucleotide from its contribution to the final classification decision",
+        "Nucleotide-resolution maps of the learned associations between pathogen genomes and the infectious phenotype can be used to detect virulence-related genes in novel agents, as we show here for the 2019-nCoV coronavirus, unknown before it caused a pneumonia outbreak in December 2019",
+        "In this paper, we first improve the performance of read-based predictions of the viral host (human or non-human) from next-generation sequencing reads",
+        "We show that reversecomplement (RC) neural networks (Bartoszewicz et al, 2019) significantly outperform both the previous state-ofthe-art (Zhang et al, 2019) and the traditional, alignmentbased algorithm \u2013 BLAST (Altschul et al, 1990), which constitutes a gold standard in homology-based bioinformatics analyses",
+        "We show that defining the negative (nonhuman) class is non-trivial and compare different ways of constructing the training set",
+        "We propose a new approach for convolutional filter visualization using partial Shapley values to differentiate between simple nucleotide information content and the contribution of each sequence position to the final classification score",
+        "We show that those maps can be used to visualize and detect virulence-related regions of interest (e.g. genes) in novel genomes",
+        "We considered both DNA and RNA viruses; RNA sequences were encoded in the DNA alphabet, as in RefSeq",
+        "To show that the method can also be used for other biological problems, we investigated the networks trained by Bartoszewicz et al (2019) and their predictions on a genome of a pathogenic bacterium Staphylococcus aureus",
+        "In the Fig. 1 we present example filters, visualized as \"maxcontrib\" sequence logos based on mean partial Shapley values for each nucelotide at each position",
+        "We extracted this filter from a network predicting bacterial pathogenicity trained by Bartoszewicz et al (2019), but we find similar filters in our networks as well",
+        "We presented a new approach for predicting a host of a novel virus based on a single DNA read or a read pair, cutting the error rates in half compared to the previous state-of-the-art"
+    ],
+    "findings": [
+        "In this paper, we first improve the performance of read-based predictions of the viral host (human or non-human) from next-generation sequencing reads",
+        "In the paired read scenario, the previously described method fails, and standard, alignment-based homology testing algorithm cannot find any matches in more than 10% of the cases, resulting in relatively low accuracy"
+    ],
+    "processes": [],
+    "key_statements": [
+        "We first improve the performance of read-based predictions of the viral host from next-generation sequencing reads",
+        "We show that reversecomplement (RC) neural networks (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>) significantly outperform both the previous state-ofthe-art (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>) and the traditional, alignmentbased algorithm \u2013 BLAST (<a class=\"ref-link\" id=\"cAltschul_et+al_1990_a\" href=\"#rAltschul_et+al_1990_a\">Altschul et al, 1990</a>), which constitutes a gold standard in homology-based bioinformatics analyses",
+        "We propose a new approach for convolutional filter visualization using partial Shapley values to differentiate between simple nucleotide information content and the contribution of each sequence position to the final classification score",
+        "Some viruses are divided into discontiguous segments, which are represented as separate records in VHDB; in those cases the segments were treated as contigs of a single genome in further analysis",
+        "The models trained only on human and Chordata-infecting viruses maintain similar, or even better performance when evaluated on viruses infecting a much broader host range, including bacteria",
+        "Some filters seem to learn gapped motifs resembling a codon structure (Fig. 1d). We extracted this filter from a network predicting bacterial pathogenicity trained by <a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al (2019</a>), but we find similar filters in our networks as well",
+        "We presented a new approach for predicting a host of a novel virus based on a single DNA read or a read pair, cutting the error rates in half compared to the previous state-of-the-art",
+        "Data is available at https://doi.org/10.5281/zenodo.3630803 and the code at https://gitlab.com/rki_bioinformatics/deepac"
+    ],
+    "top_statements": [
+        "We show that reversecomplement (RC) neural networks (<a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al, 2019</a>) significantly outperform both the previous state-ofthe-art (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>) and the traditional, alignmentbased algorithm \u2013 BLAST (<a class=\"ref-link\" id=\"cAltschul_et+al_1990_a\" href=\"#rAltschul_et+al_1990_a\">Altschul et al, 1990</a>), which constitutes a gold standard in homology-based bioinformatics analyses",
+        "Some viruses are divided into discontiguous segments, which are represented as separate records in VHDB; in those cases the segments were treated as contigs of a single genome in further analysis",
+        "Some filters seem to learn gapped motifs resembling a codon structure (Fig. 1d). We extracted this filter from a network predicting bacterial pathogenicity trained by <a class=\"ref-link\" id=\"cBartoszewicz_et+al_2019_a\" href=\"#rBartoszewicz_et+al_2019_a\">Bartoszewicz et al (2019</a>), but we find similar filters in our networks as well",
+        "We presented a new approach for predicting a host of a novel virus based on a single DNA read or a read pair, cutting the error rates in half compared to the previous state-of-the-art",
+        "Data is available at https://doi.org/10.5281/zenodo.3630803 and the code at https://gitlab.com/rki_bioinformatics/deepac"
+    ],
+    "headline": "We presented a new approach for predicting a host of a novel virus based on a single DNA read or a read pair, cutting the error rates in half compared to the previous state-of-the-art",
+    "contexts": [],
+    "abbreviations": {
+        "HTP": "Host Taxon Predictor",
+        "PWM": "position-weighted matrix",
+        "IC": "information content",
+        "GWPA": "genome-wide phenotype analysis"
+    }
+}

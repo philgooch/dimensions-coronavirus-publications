@@ -1,0 +1,639 @@
+{
+    "filename": "2002.05069.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1050954,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1016/j.idm.2020.02.002",
+            "url": "http://arxiv.org/pdf/2002.05069"
+        },
+        "title": "Real-time forecasts of the COVID-19 epidemic in China from February 5th to February 24th, 2020",
+        "keywords": [
+            "2019-nCoV",
+            "coronavirus",
+            "China",
+            "real-time forecasts",
+            "phenomenological models"
+        ],
+        "author": "K. Roosa, Y. Lee, R. Luo, A. Kirpich, R. Rothenberg, J.M. Hyman, P. Yan, G. Chowell",
+        "date": 2020,
+        "affiliations": [
+            "Department of Population Health Sciences, School of Public Health, Georgia State University, Atlanta, GA, USA",
+            "Department of Mathematics, Center for Computational Science, Tulane University, New Orleans, LA, USA",
+            "Infectious Disease Prevention and Control Branch, Public Health Agency of Canada, Ottawa, Canada",
+            "National Health Commission of China. Here, we provide 5, 10, and 15 day forecasts for five consecutive days: February 5th through February 9th, with quantified uncertainty based on a generalized logistic growth model, the Richards growth model, and a sub-epidemic wave model."
+        ],
+        "journal": "Infectious Disease Modelling",
+        "volume": "5",
+        "abstract": "The initial cluster of severe pneumonia cases that triggered the 2019-nCoV epidemic was identified in Wuhan, China in December 2019. While early cases of the disease were linked to a wet market, human-to-human transmission has driven the rapid spread of the virus throughout China. The Chinese government has implemented containment strategies of city-wide lockdowns, screening at airports and train stations, and isolation of suspected patients; however, the cumulative case count keeps growing every day. The ongoing outbreak presents a challenge for modelers, as limited data are available on the early growth trajectory, and the epidemiological characteristics of the novel coronavirus are yet to be fully elucidated.",
+        "references": "@incollection{ai2020a,\n  author = {Ai, S. and Zhu, G. and Tian, F. and Li, H. and Gao, Y. and Wu, Y. and Lin, H.},\n  date = {2020},\n  title = {Population movement, city closure and spatial transmission of the 2019-nCoV infection in China},\n  source = {In.},\n  url = {https://doi.org/10.1101/2020.02.04.20020339.},\n  language = {}\n}\n@techreport{unknown-a,\n  title = {Reported Cases of 2019-nCoV},\n  url = {https://ncov.dxy.cn/ncovh5/view/pneumonia},\n  language = {},\n  urldate = {from},\n  institution = {Chinese National Health Commission}\n}\n@misc{unknown-b,\n  title = {Chinese National Health Committee. Reported Cases of 2019-nCoV},\n  url = {https://ncov.dxy.cn/ncovh5/view/pneumonia},\n  language = {},\n  urldate = {from}\n}\n@article{chowell2017a,\n  author = {Chowell, G.},\n  date = {2017},\n  title = {Fitting dynamic models to epidemic outbreaks with quantified uncertainty: A primer for parameter uncertainty, identifiability, and forecasts},\n  journal = {Infectious Disease Modelling},\n  volume = {2},\n  pages = {379398},\n  doi = {doi: 10.1016/j.idm.2017.08.001},\n  language = {}\n}\n@book{chowell2016a,\n  author = {Chowell, G. and Hincapie-Palacio, D. and Ospina, J. and Pell, B. and Tariq, A. and Dahal, S. and Viboud, C.},\n  date = {2016},\n  title = {Using Phenomenological Models to Characterize Transmissibility and Forecast Patterns and Final Burden of Zika Epidemics},\n  publisher = {Public Library of Science},\n  language = {},\n  address = {In}\n}\n@article{chowell2019a,\n  author = {Chowell, G. and Tariq, A. and Hyman, J.M.},\n  date = {2019},\n  title = {A novel sub-epidemic modeling framework for short-term forecasting epidemic waves},\n  journal = {BMC Medicine},\n  volume = {17},\n  pages = {164\u2013164},\n  doi = {doi: 10.1186/s12916-019-1406-6},\n  number = {1},\n  language = {}\n}\n@incollection{du2020a,\n  author = {Du, Z. and Wang, L. and Cauchemez, S. and Xu, X. and Wang, X. and Cowling, B. and Meyers, L.},\n  date = {2020},\n  title = {Risk of 2019 novel coronavirus importations throughout China prior to the Wuhan quarantine},\n  source = {In.},\n  url = {https://doi.org/10.1101/2020.01.28.20019299.},\n  language = {}\n}\n@article{funk2016a,\n  author = {Funk, S. and Camacho, A. and Kucharski, A.J. and Eggo, R.M. and Edmunds, W.J.},\n  date = {2016},\n  title = {Real-time forecasting of infectious disease dynamics with a stochastic semi-mechanistic model},\n  journal = {Epidemics},\n  volume = {22},\n  pages = {56\u201361},\n  doi = {doi: 10.1016/j.epidem.2016.11.003},\n  language = {}\n}\n@incollection{for2020a,\n  author = {for Systems Science, Johns Hopkins University Center and Engineering},\n  date = {2020},\n  title = {2019 Novel Coronavirus (nCoV) Data Repository},\n  source = {In.},\n  url = {https://github.com/CSSEGISandData/2019-nCoV.},\n  language = {}\n}\n@misc{lai2020a,\n  author = {Lai, S. and Bogoch, I. and Ruktanonchai, N. and Watts, A. and Li, Y. and Yu, J. and Tatem, A.},\n  date = {2020},\n  title = {Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study},\n  language = {},\n  address = {In}\n}\n@misc{li2020a,\n  author = {Li, Q. and Guan, X. and Wu, P. and Wang, X. and Zhou, L. and Tong, Y. and Feng, Z.},\n  date = {2020},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. The New England Journal Of Medicine},\n  doi = {doi: 10.1056/NEJMoa2001316},\n  language = {}\n}\n@article{pell2018a,\n  author = {Pell, B. and Kuang, Y. and Viboud, C. and Chowell, G.},\n  date = {2018},\n  title = {Using phenomenological models for forecasting the 2015 Ebola challenge},\n  journal = {Epidemics},\n  volume = {22},\n  pages = {62\u201370},\n  doi = {doi: 10.1016/j.epidem.2016.11.002},\n  language = {}\n}\n@misc{read2020a,\n  author = {Read, J.M. and Bridgen, J.R.E. and Cummings, D.A.T. and Ho, A. and Jewell, C.P.},\n  date = {2020},\n  title = {Novel coronavirus 2019nCoV: early estimation of epidemiological parameters and epidemic predictions},\n  url = {http://dx.doi.org/10.1101/2020.01.23.20018549.},\n  language = {}\n}\n@article{richards1959a,\n  author = {Richards, F.},\n  date = {1959},\n  title = {A flexible growth function for empirical use},\n  journal = {Journal of Experimental Botany},\n  volume = {10},\n  pages = {290\u2013301},\n  doi = {doi:https://doi.org/10.1093/jxb/10.2.290},\n  number = {2},\n  language = {}\n}\n@incollection{riou2020a,\n  author = {Riou, J. and Althaus, C.L.},\n  date = {2020},\n  title = {Pattern of early human-to-human transmission of Wuhan 2019-nCoV},\n  source = {In.},\n  url = {https://doi.org/10.1101/2020.01.23.917351.},\n  language = {}\n}\n@article{roosa2019a,\n  author = {Roosa, K. and Chowell, G.},\n  date = {2019},\n  title = {Assessing parameter identifiability in compartmental dynamic models using a computational approach: Application to infectious disease transmission models},\n  journal = {Theoretical Biology and Medical Modelling},\n  volume = {16},\n  doi = {doi:https://doi.org/10.1186/s12976-0180097-6},\n  number = {1},\n  language = {}\n}\n@incollection{roosa2020a,\n  author = {Roosa, K. and Chowell, G.},\n  date = {2020},\n  title = {Coronavirus Incidence Forecasts},\n  source = {In.},\n  url = {https://publichealth.gsu.edu/coronavirus/.},\n  language = {}\n}\n@misc{shanafelt2017a,\n  author = {Shanafelt, D.W. and Jones, G. and Lima, M. and Perrings, C. and Chowell, G.},\n  date = {2017},\n  title = {Forecasting the 2001 Foot-andMouth Disease Epidemic in the UK. Ecohealth},\n  doi = {doi: 10.1007/s10393-017-1293-2},\n  language = {}\n}\n@incollection{steinbuch2020a,\n  author = {Steinbuch, Y.},\n  date = {2020},\n  title = {China opens second new hospital for coronavirus patients},\n  source = {New York Post.},\n  url = {https://nypost.com/2020/02/06/china-opens-second-new-hospital-forcoronavirus-patients/},\n  language = {},\n  urldate = {from}\n}\n@article{viboud2016a,\n  author = {Viboud, C. and Simonsen, L. and Chowell, G.},\n  date = {2016},\n  title = {A generalized-growth model to characterize the early ascending phase of infectious disease outbreaks},\n  journal = {Epidemics},\n  volume = {15},\n  pages = {27\u201337},\n  doi = {doi: 10.1016/j.epidem.2016.01.002},\n  language = {}\n}\n@article{wang2012a,\n  author = {Wang, X.-S. and Wu, J. and Yang, Y.},\n  date = {2012},\n  title = {Richards model revisited: Validation by and application to infection dynamics},\n  journal = {Journal of Theoretical Biology},\n  volume = {313},\n  pages = {12\u201319},\n  doi = {doi: 10.1016/j.jtbi.2012.07.024},\n  language = {}\n}\n@incollection{organization2020a,\n  author = {Organization, World Health},\n  date = {2020},\n  title = {Novel Coronavirus},\n  source = {Situation Reports},\n  url = {https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports.},\n  language = {}\n}\n@misc{world2003a,\n  author = {World Health Organization, W.},\n  date = {2003},\n  title = {Consensus document on the epidemiology of severe acute respiratory syndrome (SARS). In},\n  url = {https://who.int/csr/sars/en/WHOconsensus.pdf.},\n  language = {}\n}\n@book{wu2020a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  date = {2020},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study},\n  publisher = {The Lancet},\n  doi = {doi: 10.1016/S0140-6736(20)30260-9},\n  language = {}\n}\n@incollection{zhang2020a,\n  author = {Zhang, R. and Liu, H. and Li, F. and Zhang, B. and Liu, Q. and Li, X. and Luo, L.},\n  date = {2020},\n  title = {Transmission and epidemiological characteristics of Novel Coronavirus (2019-nCoV)-Infected Pneumonia(NCIP):preliminary evidence obtained in comparison with 2003-SARS},\n  source = {In.},\n  url = {https://doi.org/10.1101/2020.01.30.20019836.},\n  language = {}\n}\n",
+        "pages": "256-263",
+        "references_ris": "TY  - CHAP\nAU  - Ai, S.\nAU  - Zhu, G.\nAU  - Tian, F.\nAU  - Li, H.\nAU  - Gao, Y.\nAU  - Wu, Y.\nAU  - Lin, H.\nPY  - 2020\nDA  - 2020\nTI  - Population movement, city closure and spatial transmission of the 2019-nCoV infection in China\nT2  - In.\nUR  - https://doi.org/10.1101/2020.02.04.20020339.\nLA  - \nER  - \n\nTY  - RPRT\nTI  - Reported Cases of 2019-nCoV\nUR  - https://ncov.dxy.cn/ncovh5/view/pneumonia\nLA  - \nC1  - from\nC1  - Chinese National Health Commission\nER  - \n\nTY  - GEN\nTI  - Chinese National Health Committee. Reported Cases of 2019-nCoV\nUR  - https://ncov.dxy.cn/ncovh5/view/pneumonia\nLA  - \nC1  - from\nER  - \n\nTY  - JOUR\nAU  - Chowell, G.\nPY  - 2017\nDA  - 2017\nTI  - Fitting dynamic models to epidemic outbreaks with quantified uncertainty: A primer for parameter uncertainty, identifiability, and forecasts\nT2  - Infectious Disease Modelling\nVL  - 2\nSP  - 379398\nDO  - 10.1016/j.idm.2017.08.001\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Chowell, G.\nAU  - Hincapie-Palacio, D.\nAU  - Ospina, J.\nAU  - Pell, B.\nAU  - Tariq, A.\nAU  - Dahal, S.\nAU  - Viboud, C.\nPY  - 2016\nDA  - 2016\nTI  - Using Phenomenological Models to Characterize Transmissibility and Forecast Patterns and Final Burden of Zika Epidemics\nPB  - Public Library of Science\nLA  - \nCY  - In\nER  - \n\nTY  - JOUR\nAU  - Chowell, G.\nAU  - Tariq, A.\nAU  - Hyman, J.M.\nPY  - 2019\nDA  - 2019\nTI  - A novel sub-epidemic modeling framework for short-term forecasting epidemic waves\nT2  - BMC Medicine\nVL  - 17\nSP  - 164\nEP  - 164\nDO  - 10.1186/s12916-019-1406-6\nIS  - 1\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Du, Z.\nAU  - Wang, L.\nAU  - Cauchemez, S.\nAU  - Xu, X.\nAU  - Wang, X.\nAU  - Cowling, B.\nAU  - Meyers, L.\nPY  - 2020\nDA  - 2020\nTI  - Risk of 2019 novel coronavirus importations throughout China prior to the Wuhan quarantine\nT2  - In.\nUR  - https://doi.org/10.1101/2020.01.28.20019299.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Funk, S.\nAU  - Camacho, A.\nAU  - Kucharski, A.J.\nAU  - Eggo, R.M.\nAU  - Edmunds, W.J.\nPY  - 2016\nDA  - 2016\nTI  - Real-time forecasting of infectious disease dynamics with a stochastic semi-mechanistic model\nT2  - Epidemics\nVL  - 22\nSP  - 56\nEP  - 61\nDO  - 10.1016/j.epidem.2016.11.003\nLA  - \nER  - \n\nTY  - CHAP\nAU  - for Systems Science, Johns Hopkins University Center\nAU  - Engineering\nPY  - 2020\nDA  - 2020\nTI  - 2019 Novel Coronavirus (nCoV) Data Repository\nT2  - In.\nUR  - https://github.com/CSSEGISandData/2019-nCoV.\nLA  - \nER  - \n\nTY  - GEN\nAU  - Lai, S.\nAU  - Bogoch, I.\nAU  - Ruktanonchai, N.\nAU  - Watts, A.\nAU  - Li, Y.\nAU  - Yu, J.\nAU  - Tatem, A.\nPY  - 2020\nDA  - 2020\nTI  - Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study\nLA  - \nCY  - In\nER  - \n\nTY  - GEN\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nAU  - Wang, X.\nAU  - Zhou, L.\nAU  - Tong, Y.\nAU  - Feng, Z.\nPY  - 2020\nDA  - 2020\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. The New England Journal Of Medicine\nDO  - 10.1056/NEJMoa2001316\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pell, B.\nAU  - Kuang, Y.\nAU  - Viboud, C.\nAU  - Chowell, G.\nPY  - 2018\nDA  - 2018\nTI  - Using phenomenological models for forecasting the 2015 Ebola challenge\nT2  - Epidemics\nVL  - 22\nSP  - 62\nEP  - 70\nDO  - 10.1016/j.epidem.2016.11.002\nLA  - \nER  - \n\nTY  - GEN\nAU  - Read, J.M.\nAU  - Bridgen, J.R.E.\nAU  - Cummings, D.A.T.\nAU  - Ho, A.\nAU  - Jewell, C.P.\nPY  - 2020\nDA  - 2020\nTI  - Novel coronavirus 2019nCoV: early estimation of epidemiological parameters and epidemic predictions\nUR  - http://dx.doi.org/10.1101/2020.01.23.20018549.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Richards, F.\nPY  - 1959\nDA  - 1959\nTI  - A flexible growth function for empirical use\nT2  - Journal of Experimental Botany\nVL  - 10\nSP  - 290\nEP  - 301\nDO  - https://doi.org/10.1093/jxb/10.2.290\nIS  - 2\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Riou, J.\nAU  - Althaus, C.L.\nPY  - 2020\nDA  - 2020\nTI  - Pattern of early human-to-human transmission of Wuhan 2019-nCoV\nT2  - In.\nUR  - https://doi.org/10.1101/2020.01.23.917351.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Roosa, K.\nAU  - Chowell, G.\nPY  - 2019\nDA  - 2019\nTI  - Assessing parameter identifiability in compartmental dynamic models using a computational approach: Application to infectious disease transmission models\nT2  - Theoretical Biology and Medical Modelling\nVL  - 16\nDO  - https://doi.org/10.1186/s12976-0180097-6\nIS  - 1\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Roosa, K.\nAU  - Chowell, G.\nPY  - 2020\nDA  - 2020\nTI  - Coronavirus Incidence Forecasts\nT2  - In.\nUR  - https://publichealth.gsu.edu/coronavirus/.\nLA  - \nER  - \n\nTY  - GEN\nAU  - Shanafelt, D.W.\nAU  - Jones, G.\nAU  - Lima, M.\nAU  - Perrings, C.\nAU  - Chowell, G.\nPY  - 2017\nDA  - 2017\nTI  - Forecasting the 2001 Foot-andMouth Disease Epidemic in the UK. Ecohealth\nDO  - 10.1007/s10393-017-1293-2\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Steinbuch, Y.\nPY  - 2020\nDA  - 2020\nTI  - China opens second new hospital for coronavirus patients\nT2  - New York Post.\nUR  - https://nypost.com/2020/02/06/china-opens-second-new-hospital-forcoronavirus-patients/\nLA  - \nC1  - from\nER  - \n\nTY  - JOUR\nAU  - Viboud, C.\nAU  - Simonsen, L.\nAU  - Chowell, G.\nPY  - 2016\nDA  - 2016\nTI  - A generalized-growth model to characterize the early ascending phase of infectious disease outbreaks\nT2  - Epidemics\nVL  - 15\nSP  - 27\nEP  - 37\nDO  - 10.1016/j.epidem.2016.01.002\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, X.-S.\nAU  - Wu, J.\nAU  - Yang, Y.\nPY  - 2012\nDA  - 2012\nTI  - Richards model revisited: Validation by and application to infection dynamics\nT2  - Journal of Theoretical Biology\nVL  - 313\nSP  - 12\nEP  - 19\nDO  - 10.1016/j.jtbi.2012.07.024\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Organization, World Health\nPY  - 2020\nDA  - 2020\nTI  - Novel Coronavirus\nT2  - Situation Reports\nUR  - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports.\nLA  - \nER  - \n\nTY  - GEN\nAU  - World Health Organization, W.\nPY  - 2003\nDA  - 2003\nTI  - Consensus document on the epidemiology of severe acute respiratory syndrome (SARS). In\nUR  - https://who.int/csr/sars/en/WHOconsensus.pdf.\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nPY  - 2020\nDA  - 2020\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study\nPB  - The Lancet\nDO  - 10.1016/S0140-6736(20)30260-9\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Zhang, R.\nAU  - Liu, H.\nAU  - Li, F.\nAU  - Zhang, B.\nAU  - Liu, Q.\nAU  - Li, X.\nAU  - Luo, L.\nPY  - 2020\nDA  - 2020\nTI  - Transmission and epidemiological characteristics of Novel Coronavirus (2019-nCoV)-Infected Pneumonia(NCIP):preliminary evidence obtained in comparison with 2003-SARS\nT2  - In.\nUR  - https://doi.org/10.1101/2020.01.30.20019836.\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "Supplemental 1",
+                "caption": "Hubei: GLM, Richards, and sub-epidemic model parameter estimates and mean squared error (MSE) for the best-fit solution. Best-fit parameter estimates are presented with the 95% confidence intervals obtained from the M bootstrap solutions"
+            },
+            {
+                "id": "Supplemental 2",
+                "caption": "Other Provinces: GLM, Richards, and sub-epidemic model parameter estimates and mean squared error (MSE) for the best-fit solution. Best-fit parameter estimates are"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Forecasting results for 5-days ahead estimates, generated daily from February 5 \u2013 9, 2020, of cumulative reported cases in Hubei (a) and other provinces (b). The mean case estimate is represented by the dots, while the lines represent the 95% prediction intervals for each model"
+            },
+            {
+                "id": "2",
+                "caption": "Forecasting results for 10-days ahead estimates, generated daily from February 5 \u2013 9, 2020, of cumulative reported cases in Hubei (a) and other provinces (b). The mean case estimate is represented by the dots, while the lines represent the 95% prediction intervals for each model"
+            },
+            {
+                "id": "3",
+                "caption": "Forecasting results for 15-days ahead estimates, generated daily from February 5 \u2013 9, 2020, of cumulative reported cases in Hubei (a) and other provinces (b). The mean case estimate is represented by the dots, while the lines represent the 95% prediction intervals for each model"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2002.05069.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2002.05069/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2002.05069/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2002.05069/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2002.05069/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2002.05069/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2002.05069/img-005.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "The ongoing epidemic of the novel coronavirus (2019-nCoV) is primarily affecting mainland China and can be traced back to a cluster of severe pneumonia cases identified in Wuhan, China in December 2019 (<a class=\"ref-link\" id=\"cLi_et+al_2020_a\" href=\"#rLi_et+al_2020_a\">Li et al, 2020</a>; World Health Organization, 2020). Early cases of the disease have been linked to a live animal seafood market in Wuhan, pointing to a zoonotic origin of the epidemic. However, human-to-human transmission has driven its rapid spread with a total of 37,289 confirmed cases, including 813 deaths, in China and 302 confirmed cases imported in multiple countries as of February 9, 2020 (Chinese National Health Committee). While the early transmission potential of this novel coronavirus appeared similar to that of severe acute respiratory syndrome (SARS) (<a class=\"ref-link\" id=\"cRiou_2020_a\" href=\"#rRiou_2020_a\">Riou & Althaus, 2020</a>), the current tally of the epidemic has already surpassed the total cases reported for the SARS outbreaks in 2002-2003 (W. <a class=\"ref-link\" id=\"cWorld_2003_a\" href=\"#rWorld_2003_a\">World Health Organization, 2003</a>; <a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\">Wu, Leung, & Leung, 2020</a>; <a class=\"ref-link\" id=\"cZhang_et+al_2020_a\" href=\"#rZhang_et+al_2020_a\">Zhang et al, 2020</a>). The timing and location of the outbreak facilitated the rapid transmission of the virus within a highly mobile population. The initial reporting of observed cases occurred during the traditional"
+        ],
+        "methods": [
+            "Data We obtained daily updates of the cumulative number of reported confirmed cases for the 2019nCoV epidemic across provinces in China from the National Health Commission of China website (Chinese National Health Commission). The data contains 34 areas, including provinces, municipalities, autonomous regions, and special administrative regions; here we refer to the regions collectively as provinces. Data updates were collected daily at 12 pm (GMT-5), between January 22, 2020 and February 9, 2020. The short time-series is affected by irregularities and reporting lags, so the cumulative curves are more stable and likely yield more stable and reliable estimates. Therefore, we analyze the cumulative trajectory of the epidemic in Hubei province, the epicenter of the outbreak, as well as the cumulative aggregate trajectory of all other provinces.<br/><br/>Models We generate short-term forecasts in real-time using three phenomenological models that have been previously used to derive short-term forecasts for a number of epidemics for several infectious diseases, including SARS, Ebola, pandemic influenza, and dengue (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell, Tariq, & Hyman, 2019</a>; <a class=\"ref-link\" id=\"cPell_et+al_2018_a\" href=\"#rPell_et+al_2018_a\">Pell et al, 2018</a>; <a class=\"ref-link\" id=\"cWang_et+al_2012_a\" href=\"#rWang_et+al_2012_a\">Wang, Wu, & Yang, 2012</a>). The generalized logistic growth model (GLM) extends the simple logistic growth model to accommodate sub-exponential growth dynamics with a scaling of growth parameter, p (<a class=\"ref-link\" id=\"cViboud_et+al_2016_a\" href=\"#rViboud_et+al_2016_a\">Viboud, Simonsen, & Chowell, 2016</a>). The Richards model also includes a scaling parameter, a, to allow for deviation from the symmetric logistic curve (<a class=\"ref-link\" id=\"cChowell_2017_a\" href=\"#rChowell_2017_a\">Chowell, 2017</a>; <a class=\"ref-link\" id=\"cRichards_1959_a\" href=\"#rRichards_1959_a\">Richards, 1959</a>; <a class=\"ref-link\" id=\"cWang_et+al_2012_a\" href=\"#rWang_et+al_2012_a\">Wang et al, 2012</a>). We also include a recently developed sub-epidemic wave model that supports complex epidemic trajectories, including multiple peaks (i.e., SARS in Singapore (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\"><a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a></a>)). In this approach, the observed reported curve is assumed to be the aggregate of multiple underlying sub-epidemics (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\"><a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a></a>). A detailed description for each of the models is included in the Supplement."
+        ],
+        "results": [
+            "We generated 5, 10, and 15 day ahead forecasts for Hubei and other provinces excluding Hubei for 5 consecutive starting dates: February 5, 2020 to February 9, 2020. Figures 1 \u2013 3 represent the range of 5, 10, and 15 day ahead forecasts, respectively, by the date generated, and we compare the daily short-term forecasts of cumulative case counts across dates as more data become available. Current cumulative reported case counts as of February 9, 2020 are 27,100 for Hubei and 10,189 in other provinces (Chinese National Health Commission).<br/><br/>Model calibration Our results for Hubei province indicate that the parameter estimates for the three models tend to stabilize and decrease in uncertainty as more data become available (Supplemental Table 1). In particular, the growth rate r decreases and appears to be converging over time, particularly for the GLM and sub-epidemic model. Parameter K also follows this general trend, with prediction intervals decreasing significantly in width as more data become available. Importantly, the p estimates from the GLM indicate that the epidemic growth in Hubei is close to exponential (p =0.99 (95%CI: 0.98, 1) \u2013 February 9th). Further, growth rate and scaling parameter estimates have remained relatively stable over the last three reporting dates, while estimates of K are still declining. This may correlate with the effectiveness of control measures or the slowing of the epidemic. For the trajectory that aggregates all other provinces (excluding Hubei), the parameter estimates follow trends that differ from those for Hubei (Supplemental Table 2). While the three models estimated stable and nearly equivalent growth rates in Hubei, the estimated growth rates for other provinces vary across models and do not follow a distinct trend as more data become available. However, the scaling and size parameters remain relatively stable across all dates. Further, the p estimates from the GLM reveal a consistent sub-exponential growth pattern in other provinces (p = 0.67 (95%CI: 0.64, 0.70) \u2013 February 9th)."
+        ],
+        "discussion": [
+            "In this report, we provide timely short-term forecasts of the cumulative number of reported cases of the 2019-nCoV epidemic in Hubei province and other provinces in China as of February 9, 2020. As the epidemic continues, we are also publishing online daily 10-day ahead forecasts including each of the models presented here (<a class=\"ref-link\" id=\"cRoosa_2020_a\" href=\"#rRoosa_2020_a\">Roosa & Chowell, 2020</a>). Based on the three models calibrated to data up until February 9, 2020, we forecast a cumulative number of reported cases between 37,415 \u2013 38,028 in Hubei Province and 11,588 \u2013 13,499 in other provinces by February 24, 2020. Our models yield a good visual fit to the epidemic curves, based on residuals, with the subepidemic model outperforming the other models in terms of the mean squared error (MSE) (Supplemental Tables 1 & 2). Parameter estimation results from the GLM consistently show that the epidemic growth is near exponential in Hubei and sub-exponential in other provinces. Overall, models predict similar ranges of short-term forecasts, except for those generated on February 5th, where the sub-epidemic model predicts significantly higher case counts than the other two models (Figures 1 \u2013 3). The sub-epidemic model predicts similar ranges to the other models for subsequent dates, so the higher ranges on February 5th may indicate that more data are required to inform the parameters of the sub-epidemic model."
+        ],
+        "acknowledgements": [
+            "We thank Homma Rafi (Director of Communications, School of Public Health, Georgia State University) for creating and maintaining the online record of daily short-term forecasts. Funding<br/><br/>GC is supported by NSF grants 1610429 and 1633381. Ethics Not applicable. Data, code and materials Data will be made available in an online repository upon acceptance of manuscript. Competing Interests Authors declare no competing interests. Author Contributions KR and GC conducted forecasts and data analysis; YL retrieved and managed data; All authors contributed to writing and revising subsequent versions of the manuscript. All authors read and approved the final manuscript."
+        ],
+        "appendix": [
+            "Model descriptions GLM<br/><br/>The generalized logistic growth model (GLM) is an extension of the simple logistic growth model that includes an additional parameter, p, to allow for scaling of growth; p = 1 indicates early exponential growth, p = 0 represents constant growth, and 0 < p < 1 accommodates early sub-exponential or polynomial growth (G. Chowell et al, 2020; Ganyani, Roosa, Faes, Hens, & Chowell, 2018; Roosa, Luo, & Chowell, 2019; <a class=\"ref-link\" id=\"cViboud_et+al_2016_a\" href=\"#rViboud_et+al_2016_a\">Viboud, Simonsen, & Chowell, 2016</a>). The GLM is defined by the differential equation:    <( )    =    ( )=(1    \u2212    ( ) )<br/><br/>where C(t) represents the cumulative number of cases at time t, r is the growth rate, p is the scaling of growth parameter, and K is the carrying capacity or final epidemic size.<br/><br/>Richards model The Richards model is a 3-parameter extension of the simple logistic growth model that includes a scaling parameter, a (Gerardo Chowell, 2017; <a class=\"ref-link\" id=\"cRichards_1959_a\" href=\"#rRichards_1959_a\">Richards, 1959</a>; <a class=\"ref-link\" id=\"cWang_et+al_2012_a\" href=\"#rWang_et+al_2012_a\">Wang, Wu, & Yang, 2012</a>). The Richards model is defined by the differential equation:<br/><br/>\u2032( ) =  ( ) A1 \u2212 ( ( ))BC where C(t) represents the cumulative number of cases at time t, r is the growth rate, K is the final epidemic size, and the exponent a measures the deviation from the symmetric s-shaped dynamics of the simple logistic curve.<br/><br/>Sub-epidemic model"
+        ],
+        "supplemental": [
+            "Table 1. Hubei: GLM, Richards, and sub-epidemic model parameter estimates and mean squared error (MSE) for the best-fit solution. Best-fit parameter estimates are presented with the 95% confidence intervals obtained from the M bootstrap solutions.",
+            "Table 2. Other Provinces: GLM, Richards, and sub-epidemic model parameter estimates and mean squared error (MSE) for the best-fit solution. Best-fit parameter estimates are<br/><br/>4.08 (2.96, 5.32) 4.21 (3.21, 5.47) 4.30 (3.24, 5.51) 4.29 (3.27, 5.27) 4.05 (3.36, 4.98)<br/><br/>0.67 (0.63, 0.71) 0.66 (0.63, 0.70) 0.66 (0.63, 0.70) 0.66 (0.63, 0.70) 0.67 (0.64, 0.70)<br/><br/>13,734 (12,420, 15,351) 14,129 (13,034, 15,663) 14,332 (13,345, 15,437) 14,191 (13,294, 15,103) 13,826 (13,171, 14,481)<br/><br/>2.18 (1.15, 2.98) 2.49 (1.66, 3.0) 2.14 (1.24, 2.90) 3.02 (2.52, 3.41) 2.25 (1.15, 3.0)<br/><br/>0.08 (0.06, 0.17) 0.07 (0.06, 0.11) 0.08 (0.06, 0.15) 0.06 (0.05, 0.06) 0.08 (0.06, 0.16)<br/><br/>12,379 (11,589, 13,020) 12,993 (12,391, 13,584) 13,106 (12,555, 13,585) 13,573 (13,072, 14,092) 13,374 (12,862, 13,808)<br/><br/>2.1 (1.8, 2.6) 1.9 (1.6, 2.4) 1.9 (1.6, 2.4) 1.8 (1.5, 2.1) 1.6 (1.4, 1.8)<br/><br/>0.78 (0.75, 0.81) 0.80 (0.76, 0.83) 0.80 (0.76, 0.83) 0.81 (0.79, 0.83) 0.83 (0.81, 0.85)<br/><br/>7,240 (6,750, 7,760) 6,420 (5,950, 6,970) 6,420 (5,930, 6,930) 6,070 (5,750, 6,580) 5,900 (5,680, 6,310)<br/><br/>1,380 1,412 1,333 1,278 1,215 presented with the 95% confidence intervals obtained from the M bootstrap solutions."
+        ],
+        "funding": [
+            "Funding GC is supported by NSF grants 1610429 and 1633381"
+        ],
+        "disclosures": [
+            "Competing Interests Authors declare no competing interests. Author Contributions KR and GC conducted forecasts and data analysis; YL retrieved and managed data; All authors contributed to writing and revising subsequent versions of the manuscript. All authors read and approved the final manuscript."
+        ],
+        "data_availability": [
+            "Data, code and materials Data will be made available in an online repository upon acceptance of manuscript"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Supplemental Table 1",
+                "Supplemental Table 2",
+                "Supplemental Tables 1"
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "The initial cluster of severe pneumonia cases that triggered the 2019-nCoV epidemic was identified in Wuhan, China in December 2019. While early cases of the disease were linked to a wet market, human-to-human transmission has driven the rapid spread of the virus throughout China. The Chinese government has implemented containment strategies of city-wide lockdowns, screening at airports and train stations, and isolation of suspected patients; however, the cumulative case count keeps growing every day. The ongoing outbreak presents a challenge for modelers, as limited data are available on the early growth trajectory, and the epidemiological characteristics of the novel coronavirus are yet to be fully elucidated.",
+            "We use phenomenological models that have been validated during previous outbreaks to generate and assess short-term forecasts of the cumulative number of confirmed reported cases in Hubei province, the epicenter of the epidemic, and for the overall trajectory in China, excluding the province of Hubei. We collect daily reported cumulative case data for the 2019-nCoV outbreak for each Chinese province from the National Health Commission of China. Here, we provide 5, 10, and 15 day forecasts for five consecutive days: February 5th through February 9th, with quantified uncertainty based on a generalized logistic growth model, the Richards growth model, and a sub-epidemic wave model.",
+            "Our most recent forecasts reported here are based on data up until February 9, 2020, largely agree across the three models presented and suggest an average range of 7,409 \u2013 7,496 additional cases in Hubei and 1,128 \u2013 1,929 additional cases in other provinces within the next five days. Models also predict an average total cumulative case count between 37,415 \u2013 38,028 in Hubei and 11,588 \u2013 13,499 in other provinces by February 24, 2020.",
+            "Mean estimates and uncertainty bounds for both Hubei and other provinces have remained relatively stable in the last three reporting dates (February 7th \u2013 9th). We also observe that each of the models predicts that the epidemic has reached saturation in both Hubei and other provinces. Our findings suggest that the containment strategies implemented in China are successfully reducing transmission and that the epidemic growth has slowed in recent days.",
+            "Keywords: 2019-nCoV; coronavirus; China; real-time forecasts; phenomenological models"
+        ],
+        "Introduction": [
+            "The ongoing epidemic of the novel coronavirus (2019-nCoV) is primarily affecting mainland China and can be traced back to a cluster of severe pneumonia cases identified in Wuhan, China in December 2019 (<a class=\"ref-link\" id=\"cLi_et+al_2020_a\" href=\"#rLi_et+al_2020_a\">Li et al, 2020</a>; World Health Organization, 2020). Early cases of the disease have been linked to a live animal seafood market in Wuhan, pointing to a zoonotic origin of the epidemic. However, human-to-human transmission has driven its rapid spread with a total of 37,289 confirmed cases, including 813 deaths, in China and 302 confirmed cases imported in multiple countries as of February 9, 2020 (Chinese National Health Committee). While the early transmission potential of this novel coronavirus appeared similar to that of severe acute respiratory syndrome (SARS) (<a class=\"ref-link\" id=\"cRiou_2020_a\" href=\"#rRiou_2020_a\">Riou & Althaus, 2020</a>), the current tally of the epidemic has already surpassed the total cases reported for the SARS outbreaks in 2002-2003 (W. <a class=\"ref-link\" id=\"cWorld_2003_a\" href=\"#rWorld_2003_a\">World Health Organization, 2003</a>; <a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\">Wu, Leung, & Leung, 2020</a>; <a class=\"ref-link\" id=\"cZhang_et+al_2020_a\" href=\"#rZhang_et+al_2020_a\">Zhang et al, 2020</a>). The timing and location of the outbreak facilitated the rapid transmission of the virus within a highly mobile population. The initial reporting of observed cases occurred during the traditional",
+            "Chinese New Year, when the largest population movement in China takes place every year (<a class=\"ref-link\" id=\"cAi_et+al_2020_a\" href=\"#rAi_et+al_2020_a\">Ai et al, 2020</a>). Further, Wuhan is a highly populated city with more than 11 million residents and is connected to many cities in China through public transportation, such as buses, trains, and flights (<a class=\"ref-link\" id=\"cLai_et+al_2020_a\" href=\"#rLai_et+al_2020_a\">Lai et al, 2020</a>; <a class=\"ref-link\" id=\"cRead_et+al_2020_a\" href=\"#rRead_et+al_2020_a\">Read, Bridgen, Cummings, Ho, & Jewell, 2020</a>). In the absence of pharmaceutical interventions, rapid action was required by the Chinese government to mitigate transmission within and outside of Wuhan.",
+            "On January 23, 2020, the Chinese government implemented a strict lockdown of Wuhan, followed by several nearby cities in subsequent days; the lockdown includes temporarily restricting public transportation and advising residents to remain at home (<a class=\"ref-link\" id=\"cDu_et+al_2020_a\" href=\"#rDu_et+al_2020_a\">Du et al, 2020</a>; <a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\"><a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\">Wu et al, 2020</a></a>). Further, many high-speed rail stations and airports have implemented screening measures to detect travelers with a fever, specifically those traveling from Wuhan, and those with a fever are referred to public hospitals (<a class=\"ref-link\" id=\"cLai_et+al_2020_a\" href=\"#rLai_et+al_2020_a\">Lai et al, 2020</a>; <a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\"><a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\">Wu et al, 2020</a></a>). Within hospitals, patients who fulfill clinical and epidemiological characteristics of 2019-nCoV are immediately isolated.",
+            "The number of 2019-nCoV cases in Wuhan quickly outnumbered the available number of beds in hospitals, putting a substantial burden on the healthcare system. Consequently, the government rapidly built and launched two new hospitals with capacity for 1,600 and 1,000 beds, respectively, in Wuhan in addition to the existing 132 quarantine sites with more than 12,500 beds (<a class=\"ref-link\" id=\"cSteinbuch_2020_a\" href=\"#rSteinbuch_2020_a\">Steinbuch, 2020</a>). To anticipate additional resources to combat the epidemic, mathematical and statistical modeling tools can be useful to generate timely short-term forecasts of reported cases. These predictions can include estimates of expected morbidity burden that can help guide public health officials preparing the medical care and other resources needed to confront the epidemic. Short-term forecasts can also guide the intensity and type of interventions needed to mitigate an epidemic (<a class=\"ref-link\" id=\"cFunk_et+al_2016_a\" href=\"#rFunk_et+al_2016_a\">Funk, Camacho, Kucharski, Eggo, & Edmunds, 2016</a>; <a class=\"ref-link\" id=\"cShanafelt_et+al_2017_a\" href=\"#rShanafelt_et+al_2017_a\">Shanafelt, Jones, Lima, Perrings, & Chowell, 2017</a>). In the absence of vaccines or antiviral drugs for 2019nCoV, the effective implementation of nonpharmaceutical interventions, such as personal protection and social distancing, will be critical to bring the epidemic under control. In this emerging epidemic, the epidemiological data is limited, and the epidemiological parameters needed to calibrate elaborate mechanistic transmission models are not yet fully elucidated. Real-time short-term forecasts must be based on dynamic phenomenological models that have been validated during previous outbreaks (<a class=\"ref-link\" id=\"cChowell_et+al_2016_a\" href=\"#rChowell_et+al_2016_a\">Chowell et al, 2016</a>; <a class=\"ref-link\" id=\"cPell_et+al_2018_a\" href=\"#rPell_et+al_2018_a\">Pell, Kuang, Viboud, & Chowell, 2018</a>). We employ several dynamic models to generate and assess 5, 10, and 15 day ahead forecasts of the cumulative number of confirmed cases in Hubei province, the epicenter of the epidemic, and the overall trajectory of the epidemic in China excluding the province of Hubei."
+        ],
+        "Methods": [
+            "Data We obtained daily updates of the cumulative number of reported confirmed cases for the 2019nCoV epidemic across provinces in China from the National Health Commission of China website (Chinese National Health Commission). The data contains 34 areas, including provinces, municipalities, autonomous regions, and special administrative regions; here we refer to the regions collectively as provinces. Data updates were collected daily at 12 pm (GMT-5), between January 22, 2020 and February 9, 2020. The short time-series is affected by irregularities and reporting lags, so the cumulative curves are more stable and likely yield more stable and reliable estimates. Therefore, we analyze the cumulative trajectory of the epidemic in Hubei province, the epicenter of the outbreak, as well as the cumulative aggregate trajectory of all other provinces.",
+            "Models We generate short-term forecasts in real-time using three phenomenological models that have been previously used to derive short-term forecasts for a number of epidemics for several infectious diseases, including SARS, Ebola, pandemic influenza, and dengue (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell, Tariq, & Hyman, 2019</a>; <a class=\"ref-link\" id=\"cPell_et+al_2018_a\" href=\"#rPell_et+al_2018_a\">Pell et al, 2018</a>; <a class=\"ref-link\" id=\"cWang_et+al_2012_a\" href=\"#rWang_et+al_2012_a\">Wang, Wu, & Yang, 2012</a>). The generalized logistic growth model (GLM) extends the simple logistic growth model to accommodate sub-exponential growth dynamics with a scaling of growth parameter, p (<a class=\"ref-link\" id=\"cViboud_et+al_2016_a\" href=\"#rViboud_et+al_2016_a\">Viboud, Simonsen, & Chowell, 2016</a>). The Richards model also includes a scaling parameter, a, to allow for deviation from the symmetric logistic curve (<a class=\"ref-link\" id=\"cChowell_2017_a\" href=\"#rChowell_2017_a\">Chowell, 2017</a>; <a class=\"ref-link\" id=\"cRichards_1959_a\" href=\"#rRichards_1959_a\">Richards, 1959</a>; <a class=\"ref-link\" id=\"cWang_et+al_2012_a\" href=\"#rWang_et+al_2012_a\">Wang et al, 2012</a>). We also include a recently developed sub-epidemic wave model that supports complex epidemic trajectories, including multiple peaks (i.e., SARS in Singapore (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\"><a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a></a>)). In this approach, the observed reported curve is assumed to be the aggregate of multiple underlying sub-epidemics (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\"><a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a></a>). A detailed description for each of the models is included in the Supplement.",
+            "Short-term forecasts We calibrate each model to the daily cumulative reported case counts for Hubei and other provinces (all except Hubei). While the outbreak began in December 2019, available data on cumulative case counts were available starting on January 22, 2020. Therefore, the first calibration process includes 15 observations: from January 22, 2020 to February 5, 2020. Each subsequent calibration period increases by one day with each new published daily data point, with the last calibration period comprising the period from January 22, 2020 to February 9, 2020 (19 data points). We estimate the best-fit model solution to the reported data using nonlinear least squares fitting. This process yields the set of model parameters \u0398 that minimizes the sum of squared errors between the model  ( ,  ) and the data  (; where \u0398GLM = (r, p, K), \u0398Rich = (r, a, K), and \u0398Sub = (r, p, K0, q, Cthr) correspond to the estimated parameter sets for the GLM, the Richards model, and the sub-epidemic model, respectively; parameter descriptions are provided in the Supplement. Thus, the best-fit solution  ) , \u0398+, is defined by the parameter set \u0398+ =     \u22116(78( ( , \u0398) \u2212  ():. We fix the initial condition to the first data point. We then use a parametric bootstrap approach to quantify uncertainty around the best-fit solution, assuming a Poisson error structure. A detailed description of this method is provided in prior studies (<a class=\"ref-link\" id=\"cChowell_2017_a\" href=\"#rChowell_2017_a\">Chowell, 2017</a>; <a class=\"ref-link\" id=\"cRoosa_2019_a\" href=\"#rRoosa_2019_a\">Roosa & Chowell, 2019</a>). The models are refitted to the M = 200 bootstrap datasets to obtain M parameter sets, which are used to define 95% confidence intervals for each parameter. Each of the M model solutions to the bootstrap curves is used to generate m = 30 simulations extended through a forecasting period of 15 days. These 6,000 (M \u00d7 m) curves are used to construct the 95% prediction intervals for the forecasts."
+        ],
+        "Results": [
+            "We generated 5, 10, and 15 day ahead forecasts for Hubei and other provinces excluding Hubei for 5 consecutive starting dates: February 5, 2020 to February 9, 2020. Figures 1 \u2013 3 represent the range of 5, 10, and 15 day ahead forecasts, respectively, by the date generated, and we compare the daily short-term forecasts of cumulative case counts across dates as more data become available. Current cumulative reported case counts as of February 9, 2020 are 27,100 for Hubei and 10,189 in other provinces (Chinese National Health Commission).",
+            "Model calibration Our results for Hubei province indicate that the parameter estimates for the three models tend to stabilize and decrease in uncertainty as more data become available (Supplemental Table 1). In particular, the growth rate r decreases and appears to be converging over time, particularly for the GLM and sub-epidemic model. Parameter K also follows this general trend, with prediction intervals decreasing significantly in width as more data become available. Importantly, the p estimates from the GLM indicate that the epidemic growth in Hubei is close to exponential (p =0.99 (95%CI: 0.98, 1) \u2013 February 9th). Further, growth rate and scaling parameter estimates have remained relatively stable over the last three reporting dates, while estimates of K are still declining. This may correlate with the effectiveness of control measures or the slowing of the epidemic. For the trajectory that aggregates all other provinces (excluding Hubei), the parameter estimates follow trends that differ from those for Hubei (Supplemental Table 2). While the three models estimated stable and nearly equivalent growth rates in Hubei, the estimated growth rates for other provinces vary across models and do not follow a distinct trend as more data become available. However, the scaling and size parameters remain relatively stable across all dates. Further, the p estimates from the GLM reveal a consistent sub-exponential growth pattern in other provinces (p = 0.67 (95%CI: 0.64, 0.70) \u2013 February 9th).",
+            "The latest 5 day ahead forecasts, generated on February 9, 2020, estimate an average of 34,509 \u2013 34,596 total cumulative cases in Hubei by February 14, 2020 across the three models (Figure 1a). For other provinces, the models predict an average range of 11,317 \u2013 12,118 cumulative cases by February 14 (Figure 1b). Based on cumulative reported cases as of February 9th, these estimates correspond with an average of 7,409 \u2013 7,496 additional cases in Hubei and 1,128 \u2013 1,929 additional cases in other provinces within the next 5 days.",
+            "Comparing the 5-day ahead forecasts generated daily on February 5 \u2013 9, 2020, the GLM and Richards models yield comparable prediction intervals in Hubei, while the sub-epidemic model yields wider intervals than the other models. Also, 5 day ahead forecasts from the sub-epidemic model on February 5th and 6th predict significantly higher case counts in Hubei compared to forecasts generated on February 7th and beyond (Figure 1a). For other provinces, the GLM and Richards model yield intervals of similar widths, but the GLM predicts higher case counts than the Richards model across all dates (Figure 1b). Further, the sub-epidemic model has significantly wider prediction intervals compared to the other models for all forecasts for other provinces. While the uncertainty of the predictions decreases as more data became available in Hubei, the uncertainty of the predictions for other provinces remain relatively stable, compared to forecasts from earlier dates.",
+            "10 days ahead The 10 day ahead forecasts generated on February 9, 2020 from the three models estimate between 36,854 \u2013 37,230 cumulative cases, on average, in Hubei by February 19, 2020 (Figure 2a). For other provinces, the latest 10 day ahead forecasts predict average cumulative case counts between 11,549 \u2013 13,069 cases across the three models (Figure 2b). These estimates correspond with an additional 9,754 \u2013 10,130 cases in Hubei and an additional 1,360 \u2013 2,880 cases reported in other provinces on average in the next 10 days. 10 day ahead forecasts of case counts in Hubei generated on February 5th show significantly different results between the GLM and Richards versus the sub-epidemic model, with the subepidemic model predicting significantly higher case counts (Figure 2a). For forecasts generated after February 5th, the prediction intervals of the three models are comparable, with the GLM intervals having the lowest uncertainty, followed by the Richards model (Figure 2a). For other provinces, the sub-epidemic model yields significantly wider prediction intervals than the other two models. Like the 5 day ahead forecasts, the 10 day ahead prediction intervals become increasingly narrow for Hubei when including more data, but uncertainty remains relatively stable in other provinces.",
+            "15 days ahead The latest 15 day ahead forecasts predict a cumulative reported case count between 37,415 \u2013 38,028 cases, on average, in Hubei by February 24, 2020. Further, the latest 15 day ahead forecasts suggest an average cumulative case count between 11,588 \u2013 13,499 cases for other provinces. These forecasts correspond with an additional 10,315 \u2013 10,928 cases in Hubei and an additional 1,399 \u2013 3,310 cases in other provinces within the next 15 days. Again, the sub-epidemic model yields significantly higher forecasts for Hubei on February 5th, compared to the other models and compared to subsequent prediction intervals on following dates (Figure 3a). The width of prediction intervals decreases as more data are included for each of the models in both Hubei and other provinces. This is consistent with shorter-term forecasts in Hubei but differs from the pattern of shorter-term forecasts in other provinces."
+        ],
+        "Discussion": [
+            "In this report, we provide timely short-term forecasts of the cumulative number of reported cases of the 2019-nCoV epidemic in Hubei province and other provinces in China as of February 9, 2020. As the epidemic continues, we are also publishing online daily 10-day ahead forecasts including each of the models presented here (<a class=\"ref-link\" id=\"cRoosa_2020_a\" href=\"#rRoosa_2020_a\">Roosa & Chowell, 2020</a>). Based on the three models calibrated to data up until February 9, 2020, we forecast a cumulative number of reported cases between 37,415 \u2013 38,028 in Hubei Province and 11,588 \u2013 13,499 in other provinces by February 24, 2020. Our models yield a good visual fit to the epidemic curves, based on residuals, with the subepidemic model outperforming the other models in terms of the mean squared error (MSE) (Supplemental Tables 1 & 2). Parameter estimation results from the GLM consistently show that the epidemic growth is near exponential in Hubei and sub-exponential in other provinces. Overall, models predict similar ranges of short-term forecasts, except for those generated on February 5th, where the sub-epidemic model predicts significantly higher case counts than the other two models (Figures 1 \u2013 3). The sub-epidemic model predicts similar ranges to the other models for subsequent dates, so the higher ranges on February 5th may indicate that more data are required to inform the parameters of the sub-epidemic model.",
+            "We observe that the width of the prediction intervals decreases on average as more data are included for forecasts in Hubei; however, this pattern is not obvious for our analysis based on other provinces. This can, in part, be attributed to the smaller case counts and smaller initial prediction interval range seen in other provinces. Mean predictions and associated uncertainty remain relatively stable in other provinces though, while the mean estimates of 10 and 15 days ahead decrease significantly in Hubei (Figures 2 & 3). This suggests that the epidemic will last longer in Hubei compared to other provinces (Figures 4 \u2013 6), which may be attributed to intensive control efforts and large-scale social distancing interventions. Therefore, it is not necessarily surprising that estimates from earlier dates, specifically prior to saturation, yield predictions with higher uncertainty.",
+            "We retrieve the data from the Chinese media conglomerate Tencent (Chinese National Health Commission); however, the data show small differences in case counts compared to data of the epidemic reported by other sources (Johns Hopkins University Center for Systems Science and Engineering, 2020). Importantly, the curves of confirmed cases that we employ in our study are reported according to reporting date and could be influenced by testing capacity and other related factors. Further, there may be significant delays in identifying, isolating, and reporting cases in Hubei due to the magnitude of the epidemic, which could influence our predictions. Incidence curves according to the date of symptom onset could provide a clearer picture of the transmission dynamics during an epidemic. We also note that we analyzed the epidemic curves starting on",
+            "January 22, 2020, but the epidemic started in December 2019. Hence, the first data point accumulates cases up until January 22, 2020, as data were not available prior to this date. The 2019-nCoV outbreak in China poses a major challenge for modelers, as there are limited data available on the early growth trajectory, and epidemiological characteristics of the novel strain have not been fully elucidated. Our timely short-term forecasts based on phenomenological models can be useful for real-time preparedness, such as anticipating the required number of hospital beds and other medical resources, as they provide an estimate of the number of cases hospitals will need to prepare for in the coming days. In future work, we plan to report the results of a retrospective analysis of forecasting performance across models based on various performance metrics. In conclusion, our most recent forecasts, based on data for the last three days (February 7th \u2013 9th), remained relatively stable. These models predict that the epidemic has reached a saturation point for both Hubei and other provinces. This likely reflects the impact of the wide spectrum of social distancing measures implemented by the Chinese government, which likely helped stabilize the epidemic. The forecasts presented are based on the assumption that current mitigation efforts will continue."
+        ],
+        "Acknowledgements": [
+            "We thank Homma Rafi (Director of Communications, School of Public Health, Georgia State University) for creating and maintaining the online record of daily short-term forecasts. Funding",
+            "GC is supported by NSF grants 1610429 and 1633381. Ethics Not applicable. Data, code and materials Data will be made available in an online repository upon acceptance of manuscript. Competing Interests Authors declare no competing interests. Author Contributions KR and GC conducted forecasts and data analysis; YL retrieved and managed data; All authors contributed to writing and revising subsequent versions of the manuscript. All authors read and approved the final manuscript."
+        ],
+        "References": [
+            "Ai, S., Zhu, G., Tian, F., Li, H., Gao, Y., Wu, Y., . . . Lin, H. (2020). Population movement, city closure and spatial transmission of the 2019-nCoV infection in China. In. https://doi.org/10.1101/2020.02.04.20020339.",
+            "Chinese National Health Commission. Reported Cases of 2019-nCoV. Retrieved from https://ncov.dxy.cn/ncovh5/view/pneumonia?from=groupmessage&isappinstalled=0",
+            "Chinese National Health Committee. Reported Cases of 2019-nCoV. Retrieved from https://ncov.dxy.cn/ncovh5/view/pneumonia?from=groupmessage&isappinstalled=0",
+            "<a class=\"ref-link\" id=\"cChowell_2017_a\" href=\"#rChowell_2017_a\">Chowell, G. (2017</a>). Fitting dynamic models to epidemic outbreaks with quantified uncertainty: A primer for parameter uncertainty, identifiability, and forecasts. Infectious Disease Modelling, 2, 379398. doi:10.1016/j.idm.2017.08.001",
+            "Chowell, G., Hincapie-Palacio, D., Ospina, J., Pell, B., Tariq, A., Dahal, S., . . . Viboud, C. (2016). Using Phenomenological Models to Characterize Transmissibility and Forecast Patterns and Final Burden of Zika Epidemics. In: Public Library of Science, 2016-05-31.",
+            "Chowell, G., Tariq, A., & Hyman, J. M. (2019). A novel sub-epidemic modeling framework for short-term forecasting epidemic waves. BMC Medicine, 17(1), 164-164. doi:10.1186/s12916-019-1406-6",
+            "Du, Z., Wang, L., Cauchemez, S., Xu, X., Wang, X., Cowling, B., & Meyers, L. (2020). Risk of 2019 novel coronavirus importations throughout China prior to the Wuhan quarantine. In. https://doi.org/10.1101/2020.01.28.20019299.",
+            "Funk, S., Camacho, A., Kucharski, A. J., Eggo, R. M., & Edmunds, W. J. (2016). Real-time forecasting of infectious disease dynamics with a stochastic semi-mechanistic model. Epidemics, 22, 56-61. doi:10.1016/j.epidem.2016.11.003",
+            "Johns Hopkins University Center for Systems Science and Engineering. (2020). 2019 Novel Coronavirus (nCoV) Data Repository. In. https://github.com/CSSEGISandData/2019-nCoV.",
+            "Lai, S., Bogoch, I., Ruktanonchai, N., Watts, A., Li, Y., Yu, J., . . . Tatem, A. (2020). Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study. In.",
+            "Li, Q., Guan, X., Wu, P., Wang, X., Zhou, L., Tong, Y., . . . Feng, Z. (2020). Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. The New England Journal Of Medicine. doi:10.1056/NEJMoa2001316",
+            "Pell, B., Kuang, Y., Viboud, C., & Chowell, G. (2018). Using phenomenological models for forecasting the 2015 Ebola challenge. Epidemics, 22, 62-70. doi:10.1016/j.epidem.2016.11.002",
+            "Read, J. M., Bridgen, J. R. E., Cummings, D. A. T., Ho, A., & Jewell, C. P. (2020). Novel coronavirus 2019nCoV: early estimation of epidemiological parameters and epidemic predictions. http://dx.doi.org/10.1101/2020.01.23.20018549.",
+            "<a class=\"ref-link\" id=\"cRichards_1959_a\" href=\"#rRichards_1959_a\">Richards, F. (1959</a>). A flexible growth function for empirical use. Journal of Experimental Botany, 10(2), 290-301. doi:https://doi.org/10.1093/jxb/10.2.290",
+            "<a class=\"ref-link\" id=\"cRiou_2020_a\" href=\"#rRiou_2020_a\">Riou, J., & Althaus, C. L. (2020</a>). Pattern of early human-to-human transmission of Wuhan 2019-nCoV. In. https://doi.org/10.1101/2020.01.23.917351.",
+            "Roosa, K., & Chowell, G. (2019). Assessing parameter identifiability in compartmental dynamic models using a computational approach: Application to infectious disease transmission models. Theoretical Biology and Medical Modelling, 16(1). doi:https://doi.org/10.1186/s12976-0180097-6",
+            "Roosa, K., & Chowell, G. (2020). Coronavirus Incidence Forecasts. In. https://publichealth.gsu.edu/coronavirus/.",
+            "Shanafelt, D. W., Jones, G., Lima, M., Perrings, C., & Chowell, G. (2017). Forecasting the 2001 Foot-andMouth Disease Epidemic in the UK. Ecohealth. doi:10.1007/s10393-017-1293-2",
+            "<a class=\"ref-link\" id=\"cSteinbuch_2020_a\" href=\"#rSteinbuch_2020_a\">Steinbuch, Y. (2020</a>). China opens second new hospital for coronavirus patients. New York Post. Retrieved from https://nypost.com/2020/02/06/china-opens-second-new-hospital-forcoronavirus-patients/",
+            "Viboud, C., Simonsen, L., & Chowell, G. (2016). A generalized-growth model to characterize the early ascending phase of infectious disease outbreaks. Epidemics, 15, 27-37. doi:10.1016/j.epidem.2016.01.002",
+            "Wang, X.-S., Wu, J., & Yang, Y. (2012). Richards model revisited: Validation by and application to infection dynamics. Journal of Theoretical Biology, 313, 12-19. doi:10.1016/j.jtbi.2012.07.024",
+            "World Health Organization. (2020). Novel Coronavirus (2019-nCoV) Situation Reports. In. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports.",
+            "<a class=\"ref-link\" id=\"cWorld_2003_a\" href=\"#rWorld_2003_a\">World Health Organization, W. (2003</a>). Consensus document on the epidemiology of severe acute respiratory syndrome (SARS). In. https://who.int/csr/sars/en/WHOconsensus.pdf.",
+            "Wu, J. T., Leung, K., & Leung, G. M. (2020). Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet. doi:10.1016/S0140-6736(20)30260-9",
+            "Zhang, R., Liu, H., Li, F., Zhang, B., Liu, Q., <a class=\"ref-link\" id=\"cLi_et+al_2020_a\" href=\"#rLi_et+al_2020_a\">Li, X., & Luo, L. (2020</a>). Transmission and epidemiological characteristics of Novel Coronavirus (2019-nCoV)-Infected Pneumonia(NCIP):preliminary evidence obtained in comparison with 2003-SARS. In. https://doi.org/10.1101/2020.01.30.20019836.",
+            "Figure 1. Forecasting results for 5-days ahead estimates, generated daily from February 5 \u2013 9, 2020, of cumulative reported cases in Hubei (a) and other provinces (b). The mean case estimate is represented by the dots, while the lines represent the 95% prediction intervals for each model.",
+            "Figure 2. Forecasting results for 10-days ahead estimates, generated daily from February 5 \u2013 9, 2020, of cumulative reported cases in Hubei (a) and other provinces (b). The mean case estimate is represented by the dots, while the lines represent the 95% prediction intervals for each model.",
+            "Figure 3. Forecasting results for 15-days ahead estimates, generated daily from February 5 \u2013 9, 2020, of cumulative reported cases in Hubei (a) and other provinces (b). The mean case estimate is represented by the dots, while the lines represent the 95% prediction intervals for each model.",
+            "Figure 4. 15-day ahead GLM forecasts of cumulative reported 2019-nCoV cases in China \u2013 Hubei and other provinces \u2013 generated on February 9, 2020.",
+            "Figure 5. 15-day ahead Richards forecasts of cumulative reported 2019-nCoV cases in China \u2013 Hubei and other provinces \u2013 generated on February 9, 2020.",
+            "Figure 6. 15-day ahead sub-epidemic model forecasts of cumulative reported 2019-nCoV cases in China \u2013 Hubei and other provinces \u2013 generated on February 9, 2020."
+        ],
+        "Appendix": [
+            "The generalized logistic growth model (GLM) is an extension of the simple logistic growth model that includes an additional parameter, p, to allow for scaling of growth; p = 1 indicates early exponential growth, p = 0 represents constant growth, and 0 < p < 1 accommodates early sub-exponential or polynomial growth (G. Chowell et al, 2020; Ganyani, Roosa, Faes, Hens, & Chowell, 2018; Roosa, Luo, & Chowell, 2019; <a class=\"ref-link\" id=\"cViboud_et+al_2016_a\" href=\"#rViboud_et+al_2016_a\">Viboud, Simonsen, & Chowell, 2016</a>). The GLM is defined by the differential equation:",
+            "where C(t) represents the cumulative number of cases at time t, r is the growth rate, p is the scaling of growth parameter, and K is the carrying capacity or final epidemic size.",
+            "Richards model The Richards model is a 3-parameter extension of the simple logistic growth model that includes a scaling parameter, a (Gerardo Chowell, 2017; <a class=\"ref-link\" id=\"cRichards_1959_a\" href=\"#rRichards_1959_a\">Richards, 1959</a>; <a class=\"ref-link\" id=\"cWang_et+al_2012_a\" href=\"#rWang_et+al_2012_a\">Wang, Wu, & Yang, 2012</a>). The Richards model is defined by the differential equation:",
+            "\u2032( ) =  ( ) A1 \u2212 ( ( ))BC where C(t) represents the cumulative number of cases at time t, r is the growth rate, K is the final epidemic size, and the exponent a measures the deviation from the symmetric s-shaped dynamics of the simple logistic curve.",
+            "The most flexible extension employed here is the recently developed sub-epidemic wave model, which supports complex epidemic trajectories by assuming the reported aggregate curve is shaped by multiple underlying sub-epidemics (G. <a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell, Tariq, & Hyman, 2019</a>). For this approach, each sub-epidemic is modeled using the GLM, where the growth rate r and scaling parameter p are the same across sub-epidemics. We model an epidemic wave composed of n overlapping sub-epidemics as follows:",
+            "HI(()K, JI where Ci(t) is the cumulative number of infections for sub-epidemic i, and Ki is the size of the ith sub-epidemic (i = 1, ..., n) (G. <a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a>). Thus, when n = 1, the model returns to the single-equation GLM, as presented above.",
+            "We model the timing of onset for each subsequent wave with a regular structure, such that the (i+1)th sub-epidemic begins when Ci(t) exceeds the threshold Cthr, and the (i+1)th sub-epidemic begins before the ith sub-epidemic is complete. We model the size of consecutive sub-epidemics (Ki) such that the size declines exponentially. Thus,",
+            "D =  L FN(DF8), where K0 is the size of the first sub-epidemic (K1 = K0), and q is the rate of decline of consecutive sub-epidemics, where q = 0 indicates no decline. Further, the total final size of the epidemic is given by:",
+            "D78 where ntot is the finite number of overlapping sub-epidemics and is calculated as",
+            "0.54 (0.39, 0.72) 0.56 (0.40, 0.72) 0.36 (0.29, 0.43) 0.34 (0.29, 0.43) 0.31 (0.29, 0.36)",
+            "68,730 (48,730, 104,110) 67,484 (52,358, 91,421) 41,700 (39,001, 44,606) 40,253 (38,528, 42,232) 38,134 (37,198, 39,251)",
+            "0.34 (0.30, 0.41) 0.35 (0.30, 0.41) 0.31 (0.29, 0.34) 0.30 (0.29, 0.32) 0.30 (0.28, 0.32)",
+            "0.49 (0.28, 0.80) 0.46 (0.29, 0.73) 0.83 (0.61, 1.03) 0.87 (0.73, 1.05) 1.01 (0.84, 1.15)",
+            "82,180 (50,940, 139,290) 86,990 (54,280, 72,990) 43,616 (38,875, 50,460) 41,427 (38,239, 44,887) 37,585 (35,974, 40,128)",
+            "0.98 (0.90, 1.1) 0.78 (0.62, 0.98) 0.32 (0.30, 0.36) 0.39 (0.33, 0.46) 0.31 (0.30, 0.34)",
+            "429,000 (168,000, 943,000) 85,500 (63,300, 122,000) 38,200 (36,700, 40,100) 41,500 (39,300, 43,700) 37,500 (36,800, 38,600)"
+        ],
+        "Supplemental": [
+            "4.08 (2.96, 5.32) 4.21 (3.21, 5.47) 4.30 (3.24, 5.51) 4.29 (3.27, 5.27) 4.05 (3.36, 4.98)",
+            "0.67 (0.63, 0.71) 0.66 (0.63, 0.70) 0.66 (0.63, 0.70) 0.66 (0.63, 0.70) 0.67 (0.64, 0.70)",
+            "13,734 (12,420, 15,351) 14,129 (13,034, 15,663) 14,332 (13,345, 15,437) 14,191 (13,294, 15,103) 13,826 (13,171, 14,481)",
+            "2.18 (1.15, 2.98) 2.49 (1.66, 3.0) 2.14 (1.24, 2.90) 3.02 (2.52, 3.41) 2.25 (1.15, 3.0)",
+            "0.08 (0.06, 0.17) 0.07 (0.06, 0.11) 0.08 (0.06, 0.15) 0.06 (0.05, 0.06) 0.08 (0.06, 0.16)",
+            "12,379 (11,589, 13,020) 12,993 (12,391, 13,584) 13,106 (12,555, 13,585) 13,573 (13,072, 14,092) 13,374 (12,862, 13,808)",
+            "0.78 (0.75, 0.81) 0.80 (0.76, 0.83) 0.80 (0.76, 0.83) 0.81 (0.79, 0.83) 0.83 (0.81, 0.85)",
+            "7,240 (6,750, 7,760) 6,420 (5,950, 6,970) 6,420 (5,930, 6,930) 6,070 (5,750, 6,580) 5,900 (5,680, 6,310)",
+            "1,380 1,412 1,333 1,278 1,215 presented with the 95% confidence intervals obtained from the M bootstrap solutions.",
+            "<a class=\"ref-link\" id=\"cChowell_2017_a\" href=\"#rChowell_2017_a\">Chowell, G. (2017</a>). Fitting dynamic models to epidemic outbreaks with quantified uncertainty: A primer for parameter uncertainty, identifiability, and forecasts. Infectious Disease Modelling, 2, 379-398. doi:10.1016/j.idm.2017.08.001",
+            "Chowell, G., Luo, R., Sun, K., Roosa, K., Tariq, A., & Viboud, C. (2020). Real-time forecasting of epidemic trajectories using computational dynamic ensembles. Epidemics, 30. doi:10.1016/j.epidem.2019.100379",
+            "Ganyani, T., Roosa, K., Faes, C., Hens, N., & Chowell, G. (2018). Assessing the relationship between epidemic growth scaling and epidemic size: The 2014-16 Ebola epidemic in West Africa. Epidemiology and Infection. doi:10.1017/S0950268818002819",
+            "Roosa, K., Luo, R., & Chowell, G. (2019). Comparative assessment of parameter estimation methods in the presence of overdispersion: a simulation study. Mathematical Biosciences and Engineering, 16(5), 4299-4313. doi:10.3934/mbe.2019214"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "observations",
+            "number": 15,
+            "context": "While the outbreak began in December 2019, available data on cumulative case counts were available starting on January 22, 2020. <mark class=\"stats\">Therefore, the first calibration process includes 15 observations: from January 22, 2020 to February 5, 2020</mark>. Each subsequent calibration period increases by one day with each new published daily data point, with the last calibration period comprising the period from January 22, 2020 to February 9, 2020 (19 data points)"
+        },
+        {
+            "participant": "bootstrap datasets",
+            "number": 200,
+            "context": "A detailed description of this method is provided in prior studies (<a class=\"ref-link\" id=\"cChowell_2017_a\" href=\"#rChowell_2017_a\">Chowell, 2017</a>; <a class=\"ref-link\" id=\"cRoosa_2019_a\" href=\"#rRoosa_2019_a\">Roosa & Chowell, 2019</a>). <mark class=\"stats\">The models are refitted to the M = 200 bootstrap datasets to obtain M parameter sets, which are used to define 95% confidence intervals for each parameter</mark>. Each of the M model solutions to the bootstrap curves is used to generate m = 30 simulations extended through a forecasting period of 15 days"
+        },
+        {
+            "participant": "additional cases",
+            "number": 7496,
+            "context": "Here, we provide 5, 10, and 15 day forecasts for five consecutive days: February 5th through February 9th, with quantified uncertainty based on a generalized logistic growth model, the Richards growth model, and a sub-epidemic wave model. <mark class=\"stats\">Our most recent forecasts reported here are based on data up until February 9, 2020, largely agree across the three models presented and suggest an average range of 7,409 \u2013 7,496 additional cases in Hubei and 1,128 \u2013 1,929 additional cases in other provinces within the next five days</mark>. Models also predict an average total cumulative case count between 37,415 \u2013 38,028 in Hubei and 11,588 \u2013 13,499 in other provinces by February 24, 2020"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 37289,
+            "context": "Early cases of the disease have been linked to a live animal seafood market in Wuhan, pointing to a zoonotic origin of the epidemic. <mark class=\"stats\">However, human-to-human transmission has driven its rapid spread with a total of 37,289 confirmed cases, including 813 deaths, in China and 302 confirmed cases imported in multiple countries as of February 9, 2020 (Chinese National Health Committee)</mark>. While the early transmission potential of this novel coronavirus appeared similar to that of severe acute respiratory syndrome (SARS) (<a class=\"ref-link\" id=\"cRiou_2020_a\" href=\"#rRiou_2020_a\">Riou & Althaus, 2020</a>), the current tally of the epidemic has already surpassed the total cases reported for the SARS outbreaks in 2002-2003 (W"
+        },
+        {
+            "participant": "residents",
+            "number": 11000000,
+            "context": "Chinese New Year, when the largest population movement in China takes place every year (<a class=\"ref-link\" id=\"cAi_et+al_2020_a\" href=\"#rAi_et+al_2020_a\">Ai et al, 2020</a>). <mark class=\"stats\">Further, Wuhan is a highly populated city with more than 11 million residents and is connected to many cities in China through public transportation, such as buses, trains, and flights (<a class=\"ref-link\" id=\"cLai_et+al_2020_a\" href=\"#rLai_et+al_2020_a\">Lai et al, 2020</a>; <a class=\"ref-link\" id=\"cRead_et+al_2020_a\" href=\"#rRead_et+al_2020_a\">Read, Bridgen, Cummings, Ho, & Jewell, 2020</a>)</mark>. In the absence of pharmaceutical interventions, rapid action was required by the Chinese government to mitigate transmission within and outside of Wuhan"
+        },
+        {
+            "participant": "bootstrap datasets",
+            "number": 200,
+            "context": "A detailed description of this method is provided in prior studies (<a class=\"ref-link\" id=\"cChowell_2017_a\" href=\"#rChowell_2017_a\">Chowell, 2017</a>; <a class=\"ref-link\" id=\"cRoosa_2019_a\" href=\"#rRoosa_2019_a\">Roosa & Chowell, 2019</a>). <mark class=\"stats\">The models are refitted to the M = 200 bootstrap datasets to obtain M parameter sets, which are used to define 95% confidence intervals for each parameter</mark>. Each of the M model solutions to the bootstrap curves is used to generate m = 30 simulations extended through a forecasting period of 15 days"
+        },
+        {
+            "participant": "total cumulative cases",
+            "number": 34596,
+            "context": "5 days ahead. <mark class=\"stats\">The latest 5 day ahead forecasts, generated on February 9, 2020, estimate an average of 34,509 \u2013 34,596 total cumulative cases in Hubei by February 14, 2020 across the three models (Figure 1a)</mark>. For other provinces, the models predict an average range of 11,317 \u2013 12,118 cumulative cases by February 14 (Figure 1b)"
+        },
+        {
+            "participant": "cumulative cases",
+            "number": 12118,
+            "context": "The latest 5 day ahead forecasts, generated on February 9, 2020, estimate an average of 34,509 \u2013 34,596 total cumulative cases in Hubei by February 14, 2020 across the three models (Figure 1a). <mark class=\"stats\">For other provinces, the models predict an average range of 11,317 \u2013 12,118 cumulative cases by February 14 (Figure 1b)</mark>. Based on cumulative reported cases as of February 9th, these estimates correspond with an average of 7,409 \u2013 7,496 additional cases in Hubei and 1,128 \u2013 1,929 additional cases in other provinces within the next 5 days"
+        },
+        {
+            "participant": "additional cases",
+            "number": 7496,
+            "context": "For other provinces, the models predict an average range of 11,317 \u2013 12,118 cumulative cases by February 14 (Figure 1b). <mark class=\"stats\">Based on cumulative reported cases as of February 9th, these estimates correspond with an average of 7,409 \u2013 7,496 additional cases in Hubei and 1,128 \u2013 1,929 additional cases in other provinces within the next 5 days</mark>. Comparing the 5-day ahead forecasts generated daily on February 5 \u2013 9, 2020, the GLM and Richards models yield comparable prediction intervals in Hubei, while the sub-epidemic model yields wider intervals than the other models"
+        },
+        {
+            "participant": "cumulative cases",
+            "number": 37230,
+            "context": "While the uncertainty of the predictions decreases as more data became available in Hubei, the uncertainty of the predictions for other provinces remain relatively stable, compared to forecasts from earlier dates. <mark class=\"stats\">10 days ahead The 10 day ahead forecasts generated on February 9, 2020 from the three models estimate between 36,854 \u2013 37,230 cumulative cases, on average, in Hubei by February 19, 2020 (Figure 2a)</mark>. For other provinces, the latest 10 day ahead forecasts predict average cumulative case counts between 11,549 \u2013 13,069 cases across the three models (Figure 2b)"
+        },
+        {
+            "participant": "cases",
+            "number": 13069,
+            "context": "10 days ahead The 10 day ahead forecasts generated on February 9, 2020 from the three models estimate between 36,854 \u2013 37,230 cumulative cases, on average, in Hubei by February 19, 2020 (Figure 2a). <mark class=\"stats\">For other provinces, the latest 10 day ahead forecasts predict average cumulative case counts between 11,549 \u2013 13,069 cases across the three models (Figure 2b)</mark>. These estimates correspond with an additional 9,754 \u2013 10,130 cases in Hubei and an additional 1,360 \u2013 2,880 cases reported in other provinces on average in the next 10 days. 10 day ahead forecasts of case counts in Hubei generated on February 5th show significantly different results between the GLM and Richards versus the sub-epidemic model, with the subepidemic model predicting significantly higher case counts (Figure 2a)"
+        },
+        {
+            "participant": "cases",
+            "number": 10130,
+            "context": "For other provinces, the latest 10 day ahead forecasts predict average cumulative case counts between 11,549 \u2013 13,069 cases across the three models (Figure 2b). <mark class=\"stats\">These estimates correspond with an additional 9,754 \u2013 10,130 cases in Hubei and an additional 1,360 \u2013 2,880 cases reported in other provinces on average in the next 10 days. 10 day ahead forecasts of case counts in Hubei generated on February 5th show significantly different results between the GLM and Richards versus the sub-epidemic model, with the subepidemic model predicting significantly higher case counts (Figure 2a)</mark>. For forecasts generated after February 5th, the prediction intervals of the three models are comparable, with the GLM intervals having the lowest uncertainty, followed by the Richards model (Figure 2a)"
+        },
+        {
+            "participant": "cases",
+            "number": 38028,
+            "context": "Like the 5 day ahead forecasts, the 10 day ahead prediction intervals become increasingly narrow for Hubei when including more data, but uncertainty remains relatively stable in other provinces. <mark class=\"stats\">15 days ahead The latest 15 day ahead forecasts predict a cumulative reported case count between 37,415 \u2013 38,028 cases, on average, in Hubei by February 24, 2020</mark>. Further, the latest 15 day ahead forecasts suggest an average cumulative case count between 11,588 \u2013 13,499 cases for other provinces"
+        },
+        {
+            "participant": "cases",
+            "number": 13499,
+            "context": "15 days ahead The latest 15 day ahead forecasts predict a cumulative reported case count between 37,415 \u2013 38,028 cases, on average, in Hubei by February 24, 2020. <mark class=\"stats\">Further, the latest 15 day ahead forecasts suggest an average cumulative case count between 11,588 \u2013 13,499 cases for other provinces</mark>. These forecasts correspond with an additional 10,315 \u2013 10,928 cases in Hubei and an additional 1,399 \u2013 3,310 cases in other provinces within the next 15 days"
+        },
+        {
+            "participant": "cases",
+            "number": 10928,
+            "context": "Further, the latest 15 day ahead forecasts suggest an average cumulative case count between 11,588 \u2013 13,499 cases for other provinces. <mark class=\"stats\">These forecasts correspond with an additional 10,315 \u2013 10,928 cases in Hubei and an additional 1,399 \u2013 3,310 cases in other provinces within the next 15 days</mark>. Again, the sub-epidemic model yields significantly higher forecasts for Hubei on February 5th, compared to the other models and compared to subsequent prediction intervals on following dates (Figure 3a)"
+        }
+    ],
+    "statistics": [
+        {
+            "p_value": "p =0.99",
+            "context": "Parameter K also follows this general trend, with prediction intervals decreasing significantly in width as more data become available. <mark class=\"stats\">Importantly, the p estimates from the GLM indicate that the epidemic growth in Hubei is close to exponential (p =0.99 (95%CI: 0.98, 1) \u2013 February 9th)</mark>. Further, growth rate and scaling parameter estimates have remained relatively stable over the last three reporting dates, while estimates of K are still declining"
+        },
+        {
+            "p_value": "p = 0.67",
+            "context": "However, the scaling and size parameters remain relatively stable across all dates. <mark class=\"stats\">Further, the p estimates from the GLM reveal a consistent sub-exponential growth pattern in other provinces (p = 0.67 (95%CI: 0.64, 0.70) \u2013 February 9th)</mark>. 5 days ahead"
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">For forecasts generated after February 5th, the prediction intervals of the three models are comparable, with the GLM intervals having the lowest uncertainty, followed by the Richards model (Figure 2a)</mark>",
+                "tests": [
+                    {
+                        "test": "Richards model"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "real-time forecasts",
+        "mean squared error",
+        "China",
+        "severe pneumonia",
+        "rapid spread",
+        "dynamics",
+        "early case",
+        "Infectious disease",
+        "pneumonia case",
+        "epidemiological characteristics",
+        "ncov epidemic",
+        "sub epidemic model",
+        "world health",
+        "2019-nCoV",
+        "real time",
+        "coronavirus",
+        "severe acute respiratory syndrome",
+        "phenomenological models",
+        "human transmission",
+        "novel coronavirus",
+        "february 5th"
+    ],
+    "keyword_relevance": {
+        "China": 0.23853211009174313,
+        "2019-nCoV": 0.1834862385321101,
+        "mean squared error": 0.11009174311926606,
+        "coronavirus": 0.10091743119266056,
+        "severe acute respiratory syndrome": 0.07339449541284404,
+        "dynamics": 0.05504587155963303,
+        "phenomenological models": 0.05504587155963303,
+        "novel coronavirus": 0.045871559633027525,
+        "epidemiological characteristics": 0.03669724770642202,
+        "human transmission": 0.027522935779816515,
+        "severe pneumonia": 0.01834862385321101,
+        "rapid spread": 0.01834862385321101,
+        "pneumonia case": 0.01834862385321101,
+        "real-time forecasts": 0.009174311926605505,
+        "early case": 0.009174311926605505,
+        "Infectious disease": 0.0,
+        "ncov epidemic": 0.0,
+        "sub epidemic model": 0.0,
+        "world health": 0.0,
+        "real time": 0.0,
+        "february 5th": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The ongoing epidemic of the novel coronavirus (2019-nCoV) is primarily affecting mainland China and can be traced back to a cluster of severe pneumonia cases identified in Wuhan, China in December 2019 (<a class=\"ref-link\" id=\"cLi_et+al_2020_a\" href=\"#rLi_et+al_2020_a\">Li et al, 2020</a>; World Health Organization, 2020).",
+        "While the early transmission potential of this novel coronavirus appeared similar to that of severe acute respiratory syndrome (SARS) (<a class=\"ref-link\" id=\"cRiou_2020_a\" href=\"#rRiou_2020_a\">Riou & Althaus, 2020</a>), the current tally of the epidemic has already surpassed the total cases reported for the SARS outbreaks in 2002-2003 (W.",
+        "The initial reporting of observed cases occurred during the traditional",
+        "<h2 style=\"display: inline\">Methods:</h2> Data The authors obtained daily updates of the cumulative number of reported confirmed cases for the 2019nCoV epidemic across provinces in China from the National Health Commission of China website (Chinese National Health Commission).",
+        "The authors include a recently developed sub-epidemic wave model that supports complex epidemic trajectories, including multiple peaks (i.e., SARS in Singapore (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\"><a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a></a>)).",
+        "In this approach, the observed reported curve is assumed to be the aggregate of multiple underlying sub-epidemics (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\"><a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a></a>).",
+        "A detailed description for each of the models is included in the Supplement",
+        "<h2 style=\"display: inline\">Results:</h2> The authors generated 5, 10, and 15 day ahead forecasts for Hubei and other provinces excluding Hubei for 5 consecutive starting dates: February 5, 2020 to February 9, 2020.",
+        "Growth rate and scaling parameter estimates have remained relatively stable over the last three reporting dates, while estimates of K are still declining.",
+        "This may correlate with the effectiveness of control measures or the slowing of the epidemic.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors provide timely short-term forecasts of the cumulative number of reported cases of the 2019-nCoV epidemic in Hubei province and other provinces in China as of February 9, 2020.",
+        "Models predict similar ranges of short-term forecasts, except for those generated on February 5th, where the sub-epidemic model predicts significantly higher case counts than the other two models (Figures 1 \u2013 3).",
+        "The sub-epidemic model predicts similar ranges to the other models for subsequent dates, so the higher ranges on February 5th may indicate that more data are required to inform the parameters of the sub-epidemic model"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The ongoing epidemic of the novel coronavirus (2019-nCoV) is primarily affecting mainland China and can be traced back to a cluster of severe pneumonia cases identified in Wuhan, China in December 2019 (<a class=\"ref-link\" id=\"cLi_et+al_2020_a\" href=\"#rLi_et+al_2020_a\">Li et al, 2020</a>; World Health Organization, 2020).",
+            "While the early transmission potential of this novel coronavirus appeared similar to that of severe acute respiratory syndrome (SARS) (<a class=\"ref-link\" id=\"cRiou_2020_a\" href=\"#rRiou_2020_a\">Riou & Althaus, 2020</a>), the current tally of the epidemic has already surpassed the total cases reported for the SARS outbreaks in 2002-2003 (W.",
+            "The initial reporting of observed cases occurred during the traditional"
+        ],
+        "Methods": [
+            "Data The authors obtained daily updates of the cumulative number of reported confirmed cases for the 2019nCoV epidemic across provinces in China from the National Health Commission of China website (Chinese National Health Commission).",
+            "The authors include a recently developed sub-epidemic wave model that supports complex epidemic trajectories, including multiple peaks (i.e., SARS in Singapore (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\"><a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a></a>)).",
+            "In this approach, the observed reported curve is assumed to be the aggregate of multiple underlying sub-epidemics (<a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\"><a class=\"ref-link\" id=\"cChowell_et+al_2019_a\" href=\"#rChowell_et+al_2019_a\">Chowell et al, 2019</a></a>).",
+            "A detailed description for each of the models is included in the Supplement"
+        ],
+        "Results": [
+            "The authors generated 5, 10, and 15 day ahead forecasts for Hubei and other provinces excluding Hubei for 5 consecutive starting dates: February 5, 2020 to February 9, 2020.",
+            "Growth rate and scaling parameter estimates have remained relatively stable over the last three reporting dates, while estimates of K are still declining.",
+            "This may correlate with the effectiveness of control measures or the slowing of the epidemic."
+        ],
+        "Conclusion": [
+            "The authors provide timely short-term forecasts of the cumulative number of reported cases of the 2019-nCoV epidemic in Hubei province and other provinces in China as of February 9, 2020.",
+            "Models predict similar ranges of short-term forecasts, except for those generated on February 5th, where the sub-epidemic model predicts significantly higher case counts than the other two models (Figures 1 \u2013 3).",
+            "The sub-epidemic model predicts similar ranges to the other models for subsequent dates, so the higher ranges on February 5th may indicate that more data are required to inform the parameters of the sub-epidemic model"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Ai_et+al_2020_a",
+            "alt_id": "1",
+            "entry": "Ai, S., Zhu, G., Tian, F., Li, H., Gao, Y., Wu, Y.,... Lin, H. (2020). Population movement, city closure and spatial transmission of the 2019-nCoV infection in China. In. https://doi.org/10.1101/2020.02.04.20020339.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.04.20020339",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.04.20020339",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.04.20020339"
+        },
+        {
+            "id": "Chinese_2019_a",
+            "alt_id": "2",
+            "entry": "Chinese National Health Commission. Reported Cases of 2019-nCoV. Retrieved from https://ncov.dxy.cn/ncovh5/view/pneumonia?from=groupmessage&isappinstalled=0",
+            "url": "https://ncov.dxy.cn/ncovh5/view/pneumonia?from=groupmessage&isappinstalled=0"
+        },
+        {
+            "id": "Chinese_2019_b",
+            "alt_id": "3",
+            "entry": "Chinese National Health Committee. Reported Cases of 2019-nCoV. Retrieved from https://ncov.dxy.cn/ncovh5/view/pneumonia?from=groupmessage&isappinstalled=0",
+            "url": "https://ncov.dxy.cn/ncovh5/view/pneumonia?from=groupmessage&isappinstalled=0"
+        },
+        {
+            "id": "Chowell_2017_a",
+            "alt_id": "4",
+            "entry": "Chowell, G. (2017). Fitting dynamic models to epidemic outbreaks with quantified uncertainty: A primer for parameter uncertainty, identifiability, and forecasts. Infectious Disease Modelling, 2, 379398. doi:10.1016/j.idm.2017.08.001",
+            "crossref": "https://dx.doi.org/10.1016/j.idm.2017.08.001",
+            "scite": "https://scite.ai/reports/10.1016/j.idm.2017.08.001",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.idm.2017.08.001"
+        },
+        {
+            "id": "Chowell_et+al_2016_a",
+            "alt_id": "5",
+            "entry": "Chowell, G., Hincapie-Palacio, D., Ospina, J., Pell, B., Tariq, A., Dahal, S.,... Viboud, C. (2016). Using Phenomenological Models to Characterize Transmissibility and Forecast Patterns and Final Burden of Zika Epidemics. In: Public Library of Science, 2016-05-31.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chowell%2C%20G.%20Hincapie-Palacio%2C%20D.%20Ospina%2C%20J.%20Pell%2C%20B.%20Using%20Phenomenological%20Models%20to%20Characterize%20Transmissibility%20and%20Forecast%20Patterns%20and%20Final%20Burden%20of%20Zika%20Epidemics%202016"
+        },
+        {
+            "id": "Chowell_et+al_2019_a",
+            "alt_id": "6",
+            "entry": "Chowell, G., Tariq, A., & Hyman, J. M. (2019). A novel sub-epidemic modeling framework for short-term forecasting epidemic waves. BMC Medicine, 17(1), 164-164. doi:10.1186/s12916-019-1406-6",
+            "crossref": "https://dx.doi.org/10.1186/s12916-019-1406-6",
+            "scite": "https://scite.ai/reports/10.1186/s12916-019-1406-6",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1186/s12916-019-1406-6"
+        },
+        {
+            "id": "Du_et+al_2020_a",
+            "alt_id": "7",
+            "entry": "Du, Z., Wang, L., Cauchemez, S., Xu, X., Wang, X., Cowling, B., & Meyers, L. (2020). Risk of 2019 novel coronavirus importations throughout China prior to the Wuhan quarantine. In. https://doi.org/10.1101/2020.01.28.20019299.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.28.20019299",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.28.20019299",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.28.20019299"
+        },
+        {
+            "id": "Funk_et+al_2016_a",
+            "alt_id": "8",
+            "entry": "Funk, S., Camacho, A., Kucharski, A. J., Eggo, R. M., & Edmunds, W. J. (2016). Real-time forecasting of infectious disease dynamics with a stochastic semi-mechanistic model. Epidemics, 22, 56-61. doi:10.1016/j.epidem.2016.11.003",
+            "crossref": "https://dx.doi.org/10.1016/j.epidem.2016.11.003",
+            "scite": "https://scite.ai/reports/10.1016/j.epidem.2016.11.003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.epidem.2016.11.003"
+        },
+        {
+            "id": "For_2020_a",
+            "alt_id": "9",
+            "entry": "Johns Hopkins University Center for Systems Science and Engineering. (2020). 2019 Novel Coronavirus (nCoV) Data Repository. In. https://github.com/CSSEGISandData/2019-nCoV.",
+            "url": "https://github.com/CSSEGISandData/2019-nCoV",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Johns%20Hopkins%20University%20Center%20for%20Systems%20Science%20and%20Engineering%202020%202019%20Novel%20Coronavirus%20nCoV%20Data%20Repository%20In%20httpsgithubcomCSSEGISandData2019nCoV",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Johns%20Hopkins%20University%20Center%20for%20Systems%20Science%20and%20Engineering%202020%202019%20Novel%20Coronavirus%20nCoV%20Data%20Repository%20In%20httpsgithubcomCSSEGISandData2019nCoV"
+        },
+        {
+            "id": "Lai_et+al_2020_a",
+            "alt_id": "10",
+            "entry": "Lai, S., Bogoch, I., Ruktanonchai, N., Watts, A., Li, Y., Yu, J.,... Tatem, A. (2020). Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study. In.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lai%20S%20Bogoch%20I%20Ruktanonchai%20N%20Watts%20A%20Li%20Y%20Yu%20J%20Tatem%20A%202020%20Assessing%20spread%20risk%20of%20Wuhan%20novel%20coronavirus%20within%20and%20beyond%20China%20JanuaryApril%202020%20a%20travel%20networkbased%20modelling%20study%20In"
+        },
+        {
+            "id": "Li_et+al_2020_a",
+            "alt_id": "11",
+            "entry": "Li, Q., Guan, X., Wu, P., Wang, X., Zhou, L., Tong, Y.,... Feng, Z. (2020). Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. The New England Journal Of Medicine. doi:10.1056/NEJMoa2001316",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "Pell_et+al_2018_a",
+            "alt_id": "12",
+            "entry": "Pell, B., Kuang, Y., Viboud, C., & Chowell, G. (2018). Using phenomenological models for forecasting the 2015 Ebola challenge. Epidemics, 22, 62-70. doi:10.1016/j.epidem.2016.11.002",
+            "crossref": "https://dx.doi.org/10.1016/j.epidem.2016.11.002",
+            "scite": "https://scite.ai/reports/10.1016/j.epidem.2016.11.002",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.epidem.2016.11.002"
+        },
+        {
+            "id": "Read_et+al_2020_a",
+            "alt_id": "13",
+            "entry": "Read, J. M., Bridgen, J. R. E., Cummings, D. A. T., Ho, A., & Jewell, C. P. (2020). Novel coronavirus 2019nCoV: early estimation of epidemiological parameters and epidemic predictions. http://dx.doi.org/10.1101/2020.01.23.20018549.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.20018549",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.20018549"
+        },
+        {
+            "id": "Richards_1959_a",
+            "alt_id": "14",
+            "entry": "Richards, F. (1959). A flexible growth function for empirical use. Journal of Experimental Botany, 10(2), 290-301. doi:https://doi.org/10.1093/jxb/10.2.290",
+            "crossref": "https://dx.doi.org/10.1093/jxb/10.2.290",
+            "scite": "https://scite.ai/reports/10.1093/jxb/10.2.290",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/jxb/10.2.290"
+        },
+        {
+            "id": "Riou_2020_a",
+            "alt_id": "15",
+            "entry": "Riou, J., & Althaus, C. L. (2020). Pattern of early human-to-human transmission of Wuhan 2019-nCoV. In. https://doi.org/10.1101/2020.01.23.917351.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.917351",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.917351",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.23.917351"
+        },
+        {
+            "id": "Roosa_2019_a",
+            "alt_id": "16",
+            "entry": "Roosa, K., & Chowell, G. (2019). Assessing parameter identifiability in compartmental dynamic models using a computational approach: Application to infectious disease transmission models. Theoretical Biology and Medical Modelling, 16(1). doi:https://doi.org/10.1186/s12976-0180097-6",
+            "crossref": "https://dx.doi.org/10.1186/s12976-0180097-6",
+            "scite": "https://scite.ai/reports/10.1186/s12976-0180097-6",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1186/s12976-0180097-6"
+        },
+        {
+            "id": "Roosa_2020_a",
+            "alt_id": "17",
+            "entry": "Roosa, K., & Chowell, G. (2020). Coronavirus Incidence Forecasts. In. https://publichealth.gsu.edu/coronavirus/.",
+            "url": "https://publichealth.gsu.edu/coronavirus/",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Roosa%2C%20K.%20Chowell%2C%20G.%20Coronavirus%20Incidence%20Forecasts%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Roosa%2C%20K.%20Chowell%2C%20G.%20Coronavirus%20Incidence%20Forecasts%202020"
+        },
+        {
+            "id": "Shanafelt_et+al_2017_a",
+            "alt_id": "18",
+            "entry": "Shanafelt, D. W., Jones, G., Lima, M., Perrings, C., & Chowell, G. (2017). Forecasting the 2001 Foot-andMouth Disease Epidemic in the UK. Ecohealth. doi:10.1007/s10393-017-1293-2",
+            "crossref": "https://dx.doi.org/10.1007/s10393-017-1293-2",
+            "scite": "https://scite.ai/reports/10.1007/s10393-017-1293-2"
+        },
+        {
+            "id": "Steinbuch_2020_a",
+            "alt_id": "19",
+            "entry": "Steinbuch, Y. (2020). China opens second new hospital for coronavirus patients. New York Post. Retrieved from https://nypost.com/2020/02/06/china-opens-second-new-hospital-forcoronavirus-patients/",
+            "url": "https://nypost.com/2020/02/06/china-opens-second-new-hospital-forcoronavirus-patients/",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Steinbuch%2C%20Y.%20China%20opens%20second%20new%20hospital%20for%20coronavirus%20patients%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Steinbuch%2C%20Y.%20China%20opens%20second%20new%20hospital%20for%20coronavirus%20patients%202020"
+        },
+        {
+            "id": "Viboud_et+al_2016_a",
+            "alt_id": "20",
+            "entry": "Viboud, C., Simonsen, L., & Chowell, G. (2016). A generalized-growth model to characterize the early ascending phase of infectious disease outbreaks. Epidemics, 15, 27-37. doi:10.1016/j.epidem.2016.01.002",
+            "crossref": "https://dx.doi.org/10.1016/j.epidem.2016.01.002",
+            "scite": "https://scite.ai/reports/10.1016/j.epidem.2016.01.002",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.epidem.2016.01.002"
+        },
+        {
+            "id": "Wang_et+al_2012_a",
+            "alt_id": "21",
+            "entry": "Wang, X.-S., Wu, J., & Yang, Y. (2012). Richards model revisited: Validation by and application to infection dynamics. Journal of Theoretical Biology, 313, 12-19. doi:10.1016/j.jtbi.2012.07.024",
+            "crossref": "https://dx.doi.org/10.1016/j.jtbi.2012.07.024",
+            "scite": "https://scite.ai/reports/10.1016/j.jtbi.2012.07.024",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.jtbi.2012.07.024"
+        },
+        {
+            "id": "Organization_2020_a",
+            "alt_id": "22",
+            "entry": "World Health Organization. (2020). Novel Coronavirus (2019-nCoV) Situation Reports. In. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports.",
+            "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Organization%2C%20World%20Health%20Novel%20Coronavirus%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Organization%2C%20World%20Health%20Novel%20Coronavirus%202020"
+        },
+        {
+            "id": "World_2003_a",
+            "alt_id": "23",
+            "entry": "World Health Organization, W. (2003). Consensus document on the epidemiology of severe acute respiratory syndrome (SARS). In. https://who.int/csr/sars/en/WHOconsensus.pdf.",
+            "url": "https://who.int/csr/sars/en/WHOconsensus.pdf"
+        },
+        {
+            "id": "Wu_et+al_2020_a",
+            "alt_id": "24",
+            "entry": "Wu, J. T., Leung, K., & Leung, G. M. (2020). Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet. doi:10.1016/S0140-6736(20)30260-9",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9"
+        },
+        {
+            "id": "Zhang_et+al_2020_a",
+            "alt_id": "25",
+            "entry": "Zhang, R., Liu, H., Li, F., Zhang, B., Liu, Q., Li, X., & Luo, L. (2020). Transmission and epidemiological characteristics of Novel Coronavirus (2019-nCoV)-Infected Pneumonia(NCIP):preliminary evidence obtained in comparison with 2003-SARS. In. https://doi.org/10.1101/2020.01.30.20019836.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.30.20019836",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.30.20019836",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.30.20019836"
+        }
+    ],
+    "facts": [
+        "the 2019-nCoV epidemic was identified in Wuhan",
+        "While early cases of the disease were linked to a wet market",
+        "human-to-human transmission has driven the rapid spread of the virus throughout China",
+        "The ongoing outbreak presents a challenge for modelers",
+        "as limited data are available on the early growth trajectory",
+        "back to a cluster of severe pneumonia cases identified in Wuhan",
+        "Early cases of the disease have been linked to a live animal seafood market in Wuhan",
+        "302 confirmed cases imported in multiple countries",
+        "the total cases reported for the SARS outbreaks",
+        "The timing and location of the outbreak facilitated the rapid transmission of the virus",
+        "The short time-series is affected by irregularities",
+        "the observed reported curve is assumed to be the aggregate of multiple underlying sub-epidemics",
+        "each of the models is included in the Supplement",
+        "15 day ahead forecasts for Hubei",
+        "the daily short-term forecasts of cumulative case counts across dates as more data become available. Current cumulative reported case counts as",
+        "Model calibration Our results for Hubei province indicate that the parameter estimates for the",
+        "the p estimates from the GLM indicate that the epidemic growth in Hubei is close to exponential",
+        "the estimated growth rates for other provinces vary across models",
+        "the scaling and size parameters remain relatively stable across all dates",
+        "on the three models calibrated to data up until February 9",
+        "with the subepidemic model outperforming the other models in terms of the mean squared error",
+        "Parameter estimation results from the GLM consistently show that the epidemic growth is near exponential",
+        "the higher ranges on February 5th may indicate that more data are required to inform the parameters of the sub-epidemic model",
+        "reported curve is assumed to be the aggregate of multiple underlying sub-epidemics",
+        "with quantified uncertainty based on a generalized logistic growth model"
+    ],
+    "claims": [
+        "We provide 5, 10, and 15 day forecasts for five consecutive days: February 5th through February 9th, with quantified uncertainty based on a generalized logistic growth model, the Richards growth model, and a sub-epidemic wave model",
+        "Discussion In this report, we provide timely short-term forecasts of the cumulative number of reported cases of the 2019-nCoV epidemic in Hubei province and other provinces in China as of February 9, 2020"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "The ongoing epidemic of the novel coronavirus (2019-nCoV) is primarily affecting mainland China and can be traced back to a cluster of severe pneumonia cases identified in Wuhan, China in December 2019 (<a class=\"ref-link\" id=\"cLi_et+al_2020_a\" href=\"#rLi_et+al_2020_a\">Li et al, 2020</a>; World Health Organization, 2020)",
+        "Human-to-human transmission has driven its rapid spread with a total of 37,289 confirmed cases, including 813 deaths, in China and 302 confirmed cases imported in multiple countries as of February 9, 2020 (Chinese National Health Committee)",
+        "While the early transmission potential of this novel coronavirus appeared similar to that of severe acute respiratory syndrome (SARS) (<a class=\"ref-link\" id=\"cRiou_2020_a\" href=\"#rRiou_2020_a\">Riou & Althaus, 2020</a>), the current tally of the epidemic has already surpassed the total cases reported for the severe acute respiratory syndrome outbreaks in 2002-2003 (W",
+        "In this report, we provide timely short-term forecasts of the cumulative number of reported cases of the 2019-nCoV epidemic in Hubei province and other provinces in China as of February 9, 2020",
+        "Based on the three models calibrated to data up until February 9, 2020, we forecast a cumulative number of reported cases between 37,415 \u2013 38,028 in Hubei Province and 11,588 \u2013 13,499 in other provinces by February 24, 2020",
+        "Our models yield a good visual fit to the epidemic curves, based on residuals, with the subepidemic model outperforming the other models in terms of the mean squared error (MSE) (Supplemental Tables 1 & 2)",
+        "Parameter estimation results from the GLM consistently show that the epidemic growth is near exponential in Hubei and sub-exponential in other provinces",
+        "The sub-epidemic model predicts similar ranges to the other models for subsequent dates, so the higher ranges on February 5th may indicate that more data are required to inform the parameters of the sub-epidemic model"
+    ],
+    "top_statements": [
+        "The ongoing epidemic of the novel coronavirus (2019-nCoV) is primarily affecting mainland China and can be traced back to a cluster of severe pneumonia cases identified in Wuhan, China in December 2019 (<a class=\"ref-link\" id=\"cLi_et+al_2020_a\" href=\"#rLi_et+al_2020_a\">Li et al, 2020</a>; World Health Organization, 2020)",
+        "Human-to-human transmission has driven its rapid spread with a total of 37,289 confirmed cases, including 813 deaths, in China and 302 confirmed cases imported in multiple countries as of February 9, 2020 (Chinese National Health Committee)",
+        "While the early transmission potential of this novel coronavirus appeared similar to that of severe acute respiratory syndrome (SARS) (<a class=\"ref-link\" id=\"cRiou_2020_a\" href=\"#rRiou_2020_a\">Riou & Althaus, 2020</a>), the current tally of the epidemic has already surpassed the total cases reported for the severe acute respiratory syndrome outbreaks in 2002-2003 (W",
+        "Our models yield a good visual fit to the epidemic curves, based on residuals, with the subepidemic model outperforming the other models in terms of the mean squared error (MSE) (Supplemental Tables 1 & 2)",
+        "The sub-epidemic model predicts similar ranges to the other models for subsequent dates, so the higher ranges on February 5th may indicate that more data are required to inform the parameters of the sub-epidemic model"
+    ],
+    "headline": "Our models yield a good visual fit to the epidemic curves, based on residuals, with the subepidemic model outperforming the other models in terms of the mean squared error",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "severe acute respiratory syndrome",
+        "MSE": "mean squared error"
+    }
+}

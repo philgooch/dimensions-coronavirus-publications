@@ -1,0 +1,342 @@
+{
+    "filename": "atm.2020.02.66.pdf",
+    "content_type": "text/html",
+    "file_size": 0,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.21037/atm.2020.02.66",
+            "url": "https://dx.doi.org/10.21037/atm.2020.02.66"
+        },
+        "doi": "36613",
+        "title": "Early estimation of the case fatality rate of COVID-19 in mainland China: a data-driven analysis",
+        "date": 2020,
+        "affiliations": [
+            "China and National Health Commission of China from January 10, 2020 to February 3, 2020 to construct a real-time database. Because the virus detection rates and the healthcare resources may differ in different regions, we further divided the database into three clusters: Wuhan city, Hubei province (except Wuhan), and mainland China (except Hubei province). Overseas data were not included in our estimation of CFR due to the small number of confirmed cases and only one death occurred (14)."
+        ],
+        "journal": "Annals of Translational Medicine",
+        "volume": "8",
+        "abstract": "Methods: In this study, we used a purely data-driven statistical method to estimate the CFR in the early phase of the COVID-19 outbreak. Daily numbers of laboratory-confirmed COVID-19 cases and deaths were collected from January 10 to February 3, 2020 and divided into three clusters: Wuhan city, other cities of Hubei province, and other provinces of mainland China. Simple linear regression model was applied to estimate the CFR from each cluster.",
+        "links": [
+            "https://www.who.int/docs/default-source/coronaviruse/transcripts/who-audio-script-ncov-rresser-unog-29jan2020.pdf?sfvrsn=a7158807_4"
+        ],
+        "author": "Shu Yang, on behalf of COVID-19 evidence and recommendations working group, Peihua Cao, Peipei Du, Ziting Wu, Zian Zhuang, Lin Yang, Xuan Yu, Qi Zhou, Xixi Feng, Xiaohui Wang, Weiguo Li, Enmei Liu, Ju Chen, Yaolong Chen, Daihai He",
+        "pages": "128-128",
+        "references": "",
+        "references_ris": "",
+        "author_conclusions": [
+            "In summary, our estimates of CFR, ranging from 0.15% (95% CI: 0.12\u20130.18%) in mainland China excluding Hubei through 1.41% (95% CI: 1.38\u20131.45%) in other cities of Hubei province to 5.25% (95% CI: 4.98\u20135.51%) of Wuhan, indicate that the fatality caused by COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV (CFR: 9.6% globally and 6.4% in mainland China) (10,11) and MERS-CoV (CFR: 34.5% worldwide and 37.1% in Saudi Arabia) (12,13)."
+        ],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "2",
+                "caption": "The exponential growth fitting for Wuhan before (A) and after (B) January 26, 2020"
+            }
+        ]
+    },
+    "sections": {
+        "background": [
+            "An ongoing outbreak of pneumonia caused by a novel coronavirus [severe acute respiratory syndrome coronavirus (SARS-CoV)-2], named COVID-19, hit a major city of China, Wuhan in December 2019 and subsequently spread to other provinces/regions of China and overseas. Several studies have been done to estimate the basic reproduction number in the early phase of this outbreak, yet there are no reliable estimates of case fatality rate (CFR) for COVID-19 to date."
+        ],
+        "methods": [
+            "In this study, we used a purely data-driven statistical method to estimate the CFR in the early phase of the COVID-19 outbreak. Daily numbers of laboratory-confirmed COVID-19 cases and deaths were collected from January 10 to February 3, 2020 and divided into three clusters: Wuhan city, other cities of Hubei province, and other provinces of mainland China. Simple linear regression model was applied to estimate the CFR from each cluster.",
+            "Sources of data<br/><br/>We collected the daily number of laboratory-confirmed COVID-19 cases and the daily number of COVID-19 deaths released by Wuhan Municipal Health Commission, China and National Health Commission of China from January 10, 2020 to February 3, 2020 to construct a real-time database. Because the virus detection rates and the healthcare resources may differ in different regions, we further divided the database into three clusters: Wuhan city, Hubei province (except Wuhan), and mainland China (except Hubei province). Overseas data were not included in our estimation of CFR due to the small number of confirmed cases and only one death occurred (14).<br/><br/>Statistical model<br/><br/>Simple linear regression model was applied to estimate the CFR during the observation period in each cluster. We used cumulative number of laboratory-confirmed cases as predictor variable and cumulative deaths as outcome variable. The slope of the fitted line can be used as an estimate of the CFR, and the confidence interval of CFR can be calculated from the standard error of the slope. The impacts of patients\u2019 incubation time, duration of disease, hospitalization time and other factors can be filtered by the intercept of the fitted line without changing the slope. We also modelled the epidemic curve obeying the exponential growth as comparison. In order to avoid the influence on the CFR estimation in the initial stage of outbreak when no illness or death occurred, the time of reporting the first case of death was used as the starting point for modeling in each cluster."
+        ],
+        "results": [
+            "We estimated that CFR during the first weeks of the epidemic ranges from 0.15% (95% CI: 0.12\u20130.18%) in mainland China excluding Hubei through 1.41% (95% CI: 1.38\u20131.45%) in Hubei province excluding the city of Wuhan to 5.25% (95% CI: 4.98\u20135.51%) in Wuhan.",
+            "The simple linear fitting results are shown in Figure 1. The coefficient of determination, R-squared, ranged from 0.912 to 0.999 for all clusters, which implies that the early epidemic data of laboratory-confirmed cases and deaths were largely following the linear trend. As expected, the estimated CFR of COVID-19 in Wuhan was the highest, with an overall CFR of 5.25% (95% CI: 4.98\u20135.51%) (Figure 1A). As shown in the figure, two different trends appeared before and after January 26, 2020. Prior to January 26, 2020, the slope (CFR) gradually increased, while it slightly decreased afterwards. We further modelled the epidemic curve obeying the exponential growth for the time periods before and after January 26 separately. The goodness of fitting for both time periods improved compared with the linear model, with R-squared of 0.995 and 0.997, respectively (Figure 2)."
+        ],
+        "conclusions": [
+            "Our early estimates suggest that the CFR of COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV)."
+        ],
+        "introduction": [
+            "On December 31, 2019, the discovery of a novel coronavirus (SARS-CoV-2)-infected pneumonia (COVID-19) in Wuhan, China, was reported to the World Health Organization (WHO) and has caused serious illness and death (1). The symptoms of COVID-19 included fever, cough, shortness of breath, and occasionally watery diarrhea (2). As of February 3rd, 2020 (8:00 PM, GMT+8), 17,238 cases of COVID-19 infections and 361 deaths have been confirmed in mainland China (3).<br/><br/>In the 21st century, two highly pathogenic human coronaviruses, the severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV), have caused global epidemics with more than 10,000 cumulative cases in the past two decades (4,5). Of significant concern is the pandemic potential of the virus, as well as its transmission dynamics. The basic reproduction number (R0) and best estimates of case-fatality rates (CFR) are two key parameters to understand the basic epidemiological features of the outbreak (6). Although several studies have been done to estimate the basic reproduction number in the early phase of this outbreak, there is still lack of reliable estimates of CFR for COVID-19 to date (7-9). The global epidemic of the 2002-2003 SARS outbreak was reported to have an estimated CFR of 9.6% globally and a considerably lower CFR of 6.4% in mainland China, while the MERS outbreak was estimated to have a much higher CFR of 34.5% worldwide and 37.1% in Saudi Arabia (10-13). Therefore, it is of great significance for clinicians and public health practitioners to implement efficient and effective disease control interventions."
+        ],
+        "discussion": [
+            "<strong>Discussion and Conclusions</strong><br/><br/>In the early phase of the COVID-19 outbreak, the detection rate of mild patients was low in Wuhan, only patients with serious conditions could be confirmed due to hospitalization. Therefore, the case fatality rate (CFR) has been increasing over time, resulting in a high overall estimate of 5.25% (95% CI: 4.98\u20135.51%). Subsequently, a large number of new cases were detected from January 27 onwards due to the improved the efficiency of detection in Wuhan. Thereafter the CFR has gradually decreased, but it is still the highest in the country, indicating that the pressure of epidemic prevention and control and clinical treatment in Wuhan are still very high.<br/><br/>The Hubei province (except Wuhan) has an estimated CFR of 1.41% (95% CI: 1.38\u20131.45%). Based on our estimate of the confidence interval, the CFR in this cluster will be less than 1.5%. We predict that the CFR level in Hubei province (except Wuhan) will be maintained in the near future if there are no major changes in detection methods, healthcare resources, clinical treatment, and other factors. The cluster of mainland China (except Hubei province) still has a decreasing trend in CFR with an estimate of 0.15% (95% CI: 0.12\u20130.18%), clearly lower than Hubei. Since the epidemic situation in Wuhan has been further aggravated, the Chinese Government has implemented metropolitan-wide quarantine of Wuhan and several nearby cities from January 23, 2020 (15). Considering the initial spread of the epidemic outside Hubei province, the state and local governments at all levels have paid enough attention and adopted strong control measures. Numerous domestic airports and train stations have adopted temperature screening measures to detect passengers with fever. Individuals from Hubei province will be quarantined and further observed. Thus, the estimated CFR in regions other than Hubei province, where efficient detection and timely treatment can be guaranteed by sufficient healthcare resources, is more likely to be closer to the true value of clinical treatment prognosis estimates of COVID-19. Our estimate of CFR for whole mainland China, which is 2.10% (95% CI: 2.05\u20132.14%), is consistent with the tentative estimate of 2% for CFR in a preliminary estimation (16)."
+        ],
+        "acknowledgments": [
+            "We are extremely thankful to Janne Estill for his comments and revisions on earlier drafts of our paper."
+        ],
+        "funding": [
+            "This study was supported by National Natural Science Foundation of China (Grant Number 81903406, 81804222), China Postdoctoral Science Foundation (Grant Number 2017M620378), 2020 Key R & D project of Gansu Province, China (Reference Number 2020001), and General Research Fund (Grant Number 15205119) of the Research Grants Council (RGC) of Hong Kong, China.  Footnote"
+        ],
+        "disclosures": [
+            "The authors have no conflicts of interest to declare."
+        ],
+        "ethical_compliance": [
+            "The authors are accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. The ethical approval or individual consent was not applicable.<br/><br/>Zhao S, Musa SS, Lin Q, et al Estimating the Unreported Number of Novel Coronavirus (2019-nCoV) Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak. J Clin Med 2020. [Crossref] [PubMed]<br/><br/>World Health Organization. Update on the situation regarding the new coronavirus. Available online: . January 29, 2020.https://www.who.int/docs/default-source/coronaviruse/transcripts/who-audio-script-ncov-rresser-unog-29jan2020.pdf?sfvrsn=a7158807_4"
+        ],
+        "limitations": [
+            "Our study is still subject to limitations. First, the cumulative number of confirmed cases and the cumulative number of deaths we employed in our study are monotonic over time, resulting in generating generally higher R-squared in linear fitting models. Therefore, we also did exponential curve fitting and also obtained very high goodness of fitting. These curves can be used for studying the future trend of CFR. Second, our study is a statistical analysis of the data explaining the early epidemic of COVID-19, with only limited ability to predict what the CFR will finally be. Considering the ongoing national and global outbreaks of COVID-19, the CFR of the outbreak could change at the later stage. It is challenging but worth trying to estimate the CFR in the early phase to provide information for successful control on the COVID-19."
+        ]
+    },
+    "structured_content": {
+        "Methods": [
+            "We collected the daily number of laboratory-confirmed COVID-19 cases and the daily number of COVID-19 deaths released by Wuhan Municipal Health Commission, China and National Health Commission of China from January 10, 2020 to February 3, 2020 to construct a real-time database. Because the virus detection rates and the healthcare resources may differ in different regions, we further divided the database into three clusters: Wuhan city, Hubei province (except Wuhan), and mainland China (except Hubei province). Overseas data were not included in our estimation of CFR due to the small number of confirmed cases and only one death occurred (14).",
+            "Simple linear regression model was applied to estimate the CFR during the observation period in each cluster. We used cumulative number of laboratory-confirmed cases as predictor variable and cumulative deaths as outcome variable. The slope of the fitted line can be used as an estimate of the CFR, and the confidence interval of CFR can be calculated from the standard error of the slope. The impacts of patients\u2019 incubation time, duration of disease, hospitalization time and other factors can be filtered by the intercept of the fitted line without changing the slope. We also modelled the epidemic curve obeying the exponential growth as comparison. In order to avoid the influence on the CFR estimation in the initial stage of outbreak when no illness or death occurred, the time of reporting the first case of death was used as the starting point for modeling in each cluster."
+        ],
+        "Results": [
+            "The simple linear fitting results are shown in Figure 1. The coefficient of determination, R-squared, ranged from 0.912 to 0.999 for all clusters, which implies that the early epidemic data of laboratory-confirmed cases and deaths were largely following the linear trend. As expected, the estimated CFR of COVID-19 in Wuhan was the highest, with an overall CFR of 5.25% (95% CI: 4.98\u20135.51%) (Figure 1A). As shown in the figure, two different trends appeared before and after January 26, 2020. Prior to January 26, 2020, the slope (CFR) gradually increased, while it slightly decreased afterwards. We further modelled the epidemic curve obeying the exponential growth for the time periods before and after January 26 separately. The goodness of fitting for both time periods improved compared with the linear model, with R-squared of 0.995 and 0.997, respectively (Figure 2).",
+            "Hubei province (except Wuhan) has the best goodness of linear fitting, with R-squared of 0.999 and CFR of 1.41% (95% CI: 1.38\u20131.45%) (Figure 1B). The linear fitting result for mainland China (except Hubei province) is not as effective as previous two clusters, with R-squared of 0.912 (Figure 1C). The estimate of CFR was 0.15% (95% CI: 0.12\u20130.18%), which is the lowest among three clusters. An exponential curve fitting for this cluster generated a better R-squared of 0.992 (Figure 3). We also applied the linear model to fit the epidemic data of whole mainland China. The estimated CFR is 2.10% (95% CI: 2.05\u20132.14%) and R-squared is 0.997 (Figure 1D)."
+        ],
+        "Conclusions": [
+            "Our early estimates suggest that the CFR of COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV)."
+        ],
+        "Introduction": [
+            "On December 31, 2019, the discovery of a novel coronavirus (SARS-CoV-2)-infected pneumonia (COVID-19) in Wuhan, China, was reported to the World Health Organization (WHO) and has caused serious illness and death (1). The symptoms of COVID-19 included fever, cough, shortness of breath, and occasionally watery diarrhea (2). As of February 3rd, 2020 (8:00 PM, GMT+8), 17,238 cases of COVID-19 infections and 361 deaths have been confirmed in mainland China (3).",
+            "In the 21st century, two highly pathogenic human coronaviruses, the severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV), have caused global epidemics with more than 10,000 cumulative cases in the past two decades (4,5). Of significant concern is the pandemic potential of the virus, as well as its transmission dynamics. The basic reproduction number (R0) and best estimates of case-fatality rates (CFR) are two key parameters to understand the basic epidemiological features of the outbreak (6). Although several studies have been done to estimate the basic reproduction number in the early phase of this outbreak, there is still lack of reliable estimates of CFR for COVID-19 to date (7-9). The global epidemic of the 2002-2003 SARS outbreak was reported to have an estimated CFR of 9.6% globally and a considerably lower CFR of 6.4% in mainland China, while the MERS outbreak was estimated to have a much higher CFR of 34.5% worldwide and 37.1% in Saudi Arabia (10-13). Therefore, it is of great significance for clinicians and public health practitioners to implement efficient and effective disease control interventions.",
+            "In this study, we aim to estimate the CFR of COVID-19 during the first weeks of the epidemic by employing the cumulative number of confirmed cases and deaths through a simple linear regression model."
+        ],
+        "Discussion and Conclusions": [
+            "In the early phase of the COVID-19 outbreak, the detection rate of mild patients was low in Wuhan, only patients with serious conditions could be confirmed due to hospitalization. Therefore, the case fatality rate (CFR) has been increasing over time, resulting in a high overall estimate of 5.25% (95% CI: 4.98\u20135.51%). Subsequently, a large number of new cases were detected from January 27 onwards due to the improved the efficiency of detection in Wuhan. Thereafter the CFR has gradually decreased, but it is still the highest in the country, indicating that the pressure of epidemic prevention and control and clinical treatment in Wuhan are still very high.",
+            "The Hubei province (except Wuhan) has an estimated CFR of 1.41% (95% CI: 1.38\u20131.45%). Based on our estimate of the confidence interval, the CFR in this cluster will be less than 1.5%. We predict that the CFR level in Hubei province (except Wuhan) will be maintained in the near future if there are no major changes in detection methods, healthcare resources, clinical treatment, and other factors. The cluster of mainland China (except Hubei province) still has a decreasing trend in CFR with an estimate of 0.15% (95% CI: 0.12\u20130.18%), clearly lower than Hubei. Since the epidemic situation in Wuhan has been further aggravated, the Chinese Government has implemented metropolitan-wide quarantine of Wuhan and several nearby cities from January 23, 2020 (15). Considering the initial spread of the epidemic outside Hubei province, the state and local governments at all levels have paid enough attention and adopted strong control measures. Numerous domestic airports and train stations have adopted temperature screening measures to detect passengers with fever. Individuals from Hubei province will be quarantined and further observed. Thus, the estimated CFR in regions other than Hubei province, where efficient detection and timely treatment can be guaranteed by sufficient healthcare resources, is more likely to be closer to the true value of clinical treatment prognosis estimates of COVID-19. Our estimate of CFR for whole mainland China, which is 2.10% (95% CI: 2.05\u20132.14%), is consistent with the tentative estimate of 2% for CFR in a preliminary estimation (16).",
+            "In this study, we provide a purely data-driven statistical method to estimate the CFR in the early phase of the COVID-19 outbreak. Compared to dynamic transmission models, our model is simple and does not require complex parameter assumptions. The model fitting efficiency is high and the estimation of confidence interval is accurate in the early phase of the outbreak. Similar model was previously implemented to give future population projections and we employed it for the first time to estimate CFR (17). To our knowledge, this is by far the most comprehensive estimation for the CFR of the COVID-19 jointly completed by a multidisciplinary team, including respiratory physicians, statisticians, epidemiologists, and evidence-based medicine experts. Our findings could be used to inform guideline development, systematic review and knowledge translation programs (18-20).",
+            "The CFR of the same disease varies greatly in different countries or even different regions of the same country, and will be affected by numerous factors such as health control policies, medical standards, and detection efficiency. In view of the regional differences in distribution of factors that may affect the estimation of CFR, it is our strength to estimate the CFR in three separate clusters of China to provide more practical and referential importance. Taking into account that the vast majority of COVID-19 infections occur in China, we believe that the results of this study are more in line with the actual situation. Nonetheless, our study is still subject to limitations. First, the cumulative number of confirmed cases and the cumulative number of deaths we employed in our study are monotonic over time, resulting in generating generally higher R-squared in linear fitting models. Therefore, we also did exponential curve fitting and also obtained very high goodness of fitting. These curves can be used for studying the future trend of CFR. Second, our study is a statistical analysis of the data explaining the early epidemic of COVID-19, with only limited ability to predict what the CFR will finally be. Considering the ongoing national and global outbreaks of COVID-19, the CFR of the outbreak could change at the later stage. It is challenging but worth trying to estimate the CFR in the early phase to provide information for successful control on the COVID-19.",
+            "In summary, our estimates of CFR, ranging from 0.15% (95% CI: 0.12\u20130.18%) in mainland China excluding Hubei through 1.41% (95% CI: 1.38\u20131.45%) in other cities of Hubei province to 5.25% (95% CI: 4.98\u20135.51%) of Wuhan, indicate that the fatality caused by COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV (CFR: 9.6% globally and 6.4% in mainland China) (10,11) and MERS-CoV (CFR: 34.5% worldwide and 37.1% in Saudi Arabia) (12,13)."
+        ],
+        "Acknowledgments": [
+            "We are extremely thankful to Janne Estill for his comments and revisions on earlier drafts of our paper.",
+            "Funding: This study was supported by National Natural Science Foundation of China (Grant Number 81903406, 81804222), China Postdoctoral Science Foundation (Grant Number 2017M620378), 2020 Key R & D project of Gansu Province, China (Reference Number 2020001), and General Research Fund (Grant Number 15205119) of the Research Grants Council (RGC) of Hong Kong, China.",
+            "Conflicts of Interest: The authors have no conflicts of interest to declare.",
+            "Ethics Statement: The authors are accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. The ethical approval or individual consent was not applicable.",
+            "Zhao S, Musa SS, Lin Q, et al Estimating the Unreported Number of Novel Coronavirus (2019-nCoV) Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak. J Clin Med 2020. [Crossref] [PubMed]",
+            "World Health Organization. Update on the situation regarding the new coronavirus. Available online: . January 29, 2020.https://www.who.int/docs/default-source/coronaviruse/transcripts/who-audio-script-ncov-rresser-unog-29jan2020.pdf?sfvrsn=a7158807_4"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 17238,
+            "context": "The symptoms of COVID-19 included fever, cough, shortness of breath, and occasionally watery diarrhea (2). <mark class=\"stats\">As of February 3rd, 2020 (8:00 PM, GMT+8), 17,238 cases of COVID-19 infections and 361 deaths have been confirmed in mainland China (3)</mark>. In the 21st century, two highly pathogenic human coronaviruses, the severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV), have caused global epidemics with more than 10,000 cumulative cases in the past two decades (4,5)"
+        },
+        {
+            "participant": "cumulative cases",
+            "number": 10000,
+            "context": "As of February 3rd, 2020 (8:00 PM, GMT+8), 17,238 cases of COVID-19 infections and 361 deaths have been confirmed in mainland China (3). <mark class=\"stats\">In the 21st century, two highly pathogenic human coronaviruses, the severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV), have caused global epidemics with more than 10,000 cumulative cases in the past two decades (4,5)</mark>. Of significant concern is the pandemic potential of the virus, as well as its transmission dynamics"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Simple linear regression model was applied to estimate the CFR from each cluster</mark>",
+                "tests": [
+                    {
+                        "test": "linear regression"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Overseas data were not included in our estimation of CFR due to the small number of confirmed cases and only one death occurred (14).<br/><br/>Statistical model<br/><br/>Simple linear regression model was applied to estimate the CFR during the observation period in each cluster</mark>",
+                "tests": [
+                    {
+                        "test": "linear regression"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Simple linear regression model was applied to estimate the CFR during the observation period in each cluster</mark>",
+                "tests": [
+                    {
+                        "test": "linear regression"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The goodness of fitting for both time periods improved compared with the linear model, with R-squared of 0.995 and 0.997, respectively (Figure 2)</mark>",
+                "tests": [
+                    {
+                        "test": "linear model",
+                        "value": "0.995"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We also applied the linear model to fit the epidemic data of whole mainland China</mark>",
+                "tests": [
+                    {
+                        "test": "linear model"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "World Health Organization",
+        "SARS",
+        "coronavirus",
+        "epidemics",
+        "mers cov",
+        "basic reproduction number",
+        "middle east respiratory syndrome coronavirus",
+        "hubei province",
+        "pneumonia",
+        "sars cov",
+        "reliable estimate",
+        "novel coronavirus",
+        "severe acute respiratory syndrome coronavirus",
+        "early phase",
+        "global epidemic",
+        "COVID-19",
+        "mainland china",
+        "case-fatality rates",
+        "case fatality rate",
+        "Research Grants Council"
+    ],
+    "keyword_relevance": {
+        "case-fatality rates": 0.39473684210526316,
+        "COVID-19": 0.19298245614035087,
+        "coronavirus": 0.09649122807017543,
+        "early phase": 0.06140350877192982,
+        "SARS": 0.05263157894736842,
+        "World Health Organization": 0.02631578947368421,
+        "epidemics": 0.02631578947368421,
+        "basic reproduction number": 0.02631578947368421,
+        "pneumonia": 0.017543859649122806,
+        "reliable estimate": 0.017543859649122806,
+        "novel coronavirus": 0.017543859649122806,
+        "severe acute respiratory syndrome coronavirus": 0.017543859649122806,
+        "global epidemic": 0.017543859649122806,
+        "case fatality rate": 0.017543859649122806,
+        "Research Grants Council": 0.017543859649122806,
+        "mers cov": 0.0,
+        "middle east respiratory syndrome coronavirus": 0.0,
+        "hubei province": 0.0,
+        "sars cov": 0.0,
+        "mainland china": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> On December 31, 2019, the discovery of a novel coronavirus (SARS-CoV-2)-infected pneumonia (COVID-19) in Wuhan, China, was reported to the World Health Organization (WHO) and has caused serious illness and death (1).",
+        "The global epidemic of the 2002-2003 SARS outbreak was reported to have an estimated CFR of 9.6% globally and a considerably lower CFR of 6.4% in mainland China, while the MERS outbreak was estimated to have a much higher CFR of 34.5% worldwide and 37.1% in Saudi Arabia (10-13)",
+        "It is of great significance for clinicians and public health practitioners to implement efficient and effective disease control interventions.",
+        "Several studies have been done to estimate the basic reproduction number in the early phase of this outbreak, yet there are no reliable estimates of case fatality rate (CFR) for COVID-19 to date",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors used a purely data-driven statistical method to estimate the CFR in the early phase of the COVID-19 outbreak.",
+        "Numbers of laboratory-confirmed COVID-19 cases and deaths were collected from January 10 to February 3, 2020 and divided into three clusters: Wuhan city, other cities of Hubei province, and other provinces of mainland China.",
+        "Simple linear regression model was applied to estimate the CFR from each cluster.",
+        "Simple linear regression model was applied to estimate the CFR during the observation period in each cluster.",
+        "In order to avoid the influence on the CFR estimation in the initial stage of outbreak when no illness or death occurred, the time of reporting the first case of death was used as the starting point for modeling in each cluster",
+        "<h2 style=\"display: inline\">Results:</h2> The authors estimated that CFR during the first weeks of the epidemic ranges from 0.15% (95% CI: 0.12\u20130.18%) in mainland China excluding Hubei through 1.41% (95% CI: 1.38\u20131.45%) in Hubei province excluding the city of Wuhan to 5.25% (95% CI: 4.98\u20135.51%) in Wuhan.",
+        "The authors further modelled the epidemic curve obeying the exponential growth for the time periods before and after January 26 separately.",
+        "The goodness of fitting for both time periods improved compared with the linear model, with R-squared of 0.995 and 0.997, respectively (Figure 2)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> <strong>Discussion and Conclusions</strong><br/><br/>In the early phase of the COVID-19 outbreak, the detection rate of mild patients was low in Wuhan, only patients with serious conditions could be confirmed due to hospitalization.",
+        "The cluster of mainland China still has a decreasing trend in CFR with an estimate of 0.15% (95% CI: 0.12\u20130.18%), clearly lower than Hubei.",
+        "Considering the initial spread of the epidemic outside Hubei province, the state and local governments at all levels have paid enough attention and adopted strong control measures.",
+        "The estimated CFR in regions other than Hubei province, where efficient detection and timely treatment can be guaranteed by sufficient healthcare resources, is more likely to be closer to the true value of clinical treatment prognosis estimates of COVID-19.",
+        "The authors' estimate of CFR for whole mainland China, which is 2.10% (95% CI: 2.05\u20132.14%), is consistent with the tentative estimate of 2% for CFR in a preliminary estimation (16).The authors' early estimates suggest that the CFR of COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV)"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "On December 31, 2019, the discovery of a novel coronavirus (SARS-CoV-2)-infected pneumonia (COVID-19) in Wuhan, China, was reported to the World Health Organization (WHO) and has caused serious illness and death (1).",
+            "The global epidemic of the 2002-2003 SARS outbreak was reported to have an estimated CFR of 9.6% globally and a considerably lower CFR of 6.4% in mainland China, while the MERS outbreak was estimated to have a much higher CFR of 34.5% worldwide and 37.1% in Saudi Arabia (10-13)",
+            "It is of great significance for clinicians and public health practitioners to implement efficient and effective disease control interventions.",
+            "Several studies have been done to estimate the basic reproduction number in the early phase of this outbreak, yet there are no reliable estimates of case fatality rate (CFR) for COVID-19 to date"
+        ],
+        "Methods": [
+            "The authors used a purely data-driven statistical method to estimate the CFR in the early phase of the COVID-19 outbreak.",
+            "Numbers of laboratory-confirmed COVID-19 cases and deaths were collected from January 10 to February 3, 2020 and divided into three clusters: Wuhan city, other cities of Hubei province, and other provinces of mainland China.",
+            "Simple linear regression model was applied to estimate the CFR from each cluster.",
+            "Simple linear regression model was applied to estimate the CFR during the observation period in each cluster.",
+            "In order to avoid the influence on the CFR estimation in the initial stage of outbreak when no illness or death occurred, the time of reporting the first case of death was used as the starting point for modeling in each cluster"
+        ],
+        "Results": [
+            "The authors estimated that CFR during the first weeks of the epidemic ranges from 0.15% (95% CI: 0.12\u20130.18%) in mainland China excluding Hubei through 1.41% (95% CI: 1.38\u20131.45%) in Hubei province excluding the city of Wuhan to 5.25% (95% CI: 4.98\u20135.51%) in Wuhan.",
+            "The authors further modelled the epidemic curve obeying the exponential growth for the time periods before and after January 26 separately.",
+            "The goodness of fitting for both time periods improved compared with the linear model, with R-squared of 0.995 and 0.997, respectively (Figure 2)"
+        ],
+        "Conclusion": [
+            "<strong>Discussion and Conclusions</strong><br/><br/>In the early phase of the COVID-19 outbreak, the detection rate of mild patients was low in Wuhan, only patients with serious conditions could be confirmed due to hospitalization.",
+            "The cluster of mainland China still has a decreasing trend in CFR with an estimate of 0.15% (95% CI: 0.12\u20130.18%), clearly lower than Hubei.",
+            "Considering the initial spread of the epidemic outside Hubei province, the state and local governments at all levels have paid enough attention and adopted strong control measures.",
+            "The estimated CFR in regions other than Hubei province, where efficient detection and timely treatment can be guaranteed by sufficient healthcare resources, is more likely to be closer to the true value of clinical treatment prognosis estimates of COVID-19.",
+            "The authors' estimate of CFR for whole mainland China, which is 2.10% (95% CI: 2.05\u20132.14%), is consistent with the tentative estimate of 2% for CFR in a preliminary estimation (16).The authors' early estimates suggest that the CFR of COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV)"
+        ]
+    },
+    "reference_links": [],
+    "facts": [
+        "Daily numbers of laboratory-confirmed COVID-19 cases and deaths were collected from January 10 to February 3",
+        "361 deaths have been confirmed in mainland China",
+        "Of significant concern is the pandemic potential of the virus",
+        "An ongoing outbreak of pneumonia caused by a novel coronavirus",
+        "the daily number of COVID-19 deaths released by Wuhan Municipal Health Commission",
+        "the healthcare resources may differ in different regions",
+        "Overseas data were not included in our estimation of CFR",
+        "The slope of the fitted line can be used as an estimate of the CFR",
+        "the confidence interval of CFR can be calculated from the standard error of the slope",
+        "other factors can be filtered by the intercept of the fitted line",
+        "the epidemic curve obeying the exponential growth as comparison",
+        "In order to avoid the influence on the CFR estimation in the initial stage",
+        "the first case of death was used as the starting point",
+        "that CFR during the first weeks of the epidemic ranges from 0.15% in mainland China excluding Hubei",
+        "through 1.41% in Hubei province excluding the city of Wuhan to 5.25%",
+        "The simple linear fitting results are shown in Figure 1",
+        "which implies that the early epidemic data of laboratory-confirmed cases and deaths were largely following the linear trend",
+        "the epidemic curve obeying the exponential growth for the time periods",
+        "for both time periods improved compared with the linear model",
+        "the detection rate of mild patients was low in Wuhan",
+        "the case fatality rate has been increasing over time",
+        "a large number of new cases were detected from January 27",
+        "the CFR in this cluster will be less than 1.5%",
+        "that the CFR level in Hubei province will be maintained in the near future",
+        "timely treatment can be guaranteed by sufficient healthcare resources",
+        "likely to be closer to the true value of clinical treatment prognosis estimates",
+        "Our early estimates suggest that the CFR of COVID-19 is lower than the previous coronavirus epidemics caused by",
+        "Numbers of laboratory-confirmed COVID-19 cases and deaths were collected from January 10 to February 3"
+    ],
+    "claims": [
+        "We also modelled the epidemic curve obeying the exponential growth as comparison",
+        "We further modelled the epidemic curve obeying the exponential growth for the time periods before and after January 26 separately",
+        "In this study, we provide a purely data-driven statistical method to estimate the CFR in the early phase of the COVID-19 outbreak"
+    ],
+    "findings": [
+        "Results: We estimated that CFR during the first weeks of the epidemic ranges from 0.15% (95% CI: 0.12\u20130.18%) in mainland China excluding Hubei through 1.41% (95% CI: 1.38\u20131.45%) in Hubei province excluding the city of Wuhan to 5.25% (95% CI: 4.98\u20135.51%) in Wuhan",
+        "As expected, the estimated CFR of COVID-19 in Wuhan was the highest, with an overall CFR of 5.25% (95% CI: 4.98\u20135.51%) (Figure 1A)",
+        "Hubei province (except Wuhan) has the best goodness of linear fitting, with R-squared of 0.999 and CFR of 1.41% (95% CI: 1.38\u20131.45%) (Figure 1B)",
+        "The estimate of CFR was 0.15% (95% CI: 0.12\u20130.18%), which is the lowest among three clusters",
+        "The estimated CFR is 2.10% (95% CI: 2.05\u20132.14%) and R-squared is 0.997 (Figure 1D)",
+        "The case fatality rate (CFR) has been increasing over time, resulting in a high overall estimate of 5.25% (95% CI: 4.98\u20135.51%)",
+        "The Hubei province (except Wuhan) has an estimated CFR of 1.41% (95% CI: 1.38\u20131.45%)",
+        "The cluster of mainland China (except Hubei province) still has a decreasing trend in CFR with an estimate of 0.15% (95% CI: 0.12\u20130.18%), clearly lower than Hubei",
+        "Our estimate of CFR for whole mainland China, which is 2.10% (95% CI: 2.05\u20132.14%), is consistent with the tentative estimate of 2% for CFR in a preliminary estimation (16)",
+        "Our estimates of CFR, ranging from 0.15% (95% CI: 0.12\u20130.18%) in mainland China excluding Hubei through 1.41% (95% CI: 1.38\u20131.45%) in other cities of Hubei province to 5.25% (95% CI: 4.98\u20135.51%) of Wuhan, indicate that the fatality caused by COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV (CFR: 9.6% globally and 6.4% in mainland China) (10,11) and MERS-CoV (CFR: 34.5% worldwide and 37.1% in Saudi Arabia) (12,13)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Numbers of laboratory-confirmed COVID-19 cases and deaths were collected from January 10 to February 3, 2020 and divided into three clusters: Wuhan city, other cities of Hubei province, and other provinces of mainland China",
+        "We estimated that case-fatality rates during the first weeks of the epidemic ranges from 0.15% (95% CI: 0.12\u20130.18%) in mainland China excluding Hubei through 1.41% (95% CI: 1.38\u20131.45%) in Hubei province excluding the city of Wuhan to 5.25% (95% CI: 4.98\u20135.51%) in Wuhan",
+        "Our early estimates suggest that the case-fatality rates of COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV)",
+        "The slope of the fitted line can be used as an estimate of the case-fatality rates, and the confidence interval of case-fatality rates can be calculated from the standard error of the slope",
+        "We modelled the epidemic curve obeying the exponential growth as comparison",
+        "In order to avoid the influence on the case-fatality rates estimation in the initial stage of outbreak when no illness or death occurred, the time of reporting the first case of death was used as the starting point for modeling in each cluster",
+        "The coefficient of determination, R-squared, ranged from 0.912 to 0.999 for all clusters, which implies that the early epidemic data of laboratory-confirmed cases and deaths were largely following the linear trend",
+        "The estimated case-fatality rates of COVID-19 in Wuhan was the highest, with an overall case-fatality rates of 5.25% (95% CI: 4.98\u20135.51%) (Figure 1A)",
+        "We further modelled the epidemic curve obeying the exponential growth for the time periods before and after January 26 separately",
+        "The cluster of mainland China still has a decreasing trend in case-fatality rates with an estimate of 0.15% (95% CI: 0.12\u20130.18%), clearly lower than Hubei",
+        "The estimated case-fatality rates in regions other than Hubei province, where efficient detection and timely treatment can be guaranteed by sufficient healthcare resources, is more likely to be closer to the true value of clinical treatment prognosis estimates of COVID-19",
+        "Our estimate of case-fatality rates for whole mainland China, which is 2.10% (95% CI: 2.05\u20132.14%), is consistent with the tentative estimate of 2% for case-fatality rates in a preliminary estimation (16)",
+        "We provide a purely data-driven statistical method to estimate the case-fatality rates in the early phase of the COVID-19 outbreak"
+    ],
+    "top_statements": [
+        "On December 31, 2019, the discovery of a novel coronavirus (SARS-CoV-2)-infected pneumonia (COVID-19) in Wuhan, China, was reported to the World Health Organization (WHO) and has caused serious illness and death (1)",
+        "Our early estimates suggest that the case-fatality rates of COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV)",
+        "The coefficient of determination, R-squared, ranged from 0.912 to 0.999 for all clusters, which implies that the early epidemic data of laboratory-confirmed cases and deaths were largely following the linear trend",
+        "The estimated case-fatality rates of COVID-19 in Wuhan was the highest, with an overall case-fatality rates of 5.25% (95% CI: 4.98\u20135.51%) (Figure 1A)",
+        "We further modelled the epidemic curve obeying the exponential growth for the time periods before and after January 26 separately",
+        "The estimated case-fatality rates in regions other than Hubei province, where efficient detection and timely treatment can be guaranteed by sufficient healthcare resources, is more likely to be closer to the true value of clinical treatment prognosis estimates of COVID-19"
+    ],
+    "headline": "Our early estimates suggest that the case-fatality rates of COVID-19 is lower than the previous coronavirus epidemics caused by SARS-CoV and Middle East respiratory syndrome coronavirus",
+    "contexts": [],
+    "abbreviations": {
+        "WHO": "World Health Organization",
+        "CFR": "case-fatality rates",
+        "RGC": "Research Grants Council"
+    }
+}

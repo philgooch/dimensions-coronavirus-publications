@@ -1,0 +1,569 @@
+{
+    "filename": "2020.02.09.20021360.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1752303,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.09.20021360",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/16/2020.02.09.20021360.full.pdf"
+        },
+        "title": "Spatially Explicit Modeling of 2019-nCoV Epidemic Trend based on Mobile Phone Data in Mainland China",
+        "author": "Xiaolin Zhu, Aiyin Zhang, Shuai Xu, Pengfei Jia, Xiaoyue Tan, Jiaqi Tian, Tao Wei, Zhenxian Quan, Jiali Yu",
+        "date": 2020,
+        "affiliations": [
+            "Department of Land Surveying and Geo-Informatics, The Hong Kong Polytechnic University, Hong Kong, China",
+            "China Academy of Urban Planning and Design, Beijing, 100044, China",
+            "School of Psychology, Shenzhen University, Shenzhen, 518060, China",
+            "Beijing Engineering Research Center for Global Land Remote Sensing Products, Institute of Remote Sensing Science and Engineering, Faculty of Geographical Science, Beijing Normal University, Beijing 100875, China"
+        ],
+        "abstract": "IAs of February 11, 2020, all prefecture-level cities in mainland China have reported confirmed cases of 2019 novel coronavirus (2019-nCoV), but the city-level epidemical dynamics is unknown. The aim of this study is to model the current dynamics of 2019-nCoV at city level and predict the trend in the next 30 days under three possible scenarios in mainland China. We developed a spatially explicit epidemic model to consider the unique characteristics of the virus transmission in individual cities. Our model considered that the rate of virus transmission among local residents is different from those with Wuhan travel history due to the self-isolation policy. We introduced a decay rate to quantify the effort of each city to gradually control the disease spreading. We used mobile phone data to obtain the number of individuals in each city who have travel history to Wuhan. This city-level model was trained using confirmed cases up to February 10, 2020 and validated by new confirmed cases on February 11, 2020. We used the trained model to predict the future dynamics up to March 12, 2020 under different scenarios: the current trend maintained, control efforts expanded, and person-to-person contact increased due to work resuming.  We estimated that the total infections in mainland China would be 72172, 54348, and 149774 by March 12, 2020 under each scenario respectively. Under the current trend, all cities will show the peak point of daily new infections by February 21. This date can be advanced to February 14 with control efforts expanded or postponed to February 26 under pressure of work resuming. Except Wuhan that cannot eliminate the disease by March 12, our model predicts that 95.4%, 100%, and 75.7% cities will have no new infections by the end of February under three scenarios.  The spatial pattern of our prediction could help the government allocate resources to cities that have a more serious epidemic in the next 30 days.",
+        "keywords": [
+            "epidemiology",
+            "novel coronavirus",
+            "2019-nCoV",
+            "epidemic model",
+            "disease control"
+        ],
+        "references": "@article{li-a,\n  author = {Li, Q. and Guan, X. and Wu, P.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia},\n  journal = {N Engl J Med},\n  volume = {2020},\n  pages = {1\u20139},\n  more-authors = {true},\n  number = {0},\n  language = {}\n}\n@article{zhu2020a,\n  author = {Zhu, N. and Zhang, D. and Wang, W.},\n  title = {A Novel Coronavirus from Patients with Pneumonia in China, 2019},\n  journal = {N Engl J Med},\n  date = {2020},\n  doi = {DOI: 10.1056/NEJMoa2001017},\n  more-authors = {true},\n  language = {}\n}\n@misc{wang-a,\n  author = {Wang, C. and Horby, P.W. and Hayden, F.G. and Gao, G.F.},\n  title = {A novel coronavirus outbreak of global health concern. Lancet 2020; published online Feb 4},\n  doi = {DOI: 10.1016/S0140-6736(20)30185-9},\n  language = {}\n}\n@article{chen2020a,\n  author = {Chen, Y. and Liu, Q. and Guo, D.},\n  title = {Coronaviruses: genome structure, replication, and pathogenesis},\n  journal = {J Med Virol},\n  date = {2020},\n  doi = {DOI: 10.1002/jmv.25681},\n  language = {}\n}\n@misc{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020},\n  doi = {DOI: 10.1016/S0140-6736(20)30183-5},\n  more-authors = {true},\n  language = {}\n}\n@article{perlman2020a,\n  author = {Perlman, S.},\n  title = {Another Decade, Another Coronavirus},\n  journal = {N Engl J Med},\n  date = {2020},\n  doi = {DOI: 10.1056/NEJMe2001126},\n  language = {}\n}\n@misc{j-a,\n  author = {J, Fuk-Woo Chan and S, Yuan and K-H, Kok},\n  title = {A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet 2020},\n  doi = {DOI: 10.1016/S0140-6736(20)30154-9},\n  more-authors = {true},\n  language = {}\n}\n@misc{riou-a,\n  author = {Riou, J. and Althaus, C.L.},\n  title = {Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioRxiv 2020},\n  doi = {DOI: 10.1101/2020.01.23.917351},\n  language = {}\n}\n@article{hui-a,\n  author = {Hui, D.S. and Azhar, I. and E, Madani and T.A.},\n  title = {The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health \u2014 The latest 2019 novel coronavirus outbreak in Wuhan, China},\n  journal = {Int. J. Infect. Dis},\n  volume = {2020},\n  doi = {DOI: 10.1016/j.ijid.2020.01.009},\n  more-authors = {true},\n  language = {}\n}\n@misc{wu-a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet 2020; published online Feb 4},\n  doi = {DOI: 10.1016/S0140-6736(20)30260-9},\n  language = {}\n}\n@article{munster2020a,\n  author = {Munster, V.J. and Koopmans, M. and van Doremalen, N. and van Riel, D. and de Wit, E.},\n  title = {A Novel Coronavirus Emerging in China \u2014 Key Questions for Impact Assessment},\n  journal = {N Engl J Med},\n  date = {2020},\n  doi = {DOI: 10.1056/NEJMp2000929},\n  language = {}\n}\n@misc{shen-a,\n  author = {Shen, M. and Peng, Z. and Xiao, Y. and Zhang, L.},\n  title = {Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020},\n  doi = {DOI: 10.1101/2020.01.23.916726},\n  language = {}\n}\n@misc{read-a,\n  author = {Read, J.M. and Bridgen, JR, Cummings and DA, Ho and A, Jewell and C.P.},\n  title = {Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020},\n  doi = {DOI: 10.1101/2020.01.23.20018549},\n  language = {}\n}\n@incollection{zhao2019a,\n  author = {Zhao, S. and Ran, J. and MUSA, S.S.},\n  title = {Preliminary estimation of the basic reproduction number of novel coronavirus},\n  date = {2019},\n  doi = {DOI: 10.1101/2020.01.23.916395},\n  more-authors = {true},\n  source = {in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv 2020},\n  language = {}\n}\n@article{nishiura2020a,\n  author = {Nishiura, Jung and Linton},\n  title = {The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020},\n  journal = {J Clin Med},\n  date = {2020},\n  doi = {DOI: 10.3390/jcm9020330},\n  more-authors = {true},\n  language = {}\n}\n@article{rothe2020a,\n  author = {Rothe, C. and Schunk, M. and Sothmann, P.},\n  title = {Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany},\n  journal = {N Engl J Med},\n  date = {2020},\n  doi = {DOI: 10.1056/NEJMc2001468},\n  more-authors = {true},\n  source = {published online Jan 30},\n  language = {}\n}\n@article{nelder1965a,\n  author = {Nelder, J.A. and Mead, R.},\n  title = {A Simplex Method for Function Minimization},\n  journal = {Comput J},\n  date = {1965},\n  volume = {7},\n  pages = {308\u201313},\n  language = {}\n}\n@article{anderson2004a,\n  author = {Anderson, R.M. and Fraser, C. and Ghani, A.C.},\n  title = {Epidemiology, transmission dynamics and control of SARS: The 2002-2003 epidemic},\n  journal = {Philos Trans R Soc B Biol Sci},\n  date = {2004},\n  volume = {359},\n  pages = {1091\u2013105},\n  more-authors = {true},\n  language = {}\n}\n@article{chowell2003a,\n  author = {Chowell, G. and Fenimore, P.W. and Castillo-Garsow, M.A. and Castillo-Chavez, C.},\n  title = {SARS outbreaks in Ontario, Hong Kong and Singapore: The role of diagnosis and isolation as a control mechanism},\n  journal = {J Theor Biol},\n  date = {2003},\n  volume = {224},\n  pages = {1\u20138},\n  language = {}\n}\n@article{li-b,\n  author = {Li, Q. and Guan, X. and Wu, P.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia},\n  journal = {N Engl J Med},\n  volume = {2020},\n  pages = {1\u20139},\n  more-authors = {true},\n  language = {}\n}\n@article{shen2015a,\n  author = {Shen, M. and Hu, M. and Liu, S. and Chang, Y. and Sun, Z.},\n  title = {Assessment of the Chinese Resident Health Literacy Scale in a population-based sample in South China},\n  journal = {BMC Public Health},\n  date = {2015},\n  volume = {15},\n  pages = {1\u201311},\n  language = {}\n}\n",
+        "links": [
+            "https://www.cubigdata.cn",
+            "https://ncov.dxy.cn/ncovh5/view/pneumonia"
+        ],
+        "emails": [
+            "xiaolin.zhu@polyu.edu.hk"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia\nT2  - N Engl J Med\nVL  - 2020\nSP  - 1\nEP  - 9\nC1  - true\nIS  - 0\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, N.\nAU  - Zhang, D.\nAU  - Wang, W.\nTI  - A Novel Coronavirus from Patients with Pneumonia in China, 2019\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020\nDO  - 10.1056/NEJMoa2001017\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wang, C.\nAU  - Horby, P.W.\nAU  - Hayden, F.G.\nAU  - Gao, G.F.\nTI  - A novel coronavirus outbreak of global health concern. Lancet 2020; published online Feb 4\nDO  - 10.1016/S0140-6736(20)30185-9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, Y.\nAU  - Liu, Q.\nAU  - Guo, D.\nTI  - Coronaviruses: genome structure, replication, and pathogenesis\nT2  - J Med Virol\nPY  - 2020\nDA  - 2020\nDO  - 10.1002/jmv.25681\nLA  - \nER  - \n\nTY  - GEN\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020\nDO  - 10.1016/S0140-6736(20)30183-5\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Perlman, S.\nTI  - Another Decade, Another Coronavirus\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020\nDO  - 10.1056/NEJMe2001126\nLA  - \nER  - \n\nTY  - GEN\nAU  - J, Fuk-Woo Chan\nAU  - S, Yuan\nAU  - K-H, Kok\nTI  - A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet 2020\nDO  - 10.1016/S0140-6736(20)30154-9\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Riou, J.\nAU  - Althaus, C.L.\nTI  - Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioRxiv 2020\nDO  - 10.1101/2020.01.23.917351\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hui, D.S.\nAU  - Azhar, I.\nAU  - E, Madani\nAU  - T.A.\nTI  - The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health \u2014 The latest 2019 novel coronavirus outbreak in Wuhan, China\nT2  - Int. J. Infect. Dis\nVL  - 2020\nDO  - 10.1016/j.ijid.2020.01.009\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet 2020; published online Feb 4\nDO  - 10.1016/S0140-6736(20)30260-9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Munster, V.J.\nAU  - Koopmans, M.\nAU  - van Doremalen, N.\nAU  - van Riel, D.\nAU  - de Wit, E.\nTI  - A Novel Coronavirus Emerging in China \u2014 Key Questions for Impact Assessment\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020\nDO  - 10.1056/NEJMp2000929\nLA  - \nER  - \n\nTY  - GEN\nAU  - Shen, M.\nAU  - Peng, Z.\nAU  - Xiao, Y.\nAU  - Zhang, L.\nTI  - Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020\nDO  - 10.1101/2020.01.23.916726\nLA  - \nER  - \n\nTY  - GEN\nAU  - Read, J.M.\nAU  - Bridgen, JR, Cummings\nAU  - DA, Ho\nAU  - A, Jewell\nAU  - C.P.\nTI  - Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020\nDO  - 10.1101/2020.01.23.20018549\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Zhao, S.\nAU  - Ran, J.\nAU  - MUSA, S.S.\nTI  - Preliminary estimation of the basic reproduction number of novel coronavirus\nPY  - 2019\nDA  - 2019\nDO  - 10.1101/2020.01.23.916395\nC1  - true\nT2  - in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, Jung\nAU  - Linton\nTI  - The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020\nT2  - J Clin Med\nPY  - 2020\nDA  - 2020\nDO  - 10.3390/jcm9020330\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rothe, C.\nAU  - Schunk, M.\nAU  - Sothmann, P.\nTI  - Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020\nDO  - 10.1056/NEJMc2001468\nC1  - true\nT2  - published online Jan 30\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nelder, J.A.\nAU  - Mead, R.\nTI  - A Simplex Method for Function Minimization\nT2  - Comput J\nPY  - 1965\nDA  - 1965\nVL  - 7\nSP  - 308\nEP  - 13\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Anderson, R.M.\nAU  - Fraser, C.\nAU  - Ghani, A.C.\nTI  - Epidemiology, transmission dynamics and control of SARS: The 2002-2003 epidemic\nT2  - Philos Trans R Soc B Biol Sci\nPY  - 2004\nDA  - 2004\nVL  - 359\nSP  - 1091\nEP  - 105\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chowell, G.\nAU  - Fenimore, P.W.\nAU  - Castillo-Garsow, M.A.\nAU  - Castillo-Chavez, C.\nTI  - SARS outbreaks in Ontario, Hong Kong and Singapore: The role of diagnosis and isolation as a control mechanism\nT2  - J Theor Biol\nPY  - 2003\nDA  - 2003\nVL  - 224\nSP  - 1\nEP  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia\nT2  - N Engl J Med\nVL  - 2020\nSP  - 1\nEP  - 9\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shen, M.\nAU  - Hu, M.\nAU  - Liu, S.\nAU  - Chang, Y.\nAU  - Sun, Z.\nTI  - Assessment of the Chinese Resident Health Literacy Scale in a population-based sample in South China\nT2  - BMC Public Health\nPY  - 2015\nDA  - 2015\nVL  - 15\nSP  - 1\nEP  - 11\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Cumulative number of confirmed cases of 2019-nCoV as of February 11, 2020, in Wuhan, Hubei province excluding Wuhan, mainland China excluding Hubei province, and outside mainland China"
+            },
+            {
+                "id": "2",
+                "caption": "Population with Wuhan travel history in each city of mainland China during January 124, 2020"
+            },
+            {
+                "id": "3",
+                "caption": "An example of temporal variation of \u03b2 (controlled by the decay rate a ) and \u03b3 under three scenarios: (a) the current trend maintained, (b) control efforts expanded, (c) person-toperson contacts increased due to work resuming"
+            },
+            {
+                "id": "4",
+                "caption": "Comparison between the number from model simulation and reported cases in cities with representative severity of disease spreading: (a) Wuhan, (b) Xiaogan, (c) Beijing, (d) Chengdu, (e) Kunming, and (f) Datong"
+            },
+            {
+                "id": "5",
+                "caption": "Results of parameter estimation:  1 (a) and a (b) of cities estimated using daily confirmed cases"
+            },
+            {
+                "id": "6",
+                "caption": "Model validation of the proposed model (a) and the classic SIR model (b) based on data on February 11, 2020. The solid lines represent the fitted linear regression line and dashed lines represent 1:1 lines for reference"
+            },
+            {
+                "id": "7",
+                "caption": "Mapping of predicted cumulative infections on March 12: (a) scenario 1, (b) scenario 2, (c) scenario 3"
+            },
+            {
+                "id": "9",
+                "caption": "Temporal change of daily new infections in Wuhan, Hubei province excluding Wuhan, other provinces, and four first-tier cities based on the proposed model"
+            },
+            {
+                "id": "10",
+                "caption": "Dates when the number of daily new infections reaches the peak point under scenario 1(a), scenario 2(b), and scenario 3(c); dates when no more daily new infections emerge under scenario 1(d), scenario 2(e), and scenario 3(f)"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-007.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-009.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.09.20021360.full/img-010.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "Wuhan, a large city with 14 million residents and a major air and train transportation hub of central China, identified a cluster of unexplained cases of pneumonia on December 29, 2019 1. Four patients were initially reported and all these initial cases were linked to the Huanan Seafood Wholesale Market 2. Chinese health authorities and scientists did immediate investigation and isolated a novel coronavirus from these patients by January 7, 2020, which is then named as 2019-nCoV by the World Health Organization 3,4. 2019-nCoV can cause acute respiratory diseases that progress to severe pneumonia 5. The infection fatality risk is around 3% estimated from the data of early outbreak [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Information on new cases strongly indicates human-to-human spread [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Infection of 2019-nCoV quickly spread to other cities in China and other countries (Figure 1). It becomes an event of global health concern 9. Up to February 11, 2020, according to the reports published by the Chinese Center for Disease Control and Prevention, all prefecturelevel cities of mainland China have confirmed cases and the total number reaches to 42667, of whom 1016 have died and 4242 recovered; 24 oversea countries have 398 confirmed cases (1 died). Chinese government took great effort to control the spread of disease, including closing the public transportation from and to Wuhan on January 23, extending the Spring Festival holiday, postponing the school-back day, and suspending all domestic and international group tours."
+        ],
+        "methods": [
+            "Data sources<br/><br/>We collected the daily data of confirmed cases of 2019-nCoV Pneumonia in 306 prefecture-level cities in mainland China up to February 11, 2020 (Supplementary data Table 1) from a platform reporting real-time statistics of 2019-nCoV (https://ncov.dxy.cn/ncovh5/view/pneumonia). These daily reported data were used to train and validate our epidemic model. We employed China Unicom mobile phone database (https://www.cubigdata.cn) to obtain the inter-city human mobility. China Unicom is one of three largest mobile service providers in China. It has 0.32 billion users. Considering that 2019-nCoV emerged in Wuhan around January 1, 2020 and Wuhan implemented the quarantine on January 23, 2020, we collected the number of people who have Wuhan travel history during January 1-24, 2020 in each city based on the mobile phone dataset (Figure 2 and Supplementary data Table 2). In addition, Household Registered Population at 2017 year-end derived from census data was used to approximate the number of local residents in each city during 2020 Spring Festival (Supplementary data Table 2)."
+        ],
+        "results": [
+            "Parameter estimation To examine the goodness of model fitting, we calculated R-squared and root mean square error (RMSE) between the fitting result and confirmed cases in each city (see representative examples in Figure 4). The median value of R-squared and RMSE across all cities is 0.96 and 1.20 respectively, indicating that our model can well fit the current spreading trend. We examined the fitted models with R-squared less than 0.7 (26 out of 306 cities) and found that all these cities have very small number (1-3) of confirmed cases and the number does not change in the past several days. It is reasonable to assume that these cities have completely controlled the spreading and no new infected cases will emerge in the future. Therefore, for these cities with R-squared less than 0.70, the  1 value of the city was set to zero.<br/><br/>Transmission rate  2 estimated using Wuhan confirmed cases is 0.9, reflecting a high transmission around January 20. The transmission rate  1, decay rate a, and initial infectious population  0 vary from city to city (Supplementary data Table 3). As the transmission rate among local residents in each city,  1 reflects the intensity of control measures adopted by each local government at the beginning of outbreak, as well as the awareness of citizens to take protective measures. For example,  1 in megacities such as Beijing, Shanghai, Guangzhou and Shenzhen are low (Figure 5.a) which may attribute to higher health literacy of their citizens 21, although they have intensive traffic and population mobility. Decay rate a reflects the continuous effort input by each city to control the transmission of disease. It shows that decay rates of cities close to Wuhan is generally lower than other cities (Figure 5.b), suggesting the big challenge faced by these cities to control the disease spreading."
+        ],
+        "discussion": [
+            "In this study, we modeled the updated epidemic trend of 2019-nCoV for each individual city in mainland China and used the model to predict the future trend under three possible scenarios. Our model accounts for 86% of the variation in the number of daily reported infections on February 11 across cites in mainland China. With this model, we predict that all cities will show the peak point of daily new infections by February 21, if the current trend is maintained. This date can be advanced to February 14 with control efforts expanded or postponed to February 26 under pressure of work resuming. Cities in central and east of mainland China will face a challenge to prevent the growing of disease transmission due to work resuming. Compared with other recent modeling studies, our study has the following strength. First, the unique characteristics of the novel coronavirus spreading were taken into account in our proposed model. Considering that the new coronavirus originates from Wuhan and the majority of the local infected patients outside Wuhan had Wuhan travel history before the Spring Festival, we extended the SIR model to capture the transmission characteristics of the novel coronavirus in mainland China. Second, a decay rate was introduced into the model for quantifying the intervention implemented in each city. Third, our proposed spatially explicit model is able to obtain fine scale prediction result. Different cities have different transmission rates due to their own conditions (for instance, population density and human mobility characteristics). If only the transmission rate in national scale is used to model the epidemics of different cities 10, the prediction of epidemic trend of all major cities would be similar to Wuhan (see Figure 4 in Wu et al, 2020)."
+        ],
+        "disclosures": [
+            "The authors declare no conflict of interest"
+        ],
+        "limitations": [
+            "Our modeling work has several limitations. First, due to the limited prior knowledge for this sudden 2019-nCoV outbreak, the infection rate and recovery rate in this study are regarded as the same for different age groups, which may result in errors of predication for cities with different age structures. Second, the model parameters were estimated using the reported confirmed cases that may be lower than the actual number of infections, so parameter estimation may not represent the real situation. Third, besides transmission between Wuhan and other cities, we do not consider other inter-city transmissions. Although the Chinese government strictly controlled the traffic between cities, the inter-city transmission may contribute to the epidemic dynamics in future days, especially during days of work resuming."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary data"
+            ],
+            "supplementary_figure_references": []
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "As of February 11, 2020, all prefecture-level cities in mainland China have reported confirmed cases of 2019 novel coronavirus (2019-nCoV), but the city-level epidemical dynamics is unknown. The aim of this study is to model the current dynamics of 2019-nCoV at city level and predict the trend in the next 30 days under three possible scenarios in mainland China. We developed a spatially explicit epidemic model to consider the unique characteristics of the virus transmission in individual cities. Our model considered that the rate of virus transmission among local residents is different from those with Wuhan travel history due to the self-isolation policy. We introduced a decay rate to quantify the effort of each city to gradually control the disease spreading. We used mobile phone data to obtain the number of individuals in each city who have travel history to Wuhan. This city-level model was trained using confirmed cases up to February 10, 2020 and validated by new confirmed cases on February 11, 2020. We used the trained model to predict the future dynamics up to March 12, 2020 under different scenarios: the current trend maintained, control efforts expanded, and person-to-person contact increased due to work resuming. We estimated that the total infections in mainland China would be 72172, 54348, and 149774 by March 12, 2020 under each scenario respectively. Under the current trend, all cities will show the peak point of daily new infections by February 21. This date can be advanced to February 14 with control efforts expanded or postponed to February 26 under pressure of work resuming. Except Wuhan that cannot eliminate the disease by March 12, our model predicts that 95.4%, 100%, and 75.7% cities will have no new infections by the end of February under three scenarios. The spatial pattern of our prediction could help the government allocate resources to cities that have a more serious epidemic in the next 30 days.",
+            "Keywords: epidemiology, novel coronavirus, 2019-nCoV, epidemic model, disease control"
+        ],
+        "1. Introduction": [
+            "Wuhan, a large city with 14 million residents and a major air and train transportation hub of central China, identified a cluster of unexplained cases of pneumonia on December 29, 2019 1. Four patients were initially reported and all these initial cases were linked to the Huanan Seafood Wholesale Market 2. Chinese health authorities and scientists did immediate investigation and isolated a novel coronavirus from these patients by January 7, 2020, which is then named as 2019-nCoV by the World Health Organization 3,4. 2019-nCoV can cause acute respiratory diseases that progress to severe pneumonia 5. The infection fatality risk is around 3% estimated from the data of early outbreak [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Information on new cases strongly indicates human-to-human spread [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>,<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Infection of 2019-nCoV quickly spread to other cities in China and other countries (Figure 1). It becomes an event of global health concern 9. Up to February 11, 2020, according to the reports published by the Chinese Center for Disease Control and Prevention, all prefecturelevel cities of mainland China have confirmed cases and the total number reaches to 42667, of whom 1016 have died and 4242 recovered; 24 oversea countries have 398 confirmed cases (1 died). Chinese government took great effort to control the spread of disease, including closing the public transportation from and to Wuhan on January 23, extending the Spring Festival holiday, postponing the school-back day, and suspending all domestic and international group tours.",
+            "Unfortunately, many external factors bring a challenge to control virus spreading. First, it might be already late to stop the migration of infected cases. Evidence suggests that Wuhan is the",
+            "center of 2019-nCoV outbreak1,10. However, around 5 million Wuhan residents left Wuhan in January 2020 due to the Spring Festival (January 24, 2020). It is very likely that a considerable number of infected cases have moved from Wuhan to other cities before Wuhan government implemented border control on January 23. Second, it is highly possible that infected cases spread the virus to their family members or relatives 7. A study based on 425 patients at the early stage of outbreak revealed that the time from infection to illness onset is 5.2 days 1. As a result, presymptomatic cases who have left Wuhan may not be isolated themselves from their family and relatives 11. Third, due to the sudden outbreak of virus, the preparation and resources for preventing virus transmission are limited. The protective equipment in many hospitals in Wuhan was in short supply so that it is difficult to maintain strict personal hygiene. With the quick increase of infected cases, Wuhan and other cities in Hubei Province have large pressure to isolate and give medical treatment to infected people. All above factors make preventing the spread of 2019-nCoV even more difficult than the severe acute respiratory syndrome (SARS), another coronavirus outbreak in China 17 years ago that caused more than 8000 infections and 800 deaths.",
+            "Projecting the epidemic trend of 2019-nCoV outbreak is critical for the decision makers to allocate resources and take appropriate actions to control virus transmission. Right after the outbreak, several studies have retrieved the epidemiological parameters and predicted the future situation [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>\u2013<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. These studies used the reported cases at the early stage of outbreak and modeled epidemic dynamics in Wuhan and nation-wide. A recent study 10 used air passenger data and social medium data to forecast the spread of 2019-nCoV in Wuhan and other major Chinese cities. They estimated that 75815 individuals have been infected in Greater Wuhan as of January 25, 2020 and epidemics are already growing exponentially in major cities of China with a [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] weeks lag time behind Wuhan outbreak. Although these studies at the early stage of outbreak help us understand the key epidemiological characteristics of 2019-nCoV, the fine-scale and updated epidemic trend in individual Chinese cities remains unknown, which is more helpful for allocating medical resources to achieve the optimal result of preventing disease spreading.",
+            "To model the updated fine-scale epidemic dynamics of all individual cities in mainland China, we proposed a spatially explicit approach. We first used mobile phone data to obtain the number of people who traveled from Wuhan to each individual city. Then we developed a new epidemiological model based the classic Susceptible-Infectious-Recovered (SIR) model to fit the dynamics of 2019-nCoV at the city level. Finally, we used this model to predict the trend under three possible scenarios: the current trend maintained, control efforts expanded, and person-toperson contact increased due to work/school resuming."
+        ],
+        "2. Methods": [
+            "We collected the daily data of confirmed cases of 2019-nCoV Pneumonia in 306 prefecture-level cities in mainland China up to February 11, 2020 (Supplementary data Table 1) from a platform reporting real-time statistics of 2019-nCoV (https://ncov.dxy.cn/ncovh5/view/pneumonia). These daily reported data were used to train and validate our epidemic model. We employed China Unicom mobile phone database (https://www.cubigdata.cn) to obtain the inter-city human mobility. China Unicom is one of three largest mobile service providers in China. It has 0.32 billion users. Considering that 2019-nCoV emerged in Wuhan around January 1, 2020 and Wuhan implemented the quarantine on January 23, 2020, we collected the number of people who have Wuhan travel history during January 1-24, 2020 in each city based on the mobile phone dataset (Figure 2 and Supplementary data Table 2). In addition, Household Registered Population at 2017 year-end derived from census data was used to approximate the number of local residents in each city during 2020 Spring Festival (Supplementary data Table 2).",
+            "A spatially explicit epidemic model Our proposed model stems from the SIR model, a classic approach to simulate epidemiological dynamics. We modified the SIR structure based on the unique characteristics of the outbreak of 2019-nCoV. First, in all cities other than Wuhan, the initial infectious cases are most likely imported from Wuhan10. Second, many Wuhan residents moved to other cities due to the Spring",
+            "Festival and this mobility was closed after the quarantine on January 23. Third, those people from Wuhan have low contacts with local residents because Chinese government required them to implement self-isolation. Last, during the past 40 days, all cities took efforts to control the virus spreading, which slows down the daily increase of new infections (Figure 1). Accordingly, in the modified SIR model, the susceptible variable   was divided into two groups:  1, the number of local susceptible, and  2, the number of susceptible with Wuhan travel history. These Wuhan-inbound groups ( 2), have transmission rate ( 2) different from transmission rate ( 1) of local residents (  1 ) as Chinese government took measures to reduce the person-to-person contacts. A decay rate a was introduced to tune the value of \u03b2 in each day, accounting for the gradual impact of prevention interventions in each city. In our modified SIR model, recovered population R was extended to include those cured, died, and isolated in hospital because they cannot transmit the virus. The differentiate equations of our modified SIR model is as follows:",
+            "In our model, four variables need to be initialized: (1) initial number of infectious  0, treated as a parameter to be estimated (see next section); (2) initial number of local susceptible  10, equal to the total number of the local population of each city  10 =  ; (3) initial number of susceptible traveling from Wuhan  20, equal to the population from Wuhan excluding the initial infectious  20 =   \u2212  0; and (4) initial number of removed  0, assuming no cured, hospitalized, or death at initial state  0 = 0.",
+            "Our modified SIR model has four parameters: transmission rate  1 among local residents,  2 among people with Wuhan travel history, decay rate a, and recovery rate  . For  , we assume that once an infected individual is hospitalized, the person will be segregated and therefore no longer infectious. According to a recent study using the first 425 patients 1, the mean incubation period of 2019-nCoV is 5.2 days, and the mean duration from illness onset to hospital admission is 9.1 days. We assume that the incubation period and duration from illness onset to first medical visit is similar with these 425 infected cases. Therefore, the estimated infectious period is 5.2 + 9.1 = 14.3 days and   equals 1/14.3 = 0.0699.",
+            "For parameters  1,  2, and a, we used the daily cumulative confirmed cases up to February 10, 2020 to retrieve their optimal values to reflect the current dynamics in each city. We first estimated the optimal value of  2 and a of Wuhan since its epidemic model only has one transmission rate  2. Then, the estimated  2 was used as a prior parameter for the estimation of  1 and a for individual prefecture-level cities. The Nelder-Mead algorithm 17 was employed to estimate parameters through minimizing the sum of squared differences between the simulated and actual daily cumulative confirmed cases. To better capture the current trend, the number of daily cumulative cases were also used to weight the samples in parameter retrieval. Since the epidemic model is highly sensitive to the initial infectious number I0, and the reported initial infectious number often has large uncertainty, we treated the initial infectious number  0 as another parameter to be estimated together with  1 and  2 . Specifically, we used daily cumulative confirmed cases of each city from January 25 to February 10, 2020 to retrieve the parameters and assumed January 20, 2020 as the start point when massive inter-city mobility happened before the Spring Festival. The goodness of model fitting was assessed by comparing the number from model simulation and reported cases. The trained model was further validated using the reported data on February 11, 2020."
+        ],
+        "3. Results": [
+            "Parameter estimation To examine the goodness of model fitting, we calculated R-squared and root mean square error (RMSE) between the fitting result and confirmed cases in each city (see representative examples in Figure 4). The median value of R-squared and RMSE across all cities is 0.96 and 1.20 respectively, indicating that our model can well fit the current spreading trend. We examined the fitted models with R-squared less than 0.7 (26 out of 306 cities) and found that all these cities have very small number (1-3) of confirmed cases and the number does not change in the past several days. It is reasonable to assume that these cities have completely controlled the spreading and no new infected cases will emerge in the future. Therefore, for these cities with R-squared less than 0.70, the  1 value of the city was set to zero.",
+            "Transmission rate  2 estimated using Wuhan confirmed cases is 0.9, reflecting a high transmission around January 20. The transmission rate  1, decay rate a, and initial infectious population  0 vary from city to city (Supplementary data Table 3). As the transmission rate among local residents in each city,  1 reflects the intensity of control measures adopted by each local government at the beginning of outbreak, as well as the awareness of citizens to take protective measures. For example,  1 in megacities such as Beijing, Shanghai, Guangzhou and Shenzhen are low (Figure 5.a) which may attribute to higher health literacy of their citizens 21, although they have intensive traffic and population mobility. Decay rate a reflects the continuous effort input by each city to control the transmission of disease. It shows that decay rates of cities close to Wuhan is generally lower than other cities (Figure 5.b), suggesting the big challenge faced by these cities to control the disease spreading.",
+            "Model validation To test the prediction capacity of our model, we used the reported confirmed cases on February 11 in all cites excluding Wuhan because its high confirmed case leads to bias in assessment. We compared the predicted daily new infections on February 11 with the reported confirmed cases in the same day. The predicted values by our model well match the reported infected cases (Rsquared: 0.86, RMSE: 6.35, P < 0.0001, Figure 6.a). To demonstrate the effectiveness of our model, the results was compared with the prediction from the classic SIR model that uses uniform parameters estimated from nationwide data ( = 0.209,  =0.0699). Compared with our model, the predicted values by the classic SIR model does not match with the daily new infected cases (R-squared: 0.30, RMSE: 13.22, P < 0.0001, Figures 6.b).",
+            "Epidemic dynamics under three scenarios We predicted daily infected cases of each city up to March 12, 2020 under three different scenarios (scenario 1 - the current trend maintained; scenario 2 - control efforts expanded; and scenario 3 - person-to-person contacts increased due to work resuming). Our prediction shows that the whole mainland China will have 72172, 54348, and 149774 people infected up to March 12, 2020 under the above three scenarios respectively (Supplementary data Table 4). To provide an intuitive picture about epidemic dynamics in different scenarios, we showed in Figure 7 the number of cumulative infections in each city on March 12. The infected people will mainly distribute in the central and eastern provinces, the number of western cities at a relatively low level under all scenarios. In scenario 3 (Figure 7.c), many cites have much larger number of infections than scenario 1 (Figure 7.a) and 2 (Figure 7.b), suggesting that work resuming will bring large challenge to control the disease timely. This difference is significant for those cities with largest number of infections by March 12 (Figure 8), such as Wuhan and other cities in Hubei province.",
+            "Figure 8. 20 cities with highest cumulative infections by March 12 predicted under three scenarios (Data of Wuhan is 40613, 27021, and 98486 that is not shown properly in this figure) To understand the specific attributes of epidemic dynamics under different scenarios, we investigated the temporal changes of daily new infections across all cities in mainland China. In Figure 9, we show the results in Wuhan, Hubei province excluding Wuhan, other provinces, and four first-tier cities. Compared with the scenario 1 where current trend is maintained, the daily new infections in scenario 2 reduces quickly in the second half of February. In scenario 3 where transmissibility rebounds after the public holiday in all cities, the peak of new infections will postpone ten days and the magnitude will be twice of that in scenarios 1 and 2. Our simulation suggests that strict quarantine of inner- and inter-city population movement during February would have a significant effect on the suppression of virus spreading.",
+            "Change of daily new infections number is an important indicator of effective intervention. The date when the number of new daily infections reaches the peak (Figure 10. a-c, Supplementary data Table 4) suggests that the exponential growing of disease will stop and the spreading would be controlled gradually. Under current trend, our model estimated that the number of new infections in 79.7% cities already reached the peak point before February 11 and in all other cities, it will reach the peak point by February 21. With the control effort expanded, all cities will have the peak point of new infections by February 14, one week earlier than current trend. However, the peak point of new infections will be greatly delayed under scenario 3 that a few cities in Hubei province will show the peak point of new infections by February 26.",
+            "The daily new infections decreasing to zero (Figure 10.d-f, Supplementary data Table 4) is the signal of eliminating the coronavirus outbreak. Our results show that this successful day in cities close to Wuhan is much later than other cities under all scenarios. Our prediction suggests Wuhan cannot eliminate the disease by March 12 under all scenarios. For other cities, if the current trend is maintained (scenario 1), 95.4% cities can eliminate the disease by the end of February and all of them can succeed by March 12. With control efforts expanded (scenario 2), all cities except Wuhan will completely control the disease by the end of February. However, only 75.7% cities can completely win the battle against 2019-nCoV by the end of February if person-to-person contacts increase due to work resuming (scenario 3). Nine cities in Hubei province still have daily new infections on March 12, 2020, the last day in our prediction under scenario 3."
+        ],
+        "4. Discussion": [
+            "In this study, we modeled the updated epidemic trend of 2019-nCoV for each individual city in mainland China and used the model to predict the future trend under three possible scenarios. Our model accounts for 86% of the variation in the number of daily reported infections on February 11 across cites in mainland China. With this model, we predict that all cities will show the peak point of daily new infections by February 21, if the current trend is maintained. This date can be advanced to February 14 with control efforts expanded or postponed to February 26 under pressure of work resuming. Cities in central and east of mainland China will face a challenge to prevent the growing of disease transmission due to work resuming. Compared with other recent modeling studies, our study has the following strength. First, the unique characteristics of the novel coronavirus spreading were taken into account in our proposed model. Considering that the new coronavirus originates from Wuhan and the majority of the local infected patients outside Wuhan had Wuhan travel history before the Spring Festival, we extended the SIR model to capture the transmission characteristics of the novel coronavirus in mainland China. Second, a decay rate was introduced into the model for quantifying the intervention implemented in each city. Third, our proposed spatially explicit model is able to obtain fine scale prediction result. Different cities have different transmission rates due to their own conditions (for instance, population density and human mobility characteristics). If only the transmission rate in national scale is used to model the epidemics of different cities 10, the prediction of epidemic trend of all major cities would be similar to Wuhan (see Figure 4 in Wu et al, 2020).",
+            "Our predictions of three future scenarios, namely the current trend maintained, control efforts expanded, person-to-person contacts increased due to work resuming, provide information for decision makers to allocate resources for controlling the disease spread. Generally speaking, densely populated cities and cities in central China will face severe pressure to control the epidemic, since the number of infections keeps increasing in all three scenarios in the near future. By comparing predictions of three scenarios, it is obvious that reducing the transmissibility is a critical approach to reduce the daily new infections and controlling the magnitude of epidemics. Fortunately, the latest number of confirmed diagnoses (Figure 1) and our prediction both show the slowing down of new infections in these days, indicating current control measures implemented by Chinese government are effective, including controlling traffic between Wuhan and other regions, isolating suspected patients, canceling mass gatherings, and requiring people to implement protective measures. However, once the Spring Festival travel rush returns as scenario 3 (most provinces planned to resume work on February 9), it will inevitably cause considerable growth in transmissibility and further re-increase of epidemics. In addition, current insufficient supply of protective equipment may exacerbate this situation. Therefore, public health interventions should be performed continuously to obtain the best results of epidemic control. The following measures are recommended to implement continuously in the near future, such as, postponing work resuming, arranging work-from-home, and instructing enterprises to implement epidemic prevention measures. Essentially, all measures are for reducing population mobility and person-to-person contact, and there is no panacea for all conditions, hence interventions in different regions should be adapted according to local epidemics.",
+            "Our modeling work has several limitations. First, due to the limited prior knowledge for this sudden 2019-nCoV outbreak, the infection rate and recovery rate in this study are regarded as the same for different age groups, which may result in errors of predication for cities with different age structures. Second, the model parameters were estimated using the reported confirmed cases that may be lower than the actual number of infections, so parameter estimation may not represent the real situation. Third, besides transmission between Wuhan and other cities, we do not consider other inter-city transmissions. Although the Chinese government strictly controlled the traffic between cities, the inter-city transmission may contribute to the epidemic dynamics in future days, especially during days of work resuming.",
+            "Author Contributions: XZ designed the experiments. PJ, ZQ, and JY collected and processed data. AZ and SX analyzed data. All authors interpreted the results and wrote the manuscript.",
+            "Conflicts of Interest: The authors declare no conflict of interest.",
+            "Data sharing: data obtained for this study will be available to others.",
+            "10 Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet 2020; published online Feb 4. DOI:10.1016/S0140-6736(20)30260-9.",
+            "11 Munster VJ, Koopmans M, van Doremalen N, van Riel D, de Wit E. A Novel Coronavirus Emerging in China \u2014 Key Questions for Impact Assessment. N Engl J Med 2020. DOI:10.1056/NEJMp2000929.",
+            "12 Shen M, Peng Z, Xiao Y, Zhang L. Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020. DOI:10.1101/2020.01.23.916726.",
+            "13 Read JM, Bridgen JR, Cummings DA, Ho A, Jewell CP. Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020. DOI:10.1101/2020.01.23.20018549.",
+            "14 Zhao S, Ran J, MUSA SS, et al Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv 2020. DOI:10.1101/2020.01.23.916395.",
+            "15 Nishiura, Jung, Linton, et al The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020. J Clin Med 2020. DOI:10.3390/jcm9020330.",
+            "16 Rothe C, Schunk M, Sothmann P, et al Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany. N Engl J Med 2020; published online Jan 30. DOI:10.1056/NEJMc2001468.",
+            "17 Nelder JA, Mead R. A Simplex Method for Function Minimization. Comput J 1965; 7: 308\u201313.",
+            "18 Anderson RM, Fraser C, Ghani AC, et al Epidemiology, transmission dynamics and control of SARS: The 2002-2003 epidemic. Philos Trans R Soc B Biol Sci 2004; 359: 1091\u2013105.",
+            "19 Chowell G, Fenimore PW, Castillo-Garsow MA, Castillo-Chavez C. SARS outbreaks in Ontario, Hong Kong and Singapore: The role of diagnosis and isolation as a control mechanism. J Theor Biol 2003; 224: 1\u20138.",
+            "20 Li Q, Guan X, Wu P, et al Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med 2020; : 1\u20139.",
+            "21 Shen M, Hu M, Liu S, Chang Y, Sun Z. Assessment of the Chinese Resident Health Literacy Scale in a population-based sample in South China. BMC Public Health 2015; 15: 1\u201311."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "users",
+            "number": 320000000,
+            "context": "China Unicom is one of three largest mobile service providers in China. <mark class=\"stats\">It has 0.32 billion users</mark>. Considering that 2019-nCoV emerged in Wuhan around January 1, 2020 and Wuhan implemented the quarantine on January 23, 2020, we collected the number of people who have Wuhan travel history during January 1-24, 2020 in each city based on the mobile phone dataset (Figure 2 and Supplementary data Table 2)"
+        },
+        {
+            "participant": "patients",
+            "number": 425,
+            "context": "For  , we assume that once an infected individual is hospitalized, the person will be segregated and therefore no longer infectious. <mark class=\"stats\">According to a recent study using the first 425 patients 1, the mean incubation period of 2019-nCoV is 5.2 days, and the mean duration from illness onset to hospital admission is 9.1 days</mark>. We assume that the incubation period and duration from illness onset to first medical visit is similar with these 425 infected cases"
+        },
+        {
+            "participant": "infected cases",
+            "number": 425,
+            "context": "According to a recent study using the first 425 patients 1, the mean incubation period of 2019-nCoV is 5.2 days, and the mean duration from illness onset to hospital admission is 9.1 days. <mark class=\"stats\">We assume that the incubation period and duration from illness onset to first medical visit is similar with these 425 infected cases</mark>. Therefore, the estimated infectious period is 5.2 + 9.1 = 14.3 days and   equals 1/14.3 = 0.0699"
+        },
+        {
+            "participant": "residents",
+            "number": 14000000,
+            "context": "1. <mark class=\"stats\">Introduction Wuhan, a large city with 14 million residents and a major air and train transportation hub of central China, identified a cluster of unexplained cases of pneumonia on December 29, 2019 1</mark>. Four patients were initially reported and all these initial cases were linked to the Huanan Seafood Wholesale Market 2"
+        },
+        {
+            "participant": "patients",
+            "number": 4,
+            "context": "Introduction Wuhan, a large city with 14 million residents and a major air and train transportation hub of central China, identified a cluster of unexplained cases of pneumonia on December 29, 2019 1. <mark class=\"stats\">Four patients were initially reported and all these initial cases were linked to the Huanan Seafood Wholesale Market 2</mark>. Chinese health authorities and scientists did immediate investigation and isolated a novel coronavirus from these patients by January 7, 2020, which is then named as 2019-nCoV by the World Health Organization 3,4. 2019-nCoV can cause acute respiratory diseases that progress to severe pneumonia 5"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 398,
+            "context": "It becomes an event of global health concern 9. <mark class=\"stats\">Up to February 11, 2020, according to the reports published by the Chinese Center for Disease Control and Prevention, all prefecturelevel cities of mainland China have confirmed cases and the total number reaches to 42667, of whom 1016 have died and 4242 recovered; 24 oversea countries have 398 confirmed cases (1 died)</mark>. Chinese government took great effort to control the spread of disease, including closing the public transportation from and to Wuhan on January 23, extending the Spring Festival holiday, postponing the school-back day, and suspending all domestic and international group tours"
+        },
+        {
+            "participant": "Wuhan residents",
+            "number": 5000000,
+            "context": "Evidence suggests that Wuhan is the center of 2019-nCoV outbreak1,10. <mark class=\"stats\">However, around 5 million Wuhan residents left Wuhan in January 2020 due to the Spring Festival (January 24, 2020)</mark>. It is very likely that a considerable number of infected cases have moved from Wuhan to other cities before Wuhan government implemented border control on January 23"
+        },
+        {
+            "participant": "patients",
+            "number": 425,
+            "context": "Second, it is highly possible that infected cases spread the virus to their family members or relatives 7. <mark class=\"stats\">A study based on 425 patients at the early stage of outbreak revealed that the time from infection to illness onset is 5.2 days 1</mark>. As a result, presymptomatic cases who have left Wuhan may not be isolated themselves from their family and relatives 11"
+        },
+        {
+            "participant": "individuals",
+            "number": 75815,
+            "context": "A recent study 10 used air passenger data and social medium data to forecast the spread of 2019-nCoV in Wuhan and other major Chinese cities. <mark class=\"stats\">They estimated that 75815 individuals have been infected in Greater Wuhan as of January 25, 2020 and epidemics are already growing exponentially in major cities of China with a [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>-<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] weeks lag time behind Wuhan outbreak</mark>. Although these studies at the early stage of outbreak help us understand the key epidemiological characteristics of 2019-nCoV, the fine-scale and updated epidemic trend in individual Chinese cities remains unknown, which is more helpful for allocating medical resources to achieve the optimal result of preventing disease spreading"
+        },
+        {
+            "participant": "people",
+            "number": 149774,
+            "context": "Epidemic dynamics under three scenarios We predicted daily infected cases of each city up to March 12, 2020 under three different scenarios (scenario 1 - the current trend maintained; scenario 2 - control efforts expanded; and scenario 3 - person-to-person contacts increased due to work resuming). <mark class=\"stats\">Our prediction shows that the whole mainland China will have 72172, 54348, and 149774 people infected up to March 12, 2020 under the above three scenarios respectively (Supplementary data Table 4)</mark>. To provide an intuitive picture about epidemic dynamics in different scenarios, we showed in Figure 7 the number of cumulative infections in each city on March 12"
+        }
+    ],
+    "statistics": [
+        {
+            "p_value": "P < 0.0001",
+            "context": "We compared the predicted daily new infections on February 11 with the reported confirmed cases in the same day. <mark class=\"stats\">The predicted values by our model well match the reported infected cases (Rsquared: 0.86, RMSE: 6.35, P < 0.0001, Figure 6.a)</mark>. To demonstrate the effectiveness of our model, the results was compared with the prediction from the classic SIR model that uses uniform parameters estimated from nationwide data ( = 0.209,  =0.0699)"
+        },
+        {
+            "p_value": "P < 0.0001",
+            "context": "To demonstrate the effectiveness of our model, the results was compared with the prediction from the classic SIR model that uses uniform parameters estimated from nationwide data ( = 0.209,  =0.0699). <mark class=\"stats\">Compared with our model, the predicted values by the classic SIR model does not match with the daily new infected cases (R-squared: 0.30, RMSE: 13.22, P < 0.0001, Figures 6.b)</mark>. Epidemic dynamics under three scenarios We predicted daily infected cases of each city up to March 12, 2020 under three different scenarios (scenario 1 - the current trend maintained; scenario 2 - control efforts expanded; and scenario 3 - person-to-person contacts increased due to work resuming)"
+        }
+    ],
+    "keywords": [
+        "2019-nCoV",
+        "epidemic trend",
+        "travel history",
+        "virus transmission",
+        "severe acute respiratory syndrome",
+        "epidemiology",
+        "global health",
+        "new infection",
+        "coronavirus",
+        "pneumonia",
+        "novel coronavirus",
+        "disease control",
+        "root mean square error",
+        "mainland china",
+        "current trend",
+        "dynamics",
+        "transmission dynamics",
+        "city level",
+        "epidemic model",
+        "control effort",
+        "novel coronavirus outbreak"
+    ],
+    "keyword_relevance": {
+        "2019-nCoV": 0.175,
+        "new infection": 0.125,
+        "coronavirus": 0.1,
+        "dynamics": 0.0875,
+        "current trend": 0.08125,
+        "novel coronavirus": 0.075,
+        "control effort": 0.0625,
+        "travel history": 0.05,
+        "epidemic model": 0.0375,
+        "epidemic trend": 0.03125,
+        "root mean square error": 0.03125,
+        "virus transmission": 0.025,
+        "severe acute respiratory syndrome": 0.025,
+        "pneumonia": 0.025,
+        "global health": 0.01875,
+        "novel coronavirus outbreak": 0.01875,
+        "city level": 0.0125,
+        "epidemiology": 0.00625,
+        "disease control": 0.00625,
+        "transmission dynamics": 0.00625,
+        "mainland china": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> A large city with 14 million residents and a major air and train transportation hub of central China, identified a cluster of unexplained cases of pneumonia on December 29, 2019 1.",
+        "Infection of 2019-nCoV quickly spread to other cities in China and other countries (Figure 1).",
+        "It becomes an event of global health concern 9.",
+        "Up to February 11, 2020, according to the reports published by the Chinese Center for Disease Control and Prevention, all prefecturelevel cities of mainland China have confirmed cases and the total number reaches to 42667, of whom 1016 have died and 4242 recovered; 24 oversea countries have 398 confirmed cases (1 died).",
+        "Chinese government took great effort to control the spread of disease, including closing the public transportation from and to Wuhan on January 23, extending the Spring Festival holiday, postponing the school-back day, and suspending all domestic and international group tours",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors collected the daily data of confirmed cases of 2019-nCoV Pneumonia in 306 prefecture-level cities in mainland China up to February 11, 2020 (Supplementary data Table 1) from a platform reporting real-time statistics of 2019-nCoV.",
+        "These daily reported data were used to train and validate the epidemic model.",
+        "Household Registered Population at 2017 year-end derived from census data was used to approximate the number of local residents in each city during 2020 Spring Festival (Supplementary data Table 2)",
+        "<h2 style=\"display: inline\">Results:</h2> Parameter estimation To examine the goodness of model fitting, the authors calculated R-squared and root mean square error (RMSE) between the fitting result and confirmed cases in each city.",
+        "It is reasonable to assume that these cities have completely controlled the spreading and no new infected cases will emerge in the future",
+        "For these cities with R-squared less than 0.70, the 1 value of the city was set to zero.",
+        "Decay rate a reflects the continuous effort input by each city to control the transmission of disease",
+        "It shows that decay rates of cities close to Wuhan is generally lower than other cities (Figure 5.b), suggesting the big challenge faced by these cities to control the disease spreading",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors modeled the updated epidemic trend of 2019-nCoV for each individual city in mainland China and used the model to predict the future trend under three possible scenarios.",
+        "The authors' model accounts for 86% of the variation in the number of daily reported infections on February 11 across cites in mainland China.",
+        "With this model, the authors predict that all cities will show the peak point of daily new infections by February 21, if the current trend is maintained.",
+        "If only the transmission rate in national scale is used to model the epidemics of different cities 10, the prediction of epidemic trend of all major cities would be similar to Wuhan"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A large city with 14 million residents and a major air and train transportation hub of central China, identified a cluster of unexplained cases of pneumonia on December 29, 2019 1.",
+            "Infection of 2019-nCoV quickly spread to other cities in China and other countries (Figure 1).",
+            "It becomes an event of global health concern 9.",
+            "Up to February 11, 2020, according to the reports published by the Chinese Center for Disease Control and Prevention, all prefecturelevel cities of mainland China have confirmed cases and the total number reaches to 42667, of whom 1016 have died and 4242 recovered; 24 oversea countries have 398 confirmed cases (1 died).",
+            "Chinese government took great effort to control the spread of disease, including closing the public transportation from and to Wuhan on January 23, extending the Spring Festival holiday, postponing the school-back day, and suspending all domestic and international group tours"
+        ],
+        "Methods": [
+            "The authors collected the daily data of confirmed cases of 2019-nCoV Pneumonia in 306 prefecture-level cities in mainland China up to February 11, 2020 (Supplementary data Table 1) from a platform reporting real-time statistics of 2019-nCoV.",
+            "These daily reported data were used to train and validate the epidemic model.",
+            "Household Registered Population at 2017 year-end derived from census data was used to approximate the number of local residents in each city during 2020 Spring Festival (Supplementary data Table 2)"
+        ],
+        "Results": [
+            "Parameter estimation To examine the goodness of model fitting, the authors calculated R-squared and root mean square error (RMSE) between the fitting result and confirmed cases in each city.",
+            "It is reasonable to assume that these cities have completely controlled the spreading and no new infected cases will emerge in the future",
+            "For these cities with R-squared less than 0.70, the 1 value of the city was set to zero.",
+            "Decay rate a reflects the continuous effort input by each city to control the transmission of disease",
+            "It shows that decay rates of cities close to Wuhan is generally lower than other cities (Figure 5.b), suggesting the big challenge faced by these cities to control the disease spreading"
+        ],
+        "Conclusion": [
+            "The authors modeled the updated epidemic trend of 2019-nCoV for each individual city in mainland China and used the model to predict the future trend under three possible scenarios.",
+            "The authors' model accounts for 86% of the variation in the number of daily reported infections on February 11 across cites in mainland China.",
+            "With this model, the authors predict that all cities will show the peak point of daily new infections by February 21, if the current trend is maintained.",
+            "If only the transmission rate in national scale is used to model the epidemics of different cities 10, the prediction of epidemic trend of all major cities would be similar to Wuhan"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Li_et+al_0000_a",
+            "entry": "1 Li Q, Guan X, Wu P, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N Engl J Med 2020; 0: 1\u20139.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia"
+        },
+        {
+            "id": "2",
+            "alt_id": "Zhu_et+al_2020_a",
+            "entry": "2 Zhu N, Zhang D, Wang W, et al. A Novel Coronavirus from Patients with Pneumonia in China, 2019. N Engl J Med 2020. DOI:10.1056/NEJMoa2001017.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001017",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001017"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wang_et+al_2020_a",
+            "entry": "3 Wang C, Horby PW, Hayden FG, Gao GF. A novel coronavirus outbreak of global health concern. Lancet 2020; published online Feb 4. DOI:10.1016/S0140-6736(20)30185-9.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30185-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30185-9"
+        },
+        {
+            "id": "4",
+            "alt_id": "Chen_et+al_2020_a",
+            "entry": "4 Chen Y, Liu Q, Guo D. Coronaviruses: genome structure, replication, and pathogenesis. J Med Virol 2020. DOI:10.1002/jmv.25681.",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25681",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25681",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25681"
+        },
+        {
+            "id": "5",
+            "alt_id": "Huang_et+al_2019_a",
+            "entry": "5 Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020. DOI:10.1016/S0140-6736(20)30183-5.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5"
+        },
+        {
+            "id": "6",
+            "alt_id": "Perlman_2020_a",
+            "entry": "6 Perlman S. Another Decade, Another Coronavirus. N Engl J Med 2020. DOI:10.1056/NEJMe2001126.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMe2001126",
+            "scite": "https://scite.ai/reports/10.1056/NEJMe2001126",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMe2001126"
+        },
+        {
+            "id": "7",
+            "alt_id": "Fuk_et+al_2019_a",
+            "entry": "7 Fuk-Woo Chan J, Yuan S, Kok K-H, et al. A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet 2020. DOI:10.1016/S0140-6736(20)30154-9.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30154-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30154-9"
+        },
+        {
+            "id": "8",
+            "alt_id": "Riou_2019_a",
+            "entry": "8 Riou J, Althaus CL. Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioRxiv 2020. DOI:10.1101/2020.01.23.917351.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.917351",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.917351"
+        },
+        {
+            "id": "9",
+            "alt_id": "Hui_et+al_2019_a",
+            "entry": "9 Hui DS, I Azhar E, Madani TA, et al. The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health \u2014 The latest 2019 novel coronavirus outbreak in Wuhan, China. Int. J. Infect. Dis. 2020. DOI:10.1016/j.ijid.2020.01.009.",
+            "crossref": "https://dx.doi.org/10.1016/j.ijid.2020.01.009",
+            "scite": "https://scite.ai/reports/10.1016/j.ijid.2020.01.009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.ijid.2020.01.009"
+        },
+        {
+            "id": "10",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "10 Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet 2020; published online Feb 4. DOI:10.1016/S0140-6736(20)30260-9.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9"
+        },
+        {
+            "id": "11",
+            "alt_id": "Munster_et+al_2020_a",
+            "entry": "11 Munster VJ, Koopmans M, van Doremalen N, van Riel D, de Wit E. A Novel Coronavirus Emerging in China \u2014 Key Questions for Impact Assessment. N Engl J Med 2020. DOI:10.1056/NEJMp2000929.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMp2000929",
+            "scite": "https://scite.ai/reports/10.1056/NEJMp2000929",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMp2000929"
+        },
+        {
+            "id": "12",
+            "alt_id": "Shen_et+al_2019_a",
+            "entry": "12 Shen M, Peng Z, Xiao Y, Zhang L. Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020. DOI:10.1101/2020.01.23.916726.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.916726",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.916726"
+        },
+        {
+            "id": "13",
+            "alt_id": "Read_et+al_2019_a",
+            "entry": "13 Read JM, Bridgen JR, Cummings DA, Ho A, Jewell CP. Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020. DOI:10.1101/2020.01.23.20018549.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.20018549",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.20018549"
+        },
+        {
+            "id": "14",
+            "alt_id": "Zhao_et+al_2019_a",
+            "entry": "14 Zhao S, Ran J, MUSA SS, et al. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. bioRxiv 2020. DOI:10.1101/2020.01.23.916395.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.916395",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.916395",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.23.916395"
+        },
+        {
+            "id": "15",
+            "alt_id": "Nishiura_2020_a",
+            "entry": "15 Nishiura, Jung, Linton, et al. The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020. J Clin Med 2020. DOI:10.3390/jcm9020330.",
+            "crossref": "https://dx.doi.org/10.3390/jcm9020330",
+            "scite": "https://scite.ai/reports/10.3390/jcm9020330",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3390/jcm9020330"
+        },
+        {
+            "id": "16",
+            "alt_id": "Rothe_et+al_2020_a",
+            "entry": "16 Rothe C, Schunk M, Sothmann P, et al. Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany. N Engl J Med 2020; published online Jan 30. DOI:10.1056/NEJMc2001468.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMc2001468",
+            "scite": "https://scite.ai/reports/10.1056/NEJMc2001468",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMc2001468"
+        },
+        {
+            "id": "17",
+            "alt_id": "Nelder_1965_a",
+            "entry": "17 Nelder JA, Mead R. A Simplex Method for Function Minimization. Comput J 1965; 7: 308\u201313.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nelder%2C%20J.A.%20Mead%2C%20R.%20A%20Simplex%20Method%20for%20Function%20Minimization%201965",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nelder%2C%20J.A.%20Mead%2C%20R.%20A%20Simplex%20Method%20for%20Function%20Minimization%201965",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nelder%2C%20J.A.%20Mead%2C%20R.%20A%20Simplex%20Method%20for%20Function%20Minimization%201965"
+        },
+        {
+            "id": "18",
+            "alt_id": "Anderson_et+al_2004_a",
+            "entry": "18 Anderson RM, Fraser C, Ghani AC, et al. Epidemiology, transmission dynamics and control of SARS: The 2002-2003 epidemic. Philos Trans R Soc B Biol Sci 2004; 359: 1091\u2013105.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Anderson%20RM%20Fraser%20C%20Ghani%20AC%20et%20al%20Epidemiology%20transmission%20dynamics%20and%20control%20of%20SARS%20The%2020022003%20epidemic%20Philos%20Trans%20R%20Soc%20B%20Biol%20Sci%202004%20359%201091105",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Anderson%20RM%20Fraser%20C%20Ghani%20AC%20et%20al%20Epidemiology%20transmission%20dynamics%20and%20control%20of%20SARS%20The%2020022003%20epidemic%20Philos%20Trans%20R%20Soc%20B%20Biol%20Sci%202004%20359%201091105",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Anderson%20RM%20Fraser%20C%20Ghani%20AC%20et%20al%20Epidemiology%20transmission%20dynamics%20and%20control%20of%20SARS%20The%2020022003%20epidemic%20Philos%20Trans%20R%20Soc%20B%20Biol%20Sci%202004%20359%201091105"
+        },
+        {
+            "id": "19",
+            "alt_id": "Chowell_et+al_2003_a",
+            "entry": "19 Chowell G, Fenimore PW, Castillo-Garsow MA, Castillo-Chavez C. SARS outbreaks in Ontario, Hong Kong and Singapore: The role of diagnosis and isolation as a control mechanism. J Theor Biol 2003; 224: 1\u20138.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chowell%2C%20G.%20Fenimore%2C%20P.W.%20Castillo-Garsow%2C%20M.A.%20Castillo-Chavez%2C%20C.%20SARS%20outbreaks%20in%20Ontario%2C%20Hong%20Kong%20and%20Singapore%3A%20The%20role%20of%20diagnosis%20and%20isolation%20as%20a%20control%20mechanism%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chowell%2C%20G.%20Fenimore%2C%20P.W.%20Castillo-Garsow%2C%20M.A.%20Castillo-Chavez%2C%20C.%20SARS%20outbreaks%20in%20Ontario%2C%20Hong%20Kong%20and%20Singapore%3A%20The%20role%20of%20diagnosis%20and%20isolation%20as%20a%20control%20mechanism%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chowell%2C%20G.%20Fenimore%2C%20P.W.%20Castillo-Garsow%2C%20M.A.%20Castillo-Chavez%2C%20C.%20SARS%20outbreaks%20in%20Ontario%2C%20Hong%20Kong%20and%20Singapore%3A%20The%20role%20of%20diagnosis%20and%20isolation%20as%20a%20control%20mechanism%202003"
+        },
+        {
+            "id": "20",
+            "alt_id": "Li_et+al_0000_b",
+            "entry": "20 Li Q, Guan X, Wu P, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med 2020;: 1\u20139.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus-Infected%20Pneumonia"
+        },
+        {
+            "id": "21",
+            "alt_id": "Shen_et+al_2015_a",
+            "entry": "21 Shen M, Hu M, Liu S, Chang Y, Sun Z. Assessment of the Chinese Resident Health Literacy Scale in a population-based sample in South China. BMC Public Health 2015; 15: 1\u201311.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shen%2C%20M.%20Hu%2C%20M.%20Liu%2C%20S.%20Chang%2C%20Y.%20Assessment%20of%20the%20Chinese%20Resident%20Health%20Literacy%20Scale%20in%20a%20population-based%20sample%20in%20South%20China%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Shen%2C%20M.%20Hu%2C%20M.%20Liu%2C%20S.%20Chang%2C%20Y.%20Assessment%20of%20the%20Chinese%20Resident%20Health%20Literacy%20Scale%20in%20a%20population-based%20sample%20in%20South%20China%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Shen%2C%20M.%20Hu%2C%20M.%20Liu%2C%20S.%20Chang%2C%20Y.%20Assessment%20of%20the%20Chinese%20Resident%20Health%20Literacy%20Scale%20in%20a%20population-based%20sample%20in%20South%20China%202015"
+        }
+    ],
+    "facts": [
+        "spatially explicit epidemic model to consider the unique characteristics of the virus transmission in individual cities",
+        "Our model considered that the rate of virus transmission",
+        "a decay rate to quantify the effort of each city to gradually control the disease spreading",
+        "used mobile phone data to obtain the number of individuals in each city who have travel history",
+        "person-to-person contact increased due to work resuming",
+        "This date can be advanced to February 14 with control efforts expanded",
+        "Except Wuhan that cannot eliminate the disease by March 12",
+        "our model predicts that 95.4%",
+        "75.7% cities will have no new infections by the end of February",
+        "these initial cases were linked to the Huanan Seafood Wholesale Market 2",
+        "2019-nCoV can cause acute respiratory diseases that progress to severe pneumonia 5",
+        "The infection fatality risk is around 3% estimated from the data",
+        "to the reports published by the Chinese Center for Disease Control",
+        "Chinese government took great effort to control the spread of disease",
+        "Wuhan implemented the quarantine on January 23",
+        "in each city based on the mobile phone dataset",
+        "Household Registered Population at 2017 year-end derived from census data was used to approximate the number of local residents",
+        "Parameter estimation To examine the goodness of model fitting",
+        "the number does not change in the past several days",
+        "reasonable to assume that these cities have completely controlled the spreading",
+        "no new infected cases will emerge in the future",
+        "initial infectious population 1 reflects the intensity of control measures adopted by each local government",
+        "which may attribute to higher health literacy of their citizens 21",
+        "the continuous effort input by each city to control the transmission of disease",
+        "close to Wuhan is generally lower than other cities",
+        "the big challenge faced by these cities to control the disease spreading",
+        "the model to predict the future trend under three possible scenarios",
+        "Our model accounts for 86% of the variation",
+        "a challenge to prevent the growing of disease transmission",
+        "the unique characteristics of the novel coronavirus spreading were taken into account",
+        "that the new coronavirus originates from Wuhan",
+        "a decay rate was introduced into the model",
+        "the intervention implemented in each city",
+        "the transmission rate in national scale is used to model the epidemics of different cities 10",
+        "the prediction of epidemic trend of all major cities would be similar to Wuhan",
+        "20 cities with highest cumulative infections by March 12 predicted under three scenarios To understand the specific attributes of epidemic dynamics",
+        "Our results show that this successful day in cities"
+    ],
+    "claims": [
+        "The aim of this study is to model the current dynamics of 2019-nCoV at city level and predict the trend in the next 30 days under three possible scenarios in mainland China",
+        "We developed a spatially explicit epidemic model to consider the unique characteristics of the virus transmission in individual cities",
+        "We introduced a decay rate to quantify the effort of each city to gradually control the disease spreading",
+        "To model the updated fine-scale epidemic dynamics of all individual cities in mainland China, we proposed a spatially explicit approach",
+        "We developed a new epidemiological model based the classic Susceptible-Infectious-Recovered (SIR) model to fit the dynamics of 2019-nCoV at the city level",
+        "We examined the fitted models with R-squared less than 0.7 (26 out of 306 cities) and found that all these cities have very small number (1-3) of confirmed cases and the number does not change in the past several days",
+        "To provide an intuitive picture about epidemic dynamics in different scenarios, we showed in Figure 7 the number of cumulative infections in each city on March 12",
+        "Figure 8. 20 cities with highest cumulative infections by March 12 predicted under three scenarios (Data of Wuhan is 40613, 27021, and 98486 that is not shown properly in this figure) To understand the specific attributes of epidemic dynamics under different scenarios, we investigated the temporal changes of daily new infections across all cities in mainland China",
+        "In Figure 9, we show the results in Wuhan, Hubei province excluding Wuhan, other provinces, and four first-tier cities",
+        "Our results show that this successful day in cities close to Wuhan is much later than other cities under all scenarios",
+        "Discussion In this study, we modeled the updated epidemic trend of 2019-nCoV for each individual city in mainland China and used the model to predict the future trend under three possible scenarios",
+        "Considering that the new coronavirus originates from Wuhan and the majority of the local infected patients outside Wuhan had Wuhan travel history before the Spring Festival, we extended the SIR model to capture the transmission characteristics of the novel coronavirus in mainland China"
+    ],
+    "findings": [
+        "The predicted values by our model well match the reported infected cases (Rsquared: 0.86, RMSE: 6.35, P < 0.0001, Figure 6.a)",
+        "Compared with our model, the predicted values by the classic SIR model does not match with the daily new infected cases (R-squared: 0.30, RMSE: 13.22, P < 0.0001, Figures 6.b)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Chinese health authorities and scientists did immediate investigation and isolated a novel coronavirus from these patients by January 7, 2020, which is named as 2019-nCoV by the World Health Organization 3,4. 2019-nCoV can cause acute respiratory diseases that progress to severe pneumonia 5",
+        "Considering that 2019-nCoV emerged in Wuhan around January 1, 2020 and Wuhan implemented the quarantine on January 23, 2020, we collected the number of people who have Wuhan travel history during January 1-24, 2020 in each city based on the mobile phone dataset (Figure 2 and Supplementary data Table 2)",
+        "Parameter estimation To examine the goodness of model fitting, we calculated R-squared and root mean square error (RMSE) between the fitting result and confirmed cases in each city",
+        "We examined the fitted models with R-squared less than 0.7 (26 out of 306 cities) and found that all these cities have very small number (1-3) of confirmed cases and the number does not change in the past several days",
+        "Figure 8. 20 cities with highest cumulative infections by March 12 predicted under three scenarios (Data of Wuhan is 40613, 27021, and 98486 that is not shown properly in this figure) To understand the specific attributes of epidemic dynamics under different scenarios, we investigated the temporal changes of daily new infections across all cities in mainland China",
+        "In this study, we modeled the updated epidemic trend of 2019-nCoV for each individual city in mainland China and used the model to predict the future trend under three possible scenarios",
+        "Our model accounts for 86% of the variation in the number of daily reported infections on February 11 across cites in mainland China",
+        "We predict that all cities will show the peak point of daily new infections by February 21, if the current trend is maintained. This date can be advanced to February 14 with control efforts expanded or postponed to February 26 under pressure of work resuming",
+        "Cities in central and east of mainland China will face a challenge to prevent the growing of disease transmission due to work resuming",
+        "The unique characteristics of the novel coronavirus spreading were taken into account in our proposed model",
+        "Considering that the new coronavirus originates from Wuhan and the majority of the local infected patients outside Wuhan had Wuhan travel history before the Spring Festival, we extended the SIR model to capture the transmission characteristics of the novel coronavirus in mainland China",
+        "If only the transmission rate in national scale is used to model the epidemics of different cities 10, the prediction of epidemic trend of all major cities would be similar to Wuhan"
+    ],
+    "top_statements": [
+        "Wuhan, a large city with 14 million residents and a major air and train transportation hub of central China, identified a cluster of unexplained cases of pneumonia on December 29, 2019 1",
+        "Parameter estimation To examine the goodness of model fitting, we calculated R-squared and root mean square error (RMSE) between the fitting result and confirmed cases in each city",
+        "In this study, we modeled the updated epidemic trend of 2019-nCoV for each individual city in mainland China and used the model to predict the future trend under three possible scenarios",
+        "The unique characteristics of the novel coronavirus spreading were taken into account in our proposed model",
+        "Considering that the new coronavirus originates from Wuhan and the majority of the local infected patients outside Wuhan had Wuhan travel history before the Spring Festival, we extended the SIR model to capture the transmission characteristics of the novel coronavirus in mainland China",
+        "If only the transmission rate in national scale is used to model the epidemics of different cities 10, the prediction of epidemic trend of all major cities would be similar to Wuhan"
+    ],
+    "headline": "Considering that the new coronavirus originates from Wuhan and the majority of the local infected patients outside Wuhan had Wuhan travel history before the Spring Festival, we extended the SIR model to capture the transmission characteristics of the novel coronavirus in mainland China",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "severe acute respiratory syndrome",
+        "RMSE": "root mean square error"
+    }
+}

@@ -1,0 +1,533 @@
+{
+    "filename": "pdf.pdf",
+    "content_type": "application/pdf",
+    "file_size": 530757,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.3390/jcm9020388",
+            "url": "https://www.mdpi.com/2077-0383/9/2/388/pdf"
+        },
+        "date": 2020,
+        "title": "Estimating the Unreported Number of Novel Coronavirus (2019-nCoV) Cases in China in the First Half of January 2020: A Data-Driven Modelling Analysis of the Early Outbreak",
+        "author": "Shi Zhao, Salihu S. Musa, Qianying Lin, Jinjun Ran, Guangpu Yang, Weiming Wang, Yijun Lou, Lin Yang, Daozhou Gao, Daihai He, Maggie H. Wang",
+        "affiliations": [
+            "1 JC School of Public Health and Primary Care, Chinese University of Hong Kong, Hong Kong 999077, China; maggiew@cuhk.edu.hk",
+            "Shenzhen Research Institute of Chinese University of Hong Kong, Shenzhen 518060, China",
+            "Department of Applied Mathematics, Hong Kong Polytechnic University, Hong Kong 999077, China;",
+            "Michigan Institute for Data Science, University of Michigan, Ann Arbor, Michigan, MI 48104, USA;",
+            "School of Public Health, Li Ka Shing Faculty of Medicine, University of Hong Kong,",
+            "Department of Orthopaedics and Traumatology, Chinese University of Hong Kong,",
+            "Joint Scoliosis Research Center of Chinese University of Hong Kong and",
+            "Nanjing University, Hong Kong 999077, China",
+            "School of Mathematics and Statistics, Huaiyin Normal University, Huaian 223300, China",
+            "School of Nursing, Hong Kong Polytechnic University, Hong Kong 999077, China; l.yang@polyu.edu.hk",
+            "Department of Mathematics, Shanghai Normal University, Shanghai 200234, China; dzgao@shnu.edu.cn",
+            "Correspondence: zhaoshi.cmsa@gmail.com (S.Z.); weimingwang2003@163.com (W.W.);"
+        ],
+        "journal": "Journal of Clinical Medicine",
+        "volume": "9",
+        "abstract": "Background: In December 2019, an outbreak of respiratory illness caused by a novel coronavirus (2019-nCoV) emerged in Wuhan, China and has swiftly spread to other parts of China and a number of foreign countries. The 2019-nCoV cases might have been under-reported roughly from 1 to 15 January 2020, and thus we estimated the number of unreported cases and the basic reproduction number, R0, of 2019-nCoV. Methods: We modelled the epidemic curve of 2019-nCoV cases, in mainland China from 1 December 2019 to 24 January 2020 through the exponential growth. The number of unreported cases was determined by the maximum likelihood estimation. We used the serial intervals (SI) of infection caused by two other well-known coronaviruses (CoV), Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS) CoVs, as approximations of the unknown SI for 2019-nCoV to estimate R0. Results: We confirmed that the initial growth phase followed an exponential growth pattern. The under-reporting was likely to have resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020. The reporting rate after 17 January 2020 was likely to have increased 21-fold (95% CI: 18\u201325) in comparison to the situation from 1 to 17 January 2020 on average. We estimated the R0 of 2019-nCoV at 2.56 (95% CI: 2.49\u20132.63). Conclusion: The under-reporting was likely to have occurred during the first half of January 2020 and should be considered in future investigation.",
+        "keywords": [
+            "novel coronavirus",
+            "outbreak",
+            "modelling",
+            "underreporting",
+            "reproduction number",
+            "China"
+        ],
+        "references": "@article{wu-a,\n  author = {Wu, P. and Hao, X. and Lau, E.H. and Wong, J.Y. and Leung, K.S. and Wu, J.T. and Cowling, B.J. and Leung, G.M.},\n  title = {Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020},\n  journal = {Eurosurveillance},\n  volume = {2020},\n  date = {25.},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@book{unknown2020a,\n  title = {Pneumonia of Unknown Cause\u2014China},\n  url = {https://www.who.int/csr/don/05-january-2020pneumonia-of-unkown-cause-china/en/},\n  publisher = {on},\n  date = {2020-01-27},\n  language = {},\n  urldate = {Available online:}\n}\n@article{huang2020a,\n  author = {Huang, C. and Wang, Y. and Li, X. and Ren, L. and Zhao, J. and Hu, Y. and Zhang, L. and Fan, G. and Xu, J. and Gu, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  date = {2020},\n  medium = {CrossRef},\n  more-authors = {true},\n  language = {}\n}\n@misc{unknown-a,\n  title = {Situation Report of the Pneumonia Cases Caused by the Novel Coronavirus},\n  url = {http://www.nhc.gov.cn/yjb/s3578/202001/a3c8b5144067417889d8760254b1a7ca.shtml},\n  unmatched-accessed = {(accessed on 27 January 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@incollection{imai2019a,\n  author = {Imai, N. and Dorigatti, I. and Cori, A. and Riley, S. and Ferguson, N.M.},\n  title = {Estimating the Potential Total Number of Novel Coronavirus},\n  date = {2019-01-27},\n  publisher = {Wuhan City, China. Available online},\n  url = {https://www.imperial.ac.uk/mrcglobal-infectious-disease-analysis/news--wuhan-coronavirus/},\n  source = {Cases in},\n  unmatched-publisher = {on},\n  language = {}\n}\n@misc{unknown-b,\n  title = {Nowcasting and Forecasting the Wuhan 2019-nCoV Outbreak},\n  url = {https://files.sph.hku.hk/download/wuhan_exportation_preprint.pdf},\n  unmatched-accessed = {(accessed on 27 January 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@article{bogoch2020a,\n  author = {Bogoch, I.I. and Watts, A. and Thomas-Bachli, A. and Huber, C. and Kraemer, M.U. and Khan, K.},\n  title = {Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel},\n  journal = {J. Travel Med},\n  date = {2020},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@techreport{unknown-c,\n  title = {Press and Situation Reports of the Pneumonia Caused by Novel Coronavirus},\n  url = {http://wjw.wuhan.gov.cn/front/web/list2nd/no/710},\n  unmatched-accessed = {(accessed on 27 January 2020).},\n  language = {},\n  urldate = {Available online:},\n  institution = {News}\n}\n@incollection{unknown2019a,\n  title = {An Outbreak Situation Update on the Pneumonia Caused by the Novel Coronavirus},\n  date = {2019},\n  url = {http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml},\n  source = {Infection},\n  unmatched-accessed = {(accessed on 27 January 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@book{unknown2020b,\n  title = {Definition of Suspected Cases},\n  publisher = {of Unexplained Pneumonia. Available online: http://www.nhc.gov.cn/(accessed on},\n  date = {2020-01-27},\n  language = {}\n}\n@article{zhao2019a,\n  author = {Zhao, S. and Musa, S.S. and Fu, H. and He, D. and Qin, J.},\n  title = {Simple framework for real-time forecast in a data-limited situation: The Zika virus (ZIKV) outbreaks in Brazil from 2015 to 2016 as an example},\n  journal = {Parasit. Vectors},\n  date = {2019},\n  volume = {12},\n  pages = {344},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{de2009a,\n  author = {De Silva, U. and Warachit, J. and Waicharoen, S. and Chittaganpitch, M.},\n  title = {A preliminary analysis of the epidemiology of influenza A(H1N1)v virus infection in Thailand from early outbreak data, June\u2013July 2009},\n  journal = {Eurosurveillance},\n  date = {2009},\n  volume = {14},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{fan2005a,\n  author = {Fan, J. and Huang, T.},\n  title = {Profile likelihood inferences on semiparametric varying-coefficient partially linear models},\n  journal = {Bernoulli},\n  date = {2005},\n  volume = {11},\n  pages = {1031\u20131057},\n  medium = {CrossRef},\n  language = {}\n}\n@article{wallinga2007a,\n  author = {Wallinga, J. and Lipsitch, M.},\n  title = {How generation intervals shape the relationship between growth rates and reproductive numbers},\n  journal = {Proc. R. Soc. B Biol. Sci},\n  date = {2007},\n  volume = {274},\n  pages = {599\u2013604},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@CrossRef{wu-b,\n  author = {Wu, F. and Zhao, S. and Yu, B. and Chen, Y.-M. and Wang, W. and Hu, Y. and Song, Z.-G. and Tao, Z.-W. and Tian, J.-H. and Pei, Y.-Y.},\n  title = {Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China. bioRxiv 2020},\n  medium = {CrossRef},\n  more-authors = {true},\n  language = {}\n}\n@CrossRef{zhou-a,\n  author = {Zhou, P. and Yang, X.-L. and Wang, X.-G. and Hu, B. and Zhang, L. and Zhang, W. and Si, H.-R. and Zhu, Y. and Li, B. and Huang, C.-L.},\n  title = {Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin. bioRxiv 2020},\n  medium = {CrossRef},\n  more-authors = {true},\n  language = {}\n}\n@article{zhu2020a,\n  author = {Zhu, N. and Zhang, D. and Wang, W. and Li, X. and Yang, B. and Song, J. and Zhao, X. and Huang, B. and Shi, W. and Lu, R.},\n  title = {A Novel coronavirus from patients with pneumonia in china, 2019},\n  journal = {N. Engl. J. Med},\n  date = {2020},\n  medium = {CrossRef-PubMed},\n  more-authors = {true},\n  language = {}\n}\n@article{assiri2013a,\n  author = {Assiri, A. and McGeer, A. and Perl, T.M. and Price, C.S. and Al Rabeeah, A.A. and Cummings, D.A. and Alabdullatif, Z.N. and Assad, M. and Almulhim, A. and Makhdoom, H.},\n  title = {Hospital outbreak of Middle East respiratory syndrome coronavirus},\n  journal = {N. Engl. J. Med},\n  date = {2013},\n  volume = {369},\n  pages = {407\u2013416},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{lipsitch2003a,\n  author = {Lipsitch, M. and Cohen, T. and Cooper, B. and Robins, J.M. and Ma, S. and James, L. and Gopalakrishna, G. and Chew, S.K. and Tan, C.C. and Samore, M.H.},\n  title = {Transmission dynamics and control of severe acute respiratory syndrome},\n  journal = {Science},\n  date = {2003},\n  volume = {300},\n  pages = {1966\u20131970},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@CrossRef{riou-a,\n  author = {Riou, J. and Althaus, C.L.},\n  title = {Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioRxiv 2020},\n  medium = {CrossRef},\n  language = {}\n}\n@CrossRef{read-a,\n  author = {Read, J.M. and Bridgen, J.R. and Cummings, D.A. and Ho, A. and Jewell, C.P.},\n  title = {Novel coronavirus 2019-nCoV: Early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020},\n  medium = {CrossRef},\n  language = {}\n}\n@CrossRef{shen-a,\n  author = {Shen, M. and Peng, Z. and Xiao, Y. and Zhang, L.},\n  title = {Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020},\n  medium = {CrossRef},\n  language = {}\n}\n@article{cowling2009a,\n  author = {Cowling, B.J. and Fang, V.J. and Riley, S. and Peiris, J.M. and Leung, G.M.},\n  title = {Estimation of the serial interval of influenza},\n  journal = {Epidemiology},\n  date = {2009},\n  volume = {20},\n  pages = {344},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{wallinga2004a,\n  author = {Wallinga, J. and Teunis, P.},\n  title = {Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures},\n  journal = {Am. J. Epidemiol},\n  date = {2004},\n  volume = {160},\n  pages = {509\u2013516},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{bauch2005a,\n  author = {Bauch, C.T. and Lloyd-Smith, J.O. and Coffee, M.P. and Galvani, A.P.},\n  title = {Dynamically modeling SARS and other newly emerging respiratory illnesses: Past, present, and future},\n  journal = {Epidemiology},\n  date = {2005},\n  volume = {16},\n  pages = {791\u2013801},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{lin2018a,\n  author = {Lin, Q. and Chiu, A.P. and Zhao, S. and He, D.},\n  title = {Modeling the spread of Middle East respiratory syndrome coronavirus in Saudi Arabia},\n  journal = {Stat. Methods Med. Res},\n  date = {2018},\n  volume = {27},\n  pages = {1968\u20131978},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@incollection{unknown2019b,\n  title = {Laboratory Testing for 2019 Novel Coronavirus},\n  date = {2019},\n  url = {https://www.who.int/health-topics/coronavirus/laboratory-diagnostics-for-novel-coronavirus},\n  source = {in Suspected Human Cases},\n  unmatched-accessed = {(accessed on 27 January 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n",
+        "emails": [
+            "dzgao@shnu.edu.cn",
+            "qianying@umich.edu",
+            "zhaoshi.cmsa@gmail.com",
+            "daihai.he@polyu.edu.hk",
+            "l.yang@polyu.edu.hk",
+            "maggiew@cuhk.edu.hk",
+            "yijun.lou@polyu.edu.hk",
+            "salihu-sabiu.musa@connect.polyu.hk",
+            "jimran@connect.hku.hk",
+            "kennethgpy@link.cuhk.edu.hk",
+            "weimingwang2003@163.com"
+        ],
+        "pages": "388",
+        "cited_by": 6,
+        "references_ris": "TY  - JOUR\nAU  - Wu, P.\nAU  - Hao, X.\nAU  - Lau, E.H.\nAU  - Wong, J.Y.\nAU  - Leung, K.S.\nAU  - Wu, J.T.\nAU  - Cowling, B.J.\nAU  - Leung, G.M.\nTI  - Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020\nT2  - Eurosurveillance\nVL  - 2020\nPY  - 25.\nDA  - 25.\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - BOOK\nTI  - Pneumonia of Unknown Cause\u2014China\nUR  - https://www.who.int/csr/don/05-january-2020pneumonia-of-unkown-cause-china/en/\nPB  - on\nPY  - 2020\nDA  - 2020/01/27\nLA  - \nC1  - Available online:\nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nAU  - Ren, L.\nAU  - Zhao, J.\nAU  - Hu, Y.\nAU  - Zhang, L.\nAU  - Fan, G.\nAU  - Xu, J.\nAU  - Gu, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nPY  - 2020\nDA  - 2020\nC1  - CrossRef\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nTI  - Situation Report of the Pneumonia Cases Caused by the Novel Coronavirus\nUR  - http://www.nhc.gov.cn/yjb/s3578/202001/a3c8b5144067417889d8760254b1a7ca.shtml\nC1  - (accessed on 27 January 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - CHAP\nAU  - Imai, N.\nAU  - Dorigatti, I.\nAU  - Cori, A.\nAU  - Riley, S.\nAU  - Ferguson, N.M.\nTI  - Estimating the Potential Total Number of Novel Coronavirus\nPY  - 2019\nDA  - 2019/01/27\nPB  - Wuhan City, China. Available online\nUR  - https://www.imperial.ac.uk/mrcglobal-infectious-disease-analysis/news--wuhan-coronavirus/\nT2  - Cases in\nC1  - on\nLA  - \nER  - \n\nTY  - GEN\nTI  - Nowcasting and Forecasting the Wuhan 2019-nCoV Outbreak\nUR  - https://files.sph.hku.hk/download/wuhan_exportation_preprint.pdf\nC1  - (accessed on 27 January 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - JOUR\nAU  - Bogoch, I.I.\nAU  - Watts, A.\nAU  - Thomas-Bachli, A.\nAU  - Huber, C.\nAU  - Kraemer, M.U.\nAU  - Khan, K.\nTI  - Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel\nT2  - J. Travel Med\nPY  - 2020\nDA  - 2020\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - RPRT\nTI  - Press and Situation Reports of the Pneumonia Caused by Novel Coronavirus\nUR  - http://wjw.wuhan.gov.cn/front/web/list2nd/no/710\nC1  - (accessed on 27 January 2020).\nLA  - \nC1  - Available online:\nC1  - News\nER  - \n\nTY  - CHAP\nTI  - An Outbreak Situation Update on the Pneumonia Caused by the Novel Coronavirus\nPY  - 2019\nDA  - 2019\nUR  - http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml\nT2  - Infection\nC1  - (accessed on 27 January 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - BOOK\nTI  - Definition of Suspected Cases\nPB  - of Unexplained Pneumonia. Available online: http://www.nhc.gov.cn/(accessed on\nPY  - 2020\nDA  - 2020/01/27\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhao, S.\nAU  - Musa, S.S.\nAU  - Fu, H.\nAU  - He, D.\nAU  - Qin, J.\nTI  - Simple framework for real-time forecast in a data-limited situation: The Zika virus (ZIKV) outbreaks in Brazil from 2015 to 2016 as an example\nT2  - Parasit. Vectors\nPY  - 2019\nDA  - 2019\nVL  - 12\nSP  - 344\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - De Silva, U.\nAU  - Warachit, J.\nAU  - Waicharoen, S.\nAU  - Chittaganpitch, M.\nTI  - A preliminary analysis of the epidemiology of influenza A(H1N1)v virus infection in Thailand from early outbreak data, June\u2013July 2009\nT2  - Eurosurveillance\nPY  - 2009\nDA  - 2009\nVL  - 14\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fan, J.\nAU  - Huang, T.\nTI  - Profile likelihood inferences on semiparametric varying-coefficient partially linear models\nT2  - Bernoulli\nPY  - 2005\nDA  - 2005\nVL  - 11\nSP  - 1031\nEP  - 1057\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wallinga, J.\nAU  - Lipsitch, M.\nTI  - How generation intervals shape the relationship between growth rates and reproductive numbers\nT2  - Proc. R. Soc. B Biol. Sci\nPY  - 2007\nDA  - 2007\nVL  - 274\nSP  - 599\nEP  - 604\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wu, F.\nAU  - Zhao, S.\nAU  - Yu, B.\nAU  - Chen, Y.-M.\nAU  - Wang, W.\nAU  - Hu, Y.\nAU  - Song, Z.-G.\nAU  - Tao, Z.-W.\nAU  - Tian, J.-H.\nAU  - Pei, Y.-Y.\nTI  - Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China. bioRxiv 2020\nC1  - CrossRef\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Zhou, P.\nAU  - Yang, X.-L.\nAU  - Wang, X.-G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nAU  - Si, H.-R.\nAU  - Zhu, Y.\nAU  - Li, B.\nAU  - Huang, C.-L.\nTI  - Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin. bioRxiv 2020\nC1  - CrossRef\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, N.\nAU  - Zhang, D.\nAU  - Wang, W.\nAU  - Li, X.\nAU  - Yang, B.\nAU  - Song, J.\nAU  - Zhao, X.\nAU  - Huang, B.\nAU  - Shi, W.\nAU  - Lu, R.\nTI  - A Novel coronavirus from patients with pneumonia in china, 2019\nT2  - N. Engl. J. Med\nPY  - 2020\nDA  - 2020\nC1  - CrossRef-PubMed\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Assiri, A.\nAU  - McGeer, A.\nAU  - Perl, T.M.\nAU  - Price, C.S.\nAU  - Al Rabeeah, A.A.\nAU  - Cummings, D.A.\nAU  - Alabdullatif, Z.N.\nAU  - Assad, M.\nAU  - Almulhim, A.\nAU  - Makhdoom, H.\nTI  - Hospital outbreak of Middle East respiratory syndrome coronavirus\nT2  - N. Engl. J. Med\nPY  - 2013\nDA  - 2013\nVL  - 369\nSP  - 407\nEP  - 416\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lipsitch, M.\nAU  - Cohen, T.\nAU  - Cooper, B.\nAU  - Robins, J.M.\nAU  - Ma, S.\nAU  - James, L.\nAU  - Gopalakrishna, G.\nAU  - Chew, S.K.\nAU  - Tan, C.C.\nAU  - Samore, M.H.\nTI  - Transmission dynamics and control of severe acute respiratory syndrome\nT2  - Science\nPY  - 2003\nDA  - 2003\nVL  - 300\nSP  - 1966\nEP  - 1970\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - GEN\nAU  - Riou, J.\nAU  - Althaus, C.L.\nTI  - Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioRxiv 2020\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - GEN\nAU  - Read, J.M.\nAU  - Bridgen, J.R.\nAU  - Cummings, D.A.\nAU  - Ho, A.\nAU  - Jewell, C.P.\nTI  - Novel coronavirus 2019-nCoV: Early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - GEN\nAU  - Shen, M.\nAU  - Peng, Z.\nAU  - Xiao, Y.\nAU  - Zhang, L.\nTI  - Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cowling, B.J.\nAU  - Fang, V.J.\nAU  - Riley, S.\nAU  - Peiris, J.M.\nAU  - Leung, G.M.\nTI  - Estimation of the serial interval of influenza\nT2  - Epidemiology\nPY  - 2009\nDA  - 2009\nVL  - 20\nSP  - 344\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wallinga, J.\nAU  - Teunis, P.\nTI  - Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures\nT2  - Am. J. Epidemiol\nPY  - 2004\nDA  - 2004\nVL  - 160\nSP  - 509\nEP  - 516\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bauch, C.T.\nAU  - Lloyd-Smith, J.O.\nAU  - Coffee, M.P.\nAU  - Galvani, A.P.\nTI  - Dynamically modeling SARS and other newly emerging respiratory illnesses: Past, present, and future\nT2  - Epidemiology\nPY  - 2005\nDA  - 2005\nVL  - 16\nSP  - 791\nEP  - 801\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lin, Q.\nAU  - Chiu, A.P.\nAU  - Zhao, S.\nAU  - He, D.\nTI  - Modeling the spread of Middle East respiratory syndrome coronavirus in Saudi Arabia\nT2  - Stat. Methods Med. Res\nPY  - 2018\nDA  - 2018\nVL  - 27\nSP  - 1968\nEP  - 1978\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - CHAP\nTI  - Laboratory Testing for 2019 Novel Coronavirus\nPY  - 2019\nDA  - 2019\nUR  - https://www.who.int/health-topics/coronavirus/laboratory-diagnostics-for-novel-coronavirus\nT2  - in Suspected Human Cases\nC1  - (accessed on 27 January 2020).\nLA  - \nC1  - Available online:\nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "introduction": [
+            "A novel coronavirus (2019-nCoV) infected pneumonia infection, which is deadly [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], was first identified in Wuhan, China in December 2019 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The virus causes a range of symptoms including fever, cough, and shortness of breath [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The cumulative number of reported cases slowly increased to cumulative 41 cases by 1 January 2020, and rapidly increased after 16 January 2020. As of 26 January 2020, the still ongoing outbreak had resulted in 2066 (618 of them are in Wuhan) confirmed cases and 56 (45 of them were in Wuhan) deaths in mainland China [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and sporadic cases exported from Wuhan were reported in Thailand, Japan, Republic of Korea, Hong Kong, Taiwan, Australia, and the United States, please see the World Health Organization (WHO) news release via https://www.who.int/csr/don/en/ from 14 to 21 January 2020. Using the number of cases exported from Wuhan to other countries, a research group at Imperial College London estimated that there had been 4000 (95%CI: 1000\u20139700) cases in Wuhan with symptoms onset by 18 January 2020, and the basic reproduction number (R0) was estimated at 2.6 (95%CI: 1.5\u20133.5) [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Leung et al drew a similar conclusion and estimated the number of cases exported from Wuhan to other major cities in China [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], and the potentials of travel related risks of disease spreading was also indicated by [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]."
+        ],
+        "objectives": [
+            "<strong>Objectives and Methods</strong><br/><br/>Due to an unknown reason, the cumulative number of cases remained at 41 from 1 to 15 January 2020 according to the official report, i.e., no new case was reported during these 15 days, which appears inconsistent with the following rapid growth of the epidemic curve since 16 January 2020. We suspect that the 2019-nCoV cases were under-reported roughly from 1 to 15 January 2020. In this study, we estimated the number of unreported cases and the basic reproduction number, R0, of 2019-nCoV in Wuhan from 1 to 15 January 2020 based on the limited data in the early outbreak.<br/><br/>The time series data of 2019-nCoV cases in mainland China were initially released by the Wuhan Municipal Health Commission from 10 to 20 January 2020 [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], and later by the National Health Commission of China after 21 January 2020 [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. The case time series data in December 2019 were obtained from a published study [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. All cases were laboratory confirmed following the case definition by the national health commission of China [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. We chose the data up to 24 January 2020 instead of to the present study completion date. Given the lag between timings of case confirmation and news release of new cases, the data of the most recent few days were most likely to be tentative, and thus they were excluded from the analysis to be consistent."
+        ],
+        "results": [
+            "<strong>Results and Discussion</strong><br/><br/>3. Results and Discussion<br/><br/>The number of 2019-nCoV unreported cases was estimated at 469 (95% CI: 403\u2013540), see Figure 1a, whichThweasnusimgnbiefircoanf t2l0y1l9a-rngCerotVhaunn0re. pTohritsefidncdaisnegs iwmapslieesdtimthaetoedccautrr4e6n9ce(9o5f%unCdI:e4r-0r3e\u2212p5o4r0ti)n, gsebeeFtwigeuerne 121b.ae5a,t6nwwd(e9h1e5i5n%chJ1aCwnIa:uan2asd.r4sy9i1g\u201352n20.iJ26fa0i3nc.)au,AnsatefrlteyyerF2liaa0grc2ugc0reo.eruA1nthbtfita,nenwrgh0afi.occTcrhohtiuhissnectfoeiinnnffgdseicisnfttogeornfittmuhwnepidltieheefrdfm-ercteathpneooyfroetciuxncinusgdtr,irenterhgn-ercoeeRnp0looirnfwteuiannpsgdr,eeesptrth-rirmeinepatRsto0ewrdwtiintaahgts prtepfharssraneeteimgupmcedureaiofwmnrt-eotRousdmr-lwksaaq2ttifiutivtht2oaet.er5r4etda6od[n5tt(gaho9,2le5fe0n%0fc\u2013r.uu29oCm2m9m].I.bu: 2eWl2ar.t4itooti9hvf4\u2212etc2[hat.56oes,32teRa)0s,l0\u2013(sn2oCe2ufei])m2.F.rW5bei6gemiuratahrnoredftkh1ca\u03beeabbso,Rleyfw0s4woh6(Cfi9ec2,il)hl.t,5rhie6sesmeaeecnaxoFrpdnkiosg\u03beaniusbeotrlnefyent4i1wta6cl9we,,glrlitr,ethohfseweemreeirnxiaFngpniggofyruntaeroemexnMite1siwctaci,lFnorgagrekrdfooedfiwnretrltniiiennn\u2019dsgge to McFadden\u2019s pseudo-R-squared of 0.99.<br/><br/>FFiigguurree1.1.ThTeheesteimstaimteastoefs thoef utnhreepuonrtreedpocratseeds bceatsweesenbe1twaneden151Jananudary12502Ja0n, tuhaerybas2i0c2r0e,prtohdeucbtaiosinc nreupmrobderuc(Rtio0)n, annudmfibtetrin(Rg 0r)e, saunldtsfoitftitnhgerneusumltbseorfotfhe20n1u9m-nbCeorVofc2a0s1e9s-tnimCoeVsecraiseess. tPimaneesle(rai)ess.hPoawnselth(ae) lsihkeolwihsotohde plirkoefililheo(od, dparrokfilgere(le,ndcaurkrvger)eoenf tchuervees)tiomfattheedenstuimmabteerdonfuumnrbeeproorfteudnrceapsoesrte(\u03bed),caasneds t(h\u03bee), cauntdoffthtehrceusthooflfdth(hreosrhizooldnta(hl oreridzodnatsahlerdedlindea)sfhoerdthlein9e5)%foCr It.hTeh9e5r%elaCtIio. nTshheipreblaettiwoneesnhitphebentuwmeebnerthofe unnurmepboerrteodf ucansreesp(o\u03ber)taedndcaRs0e,sw(\u03beh)eraentdheRb0,owldhceurrevtehies bthoeldmceuarnveesitsimthaetimone,aannedstthime adtaioshne,dancdurtvheesdaareshtheed 9c5u%rvCesI oafreestthime a9t5e%d RC0I. oInf epsatnimelast(ead,bR),0t.hIengpreaennelssh(aad)inangdar(eba),retpheregserneetsnthshea9d5i%ngCaIr(eoan rtehperheoserinztosntthael a9x5i%s), CanI d(othnetvheerthicoarlizgorneetanllianxeisr)e,parnesdenthtsethveermtiacaxlimguremenliklienliehoreopdreessteinmtsatteh(eMmLEax) iomf uthme nliukmelbiheor oodf uenstriempaotrete(dMcLaEse)so. fWthiteh nthuemMbeLrEooffuRn0raetp2o.r5t6e,dpcaanseelss.(Wc,dit)hshthowe MthLeEexopfoRn0enattia2l.5g6r,opwatnhefilstt(icn)garnedsu(ldts) osfhtohwe ctuhme uexlaptoivneenntuiaml bgerroowftchasfeitsti(nCgi)raensdultthseodf atihlye ncuummubelartoivfecansuems (b\u03b5ei)rroefspceacsteivs e(lCy.i)Inanpdantheles (dca,dil)y, tnhuemgobledr soqfucaarseessa(r\u03b5ei)threesrpeepcotrivteedlyc.aIsnesp, athneelbslu(ce) baonldd (cdu)r,vtehreegporeldsesnqtsutahreesmaerdeitahneorfetphoerfitetdtincgasreess,utlhtse, tbhleuedabsohleddcbulruvee cruerpvreesseanretstthhee9m5%edCiaInofotfhtehefitftiitntigngrerseuslutsl,tsa,ntdhethdeapshuerdplbelsuheacduinrvgeasraeraertehpere9s5e%ntsCtIhoef time window from 1 to 15 January 2020. In panel (c), the blue dots are the cumulative total, i.e., reported athned fuinttrinepgorretesudl,tns,uamnbderthoef cpausreps.leInshpaadnienlg(da)r,etaheregprereysceunrtvs etshaeretimthee 1w0i0n0dsoiwmufrlaotmion1staom1p5leJsa.nuary 2020. In panel (c), the blue dots are the cumulative total, i.e., reported and unreported, number of<br/><br/>Ocauserse.sItnimpaanteiol n(do),ftRhe0 grerelyy counrvtheseaSrIeothf e20101090-nsCimouVl,awtiohnicshamrepmleas.ins unknown as of 26 January 2020. In this work, we employed the SIs of SARS and MERS as approximations to that of 2019-nCoV."
+        ],
+        "conclusions": [
+            "Under-reporting was likely to have occurred and resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020. The reporting rate after 17 January 2020 was likely to have increased 21-fold (95% CI: 18\u201325) compared with the situation from 1 to 17 January 2020 on average, and it should be considered in future investigation. We estimated the R0 at 2019-nCoV to be 2.56 (95% CI: 2.49\u20132.63).<br/><br/>Author Contributions: All authors conceived the study, carried out the analysis, discussed the results, drafted the first manuscript. All authors have read and agreed to the published version of the manuscript."
+        ],
+        "funding": [
+            "This research was supported by the National Natural Science Foundation of China (Grant number 61672013) and the Huaian Key Laboratory for Infectious Diseases Control and Prevention (Grant number HAP201704)."
+        ],
+        "disclosures": [
+            "The authors declare no conflict of interest."
+        ]
+    },
+    "structured_content": {
+        "1. Introduction": [
+            "A novel coronavirus (2019-nCoV) infected pneumonia infection, which is deadly [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], was first identified in Wuhan, China in December 2019 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The virus causes a range of symptoms including fever, cough, and shortness of breath [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The cumulative number of reported cases slowly increased to cumulative 41 cases by 1 January 2020, and rapidly increased after 16 January 2020. As of 26 January 2020, the still ongoing outbreak had resulted in 2066 (618 of them are in Wuhan) confirmed cases and 56 (45 of them were in Wuhan) deaths in mainland China [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and sporadic cases exported from Wuhan were reported in Thailand, Japan, Republic of Korea, Hong Kong, Taiwan, Australia, and the United States, please see the World Health Organization (WHO) news release via https://www.who.int/csr/don/en/ from 14 to 21 January 2020. Using the number of cases exported from Wuhan to other countries, a research group at Imperial College London estimated that there had been 4000 (95%CI: 1000\u20139700) cases in Wuhan with symptoms onset by 18 January 2020, and the basic reproduction number (R0) was estimated at 2.6 (95%CI: 1.5\u20133.5) [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Leung et al drew a similar conclusion and estimated the number of cases exported from Wuhan to other major cities in China [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], and the potentials of travel related risks of disease spreading was also indicated by [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]."
+        ],
+        "2. Objectives and Methods": [
+            "Due to an unknown reason, the cumulative number of cases remained at 41 from 1 to 15 January 2020 according to the official report, i.e., no new case was reported during these 15 days, which appears inconsistent with the following rapid growth of the epidemic curve since 16 January 2020. We suspect that the 2019-nCoV cases were under-reported roughly from 1 to 15 January 2020. In this study, we estimated the number of unreported cases and the basic reproduction number, R0, of 2019-nCoV in Wuhan from 1 to 15 January 2020 based on the limited data in the early outbreak.",
+            "The time series data of 2019-nCoV cases in mainland China were initially released by the Wuhan Municipal Health Commission from 10 to 20 January 2020 [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], and later by the National Health Commission of China after 21 January 2020 [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. The case time series data in December 2019 were obtained from a published study [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. All cases were laboratory confirmed following the case definition by the national health commission of China [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. We chose the data up to 24 January 2020 instead of to the present study completion date. Given the lag between timings of case confirmation and news release of new cases, the data of the most recent few days were most likely to be tentative, and thus they were excluded from the analysis to be consistent.",
+            "We suspected that there was a number of cases, denoted by \u03be, under-reported from 1 to 15 January 2020. The cumulative total number of cases, denoted by Ci, of the i-th day since 1 December 2019 is the summation of the cumulative reported, ci, and cumulative unreported cases, \u039ei. We have Ci = ci + \u039ei, where ci is observed from the data, and \u039ei is 0 for i before 1 January and \u03be for i after 15 January 2020. Following previous studies [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>,<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>], we modelled the epidemic curve, i.e., the Ci series, as an exponential growing Poisson process. Since the data from 1 to 15 January 2020 appeared constant due to unclear reason(s), we removed these data from the fitting of exponential growth. The \u03be and the intrinsic growth rate (\u03b3) of the exponential growth were to be estimated based on the log-likelihood, denoted by , from the Poisson priors. The 95% confidence interval (95% CI) of \u03be was estimated by the profile likelihood estimation framework with cutoff threshold determined by a Chi-square quantile [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], \u03c72pr = 0.95, df = 1. With \u03b3 estimated, the basic reproduction number could be obtained by R0 = 1/M(\u2212\u03b3) with 100% susceptibility for 2019-nCoV presumed at this early stage. Here, the function M(\u00b7) was the Laplace transform, i.e., the moment generating function, of the probability distribution for the serial interval (SI) of the disease [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>,<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>], denoted by h(k) and k is the mean SI. Since the transmission chain of 2019-nCoV remained unclear, we adopted the SI information from Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS), which share the similar pathogen as 2019-nCoV [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>\u2013<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. We modelled h(k) as Gamma distributions with mean of 8.0 days and standard deviation (SD) of 3.6 days by averaging the SI mean and SD of SARS, mean of 7.6 days and SD of 3.4 days [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], and MERS, mean of 8.4 days and SD of 3.8 days [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>].",
+            "We were also interested in inferring the patterns of the daily number of cases, denoted by \u03b5i fJo. Crltinh.eMie-dt.h20d2a0,y9,,a3n88d thus it is obviously that Ci = Ci\u22121 + \u03b5i. A simulation framework was develo3poefd6 fioterrtahtievietePraotiisvseonPopisrsoocnesps rsouccehss tshuacthEt[h\u03b5ai]t E=[\u03b5Ci]i\u22121=\u00d7C[ie\u2212x1p\u00d7(\u03b3[)ex\u2212p(1\u03b3]), \u2212w1h]e,rwe hfuernectfiuonnctEio[\u2219n] Ed[e\u00b7]nodteendottehde tehxepeexctpaetciotant.ioTnh.eTshiemsuimlatuiolantiownaws aims ipmlepmleemnteendtesdtasrttainrtginfgrofrmom1 1JaJannuuarayry22002200 wwiitthh aa ccuummuullaattiivvee nnuummbbeerr ooff ccaasseess sseeeedd ooff 4400,, tthhee ssaammee aass rreeppoorrtteedd oonn 3311 DDeecceemmbbeerr 22001199.. WWee ccoonndduucctteedd 11000000 ssaammpplleess aanndd ccaallccuullaatteedd tthhee mmeeddiiaann aanndd 9955%%CCII.."
+        ],
+        "3. Results and Discussion": [
+            "The number of 2019-nCoV unreported cases was estimated at 469 (95% CI: 403\u2013540), see Figure 1a, whichThweasnusimgnbiefircoanf t2l0y1l9a-rngCerotVhaunn0re. pTohritsefidncdaisnegs iwmapslieesdtimthaetoedccautrr4e6n9ce(9o5f%unCdI:e4r-0r3e\u2212p5o4r0ti)n, gsebeeFtwigeuerne 121b.ae5a,t6nwwd(e9h1e5i5n%chJ1aCwnIa:uan2asd.r4sy9i1g\u201352n20.iJ26fa0i3nc.)au,AnsatefrlteyyerF2liaa0grc2ugc0reo.eruA1nthbtfita,nenwrgh0afi.occTcrhohtiuhissnectfoeiinnnffgdseicisnfttogeornfittmuhwnepidltieheefrdfm-ercteathpneooyfroetciuxncinusgdtr,irenterhgn-ercoeeRnp0looirnfwteuiannpsgdr,eeesptrth-rirmeinepatRsto0ewrdwtiintaahgts prtepfharssraneeteimgupmcedureaiofwmnrt-eotRousdmr-lwksaaq2ttifiutivtht2oaet.er5r4etda6od[n5tt(gaho9,2le5fe0n%0fc\u2013r.uu29oCm2m9m].I.bu: 2eWl2ar.t4itooti9hvf4\u2212etc2[hat.56oes,32teRa)0s,l0\u2013(sn2oCe2ufei])m2.F.rW5bei6gemiuratahrnoredftkh1ca\u03beeabbso,Rleyfw0s4woh6(Cfi9ec2,il)hl.t,5rhie6sesmeaeecnaxoFrpdnkiosg\u03beaniusbeotrlnefyent4i1wta6cl9we,,glrlitr,ethohfseweemreeirnxiaFngpniggofyruntaeroemexnMite1siwctaci,lFnorgagrekrdfooedfiwnretrltniiiennn\u2019dsgge to McFadden\u2019s pseudo-R-squared of 0.99.",
+            "FFiigguurree1.1.ThTeheesteimstaimteastoefs thoef utnhreepuonrtreedpocratseeds bceatsweesenbe1twaneden151Jananudary12502Ja0n, tuhaerybas2i0c2r0e,prtohdeucbtaiosinc nreupmrobderuc(Rtio0)n, annudmfibtetrin(Rg 0r)e, saunldtsfoitftitnhgerneusumltbseorfotfhe20n1u9m-nbCeorVofc2a0s1e9s-tnimCoeVsecraiseess. tPimaneesle(rai)ess.hPoawnselth(ae) lsihkeolwihsotohde plirkoefililheo(od, dparrokfilgere(le,ndcaurkrvger)eoenf tchuervees)tiomfattheedenstuimmabteerdonfuumnrbeeproorfteudnrceapsoesrte(\u03bed),caasneds t(h\u03bee), cauntdoffthtehrceusthooflfdth(hreosrhizooldnta(hl oreridzodnatsahlerdedlindea)sfhoerdthlein9e5)%foCr It.hTeh9e5r%elaCtIio. nTshheipreblaettiwoneesnhitphebentuwmeebnerthofe unnurmepboerrteodf ucansreesp(o\u03ber)taedndcaRs0e,sw(\u03beh)eraentdheRb0,owldhceurrevtehies bthoeldmceuarnveesitsimthaetimone,aannedstthime adtaioshne,dancdurtvheesdaareshtheed 9c5u%rvCesI oafreestthime a9t5e%d RC0I. oInf epsatnimelast(ead,bR),0t.hIengpreaennelssh(aad)inangdar(eba),retpheregserneetsnthshea9d5i%ngCaIr(eoan rtehperheoserinztosntthael a9x5i%s), CanI d(othnetvheerthicoarlizgorneetanllianxeisr)e,parnesdenthtsethveermtiacaxlimguremenliklienliehoreopdreessteinmtsatteh(eMmLEax) iomf uthme nliukmelbiheor oodf uenstriempaotrete(dMcLaEse)so. fWthiteh nthuemMbeLrEooffuRn0raetp2o.r5t6e,dpcaanseelss.(Wc,dit)hshthowe MthLeEexopfoRn0enattia2l.5g6r,opwatnhefilstt(icn)garnedsu(ldts) osfhtohwe ctuhme uexlaptoivneenntuiaml bgerroowftchasfeitsti(nCgi)raensdultthseodf atihlye ncuummubelartoivfecansuems (b\u03b5ei)rroefspceacsteivs e(lCy.i)Inanpdantheles (dca,dil)y, tnhuemgobledr soqfucaarseessa(r\u03b5ei)threesrpeepcotrivteedlyc.aIsnesp, athneelbslu(ce) baonldd (cdu)r,vtehreegporeldsesnqtsutahreesmaerdeitahneorfetphoerfitetdtincgasreess,utlhtse, tbhleuedabsohleddcbulruvee cruerpvreesseanretstthhee9m5%edCiaInofotfhtehefitftiitntigngrerseuslutsl,tsa,ntdhethdeapshuerdplbelsuheacduinrvgeasraeraertehpere9s5e%ntsCtIhoef time window from 1 to 15 January 2020. In panel (c), the blue dots are the cumulative total, i.e., reported athned fuinttrinepgorretesudl,tns,uamnbderthoef cpausreps.leInshpaadnienlg(da)r,etaheregprereysceunrtvs etshaeretimthee 1w0i0n0dsoiwmufrlaotmion1staom1p5leJsa.nuary 2020. In panel (c), the blue dots are the cumulative total, i.e., reported and unreported, number of",
+            "Ocauserse.sItnimpaanteiol n(do),ftRhe0 grerelyy counrvtheseaSrIeothf e20101090-nsCimouVl,awtiohnicshamrepmleas.ins unknown as of 26 January 2020. In this work, we employed the SIs of SARS and MERS as approximations to that of 2019-nCoV.",
+            "Our estimation of R0 rely on the SI of 2019-nCoV, which remains unknown as of 26 January",
+            "2020. In this work, we employed the SIs of SARS and MERS as approximations to that of 2019-nCoV.",
+            "The determination of SI requires the knowledge of the chain of disease transmission that needs a sufficient number of patient samples and periods of time for follow-up [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>], and thus this is unlikely to be achieved shortly. However, using SIs of SARS and MERS as approximation could provide an",
+            "The determination of SI requires the knowledge of the chain of disease transmission that needs a sufficient number of patient samples and periods of time for follow-up [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>], and thus this is unlikely to be achieved shortly. However, using SIs of SARS and MERS as approximation could provide an insight into the transmission potential of 2019-nCoV at the early outbreak. We note that slightly varying the mean and SD of SI would not affect our main conclusions. The R0 of 2019-nCoV was estimated at 2.56 (95% CI: 2.49\u20132.63), and it is generally in line with those of SARS, i.e., 2\u20135 [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>,<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], and MERS, i.e., 2.7\u20133.9 [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>].",
+            "For the simulated daily number of cases (\u03b5i), see Figure 1d, we found that \u03b5i matched the observed daily number after 17 January 2020, but was significantly larger than the observations from 1 to 17 January 2020. This finding implied that under-reporting was likely to have occurred in the first half of January 2020. We estimated that the reporting rate after 17 January 2020 increased 21-fold (95% CI: 18\u201325) compared to the situation from 1 to 17 January 2020 on average. One of the possible reasons was that the official diagnostic protocol was released by WHO on 17 January 2020 [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>], and the diagnosis and reporting efforts of 2019-nCoV infections probably increased. Thereafter, the daily number of newly reported cases started increasing rapidly after 17 January 2020, see Figure 1d. We conducted additional sensitivity analysis by varying the starting date of the under-reporting time window, e.g., 1 January 2020 in the main results, from 2 December 2019 to 3 January 2020, and we report our estimates largely hold. The exact value of the reporting rate was difficult to determine due to lack of serological surveillance data. The reporting rate can be determined if serological surveillance data are available for a population; we would know who was infected (seropositive) and who was not (seronegative), with high confidence. The reporting rate is the ratio of reported cases over the number of seropositive individuals. It was statistically evident that increasing in reporting was likely, and thus it should be considered in the future investigation of this outbreak.",
+            "Previous preprint suggested cumulative cases of 1723 (95% CI: 427\u20134471) as of 12 January 2020, and 4000 (95% CI: 1000\u20139700) as of 18 January 2020 based on the aggregated international export cases [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Our analysis yielded cumulative cases of 280 (95% CI: 128\u2013613) as of 12 January 2020, and 609 (95% CI: 278\u20131333) as of 18 January 2020 based on the exponential growing mechanistic in the early outbreak. Although our estimate case number appeared to have a lower mean than those estimated by Imai et al [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>], they are not statistically different. This study applied a different screening effort to detect the 2019-nCoV cases from that in Imai et al [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Imai et al assumed the average screening effort at overseas airports that covered travelers arriving from Wuhan. Whereas we assumed a constant screening effort applied in Wuhan at the same point of time, and then a number of cases (i.e., \u03be) should have been reported yet failed to be reported in the first half of January 2020 due to all sorts of reasons. It is not surprising that different assumptions yielded different results, and this difference in screening effort also partly explained why the detected cases out of China mainly presented mild symptoms. Thus, it was reasonable that our estimates appeared lower than those estimated by Imai et al [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. It must be emphasized that such a gap in the knowledge would be resolved by serological survey study (for a large population to approximate the actual positive rate) or an explicit estimation of the actual reporting rate."
+        ],
+        "4. Conclusions": [
+            "Under-reporting was likely to have occurred and resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020. The reporting rate after 17 January 2020 was likely to have increased 21-fold (95% CI: 18\u201325) compared with the situation from 1 to 17 January 2020 on average, and it should be considered in future investigation. We estimated the R0 at 2019-nCoV to be 2.56 (95% CI: 2.49\u20132.63).",
+            "Author Contributions: All authors conceived the study, carried out the analysis, discussed the results, drafted the first manuscript. All authors have read and agreed to the published version of the manuscript.",
+            "Funding: This research was supported by the National Natural Science Foundation of China (Grant number 61672013) and the Huaian Key Laboratory for Infectious Diseases Control and Prevention (Grant number HAP201704).",
+            "Conflicts of Interest: The authors declare no conflict of interest."
+        ],
+        "References": [
+            "1. Wu, P.; Hao, X.; Lau, E.H.; Wong, J.Y.; Leung, K.S.; Wu, J.T.; Cowling, B.J.; Leung, G.M. Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. Eurosurveillance 2020, 25. [CrossRef] [PubMed]",
+            "2. Pneumonia of Unknown Cause\u2014China. Available online: https://www.who.int/csr/don/05-january-2020pneumonia-of-unkown-cause-china/en/ (accessed on 27 January 2020).",
+            "3. Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X.; et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020. [CrossRef]",
+            "4. Situation Report of the Pneumonia Cases Caused by the Novel Coronavirus. Available online: http: //www.nhc.gov.cn/yjb/s3578/202001/a3c8b5144067417889d8760254b1a7ca.shtml (accessed on 27 January 2020).",
+            "5. Imai, N.; Dorigatti, I.; Cori, A.; Riley, S.; Ferguson, N.M. Estimating the Potential Total Number of Novel Coronavirus (2019-nCoV) Cases in Wuhan City, China. Available online: https://www.imperial.ac.uk/mrcglobal-infectious-disease-analysis/news--wuhan-coronavirus/ (accessed on 27 January 2020).",
+            "6. Nowcasting and Forecasting the Wuhan 2019-nCoV Outbreak. Available online: https://files.sph.hku.hk/ download/wuhan_exportation_preprint.pdf (accessed on 27 January 2020).",
+            "7. Bogoch, I.I.; Watts, A.; Thomas-Bachli, A.; Huber, C.; Kraemer, M.U.; Khan, K. Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel. J. Travel Med. 2020. [CrossRef] [PubMed]",
+            "8. News Press and Situation Reports of the Pneumonia Caused by Novel Coronavirus. Available online: http://wjw.wuhan.gov.cn/front/web/list2nd/no/710 (accessed on 27 January 2020).",
+            "9. An Outbreak Situation Update on the Pneumonia Caused by the Novel Coronavirus (2019-nCoV) Infection. Available online: http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml (accessed on 27 January 2020).",
+            "10. Definition of Suspected Cases of Unexplained Pneumonia. Available online: http://www.nhc.gov.cn/ (accessed on 27 January 2020).",
+            "11. Zhao, S.; Musa, S.S.; Fu, H.; He, D.; Qin, J. Simple framework for real-time forecast in a data-limited situation: The Zika virus (ZIKV) outbreaks in Brazil from 2015 to 2016 as an example. Parasit. Vectors 2019, 12, 344. [CrossRef] [PubMed]",
+            "12. De Silva, U.; Warachit, J.; Waicharoen, S.; Chittaganpitch, M. A preliminary analysis of the epidemiology of influenza A(H1N1)v virus infection in Thailand from early outbreak data, June\u2013July 2009. Eurosurveillance 2009, 14, 19292. [CrossRef] [PubMed]",
+            "13. Fan, J.; Huang, T. Profile likelihood inferences on semiparametric varying-coefficient partially linear models. Bernoulli 2005, 11, 1031\u20131057. [CrossRef]",
+            "14. Wallinga, J.; Lipsitch, M. How generation intervals shape the relationship between growth rates and reproductive numbers. Proc. R. Soc. B Biol. Sci. 2007, 274, 599\u2013604. [CrossRef] [PubMed]",
+            "15. Wu, F.; Zhao, S.; Yu, B.; Chen, Y.-M.; Wang, W.; Hu, Y.; Song, Z.-G.; Tao, Z.-W.; Tian, J.-H.; Pei, Y.-Y.; et al Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China. bioRxiv 2020. [CrossRef]",
+            "16. Zhou, P.; Yang, X.-L.; Wang, X.-G.; Hu, B.; Zhang, L.; Zhang, W.; Si, H.-R.; Zhu, Y.; Li, B.; Huang, C.-L.; et al Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin. bioRxiv 2020. [CrossRef]",
+            "17. Zhu, N.; Zhang, D.; Wang, W.; Li, X.; Yang, B.; Song, J.; Zhao, X.; Huang, B.; Shi, W.; Lu, R.; et al A Novel coronavirus from patients with pneumonia in china, 2019. N. Engl. J. Med. 2020. [CrossRef] [PubMed]",
+            "18. Assiri, A.; McGeer, A.; Perl, T.M.; Price, C.S.; Al Rabeeah, A.A.; Cummings, D.A.; Alabdullatif, Z.N.; Assad, M.; Almulhim, A.; Makhdoom, H. Hospital outbreak of Middle East respiratory syndrome coronavirus. N. Engl. J. Med. 2013, 369, 407\u2013416. [CrossRef] [PubMed]",
+            "19. Lipsitch, M.; Cohen, T.; Cooper, B.; Robins, J.M.; Ma, S.; James, L.; Gopalakrishna, G.; Chew, S.K.; Tan, C.C.; Samore, M.H. Transmission dynamics and control of severe acute respiratory syndrome. Science 2003, 300, 1966\u20131970. [CrossRef] [PubMed]",
+            "20. Riou, J.; Althaus, C.L. Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioRxiv 2020. [CrossRef]",
+            "21. Read, J.M.; Bridgen, J.R.; Cummings, D.A.; Ho, A.; Jewell, C.P. Novel coronavirus 2019-nCoV: Early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020. [CrossRef]",
+            "22. Shen, M.; Peng, Z.; Xiao, Y.; Zhang, L. Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020. [CrossRef]",
+            "23. Cowling, B.J.; Fang, V.J.; Riley, S.; Peiris, J.M.; Leung, G.M. Estimation of the serial interval of influenza. Epidemiology 2009, 20, 344. [CrossRef] [PubMed]",
+            "24. Wallinga, J.; Teunis, P. Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures. Am. J. Epidemiol 2004, 160, 509\u2013516. [CrossRef] [PubMed]",
+            "25. Bauch, C.T.; Lloyd-Smith, J.O.; Coffee, M.P.; Galvani, A.P. Dynamically modeling SARS and other newly emerging respiratory illnesses: Past, present, and future. Epidemiology 2005, 16, 791\u2013801. [CrossRef] [PubMed]",
+            "26. Lin, Q.; Chiu, A.P.; Zhao, S.; He, D. Modeling the spread of Middle East respiratory syndrome coronavirus in Saudi Arabia. Stat. Methods Med. Res. 2018, 27, 1968\u20131978. [CrossRef] [PubMed]",
+            "27. Laboratory Testing for 2019 Novel Coronavirus (2019-nCoV) in Suspected Human Cases. Available online: https://www.who.int/health-topics/coronavirus/laboratory-diagnostics-for-novel-coronavirus (accessed on 27 January 2020)."
+        ]
+    },
+    "participants": [],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The number of unreported cases was determined by the maximum likelihood estimation</mark>",
+                "tests": [
+                    {
+                        "test": "maximum likelihood estimation"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The 95% confidence interval (95% CI) of \u03be was estimated by the profile likelihood estimation framework with cutoff threshold determined by a Chi-square quantile [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], \u03c72pr = 0.95, df = 1</mark>",
+                "tests": [
+                    {
+                        "test": "Chi-square"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The 95% confidence interval (95% CI) of \u03be was estimated by the profile likelihood estimation framework with cutoff threshold determined by a Chi-square quantile [13], \u03c72pr = 0.95, df = 1</mark>",
+                "tests": [
+                    {
+                        "test": "Chi-square",
+                        "value": "= 0.95"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "exponential growth",
+        "China",
+        "outbreak",
+        "East Respiratory syndrome",
+        "mainland china",
+        "unreported case",
+        "ncov case",
+        "respiratory illness",
+        "Acute Respiratory syndrome",
+        "World Health Organization",
+        "reproduction number",
+        "basic reproduction",
+        "serial intervals",
+        "early outbreak",
+        "reporting rate",
+        "future investigation",
+        "middle east respiratory syndrome",
+        "95% confidence interval",
+        "coronavirus",
+        "modelling",
+        "standard deviation",
+        "underreporting",
+        "Severe Acute Respiratory Syndrome",
+        "pneumonia",
+        "novel coronavirus",
+        "epidemic curve"
+    ],
+    "keyword_relevance": {
+        "China": 0.17159763313609466,
+        "coronavirus": 0.09467455621301775,
+        "serial intervals": 0.08875739644970414,
+        "95% confidence interval": 0.08875739644970414,
+        "outbreak": 0.07100591715976332,
+        "Severe Acute Respiratory Syndrome": 0.0650887573964497,
+        "novel coronavirus": 0.047337278106508875,
+        "Middle East Respiratory Syndrome": 0.047337278106508875,
+        "unreported case": 0.04142011834319527,
+        "reporting rate": 0.04142011834319527,
+        "standard deviation": 0.03550295857988166,
+        "reproduction number": 0.029585798816568046,
+        "exponential growth": 0.023668639053254437,
+        "basic reproduction": 0.023668639053254437,
+        "early outbreak": 0.023668639053254437,
+        "pneumonia": 0.023668639053254437,
+        "epidemic curve": 0.023668639053254437,
+        "World Health Organization": 0.01775147928994083,
+        "future investigation": 0.01775147928994083,
+        "respiratory illness": 0.011834319526627219,
+        "modelling": 0.005917159763313609,
+        "underreporting": 0.005917159763313609,
+        "East Respiratory syndrome": 0.0,
+        "mainland china": 0.0,
+        "ncov case": 0.0,
+        "Acute Respiratory syndrome": 0.0,
+        "middle east respiratory syndrome": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> A novel coronavirus (2019-nCoV) infected pneumonia infection, which is deadly [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], was first identified in Wuhan, China in December 2019 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "The virus causes a range of symptoms including fever, cough, and shortness of breath [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+        "The cumulative number of reported cases slowly increased to cumulative 41 cases by 1 January 2020, and rapidly increased after 16 January 2020.",
+        "Leung et al drew a similar conclusion and estimated the number of cases exported from Wuhan to other major cities in China [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], and the potentials of travel related risks of disease spreading was indicated by [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]",
+        "<h2 style=\"display: inline\">Objectives:</h2> <strong>Objectives and Methods</strong><br/><br/>Due to an unknown reason, the cumulative number of cases remained at 41 from 1 to 15 January 2020 according to the official report, i.e., no new case was reported during these days, which appears inconsistent with the following rapid growth of the epidemic curve since January 2020.",
+        "The time series data of 2019-nCoV cases in mainland China were initially released by the Wuhan Municipal Health Commission from 10 to January 2020 [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], and later by the National Health Commission of China after January 2020 [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>].",
+        "Given the lag between timings of case confirmation and news release of new cases, the data of the most recent few days were most likely to be tentative, and they were excluded from the analysis to be consistent",
+        "<h2 style=\"display: inline\">Results:</h2> The number of 2019-nCoV unreported cases was estimated at 469 (95% CI: 403\u2013540), see Figure 1a, whichThweasnusimgnbiefircoanf t2l0y1l9a-rngCerotVhaunn0re.",
+        "FWthiteh nthuemMbeLrEooffuRn0raetp2o.r5t6e,dpcaanseelss.(Wc,dit)hshthowe MthLeEexopfoRn0enattia2l.5g6r,opwatnhefilsttgarnedsu osfhtohwe ctuhme uexlaptoivneenntuiaml bgerroowftchasfeitstiraensdultthseodf atihlye ncuummubelartoivfecansuemsrroefspceacsteivs eInanpdanthelesy, tnhuemgobledr soqfucaarseessathreesrpeepcotrivteedlyc.aIsnesp, athneelbslu baonlddr,vtehreegporeldsesnqtsutahreesmaerdeitahneorfetphoerfitetdtincgasreess,utlhtse, tbhleuedabsohleddcbulruvee cruerpvreesseanretstthhee9m5%edCiaInofotfhtehefitftiitntigngrerseuslutsl,tsa,ntdhethdeapshuerdplbelsuheacduinrvgeasraeraertehpere9s5e%ntsCtIhoef time window from 1 to 15 January 2020.",
+        "In panel (c), the blue dots are the cumulative total, i.e., reported athned fuinttrinepgorretesudl,tns,uamnbderthoef cpausreps.leInshpaadnienlgr,etaheregprereysceunrtvs etshaeretimthee 1w0i0n0dsoiwmufrlaotmion1staom1p5leJsa.nuary 2020.",
+        "In panel (c), the blue dots are the cumulative total, i.e., reported and unreported, number of.",
+        "Ocauserse.sItnimpaanteiol n,ftRhe0 grerelyy counrvtheseaSrIeothf e20101090-nsCimouVl,awtiohnicshamrepmleas.ins unknown as of 26 January 2020.",
+        "The authors employed the SIs of SARS and MERS as approximations to that of 2019-nCoV",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Under-reporting was likely to have occurred and resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020.",
+        "All authors have read and agreed to the published version of the manuscript"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A novel coronavirus (2019-nCoV) infected pneumonia infection, which is deadly [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], was first identified in Wuhan, China in December 2019 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "The virus causes a range of symptoms including fever, cough, and shortness of breath [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "The cumulative number of reported cases slowly increased to cumulative 41 cases by 1 January 2020, and rapidly increased after 16 January 2020.",
+            "Leung et al drew a similar conclusion and estimated the number of cases exported from Wuhan to other major cities in China [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], and the potentials of travel related risks of disease spreading was indicated by [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]"
+        ],
+        "Objectives": [
+            "<strong>Objectives and Methods</strong><br/><br/>Due to an unknown reason, the cumulative number of cases remained at 41 from 1 to 15 January 2020 according to the official report, i.e., no new case was reported during these days, which appears inconsistent with the following rapid growth of the epidemic curve since January 2020.",
+            "The time series data of 2019-nCoV cases in mainland China were initially released by the Wuhan Municipal Health Commission from 10 to January 2020 [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], and later by the National Health Commission of China after January 2020 [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>].",
+            "Given the lag between timings of case confirmation and news release of new cases, the data of the most recent few days were most likely to be tentative, and they were excluded from the analysis to be consistent"
+        ],
+        "Results": [
+            "The number of 2019-nCoV unreported cases was estimated at 469 (95% CI: 403\u2013540), see Figure 1a, whichThweasnusimgnbiefircoanf t2l0y1l9a-rngCerotVhaunn0re.",
+            "FWthiteh nthuemMbeLrEooffuRn0raetp2o.r5t6e,dpcaanseelss.(Wc,dit)hshthowe MthLeEexopfoRn0enattia2l.5g6r,opwatnhefilsttgarnedsu osfhtohwe ctuhme uexlaptoivneenntuiaml bgerroowftchasfeitstiraensdultthseodf atihlye ncuummubelartoivfecansuemsrroefspceacsteivs eInanpdanthelesy, tnhuemgobledr soqfucaarseessathreesrpeepcotrivteedlyc.aIsnesp, athneelbslu baonlddr,vtehreegporeldsesnqtsutahreesmaerdeitahneorfetphoerfitetdtincgasreess,utlhtse, tbhleuedabsohleddcbulruvee cruerpvreesseanretstthhee9m5%edCiaInofotfhtehefitftiitntigngrerseuslutsl,tsa,ntdhethdeapshuerdplbelsuheacduinrvgeasraeraertehpere9s5e%ntsCtIhoef time window from 1 to 15 January 2020.",
+            "In panel (c), the blue dots are the cumulative total, i.e., reported athned fuinttrinepgorretesudl,tns,uamnbderthoef cpausreps.leInshpaadnienlgr,etaheregprereysceunrtvs etshaeretimthee 1w0i0n0dsoiwmufrlaotmion1staom1p5leJsa.nuary 2020.",
+            "In panel (c), the blue dots are the cumulative total, i.e., reported and unreported, number of.",
+            "Ocauserse.sItnimpaanteiol n,ftRhe0 grerelyy counrvtheseaSrIeothf e20101090-nsCimouVl,awtiohnicshamrepmleas.ins unknown as of 26 January 2020.",
+            "The authors employed the SIs of SARS and MERS as approximations to that of 2019-nCoV"
+        ],
+        "Conclusion": [
+            "Under-reporting was likely to have occurred and resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020.",
+            "All authors have read and agreed to the published version of the manuscript"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Wu_et+al_25._a",
+            "entry": "1. Wu, P.; Hao, X.; Lau, E.H.; Wong, J.Y.; Leung, K.S.; Wu, J.T.; Cowling, B.J.; Leung, G.M. Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. Eurosurveillance 2020, 25. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%20P%20Hao%20X%20Lau%20EH%20Wong%20JY%20Leung%20KS%20Wu%20JT%20Cowling%20BJ%20Leung%20GM%20Realtime%20tentative%20assessment%20of%20the%20epidemiological%20characteristics%20of%20novel%20coronavirus%20infections%20in%20Wuhan%20China%20as%20at%2022%20January%202020%20Eurosurveillance%202020%2025%20CrossRef%20PubMed",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%20P%20Hao%20X%20Lau%20EH%20Wong%20JY%20Leung%20KS%20Wu%20JT%20Cowling%20BJ%20Leung%20GM%20Realtime%20tentative%20assessment%20of%20the%20epidemiological%20characteristics%20of%20novel%20coronavirus%20infections%20in%20Wuhan%20China%20as%20at%2022%20January%202020%20Eurosurveillance%202020%2025%20CrossRef%20PubMed",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%20P%20Hao%20X%20Lau%20EH%20Wong%20JY%20Leung%20KS%20Wu%20JT%20Cowling%20BJ%20Leung%20GM%20Realtime%20tentative%20assessment%20of%20the%20epidemiological%20characteristics%20of%20novel%20coronavirus%20infections%20in%20Wuhan%20China%20as%20at%2022%20January%202020%20Eurosurveillance%202020%2025%20CrossRef%20PubMed"
+        },
+        {
+            "id": "2",
+            "alt_id": "2._2020_a",
+            "entry": "2. Pneumonia of Unknown Cause\u2014China. Available online: https://www.who.int/csr/don/05-january-2020pneumonia-of-unkown-cause-china/en/ (accessed on 27 January 2020).",
+            "url": "https://www.who.int/csr/don/05-january-2020pneumonia-of-unkown-cause-china/en/"
+        },
+        {
+            "id": "3",
+            "alt_id": "Huang_et+al_2020_a",
+            "entry": "3. Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X.; et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20Wang%20Y%20Li%20X%20Ren%20L%20Zhao%20J%20Hu%20Y%20Zhang%20L%20Fan%20G%20Xu%20J%20Gu%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%20CrossRef",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Huang%20C%20Wang%20Y%20Li%20X%20Ren%20L%20Zhao%20J%20Hu%20Y%20Zhang%20L%20Fan%20G%20Xu%20J%20Gu%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%20CrossRef",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Huang%20C%20Wang%20Y%20Li%20X%20Ren%20L%20Zhao%20J%20Hu%20Y%20Zhang%20L%20Fan%20G%20Xu%20J%20Gu%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%20CrossRef"
+        },
+        {
+            "id": "4",
+            "alt_id": "4._0000_a",
+            "entry": "4. Situation Report of the Pneumonia Cases Caused by the Novel Coronavirus. Available online: http://www.nhc.gov.cn/yjb/s3578/202001/a3c8b5144067417889d8760254b1a7ca.shtml (accessed on 27 January 2020).",
+            "url": "http://www.nhc.gov.cn/yjb/s3578/202001/a3c8b5144067417889d8760254b1a7ca.shtml"
+        },
+        {
+            "id": "5",
+            "alt_id": "Imai_et+al_2019_a",
+            "entry": "5. Imai, N.; Dorigatti, I.; Cori, A.; Riley, S.; Ferguson, N.M. Estimating the Potential Total Number of Novel Coronavirus (2019-nCoV) Cases in Wuhan City, China. Available online: https://www.imperial.ac.uk/mrcglobal-infectious-disease-analysis/news--wuhan-coronavirus/ (accessed on 27 January 2020).",
+            "url": "https://www.imperial.ac.uk/mrcglobal-infectious-disease-analysis/news--wuhan-coronavirus/",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Imai%2C%20N.%20Dorigatti%2C%20I.%20Cori%2C%20A.%20Riley%2C%20S.%20Estimating%20the%20Potential%20Total%20Number%20of%20Novel%20Coronavirus%202019-01-27",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Imai%2C%20N.%20Dorigatti%2C%20I.%20Cori%2C%20A.%20Riley%2C%20S.%20Estimating%20the%20Potential%20Total%20Number%20of%20Novel%20Coronavirus%202019-01-27"
+        },
+        {
+            "id": "6",
+            "alt_id": "6._2019_b",
+            "entry": "6. Nowcasting and Forecasting the Wuhan 2019-nCoV Outbreak. Available online: https://files.sph.hku.hk/download/wuhan_exportation_preprint.pdf (accessed on 27 January 2020).",
+            "url": "https://files.sph.hku.hk/download/wuhan_exportation_preprint.pdf"
+        },
+        {
+            "id": "7",
+            "alt_id": "Bogoch_et+al_2020_a",
+            "entry": "7. Bogoch, I.I.; Watts, A.; Thomas-Bachli, A.; Huber, C.; Kraemer, M.U.; Khan, K. Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel. J. Travel Med. 2020. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%202020"
+        },
+        {
+            "id": "8",
+            "alt_id": "8._0000_c",
+            "entry": "8. News Press and Situation Reports of the Pneumonia Caused by Novel Coronavirus. Available online: http://wjw.wuhan.gov.cn/front/web/list2nd/no/710 (accessed on 27 January 2020).",
+            "url": "http://wjw.wuhan.gov.cn/front/web/list2nd/no/710"
+        },
+        {
+            "id": "9",
+            "alt_id": "9._2019_a",
+            "entry": "9. An Outbreak Situation Update on the Pneumonia Caused by the Novel Coronavirus (2019-nCoV) Infection. Available online: http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml (accessed on 27 January 2020).",
+            "url": "http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=An%20Outbreak%20Situation%20Update%20on%20the%20Pneumonia%20Caused%20by%20the%20Novel%20Coronavirus%202019nCoV%20Infection%20Available%20online%20httpwwwnhcgovcnxcsyqtblistgzbdshtml%20accessed%20on%2027%20January%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=An%20Outbreak%20Situation%20Update%20on%20the%20Pneumonia%20Caused%20by%20the%20Novel%20Coronavirus%202019nCoV%20Infection%20Available%20online%20httpwwwnhcgovcnxcsyqtblistgzbdshtml%20accessed%20on%2027%20January%202020"
+        },
+        {
+            "id": "10",
+            "alt_id": "10._2020_b",
+            "entry": "10. Definition of Suspected Cases of Unexplained Pneumonia. Available online: http://www.nhc.gov.cn/ (accessed on 27 January 2020).",
+            "url": "http://www.nhc.gov.cn/"
+        },
+        {
+            "id": "11",
+            "alt_id": "Zhao_et+al_2019_a",
+            "entry": "11. Zhao, S.; Musa, S.S.; Fu, H.; He, D.; Qin, J. Simple framework for real-time forecast in a data-limited situation: The Zika virus (ZIKV) outbreaks in Brazil from 2015 to 2016 as an example. Parasit. Vectors 2019, 12, 344. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhao%20S%20Musa%20SS%20Fu%20H%20He%20D%20Qin%20J%20Simple%20framework%20for%20realtime%20forecast%20in%20a%20datalimited%20situation%20The%20Zika%20virus%20ZIKV%20outbreaks%20in%20Brazil%20from%202015%20to%202016%20as%20an%20example%20Parasit%20Vectors%202019%2012%20344%20CrossRef%20PubMed",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhao%20S%20Musa%20SS%20Fu%20H%20He%20D%20Qin%20J%20Simple%20framework%20for%20realtime%20forecast%20in%20a%20datalimited%20situation%20The%20Zika%20virus%20ZIKV%20outbreaks%20in%20Brazil%20from%202015%20to%202016%20as%20an%20example%20Parasit%20Vectors%202019%2012%20344%20CrossRef%20PubMed",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhao%20S%20Musa%20SS%20Fu%20H%20He%20D%20Qin%20J%20Simple%20framework%20for%20realtime%20forecast%20in%20a%20datalimited%20situation%20The%20Zika%20virus%20ZIKV%20outbreaks%20in%20Brazil%20from%202015%20to%202016%20as%20an%20example%20Parasit%20Vectors%202019%2012%20344%20CrossRef%20PubMed"
+        },
+        {
+            "id": "12",
+            "alt_id": "de_Silva_et+al_2009_a",
+            "entry": "12. De Silva, U.; Warachit, J.; Waicharoen, S.; Chittaganpitch, M. A preliminary analysis of the epidemiology of influenza A(H1N1)v virus infection in Thailand from early outbreak data, June\u2013July 2009. Eurosurveillance 2009, 14, 19292. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=De%20Silva%20U%20Warachit%20J%20Waicharoen%20S%20Chittaganpitch%20M%20A%20preliminary%20analysis%20of%20the%20epidemiology%20of%20influenza%20AH1N1v%20virus%20infection%20in%20Thailand%20from%20early%20outbreak%20data%20JuneJuly%202009%20Eurosurveillance%202009%2014%2019292%20CrossRef%20PubMed",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=De%20Silva%20U%20Warachit%20J%20Waicharoen%20S%20Chittaganpitch%20M%20A%20preliminary%20analysis%20of%20the%20epidemiology%20of%20influenza%20AH1N1v%20virus%20infection%20in%20Thailand%20from%20early%20outbreak%20data%20JuneJuly%202009%20Eurosurveillance%202009%2014%2019292%20CrossRef%20PubMed",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=De%20Silva%20U%20Warachit%20J%20Waicharoen%20S%20Chittaganpitch%20M%20A%20preliminary%20analysis%20of%20the%20epidemiology%20of%20influenza%20AH1N1v%20virus%20infection%20in%20Thailand%20from%20early%20outbreak%20data%20JuneJuly%202009%20Eurosurveillance%202009%2014%2019292%20CrossRef%20PubMed"
+        },
+        {
+            "id": "13",
+            "alt_id": "Fan_2005_a",
+            "entry": "13. Fan, J.; Huang, T. Profile likelihood inferences on semiparametric varying-coefficient partially linear models. Bernoulli 2005, 11, 1031\u20131057. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fan%2C%20J.%20Huang%2C%20T.%20Profile%20likelihood%20inferences%20on%20semiparametric%20varying-coefficient%20partially%20linear%20models%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fan%2C%20J.%20Huang%2C%20T.%20Profile%20likelihood%20inferences%20on%20semiparametric%20varying-coefficient%20partially%20linear%20models%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fan%2C%20J.%20Huang%2C%20T.%20Profile%20likelihood%20inferences%20on%20semiparametric%20varying-coefficient%20partially%20linear%20models%202005"
+        },
+        {
+            "id": "14",
+            "alt_id": "Wallinga_2007_a",
+            "entry": "14. Wallinga, J.; Lipsitch, M. How generation intervals shape the relationship between growth rates and reproductive numbers. Proc. R. Soc. B Biol. Sci. 2007, 274, 599\u2013604. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wallinga%2C%20J.%20Lipsitch%2C%20M.%20How%20generation%20intervals%20shape%20the%20relationship%20between%20growth%20rates%20and%20reproductive%20numbers%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wallinga%2C%20J.%20Lipsitch%2C%20M.%20How%20generation%20intervals%20shape%20the%20relationship%20between%20growth%20rates%20and%20reproductive%20numbers%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wallinga%2C%20J.%20Lipsitch%2C%20M.%20How%20generation%20intervals%20shape%20the%20relationship%20between%20growth%20rates%20and%20reproductive%20numbers%202007"
+        },
+        {
+            "id": "15",
+            "alt_id": "Wu_et+al_2020_b",
+            "entry": "15. Wu, F.; Zhao, S.; Yu, B.; Chen, Y.-M.; Wang, W.; Hu, Y.; Song, Z.-G.; Tao, Z.-W.; Tian, J.-H.; Pei, Y.-Y.; et al. Complete genome characterisation of a novel coronavirus associated with severe human respiratory disease in Wuhan, China. bioRxiv 2020. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%20F%20Zhao%20S%20Yu%20B%20Chen%20YM%20Wang%20W%20Hu%20Y%20Song%20ZG%20Tao%20ZW%20Tian%20JH%20Pei%20YY%20et%20al%20Complete%20genome%20characterisation%20of%20a%20novel%20coronavirus%20associated%20with%20severe%20human%20respiratory%20disease%20in%20Wuhan%20China%20bioRxiv%202020%20CrossRef"
+        },
+        {
+            "id": "16",
+            "alt_id": "Zhou_et+al_2020_a",
+            "entry": "16. Zhou, P.; Yang, X.-L.; Wang, X.-G.; Hu, B.; Zhang, L.; Zhang, W.; Si, H.-R.; Zhu, Y.; Li, B.; Huang, C.-L.; et al. Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin. bioRxiv 2020. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%20P%20Yang%20XL%20Wang%20XG%20Hu%20B%20Zhang%20L%20Zhang%20W%20Si%20HR%20Zhu%20Y%20Li%20B%20Huang%20CL%20et%20al%20Discovery%20of%20a%20novel%20coronavirus%20associated%20with%20the%20recent%20pneumonia%20outbreak%20in%20humans%20and%20its%20potential%20bat%20origin%20bioRxiv%202020%20CrossRef"
+        },
+        {
+            "id": "17",
+            "alt_id": "Zhu_et+al_2020_a",
+            "entry": "17. Zhu, N.; Zhang, D.; Wang, W.; Li, X.; Yang, B.; Song, J.; Zhao, X.; Huang, B.; Shi, W.; Lu, R.; et al. A Novel coronavirus from patients with pneumonia in china, 2019. N. Engl. J. Med. 2020. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhu%20N%20Zhang%20D%20Wang%20W%20Li%20X%20Yang%20B%20Song%20J%20Zhao%20X%20Huang%20B%20Shi%20W%20Lu%20R%20et%20al%20A%20Novel%20coronavirus%20from%20patients%20with%20pneumonia%20in%20china%202019%20N%20Engl%20J%20Med%202020%20CrossRef%20PubMed",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhu%20N%20Zhang%20D%20Wang%20W%20Li%20X%20Yang%20B%20Song%20J%20Zhao%20X%20Huang%20B%20Shi%20W%20Lu%20R%20et%20al%20A%20Novel%20coronavirus%20from%20patients%20with%20pneumonia%20in%20china%202019%20N%20Engl%20J%20Med%202020%20CrossRef%20PubMed",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhu%20N%20Zhang%20D%20Wang%20W%20Li%20X%20Yang%20B%20Song%20J%20Zhao%20X%20Huang%20B%20Shi%20W%20Lu%20R%20et%20al%20A%20Novel%20coronavirus%20from%20patients%20with%20pneumonia%20in%20china%202019%20N%20Engl%20J%20Med%202020%20CrossRef%20PubMed"
+        },
+        {
+            "id": "18",
+            "alt_id": "Assiri_et+al_2013_a",
+            "entry": "18. Assiri, A.; McGeer, A.; Perl, T.M.; Price, C.S.; Al Rabeeah, A.A.; Cummings, D.A.; Alabdullatif, Z.N.; Assad, M.; Almulhim, A.; Makhdoom, H. Hospital outbreak of Middle East respiratory syndrome coronavirus. N. Engl. J. Med. 2013, 369, 407\u2013416. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Assiri%2C%20A.%20McGeer%2C%20A.%20Perl%2C%20T.M.%20Price%2C%20C.S.%20Hospital%20outbreak%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Assiri%2C%20A.%20McGeer%2C%20A.%20Perl%2C%20T.M.%20Price%2C%20C.S.%20Hospital%20outbreak%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Assiri%2C%20A.%20McGeer%2C%20A.%20Perl%2C%20T.M.%20Price%2C%20C.S.%20Hospital%20outbreak%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%202013"
+        },
+        {
+            "id": "19",
+            "alt_id": "Lipsitch_et+al_2003_a",
+            "entry": "19. Lipsitch, M.; Cohen, T.; Cooper, B.; Robins, J.M.; Ma, S.; James, L.; Gopalakrishna, G.; Chew, S.K.; Tan, C.C.; Samore, M.H. Transmission dynamics and control of severe acute respiratory syndrome. Science 2003, 300, 1966\u20131970. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lipsitch%2C%20M.%20Cohen%2C%20T.%20Cooper%2C%20B.%20Robins%2C%20J.M.%20Transmission%20dynamics%20and%20control%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lipsitch%2C%20M.%20Cohen%2C%20T.%20Cooper%2C%20B.%20Robins%2C%20J.M.%20Transmission%20dynamics%20and%20control%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lipsitch%2C%20M.%20Cohen%2C%20T.%20Cooper%2C%20B.%20Robins%2C%20J.M.%20Transmission%20dynamics%20and%20control%20of%20severe%20acute%20respiratory%20syndrome%202003"
+        },
+        {
+            "id": "20",
+            "alt_id": "Riou_2019_a",
+            "entry": "20. Riou, J.; Althaus, C.L. Pattern of early human-to-human transmission of Wuhan 2019-nCoV. bioRxiv 2020. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Riou%20J%20Althaus%20CL%20Pattern%20of%20early%20humantohuman%20transmission%20of%20Wuhan%202019nCoV%20bioRxiv%202020%20CrossRef"
+        },
+        {
+            "id": "21",
+            "alt_id": "Read_et+al_2019_a",
+            "entry": "21. Read, J.M.; Bridgen, J.R.; Cummings, D.A.; Ho, A.; Jewell, C.P. Novel coronavirus 2019-nCoV: Early estimation of epidemiological parameters and epidemic predictions. medRxiv 2020. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Read%20JM%20Bridgen%20JR%20Cummings%20DA%20Ho%20A%20Jewell%20CP%20Novel%20coronavirus%202019nCoV%20Early%20estimation%20of%20epidemiological%20parameters%20and%20epidemic%20predictions%20medRxiv%202020%20CrossRef"
+        },
+        {
+            "id": "22",
+            "alt_id": "Shen_et+al_2019_a",
+            "entry": "22. Shen, M.; Peng, Z.; Xiao, Y.; Zhang, L. Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shen%20M%20Peng%20Z%20Xiao%20Y%20Zhang%20L%20Modelling%20the%20epidemic%20trend%20of%20the%202019%20novel%20coronavirus%20outbreak%20in%20China%20bioRxiv%202020%20CrossRef"
+        },
+        {
+            "id": "23",
+            "alt_id": "Cowling_et+al_2009_a",
+            "entry": "23. Cowling, B.J.; Fang, V.J.; Riley, S.; Peiris, J.M.; Leung, G.M. Estimation of the serial interval of influenza. Epidemiology 2009, 20, 344. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cowling%2C%20B.J.%20Fang%2C%20V.J.%20Riley%2C%20S.%20Peiris%2C%20J.M.%20Estimation%20of%20the%20serial%20interval%20of%20influenza%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cowling%2C%20B.J.%20Fang%2C%20V.J.%20Riley%2C%20S.%20Peiris%2C%20J.M.%20Estimation%20of%20the%20serial%20interval%20of%20influenza%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cowling%2C%20B.J.%20Fang%2C%20V.J.%20Riley%2C%20S.%20Peiris%2C%20J.M.%20Estimation%20of%20the%20serial%20interval%20of%20influenza%202009"
+        },
+        {
+            "id": "24",
+            "alt_id": "Wallinga_2004_a",
+            "entry": "24. Wallinga, J.; Teunis, P. Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures. Am. J. Epidemiol 2004, 160, 509\u2013516. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wallinga%2C%20J.%20Teunis%2C%20P.%20Different%20epidemic%20curves%20for%20severe%20acute%20respiratory%20syndrome%20reveal%20similar%20impacts%20of%20control%20measures%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wallinga%2C%20J.%20Teunis%2C%20P.%20Different%20epidemic%20curves%20for%20severe%20acute%20respiratory%20syndrome%20reveal%20similar%20impacts%20of%20control%20measures%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wallinga%2C%20J.%20Teunis%2C%20P.%20Different%20epidemic%20curves%20for%20severe%20acute%20respiratory%20syndrome%20reveal%20similar%20impacts%20of%20control%20measures%202004"
+        },
+        {
+            "id": "25",
+            "alt_id": "Bauch_et+al_2005_a",
+            "entry": "25. Bauch, C.T.; Lloyd-Smith, J.O.; Coffee, M.P.; Galvani, A.P. Dynamically modeling SARS and other newly emerging respiratory illnesses: Past, present, and future. Epidemiology 2005, 16, 791\u2013801. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bauch%2C%20C.T.%20Lloyd-Smith%2C%20J.O.%20Coffee%2C%20M.P.%20Galvani%2C%20A.P.%20Dynamically%20modeling%20SARS%20and%20other%20newly%20emerging%20respiratory%20illnesses%3A%20Past%2C%20present%2C%20and%20future%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bauch%2C%20C.T.%20Lloyd-Smith%2C%20J.O.%20Coffee%2C%20M.P.%20Galvani%2C%20A.P.%20Dynamically%20modeling%20SARS%20and%20other%20newly%20emerging%20respiratory%20illnesses%3A%20Past%2C%20present%2C%20and%20future%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bauch%2C%20C.T.%20Lloyd-Smith%2C%20J.O.%20Coffee%2C%20M.P.%20Galvani%2C%20A.P.%20Dynamically%20modeling%20SARS%20and%20other%20newly%20emerging%20respiratory%20illnesses%3A%20Past%2C%20present%2C%20and%20future%202005"
+        },
+        {
+            "id": "26",
+            "alt_id": "Lin_et+al_2018_a",
+            "entry": "26. Lin, Q.; Chiu, A.P.; Zhao, S.; He, D. Modeling the spread of Middle East respiratory syndrome coronavirus in Saudi Arabia. Stat. Methods Med. Res. 2018, 27, 1968\u20131978. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lin%2C%20Q.%20Chiu%2C%20A.P.%20Zhao%2C%20S.%20He%2C%20D.%20Modeling%20the%20spread%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%20in%20Saudi%20Arabia%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lin%2C%20Q.%20Chiu%2C%20A.P.%20Zhao%2C%20S.%20He%2C%20D.%20Modeling%20the%20spread%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%20in%20Saudi%20Arabia%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lin%2C%20Q.%20Chiu%2C%20A.P.%20Zhao%2C%20S.%20He%2C%20D.%20Modeling%20the%20spread%20of%20Middle%20East%20respiratory%20syndrome%20coronavirus%20in%20Saudi%20Arabia%202018"
+        },
+        {
+            "id": "27",
+            "alt_id": "27._2019_b",
+            "entry": "27. Laboratory Testing for 2019 Novel Coronavirus (2019-nCoV) in Suspected Human Cases. Available online: https://www.who.int/health-topics/coronavirus/laboratory-diagnostics-for-novel-coronavirus (accessed on 27 January 2020). ",
+            "url": "https://www.who.int/health-topics/coronavirus/laboratory-diagnostics-for-novel-coronavirus",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Laboratory%20Testing%20for%202019%20Novel%20Coronavirus%202019nCoV%20in%20Suspected%20Human%20Cases%20Available%20online%20httpswwwwhointhealthtopicscoronaviruslaboratorydiagnosticsfornovelcoronavirus%20accessed%20on%2027%20January%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Laboratory%20Testing%20for%202019%20Novel%20Coronavirus%202019nCoV%20in%20Suspected%20Human%20Cases%20Available%20online%20httpswwwwhointhealthtopicscoronaviruslaboratorydiagnosticsfornovelcoronavirus%20accessed%20on%2027%20January%202020"
+        }
+    ],
+    "facts": [
+        "an outbreak of respiratory illness caused by a novel coronavirus emerged in",
+        "The number of unreported cases was determined by the maximum likelihood estimation",
+        "the serial intervals of infection caused by two other well-known coronaviruses",
+        "likely to have resulted in 469 unreported cases",
+        "likely to have occurred during the first half of January 2020",
+        "The virus causes a range of symptoms including fever",
+        "still ongoing outbreak had resulted in 2066 confirmed cases",
+        "sporadic cases exported from Wuhan were reported in",
+        "the number of cases exported from Wuhan to other countries",
+        "4000 cases in Wuhan with symptoms onset by 18 January 2020",
+        "the number of cases exported from Wuhan to other major cities",
+        "to 15 January 2020 according to the official report",
+        "no new case was reported during these days",
+        "which appears inconsistent with the following rapid growth of the epidemic curve",
+        "The time series data of 2019-nCoV cases in mainland China were initially released by the Wuhan Municipal Health Commission"
+    ],
+    "claims": [
+        "Methods: We modelled the epidemic curve of 2019-nCoV cases, in mainland China from 1 December 2019 to 24 January 2020 through the exponential growth",
+        "Following previous studies [11,12], we modelled the epidemic curve, i.e., the Ci series, as an exponential growing Poisson process",
+        "We modelled h(k) as Gamma distributions with mean of 8.0 days and standard deviation (SD) of 3.6 days by averaging the SI mean and SD of SARS, mean of 7.6 days and SD of 3.4 days [18], and MERS, mean of 8.4 days and SD of 3.8 days [19]",
+        "For the simulated daily number of cases (\u03b5i), see Figure 1d, we found that \u03b5i matched the observed daily number after 17 January 2020, but was significantly larger than the observations from 1 to 17 January 2020",
+        "We conducted additional sensitivity analysis by varying the starting date of the under-reporting time window, e.g., 1 January 2020 in the main results, from 2 December 2019 to 3 January 2020, and we report our estimates largely hold"
+    ],
+    "findings": [
+        "The under-reporting was likely to have resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020",
+        "The reporting rate after 17 January 2020 was likely to have increased 21-fold (95% CI: 18\u201325) in comparison to the situation from 1 to 17 January 2020 on average",
+        "The number of 2019-nCoV unreported cases was estimated at 469 (95% CI: 403\u2013540), see Figure 1a, whichThweasnusimgnbiefircoanf t2l0y1l9a-rngCerotVhaunn0re. pTohritsefidncdaisnegs iwmapslieesdtimthaetoedccautrr4e6n9ce(9o5f%unCdI:e4r-0r3e\u2212p5o4r0ti)n, gsebeeFtwigeuerne 121b.ae5a,t6nwwd(e9h1e5i5n%chJ1aCwnIa:uan2asd.r4sy9i1g\u201352n20.iJ26fa0i3nc.)au,AnsatefrlteyyerF2liaa0grc2ugc0reo.eruA1nthbtfita,nenwrgh0afi.occTcrhohtiuhissnectfoeiinnnffgdseicisnfttogeornfittmuhwnepidltieheefrdfm-ercteathpneooyfroetciuxncinusgdtr,irenterhgn-ercoeeRnp0looirnfwteuiannpsgdr,eeesptrth-rirmeinepatRsto0ewrdwtiintaahgts prtepfharssraneeteimgupmcedureaiofwmnrt-eotRousdmr-lwksaaq2ttifiutivtht2oaet.er5r4etda6od[n5tt(gaho9,2le5fe0n%0fc\u2013r.uu29oCm2m9m].I.bu: 2eWl2ar.t4itooti9hvf4\u2212etc2[hat.56oes,32teRa)0s,l0\u2013(sn2oCe2ufei])m2.F.rW5bei6gemiuratahrnoredftkh1ca\u03beeabbso,Rleyfw0s4woh6(Cfi9ec2,il)hl.t,5rhie6sesmeaeecnaxoFrpdnkiosg\u03beaniusbeotrlnefyent4i1wta6cl9we,,glrlitr,ethohfseweemreeirnxiaFngpniggofyruntaeroemexnMite1siwctaci,lFnorgagrekrdfooedfiwnretrltniiiennn\u2019dsgge to McFadden\u2019s pseudo-R-squared of 0.99",
+        "The R0 of 2019-nCoV was estimated at 2.56 (95% CI: 2.49\u20132.63), and it is generally in line with those of SARS, i.e., 2\u20135 [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>,<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], and MERS, i.e., 2.7\u20133.9 [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]",
+        "We estimated that the reporting rate after 17 January 2020 increased 21-fold (95% CI: 18\u201325) compared to the situation from 1 to 17 January 2020 on average",
+        "Previous preprint suggested cumulative cases of 1723 (95% CI: 427\u20134471) as of 12 January 2020, and 4000 (95% CI: 1000\u20139700) as of 18 January 2020 based on the aggregated international export cases [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]",
+        "Our analysis yielded cumulative cases of 280 (95% CI: 128\u2013613) as of 12 January 2020, and 609 (95% CI: 278\u20131333) as of 18 January 2020 based on the exponential growing mechanistic in the early outbreak",
+        "Under-reporting was likely to have occurred and resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020",
+        "The reporting rate after 17 January 2020 was likely to have increased 21-fold (95% CI: 18\u201325) compared with the situation from 1 to 17 January 2020 on average, and it should be considered in future investigation",
+        "We estimated the R0 at 2019-nCoV to be 2.56 (95% CI: 2.49\u20132.63)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Due to an unknown reason, the cumulative number of cases remained at 41 from 1 to 15 January 2020 according to the official report, i.e., no new case was reported during these days, which appears inconsistent with the following rapid growth of the epidemic curve since January 2020",
+        "The time series data of 2019-nCoV cases in mainland China were initially released by the Wuhan Municipal Health Commission from 10 to January 2020 [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], and later by the National Health Commission of China after January 2020 [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]",
+        "The number of 2019-nCoV unreported cases was estimated at 469 (95% CI: 403\u2013540), see Figure 1a, whichThweasnusimgnbiefircoanf t2l0y1l9a-rngCerotVhaunn0re. pTohritsefidncdaisnegs iwmapslieesdtimthaetoedccautrr4e6n9ce(9o5f%unCdI:e4r-0r3e\u2212p5o4r0ti)n, gsebeeFtwigeuerne 121b.ae5a,t6nwwd(e9h1e5i5n%chJ1aCwnIa:uan2asd.r4sy9i1g\u201352n20.iJ26fa0i3nc.)au,AnsatefrlteyyerF2liaa0grc2ugc0reo.eruA1nthbtfita,nenwrgh0afi.occTcrhohtiuhissnectfoeiinnnffgdseicisnfttogeornfittmuhwnepidltieheefrdfm-ercteathpneooyfroetciuxncinusgdtr,irenterhgn-ercoeeRnp0looirnfwteuiannpsgdr,eeesptrth-rirmeinepatRsto0ewrdwtiintaahgts prtepfharssraneeteimgupmcedureaiofwmnrt-eotRousdmr-lwksaaq2ttifiutivtht2oaet.er5r4etda6od[n5tt0s,l0\u2013m2.F.rW5bei6gemiuratahrnoredftkh1ca\u03beeabbso,Rleyfw0s4woh6(Cfi9ec2,il)hl.t,5rhie6sesmeaeecnaxoFrpdnkiosg\u03beaniusbeotrlnefyent4i1wta6cl9we,,glrlitr,ethohfseweemreeirnxiaFngpniggofyruntaeroemexnMite1siwctaci,lFnorgagrekrdfooedfiwnretrltniiiennn\u2019dsgge to McFadden\u2019s pseudo-R-squared of 0.99",
+        "Our analysis yielded cumulative cases of 280 (95% CI: 128\u2013613) as of 12 January 2020, and 609 (95% CI: 278\u20131333) as of 18 January 2020 based on the exponential growing mechanistic in the early outbreak",
+        "Under-reporting was likely to have occurred and resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020",
+        "The reporting rate after 17 January 2020 was likely to have increased 21-fold (95% CI: 18\u201325) compared with the situation from 1 to 17 January 2020 on average, and it should be considered in future investigation",
+        "We estimated the R0 at 2019-nCoV to be 2.56 (95% CI: 2.49\u20132.63)"
+    ],
+    "top_statements": [
+        "A novel coronavirus (2019-nCoV) infected pneumonia infection, which is deadly [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], was first identified in Wuhan, China in December 2019 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "Due to an unknown reason, the cumulative number of cases remained at 41 from 1 to 15 January 2020 according to the official report, i.e., no new case was reported during these days, which appears inconsistent with the following rapid growth of the epidemic curve since January 2020",
+        "The number of 2019-nCoV unreported cases was estimated at 469 (95% CI: 403\u2013540), see Figure 1a, whichThweasnusimgnbiefircoanf t2l0y1l9a-rngCerotVhaunn0re. pTohritsefidncdaisnegs iwmapslieesdtimthaetoedccautrr4e6n9ce(9o5f%unCdI:e4r-0r3e\u2212p5o4r0ti)n, gsebeeFtwigeuerne 121b.ae5a,t6nwwd(e9h1e5i5n%chJ1aCwnIa:uan2asd.r4sy9i1g\u201352n20.iJ26fa0i3nc.)au,AnsatefrlteyyerF2liaa0grc2ugc0reo.eruA1nthbtfita,nenwrgh0afi.occTcrhohtiuhissnectfoeiinnnffgdseicisnfttogeornfittmuhwnepidltieheefrdfm-ercteathpneooyfroetciuxncinusgdtr,irenterhgn-ercoeeRnp0looirnfwteuiannpsgdr,eeesptrth-rirmeinepatRsto0ewrdwtiintaahgts prtepfharssraneeteimgupmcedureaiofwmnrt-eotRousdmr-lwksaaq2ttifiutivtht2oaet.er5r4etda6od[n5tt0s,l0\u2013m2.F.rW5bei6gemiuratahrnoredftkh1ca\u03beeabbso,Rleyfw0s4woh6(Cfi9ec2,il)hl.t,5rhie6sesmeaeecnaxoFrpdnkiosg\u03beaniusbeotrlnefyent4i1wta6cl9we,,glrlitr,ethohfseweemreeirnxiaFngpniggofyruntaeroemexnMite1siwctaci,lFnorgagrekrdfooedfiwnretrltniiiennn\u2019dsgge to McFadden\u2019s pseudo-R-squared of 0.99",
+        "Under-reporting was likely to have occurred and resulted in 469 (95% CI: 403\u2013540) unreported cases from 1 to 15 January 2020",
+        "The reporting rate after 17 January 2020 was likely to have increased 21-fold (95% CI: 18\u201325) compared with the situation from 1 to 17 January 2020 on average, and it should be considered in future investigation",
+        "We estimated the R0 at 2019-nCoV to be 2.56 (95% CI: 2.49\u20132.63)"
+    ],
+    "headline": "The reporting rate after 17 January 2020 was likely to have increased 21-fold compared with the situation from 1 to 17 January 2020 on average, and it should be considered in future investigation",
+    "contexts": [],
+    "abbreviations": {
+        "SI": "serial intervals",
+        "SARS": "Severe Acute Respiratory Syndrome",
+        "MERS": "Middle East Respiratory Syndrome",
+        "WHO": "World Health Organization",
+        "95% CI": "95% confidence interval",
+        "SD": "standard deviation"
+    }
+}

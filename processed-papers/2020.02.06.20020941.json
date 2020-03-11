@@ -1,0 +1,191 @@
+{
+    "filename": "2020.02.06.20020941.pdf",
+    "content_type": "text/html",
+    "file_size": 0,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.06.20020941",
+            "url": "https://dx.doi.org/10.1101/2020.02.06.20020941"
+        },
+        "doi": "10.1101/2020.02.06.20020941",
+        "author": "Qingyuan Zhao, Yang Chen, Dylan S Small",
+        "title": "Analysis of the epidemic growth of the early 2019-nCoV outbreak using internationally confirmed cases",
+        "date": 2020,
+        "abstract": "Background: On January 23, 2020, a quarantine was imposed on travel in and out of Wuhan, where the 2019 novel coronavirus (2019-nCoV) outbreak originated from. Previous analyses estimated the basic epidemiological parameters using symptom onset dates of the confirmed cases in Wuhan and outside China.\n\nMethods: We obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020. Most cases have detailed travel history and disease progress. Compared to previous analyses, an important distinction is that we used this data to informatively simulate the infection time of each case using the symptom onset time, previously reported incubation interval, and travel history. We then fitted a simple exponential growth model with adjustment for the January 23 travel ban to the distribution of the simulated infection time. We used a Bayesian analysis with diffuse priors to quantify the uncertainty of the estimated epidemiological parameters. We performed sensitivity analysis to different choices of incubation interval and the hyperparameters in the prior specification.\n\nResults: We found that our model provides good fit to the distribution of the infection time. Assuming the travel rate to the selected countries and regions is constant over the study period, we found that the epidemic was doubling in size every 2.9 days (95% credible interval [CrI], 2 days--4.1 days). Using previously reported serial interval for 2019-nCoV, the estimated basic reproduction number is 5.7 (95% CrI, 3.4--9.2). The estimates did not change substantially if we assumed the travel rate doubled in the last 3 days before January 23, when we used previously reported incubation interval for severe acute respiratory syndrome (SARS), or when we changed the hyperparameters in our prior specification.\n\nConclusions: Our estimated epidemiological parameters are higher than an earlier report using confirmed cases in Wuhan. This indicates the 2019-nCoV could have been spreading faster than previous estimates.",
+        "references": "",
+        "references_ris": "",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "background": [
+            "On January 23, 2020, a quarantine was imposed on travel in and out of Wuhan, where the 2019 novel coronavirus (2019-nCoV) outbreak originated from. Previous analyses estimated the basic epidemiological parameters using symptom onset dates of the confirmed cases in Wuhan and outside China. Methods: We obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020. Most cases have detailed travel history and disease progress. Compared to previous analyses, an important distinction is that we used this data to informatively simulate the infection time of each case using the symptom onset time, previously reported incubation interval, and travel history. We then fitted a simple exponential growth model with adjustment for the January 23 travel ban to the distribution of the simulated infection time. We used a Bayesian analysis with diffuse priors to quantify the uncertainty of the estimated epidemiological parameters. We performed sensitivity analysis to different choices of incubation interval and the hyperparameters in the prior specification. Results: We found that our model provides good fit to the distribution of the infection time. Assuming the travel rate to the selected countries and regions is constant over the study period, we found that the epidemic was doubling in size every 2.9 days (95% credible interval [CrI], 2 days--4.1 days). Using previously reported serial interval for 2019-nCoV, the estimated basic reproduction number is 5.7 (95% CrI, 3.4--9.2). The estimates did not change substantially if we assumed the travel rate doubled in the last 3 days before January 23, when we used previously reported incubation interval for severe acute respiratory syndrome (SARS), or when we changed the hyperparameters in our prior specification. Conclusions: Our estimated epidemiological parameters are higher than an earlier report using confirmed cases in Wuhan. This indicates the 2019-nCoV could have been spreading faster than previous estimates."
+        ],
+        "disclosures": [
+            "<strong>Competing Interest Statement</strong><br/><br/>The authors have declared no competing interest."
+        ],
+        "statement": [
+            "We have no funding or financial conflict of interest to declare.<br/><br/>Author Declarations<br/><br/>All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.    Yes<br/><br/>All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.<br/><br/>I understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).<br/><br/>I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable."
+        ],
+        "data_availability": [
+            "Data for this study are from public sources. We have kept the data and computer programs used in our analysis at the link below, so the results reported in this article and previous versions of our analysis are fully reproducible."
+        ],
+        "ethical_compliance": [
+            "All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript",
+            "All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "supplementary files"
+            ],
+            "supplementary_figure_references": []
+        }
+    },
+    "structured_content": {
+        "Abstract": [],
+        "Background": [
+            "On January 23, 2020, a quarantine was imposed on travel in and out of Wuhan, where the 2019 novel coronavirus (2019-nCoV) outbreak originated from. Previous analyses estimated the basic epidemiological parameters using symptom onset dates of the confirmed cases in Wuhan and outside China. Methods: We obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020. Most cases have detailed travel history and disease progress. Compared to previous analyses, an important distinction is that we used this data to informatively simulate the infection time of each case using the symptom onset time, previously reported incubation interval, and travel history. We then fitted a simple exponential growth model with adjustment for the January 23 travel ban to the distribution of the simulated infection time. We used a Bayesian analysis with diffuse priors to quantify the uncertainty of the estimated epidemiological parameters. We performed sensitivity analysis to different choices of incubation interval and the hyperparameters in the prior specification. Results: We found that our model provides good fit to the distribution of the infection time. Assuming the travel rate to the selected countries and regions is constant over the study period, we found that the epidemic was doubling in size every 2.9 days (95% credible interval [CrI], 2 days--4.1 days). Using previously reported serial interval for 2019-nCoV, the estimated basic reproduction number is 5.7 (95% CrI, 3.4--9.2). The estimates did not change substantially if we assumed the travel rate doubled in the last 3 days before January 23, when we used previously reported incubation interval for severe acute respiratory syndrome (SARS), or when we changed the hyperparameters in our prior specification. Conclusions: Our estimated epidemiological parameters are higher than an earlier report using confirmed cases in Wuhan. This indicates the 2019-nCoV could have been spreading faster than previous estimates."
+        ],
+        "Competing Interest Statement": [
+            "The authors have declared no competing interest."
+        ],
+        "Funding Statement": [
+            "We have no funding or financial conflict of interest to declare.",
+            "All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.",
+            "All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.",
+            "I understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).",
+            "I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable."
+        ],
+        "Data Availability": [
+            "Data for this study are from public sources. We have kept the data and computer programs used in our analysis at the link below, so the results reported in this article and previous versions of our analysis are fully reproducible."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "coronavirus cases",
+            "number": 46,
+            "context": "Previous analyses estimated the basic epidemiological parameters using symptom onset dates of the confirmed cases in Wuhan and outside China. <mark class=\"stats\">Methods: We obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020</mark>. Most cases have detailed travel history and disease progress"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "previous analysis",
+        "coronavirus case",
+        "incubation interval",
+        "travel rate",
+        "severe acute respiratory syndrome",
+        "hong kong",
+        "most case",
+        "symptom onset",
+        "estimated epidemiological parameter",
+        "prior specification",
+        "novel coronavirus",
+        "infection time",
+        "basic epidemiological",
+        "onset date",
+        "epidemiological parameter"
+    ],
+    "keyword_relevance": {
+        "incubation interval": 0.13043478260869565,
+        "infection time": 0.13043478260869565,
+        "epidemiological parameter": 0.13043478260869565,
+        "travel rate": 0.08695652173913043,
+        "severe acute respiratory syndrome": 0.08695652173913043,
+        "symptom onset": 0.08695652173913043,
+        "estimated epidemiological parameter": 0.08695652173913043,
+        "prior specification": 0.08695652173913043,
+        "coronavirus case": 0.043478260869565216,
+        "novel coronavirus": 0.043478260869565216,
+        "basic epidemiological": 0.043478260869565216,
+        "onset date": 0.043478260869565216,
+        "previous analysis": 0.0,
+        "hong kong": 0.0,
+        "most case": 0.0
+    },
+    "species": [],
+    "summary": [
+        "Background: On January 23, 2020, a quarantine was imposed on travel in and out of Wuhan, where the 2019 novel coronavirus (2019-nCoV) outbreak originated from.",
+        "Previous analyses estimated the basic epidemiological parameters using symptom onset dates of the confirmed cases in Wuhan and outside China.",
+        "Methods: The authors obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020.",
+        "Most cases have detailed travel history and disease progress.",
+        "An important distinction is that the authors used this data to informatively simulate the infection time of each case using the symptom onset time, previously reported incubation interval, and travel history.",
+        "The authors fitted a simple exponential growth model with adjustment for the January 23 travel ban to the distribution of the simulated infection time.",
+        "The authors used a Bayesian analysis with diffuse priors to quantify the uncertainty of the estimated epidemiological parameters.",
+        "The authors performed sensitivity analysis to different choices of incubation interval and the hyperparameters in the prior specification.",
+        "Results: The authors found that the model provides good fit to the distribution of the infection time.",
+        "Assuming the travel rate to the selected countries and regions is constant over the study period, the authors found that the epidemic was doubling in size every 2.9 days (95% credible interval [CrI], 2 days--4.1 days).",
+        "Using previously reported serial interval for 2019-nCoV, the estimated basic reproduction number is 5.7 (95% CrI, 3.4--9.2).",
+        "The estimates did not change substantially if the authors assumed the travel rate doubled in the last 3 days before January 23, when the authors used previously reported incubation interval for severe acute respiratory syndrome (SARS), or when the authors changed the hyperparameters in the prior specification.",
+        "Conclusions: The authors' estimated epidemiological parameters are higher than an earlier report using confirmed cases in Wuhan.",
+        "Competing Interest Statement",
+        "The authors have declared no competing interest.",
+        "All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.",
+        "The author confirms that any such study reported in the manuscript has been registered and the trial registration ID is provided.",
+        "The authors have kept the data and computer programs used in the analysis at the link below, so the results reported in this article and previous versions of the analysis are fully reproducible."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Background: On January 23, 2020, a quarantine was imposed on travel in and out of Wuhan, where the 2019 novel coronavirus (2019-nCoV) outbreak originated from.",
+            "Previous analyses estimated the basic epidemiological parameters using symptom onset dates of the confirmed cases in Wuhan and outside China.",
+            "Methods: The authors obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020.",
+            "Most cases have detailed travel history and disease progress."
+        ],
+        "Results": [
+            "An important distinction is that the authors used this data to informatively simulate the infection time of each case using the symptom onset time, previously reported incubation interval, and travel history.",
+            "The authors fitted a simple exponential growth model with adjustment for the January 23 travel ban to the distribution of the simulated infection time.",
+            "The authors used a Bayesian analysis with diffuse priors to quantify the uncertainty of the estimated epidemiological parameters.",
+            "The authors performed sensitivity analysis to different choices of incubation interval and the hyperparameters in the prior specification.",
+            "Results: The authors found that the model provides good fit to the distribution of the infection time.",
+            "Assuming the travel rate to the selected countries and regions is constant over the study period, the authors found that the epidemic was doubling in size every 2.9 days (95% credible interval [CrI], 2 days--4.1 days).",
+            "Using previously reported serial interval for 2019-nCoV, the estimated basic reproduction number is 5.7 (95% CrI, 3.4--9.2).",
+            "The estimates did not change substantially if the authors assumed the travel rate doubled in the last 3 days before January 23, when the authors used previously reported incubation interval for severe acute respiratory syndrome (SARS), or when the authors changed the hyperparameters in the prior specification.",
+            "Conclusions: The authors' estimated epidemiological parameters are higher than an earlier report using confirmed cases in Wuhan.",
+            "Competing Interest Statement"
+        ],
+        "Conclusion": [
+            "The authors have declared no competing interest.",
+            "All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.",
+            "The author confirms that any such study reported in the manuscript has been registered and the trial registration ID is provided.",
+            "The authors have kept the data and computer programs used in the analysis at the link below, so the results reported in this article and previous versions of the analysis are fully reproducible."
+        ]
+    },
+    "reference_links": [],
+    "facts": [
+        "a quarantine was imposed on travel",
+        "obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23",
+        "a Bayesian analysis with diffuse priors to quantify the uncertainty of the estimated epidemiological parameters",
+        "the travel rate to the selected countries and regions is constant over the study period",
+        "that the epidemic was doubling in size every 2.9 days",
+        "Our estimated epidemiological parameters are higher than an earlier report using confirmed cases in Wuhan",
+        "oversight body are included in the manuscript",
+        "that any such study reported in the manuscript has been registered",
+        "the data and computer programs used in our analysis at the link",
+        "the results reported in this article"
+    ],
+    "claims": [
+        "Results: We found that our model provides good fit to the distribution of the infection time",
+        "Assuming the travel rate to the selected countries and regions is constant over the study period, we found that the epidemic was doubling in size every 2.9 days (95% credible interval [CrI], 2 days--4.1 days)"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020",
+        "We used a Bayesian analysis with diffuse priors to quantify the uncertainty of the estimated epidemiological parameters",
+        "Assuming the travel rate to the selected countries and regions is constant over the study period, we found that the epidemic was doubling in size every 2.9 days (95% credible interval [CrI], 2 days--4.1 days)",
+        "Our estimated epidemiological parameters are higher than an earlier report using confirmed cases in Wuhan"
+    ],
+    "top_statements": [
+        "On January 23, 2020, a quarantine was imposed on travel in and out of Wuhan, where the 2019 novel coronavirus (2019-nCoV) outbreak originated from",
+        "We obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020",
+        "We used a Bayesian analysis with diffuse priors to quantify the uncertainty of the estimated epidemiological parameters",
+        "Assuming the travel rate to the selected countries and regions is constant over the study period, we found that the epidemic was doubling in size every 2.9 days (95% credible interval [CrI], 2 days--4.1 days)",
+        "Our estimated epidemiological parameters are higher than an earlier report using confirmed cases in Wuhan"
+    ],
+    "headline": "We obtained information on the 46 coronavirus cases who traveled from Wuhan before January 23 and have been subsequently confirmed in Hong Kong, Japan, Korea, Macau, Singapore, and Taiwan as of February 5, 2020",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "severe acute respiratory syndrome"
+    }
+}

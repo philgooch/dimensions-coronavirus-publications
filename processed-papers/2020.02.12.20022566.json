@@ -1,0 +1,377 @@
+{
+    "filename": "2020.02.12.20022566.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 442623,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.12.20022566",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/14/2020.02.12.20022566.full.pdf"
+        },
+        "title": "A spatial model of CoVID-19 transmission in England and Wales: early spread and peak timing",
+        "author": "Leon Danon, Ellen Brooks-Pollock, Mick Bailey, Matt J Keeling",
+        "date": 2020,
+        "affiliations": [
+            "University of Exeter",
+            "Ellen.Brooks-Pollock@bristol.ac.uk, University of Bristol",
+            "Mick.Bailey@bristol.ac.uk, University of Bristol 4. M.J.Keeling@warwick.ac.uk University of Warwick",
+            "Office of National Statistics (ONS) website. The number of individuals moving between locations is also available from the ONS website, but at the level of census output areas (OAs). We aggregated the data from OA level to electoral wards level. Spatial location of electoral ward centres are extracted from maps available from the ONS websites."
+        ],
+        "abstract": "Background:\nAn outbreak of a novel coronavirus, named CoVID-19, was first reported in China on 31 December 2019. As of 9 February 2020, cases have been reported in 25 countries, including probable cases of human-to-human transmission in England.  \n\nMethods:\nWe adapted an existing national-scale metapopulation model to capture the spread of CoVID-19 in England and Wales. We used 2011 census data to capture population sizes and population movement, together with parameter estimates from the current outbreak in China. \n\nResults: \nWe predict that a CoVID-19 outbreak will peak 126 to 147 days (~4 months) after the start of person-to-person transmission in England and Wales in the absence of controls, assuming biological parameters remain unchanged. Therefore, if person-to-person transmission persists from February, we predict the epidemic peak would occur in June. The starting location has minimal impact on peak timing, and model stochasticity varies peak timing by 10 days. Incorporating realistic parameter uncertainty leads to estimates of peak time ranging from 78 days to 241 days after person-to-person transmission has been established.  Seasonal changes in transmission rate substantially impact the timing and size of the epidemic peak, as well as the total attack rate. \n\nDiscussion:\nWe provide initial estimates of the potential course of CoVID-19 in England and Wales in the absence of control measures. These results can be refined with improved estimates of epidemiological parameters, and permit investigation of control measures and cost effectiveness analyses. Seasonal changes in transmission rate could shift the timing of the peak into winter months, which will have important implications for healthcare capacity planning.",
+        "references": "@misc{unknown2020a,\n  title = {World Health Organization (WHO). Novel Coronavirus (COVID19) Situation Report-23},\n  date = {2020},\n  language = {}\n}\n@article{li2020a,\n  author = {Li, Q. and Guan, X. and Wu, P. and Wang, X. and Zhou, L. and Tong, Y.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia},\n  journal = {N Engl J Med},\n  date = {2020-01},\n  more-authors = {true},\n  language = {}\n}\n@misc{read-a,\n  author = {Read, J.M. and Bridgen, JR, Cummings and DA, Ho and A, Jewell and C.P.},\n  title = {Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv. 2020; 2020.01.23.20018549},\n  language = {}\n}\n@incollection{wu2020a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet},\n  date = {2020-01},\n  volume = {0},\n  pages = {5},\n  editor = {Imai, N. and Cori, A. and Dorigatti, I. and Baguelin, M. and Donnelly, C.A. and Riley},\n  booktitle = {S, et al. Report 3: Transmissibility of},\n  number = {0},\n  language = {},\n  address = {London, England}\n}\n@article{liu2019a,\n  author = {Liu, T. and Hu, J. and Kang, M. and Lin, L. and Zhong, H. and Xiao, J.},\n  title = {Transmission dynamics of 2019 novel coronavirus},\n  date = {2019-01-26},\n  medium = {Internet},\n  url = {https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1},\n  journal = {Wellcome Open Res},\n  publisher = {13]; 5: 17},\n  pages = {8},\n  unmatched-author = {7. Abbott S, Hellewell J, Munday J, Funk S, Funk S.},\n  more-authors = {true},\n  source = {bioRxiv},\n  unmatched-accessed = {[Internet].2020 Feb 3 [cited 2020 Feb},\n  unmatched-url = {Available from: https://wellcomeopenresearch.org/articles/5-17/v1},\n  language = {},\n  urldate = {[cited 2020 Feb 13]; 2020.01.25.919787.}\n}\n@misc{dorigatti-a,\n  author = {Dorigatti, I. and Okell, L. and Cori, A. and Imai, N. and Baguelin, M. and Bhatia, S.},\n  title = {Report 4: Severity of 2019novel coronavirus (nCoV). 2020},\n  more-authors = {true},\n  language = {}\n}\n@Internet{hellewell-a,\n  author = {Hellewell, J. and Abbott, S. and Gimma, A. and Bosse, N.I. and Jarvis, C.I. and Russell, T.W.},\n  title = {Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts. medRxiv},\n  medium = {Internet},\n  url = {https://www.medrxiv.org/content/10.1101/2020.02.08.20021162v1},\n  volume = {10},\n  source = {The role of routine versus random movements on the spread of disease in Great Britain},\n  unmatched-author = {Danon L, House T, Keeling M.},\n  more-authors = {true},\n  unmatched-url = {Available from: http://linkinghub.elsevier.com/retrieve/pii/S1755436509000553},\n  language = {},\n  urldate = {2020 Feb 11 [cited 2020 Feb 13]; 2020.02.08.20021162.}\n}\n",
+        "links": [
+            "http://github.com/ldanon/MetaWards"
+        ],
+        "emails": [
+            "L.Danon@exeter.ac.uk",
+            "Mick.Bailey@bristol.ac.uk",
+            "M.J.Keeling@warwick.ac.uk",
+            "Ellen.Brooks-Pollock@bristol.ac.uk"
+        ],
+        "references_ris": "TY  - GEN\nTI  - World Health Organization (WHO). Novel Coronavirus (COVID19) Situation Report-23\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nAU  - Wang, X.\nAU  - Zhou, L.\nAU  - Tong, Y.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020/01\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Read, J.M.\nAU  - Bridgen, JR, Cummings\nAU  - DA, Ho\nAU  - A, Jewell\nAU  - C.P.\nTI  - Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv. 2020; 2020.01.23.20018549\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet\nPY  - 2020\nDA  - 2020/01\nVL  - 0\nSP  - 5\nA2  - Imai, N.\nA2  - Cori, A.\nA2  - Dorigatti, I.\nA2  - Baguelin, M.\nA2  - Donnelly, C.A.\nA2  - Riley\nT2  - S, et al. Report 3: Transmissibility of\nIS  - 0\nLA  - \nCY  - London, England\nER  - \n\nTY  - JOUR\nAU  - Liu, T.\nAU  - Hu, J.\nAU  - Kang, M.\nAU  - Lin, L.\nAU  - Zhong, H.\nAU  - Xiao, J.\nTI  - Transmission dynamics of 2019 novel coronavirus\nPY  - 2019\nDA  - 2019/01/26\nC1  - Internet\nUR  - https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1\nT2  - Wellcome Open Res\nPB  - 13]; 5: 17\nSP  - 8\nC1  - 7. Abbott S, Hellewell J, Munday J, Funk S, Funk S.\nC1  - true\nT2  - bioRxiv\nC1  - [Internet].2020 Feb 3 [cited 2020 Feb\nC1  - Available from: https://wellcomeopenresearch.org/articles/5-17/v1\nLA  - \nC1  - [cited 2020 Feb 13]; 2020.01.25.919787.\nER  - \n\nTY  - GEN\nAU  - Dorigatti, I.\nAU  - Okell, L.\nAU  - Cori, A.\nAU  - Imai, N.\nAU  - Baguelin, M.\nAU  - Bhatia, S.\nTI  - Report 4: Severity of 2019novel coronavirus (nCoV). 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Hellewell, J.\nAU  - Abbott, S.\nAU  - Gimma, A.\nAU  - Bosse, N.I.\nAU  - Jarvis, C.I.\nAU  - Russell, T.W.\nTI  - Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts. medRxiv\nC1  - Internet\nUR  - https://www.medrxiv.org/content/10.1101/2020.02.08.20021162v1\nVL  - 10\nT2  - The role of routine versus random movements on the spread of disease in Great Britain\nC1  - Danon L, House T, Keeling M.\nC1  - true\nC1  - Available from: http://linkinghub.elsevier.com/retrieve/pii/S1755436509000553\nLA  - \nC1  - 2020 Feb 11 [cited 2020 Feb 13]; 2020.02.08.20021162.\nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Biological parameters and distributions used in the model"
+            },
+            {
+                "id": "2",
+                "caption": "Effect of seasonal variation on the timing (shown in days following initial seeding), the height of the peak, and the final attack rate"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Model structure within each ward, together with associated parameters estimated from the literature"
+            },
+            {
+                "id": "2",
+                "caption": "The number of cases of CoVID-19 in England and Wales in the absence of any control measures, 100 realisations of the spatial model, seeded in Brighton, using best-guess parameters from Li et. al. (top) Daily infection dynamics. (middle) The distribution of predicted time to peak incidence. (bottom) The distribution of predicted attack rate"
+            },
+            {
+                "id": "3",
+                "caption": "Predicted epidemic curves for a CoVID-19 outbreak broken down by region for England and Wales"
+            },
+            {
+                "id": "4",
+                "caption": "The variability in predicted epidemic curves for a Covid-19 outbreak in England and Wales, seeded in Brighton, in the absence of any control measures incorporating measured parameter uncertainty. (top) Daily infection dynamics. (middle) The distribution of predicted time to peak incidence. (bottom) The distribution of predicted attack rate"
+            },
+            {
+                "id": "5",
+                "caption": "Effect of seasonal changes in transmission rate, assuming a reduction in transmission over the summer. (main panel) Incidence over time, for different values of seasonal scaling. (inset) Variation of scaling term for the course of one year, with transmission being at its lowest in July"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.12.20022566.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-007.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-009.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-010.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-011.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.12.20022566.full/img-012.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "An outbreak of a novel coronavirus, recently renamed CoVID-19, was first reported from Wuhan, China on 31 December 2019. During January 2020, the outbreak spread to multiple cities in China, and the first cases started appearing outside China. By the end of January 2020, 9,720 cases had been confirmed in China, with 106 confirmed cases outside China across 19 different countries(1).<br/><br/>Epidemiological analysis of the outbreak was quickly used to start estimating epidemiologicallyrelevant parameters, such as the basic reproduction number, the serial interval, the incubation period and the case fatality rate(2\u20137). Initial estimates suggested that the reproduction number was between 2 and 3 and the case fatality rate was less than 4%(8). Control of spread by contact tracing and isolation appears to be challenging, given what is currently known about the virus (9)."
+        ],
+        "methods": [
+            "Model description We use an existing national-scale stochastic metapopulation model of disease transmission in England and Wales. The model structure is based on the metapopulation model described in detail in Danon et al (2009)(10). In this model, the population is divided into electoral wards. Because of the changes in data availability, we restricted the model to England and Wales, whereas the original model covered Great Britain.<br/><br/>Movement between wards Transmission between wards occurs via the daily movement of individuals. For each ward, we assume that individuals contribute to the force of infection in their \u201chome\u201d ward during the night and their \u201cwork\u201d ward during the day. See Danon et al 2009 for further details(10)."
+        ],
+        "results": [
+            "We predict that, in the absence of any interventions, a disease with \u201cbest-guess\u201d CoVID-19-like parameters will peak a median of 133 days (range 126 - 147 days) following the start of personto-person transmission in England and Wales. Intrinsic model stochasticity is responsible for variation between model runs. Using exactly the same parameters and seeding the infection in the same initial wards resulted in a difference in peak timing of +/- 10 days (figure 2). The attack rate for best-guess parameters had a median of 45799874 (81.67% range 81.64-81.69), with a peak incidence median [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,116,692].<br/><br/>The initial location of cases had some, but limited impact on the timing of the epidemic in England and Wales. Epidemics seeded in Brighton, London, Birmingham and Sheffield resulted in synchronised epidemics in England, reaching urban areas first followed by rural areas. Epidemics started in Cardiff had a slower time to peak but still resulted in a generalised outbreak. Spatially, some disaggregation between England and Wales regions is observed. An outbreak starting in Brighton, (South East England) peaks in London and the South East first, and North East England, Yorkshire and Humber and Wales last, with a ten-day lag between regions (Figure 3)."
+        ],
+        "discussion": [
+            "We predict that, in the absence of control measures and with no seasonality in transmission, the introduction of CoVID-19 in England and Wales has the potential to result in a synchronised outbreak that peaks at around 4 months following the start of person-to-person transmission. Our findings suggest that the height of the epidemic and the attack rate is highly dependent on seasonality of transmission and that even small changes in transmission risk can lead to large changes in attack rate due to the spatial disaggregation of the population at risk.<br/><br/>A combination of control measures and seasonal changes in transmission rate could shift the peak of the outbreak to the winter of 2020/21, with little effect on the final attack rate. If contact tracing and isolation efforts succeed in reducing transmission, but are unable to control the epidemic (9), an additional influx of severe CoVID-19 cases may exacerbate existing challenges with winter healthcare demand. A careful analysis of the impact of control measures on the timing of incidence of severe cases is warranted.<br/><br/>The strength of this model lies in the spatial heterogeneity which tempers transmission. As a comparison, an equivalent non-spatial model results in the epidemic peaking after 34 days, nearly four times faster than this spatial model, and would be unable to capture the interaction between spatial transmission and seasonality. The estimated total number of people infected in the spatial model is marginally smaller than for a non-spatial model, as the infection has the opportunity to die-out in local parts of the country. As the model framework was developed and published in 2009, it was possible to re-deploy the model for these new circumstances; developing such a model from scratch during an outbreak would be a significant challenge."
+        ],
+        "acknowledgements": [
+            "EBP was funded by the National Institute for Health Research Health Protection Research Unit (NIHR HPRU) in Evaluation of Interventions at University of Bristol in partnership with Public Health England (PHE). The views expressed are those of the author(s) and not necessarily those of the NHS, the NIHR, the Department of Health or Public Health England. LD gratefully acknowledges the financial support of The Alan Turing Institute under the EPSRC grant EP/N510129/1."
+        ],
+        "funding": [
+            "EBP was funded by the National Institute for Health Research Health Protection Research Unit (NIHR HPRU) in Evaluation of Interventions at University of Bristol in partnership with Public Health England (PHE)",
+            "LD gratefully acknowledges the financial support of The Alan Turing Institute under the EPSRC grant EP/N510129/1"
+        ],
+        "data_availability": [
+            "The data are freely available from the Office for National Statistics website, or can be downloaded with the code at the github repository",
+            "http://github.com/ldanon/MetaWards"
+        ]
+    },
+    "structured_content": {
+        "Introduction": [
+            "An outbreak of a novel coronavirus, recently renamed CoVID-19, was first reported from Wuhan, China on 31 December 2019. During January 2020, the outbreak spread to multiple cities in China, and the first cases started appearing outside China. By the end of January 2020, 9,720 cases had been confirmed in China, with 106 confirmed cases outside China across 19 different countries(1).",
+            "Epidemiological analysis of the outbreak was quickly used to start estimating epidemiologicallyrelevant parameters, such as the basic reproduction number, the serial interval, the incubation period and the case fatality rate(2\u20137). Initial estimates suggested that the reproduction number was between 2 and 3 and the case fatality rate was less than 4%(8). Control of spread by contact tracing and isolation appears to be challenging, given what is currently known about the virus (9).",
+            "Mathematical models are useful tools for understanding and predicting the possible course of an outbreak, given a set of underlying assumptions. Here, we adapt a metapopulation model of disease transmission in England and Wales to capture the spread of CoVID-19(10). The aim is to provide predictions about the likely timing of the peak of the epidemic in England and Wales and spatial features of spread."
+        ],
+        "Methods": [
+            "Model description We use an existing national-scale stochastic metapopulation model of disease transmission in England and Wales. The model structure is based on the metapopulation model described in detail in Danon et al (2009)(10). In this model, the population is divided into electoral wards. Because of the changes in data availability, we restricted the model to England and Wales, whereas the original model covered Great Britain.",
+            "Movement between wards Transmission between wards occurs via the daily movement of individuals. For each ward, we assume that individuals contribute to the force of infection in their \u201chome\u201d ward during the night and their \u201cwork\u201d ward during the day. See Danon et al 2009 for further details(10).",
+            "Population and movement data Data for population and movement of individuals come from the 2011 census of the United Kingdom. The population size of each of the [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>,570] electoral wards is available directly from the Office of National Statistics (ONS) website. The number of individuals moving between locations is also available from the ONS website, but at the level of census output areas (OAs). We aggregated the data from OA level to electoral wards level. Spatial location of electoral ward centres are extracted from maps available from the ONS websites.",
+            "CoVID-19 specific parameters We use a Susceptible-Exposed-Infectious-Infectious-Recovered (SEIIR) model within each ward to capture the progression of disease within an individual (figure 1). Initial analyses used SARS-like parameters for the incubation period and infectious period, which now appear to differ from CoVID-19(4). Li et al (2020) analysed data on 425 cases reported in Wuhan in China and fitted a log-normal distribution to the incubation period, and a gamma distribution for the serial interval(2). The infectious period for SARS was estimated as the serial interval minus the",
+            "incubation period, but as Li et al did not report the correlation between incubation period and serial interval, we were not able to estimate the infectious period distribution from the data, but used a uniform distribution between 2 and 3 days, to give a mean serial interval of approximately [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>-<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], in line with current estimates. We used two infectious states to represent a mildly symptomatic or prodromal period and a period with more pronounced symptoms. In the absence of data on the relative magnitude of these two infections states, we assumed the same length of time in each infectious state and assumed that each state was equally infectious. We sampled from each of the distributions 100 times independently (Table 1).",
+            "Estimated from the mean serial interval (7.5 days) minus the mean incubation period (5.2 days) from Li et al(2)",
+            "Initialisation and baseline model The census data are used to initialise the population sizes within each of the [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>,570] wards. At the start of the model, all individuals are assumed to be susceptible to infection with no underlying immunity in the population. We investigated a range of starting scenarios by seeding the infection in example wards London, Birmingham, Brighton, Sheffield and Cardiff. To seed infection in a ward, we move five individuals (non-commuters) from the susceptible compartment to the first infectious state.",
+            "Impact of seasonality We investigated the impact of a seasonally affected transmission rate, to capture potential decreased transmission during the summer months. We captured seasonal transmission by replacing the constant transmission rate with a time-varying transmission rate given by:",
+            "\u0749 \u0749 \u0d4c 0 Where is the magnitude of the seasonal difference in transmission, ranging from (no",
+            "\u0749 \u0d4c 1 seasonality) to (maximum seasonality with no transmission at the peak of the summer).",
+            "Epidemic characteristics From the model, we extracted the total number of infections per day, as the number of individuals in both of the Infectious states, and the number of infected wards per day as the total number of wards with at least one individual in one of the two Infectious states. The spatial growth of the epidemic in England and Wales was visualised using interactive maps. We estimated the timing of the epidemic peak from the aggregated epidemic curve and calculated 95% prediction intervals from the model simulations.",
+            "Implementation and data availability The model is coded in C and is available on github (http://github.com/ldanon/MetaWards). The data are freely available from the Office for National Statistics website, or can be downloaded with the code at the github repository."
+        ],
+        "Results": [
+            "We predict that, in the absence of any interventions, a disease with \u201cbest-guess\u201d CoVID-19-like parameters will peak a median of 133 days (range 126 - 147 days) following the start of personto-person transmission in England and Wales. Intrinsic model stochasticity is responsible for variation between model runs. Using exactly the same parameters and seeding the infection in the same initial wards resulted in a difference in peak timing of +/- 10 days (figure 2). The attack rate for best-guess parameters had a median of 45799874 (81.67% range 81.64-81.69), with a peak incidence median [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,116,692].",
+            "The initial location of cases had some, but limited impact on the timing of the epidemic in England and Wales. Epidemics seeded in Brighton, London, Birmingham and Sheffield resulted in synchronised epidemics in England, reaching urban areas first followed by rural areas. Epidemics started in Cardiff had a slower time to peak but still resulted in a generalised outbreak. Spatially, some disaggregation between England and Wales regions is observed. An outbreak starting in Brighton, (South East England) peaks in London and the South East first, and North East England, Yorkshire and Humber and Wales last, with a ten-day lag between regions (Figure 3).",
+            "Model predictions are highly sensitive to parameter values and incorporating parameter uncertainty increases the variability of model predictions. In the absence of any control measures, all predictions resulted in epidemics that peaked within a year from the start of person-to-person transmission in England and Wales. Estimates of peak time ranged from 78 days to 241 days (Figure 4).",
+            "However, seasonality in transmission has a large impact on epidemic timing, peak incidence, and final attack rates. Assuming no difference in transmission rate during the year leads to a single large epidemic after approximately 4 months (June time if transmission starts in February), as above. With a 25% reduction in transmission the epidemic is smaller and peaks later, reducing the overall attack rate by 20%. A 50% reduction in transmission results in a smaller epidemic before the summer, followed by a resurgence in cases in the following winter. The attack rate is 10% less than a non-seasonal epidemic. A 75% reduction in transmission over the summer resulted in a delayed large outbreak, but with a similar attack rate. If transmission decreases to zero over the summer then the resulting outbreak is much reduced, with an attack rate of less than 1% (Figure 5, Table 2)."
+        ],
+        "Discussion": [
+            "We predict that, in the absence of control measures and with no seasonality in transmission, the introduction of CoVID-19 in England and Wales has the potential to result in a synchronised outbreak that peaks at around 4 months following the start of person-to-person transmission. Our findings suggest that the height of the epidemic and the attack rate is highly dependent on seasonality of transmission and that even small changes in transmission risk can lead to large changes in attack rate due to the spatial disaggregation of the population at risk.",
+            "A combination of control measures and seasonal changes in transmission rate could shift the peak of the outbreak to the winter of 2020/21, with little effect on the final attack rate. If contact tracing and isolation efforts succeed in reducing transmission, but are unable to control the epidemic (9), an additional influx of severe CoVID-19 cases may exacerbate existing challenges with winter healthcare demand. A careful analysis of the impact of control measures on the timing of incidence of severe cases is warranted.",
+            "The strength of this model lies in the spatial heterogeneity which tempers transmission. As a comparison, an equivalent non-spatial model results in the epidemic peaking after 34 days, nearly four times faster than this spatial model, and would be unable to capture the interaction between spatial transmission and seasonality. The estimated total number of people infected in the spatial model is marginally smaller than for a non-spatial model, as the infection has the opportunity to die-out in local parts of the country. As the model framework was developed and published in 2009, it was possible to re-deploy the model for these new circumstances; developing such a model from scratch during an outbreak would be a significant challenge.",
+            "A key element missing from our model is morbidity, mortality and the treatment of cases. The model in its current form predicts the total number of infections in the community rather than diagnosed cases. Observations from China suggest that many cases have mild symptoms and that only around 5% of cases have been reported and diagnosed (3). The parameter estimates we used from China appear to be substantially different to previous coronaviruses (6). Should CoVID-19 continue spreading the UK it will become possible to get UK-specific parameter estimates and improve prediction accuracy.",
+            "As with all modelling, it is impossible to capture the full complexity of an epidemic. In this model, the major assumptions are that we have assumed that there is no change in behaviour during the course of the epidemic. In practice, as the epidemic starts spreading in England and Wales there may well be a systematic change in behaviour as was seen during the H1N1 influenza pandemic in 2009. We have not included any age-effects, such as differential mixing, susceptibility or infectiousness. That means that we are not able to investigate the impact of school closures or the impact of the summer holidays, which had a large impact on the H1N1 influenza pandemic in 2009."
+        ],
+        "Acknowledgements": [
+            "EBP was funded by the National Institute for Health Research Health Protection Research Unit (NIHR HPRU) in Evaluation of Interventions at University of Bristol in partnership with Public Health England (PHE). The views expressed are those of the author(s) and not necessarily those of the NHS, the NIHR, the Department of Health or Public Health England. LD gratefully acknowledges the financial support of The Alan Turing Institute under the EPSRC grant EP/N510129/1."
+        ],
+        "References": [
+            "1. World Health Organization (WHO). Novel Coronavirus (COVID19) Situation Report-23.",
+            "2020. 2. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al Early Transmission Dynamics in",
+            "Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N Engl J Med. 2020 Jan;NEJMoa2001316. 3. Read JM, Bridgen JR, Cummings DA, Ho A, Jewell CP. Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv. 2020;2020.01.23.20018549. 4. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet (London, England). 2020 Jan;0(0). 5. Imai N, Cori A, Dorigatti I, Baguelin M, Donnelly CA, Riley S, et al Report 3: Transmissibility of 2019-nCoV. 2020. 6. Liu T, Hu J, Kang M, Lin L, Zhong H, Xiao J, et al Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioRxiv [Internet]. 2020 Jan 26 [cited 2020 Feb 13];2020.01.25.919787. Available from: https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1 7. Abbott S, Hellewell J, Munday J, Funk S, Funk S. The transmissibility of novel Coronavirus in the early stages of the 2019-20 outbreak in Wuhan: Exploring initial pointsource exposure sizes and durations using scenario analysis. Wellcome Open Res [Internet]. 2020 Feb 3 [cited 2020 Feb 13];5:17. Available from: https://wellcomeopenresearch.org/articles/5-17/v1 8. Dorigatti I, Okell L, Cori A, Imai N, Baguelin M, Bhatia S, et al Report 4: Severity of 2019novel coronavirus (nCoV). 2020. 9. Hellewell J, Abbott S, Gimma A, Bosse NI, Jarvis CI, Russell TW, et al Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts. medRxiv [Internet]. 2020 Feb 11 [cited 2020 Feb 13];2020.02.08.20021162. Available from: https://www.medrxiv.org/content/10.1101/2020.02.08.20021162v1 10. Danon L, House T, Keeling M. The role of routine versus random movements on the spread of disease in Great Britain. Epidemics [Internet]. 2009; Available from: http://linkinghub.elsevier.com/retrieve/pii/S1755436509000553"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 425,
+            "context": "Initial analyses used SARS-like parameters for the incubation period and infectious period, which now appear to differ from CoVID-19(4). <mark class=\"stats\">Li et al (2020) analysed data on 425 cases reported in Wuhan in China and fitted a log-normal distribution to the incubation period, and a gamma distribution for the serial interval(2)</mark>. The infectious period for SARS was estimated as the serial interval minus the"
+        },
+        {
+            "participant": "individuals",
+            "number": 5,
+            "context": "We investigated a range of starting scenarios by seeding the infection in example wards London, Birmingham, Brighton, Sheffield and Cardiff. <mark class=\"stats\">To seed infection in a ward, we move five individuals (non-commuters) from the susceptible compartment to the first infectious state</mark>. Impact of seasonality We investigated the impact of a seasonally affected transmission rate, to capture potential decreased transmission during the summer months"
+        },
+        {
+            "participant": "cases",
+            "number": 9720,
+            "context": "During January 2020, the outbreak spread to multiple cities in China, and the first cases started appearing outside China. <mark class=\"stats\">By the end of January 2020, 9,720 cases had been confirmed in China, with 106 confirmed cases outside China across 19 different countries(1)</mark>. Epidemiological analysis of the outbreak was quickly used to start estimating epidemiologicallyrelevant parameters, such as the basic reproduction number, the serial interval, the incubation period and the case fatality rate(2\u20137)"
+        },
+        {
+            "participant": "cases",
+            "number": 425,
+            "context": "Initial analyses used SARS-like parameters for the incubation period and infectious period, which now appear to differ from CoVID-19(4). <mark class=\"stats\">Li et al (2020) analysed data on 425 cases reported in Wuhan in China and fitted a log-normal distribution to the incubation period, and a gamma distribution for the serial interval(2)</mark>. The infectious period for SARS was estimated as the serial interval minus the incubation period, but as Li et al did not report the correlation between incubation period and serial interval, we were not able to estimate the infectious period distribution from the data, but used a uniform distribution between 2 and 3 days, to give a mean serial interval of approximately [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>-<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], in line with current estimates"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "transmission dynamics",
+        "epidemic peak",
+        "Public Health England",
+        "coronavirus",
+        "epidemiological parameter",
+        "seasonal change",
+        "non spatial model",
+        "person transmission",
+        "peak timing",
+        "output areas",
+        "case fatality",
+        "control measure",
+        "reproduction number",
+        "spatial model",
+        "dynamics",
+        "transmission rate",
+        "initial estimate",
+        "novel coronavirus",
+        "attack rate"
+    ],
+    "keyword_relevance": {
+        "attack rate": 0.16883116883116883,
+        "control measure": 0.1038961038961039,
+        "transmission rate": 0.1038961038961039,
+        "coronavirus": 0.07792207792207792,
+        "person transmission": 0.07792207792207792,
+        "spatial model": 0.07792207792207792,
+        "epidemic peak": 0.05194805194805195,
+        "peak timing": 0.05194805194805195,
+        "novel coronavirus": 0.05194805194805195,
+        "Public Health England": 0.03896103896103896,
+        "output areas": 0.03896103896103896,
+        "dynamics": 0.03896103896103896,
+        "epidemiological parameter": 0.025974025974025976,
+        "seasonal change": 0.025974025974025976,
+        "case fatality": 0.025974025974025976,
+        "reproduction number": 0.025974025974025976,
+        "initial estimate": 0.012987012987012988,
+        "transmission dynamics": 0.0,
+        "non spatial model": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> An outbreak of a novel coronavirus, recently renamed CoVID-19, was first reported from Wuhan, China on 31 December 2019.",
+        "During January 2020, the outbreak spread to multiple cities in China, and the first cases started appearing outside China.",
+        "Epidemiological analysis of the outbreak was quickly used to start estimating epidemiologicallyrelevant parameters, such as the basic reproduction number, the serial interval, the incubation period and the case fatality rate(2\u20137).",
+        "Initial estimates suggested that the reproduction number was between 2 and 3 and the case fatality rate was less than 4%(8).",
+        "Control of spread by contact tracing and isolation appears to be challenging, given what is currently known about the virus (9)",
+        "<h2 style=\"display: inline\">Methods:</h2> Model description The authors use an existing national-scale stochastic metapopulation model of disease transmission in England and Wales.",
+        "The model structure is based on the metapopulation model described in detail in Danon et al (2009)(10).",
+        "In this model, the population is divided into electoral wards.",
+        "Movement between wards Transmission between wards occurs via the daily movement of individuals.",
+        "<h2 style=\"display: inline\">Results:</h2> In the absence of any interventions, a disease with \u201cbest-guess\u201d CoVID-19-like parameters will peak a median of 133 days following the start of personto-person transmission in England and Wales.",
+        "Using exactly the same parameters and seeding the infection in the same initial wards resulted in a difference in peak timing of +/- 10 days.",
+        "Epidemics started in Cardiff had a slower time to peak but still resulted in a generalised outbreak.",
+        "An outbreak starting in Brighton, (South East England) peaks in London and the South East first, and North East England, Yorkshire and Humber and Wales last, with a ten-day lag between regions (Figure 3)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> In the absence of control measures and with no seasonality in transmission, the introduction of CoVID-19 in England and Wales has the potential to result in a synchronised outbreak that peaks at around 4 months following the start of person-to-person transmission.",
+        "A careful analysis of the impact of control measures on the timing of incidence of severe cases is warranted.",
+        "The strength of this model lies in the spatial heterogeneity which tempers transmission.",
+        "An equivalent non-spatial model results in the epidemic peaking after 34 days, nearly four times faster than this spatial model, and would be unable to capture the interaction between spatial transmission and seasonality.",
+        "As the model framework was developed and published in 2009, it was possible to re-deploy the model for these new circumstances; developing such a model from scratch during an outbreak would be a significant challenge"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "An outbreak of a novel coronavirus, recently renamed CoVID-19, was first reported from Wuhan, China on 31 December 2019.",
+            "During January 2020, the outbreak spread to multiple cities in China, and the first cases started appearing outside China.",
+            "Epidemiological analysis of the outbreak was quickly used to start estimating epidemiologicallyrelevant parameters, such as the basic reproduction number, the serial interval, the incubation period and the case fatality rate(2\u20137).",
+            "Initial estimates suggested that the reproduction number was between 2 and 3 and the case fatality rate was less than 4%(8).",
+            "Control of spread by contact tracing and isolation appears to be challenging, given what is currently known about the virus (9)"
+        ],
+        "Methods": [
+            "Model description The authors use an existing national-scale stochastic metapopulation model of disease transmission in England and Wales.",
+            "The model structure is based on the metapopulation model described in detail in Danon et al (2009)(10).",
+            "In this model, the population is divided into electoral wards.",
+            "Movement between wards Transmission between wards occurs via the daily movement of individuals."
+        ],
+        "Results": [
+            "In the absence of any interventions, a disease with \u201cbest-guess\u201d CoVID-19-like parameters will peak a median of 133 days following the start of personto-person transmission in England and Wales.",
+            "Using exactly the same parameters and seeding the infection in the same initial wards resulted in a difference in peak timing of +/- 10 days.",
+            "Epidemics started in Cardiff had a slower time to peak but still resulted in a generalised outbreak.",
+            "An outbreak starting in Brighton, (South East England) peaks in London and the South East first, and North East England, Yorkshire and Humber and Wales last, with a ten-day lag between regions (Figure 3)"
+        ],
+        "Conclusion": [
+            "In the absence of control measures and with no seasonality in transmission, the introduction of CoVID-19 in England and Wales has the potential to result in a synchronised outbreak that peaks at around 4 months following the start of person-to-person transmission.",
+            "A careful analysis of the impact of control measures on the timing of incidence of severe cases is warranted.",
+            "The strength of this model lies in the spatial heterogeneity which tempers transmission.",
+            "An equivalent non-spatial model results in the epidemic peaking after 34 days, nearly four times faster than this spatial model, and would be unable to capture the interaction between spatial transmission and seasonality.",
+            "As the model framework was developed and published in 2009, it was possible to re-deploy the model for these new circumstances; developing such a model from scratch during an outbreak would be a significant challenge"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "1._2020_a",
+            "entry": "1. World Health Organization (WHO). Novel Coronavirus (COVID19) Situation Report-23. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=World%20Health%20Organization%20WHO%20Novel%20Coronavirus%20COVID19%20Situation%20Report23%202020"
+        },
+        {
+            "id": "2",
+            "alt_id": "Li_et+al_2020_a",
+            "entry": "2. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. N Engl J Med. 2020 Jan;NEJMoa2001316.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020-01",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020-01",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020-01"
+        },
+        {
+            "id": "3",
+            "alt_id": "Read_et+al_2019_a",
+            "entry": "3. Read JM, Bridgen JR, Cummings DA, Ho A, Jewell CP. Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv. 2020;2020.01.23.20018549.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Read%20JM%20Bridgen%20JR%20Cummings%20DA%20Ho%20A%20Jewell%20CP%20Novel%20coronavirus%202019nCoV%20early%20estimation%20of%20epidemiological%20parameters%20and%20epidemic%20predictions%20medRxiv%2020202020012320018549"
+        },
+        {
+            "id": "4",
+            "alt_id": "Wu_et+al_2020_a",
+            "entry": "4. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet (London, England). 2020 Jan;0(0). 5. Imai N, Cori A, Dorigatti I, Baguelin M, Donnelly CA, Riley S, et al. Report 3: Transmissibility of 2019-nCoV. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%20JT%20Leung%20K%20Leung%20GM%20Nowcasting%20and%20forecasting%20the%20potential%20domestic%20and%20international%20spread%20of%20the%202019nCoV%20outbreak%20originating%20in%20Wuhan%20China%20a%20modelling%20study%20Lancet%20London%20England%202020%20Jan00%205%20Imai%20N%20Cori%20A%20Dorigatti%20I%20Baguelin%20M%20Donnelly%20CA%20Riley%20S%20et%20al%20Report%203%20Transmissibility%20of%202019nCoV%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%20JT%20Leung%20K%20Leung%20GM%20Nowcasting%20and%20forecasting%20the%20potential%20domestic%20and%20international%20spread%20of%20the%202019nCoV%20outbreak%20originating%20in%20Wuhan%20China%20a%20modelling%20study%20Lancet%20London%20England%202020%20Jan00%205%20Imai%20N%20Cori%20A%20Dorigatti%20I%20Baguelin%20M%20Donnelly%20CA%20Riley%20S%20et%20al%20Report%203%20Transmissibility%20of%202019nCoV%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%20JT%20Leung%20K%20Leung%20GM%20Nowcasting%20and%20forecasting%20the%20potential%20domestic%20and%20international%20spread%20of%20the%202019nCoV%20outbreak%20originating%20in%20Wuhan%20China%20a%20modelling%20study%20Lancet%20London%20England%202020%20Jan00%205%20Imai%20N%20Cori%20A%20Dorigatti%20I%20Baguelin%20M%20Donnelly%20CA%20Riley%20S%20et%20al%20Report%203%20Transmissibility%20of%202019nCoV%202020"
+        },
+        {
+            "id": "6",
+            "alt_id": "Liu_et+al_2019_a",
+            "entry": "6. Liu T, Hu J, Kang M, Lin L, Zhong H, Xiao J, et al. Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioRxiv [Internet]. 2020 Jan 26 [cited 2020 Feb 13];2020.01.25.919787. Available from: https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1 7. Abbott S, Hellewell J, Munday J, Funk S, Funk S. The transmissibility of novel Coronavirus in the early stages of the 2019-20 outbreak in Wuhan: Exploring initial pointsource exposure sizes and durations using scenario analysis. Wellcome Open Res [Internet]. 2020 Feb 3 [cited 2020 Feb 13];5:17. Available from: https://wellcomeopenresearch.org/articles/5-17/v1 8.",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Liu%20T%20Hu%20J%20Kang%20M%20Lin%20L%20Zhong%20H%20Xiao%20J%20et%20al%20Transmission%20dynamics%20of%202019%20novel%20coronavirus%202019nCoV%20bioRxiv%20Internet%202020%20Jan%2026%20cited%202020%20Feb%201320200125919787%20Available%20from%20httpswwwbiorxivorgcontent10110120200125919787v1%207%20Abbott%20S%20Hellewell%20J%20Munday%20J%20Funk%20S%20Funk%20S%20The%20transmissibility%20of%20novel%20Coronavirus%20in%20the%20early%20stages%20of%20the%20201920%20outbreak%20in%20Wuhan%20Exploring%20initial%20pointsource%20exposure%20sizes%20and%20durations%20using%20scenario%20analysis%20Wellcome%20Open%20Res%20Internet%202020%20Feb%203%20cited%202020%20Feb%2013517%20Available%20from%20httpswellcomeopenresearchorgarticles517v1%208",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Liu%20T%20Hu%20J%20Kang%20M%20Lin%20L%20Zhong%20H%20Xiao%20J%20et%20al%20Transmission%20dynamics%20of%202019%20novel%20coronavirus%202019nCoV%20bioRxiv%20Internet%202020%20Jan%2026%20cited%202020%20Feb%201320200125919787%20Available%20from%20httpswwwbiorxivorgcontent10110120200125919787v1%207%20Abbott%20S%20Hellewell%20J%20Munday%20J%20Funk%20S%20Funk%20S%20The%20transmissibility%20of%20novel%20Coronavirus%20in%20the%20early%20stages%20of%20the%20201920%20outbreak%20in%20Wuhan%20Exploring%20initial%20pointsource%20exposure%20sizes%20and%20durations%20using%20scenario%20analysis%20Wellcome%20Open%20Res%20Internet%202020%20Feb%203%20cited%202020%20Feb%2013517%20Available%20from%20httpswellcomeopenresearchorgarticles517v1%208"
+        },
+        {
+            "id": "Dorigatti_et+al_2020_a",
+            "alt_id": "6",
+            "entry": "Dorigatti I, Okell L, Cori A, Imai N, Baguelin M, Bhatia S, et al. Report 4: Severity of 2019novel coronavirus (nCoV). 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Dorigatti%20I%20Okell%20L%20Cori%20A%20Imai%20N%20Baguelin%20M%20Bhatia%20S%20et%20al%20Report%204%20Severity%20of%202019novel%20coronavirus%20nCoV%202020"
+        },
+        {
+            "id": "9",
+            "alt_id": "Hellewell_et+al_2019_a",
+            "entry": "9. Hellewell J, Abbott S, Gimma A, Bosse NI, Jarvis CI, Russell TW, et al. Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts. medRxiv [Internet]. 2020 Feb 11 [cited 2020 Feb 13];2020.02.08.20021162. Available from: https://www.medrxiv.org/content/10.1101/2020.02.08.20021162v1 10. Danon L, House T, Keeling M. The role of routine versus random movements on the spread of disease in Great Britain. Epidemics [Internet]. 2009; Available from: http://linkinghub.elsevier.com/retrieve/pii/S1755436509000553",
+            "url": "https://www.medrxiv.org/content/10.1101/2020.02.08.20021162v1"
+        }
+    ],
+    "facts": [
+        "cases have been reported in 25 countries",
+        "an existing national-scale metapopulation model to capture the spread of CoVID-19 in England",
+        "if person-to-person transmission persists from February",
+        "the epidemic peak would occur in June",
+        "Incorporating realistic parameter uncertainty leads to estimates of peak time ranging from",
+        "These results can be refined with improved estimates of epidemiological parameters",
+        "Seasonal changes in transmission rate could shift the timing of the peak into winter months",
+        "the outbreak spread to multiple cities in China",
+        "the first cases started appearing outside China",
+        "9,720 cases had been confirmed in China",
+        "Initial estimates suggested that the reproduction number was between",
+        "the case fatality rate was less than 4%",
+        "given what is currently known about the virus",
+        "The model structure is based on the metapopulation model described in detail",
+        "the population is divided into electoral wards",
+        "Movement between wards Transmission between wards occurs via the daily movement of individuals",
+        "that individuals contribute to the force of infection",
+        "CoVID-19-like parameters will peak a median of 133 days following the start of personto-person transmission",
+        "Intrinsic model stochasticity is responsible for variation between model runs",
+        "the infection in the same initial wards resulted in a difference in peak timing",
+        "Epidemics seeded in Brighton",
+        "Sheffield resulted in synchronised epidemics in England",
+        "reaching urban areas first followed by rural areas",
+        "Epidemics started in Cardiff had a slower time to peak",
+        "An outbreak starting in Brighton",
+        "the potential to result in a synchronised outbreak",
+        "that peaks at around 4 months following the start of person-to-person transmission",
+        "seasonal changes in transmission rate could shift the peak of the outbreak to the winter",
+        "isolation efforts succeed in reducing transmission",
+        "The strength of this model lies in the spatial heterogeneity",
+        "an equivalent non-spatial model results in the epidemic peaking after 34 days",
+        "unable to capture the interaction between spatial transmission and seasonality",
+        "The estimated total number of people infected in the spatial model is marginally smaller than",
+        "as the infection has the opportunity to die-out in local parts",
+        "possible to re-deploy the model for these new circumstances",
+        "An equivalent non-spatial model results in the epidemic peaking after 34 days"
+    ],
+    "claims": [
+        "We provide initial estimates of the potential course of CoVID-19 in England and Wales in the absence of control measures",
+        "We investigated a range of starting scenarios by seeding the infection in example wards London, Birmingham, Brighton, Sheffield and Cardiff",
+        "Impact of seasonality We investigated the impact of a seasonally affected transmission rate, to capture potential decreased transmission during the summer months"
+    ],
+    "findings": [
+        "The attack rate is 10% less than a non-seasonal epidemic",
+        "If transmission decreases to zero over the summer then the resulting outbreak is much reduced, with an attack rate of less than 1% (Figure 5, Table 2)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "We predict that, in the absence of control measures and with no seasonality in transmission, the introduction of CoVID-19 in England and Wales has the potential to result in a synchronised outbreak that peaks at around 4 months following the start of person-to-person transmission",
+        "A combination of control measures and seasonal changes in transmission rate could shift the peak of the outbreak to the winter of 2020/21, with little effect on the final attack rate",
+        "An equivalent non-spatial model results in the epidemic peaking after 34 days, nearly four times faster than this spatial model, and would be unable to capture the interaction between spatial transmission and seasonality",
+        "The estimated total number of people infected in the spatial model is marginally smaller than for a non-spatial model, as the infection has the opportunity to die-out in local parts of the country"
+    ],
+    "top_statements": [
+        "An outbreak of a novel coronavirus, recently renamed CoVID-19, was first reported from Wuhan, China on 31 December 2019",
+        "We predict that, in the absence of control measures and with no seasonality in transmission, the introduction of CoVID-19 in England and Wales has the potential to result in a synchronised outbreak that peaks at around 4 months following the start of person-to-person transmission",
+        "A combination of control measures and seasonal changes in transmission rate could shift the peak of the outbreak to the winter of 2020/21, with little effect on the final attack rate",
+        "An equivalent non-spatial model results in the epidemic peaking after 34 days, nearly four times faster than this spatial model, and would be unable to capture the interaction between spatial transmission and seasonality",
+        "The estimated total number of people infected in the spatial model is marginally smaller than for a non-spatial model, as the infection has the opportunity to die-out in local parts of the country"
+    ],
+    "headline": "In the absence of control measures and with no seasonality in transmission, the introduction of CoVID-19 in England and Wales has the potential to result in a synchronised outbreak that peaks at around 4 months following the start of person-to-person transmission",
+    "contexts": [],
+    "abbreviations": {
+        "OAs": "output areas",
+        "PHE": "Public Health England"
+    }
+}

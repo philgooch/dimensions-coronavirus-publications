@@ -1,0 +1,737 @@
+{
+    "filename": "2020.02.11.20022186.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 366558,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.11.20022186",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/03/06/2020.02.11.20022186.full.pdf"
+        },
+        "title": "Data-Based Analysis, Modelling and Forecasting of the COVID-19 outbreak",
+        "author": "Cleo Anastassopoulou, Lucia Russo, Athanasios Tsakris, Constantinos Siettos",
+        "date": 2020,
+        "affiliations": [
+            "Department of Microbiology, Medical School, University of Athens, Athens, Greece",
+            "Consiglio Nazionale delle Ricerche, Science and Technology for Energy and Sustainable Mobility, Napoli, Italy",
+            "Dipartimento di Matematica",
+            "Applicazioni \u201cRenato Caccioppoli\u201d, Universita degli Studi di Napoli Federico II, Napoli, Italy",
+            "China by the National Health"
+        ],
+        "abstract": "Since the first suspected case of coronavirus disease-2019 (COVID-19) on December 1st, 2019, in Wuhan, Hubei Province, China, a total of 40,235 confirmed cases and 909 deaths have been reported in China up to February 10, 2020, evoking fear locally and internationally. \nHere, based on the publicly available epidemiological data for Hubei, China from January 11 to February 10, 2020, we provide estimates of the main epidemiological parameters. In particular, we provide estimation of the the case fatality and case recovery ratios, along with their 90% confidence intervals and on the basis of a Susceptible-Infected-Recovered-Dead (SIRD) model we provide estimations of the basic reproduction number (R0), the infection rate. By calibrating the parameters of the SIRD model to the reported data, we also attempt to forecast the evolution of the of the outbreak at the epicenter three weeks ahead, i.e. until February 29. As the number of infected individuals, especially of those with asymptomatic or mild courses, is suspected to be much higher than the official numbers, which can be considered only as a subset of the actual numbers of infected and recovered cases in the population, we have repeated the calculations under a second scenario that considers twenty times the number of confirmed infected cases and forty times the number of recovered, leaving the number of deaths unchanged.\nBased on the reported data, the expected value of R0 as computed considering the period from the 11th of January until the 18th of January, using the official counts of confirmed cases was found to be ~4.6, while the one computed under the second scenario was found to be ~3.2. Thus, based on the SIRD simulations, the estimated average value of R0 was found to be ~2.6.\nOur forecasting flashes a note of caution for the presently unfolding outbreak in China. Based on the official counts for confirmed cases, the simulations suggest that the cumulative number of infected could reach 140,000 (with an upper bound of 700,000) by February 29. Regarding the number of deaths, simulations forecast that on the basis of the up to the 10th of February data and estimations of the actual numbers of infected and recovered in the population, the death toll might exceed 3,200 by February 29. However, our analysis further reveals a significant decline of the case fatality ratio to which various factors may have contributed, such as the severe control measures taken in Hubei, China (e.g. quarantine and hospitalization of infected individuals),  but mainly because of the fact that if the actual cumulative numbers of infected and recovered cases in the population are significantly higher (here of the order of twenty times) for the infected and ten times higher for the recovered than reported, thus resulting in a much lower case fatality ratio significantly below 1%.",
+        "references": "@misc{li-a,\n  author = {Li, Q. and Guan, X. and Wu, P.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia; 2020},\n  url = {https://doi.org/10.1088%2F0951-7715%2F16%2F2%2F308.},\n  more-authors = {true},\n  language = {}\n}\n@misc{organization-a,\n  author = {Organization, W.H.},\n  title = {WHO Statement Regarding Cluster of Pneumonia Cases in Wuhan, China; 2020},\n  url = {https://www.who.int/china/news/detail/09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-ch},\n  language = {}\n}\n@book{organization-b,\n  author = {Organization, W.H.},\n  title = {Novel coronavirus(2019-nCoV). Situation report 21},\n  publisher = {World Health Organization; 2020; 2020},\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep-21-ncov.pdf},\n  language = {},\n  address = {Geneva, Switzerland}\n}\n@book{lu-a,\n  author = {Lu, R. and Zhao, X. and Li, J. and Niu, P. and Yang, B. and Wu, H.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  publisher = {The Lancet. 2020},\n  doi = {doi: 10.1016/s0140-6736(20)30251-8},\n  more-authors = {true},\n  language = {}\n}\n@article{zhou-a,\n  author = {Zhou, P. and Yang, X.L. and Wang, X.G. and Hu, B. and Zhang, L. and Zhang, W.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  doi = {2020; doi: 10.1038/s41586-020-2012-7},\n  more-authors = {true},\n  language = {}\n}\n@book{chen-a,\n  author = {Chen, N. and Zhou, M. and Dong, X. and Qu, J. and Gong, F. and Han, Y.},\n  title = {Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study},\n  publisher = {The Lancet. 2020},\n  doi = {doi: 10.1016/s0140-6736(20)30211-7},\n  more-authors = {true},\n  language = {}\n}\n@book{patel2019a,\n  author = {Patel, A. and Jernigan, D. and nCoV CDC Response Team},\n  title = {Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak - United States},\n  date = {2019-02-31},\n  publisher = {MMWR Morb Mortal Wkly Rep. 2020},\n  doi = {doi: 10.15585/mmwr.mm6905e},\n  language = {}\n}\n@book{hunag-a,\n  author = {Hunag, C. and Wang, Y. and Li, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  publisher = {Lancet. 2020},\n  doi = {doi: 10.1016/S0140-6736(20)30183-5},\n  more-authors = {true},\n  language = {}\n}\n@book{wang-a,\n  author = {Wang, D. and Hu, B. and Hu, C. and Zhu, F. and Liu, X. and Zhang, J.},\n  title = {Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus\u2013Infected Pneumonia in Wuhan, China},\n  publisher = {JAMA. 2020},\n  doi = {doi: 10.1001/jama.2020.1585},\n  more-authors = {true},\n  language = {}\n}\n@article{zhao2019a,\n  author = {Zhao, S. and Lin, Q. and Ran, J. and Musa, S.S. and Yang, G. and Wang, W.},\n  title = {Preliminary estimation of the basic reproduction number of novel coronavirus},\n  date = {2019},\n  journal = {Int J Infect Dis},\n  doi = {doi: 10.1101/2020.01.23.916395},\n  more-authors = {true},\n  source = {in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak},\n  language = {}\n}\n@article{imai2019a,\n  author = {Imai, N. and Cori, A. and Dorigatti, I.},\n  title = {Report 3: Transmissibility of 2019-nCoV},\n  journal = {Int J Infect Dis},\n  date = {2019},\n  doi = {doi: 10.1016/j.ijid.2020.01.050},\n  more-authors = {true},\n  language = {}\n}\n@book{wu-a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study},\n  publisher = {The Lancet. 2020},\n  doi = {doi: 10.1016/s0140-6736(20)30260-9},\n  language = {}\n}\n@article{siettos2013a,\n  author = {Siettos, C.I. and Russo, L.},\n  title = {Mathematical modeling of infectious disease dynamics},\n  journal = {Virulence},\n  date = {2013},\n  volume = {4},\n  pages = {295\u2013306},\n  doi = {doi: 10.4161/viru.24041},\n  number = {4},\n  language = {}\n}\n@misc{for-a,\n  author = {for Health Security, The Johns Hopkins Center},\n  title = {Daily updates on the emerging novel coronavirus from the Johns Hopkins Center for Health Security},\n  date = {February 9,},\n  volume = {2020},\n  url = {https://hub.jhu.edu/2020/01/23/coronavirus-outbreak-mapping-tool-649-em1-art1-dtd-health/.},\n  language = {}\n}\n@misc{for-b,\n  author = {for Health Security, The Johns Hopkins Center},\n  title = {Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE; 2020},\n  url = {https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html},\n  language = {}\n}\n@article{dong-a,\n  author = {Dong, E. and Du, H. and Gardner, L.},\n  title = {An interactive web-based dashboard to track COVID-19 in real time},\n  journal = {The Lancet Infectious Diseases},\n  volume = {2020},\n  doi = {doi:https://doi.org/10.1016/S1473-3099(20)30120-1},\n  language = {}\n}\n@misc{wu-b,\n  author = {Wu, P. and Hao, X. and Lau, E.H.Y. and Wong, J.Y. and Leung, K.S.M. and Wu, J.T.},\n  title = {Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. Eurosurveillance},\n  doi = {2020},\n  volume = {25},\n  more-authors = {true},\n  unmatched-doi = {doi: 10.2807/1560-7917.es.2020.25.3.2000044.},\n  number = {3},\n  language = {}\n}\n@techreport{unknown2020a,\n  title = {Press Conference, Feb. 4 2020 - National Health Commission (NHC) of the People\u2019s Republic of China},\n  date = {2020},\n  language = {},\n  institution = {NHC. NHS}\n}\n@article{ghani2005a,\n  author = {Ghani, A.C. and Donnelly, C.A. and Cox, D.R. and Griffin, J.T. and Fraser, C. and Lam, T.H.},\n  title = {Methods for Estimating the Case Fatality Ratio for a Novel, Emerging Infectious Disease},\n  journal = {American Journal of Epidemiology},\n  date = {2005},\n  volume = {162},\n  pages = {479\u2013486},\n  doi = {doi: 10.1093/aje/kwi230},\n  more-authors = {true},\n  number = {5},\n  language = {}\n}\n@misc{unknown2018a,\n  title = {MATLAB R2018b},\n  date = {2018},\n  language = {}\n}\n@misc{gale-a,\n  author = {Gale, J.},\n  title = {Coronavirus May Transmit Along Fecal-Oral Route, Xinhua Reports; 2020},\n  url = {https://www.bloomberg.com/news/articles/2020-02-02/coronavirus-may-transmit-along-fecal-oral-route-xinhua-reports.},\n  language = {}\n}\n@book{battegay2019a,\n  author = {Battegay, M. and Kuehl, R. and Tschudin-Sutter, S. and Hirsch, H.H. and Widmer, A.F. and Neher, R.A.},\n  date = {2019-11},\n  publisher = {Coronavirus},\n  title = {estimating the case fatality rate \u2013 a word of caution},\n  doi = {doi: 10.4414/smw.2020.20203},\n  unmatched-publisher = {Swiss Medical Weekly. 2020;},\n  language = {}\n}\n",
+        "links": [
+            "https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#"
+        ],
+        "emails": [
+            "constantinos.siettos@unina.it",
+            "cleoa@med.uoa.gr"
+        ],
+        "cited_by": 1,
+        "references_ris": "TY  - GEN\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia; 2020\nUR  - https://doi.org/10.1088%2F0951-7715%2F16%2F2%2F308.\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Organization, W.H.\nTI  - WHO Statement Regarding Cluster of Pneumonia Cases in Wuhan, China; 2020\nUR  - https://www.who.int/china/news/detail/09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-ch\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Organization, W.H.\nTI  - Novel coronavirus(2019-nCoV). Situation report 21\nPB  - World Health Organization; 2020; 2020\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep-21-ncov.pdf\nLA  - \nCY  - Geneva, Switzerland\nER  - \n\nTY  - BOOK\nAU  - Lu, R.\nAU  - Zhao, X.\nAU  - Li, J.\nAU  - Niu, P.\nAU  - Yang, B.\nAU  - Wu, H.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nPB  - The Lancet. 2020\nDO  - 10.1016/s0140-6736(20)30251-8\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nAU  - Yang, X.L.\nAU  - Wang, X.G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nDO  - 2020; doi: 10.1038/s41586-020-2012-7\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Chen, N.\nAU  - Zhou, M.\nAU  - Dong, X.\nAU  - Qu, J.\nAU  - Gong, F.\nAU  - Han, Y.\nTI  - Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study\nPB  - The Lancet. 2020\nDO  - 10.1016/s0140-6736(20)30211-7\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Patel, A.\nAU  - Jernigan, D.\nAU  - nCoV CDC Response Team\nTI  - Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak - United States\nPY  - 2019\nDA  - 2019/02/31\nPB  - MMWR Morb Mortal Wkly Rep. 2020\nDO  - 10.15585/mmwr.mm6905e\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Hunag, C.\nAU  - Wang, Y.\nAU  - Li, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nPB  - Lancet. 2020\nDO  - 10.1016/S0140-6736(20)30183-5\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Wang, D.\nAU  - Hu, B.\nAU  - Hu, C.\nAU  - Zhu, F.\nAU  - Liu, X.\nAU  - Zhang, J.\nTI  - Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus\u2013Infected Pneumonia in Wuhan, China\nPB  - JAMA. 2020\nDO  - 10.1001/jama.2020.1585\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhao, S.\nAU  - Lin, Q.\nAU  - Ran, J.\nAU  - Musa, S.S.\nAU  - Yang, G.\nAU  - Wang, W.\nTI  - Preliminary estimation of the basic reproduction number of novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Int J Infect Dis\nDO  - 10.1101/2020.01.23.916395\nC1  - true\nT2  - in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Imai, N.\nAU  - Cori, A.\nAU  - Dorigatti, I.\nTI  - Report 3: Transmissibility of 2019-nCoV\nT2  - Int J Infect Dis\nPY  - 2019\nDA  - 2019\nDO  - 10.1016/j.ijid.2020.01.050\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study\nPB  - The Lancet. 2020\nDO  - 10.1016/s0140-6736(20)30260-9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Siettos, C.I.\nAU  - Russo, L.\nTI  - Mathematical modeling of infectious disease dynamics\nT2  - Virulence\nPY  - 2013\nDA  - 2013\nVL  - 4\nSP  - 295\nEP  - 306\nDO  - 10.4161/viru.24041\nIS  - 4\nLA  - \nER  - \n\nTY  - GEN\nAU  - for Health Security, The Johns Hopkins Center\nTI  - Daily updates on the emerging novel coronavirus from the Johns Hopkins Center for Health Security\nPY  - February 9,\nDA  - February 9,\nVL  - 2020\nUR  - https://hub.jhu.edu/2020/01/23/coronavirus-outbreak-mapping-tool-649-em1-art1-dtd-health/.\nLA  - \nER  - \n\nTY  - GEN\nAU  - for Health Security, The Johns Hopkins Center\nTI  - Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE; 2020\nUR  - https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Dong, E.\nAU  - Du, H.\nAU  - Gardner, L.\nTI  - An interactive web-based dashboard to track COVID-19 in real time\nT2  - The Lancet Infectious Diseases\nVL  - 2020\nDO  - https://doi.org/10.1016/S1473-3099(20)30120-1\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wu, P.\nAU  - Hao, X.\nAU  - Lau, E.H.Y.\nAU  - Wong, J.Y.\nAU  - Leung, K.S.M.\nAU  - Wu, J.T.\nTI  - Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. Eurosurveillance\nDO  - 2020\nVL  - 25\nC1  - true\nC1  - doi: 10.2807/1560-7917.es.2020.25.3.2000044.\nIS  - 3\nLA  - \nER  - \n\nTY  - RPRT\nTI  - Press Conference, Feb. 4 2020 - National Health Commission (NHC) of the People\u2019s Republic of China\nPY  - 2020\nDA  - 2020\nLA  - \nC1  - NHC. NHS\nER  - \n\nTY  - JOUR\nAU  - Ghani, A.C.\nAU  - Donnelly, C.A.\nAU  - Cox, D.R.\nAU  - Griffin, J.T.\nAU  - Fraser, C.\nAU  - Lam, T.H.\nTI  - Methods for Estimating the Case Fatality Ratio for a Novel, Emerging Infectious Disease\nT2  - American Journal of Epidemiology\nPY  - 2005\nDA  - 2005\nVL  - 162\nSP  - 479\nEP  - 486\nDO  - 10.1093/aje/kwi230\nC1  - true\nIS  - 5\nLA  - \nER  - \n\nTY  - GEN\nTI  - MATLAB R2018b\nPY  - 2018\nDA  - 2018\nLA  - \nER  - \n\nTY  - GEN\nAU  - Gale, J.\nTI  - Coronavirus May Transmit Along Fecal-Oral Route, Xinhua Reports; 2020\nUR  - https://www.bloomberg.com/news/articles/2020-02-02/coronavirus-may-transmit-along-fecal-oral-route-xinhua-reports.\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Battegay, M.\nAU  - Kuehl, R.\nAU  - Tschudin-Sutter, S.\nAU  - Hirsch, H.H.\nAU  - Widmer, A.F.\nAU  - Neher, R.A.\nPY  - 2019\nDA  - 2019/11\nPB  - Coronavirus\nTI  - estimating the case fatality rate \u2013 a word of caution\nDO  - 10.4414/smw.2020.20203\nC1  - Swiss Medical Weekly. 2020;\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Model parameters, their computed values and forecasts for the Hubei province under two scenarios: (I) using the exact values of confirmed cases or (II) using estimations for infected and recovered (twenty and forty times the number of confirmed cases, respectively)"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Scenario I. Estimated values of the basic reproduction number (R0) as computed by least squares using a rolling window with initial date the 11th of January. The solid line corresponds to the mean value and dashed lines to lower and upper 90% confidence intervals"
+            },
+            {
+                "id": "2",
+                "caption": "Scenario I. Estimated values of the case fatality (\u03b3) and case recovery ratios (\u03b2) as computed by least squares using a rolling window. Solid lines correspond to the mean values and dashed lines to lower and upper 90% confidence intervals"
+            },
+            {
+                "id": "3",
+                "caption": "Scenario I. Coefficient of determination (R2) and root mean square error (RM SE) resulting from the solution of the linear regression problem with least-squares for the basic reproduction number (R0)"
+            },
+            {
+                "id": "4",
+                "caption": "Scenario I. Coefficient of determination (R2) and root mean square error (RM SE) resulting from the solution of the linear regression problem with least-squares for the case recovery ratio (\u03b2)"
+            },
+            {
+                "id": "5",
+                "caption": "Scenario I. Coefficient of determination (R2) and root mean square error (RMSE) resulting from the solution of the linear regression problem with least-squares for the case fatality ratio (\u03b3)"
+            },
+            {
+                "id": "6",
+                "caption": "Scenario I. Simulations until the 29th of February of the cumulative number of infected as obtained using the SIRD model. Dots correspond to the number of confirmed cases from the 16th of January to the 10th of February. The initial date of the simulations was the 16th of November with one infected, zero recovered and zero deaths. Solid lines correspond to the dynamics obtained using the estimated expected values of the epidemiological parameters \u03b1 = 0.193, \u03b2 = 0.063d\u22121, \u03b3 = 0.01;dashed lines correspond to the lower and upper bounds derived by performing simulations on the limits of the confidence intervals of the parameters"
+            },
+            {
+                "id": "7",
+                "caption": "Scenario I. Simulations until the 29th of February of the cumulative number of recovered as obtained using the SIRD model. Dots correspond to the number of confirmed cases from the 16th of January to the 10th of February. The initial date of the simulations was the 16th of November with one infected, zero recovered and zero deaths. Solid lines correspond to the dynamics obtained using the estimated expected values of the epidemiological parameters \u03b1 = 0.193, \u03b2 = 0.063d\u22121, \u03b3 = 0.01;dashed lines correspond to the lower and upper bounds derived by performing simulations on the limits of the confidence intervals of the parameters"
+            },
+            {
+                "id": "8",
+                "caption": "Scenario I. Simulations until the 29th of February of the cumulative number of deaths as obtained using the SIRD model. Dots correspond to the number of confirmed cases from 16th of January to the 10th of February. The initial date of the simulations was the 16th of November with one infected, zero recovered and zero deaths. Solid lines correspond to the dynamics obtained using the estimated expected values of the epidemiological parameters \u03b1 = 0.193, \u03b2 = 0.063d\u22121, \u03b3 = 0.01; dashed lines correspond to the lower and upper bounds derived by performing simulations on the limits of the confidence intervals of the parameters"
+            },
+            {
+                "id": "9",
+                "caption": "Scenario II. Estimated values of the basic reproduction number (R0) as computed by least squares using a rolling window with initial date the 11th of January. The solid line corresponds to the mean value and dashed lines to lower and upper 90% confidence intervals"
+            },
+            {
+                "id": "10",
+                "caption": "Scenario II. Estimated values of case fatality (\u03b3) and case recovery (\u03b2) ratios, as computed by least squares using a rolling window (see section ??). Solid lines correspond to the mean values and dashed lines to lower and upper 90% confidence intervals"
+            },
+            {
+                "id": "11",
+                "caption": "Scenario II. Coefficient of determination (R2) and root mean square error (RM SE) resulting from the solution of the linear regression problem with least-squares for the basic reproduction number (R0)"
+            },
+            {
+                "id": "12",
+                "caption": "Scenario II. Coefficient of determination (R2) and root mean square error (RM SE) resulting from the solution of the linear regression problem with least-squares for the recovery rate (\u03b2)"
+            },
+            {
+                "id": "13",
+                "caption": "Scenario II. Coefficient of determination (R2) and root mean square error (RM SE) resulting from the solution of the linear regression problem with least-squares for the mortality rate (\u03b3)"
+            },
+            {
+                "id": "14",
+                "caption": "Scenario II. Simulations until the 29th of February of the cumulative number of infected as obtained using the SIRD model. Dots correspond to the number of confirmed cases from 16th of Jan to the 10th of February. The initial date of the simulations was the 16th of November with one infected, zero recovered and zero deaths. Solid lines correspond to the dynamics obtained using the estimated expected values of the epidemiological parameters \u03b1 = 0.3106, \u03b2 = 0.15d\u22121, \u03b3 = 0.0005; dashed lines correspond to the lower and upper bounds derived by performing simulations on the limits of the confidence intervals of the parameters"
+            },
+            {
+                "id": "15",
+                "caption": "Scenario II. Simulations until the 29th of February of the cumulative number of recovered as obtained using the SIRD model. Dots correspond to the number of confirmed cases from 16th of January to the 10th of February. The initial date of the simulations was the 16th of November, with one infected, zero recovered and zero deaths. Solid lines correspond to the dynamics obtained using the estimated expected values of the epidemiological parameters \u03b1 = 0.3106, \u03b2 = 0.15d\u22121, \u03b3 = 0.0005; dashed lines correspond to the lower and upper bounds derived by performing simulations on the limits of the confidence intervals of the parameters"
+            },
+            {
+                "id": "16",
+                "caption": "Scenario II. Simulations until the 29th of February of the cumulative number of deaths as obtained using the SIRD model. Dots correspond to the number of confirmed cases from the 16th of November to the 10th of February. The initial date of the simulations was the 16th of November with zero infected, zero recovered and zero deaths. Solid lines correspond to the dynamics obtained using the estimated expected values of the epidemiological parameters \u03b1 = 0.3106, \u03b2 = 0.15d\u22121, \u03b3 = 0.0005; dashed lines correspond to the lower and upper bounds derived by performing simulations on the limits of the confidence intervals of the parameters"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.11.20022186.full.xlsx",
+        "figure_urls": []
+    },
+    "sections": {
+        "introduction": [
+            "An outbreak of \u201cpneumonia of unknown etiology\u201d in Wuhan, Hubei Province, China in early December 2019 has spiraled into an epidemic that is ravaging China and threatening to reach a pandemic state [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. The causative agent soon proved to be a new betacoronavirus related to the Middle East Respiratory Syndrome virus (MERS-CoV)<br/><br/>and the Severe Acute Respiratory Syndrome virus (SARS-CoV). The novel coronavirus<br/><br/>SARS-CoV-2 disease has been named \u201cCOVID-19\u201d by the World Health Organization (WHO) and on January 30, the COVID-19 outbreak was declared to constitute a Public<br/><br/>Health Emergency of International Concern by the WHO Director-General [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Despite the lockdown of Wuhan and the suspension of all public transport, flights and trains on<br/><br/>January 23, a total of 40,235 confirmed cases, including 6,484 (16.1%) with severe illness, and 909 deaths (2.2%) had been reported in China by the National Health<br/><br/>Commission up to February 10, 2020; meanwhile, 319 cases and one death were reported outside of China, in 24 countries [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The origin of COVID-19 has not yet been determined although preliminary investigations are suggestive of a zoonotic, possibly of bat, origin [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Similarly to SARS-CoV and MERS-CoV, the novel virus is transmitted from person to person principally by respiratory droplets, causing such symptoms as fever, cough, and shortness of breath after a period believed to range from to 14 days following infection, according to the Centers for Disease Control and"
+        ],
+        "methodology": [
+            "Our analysis was based on the publicly available data of the new confirmed daily cases reported for the Hubei province from the 11th of January until the 10th of<br/><br/>February [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>\u2013<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. Based on the released data, we attempted to estimate the mean values of the main epidemiological parameters, i.e. the basic reproduction number R0 , the case fatality (hat\u03b3) and case recovery (\u03b2) ratios, along with their 90% confidence intervals. However, as suggested [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], the number of infected, and consequently the number of recovered, people is likely to be much higher. Thus, in a second scenario, we have also derived results by taking twenty times the number of reported cases for the infected and forty times the number for the recovered cases, while keeping constant the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.<br/><br/>number of deaths that is more likely to be closer to the real number. Furthermore, by calibrating the parameters of the SIRD model to fit the reported data, we also provide tentative forecasts until the 29th of February.<br/><br/>The basic reproduction number (R0 ) is one of the key values that can predict whether the infectious disease will spread into a population or die out. R0 represents the average number of secondary cases that result from the introduction of a single infectious case in a totally susceptible population during the infectiousness period."
+        ],
+        "results": [
+            "As discussed, we have derived results using two different scenarios (see in Methodology).<br/><br/>For each scenario, we first present the results for the basic reproduction number as well as the case fatality and case recovery ratios as obtained by solving the least squares problem using a rolling window of an one-day step. For their computation, we used the first six days i.e. from the 11th up to the 16th of January to provide the very first estimations. We then proceeded with the calculations by adding one day in the rolling window as described in the methodology until the 10th of February. We also report the corresponding 90% confidence intervals instead of the more standard 95% because of the small size of the data. For each window, we also report the corresponding coefficients of determination (R2 ) representing the proportion of the variance in the dependent variable that is predictable from the independent variables, and the root mean square of error (RMSE). The estimation of R0 was based on the data until January 20, in order to satisfy as much as possible the hypothesis underlying its calculation by Eq(9)."
+        ],
+        "discussion": [
+            "We have proposed a methodology for the estimation of the key epidemiological parameters as well as the modelling and forecasting of the spread of the COVID-19 epidemic in Hubei, China by considering publicly available data from the 11th of<br/><br/>January 2019 to the 10th of February 2020.<br/><br/>By the time of the acceptance of our paper, according to the official data released on the 29th of February, the cumulative number confirmed infected cases in Hubei was<br/><br/>\u223c67,000, that of recovered was \u223c31,300 and the death toll was \u223c2,800. These numbers are within the lower bounds and expected trends of our forecasts from the 10th of<br/><br/>February that are based on Scenario I. In Scenario II, by assuming a 20-fold scaling of the confirmed cases of the infected cases and a 40-fold scaling of the confirmed number of the recovered cases in the total population, forecasts show a significant decline of outbreak in Hubei by 29th of February. This fact has been lately reported. Based on this scenario the casefatality rate in the total population is of the order of \u223c0.15%. At this point we should note that our SIRD modelling approach did not take into account many factors that play an important role in the dynamics of the disease such as the effect of the incubation period in the transmission dynamics, the heterogeneous contact transmission network, the effect of the measures already taken to combat the epidemic, the characteristics of the population (e.g. the effect of the age, people who had already health problems). Also the estimation of the model parameters is based on an assumption, considering just the first period in which the first cases were confirmed and reported. Of note, COVID-19, which is thought to be principally transmitted from person to person by respiratory droplets and fomites without excluding the possibility of the fecal-oral route [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] had been spreading for at least over a month and a half before the imposed lockdown and quarantine of Wuhan on January 23, having thus infected unknown numbers of people. The number of asymptomatic and mild cases with subclinical manifestations that probably did not present to hospitals for treatment may be substantial; these cases, which possibly represent the bulk of the COVID-19 infections, remain unrecognized, especially during the influenza season [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. This highly likely gross under-detection and underreporting of mild or asymptomatic cases inevitably throws severe disease courses calculations and death rates out of context, distorting epidemiologic reality. Another important factor that should be taken into consideration pertains to the diagnostic criteria used to determine infection status and confirm cases. A positive PCR test was required to be considered a confirmed case by"
+        ],
+        "conclusion": [
+            "In the digital and globalized world of today, new data and information on the novel coronavirus and the evolution of the outbreak become available at an unprecedented pace. Still, crucial questions remain unanswered and accurate answers for predicting the dynamics of the outbreak simply cannot be obtained at this stage. We emphatically underline the uncertainty of available official data, particularly pertaining to the true baseline number of infected (cases), that may lead to ambiguous results and inaccurate forecasts by orders of magnitude, as also pointed out by other investigators [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>, <a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]."
+        ],
+        "funding": [
+            "We did not receive any specific funding for this study."
+        ],
+        "data_availability": [
+            "All the relevant data used in this paper are publicy available and accessible at https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "Since the first suspected case of coronavirus disease-2019 (COVID-19) on December 1st, 2019, in Wuhan, Hubei Province, China, a total of 40,235 confirmed cases and 909 deaths have been reported in China up to February 10, 2020, evoking fear locally and internationally. Here, based on the publicly available epidemiological data for Hubei, China from January 11 to February 10, 2020, we provide estimates of the main epidemiological parameters. In particular, we provide estimation of the the case fatality and case recovery ratios, along with their 90% confidence intervals and on the basis of a",
+            "Susceptible-Infected-Recovered-Dead (SIR) model we provide estimations of the basic reproduction number (R0 ), the infection rate. By calibrating the parameters of the SIR model to the reported data, we also attempt to forecast the evolution of the of the outbreak at the epicenter three weeks ahead, i.e. until February 29. As the number of infected individuals, especially of those with asymptomatic or mild courses, is suspected to be much higher than the official numbers, which can be considered only as a subset of the actual numbers of infected and recovered cases in the population, we have repeated the calculations under a second scenario that considers twenty times the number of confirmed infected cases and forty times the number of recovered, leaving the number of deaths unchanged. Based on the reported data, the expected value of R0 as computed considering the period from the 11th of January until the 18th of January, using the official counts of confirmed cases was found to be \u223c4.6, while the one computed under the second scenario was found to be \u223c3.2. Thus, based on the SIRD simulations, the estimated average value of R0 was found to be \u223c2.6. Our forecasting flashes a note of caution for the presently unfolding outbreak in China. Based on the official counts for confirmed cases, the simulations suggest that the cumulative number of infected could reach 140,000 (with an upper bound of 700,000) by February 29.",
+            "Regarding the number of deaths, simulations forecast that on the basis of the up to the",
+            "10th of February data and estimations of the actual numbers of infected and recovered in the population, the death toll might exceed 3,200 by February 29. However, our analysis further reveals a significant decline of the case fatality ratio to which various factors may have contributed, such as the severe control measures taken in Hubei, China (e.g. quarantine and hospitalization of infected individuals), but mainly because of the fact that if the actual cumulative numbers of infected and recovered cases in the population are significantly higher (here of the order of twenty times) for the infected and ten times higher for the recovered than reported, thus resulting in a much lower case fatality ratio significantly below of \u223c1%."
+        ],
+        "Introduction": [
+            "An outbreak of \u201cpneumonia of unknown etiology\u201d in Wuhan, Hubei Province, China in early December 2019 has spiraled into an epidemic that is ravaging China and threatening to reach a pandemic state [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. The causative agent soon proved to be a new betacoronavirus related to the Middle East Respiratory Syndrome virus (MERS-CoV)",
+            "and the Severe Acute Respiratory Syndrome virus (SARS-CoV). The novel coronavirus",
+            "SARS-CoV-2 disease has been named \u201cCOVID-19\u201d by the World Health Organization (WHO) and on January 30, the COVID-19 outbreak was declared to constitute a Public",
+            "Health Emergency of International Concern by the WHO Director-General [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Despite the lockdown of Wuhan and the suspension of all public transport, flights and trains on",
+            "January 23, a total of 40,235 confirmed cases, including 6,484 (16.1%) with severe illness, and 909 deaths (2.2%) had been reported in China by the National Health",
+            "Commission up to February 10, 2020; meanwhile, 319 cases and one death were reported outside of China, in 24 countries [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The origin of COVID-19 has not yet been determined although preliminary investigations are suggestive of a zoonotic, possibly of bat, origin [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Similarly to SARS-CoV and MERS-CoV, the novel virus is transmitted from person to person principally by respiratory droplets, causing such symptoms as fever, cough, and shortness of breath after a period believed to range from to 14 days following infection, according to the Centers for Disease Control and",
+            "Prevention (CDC) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>, <a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. Preliminary data suggest that older males with comorbidities may be at higher risk for severe illness from COVID-19 [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. However, the precise virologic and epidemiologic characteristics, including transmissibility and mortality, of this third zoonotic human coronavirus are still unknown. Using the serial intervals (SI)",
+            "of the two other well-known coronavirus diseases, MERS and SARS, as approximations for the true unknown SI, Zhao et al estimated the mean basic reproduction number (R0 ) of SARS-CoV-2 to range between 2.24 (95% CI: 1.96-2.55) and 3.58 (95% CI: 2.89-4.39) in the early phase of the outbreak [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. Very similar estimates, 2.2 (95% CI: 1.4-3.9), were obtained for R0 at the early stages of the epidemic by Imai et al 2.6 (95%",
+            "CI: 1.5-3.5) [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], as well as by Li et al, who also reported a doubling in size every 7.4 days [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. Wu et al estimated the R0 at 2.68 (95% CI: 2.47\u20132.86) with a doubling time every 6.4 days (95% CI: 5.8\u20137.1) and the epidemic growing exponentially in multiple major Chinese cities with a lag time behind the Wuhan outbreak of about 1\u20132 weeks [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. Amidst such an important ongoing public health crisis that also has severe economic repercussions, we reverted to mathematical modelling that can shed light to essential epidemiologic parameters that determine the fate of the epidemic [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. Here, we present the results of the analysis of time series of epidemiological data available in the public domain [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>\u2013<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] (WHO, CDC, ECDC, NHC and DXY) from January 11 to",
+            "February 10, 2020, and attempt a three-week forecast of the spreading dynamics of the emerged coronavirus epidemic in the epicenter in mainland China."
+        ],
+        "Methodology": [
+            "February [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>\u2013<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. Based on the released data, we attempted to estimate the mean values of the main epidemiological parameters, i.e. the basic reproduction number R0 , the case fatality (hat\u03b3) and case recovery (\u03b2) ratios, along with their 90% confidence intervals. However, as suggested [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>], the number of infected, and consequently the number of recovered, people is likely to be much higher. Thus, in a second scenario, we have also derived results by taking twenty times the number of reported cases for the infected and forty times the number for the recovered cases, while keeping constant the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "number of deaths that is more likely to be closer to the real number. Furthermore, by calibrating the parameters of the SIRD model to fit the reported data, we also provide tentative forecasts until the 29th of February.",
+            "The basic reproduction number (R0 ) is one of the key values that can predict whether the infectious disease will spread into a population or die out. R0 represents the average number of secondary cases that result from the introduction of a single infectious case in a totally susceptible population during the infectiousness period.",
+            "Based on the reported data of confirmed cases, we provide estimations of the R0 from the 16th up to the 20th of January in order to satisfy as much as possible the hypothesis of S \u2248 N that is a necessary condition for the computation of R0 .",
+            "We also provide estimations of the case fatality (\u03b3) and case recovery (hat\u03b2) ratios over the entire period using a rolling window of one day from the 11th of January to the",
+            "16th of January to provide the very first estimations.",
+            "Furthermore, we calibrated the parameters of the SIRD model to fit the reported data. We first provide a coarse estimation of the recovery (\u03b2) and mortality rates (\u03b3) of the SIRD model using the first period of the outbreak. Then, an estimation of the infection rate is accomplished by \u201cwrapping\u201d around the SIRD simulator an optimization algorithm to fit the reported data from the 11th of January to the 10th of",
+            "November, which has been suggested as a starting date of the epidemic, run the SIR model until the 10th of February . Below, we describe analytically our approach.",
+            "Let us start by denoting with S(t), I(t), R(t), D(t), the number of susceptible, infected, recovered and dead persons respectively at time t in the population of size N .",
+            "For our analysis, we assume that the total number of the population remains constant.",
+            "Based on the demographic data for the province of Hubei N = 59m. Thus, the discrete",
+            "Lets us first start with the estimation of R0 . Initially, when the spread of the epidemic starts, all the population is considered to be susceptible, i.e. S \u2248 N . Based on this assumption, by Eq(2),(3),(4), the basic reproduction number can be estimated by the parameters of the SIRD model as:",
+            "The above system is defined in discrete time points t = 1, 2, . . ., with the corresponding initial condition at the very start of the epidemic: S(0) = N \u2212 1, I(0) = 1, R(0) = D(0) = 0. Here, \u03b2 and \u03b3 denote the \u201ceffective/apparent\u201d the per day recovery and fatality rates. Note that these parameters do not correspond to the actual per day recovery and mortality rates as the new cases of recovered and deaths come from infected cases several days back in time. However, one can attempt to provide some coarse estimations of the \u201ceffective/apparent\u201d values of these epidemiological parameters based on the reported confirmed cases using an assumption and approach described in the next section.",
+            "\u2206D(t) = D(t) \u2212 D(t \u2212 1), the reported new cases of infected, recovered and deaths at time t, with C\u2206I(t), C\u2206R(t), C\u2206D(t) the cumulative numbers of confirmed cases at time t. Thus: C\u2206X(t) =",
+            "i=1 where, X = I, R, D.",
+            "Let us also denote by \u2206X(t) the t \u00d7 1 column vector containing all the reported new cases up to time t. Let us also denote by",
+            "C\u2206X(t) = [C\u2206X(1), C\u2206X(2), \u00b7 \u00b7 \u00b7 , C\u2206X(t)]T , the t \u00d7 1 column vector containing the corresponding cumulative numbers up to time t. On the basis of Eqs.(2), (3), (4), one can provide a coarse estimation of the parameters R0 , \u03b2 and \u03b3 as follows.",
+            "Starting with the estimation of R0 , we note that as the province of Hubei has a population of 59m, one can reasonably assume that for any practical means, at least at the beginning of the outbreak, S \u2248 N . By making this assumption, one can then provide an approximation of the expected value of R0 using Eq(5) and Eq(2), Eq(3), Eq(4). In particular, substituting in Eq(2), the terms \u03b2I(t \u2212 1) and \u03b3I(t \u2212 1) with",
+            "\u2206R(t) = R(t) \u2212 R(t \u2212 1) from Eq(3), and \u2206D(t) = D(t) \u2212 D(t \u2212 1) from Eq(4) and bringing them into the left-hand side of Eq(2), we get: I(t) \u2212 I(t \u2212 1) + R(t) \u2212 R(t \u2212 1) + D(t) \u2212 D(t \u2212 1) =",
+            "Finally, assuming that for any practical means at the beginning of the spread that",
+            "S(t \u2212 1) \u2248 N and dividing Eq(7) by Eq(8) we get: I(t) \u2212 I(t \u2212 1) + R(t) \u2212 R(t \u2212 1) + D(t) \u2212 D(t \u2212 1)",
+            "Here, we used Eq (10) to estimate R0 in order to reduce the noise included in the differences. Note that the above expression is a valid approximation only at the beginning of the spread of the disease.",
+            "Thus, based on the above, a coarse estimation of R0 and its corresponding confidence intervals can be provided by solving a linear regression problem using least-squares problem as: R0 = ([C\u2206R(t) + C\u2206D(t)] [C\u2206R(t) + C\u2206D(t)])\u22121",
+            "Note that one can use directly Eq(9) to compute R0 with regression, without the need to compute first the other parameters, i.e. \u03b2, \u03b3 and \u03b1.",
+            "At this point, the regression can be done either by using the differences per se, or by using the corresponding cumulative functions (instead of the differences for the calculation of R0 using Eq(9)). Indeed, it is easy to prove that by summing up both sides of Eq(7) and Eq(8) over time and then dividing them, we get the following equivalent expression for the calculation of R0 .",
+            "Adding Eq(3) and Eq(4), we get:",
+            "The prime (0 ) is for the transpose operation.",
+            "Estimation of the case fatality and case recovery ratios for the period January11-February 10",
+            "Here, we denote by \u03b2) the recovery and by \u03b3the case fatality ratios. Several approaches have been proposed for the calculation of the case fatality ratio (see for example the formula used by the National Health Commission (NHC) of the People\u2019s Republic of",
+            "China [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>] for estimating the mortality ratio for the COVID-19 and also the discussion in [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]). Here, we adopt the one used by the NHC.",
+            "Thus, a coarse estimation of case fatality and recovery ratios for the period under study can be calculated using the reported cumulative infected, recovered and death cases, by solving a linear regression problem, which for the case fatality ratio reads:",
+            "and in a (loose) analogy for the case recovery ratio reads:",
+            "As the reported data are just a subset of the actual number of infected and recovered cases including the asymptomatic and/or mild ones, we have repeated the above calculations considering twenty times the reported number of infected and forty times the reported number of recovered in the population, while leaving the reported number of deaths the same given that their cataloguing is close to the actual number of deaths due to COVID-19.",
+            "Here we note that the new cases of recovered and deaths at each time time t appear with a time delay with respect to the actual number of infected cases. This time delay is generally unknown but an estimate can be given by clinical studies. However, one could also attempt to provide a coarse estimation of these parameters based only on the reported data by considering the first period of the outbreak and in particular the period from the 11th of January to the 16th of January where the number of infected cases appear to be constant. Thus, based on Eqs. (3)-(4), and the above assumption, the \u201ceffective\u201d per day recovery rate \u03b2 and the \u201ceffective\u201d per day mortality rate \u03b3 were computed by solving the least squares problems (see Eq(2,4):",
+            "As noted, these values do not correspond to the actual per day mortality and recovery rates as these would demand the knowledge of the corresponding time delays.",
+            "Having estimated the above \u201ceffective\u201d approximate values of the parameters \u03b2 and \u03b3, an approximation of the \u201ceffective\u201d infected rate \u03b1, that is not biased by the assumption of S = N can be obtained by using the SIRD simulator. In particular, in the SIRD model, the values of the \u03b2 and \u03b3 parameters were set equal to the ones found using the reported data solving the corresponding least squares problems given by",
+            "Eq(14),(15). As initial conditions we have set one infected person on the 16th of",
+            "November and run the simulator until the last date for which there are available data (here up to the 10th of February). Then, the optimal value of the infection rate \u03b1 that fits the reported data was found by \u201cwrapping\u201d around the SIRD simulator an optimization algorithm (such as a nonlinear least-squares solver) to solve the problem: argmin{",
+            "t=1 where ft (\u03b1; \u03b2, \u03b3) = C\u2206I SIRD (t) \u2212 C\u2206I(t), gt (\u03b1; \u03b2, \u03b3) = C\u2206RSIRD (t) \u2212 C\u2206R(t), ht (\u03b1; \u03b2, \u03b3) = C\u2206DSIRD (t) \u2212 C\u2206D(t) where, C\u2206X SIRD (t), (X = I, R, D) are the cumulative cases resulting from the",
+            "SIRD simulator at time t; w1 , w2 , w3 correspond to scalars serving in the general case as weights to the relevant functions. For the solution of the above optimization problem we used the function \u201clsqnonlin\u201d of matlab [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] using the Levenberg-Marquard algorithm."
+        ],
+        "Results": [
+            "As discussed, we have derived results using two different scenarios (see in Methodology).",
+            "For each scenario, we first present the results for the basic reproduction number as well as the case fatality and case recovery ratios as obtained by solving the least squares problem using a rolling window of an one-day step. For their computation, we used the first six days i.e. from the 11th up to the 16th of January to provide the very first estimations. We then proceeded with the calculations by adding one day in the rolling window as described in the methodology until the 10th of February. We also report the corresponding 90% confidence intervals instead of the more standard 95% because of the small size of the data. For each window, we also report the corresponding coefficients of determination (R2 ) representing the proportion of the variance in the dependent variable that is predictable from the independent variables, and the root mean square of error (RMSE). The estimation of R0 was based on the data until January 20, in order to satisfy as much as possible the hypothesis underlying its calculation by Eq(9).",
+            "Then, as described above, we provide coarse estimations of the \u201ceffective\u201d per day recovery and mortality rates of the SIRD model based on the reported data by solving the corresponding least squares problems. Then, an estimation of the infection rate \u03b1 was obtained by \u201cwrapping\u201d around the SIRD simulator an optimization algorithm as described in the previous section. Finally, we provide tentative forecasts for the evolution of the outbreak based on both scenarios until the end of February.",
+            "The solid line corresponds to the mean value and dashed lines to lower and upper 90%",
+            "confidence intervals.",
+            "Scenario I: Results obtained using the exact numbers of the reported confirmed cases",
+            "Fig 1 depicts an estimation of R0 for the period January 16-January 20. Using the first six days from the 11th of January, R0 results in \u223c 4.80 (90% CI: 3.36-6.67); using the data until January 17, R0 results in \u223c 4.60 (90% CI: 3.56-5.65); using the data until",
+            "January 18, R0 results in \u223c 5.14 (90%CI: 4.25-6.03); using the data until January 19, R0 results in \u223c 6.09 (90% CI: 5.02-7.16); and using the data until January 20, R0 results in \u223c 7.09 (90% CI: 5.84-8.35)",
+            "Fig 2 depicts the estimated values of the case fatality (\u03b3) and case recovery (\u03b2) ratios for the period January 16 to February 10. The confidence intervals are alsodepicted with dashed lines. Note that the large variation in the estimated values of beta and \u03b3should be attributed to the small size of the data and data uncertainty. This is also reflected in the corresponding confidence intervals. As more data are taken into account, this variation is significantly reduced. Thus, using all the available data from the 11th of January until the 10th of February, the estimated value of the case fatality ratio \u03b3is \u223c 3.2% (90% CI: 3.1%-3.3%) and that of the case recovery ratio \u03b2is \u223c 0.054",
+            "(90% CI: 0.049-0.060). It is interesting to note that as the available data become more, the estimated case recovery ratio increases significantly from the 31th of January (see",
+            "Fig 2).",
+            "In Figs 3,4,5, we show the coefficients of determination (R2 ) and the root of mean squared errors (RM SE) for R0 , \u03b2and \u03b3, respectively.",
+            "The computed approximate values of the \u201ceffective\u201d per day mortality and recovery",
+            "2019, and run until the 10th of February. The optimal, with respect to the reported confirmed cases from the 11th of January to the 10th of February, value of the infected rate (\u03b1) was \u223c 0.193 (90% CI: 0.191-0.195). This corresponds to a mean value of the basic reproduction number R0 \u2248 2.6. Note that this value is different compared to the value that was estimated using solely the reported data.",
+            "Finally, using the derived values of the parameters \u03b1, \u03b2, \u03b3, we have run the SIRD simulator until the end of February. The results of the simulations are given in Figs6,7,8.",
+            "Solid lines depict the evolution, when using the expected (mean) estimations and dashed lines illustrate the corresponding lower and upper bounds as computed at the limits of the confidence intervals of the estimated parameters.",
+            "As Figs 6,7 suggest, the forecast of the outbreak at the end of February, through the",
+            "SIRD model is characterized by high uncertainty. In particular, simulations result in an expected number of \u223c 140,000 infected cases but with a high variation: the lower bound is at \u223c 30,000 infected cases while the upper bound is at \u223c 700,000 cases. Similarly for the recovered population, simulations result in an expected number of \u223c 77,000, while the lower and upper bounds are at \u223c 21,000 and \u223c 185,000, respectively. Finally, regarding the deaths, simulations result in an average number of \u223c 12,000, with lower and upper bounds, \u223c 3,200 and \u223c 44,000, respectively.",
+            "However, as more data are released it appears that the mortality rate is lower than the predicted with the current data and thus the death toll is expected, to be significantly less compared with the predictions at least compared to the expected and upper bounds.",
+            "As this paper was revised, the reported number of deaths on the 22th February was",
+            "\u223c1,260. Regarding the number of infected and recovered cases by February 20, the cumulative numbers of confirmed reported cases were 64,084 infected and 15,299 recovered, while the expected trends of the forecasts were \u223c53,000 and \u223c27,000, respectively. Hence, based on this estimation, the evolution of the epidemic was well within the bounds of our forecasting, yet indicating undereporting of the actual number of cases in the total population.",
+            "Scenario II. Results obtained based by taking twenty times the number of infected and forty times the number of recovered people with respect to the confirmed cases",
+            "For our illustrations, we assumed that the number of infected is twenty times the number of the confirmed infected and forty times the number of the confirmed recovered people. Fig 9 depicts an estimation of R0 for the period January 16-January",
+            "20. Using the first six days from the 11th of January to the 16th of January, R0 results in 3.2 (90% CI: 2.4-4.0); using the data until January 17, R0 results in 3.1 (90% CI: 2.5-3.7); using the data until January 18, R0 results in 3.4 (90% CI: 2.9-3.9); using the data until January 19, R0 results in 3.9 (90% CI: 3.3-4.5) and using the data until",
+            "January 20, R0 results in 4.5 (90% CI: 3.8-5.3).",
+            "It is interesting to note that the above estimation of R0 is close enough to the one reported in other studies (see in the Introduction for a review).",
+            "Fig 10 depicts the estimated values of the case fatality (\u03b3) and case recovery (\u03b2ratios for the period January 16 to February 10. The confidence intervals are also depicted with dashed lines. Note that the large variation in the estimated values of \u03b2and \u03b3should be attributed to the small size of the data and data uncertainty. This is also reflected in the corresponding confidence intervals. As more data are taken into account, this variation is significantly reduced. Thus,using all the (scaled) data from the",
+            "11th of January until the 10th of February, the estimated value of the case fatality ratio \u03b3now drops to \u223c 0.163% (90% CI: 0.016%-0.0167%) while that of the case recovery ratio is \u223c 0.11 (90% CI: 0.099-0.12). It is interesting also to note, that as the available data become more, the estimated case recovery ratio increases slightly (see Fig 10), while the case fatality ratio seems to be stabilized at a rate of \u223c 0.163%.",
+            "In Figs 11,12,13, we show the coefficients of determination (R2 ) and the root of mean squared errors (RM SE), for R0 , \u03b2and \u03b3, respectively.",
+            "The computed values of the \u201ceffective\u201d per day mortality and recovery rates of the",
+            "SIRD model were \u03b3 \u223c 0.0005 and \u03b2 \u223c 0.15 d\u22121 (corresponding to a recovery period of",
+            "\u223c 7 d). Note that because of the extremely small number of the data used the confidence intervals have been disregarded. Instead, for the calculating the correspnding lower and upper bounds in our simulations we have taken intervals of 20% around the expected least squares solution. Hence, for \u03b3 we have taken the interval (0.00004 and",
+            "0.0006) and for \u03b2, we have taken the interval between (0.12 0.18) corresponding to an",
+            "Solid lines correspond to the dynamics obtained using the estimated expected values of the epidemiological parameters \u03b1 = 0.3106, \u03b2 = 0.15d\u22121 , \u03b3 = 0.0005; dashed lines correspond to the lower and upper bounds derived by performing simulations on the limits of the confidence intervals of the parameters.",
+            "interval of recovery periods from 6 to 8 days.",
+            "Again, we used the SIRD simulator to provide estimation of the infection rate by optimization setting w1 = 1, w2 = 400, w3 = 1 to balance the residuals of deaths with the scaled numbers of the infected and recovered cases. Thus, to find the optimal infection run, we used the SIRD simulations with \u03b2 = 0.15d\u22121 , and \u03b3 = 0.0005 and as initial conditions one infected, zero recovered, zero deaths on November 16th 2019, and run until the 10th of February.",
+            "The optimal, with respect to the reported confirmed cases from the 11th of January to the 10th of February value of the infected rate (\u03b1) was found to be \u223c 0.3109 (90%",
+            "CI: 0.3106-0.3112). This corresponds to a mean value of the basic reproduction number",
+            "R0 \u2248 2.",
+            "simulator until the end of February. The simulation results are given in Figs 14,15,16.",
+            "dashed lines illustrate the corresponding lower and upper bounds as computed at the limits of the confidence intervals of the estimated parameters.",
+            "Again as Figs 15,16 suggest, the forecast of the outbreak at the end of February, through the SIRD model is characterized by high uncertainty. In particular, in Scenario",
+            "II, by February 29, simulations result in an expected actual number of \u223c4m infected",
+            "cases (corresponding to \u223c200,000 unscaled reported cases) in the total population with a lower bound at \u223c362,000 (corresponding to \u223c18,000 unscaled reported cases) and an upper bound at \u223c 15m cases. Similarly, for the recovered population, simulations result in an expected actual number of \u223c4.9m (corresponding to \u223c122,000 unscaled reported cases), while the lower and upper bounds are at \u223c500,000 and \u223c22m, respectively.",
+            "Finally, regarding the deaths, simulations under this scenario result in an average number of \u223c16,000, with lower and upper bounds, \u223c1,154 and \u223c116,000.",
+            "Table 1 summarizes the above results for both scenarios.",
+            "We note, that the results derived under Scenario II seem to predict a slow down of the epidemic around the end of February as the cumulative numbers of infected approaches a plateau."
+        ],
+        "Discussion": [
+            "We have proposed a methodology for the estimation of the key epidemiological parameters as well as the modelling and forecasting of the spread of the COVID-19 epidemic in Hubei, China by considering publicly available data from the 11th of",
+            "January 2019 to the 10th of February 2020.",
+            "By the time of the acceptance of our paper, according to the official data released on the 29th of February, the cumulative number confirmed infected cases in Hubei was",
+            "\u223c67,000, that of recovered was \u223c31,300 and the death toll was \u223c2,800. These numbers are within the lower bounds and expected trends of our forecasts from the 10th of",
+            "February that are based on Scenario I. In Scenario II, by assuming a 20-fold scaling of the confirmed cases of the infected cases and a 40-fold scaling of the confirmed number of the recovered cases in the total population, forecasts show a significant decline of outbreak in Hubei by 29th of February. This fact has been lately reported. Based on this scenario the casefatality rate in the total population is of the order of \u223c0.15%. At this point we should note that our SIRD modelling approach did not take into account many factors that play an important role in the dynamics of the disease such as the effect of the incubation period in the transmission dynamics, the heterogeneous contact transmission network, the effect of the measures already taken to combat the epidemic, the characteristics of the population (e.g. the effect of the age, people who had already health problems). Also the estimation of the model parameters is based on an assumption, considering just the first period in which the first cases were confirmed and reported. Of note, COVID-19, which is thought to be principally transmitted from person to person by respiratory droplets and fomites without excluding the possibility of the fecal-oral route [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] had been spreading for at least over a month and a half before the imposed lockdown and quarantine of Wuhan on January 23, having thus infected unknown numbers of people. The number of asymptomatic and mild cases with subclinical manifestations that probably did not present to hospitals for treatment may be substantial; these cases, which possibly represent the bulk of the COVID-19 infections, remain unrecognized, especially during the influenza season [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. This highly likely gross under-detection and underreporting of mild or asymptomatic cases inevitably throws severe disease courses calculations and death rates out of context, distorting epidemiologic reality. Another important factor that should be taken into consideration pertains to the diagnostic criteria used to determine infection status and confirm cases. A positive PCR test was required to be considered a confirmed case by",
+            "China\u2019s Novel Coronavirus Pneumonia Diagnosis and Treatment program in the early phase of the outbreak [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. However, the sensitivity of nucleic acid testing for this novel viral pathogen may only be 30-50%, thereby often resulting in false negatives, particularly early in the course of illness. To complicate matters further, the guidance changed in the recently-released fourth edition of the program on February 6 to allow for diagnosis based on clinical presentation, but only in Hubei province [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. The swiftly growing epidemic seems to be overwhelming even for the highly efficient Chinese logistics that did manage to build two new hospitals in record time to treat infected patients. Supportive care with extracorporeal membrane oxygenation (ECMO) in intensive care units (ICUs) is critical for severe respiratory disease. Large-scale capacities for such level of medical care in Hubei province, or elsewhere in the world for that matter, amidst this public health emergency may prove particularly challenging.",
+            "We hope that the results of our analysis contribute to the elucidation of critical aspects of this outbreak so as to contain the novel coronavirus as soon as possible and mitigate its effects regionally, in mainland China, and internationally."
+        ],
+        "Conclusion": [
+            "In the digital and globalized world of today, new data and information on the novel coronavirus and the evolution of the outbreak become available at an unprecedented pace. Still, crucial questions remain unanswered and accurate answers for predicting the dynamics of the outbreak simply cannot be obtained at this stage. We emphatically underline the uncertainty of available official data, particularly pertaining to the true baseline number of infected (cases), that may lead to ambiguous results and inaccurate forecasts by orders of magnitude, as also pointed out by other investigators [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>, <a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]."
+        ],
+        "Funding": [
+            "We did not receive any specific funding for this study."
+        ],
+        "Data Availability": [
+            "All the relevant data used in this paper are publicy available and accessible at https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#"
+        ],
+        "References": [
+            "1. Li Q, Guan X, Wu P, et al Early Transmission Dynamics in Wuhan, China, of",
+            "Novel Coronavirus-Infected Pneumonia; 2020. Available from: https://doi.org/10.1088%2F0951-7715%2F16%2F2%2F308.",
+            "2. Organization WH. WHO Statement Regarding Cluster of Pneumonia Cases in",
+            "Wuhan, China; 2020. Available from: https://www.who.int/china/news/detail/",
+            "09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-ch",
+            "3. Organization WH. Novel coronavirus(2019-nCoV). Situation report 21. Geneva, Switzerland: World Health Organization; 2020; 2020. Available from: https://www.who.int/docs/default-source/coronaviruse/",
+            "situation-reports/20200210-sitrep-21-ncov.pdf?sfvrsn=947679ef_2.",
+            "4. Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, et al Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. The Lancet. 2020;doi:10.1016/s0140-6736(20)30251-8.",
+            "5. Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, et al A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature.",
+            "2020;doi:10.1038/s41586-020-2012-7.",
+            "6. Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, et al Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. The Lancet. 2020;doi:10.1016/s0140-6736(20)30211-7.",
+            "7. Patel A, Jernigan D, nCoV CDC Response Team. Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak - United",
+            "States, December 31, 2019-February 4, 2020. MMWR Morb Mortal Wkly Rep.",
+            "2020;doi:10.15585/mmwr.mm6905e.",
+            "8. Hunag C, Wang Y, Li X, et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet.",
+            "2020;doi:10.1016/S0140-6736(20)30183-5.",
+            "9. Wang D, Hu B, Hu C, Zhu F, Liu X, Zhang J, et al Clinical Characteristics of",
+            "Hospitalized Patients With 2019 Novel Coronavirus\u2013Infected Pneumonia in",
+            "Wuhan, China. JAMA. 2020;doi:10.1001/jama.2020.1585.",
+            "10. Zhao S, Lin Q, Ran J, Musa SS, Yang G, Wang W, et al Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. Int",
+            "J Infect Dis. 2020;doi:10.1101/2020.01.23.916395.",
+            "11. Imai N, Cori A, Dorigatti I, et al Report 3: Transmissibility of 2019-nCoV. Int J",
+            "Infect Dis. 2019;doi:10.1016/j.ijid.2020.01.050.",
+            "12. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China:",
+            "a modelling study. The Lancet. 2020;doi:10.1016/s0140-6736(20)30260-9.",
+            "13. Siettos CI, Russo L. Mathematical modeling of infectious disease dynamics.",
+            "Virulence. 2013;4(4):295\u2013306. doi:10.4161/viru.24041.",
+            "14. The Johns Hopkins Center for Health Security. Daily updates on the emerging novel coronavirus from the Johns Hopkins Center for Health Security. February 9, 2020; 2020. Available from: https://hub.jhu.edu/2020/01/23/",
+            "coronavirus-outbreak-mapping-tool-649-em1-art1-dtd-health/.",
+            "15. The Johns Hopkins Center for Health Security. Coronavirus COVID-19 Global",
+            "Cases by Johns Hopkins CSSE; 2020. Available from: https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#",
+            "/bda7594740fd40299423467b48e9ecf6.",
+            "16. Dong E, Du H, Gardner L. An interactive web-based dashboard to track",
+            "COVID-19 in real time. The Lancet Infectious Diseases.",
+            "2020;doi:https://doi.org/10.1016/S1473-3099(20)30120-1.",
+            "17. Wu P, Hao X, Lau EHY, Wong JY, Leung KSM, Wu JT, et al Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. Eurosurveillance. 2020;25(3).",
+            "doi:10.2807/1560-7917.es.2020.25.3.2000044.",
+            "18. NHC. NHS Press Conference, Feb. 4 2020 - National Health Commission (NHC)",
+            "of the People\u2019s Republic of China; 2020.",
+            "19. Ghani AC, Donnelly CA, Cox DR, Griffin JT, Fraser C, Lam TH, et al Methods for Estimating the Case Fatality Ratio for a Novel, Emerging Infectious Disease.",
+            "American Journal of Epidemiology. 2005;162(5):479\u2013486. doi:10.1093/aje/kwi230.",
+            "20. MATLAB R2018b; 2018.",
+            "21. Gale J. Coronavirus May Transmit Along Fecal-Oral Route, Xinhua Reports; 2020. Available from: https://www.bloomberg.com/news/articles/2020-02-02/",
+            "coronavirus-may-transmit-along-fecal-oral-route-xinhua-reports.",
+            "22. Battegay M, Kuehl R, Tschudin-Sutter S, Hirsch HH, Widmer AF, Neher RA.",
+            "2019-novel Coronavirus (2019-nCoV): estimating the case fatality rate \u2013 a word of caution. Swiss Medical Weekly. 2020;doi:10.4414/smw.2020.20203.",
+            "Estimations",
+            "Computed",
+            "90% CI values",
+            "Scenario I: Exact numbers for confirmed cases",
+            "Based on linear regression of the data",
+            "Based on the SIRD simulator (Nov 16Feb 10)",
+            "Symbol Parameter",
+            "R0",
+            "\u03b2\u03b3\u0302",
+            "Basic reproduction number",
+            "11-16 Jan",
+            "11-17 Jan"
+        ],
+        "11-18 Jan case recovery ratio case fatality ratio number": []
+    },
+    "participants": [
+        {
+            "participant": "confirmed cases",
+            "number": 40235,
+            "context": ". <mark class=\"stats\">Since the first suspected case of coronavirus disease-2019 (COVID-19) on December 1st, 2019, in Wuhan, Hubei Province, China, a total of 40,235 confirmed cases and 909 deaths have been reported in China up to February 10, 2020, evoking fear locally and internationally</mark>. Here, based on the publicly available epidemiological data for Hubei, China from January 11 to February 10, 2020, we provide estimates of the main epidemiological parameters"
+        },
+        {
+            "participant": "confirmed cases",
+            "number": 40235,
+            "context": "Despite the lockdown of Wuhan and the suspension of all public transport, flights and trains on. <mark class=\"stats\">January 23, a total of 40,235 confirmed cases, including 6,484 (16.1%) with severe illness, and 909 deaths (2.2%) had been reported in China by the National Health</mark>. Commission up to February 10, 2020; meanwhile, 319 cases and one death were reported outside of China, in 24 countries [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]"
+        },
+        {
+            "participant": "cases",
+            "number": 319,
+            "context": "January 23, a total of 40,235 confirmed cases, including 6,484 (16.1%) with severe illness, and 909 deaths (2.2%) had been reported in China by the National Health. <mark class=\"stats\">Commission up to February 10, 2020; meanwhile, 319 cases and one death were reported outside of China, in 24 countries [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]</mark>. The origin of COVID-19 has not yet been determined although preliminary investigations are suggestive of a zoonotic, possibly of bat, origin [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]"
+        },
+        {
+            "participant": "infected cases",
+            "number": 140000,
+            "context": "SIRD model is characterized by high uncertainty. <mark class=\"stats\">In particular, simulations result in an expected number of \u223c 140,000 infected cases but with a high variation: the lower bound is at \u223c 30,000 infected cases while the upper bound is at \u223c 700,000 cases</mark>. Similarly for the recovered population, simulations result in an expected number of \u223c 77,000, while the lower and upper bounds are at \u223c 21,000 and \u223c 185,000, respectively"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Thus, based on the above, a coarse estimation of R0 and its corresponding confidence intervals can be provided by solving a linear regression problem using least-squares problem as: R0 = ([C\u2206R(t) + C\u2206D(t)] [C\u2206R(t) + C\u2206D(t)])\u22121</mark>",
+                "tests": [
+                    {
+                        "test": "linear regression"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Thus, a coarse estimation of case fatality and recovery ratios for the period under study can be calculated using the reported cumulative infected, recovered and death cases, by solving a linear regression problem, which for the case fatality ratio reads:</mark>",
+                "tests": [
+                    {
+                        "test": "linear regression"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">For the solution of the above optimization problem we used the function \u201clsqnonlin\u201d of matlab [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] using the Levenberg-Marquard algorithm</mark>",
+                "tests": [
+                    {
+                        "test": "Levenberg-Marquard algorithm"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Thus, a coarse estimation of case fatality and recovery ratios for the period under study can be calculated using the reported cumulative infected, recovered and death cases, by solving a linear regression problem, which for the case fatality ratio reads: \u03b3 = [(C\u2206I(t) \u2212 C\u2206D(t) \u2212 C\u2206R(t)) (C\u2206I(t) \u2212 C\u2206D(t) \u2212 C\u2206R(t))]\u22121 (C\u2206I(t) \u2212 C\u2206D(t) \u2212 C\u2206R(t)) C\u2206D(t), (12)</mark>",
+                "tests": [
+                    {
+                        "test": "linear regression"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">For the solution of the above optimization problem we used the function \u201clsqnonlin\u201d of matlab [20] using the Levenberg-Marquard algorithm</mark>",
+                "tests": [
+                    {
+                        "test": "Levenberg-Marquard algorithm"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "infected case",
+        "SIRD",
+        "transmission dynamics",
+        "World Health Organization",
+        "coronavirus",
+        "extracorporeal membrane oxygenation",
+        "total population",
+        "root mean square of error",
+        "pneumonia",
+        "root of mean squared errors",
+        "case fatality",
+        "clinical characteristics",
+        "SARS",
+        "serial intervals",
+        "dynamics",
+        "cumulative number",
+        "intensive care units",
+        "COVID-19"
+    ],
+    "keyword_relevance": {
+        "serial intervals": 0.208955223880597,
+        "SIRD": 0.1791044776119403,
+        "case fatality": 0.10945273631840796,
+        "coronavirus": 0.0945273631840796,
+        "cumulative number": 0.06467661691542288,
+        "COVID-19": 0.06467661691542288,
+        "dynamics": 0.05472636815920398,
+        "root of mean squared errors": 0.04477611940298507,
+        "infected case": 0.03980099502487562,
+        "World Health Organization": 0.029850746268656716,
+        "SARS": 0.024875621890547265,
+        "total population": 0.01990049751243781,
+        "pneumonia": 0.01990049751243781,
+        "root mean square of error": 0.014925373134328358,
+        "extracorporeal membrane oxygenation": 0.009950248756218905,
+        "intensive care units": 0.009950248756218905,
+        "transmission dynamics": 0.004975124378109453,
+        "clinical characteristics": 0.004975124378109453
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> An outbreak of \u201cpneumonia of unknown etiology\u201d in Wuhan, Hubei Province, China in early December 2019 has spiraled into an epidemic that is ravaging China and threatening to reach a pandemic state [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "SARS-CoV-2 disease has been named \u201cCOVID-19\u201d by the World Health Organization (WHO) and on January 30, the COVID-19 outbreak was declared to constitute a Public.",
+        "To SARS-CoV and MERS-CoV, the novel virus is transmitted from person to person principally by respiratory droplets, causing such symptoms as fever, cough, and shortness of breath after a period believed to range from to 14 days following infection, according to the Centers for Disease Control and",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors' analysis was based on the publicly available data of the new confirmed daily cases reported for the Hubei province from the 11th of January until the 10th of<br/><br/>February [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>\u2013<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>].",
+        "Based on the released data, the authors attempted to estimate the mean values of the main epidemiological parameters, i.e. the basic reproduction number R0 , the case fatality and case recovery (\u03b2) ratios, along with their 90% confidence intervals.",
+        "In a second scenario, the authors have derived results by taking twenty times the number of reported cases for the infected and forty times the number for the recovered cases, while keeping constant the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+        "R0 represents the average number of secondary cases that result from the introduction of a single infectious case in a totally susceptible population during the infectiousness period",
+        "<h2 style=\"display: inline\">Results:</h2> The authors first present the results for the basic reproduction number as well as the case fatality and case recovery ratios as obtained by solving the least squares problem using a rolling window of an one-day step",
+        "For their computation, the authors used the first six days i.e. from the 11th up to the 16th of January to provide the very first estimations.",
+        "The estimation of R0 was based on the data until January 20, in order to satisfy as much as possible the hypothesis underlying its calculation by Eq(9)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors have proposed a methodology for the estimation of the key epidemiological parameters as well as the modelling and forecasting of the spread of the COVID-19 epidemic in Hubei, China by considering publicly available data from the 11th of<br/><br/>January 2019 to the 10th of February 2020.<br/><br/>By the time of the acceptance of the paper, according to the official data released on the 29th of February, the cumulative number confirmed infected cases in Hubei was<br/><br/>\u223c67,000, that of recovered was \u223c31,300 and the death toll was \u223c2,800.",
+        "The number of asymptomatic and mild cases with subclinical manifestations that probably did not present to hospitals for treatment may be substantial; these cases, which possibly represent the bulk of the COVID-19 infections, remain unrecognized, especially during the influenza season [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]",
+        "This highly likely gross under-detection and underreporting of mild or asymptomatic cases inevitably throws severe disease courses calculations and death rates out of context, distorting epidemiologic reality.",
+        "The authors emphatically underline the uncertainty of available official data, pertaining to the true baseline number of infected, that may lead to ambiguous results and inaccurate forecasts by orders of magnitude, as pointed out by other investigators [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>, <a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "An outbreak of \u201cpneumonia of unknown etiology\u201d in Wuhan, Hubei Province, China in early December 2019 has spiraled into an epidemic that is ravaging China and threatening to reach a pandemic state [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "SARS-CoV-2 disease has been named \u201cCOVID-19\u201d by the World Health Organization (WHO) and on January 30, the COVID-19 outbreak was declared to constitute a Public.",
+            "To SARS-CoV and MERS-CoV, the novel virus is transmitted from person to person principally by respiratory droplets, causing such symptoms as fever, cough, and shortness of breath after a period believed to range from to 14 days following infection, according to the Centers for Disease Control and"
+        ],
+        "Methods": [
+            "The authors' analysis was based on the publicly available data of the new confirmed daily cases reported for the Hubei province from the 11th of January until the 10th of<br/><br/>February [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>\u2013<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>].",
+            "Based on the released data, the authors attempted to estimate the mean values of the main epidemiological parameters, i.e. the basic reproduction number R0 , the case fatality and case recovery (\u03b2) ratios, along with their 90% confidence intervals.",
+            "In a second scenario, the authors have derived results by taking twenty times the number of reported cases for the infected and forty times the number for the recovered cases, while keeping constant the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "R0 represents the average number of secondary cases that result from the introduction of a single infectious case in a totally susceptible population during the infectiousness period"
+        ],
+        "Results": [
+            "The authors first present the results for the basic reproduction number as well as the case fatality and case recovery ratios as obtained by solving the least squares problem using a rolling window of an one-day step",
+            "For their computation, the authors used the first six days i.e. from the 11th up to the 16th of January to provide the very first estimations.",
+            "The estimation of R0 was based on the data until January 20, in order to satisfy as much as possible the hypothesis underlying its calculation by Eq(9)"
+        ],
+        "Conclusion": [
+            "The authors have proposed a methodology for the estimation of the key epidemiological parameters as well as the modelling and forecasting of the spread of the COVID-19 epidemic in Hubei, China by considering publicly available data from the 11th of<br/><br/>January 2019 to the 10th of February 2020.<br/><br/>By the time of the acceptance of the paper, according to the official data released on the 29th of February, the cumulative number confirmed infected cases in Hubei was<br/><br/>\u223c67,000, that of recovered was \u223c31,300 and the death toll was \u223c2,800.",
+            "The number of asymptomatic and mild cases with subclinical manifestations that probably did not present to hospitals for treatment may be substantial; these cases, which possibly represent the bulk of the COVID-19 infections, remain unrecognized, especially during the influenza season [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]",
+            "This highly likely gross under-detection and underreporting of mild or asymptomatic cases inevitably throws severe disease courses calculations and death rates out of context, distorting epidemiologic reality.",
+            "The authors emphatically underline the uncertainty of available official data, pertaining to the true baseline number of infected, that may lead to ambiguous results and inaccurate forecasts by orders of magnitude, as pointed out by other investigators [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>, <a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Li_et+al_2020_a",
+            "entry": "1. Li Q, Guan X, Wu P, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia; 2020. Available from: https://doi.org/10.1088%2F0951-7715%2F16%2F2%2F308.",
+            "url": "https://doi.org/10.1088%2F0951-7715%2F16%2F2%2F308"
+        },
+        {
+            "id": "2",
+            "alt_id": "Organization_2020_a",
+            "entry": "2. Organization WH. WHO Statement Regarding Cluster of Pneumonia Cases in Wuhan, China; 2020. Available from: https://www.who.int/china/news/detail/09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-ch",
+            "url": "https://www.who.int/china/news/detail/09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-ch"
+        },
+        {
+            "id": "3",
+            "alt_id": "Organization_2019_b",
+            "entry": "3. Organization WH. Novel coronavirus(2019-nCoV). Situation report 21. Geneva, Switzerland: World Health Organization; 2020; 2020. Available from: https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep-21-ncov.pdf?sfvrsn=947679ef_2.",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200210-sitrep-21-ncov.pdf?sfvrsn=947679ef_2"
+        },
+        {
+            "id": "4",
+            "alt_id": "Lu_et+al_2019_a",
+            "entry": "4. Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, et al. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. The Lancet. 2020;doi:10.1016/s0140-6736(20)30251-8.",
+            "crossref": "https://dx.doi.org/10.1016/s0140-6736(20)30251-8",
+            "scite": "https://scite.ai/reports/10.1016/s0140-6736(20)30251-8"
+        },
+        {
+            "id": "5",
+            "alt_id": "Zhou_et+al_0000_a",
+            "entry": "5. Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020;doi:10.1038/s41586-020-2012-7.",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2012-7",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2012-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2012-7"
+        },
+        {
+            "id": "6",
+            "alt_id": "Chen_et+al_2019_a",
+            "entry": "6. Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, et al. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. The Lancet. 2020;doi:10.1016/s0140-6736(20)30211-7.",
+            "crossref": "https://dx.doi.org/10.1016/s0140-6736(20)30211-7",
+            "scite": "https://scite.ai/reports/10.1016/s0140-6736(20)30211-7"
+        },
+        {
+            "id": "7",
+            "alt_id": "Patel_et+al_2019_a",
+            "entry": "7. Patel A, Jernigan D, nCoV CDC Response Team. Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak - United States, December 31, 2019-February 4, 2020. MMWR Morb Mortal Wkly Rep. 2020;doi:10.15585/mmwr.mm6905e.",
+            "crossref": "https://dx.doi.org/10.15585/mmwr.mm6905e",
+            "scite": "https://scite.ai/reports/10.15585/mmwr.mm6905e"
+        },
+        {
+            "id": "8",
+            "alt_id": "Hunag_et+al_2019_a",
+            "entry": "8. Hunag C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020;doi:10.1016/S0140-6736(20)30183-5.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5"
+        },
+        {
+            "id": "9",
+            "alt_id": "Wang_et+al_2019_a",
+            "entry": "9. Wang D, Hu B, Hu C, Zhu F, Liu X, Zhang J, et al. Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus\u2013Infected Pneumonia in Wuhan, China. JAMA. 2020;doi:10.1001/jama.2020.1585.",
+            "crossref": "https://dx.doi.org/10.1001/jama.2020.1585",
+            "scite": "https://scite.ai/reports/10.1001/jama.2020.1585"
+        },
+        {
+            "id": "10",
+            "alt_id": "Zhao_et+al_2019_a",
+            "entry": "10. Zhao S, Lin Q, Ran J, Musa SS, Yang G, Wang W, et al. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. Int J Infect Dis. 2020;doi:10.1101/2020.01.23.916395.",
+            "crossref": "https://dx.doi.org/10.1101/2020.01.23.916395",
+            "scite": "https://scite.ai/reports/10.1101/2020.01.23.916395",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.01.23.916395"
+        },
+        {
+            "id": "11",
+            "alt_id": "Imai_et+al_2019_a",
+            "entry": "11. Imai N, Cori A, Dorigatti I, et al. Report 3: Transmissibility of 2019-nCoV. Int J Infect Dis. 2019;doi:10.1016/j.ijid.2020.01.050.",
+            "crossref": "https://dx.doi.org/10.1016/j.ijid.2020.01.050",
+            "scite": "https://scite.ai/reports/10.1016/j.ijid.2020.01.050",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/j.ijid.2020.01.050"
+        },
+        {
+            "id": "12",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "12. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet. 2020;doi:10.1016/s0140-6736(20)30260-9.",
+            "crossref": "https://dx.doi.org/10.1016/s0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/s0140-6736(20)30260-9"
+        },
+        {
+            "id": "13",
+            "alt_id": "Siettos_2013_a",
+            "entry": "13. Siettos CI, Russo L. Mathematical modeling of infectious disease dynamics. Virulence. 2013;4(4):295\u2013306. doi:10.4161/viru.24041.",
+            "crossref": "https://dx.doi.org/10.4161/viru.24041",
+            "scite": "https://scite.ai/reports/10.4161/viru.24041",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.4161/viru.24041"
+        },
+        {
+            "id": "14",
+            "alt_id": "For_February 9,_a",
+            "entry": "14. The Johns Hopkins Center for Health Security. Daily updates on the emerging novel coronavirus from the Johns Hopkins Center for Health Security. February 9, 2020; 2020. Available from: https://hub.jhu.edu/2020/01/23/coronavirus-outbreak-mapping-tool-649-em1-art1-dtd-health/.",
+            "url": "https://hub.jhu.edu/2020/01/23/coronavirus-outbreak-mapping-tool-649-em1-art1-dtd-health/"
+        },
+        {
+            "id": "15",
+            "alt_id": "For_2020_b",
+            "entry": "15. The Johns Hopkins Center for Health Security. Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE; 2020. Available from: https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6.",
+            "url": "https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+        },
+        {
+            "id": "16",
+            "alt_id": "Dong_et+al_0000_a",
+            "entry": "16. Dong E, Du H, Gardner L. An interactive web-based dashboard to track COVID-19 in real time. The Lancet Infectious Diseases. 2020;doi:https://doi.org/10.1016/S1473-3099(20)30120-1.",
+            "crossref": "https://dx.doi.org/10.1016/S1473-3099(20)30120-1",
+            "scite": "https://scite.ai/reports/10.1016/S1473-3099(20)30120-1",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S1473-3099%2820%2930120-1"
+        },
+        {
+            "id": "17",
+            "alt_id": "Wu_et+al_2020_b",
+            "entry": "17. Wu P, Hao X, Lau EHY, Wong JY, Leung KSM, Wu JT, et al. Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. Eurosurveillance. 2020;25(3). doi:10.2807/1560-7917.es.2020.25.3.2000044.",
+            "crossref": "https://dx.doi.org/10.2807/1560-7917.es.2020.25.3.2000044",
+            "scite": "https://scite.ai/reports/10.2807/1560-7917.es.2020.25.3.2000044"
+        },
+        {
+            "id": "18",
+            "alt_id": "18._2020_a",
+            "entry": "18. NHC. NHS Press Conference, Feb. 4 2020 - National Health Commission (NHC) of the People\u2019s Republic of China; 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=NHC%20NHS%20Press%20Conference%20Feb%204%202020%20%20National%20Health%20Commission%20NHC%20of%20the%20Peoples%20Republic%20of%20China%202020"
+        },
+        {
+            "id": "19",
+            "alt_id": "Ghani_et+al_2005_a",
+            "entry": "19. Ghani AC, Donnelly CA, Cox DR, Griffin JT, Fraser C, Lam TH, et al. Methods for Estimating the Case Fatality Ratio for a Novel, Emerging Infectious Disease. American Journal of Epidemiology. 2005;162(5):479\u2013486. doi:10.1093/aje/kwi230.",
+            "crossref": "https://dx.doi.org/10.1093/aje/kwi230",
+            "scite": "https://scite.ai/reports/10.1093/aje/kwi230",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/aje/kwi230"
+        },
+        {
+            "id": "20",
+            "alt_id": "20._2018_a",
+            "entry": "20. MATLAB R2018b; 2018.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=MATLAB%20R2018b%202018"
+        },
+        {
+            "id": "21",
+            "alt_id": "Gale_2020_a",
+            "entry": "21. Gale J. Coronavirus May Transmit Along Fecal-Oral Route, Xinhua Reports; 2020. Available from: https://www.bloomberg.com/news/articles/2020-02-02/coronavirus-may-transmit-along-fecal-oral-route-xinhua-reports.",
+            "url": "https://www.bloomberg.com/news/articles/2020-02-02/coronavirus-may-transmit-along-fecal-oral-route-xinhua-reports"
+        },
+        {
+            "id": "22",
+            "alt_id": "Battegay_et+al_2019_a",
+            "entry": "22. Battegay M, Kuehl R, Tschudin-Sutter S, Hirsch HH, Widmer AF, Neher RA. 2019-novel Coronavirus (2019-nCoV): estimating the case fatality rate \u2013 a word of caution. Swiss Medical Weekly. 2020;doi:10.4414/smw.2020.20203. ",
+            "crossref": "https://dx.doi.org/10.4414/smw.2020.20203",
+            "scite": "https://scite.ai/reports/10.4414/smw.2020.20203"
+        }
+    ],
+    "facts": [
+        "909 deaths have been reported in China",
+        "while the one computed under the second scenario was found to be ~3.2",
+        "the simulations suggest that the cumulative number",
+        "our analysis further reveals a significant decline of the case fatality ratio to which various factors may have contributed",
+        "such as the severe control measures taken in Hubei",
+        "China in early December 2019 has spiraled into an epidemic",
+        "a new betacoronavirus related to the Middle East Respiratory Syndrome virus",
+        "909 deaths had been reported in China by the National Health",
+        "yet been determined preliminary investigations are suggestive of a zoonotic",
+        "the novel virus is transmitted from person to person",
+        "confirmed daily cases reported for the Hubei province from the 11th",
+        "who has granted medRxiv a license to display the preprint in perpetuity",
+        "likely to be closer to the real number",
+        "of the key values that can predict whether the infectious disease will spread into a population",
+        "R0 represents the average number of secondary cases",
+        "that result from the introduction of a single infectious case",
+        "the corresponding coefficients of determination representing the proportion of the variance in the dependent variable",
+        "that is predictable from the independent variables",
+        "The estimation of R0 was based on the data until January 20",
+        "to the official data released on the 29th of February",
+        "These numbers are within the lower bounds",
+        "February that are based on Scenario I. In Scenario II",
+        "forecasts show a significant decline of outbreak in Hubei",
+        "on this scenario the casefatality rate in the total population is of the order of \u223c0.15%",
+        "the estimation of the model parameters is based on an assumption",
+        "which is thought to be principally transmitted from person to person",
+        "mild cases with subclinical manifestations that probably did not present to hospitals for treatment may be substantial",
+        "which possibly represent the bulk of the COVID-19 infections",
+        "Another important factor that should be taken into consideration pertains to the diagnostic criteria used to determine infection status",
+        "the evolution of the outbreak become available at an unprecedented pace",
+        "the dynamics of the outbreak cannot be obtained at this stage",
+        "that may lead to ambiguous results",
+        "the hypothesis of S \u2248 N that is a necessary condition for the computation of R0",
+        "per day recovery and mortality rates of the SIRD model based on the reported data",
+        "provide tentative forecasts for the evolution of the outbreak based on both scenarios until the end"
+    ],
+    "claims": [
+        "Based on the publicly available epidemiological data for Hubei, China from January 11 to February 10, 2020, we provide estimates of the main epidemiological parameters",
+        "We provide estimation of the the case fatality and case recovery ratios, along with their 90% confidence intervals and on the basis of a Susceptible-Infected-Recovered-Dead (SIRD) model we provide estimations of the basic reproduction number (R0), the infection rate",
+        "We present the results of the analysis of time series of epidemiological data available in the public domain [14\u201316] (WHO, CDC, ECDC, NHC and DXY) from January 11 to",
+        "Furthermore, by calibrating the parameters of the SIRD model to fit the reported data, we also provide tentative forecasts until the 29th of February",
+        "Based on the reported data of confirmed cases, we provide estimations of the R0 from the 16th up to the 20th of January in order to satisfy as much as possible the hypothesis of S \u2248 N that is a necessary condition for the computation of R0",
+        "We also provide estimations of the case fatality (\u03b3) and case recovery (hat\u03b2) ratios over the entire period using a rolling window of one day from the 11th of January to the",
+        "We describe analytically our approach",
+        "We also report the corresponding 90% confidence intervals instead of the more standard 95% because of the small size of the data",
+        "For each window, we also report the corresponding coefficients of determination (R2 ) representing the proportion of the variance in the dependent variable that is predictable from the independent variables, and the root mean square of error (RMSE)",
+        "As described above, we provide coarse estimations of the \u201ceffective\u201d per day recovery and mortality rates of the SIRD model based on the reported data by solving the corresponding least squares problems",
+        "We provide tentative forecasts for the evolution of the outbreak based on both scenarios until the end of February",
+        "In Figs 3,4,5, we show the coefficients of determination (R2 ) and the root of mean squared errors (RM SE) for R0 , \u03b2and \u03b3, respectively",
+        "Instead, for the our calculations to construct lower and upper bounds, we have considered intervals of 20% around the expected least squares solution",
+        "In Figs 11,12,13, we show the coefficients of determination (R2 ) and the root of mean squared errors (RM SE), for R0 , \u03b2and \u03b3, respectively",
+        "We have proposed a methodology for the estimation of the key epidemiological parameters as well as the modelling and forecasting of the spread of the COVID-19 epidemic in Hubei, China by considering publicly available data from the 11th of"
+    ],
+    "findings": [
+        "Of the two other well-known coronavirus diseases, MERS and SARS, as approximations for the true unknown SI, Zhao et al estimated the mean basic reproduction number (R0 ) of SARS-CoV-2 to range between 2.24 (95% CI: 1.96-2.55) and 3.58 (95% CI: 2.89-4.39) in the early phase of the outbreak [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]",
+        "Very similar estimates, 2.2 (95% CI: 1.4-3.9), were obtained for R0 at the early stages of the epidemic by Imai et al 2.6 (95%",
+        "Wu et al estimated the R0 at 2.68 (95% CI: 2.47\u20132.86) with a doubling time every 6.4 days (95% CI: 5.8\u20137.1) and the epidemic growing exponentially in multiple major Chinese cities with a lag time behind the Wuhan outbreak of about 1\u20132 weeks [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]",
+        "Using the first six days from the 11th of January, R0 results in \u223c 4.80 (90% CI: 3.36-6.67); using the data until January 17, R0 results in \u223c 4.60 (90% CI: 3.56-5.65); using the data until",
+        "January 18, R0 results in \u223c 5.14 (90%CI: 4.25-6.03); using the data until January 19, R0 results in \u223c 6.09 (90% CI: 5.02-7.16); and using the data until January 20, R0 results in \u223c 7.09 (90% CI: 5.84-8.35)",
+        "Using all the available data from the 11th of January until the 10th of February, the estimated value of the case fatality ratio \u03b3is \u223c 3.2% (90% CI: 3.1%-3.3%) and that of the case recovery ratio \u03b2is \u223c 0.054 (90% CI: 0.049-0.060)",
+        "The optimal, with respect to the reported confirmed cases from the 11th of January to the 10th of February, value of the infected rate (\u03b1) was \u223c 0.193 (90% CI: 0.191-0.195)",
+        "Using the first six days from the 11th of January to the 16th of January, R0 results in 3.2 (90% CI: 2.4-4.0); using the data until January 17, R0 results in 3.1 (90% CI: 2.5-3.7); using the data until January 18, R0 results in 3.4 (90% CI: 2.9-3.9); using the data until January 19, R0 results in 3.9 (90% CI: 3.3-4.5) and using the data until author/funder, who has granted medRxiv a license to display the preprint in perpetuity",
+        "11th of January until the 10th of February, the estimated value of the case fatality ratio \u03b3now drops to \u223c 0.163% (90% CI: 0.016%-0.0167%) while that of the case recovery ratio is \u223c 0.11 (90% CI: 0.099-0.12)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Based on the official counts for confirmed cases, the simulations suggest that the cumulative number of infected could reach 140,000 by February 29",
+        "Our analysis further reveals a significant decline of the case fatality ratio to which various factors may have contributed, such as the severe control measures taken in Hubei, China, but mainly because of the fact that if the actual cumulative numbers of infected and recovered cases in the population are significantly higher for the infected and ten times higher for the recovered than reported, resulting in a much lower case fatality ratio significantly below of \u223c1%",
+        "An outbreak of \u201cpneumonia of unknown etiology\u201d in Wuhan, Hubei Province, China in early December 2019 has spiraled into an epidemic that is ravaging China and threatening to reach a pandemic state [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "By calibrating the parameters of the SIRD model to fit the reported data, we provide tentative forecasts until the 29th of February",
+        "R0 represents the average number of secondary cases that result from the introduction of a single infectious case in a totally susceptible population during the infectiousness period",
+        "Based on the reported data of confirmed cases, we provide estimations of the R0 from the 16th up to the 20th of January in order to satisfy as much as possible the hypothesis of S \u2248 N that is a necessary condition for the computation of R0",
+        "We provide estimations of the case fatality (\u03b3) and case recovery ratios over the entire period using a rolling window of one day from the 11th of January to the",
+        "We report the corresponding 90% confidence intervals instead of the more standard 95% because of the small size of the data",
+        "We report the corresponding coefficients of determination (R2 ) representing the proportion of the variance in the dependent variable that is predictable from the independent variables, and the root mean square of error (RMSE)",
+        "The estimation of R0 was based on the data until January 20, in order to satisfy as much as possible the hypothesis underlying its calculation by Eq(9)",
+        "As described above, we provide coarse estimations of the \u201ceffective\u201d per day recovery and mortality rates of the SIRD model based on the reported data by solving the corresponding least squares problems",
+        "In Figs 3,4,5, we show the coefficients of determination (R2 ) and the root of mean squared errors (RM SE) for R0 , \u03b2and \u03b3, respectively",
+        "In Figs 11,12,13, we show the coefficients of determination (R2 ) and the root of mean squared errors (RM SE), for R0 , \u03b2and \u03b3, respectively",
+        "We have proposed a methodology for the estimation of the key epidemiological parameters as well as the modelling and forecasting of the spread of the COVID-19 epidemic in Hubei, China by considering publicly available data from the 11th of",
+        "By the time of the acceptance of our paper, according to the official data released on the 29th of February, the cumulative number confirmed infected cases in Hubei was",
+        "In Scenario II, by assuming a 20-fold scaling of the confirmed cases of the infected cases and a 40-fold scaling of the confirmed number of the recovered cases in the total population, forecasts show a significant decline of outbreak in Hubei by 29th of February",
+        "This fact has been lately reported. Based on this scenario the casefatality rate in the total population is of the order of \u223c0.15%",
+        "COVID-19, which is thought to be principally transmitted from person to person by respiratory droplets and fomites without excluding the possibility of the fecal-oral route [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] had been spreading for at least over a month and a half before the imposed lockdown and quarantine of Wuhan on January 23, having infected unknown numbers of people",
+        "The number of asymptomatic and mild cases with subclinical manifestations that probably did not present to hospitals for treatment may be substantial; these cases, which possibly represent the bulk of the COVID-19 infections, remain unrecognized, especially during the influenza season [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]",
+        "In the digital and globalized world of today, new data and information on the novel coronavirus and the evolution of the outbreak become available at an unprecedented pace",
+        "We emphatically underline the uncertainty of available official data, pertaining to the true baseline number of infected, that may lead to ambiguous results and inaccurate forecasts by orders of magnitude, as pointed out by other investigators [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>, <a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]"
+    ],
+    "top_statements": [
+        "An outbreak of \u201cpneumonia of unknown etiology\u201d in Wuhan, Hubei Province, China in early December 2019 has spiraled into an epidemic that is ravaging China and threatening to reach a pandemic state [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "Our analysis further reveals a significant decline of the case fatality ratio to which various factors may have contributed, such as the severe control measures taken in Hubei, China, but mainly because of the fact that if the actual cumulative numbers of infected and recovered cases in the population are significantly higher for the infected and ten times higher for the recovered than reported, resulting in a much lower case fatality ratio significantly below of \u223c1%",
+        "We report the corresponding 90% confidence intervals instead of the more standard 95% because of the small size of the data",
+        "We report the corresponding coefficients of determination (R2 ) representing the proportion of the variance in the dependent variable that is predictable from the independent variables, and the root mean square of error (RMSE)",
+        "In the digital and globalized world of today, new data and information on the novel coronavirus and the evolution of the outbreak become available at an unprecedented pace",
+        "January 18, R0 results in \u223c 5.14 (90%CI: 4.25-6.03); using the data until January 19, R0 results in \u223c 6.09 (90% CI: 5.02-7.16); and using the data until January 20, R0 results in \u223c 7.09 (90% CI: 5.84-8.35)",
+        "We emphatically underline the uncertainty of available official data, pertaining to the true baseline number of infected, that may lead to ambiguous results and inaccurate forecasts by orders of magnitude, as pointed out by other investigators [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>, <a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]"
+    ],
+    "headline": "We report the corresponding coefficients of determination representing the proportion of the variance in the dependent variable that is predictable from the independent variables, and the root mean square of error",
+    "contexts": [],
+    "abbreviations": {
+        "WHO": "World Health Organization",
+        "SI": "serial intervals",
+        "RMSE": "root mean square of error",
+        "RM SE": "root of mean squared errors",
+        "ECMO": "extracorporeal membrane oxygenation",
+        "ICUs": "intensive care units"
+    }
+}

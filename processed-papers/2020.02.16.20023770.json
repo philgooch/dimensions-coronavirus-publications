@@ -1,0 +1,701 @@
+{
+    "filename": "2020.02.16.20023770.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 688836,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.16.20023770",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/18/2020.02.16.20023770.full.pdf"
+        },
+        "title": "Study on SARS-COV-2 transmission and the effects of control measures in China",
+        "author": "Bo Zhang, Hongwei Zhou, Fang Zhou",
+        "date": 2020,
+        "affiliations": [
+            "School of Environment and Natural Resources, Renmin University of China, Haidian",
+            "District, Beijing, China,",
+            "Department of Ophthalmology, Lianshui County People\u2019s",
+            "Hospital, Huai\u2019an, Jiangsu, China,",
+            "School of Medicine, Southeast University, Nanjing,",
+            "Beijing Key Laboratory of Megaregions Sustainable Development",
+            "Modeling, Capital University of Economics and Business, Fengtai District, Beijing, China, 13",
+            "College of Urban Economics and Public Administration, Capital University of Economics 14 and Business, Fengtai District, Beijing, China 15 16 17 18 19 20 21 22"
+        ],
+        "abstract": "Objective\nTo reconstruct the transmission trajectory of SARS-COV-2 and analyze the effects of control measures in China.\nMethods\nPython 3.7.1 was used to write a SEIR class to model the epidemic procedure and a back propagation class to estimate the initial true infected number. The epidemic area in China was divided into three parts, Wuhan city, Hubei province (except Wuhan) and China (except Hubei) based on the different transmission pattern. A limitation factor for the medical resource was imposed to model the infected but not quarantined. Credible data source from Baidu Qianxi were used to assess the number of infected cases migrated from Wuhan to other areas.\nResults\nBasic reproduction number, R0, was 3.6 in the very early stage. The true infected number was 4508 in our model in Wuhan before January 22, 2020. By January 22 2020, it was estimated that 1764 infected cases migrated from Wuhan to other cities in Hubei province. Effective reproductive number, R, gradually decreased from 3.6 (Wuhan, stage 1), 3.4 (Hubei except Wuhan, stage 1) and 3.3 (China except Hubei, stage 1) to 0.67 (Wuhan, stage 4), 0.83 (Hubei except Wuhan, stage 2) and 0.63 (China except Hubei, stage 2), respectively. Especially after January 23, 2020 when Wuhan City was closed, the infected number showed a turning point in Wuhan. By early April, there would be 42073, 21342 and 13384 infected cases in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively, and there would be 2179, 633 and 107 death in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively.\nConclusion\nA series of control measures in China have effectively prevented the spread of COVID-19, and the epidemic will end in early April.",
+        "keywords": [
+            "COVID-19",
+            "SARS-COV-2",
+            "2019-nCOV",
+            "Basic reproduction number",
+            "Effective 76 reproductive number"
+        ],
+        "references": "@article{chan-a,\n  author = {Chan, J.F. and Yuan, S. and Kok, K.H. and To, K.K. and Chu, H. and Yang, J.},\n  title = {A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster},\n  journal = {Lancet},\n  volume = {2020},\n  url = {https://doi.org/10.1016/S0140-6736},\n  pages = {31986261},\n  more-authors = {true},\n  unmatched-volume = {PMID:},\n  language = {}\n}\n@misc{enserink2020a,\n  author = {Enserink, Martin},\n  title = {Update: \u2018A bit chaotic.\u2019 Christening of new coronavirus and its disease name create confusion. sciencemag},\n  date = {2020-02-12},\n  url = {https://www.sciencemag.org/news/2020/02/bit-chaotic-christening-new-coronavirusand-its-disease-name-create-confusion},\n  language = {},\n  urldate = {[Cited 2020 February 17].}\n}\n@article{li-a,\n  author = {Li, X. and Zai, J. and Wang, X. and Li, Y.},\n  title = {Potential of large 'first generation' human-to-human transmission of 2019-nCoV},\n  journal = {J Med Virol},\n  volume = {2020},\n  url = {https://doi.org/10.1002/jmv.25693},\n  language = {}\n}\n@article{huang-a,\n  author = {Huang, C.L. and Wang, Y.M. and Li, X.W. and Ren, L.L. and Zhao, J.P. and Hu, Y.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  volume = {2020},\n  url = {https://doi.org/10.1016/S0140-6736},\n  pages = {31986264},\n  more-authors = {true},\n  unmatched-volume = {PMID:},\n  language = {}\n}\n@article{holshue2020a,\n  author = {Holshue, M.L. and DeBolt, C. and Lindquist, S. and Lofy, K.H. and Wiesman, J. and Bruce, H.},\n  title = {First Case of Novel Coronavirus in the United States},\n  journal = {N Engl J Med},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@book{unknown-a,\n  url = {https://doi.org/10.1056/NEJMoa2001191},\n  publisher = {PMID: 32004427},\n  language = {}\n}\n@article{li-b,\n  author = {Li, Q. and Guan, X.H. and Wu, P. and Wang, X.Y. and Zhou, L.},\n  journal = {Tong YQ, et al. Early Transmission}\n}\n@book{unknown-b,\n  url = {https://doi.org/10.1056/NEJMoa2001316},\n  publisher = {PMID: 31995857},\n  language = {}\n}\n@article{rothe-a,\n  author = {Rothe, C. and Schunk, M. and Sothmann, P. and Bretzel, G. and Froeschl, G. and Wallrauch, C.},\n  title = {Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany},\n  journal = {N Engl J Med},\n  volume = {2020},\n  url = {https://doi.org/10.1056/NEJMc2001468},\n  publisher = {PMID: 32003551},\n  more-authors = {true},\n  language = {}\n}\n@article{yoo-a,\n  author = {Yoo, J.H.},\n  title = {The Fight against the 2019-nCoV Outbreak: an Arduous March Has Just Begun},\n  journal = {J Korean Med Sci},\n  volume = {2020},\n  pages = {56},\n  url = {https://doi.org/10.3346/jkms.2020.35.e56},\n  number = {35},\n  language = {}\n}\n@article{lipsitch2003a,\n  author = {Lipsitch, M. and Cohen, T. and Cooper, B. and Robins, J.M. and Ma, S. and James, L.},\n  title = {Transmission dynamics and control of severe acute respiratory syndrome},\n  journal = {Science},\n  date = {2003},\n  volume = {300},\n  pages = {1966\u201370},\n  url = {https://doi.org/10.1126/science.1086616},\n  note = {PMID: 12766207},\n  more-authors = {true},\n  language = {}\n}\n@article{carlos2019a,\n  author = {Carlos, W.G. and Dela Cruz, C.S. and Cao, B. and Pasnick, S. and Jamil, S.},\n  title = {Novel Wuhan},\n  date = {2019},\n  journal = {Am J Respir Crit Care Med},\n  volume = {2020},\n  url = {https://doi.org/10.1164/rccm.2014P7},\n  source = {Coronavirus},\n  language = {}\n}\n@article{wu-a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study},\n  journal = {Lancet},\n  volume = {2020},\n  url = {https://doi.org/10.1016/S0140-6736},\n  language = {}\n}\n@misc{cohen2020a,\n  author = {Cohen, J.},\n  title = {Chinese researchers reveal draft genome of virus implicated in Wuhan pneumonia outbreak. American Association for the Advancement of Science},\n  date = {2020-01-11},\n  language = {},\n  urldate = {[Cited 2020 February 12].}\n}\n@misc{unknown-c,\n  url = {https://www.sciencemag.org/news/2020/01/chinese-researchers-reveal-draft-ge}\n}\n@Internet{cohen2013a,\n  author = {Cohen, J.},\n  title = {Mining coronavirus genomes for clues to the outbreak\u2019s origins},\n  date = {2013-10-05},\n  publisher = {Database: GISAID},\n  medium = {Internet},\n  url = {https://www.sciencemag.org/news/2020/01/mining-coronavirus-genomes-clues-outbr},\n  language = {},\n  address = {cited},\n  urldate = {Available from:}\n}\n@misc{zhou-a,\n  author = {Zhou, P. and Yang, X.L. and Wang, X.G. and Hu, B. and Zhang, L. and Zhang, W.},\n  title = {Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin. bioRxiv. 2020},\n  url = {https://doi.org/},\n  volume = {10},\n  more-authors = {true},\n  number = {1101/2020},\n  language = {}\n}\n@article{ji2020a,\n  author = {Ji, W. and Wang, W. and Zhao, X.F. and Zai, J.J. and Li, X.G.},\n  title = {Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission from snake to human},\n  journal = {J Med Virol},\n  volume = {2020},\n  url = {https://doi.org/10.1002/jmv.25682},\n  date = {2020},\n  note = {PMID: 31967321},\n  language = {}\n}\n@incollection{lu2019a,\n  author = {Lu, H.Z.},\n  title = {Drug treatment options for the 2019-new coronavirus},\n  date = {2019},\n  url = {https://doi.org/10.5582/bst.2020.01020},\n  publisher = {PMID: 31996494},\n  source = {Biosci Trends. 2020},\n  language = {}\n}\n@article{nishiura2020a,\n  author = {Nishiura, H. and Jung, S.M. and Linton, N.M. and Kinoshita, R. and Yang, Y. and Hayashi, K.},\n  title = {The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020},\n  journal = {J Clin Med},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@book{unknown-d,\n  url = {https://doi.org/10.3390/jcm9020330},\n  publisher = {PMID: 31991628},\n  language = {}\n}\n",
+        "links": [
+            "https://qianxi.baidu.com/",
+            "http://gisaid.org/",
+            "https://www.ncbi.nlm.nih.gov/nuccore/MN908947"
+        ],
+        "emails": [
+            "leave0307@163.com",
+            "zhoufang@cueb.edu.cn"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Chan, J.F.\nAU  - Yuan, S.\nAU  - Kok, K.H.\nAU  - To, K.K.\nAU  - Chu, H.\nAU  - Yang, J.\nTI  - A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster\nT2  - Lancet\nVL  - 2020\nUR  - https://doi.org/10.1016/S0140-6736\nSP  - 31986261\nC1  - true\nC1  - PMID:\nLA  - \nER  - \n\nTY  - GEN\nAU  - Enserink, Martin\nTI  - Update: \u2018A bit chaotic.\u2019 Christening of new coronavirus and its disease name create confusion. sciencemag\nPY  - 2020\nDA  - 2020/02/12\nUR  - https://www.sciencemag.org/news/2020/02/bit-chaotic-christening-new-coronavirusand-its-disease-name-create-confusion\nLA  - \nC1  - [Cited 2020 February 17].\nER  - \n\nTY  - JOUR\nAU  - Li, X.\nAU  - Zai, J.\nAU  - Wang, X.\nAU  - Li, Y.\nTI  - Potential of large 'first generation' human-to-human transmission of 2019-nCoV\nT2  - J Med Virol\nVL  - 2020\nUR  - https://doi.org/10.1002/jmv.25693\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.L.\nAU  - Wang, Y.M.\nAU  - Li, X.W.\nAU  - Ren, L.L.\nAU  - Zhao, J.P.\nAU  - Hu, Y.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nVL  - 2020\nUR  - https://doi.org/10.1016/S0140-6736\nSP  - 31986264\nC1  - true\nC1  - PMID:\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Holshue, M.L.\nAU  - DeBolt, C.\nAU  - Lindquist, S.\nAU  - Lofy, K.H.\nAU  - Wiesman, J.\nAU  - Bruce, H.\nTI  - First Case of Novel Coronavirus in the United States\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nUR  - https://doi.org/10.1056/NEJMoa2001191\nPB  - PMID: 32004427\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.H.\nAU  - Wu, P.\nAU  - Wang, X.Y.\nAU  - Zhou, L.\nT2  - Tong YQ, et al. Early Transmission\nER  - \n\nTY  - BOOK\nUR  - https://doi.org/10.1056/NEJMoa2001316\nPB  - PMID: 31995857\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rothe, C.\nAU  - Schunk, M.\nAU  - Sothmann, P.\nAU  - Bretzel, G.\nAU  - Froeschl, G.\nAU  - Wallrauch, C.\nTI  - Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany\nT2  - N Engl J Med\nVL  - 2020\nUR  - https://doi.org/10.1056/NEJMc2001468\nPB  - PMID: 32003551\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yoo, J.H.\nTI  - The Fight against the 2019-nCoV Outbreak: an Arduous March Has Just Begun\nT2  - J Korean Med Sci\nVL  - 2020\nSP  - 56\nUR  - https://doi.org/10.3346/jkms.2020.35.e56\nIS  - 35\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lipsitch, M.\nAU  - Cohen, T.\nAU  - Cooper, B.\nAU  - Robins, J.M.\nAU  - Ma, S.\nAU  - James, L.\nTI  - Transmission dynamics and control of severe acute respiratory syndrome\nT2  - Science\nPY  - 2003\nDA  - 2003\nVL  - 300\nSP  - 1966\nEP  - 70\nUR  - https://doi.org/10.1126/science.1086616\nN1  - PMID: 12766207\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Carlos, W.G.\nAU  - Dela Cruz, C.S.\nAU  - Cao, B.\nAU  - Pasnick, S.\nAU  - Jamil, S.\nTI  - Novel Wuhan\nPY  - 2019\nDA  - 2019\nT2  - Am J Respir Crit Care Med\nVL  - 2020\nUR  - https://doi.org/10.1164/rccm.2014P7\nT2  - Coronavirus\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study\nT2  - Lancet\nVL  - 2020\nUR  - https://doi.org/10.1016/S0140-6736\nLA  - \nER  - \n\nTY  - GEN\nAU  - Cohen, J.\nTI  - Chinese researchers reveal draft genome of virus implicated in Wuhan pneumonia outbreak. American Association for the Advancement of Science\nPY  - 2020\nDA  - 2020/01/11\nLA  - \nC1  - [Cited 2020 February 12].\nER  - \n\nTY  - GEN\nUR  - https://www.sciencemag.org/news/2020/01/chinese-researchers-reveal-draft-ge\nER  - \n\nTY  - GEN\nAU  - Cohen, J.\nTI  - Mining coronavirus genomes for clues to the outbreak\u2019s origins\nPY  - 2013\nDA  - 2013/10/05\nPB  - Database: GISAID\nC1  - Internet\nUR  - https://www.sciencemag.org/news/2020/01/mining-coronavirus-genomes-clues-outbr\nLA  - \nCY  - cited\nC1  - Available from:\nER  - \n\nTY  - GEN\nAU  - Zhou, P.\nAU  - Yang, X.L.\nAU  - Wang, X.G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nTI  - Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin. bioRxiv. 2020\nUR  - https://doi.org/\nVL  - 10\nC1  - true\nIS  - 1101/2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ji, W.\nAU  - Wang, W.\nAU  - Zhao, X.F.\nAU  - Zai, J.J.\nAU  - Li, X.G.\nTI  - Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission from snake to human\nT2  - J Med Virol\nVL  - 2020\nUR  - https://doi.org/10.1002/jmv.25682\nPY  - 2020\nDA  - 2020\nN1  - PMID: 31967321\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Lu, H.Z.\nTI  - Drug treatment options for the 2019-new coronavirus\nPY  - 2019\nDA  - 2019\nUR  - https://doi.org/10.5582/bst.2020.01020\nPB  - PMID: 31996494\nT2  - Biosci Trends. 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Jung, S.M.\nAU  - Linton, N.M.\nAU  - Kinoshita, R.\nAU  - Yang, Y.\nAU  - Hayashi, K.\nTI  - The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020\nT2  - J Clin Med\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nUR  - https://doi.org/10.3390/jcm9020330\nPB  - PMID: 31991628\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Key parameters and results in Wuhan prediction model"
+            },
+            {
+                "id": "2",
+                "caption": "Key parameters and results in Hubei (except Wuhan) prediction model"
+            },
+            {
+                "id": "3",
+                "caption": "Key parameters and results in China (except Hubei) prediction model"
+            }
+        ],
+        "figure_captions": [],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.16.20023770.full.xlsx"
+    },
+    "sections": {
+        "objective": [
+            "To reconstruct the transmission trajectory of SARS-COV-2 and analyze the effects of control measures in China."
+        ],
+        "methods": [
+            "Python 3.7.1 was used to write a SEIR class to model the epidemic procedure and a back propagation class to estimate the initial true infected number. The epidemic area in China was divided into three parts, Wuhan city, Hubei province (except Wuhan) and China (except Hubei) based on the different transmission pattern. A limitation factor for the medical resource was imposed to model the infected but not quarantined. Credible data source from Baidu Qianxi were used to assess the number of infected cases migrated from Wuhan to other areas.",
+            "Our methodology was mainly based on the Susceptible-Exposed-Infected-Removed (SEIR) model, which is a very popular method where there is a considerable post-infection incubation period. The epidemic area was divided into three parts, Wuhan, Hubei (except<br/><br/>Wuhan) and China (except Hubei) based on the different transmission pattern. A limitation factor for the medical resource was imposed to model the infected but not quarantined especially in the early stage. A back propagation model was used to estimate the number of potential infections which is much larger than the official number announced.<br/><br/>propagation class to estimate the initial true infected number.<br/><br/>Susceptible-Exposed-Infected-Removed model<br/><br/>The classical SEIR models the number of people in the four state: susceptible (S), exposed (E), infected (I) and removed (R). The parameter beta controls how fast people move from S to E, and it is the product k and b where k stands for an average number of people of one infected person contact per day and b stands for the probability of infection."
+        ],
+        "results": [
+            "Basic reproduction number, R0, was 3.6 in the very early stage. The true infected number was 4508 in our model in Wuhan before January 22, 2020. By January 22 2020, it was estimated that 1764 infected cases migrated from Wuhan to other cities in Hubei province.<br/><br/>Effective reproductive number, R, gradually decreased from 3.6 (Wuhan, stage 1), 3.4<br/><br/>(Hubei except Wuhan, stage 1) and 3.3 (China except Hubei, stage 1) to 0.67 (Wuhan, stage 4), 0.83 (Hubei except Wuhan, stage 2) and 0.63 (China except Hubei, stage 2), respectively. Especially after January 23, 2020 when Wuhan City was closed, the infected number showed a turning point in Wuhan. By early April, there would be 42073, 21342 and 13384 infected cases in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively, and there would be 2179, 633 and 107 death in Wuhan, Hubei (except"
+        ],
+        "conclusion": [
+            "A series of control measures in China have effectively prevented the spread of COVID-19, and the epidemic will end in early April.<br/><br/>Keywords: COVID-19, SARS-COV-2, 2019-nCOV, Basic reproduction number, Effective reproductive number, control measure"
+        ],
+        "introduction": [
+            "On December 31, 2019, Hubei Provincial Health Commission announced the discovery of some clusters of pneumonia without definite cause [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. Sequences of 2 complete viral genomes of 29.8 kilobases (HKU-SZ-002a and HKU-SZ-005b) obtained from 2 patients with the pneumonia were identified, and a novel lineage B coronavirus closely related to bat SARS-like bat-SL-CoVZXC21 (NCBI accession number MG772934) and bat-SL-CoVZC45 (NCBI accession number MG772933) was revealed [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. World Health<br/><br/>Organization (WHO) temporarily named the novel coronavirus as 2019-nCoV, and recommended that the novel coronavirus infected pneumonia be named 2019-nCoV acute respiratory disease. On Feb 11, 2020, WHO announced that 2019-nCoV infection has finally been given an official name COVID-19, and the Coronavirus Study Group (CSG) of the International Committee on Taxonomy of Viruses had named 2019-nCoV severe acute respiratory syndrome-related coronavirus 2, or SARS-CoV-2 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. It is believed that human infection with SARS-COV-2 first occurred in Wuhan on November 9,<br/><br/>(95% credible interval: 25 September 2019 and 19 December 2019) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. 27 cases were initially reported, and 41 cases were reported by January 11, 2020, including 7 severe cases and 1 death [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].<br/><br/>SARS-COV-2 infected patients typically clinically manifested as fever, respiratory symptoms (cough, breathing difficulties); radiographic ground-glass lung changes; normal or below-average white blood cell, lymphocytes and platelet counts; hypoxemia; and liver and kidney dysfunction. It is reported that 5 / 41 cases can be combined with viral heart damage [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and SARS-COV-2 infected patients can have gastrointestinal symptoms [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]."
+        ],
+        "discussion": [
+            "Although COVID-19 also has gastrointestinal symptom and viral heart damage, it mainly causes SARS-COV-2 infected pneumonia [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. SARS-COV-2 infected patients have reported respiratory illness with fever, cough and shortness of breath, and there is no vaccine to prevent COVID-19 [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. American Centers for Disease Control and Prevention (CDC) combined epidemiologic risks ( Travel from Wuhan City, close contact with a person who is under investigation for COVID-19 while that person was ill or close contact with an ill laboratory confirmed COVID-19 patient in the last 14 days before illness onset) and clinical features (fever, symptoms of lower respiratory illness) to diagnose suspected<br/><br/>COVID-19 [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. The definite diagnosis of COVID-19 can be make if the 344bp<br/><br/>RNA-dependent RNA poly-merase (RdRp) gene related to severe acute respiratory syndrome (SARS) and 158bp spike (s) gene specific to SARS-COV-2 were detected by real-time reverse-transcription\u2013polymerasechain-reaction (RT-PCR) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], or if two targets (open reading frame 1a or 1b, nucleocapsid protein) were detected by RT-PCR [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].<br/><br/>Diagnostic criteria of COVID-19 of the Chinese Center for Disease Control and Prevention (CDC) is as follow. Suspected or probable cases are defined as cases that meet: (1) three clinical standards or (2) two clinical standards and one epidemiological criteria. Clinical criteria are: fever; radiographic evidence of pneumonia or acute respiratory distress syndrome; low or normal white blood cell count, or low lymphocyte count. Epidemiological criteria are: living in Wuhan or have a history of travel to Wuhan within 14 days before the onset of symptoms; contact with patients with fever and respiratory infection symptoms within 14 days before the onset of symptoms; and a link to any confirmed cases or clusters of suspected cases [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. For the first case in a province, a confirmed case is defined as a suspected or probable case with positive viral nucleic acid detected at the municipal and provincial CDC. For the second case and all subsequent cases, it is defined as suspected or probable cases with positive viral nucleic acid detected at the municipal"
+        ],
+        "acknowledgments": [
+            "None<br/><br/>Author Contributions<br/><br/>Conceptualization: Bo Zhang, Hongwei Zhou.<br/><br/>Data curation: Bo Zhang, Fang Zhou.<br/><br/>Formal analysis: Bo Zhang, Hongwei Zhou, Fang Zhou."
+        ],
+        "methodology": [
+            "Bo Zhang, Hongwei Zhou, Fang Zhou.<br/><br/>Supervision: Hongwei Zhou, Fang Zhou.<br/><br/>Validation: Hongwei Zhou, Fang Zhou.<br/><br/>Writing \u2013 original draft: Bo Zhang, Hongwei Zhou.<br/><br/>Writing \u2013 review & editing: Fang Zhou."
+        ],
+        "data_availability": [
+            "Data Availability Statement All relevant data are within the manuscript."
+        ],
+        "disclosures": [
+            "The authors have declared that no competing interests exist."
+        ],
+        "funding": [
+            "The author(s) received no specific funding for this work."
+        ],
+        "limitations": [
+            "There were some limitations in this study, first the migrate data in the model was from"
+        ]
+    },
+    "structured_content": {
+        "Objective": [
+            "To reconstruct the transmission trajectory of SARS-COV-2 and analyze the effects of control measures in China."
+        ],
+        "Methods": [
+            "Python 3.7.1 was used to write a SEIR class to model the epidemic procedure and a back propagation class to estimate the initial true infected number. The epidemic area in China was divided into three parts, Wuhan city, Hubei province (except Wuhan) and China (except Hubei) based on the different transmission pattern. A limitation factor for the medical resource was imposed to model the infected but not quarantined. Credible data source from Baidu Qianxi were used to assess the number of infected cases migrated from Wuhan to other areas."
+        ],
+        "Results": [
+            "Basic reproduction number, R0, was 3.6 in the very early stage. The true infected number was 4508 in our model in Wuhan before January 22, 2020. By January 22 2020, it was estimated that 1764 infected cases migrated from Wuhan to other cities in Hubei province.",
+            "Effective reproductive number, R, gradually decreased from 3.6 (Wuhan, stage 1), 3.4",
+            "(Hubei except Wuhan, stage 1) and 3.3 (China except Hubei, stage 1) to 0.67 (Wuhan, stage 4), 0.83 (Hubei except Wuhan, stage 2) and 0.63 (China except Hubei, stage 2), respectively. Especially after January 23, 2020 when Wuhan City was closed, the infected number showed a turning point in Wuhan. By early April, there would be 42073, 21342 and 13384 infected cases in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively, and there would be 2179, 633 and 107 death in Wuhan, Hubei (except",
+            "Wuhan) and China (except Hubei) respectively."
+        ],
+        "Conclusion": [
+            "A series of control measures in China have effectively prevented the spread of COVID-19, and the epidemic will end in early April.",
+            "Keywords: COVID-19, SARS-COV-2, 2019-nCOV, Basic reproduction number, Effective reproductive number, control measure"
+        ],
+        "Introduction": [
+            "On December 31, 2019, Hubei Provincial Health Commission announced the discovery of some clusters of pneumonia without definite cause [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. Sequences of 2 complete viral genomes of 29.8 kilobases (HKU-SZ-002a and HKU-SZ-005b) obtained from 2 patients with the pneumonia were identified, and a novel lineage B coronavirus closely related to bat SARS-like bat-SL-CoVZXC21 (NCBI accession number MG772934) and bat-SL-CoVZC45 (NCBI accession number MG772933) was revealed [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. World Health",
+            "Organization (WHO) temporarily named the novel coronavirus as 2019-nCoV, and recommended that the novel coronavirus infected pneumonia be named 2019-nCoV acute respiratory disease. On Feb 11, 2020, WHO announced that 2019-nCoV infection has finally been given an official name COVID-19, and the Coronavirus Study Group (CSG) of the International Committee on Taxonomy of Viruses had named 2019-nCoV severe acute respiratory syndrome-related coronavirus 2, or SARS-CoV-2 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. It is believed that human infection with SARS-COV-2 first occurred in Wuhan on November 9,",
+            "(95% credible interval: 25 September 2019 and 19 December 2019) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. 27 cases were initially reported, and 41 cases were reported by January 11, 2020, including 7 severe cases and 1 death [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "SARS-COV-2 infected patients typically clinically manifested as fever, respiratory symptoms (cough, breathing difficulties); radiographic ground-glass lung changes; normal or below-average white blood cell, lymphocytes and platelet counts; hypoxemia; and liver and kidney dysfunction. It is reported that 5 / 41 cases can be combined with viral heart damage [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and SARS-COV-2 infected patients can have gastrointestinal symptoms [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+            "Some of the initial cases are geographically related to the Huanan Seafood Wholesale",
+            "Market [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. On January 24, 2020, Chan JF et al reported the existence of human-to-human transmission of SARS-COV-2 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. The initial 425 reported cases included a total of 16 cases in 5 clusters as of mid-December, and some cases were found to have no apparent history of exposure [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. In addition, a case of asymptomatic contact infection was reported by German researchers, first confirming that the latent cases can be contagious [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>].",
+            "In the early stage of COVID-19 outbreak, the mean double time was estimated to be 7.4 days (95% confidence interval: 4.2 to 14); the basic reproductive number R0 was estimated to be 2.2 (95% confidence interval: 1.4 to 3.9); the mean incubation period was estimated to be 5.2 days (95% confidence interval: 4.1 to 7.0); and the mean serial interval was estimated to be 7.5 \u00b1 3.4 days (95% confidence interval: 5.3 to 19) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. By",
+            "January 29, 2020, the mortality rate of COVID-19 is about 2.1%, similar to the overall figures currently available [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "The spread of infectious diseases is affected by various practical situations. When epidemic prevention measures (e.g. isolation, blockades, etc.) are taken, infectious diseases cannot spread under ideal circumstances. The effective reproductive number, R, refers to the number of secondary cases infected by one infected case during the actual spread of an infectious disease. In the absence of control measures, R=R0x, where x refers to the proportion of susceptible people. In the process of an infectious disease transmission, R will be reduced due to the implementation of special control measures and the reduction of the number of susceptible population [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. After the outbreak of",
+            "COVID-19, the Chinese government and people moved quickly to take measures to control the sources of infection and block the routes of transmission, and the spread of the epidemic was effectively curbed. Meanwhile the lack of proper diagnosis tools, the focus on the more severe cases or the overcrowding of hospitals make the reporting rate may be significantly lower in Wuhan city rather than elsewhere. In this study, mainly base on the Susceptible-Exposed-Infected-Removed (SEIR) model, we have studied the transmission dynamics of COVID-2019 under various practical situations. In this study, we divided the epidemic area into three parts, imposed the limitation factor of medical resource to model the infected but not quarantined especially in the early stage, and used a back propagation model to estimate the number of potential infections which is much larger than the official number announced. We strived to reconstruct the transmission trajectory of SARS-COV-2 in China and analyze the effects of China's control measures."
+        ],
+        "Materials and Methods": [
+            "Our methodology was mainly based on the Susceptible-Exposed-Infected-Removed (SEIR) model, which is a very popular method where there is a considerable post-infection incubation period. The epidemic area was divided into three parts, Wuhan, Hubei (except",
+            "Wuhan) and China (except Hubei) based on the different transmission pattern. A limitation factor for the medical resource was imposed to model the infected but not quarantined especially in the early stage. A back propagation model was used to estimate the number of potential infections which is much larger than the official number announced.",
+            "propagation class to estimate the initial true infected number.",
+            "The classical SEIR models the number of people in the four state: susceptible (S), exposed (E), infected (I) and removed (R). The parameter beta controls how fast people move from S to E, and it is the product k and b where k stands for an average number of people of one infected person contact per day and b stands for the probability of infection.",
+            "The k has a big impact to the number of infected and government takes various measures to cut down the parameter k. The sigma controls the speed from state E to state I, and gamma for state I to state R. The dynamic procedure of epidemic can be described by the following equation: In our model we replaced the models the max capability of medical resource that can be isolated timely. In the early stage, we assumed a very low limitation factor and many infected people could not be by where we call it limitation factor that isolated timely or diagnosed and still infect others.",
+            "The model is highly dependent on the initial values of S, E, I, R and other parameters, and to get better parameters is the key to have better results. We know that the true E group number is often been underestimated especially in the early stage. In this study, we used a back propagation method and the population out of Wuhan to estimate the true number of E group. The January 23, 2020 is a big milestone in this outbreak and government takes no major control actions before that day in Wuhan, and about 5 million people left",
+            "Wuhan according to government press conference and a more concrete and credible data source from Baidu (https://qianxi.baidu.com/) shows that about 400 thousand people migrated into 8 provinces from Wuhan. We marked the 400 thousand number as M.",
+            "Although there have been several reports of incubation time, there is no exact conclusion.",
+            "And the diagnosis time may be about 3 days later than the onset time. We assumed that incubation period could be 7 days and 3 days more needed to diagnosis which means the duration from E to I could be 10 days. We collected 1568 infected number of these 8 provinces between January 23, 2020 to January 30, 2020 and then marked as m because of an average incubation of 7 days.",
+            "Baidu data shows that about 90% population left Wuhan flowed into other cities in Hubei, so the other cities in Hubei is the major areas except Wuhan. We use the same back propagation method above but with different parameters to get the initial true infected number of Hubei (except Wuhan).",
+            "We could estimate the true infected number in Wuhan at January 22, 2020 might be 4508 by the formula of statistics), which is much larger than the official announced 425. Then we could estimate the basic reproduction number (R0) could be 3.6 in the very early stage without control measures.",
+            "The epidemic started from Wuhan and showed four significantly different stages (Fig 1).",
+            "Stage 1 starts from December 8, 2019 to January 22, 2020. The true infected number was much more than official announced and could be 4508 in our model. These infected people were not treated effectively and isolated, which led to rapid spread of the epidemic.",
+            "In the second stage, Wuhan was completely closed from January 23, 2020. The infected number growth curve had changed from exponential to nearly linear. In the third stage, the infected number showed a turning point and started to decline gradually. The last stage started from February 13, 2020, the infected number declined rapidly. Finally, the epidemic ended in early April, and there would be 42073 (95% confidence interval, 41673 to 42475) infected and 2179 (95% confidence interval, 2088 to 2270) death in Wuhan.",
+            "Key parameters and results in Wuhan prediction model were shown in table 1.",
+            "The epidemic in Hubei (except Wuhan) showed three significantly different stages (Fig 2).",
+            "According to the official announcement, about 5 million people left Wuhan from January",
+            "10, 2020 to January 22 2020, it means about 4.5 million people migrated into Hubei and about 1764 infected among them we estimated. In stage 1, the infected number increased exponentially. In stage 2, the added infected number reached the peak. In stage 3, the added infected number decreased significantly. Finally, there would be 21342 (95%",
+            "confidence interval, 21057 to 21629) infected and 633 (95% confidence interval, 585 to",
+            "683) death in Hubei (except Wuhan).",
+            "Fig. 2 the predict number of infected and death in Hubei (except Wuhan) in the three stages",
+            "Key parameters and results in Hubei (except Wuhan) prediction model were shown in table 2.",
+            "The epidemic transmission process could be divided into two stages (Fig. 3). In Stage one (from January 23, 2020 to February 3, 2020), the infected number increased rapidly. In stage two (from February 4), the infected number got its peek around February 3, 2020. It was estimated that the total infected and death number in China (except Hubei) could be (95% confidence interval, 13158 to 13612) and 107 (95% confidence interval, 87 to",
+            "128).",
+            "Fig. 3 the predict number of infected and death in China (except Hubei) in the two stages",
+            "Key parameters and results in China (except Hubei) prediction model were shown in table"
+        ],
+        "Discussion": [
+            "Although COVID-19 also has gastrointestinal symptom and viral heart damage, it mainly causes SARS-COV-2 infected pneumonia [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. SARS-COV-2 infected patients have reported respiratory illness with fever, cough and shortness of breath, and there is no vaccine to prevent COVID-19 [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. American Centers for Disease Control and Prevention (CDC) combined epidemiologic risks ( Travel from Wuhan City, close contact with a person who is under investigation for COVID-19 while that person was ill or close contact with an ill laboratory confirmed COVID-19 patient in the last 14 days before illness onset) and clinical features (fever, symptoms of lower respiratory illness) to diagnose suspected",
+            "RNA-dependent RNA poly-merase (RdRp) gene related to severe acute respiratory syndrome (SARS) and 158bp spike (s) gene specific to SARS-COV-2 were detected by real-time reverse-transcription\u2013polymerasechain-reaction (RT-PCR) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], or if two targets (open reading frame 1a or 1b, nucleocapsid protein) were detected by RT-PCR [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+            "Diagnostic criteria of COVID-19 of the Chinese Center for Disease Control and Prevention (CDC) is as follow. Suspected or probable cases are defined as cases that meet: (1) three clinical standards or (2) two clinical standards and one epidemiological criteria. Clinical criteria are: fever; radiographic evidence of pneumonia or acute respiratory distress syndrome; low or normal white blood cell count, or low lymphocyte count. Epidemiological criteria are: living in Wuhan or have a history of travel to Wuhan within 14 days before the onset of symptoms; contact with patients with fever and respiratory infection symptoms within 14 days before the onset of symptoms; and a link to any confirmed cases or clusters of suspected cases [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. For the first case in a province, a confirmed case is defined as a suspected or probable case with positive viral nucleic acid detected at the municipal and provincial CDC. For the second case and all subsequent cases, it is defined as suspected or probable cases with positive viral nucleic acid detected at the municipal",
+            "CDC [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>].",
+            "SARS-COV-2 is a novel virus previously unknown. Numerous studies have revealed its genetic sequence and source. A team led by Professor Zhang YZ from Shanghai Public",
+            "Health Clinical Center released the first SARS-COV-2 gene sequence on the website of viral.org on January 11, 2020 [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. On January 12, 2020, five other virus genome sequences from different patients were released by the National Health Commission (NHC) of the People's Republic of China in Global Initiative of Sharing All Influenza Data (GISAID), a global shared influenza virus database [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. As of January 19, 2020, GISAID (http://gisaid.org/) has released 13 SARS-COV-2 genome sequences. One virus strain (Virus name: BetaCoV/Wuhan-Hu-1/2019; Accession ID: EPI_ISL_402125) has been released on GenBank (https://www.ncbi.nlm.nih.gov/nuccore/MN908947) by the",
+            "Shanghai Public Health Clinical Center. Meanwhile, Chan JF et al Constructed phylogenetic trees by genetic analysis of RdRp and S gene sequences of PCR amplified fragments from five patients, and revealed that SARS-COV-2 is closely related to bat",
+            "SARS-like bat-SL-CoVZC45 (NCBI accession number MG772933) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. On January 23, 2020, a team led by Shi ZL form Wuhan Institute of Virology published an article revealed that genome of SARS-COV-2 has 96.2% similarity compared to that of RaTG13, a bat coronavirus bat-SL-CoVZXC21",
+            "and previously detected on the Rhinolophus sinicus in Yunnan province and 79.5% similarity compared to that of SARS coronavirus [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. And one study has suggested that the intermediate host of SARS-COV-2 may be snake [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+            "It was suggested that human-to-human transmission may have occurred in Wuhan in the early stage of outbreak. Based on the data analysis of COVID-19 incidence in Wuhan from December 10, 2019 to January 4, 2020, it was shown that although most of the early",
+            "COVID-19 had a history of Huanan Seafood Wholesale Market exposure, since the end of",
+            "December 2019, the number of cases without a history of exposure had grown exponentially [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. And from January 13, 2020 when Wuhan officially announced the outbreak of COVID-19 to January 21, 2020, the sudden decrease in the number of cases should be due to the underestimation of the number of cases and the delay in the confirmation report [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Several studies have estimated the transmission dynamics parameters of COVID-19. In the early stage of COVID-19 outbreak, basic reproductive number R0 was estimated to be 2.2 (95% confidence interval, 1.4 to 3.9) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. Of the 45 people who became ill before 1 January, the average duration from illness onset to first medical visit was 5.8 days (95% confidence interval, 4.3 to 7.5); of the 44 people who became ill before 1 January, the average interval from the disease onset to hospitalization was 12.5 days (95% confidence interval, 10.3 to 14.8) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. A study by the University of",
+            "Hong Kong estimated that the basic reproductive number R0 was 2.68 and the doubling time of the number of cases was 6.4 days [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>].",
+            "In the early stage of COVID-19 outbreak, the medical resources in Wuhan City were in short supply; the hospitals were overcrowded; the number of hospital beds and medical staff is insufficient; the corresponding diagnostic reagents were lacking; and the uniform diagnostic standards were missing. Some people don't pay much attention to COVID-19, and some SARS-COV-2 infected patients with mild illness do not go to hospital. That all made the SARS-COV-2 infected cases could not be accurately diagnosed in time. Local administrators and health management officials were not aware of the severity of the",
+            "SARS-COV-2 epidemic. They were afraid to take responsibility, so they may cover up the number of cases deliberately and report them late. The reporting rate may be significantly lower in Wuhan city in early stage due to previously described reasons. WHO",
+            "Collaborating Centre for Infectious disease modelling estimated that the number of",
+            "(95% confidence interval: 1000-9700) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. The number is much larger than officially announced. Hiroshi Nishiura et al through a study on the number of cases exported from",
+            "Wuhan and the spatial back-calculation method, suggested that by January 24, 2020, the cumulative number of cases in China was about 5502 (95% confidence interval: 3027, 9057) [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. As we all know, the emergence of super-spreaders is very important for the rapid spread of SARS-COV-2 in the early stage. In view of the event of one patient spread the virus to fourteen medical personnel, it is suggested that epidemic super-spreaders were generated in the early stage of virus transmission from animals to humans and in the early stage of transmission outbreak [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. Therefore, in the early transmission stage of",
+            "COVID-19, the number of cases reported by Wuhan officially should be lower than the actual number of cases in Wuhan.",
+            "In this study, we built SEIR models with a medical resource limitation factor that model the maximum number of people could be treated and isolated. We used a back propagation model to estimate the number of potential infections, and divided the epidemic area into three parts, Wuhan, Hubei (except Wuhan) and China (except Hubei) based on the different transmission pattern. In our study, we believed that COVID-19 has a R0 value of",
+            "3.6, the spread of SARS-COV-2 in China was effectively suppressed and the epidemic will end in early April.",
+            "According to the worldwide public reports of various media, Chinese People, governments at all levels have taken active measures to control the spread of COVID-19. According to our research, these measures effectively controlled the spread of COVID-19. The following measures have important reference significances for the control of infectious diseases may occur in the future. On December 31, 2019, the NHC expert group arrived in Wuhan to carry out the relevant testing and verification work. On January 01, 2020, Wuhan City shut down the Huanan Seafood Wholesale Market. On January 07, 2020, the",
+            "NHC expert group initially identified the pathogen in these unexplained cases of viral pneumonia as a novel coronavirus. On January 20, 2020, Chinese government issued important instructions saying that the recent outbreak of pneumonia with novel coronavirus infection in Wuhan City, Hubei Province must be given great attention and all efforts to prevent and control. On January 21, 2020, The NHC issued 2020 No 1",
+            "Proclamation to incorporate the novel coronavirus pneumonia into the Class B infectious diseases and take the prevention and control measures of Class A infectious diseases. At a.m. on January 23, 2020, Wuhan City Bus, Subway, Ferry and Long-distance",
+            "Passenger Transport was suspended, and the airport, railway station to leave Wuhan was temporarily closed. On January 24, 2020, Hubei Province launched the major public health emergency Level I response, and then as of 8 p.m. on January 25, 2020, a total of provinces (regions, cities) in the country launched the major public health emergency",
+            "I-level response. On January 27, 2020, the General Office of the State Council extended the Spring Festival holiday to February 2. On February 4, 2020, the NHC issued the \"",
+            "Guidelines for the Diagnosis and Treatment of Novel Coronavirus (2019-nCoV) Infection by the National Health Commission (Trial Version 5)\". On February 4, 2020, a designated makeshift infirmary named Wuhan Fire God Hill Hospital began to officially receive confirmed cases. On February 8, 2020, another designated makeshift infirmary Thunder",
+            "God Hill Hospital was delivered to receive confirmed cases. On February 5, 2020, three \"mobile field hospitals\" began to be built in Wuhan. By February 8, 2020, central government of China has mobilized some 11000 medical personnel to support Wuhan.",
+            "On February 9, 2020, Wuhan city took measures to try to collect all the suspected cases and confirmed cases of mild illness into the hospital for centralized treatment. On 9",
+            "February 2020, another group of medical personnel of some 6,000 people entered Wuhan to provide medical support.",
+            "Meanwhile, China's scientific research institutions and medical equipment manufacturing enterprises quickly took measures to speed up scientific research and production of medical supplies. Scientific research institutions in China have done a lot of in-depth researches on the source, sequencing of SARS-COV-2, disease transmission dynamics, clinical manifestations, drug treatment, diagnostic standards, diagnostic reagents of",
+            "COVID-19, etc. On January 26, 2020, China food and Drug Administration approved four",
+            "SARS-COV-2 detection products of four companies to fully serve epidemic control needs.",
+            "On February 7, 2020, Chinese SARS-COV-2 test kits daily production number exceeded",
+            "700,000, reaching the maximum production capacity of about 65%. By February 1, 2020, the daily production of medical protective clothing in China has been restored to 20000 pieces.",
+            "In the first stage of SARS-COV-2 transmission in Wuhan, the true number of infections was much higher than the officially announced probably because that people did not know",
+            "COVID-19 is contagious and the local government did not take any control measure. In this stage, the infected cases were not effectively diagnosed, isolated, and treated, which led to rapid transmission of COVID-19. In the second stage, the trend of exponential growth of infection was suddenly controlled. The reason may be that Wuhan city was closed, people got the news that COVID-19 was contagious, and more and more medical resources were put into Wuhan. The medical capacity was still not sufficient to isolate every suspected or confirmed case and many infected people could not been treated or isolated timely. In the third stage, infected number growth curve in Wuhan showed a turning point and a gradual decline, possibly due to the input of medical resources and the strengthening of control measures. In the fourth stage, after February 13, 2020, the number of infected cases decreased rapidly, which is likely due to the substantial investment of medical resources and the strengthening of control measures, including the adoption of the new diagnostic standard \"clinical diagnostic standard\". In the first stage of",
+            "SARS-COV-2 transmission in Hubei (except Wuhan), the infected number increased exponentially should because of the infected people from Wuhan were not all quarantined and the medial resource were not sufficient. In this stage, the central government decided that one other province should support one city in Hubei. In the second stage, nearly all the infected and suspected people were quarantined, the added infected number reached the peak. The epidemic in China (except Hubei) was not so serious because of the sufficient medical resources and strong government control policy. In Stage one (from",
+            "January 23, 2020 to February 3, 2020), the infected cases increased rapidly because of these virus carriers mainly infected his or her family members. In stage two (from",
+            "February 4), most people canceled all their celebration activities and kept staying at home, and it greatly reduced the probability of infection. Anyone migrated from Hubei will be quarantined for at least 14 days. These dramatically reduced exposed number and the infected number got its peek around February 3, 2020.",
+            "The measures have effectively suppressed the spread of COVID-19. The infectious will spread sharply when R is greater than 1 and will gradually disappear when R is less than",
+            "1. Over time, R gradually decreased from 3.6 (Wuhan, stage 1), 3.4 (Hubei except Wuhan, stage 1) and 3.3 (China except Hubei, stage 1) to 0.67 (Wuhan, stage 4), 0.83 (Hubei except Wuhan, stage 2) and 0.63 (China except Hubei, stage 2), respectively. Especially after January 23, 2020 when Wuhan City was closed, the infected number showed a turning point in Wuhan in the next two weeks.",
+            "The outbreak of COVID-19 posed a major challenge to China's Health system. Although the early human-to-human transmissions were described in the scientific literature, the local government of Hubei was not aware of the severity and did not inform the public timely, resulting in the public have no awareness of protection. Meanwhile, more than 5 million people left Wuhan with about 1960 infected among them during this time, and the outbreak spread across the country. At the very early stage of the outbreak of COVID-19, hospitals in Hubei Province had a serious shortage of medical protective equipment in routine reserves, which became the key limitation factor in controlling the outbreak. These defects should be improved in the future.",
+            "On February 12, 2020, the new diagnostic standard \"clinical diagnostic standard\" was adopted in Hubei province. Vast majority of new clinically diagnosed cases were diagnosed from accumulated suspected cases. Clinical diagnosis standard is different from the laboratory diagnosis standard widely used in the world. On February 12, 2020, Health Commission of Hubei Province announced that there were 14840 new confirmed cases in Hubei (including 13,332 clinically diagnosed cases). This does not mean that the epidemic trend has become worse. It is just a reflection of the change of diagnostic standards and the intensification of control measures. Data from Official of Hubei Province on February 12, 2020 were not used in this study, but could be used to evaluate some results of this study.",
+            "There were some limitations in this study, first the migrate data in the model was from",
+            "Baidu Qianxi data set which might not cover all the population migrated. Second, there was no accurate medical resource limitation published especially in Wuhan and we estimated the media limitation by the maximum number of infected announced in the early stage and the added capacity of new hospitals in the later stage."
+        ],
+        "Acknowledgments": [
+            "Conceptualization: Bo Zhang, Hongwei Zhou.",
+            "Data curation: Bo Zhang, Fang Zhou.",
+            "Formal analysis: Bo Zhang, Hongwei Zhou, Fang Zhou.",
+            "Methodology: Bo Zhang, Hongwei Zhou, Fang Zhou.",
+            "Supervision: Hongwei Zhou, Fang Zhou.",
+            "Validation: Hongwei Zhou, Fang Zhou.",
+            "Writing \u2013 original draft: Bo Zhang, Hongwei Zhou.",
+            "Writing \u2013 review & editing: Fang Zhou."
+        ],
+        "References": [
+            "1. Chan JF, Yuan S, Kok KH, To KK, Chu H, Yang J, et al A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: https://doi.org/10.1016/S0140-6736(20)30154-9 PMID: 31986261 a study of a family cluster.",
+            "Lancet.",
+            "2. Martin Enserink. Update: \u2018A bit chaotic.\u2019 Christening of new coronavirus and its disease name create confusion. sciencemag. 2020 Feb 12 [Cited 2020 February 17].",
+            "Available https://www.sciencemag.org/news/2020/02/bit-chaotic-christening-new-coronavirusand-its-disease-name-create-confusion from: 3. Li X, Zai J, Wang X, Li Y. Potential of large 'first generation' human-to-human transmission of 2019-nCoV. J Med Virol. 2020. https://doi.org/10.1002/jmv.25693",
+            "PMID: 31997390",
+            "4. Huang CL, Wang YM, Li XW, Ren LL, Zhao JP, Hu Y, et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020.",
+            "https://doi.org/10.1016/S0140-6736(20)30183-5 PMID: 31986264",
+            "5. Holshue ML, DeBolt C, Lindquist S, Lofy KH, Wiesman J, Bruce H, et al First Case of",
+            "Novel Coronavirus in the United States. N Engl J Med. 2020.",
+            "https://doi.org/10.1056/NEJMoa2001191 PMID: 32004427",
+            "6. Li Q, Guan XH, Wu P, Wang XY, Zhou L, Tong YQ, et al Early Transmission",
+            "Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med.",
+            "2020. https://doi.org/ 10.1056/NEJMoa2001316 PMID: 31995857",
+            "7. Rothe C, Schunk M, Sothmann P, Bretzel G, Froeschl G, Wallrauch C, et al.",
+            "Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany. N",
+            "Engl J Med. 2020. https://doi.org/ 10.1056/NEJMc2001468 PMID: 32003551",
+            "8. Yoo JH. The Fight against the 2019-nCoV Outbreak: an Arduous March Has Just",
+            "Begun. J Korean Med Sci. 2020; 35: e56. https://doi.org/10.3346/jkms.2020.35.e56",
+            "9. Lipsitch M; Cohen T; Cooper B, Robins JM, Ma S, James L, et al Transmission dynamics and control of severe acute respiratory syndrome. Science. 2003; 300: 1966\u201370. https://doi.org/10.1126/science.1086616 PMID: 12766207",
+            "10. Carlos WG, Dela Cruz CS; Cao B, Pasnick S, Jamil S. Novel Wuhan (2019-nCoV)",
+            "Coronavirus. Am J Respir Crit Care Med. 2020. https://doi.org/10.1164/rccm.2014P7",
+            "11. Wu JT; Leung K; Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet. 2020. https://doi.org/10.1016/S0140-6736(20)30260-9",
+            "12. Cohen J. Chinese researchers reveal draft genome of virus implicated in Wuhan pneumonia outbreak. American Association for the Advancement of Science. 2020",
+            "Jan from:https://www.sciencemag.org/news/2020/01/chinese-researchers-reveal-draft-ge nome-virus-implicated-wuhan-pneumonia-outbreak [Cited",
+            "February",
+            "12].",
+            "Available",
+            "13. Cohen J. Mining coronavirus genomes for clues to the outbreak\u2019s origins [cited 2013",
+            "Oct",
+            "5].",
+            "Database: GISAID [Internet].",
+            "Available from: https://www.sciencemag.org/news/2020/01/mining-coronavirus-genomes-clues-outbr eak-s-origins",
+            "14. Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, et al Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin. bioRxiv. 2020. https://doi.org/:10.1101/2020.01.22.914952",
+            "15. Ji W, Wang W, Zhao XF, Zai JJ, Li XG. Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission https://doi.org/10.1002/jmv.25682 (2020) PMID: 31967321 from snake to human.",
+            "J",
+            "Med",
+            "Virol.",
+            "16. Lu HZ. Drug treatment options for the 2019-new coronavirus (2019-nCoV). Biosci",
+            "Trends. 2020. https://doi.org/10.5582/bst.2020.01020 PMID: 31996494",
+            "17. Nishiura H, Jung SM, Linton NM, Kinoshita R, Yang Y, Hayashi K, et al The Extent of",
+            "Transmission of Novel Coronavirus in Wuhan, China, 2020. J Clin Med. 2020.",
+            "https://doi.org/10.3390/jcm9020330 PMID: 31991628",
+            "Data Availability Statement: All relevant data are within the manuscript."
+        ],
+        "Competing interest": [
+            "The authors have declared that no competing interests exist."
+        ],
+        "Funding": [
+            "The author(s) received no specific funding for this work."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "infected cases",
+            "number": 1764,
+            "context": "The true infected number was 4508 in our model in Wuhan before January 22, 2020. <mark class=\"stats\">By January 22 2020, it was estimated that 1764 infected cases migrated from Wuhan to other cities in Hubei province</mark>. Effective reproductive number, R, gradually decreased from 3.6 (Wuhan, stage 1), 3.4 (Hubei except Wuhan, stage 1) and 3.3 (China except Hubei, stage 1) to 0.67 (Wuhan, stage 4), 0.83 (Hubei except Wuhan, stage 2) and 0.63 (China except Hubei, stage 2), respectively"
+        },
+        {
+            "participant": "infected cases",
+            "number": 13384,
+            "context": "Especially after January 23, 2020 when Wuhan City was closed, the infected number showed a turning point in Wuhan. <mark class=\"stats\">By early April, there would be 42073, 21342 and 13384 infected cases in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively, and there would be 2179, 633 and 107 death in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively</mark>. Conclusion"
+        },
+        {
+            "participant": "people",
+            "number": 5000000,
+            "context": "In this study, we used a back propagation method and the population out of Wuhan to estimate the true number of E group. <mark class=\"stats\">The January 23, 2020 is a big milestone in this outbreak and government takes no major control actions before that day in Wuhan, and about 5 million people left</mark>. Wuhan according to government press conference and a more concrete and credible data source from Baidu (https://qianxi.baidu.com/) shows that about 400 thousand people migrated into 8 provinces from Wuhan"
+        },
+        {
+            "participant": "people",
+            "number": 400000,
+            "context": "The January 23, 2020 is a big milestone in this outbreak and government takes no major control actions before that day in Wuhan, and about 5 million people left. <mark class=\"stats\">Wuhan according to government press conference and a more concrete and credible data source from Baidu (https://qianxi.baidu.com/) shows that about 400 thousand people migrated into 8 provinces from Wuhan</mark>. We marked the 400 thousand number as M"
+        },
+        {
+            "participant": "people",
+            "number": 5000000,
+            "context": "The epidemic in Hubei (except Wuhan) showed three significantly different stages (Fig 2). <mark class=\"stats\">According to the official announcement, about 5 million people left Wuhan from January</mark>. 10, 2020 to January 22 2020, it means about 4.5 million people migrated into Hubei and about 1764 infected among them we estimated"
+        },
+        {
+            "participant": "people",
+            "number": 4500000,
+            "context": "According to the official announcement, about 5 million people left Wuhan from January. <mark class=\"stats\">10, 2020 to January 22 2020, it means about 4.5 million people migrated into Hubei and about 1764 infected among them we estimated</mark>. In stage 1, the infected number increased exponentially"
+        },
+        {
+            "participant": "infected cases",
+            "number": 13384,
+            "context": "Results. <mark class=\"stats\">By early April, there would be 42073, 21342 and 13384 infected cases in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively, and there would be 2179, 633 and 107 death in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively</mark>. Conclusion"
+        },
+        {
+            "participant": "infected cases",
+            "number": 13384,
+            "context": "Especially after January 23, 2020 when Wuhan City was closed, the infected number showed a turning point in Wuhan. <mark class=\"stats\">By early April, there would be 42073, 21342 and 13384 infected cases in Wuhan, Hubei (except Wuhan) and China (except Hubei) respectively, and there would be 2179, 633 and 107 death in Wuhan, Hubei (except author/funder, who has granted medRxiv a license to display the preprint in perpetuity</mark>. Wuhan) and China (except Hubei) respectively"
+        },
+        {
+            "participant": "patients with the pneumonia",
+            "number": 2,
+            "context": "Sequences of 2 complete viral author/funder, who has granted medRxiv a license to display the preprint in perpetuity. <mark class=\"stats\">genomes of 29.8 kilobases (HKU-SZ-002a and HKU-SZ-005b) obtained from 2 patients with the pneumonia were identified, and a novel lineage B coronavirus closely related to bat SARS-like bat-SL-CoVZXC21 (NCBI accession number MG772934) and bat-SL-CoVZC45 (NCBI accession number MG772933) was revealed [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]</mark>. World Health"
+        },
+        {
+            "participant": "cases",
+            "number": 27,
+            "context": "severe acute respiratory syndrome-related coronavirus 2, or SARS-CoV-2 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. <mark class=\"stats\">It is believed that human infection with SARS-COV-2 first occurred in Wuhan on November 9, (95% credible interval: 25 September 2019 and 19 December 2019) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. 27 cases were initially reported, and 41 cases were reported by January 11, 2020, including 7 severe cases and 1 death [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]</mark>. SARS-COV-2 infected patients typically clinically manifested as fever, respiratory symptoms (cough, breathing difficulties); radiographic ground-glass lung changes; normal or below-average white blood cell, lymphocytes and platelet counts; hypoxemia; and liver and kidney dysfunction"
+        },
+        {
+            "participant": "cases",
+            "number": 41,
+            "context": "SARS-COV-2 infected patients typically clinically manifested as fever, respiratory symptoms (cough, breathing difficulties); radiographic ground-glass lung changes; normal or below-average white blood cell, lymphocytes and platelet counts; hypoxemia; and liver and kidney dysfunction. <mark class=\"stats\">It is reported that 5 / 41 cases can be combined with viral heart damage [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and SARS-COV-2 infected patients can have gastrointestinal symptoms author/funder, who has granted medRxiv a license to display the preprint in perpetuity</mark>. Some of the initial cases are geographically related to the Huanan Seafood Wholesale"
+        },
+        {
+            "participant": "reported cases",
+            "number": 425,
+            "context": "On January 24, 2020, Chan JF et al reported the existence of human-to-human transmission of SARS-COV-2 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. <mark class=\"stats\">The initial 425 reported cases included a total of 16 cases in 5 clusters as of mid-December, and some cases were found to have no apparent history of exposure [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]</mark>. In addition, a case of asymptomatic contact infection was reported by German researchers, first confirming that the latent cases can be contagious [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]"
+        },
+        {
+            "participant": "people",
+            "number": 5000000,
+            "context": "The epidemic in Hubei (except Wuhan) showed three significantly different stages (Fig 2). <mark class=\"stats\">According to the official announcement, about 5 million people left Wuhan from January author/funder, who has granted medRxiv a license to display the preprint in perpetuity</mark>. 10, 2020 to January 22 2020, it means about 4.5 million people migrated into Hubei and about 1764 infected among them we estimated"
+        },
+        {
+            "participant": "people",
+            "number": 4500000,
+            "context": "According to the official announcement, about 5 million people left Wuhan from January author/funder, who has granted medRxiv a license to display the preprint in perpetuity. <mark class=\"stats\">10, 2020 to January 22 2020, it means about 4.5 million people migrated into Hubei and about 1764 infected among them we estimated</mark>. In stage 1, the infected number increased exponentially"
+        },
+        {
+            "participant": "patients",
+            "number": 5,
+            "context": "Shanghai Public Health Clinical Center. <mark class=\"stats\">Meanwhile, Chan JF et al Constructed phylogenetic trees by genetic analysis of RdRp and S gene sequences of PCR amplified fragments from five patients, and revealed that SARS-COV-2 is closely related to bat</mark>. SARS-like bat-SL-CoVZC45 (NCBI accession number MG772933) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]"
+        },
+        {
+            "participant": "people",
+            "number": 45,
+            "context": "In the early stage of COVID-19 outbreak, basic reproductive number R0 was estimated to be 2.2 (95% confidence interval, 1.4 to 3.9) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. <mark class=\"stats\">Of the 45 people who became ill before 1 January, the average duration from illness onset to first medical visit was 5.8 days (95% confidence interval, 4.3 to 7.5); of the 44 people who became ill before 1 January, the average interval from the disease onset to hospitalization was 12.5 days (95% confidence interval, 10.3 to 14.8) [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]</mark>. A study by the University of"
+        },
+        {
+            "participant": "people",
+            "number": 6000,
+            "context": "On 9. <mark class=\"stats\">February 2020, another group of medical personnel of some 6,000 people entered Wuhan to provide medical support</mark>. Meanwhile, China's scientific research institutions and medical equipment manufacturing author/funder, who has granted medRxiv a license to display the preprint in perpetuity"
+        },
+        {
+            "participant": "people",
+            "number": 5000000,
+            "context": "Although the early human-to-human transmissions were described in the scientific literature, the local government of Hubei was not aware of the severity and did not inform the public timely, resulting in the public have no awareness of protection. <mark class=\"stats\">Meanwhile, more than 5 million people left Wuhan with about 1960 infected among them during this time, and the outbreak spread across the country</mark>. At the very early stage of the outbreak of COVID-19, hospitals in Hubei Province had a serious shortage of medical protective equipment in routine reserves, which became the key limitation factor in controlling the outbreak"
+        },
+        {
+            "participant": "new confirmed cases",
+            "number": 14840,
+            "context": "Clinical diagnosis standard is different from the laboratory diagnosis standard widely used in the world. <mark class=\"stats\">On February 12, 2020, Health Commission of Hubei Province announced that there were 14840 new confirmed cases in Hubei (including 13,332 clinically diagnosed cases)</mark>. This does not mean that the epidemic trend has become worse"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">A back propagation model was used to estimate the number of potential infections which is much larger than the official number announced.<br/><br/>propagation class to estimate the initial true infected number.<br/><br/>Susceptible-Exposed-Infected-Removed model<br/><br/>The classical SEIR models the number of people in the four state: susceptible (S), exposed (E), infected (I) and removed (R)</mark>",
+                "tests": [
+                    {
+                        "test": "Susceptible-Exposed-Infected-Removed model"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "infected case",
+        "wuhan city",
+        "Coronavirus Study Group",
+        "2019-nCOV",
+        "severe acute respiratory syndrome",
+        "Effective 76 reproductive number",
+        "infected number",
+        "coronavirus",
+        "control measure",
+        "Basic reproduction number",
+        "Infectious disease",
+        "COVID-19",
+        "COV-2",
+        "Centers for Disease Control and Prevention",
+        "viral nucleic",
+        "National Health Commission",
+        "Rhinolophus sinicus",
+        "RNA-dependent RNA poly-merase",
+        "novel coronavirus",
+        "SARS-COV-2",
+        "sars cov",
+        "World HealthOrganization",
+        "epidemiological criteria",
+        "basic reproduction",
+        "pneumonia",
+        "Global Initiative of Sharing All Influenza Data"
+    ],
+    "keyword_relevance": {
+        "severe acute respiratory syndrome": 0.15352697095435686,
+        "COVID-19": 0.12863070539419086,
+        "COV-2": 0.12033195020746888,
+        "SARS-COV-2": 0.12033195020746888,
+        "infected number": 0.08713692946058091,
+        "coronavirus": 0.07468879668049792,
+        "control measure": 0.058091286307053944,
+        "pneumonia": 0.04979253112033195,
+        "infected case": 0.03734439834024896,
+        "novel coronavirus": 0.03319502074688797,
+        "National Health Commission": 0.029045643153526972,
+        "Centers for Disease Control and Prevention": 0.02074688796680498,
+        "Global Initiative of Sharing All Influenza Data": 0.016597510373443983,
+        "RNA-dependent RNA poly-merase": 0.012448132780082987,
+        "World HealthOrganization": 0.012448132780082987,
+        "Coronavirus Study Group": 0.008298755186721992,
+        "Basic reproduction number": 0.008298755186721992,
+        "viral nucleic": 0.008298755186721992,
+        "2019-nCOV": 0.004149377593360996,
+        "Infectious disease": 0.004149377593360996,
+        "Rhinolophus sinicus": 0.004149377593360996,
+        "epidemiological criteria": 0.004149377593360996,
+        "basic reproduction": 0.004149377593360996,
+        "wuhan city": 0.0,
+        "Effective 76 reproductive number": 0.0,
+        "sars cov": 0.0
+    },
+    "species": [
+        "Rhinolophus sinicus"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> On December 31, 2019, Hubei Provincial Health Commission announced the discovery of some clusters of pneumonia without definite cause [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "Organization (WHO) temporarily named the novel coronavirus as 2019-nCoV, and recommended that the novel coronavirus infected pneumonia be named 2019-nCoV acute respiratory disease.",
+        "On Feb 11, 2020, WHO announced that 2019-nCoV infection has been given an official name COVID-19, and the Coronavirus Study Group (CSG) of the International Committee on Taxonomy of Viruses had named 2019-nCoV severe acute respiratory syndrome-related coronavirus 2, or SARS-CoV-2 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "It is reported that 5 / 41 cases can be combined with viral heart damage [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and SARS-COV-2 infected patients can have gastrointestinal symptoms [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]",
+        "<h2 style=\"display: inline\">Methods:</h2> Python 3.7.1 was used to write a SEIR class to model the epidemic procedure and a back propagation class to estimate the initial true infected number.",
+        "The epidemic area in China was divided into three parts, Wuhan city, Hubei province and China based on the different transmission pattern.",
+        "A limitation factor for the medical resource was imposed to model the infected but not quarantined.",
+        "The epidemic area was divided into three parts, Wuhan, Hubei and China based on the different transmission pattern.",
+        "The parameter beta controls how fast people move from S to E, and it is the product k and b where k stands for an average number of people of one infected person contact per day and b stands for the probability of infection",
+        "<h2 style=\"display: inline\">Results:</h2> R0, was 3.6 in the very early stage.",
+        "By January 22 2020, it was estimated that 1764 infected cases migrated from Wuhan to other cities in Hubei province.",
+        "After January 23, 2020 when Wuhan City was closed, the infected number showed a turning point in Wuhan.",
+        "By early April, there would be 42073, 21342 and 13384 infected cases in Wuhan, Hubei and China respectively, and there would be 2179, 633 and 107 death in Wuhan, Hubei (except",
+        "<h2 style=\"display: inline\">Conclusion:</h2> COVID-19 has gastrointestinal symptom and viral heart damage, it mainly causes SARS-COV-2 infected pneumonia [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>].",
+        "For the first case in a province, a confirmed case is defined as a suspected or probable case with positive viral nucleic acid detected at the municipal and provincial CDC.",
+        "For the second case and all subsequent cases, it is defined as suspected or probable cases with positive viral nucleic acid detected at the municipalA series of control measures in China have effectively prevented the spread of COVID-19, and the epidemic will end in early April"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "On December 31, 2019, Hubei Provincial Health Commission announced the discovery of some clusters of pneumonia without definite cause [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "Organization (WHO) temporarily named the novel coronavirus as 2019-nCoV, and recommended that the novel coronavirus infected pneumonia be named 2019-nCoV acute respiratory disease.",
+            "On Feb 11, 2020, WHO announced that 2019-nCoV infection has been given an official name COVID-19, and the Coronavirus Study Group (CSG) of the International Committee on Taxonomy of Viruses had named 2019-nCoV severe acute respiratory syndrome-related coronavirus 2, or SARS-CoV-2 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "It is reported that 5 / 41 cases can be combined with viral heart damage [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and SARS-COV-2 infected patients can have gastrointestinal symptoms [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]"
+        ],
+        "Methods": [
+            "Python 3.7.1 was used to write a SEIR class to model the epidemic procedure and a back propagation class to estimate the initial true infected number.",
+            "The epidemic area in China was divided into three parts, Wuhan city, Hubei province and China based on the different transmission pattern.",
+            "A limitation factor for the medical resource was imposed to model the infected but not quarantined.",
+            "The epidemic area was divided into three parts, Wuhan, Hubei and China based on the different transmission pattern.",
+            "The parameter beta controls how fast people move from S to E, and it is the product k and b where k stands for an average number of people of one infected person contact per day and b stands for the probability of infection"
+        ],
+        "Results": [
+            "R0, was 3.6 in the very early stage.",
+            "By January 22 2020, it was estimated that 1764 infected cases migrated from Wuhan to other cities in Hubei province.",
+            "After January 23, 2020 when Wuhan City was closed, the infected number showed a turning point in Wuhan.",
+            "By early April, there would be 42073, 21342 and 13384 infected cases in Wuhan, Hubei and China respectively, and there would be 2179, 633 and 107 death in Wuhan, Hubei (except"
+        ],
+        "Conclusion": [
+            "COVID-19 has gastrointestinal symptom and viral heart damage, it mainly causes SARS-COV-2 infected pneumonia [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>].",
+            "For the first case in a province, a confirmed case is defined as a suspected or probable case with positive viral nucleic acid detected at the municipal and provincial CDC.",
+            "For the second case and all subsequent cases, it is defined as suspected or probable cases with positive viral nucleic acid detected at the municipalA series of control measures in China have effectively prevented the spread of COVID-19, and the epidemic will end in early April"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Chan_et+al_2019_a",
+            "entry": "1. Chan JF, Yuan S, Kok KH, To KK, Chu H, Yang J, et al. A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet. 2020. https://doi.org/10.1016/S0140-6736(20)30154-9 PMID:31986261",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30154-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30154-9",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930154-9"
+        },
+        {
+            "id": "2",
+            "alt_id": "Enserink_2020_a",
+            "entry": "2. Martin Enserink. Update: \u2018A bit chaotic.\u2019 Christening of new coronavirus and its disease name create confusion. sciencemag. 2020 Feb 12 [Cited 2020 February 17]. Available from: https://www.sciencemag.org/news/2020/02/bit-chaotic-christening-new-coronavirusand-its-disease-name-create-confusion",
+            "url": "https://www.sciencemag.org/news/2020/02/bit-chaotic-christening-new-coronavirusand-its-disease-name-create-confusion"
+        },
+        {
+            "id": "3",
+            "alt_id": "Li_et+al_2019_a",
+            "entry": "3. Li X, Zai J, Wang X, Li Y. Potential of large 'first generation' human-to-human transmission of 2019-nCoV. J Med Virol. 2020. https://doi.org/10.1002/jmv.25693",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25693",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25693",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25693"
+        },
+        {
+            "id": "4",
+            "alt_id": "Huang_et+al_2019_a",
+            "entry": "4. Huang CL, Wang YM, Li XW, Ren LL, Zhao JP, Hu Y, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020. https://doi.org/10.1016/S0140-6736(20)30183-5 PMID:31986264",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930183-5"
+        },
+        {
+            "id": "5",
+            "alt_id": "Holshue_et+al_2020_a",
+            "entry": "5. Holshue ML, DeBolt C, Lindquist S, Lofy KH, Wiesman J, Bruce H, et al. First Case of Novel Coronavirus in the United States. N Engl J Med. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Holshue%2C%20M.L.%20DeBolt%2C%20C.%20Lindquist%2C%20S.%20Lofy%2C%20K.H.%20First%20Case%20of%20Novel%20Coronavirus%20in%20the%20United%20States%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Holshue%2C%20M.L.%20DeBolt%2C%20C.%20Lindquist%2C%20S.%20Lofy%2C%20K.H.%20First%20Case%20of%20Novel%20Coronavirus%20in%20the%20United%20States%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Holshue%2C%20M.L.%20DeBolt%2C%20C.%20Lindquist%2C%20S.%20Lofy%2C%20K.H.%20First%20Case%20of%20Novel%20Coronavirus%20in%20the%20United%20States%202020"
+        },
+        {
+            "id": "https://doi.org/10.1056/NEJMoa2001191_0000_a",
+            "alt_id": "6",
+            "entry": "https://doi.org/10.1056/NEJMoa2001191 PMID:32004427",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001191",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001191"
+        },
+        {
+            "id": "6",
+            "alt_id": "Li_et+al_0000_b",
+            "entry": "6. Li Q, Guan XH, Wu P, Wang XY, Zhou L, Tong YQ, et al. Early Transmission",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%20Q%20Guan%20XH%20Wu%20P%20Wang%20XY%20Zhou%20L%20Tong%20YQ%20et%20al%20Early%20Transmission",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%20Q%20Guan%20XH%20Wu%20P%20Wang%20XY%20Zhou%20L%20Tong%20YQ%20et%20al%20Early%20Transmission",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%20Q%20Guan%20XH%20Wu%20P%20Wang%20XY%20Zhou%20L%20Tong%20YQ%20et%20al%20Early%20Transmission"
+        },
+        {
+            "id": "2020._0000_b",
+            "alt_id": "8",
+            "entry": "2020. https://doi.org/10.1056/NEJMoa2001316 PMID:31995857",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "7",
+            "alt_id": "Rothe_et+al_2019_a",
+            "entry": "7. Rothe C, Schunk M, Sothmann P, Bretzel G, Froeschl G, Wallrauch C, et al. Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany. N Engl J Med. 2020. https://doi.org/10.1056/NEJMc2001468 PMID:32003551",
+            "crossref": "https://dx.doi.org/10.1056/NEJMc2001468",
+            "scite": "https://scite.ai/reports/10.1056/NEJMc2001468",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMc2001468"
+        },
+        {
+            "id": "8",
+            "alt_id": "Yoo_2019_a",
+            "entry": "8. Yoo JH. The Fight against the 2019-nCoV Outbreak: an Arduous March Has Just Begun. J Korean Med Sci. 2020; 35: e56. https://doi.org/10.3346/jkms.2020.35.e56",
+            "crossref": "https://dx.doi.org/10.3346/jkms.2020.35.e56",
+            "scite": "https://scite.ai/reports/10.3346/jkms.2020.35.e56",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3346/jkms.2020.35.e56"
+        },
+        {
+            "id": "9",
+            "alt_id": "Lipsitch_et+al_2003_a",
+            "entry": "9. Lipsitch M; Cohen T; Cooper B, Robins JM, Ma S, James L, et al. Transmission dynamics and control of severe acute respiratory syndrome. Science. 2003; 300: 1966\u201370. https://doi.org/10.1126/science.1086616 PMID:12766207",
+            "crossref": "https://dx.doi.org/10.1126/science.1086616",
+            "scite": "https://scite.ai/reports/10.1126/science.1086616",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1126/science.1086616"
+        },
+        {
+            "id": "10",
+            "alt_id": "Carlos_et+al_2019_a",
+            "entry": "10. Carlos WG, Dela Cruz CS; Cao B, Pasnick S, Jamil S. Novel Wuhan (2019-nCoV) Coronavirus. Am J Respir Crit Care Med. 2020. https://doi.org/10.1164/rccm.2014P7",
+            "crossref": "https://dx.doi.org/10.1164/rccm.2014P7",
+            "scite": "https://scite.ai/reports/10.1164/rccm.2014P7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1164/rccm.2014P7"
+        },
+        {
+            "id": "11",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "11. Wu JT; Leung K; Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet. 2020. https://doi.org/10.1016/S0140-6736(20)30260-9",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30260-9",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30260-9",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140-6736%2820%2930260-9"
+        },
+        {
+            "id": "12",
+            "alt_id": "Cohen_2020_a",
+            "entry": "12. Cohen J. Chinese researchers reveal draft genome of virus implicated in Wuhan pneumonia outbreak. American Association for the Advancement of Science. 2020 Jan 11 [Cited 2020 February 12].",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cohen%2C%20J.%20Chinese%20researchers%20reveal%20draft%20genome%20of%20virus%20implicated%20in%20Wuhan%20pneumonia%20outbreak.%20American%20Association%20for%20the%20Advancement%20of%20Science%202020-01-11"
+        },
+        {
+            "id": "Available_0000_c",
+            "alt_id": "15",
+            "entry": "Available from:https://www.sciencemag.org/news/2020/01/chinese-researchers-reveal-draft-ge nome-virus-implicated-wuhan-pneumonia-outbreak",
+            "url": "https://www.sciencemag.org/news/2020/01/chinese-researchers-reveal-draft-ge"
+        },
+        {
+            "id": "13",
+            "alt_id": "Cohen_2013_a",
+            "entry": "13. Cohen J. Mining coronavirus genomes for clues to the outbreak\u2019s origins [cited 2013 Oct 5]. Database: GISAID [Internet]. Available from: https://www.sciencemag.org/news/2020/01/mining-coronavirus-genomes-clues-outbr eak-s-origins",
+            "url": "https://www.sciencemag.org/news/2020/01/mining-coronavirus-genomes-clues-outbr"
+        },
+        {
+            "id": "14",
+            "alt_id": "Zhou_et+al_2020_a",
+            "entry": "14. Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, et al. Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin. bioRxiv. 2020. https://doi.org/:10.1101/2020.01.22.914952",
+            "url": "https://doi.org/:10.1101/2020.01.22.914952"
+        },
+        {
+            "id": "15",
+            "alt_id": "Ji_et+al_2020_a",
+            "entry": "15. Ji W, Wang W, Zhao XF, Zai JJ, Li XG. Homologous recombination within the spike glycoprotein of the newly identified coronavirus may boost cross-species transmission from snake to human. J Med Virol. 2020. https://doi.org/10.1002/jmv.25682 (2020) PMID:31967321",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25682",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25682",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25682"
+        },
+        {
+            "id": "16",
+            "alt_id": "Lu_2019_a",
+            "entry": "16. Lu HZ. Drug treatment options for the 2019-new coronavirus (2019-nCoV). Biosci Trends. 2020. https://doi.org/10.5582/bst.2020.01020 PMID:31996494",
+            "crossref": "https://dx.doi.org/10.5582/bst.2020.01020",
+            "scite": "https://scite.ai/reports/10.5582/bst.2020.01020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.5582/bst.2020.01020"
+        },
+        {
+            "id": "17",
+            "alt_id": "Nishiura_et+al_2020_a",
+            "entry": "17. Nishiura H, Jung SM, Linton NM, Kinoshita R, Yang Y, Hayashi K, et al. The Extent of Transmission of Novel Coronavirus in Wuhan, China, 2020. J Clin Med. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%20H%20Jung%20SM%20Linton%20NM%20Kinoshita%20R%20Yang%20Y%20Hayashi%20K%20et%20al%20The%20Extent%20of%20Transmission%20of%20Novel%20Coronavirus%20in%20Wuhan%20China%202020%20J%20Clin%20Med%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%20H%20Jung%20SM%20Linton%20NM%20Kinoshita%20R%20Yang%20Y%20Hayashi%20K%20et%20al%20The%20Extent%20of%20Transmission%20of%20Novel%20Coronavirus%20in%20Wuhan%20China%202020%20J%20Clin%20Med%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%20H%20Jung%20SM%20Linton%20NM%20Kinoshita%20R%20Yang%20Y%20Hayashi%20K%20et%20al%20The%20Extent%20of%20Transmission%20of%20Novel%20Coronavirus%20in%20Wuhan%20China%202020%20J%20Clin%20Med%202020"
+        },
+        {
+            "id": "https://doi.org/10.3390/jcm9020330_0000_d",
+            "alt_id": "21",
+            "entry": "https://doi.org/10.3390/jcm9020330 PMID:31991628",
+            "crossref": "https://dx.doi.org/10.3390/jcm9020330",
+            "scite": "https://scite.ai/reports/10.3390/jcm9020330"
+        }
+    ],
+    "facts": [
+        "The epidemic area in China was divided into three parts",
+        "China based on the different transmission pattern",
+        "not quarantined. Credible data source from Baidu Qianxi were used to assess the number of infected cases migrated from",
+        "that 1764 infected cases migrated from Wuhan to other cities",
+        "A series of control measures in China have effectively prevented the spread of COVID-19",
+        "the epidemic will end in early April",
+        "Hubei Provincial Health Commission announced the discovery of some clusters of pneumonia",
+        "Sequences of 2 complete viral genomes of 29.8 kilobases obtained from 2 patients with the pneumonia were identified",
+        "a novel lineage B coronavirus closely related to bat SARS-like bat-SL-CoVZXC21",
+        "WHO announced that 2019-nCoV infection has been given an official name COVID-19",
+        "that human infection with SARS-COV-2 first occurred in Wuhan on November 9",
+        "41 cases were reported by January 11",
+        "SARS-COV-2 infected patients typically clinically manifested as fever",
+        "41 cases can be combined with viral heart damage",
+        "Our methodology was mainly based on the Susceptible-Exposed-Infected-Removed model",
+        "The epidemic area was divided into three parts",
+        "A back propagation model was used to estimate the number of potential infections",
+        "which is much larger than the official number announced",
+        "The classical SEIR models the number of people in the four state",
+        "The parameter beta controls how fast people move from S to E",
+        "b where k stands for an average number of people",
+        "RNA-dependent RNA poly-merase gene related to severe acute respiratory syndrome",
+        "specific to SARS-COV-2 were detected by real-time reverse-transcription",
+        "if two targets were detected by RT-PCR",
+        "Prevention is as follow",
+        "probable cases are defined as cases",
+        "probable cases with positive viral nucleic acid detected at the municipalA series of control measures",
+        "in China have effectively prevented the spread of COVID-19"
+    ],
+    "claims": [
+        "In this study, mainly base on the Susceptible-Exposed-Infected-Removed (SEIR) model, we have studied the transmission dynamics of COVID-2019 under various practical situations"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "The epidemic area in China was divided into three parts, Wuhan city, Hubei province and China based on the different transmission pattern",
+        "By January 22 2020, it was estimated that 1764 infected cases migrated from Wuhan to other cities in Hubei province",
+        "A series of control measures in China have effectively prevented the spread of COVID-19, and the epidemic will end in early April",
+        "Genomes of 29.8 kilobases (HKU-SZ-002a and HKU-SZ-005b) obtained from 2 patients with the pneumonia were identified, and a novel lineage B coronavirus closely related to bat severe acute respiratory syndrome-like bat-SL-CoVZXC21 (NCBI accession number MG772934) and bat-SL-CoVZC45 (NCBI accession number MG772933) was revealed [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "It is believed that human infection with severe acute respiratory syndrome-COV-2 first occurred in Wuhan on November 9, (95% credible interval: 25 September 2019 and 19 December 2019) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. 27 cases were initially reported, and 41 cases were reported by January 11, 2020, including 7 severe cases and 1 death [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "severe acute respiratory syndrome-COV-2 infected patients typically clinically manifested as fever, respiratory symptoms; radiographic ground-glass lung changes; normal or below-average white blood cell, lymphocytes and platelet counts; hypoxemia; and liver and kidney dysfunction",
+        "The parameter beta controls how fast people move from S to E, and it is the product k and b where k stands for an average number of people of one infected person contact per day and b stands for the probability of infection",
+        "RNA-dependent RNA poly-merase (RdRp) gene related to severe acute respiratory syndrome (SARS) and 158bp spike (s) gene specific to severe acute respiratory syndrome-COV-2 were detected by real-time reverse-transcription\u2013polymerasechain-reaction (RT-PCR) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], or if two targets were detected by RT-PCR [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]",
+        "Suspected or probable cases are defined as cases that meet: (1) three clinical standards or (2) two clinical standards and one epidemiological criteria",
+        "3.6, the spread of severe acute respiratory syndrome-COV-2 in China was effectively suppressed and the epidemic will end in early April"
+    ],
+    "top_statements": [
+        "On December 31, 2019, Hubei Provincial Health Commission announced the discovery of some clusters of pneumonia without definite cause [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "By January 22 2020, it was estimated that 1764 infected cases migrated from Wuhan to other cities in Hubei province",
+        "A series of control measures in China have effectively prevented the spread of COVID-19, and the epidemic will end in early April",
+        "It is believed that human infection with severe acute respiratory syndrome-COV-2 first occurred in Wuhan on November 9, (95% credible interval: 25 September 2019 and 19 December 2019) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. 27 cases were initially reported, and 41 cases were reported by January 11, 2020, including 7 severe cases and 1 death [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "RNA-dependent RNA poly-merase (RdRp) gene related to severe acute respiratory syndrome (SARS) and 158bp spike (s) gene specific to severe acute respiratory syndrome-COV-2 were detected by real-time reverse-transcription\u2013polymerasechain-reaction (RT-PCR) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], or if two targets were detected by RT-PCR [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]",
+        "3.6, the spread of severe acute respiratory syndrome-COV-2 in China was effectively suppressed and the epidemic will end in early April"
+    ],
+    "headline": "A series of control measures in China have effectively prevented the spread of COVID-19, and the epidemic will end in early April",
+    "contexts": [],
+    "abbreviations": {
+        "WHO": "World HealthOrganization",
+        "CSG": "Coronavirus Study Group",
+        "CDC": "Centers for Disease Control and Prevention",
+        "RdRp": "RNA-dependent RNA poly-merase",
+        "SARS": "severe acute respiratory syndrome",
+        "NHC": "National Health Commission",
+        "GISAID": "Global Initiative of Sharing All Influenza Data"
+    }
+}

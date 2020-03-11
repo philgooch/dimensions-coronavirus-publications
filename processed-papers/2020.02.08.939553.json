@@ -1,0 +1,557 @@
+{
+    "filename": "2020.02.08.939553.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1852567,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.08.939553",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/12/2020.02.08.939553.full.pdf"
+        },
+        "title": "Profiling the immune vulnerability landscape of the 2019 Novel Coronavirus",
+        "author": "James Zhu, Jiwoong Kim, Xue Xiao, Yunguan Wang, Danni Luo, Ran Chen, Lin Xu, He Zhang, Guanghua Xiao, Xiaowei Zhan, Tao Wang, Yang Xie",
+        "date": 2020,
+        "affiliations": [
+            "Quantitative Biomedical Research Center, Department of Population and Data Sciences, University of Texas Southwefstern Medical Center, Dallas, TX, USA, 75390.",
+            "Department of Bioinformatics, University of Texas Southwefstern Medical Center, Dallas, TX, USA, 75390.",
+            "Center for the Genetics of Host Defense, University of Texas Southwefstern Medical Center, Dallas, TX, USA, 75390.",
+            "Quantitative Biomedical Research Center, Department of Population and Data Sciences, UT Southwestern Medical Center, Dallas, TX, 75390, USA; Phone: 214-648-4082; E-mail: Tao.Wang@UTSouthwestern.edu (2) Yang Xie, Ph.D., Quantitative Biomedical Research Center, Department of Population and Data Sciences, UT Southwestern Medical Center, Dallas, TX, 75390, USA; Phone: 214-648-5178; E-mail: Yang.Xie@UTSouthwestern.edu",
+            "Cancer Prevention Research Institute of Texas [CPRIT RP190208/TW]"
+        ],
+        "abstract": "ABSTRACTThe outbreak of the 2019 Novel Coronavirus (2019-nCoV) has rapidly spread from Wuhan, China to multiple countries, causing staggering number of infections and deaths. A systematic profiling of the immune vulnerability landscape of 2019-nCoV is lacking, which can bring critical insights into the immune clearance mechanism, peptide vaccine development, and antiviral antibody development. In this study, we predicted the potential of all the 2019-nCoV viral proteins to induce class I and II MHC presentation and form linear antibody epitopes. We showed that the enrichment for T cell and B cell epitopes is not uniform on the viral genome, with several focused regions that generate abundant epitopes and may be more targetable. We showed that genetic variations in 2019-nCoV, though fewer for the moment, already follow the pattern of mutations in related coronaviruses, and could alter the immune vulnerability landscape of this virus, which should be considered in the development of therapies. We create an online database to broadly share our research outcome. Overall, we present an immunological resource for 2019-nCoV that could significantly promote both therapeutic development and mechanistic research.",
+        "references": "@article{li2020a,\n  author = {Li, Q.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia},\n  journal = {N. Engl. J. Med},\n  date = {2020},\n  doi = {doi: 10.1056/NEJMoa2001316},\n  more-authors = {true},\n  language = {}\n}\n@article{de2016a,\n  author = {de Wit, E. and van Doremalen, N. and Falzarano, D. and Munster, V.J.},\n  title = {SARS and MERS: recent insights into emerging coronaviruses},\n  journal = {Nat. Rev. Microbiol},\n  volume = {14},\n  pages = {523\u2013534},\n  date = {2016},\n  language = {}\n}\n@book{huang-a,\n  author = {Huang, C.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  publisher = {Lancet (2020},\n  doi = {doi: 10.1016/S0140-6736(20)30183-5},\n  more-authors = {true},\n  language = {}\n}\n@article{holshue2020a,\n  author = {Holshue, M.L.},\n  title = {First case of 2019 novel coronavirus in the united states},\n  journal = {N. Engl. J. Med},\n  date = {2020},\n  doi = {doi: 10.1056/NEJMoa2001191},\n  more-authors = {true},\n  language = {}\n}\n@book{lu-a,\n  author = {Lu, R.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  publisher = {Lancet (2020},\n  doi = {doi: 10.1016/S01406736(20)30251-8},\n  more-authors = {true},\n  language = {}\n}\n@article{zhou2020a,\n  author = {Zhou, P.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  date = {2020},\n  doi = {doi: 10.1038/s41586-020-2012-7},\n  more-authors = {true},\n  language = {}\n}\n@article{pfefferkorn1976a,\n  author = {Pfefferkorn, E.R. and Pfefferkorn, L.C.},\n  title = {Arabinosyl nucleosides inhibit Toxoplasma gondii and allow the selection of resistant mutants},\n  journal = {J. Parasitol},\n  volume = {62},\n  pages = {993\u2013999},\n  date = {1976},\n  language = {}\n}\n@article{oh2012a,\n  author = {Oh, H.-L.Janice and Gan, S.Ken-En and Bertoletti, A. and Tan, Y.-J.},\n  title = {Understanding the T cell immune response in SARS coronavirus infection},\n  journal = {Emerg. Microbes Infect},\n  volume = {1},\n  pages = {23},\n  date = {2012},\n  language = {}\n}\n@article{chen2010a,\n  author = {Chen, J.},\n  title = {Cellular immune responses to severe acute respiratory syndrome coronavirus (SARS-CoV) infection in senescent BALB/c mice: CD4+ T cells are important in control of SARS-CoV infection},\n  journal = {J. Virol},\n  volume = {84},\n  pages = {1289\u20131301},\n  date = {2010},\n  more-authors = {true},\n  language = {}\n}\n@article{testa2012a,\n  author = {Testa, J.S.},\n  title = {MHC class I-presented T cell epitopes identified by immunoproteomics analysis are targets for a cross reactive influenza-specific T cell response},\n  journal = {PLoS ONE},\n  volume = {7},\n  pages = {48484},\n  date = {2012},\n  more-authors = {true},\n  language = {}\n}\n@article{zhou2012a,\n  author = {Zhou, C. and Zhou, L. and Chen, Y.-H.},\n  title = {Immunization with high epitope density of M2e derived from 2009 pandemic H1N1 elicits protective immunity in mice},\n  journal = {Vaccine},\n  volume = {30},\n  pages = {3463\u20133469},\n  date = {2012},\n  language = {}\n}\n@article{nielsen2016a,\n  author = {Nielsen, M. and Andreatta, M.},\n  title = {NetMHCpan-3.0; improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length datasets},\n  journal = {Genome Med},\n  volume = {8},\n  date = {2016},\n  number = {33},\n  language = {}\n}\n@article{jensen2018a,\n  author = {Jensen, K.K.},\n  title = {Improved methods for predicting peptide binding affinity to MHC class II molecules},\n  journal = {Immunology},\n  volume = {154},\n  pages = {394\u2013406},\n  date = {2018},\n  more-authors = {true},\n  language = {}\n}\n@misc{larsen2006a,\n  author = {Larsen, J.E.P. and Lund, O. and Nielsen, M.},\n  title = {Improved method for predicting linear B-cell epitopes. Immunome Res},\n  date = {2006},\n  volume = {2},\n  language = {}\n}\n@article{soria-guerra2015a,\n  author = {Soria-Guerra, R.E. and Nieto-Gomez, R. and Govea-Alonso, D.O. and Rosales-Mendoza, S.},\n  title = {An overview of bioinformatics tools for epitope prediction: implications on vaccine development},\n  journal = {J. Biomed. Inform},\n  volume = {53},\n  pages = {405\u2013414},\n  date = {2015},\n  language = {}\n}\n@article{sanchez-trincado2017a,\n  author = {Sanchez-Trincado, J.L. and Gomez-Perosanz, M. and Reche, P.A.},\n  title = {Fundamentals and Methods for T- and B-Cell Epitope Prediction},\n  journal = {J. Immunol. Res},\n  date = {2017},\n  volume = {2680160},\n  language = {}\n}\n@article{wan2020a,\n  author = {Wan, Y. and Shang, J. and Graham, R. and Baric, R.S. and Li, F.},\n  title = {Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS},\n  journal = {J. Virol},\n  date = {2020},\n  doi = {doi: 10.1128/JVI.00127-20},\n  language = {}\n}\n@article{fehr2015a,\n  author = {Fehr, A.R. and Perlman, S.},\n  title = {Coronaviruses: an overview of their replication and pathogenesis},\n  journal = {Methods Mol. Biol},\n  volume = {1282},\n  pages = {1\u201323},\n  date = {2015},\n  language = {}\n}\n@article{duffy2018a,\n  author = {Duffy, S.},\n  title = {Why are RNA virus mutation rates so damn high?},\n  journal = {PLoS Biol},\n  volume = {16},\n  pages = {3000003},\n  date = {2018},\n  language = {}\n}\n@article{jurtz2017a,\n  author = {Jurtz, V.},\n  title = {NetMHCpan- 4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data},\n  journal = {J. Immunol},\n  date = {2017},\n  pages = {3360\u20133368},\n  more-authors = {true},\n  language = {}\n}\n@article{kwok2016a,\n  author = {Kwok, J.},\n  title = {and -DRB1 genotyping and haplotype frequencies for a Hong Kong Chinese population of 7595 individuals},\n  journal = {Hum. Immunol},\n  volume = {77},\n  pages = {1111\u20131112},\n  date = {2016},\n  more-authors = {true},\n  language = {}\n}\n@article{mack2009a,\n  author = {Mack, S.J.},\n  title = {and -DRB1 allele and haplotype frequencies distinguish Eastern European Americans from the general European American population},\n  journal = {Tissue Antigens},\n  volume = {73},\n  pages = {17\u201332},\n  date = {2009},\n  more-authors = {true},\n  language = {}\n}\n@article{edgar2004a,\n  author = {Edgar, R.C.},\n  title = {MUSCLE: a multiple sequence alignment method with reduced time and space complexity},\n  journal = {BMC Bioinformatics},\n  volume = {5},\n  date = {2004},\n  number = {113},\n  language = {}\n}\n@article{edgar2004b,\n  author = {Edgar, R.C.},\n  title = {MUSCLE: multiple sequence alignment with high accuracy and high throughput},\n  journal = {Nucleic Acids Res},\n  volume = {32},\n  pages = {1792\u20131797},\n  date = {2004},\n  language = {}\n}\n@article{rice2000a,\n  author = {Rice, P. and Longden, I. and Bleasby, A.},\n  title = {EMBOSS: the european molecular biology open software suite},\n  journal = {Trends Genet},\n  volume = {16},\n  pages = {276\u2013277},\n  date = {2000},\n  language = {}\n}\n",
+        "links": [
+            "https://www.ncbi.nlm.nih.gov/nuccore/?term=txid1335626%5BOrganism%3Anoexp%5D+and+",
+            "https://bigd.big.ac.cn/ncov",
+            "https://www.ncbi.nlm.nih.gov/nuccore/MN908947",
+            "https://www.ncbi.nlm.nih.gov/nuccore/?term=txid694009%5BOrganism%3Anoexp%5D+and+c",
+            "https://qbrc.swmed.edu/projects/2019ncov_immuneviewer/"
+        ],
+        "emails": [
+            "Yang.Xie@UTSouthwestern.edu",
+            "Tao.Wang@UTSouthwestern.edu"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Li, Q.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia\nT2  - N. Engl. J. Med\nPY  - 2020\nDA  - 2020\nDO  - 10.1056/NEJMoa2001316\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - de Wit, E.\nAU  - van Doremalen, N.\nAU  - Falzarano, D.\nAU  - Munster, V.J.\nTI  - SARS and MERS: recent insights into emerging coronaviruses\nT2  - Nat. Rev. Microbiol\nVL  - 14\nSP  - 523\nEP  - 534\nPY  - 2016\nDA  - 2016\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Huang, C.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nPB  - Lancet (2020\nDO  - 10.1016/S0140-6736(20)30183-5\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Holshue, M.L.\nTI  - First case of 2019 novel coronavirus in the united states\nT2  - N. Engl. J. Med\nPY  - 2020\nDA  - 2020\nDO  - 10.1056/NEJMoa2001191\nC1  - true\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Lu, R.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nPB  - Lancet (2020\nDO  - 10.1016/S01406736(20)30251-8\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nPY  - 2020\nDA  - 2020\nDO  - 10.1038/s41586-020-2012-7\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pfefferkorn, E.R.\nAU  - Pfefferkorn, L.C.\nTI  - Arabinosyl nucleosides inhibit Toxoplasma gondii and allow the selection of resistant mutants\nT2  - J. Parasitol\nVL  - 62\nSP  - 993\nEP  - 999\nPY  - 1976\nDA  - 1976\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Oh, H.-L.Janice\nAU  - Gan, S.Ken-En\nAU  - Bertoletti, A.\nAU  - Tan, Y.-J.\nTI  - Understanding the T cell immune response in SARS coronavirus infection\nT2  - Emerg. Microbes Infect\nVL  - 1\nSP  - 23\nPY  - 2012\nDA  - 2012\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, J.\nTI  - Cellular immune responses to severe acute respiratory syndrome coronavirus (SARS-CoV) infection in senescent BALB/c mice: CD4+ T cells are important in control of SARS-CoV infection\nT2  - J. Virol\nVL  - 84\nSP  - 1289\nEP  - 1301\nPY  - 2010\nDA  - 2010\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Testa, J.S.\nTI  - MHC class I-presented T cell epitopes identified by immunoproteomics analysis are targets for a cross reactive influenza-specific T cell response\nT2  - PLoS ONE\nVL  - 7\nSP  - 48484\nPY  - 2012\nDA  - 2012\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, C.\nAU  - Zhou, L.\nAU  - Chen, Y.-H.\nTI  - Immunization with high epitope density of M2e derived from 2009 pandemic H1N1 elicits protective immunity in mice\nT2  - Vaccine\nVL  - 30\nSP  - 3463\nEP  - 3469\nPY  - 2012\nDA  - 2012\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nielsen, M.\nAU  - Andreatta, M.\nTI  - NetMHCpan-3.0; improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length datasets\nT2  - Genome Med\nVL  - 8\nPY  - 2016\nDA  - 2016\nIS  - 33\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jensen, K.K.\nTI  - Improved methods for predicting peptide binding affinity to MHC class II molecules\nT2  - Immunology\nVL  - 154\nSP  - 394\nEP  - 406\nPY  - 2018\nDA  - 2018\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Larsen, J.E.P.\nAU  - Lund, O.\nAU  - Nielsen, M.\nTI  - Improved method for predicting linear B-cell epitopes. Immunome Res\nPY  - 2006\nDA  - 2006\nVL  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Soria-Guerra, R.E.\nAU  - Nieto-Gomez, R.\nAU  - Govea-Alonso, D.O.\nAU  - Rosales-Mendoza, S.\nTI  - An overview of bioinformatics tools for epitope prediction: implications on vaccine development\nT2  - J. Biomed. Inform\nVL  - 53\nSP  - 405\nEP  - 414\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sanchez-Trincado, J.L.\nAU  - Gomez-Perosanz, M.\nAU  - Reche, P.A.\nTI  - Fundamentals and Methods for T- and B-Cell Epitope Prediction\nT2  - J. Immunol. Res\nPY  - 2017\nDA  - 2017\nVL  - 2680160\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wan, Y.\nAU  - Shang, J.\nAU  - Graham, R.\nAU  - Baric, R.S.\nAU  - Li, F.\nTI  - Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS\nT2  - J. Virol\nPY  - 2020\nDA  - 2020\nDO  - 10.1128/JVI.00127-20\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fehr, A.R.\nAU  - Perlman, S.\nTI  - Coronaviruses: an overview of their replication and pathogenesis\nT2  - Methods Mol. Biol\nVL  - 1282\nSP  - 1\nEP  - 23\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Duffy, S.\nTI  - Why are RNA virus mutation rates so damn high?\nT2  - PLoS Biol\nVL  - 16\nSP  - 3000003\nPY  - 2018\nDA  - 2018\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jurtz, V.\nTI  - NetMHCpan- 4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data\nT2  - J. Immunol\nPY  - 2017\nDA  - 2017\nSP  - 3360\nEP  - 3368\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kwok, J.\nTI  - and -DRB1 genotyping and haplotype frequencies for a Hong Kong Chinese population of 7595 individuals\nT2  - Hum. Immunol\nVL  - 77\nSP  - 1111\nEP  - 1112\nPY  - 2016\nDA  - 2016\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Mack, S.J.\nTI  - and -DRB1 allele and haplotype frequencies distinguish Eastern European Americans from the general European American population\nT2  - Tissue Antigens\nVL  - 73\nSP  - 17\nEP  - 32\nPY  - 2009\nDA  - 2009\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Edgar, R.C.\nTI  - MUSCLE: a multiple sequence alignment method with reduced time and space complexity\nT2  - BMC Bioinformatics\nVL  - 5\nPY  - 2004\nDA  - 2004\nIS  - 113\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Edgar, R.C.\nTI  - MUSCLE: multiple sequence alignment with high accuracy and high throughput\nT2  - Nucleic Acids Res\nVL  - 32\nSP  - 1792\nEP  - 1797\nPY  - 2004\nDA  - 2004\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rice, P.\nAU  - Longden, I.\nAU  - Bleasby, A.\nTI  - EMBOSS: the european molecular biology open software suite\nT2  - Trends Genet\nVL  - 16\nSP  - 276\nEP  - 277\nPY  - 2000\nDA  - 2000\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Genomics regions of 2019-nCoV that are T cell epitope-enriched"
+            },
+            {
+                "id": "2",
+                "caption": "Genomics regions of 2019-nCoV that are B cell epitope-enriched"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Interestingly, the T cell epitope intensities (number of binders weighted by allele frequency) are higher overall in the European population than the Chinese population, suggesting that the Chinese population may be more vulnerable to 2019-nCoV infection. Individual HLA alleles are examined in Sup. T cell- and B cell-mediated immune vulnerability landscape of 2019-nCoV in the Chinese population. (a) The CD4+ and CD8+ T cell epitope profiles of 2019-nCoV. The Y axis shows the immunogenicity intensity as described in the method section. (b) Part of the multiple alignment of all the 2019-nCoV strains. (c) The B cell epitope profiles of the 2019-nCoV. The Y axis shows the predicted B cell epitope score (d) The BLAST between the motif binding domain of. The T cell epitope profiles of the European population. (a) 2019-nCoV, (b) SARS, and (c) MERS"
+            },
+            {
+                "id": "2",
+                "caption": "The above analyses are conducted for the 2019-nCoV reference genome. However, the viral strains that have been sampled and sequenced so far are highly similar to each other (a segment of multiple alignment shown in Fig. 1b). Potential mutations in 2019-nCoV could affect immune vulnerability and vaccine design. The relative mutational rate profiles of the whole genomes of the three viruses: (a) 2019-nCoV, (b) SARS, and (c) MERS. The semi-transparent boxes mark the regions of high mutational rates due to artefacts of incomplete sequencing. (d) The relative mutational rates of the CD8 epitopeenriched regions, CD4 epitope-enriched regions, and B cell epitope-enriched regions of the three viruses. For all bins of the viral genome, we selected the top 50 CD8 and 50 CD4 epitopeenriched regions, and we selected the B cell epitope regions with average B cell epitope prediction score >0.6. The variation of T cell epitope profiles for 2019-nCoV, SARS and MERS across populations. The heatmap represents the number of immunogenic binding epitopes across the binned genomes (500bp) of (a) nCoV, (b) SARS and (c) MERS for the major HLA-A alleles shown as examples (allele frequency larger than 1%) in the European American (EA) and Hongkong Chinese (HK) populations. These major alleles are colored in black, blue or red if they are common to both EA and HK population, unique to EA population, or unique to HK population, respectively. On the right, the band of strength represents the cumulative number of immunogenic peptides, and the bands of EA and HK represent the HLA allele frequency of EA and HK populations, respectively"
+            },
+            {
+                "id": "3",
+                "caption": "A continuously updated database of the immune vulnerability of 2019-nCoV strains. (a) Visualization functionality to examine immunogenicity strength of the selected genomic region of the viruses (the Chinese population). Each line plot is divided into two panels stacked vertically together. At the bottom panel, the user can drag and set a region to zoom in, and the top panel zooms in and shows the details of that selected region. (b) Phylogenetic tree of viral strains, which allows subsetting based on annotations by going through a series of drop-down boxes"
+            }
+        ],
+        "tables_url": "",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.939553.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.939553.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.939553.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.08.939553.full/img-004.png"
+        ]
+    },
+    "sections": {
+        "funding": [
+            "This study was supported by Cancer Prevention Research Institute of Texas [CPRIT RP190208/TW]"
+        ],
+        "introduction": [
+            "In December 2019, an outbreak of a novel coronavirus (2019-nCoV) was reported in Wuhan, China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. 2019-nCoV rapidly spread to other regions of China, and multiple other countries, with a contagious speed that is much higher than the Severe Acute Respiratory Syndrome (SARS) coronavirus and the Middle East Respiratory Syndrome (MERS) coronavirus [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Despite the lower mortality rate of 2019-nCoV compared with SARS and MERS, the scale of the 2019-nCoV contagion has already caused more casualties than either of them, as of this writing. Early research into 2019-nCoV has mostly described its epidemiological features [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], reported the possible curative effect of remdesivir [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and characterized its basic genomics features [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].<br/><br/>Scant works have reported on the immunological features of 2019-nCoV, which could have significant bearing on the mechanistic studies of viral life cycle. Such analyses could also inform anti-viral immuno-therapeutic development, which can be either T cell-based or B cell-based. Antibodies can neutralize viral infectivity in a number of ways, such as interference with binding to receptors, block uptake into cells, etc. For SARS-CoV, the human ACE-2 protein is the functional receptor, and anti-ACE2 antibody can block viral replication [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. On the other hand, previous studies have indicated a crucial role of both CD8+ and CD4+ T cells in SARS-CoV clearance [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>], while Janice Oh et al also observed that development of SARS-CoV specific neutralizing antibodies requires CD4+ T helper cells [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. In fact, there are examples of vaccines for influenza that contain both antibody and T cell inducing components [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]."
+        ],
+        "results": [
+            "T cell- and B cell-mediated immune vulnerability landscape of 2019-nCoV<br/><br/>We used the netMHCpan suite of software [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] to predict the MHC class I and class II binding peptides of all 2019-nCoV proteins, which could elicit CD8+ and CD4+ T cell responses for viral clearance (Fig. 1a). We found that the number of MHC class I and class II binders, weighted by the HLA allele frequency in the Chinese population, are not spatially uniform across the viral genome. And there are a small number of genomic regions that showed high peaks of immunogenicity corresponding to a large number of MHC binders in a small neighborhood, which could be better potential vaccine targets (Sup. Table 1). The MHC binding peptide profiles of a different racial population (i.e. European ancestry) are shown in Sup. Fig. 1. Interestingly, the T cell epitope intensities (number of binders weighted by allele frequency) are higher overall in the European population than the Chinese population, suggesting that the Chinese population may be more vulnerable to 2019-nCoV infection. Individual HLA alleles are examined in Sup. Fig. 2. The above analyses are conducted for the 2019-nCoV reference genome. However, the viral strains that have been sampled and sequenced so far are highly similar to each other (a segment of multiple alignment shown in Fig. 1b)."
+        ],
+        "discussion": [
+            "In this report, we characterized the immune vulnerability landscape of the 2019-nCoV, and compared it with that of SARS and MERS. Our work should be broadly useful for researchers who study the interaction between this virus and the host immune system. In particular, we discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes, which could be more suitable for peptide vaccine and anti-viral antibody development. We also found that the S protein receptor-binding motifs are poorly conserved between SARS and 2019-nCoV. To facilitate wide adoption of our research outcome, we created a publicly accessible database, for the researchers to easily explore and download our results. The database is under continuous development, and will be updated timely when new strains of 2019-nCoV are made available."
+        ],
+        "methods": [
+            "Acquisition of the viral genome sequences<br/><br/>The 2019-nCoV complete genome sequences and meta data were downloaded from the https://bigd.big.ac.cn/ncov database, before the data lock of Feb 5th, 2020. The reference genome annotation was acquired from NCBI: https://www.ncbi.nlm.nih.gov/nuccore/MN908947. The complete genome SARS and MERS sequences are also downloaded from NCBI: https://www.ncbi.nlm.nih.gov/nuccore/?term=txid694009%5BOrganism%3Anoexp%5D+and+c omplete+genome and https://www.ncbi.nlm.nih.gov/nuccore/?term=txid1335626%5BOrganism%3Anoexp%5D+and+ complete+genome<br/><br/>Prediction of T cell and B cell epitopes<br/><br/>NetMHCpan (v4.0) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and NetMHCIIpan (v3.2) [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] with default threshold options were used to predict peptides, from the viral proteins, that bind to human MHC class I and II proteins for all the available HLA alleles. Only strong binders (<0.5% percentile rank) were retained. The HLA allele population frequency for the Chinese population was acquired from Kwok et al [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] and population frequency for the European population was from Mack et al [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. The B cell epitope predictions were made by the BepiPred 1.0 software [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] with default parameters. Amino acids with B cell epitope prediction scores >0.6 are regarded as having good likelihood of generating linear antibodies."
+        ],
+        "data_availability": [
+            "The 2019-nCoV Immune Viewer is available at: https://qbrc.swmed.edu/projects/2019ncov_immuneviewer/. FIGURE AND TABLE LEGENDS the 2019-nCoV S protein and the SARS S protein. (e) The T cell and B cell epitope profiles of SARS. (f) The T cell and B cell epitope profiles of MERS. Sup. Fig.1 The T cell epitope profiles of the European population. (a)2019-nCoV, (b) SARS, and (c) MERS. Sup. Fig.2 The variation of T cell epitope profiles for 2019-nCoV, SARS and MERS across populations. The heatmap represents the number of immunogenic binding epitopes across the binned genomes (500bp)of (a)nCoV, (b) SARS and (c) MERS for the major HLA-A alleles shown as examples (allele frequency larger than 1%)in the European American (EA)and Hongkong Chinese (HK)populations. These major alleles are colored in black, blue or red if they are common to both EA and HK population, unique to EA population, or unique to HK population, respectively. On the right, the band of strength represents the cumulative number of immunogenic peptides, and the bands of EA and HK represent the HLA allele frequency of EA and HK populations, respectively."
+        ],
+        "acknowledgements": [
+            "We acknowledge the patients who contributed the viral islets, the medical staff and researchers for performing islet purification and sequencing, and the NGDC (https://bigd.big.ac.cn/ncov) database for timely sharing of the viral genome sequences.<br/><br/>AUTHOR CONTRIBUTIONS<br/><br/>J.Z. and X.Z. performed statistical analyses of the immune vulnerability landscape of the viruses. J.K., T.W., X.X, and X.Z. retrieved and curated the virus sequence genomes. J.K. and J.Z. performed T cell and B cell epitope predictions. X.X. and J.K carried out DNA and protein sequence alignment. Y.W., D.L., R.C., and X.Z. created the Immune Viewer. H.Z. and X.Z. calculated the phylogenetic trees for the website. G.X. and L.X. provided significant input on the scientific direction of the project. T.W. and Y.X. supervised the study. J.Z., J.K., X.X., Y.W., X.Z., T.W., and Y.X wrote the manuscript."
+        ],
+        "disclosures": [
+            "The authors declare no conflicts of interest."
+        ]
+    },
+    "structured_content": {
+        "ABSTRACT": [
+            "The outbreak of the 2019 Novel Coronavirus (2019-nCoV) has rapidly spread from Wuhan, China to multiple countries, causing staggering number of infections and deaths. A systematic profiling of the immune vulnerability landscape of 2019-nCoV is lacking, which can bring critical insights into the immune clearance mechanism, peptide vaccine development, and antiviral antibody development. In this study, we predicted the potential of all the 2019-nCoV viral proteins to induce class I and II MHC presentation and form linear antibody epitopes. We showed that the enrichment for T cell and B cell epitopes is not uniform on the viral genome, with several focused regions that generate abundant epitopes and may be more targetable. We showed that genetic variations in 2019-nCoV, though fewer for the moment, already follow the pattern of mutations in related coronaviruses, and could alter the immune vulnerability landscape of this virus, which should be considered in the development of therapies. We create an online database to broadly share our research outcome. Overall, we present an immunological resource for 2019-nCoV that could significantly promote both therapeutic development and mechanistic research."
+        ],
+        "INTRODUCTION": [
+            "In December 2019, an outbreak of a novel coronavirus (2019-nCoV) was reported in Wuhan, China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. 2019-nCoV rapidly spread to other regions of China, and multiple other countries, with a contagious speed that is much higher than the Severe Acute Respiratory Syndrome (SARS) coronavirus and the Middle East Respiratory Syndrome (MERS) coronavirus [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Despite the lower mortality rate of 2019-nCoV compared with SARS and MERS, the scale of the 2019-nCoV contagion has already caused more casualties than either of them, as of this writing. Early research into 2019-nCoV has mostly described its epidemiological features [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], reported the possible curative effect of remdesivir [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>], and characterized its basic genomics features [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>, <a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+            "Scant works have reported on the immunological features of 2019-nCoV, which could have significant bearing on the mechanistic studies of viral life cycle. Such analyses could also inform anti-viral immuno-therapeutic development, which can be either T cell-based or B cell-based. Antibodies can neutralize viral infectivity in a number of ways, such as interference with binding to receptors, block uptake into cells, etc. For SARS-CoV, the human ACE-2 protein is the functional receptor, and anti-ACE2 antibody can block viral replication [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. On the other hand, previous studies have indicated a crucial role of both CD8+ and CD4+ T cells in SARS-CoV clearance [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>], while Janice Oh et al also observed that development of SARS-CoV specific neutralizing antibodies requires CD4+ T helper cells [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. In fact, there are examples of vaccines for influenza that contain both antibody and T cell inducing components [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>].",
+            "In this work, we performed a bioinformatics profiling of the class I and class II MHC binding potentials of the 2019-nCoV proteins, and also a profiling of the potentials of the linear epitopes of the viral proteins to induce antibodies. We correlated this immune vulnerability map of the",
+            "2019-nCoV proteins with their possible mutational hotspots. We made the analyses publicly available as a resource to the research community, in the form of the 2019-nCoV Immune Viewer: https://qbrc.swmed.edu/projects/2019ncov_immuneviewer/."
+        ],
+        "RESULTS": [
+            "We used the netMHCpan suite of software [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] to predict the MHC class I and class II binding peptides of all 2019-nCoV proteins, which could elicit CD8+ and CD4+ T cell responses for viral clearance (Fig. 1a). We found that the number of MHC class I and class II binders, weighted by the HLA allele frequency in the Chinese population, are not spatially uniform across the viral genome. And there are a small number of genomic regions that showed high peaks of immunogenicity corresponding to a large number of MHC binders in a small neighborhood, which could be better potential vaccine targets (Sup. Table 1). The MHC binding peptide profiles of a different racial population (i.e. European ancestry) are shown in Sup. Fig. 1. Interestingly, the T cell epitope intensities (number of binders weighted by allele frequency) are higher overall in the European population than the Chinese population, suggesting that the Chinese population may be more vulnerable to 2019-nCoV infection. Individual HLA alleles are examined in Sup. Fig. 2. The above analyses are conducted for the 2019-nCoV reference genome. However, the viral strains that have been sampled and sequenced so far are highly similar to each other (a segment of multiple alignment shown in Fig. 1b).",
+            "We also examined the potentials of the viral proteins to encode linear epitopes that can elicit antibody responses, by using the BepiPred 1.0 software [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. For the current analyses, we focused on linear epitopes, rather than conformational epitopes, because linear epitopes are more suitable for vaccine design [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>, <a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. Similarly scanning through all 2019-nCoV proteins of the reference genome (Fig. 1c), we found that the viral genome is also not uniformly enriched for B cell epitopes. In particular, one small segment of the Orf1 protein and the N protein are enriched for predicted B cell epitopes (Sup. Table 2). Lastly, we focused on the receptor-binding motif of the 2019-nCoV S protein, which attaches to the ACE-2 protein for entry into the human cell [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. We blasted the motif binding domain sequence of the 2019-nCoV S protein with that of SARS, and found there is a poor conservation between the two S proteins (Fig. 1d), which suggests that prior antibodies developed for SARS may not work for 2019-nCOV.",
+            "For comparison, we also computed the immune vulnerability maps of SARS (Fig. 1e) and MERS (Fig. 1f), which are the two most aggressive coronaviruses, together with 2019-nCoV. We found that the B cell epitope profiles seem to be more consistent among the three viruses, while the T cell epitope profiles are more distinct. This suggests that the T cell biology of 2019-nCoV could be different from that of SARS and MERS.",
+            "Potential mutations in 2019-nCoV could affect immune vulnerability and vaccine design",
+            "Coronaviruses are all RNA virus [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], and RNA viruses generally have very high mutation rates [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. We showed the mutational rates in the viral genomes for 2019-nCoV, SARS and MERS (Fig. 2a-c). 2019-nCoV only emerged a very short time ago, which likely explains the lack of significant amount of genetic variations (Fig. 2a). In comparison, SARS (Fig. 2b) and MERS (Fig. 2c) have both accumulated significant variation between the different strains, probably due to their much longer contagion history in humans. Interestingly, in 2019-nCoV, the genomic regions with higher mutational rates and lower mutational rates can already be discerned (Fig. 2a), and they seem to be rather conserved with those of SARS and MERS (Fig. 2bc). This indicates that we should be cautious of a similar level of genetic variation in the future, which might yield an aggressive viral strain, despite the current lack of mutations in 2019-nCoV.",
+            "Inspired by this observation, we reasoned that the evolution of the immune vulnerability maps of SARS and MERS due to genetic variation may reveal insight into 2019-nCoV. In Fig. 2d, we showed the relative mutational rates of the viral genomic regions that are enriched for abundant CD4 T cell epitopes, CD8 T cell epitopes, and linear antibody epitopes, in each of the three viruses. It can be seen from Fig. 2d that the mutational rates in 2019-nCoV are still much lower than those of SARS and MERS in these epitope-enriched regions, as expected. But interestingly, the mutational rates of the CD8 epitope-enriched regions are higher than those of the CD4 epitope-enriched regions in both SARS and MERS. This may be due to selection pressure inflicted by the CD8+ T cells, which are the major cytotoxic T cell population. The same may happen to the 2019-nCoV virus as well, but this remains to be proved.",
+            "We created the 2019-nCoV Immune Viewer (Fig. 3) to openly share the virus immunogenicity data we created for 2019-nCoV, and also SARS and MERS. In the Viewer, we provided userfriendly visualization functionality for researchers to examine immunogenicity strength of different genomic regions of each of the three viruses (Fig. 3a), where the users can either zoom in or zoom out. To facilitate the examination of how genetic variations could impact the immune vulnerability landscape of the viruses, we also showed the mutational rates of the viral genome along with the immunogenicity maps. Furthermore, the Viewer also displays a phylogenetic tree with annotations of the strains overlaid. The tree allows the users to highlight the strains of virus according to the annotations (Fig. 3b). Overall, we believe that the 2019-nCoV Immune Viewer will be a valuable resource for the research community, and will facilitate immunological research into this virus."
+        ],
+        "DISCUSSION": [
+            "In this report, we characterized the immune vulnerability landscape of the 2019-nCoV, and compared it with that of SARS and MERS. Our work should be broadly useful for researchers who study the interaction between this virus and the host immune system. In particular, we discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes, which could be more suitable for peptide vaccine and anti-viral antibody development. We also found that the S protein receptor-binding motifs are poorly conserved between SARS and 2019-nCoV. To facilitate wide adoption of our research outcome, we created a publicly accessible database, for the researchers to easily explore and download our results. The database is under continuous development, and will be updated timely when new strains of 2019-nCoV are made available.",
+            "Genetic variations can modify the immunogenicity landscape of the virus, and impact its survival fitness. The selection of good vaccination epitopes should focus on parts of viral proteins with good potentials of generating immunogenic epitopes, and with less chance of mutations. The low level of genetic variation in 2019-nCoV could merely be a sampling issue due to the short contagion history. However, the domains of genomes that are highly mutated in SARS and MERS are already more highly mutated in 2019-nCoV. We should remain cautious about the possible genetic variations to happen in 2019-nCoV, and immunological studies should consider their possible impact, knowing where the mutations are likely going to happen.",
+            "Overall, our work provides a window into the immunological features of 2019-nCoV, and we hope our work could aid therapeutic development against this virus to stop this pandemic earlier and to aid the vaccine development to prevent future breakouts."
+        ],
+        "MATERIALS AND METHODS": [
+            "The 2019-nCoV complete genome sequences and meta data were downloaded from the https://bigd.big.ac.cn/ncov database, before the data lock of Feb 5th, 2020. The reference genome annotation was acquired from NCBI: https://www.ncbi.nlm.nih.gov/nuccore/MN908947. The complete genome SARS and MERS sequences are also downloaded from NCBI: https://www.ncbi.nlm.nih.gov/nuccore/?term=txid694009%5BOrganism%3Anoexp%5D+and+c omplete+genome and https://www.ncbi.nlm.nih.gov/nuccore/?term=txid1335626%5BOrganism%3Anoexp%5D+and+ complete+genome",
+            "NetMHCpan (v4.0) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and NetMHCIIpan (v3.2) [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] with default threshold options were used to predict peptides, from the viral proteins, that bind to human MHC class I and II proteins for all the available HLA alleles. Only strong binders (<0.5% percentile rank) were retained. The HLA allele population frequency for the Chinese population was acquired from Kwok et al [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] and population frequency for the European population was from Mack et al [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. The B cell epitope predictions were made by the BepiPred 1.0 software [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] with default parameters. Amino acids with B cell epitope prediction scores >0.6 are regarded as having good likelihood of generating linear antibodies.",
+            "The command-line version of MUSCLE (v3.8.31) [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>, <a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>] was used to perform multiple genome sequence alignment with diagonal optimization (-diags). The default number of iteration and the default maximum number of new trees were applied during the alignment. The protein sequence alignment between the S proteins, YP_009724390.1 (2019-nCoV) and NP_828851.1 (SARS), was performed using EMBOSS needle [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] with the BLOSUM62 scoring matrix.",
+            "The Immune Viewer is a dynamic website. It is developed using the HTML (HyperText Markup Language), JavaScript and CSS (Cascading Style Sheets). Specifically, we used the D3.js library to allow users to interactively explore the mutation rates or immunogenic scores across the viral genomic regions. We also used the D3.phylogram.js to visualize the phylogenetic tree and the Select2 library to facilitate users\u2019 query for different 2019-nCoV strains across multiple geographic regions.",
+            "All computations and statistical analyses were carried out in the R computing environment. For all boxplots appearing in this study, box boundaries represent interquartile ranges, whiskers extend to the most extreme data point which is no more than 1.5 times the interquartile range, and the line in the middle of the box represents the median. For the line plots, the viral genomes were binned by every 60 nucleotide, and the number of T cell and B cell epitopes falling into each window is calculated. For T cell epitopes, a sum of the number of epitopes weighted by the corresponding ethnic population\u2019s HLA allele (A, B, C, and DRB1) frequency is calculated to form the T cell and B cell immunogenicity strength for that population. The genetic variation rate at each nucleotide is calculated by examining all viral strains and counting the proportion of strains with a different nucleotide or with an insertion/deletion, with respect to the reference genome. The genetic variation rates are also binned by the same length of windows and averaged."
+        ],
+        "Data availability": [
+            "The 2019-nCoV Immune Viewer is available at: https://qbrc.swmed.edu/projects/2019ncov_immuneviewer/.",
+            "Sup. Fig. 1 The T cell epitope profiles of the European population. (a) 2019-nCoV, (b) SARS, and (c) MERS.",
+            "Sup. Fig. 2 The variation of T cell epitope profiles for 2019-nCoV, SARS and MERS across populations. The heatmap represents the number of immunogenic binding epitopes across the binned genomes (500bp) of (a) nCoV, (b) SARS and (c) MERS for the major HLA-A alleles shown as examples (allele frequency larger than 1%) in the European American (EA) and Hongkong Chinese (HK) populations. These major alleles are colored in black, blue or red if they are common to both EA and HK population, unique to EA population, or unique to HK population, respectively. On the right, the band of strength represents the cumulative number of immunogenic peptides, and the bands of EA and HK represent the HLA allele frequency of EA and HK populations, respectively."
+        ],
+        "ACKNOWLEDGEMENTS": [
+            "We acknowledge the patients who contributed the viral islets, the medical staff and researchers for performing islet purification and sequencing, and the NGDC (https://bigd.big.ac.cn/ncov) database for timely sharing of the viral genome sequences.",
+            "J.Z. and X.Z. performed statistical analyses of the immune vulnerability landscape of the viruses. J.K., T.W., X.X, and X.Z. retrieved and curated the virus sequence genomes. J.K. and J.Z. performed T cell and B cell epitope predictions. X.X. and J.K carried out DNA and protein sequence alignment. Y.W., D.L., R.C., and X.Z. created the Immune Viewer. H.Z. and X.Z. calculated the phylogenetic trees for the website. G.X. and L.X. provided significant input on the scientific direction of the project. T.W. and Y.X. supervised the study. J.Z., J.K., X.X., Y.W., X.Z., T.W., and Y.X wrote the manuscript."
+        ],
+        "COMPETING INTERESTS": [
+            "The authors declare no conflicts of interest."
+        ],
+        "Bibliography": [
+            "1. Q. Li et al, Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N. Engl. J. Med. (2020), doi:10.1056/NEJMoa2001316.",
+            "2. E. de Wit, N. van Doremalen, D. Falzarano, V. J. Munster, SARS and MERS: recent insights into emerging coronaviruses. Nat. Rev. Microbiol. 14, 523\u2013534 (2016).",
+            "3. C. Huang et al, Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet (2020), doi:10.1016/S0140-6736[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]30183-5.",
+            "4. M. L. Holshue et al, First case of 2019 novel coronavirus in the united states. N. Engl. J. Med. (2020), doi:10.1056/NEJMoa2001191.",
+            "5. R. Lu et al, Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet (2020), doi:10.1016/S01406736[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]30251-8.",
+            "6. P. Zhou et al, A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature (2020), doi:10.1038/s41586-020-2012-7.",
+            "7. E. R. Pfefferkorn, L. C. Pfefferkorn, Arabinosyl nucleosides inhibit Toxoplasma gondii and allow the selection of resistant mutants. J. Parasitol. 62, 993\u2013999 (1976).",
+            "8. H.-L. Janice Oh, S. Ken-En Gan, A. Bertoletti, Y.-J. Tan, Understanding the T cell immune response in SARS coronavirus infection. Emerg. Microbes Infect. 1, e23 (2012).",
+            "9. J. Chen et al, Cellular immune responses to severe acute respiratory syndrome coronavirus (SARS-CoV) infection in senescent BALB/c mice: CD4+ T cells are important in control of SARS-CoV infection. J. Virol. 84, 1289\u20131301 (2010).",
+            "10. J. S. Testa et al, MHC class I-presented T cell epitopes identified by immunoproteomics analysis are targets for a cross reactive influenza-specific T cell response. PLoS ONE. 7, e48484 (2012).",
+            "11. C. Zhou, L. Zhou, Y.-H. Chen, Immunization with high epitope density of M2e derived from 2009 pandemic H1N1 elicits protective immunity in mice. Vaccine. 30, 3463\u20133469 (2012).",
+            "12. M. Nielsen, M. Andreatta, NetMHCpan-3.0; improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length datasets. Genome Med. 8, 33 (2016).",
+            "13. K. K. Jensen et al, Improved methods for predicting peptide binding affinity to MHC class II molecules. Immunology. 154, 394\u2013406 (2018).",
+            "14. J. E. P. Larsen, O. Lund, M. Nielsen, Improved method for predicting linear B-cell epitopes. Immunome Res. 2, 2 (2006).",
+            "15. R. E. Soria-Guerra, R. Nieto-Gomez, D. O. Govea-Alonso, S. Rosales-Mendoza, An overview of bioinformatics tools for epitope prediction: implications on vaccine development. J. Biomed. Inform. 53, 405\u2013414 (2015).",
+            "16. J. L. Sanchez-Trincado, M. Gomez-Perosanz, P. A. Reche, Fundamentals and Methods for T- and B-Cell Epitope Prediction. J. Immunol. Res. 2017, 2680160 (2017).",
+            "17. Y. Wan, J. Shang, R. Graham, R. S. Baric, F. Li, Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS. J. Virol. (2020), doi:10.1128/JVI.00127-20.",
+            "18. A. R. Fehr, S. Perlman, Coronaviruses: an overview of their replication and pathogenesis. Methods Mol. Biol. 1282, 1\u201323 (2015).",
+            "19. S. Duffy, Why are RNA virus mutation rates so damn high? PLoS Biol. 16, e3000003 (2018).",
+            "20. V. Jurtz et al, NetMHCpan-4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data. J. Immunol. 199, 3360\u20133368 (2017).",
+            "21. J. Kwok et al, HLA-A, -B, -C, and -DRB1 genotyping and haplotype frequencies for a Hong Kong Chinese population of 7595 individuals. Hum. Immunol. 77, 1111\u20131112 (2016).",
+            "22. S. J. Mack et al, HLA-A, -B, -C, and -DRB1 allele and haplotype frequencies distinguish Eastern European Americans from the general European American population. Tissue Antigens. 73, 17\u201332 (2009).",
+            "23. R. C. Edgar, MUSCLE: a multiple sequence alignment method with reduced time and space complexity. BMC Bioinformatics. 5, 113 (2004).",
+            "24. R. C. Edgar, MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res. 32, 1792\u20131797 (2004).",
+            "25. P. Rice, I. Longden, A. Bleasby, EMBOSS: the european molecular biology open software suite. Trends Genet. 16, 276\u2013277 (2000)."
+        ]
+    },
+    "participants": [],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Interestingly, the T cell epitope intensities (number of binders weighted by allele frequency) are higher overall in the European population than the Chinese population, suggesting that the Chinese population may be more vulnerable to 2019-nCoV infection. Individual HLA alleles are examined in Sup. T cell- and B cell-mediated immune vulnerability landscape of 2019-nCoV in the Chinese population. (a) The CD4+ and CD8+ T cell epitope profiles of 2019-nCoV. The Y axis shows the immunogenicity intensity as described in the method section. (b) Part of the multiple alignment of all the 2019-nCoV strains. (c) The B cell epitope profiles of the 2019-nCoV. The Y axis shows the predicted B cell epitope score (d) The BLAST between the motif binding domain of. The T cell epitope profiles of the European population. (a) 2019-nCoV, (b) SARS, and (c) MERS</mark>",
+                "tests": [
+                    {
+                        "test": "BLAST"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "coronavirus",
+        "immune vulnerability landscape",
+        "t cell",
+        "pneumonia",
+        "European American",
+        "Severe Acute Respiratory Syndrome",
+        "Middle East Respiratory Syndrome",
+        "antibody development",
+        "respiratory syndrome",
+        "focused region",
+        "sars cov",
+        "vaccine development",
+        "Hongkong Chinese",
+        "MUSCLE",
+        "cell epitope",
+        "peptide vaccine",
+        "Toxoplasma gondii",
+        "novel coronavirus",
+        "DRB1",
+        "b cell epitope"
+    ],
+    "keyword_relevance": {
+        "Severe Acute Respiratory Syndrome": 0.23404255319148937,
+        "cell epitope": 0.20567375886524822,
+        "Middle East Respiratory Syndrome": 0.14893617021276595,
+        "coronavirus": 0.09219858156028368,
+        "immune vulnerability landscape": 0.05673758865248227,
+        "European American": 0.05673758865248227,
+        "Hongkong Chinese": 0.0425531914893617,
+        "novel coronavirus": 0.03546099290780142,
+        "vaccine development": 0.02127659574468085,
+        "MUSCLE": 0.02127659574468085,
+        "DRB1": 0.02127659574468085,
+        "antibody development": 0.014184397163120567,
+        "focused region": 0.014184397163120567,
+        "peptide vaccine": 0.014184397163120567,
+        "pneumonia": 0.0070921985815602835,
+        "respiratory syndrome": 0.0070921985815602835,
+        "Toxoplasma gondii": 0.0070921985815602835,
+        "t cell": 0.0,
+        "sars cov": 0.0,
+        "b cell epitope": 0.0
+    },
+    "species": [
+        "Toxoplasma gondii"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> In December 2019, an outbreak of a novel coronavirus (2019-nCoV) was reported in Wuhan, China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. 2019-nCoV rapidly spread to other regions of China, and multiple other countries, with a contagious speed that is much higher than the Severe Acute Respiratory Syndrome (SARS) coronavirus and the Middle East Respiratory Syndrome (MERS) coronavirus [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "Scant works have reported on the immunological features of 2019-nCoV, which could have significant bearing on the mechanistic studies of viral life cycle.",
+        "Such analyses could inform anti-viral immuno-therapeutic development, which can be either T cell-based or B cell-based.",
+        "Antibodies can neutralize viral infectivity in a number of ways, such as interference with binding to receptors, block uptake into cells, etc.",
+        "There are examples of vaccines for influenza that contain both antibody and T cell inducing components [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]",
+        "<h2 style=\"display: inline\">Methods:</h2> Acquisition of the viral genome sequences<br/><br/>The 2019-nCoV complete genome sequences and meta data were downloaded from the https://bigd.big.ac.cn/ncov database, before the data lock of Feb 5th, 2020.",
+        "Acquisition of the viral genome sequences.",
+        "The 2019-nCoV complete genome sequences and meta data were downloaded from the https://bigd.big.ac.cn/ncov database, before the data lock of Feb 5th, 2020.",
+        "NetMHCpan (v4.0) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and NetMHCIIpan (v3.2) [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] with default threshold options were used to predict peptides, from the viral proteins, that bind to human MHC class the author ands II proteins for all the available HLA alleles.",
+        "The B cell epitope predictions were made by the BepiPred 1.0 software [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] with default parameters.",
+        "Amino acids with B cell epitope prediction scores >0.6 are regarded as having good likelihood of generating linear antibodies",
+        "<h2 style=\"display: inline\">Results:</h2> The authors used the netMHCpan suite of software [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] to predict the MHC class the author ands class II binding peptides of all 2019-nCoV proteins, which could elicit CD8+ and CD4+ T cell responses for viral clearance (Fig. 1a).",
+        "The authors found that the number of MHC class the author ands class II binders, weighted by the HLA allele frequency in the Chinese population, are not spatially uniform across the viral genome.",
+        "The viral strains that have been sampled and sequenced so far are highly similar to each other",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors characterized the immune vulnerability landscape of the 2019-nCoV, and compared it with that of SARS and MERS.",
+        "The authors' work should be broadly useful for researchers who study the interaction between this virus and the host immune system.",
+        "The authors discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes, which could be more suitable for peptide vaccine and anti-viral antibody development.",
+        "The database is under continuous development, and will be updated timely when new strains of 2019-nCoV are made available"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "In December 2019, an outbreak of a novel coronavirus (2019-nCoV) was reported in Wuhan, China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. 2019-nCoV rapidly spread to other regions of China, and multiple other countries, with a contagious speed that is much higher than the Severe Acute Respiratory Syndrome (SARS) coronavirus and the Middle East Respiratory Syndrome (MERS) coronavirus [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "Scant works have reported on the immunological features of 2019-nCoV, which could have significant bearing on the mechanistic studies of viral life cycle.",
+            "Such analyses could inform anti-viral immuno-therapeutic development, which can be either T cell-based or B cell-based.",
+            "Antibodies can neutralize viral infectivity in a number of ways, such as interference with binding to receptors, block uptake into cells, etc.",
+            "There are examples of vaccines for influenza that contain both antibody and T cell inducing components [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]"
+        ],
+        "Methods": [
+            "Acquisition of the viral genome sequences<br/><br/>The 2019-nCoV complete genome sequences and meta data were downloaded from the https://bigd.big.ac.cn/ncov database, before the data lock of Feb 5th, 2020.",
+            "Acquisition of the viral genome sequences.",
+            "The 2019-nCoV complete genome sequences and meta data were downloaded from the https://bigd.big.ac.cn/ncov database, before the data lock of Feb 5th, 2020.",
+            "NetMHCpan (v4.0) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] and NetMHCIIpan (v3.2) [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] with default threshold options were used to predict peptides, from the viral proteins, that bind to human MHC class the author ands II proteins for all the available HLA alleles.",
+            "The B cell epitope predictions were made by the BepiPred 1.0 software [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] with default parameters.",
+            "Amino acids with B cell epitope prediction scores >0.6 are regarded as having good likelihood of generating linear antibodies"
+        ],
+        "Results": [
+            "The authors used the netMHCpan suite of software [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>, <a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] to predict the MHC class the author ands class II binding peptides of all 2019-nCoV proteins, which could elicit CD8+ and CD4+ T cell responses for viral clearance (Fig. 1a).",
+            "The authors found that the number of MHC class the author ands class II binders, weighted by the HLA allele frequency in the Chinese population, are not spatially uniform across the viral genome.",
+            "The viral strains that have been sampled and sequenced so far are highly similar to each other"
+        ],
+        "Conclusion": [
+            "The authors characterized the immune vulnerability landscape of the 2019-nCoV, and compared it with that of SARS and MERS.",
+            "The authors' work should be broadly useful for researchers who study the interaction between this virus and the host immune system.",
+            "The authors discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes, which could be more suitable for peptide vaccine and anti-viral antibody development.",
+            "The database is under continuous development, and will be updated timely when new strains of 2019-nCoV are made available"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Li_2020_a",
+            "entry": "1. Q. Li et al., Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N. Engl. J. Med. (2020), doi:10.1056/NEJMoa2001316.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "2",
+            "alt_id": "de_Wit_et+al_2016_a",
+            "entry": "2. E. de Wit, N. van Doremalen, D. Falzarano, V. J. Munster, SARS and MERS: recent insights into emerging coronaviruses. Nat. Rev. Microbiol. 14, 523\u2013534 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=de%20Wit%2C%20E.%20van%20Doremalen%2C%20N.%20Falzarano%2C%20D.%20Munster%2C%20V.J.%20SARS%20and%20MERS%3A%20recent%20insights%20into%20emerging%20coronaviruses%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=de%20Wit%2C%20E.%20van%20Doremalen%2C%20N.%20Falzarano%2C%20D.%20Munster%2C%20V.J.%20SARS%20and%20MERS%3A%20recent%20insights%20into%20emerging%20coronaviruses%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=de%20Wit%2C%20E.%20van%20Doremalen%2C%20N.%20Falzarano%2C%20D.%20Munster%2C%20V.J.%20SARS%20and%20MERS%3A%20recent%20insights%20into%20emerging%20coronaviruses%202016"
+        },
+        {
+            "id": "3",
+            "alt_id": "Huang_2019_a",
+            "entry": "3. C. Huang et al., Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet (2020), doi:10.1016/S0140-6736(20)30183-5.",
+            "crossref": "https://dx.doi.org/10.1016/S0140-6736(20)30183-5",
+            "scite": "https://scite.ai/reports/10.1016/S0140-6736(20)30183-5"
+        },
+        {
+            "id": "4",
+            "alt_id": "Holshue_2020_a",
+            "entry": "4. M. L. Holshue et al., First case of 2019 novel coronavirus in the united states. N. Engl. J. Med. (2020), doi:10.1056/NEJMoa2001191.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001191",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001191",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001191"
+        },
+        {
+            "id": "5",
+            "alt_id": "Lu_2019_a",
+            "entry": "5. R. Lu et al., Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet (2020), doi:10.1016/S01406736(20)30251-8.",
+            "crossref": "https://dx.doi.org/10.1016/S01406736(20)30251-8",
+            "scite": "https://scite.ai/reports/10.1016/S01406736(20)30251-8"
+        },
+        {
+            "id": "6",
+            "alt_id": "Zhou_2020_a",
+            "entry": "6. P. Zhou et al., A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature (2020), doi:10.1038/s41586-020-2012-7.",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2012-7",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2012-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2012-7"
+        },
+        {
+            "id": "7",
+            "alt_id": "Pfefferkorn_1976_a",
+            "entry": "7. E. R. Pfefferkorn, L. C. Pfefferkorn, Arabinosyl nucleosides inhibit Toxoplasma gondii and allow the selection of resistant mutants. J. Parasitol. 62, 993\u2013999 (1976).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pfefferkorn%2C%20E.R.%20Pfefferkorn%2C%20L.C.%20Arabinosyl%20nucleosides%20inhibit%20Toxoplasma%20gondii%20and%20allow%20the%20selection%20of%20resistant%20mutants%201976",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pfefferkorn%2C%20E.R.%20Pfefferkorn%2C%20L.C.%20Arabinosyl%20nucleosides%20inhibit%20Toxoplasma%20gondii%20and%20allow%20the%20selection%20of%20resistant%20mutants%201976",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pfefferkorn%2C%20E.R.%20Pfefferkorn%2C%20L.C.%20Arabinosyl%20nucleosides%20inhibit%20Toxoplasma%20gondii%20and%20allow%20the%20selection%20of%20resistant%20mutants%201976"
+        },
+        {
+            "id": "8",
+            "alt_id": "Oh_et+al_2012_a",
+            "entry": "8. H.-L. Janice Oh, S. Ken-En Gan, A. Bertoletti, Y.-J. Tan, Understanding the T cell immune response in SARS coronavirus infection. Emerg. Microbes Infect. 1, e23 (2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Oh%2C%20H.-L.Janice%20Gan%2C%20S.Ken-En%20Bertoletti%2C%20A.%20Tan%2C%20Y.-J.%20Understanding%20the%20T%20cell%20immune%20response%20in%20SARS%20coronavirus%20infection%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Oh%2C%20H.-L.Janice%20Gan%2C%20S.Ken-En%20Bertoletti%2C%20A.%20Tan%2C%20Y.-J.%20Understanding%20the%20T%20cell%20immune%20response%20in%20SARS%20coronavirus%20infection%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Oh%2C%20H.-L.Janice%20Gan%2C%20S.Ken-En%20Bertoletti%2C%20A.%20Tan%2C%20Y.-J.%20Understanding%20the%20T%20cell%20immune%20response%20in%20SARS%20coronavirus%20infection%202012"
+        },
+        {
+            "id": "9",
+            "alt_id": "Chen_2010_a",
+            "entry": "9. J. Chen et al., Cellular immune responses to severe acute respiratory syndrome coronavirus (SARS-CoV) infection in senescent BALB/c mice: CD4+ T cells are important in control of SARS-CoV infection. J. Virol. 84, 1289\u20131301 (2010).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20J.%20Cellular%20immune%20responses%20to%20severe%20acute%20respiratory%20syndrome%20coronavirus%20%28SARS-CoV%29%20infection%20in%20senescent%20BALB/c%20mice%3A%20CD4%2B%20T%20cells%20are%20important%20in%20control%20of%20SARS-CoV%20infection%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20J.%20Cellular%20immune%20responses%20to%20severe%20acute%20respiratory%20syndrome%20coronavirus%20%28SARS-CoV%29%20infection%20in%20senescent%20BALB/c%20mice%3A%20CD4%2B%20T%20cells%20are%20important%20in%20control%20of%20SARS-CoV%20infection%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20J.%20Cellular%20immune%20responses%20to%20severe%20acute%20respiratory%20syndrome%20coronavirus%20%28SARS-CoV%29%20infection%20in%20senescent%20BALB/c%20mice%3A%20CD4%2B%20T%20cells%20are%20important%20in%20control%20of%20SARS-CoV%20infection%202010"
+        },
+        {
+            "id": "10",
+            "alt_id": "Testa_2012_a",
+            "entry": "10. J. S. Testa et al., MHC class I-presented T cell epitopes identified by immunoproteomics analysis are targets for a cross reactive influenza-specific T cell response. PLoS ONE. 7, e48484 (2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Testa%2C%20J.S.%20MHC%20class%20I-presented%20T%20cell%20epitopes%20identified%20by%20immunoproteomics%20analysis%20are%20targets%20for%20a%20cross%20reactive%20influenza-specific%20T%20cell%20response%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Testa%2C%20J.S.%20MHC%20class%20I-presented%20T%20cell%20epitopes%20identified%20by%20immunoproteomics%20analysis%20are%20targets%20for%20a%20cross%20reactive%20influenza-specific%20T%20cell%20response%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Testa%2C%20J.S.%20MHC%20class%20I-presented%20T%20cell%20epitopes%20identified%20by%20immunoproteomics%20analysis%20are%20targets%20for%20a%20cross%20reactive%20influenza-specific%20T%20cell%20response%202012"
+        },
+        {
+            "id": "11",
+            "alt_id": "Zhou_et+al_2012_a",
+            "entry": "11. C. Zhou, L. Zhou, Y.-H. Chen, Immunization with high epitope density of M2e derived from 2009 pandemic H1N1 elicits protective immunity in mice. Vaccine. 30, 3463\u20133469 (2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=C%20Zhou%20L%20Zhou%20YH%20Chen%20Immunization%20with%20high%20epitope%20density%20of%20M2e%20derived%20from%202009%20pandemic%20H1N1%20elicits%20protective%20immunity%20in%20mice%20Vaccine%2030%2034633469%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=C%20Zhou%20L%20Zhou%20YH%20Chen%20Immunization%20with%20high%20epitope%20density%20of%20M2e%20derived%20from%202009%20pandemic%20H1N1%20elicits%20protective%20immunity%20in%20mice%20Vaccine%2030%2034633469%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=C%20Zhou%20L%20Zhou%20YH%20Chen%20Immunization%20with%20high%20epitope%20density%20of%20M2e%20derived%20from%202009%20pandemic%20H1N1%20elicits%20protective%20immunity%20in%20mice%20Vaccine%2030%2034633469%202012"
+        },
+        {
+            "id": "12",
+            "alt_id": "Nielsen_2016_a",
+            "entry": "12. M. Nielsen, M. Andreatta, NetMHCpan-3.0; improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length datasets. Genome Med. 8, 33 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nielsen%2C%20M.%20Andreatta%2C%20M.%20NetMHCpan-3.0%3B%20improved%20prediction%20of%20binding%20to%20MHC%20class%20I%20molecules%20integrating%20information%20from%20multiple%20receptor%20and%20peptide%20length%20datasets%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nielsen%2C%20M.%20Andreatta%2C%20M.%20NetMHCpan-3.0%3B%20improved%20prediction%20of%20binding%20to%20MHC%20class%20I%20molecules%20integrating%20information%20from%20multiple%20receptor%20and%20peptide%20length%20datasets%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nielsen%2C%20M.%20Andreatta%2C%20M.%20NetMHCpan-3.0%3B%20improved%20prediction%20of%20binding%20to%20MHC%20class%20I%20molecules%20integrating%20information%20from%20multiple%20receptor%20and%20peptide%20length%20datasets%202016"
+        },
+        {
+            "id": "13",
+            "alt_id": "Jensen_2018_a",
+            "entry": "13. K. K. Jensen et al., Improved methods for predicting peptide binding affinity to MHC class II molecules. Immunology. 154, 394\u2013406 (2018).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jensen%2C%20K.K.%20Improved%20methods%20for%20predicting%20peptide%20binding%20affinity%20to%20MHC%20class%20II%20molecules%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jensen%2C%20K.K.%20Improved%20methods%20for%20predicting%20peptide%20binding%20affinity%20to%20MHC%20class%20II%20molecules%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jensen%2C%20K.K.%20Improved%20methods%20for%20predicting%20peptide%20binding%20affinity%20to%20MHC%20class%20II%20molecules%202018"
+        },
+        {
+            "id": "14",
+            "alt_id": "Larsen_et+al_2006_a",
+            "entry": "14. J. E. P. Larsen, O. Lund, M. Nielsen, Improved method for predicting linear B-cell epitopes. Immunome Res. 2, 2 (2006).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Larsen%2C%20J.E.P.%20Lund%2C%20O.%20Nielsen%2C%20M.%20Improved%20method%20for%20predicting%20linear%20B-cell%20epitopes.%20Immunome%20Res%202006"
+        },
+        {
+            "id": "15",
+            "alt_id": "Soria-Guerra_et+al_2015_a",
+            "entry": "15. R. E. Soria-Guerra, R. Nieto-Gomez, D. O. Govea-Alonso, S. Rosales-Mendoza, An overview of bioinformatics tools for epitope prediction: implications on vaccine development. J. Biomed. Inform. 53, 405\u2013414 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Soria-Guerra%2C%20R.E.%20Nieto-Gomez%2C%20R.%20Govea-Alonso%2C%20D.O.%20Rosales-Mendoza%2C%20S.%20An%20overview%20of%20bioinformatics%20tools%20for%20epitope%20prediction%3A%20implications%20on%20vaccine%20development%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Soria-Guerra%2C%20R.E.%20Nieto-Gomez%2C%20R.%20Govea-Alonso%2C%20D.O.%20Rosales-Mendoza%2C%20S.%20An%20overview%20of%20bioinformatics%20tools%20for%20epitope%20prediction%3A%20implications%20on%20vaccine%20development%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Soria-Guerra%2C%20R.E.%20Nieto-Gomez%2C%20R.%20Govea-Alonso%2C%20D.O.%20Rosales-Mendoza%2C%20S.%20An%20overview%20of%20bioinformatics%20tools%20for%20epitope%20prediction%3A%20implications%20on%20vaccine%20development%202015"
+        },
+        {
+            "id": "16",
+            "alt_id": "Sanchez-Trincado_et+al_2017_a",
+            "entry": "16. J. L. Sanchez-Trincado, M. Gomez-Perosanz, P. A. Reche, Fundamentals and Methods for T- and B-Cell Epitope Prediction. J. Immunol. Res. 2017, 2680160 (2017).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sanchez-Trincado%2C%20J.L.%20Gomez-Perosanz%2C%20M.%20Reche%2C%20P.A.%20Fundamentals%20and%20Methods%20for%20T-%20and%20B-Cell%20Epitope%20Prediction%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Sanchez-Trincado%2C%20J.L.%20Gomez-Perosanz%2C%20M.%20Reche%2C%20P.A.%20Fundamentals%20and%20Methods%20for%20T-%20and%20B-Cell%20Epitope%20Prediction%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Sanchez-Trincado%2C%20J.L.%20Gomez-Perosanz%2C%20M.%20Reche%2C%20P.A.%20Fundamentals%20and%20Methods%20for%20T-%20and%20B-Cell%20Epitope%20Prediction%202017"
+        },
+        {
+            "id": "17",
+            "alt_id": "Wan_et+al_2020_a",
+            "entry": "17. Y. Wan, J. Shang, R. Graham, R. S. Baric, F. Li, Receptor recognition by novel coronavirus from Wuhan: An analysis based on decade-long structural studies of SARS. J. Virol. (2020), doi:10.1128/JVI.00127-20.",
+            "crossref": "https://dx.doi.org/10.1128/JVI.00127-20",
+            "scite": "https://scite.ai/reports/10.1128/JVI.00127-20",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1128/JVI.00127-20"
+        },
+        {
+            "id": "18",
+            "alt_id": "Fehr_2015_a",
+            "entry": "18. A. R. Fehr, S. Perlman, Coronaviruses: an overview of their replication and pathogenesis. Methods Mol. Biol. 1282, 1\u201323 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fehr%2C%20A.R.%20Perlman%2C%20S.%20Coronaviruses%3A%20an%20overview%20of%20their%20replication%20and%20pathogenesis%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fehr%2C%20A.R.%20Perlman%2C%20S.%20Coronaviruses%3A%20an%20overview%20of%20their%20replication%20and%20pathogenesis%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fehr%2C%20A.R.%20Perlman%2C%20S.%20Coronaviruses%3A%20an%20overview%20of%20their%20replication%20and%20pathogenesis%202015"
+        },
+        {
+            "id": "19",
+            "alt_id": "Duffy_2018_a",
+            "entry": "19. S. Duffy, Why are RNA virus mutation rates so damn high? PLoS Biol. 16, e3000003 (2018).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Duffy%2C%20S.%20Why%20are%20RNA%20virus%20mutation%20rates%20so%20damn%20high%3F%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Duffy%2C%20S.%20Why%20are%20RNA%20virus%20mutation%20rates%20so%20damn%20high%3F%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Duffy%2C%20S.%20Why%20are%20RNA%20virus%20mutation%20rates%20so%20damn%20high%3F%202018"
+        },
+        {
+            "id": "20",
+            "alt_id": "Jurtz_2017_a",
+            "entry": "20. V. Jurtz et al., NetMHCpan-4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data. J. Immunol. 199, 3360\u20133368 (2017).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jurtz%2C%20V.%20NetMHCpan-%204.0%3A%20Improved%20Peptide-MHC%20Class%20I%20Interaction%20Predictions%20Integrating%20Eluted%20Ligand%20and%20Peptide%20Binding%20Affinity%20Data%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jurtz%2C%20V.%20NetMHCpan-%204.0%3A%20Improved%20Peptide-MHC%20Class%20I%20Interaction%20Predictions%20Integrating%20Eluted%20Ligand%20and%20Peptide%20Binding%20Affinity%20Data%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jurtz%2C%20V.%20NetMHCpan-%204.0%3A%20Improved%20Peptide-MHC%20Class%20I%20Interaction%20Predictions%20Integrating%20Eluted%20Ligand%20and%20Peptide%20Binding%20Affinity%20Data%202017"
+        },
+        {
+            "id": "21",
+            "alt_id": "Kwok_2016_a",
+            "entry": "21. J. Kwok et al., HLA-A, -B, -C, and -DRB1 genotyping and haplotype frequencies for a Hong Kong Chinese population of 7595 individuals. Hum. Immunol. 77, 1111\u20131112 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kwok%2C%20J.%20and%20-DRB1%20genotyping%20and%20haplotype%20frequencies%20for%20a%20Hong%20Kong%20Chinese%20population%20of%207595%20individuals%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kwok%2C%20J.%20and%20-DRB1%20genotyping%20and%20haplotype%20frequencies%20for%20a%20Hong%20Kong%20Chinese%20population%20of%207595%20individuals%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kwok%2C%20J.%20and%20-DRB1%20genotyping%20and%20haplotype%20frequencies%20for%20a%20Hong%20Kong%20Chinese%20population%20of%207595%20individuals%202016"
+        },
+        {
+            "id": "22",
+            "alt_id": "Mack_2009_a",
+            "entry": "22. S. J. Mack et al., HLA-A, -B, -C, and -DRB1 allele and haplotype frequencies distinguish Eastern European Americans from the general European American population. Tissue Antigens. 73, 17\u201332 (2009).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Mack%2C%20S.J.%20and%20-DRB1%20allele%20and%20haplotype%20frequencies%20distinguish%20Eastern%20European%20Americans%20from%20the%20general%20European%20American%20population%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Mack%2C%20S.J.%20and%20-DRB1%20allele%20and%20haplotype%20frequencies%20distinguish%20Eastern%20European%20Americans%20from%20the%20general%20European%20American%20population%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Mack%2C%20S.J.%20and%20-DRB1%20allele%20and%20haplotype%20frequencies%20distinguish%20Eastern%20European%20Americans%20from%20the%20general%20European%20American%20population%202009"
+        },
+        {
+            "id": "23",
+            "alt_id": "Edgar_2004_a",
+            "entry": "23. R. C. Edgar, MUSCLE: a multiple sequence alignment method with reduced time and space complexity. BMC Bioinformatics. 5, 113 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Edgar%2C%20R.C.%20MUSCLE%3A%20a%20multiple%20sequence%20alignment%20method%20with%20reduced%20time%20and%20space%20complexity%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Edgar%2C%20R.C.%20MUSCLE%3A%20a%20multiple%20sequence%20alignment%20method%20with%20reduced%20time%20and%20space%20complexity%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Edgar%2C%20R.C.%20MUSCLE%3A%20a%20multiple%20sequence%20alignment%20method%20with%20reduced%20time%20and%20space%20complexity%202004"
+        },
+        {
+            "id": "24",
+            "alt_id": "Edgar_2004_b",
+            "entry": "24. R. C. Edgar, MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res. 32, 1792\u20131797 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Edgar%2C%20R.C.%20MUSCLE%3A%20multiple%20sequence%20alignment%20with%20high%20accuracy%20and%20high%20throughput%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Edgar%2C%20R.C.%20MUSCLE%3A%20multiple%20sequence%20alignment%20with%20high%20accuracy%20and%20high%20throughput%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Edgar%2C%20R.C.%20MUSCLE%3A%20multiple%20sequence%20alignment%20with%20high%20accuracy%20and%20high%20throughput%202004"
+        },
+        {
+            "id": "25",
+            "alt_id": "Rice_et+al_2000_a",
+            "entry": "25. P. Rice, I. Longden, A. Bleasby, EMBOSS: the european molecular biology open software suite. Trends Genet. 16, 276\u2013277 (2000). ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Rice%2C%20P.%20Longden%2C%20I.%20Bleasby%2C%20A.%20EMBOSS%3A%20the%20european%20molecular%20biology%20open%20software%20suite%202000",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Rice%2C%20P.%20Longden%2C%20I.%20Bleasby%2C%20A.%20EMBOSS%3A%20the%20european%20molecular%20biology%20open%20software%20suite%202000",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Rice%2C%20P.%20Longden%2C%20I.%20Bleasby%2C%20A.%20EMBOSS%3A%20the%20european%20molecular%20biology%20open%20software%20suite%202000"
+        }
+    ],
+    "facts": [
+        "ABSTRACTThe outbreak of the 2019 Novel Coronavirus has rapidly spread from Wuhan",
+        "that the enrichment for T cell and B cell epitopes is not uniform on the viral genome",
+        "which should be considered in the development of therapies",
+        "an outbreak of a novel coronavirus was reported in Wuhan",
+        "2019-nCoV rapidly spread to other regions of China",
+        "with a contagious speed that is much higher than the Severe Acute Respiratory Syndrome coronavirus",
+        "Scant works have reported on the immunological features",
+        "previous studies have indicated a crucial role of both CD8",
+        "while Janice Oh et al observed that development of SARS-CoV specific neutralizing antibodies requires CD4",
+        "The 2019-nCoV complete genome sequences and meta data were downloaded from the https://bigd.big.ac.cn/ncov database",
+        "that bind to human MHC class",
+        "population frequency for the European population was from Mack et al",
+        "The B cell epitope predictions were made by the BepiPred 1.0 software",
+        "Amino acids with B cell epitope prediction scores",
+        "showed high peaks of immunogenicity corresponding to a large number of MHC binders",
+        "The MHC binding peptide profiles of a different racial population are shown in Sup",
+        "that the Chinese population may be more vulnerable to 2019-nCoV infection",
+        "Individual HLA alleles are examined in Sup",
+        "The above analyses are conducted for the 2019-nCoV reference",
+        "Our work should be broadly useful for researchers who study the interaction between this virus",
+        "discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes",
+        "which could be more suitable for peptide vaccine",
+        "that the S protein receptor-binding motifs are poorly conserved between SARS",
+        "The database is under continuous development",
+        "because linear epitopes are more suitable for vaccine design",
+        "that the viral genome is not uniformly enriched for B cell epitopes",
+        "which attaches to the ACE-2 protein for entry",
+        "that the B cell epitope profiles seem to be more consistent among the three viruses",
+        "which likely explains the lack of significant amount of genetic variations",
+        "the relative mutational rates of the viral genomic regions that are enriched for abundant CD4 T cell epitopes",
+        "that the S protein receptor-binding motifs are poorly conserved between SARS and 2019-nCoV",
+        "our work provides a window into the immunological features"
+    ],
+    "claims": [
+        "We showed that the enrichment for T cell and B cell epitopes is not uniform on the viral genome, with several focused regions that generate abundant epitopes and may be more targetable",
+        "We showed that genetic variations in 2019-nCoV, though fewer for the moment, already follow the pattern of mutations in related coronaviruses, and could alter the immune vulnerability landscape of this virus, which should be considered in the development of therapies",
+        "Overall, we present an immunological resource for 2019-nCoV that could significantly promote both therapeutic development and mechanistic research",
+        "We found that the number of MHC class I and class II binders, weighted by the HLA allele frequency in the Chinese population, are not spatially uniform across the viral genome",
+        "We also examined the potentials of the viral proteins to encode linear epitopes that can elicit antibody responses, by using the BepiPred 1.0 software (14)",
+        "For the current analyses, we focused on linear epitopes, rather than conformational epitopes, because linear epitopes are more suitable for vaccine design (15, 16)",
+        "Scanning through all 2019-nCoV proteins of the reference genome (Fig. 1c), we found that the viral genome is also not uniformly enriched for B cell epitopes",
+        "We focused on the receptor-binding motif of the 2019-nCoV S protein, which attaches to the ACE-2 protein for entry into the human cell (17)",
+        "We found that the B cell epitope profiles seem to be more consistent among the three viruses, while the T cell epitope profiles are more distinct",
+        "We showed the mutational rates in the viral genomes for 2019-nCoV, SARS and MERS (Fig. 2a-c). 2019-nCoV only emerged a very short time ago, which likely explains the lack of significant amount of genetic variations (Fig. 2a)",
+        "In Fig. 2d, we showed the relative mutational rates of the viral genomic regions that are enriched for abundant CD4 T cell epitopes, CD8 T cell epitopes, and linear antibody epitopes, in each of the three viruses",
+        "In the Viewer, we provided userfriendly visualization functionality for researchers to examine immunogenicity strength of different genomic regions of each of the three viruses (Fig. 3a), where the users can either zoom in or zoom out",
+        "To facilitate the examination of how genetic variations could impact the immune vulnerability landscape of the viruses, we also showed the mutational rates of the viral genome along with the immunogenicity maps",
+        "We discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes, which could be more suitable for peptide vaccine and anti-viral antibody development",
+        "We also found that the S protein receptor-binding motifs are poorly conserved between SARS and 2019-nCoV",
+        "Overall, our work provides a window into the immunological features of 2019-nCoV, and we hope our work could aid therapeutic development against this virus to stop this pandemic earlier and to aid the vaccine development to prevent future breakouts"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We showed that the enrichment for T cell and B cell epitopes is not uniform on the viral genome, with several focused regions that generate abundant epitopes and may be more targetable",
+        "We showed that genetic variations in 2019-nCoV, though fewer for the moment, already follow the pattern of mutations in related coronaviruses, and could alter the immune vulnerability landscape of this virus, which should be considered in the development of therapies",
+        "In December 2019, an outbreak of a novel coronavirus (2019-nCoV) was reported in Wuhan, China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. 2019-nCoV rapidly spread to other regions of China, and multiple other countries, with a contagious speed that is much higher than the Severe Acute Respiratory Syndrome (SARS) coronavirus and the Middle East Respiratory Syndrome (MERS) coronavirus [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "There are a small number of genomic regions that showed high peaks of immunogenicity corresponding to a large number of MHC binders in a small neighborhood, which could be better potential vaccine targets (Sup",
+        "The T cell epitope intensities are higher overall in the European population than the Chinese population, suggesting that the Chinese population may be more vulnerable to 2019-nCoV infection",
+        "We focused on linear epitopes, rather than conformational epitopes, because linear epitopes are more suitable for vaccine design [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>, <a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]",
+        "We found that the B cell epitope profiles seem to be more consistent among the three viruses, while the T cell epitope profiles are more distinct",
+        "We showed the mutational rates in the viral genomes for 2019-nCoV, Severe Acute Respiratory Syndrome and Middle East Respiratory Syndrome (Fig. 2a-c). 2019-nCoV only emerged a very short time ago, which likely explains the lack of significant amount of genetic variations (Fig. 2a)",
+        "In Fig. 2d, we showed the relative mutational rates of the viral genomic regions that are enriched for abundant CD4 T cell epitopes, CD8 T cell epitopes, and linear antibody epitopes, in each of the three viruses",
+        "Our work should be broadly useful for researchers who study the interaction between this virus and the host immune system",
+        "We discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes, which could be more suitable for peptide vaccine and anti-viral antibody development",
+        "We found that the S protein receptor-binding motifs are poorly conserved between Severe Acute Respiratory Syndrome and 2019-nCoV",
+        "The database is under continuous development, and will be updated timely when new strains of 2019-nCoV are made available",
+        "Our work provides a window into the immunological features of 2019-nCoV, and we hope our work could aid therapeutic development against this virus to stop this pandemic earlier and to aid the vaccine development to prevent future breakouts",
+        "Amino acids with B cell epitope prediction scores >0.6 are regarded as having good likelihood of generating linear antibodies"
+    ],
+    "top_statements": [
+        "In December 2019, an outbreak of a novel coronavirus (2019-nCoV) was reported in Wuhan, China [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. 2019-nCoV rapidly spread to other regions of China, and multiple other countries, with a contagious speed that is much higher than the Severe Acute Respiratory Syndrome (SARS) coronavirus and the Middle East Respiratory Syndrome (MERS) coronavirus [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "We showed that the enrichment for T cell and B cell epitopes is not uniform on the viral genome, with several focused regions that generate abundant epitopes and may be more targetable",
+        "We showed that genetic variations in 2019-nCoV, though fewer for the moment, already follow the pattern of mutations in related coronaviruses, and could alter the immune vulnerability landscape of this virus, which should be considered in the development of therapies",
+        "The T cell epitope intensities are higher overall in the European population than the Chinese population, suggesting that the Chinese population may be more vulnerable to 2019-nCoV infection",
+        "We discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes, which could be more suitable for peptide vaccine and anti-viral antibody development",
+        "We found that the S protein receptor-binding motifs are poorly conserved between Severe Acute Respiratory Syndrome and 2019-nCoV"
+    ],
+    "headline": "We discovered focused regions of this virus that encode a high density of T cell epitopes and B cell epitopes, which could be more suitable for peptide vaccine and anti-viral antibody development",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "Severe Acute Respiratory Syndrome",
+        "MERS": "Middle East Respiratory Syndrome",
+        "EA": "European American",
+        "HK": "Hongkong Chinese"
+    }
+}

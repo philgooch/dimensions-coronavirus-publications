@@ -1,0 +1,935 @@
+{
+    "filename": "2020.02.19.955484.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 2821564,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.19.955484",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/21/2020.02.19.955484.full.pdf"
+        },
+        "title": "Potential T-cell and B-cell Epitopes of 2019-nCoV",
+        "author": "Ethan Fast, Binbin Chen",
+        "date": 2020,
+        "abstract": "As of Feb 16th 2020, 2019-nCoV has infected more than 51,857 people across 26 countries and claimed 1666 lives. 2019-nCoV is a novel form of coronavirus that causes COVID-19 and has high similarity with SARS-CoV. No approved vaccine yet exists for 2019-nCoV or any form of coronavirus. Here we use computational tools from structural biology and machine learning to identify 2019-nCoV T-cell and B-cell epitopes based on viral protein antigen presentation and antibody binding properties. These epitopes can be used to develop more effective vaccines and identify neutralizing antibodies. We identified 405 viral peptides with good antigen presentation scores for both human MHC-I and MHC-II alleles, and two potential neutralizing B-cell epitopes near the 2019-nCoV spike protein receptor binding domain (440-460 and 494-506). Analyzing mutation profiles of 68 viral genomes from four continents, we identified 96 coding-change mutations. These mutations are more likely to occur in regions with good MHC-I presentation scores (p=0.02). No mutations are present near the spike protein receptor binding domain. We validated our computational pipeline with SARS-CoV experimental data.",
+        "references": "@article{perlman2009a,\n  author = {Perlman, S. and Netland, J.},\n  title = {Coronaviruses post-sars: update on replication and pathogenesis},\n  journal = {Nature reviews microbiology},\n  volume = {7},\n  pages = {439\u2013450},\n  date = {2009},\n  language = {}\n}\n@misc{group2013a,\n  author = {Group, W.M.-C.R.},\n  title = {State of knowledge and data gaps of middle east respiratory syndrome coronavirus (mers-cov) in humans. PLoS currents 5},\n  date = {2013},\n  more-authors = {true},\n  language = {}\n}\n@article{huang2020a,\n  author = {Huang, C.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in wuhan, china},\n  journal = {The Lancet},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{wu2020a,\n  author = {Wu, F.},\n  title = {A new coronavirus associated with human respiratory disease in china},\n  journal = {Nature},\n  volume = {1},\n  date = {2020},\n  more-authors = {true},\n  number = {8},\n  language = {}\n}\n@article{zhou2020a,\n  author = {Zhou, P.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  volume = {1},\n  date = {2020},\n  more-authors = {true},\n  number = {4},\n  language = {}\n}\n@misc{unknown-a,\n  title = {World Health Organization report},\n  url = {https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200216-sitrep-27-covid-19.pdf},\n  language = {},\n  urldate = {(February 2020).}\n}\n@article{yong2019a,\n  author = {Yong, C.Y. and Ong, H.K. and Yeap, S.K. and Ho, K.L. and Tan, W.S.},\n  title = {Recent advances in the vaccine development against middle east respiratory syndrome-coronavirus},\n  journal = {Frontiers in Microbiology},\n  volume = {10},\n  date = {2019},\n  url = {https://www.frontiersin.org/article/10.3389/fmicb.2019.01781.},\n  number = {1781},\n  language = {}\n}\n@article{coleman2014a,\n  author = {Coleman, C.M.},\n  title = {Purified coronavirus spike protein nanoparticles induce coronavirus neutralizing antibodies in mice},\n  journal = {Vaccine},\n  volume = {32},\n  pages = {3169\u20133174},\n  date = {2014},\n  more-authors = {true},\n  language = {}\n}\n@article{tseng2012a,\n  author = {Tseng, C.-T.},\n  title = {Immunization with sars coronavirus vaccines leads to pulmonary immunopathology on challenge with the sars virus},\n  journal = {PloS one},\n  volume = {7},\n  date = {2012},\n  more-authors = {true},\n  language = {}\n}\n@article{rappuoli2019a,\n  author = {Rappuoli, R. and Black, S. and Bloom, D.E.},\n  title = {Vaccines and global health: In search of a sustainable model for vaccine development and delivery},\n  journal = {Science Translational Medicine},\n  volume = {11},\n  pages = {2888},\n  date = {2019},\n  language = {}\n}\n@article{olsson2007a,\n  author = {Olsson, S.-E.},\n  title = {Induction of immune memory following administration of a prophylactic quadrivalent human papillomavirus (hpv) types 6/11/16/18 l1 virus-like particle (vlp) vaccine},\n  journal = {Vaccine},\n  volume = {25},\n  pages = {4931\u20134939},\n  date = {2007},\n  more-authors = {true},\n  language = {}\n}\n@article{suarez2000a,\n  author = {Suarez, D. and Schultz-Cherry, S.},\n  title = {Immunology of avian influenza virus: a review},\n  journal = {Developmental & Comparative Immunology},\n  volume = {24},\n  pages = {269\u2013283},\n  date = {2000},\n  language = {}\n}\n@article{briney2016a,\n  author = {Briney, B.},\n  title = {Tailored immunogens direct affinity maturation toward hiv neutralizing antibodies},\n  journal = {Cell},\n  volume = {166},\n  pages = {1459\u20131470},\n  date = {2016},\n  more-authors = {true},\n  language = {}\n}\n@article{pedersen2016a,\n  author = {Pedersen, S.R.},\n  title = {Immunogenicity of hla class i and ii double restricted influenza a-derived peptides},\n  journal = {PloS one},\n  volume = {11},\n  date = {2016},\n  more-authors = {true},\n  language = {}\n}\n@article{chen2019a,\n  author = {Chen, B.},\n  title = {Predicting hla class ii antigen presentation through integrated deep learning},\n  journal = {Nature biotechnology},\n  volume = {37},\n  pages = {1332\u20131343},\n  date = {2019},\n  more-authors = {true},\n  language = {}\n}\n@article{lu2020a,\n  author = {Lu, R.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  journal = {The Lancet},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{jurtz2017a,\n  author = {Jurtz, V.},\n  title = {Netmhcpan- 4.0: improved peptide\u2013mhc class i interaction predictions integrating eluted ligand and peptide binding affinity data},\n  journal = {The Journal of Immunology},\n  date = {2017},\n  pages = {3360\u20133368},\n  more-authors = {true},\n  language = {}\n}\n@article{wrapp2020a,\n  author = {Wrapp, D.},\n  title = {Cryo-em structure of the 2019-ncov spike in the prefusion conformation},\n  journal = {bioRxiv},\n  date = {2020},\n  url = {https://www.biorxiv.org/content/early/},\n  more-authors = {true},\n  language = {}\n}\n@article{kringelum2012a,\n  author = {Kringelum, J.V. and Lundegaard, C. and Lund, O. and Nielsen, M.},\n  title = {Reliable b cell epitope predictions: impacts of method development and improved benchmarking},\n  journal = {PLoS computational biology},\n  volume = {8},\n  date = {2012},\n  language = {}\n}\n@article{shu2017a,\n  author = {Shu, Y. and McCauley, J.},\n  title = {Gisaid: Global initiative on sharing all influenza data\u2013from vision to reality},\n  journal = {Eurosurveillance},\n  volume = {22},\n  date = {2017},\n  language = {}\n}\n@article{zhou2016a,\n  author = {Zhou, F.},\n  title = {Deep sequencing of the mhc region in the chinese population contributes to studies of complex disease},\n  journal = {Nature genetics},\n  volume = {48},\n  pages = {740\u2013746},\n  date = {2016},\n  more-authors = {true},\n  language = {}\n}\n@article{chen2005a,\n  author = {Chen, H.},\n  title = {Response of memory cd8+ t cells to severe acute respiratory syndrome (sars) coronavirus in recovered sars patients and healthy individuals},\n  journal = {The Journal of Immunology},\n  volume = {175},\n  pages = {591\u2013598},\n  date = {2005},\n  more-authors = {true},\n  language = {}\n}\n@article{zhou2006a,\n  author = {Zhou, M.},\n  title = {Screening and identification of severe acute respiratory syndrome-associated coronavirus-specific ctl epitopes},\n  journal = {The Journal of Immunology},\n  volume = {177},\n  pages = {2138\u20132145},\n  date = {2006},\n  more-authors = {true},\n  language = {}\n}\n@article{tsao2006a,\n  author = {Tsao, Y.-P.},\n  title = {Hla-a 0201 t-cell epitopes in severe acute respiratory syndrome (sars) coronavirus nucleocapsid and spike proteins},\n  journal = {Biochemical and biophysical research communications},\n  volume = {344},\n  pages = {63\u201371},\n  date = {2006},\n  more-authors = {true},\n  language = {}\n}\n@article{ng2016a,\n  author = {Ng, O.-W.},\n  title = {et al. Memory t cell responses targeting the sars coronavirus persist up to 11 years post-infection},\n  journal = {Vaccine},\n  volume = {34},\n  pages = {2008\u20132014},\n  date = {2016},\n  language = {}\n}\n@article{schwede2003a,\n  author = {Schwede, T. and Kopp, J. and Guex, N. and Peitsch, M.C.},\n  title = {Swiss-model: an automated protein homologymodeling server},\n  journal = {Nucleic acids research},\n  volume = {31},\n  pages = {3381\u20133385},\n  date = {2003},\n  language = {}\n}\n@article{song2018a,\n  author = {Song, W. and Gui, M. and Wang, X. and Xiang, Y.},\n  title = {Cryo-em structure of the sars coronavirus spike glycoprotein in complex with its host cell receptor ace2},\n  journal = {PLoS pathogens},\n  volume = {14},\n  pages = {1007236},\n  date = {2018},\n  language = {}\n}\n@article{comeau2004a,\n  author = {Comeau, S.R. and Gatchell, D.W. and Vajda, S. and Camacho, C.J.},\n  title = {Cluspro: a fully automated algorithm for protein\u2013protein docking},\n  journal = {Nucleic acids research},\n  volume = {32},\n  pages = {96\u201399},\n  date = {2004},\n  language = {}\n}\n@article{delano-a,\n  author = {DeLano, W.L.},\n  title = {Pymol: An open-source molecular graphics tool. CCP4 Newsletter on protein},\n  journal = {crystallography},\n  volume = {40},\n  pages = {82\u201392},\n  more-authors = {true},\n  language = {}\n}\n@article{yu2007a,\n  author = {Yu, H.},\n  title = {Selection of sars-coronavirus-specific b cell epitopes by phage peptide library screening and evaluation of the immunological effect of epitope-based peptides on mice},\n  journal = {Virology},\n  volume = {359},\n  pages = {264\u2013274},\n  date = {2007},\n  more-authors = {true},\n  language = {}\n}\n@article{guo2004a,\n  author = {Guo, J.-P. and Petric, M. and Campbell, W. and McGeer, P.L.},\n  title = {Sars corona virus peptides recognized by antibodies in the sera of convalescent cases},\n  journal = {Virology},\n  volume = {324},\n  pages = {251\u2013256},\n  date = {2004},\n  language = {}\n}\n@article{hua2004a,\n  author = {Hua, R. and Zhou, Y. and Wang, Y. and Hua, Y. and Tong, G.},\n  title = {Identification of two antigenic epitopes on sars-cov spike protein},\n  journal = {Biochemical and biophysical research communications},\n  volume = {319},\n  pages = {929\u2013935},\n  date = {2004},\n  language = {}\n}\n@article{cock2009a,\n  author = {Cock, P.J.},\n  title = {Biopython: freely available python tools for computational molecular biology and bioinformatics},\n  journal = {Bioinformatics},\n  volume = {25},\n  pages = {1422\u20131423},\n  date = {2009},\n  more-authors = {true},\n  language = {}\n}\n@article{virtanen2020a,\n  author = {Virtanen, P.},\n  title = {Scipy 1.0: fundamental algorithms for scientific computing in python},\n  journal = {Nature Methods},\n  volume = {1},\n  date = {2020},\n  more-authors = {true},\n  number = {12},\n  language = {}\n}\n@article{pedregosa2011a,\n  author = {Pedregosa, F.},\n  title = {Scikit-learn: Machine learning in python},\n  journal = {Journal of machine learning research},\n  volume = {12},\n  pages = {2825\u20132830},\n  date = {2011},\n  more-authors = {true},\n  language = {}\n}\n@article{rasmussen2014a,\n  author = {Rasmussen, M.},\n  title = {Uncovering the peptide-binding specificities of hla-c: a general strategy to determine the specificity of any mhc class i molecule},\n  journal = {The Journal of Immunology},\n  volume = {193},\n  pages = {4790\u20134802},\n  date = {2014},\n  more-authors = {true},\n  language = {}\n}\n@article{channappanavar2014a,\n  author = {Channappanavar, R. and Fett, C. and Zhao, J. and Meyerholz, D.K. and Perlman, S.},\n  title = {Virus-specific memory cd8 t cells provide substantial protection from lethal severe acute respiratory syndrome coronavirus infection},\n  journal = {Journal of virology},\n  volume = {88},\n  pages = {11034\u201311044},\n  date = {2014},\n  language = {}\n}\n@article{vita2015a,\n  author = {Vita, R.},\n  title = {The immune epitope database (iedb) 3.0},\n  journal = {Nucleic acids research},\n  volume = {43},\n  pages = {405\u2013412},\n  date = {2015},\n  more-authors = {true},\n  language = {}\n}\n@article{hu2014a,\n  author = {Hu, Y.},\n  title = {Immunologic hierarchy, class ii mhc promiscuity, and epitope spreading of a melanoma helper peptide vaccine},\n  journal = {Cancer Immunology, Immunotherapy},\n  volume = {63},\n  pages = {779\u2013786},\n  date = {2014},\n  more-authors = {true},\n  language = {}\n}\n@article{lv2009a,\n  author = {Lv, Y. and Ruan, Z. and Wang, L. and Ni, B. and Wu, Y.},\n  title = {Identification of a novel conserved hla-a* 0201-restricted epitope from the spike protein of sars-cov},\n  journal = {BMC immunology},\n  volume = {10},\n  date = {2009},\n  number = {61},\n  language = {}\n}\n@article{he2004a,\n  author = {He, Y.},\n  title = {Identification of immunodominant sites on the spike protein of severe acute respiratory syndrome (sars) coronavirus: implication for developing sars diagnostics and vaccines},\n  journal = {The Journal of Immunology},\n  volume = {173},\n  pages = {4050\u20134057},\n  date = {2004},\n  more-authors = {true},\n  language = {}\n}\n@article{he2005a,\n  author = {He, Y. and Zhou, Y. and Siddiqui, P. and Niu, J. and Jiang, S.},\n  title = {Identification of immunodominant epitopes on the membrane protein of the severe acute respiratory syndrome-associated coronavirus},\n  journal = {Journal of clinical microbiology},\n  volume = {43},\n  pages = {3718\u20133726},\n  date = {2005},\n  language = {}\n}\n@article{he2004b,\n  author = {He, Y.},\n  title = {Mapping of antigenic sites on the nucleocapsid protein of the severe acute respiratory syndrome coronavirus},\n  journal = {Journal of clinical microbiology},\n  volume = {42},\n  pages = {5309\u20135314},\n  date = {2004},\n  more-authors = {true},\n  language = {}\n}\n@article{chow2006a,\n  author = {Chow, S.C.},\n  title = {Specific epitopes of the structural and hypothetical proteins elicit variable humoral responses in sars patients},\n  journal = {Journal of clinical pathology},\n  volume = {59},\n  pages = {468\u2013476},\n  date = {2006},\n  more-authors = {true},\n  language = {}\n}\n@article{tajiri2010a,\n  author = {Tajiri, K.},\n  title = {Analysis of the epitope and neutralizing capacity of human monoclonal antibodies induced by hepatitis b vaccine},\n  journal = {Antiviral research},\n  volume = {87},\n  pages = {40\u201349},\n  date = {2010},\n  more-authors = {true},\n  language = {}\n}\n@article{bettencourt2020a,\n  author = {Bettencourt, P.},\n  title = {Identification of antigens presented by mhc for vaccines against tuberculosis},\n  journal = {npj Vaccines},\n  volume = {5},\n  pages = {1\u201314},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n",
+        "emails": [
+            "bchen45@stanford.edu",
+            "ethanfast@cs.stanford.edu"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Perlman, S.\nAU  - Netland, J.\nTI  - Coronaviruses post-sars: update on replication and pathogenesis\nT2  - Nature reviews microbiology\nVL  - 7\nSP  - 439\nEP  - 450\nPY  - 2009\nDA  - 2009\nLA  - \nER  - \n\nTY  - GEN\nAU  - Group, W.M.-C.R.\nTI  - State of knowledge and data gaps of middle east respiratory syndrome coronavirus (mers-cov) in humans. PLoS currents 5\nPY  - 2013\nDA  - 2013\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in wuhan, china\nT2  - The Lancet\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, F.\nTI  - A new coronavirus associated with human respiratory disease in china\nT2  - Nature\nVL  - 1\nPY  - 2020\nDA  - 2020\nC1  - true\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nVL  - 1\nPY  - 2020\nDA  - 2020\nC1  - true\nIS  - 4\nLA  - \nER  - \n\nTY  - GEN\nTI  - World Health Organization report\nUR  - https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200216-sitrep-27-covid-19.pdf\nLA  - \nC1  - (February 2020).\nER  - \n\nTY  - JOUR\nAU  - Yong, C.Y.\nAU  - Ong, H.K.\nAU  - Yeap, S.K.\nAU  - Ho, K.L.\nAU  - Tan, W.S.\nTI  - Recent advances in the vaccine development against middle east respiratory syndrome-coronavirus\nT2  - Frontiers in Microbiology\nVL  - 10\nPY  - 2019\nDA  - 2019\nUR  - https://www.frontiersin.org/article/10.3389/fmicb.2019.01781.\nIS  - 1781\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Coleman, C.M.\nTI  - Purified coronavirus spike protein nanoparticles induce coronavirus neutralizing antibodies in mice\nT2  - Vaccine\nVL  - 32\nSP  - 3169\nEP  - 3174\nPY  - 2014\nDA  - 2014\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tseng, C.-T.\nTI  - Immunization with sars coronavirus vaccines leads to pulmonary immunopathology on challenge with the sars virus\nT2  - PloS one\nVL  - 7\nPY  - 2012\nDA  - 2012\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rappuoli, R.\nAU  - Black, S.\nAU  - Bloom, D.E.\nTI  - Vaccines and global health: In search of a sustainable model for vaccine development and delivery\nT2  - Science Translational Medicine\nVL  - 11\nSP  - 2888\nPY  - 2019\nDA  - 2019\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Olsson, S.-E.\nTI  - Induction of immune memory following administration of a prophylactic quadrivalent human papillomavirus (hpv) types 6/11/16/18 l1 virus-like particle (vlp) vaccine\nT2  - Vaccine\nVL  - 25\nSP  - 4931\nEP  - 4939\nPY  - 2007\nDA  - 2007\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Suarez, D.\nAU  - Schultz-Cherry, S.\nTI  - Immunology of avian influenza virus: a review\nT2  - Developmental & Comparative Immunology\nVL  - 24\nSP  - 269\nEP  - 283\nPY  - 2000\nDA  - 2000\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Briney, B.\nTI  - Tailored immunogens direct affinity maturation toward hiv neutralizing antibodies\nT2  - Cell\nVL  - 166\nSP  - 1459\nEP  - 1470\nPY  - 2016\nDA  - 2016\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pedersen, S.R.\nTI  - Immunogenicity of hla class i and ii double restricted influenza a-derived peptides\nT2  - PloS one\nVL  - 11\nPY  - 2016\nDA  - 2016\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, B.\nTI  - Predicting hla class ii antigen presentation through integrated deep learning\nT2  - Nature biotechnology\nVL  - 37\nSP  - 1332\nEP  - 1343\nPY  - 2019\nDA  - 2019\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lu, R.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nT2  - The Lancet\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jurtz, V.\nTI  - Netmhcpan- 4.0: improved peptide\u2013mhc class i interaction predictions integrating eluted ligand and peptide binding affinity data\nT2  - The Journal of Immunology\nPY  - 2017\nDA  - 2017\nSP  - 3360\nEP  - 3368\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wrapp, D.\nTI  - Cryo-em structure of the 2019-ncov spike in the prefusion conformation\nT2  - bioRxiv\nPY  - 2020\nDA  - 2020\nUR  - https://www.biorxiv.org/content/early/\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kringelum, J.V.\nAU  - Lundegaard, C.\nAU  - Lund, O.\nAU  - Nielsen, M.\nTI  - Reliable b cell epitope predictions: impacts of method development and improved benchmarking\nT2  - PLoS computational biology\nVL  - 8\nPY  - 2012\nDA  - 2012\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Shu, Y.\nAU  - McCauley, J.\nTI  - Gisaid: Global initiative on sharing all influenza data\u2013from vision to reality\nT2  - Eurosurveillance\nVL  - 22\nPY  - 2017\nDA  - 2017\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, F.\nTI  - Deep sequencing of the mhc region in the chinese population contributes to studies of complex disease\nT2  - Nature genetics\nVL  - 48\nSP  - 740\nEP  - 746\nPY  - 2016\nDA  - 2016\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, H.\nTI  - Response of memory cd8+ t cells to severe acute respiratory syndrome (sars) coronavirus in recovered sars patients and healthy individuals\nT2  - The Journal of Immunology\nVL  - 175\nSP  - 591\nEP  - 598\nPY  - 2005\nDA  - 2005\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, M.\nTI  - Screening and identification of severe acute respiratory syndrome-associated coronavirus-specific ctl epitopes\nT2  - The Journal of Immunology\nVL  - 177\nSP  - 2138\nEP  - 2145\nPY  - 2006\nDA  - 2006\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tsao, Y.-P.\nTI  - Hla-a 0201 t-cell epitopes in severe acute respiratory syndrome (sars) coronavirus nucleocapsid and spike proteins\nT2  - Biochemical and biophysical research communications\nVL  - 344\nSP  - 63\nEP  - 71\nPY  - 2006\nDA  - 2006\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ng, O.-W.\nTI  - et al. Memory t cell responses targeting the sars coronavirus persist up to 11 years post-infection\nT2  - Vaccine\nVL  - 34\nSP  - 2008\nEP  - 2014\nPY  - 2016\nDA  - 2016\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Schwede, T.\nAU  - Kopp, J.\nAU  - Guex, N.\nAU  - Peitsch, M.C.\nTI  - Swiss-model: an automated protein homologymodeling server\nT2  - Nucleic acids research\nVL  - 31\nSP  - 3381\nEP  - 3385\nPY  - 2003\nDA  - 2003\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Song, W.\nAU  - Gui, M.\nAU  - Wang, X.\nAU  - Xiang, Y.\nTI  - Cryo-em structure of the sars coronavirus spike glycoprotein in complex with its host cell receptor ace2\nT2  - PLoS pathogens\nVL  - 14\nSP  - 1007236\nPY  - 2018\nDA  - 2018\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Comeau, S.R.\nAU  - Gatchell, D.W.\nAU  - Vajda, S.\nAU  - Camacho, C.J.\nTI  - Cluspro: a fully automated algorithm for protein\u2013protein docking\nT2  - Nucleic acids research\nVL  - 32\nSP  - 96\nEP  - 99\nPY  - 2004\nDA  - 2004\nLA  - \nER  - \n\nTY  - JOUR\nAU  - DeLano, W.L.\nTI  - Pymol: An open-source molecular graphics tool. CCP4 Newsletter on protein\nT2  - crystallography\nVL  - 40\nSP  - 82\nEP  - 92\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yu, H.\nTI  - Selection of sars-coronavirus-specific b cell epitopes by phage peptide library screening and evaluation of the immunological effect of epitope-based peptides on mice\nT2  - Virology\nVL  - 359\nSP  - 264\nEP  - 274\nPY  - 2007\nDA  - 2007\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Guo, J.-P.\nAU  - Petric, M.\nAU  - Campbell, W.\nAU  - McGeer, P.L.\nTI  - Sars corona virus peptides recognized by antibodies in the sera of convalescent cases\nT2  - Virology\nVL  - 324\nSP  - 251\nEP  - 256\nPY  - 2004\nDA  - 2004\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hua, R.\nAU  - Zhou, Y.\nAU  - Wang, Y.\nAU  - Hua, Y.\nAU  - Tong, G.\nTI  - Identification of two antigenic epitopes on sars-cov spike protein\nT2  - Biochemical and biophysical research communications\nVL  - 319\nSP  - 929\nEP  - 935\nPY  - 2004\nDA  - 2004\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cock, P.J.\nTI  - Biopython: freely available python tools for computational molecular biology and bioinformatics\nT2  - Bioinformatics\nVL  - 25\nSP  - 1422\nEP  - 1423\nPY  - 2009\nDA  - 2009\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Virtanen, P.\nTI  - Scipy 1.0: fundamental algorithms for scientific computing in python\nT2  - Nature Methods\nVL  - 1\nPY  - 2020\nDA  - 2020\nC1  - true\nIS  - 12\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pedregosa, F.\nTI  - Scikit-learn: Machine learning in python\nT2  - Journal of machine learning research\nVL  - 12\nSP  - 2825\nEP  - 2830\nPY  - 2011\nDA  - 2011\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rasmussen, M.\nTI  - Uncovering the peptide-binding specificities of hla-c: a general strategy to determine the specificity of any mhc class i molecule\nT2  - The Journal of Immunology\nVL  - 193\nSP  - 4790\nEP  - 4802\nPY  - 2014\nDA  - 2014\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Channappanavar, R.\nAU  - Fett, C.\nAU  - Zhao, J.\nAU  - Meyerholz, D.K.\nAU  - Perlman, S.\nTI  - Virus-specific memory cd8 t cells provide substantial protection from lethal severe acute respiratory syndrome coronavirus infection\nT2  - Journal of virology\nVL  - 88\nSP  - 11034\nEP  - 11044\nPY  - 2014\nDA  - 2014\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Vita, R.\nTI  - The immune epitope database (iedb) 3.0\nT2  - Nucleic acids research\nVL  - 43\nSP  - 405\nEP  - 412\nPY  - 2015\nDA  - 2015\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hu, Y.\nTI  - Immunologic hierarchy, class ii mhc promiscuity, and epitope spreading of a melanoma helper peptide vaccine\nT2  - Cancer Immunology, Immunotherapy\nVL  - 63\nSP  - 779\nEP  - 786\nPY  - 2014\nDA  - 2014\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lv, Y.\nAU  - Ruan, Z.\nAU  - Wang, L.\nAU  - Ni, B.\nAU  - Wu, Y.\nTI  - Identification of a novel conserved hla-a* 0201-restricted epitope from the spike protein of sars-cov\nT2  - BMC immunology\nVL  - 10\nPY  - 2009\nDA  - 2009\nIS  - 61\nLA  - \nER  - \n\nTY  - JOUR\nAU  - He, Y.\nTI  - Identification of immunodominant sites on the spike protein of severe acute respiratory syndrome (sars) coronavirus: implication for developing sars diagnostics and vaccines\nT2  - The Journal of Immunology\nVL  - 173\nSP  - 4050\nEP  - 4057\nPY  - 2004\nDA  - 2004\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - He, Y.\nAU  - Zhou, Y.\nAU  - Siddiqui, P.\nAU  - Niu, J.\nAU  - Jiang, S.\nTI  - Identification of immunodominant epitopes on the membrane protein of the severe acute respiratory syndrome-associated coronavirus\nT2  - Journal of clinical microbiology\nVL  - 43\nSP  - 3718\nEP  - 3726\nPY  - 2005\nDA  - 2005\nLA  - \nER  - \n\nTY  - JOUR\nAU  - He, Y.\nTI  - Mapping of antigenic sites on the nucleocapsid protein of the severe acute respiratory syndrome coronavirus\nT2  - Journal of clinical microbiology\nVL  - 42\nSP  - 5309\nEP  - 5314\nPY  - 2004\nDA  - 2004\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chow, S.C.\nTI  - Specific epitopes of the structural and hypothetical proteins elicit variable humoral responses in sars patients\nT2  - Journal of clinical pathology\nVL  - 59\nSP  - 468\nEP  - 476\nPY  - 2006\nDA  - 2006\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Tajiri, K.\nTI  - Analysis of the epitope and neutralizing capacity of human monoclonal antibodies induced by hepatitis b vaccine\nT2  - Antiviral research\nVL  - 87\nSP  - 40\nEP  - 49\nPY  - 2010\nDA  - 2010\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bettencourt, P.\nTI  - Identification of antigens presented by mhc for vaccines against tuberculosis\nT2  - npj Vaccines\nVL  - 5\nSP  - 1\nEP  - 14\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [
+            "In summary, we observed major structural and B-cell epitope similarity between SARS-CoV and 2019-nCoV spike proteins. A recent Cryo-EM study of 2019-nCoV S protein [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>] supports such structural similarity, and it would be informative to rerun our analysis once the Cryo-EM crystal structure becomes publicly available. RBDs in both proteins seem to be important B-cell epitopes for neutralizing antibodies, however, SARS-CoV appears to have larger attack surface than 2019-nCoV (Fig. 5A, 5B). Fortunately, we have not observed any mutations altering binding sites for this major B-cell epitope in 2019-nCoV.",
+            "In summary, we analyzed the 2019-nCoV viral genome for epitope candidates and found 405 likely T-Cell epitopes, with strong MHC-I and MHC-II presentation scores, and 2 potential neutralizing B-Cell epitopes on S protein. We validated our methodology by running a similar analysis on SARS-CoV against known SARS T-cell and B-cell epitopes. Inspecting 68 samples, we found that viral mutations have a tendency to occur in regions with strong MHC-I presentation, which can be a form of immune evasion. However, no mutations are present near the spike protein receptor binding domain which is critical for viral entrance to cells and neutralizing antibody binding. Similar to SARS-CoV [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], the 2019-nCoV spike protein is likely to be immunogenic as it carries a number of both T-cell and B-cell epitopes. Recombinant surface protein vaccines have demonstrated strong clinical utilities in hepatitis B and human papillomavirus (HPV) vaccines [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c45\" href=\"#r45\">45</a>]. A recombinant 2019-nCoV spike protein vaccine combined with other top epitopes and an appropriate adjuvant could be a reasonable next step for 2019-nCoV vaccine development. From an economic perspective, the development of coronavirus vaccines faces significant financial hurdles as most such viruses do not cause endemic infections. After an epidemic episode (e.g. SARS) there is little financial incentive for private companies to develop vaccines against a specific strain of virus [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. To address these incentive issues, governments might provide greater funding support to create vaccines against past and future outbreaks. Our pipeline provides a framework to identify strong epitope-based vaccine candidates\u2014beyond 2019-nCoV\u2014and might be applied against any unknown pathogens. Previous animal studies do show antigens with high MHC presentation scores are more likely to elicit strong T-cell responses, but the correlation between vaccine efficacy and T-cell responses is relatively weak [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c46\" href=\"#r46\">46</a>, <a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. When combined with future clinical data, our work can help the field untangle the relationship between antigen presentation scores and vaccine efficacy."
+        ],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Summary of potential 2019-nCoV T-cell epitope candidates based on HLA antigen presentation scores. The HLA-A, HLA-B, HLA-C, and HLA-DR columns refer to the number of peptide sequences that were predicted to present across more than one third of common alleles among the Chinese population. Length refers to the number of amino acids in a given gene. HLA-C are more likely to present 2019-nCoV antigens across one third of alleles compared to HLA-A or B. Fisher\u2019s exact test P-value levels are indicated with \u2217\u2217\u2217 (< 0.001), \u2217\u2217 (< 0.01), and \u2217 (< 0.05)"
+            },
+            {
+                "id": "2",
+                "caption": "Top potential epitopes for key 2019-nCoV proteins. We ranked epitopes based on their likely coverage of presentation by MHC-I and MHC-II alleles. S protein 494-508 is highly ranked based on MHC presentation and is also one of the predicted top B-cell epitopes, localized near the S protein receptor binding domain (Figure 5). MHC-I coverage is calculated by the 9mer with the highest MHC-I coverage for each epitope (highlighted in orange). All candidates are likely to be presented by both MHC-I and MHC-II. A question mark (?) under the antibody column indicates that one or more SARS homolog of this peptide is a known B-cell epitope"
+            },
+            {
+                "id": "Supplementary 1",
+                "caption": "Full details and acknowledgements for the viral genome data used"
+            },
+            {
+                "id": "Supplementary 10",
+                "caption": "DNA sequences of 68 2019-nCoV samples. Supplementary File 1. PDB file for 2019-nCoV spike protein homology modeling. Supplementary File 2. PDB file for 2019-nCoV spike protein and human ACE2 protein-protein docking"
+            },
+            {
+                "id": "Supplementary 2",
+                "caption": "Common HLA alleles among the Chinese population"
+            },
+            {
+                "id": "Supplementary 3",
+                "caption": "Discotope2 prediction for SARS-nCoV spike structure chain A"
+            },
+            {
+                "id": "Supplementary 4",
+                "caption": "Discotope2 prediction for 2019-nCoV spike model chain A"
+            },
+            {
+                "id": "Supplementary 5",
+                "caption": "NetMHCpan4 percentiles for all possible 9mer peptide sequences for 2019-nCoV protein"
+            },
+            {
+                "id": "Supplementary 6",
+                "caption": "MARIA percentiles for all possible 15mer peptide sequences for 2019nCoV protein and peptides with high coverage for both MHC-I and MHC-II alleles"
+            },
+            {
+                "id": "Supplementary 7",
+                "caption": "Validation CD8 T-cell epitopes for SARS spike protein"
+            },
+            {
+                "id": "Supplementary 8",
+                "caption": "Validation CD4 T-cell epitopes for SARS spike protein"
+            },
+            {
+                "id": "Supplementary 9",
+                "caption": "Protein sequence and mutation profiles of 68 2019-nCoV samples"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Our computational pipeline to identify T-cell and B-cell epitopes in 2019-nCoV. The 2019-nCoV genome codes for Spike (S), Membrane (M), Envelope (E), Nucleocapsid (N) and at least 6 other open reading frames (ORFs). The S protein is a target for antibodies and we model its 3D structure with Discotope2 to identify likely binding sites (B-cell epitopes). We scan peptide sequences from individual viral protein with NetMHCPan4 and MARIA for MHC-I and MHC-II presentation respectively to identify potential T-cell epitopes. Our MHC-I analysis include common alleles for HLA-A, HLA-B, and HLA-C, and our MHC-II analysis include common alleles of HLA-DR"
+            },
+            {
+                "id": "2",
+                "caption": "MHC presentation regions for 11 2019-nCoV genes across HLA-A, HLA-B, HLA-C, and HLA-DR. We plot results at both medium A) and high B) cut-offs for presentation. The X-axis indicates the position of each viral protein, and the y-axis indicates each human HLA gene family. Each blue stripe indicates the fraction of HLA alleles that can present a 9mer or 15mer viral peptide starting from a given position"
+            },
+            {
+                "id": "3",
+                "caption": "Validation of NetMHCpan and MARIA for T-cell epitope identification with SARSCoV S protein epitopes. NetMHCpan4 and MARIA presentation percentiles were used to differentiate experimentally identified CD8 T-cell epitopes (MHC-I, n=17)[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>, <a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>, <a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>] and CD4 T-cell epitopes (MHC-II, n=3)[<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] from negative peptides (n=1236 and 246). Negative peptides for CD8 T-cell epitopes are all 9mer sliding windows of S protein without a reported epitope. Negative peptides for CD4 T-cell epitopes are experimentally tested. A) NetMHCpan4 has a sensitivity of 82.3% and specificity of 97.0% with a 98th presentation percentile cut-off, and an overall AUC of 0.98. B) MARIA has a sensitivity of 66.6% and specificity of 91.1% with a 95th presentation percentile cut-off, and an overall AUC of 0.83"
+            },
+            {
+                "id": "5",
+                "caption": "Predicted B-cell epitopes on SARS-CoV and 2019-nCoV spike (S) protein. 3D structures of both spike protein were scanned with Discotope2 to assess potential antibody binding sites (B-cell epitopes). Red indicates residues with score > 0.5 (cut-off for specificity of 90%), and pink indicates residues with score > -2.5 (cut-off for specificity of 80%). A) The receptor binding domain (RBD) of SARS spike protein has concentrated high score residues and is comprised of two linear epitopes. One additional binding site is predicted to be around residue 541-555. Three independent experimental studies [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>, <a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>] identify patient antibodies recognize these three linear epitopes (blue). B) 2019-nCoV spike protein is predicted to have a similar strong antibody binding site near RBD and an additional site around residue 246-257. C) The predicted antibody binding site on 2019-nCov RBD potentially overlaps with the interacting surface for the known human entry receptor ACE2 (yellow). D) Eight 2019-nCoV spike protein point mutations are present in a cohort of 68 viral samples. No mutations are near the ACE2 interacting surface. One mutation (S247R) occurs near one of the predicted antibody binding sites (residue 246-257)"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.19.955484.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.19.955484.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.19.955484.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.19.955484.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.19.955484.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.19.955484.full/img-008.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "Coronaviruses (CoV) first became widely known after the emergence of severe acute respiratory syndrome (SARS) in 2002. They are are positive, single-strand RNA viruses that often infect birds and a variety of mammals and sometimes migrate to humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. While coronaviruses that infect humans usually present mild symptoms (e.g. 15% of cases involving the common cold are caused by a coronavirus), several previous outbreaks, such as SARS and Middle East respiratory syndrome (MERS) [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], have caused significant fatalities in infected populations [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].<br/><br/>In December 2019, several patients with a connection in Wuhan, China developed symptoms of viral pneumonia. Sequencing of viral RNA determined that these cases were caused by a novel coronavirus named 2019-nCoV or SARS-CoV-2 [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. The virus has infected more than 51,857 people across 26 countries as of February 16th 2020 according to a World Health Organization report [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. COVID-19, the disease caused by 2019-nCoV, has led to death of 1666 patients and is clearly transmissible between humans [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]."
+        ],
+        "method": [
+            "2.1 Viral sequences<br/><br/>We obtained 2019-nCoV (SARS-CoV-2019) and SARS-CoV reference sequence data from NCBI GeneBank (NC_045512 and NC_004718) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. We then extracted the 2019-nCoV protein sequences of ORF1AB, S, ORF3A, E, M, ORF6, ORF7A, ORF7B, ORF8, N, and ORF10 based on the reference genome. We obtained viral sequences associated with 68 patients from GISAID on Feb 1st 2020 (Supplementary Table 1) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Genomes with single protein are not included in the analysis.<br/><br/>2.2 MHC antigen presentation prediction<br/><br/>We broke each gene sequence in 2019-nCoV into sliding windows of length 9, the median length of MHC-I ligands, and 15, the median length of MHC-II ligands. We used netMHCpan4 [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] and MARIA [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] to predict MHC-I and MHC-II presentation scores, respectively. We used 32 MHC alleles common in the Chinese population (>4% allele frequency, 7 HLA-A, 8 HLA-B, 9 HLA-C, 8 HLA-DRB1), as determined by an analysis of human populations [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. The complete list of common MHC alleles is included in Supplementary Table 2."
+        ],
+        "results": [
+            "3.1 T-cell epitopes of 2019-nCoV based on MHC presentation<br/><br/>We scanned 11 2019-nCoV genes with NetMHCpan4 and MARIA to identify regions highly presentable by HLA complexes (human MHC). A epitope is labeled positive if presentable by more than one third of common alleles among the Chinese population. We display a summary of our<br/><br/>T-cell epitope findings in Table 1. In Fig. 2 we show regions of strong MHC presentation across HLA-A, HLA-B, HLA-C, and HLA-DR alleles, both at a medium threshold (Fig. 2A), and at a high threshold ( Fig. 2B). Consistent with the similar finding from SARS-CoV, proteins ORF1AB, S, and E contain high numbers of presentable antigen sequences across both MHC-I and MHC-II [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. These highly presentable peptides on functional viral proteins provide a candidate pool for T-cell epitope identifications and epitope-focused vaccine design. The presentation scores of individual antigen peptides can be found in Supplementary Table 5, 6. NetMHCpan4 predicts that a larger number of 2019-nCoV protein sequences can be presented by HLA-C alleles across all genes (Fisher\u2019s exact test, p = 4.2e\u221259) compared to HLA-A or HLAB (Table 1). Specifically, ORF1ab (p = 6.7e\u221254), S (p = 1.4e\u22129), ORF3a (p = 0.01), and M (p = 0.025) can be better presented by HLA-C alleles after Bonferroni correction. This might be due to relatively conserved HLA-C binding motif on the 9th position (the main anchor residue) where Leucine, Methionine, Phenylalanine, Tyrosine are commonly favored across alleles [<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>]. HLA-C*07:02, HLA-C*01:02, and HLA-C*06:02 all have >10% allele frequency in the Chinese population [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. This suggests the future epitope-based vaccines should include HLA-C related epitopes beyond the common HLA-A*02:01 and HLA-B*40:01 approach. 3.2 T-cell epitope validation To estimate the ability of antigen presentation scores to identify 2019-nCoV T-cell epitopes, we performed a validation study with known SARS-CoV CD8 and CD4 T-cell epitopes (Fig. 3). From 4"
+        ],
+        "discussion": [
+            "In summary, we analyzed the 2019-nCoV viral genome for epitope candidates and found 405 likely T-Cell epitopes, with strong MHC-I and MHC-II presentation scores, and 2 potential neutralizing B-Cell epitopes on S protein. We validated our methodology by running a similar analysis on SARS-CoV against known SARS T-cell and B-cell epitopes. Inspecting 68 samples, we found that viral mutations have a tendency to occur in regions with strong MHC-I presentation, which can be a form of immune evasion. However, no mutations are present near the spike protein receptor binding domain which is critical for viral entrance to cells and neutralizing antibody binding. Similar to SARS-CoV [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], the 2019-nCoV spike protein is likely to be immunogenic as it carries a number of both T-cell and B-cell epitopes. Recombinant surface protein vaccines have demonstrated strong clinical utilities in hepatitis B and human papillomavirus (HPV) vaccines [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c45\" href=\"#r45\">45</a>]. A recombinant 2019-nCoV spike protein vaccine combined with other top epitopes and an appropriate adjuvant could be a reasonable next step for 2019-nCoV vaccine development. From an economic perspective, the development of coronavirus vaccines faces significant financial hurdles as most such viruses do not cause endemic infections. After an epidemic episode (e.g. SARS) there is little financial incentive for private companies to develop vaccines against a specific strain of virus [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. To address these incentive issues, governments might provide greater funding support to create vaccines against past and future outbreaks. Our pipeline provides a framework to identify strong epitope-based vaccine candidates\u2014beyond 2019-nCoV\u2014and might be applied against any unknown pathogens. Previous animal studies do show antigens with high MHC presentation scores are more likely to elicit strong T-cell responses, but the correlation between vaccine efficacy and T-cell responses is relatively weak [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c46\" href=\"#r46\">46</a>, <a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. When combined with future clinical data, our work can help the field untangle the relationship between antigen presentation scores and vaccine efficacy."
+        ],
+        "supplementary": [
+            "Tables and Files",
+            "Table 1. Full details and acknowledgements for the viral genome data used. Supplementary Table 2. Common HLA alleles among the Chinese population Supplementary Table 3. Discotope2 prediction for SARS-nCoV spike structure chain A. Supplementary Table 4. Discotope2 prediction for 2019-nCoV spike model chain A. Supplementary Table 5. NetMHCpan4 percentiles for all possible 9mer peptide sequences for 2019-nCoV protein. Supplementary Table 6. MARIA percentiles for all possible 15mer peptide sequences for 2019nCoV protein and peptides with high coverage for both MHC-I and MHC-II alleles Supplementary Table 7. Validation CD8 T-cell epitopes for SARS spike protein Supplementary Table 8. Validation CD4 T-cell epitopes for SARS spike protein. Supplementary Table 9. Protein sequence and mutation profiles of 68 2019-nCoV samples. Supplementary Table 10. DNA sequences of 68 2019-nCoV samples. Supplementary File 1. PDB file for 2019-nCoV spike protein homology modeling. Supplementary File 2. PDB file for 2019-nCoV spike protein and human ACE2 protein-protein docking."
+        ],
+        "disclosures": [
+            "We declared no conflicts of interest."
+        ],
+        "acknowledgement": [
+            "We thank Stanford Schor and Allen Lin for the discussion about coronaviruses. We thank all labs contributing to the global efforts of sequencing 2019-nCoV samples and we attached the full acknowledgment list in Supplementary Table 1."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary File"
+            ],
+            "supplementary_figure_references": [
+                "Supplementary Table 1",
+                "Supplementary Table 2.",
+                "Supplementary Table 3,",
+                "Supplementary Table 9,",
+                "Supplementary Table 5,",
+                "Supplementary Table 7",
+                "Supplementary Tables and",
+                "Supplementary Table 3.",
+                "Supplementary Table 4.",
+                "Supplementary Table 5.",
+                "Supplementary Table 6.",
+                "Supplementary Table 8.",
+                "Supplementary Table 9.",
+                "Supplementary Table 10."
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "As of Feb 16th 2020, 2019-nCoV has infected more than 51,857 people across 26 countries and claimed 1666 lives. 2019-nCoV is a novel form of coronavirus that causes COVID-19 and has high similarity with SARS-CoV. No approved vaccine yet exists for 2019-nCoV or any form of coronavirus. Here we use computational tools from structural biology and machine learning to identify 2019-nCoV T-cell and B-cell epitopes based on viral protein antigen presentation and antibody binding properties. These epitopes can be used to develop more effective vaccines and identify neutralizing antibodies. We identified 405 viral peptides with good antigen presentation scores for both human MHC-I and MHC-II alleles, and two potential neutralizing B-cell epitopes near the 2019-nCoV spike protein receptor binding domain (440-460 and 494-506). Analyzing mutation profiles of 68 viral genomes from four continents, we identified 96 coding-change mutations. These mutations are more likely to occur in regions with good MHC-I presentation scores (p=0.02). No mutations are present near the spike protein receptor binding domain. We validated our computational pipeline with SARS-CoV experimental data."
+        ],
+        "1 Introduction": [
+            "Coronaviruses (CoV) first became widely known after the emergence of severe acute respiratory syndrome (SARS) in 2002. They are are positive, single-strand RNA viruses that often infect birds and a variety of mammals and sometimes migrate to humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. While coronaviruses that infect humans usually present mild symptoms (e.g. 15% of cases involving the common cold are caused by a coronavirus), several previous outbreaks, such as SARS and Middle East respiratory syndrome (MERS) [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], have caused significant fatalities in infected populations [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "In December 2019, several patients with a connection in Wuhan, China developed symptoms of viral pneumonia. Sequencing of viral RNA determined that these cases were caused by a novel coronavirus named 2019-nCoV or SARS-CoV-2 [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. The virus has infected more than 51,857 people across 26 countries as of February 16th 2020 according to a World Health Organization report [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. COVID-19, the disease caused by 2019-nCoV, has led to death of 1666 patients and is clearly transmissible between humans [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "The deployment of a vaccine against 2019-nCoV would arrest its infection rate and help protect vulnerable populations. However, no vaccine has yet passed beyond clinical trails for any coronavirus, whether in humans or other animals [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. In animal models, inactivated whole virus vaccines without focused immune epitopes offer incomplete protection [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Vaccines for SARS-CoV and MERS-CoV have also resulted in hypersensitivity and immunopathologic responses in mice [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>, <a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. The diversity among coronavirus strains presents another challenge [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>, <a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>], as there are at least 6 distinct subgroups in the coronavirus genus. And while SARS-CoV and 2019-nCoV share the same subgroup (2b), their genomes are only 77% identical [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Understanding the shared and unique epitopes of 2019-nCoV will help the field design better vaccines or diagnostic tests for patients.",
+            "Both humoral immunity provided by B-cell antibodies and cellular immunity provided by T-cells are essential for effective vaccines [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. Though humans can usually mount an antibody response",
+            "against viruses, only neutralizing antibodies can fully block the entry of viruses into human cells [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. The location of antibody binding sites on a viral protein strongly affects the body\u2019s ability to produce neutralizing antibodies; for example, HIV has buried surface proteins that protect themselves from human antibodies [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. For this reason, it would be valuable to understand whether 2019-nCoV has potential antibody binding sites (B-cell epitopes) near their interacting surface with its known human entry receptor Angiotensin-Converting Enzyme 2 (ACE2). Beyond neutralizing antibodies, human bodies also rely upon cytotoxic CD8 T-cells and helper CD4 T-cells to fully clear viruses. The presentation of viral peptides by human Major Histocompatibility Complex (MHC or HLA) class I and class II is essential for anti-viral T-cell responses [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. In contrast to B-cell epitopes, T-cell epitopes can be located anywhere in a viral protein since human cells can process and present both intracellular and extracellular viral peptides [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. These immunology principles guide the design of our current study (Fig. 1). First we focus on T-cell epitopes. 2019-nCoV carries 4 major structural proteins\u2014spike (S), membrane (M), envelope (E) and nucleocapsid (N)\u2014and at least 6 other open reading frames (ORFs) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. All protein fragments have the potential to be presented by MHC-I or MHC-II and recognized by T-cells. We apply NetMHCpan4 [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] and MARIA [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>], two artificial neural network algorithms, to predict antigen presentation and identify potential T-cell epitopes. Next we focus on B-cell epitopes. The spike (S) protein is the main trans-membrane glycoprotein expressed on the surface of 2019-nCoV and is responsible for receptor binding and virion entry to cells [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>]. We narrow our B-cell epitope search to S protein since it is the most likely target of human neutralizing antibodies. Discopte2 uses a combination of amino acid sequences and protein",
+            "surface properties to predict antibody binding sites given a protein structure [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. We use this tool to identify potential 2019-nCoV B-cell epitopes as the co-crystal structure of 2019-nCoV\u2019s spike protein and antibody is yet available.",
+            "Finally, we examine the viral mutation pattern. Thanks to global sequencing efforts [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>], we are able to obtain a cohort of 68 2019-nCoV genomes from four continents. Based on the resulting viral mutation profile, we examine whether mutations are driven by the immune selection pressure. Highly mutated regions might be excluded from the vaccine candidate pool."
+        ],
+        "2 Method": [],
+        "2.1 Viral sequences": [
+            "We obtained 2019-nCoV (SARS-CoV-2019) and SARS-CoV reference sequence data from NCBI GeneBank (NC_045512 and NC_004718) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. We then extracted the 2019-nCoV protein sequences of ORF1AB, S, ORF3A, E, M, ORF6, ORF7A, ORF7B, ORF8, N, and ORF10 based on the reference genome. We obtained viral sequences associated with 68 patients from GISAID on Feb 1st 2020 (Supplementary Table 1) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Genomes with single protein are not included in the analysis."
+        ],
+        "2.2 MHC antigen presentation prediction": [
+            "We broke each gene sequence in 2019-nCoV into sliding windows of length 9, the median length of MHC-I ligands, and 15, the median length of MHC-II ligands. We used netMHCpan4 [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] and MARIA [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] to predict MHC-I and MHC-II presentation scores, respectively. We used 32 MHC alleles common in the Chinese population (>4% allele frequency, 7 HLA-A, 8 HLA-B, 9 HLA-C, 8 HLA-DRB1), as determined by an analysis of human populations [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. The complete list of common MHC alleles is included in Supplementary Table 2.",
+            "Both MARIA and netMHCpan4 return percentiles that characterize a peptide\u2019s likelihood of presentation relative to preset distribution of random human peptide scores. Prior work recommends thresholds of 98% for NetMHCpan4 and 95% for MARIA to determine reasonable presenters. We also applied our analysis with a more stringent 99.5% threshold for both NetMHCpan4 and MARIA. We used gene expression values of 50 TPM when running MARIA to reflect the high expression values of viral genes in human cells.",
+            "When aggregating alleles across MHC-I and MHC-II to report overall coverage, we marked a peptide sequence as covered if it is presented by more then 33% of common alleles. We chose 33% as a cut-off because it suggests a high (>90%) probability that at least one allele can present this peptide assuming the patient carries six MHC alleles (e.g. 2 As, 2 Bs, and 2 Cs) and the distribution of common MHC alleles in the population is random. We ranked potential T-cell epitopes based on their MHC-I and MHC-II presentation coverage across alleles."
+        ],
+        "2.3 T-cell epitope validation": [
+            "We applied our methodology to known SARS T-cell epitopes and non-epitope SARS peptides to estimate our ability to predict 2019-nCoV epitopes. For MHC-I, we curated 17 experimentally determined HLA-A*02:01 associated CD8 T-cell epitopes and 1236 non-epitope 9mer sliding windows on SARS S protein [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>, <a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>, <a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. For MHC-II, we curated 3 experimentally determined CD4 T-cell epitopes and 246 non-epitopes on SARS S protein [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>]. No specific HLA-DR alleles were reported in the original study, so we used HLA-DRB1*09:01 and 15:01 (common alleles) to run MARIA. To calculate sensitivity and specificity for this validation set, we labeled any peptide sequence above the 98th (MHC-I) or 95th (MHC-II) percentile as a positive epitope prediction. Any sequence below that threshold we labeled as a negative prediction. We calculated AUC scores (AUROC) to estimate the overall performance of our methodology."
+        ],
+        "2.4 Homology modeling of 2019-nCoV S protein": [
+            "We obtained an approximate 3D structure of 2019-nCoV S protein by homology modeling SARS S protein (PDB: 6ACC) with SWISS-MODEL [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>, <a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]. S proteins from 2019-nCoV and SARS share 93% similarity. The modeled structure of 2019-nCoV S protein has a QMEAN of -3.63",
+            "(Supplementary File 1). We used a computational docking algorithm, ClusPro2 [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>], to estimate the interactive surface of 2019-nCoV with its known human receptor, ACE2 [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] (Supplementary File 2). Graphic rendering and analysis was performed with PyMOL [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]."
+        ],
+        "2.5 B-cell epitope prediction and validation": [
+            "We predicted likely human antibody binding sites (B-cell epitopes) on SARS and 2019-nCoV S protein with Disctope2 [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. Our analysis focused on neutralizing binding sites by only examining residues 1-600. The full prediction results can be found in Supplementary Table 3, 4. To validate our B-cell epitope predictions, we compared our top 3 B-cell epitopes for SARS S protein with previously experimentally identified epitopes from three independent studies [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>, <a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]."
+        ],
+        "2.6 Mutation identification": [
+            "We aimed to determine whether there was any statistical relationship between regions of mutation and presentation. We translated viral genome sequences into protein sequences using BioPython [<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>] and indexes from the NCBI reference genome. 2019-nCoV nucleotide position 13468 contains a -1 frame shift signal and we adjusted accordingly to generate ORF1ab. We compared protein sequences from 68 patients to the reference sequence to identify mutations with edit distance analysis. Positions with poor quality reads (e.g. W or Y) were excluded from the analysis. The full sequence and mutation profiles can be found in Supplementary Table 9, 10. We compared positions of point mutations with MHC-I or MHC-II presentable regions in the protein with Fisher\u2019s exact test. Specifically, we use Fisher\u2019s exact test to compare the proportion of 9mers covered by >33% HLA-C alleles to the proportion covered by >33% of HLA-A and HLA-B alleles."
+        ],
+        "2.7 Statistical analysis": [
+            "We computed Fisher\u2019s exact test with scipy [<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>] and AUROC with scikit-learn [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>]."
+        ],
+        "3 Results": [],
+        "3.1 T-cell epitopes of 2019-nCoV based on MHC presentation": [
+            "We scanned 11 2019-nCoV genes with NetMHCpan4 and MARIA to identify regions highly presentable by HLA complexes (human MHC). A epitope is labeled positive if presentable by more than one third of common alleles among the Chinese population. We display a summary of our",
+            "T-cell epitope findings in Table 1. In Fig. 2 we show regions of strong MHC presentation across HLA-A, HLA-B, HLA-C, and HLA-DR alleles, both at a medium threshold (Fig. 2A), and at a high threshold ( Fig. 2B). Consistent with the similar finding from SARS-CoV, proteins ORF1AB, S, and E contain high numbers of presentable antigen sequences across both MHC-I and MHC-II [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. These highly presentable peptides on functional viral proteins provide a candidate pool for T-cell epitope identifications and epitope-focused vaccine design. The presentation scores of individual antigen peptides can be found in Supplementary Table 5, 6. NetMHCpan4 predicts that a larger number of 2019-nCoV protein sequences can be presented by HLA-C alleles across all genes (Fisher\u2019s exact test, p = 4.2e\u221259) compared to HLA-A or HLAB (Table 1). Specifically, ORF1ab (p = 6.7e\u221254), S (p = 1.4e\u22129), ORF3a (p = 0.01), and M (p = 0.025) can be better presented by HLA-C alleles after Bonferroni correction. This might be due to relatively conserved HLA-C binding motif on the 9th position (the main anchor residue) where Leucine, Methionine, Phenylalanine, Tyrosine are commonly favored across alleles [<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>]. HLA-C*07:02, HLA-C*01:02, and HLA-C*06:02 all have >10% allele frequency in the Chinese population [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. This suggests the future epitope-based vaccines should include HLA-C related epitopes beyond the common HLA-A*02:01 and HLA-B*40:01 approach. 3.2 T-cell epitope validation To estimate the ability of antigen presentation scores to identify 2019-nCoV T-cell epitopes, we performed a validation study with known SARS-CoV CD8 and CD4 T-cell epitopes (Fig. 3). From 4",
+            "independent experimental studies [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>, <a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>, <a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>, <a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], we identified known CD8 T-cell epitopes (MHC-I, n=17) and known CD4 T-cell epitopes (MHC-II, n=3). We also obtained known non-epitopes (n=1236 and 246) for CD4, while for CD8 we include all 9mer sliding windows of S protein without a known epitope as non-epitopes. MHC-I presentation (with recommended cut-off 98% [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]) has a sensitivity of 82.3%, specificity of 97.0% and an AUC of 0.98 (Fig. 3A). MHC-II presentation (recommended cut-off 95% [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]) has a sensitivity of 66.6%, specificity of 91.1% and an AUC of 0.83 (Fig. 3B). Given the high similarity between SARS-CoV and 2019-nCoV proteins, we expect our analysis on 2019-nCoV to perform similarly against future experimentally validated T-cell epitopes. The detailed scores and sequences of this analysis can be found in Supplementary Table 7 and 8.",
+            "3.3 Correlation between viral mutation and antigen presentation Human immune selection pressure has been shown to drive viral mutations which evade immune surveillance (e.g. low MHC presentation). We hypothesize that a similar phenomenon can occur in 2019-nCoV. We curated a cohort of 68 viral genomes across four continents and identified 93 point mutations, 2 nonsense mutation and 1 deletion mutation compared to the published reference genome [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. We plot point mutations against regions of MHC-I or MHC-II presentation in Fig. 4. The full protein sequence and mutation information can be found in Supplementary Table 9, 10. Mutations occur in most genes with the exception of E, ORF6, ORF7b, and N. We identify a recurrent mutation L84S in ORF8 in 20 samples. Mutations are more likely to occur in regions with MHC-I presentation (Fischer\u2019s exact test, p = 0.02). No relationship was observed with MHC-II (p = 0.58) or an aggregate of MHC-I and MHC-II (p = 0.14). This is consistent with the role of CD8 T-cell in clearing infected cells and mutations supporting the evasion of immune surveillance [<a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>]. We identified two nonsense mutations (ORF1AB T15372A and ORF7A C184T) in two viral samples from Shenzhen, China (EPI_ISL_406592 and EPI_ISL_406594). ORF7A C184U causes an immediate stop gain and a truncation of the last 60 amino acids from the ORF7A gene, which can",
+            "Figure 4: 2019-nCoV point mutations correlates with MHC-I presentation regions. 93 point mutations at 59 unique positions (red triangles) are present in a cohort of 68 2019-nCoV cohort. Each row represents a viral protein and the shades of blue indicate whether MHC-I or MHC-II or both can present an antigen from this region. A region is labeled as presented by MHC-I or MHC-II if more than one third of the corresponding alleles can present the peptide sequences. Mutations are more likely be located in regions with MHC-I presentation (p = 0.02). No relationship was observed with MHC-II (p = 0.58) or MHC-I and MHC-II double positive region (dark blue, p = 0.14).",
+            "be presented by multiple MHC alleles as indicated in our heatmap (Fig. 4). In a sample from Japan (EPI_ISL_407084), the viral gene ORF1AB loses nucleotides 94-118, which code for GDSVEEVL. An associated antigen FGDSVEEVL is predicted to be good presented by multiple MHC-I alleles (e.g. 99.9% for HLA-C*08:01, 99.2% for HLA-C*01:02, and 99.0% for HLA-B*39:01). In summary, we observed that 2019-nCoV mutations often occur among or delete presentable peptides, a potential form of immune evasion. Patient MHC allele information and T-cell profiling are needed to better assess this phenomenon. However, patients typically carry fewer than 3 mutations, so a vaccine against multiple epitopes will not be nullified by such a small number of mutations. 3.4 Potential B-cell epitopes of 2019-nCoV We obtained the likely 3D structure of 2019-nCoV\u2019s spike protein (Supplementary File 1) by homology modeling with SARS-CoV\u2019s spike protein (PDB: 6ACC). We scanned both spike protein structures with Discotope2 to identify potential antibody binding sites on the protein surface (Fig. 5). For the SARS-CoV S protein, we identified a strong cluster of antibody sites (>30 residues, pink or red) on the receptor binding domain (RBD, the ACE2 interacting surface). Three independent studies [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>, <a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>] discovered B-cell epitopes in this region (blue) with a combination of in vitro and ex vivo approaches. Additionally, Discotope2 identifies residue 541-555 as another binding site, which was supported by two independent studies (Fig. 5A, blue) [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>]. This gives us some confidence in the ability of Discotope2 to predict B-cell epitopes if given a unknown protein structure. For the 2019-nCoV S protein, Discotope2 identified a similar antibody binding site on S protein potential RBD, but with fewer residues (17 residues, Fig. 5B). With computational protein-protein docking, we predicted one potential interacting conformation between the 2019-nCoV S protein and the human ACE2 entry receptor (Fig. 5C). The main antibody binding site substantially overlaps with the interacting surface where ACE2 binds to S protein, and an antibody binding to this surface is likely to block viral entry into cells. Discotope2 identified anther antibody binding site (residue 246-257) different from SARS-CoV but with lower scores (>-2.5 raw scores).",
+            "MHC-I Cov.",
+            "MHC-II Cov.",
+            "We identified 8 point mutation sites on S protein from a cohort of 68 2019-nCoV samples (Fig. 5D). All mutations are apart from the protein S RBD, and one mutation (S247R) occurs near one of the predicted minor antibody binding site (residue 246-257).",
+            "In summary, we observed major structural and B-cell epitope similarity between SARS-CoV and 2019-nCoV spike proteins. A recent Cryo-EM study of 2019-nCoV S protein [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>] supports such structural similarity, and it would be informative to rerun our analysis once the Cryo-EM crystal structure becomes publicly available. RBDs in both proteins seem to be important B-cell epitopes for neutralizing antibodies, however, SARS-CoV appears to have larger attack surface than 2019-nCoV (Fig. 5A, 5B). Fortunately, we have not observed any mutations altering binding sites for this major B-cell epitope in 2019-nCoV."
+        ],
+        "3.5 Promising candidates for 2019-nCoV vaccines": [
+            "After understanding the landscape of T-cell and B-cell epitopes of 2019-nCoV, we summarize our results in Table 2 for promising candidates for 2019-nCoV vaccines. Ideal antigens should be presented by multiple MHC-I and MHC-II alleles in a general population and contain linear B-cell epitopes associated with neutralizing antibodies. Specifically, we first identified regions with high coverage of MHC-II, then ranked them based on their MHC-I coverage. We further search these top candidates with 90% sequence similarity on IEDB [<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>] to assess whether any candidate has been previously reported for being a B-cell epitope or T-cell epitope.",
+            "Around 1000 peptide 15mers can be presented by a wide range of MHC-II (>33%), which is consistent with our knowledge about promiscuity of MHC-II presentation [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>, <a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>]. When further requiring a peptide to be presented by more than 33% or 66% of common MHC-I alleles, we narrowed the results to 405 or 44 promising T-cell epitopes, respectively (Supplementary Table 5, 6). The top 13 candidates in key viral proteins can be presented by 52-83% of MHC-I alleles (Table 2). Most notably, S protein 494-508 is not only a good MHC presenter but also a predicted B-cell epitope near the S protein receptor binding domain (Fig. 5B), which indicates a good vaccine candidate.",
+            "When searching these 13 candidates on IEDB, we observed several of their homologous peptides in SARS are T-cell and B-cell epitopes. SARS peptide SIVAYTMSL is similar to 2019-nCoV peptide SQSIIAYMSLGAEN and elicits T-cell responses in chromium cytotoxicity assays [<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>]. Previously discovered SARS B-cell epitopes LMSFPQAAPHGVVFLHV [<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>], ASFRLFARTRSMWSF[<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>], KRTATKQYNVTQAFGRR [<a class=\"ref-link\" id=\"c43\" href=\"#r43\">43</a>], and SRVKNLNSSEGVPDLLV [<a class=\"ref-link\" id=\"c44\" href=\"#r44\">44</a>] share high homology with 2019-nCoV S protein 1056-1060, M 97-111, N 264-278, and E 52-66. These search results support validity of our computational pipeline."
+        ],
+        "4 Discussion": [
+            "In summary, we analyzed the 2019-nCoV viral genome for epitope candidates and found 405 likely T-Cell epitopes, with strong MHC-I and MHC-II presentation scores, and 2 potential neutralizing B-Cell epitopes on S protein. We validated our methodology by running a similar analysis on SARS-CoV against known SARS T-cell and B-cell epitopes. Inspecting 68 samples, we found that viral mutations have a tendency to occur in regions with strong MHC-I presentation, which can be a form of immune evasion. However, no mutations are present near the spike protein receptor binding domain which is critical for viral entrance to cells and neutralizing antibody binding. Similar to SARS-CoV [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], the 2019-nCoV spike protein is likely to be immunogenic as it carries a number of both T-cell and B-cell epitopes. Recombinant surface protein vaccines have demonstrated strong clinical utilities in hepatitis B and human papillomavirus (HPV) vaccines [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c45\" href=\"#r45\">45</a>]. A recombinant 2019-nCoV spike protein vaccine combined with other top epitopes and an appropriate adjuvant could be a reasonable next step for 2019-nCoV vaccine development. From an economic perspective, the development of coronavirus vaccines faces significant financial hurdles as most such viruses do not cause endemic infections. After an epidemic episode (e.g. SARS) there is little financial incentive for private companies to develop vaccines against a specific strain of virus [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. To address these incentive issues, governments might provide greater funding support to create vaccines against past and future outbreaks. Our pipeline provides a framework to identify strong epitope-based vaccine candidates\u2014beyond 2019-nCoV\u2014and might be applied against any unknown pathogens. Previous animal studies do show antigens with high MHC presentation scores are more likely to elicit strong T-cell responses, but the correlation between vaccine efficacy and T-cell responses is relatively weak [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>, <a class=\"ref-link\" id=\"c46\" href=\"#r46\">46</a>, <a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. When combined with future clinical data, our work can help the field untangle the relationship between antigen presentation scores and vaccine efficacy."
+        ],
+        "5 Supplementary": [],
+        "Tables and Files": [],
+        "Supplementary": [],
+        "6 Conflicts of interest": [
+            "We declared no conflicts of interest."
+        ],
+        "7 Acknowledgement": [
+            "We thank Stanford Schor and Allen Lin for the discussion about coronaviruses. We thank all labs contributing to the global efforts of sequencing 2019-nCoV samples and we attached the full acknowledgment list in Supplementary Table 1."
+        ],
+        "References": [
+            "[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] Perlman, S. & Netland, J. Coronaviruses post-sars: update on replication and pathogenesis. Nature reviews microbiology 7, 439\u2013450 (2009).",
+            "[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] Group, W. M.-C. R. et al State of knowledge and data gaps of middle east respiratory syndrome coronavirus (mers-cov) in humans. PLoS currents 5 (2013).",
+            "[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] Huang, C. et al Clinical features of patients infected with 2019 novel coronavirus in wuhan, china. The Lancet (2020).",
+            "[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] Wu, F. et al A new coronavirus associated with human respiratory disease in china. Nature 1\u20138 (2020).",
+            "[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] Zhou, P. et al A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 1\u20134 (2020).",
+            "[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] World Health Organization report. https://www.who.int/docs/default-source/ coronaviruse/situation-reports/20200216-sitrep-27-covid-19.pdf (Accessed February 2020).",
+            "[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] Yong, C. Y., Ong, H. K., Yeap, S. K., Ho, K. L. & Tan, W. S. Recent advances in the vaccine development against middle east respiratory syndrome-coronavirus. Frontiers in Microbiology 10, 1781 (2019). URL https://www.frontiersin.org/article/10. 3389/fmicb.2019.01781.",
+            "[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] Coleman, C. M. et al Purified coronavirus spike protein nanoparticles induce coronavirus neutralizing antibodies in mice. Vaccine 32, 3169\u20133174 (2014).",
+            "[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] Tseng, C.-T. et al Immunization with sars coronavirus vaccines leads to pulmonary immunopathology on challenge with the sars virus. PloS one 7 (2012).",
+            "[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] Rappuoli, R., Black, S. & Bloom, D. E. Vaccines and global health: In search of a sustainable model for vaccine development and delivery. Science Translational Medicine 11, eaaw2888 (2019).",
+            "[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] Olsson, S.-E. et al Induction of immune memory following administration of a prophylactic quadrivalent human papillomavirus (hpv) types 6/11/16/18 l1 virus-like particle (vlp) vaccine. Vaccine 25, 4931\u20134939 (2007).",
+            "[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>] Suarez, D. & Schultz-Cherry, S. Immunology of avian influenza virus: a review. Developmental & Comparative Immunology 24, 269\u2013283 (2000).",
+            "[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] Briney, B. et al Tailored immunogens direct affinity maturation toward hiv neutralizing antibodies. Cell 166, 1459\u20131470 (2016).",
+            "[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] Pedersen, S. R. et al Immunogenicity of hla class i and ii double restricted influenza a-derived peptides. PloS one 11 (2016).",
+            "[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] Chen, B. et al Predicting hla class ii antigen presentation through integrated deep learning. Nature biotechnology 37, 1332\u20131343 (2019).",
+            "[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] Lu, R. et al Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. The Lancet (2020).",
+            "[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] Jurtz, V. et al Netmhcpan-4.0: improved peptide\u2013mhc class i interaction predictions integrating eluted ligand and peptide binding affinity data. The Journal of Immunology 199, 3360\u20133368 (2017).",
+            "[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>] Wrapp, D. et al Cryo-em structure of the 2019-ncov spike in the prefusion conformation. bioRxiv (2020). URL https://www.biorxiv.org/content/early/2020/ 02/15/2020.02.11.944462. https://www.biorxiv.org/content/early/ 2020/02/15/2020.02.11.944462.full.pdf.",
+            "[<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>] Kringelum, J. V., Lundegaard, C., Lund, O. & Nielsen, M. Reliable b cell epitope predictions: impacts of method development and improved benchmarking. PLoS computational biology 8 (2012).",
+            "[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] Shu, Y. & McCauley, J. Gisaid: Global initiative on sharing all influenza data\u2013from vision to reality. Eurosurveillance 22 (2017).",
+            "[<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] Zhou, F. et al Deep sequencing of the mhc region in the chinese population contributes to studies of complex disease. Nature genetics 48, 740\u2013746 (2016).",
+            "[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] Chen, H. et al Response of memory cd8+ t cells to severe acute respiratory syndrome (sars) coronavirus in recovered sars patients and healthy individuals. The Journal of Immunology 175, 591\u2013598 (2005).",
+            "[<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>] Zhou, M. et al Screening and identification of severe acute respiratory syndrome-associated coronavirus-specific ctl epitopes. The Journal of Immunology 177, 2138\u20132145 (2006).",
+            "[<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>] Tsao, Y.-P. et al Hla-a 0201 t-cell epitopes in severe acute respiratory syndrome (sars) coronavirus nucleocapsid and spike proteins. Biochemical and biophysical research communications 344, 63\u201371 (2006).",
+            "[<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] Ng, O.-W. et al Memory t cell responses targeting the sars coronavirus persist up to 11 years post-infection. Vaccine 34, 2008\u20132014 (2016).",
+            "[<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>] Schwede, T., Kopp, J., Guex, N. & Peitsch, M. C. Swiss-model: an automated protein homologymodeling server. Nucleic acids research 31, 3381\u20133385 (2003).",
+            "[<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>] Song, W., Gui, M., Wang, X. & Xiang, Y. Cryo-em structure of the sars coronavirus spike glycoprotein in complex with its host cell receptor ace2. PLoS pathogens 14, e1007236 (2018).",
+            "[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>] Comeau, S. R., Gatchell, D. W., Vajda, S. & Camacho, C. J. Cluspro: a fully automated algorithm for protein\u2013protein docking. Nucleic acids research 32, W96\u2013W99 (2004).",
+            "[<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] DeLano, W. L. et al Pymol: An open-source molecular graphics tool. CCP4 Newsletter on protein crystallography 40, 82\u201392.",
+            "[<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>] Yu, H. et al Selection of sars-coronavirus-specific b cell epitopes by phage peptide library screening and evaluation of the immunological effect of epitope-based peptides on mice. Virology 359, 264\u2013274 (2007).",
+            "[<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>] Guo, J.-P., Petric, M., Campbell, W. & McGeer, P. L. Sars corona virus peptides recognized by antibodies in the sera of convalescent cases. Virology 324, 251\u2013256 (2004).",
+            "[<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>] Hua, R., Zhou, Y., Wang, Y., Hua, Y. & Tong, G. Identification of two antigenic epitopes on sars-cov spike protein. Biochemical and biophysical research communications 319, 929\u2013935 (2004).",
+            "[<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>] Cock, P. J. et al Biopython: freely available python tools for computational molecular biology and bioinformatics. Bioinformatics 25, 1422\u20131423 (2009).",
+            "[<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>] Virtanen, P. et al Scipy 1.0: fundamental algorithms for scientific computing in python. Nature Methods 1\u201312 (2020).",
+            "[<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>] Pedregosa, F. et al Scikit-learn: Machine learning in python. Journal of machine learning research 12, 2825\u20132830 (2011).",
+            "[<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>] Rasmussen, M. et al Uncovering the peptide-binding specificities of hla-c: a general strategy to determine the specificity of any mhc class i molecule. The Journal of Immunology 193, 4790\u20134802 (2014).",
+            "[<a class=\"ref-link\" id=\"c37\" href=\"#r37\">37</a>] Channappanavar, R., Fett, C., Zhao, J., Meyerholz, D. K. & Perlman, S. Virus-specific memory cd8 t cells provide substantial protection from lethal severe acute respiratory syndrome coronavirus infection. Journal of virology 88, 11034\u201311044 (2014).",
+            "[<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>] Vita, R. et al The immune epitope database (iedb) 3.0. Nucleic acids research 43, D405\u2013D412 (2015).",
+            "[<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>] Hu, Y. et al Immunologic hierarchy, class ii mhc promiscuity, and epitope spreading of a melanoma helper peptide vaccine. Cancer Immunology, Immunotherapy 63, 779\u2013786 (2014).",
+            "[<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>] Lv, Y., Ruan, Z., Wang, L., Ni, B. & Wu, Y. Identification of a novel conserved hla-a* 0201-restricted epitope from the spike protein of sars-cov. BMC immunology 10, 61 (2009).",
+            "[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>] He, Y. et al Identification of immunodominant sites on the spike protein of severe acute respiratory syndrome (sars) coronavirus: implication for developing sars diagnostics and vaccines. The Journal of Immunology 173, 4050\u20134057 (2004).",
+            "[<a class=\"ref-link\" id=\"c42\" href=\"#r42\">42</a>] He, Y., Zhou, Y., Siddiqui, P., Niu, J. & Jiang, S. Identification of immunodominant epitopes on the membrane protein of the severe acute respiratory syndrome-associated coronavirus. Journal of clinical microbiology 43, 3718\u20133726 (2005).",
+            "[<a class=\"ref-link\" id=\"c43\" href=\"#r43\">43</a>] He, Y. et al Mapping of antigenic sites on the nucleocapsid protein of the severe acute respiratory syndrome coronavirus. Journal of clinical microbiology 42, 5309\u20135314 (2004).",
+            "[<a class=\"ref-link\" id=\"c44\" href=\"#r44\">44</a>] Chow, S. C. et al Specific epitopes of the structural and hypothetical proteins elicit variable humoral responses in sars patients. Journal of clinical pathology 59, 468\u2013476 (2006).",
+            "[<a class=\"ref-link\" id=\"c45\" href=\"#r45\">45</a>] Tajiri, K. et al Analysis of the epitope and neutralizing capacity of human monoclonal antibodies induced by hepatitis b vaccine. Antiviral research 87, 40\u201349 (2010).",
+            "[<a class=\"ref-link\" id=\"c46\" href=\"#r46\">46</a>] Bettencourt, P. et al Identification of antigens presented by mhc for vaccines against tuberculosis. npj Vaccines 5, 1\u201314 (2020)."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "people",
+            "number": 51857,
+            "context": ". <mark class=\"stats\">As of Feb 16th 2020, 2019-nCoV has infected more than 51,857 people across 26 countries and claimed 1666 lives. 2019-nCoV is a novel form of coronavirus that causes COVID-19 and has high similarity with SARS-CoV</mark>. No approved vaccine yet exists for 2019-nCoV or any form of coronavirus"
+        },
+        {
+            "participant": "viral genomes",
+            "number": 68,
+            "context": "We identified 405 viral peptides with good antigen presentation scores for both human MHC-I and MHC-II alleles, and two potential neutralizing B-cell epitopes near the 2019-nCoV spike protein receptor binding domain (440-460 and 494-506). <mark class=\"stats\">Analyzing mutation profiles of 68 viral genomes from four continents, we identified 96 coding-change mutations</mark>. These mutations are more likely to occur in regions with good MHC-I presentation scores (p=0.02)"
+        },
+        {
+            "participant": "patients",
+            "number": 68,
+            "context": "We then extracted the 2019-nCoV protein sequences of ORF1AB, S, ORF3A, E, M, ORF6, ORF7A, ORF7B, ORF8, N, and ORF10 based on the reference genome. <mark class=\"stats\">We obtained viral sequences associated with 68 patients from GISAID on Feb 1st 2020 (Supplementary Table 1) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]</mark>. Genomes with single protein are not included in the analysis.<br/><br/>2.2 MHC antigen presentation prediction<br/><br/>We broke each gene sequence in 2019-nCoV into sliding windows of length 9, the median length of MHC-I ligands, and 15, the median length of MHC-II ligands"
+        },
+        {
+            "participant": "people",
+            "number": 51857,
+            "context": "Sequencing of viral RNA determined that these cases were caused by a novel coronavirus named 2019-nCoV or SARS-CoV-2 [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. <mark class=\"stats\">The virus has infected more than 51,857 people across 26 countries as of February 16th 2020 according to a World Health Organization report [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]</mark>. COVID-19, the disease caused by 2019-nCoV, has led to death of 1666 patients and is clearly transmissible between humans [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]"
+        },
+        {
+            "participant": "patients",
+            "number": 1666,
+            "context": "The virus has infected more than 51,857 people across 26 countries as of February 16th 2020 according to a World Health Organization report [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. <mark class=\"stats\">COVID-19, the disease caused by 2019-nCoV, has led to death of 1666 patients and is clearly transmissible between humans [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]</mark>. The deployment of a vaccine against 2019-nCoV would arrest its infection rate and help protect vulnerable populations"
+        },
+        {
+            "participant": "major structural proteins",
+            "number": 4,
+            "context": "These immunology principles guide the design of our current study (Fig. 1). <mark class=\"stats\">First we focus on T-cell epitopes. 2019-nCoV carries 4 major structural proteins\u2014spike (S), membrane (M), envelope (E) and nucleocapsid (N)\u2014and at least 6 other open reading frames (ORFs) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]</mark>. All protein fragments have the potential to be presented by MHC-I or MHC-II and recognized by T-cells"
+        },
+        {
+            "participant": "patients",
+            "number": 68,
+            "context": "We then extracted the 2019-nCoV protein sequences of ORF1AB, S, ORF3A, E, M, ORF6, ORF7A, ORF7B, ORF8, N, and ORF10 based on the reference genome. <mark class=\"stats\">We obtained viral sequences associated with 68 patients from GISAID on Feb 1st 2020 (Supplementary Table 1) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]</mark>. Genomes with single protein are not included in the analysis"
+        },
+        {
+            "participant": "independent studies",
+            "number": 3,
+            "context": "The full prediction results can be found in Supplementary Table 3, 4. <mark class=\"stats\">To validate our B-cell epitope predictions, we compared our top 3 B-cell epitopes for SARS S protein with previously experimentally identified epitopes from three independent studies [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>, <a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]</mark>. 2.6 Mutation identification"
+        },
+        {
+            "participant": "patients",
+            "number": 68,
+            "context": "We translated viral genome sequences into protein sequences using BioPython [<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>] and indexes from the NCBI reference genome. 2019-nCoV nucleotide position 13468 contains a -1 frame shift signal and we adjusted accordingly to generate ORF1ab. <mark class=\"stats\">We compared protein sequences from 68 patients to the reference sequence to identify mutations with edit distance analysis</mark>. Positions with poor quality reads (e.g. W or Y) were excluded from the analysis"
+        },
+        {
+            "participant": "data",
+            "number": 1236,
+            "context": "independent experimental studies [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>, <a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>, <a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>, <a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], we identified known CD8 T-cell epitopes (MHC-I, n=17) and known CD4 T-cell epitopes (MHC-II, n=3). <mark class=\"stats\">We also obtained known non-epitopes (n=1236 and 246) for CD4, while for CD8 we include all 9mer sliding windows of S protein without a known epitope as non-epitopes</mark>. MHC-I presentation (with recommended cut-off 98% [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]) has a sensitivity of 82.3%, specificity of 97.0% and an AUC of 0.98 (Fig. 3A)"
+        },
+        {
+            "participant": "viral genomes",
+            "number": 68,
+            "context": "We hypothesize that a similar phenomenon can occur in 2019-nCoV. <mark class=\"stats\">We curated a cohort of 68 viral genomes across four continents and identified 93 point mutations, 2 nonsense mutation and 1 deletion mutation compared to the published reference genome [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]</mark>. We plot point mutations against regions of MHC-I or MHC-II presentation in Fig. 4"
+        },
+        {
+            "participant": "samples",
+            "number": 20,
+            "context": "Mutations occur in most genes with the exception of E, ORF6, ORF7b, and N. <mark class=\"stats\">We identify a recurrent mutation L84S in ORF8 in 20 samples</mark>. Mutations are more likely to occur in regions with MHC-I presentation (Fischer\u2019s exact test, p = 0.02)"
+        },
+        {
+            "participant": "independent studies",
+            "number": 3,
+            "context": "For the SARS-CoV S protein, we identified a strong cluster of antibody sites (>30 residues, pink or red) on the receptor binding domain (RBD, the ACE2 interacting surface). <mark class=\"stats\">Three independent studies [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>, <a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>] discovered B-cell epitopes in this region (blue) with a combination of in vitro and ex vivo approaches</mark>. Additionally, Discotope2 identifies residue 541-555 as another binding site, which was supported by two independent studies (Fig. 5A, blue) [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>]"
+        },
+        {
+            "participant": "independent studies",
+            "number": 2,
+            "context": "Three independent studies [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>, <a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>] discovered B-cell epitopes in this region (blue) with a combination of in vitro and ex vivo approaches. <mark class=\"stats\">Additionally, Discotope2 identifies residue 541-555 as another binding site, which was supported by two independent studies (Fig. 5A, blue) [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>, <a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>]</mark>. This gives us some confidence in the ability of Discotope2 to predict B-cell epitopes if given a unknown protein structure"
+        },
+        {
+            "participant": "samples",
+            "number": 68,
+            "context": "We validated our methodology by running a similar analysis on SARS-CoV against known SARS T-cell and B-cell epitopes. <mark class=\"stats\">Inspecting 68 samples, we found that viral mutations have a tendency to occur in regions with strong MHC-I presentation, which can be a form of immune evasion</mark>. However, no mutations are present near the spike protein receptor binding domain which is critical for viral entrance to cells and neutralizing antibody binding"
+        }
+    ],
+    "statistics": [
+        {
+            "p_value": "p=0.02",
+            "context": "Analyzing mutation profiles of 68 viral genomes from four continents, we identified 96 coding-change mutations. <mark class=\"stats\">These mutations are more likely to occur in regions with good MHC-I presentation scores (p=0.02)</mark>. No mutations are present near the spike protein receptor binding domain"
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">We compared positions of point mutations with MHC-I or MHC-II presentable regions in the protein with Fisher\u2019s exact test</mark>",
+                "tests": [
+                    {
+                        "test": "Fisher\u2019s exact test"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Specifically, we use Fisher\u2019s exact test to compare the proportion of 9mers covered by >33% HLA-C alleles to the proportion covered by >33% of HLA-A and HLA-B alleles</mark>",
+                "tests": [
+                    {
+                        "test": "Fisher\u2019s exact test"
+                    }
+                ]
+            }
+        },
+        {
+            "p_value": "p = 4.2e\u221259",
+            "context": "The presentation scores of individual antigen peptides can be found in Supplementary Table 5, 6. <mark class=\"stats\">NetMHCpan4 predicts that a larger number of 2019-nCoV protein sequences can be presented by HLA-C alleles across all genes (Fisher\u2019s exact test, p = 4.2e\u221259) compared to HLA-A or HLAB (Table 1)</mark>. Specifically, ORF1ab (p = 6.7e\u221254), S (p = 1.4e\u22129), ORF3a (p = 0.01), and M (p = 0.025) can be better presented by HLA-C alleles after Bonferroni correction",
+            "tests": {
+                "tests": [
+                    {
+                        "test": "Fisher\u2019s exact test",
+                        "value": "p = 4.2e\u221259"
+                    }
+                ]
+            }
+        },
+        {
+            "p_value": "p = 6.7e\u221254",
+            "context": "NetMHCpan4 predicts that a larger number of 2019-nCoV protein sequences can be presented by HLA-C alleles across all genes (Fisher\u2019s exact test, p = 4.2e\u221259) compared to HLA-A or HLAB (Table 1). <mark class=\"stats\">Specifically, ORF1ab (p = 6.7e\u221254), S (p = 1.4e\u22129), ORF3a (p = 0.01), and M (p = 0.025) can be better presented by HLA-C alleles after Bonferroni correction</mark>. This might be due to relatively conserved HLA-C binding motif on the 9th position (the main anchor residue) where Leucine, Methionine, Phenylalanine, Tyrosine are commonly favored across alleles [36]"
+        },
+        {
+            "p_value": "p = 0.02",
+            "context": "We identify a recurrent mutation L84S in ORF8 in 20 samples. <mark class=\"stats\">Mutations are more likely to occur in regions with MHC-I presentation (Fischer\u2019s exact test, p = 0.02)</mark>. No relationship was observed with MHC-II (p = 0.58) or an aggregate of MHC-I and MHC-II (p = 0.14)"
+        },
+        {
+            "p_value": "p = 0.58",
+            "context": "Mutations are more likely to occur in regions with MHC-I presentation (Fischer\u2019s exact test, p = 0.02). <mark class=\"stats\">No relationship was observed with MHC-II (p = 0.58) or an aggregate of MHC-I and MHC-II (p = 0.14)</mark>. This is consistent with the role of CD8 T-cell in clearing infected cells and mutations supporting the evasion of immune surveillance [37]"
+        },
+        {
+            "p_value": "p = 0.02",
+            "context": "A region is labeled as presented by MHC-I or MHC-II if more than one third of the corresponding alleles can present the peptide sequences. <mark class=\"stats\">Mutations are more likely be located in regions with MHC-I presentation (p = 0.02)</mark>. No relationship was observed with MHC-II (p = 0.58) or MHC-I and MHC-II double positive region (dark blue, p = 0.14)"
+        },
+        {
+            "p_value": "p = 0.58",
+            "context": "Mutations are more likely be located in regions with MHC-I presentation (p = 0.02). <mark class=\"stats\">No relationship was observed with MHC-II (p = 0.58) or MHC-I and MHC-II double positive region (dark blue, p = 0.14)</mark>. be presented by multiple MHC alleles as indicated in our heatmap (Fig. 4)"
+        }
+    ],
+    "keywords": [
+        "open reading frames",
+        "coronavirus",
+        "papillomavirus",
+        "sars cov",
+        "severe acute respiratory syndrome",
+        "presentation score",
+        "antigen presentation",
+        "Angiotensin-Converting Enzyme 2",
+        "human papillomavirus",
+        "MHC-I",
+        "t cell response",
+        "antigenic",
+        "spike protein receptor",
+        "cell epitope",
+        "middle east respiratory syndrome",
+        "b cell epitope",
+        "novel coronavirus"
+    ],
+    "keyword_relevance": {
+        "MHC-I": 0.23859649122807017,
+        "cell epitope": 0.21754385964912282,
+        "severe acute respiratory syndrome": 0.1649122807017544,
+        "open reading frames": 0.10877192982456141,
+        "coronavirus": 0.10526315789473684,
+        "presentation score": 0.031578947368421054,
+        "antigen presentation": 0.031578947368421054,
+        "Angiotensin-Converting Enzyme 2": 0.031578947368421054,
+        "human papillomavirus": 0.010526315789473684,
+        "spike protein receptor": 0.010526315789473684,
+        "novel coronavirus": 0.010526315789473684,
+        "papillomavirus": 0.007017543859649123,
+        "antigenic": 0.007017543859649123,
+        "middle east respiratory syndrome": 0.007017543859649123,
+        "b cell epitope": 0.007017543859649123,
+        "Middle East respiratory syndrome": 0.007017543859649123,
+        "t cell response": 0.0035087719298245615,
+        "sars cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Coronaviruses (CoV) first became widely known after the emergence of severe acute respiratory syndrome (SARS) in 2002.",
+        "They are are positive, single-strand RNA viruses that often infect birds and a variety of mammals and sometimes migrate to humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "Sequencing of viral RNA determined that these cases were caused by a novel coronavirus named 2019-nCoV or SARS-CoV-2 [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+        "COVID-19, the disease caused by 2019-nCoV, has led to death of 1666 patients and is clearly transmissible between humans [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "<h2 style=\"display: inline\">Methods:</h2> 2.1 Viral sequences<br/><br/>The authors obtained 2019-nCoV (SARS-CoV-2019) and SARS-CoV reference sequence data from NCBI GeneBank (NC_045512 and NC_004718) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+        "The authors extracted the 2019-nCoV protein sequences of ORF1AB, S, ORF3A, E, M, ORF6, ORF7A, ORF7B, ORF8, N, and ORF10 based on the reference genome.",
+        "Genomes with single protein are not included in the analysis.",
+        "2.2 MHC antigen presentation prediction.",
+        "The authors used netMHCpan4 [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] and MARIA [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] to predict MHC-The author ands MHC-II presentation scores, respectively.",
+        "The complete list of common MHC alleles is included in Supplementary Table 2",
+        "<h2 style=\"display: inline\">Results:</h2> 3.1 T-cell epitopes of 2019-nCoV based on MHC presentation<br/><br/>The authors scanned 11 2019-nCoV genes with NetMHCpan4 and MARIA to identify regions highly presentable by HLA complexes.",
+        "Consistent with the similar finding from SARS-CoV, proteins ORF1AB, S, and E contain high numbers of presentable antigen sequences across both MHC-The author ands MHC-II [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+        "These highly presentable peptides on functional viral proteins provide a candidate pool for T-cell epitope identifications and epitope-focused vaccine design.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors analyzed the 2019-nCoV viral genome for epitope candidates and found 405 likely T-Cell epitopes, with strong MHC-The author ands MHC-II presentation scores, and 2 potential neutralizing B-Cell epitopes on S protein.",
+        "After an epidemic episode (e.g. SARS) there is little financial incentive for private companies to develop vaccines against a specific strain of virus [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+        "To address these incentive issues, governments might provide greater funding support to create vaccines against past and future outbreaks.",
+        "When combined with future clinical data, the work can help the field untangle the relationship between antigen presentation scores and vaccine efficacy"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Coronaviruses (CoV) first became widely known after the emergence of severe acute respiratory syndrome (SARS) in 2002.",
+            "They are are positive, single-strand RNA viruses that often infect birds and a variety of mammals and sometimes migrate to humans [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "Sequencing of viral RNA determined that these cases were caused by a novel coronavirus named 2019-nCoV or SARS-CoV-2 [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+            "COVID-19, the disease caused by 2019-nCoV, has led to death of 1666 patients and is clearly transmissible between humans [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]"
+        ],
+        "Methods": [
+            "2.1 Viral sequences<br/><br/>The authors obtained 2019-nCoV (SARS-CoV-2019) and SARS-CoV reference sequence data from NCBI GeneBank (NC_045512 and NC_004718) [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+            "The authors extracted the 2019-nCoV protein sequences of ORF1AB, S, ORF3A, E, M, ORF6, ORF7A, ORF7B, ORF8, N, and ORF10 based on the reference genome.",
+            "Genomes with single protein are not included in the analysis.",
+            "2.2 MHC antigen presentation prediction.",
+            "The authors used netMHCpan4 [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] and MARIA [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] to predict MHC-The author ands MHC-II presentation scores, respectively.",
+            "The complete list of common MHC alleles is included in Supplementary Table 2"
+        ],
+        "Results": [
+            "3.1 T-cell epitopes of 2019-nCoV based on MHC presentation<br/><br/>The authors scanned 11 2019-nCoV genes with NetMHCpan4 and MARIA to identify regions highly presentable by HLA complexes.",
+            "Consistent with the similar finding from SARS-CoV, proteins ORF1AB, S, and E contain high numbers of presentable antigen sequences across both MHC-The author ands MHC-II [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "These highly presentable peptides on functional viral proteins provide a candidate pool for T-cell epitope identifications and epitope-focused vaccine design."
+        ],
+        "Conclusion": [
+            "The authors analyzed the 2019-nCoV viral genome for epitope candidates and found 405 likely T-Cell epitopes, with strong MHC-The author ands MHC-II presentation scores, and 2 potential neutralizing B-Cell epitopes on S protein.",
+            "After an epidemic episode (e.g. SARS) there is little financial incentive for private companies to develop vaccines against a specific strain of virus [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "To address these incentive issues, governments might provide greater funding support to create vaccines against past and future outbreaks.",
+            "When combined with future clinical data, the work can help the field untangle the relationship between antigen presentation scores and vaccine efficacy"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Perlman_2009_a",
+            "entry": "[1] Perlman, S. & Netland, J. Coronaviruses post-sars: update on replication and pathogenesis. Nature reviews microbiology 7, 439\u2013450 (2009).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Perlman%2C%20S.%20Netland%2C%20J.%20Coronaviruses%20post-sars%3A%20update%20on%20replication%20and%20pathogenesis%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Perlman%2C%20S.%20Netland%2C%20J.%20Coronaviruses%20post-sars%3A%20update%20on%20replication%20and%20pathogenesis%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Perlman%2C%20S.%20Netland%2C%20J.%20Coronaviruses%20post-sars%3A%20update%20on%20replication%20and%20pathogenesis%202009"
+        },
+        {
+            "id": "2",
+            "alt_id": "Group_2013_a",
+            "entry": "[2] Group, W. M.-C. R. et al. State of knowledge and data gaps of middle east respiratory syndrome coronavirus (mers-cov) in humans. PLoS currents 5 (2013).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Group%2C%20W.M.-C.R.%20State%20of%20knowledge%20and%20data%20gaps%20of%20middle%20east%20respiratory%20syndrome%20coronavirus%20%28mers-cov%29%20in%20humans.%20PLoS%20currents%205%202013"
+        },
+        {
+            "id": "3",
+            "alt_id": "Huang_2020_a",
+            "entry": "[3] Huang, C. et al. Clinical features of patients infected with 2019 novel coronavirus in wuhan, china. The Lancet (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20wuhan%20china%20The%20Lancet%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Huang%20C%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20wuhan%20china%20The%20Lancet%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Huang%20C%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20wuhan%20china%20The%20Lancet%202020"
+        },
+        {
+            "id": "4",
+            "alt_id": "Wu_2020_a",
+            "entry": "[4] Wu, F. et al. A new coronavirus associated with human respiratory disease in china. Nature 1\u20138 (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%2C%20F.%20A%20new%20coronavirus%20associated%20with%20human%20respiratory%20disease%20in%20china%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%2C%20F.%20A%20new%20coronavirus%20associated%20with%20human%20respiratory%20disease%20in%20china%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%2C%20F.%20A%20new%20coronavirus%20associated%20with%20human%20respiratory%20disease%20in%20china%202020"
+        },
+        {
+            "id": "5",
+            "alt_id": "Zhou_2020_a",
+            "entry": "[5] Zhou, P. et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 1\u20134 (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20P.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20P.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20P.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020"
+        },
+        {
+            "id": "6",
+            "alt_id": "[6]_0000_a",
+            "entry": "[6] World Health Organization report. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200216-sitrep-27-covid-19.pdf (Accessed February 2020).",
+            "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200216-sitrep-27-covid-19.pdf"
+        },
+        {
+            "id": "7",
+            "alt_id": "Yong_et+al_2019_a",
+            "entry": "[7] Yong, C. Y., Ong, H. K., Yeap, S. K., Ho, K. L. & Tan, W. S. Recent advances in the vaccine development against middle east respiratory syndrome-coronavirus. Frontiers in Microbiology 10, 1781 (2019). URL https://www.frontiersin.org/article/10.3389/fmicb.2019.01781.",
+            "url": "https://www.frontiersin.org/article/10.3389/fmicb.2019.01781",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yong%2C%20C.Y.%20Ong%2C%20H.K.%20Yeap%2C%20S.K.%20Ho%2C%20K.L.%20Recent%20advances%20in%20the%20vaccine%20development%20against%20middle%20east%20respiratory%20syndrome-coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yong%2C%20C.Y.%20Ong%2C%20H.K.%20Yeap%2C%20S.K.%20Ho%2C%20K.L.%20Recent%20advances%20in%20the%20vaccine%20development%20against%20middle%20east%20respiratory%20syndrome-coronavirus%202019"
+        },
+        {
+            "id": "8",
+            "alt_id": "Coleman_2014_a",
+            "entry": "[8] Coleman, C. M. et al. Purified coronavirus spike protein nanoparticles induce coronavirus neutralizing antibodies in mice. Vaccine 32, 3169\u20133174 (2014).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Coleman%2C%20C.M.%20Purified%20coronavirus%20spike%20protein%20nanoparticles%20induce%20coronavirus%20neutralizing%20antibodies%20in%20mice%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Coleman%2C%20C.M.%20Purified%20coronavirus%20spike%20protein%20nanoparticles%20induce%20coronavirus%20neutralizing%20antibodies%20in%20mice%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Coleman%2C%20C.M.%20Purified%20coronavirus%20spike%20protein%20nanoparticles%20induce%20coronavirus%20neutralizing%20antibodies%20in%20mice%202014"
+        },
+        {
+            "id": "9",
+            "alt_id": "Tseng_2012_a",
+            "entry": "[9] Tseng, C.-T. et al. Immunization with sars coronavirus vaccines leads to pulmonary immunopathology on challenge with the sars virus. PloS one 7 (2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tseng%2C%20C.-T.%20Immunization%20with%20sars%20coronavirus%20vaccines%20leads%20to%20pulmonary%20immunopathology%20on%20challenge%20with%20the%20sars%20virus%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tseng%2C%20C.-T.%20Immunization%20with%20sars%20coronavirus%20vaccines%20leads%20to%20pulmonary%20immunopathology%20on%20challenge%20with%20the%20sars%20virus%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tseng%2C%20C.-T.%20Immunization%20with%20sars%20coronavirus%20vaccines%20leads%20to%20pulmonary%20immunopathology%20on%20challenge%20with%20the%20sars%20virus%202012"
+        },
+        {
+            "id": "10",
+            "alt_id": "Rappuoli_et+al_2019_a",
+            "entry": "[10] Rappuoli, R., Black, S. & Bloom, D. E. Vaccines and global health: In search of a sustainable model for vaccine development and delivery. Science Translational Medicine 11, eaaw2888 (2019).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Rappuoli%2C%20R.%20Black%2C%20S.%20Bloom%2C%20D.E.%20Vaccines%20and%20global%20health%3A%20In%20search%20of%20a%20sustainable%20model%20for%20vaccine%20development%20and%20delivery%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Rappuoli%2C%20R.%20Black%2C%20S.%20Bloom%2C%20D.E.%20Vaccines%20and%20global%20health%3A%20In%20search%20of%20a%20sustainable%20model%20for%20vaccine%20development%20and%20delivery%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Rappuoli%2C%20R.%20Black%2C%20S.%20Bloom%2C%20D.E.%20Vaccines%20and%20global%20health%3A%20In%20search%20of%20a%20sustainable%20model%20for%20vaccine%20development%20and%20delivery%202019"
+        },
+        {
+            "id": "11",
+            "alt_id": "Olsson_2007_a",
+            "entry": "[11] Olsson, S.-E. et al. Induction of immune memory following administration of a prophylactic quadrivalent human papillomavirus (hpv) types 6/11/16/18 l1 virus-like particle (vlp) vaccine. Vaccine 25, 4931\u20134939 (2007).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Olsson%2C%20S.-E.%20Induction%20of%20immune%20memory%20following%20administration%20of%20a%20prophylactic%20quadrivalent%20human%20papillomavirus%20%28hpv%29%20types%206/11/16/18%20l1%20virus-like%20particle%20%28vlp%29%20vaccine%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Olsson%2C%20S.-E.%20Induction%20of%20immune%20memory%20following%20administration%20of%20a%20prophylactic%20quadrivalent%20human%20papillomavirus%20%28hpv%29%20types%206/11/16/18%20l1%20virus-like%20particle%20%28vlp%29%20vaccine%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Olsson%2C%20S.-E.%20Induction%20of%20immune%20memory%20following%20administration%20of%20a%20prophylactic%20quadrivalent%20human%20papillomavirus%20%28hpv%29%20types%206/11/16/18%20l1%20virus-like%20particle%20%28vlp%29%20vaccine%202007"
+        },
+        {
+            "id": "12",
+            "alt_id": "Suarez_2000_a",
+            "entry": "[12] Suarez, D. & Schultz-Cherry, S. Immunology of avian influenza virus: a review. Developmental & Comparative Immunology 24, 269\u2013283 (2000).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Suarez%2C%20D.%20Schultz-Cherry%2C%20S.%20Immunology%20of%20avian%20influenza%20virus%3A%20a%20review%202000",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Suarez%2C%20D.%20Schultz-Cherry%2C%20S.%20Immunology%20of%20avian%20influenza%20virus%3A%20a%20review%202000",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Suarez%2C%20D.%20Schultz-Cherry%2C%20S.%20Immunology%20of%20avian%20influenza%20virus%3A%20a%20review%202000"
+        },
+        {
+            "id": "13",
+            "alt_id": "Briney_2016_a",
+            "entry": "[13] Briney, B. et al. Tailored immunogens direct affinity maturation toward hiv neutralizing antibodies. Cell 166, 1459\u20131470 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Briney%2C%20B.%20Tailored%20immunogens%20direct%20affinity%20maturation%20toward%20hiv%20neutralizing%20antibodies%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Briney%2C%20B.%20Tailored%20immunogens%20direct%20affinity%20maturation%20toward%20hiv%20neutralizing%20antibodies%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Briney%2C%20B.%20Tailored%20immunogens%20direct%20affinity%20maturation%20toward%20hiv%20neutralizing%20antibodies%202016"
+        },
+        {
+            "id": "14",
+            "alt_id": "Pedersen_2016_a",
+            "entry": "[14] Pedersen, S. R. et al. Immunogenicity of hla class i and ii double restricted influenza a-derived peptides. PloS one 11 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pedersen%2C%20S.R.%20Immunogenicity%20of%20hla%20class%20i%20and%20ii%20double%20restricted%20influenza%20a-derived%20peptides%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pedersen%2C%20S.R.%20Immunogenicity%20of%20hla%20class%20i%20and%20ii%20double%20restricted%20influenza%20a-derived%20peptides%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pedersen%2C%20S.R.%20Immunogenicity%20of%20hla%20class%20i%20and%20ii%20double%20restricted%20influenza%20a-derived%20peptides%202016"
+        },
+        {
+            "id": "15",
+            "alt_id": "Chen_2019_a",
+            "entry": "[15] Chen, B. et al. Predicting hla class ii antigen presentation through integrated deep learning. Nature biotechnology 37, 1332\u20131343 (2019).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20B.%20Predicting%20hla%20class%20ii%20antigen%20presentation%20through%20integrated%20deep%20learning%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20B.%20Predicting%20hla%20class%20ii%20antigen%20presentation%20through%20integrated%20deep%20learning%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20B.%20Predicting%20hla%20class%20ii%20antigen%20presentation%20through%20integrated%20deep%20learning%202019"
+        },
+        {
+            "id": "16",
+            "alt_id": "Lu_2020_a",
+            "entry": "[16] Lu, R. et al. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. The Lancet (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lu%20R%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20The%20Lancet%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lu%20R%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20The%20Lancet%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lu%20R%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20The%20Lancet%202020"
+        },
+        {
+            "id": "17",
+            "alt_id": "Jurtz_2017_a",
+            "entry": "[17] Jurtz, V. et al. Netmhcpan-4.0: improved peptide\u2013mhc class i interaction predictions integrating eluted ligand and peptide binding affinity data. The Journal of Immunology 199, 3360\u20133368 (2017).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jurtz%2C%20V.%20Netmhcpan-%204.0%3A%20improved%20peptide%E2%80%93mhc%20class%20i%20interaction%20predictions%20integrating%20eluted%20ligand%20and%20peptide%20binding%20affinity%20data%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jurtz%2C%20V.%20Netmhcpan-%204.0%3A%20improved%20peptide%E2%80%93mhc%20class%20i%20interaction%20predictions%20integrating%20eluted%20ligand%20and%20peptide%20binding%20affinity%20data%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jurtz%2C%20V.%20Netmhcpan-%204.0%3A%20improved%20peptide%E2%80%93mhc%20class%20i%20interaction%20predictions%20integrating%20eluted%20ligand%20and%20peptide%20binding%20affinity%20data%202017"
+        },
+        {
+            "id": "18",
+            "alt_id": "Wrapp_2020_a",
+            "entry": "[18] Wrapp, D. et al. Cryo-em structure of the 2019-ncov spike in the prefusion conformation. bioRxiv (2020). URL https://www.biorxiv.org/content/early/2020/02/15/2020.02.11.944462.https://www.biorxiv.org/content/early/2020/02/15/2020.02.11.944462.full.pdf.",
+            "url": "https://www.biorxiv.org/content/early/2020/02/15/2020.02.11.944462.https://www.biorxiv.org/content/early/2020/02/15/2020.02.11.944462.full.pdf",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wrapp%20D%20et%20al%20Cryoem%20structure%20of%20the%202019ncov%20spike%20in%20the%20prefusion%20conformation%20bioRxiv%202020%20URL%20httpswwwbiorxivorgcontentearly2020021520200211944462httpswwwbiorxivorgcontentearly2020021520200211944462fullpdf",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wrapp%20D%20et%20al%20Cryoem%20structure%20of%20the%202019ncov%20spike%20in%20the%20prefusion%20conformation%20bioRxiv%202020%20URL%20httpswwwbiorxivorgcontentearly2020021520200211944462httpswwwbiorxivorgcontentearly2020021520200211944462fullpdf"
+        },
+        {
+            "id": "19",
+            "alt_id": "Kringelum_et+al_2012_a",
+            "entry": "[19] Kringelum, J. V., Lundegaard, C., Lund, O. & Nielsen, M. Reliable b cell epitope predictions: impacts of method development and improved benchmarking. PLoS computational biology 8 (2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kringelum%2C%20J.V.%20Lundegaard%2C%20C.%20Lund%2C%20O.%20Nielsen%2C%20M.%20Reliable%20b%20cell%20epitope%20predictions%3A%20impacts%20of%20method%20development%20and%20improved%20benchmarking%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kringelum%2C%20J.V.%20Lundegaard%2C%20C.%20Lund%2C%20O.%20Nielsen%2C%20M.%20Reliable%20b%20cell%20epitope%20predictions%3A%20impacts%20of%20method%20development%20and%20improved%20benchmarking%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kringelum%2C%20J.V.%20Lundegaard%2C%20C.%20Lund%2C%20O.%20Nielsen%2C%20M.%20Reliable%20b%20cell%20epitope%20predictions%3A%20impacts%20of%20method%20development%20and%20improved%20benchmarking%202012"
+        },
+        {
+            "id": "20",
+            "alt_id": "Shu_2017_a",
+            "entry": "[20] Shu, Y. & McCauley, J. Gisaid: Global initiative on sharing all influenza data\u2013from vision to reality. Eurosurveillance 22 (2017).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Shu%2C%20Y.%20McCauley%2C%20J.%20Gisaid%3A%20Global%20initiative%20on%20sharing%20all%20influenza%20data%E2%80%93from%20vision%20to%20reality%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Shu%2C%20Y.%20McCauley%2C%20J.%20Gisaid%3A%20Global%20initiative%20on%20sharing%20all%20influenza%20data%E2%80%93from%20vision%20to%20reality%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Shu%2C%20Y.%20McCauley%2C%20J.%20Gisaid%3A%20Global%20initiative%20on%20sharing%20all%20influenza%20data%E2%80%93from%20vision%20to%20reality%202017"
+        },
+        {
+            "id": "21",
+            "alt_id": "Zhou_2016_a",
+            "entry": "[21] Zhou, F. et al. Deep sequencing of the mhc region in the chinese population contributes to studies of complex disease. Nature genetics 48, 740\u2013746 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20F.%20Deep%20sequencing%20of%20the%20mhc%20region%20in%20the%20chinese%20population%20contributes%20to%20studies%20of%20complex%20disease%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20F.%20Deep%20sequencing%20of%20the%20mhc%20region%20in%20the%20chinese%20population%20contributes%20to%20studies%20of%20complex%20disease%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20F.%20Deep%20sequencing%20of%20the%20mhc%20region%20in%20the%20chinese%20population%20contributes%20to%20studies%20of%20complex%20disease%202016"
+        },
+        {
+            "id": "22",
+            "alt_id": "Chen_2005_a",
+            "entry": "[22] Chen, H. et al. Response of memory cd8+ t cells to severe acute respiratory syndrome (sars) coronavirus in recovered sars patients and healthy individuals. The Journal of Immunology 175, 591\u2013598 (2005).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20H.%20Response%20of%20memory%20cd8%2B%20t%20cells%20to%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%20in%20recovered%20sars%20patients%20and%20healthy%20individuals%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20H.%20Response%20of%20memory%20cd8%2B%20t%20cells%20to%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%20in%20recovered%20sars%20patients%20and%20healthy%20individuals%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20H.%20Response%20of%20memory%20cd8%2B%20t%20cells%20to%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%20in%20recovered%20sars%20patients%20and%20healthy%20individuals%202005"
+        },
+        {
+            "id": "23",
+            "alt_id": "Zhou_2006_a",
+            "entry": "[23] Zhou, M. et al. Screening and identification of severe acute respiratory syndrome-associated coronavirus-specific ctl epitopes. The Journal of Immunology 177, 2138\u20132145 (2006).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20M.%20Screening%20and%20identification%20of%20severe%20acute%20respiratory%20syndrome-associated%20coronavirus-specific%20ctl%20epitopes%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20M.%20Screening%20and%20identification%20of%20severe%20acute%20respiratory%20syndrome-associated%20coronavirus-specific%20ctl%20epitopes%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20M.%20Screening%20and%20identification%20of%20severe%20acute%20respiratory%20syndrome-associated%20coronavirus-specific%20ctl%20epitopes%202006"
+        },
+        {
+            "id": "24",
+            "alt_id": "Tsao_2006_a",
+            "entry": "[24] Tsao, Y.-P. et al. Hla-a 0201 t-cell epitopes in severe acute respiratory syndrome (sars) coronavirus nucleocapsid and spike proteins. Biochemical and biophysical research communications 344, 63\u201371 (2006).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tsao%2C%20Y.-P.%20Hla-a%200201%20t-cell%20epitopes%20in%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%20nucleocapsid%20and%20spike%20proteins%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tsao%2C%20Y.-P.%20Hla-a%200201%20t-cell%20epitopes%20in%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%20nucleocapsid%20and%20spike%20proteins%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tsao%2C%20Y.-P.%20Hla-a%200201%20t-cell%20epitopes%20in%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%20nucleocapsid%20and%20spike%20proteins%202006"
+        },
+        {
+            "id": "25",
+            "alt_id": "Ng_2016_a",
+            "entry": "[25] Ng, O.-W. et al. Memory t cell responses targeting the sars coronavirus persist up to 11 years post-infection. Vaccine 34, 2008\u20132014 (2016).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ng%2C%20O.-W.%20et%20al.%20Memory%20t%20cell%20responses%20targeting%20the%20sars%20coronavirus%20persist%20up%20to%2011%20years%20post-infection%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ng%2C%20O.-W.%20et%20al.%20Memory%20t%20cell%20responses%20targeting%20the%20sars%20coronavirus%20persist%20up%20to%2011%20years%20post-infection%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ng%2C%20O.-W.%20et%20al.%20Memory%20t%20cell%20responses%20targeting%20the%20sars%20coronavirus%20persist%20up%20to%2011%20years%20post-infection%202016"
+        },
+        {
+            "id": "26",
+            "alt_id": "Schwede_et+al_2003_a",
+            "entry": "[26] Schwede, T., Kopp, J., Guex, N. & Peitsch, M. C. Swiss-model: an automated protein homologymodeling server. Nucleic acids research 31, 3381\u20133385 (2003).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Schwede%2C%20T.%20Kopp%2C%20J.%20Guex%2C%20N.%20Peitsch%2C%20M.C.%20Swiss-model%3A%20an%20automated%20protein%20homologymodeling%20server%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Schwede%2C%20T.%20Kopp%2C%20J.%20Guex%2C%20N.%20Peitsch%2C%20M.C.%20Swiss-model%3A%20an%20automated%20protein%20homologymodeling%20server%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Schwede%2C%20T.%20Kopp%2C%20J.%20Guex%2C%20N.%20Peitsch%2C%20M.C.%20Swiss-model%3A%20an%20automated%20protein%20homologymodeling%20server%202003"
+        },
+        {
+            "id": "27",
+            "alt_id": "Song_et+al_2018_a",
+            "entry": "[27] Song, W., Gui, M., Wang, X. & Xiang, Y. Cryo-em structure of the sars coronavirus spike glycoprotein in complex with its host cell receptor ace2. PLoS pathogens 14, e1007236 (2018).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-em%20structure%20of%20the%20sars%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ace2%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-em%20structure%20of%20the%20sars%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ace2%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-em%20structure%20of%20the%20sars%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ace2%202018"
+        },
+        {
+            "id": "28",
+            "alt_id": "Comeau_et+al_2004_a",
+            "entry": "[28] Comeau, S. R., Gatchell, D. W., Vajda, S. & Camacho, C. J. Cluspro: a fully automated algorithm for protein\u2013protein docking. Nucleic acids research 32, W96\u2013W99 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Comeau%2C%20S.R.%20Gatchell%2C%20D.W.%20Vajda%2C%20S.%20Camacho%2C%20C.J.%20Cluspro%3A%20a%20fully%20automated%20algorithm%20for%20protein%E2%80%93protein%20docking%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Comeau%2C%20S.R.%20Gatchell%2C%20D.W.%20Vajda%2C%20S.%20Camacho%2C%20C.J.%20Cluspro%3A%20a%20fully%20automated%20algorithm%20for%20protein%E2%80%93protein%20docking%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Comeau%2C%20S.R.%20Gatchell%2C%20D.W.%20Vajda%2C%20S.%20Camacho%2C%20C.J.%20Cluspro%3A%20a%20fully%20automated%20algorithm%20for%20protein%E2%80%93protein%20docking%202004"
+        },
+        {
+            "id": "29",
+            "alt_id": "Delano_0000_a",
+            "entry": "[29] DeLano, W. L. et al. Pymol: An open-source molecular graphics tool. CCP4 Newsletter on protein crystallography 40, 82\u201392.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=DeLano%2C%20W.L.%20Pymol%3A%20An%20open-source%20molecular%20graphics%20tool.%20CCP4%20Newsletter%20on%20protein",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=DeLano%2C%20W.L.%20Pymol%3A%20An%20open-source%20molecular%20graphics%20tool.%20CCP4%20Newsletter%20on%20protein",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=DeLano%2C%20W.L.%20Pymol%3A%20An%20open-source%20molecular%20graphics%20tool.%20CCP4%20Newsletter%20on%20protein"
+        },
+        {
+            "id": "30",
+            "alt_id": "Yu_2007_a",
+            "entry": "[30] Yu, H. et al. Selection of sars-coronavirus-specific b cell epitopes by phage peptide library screening and evaluation of the immunological effect of epitope-based peptides on mice. Virology 359, 264\u2013274 (2007).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yu%2C%20H.%20Selection%20of%20sars-coronavirus-specific%20b%20cell%20epitopes%20by%20phage%20peptide%20library%20screening%20and%20evaluation%20of%20the%20immunological%20effect%20of%20epitope-based%20peptides%20on%20mice%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yu%2C%20H.%20Selection%20of%20sars-coronavirus-specific%20b%20cell%20epitopes%20by%20phage%20peptide%20library%20screening%20and%20evaluation%20of%20the%20immunological%20effect%20of%20epitope-based%20peptides%20on%20mice%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yu%2C%20H.%20Selection%20of%20sars-coronavirus-specific%20b%20cell%20epitopes%20by%20phage%20peptide%20library%20screening%20and%20evaluation%20of%20the%20immunological%20effect%20of%20epitope-based%20peptides%20on%20mice%202007"
+        },
+        {
+            "id": "31",
+            "alt_id": "Guo_et+al_2004_a",
+            "entry": "[31] Guo, J.-P., Petric, M., Campbell, W. & McGeer, P. L. Sars corona virus peptides recognized by antibodies in the sera of convalescent cases. Virology 324, 251\u2013256 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Guo%2C%20J.-P.%20Petric%2C%20M.%20Campbell%2C%20W.%20McGeer%2C%20P.L.%20Sars%20corona%20virus%20peptides%20recognized%20by%20antibodies%20in%20the%20sera%20of%20convalescent%20cases%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Guo%2C%20J.-P.%20Petric%2C%20M.%20Campbell%2C%20W.%20McGeer%2C%20P.L.%20Sars%20corona%20virus%20peptides%20recognized%20by%20antibodies%20in%20the%20sera%20of%20convalescent%20cases%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Guo%2C%20J.-P.%20Petric%2C%20M.%20Campbell%2C%20W.%20McGeer%2C%20P.L.%20Sars%20corona%20virus%20peptides%20recognized%20by%20antibodies%20in%20the%20sera%20of%20convalescent%20cases%202004"
+        },
+        {
+            "id": "32",
+            "alt_id": "Hua_et+al_2004_a",
+            "entry": "[32] Hua, R., Zhou, Y., Wang, Y., Hua, Y. & Tong, G. Identification of two antigenic epitopes on sars-cov spike protein. Biochemical and biophysical research communications 319, 929\u2013935 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hua%2C%20R.%20Zhou%2C%20Y.%20Wang%2C%20Y.%20Hua%2C%20Y.%20Identification%20of%20two%20antigenic%20epitopes%20on%20sars-cov%20spike%20protein%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hua%2C%20R.%20Zhou%2C%20Y.%20Wang%2C%20Y.%20Hua%2C%20Y.%20Identification%20of%20two%20antigenic%20epitopes%20on%20sars-cov%20spike%20protein%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hua%2C%20R.%20Zhou%2C%20Y.%20Wang%2C%20Y.%20Hua%2C%20Y.%20Identification%20of%20two%20antigenic%20epitopes%20on%20sars-cov%20spike%20protein%202004"
+        },
+        {
+            "id": "33",
+            "alt_id": "Cock_2009_a",
+            "entry": "[33] Cock, P. J. et al. Biopython: freely available python tools for computational molecular biology and bioinformatics. Bioinformatics 25, 1422\u20131423 (2009).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cock%2C%20P.J.%20Biopython%3A%20freely%20available%20python%20tools%20for%20computational%20molecular%20biology%20and%20bioinformatics%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cock%2C%20P.J.%20Biopython%3A%20freely%20available%20python%20tools%20for%20computational%20molecular%20biology%20and%20bioinformatics%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cock%2C%20P.J.%20Biopython%3A%20freely%20available%20python%20tools%20for%20computational%20molecular%20biology%20and%20bioinformatics%202009"
+        },
+        {
+            "id": "34",
+            "alt_id": "Virtanen_2020_a",
+            "entry": "[34] Virtanen, P. et al. Scipy 1.0: fundamental algorithms for scientific computing in python. Nature Methods 1\u201312 (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Virtanen%2C%20P.%20Scipy%201.0%3A%20fundamental%20algorithms%20for%20scientific%20computing%20in%20python%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Virtanen%2C%20P.%20Scipy%201.0%3A%20fundamental%20algorithms%20for%20scientific%20computing%20in%20python%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Virtanen%2C%20P.%20Scipy%201.0%3A%20fundamental%20algorithms%20for%20scientific%20computing%20in%20python%202020"
+        },
+        {
+            "id": "35",
+            "alt_id": "Pedregosa_2011_a",
+            "entry": "[35] Pedregosa, F. et al. Scikit-learn: Machine learning in python. Journal of machine learning research 12, 2825\u20132830 (2011).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pedregosa%2C%20F.%20Scikit-learn%3A%20Machine%20learning%20in%20python%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pedregosa%2C%20F.%20Scikit-learn%3A%20Machine%20learning%20in%20python%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pedregosa%2C%20F.%20Scikit-learn%3A%20Machine%20learning%20in%20python%202011"
+        },
+        {
+            "id": "36",
+            "alt_id": "Rasmussen_2014_a",
+            "entry": "[36] Rasmussen, M. et al. Uncovering the peptide-binding specificities of hla-c: a general strategy to determine the specificity of any mhc class i molecule. The Journal of Immunology 193, 4790\u20134802 (2014).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Rasmussen%2C%20M.%20Uncovering%20the%20peptide-binding%20specificities%20of%20hla-c%3A%20a%20general%20strategy%20to%20determine%20the%20specificity%20of%20any%20mhc%20class%20i%20molecule%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Rasmussen%2C%20M.%20Uncovering%20the%20peptide-binding%20specificities%20of%20hla-c%3A%20a%20general%20strategy%20to%20determine%20the%20specificity%20of%20any%20mhc%20class%20i%20molecule%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Rasmussen%2C%20M.%20Uncovering%20the%20peptide-binding%20specificities%20of%20hla-c%3A%20a%20general%20strategy%20to%20determine%20the%20specificity%20of%20any%20mhc%20class%20i%20molecule%202014"
+        },
+        {
+            "id": "37",
+            "alt_id": "Channappanavar_et+al_2014_a",
+            "entry": "[37] Channappanavar, R., Fett, C., Zhao, J., Meyerholz, D. K. & Perlman, S. Virus-specific memory cd8 t cells provide substantial protection from lethal severe acute respiratory syndrome coronavirus infection. Journal of virology 88, 11034\u201311044 (2014).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Channappanavar%2C%20R.%20Fett%2C%20C.%20Zhao%2C%20J.%20Meyerholz%2C%20D.K.%20Virus-specific%20memory%20cd8%20t%20cells%20provide%20substantial%20protection%20from%20lethal%20severe%20acute%20respiratory%20syndrome%20coronavirus%20infection%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Channappanavar%2C%20R.%20Fett%2C%20C.%20Zhao%2C%20J.%20Meyerholz%2C%20D.K.%20Virus-specific%20memory%20cd8%20t%20cells%20provide%20substantial%20protection%20from%20lethal%20severe%20acute%20respiratory%20syndrome%20coronavirus%20infection%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Channappanavar%2C%20R.%20Fett%2C%20C.%20Zhao%2C%20J.%20Meyerholz%2C%20D.K.%20Virus-specific%20memory%20cd8%20t%20cells%20provide%20substantial%20protection%20from%20lethal%20severe%20acute%20respiratory%20syndrome%20coronavirus%20infection%202014"
+        },
+        {
+            "id": "38",
+            "alt_id": "Vita_2015_a",
+            "entry": "[38] Vita, R. et al. The immune epitope database (iedb) 3.0. Nucleic acids research 43, D405\u2013D412 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Vita%2C%20R.%20The%20immune%20epitope%20database%20%28iedb%29%203.0%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Vita%2C%20R.%20The%20immune%20epitope%20database%20%28iedb%29%203.0%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Vita%2C%20R.%20The%20immune%20epitope%20database%20%28iedb%29%203.0%202015"
+        },
+        {
+            "id": "39",
+            "alt_id": "Hu_2014_a",
+            "entry": "[39] Hu, Y. et al. Immunologic hierarchy, class ii mhc promiscuity, and epitope spreading of a melanoma helper peptide vaccine. Cancer Immunology, Immunotherapy 63, 779\u2013786 (2014).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hu%2C%20Y.%20Immunologic%20hierarchy%2C%20class%20ii%20mhc%20promiscuity%2C%20and%20epitope%20spreading%20of%20a%20melanoma%20helper%20peptide%20vaccine%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hu%2C%20Y.%20Immunologic%20hierarchy%2C%20class%20ii%20mhc%20promiscuity%2C%20and%20epitope%20spreading%20of%20a%20melanoma%20helper%20peptide%20vaccine%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hu%2C%20Y.%20Immunologic%20hierarchy%2C%20class%20ii%20mhc%20promiscuity%2C%20and%20epitope%20spreading%20of%20a%20melanoma%20helper%20peptide%20vaccine%202014"
+        },
+        {
+            "id": "40",
+            "alt_id": "Lv_et+al_2009_a",
+            "entry": "[40] Lv, Y., Ruan, Z., Wang, L., Ni, B. & Wu, Y. Identification of a novel conserved hla-a* 0201-restricted epitope from the spike protein of sars-cov. BMC immunology 10, 61 (2009).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lv%2C%20Y.%20Ruan%2C%20Z.%20Wang%2C%20L.%20Ni%2C%20B.%20Identification%20of%20a%20novel%20conserved%20hla-a%2A%200201-restricted%20epitope%20from%20the%20spike%20protein%20of%20sars-cov%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lv%2C%20Y.%20Ruan%2C%20Z.%20Wang%2C%20L.%20Ni%2C%20B.%20Identification%20of%20a%20novel%20conserved%20hla-a%2A%200201-restricted%20epitope%20from%20the%20spike%20protein%20of%20sars-cov%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lv%2C%20Y.%20Ruan%2C%20Z.%20Wang%2C%20L.%20Ni%2C%20B.%20Identification%20of%20a%20novel%20conserved%20hla-a%2A%200201-restricted%20epitope%20from%20the%20spike%20protein%20of%20sars-cov%202009"
+        },
+        {
+            "id": "41",
+            "alt_id": "He_2004_a",
+            "entry": "[41] He, Y. et al. Identification of immunodominant sites on the spike protein of severe acute respiratory syndrome (sars) coronavirus: implication for developing sars diagnostics and vaccines. The Journal of Immunology 173, 4050\u20134057 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=He%2C%20Y.%20Identification%20of%20immunodominant%20sites%20on%20the%20spike%20protein%20of%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%3A%20implication%20for%20developing%20sars%20diagnostics%20and%20vaccines%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=He%2C%20Y.%20Identification%20of%20immunodominant%20sites%20on%20the%20spike%20protein%20of%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%3A%20implication%20for%20developing%20sars%20diagnostics%20and%20vaccines%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=He%2C%20Y.%20Identification%20of%20immunodominant%20sites%20on%20the%20spike%20protein%20of%20severe%20acute%20respiratory%20syndrome%20%28sars%29%20coronavirus%3A%20implication%20for%20developing%20sars%20diagnostics%20and%20vaccines%202004"
+        },
+        {
+            "id": "42",
+            "alt_id": "He_et+al_2005_a",
+            "entry": "[42] He, Y., Zhou, Y., Siddiqui, P., Niu, J. & Jiang, S. Identification of immunodominant epitopes on the membrane protein of the severe acute respiratory syndrome-associated coronavirus. Journal of clinical microbiology 43, 3718\u20133726 (2005).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=He%2C%20Y.%20Zhou%2C%20Y.%20Siddiqui%2C%20P.%20Niu%2C%20J.%20Identification%20of%20immunodominant%20epitopes%20on%20the%20membrane%20protein%20of%20the%20severe%20acute%20respiratory%20syndrome-associated%20coronavirus%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=He%2C%20Y.%20Zhou%2C%20Y.%20Siddiqui%2C%20P.%20Niu%2C%20J.%20Identification%20of%20immunodominant%20epitopes%20on%20the%20membrane%20protein%20of%20the%20severe%20acute%20respiratory%20syndrome-associated%20coronavirus%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=He%2C%20Y.%20Zhou%2C%20Y.%20Siddiqui%2C%20P.%20Niu%2C%20J.%20Identification%20of%20immunodominant%20epitopes%20on%20the%20membrane%20protein%20of%20the%20severe%20acute%20respiratory%20syndrome-associated%20coronavirus%202005"
+        },
+        {
+            "id": "43",
+            "alt_id": "He_2004_b",
+            "entry": "[43] He, Y. et al. Mapping of antigenic sites on the nucleocapsid protein of the severe acute respiratory syndrome coronavirus. Journal of clinical microbiology 42, 5309\u20135314 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=He%2C%20Y.%20Mapping%20of%20antigenic%20sites%20on%20the%20nucleocapsid%20protein%20of%20the%20severe%20acute%20respiratory%20syndrome%20coronavirus%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=He%2C%20Y.%20Mapping%20of%20antigenic%20sites%20on%20the%20nucleocapsid%20protein%20of%20the%20severe%20acute%20respiratory%20syndrome%20coronavirus%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=He%2C%20Y.%20Mapping%20of%20antigenic%20sites%20on%20the%20nucleocapsid%20protein%20of%20the%20severe%20acute%20respiratory%20syndrome%20coronavirus%202004"
+        },
+        {
+            "id": "44",
+            "alt_id": "Chow_2006_a",
+            "entry": "[44] Chow, S. C. et al. Specific epitopes of the structural and hypothetical proteins elicit variable humoral responses in sars patients. Journal of clinical pathology 59, 468\u2013476 (2006).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chow%2C%20S.C.%20Specific%20epitopes%20of%20the%20structural%20and%20hypothetical%20proteins%20elicit%20variable%20humoral%20responses%20in%20sars%20patients%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chow%2C%20S.C.%20Specific%20epitopes%20of%20the%20structural%20and%20hypothetical%20proteins%20elicit%20variable%20humoral%20responses%20in%20sars%20patients%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chow%2C%20S.C.%20Specific%20epitopes%20of%20the%20structural%20and%20hypothetical%20proteins%20elicit%20variable%20humoral%20responses%20in%20sars%20patients%202006"
+        },
+        {
+            "id": "45",
+            "alt_id": "Tajiri_2010_a",
+            "entry": "[45] Tajiri, K. et al. Analysis of the epitope and neutralizing capacity of human monoclonal antibodies induced by hepatitis b vaccine. Antiviral research 87, 40\u201349 (2010).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tajiri%2C%20K.%20Analysis%20of%20the%20epitope%20and%20neutralizing%20capacity%20of%20human%20monoclonal%20antibodies%20induced%20by%20hepatitis%20b%20vaccine%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tajiri%2C%20K.%20Analysis%20of%20the%20epitope%20and%20neutralizing%20capacity%20of%20human%20monoclonal%20antibodies%20induced%20by%20hepatitis%20b%20vaccine%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tajiri%2C%20K.%20Analysis%20of%20the%20epitope%20and%20neutralizing%20capacity%20of%20human%20monoclonal%20antibodies%20induced%20by%20hepatitis%20b%20vaccine%202010"
+        },
+        {
+            "id": "46",
+            "alt_id": "Bettencourt_2020_a",
+            "entry": "[46] Bettencourt, P. et al. Identification of antigens presented by mhc for vaccines against tuberculosis. npj Vaccines 5, 1\u201314 (2020). ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bettencourt%2C%20P.%20Identification%20of%20antigens%20presented%20by%20mhc%20for%20vaccines%20against%20tuberculosis%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bettencourt%2C%20P.%20Identification%20of%20antigens%20presented%20by%20mhc%20for%20vaccines%20against%20tuberculosis%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bettencourt%2C%20P.%20Identification%20of%20antigens%20presented%20by%20mhc%20for%20vaccines%20against%20tuberculosis%202020"
+        }
+    ],
+    "facts": [
+        "B-cell epitopes based on viral protein antigen presentation and antibody binding properties",
+        "neutralizing B-cell epitopes near the 2019-nCoV spike protein receptor binding domain",
+        "likely to occur in regions with good MHC-I presentation scores",
+        "No mutations are present near the spike protein receptor binding domain",
+        "Coronaviruses first became widely known after the emergence of severe acute respiratory syndrome",
+        "Sequencing of viral RNA determined that these cases were caused by a novel coronavirus named",
+        "The virus has infected more than 51,857 people across 26 countries",
+        "of February 16th 2020 according to a World Health Organization report",
+        "ORF10 based on the reference",
+        "obtained viral sequences associated with 68 patients from GISAID",
+        "Genomes with single protein are not included in the analysis",
+        "The complete list of common MHC alleles is included in Supplementary Table 2",
+        "The presentation scores of individual antigen peptides can be found in Supplementary Table 5",
+        "NetMHCpan4 predicts that a larger number of 2019-nCoV protein sequences can be presented by HLA-C alleles",
+        "across all genes compared to HLA-A",
+        "M can be better presented by HLA-C alleles after Bonferroni correction",
+        "Tyrosine are commonly favored across alleles",
+        "3.2 T-cell epitope validation To estimate the ability of antigen presentation scores to identify",
+        "neutralizing B-Cell epitopes on S protein",
+        "a tendency to occur in regions with strong MHC-I presentation",
+        "which can be a form of immune evasion",
+        "no mutations are present near the spike protein receptor binding domain",
+        "which is critical for viral entrance to cells",
+        "2019-nCoV spike protein vaccine combined with other top epitopes",
+        "an appropriate adjuvant could be a reasonable step for 2019-nCoV vaccine development",
+        "the field untangle the relationship between antigen presentation scores and vaccine efficacy",
+        "ORF10 based on the reference genome",
+        "whether mutations are driven by the immune selection pressure"
+    ],
+    "claims": [
+        "We identified 405 viral peptides with good antigen presentation scores for both human MHC-I and MHC-II alleles, and two potential neutralizing B-cell epitopes near the 2019-nCoV spike protein receptor binding domain (440-460 and 494-506)",
+        "Analyzing mutation profiles of 68 viral genomes from four continents, we identified 96 coding-change mutations",
+        "First we focus on T-cell epitopes. 2019-nCoV carries 4 major structural proteins\u2014spike (S), membrane (M), envelope (E) and nucleocapsid (N)\u2014and at least 6 other open reading frames (ORFs) [1, 16]",
+        "We focus on B-cell epitopes",
+        "We examine the viral mutation pattern",
+        "Based on the resulting viral mutation profile, we examine whether mutations are driven by the immune selection pressure",
+        "In Fig. 2 we show regions of strong MHC presentation across HLA-A, HLA-B, HLA-C, and HLA-DR alleles, both at a medium threshold (Fig. 2A), and at a high threshold ( Fig. 2B)",
+        "Independent experimental studies [22, 23, 24, 25], we identified known CD8 T-cell epitopes (MHC-I, n=17) and known CD4 T-cell epitopes (MHC-II, n=3)",
+        "We identify a recurrent mutation L84S in ORF8 in 20 samples",
+        "We identified two nonsense mutations (ORF1AB T15372A and ORF7A C184T) in two viral samples from Shenzhen, China (EPI_ISL_406592 and EPI_ISL_406594)",
+        "For the SARS-CoV S protein, we identified a strong cluster of antibody sites (>30 residues, pink or red) on the receptor binding domain (RBD, the ACE2 interacting surface)",
+        "We identified 8 point mutation sites on S protein from a cohort of 68 2019-nCoV samples (Fig. 5D)",
+        "After understanding the landscape of T-cell and B-cell epitopes of 2019-nCoV, we summarize our results in Table 2 for promising candidates for 2019-nCoV vaccines",
+        "Inspecting 68 samples, we found that viral mutations have a tendency to occur in regions with strong MHC-I presentation, which can be a form of immune evasion"
+    ],
+    "findings": [
+        "Analyzing mutation profiles of 68 viral genomes from four continents, we identified 96 coding-change mutations. These mutations are more likely to occur in regions with good MHC-I presentation scores (p=0.02)",
+        "NetMHCpan4 predicts that a larger number of 2019-nCoV protein sequences can be presented by HLA-C alleles across all genes (Fisher\u2019s exact test, p = 4.2e\u221259) compared to HLA-A or HLAB (Table 1)",
+        "ORF1ab (p = 6.7e\u221254), S (p = 1.4e\u22129), ORF3a (p = 0.01), and M (p = 0.025) can be better presented by HLA-C alleles after Bonferroni correction",
+        "Mutations are more likely to occur in regions with MHC-I presentation (Fischer\u2019s exact test, p = 0.02)",
+        "Mutations are more likely be located in regions with MHC-I presentation (p = 0.02)",
+        "When further requiring a peptide to be presented by more than 33% or 66% of common MHC-I alleles, we narrowed the results to 405 or 44 promising T-cell epitopes, respectively (Supplementary Table 5, 6)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Sequencing of viral RNA determined that these cases were caused by a novel coronavirus named 2019-nCoV or severe acute respiratory syndrome-CoV-2 [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]",
+        "First we focus on T-cell epitopes. 2019-nCoV carries 4 major structural proteins\u2014spike (S), membrane (M), envelope (E) and nucleocapsid (N)\u2014and at least 6 other open reading frames (ORFs) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]",
+        "The presentation scores of individual antigen peptides can be found in Supplementary Table 5, 6",
+        "NetMHCpan4 predicts that a larger number of 2019-nCoV protein sequences can be presented by HLA-C alleles across all genes (Fisher\u2019s exact test, p = 4.2e\u221259) compared to HLA-A or HLAB (Table 1)",
+        "ORF1ab (p = 6.7e\u221254), S (p = 1.4e\u22129), ORF3a (p = 0.01), and M (p = 0.025) can be better presented by HLA-C alleles after Bonferroni correction. This might be due to relatively conserved HLA-C binding motif on the 9th position where Leucine, Methionine, Phenylalanine, Tyrosine are commonly favored across alleles [<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>]",
+        "HLA-C*07:02, HLA-C*01:02, and HLA-C*06:02 all have >10% allele frequency in the Chinese population [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. This suggests the future epitope-based vaccines should include HLA-C related epitopes beyond the common HLA-A*02:01 and HLA-B*40:01 approach. 3.2 T-cell epitope validation To estimate the ability of antigen presentation scores to identify 2019-nCoV T-cell epitopes, we performed a validation study with known severe acute respiratory syndrome-CoV CD8 and CD4 T-cell epitopes (Fig. 3)",
+        "We analyzed the 2019-nCoV viral genome for epitope candidates and found 405 likely T-Cell epitopes, with strong MHC-I and MHC-II presentation scores, and 2 potential neutralizing B-Cell epitopes on S protein",
+        "Inspecting 68 samples, we found that viral mutations have a tendency to occur in regions with strong MHC-I presentation, which can be a form of immune evasion",
+        "No mutations are present near the spike protein receptor binding domain which is critical for viral entrance to cells and neutralizing antibody binding",
+        "When combined with future clinical data, our work can help the field untangle the relationship between antigen presentation scores and vaccine efficacy"
+    ],
+    "top_statements": [
+        "Coronaviruses (CoV) first became widely known after the emergence of severe acute respiratory syndrome (SARS) in 2002",
+        "HLA-C*07:02, HLA-C*01:02, and HLA-C*06:02 all have >10% allele frequency in the Chinese population [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. This suggests the future epitope-based vaccines should include HLA-C related epitopes beyond the common HLA-A*02:01 and HLA-B*40:01 approach. 3.2 T-cell epitope validation To estimate the ability of antigen presentation scores to identify 2019-nCoV T-cell epitopes, we performed a validation study with known severe acute respiratory syndrome-CoV CD8 and CD4 T-cell epitopes (Fig. 3)",
+        "We analyzed the 2019-nCoV viral genome for epitope candidates and found 405 likely T-Cell epitopes, with strong MHC-I and MHC-II presentation scores, and 2 potential neutralizing B-Cell epitopes on S protein",
+        "Inspecting 68 samples, we found that viral mutations have a tendency to occur in regions with strong MHC-I presentation, which can be a form of immune evasion",
+        "No mutations are present near the spike protein receptor binding domain which is critical for viral entrance to cells and neutralizing antibody binding",
+        "When combined with future clinical data, our work can help the field untangle the relationship between antigen presentation scores and vaccine efficacy"
+    ],
+    "headline": "We analyzed the 2019-nCoV viral genome for epitope candidates and found 405 likely T-Cell epitopes, with strong MHC-I and MHC-II presentation scores, and 2 potential neutralizing B-Cell epitopes on S protein",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "severe acute respiratory syndrome",
+        "MERS": "Middle East respiratory syndrome",
+        "ACE2": "Angiotensin-Converting Enzyme 2",
+        "ORFs": "open reading frames",
+        "HPV": "human papillomavirus"
+    }
+}

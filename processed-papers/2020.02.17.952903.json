@@ -1,0 +1,687 @@
+{
+    "filename": "2020.02.17.952903.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 2272979,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.17.952903",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/21/2020.02.17.952903.full.pdf"
+        },
+        "title": "Molecular mechanism of evolution and human infection with the novel coronavirus (2019-nCoV)",
+        "keywords": [
+            "Coronaviruses",
+            "2019-nCoV",
+            "SARS-CoV",
+            "human infection",
+            "molecular mechanism",
+            "proteinprotein docking",
+            "MD simulations"
+        ],
+        "author": "Jiahua He, Huanyu Tao, Yumeng Yan, Sheng-You Huang, Yi Xiao",
+        "date": 2020,
+        "affiliations": [
+            "Institute of Biophysics, School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, P. R. China"
+        ],
+        "abstract": "Since December, 2019, an outbreak of pneumonia caused by the new coronavirus (2019-nCoV) has hit the city of Wuhan in the Hubei Province. With the continuous development of the epidemic, it has become a national public health crisis and calls for urgent antiviral treatments or vaccines. The spike protein on the coronavirus envelope is critical for host cell infection and virus vitality. Previous studies showed that 2019-nCoV is highly homologous to human SARS-CoV and attaches host cells though the binding of the spike receptor binding domain (RBD) domain to the angiotensin-converting enzyme II (ACE2). However, the molecular mechanisms of 2019-nCoV binding to human ACE2 and evolution of 2019-nCoV remain unclear. In this study, we have extensively studied the RBD-ACE2 complex, spike protein, and free RBD systems of 2019-nCoV and SARS-CoV using protein-protein docking and molecular dynamics (MD) simulations. It was shown that the RBD-ACE2 binding free energy for 2019-nCoV is significantly lower than that for SARS-CoV, which is consistent with the fact that 2019-nCoV is much more infectious than SARS-CoV. In addition, the spike protein of 2019-nCoV shows a significantly lower free energy than that of SARS-CoV, suggesting that 2019-nCoV is more stable and able to survive a higher temperature than SARS-CoV. This may also provide insights into the evolution of 2019-nCoV because SARS-like coronaviruses are thought to have originated in bats that are known to have a higher body-temperature than humans. It was also revealed that the RBD of 2019-nCoV is much more flexible especially near the binding site and thus will have a higher entropy penalty upon binding ACE2, compared to the RBD of SARS-CoV. That means that 2019-nCoV will be much more temperature-sensitive in terms of human infection than SARS-CoV. With the rising temperature, 2019-nCoV is expected to decrease its infection ability much faster than SARS-CoV, and get controlled more easily. The present findings are expected to be helpful for the disease prevention and control as well as drug and vaccine development of 2019-nCoV.",
+        "references": "@article{cui2019a,\n  author = {Cui, J. and Li, F. and Shi, Z.L.},\n  title = {Origin and evolution of pathogenic coronaviruses},\n  journal = {Nat Rev Microbiol},\n  date = {2019-03},\n  volume = {17},\n  pages = {181\u2013192},\n  number = {3},\n  language = {}\n}\n@article{chen2020a,\n  author = {Chen, Y. and Liu, Q. and Guo, D.},\n  title = {Emerging coronaviruses: Genome structure, replication, and pathogenesis},\n  journal = {J Med Virol},\n  date = {2020-01-22},\n  doi = {doi: 10.1002/jmv.25681},\n  language = {}\n}\n@incollection{zhong2003a,\n  author = {Zhong, N.S.},\n  title = {Epidemiology and cause of severe acute respiratory syndrome},\n  booktitle = {(SARS) in Guangdong, People\u2019s Republic of China, in},\n  date = {2003-02-25},\n  volume = {362},\n  pages = {1353\u20138},\n  more-authors = {true},\n  number = {9393},\n  language = {}\n}\n@article{ksiazek2003a,\n  author = {Ksiazek, T.G. and Erdman, D. and Goldsmith, C.S.},\n  title = {A novel coronavirus associated with severe acute respiratory syndrome},\n  journal = {N Engl J Med},\n  date = {2003},\n  volume = {348},\n  pages = {1953\u20131966},\n  more-authors = {true},\n  language = {}\n}\n@article{drosten2003a,\n  author = {Drosten, C. and Gunther, S. and Preiser, W.},\n  title = {Identification of a novel coronavirus in patients with severe acute respiratory syndrome},\n  journal = {N Engl J Med},\n  date = {2003},\n  volume = {348},\n  pages = {1967\u20131976},\n  more-authors = {true},\n  language = {}\n}\n@article{peiris2003a,\n  author = {Peiris, J.S. and Lai, S.T. and Poon, L.L.},\n  title = {Coronavirus as a possible cause of severe acute respiratory syndrome},\n  journal = {Lancet},\n  date = {2003},\n  volume = {361},\n  pages = {1319\u20131325},\n  more-authors = {true},\n  language = {}\n}\n@article{zaki2012a,\n  author = {Zaki, A.M. and van Boheemen, S. and Bestebroer, T.M. and Osterhaus, A.D. and Fouchier, R.A.},\n  title = {Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia},\n  journal = {N Engl J Med},\n  date = {2012-11},\n  volume = {8},\n  pages = {1814\u201320},\n  number = {367},\n  language = {}\n}\n@article{de2013a,\n  author = {de Groot RJ and SC, Baker and RS, Baric},\n  title = {Middle East respiratory syndrome coronavirus (MERS-CoV): announcement of the Coronavirus Study Group},\n  journal = {J Virol},\n  date = {2013},\n  volume = {87},\n  pages = {7790\u20137792},\n  more-authors = {true},\n  language = {}\n}\n@article{lu2015a,\n  author = {Lu, G. and Wang, Q. and Gao, G.F.},\n  title = {Bat-to-human: spike features determining \u2018host jump\u2019 of coronaviruses SARSCoV, MERS-CoV, and beyond},\n  journal = {Trends Microbiol},\n  date = {2015-08},\n  volume = {23},\n  pages = {468\u201378},\n  number = {8},\n  language = {}\n}\n@article{chan2020a,\n  author = {Chan, J.F.},\n  title = {A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster},\n  journal = {Lancet},\n  date = {2020-01-24},\n  volume = {20},\n  more-authors = {true},\n  number = {30154-9},\n  language = {}\n}\n@article{huang2020a,\n  author = {Huang, C.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  date = {2020-01-24},\n  volume = {20},\n  more-authors = {true},\n  number = {30183-5},\n  language = {}\n}\n@article{lu2020a,\n  author = {Lu, R.},\n  title = {Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding},\n  journal = {Lancet},\n  date = {2020-01},\n  volume = {30},\n  more-authors = {true},\n  number = {0140-6736},\n  language = {}\n}\n@article{chen2020b,\n  author = {Chen, N.},\n  title = {Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study},\n  journal = {Lancet},\n  date = {2020-01},\n  volume = {30},\n  more-authors = {true},\n  number = {0140-6736},\n  language = {}\n}\n@article{li2020a,\n  author = {Li, Q.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia},\n  journal = {N Engl J Med},\n  date = {2020-01},\n  volume = {29},\n  doi = {doi: 10.1056/NEJMoa2001316},\n  more-authors = {true},\n  language = {}\n}\n@article{wu2020a,\n  author = {Wu, F.},\n  title = {A new coronavirus associated with human respiratory disease in China},\n  journal = {Nature},\n  date = {2020-02},\n  volume = {3},\n  doi = {doi: 10.1038/s41586-020-2008-3},\n  more-authors = {true},\n  language = {}\n}\n@article{zhou2020a,\n  author = {Zhou, P.},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  date = {2020-02},\n  volume = {3},\n  doi = {doi: 10.1038/s41586-020-2012-7},\n  more-authors = {true},\n  language = {}\n}\n@article{liu2020a,\n  author = {Liu, W. and Morse, J.S. and Lalonde, T. and Xu, S.},\n  title = {Learning from the Past: Possible Urgent Prevention and Treatment Options for Severe Acute Respiratory Infections Caused by 2019-nCoV},\n  journal = {Chembiochem},\n  date = {2020-02-05},\n  doi = {doi: 10.1002/cbic.202000047},\n  language = {}\n}\n@article{xu2020a,\n  author = {Xu, X. and Chen, P. and Wang, J. and Feng, J. and Zhou, H. and Li, X. and Zhong, W. and Hao, P.},\n  title = {Evolution of the novel coronavirus from the ongoing Wuhan outbreak and modeling of its spike protein for risk of human transmission},\n  journal = {Sci China Life Sci},\n  date = {2020-01-21},\n  doi = {doi: 10.1007/s11427-020-1637-5},\n  language = {}\n}\n@article{structure2016a,\n  author = {Structure, Li F. and Function},\n  title = {and Evolution of Coronavirus Spike Proteins},\n  journal = {Annu Rev Virol},\n  date = {2016-09-29},\n  volume = {3},\n  pages = {237\u2013261},\n  number = {1},\n  language = {}\n}\n@article{song2018a,\n  author = {Song, W. and Gui, M. and Wang, X. and Xiang, Y.},\n  title = {Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2},\n  journal = {PLoS Pathog},\n  date = {2018-08-13},\n  volume = {14},\n  pages = {1007236},\n  number = {8},\n  language = {}\n}\n@article{gui2017a,\n  author = {Gui, M. and Song, W. and Zhou, H. and Xu, J. and Chen, S. and Xiang, Y. and Wang, X.},\n  title = {Cryo-electron microscopy structures of the SARS-CoV spike glycoprotein reveal a prerequisite conformational state for receptor binding},\n  journal = {Cell Res},\n  date = {2017-01},\n  volume = {27},\n  pages = {119\u2013129},\n  number = {1},\n  language = {}\n}\n@incollection{wrapp-a,\n  author = {Wrapp, D. and Wang, N. and Corbett, K.S. and Goldsmith, J.A. and Hsieh, C.-L. and Abiona, O. and Graham, B.S. and McLellan, J.S.},\n  title = {CryoEM Structure of the 2019-nCoV Spike in the Prefusion Conformation, 2020, bioRxiv 2020.02.11.944462},\n  doi = {doi: https://doi.org/10.1101/2020.02.11.944462 (23},\n  date = {Jan},\n  volume = {8},\n  pages = {464\u2013474},\n  source = {Burley SK, et al. RCSB Protein Data Bank:biological macromolecular structures enabling research and education in fundamental biology, biomedicine, biotechnology and energy. Nucleic Acids Res.2019},\n  number = {47},\n  language = {}\n}\n@article{webb2016a,\n  author = {Webb, B. and Sali, A.},\n  title = {Comparative Protein Structure Modeling Using MODELLER},\n  journal = {Curr Protoc Protein Sci},\n  date = {2016},\n  volume = {86},\n  pages = {2\u20139},\n  language = {}\n}\n@misc{larkin2007a,\n  author = {Larkin, M.A. and Blackshields, G. and Brown, N.P. and Chenna, R. and McGettigan, P.A. and McWilliam, H. and Valentin, F. and Wallace, I.M. and Wilm, A. and Lopez, R. and Thompson, J.D. and Gibson, T.J. and Higgins, D.G.},\n  title = {Clustal W and Clustal X version 2.0. Bioinformatics},\n  date = {2007},\n  volume = {23},\n  pages = {2947\u20132948},\n  language = {}\n}\n@article{sievers2011a,\n  author = {Sievers, F. and Wilm, A. and Dineen, D. and Gibson, T.J. and Karplus, K. and Li, W. and Lopez, R. and McWilliam, H. and Remmert, M. and Soding, J. and Thompson, J.D. and Higgins, D.G.},\n  title = {Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega},\n  journal = {Mol Syst Biol},\n  date = {2011},\n  volume = {7},\n  pages = {539},\n  language = {}\n}\n@misc{yan-a,\n  author = {Yan, Y. and Tao, H. and He, J. and Huang, S.-Y.},\n  title = {The HDOCK server for integrated protein-protein docking, Nat},\n  note = {Proc, 2020, (in press},\n  language = {}\n}\n@misc{yan2017a,\n  author = {Yan, Y. and Wen, Z. and Wang, X. and Huang, S.-Y.},\n  title = {Addressing recent docking challenges: A hybrid strategy to integrate template-based and free protein-protein docking. Proteins},\n  date = {2017},\n  volume = {85},\n  pages = {497\u2013512},\n  language = {}\n}\n@article{yan2017b,\n  author = {Yan, Y. and Zhang, D. and Zhou, P. and Li, B. and Huang, S.-Y.},\n  title = {HDOCK: a Web Server for Protein-Protein and ProteinDNA/RNA Docking Based on a Hybrid Strategy},\n  journal = {Nucleic Acids Res},\n  date = {2017},\n  volume = {45},\n  pages = {365\u2013373},\n  language = {}\n}\n@article{yan2019a,\n  author = {Yan, Y. and Huang, S.-Y.},\n  title = {Pushing the accuracy limit of shape complementarity for protein-protein docking},\n  journal = {BMC Bioinformatics},\n  date = {2019},\n  volume = {20},\n  pages = {696},\n  number = {25},\n  language = {}\n}\n@article{huang2008a,\n  author = {Huang, S.-Y. and Zou, X.},\n  title = {An iterative knowledge-based scoring function for protein-protein recognition},\n  journal = {Proteins},\n  date = {2008},\n  volume = {72},\n  pages = {557\u2013579},\n  language = {}\n}\n@book{case2018a,\n  author = {Case, D.A.},\n  date = {2018},\n  title = {of},\n  publisher = {https://ambermd.org/. (33) Maier JA, Martinez C, Kasavajhala K, Wickstrom L, Hauser KE, Simmerling C.ff14SB: Improving the},\n  more-authors = {true},\n  language = {},\n  address = {California, San Francisco}\n}\n@article{unknown2015a,\n  title = {Accuracy of Protein Side Chain and Backbone Parameters from ff99SB},\n  journal = {J Chem Theory Comput},\n  date = {2015-08-11},\n  volume = {11},\n  pages = {3696\u2013713},\n  number = {8},\n  language = {}\n}\n@article{salomon-ferrer2013a,\n  author = {Salomon-Ferrer, R. and G?tz, A.W. and Poole, D. and Le Grand, S. and Walker, R.C.},\n  title = {Routine Microsecond Molecular Dynamics Simulations with AMBER on GPUs. 2. Explicit Solvent},\n  journal = {Particle Mesh Ewald. J Chem Theory Comput},\n  date = {2013-09-10},\n  volume = {9},\n  pages = {3878\u201388},\n  number = {9},\n  language = {}\n}\n@article{miller2012a,\n  author = {},\n  title = {MMPBSA.py: An Efficient Program for End-State Free},\n  journal = {Energy Calculations. J Chem Theory Comput},\n  date = {2012-09-11},\n  volume = {8},\n  pages = {331421},\n  number = {9},\n  language = {}\n}\n@article{roe2013a,\n  author = {Roe, DR},\n  title = {Cheatham TE 3rd. PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular},\n  journal = {Dynamics Trajectory Data. J Chem Theory Comput},\n  date = {2013-07-09},\n  volume = {9},\n  pages = {3084\u201395},\n  number = {7},\n  language = {}\n}\n",
+        "links": [
+            "http://hdock.phys.hust.edu.cn/"
+        ],
+        "emails": [
+            "yxiao@hust.edu.cn",
+            "huangsy@hust.edu.cn"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Cui, J.\nAU  - Li, F.\nAU  - Shi, Z.L.\nTI  - Origin and evolution of pathogenic coronaviruses\nT2  - Nat Rev Microbiol\nPY  - 2019\nDA  - 2019/03\nVL  - 17\nSP  - 181\nEP  - 192\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, Y.\nAU  - Liu, Q.\nAU  - Guo, D.\nTI  - Emerging coronaviruses: Genome structure, replication, and pathogenesis\nT2  - J Med Virol\nPY  - 2020\nDA  - 2020/01/22\nDO  - 10.1002/jmv.25681\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Zhong, N.S.\nTI  - Epidemiology and cause of severe acute respiratory syndrome\nT2  - (SARS) in Guangdong, People\u2019s Republic of China, in\nPY  - 2003\nDA  - 2003/02/25\nVL  - 362\nSP  - 1353\nEP  - 8\nC1  - true\nIS  - 9393\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ksiazek, T.G.\nAU  - Erdman, D.\nAU  - Goldsmith, C.S.\nTI  - A novel coronavirus associated with severe acute respiratory syndrome\nT2  - N Engl J Med\nPY  - 2003\nDA  - 2003\nVL  - 348\nSP  - 1953\nEP  - 1966\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Drosten, C.\nAU  - Gunther, S.\nAU  - Preiser, W.\nTI  - Identification of a novel coronavirus in patients with severe acute respiratory syndrome\nT2  - N Engl J Med\nPY  - 2003\nDA  - 2003\nVL  - 348\nSP  - 1967\nEP  - 1976\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Peiris, J.S.\nAU  - Lai, S.T.\nAU  - Poon, L.L.\nTI  - Coronavirus as a possible cause of severe acute respiratory syndrome\nT2  - Lancet\nPY  - 2003\nDA  - 2003\nVL  - 361\nSP  - 1319\nEP  - 1325\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zaki, A.M.\nAU  - van Boheemen, S.\nAU  - Bestebroer, T.M.\nAU  - Osterhaus, A.D.\nAU  - Fouchier, R.A.\nTI  - Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia\nT2  - N Engl J Med\nPY  - 2012\nDA  - 2012/11\nVL  - 8\nSP  - 1814\nEP  - 20\nIS  - 367\nLA  - \nER  - \n\nTY  - JOUR\nAU  - de Groot RJ\nAU  - SC, Baker\nAU  - RS, Baric\nTI  - Middle East respiratory syndrome coronavirus (MERS-CoV): announcement of the Coronavirus Study Group\nT2  - J Virol\nPY  - 2013\nDA  - 2013\nVL  - 87\nSP  - 7790\nEP  - 7792\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lu, G.\nAU  - Wang, Q.\nAU  - Gao, G.F.\nTI  - Bat-to-human: spike features determining \u2018host jump\u2019 of coronaviruses SARSCoV, MERS-CoV, and beyond\nT2  - Trends Microbiol\nPY  - 2015\nDA  - 2015/08\nVL  - 23\nSP  - 468\nEP  - 78\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chan, J.F.\nTI  - A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster\nT2  - Lancet\nPY  - 2020\nDA  - 2020/01/24\nVL  - 20\nC1  - true\nIS  - 30154-9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nPY  - 2020\nDA  - 2020/01/24\nVL  - 20\nC1  - true\nIS  - 30183-5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lu, R.\nTI  - Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding\nT2  - Lancet\nPY  - 2020\nDA  - 2020/01\nVL  - 30\nC1  - true\nIS  - 0140-6736\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, N.\nTI  - Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study\nT2  - Lancet\nPY  - 2020\nDA  - 2020/01\nVL  - 30\nC1  - true\nIS  - 0140-6736\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia\nT2  - N Engl J Med\nPY  - 2020\nDA  - 2020/01\nVL  - 29\nDO  - 10.1056/NEJMoa2001316\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, F.\nTI  - A new coronavirus associated with human respiratory disease in China\nT2  - Nature\nPY  - 2020\nDA  - 2020/02\nVL  - 3\nDO  - 10.1038/s41586-020-2008-3\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nPY  - 2020\nDA  - 2020/02\nVL  - 3\nDO  - 10.1038/s41586-020-2012-7\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Liu, W.\nAU  - Morse, J.S.\nAU  - Lalonde, T.\nAU  - Xu, S.\nTI  - Learning from the Past: Possible Urgent Prevention and Treatment Options for Severe Acute Respiratory Infections Caused by 2019-nCoV\nT2  - Chembiochem\nPY  - 2020\nDA  - 2020/02/05\nDO  - 10.1002/cbic.202000047\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xu, X.\nAU  - Chen, P.\nAU  - Wang, J.\nAU  - Feng, J.\nAU  - Zhou, H.\nAU  - Li, X.\nAU  - Zhong, W.\nAU  - Hao, P.\nTI  - Evolution of the novel coronavirus from the ongoing Wuhan outbreak and modeling of its spike protein for risk of human transmission\nT2  - Sci China Life Sci\nPY  - 2020\nDA  - 2020/01/21\nDO  - 10.1007/s11427-020-1637-5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Structure, Li F.\nAU  - Function\nTI  - and Evolution of Coronavirus Spike Proteins\nT2  - Annu Rev Virol\nPY  - 2016\nDA  - 2016/09/29\nVL  - 3\nSP  - 237\nEP  - 261\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Song, W.\nAU  - Gui, M.\nAU  - Wang, X.\nAU  - Xiang, Y.\nTI  - Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2\nT2  - PLoS Pathog\nPY  - 2018\nDA  - 2018/08/13\nVL  - 14\nSP  - 1007236\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gui, M.\nAU  - Song, W.\nAU  - Zhou, H.\nAU  - Xu, J.\nAU  - Chen, S.\nAU  - Xiang, Y.\nAU  - Wang, X.\nTI  - Cryo-electron microscopy structures of the SARS-CoV spike glycoprotein reveal a prerequisite conformational state for receptor binding\nT2  - Cell Res\nPY  - 2017\nDA  - 2017/01\nVL  - 27\nSP  - 119\nEP  - 129\nIS  - 1\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Wrapp, D.\nAU  - Wang, N.\nAU  - Corbett, K.S.\nAU  - Goldsmith, J.A.\nAU  - Hsieh, C.-L.\nAU  - Abiona, O.\nAU  - Graham, B.S.\nAU  - McLellan, J.S.\nTI  - CryoEM Structure of the 2019-nCoV Spike in the Prefusion Conformation, 2020, bioRxiv 2020.02.11.944462\nDO  - https://doi.org/10.1101/2020.02.11.944462 (23\nPY  - Jan\nDA  - Jan\nVL  - 8\nSP  - 464\nEP  - 474\nT2  - Burley SK, et al. RCSB Protein Data Bank:biological macromolecular structures enabling research and education in fundamental biology, biomedicine, biotechnology and energy. Nucleic Acids Res.2019\nIS  - 47\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Webb, B.\nAU  - Sali, A.\nTI  - Comparative Protein Structure Modeling Using MODELLER\nT2  - Curr Protoc Protein Sci\nPY  - 2016\nDA  - 2016\nVL  - 86\nSP  - 2\nEP  - 9\nLA  - \nER  - \n\nTY  - GEN\nAU  - Larkin, M.A.\nAU  - Blackshields, G.\nAU  - Brown, N.P.\nAU  - Chenna, R.\nAU  - McGettigan, P.A.\nAU  - McWilliam, H.\nAU  - Valentin, F.\nAU  - Wallace, I.M.\nAU  - Wilm, A.\nAU  - Lopez, R.\nAU  - Thompson, J.D.\nAU  - Gibson, T.J.\nAU  - Higgins, D.G.\nTI  - Clustal W and Clustal X version 2.0. Bioinformatics\nPY  - 2007\nDA  - 2007\nVL  - 23\nSP  - 2947\nEP  - 2948\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sievers, F.\nAU  - Wilm, A.\nAU  - Dineen, D.\nAU  - Gibson, T.J.\nAU  - Karplus, K.\nAU  - Li, W.\nAU  - Lopez, R.\nAU  - McWilliam, H.\nAU  - Remmert, M.\nAU  - Soding, J.\nAU  - Thompson, J.D.\nAU  - Higgins, D.G.\nTI  - Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega\nT2  - Mol Syst Biol\nPY  - 2011\nDA  - 2011\nVL  - 7\nSP  - 539\nLA  - \nER  - \n\nTY  - GEN\nAU  - Yan, Y.\nAU  - Tao, H.\nAU  - He, J.\nAU  - Huang, S.-Y.\nTI  - The HDOCK server for integrated protein-protein docking, Nat\nN1  - Proc, 2020, (in press\nLA  - \nER  - \n\nTY  - GEN\nAU  - Yan, Y.\nAU  - Wen, Z.\nAU  - Wang, X.\nAU  - Huang, S.-Y.\nTI  - Addressing recent docking challenges: A hybrid strategy to integrate template-based and free protein-protein docking. Proteins\nPY  - 2017\nDA  - 2017\nVL  - 85\nSP  - 497\nEP  - 512\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yan, Y.\nAU  - Zhang, D.\nAU  - Zhou, P.\nAU  - Li, B.\nAU  - Huang, S.-Y.\nTI  - HDOCK: a Web Server for Protein-Protein and ProteinDNA/RNA Docking Based on a Hybrid Strategy\nT2  - Nucleic Acids Res\nPY  - 2017\nDA  - 2017\nVL  - 45\nSP  - 365\nEP  - 373\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yan, Y.\nAU  - Huang, S.-Y.\nTI  - Pushing the accuracy limit of shape complementarity for protein-protein docking\nT2  - BMC Bioinformatics\nPY  - 2019\nDA  - 2019\nVL  - 20\nSP  - 696\nIS  - 25\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, S.-Y.\nAU  - Zou, X.\nTI  - An iterative knowledge-based scoring function for protein-protein recognition\nT2  - Proteins\nPY  - 2008\nDA  - 2008\nVL  - 72\nSP  - 557\nEP  - 579\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Case, D.A.\nPY  - 2018\nDA  - 2018\nTI  - of\nPB  - https://ambermd.org/. (33) Maier JA, Martinez C, Kasavajhala K, Wickstrom L, Hauser KE, Simmerling C.ff14SB: Improving the\nC1  - true\nLA  - \nCY  - California, San Francisco\nER  - \n\nTY  - JOUR\nTI  - Accuracy of Protein Side Chain and Backbone Parameters from ff99SB\nT2  - J Chem Theory Comput\nPY  - 2015\nDA  - 2015/08/11\nVL  - 11\nSP  - 3696\nEP  - 713\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Salomon-Ferrer, R.\nAU  - G?tz, A.W.\nAU  - Poole, D.\nAU  - Le Grand, S.\nAU  - Walker, R.C.\nTI  - Routine Microsecond Molecular Dynamics Simulations with AMBER on GPUs. 2. Explicit Solvent\nT2  - Particle Mesh Ewald. J Chem Theory Comput\nPY  - 2013\nDA  - 2013/09/10\nVL  - 9\nSP  - 3878\nEP  - 88\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nTI  - MMPBSA.py: An Efficient Program for End-State Free\nT2  - Energy Calculations. J Chem Theory Comput\nPY  - 2012\nDA  - 2012/09/11\nVL  - 8\nSP  - 331421\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Roe, DR\nTI  - Cheatham TE 3rd. PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular\nT2  - Dynamics Trajectory Data. J Chem Theory Comput\nPY  - 2013\nDA  - 2013/07/09\nVL  - 9\nSP  - 3084\nEP  - 95\nIS  - 7\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "The binding free energies calculated from MD simulations for the RBD-ACE2 interactions of 2019-nCoV and SARS-CoV, where \u2206Ggas is the interaction energy change in the gas and \u2206Gsolv is the solvation energy change in the solvent upon binding, respectively. All units are reported in kcal/mol"
+            },
+            {
+                "id": "2",
+                "caption": "The free energies calculated from MD simulations for the spike proteins of 2019-nCoV and SARS-CoV, where Ggas is the interaction energy in the gas and Gsolv is the solvation energy in the solvent, respectively. All units are reported in kcal/mol"
+            },
+            {
+                "id": "3",
+                "caption": "The free energies calculated from MD simulations for the RBD proteins of 2019-nCoV and SARS-CoV, where Ggas is the interaction energy in the gas and Gsolv is the solvation energy in the solvent, respectively. All units are reported in kcal/mol"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Protein-protein docking with the 2019-nCoV RBD and human ACE2. (A) The comparison between the predicted 2019-nCoV RBD-ACE2 complex and the experimental SARS-CoV"
+            },
+            {
+                "id": "2",
+                "caption": "The conformational flexibility of the RBD protein. (A) The 50 representative trajectories of the 2019-nCoV RBD protein over a 10ns MD simulation, where the highly flexible region (residues 470-490) is indicated by a circle. (B) The 50 representative trajectories of the SARS-CoV RBD protein over a 10ns MD simulation. (C) The RMSFs of the 2019-nCoV and SARS-CoV RBD proteins, where the residue numbering is taken from the 2019-nCoV RBD and the data of SARS-CoV are then aligned to those of 2019-nCoV according to the sequence alignment"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.17.952903.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.952903.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.952903.full/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.952903.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.952903.full/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.952903.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.17.952903.full/img-005.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "Coronaviruses (CoVs) are a group of enveloped positive-stranded RNA viruses that can cause respiratory, intestinal and central nervous system infections in humans and animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. Until last year, six strains of coronaviruses that are able to infect humans have been identified [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Among them, four human coronaviruses, including HCoV-OC43, HCoV-229E, HCoV-NL63, and HCoVHKU1, are not highly pathogenic and only cause mild respiratory diseases [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. However, two other coronaviruses, the severe acute respiratory syndrome coronavirus (SARS-CoV) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u2013<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] and the Middle East respiratory syndrome coronavirus (MERS-CoV) [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], have caused two large-scale pandemics and resulted in more than 8000 cases including nearly 800 related deaths and about 2500 cases including about 860 related deaths, respectively. The outbreaks of SARS-CoV and MERS-CoV showed that some coronaviruses can be highly-pathogenic viruses when they transmit to humans from animals [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Therefore, it is urgent to develop antiviral treatments or vaccines targeting such high-risk coronaviruses like SARS-CoV and MERS-CoV."
+        ],
+        "methods": [
+            "2.1 Structure preparation<br/><br/>In this study, we have investigated the RBD-ACE2 complex, spike protein, and free RBD systems of SARS-CoV (GenBank ID: NP 828851.1) and 2019-nCoV (GenBank ID: MN908947.3). For SARSCoV, the RBD-ACE2 complex structure was directly downloaded from the Protein Data Bank (PDB entry: 3SCI) [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]. Then, all the water molecules were removed from the complex structure. The free RBD structure was obtained by removing the ACE2 protein from the RBD-ACE2 complex. The structure of the trimeric spike protein of SARS-CoV was also downloaded from the PDB (PDB entry: 6ACD) [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. For 2019-nCoV, the three dimensional (3D) RBD structure was modeled based on the RBD structure of SARS-CoV using the MODELLER program [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>], where the sequence alignment was performed using the ClustalW program [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>, <a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]. The complex structure between the 2019-nCoV RBD protein and human ACE2 was then predicted by our protein-protein docking approach [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>\u2013<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. The 3D structure of the trimeric spike protein for 2019-nCoV was constructed based on the structure of the SARS-CoV spike protein using MODELLER."
+        ],
+        "results": [
+            "<strong>RESULTS AND DISCUSSION</strong><br/><br/>3.1 The RBD-ACE2 docking<br/><br/>The RBD proteins of 2019-nCoV and SARS-CoV exhibit a high sequence similarity (89.2%) with a sequence identity of 73.7%. The high homology resulted in an accurate 3D RBD model of 2019nCoV with a small RMSD of 0.55 Afrom the experimental SARS-CoV RBD structure. With the experimental human ACE2 structure and the 2019-nCoV RBD model, we then performed proteinprotein docking to predict their binding mode using our HDOCK approach [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>\u2013<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. Figure 1A shows the predicted complex structure between the human ACE2 molecule and the 2019-nCoV RBD protein. It can be seen from the figure that the predicted RBD-ACE2 complex structure for 2019-nCoV is very close to the experimentally determined RBD-ACE2 complex structure for SARS-CoV, and the interface root-mean-square-deviation (RMSD) between the two complexes is 0.473 A , showing that the RBDs of 2019-nCoV and SARS-CoV bind to the same site of the human ACE2 receptor (Figure 1A). These results can also be understood by comparing the residues at the RBD-ACE2 binding interface for 2019-nCoV and SARS-CoV. The binding sites on the RBD proteins of 2019-nCoV and SARS-CoV are very conserved and the corresponding residues show a high sequence similarity of 83.3% (Figures 1B and C). Among them, those hydrophobic residues that are important for proteinprotein interactions are especially conserved. For the RBD of 2019-nCoV, there are 13 hydrophobic residues at the binding site, which are comparable to 13 hydrophobic residues for that of SARS-CoV (Figure 1B)."
+        ],
+        "conclusions": [
+            "In this study, we have extensively studied the RBD-ACE2 complex, spike protein, and free RBD protein systems of 2019-nCoV and SARS-CoV through protein-protein docking and MD simulations. It was found that 2019-nCoV has a higher binding affinity with human ACE2 than SARS-CoV, explaining the fact that 2019-CoV is much more infectious than SARS-CoV. The spike protein of 2019-nCoV also shows a lower free energy than that of SARS-CoV, suggesting that 2019-nCoV is more stable and may be able to survive a higher temperature than SARS-CoV. This may also explain the bat origin of 2019-nCoV, as bats have a higher body-temperature than humans. In addition, the RBD of 2019-nCoV exhibits a significantly higher flexibility than that of SARS-CoV, especially near the binding site. That indicates that 2019-nCoV must overcome a higher entropy penalty in order to bind ACE2 and is thus more temperature-sensitive than SARS-CoV. Therefore, with the rising temperature, 2019-nCoV is expected to decrease the infection ability much faster and become much less infectious than SARS-CoV, which would make the disease prevention and control of 2019-nCoV easier. Taking the above results together, unlike SARS-CoV that is gone after 2003, 2019-nCoV might survive the high-temperature environment like Summer in which the virus is not active/infectious due to the high flexibility in the RBD, and then become infectious when the temperature is low in the Winter. These findings will have a far-reaching implication for disease prevention and control as well as drug and vaccine development for 2019-nCoV."
+        ],
+        "acknowledgements": [
+            "This work is supported by the National Natural Science Foundation of China (grant Nos. 31670724) and the startup grant of Huazhong University of Science and Technology. Conflict of interest statement. None declared."
+        ],
+        "funding": [
+            "This work is supported by the National Natural Science Foundation of China (grant Nos. 31670724) and the startup grant of Huazhong University of Science and Technology"
+        ],
+        "disclosures": [
+            "Conflict of interest statement. None declared."
+        ]
+    },
+    "structured_content": {
+        "1 INTRODUCTION": [
+            "Coronaviruses (CoVs) are a group of enveloped positive-stranded RNA viruses that can cause respiratory, intestinal and central nervous system infections in humans and animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. Until last year, six strains of coronaviruses that are able to infect humans have been identified [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Among them, four human coronaviruses, including HCoV-OC43, HCoV-229E, HCoV-NL63, and HCoVHKU1, are not highly pathogenic and only cause mild respiratory diseases [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. However, two other coronaviruses, the severe acute respiratory syndrome coronavirus (SARS-CoV) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u2013<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] and the Middle East respiratory syndrome coronavirus (MERS-CoV) [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], have caused two large-scale pandemics and resulted in more than 8000 cases including nearly 800 related deaths and about 2500 cases including about 860 related deaths, respectively. The outbreaks of SARS-CoV and MERS-CoV showed that some coronaviruses can be highly-pathogenic viruses when they transmit to humans from animals [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Therefore, it is urgent to develop antiviral treatments or vaccines targeting such high-risk coronaviruses like SARS-CoV and MERS-CoV.",
+            "Before efficient antiviral drugs or vaccines are developed for SARS-CoV or MERS-CoV, another outbreak of pneumonia caused by a new coronavirus (2019-nCoV) has emerged in Wuhan since December 2019. As of February 17, 2020, 2019-nCoV has caused more than 70000 cases in China and nearly 8000 cases around the world with about 1700 related deaths [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>\u2013<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. The full-length genome sequence of 2019-nCoV was soon determined by the Zhang group [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. It was revealed that 2019-nCoV has a probable bat origin and is 96% identical at the whole-genome level to a bat SARS-like coronavirus [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. In addition, 2019-nCoV is also closely related to other SARS-like coronaviruses and shares 79.5% sequence identify to SARS-CoV [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. For some encoded proteins like coronavirus main proteinase (3CLpro), papain-like protease (PLpro), and RNA-dependent RNA polymerase (RdRp), the sequence identity is even higher and can be as high as 96% between 2019-nCoV and SARS-CoV [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. Therefore, it has been thought that 2019-nCoV would function the similar way to SARS-CoV in the human-infection and pathogenic mechanism [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>\u2013<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>].",
+            "Coronaviruses uses the surface spike (S) glycoprotein on the envelope to attach host cells and mediate host cell membrane and viral membrane fusion during infection [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. The spike protein includes two regions, S1 and S2, where S1 is for host cell receptor binding and S2 is for membrane fusion. The S1 region also includes an N-terminal domain (NTD) and three C-terminal domains (CTD1, CTD2, and CTD3) [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. For SARS-CoV, the receptor binding domain (RBD) is located in the CTD1 of the S1 region. SARS-CoV attaches the human host cells through the binding of the RBD protein to the angiotensin-converting enzyme II (ACE2) [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. Therefore, the interaction between RBD and ACE2 is a prerequisite for the human infection with SARS-CoV. Given the high homology between SARS-CoV and 2019-nCoV, it was expected that 2019-nCoV would also use the ACE2 molecule as the receptor to entry human cells [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>]. This hypothesis was further experimentally confirmed by the virus infectivity studies from the Shi group, in which 2019-nCoV is able to use the ACE2 proteins from humans, Chinese horseshoe bats, and civet as an entry receptor in the ACE2expressing cells, but not cells without ACE2 [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. Xu et al have used MOE to calculate the binding free energies between the RBD of spike protein and human ACE2, showing that the binding free energy between 2019-nCoV and human ACE2 was \u221250.6 kcal/mol, whereas that between SARSCoV and human ACE2 was \u221278.6 kcal/mol [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>]. Very recently, the Cryo-EM structure of the 2019nCoV spike protein in the prefusion conformation has been determined [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. The biophysical and structural evidence suggested that 2019-nCoV binds ACE2 with higher affinity than SARS-CoV [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>].",
+            "Although it seems clear that 2019-nCoV infects human cells through the binding of the RBD domain to the human ACE2 receptor [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>\u2013<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>, <a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>], the molecular mechanism of the binding between the RBD protein and the ACE2 receptor is still unknown. Many questions remain to be answered. For example, previous studies showed that the binding affinity between 2019-nCoV and human ACE2 is weaker than that between SARS-CoV and human ACE2 [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>]. However, in reality, 2019-nCoV has resulted in many more cases and seems to be more infectious than SARS-CoV. In this study, we have extensively investigated the spike protein/human ACE2 protein systems of 2019-nCoV and SARSCoV by using protein-protein docking and molecular dynamics (MD) simulations. Specifically, we have extensively studied the free energies and dynamics of RBD-ACE2 binding, spike protein, and free RBD systems. Given that the spike protein is not only a potential drug target but also the virus antigen, the present study will be beneficial for the drug design, vaccine development, and disease prevention for 2019-nCoV."
+        ],
+        "2 MATERIALS AND METHODS": [],
+        "2.1 Structure preparation": [
+            "In this study, we have investigated the RBD-ACE2 complex, spike protein, and free RBD systems of SARS-CoV (GenBank ID: NP 828851.1) and 2019-nCoV (GenBank ID: MN908947.3). For SARSCoV, the RBD-ACE2 complex structure was directly downloaded from the Protein Data Bank (PDB entry: 3SCI) [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>]. Then, all the water molecules were removed from the complex structure. The free RBD structure was obtained by removing the ACE2 protein from the RBD-ACE2 complex. The structure of the trimeric spike protein of SARS-CoV was also downloaded from the PDB (PDB entry: 6ACD) [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. For 2019-nCoV, the three dimensional (3D) RBD structure was modeled based on the RBD structure of SARS-CoV using the MODELLER program [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>], where the sequence alignment was performed using the ClustalW program [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>, <a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]. The complex structure between the 2019-nCoV RBD protein and human ACE2 was then predicted by our protein-protein docking approach [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>\u2013<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. The 3D structure of the trimeric spike protein for 2019-nCoV was constructed based on the structure of the SARS-CoV spike protein using MODELLER."
+        ],
+        "2.2 Protein-protein docking": [
+            "The complex structure between the 2019-nCoV RBD protein and the human ACE2 molecule was predicted using our hybrid protein-protein docking algorithm, HDOCK [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>\u2013<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. Specifically, given the individual structures of the spike RBD protein and the human ACE2 molecule, HDOCK will globally sample all possible binding modes between the two proteins through a fast Fourier transform (FFT) search strategy [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. Then, all the sampled binding modes were evaluated by our iterative knowledge-based scoring function [<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>]. Last, the binding modes were ranked according to their binding energy scores, and the top ten binding modes were provided to users. During the docking calculation, all the default parameters were used. Namely, the grid spacing was set to 1.2 Afor 3D translational search, the angle interval was set to 15\u25e6 for rotational sampling in 3D Euler space, the binding interface information in the PDB was automatically applied during the modeling of individual structures. A web server version of our HDOCK algorithm can be freely accessed from our web site at http://hdock.phys.hust.edu.cn/ [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>]."
+        ],
+        "2.3 MD simulations": [
+            "The AMBER suite was used for the MD simulations [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>]. Before the simulations, the missing residues in the middle of a chain were added using the MODELLER [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. During the simulations, the ff14SB force field was selected [<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>], explicit solvent model was used, the time step was set to 2 fs, langevin dynamics were used for temperature control, and the program \u201cpmemd.cuda\u201d was used as the simulation engine, where the simulations were performed on a GPU compute node [<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>]. Specifically, for each system, the following four stages of MD simulations were performed before the production simulation: (1) A 1000-step simulation was first run to minimize the solvated protein system with weakly restraints on the backbone atoms; (2) The system was then heated to 300K by a 25000-step (i.e. 50ps) simulation with weakly restraints on the backbone atoms; (3) Next, another 25000-step (i.e. 50ps) constant pressure simulation was conducted to equilibrating the density of the system at 300 K; (4) The system was then equilibrated by a 250000-step (i.e. 500ps) of constant pressure simulation at 300K. Finally, two 2500000-step production simulations were run to record the trajectories of the system at 300K, where the coordinates were written out every 5000 steps (i.e. 10ps), resulting in a total of 10ns simulation with 1000 recorded trajectories. After the simulations, the \u201cMMPBSA.py\u201d was used to calculate free energies of the systems using the MM-GBSA model [<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>], and the \u201ccpptraj\u201d was used to analyze the coordinate trajectories [<a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>]."
+        ],
+        "3 RESULTS AND DISCUSSION": [],
+        "3.1 The RBD-ACE2 docking": [
+            "The RBD proteins of 2019-nCoV and SARS-CoV exhibit a high sequence similarity (89.2%) with a sequence identity of 73.7%. The high homology resulted in an accurate 3D RBD model of 2019nCoV with a small RMSD of 0.55 Afrom the experimental SARS-CoV RBD structure. With the experimental human ACE2 structure and the 2019-nCoV RBD model, we then performed proteinprotein docking to predict their binding mode using our HDOCK approach [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>\u2013<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. Figure 1A shows the predicted complex structure between the human ACE2 molecule and the 2019-nCoV RBD protein. It can be seen from the figure that the predicted RBD-ACE2 complex structure for 2019-nCoV is very close to the experimentally determined RBD-ACE2 complex structure for SARS-CoV, and the interface root-mean-square-deviation (RMSD) between the two complexes is 0.473 A , showing that the RBDs of 2019-nCoV and SARS-CoV bind to the same site of the human ACE2 receptor (Figure 1A). These results can also be understood by comparing the residues at the RBD-ACE2 binding interface for 2019-nCoV and SARS-CoV. The binding sites on the RBD proteins of 2019-nCoV and SARS-CoV are very conserved and the corresponding residues show a high sequence similarity of 83.3% (Figures 1B and C). Among them, those hydrophobic residues that are important for proteinprotein interactions are especially conserved. For the RBD of 2019-nCoV, there are 13 hydrophobic residues at the binding site, which are comparable to 13 hydrophobic residues for that of SARS-CoV (Figure 1B)."
+        ],
+        "3.2 The RBD-ACE2 complex: 2019-nCoV binds ACE2 with higher affinity than SARS-CoV": [
+            "We have run a long-time MD simulation to generate the trajectories of the RBD-ACE2 complex system for 2019-nCoV and SARS-CoV. The binding free energies were calculated using the MM-GBSA model by the \u201cMMPBSA.py\u201d script in the AMBER package. Table 1 shows a comparison of the RBDACE2 binding free energies for 2019-nCoV and SARS-CoV. It can be seen from the table that the binding free energy of the RBD-ACE2 interaction for 2019-nCoV is \u221250.43 kcal/mol, which is significantly lower than the binding free energy of the RBD-ACE2 interaction for SARS-CoV (\u221236.75 kcal/mol). In other words, 2019-nCoV binds human ACE2 with a significantly higher affinity than SARS-CoV. This result is consistent with the current fact that 2019-CoV is much more infectious than SARS-CoV. Very recently, experimental studies also showed that 2019-CoV could bind human ACE2 with a higher affinity than SARS-CoV [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. Further examination of the binding free energy contributions reveals that the higher binding affinity of 2019-nCoV than SARS-CoV is mostly attributed to the solvation energy contribution \u2206Gsolv (674.97 vs. 696.56 kcal/mol), whereas 2019-nCoV has a higher binding free energy in vacuum \u2206Ggas than SARS-CoV (-725.41 vs. -733.31). In other words, 2019-nCoV tends to bind human ACE2 better than SARS-CoV in the water, while SARS-CoV would bind to human ACE2 better than 2019-nCoV in the gas. Further investigation is needed to confirm such binding differences."
+        ],
+        "3.3 The spike protein: 2019-nCoV is more stable than SARS-CoV": [
+            "The spike protein on the coronavirus envelope is a trimeric protein. This protein is critical for the vitality of coronaviruses because it is not only an important component for the virus particle but also plays a crucial role in attaching host cells and fusing the membranes [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]. In addition, the spike protein also determines the solubility of coronavirus particles and thus the viral infectivity because the spike protein is the largest protein located on the membrane surface. Therefore, the spike protein is directly related to the stability and functionality of coronaviuses. Here, we have run a lengthy MD simulation to study the trimeric spike proteins of 2019-nCoV and SARS-CoV.",
+            "Table 2 gives a comparison between the free energies of the spike proteins for 2019-nCoV and SARS-CoV. It can be seen from the table that the spike protein of 2019-nCoV has a significantly lower total free energy (Gtotal = \u221267303.28 kcal/mol) than the spike protein of SARS-CoV (Gtotal = \u221263139.96 kcal/mol) (Table 2). These results suggest that 2019-nCoV is more stable and can survive a significantly higher temperature than SARS-CoV. This may also partly explain the higher infectivity of 2019-nCoV than SARS-CoV because 2019-nCoV would have a higher virus vitality than SARSCoV in the same temperature.",
+            "The lower free energy of the 2019-nCoV spike protein may result from the virus evolution of SARS-CoV because SARS-like coronaviruses normally originate from bats that are known to have a higher body temperature than humans. In other words, 2019-nCoV and other SARS-like coronavirus would have evolved to achieve a lower free energy for their spike proteins by recombination or mutations so that they can survive in high-temperature animals like bats [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. In addition, the free energy decomposition also shows that the lower free energy of 2019-nCoV spike protein than SARSCoV spike protein is mainly attributed to the free energy in vacumm Ggas (-36405.44 vs. -32053.43 kcal/mol), whereas their solvation energies Gsolv are comparable (-30897.84 vs. -31086.53 kcal/mol) (Table 2). This may reflect an evolution trend for SARS-like coronaviruses, i.e. favoring the internal interactions between residues instead of the solvation energy. This kind of evolution would be also beneficial because such kinds of coronaviruses would be more robust and able to survive in both the air and solvent."
+        ],
+        "3.4 The RBD domain: 2019-nCoV is more temperature-sensitive than SARSCoV": [
+            "Coronaviruses uses the spike protein to attach host cells by binding the host cell receptor. Therefore, the receptor binding domain (RBD) of the spike protein is critical for coronaviruses to infect host cells. Here, we have run lengthy MD simulations to investigate the structural properties of the RBD proteins for 2019-nCoV and SARS-CoV. Table 3 shows a comparison between the free energies of the RBD proteins for 2019-nCoV and SARS-CoV. Similar to the findings in the spike protein as detailed in the last section (Table 2), the RBD protein of 2019-nCoV also shows a significantly lower free energy than that of SARS-CoV (-4090.04 vs. -3617.73 kcal/mol) (Table 3), which may also be understood by the evolution pressure from the high-temperature host environment. However, unlike in the spike protein where the free energy difference between 2019-nCoV and SARS-CoV is mostly attributed the inter-residue interactions in vacuum (Ggas), here in the RBD protein, the free energy difference between 2019-nCoV and SARS-CoV comes from both the free energy in vacuum Ggas (-2104.37 vs. -1703.66 kcal/mol) and solvation energy Gsolv (-1985.68 vs. -1914.07 kcal/mol) (Table 3). The lower solvation energy of 2019-nCoV than SARS-CoV in the RBD may be understood because the RBD must move up away from the spike protein and into the water in order to bind human ACE2 [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. In other words, 2019-nCoV would have evolved to be more soluble so that it can move up and bind the ACE2 more easily. The better solubility of the RBD of 2019-nCoV than SARS-CoV may also contribute to part of the higher infectivity of 2019-nCoV than SARS-CoV.",
+            "Protein flexibility is a critical factor in binding as it may not only change the binding interface between two proteins but also be an important contribution to the entropy penalty upon binding. Therefore, we have investigated the protein flexibility of the RBD domains for 2019-nCoV and SARSCoV by analyzing their coordinate trajectories. Figure 2 show two ensembles of selected trajectories over a period of 10ns simulations for the RBD domains of 2019-nCoV and SARS-CoV. The figure also gives a comparison of the root mean square fluctuations (RMSF), a rough measurement of protein flexibility, for 2019-nCoV and SARS-CoV. It can be seen from the figure that the RBD of 2019nCoV shows a significantly higher RMSF than that of SARS-CoV. In other words, the RBD of 2019nCoV is much more flexible than the RBD of 2019-nCoV. The flexibility is especially higher near the binding site than other regions (Figure 2A). That means that 2019-nCoV must overcome much more entropy penalty than SARS-CoV when binding to human ACE2. As we know, the binding free energy between two proteins can be expressed as, \u2206G = \u2206E \u2212 T \u2206S, where \u2206E is the interaction energy, \u2206S is the entropy, and T is the temperature of the system. As \u2206S is negative, the binding free energy will become higher and the binding will become weaker with the increasing temperature. Therefore, the RBD-ACE2 binding affinity for 2019-nCoV is expected to decrease much faster than that for SARS-CoV when the temperature increases. In other words, 2019-nCoV is much more temperaturesensitive than SARS-CoV. Namely, 2019-nCoV will decrease its infection ability much faster than SARS-CoV when the temperature rises. Therefore, it is expected that 2019-nCoV will become less infectious compared to SARS-CoV, and the disease prevention and control for 2019-nCoV will get easier when the weather gets warmer/hotter, although the drug and vaccine development targeting the RBD protein will be more challenging because of the protein flexibility at the binding site."
+        ],
+        "4 CONCLUSIONS": [
+            "In this study, we have extensively studied the RBD-ACE2 complex, spike protein, and free RBD protein systems of 2019-nCoV and SARS-CoV through protein-protein docking and MD simulations. It was found that 2019-nCoV has a higher binding affinity with human ACE2 than SARS-CoV, explaining the fact that 2019-CoV is much more infectious than SARS-CoV. The spike protein of 2019-nCoV also shows a lower free energy than that of SARS-CoV, suggesting that 2019-nCoV is more stable and may be able to survive a higher temperature than SARS-CoV. This may also explain the bat origin of 2019-nCoV, as bats have a higher body-temperature than humans. In addition, the RBD of 2019-nCoV exhibits a significantly higher flexibility than that of SARS-CoV, especially near the binding site. That indicates that 2019-nCoV must overcome a higher entropy penalty in order to bind ACE2 and is thus more temperature-sensitive than SARS-CoV. Therefore, with the rising temperature, 2019-nCoV is expected to decrease the infection ability much faster and become much less infectious than SARS-CoV, which would make the disease prevention and control of 2019-nCoV easier. Taking the above results together, unlike SARS-CoV that is gone after 2003, 2019-nCoV might survive the high-temperature environment like Summer in which the virus is not active/infectious due to the high flexibility in the RBD, and then become infectious when the temperature is low in the Winter. These findings will have a far-reaching implication for disease prevention and control as well as drug and vaccine development for 2019-nCoV."
+        ],
+        "ACKNOWLEDGEMENTS": [
+            "This work is supported by the National Natural Science Foundation of China (grant Nos. 31670724) and the startup grant of Huazhong University of Science and Technology. Conflict of interest statement. None declared."
+        ],
+        "References": [
+            "(1) Cui J, Li F, Shi ZL. Origin and evolution of pathogenic coronaviruses. Nat Rev Microbiol. 2019 Mar;17(3):181-192.",
+            "(2) Chen Y, Liu Q, Guo D. Emerging coronaviruses: Genome structure, replication, and pathogenesis. J Med Virol. 2020 Jan 22. doi: 10.1002/jmv.25681.",
+            "(3) Zhong NS, et al Epidemiology and cause of severe acute respiratory syndrome (SARS) in Guangdong, People\u2019s Republic of China, in February, 2003. Lancet. 2003 Oct 25;362(9393):1353-8.",
+            "(4) Ksiazek TG, Erdman D, Goldsmith CS, et al A novel coronavirus associated with severe acute respiratory syndrome. N Engl J Med 2003; 348:1953-1966.",
+            "(5) Drosten C, Gunther S, Preiser W, et al Identification of a novel coronavirus in patients with severe acute respiratory syndrome. N Engl J Med 2003; 348:1967-1976.",
+            "(6) Peiris JS, Lai ST, Poon LL, et al Coronavirus as a possible cause of severe acute respiratory syndrome. Lancet 2003; 361:1319-1325.",
+            "(7) Zaki AM, van Boheemen S, Bestebroer TM, Osterhaus AD, Fouchier RA. Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N Engl J Med. 2012 Nov 8;367(19):1814-20.",
+            "(8) de Groot RJ, Baker SC, Baric RS, et al Middle East respiratory syndrome coronavirus (MERS-CoV): announcement of the Coronavirus Study Group. J Virol 2013; 87:7790-7792.",
+            "(9) Lu G, Wang Q, Gao GF. Bat-to-human: spike features determining \u2018host jump\u2019 of coronaviruses SARSCoV, MERS-CoV, and beyond. Trends Microbiol. 2015 Aug; 23(8):468-78.",
+            "(10) Chan JF, et al, A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet. 2020 Jan 24. pii: S01406736(20)30154-9..",
+            "(11) Huang C, et al, Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020 Jan 24. pii: S0140-6736(20)30183-5..",
+            "(12) Lu R, et al, Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet. 2020 Jan 30. pii: S0140-6736(20)30251-8.",
+            "(13) Chen N, et al, Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet. 2020 Jan 30. pii: S0140-6736(20)30211-7.",
+            "(14) Li Q, et al, Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med. 2020 Jan 29. doi: 10.1056/NEJMoa2001316.",
+            "(15) Wu F, et al, A new coronavirus associated with human respiratory disease in China. Nature. 2020 Feb 3. doi: 10.1038/s41586-020-2008-3.",
+            "(16) Zhou P, et al A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020 Feb 3. doi: 10.1038/s41586-020-2012-7.",
+            "(17) Liu W, Morse JS, Lalonde T, Xu S. Learning from the Past: Possible Urgent Prevention and Treatment Options for Severe Acute Respiratory Infections Caused by 2019-nCoV. Chembiochem. 2020 Feb 5. doi: 10.1002/cbic.202000047.",
+            "(18) Xu X, Chen P, Wang J, Feng J, Zhou H, Li X, Zhong W, Hao P. Evolution of the novel coronavirus from the ongoing Wuhan outbreak and modeling of its spike protein for risk of human transmission. Sci China Life Sci. 2020 Jan 21. doi: 10.1007/s11427-020-1637-5.",
+            "(19) Li F. Structure, Function, and Evolution of Coronavirus Spike Proteins. Annu Rev Virol. 2016 Sep 29;3(1):237-261.",
+            "(20) Song W, Gui M, Wang X, Xiang Y. Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2. PLoS Pathog. 2018 Aug 13;14(8):e1007236.",
+            "(21) Gui M, Song W, Zhou H, Xu J, Chen S, Xiang Y, Wang X. Cryo-electron microscopy structures of the SARS-CoV spike glycoprotein reveal a prerequisite conformational state for receptor binding. Cell Res. 2017 Jan;27(1):119-129.",
+            "(22) Wrapp D, Wang N, Corbett KS, Goldsmith JA, Hsieh C-L, Abiona O, Graham BS, McLellan JS. CryoEM Structure of the 2019-nCoV Spike in the Prefusion Conformation, 2020, bioRxiv 2020.02.11.944462; doi: https://doi.org/10.1101/2020.02.11.944462",
+            "(23) Burley SK, et al RCSB Protein Data Bank: biological macromolecular structures enabling research and education in fundamental biology, biomedicine, biotechnology and energy. Nucleic Acids Res. 2019 Jan 8;47(D1):D464-D474.",
+            "(24) Webb B, Sali A. Comparative Protein Structure Modeling Using MODELLER. Curr Protoc Protein Sci. 2016;86:2.9.1-2.9.37.",
+            "(25) Larkin MA, Blackshields G, Brown NP, Chenna R, McGettigan PA, McWilliam H, Valentin F, Wallace IM, Wilm A, Lopez R, Thompson JD, Gibson TJ, Higgins DG. Clustal W and Clustal X version 2.0. Bioinformatics. 2007;23:2947-2948.",
+            "(26) Sievers F, Wilm A, Dineen D, Gibson TJ, Karplus K, Li W, Lopez R, McWilliam H, Remmert M, Soding J, Thompson JD, Higgins DG. Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol Syst Biol. 2011;7:539.",
+            "(27) Yan Y, Tao H, He J, Huang S-Y. The HDOCK server for integrated protein-protein docking, Nat Proc, 2020, (in press).",
+            "(28) Yan Y, Wen Z, Wang X, Huang S-Y. Addressing recent docking challenges: A hybrid strategy to integrate template-based and free protein-protein docking. Proteins. 2017;85:497-512.",
+            "(29) Yan Y, Zhang D, Zhou P, Li B, Huang S-Y. HDOCK: a Web Server for Protein-Protein and ProteinDNA/RNA Docking Based on a Hybrid Strategy. Nucleic Acids Res. 2017;45:W365-W373.",
+            "(30) Yan Y, Huang S-Y. Pushing the accuracy limit of shape complementarity for protein-protein docking. BMC Bioinformatics. 2019;20(Suppl 25):696.",
+            "(31) Huang S-Y, Zou X. An iterative knowledge-based scoring function for protein-protein recognition. Proteins. 2008;72:557-579.",
+            "(32) Case DA, et al (2018), AMBER 2018, University of California, San Francisco, https://ambermd.org/. (33) Maier JA, Martinez C, Kasavajhala K, Wickstrom L, Hauser KE, Simmerling C. ff14SB: Improving the",
+            "Accuracy of Protein Side Chain and Backbone Parameters from ff99SB. J Chem Theory Comput. 2015 Aug 11;11(8):3696-713. (34) Salomon-Ferrer R, G?tz AW, Poole D, Le Grand S, Walker RC. Routine Microsecond Molecular Dynamics Simulations with AMBER on GPUs. 2. Explicit Solvent Particle Mesh Ewald. J Chem Theory Comput. 2013 Sep 10;9(9):3878-88. (35) Miller BR 3rd, McGee TD Jr, Swails JM, Homeyer N, Gohlke H, Roitberg AE. MMPBSA.py: An Efficient Program for End-State Free Energy Calculations. J Chem Theory Comput. 2012 Sep 11;8(9):331421. (36) Roe DR, Cheatham TE 3rd. PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular Dynamics Trajectory Data. J Chem Theory Comput. 2013 Jul 9;9(7):3084-95.",
+            "Figure 1",
+            "A",
+            "B",
+            "C",
+            "2019-nCoV 297 SETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRK SARS-CoV 284 AELKCSVKSFEIDKGIYQTSNFRVVPSGDVVRFPNITNLCPFGEVFNATKFPSVYAWERK",
+            ":* **::*** ::*********** *: .:*******************:* *****:** 2019-nCoV 357 RISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTG SARS-CoV 344 KISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTG",
+            ":**************: ********** ********:********::**:********** 2019-nCoV 417 KIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAG SARS-CoV 404 VIADYNYKLPDDFMGCVLAWNTRNIDATSTGNYNYKYRFLRHGKLRPFERDISNVPFSPD",
+            "************ ***:***:.*:*:. ***** **::*:.:*:*******. :. . 2019-nCoV 477 STPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKN SARS-CoV 464 GKPCTP-PAFNCYWPLNDYGFYTTTGIGYQPYRVVVLSFELLNAPATVCGPKLSTDLIKN",
+            "..**. .****:**:.*** *.*:***************:********* **:*:**",
+            "Figure 1: Protein-protein docking with the 2019-nCoV RBD and human ACE2. (A) The comparison between the predicted 2019-nCoV RBD-ACE2 complex and the experimental SARS-CoV",
+            "RBD-ACE2 structure (3SCI:A/E), where the RBD and ACE2 proteins are colored in magenta and blue for 2019-nCoV and in green and red for SARS-CoV, respectively. (B) The binding site residues on the RBD that are within 5.0 Aform the ACE2, where the hydrophobic residues on the 2019-",
+            "nCoV RBD are highlighted in red. (C) Part of the sequence alignment for the spike proteins between",
+            "2019-nCoV and SARS-CoV, where the RBD residues are highlighted in yellow and the binding site residues are highlighted in magenta, respectively.",
+            "Figure 2: The conformational flexibility of the RBD protein. (A) The 50 representative trajectories of the 2019-nCoV RBD protein over a 10ns MD simulation, where the highly flexible region (residues 470-490) is indicated by a circle. (B) The 50 representative trajectories of the SARS-CoV RBD protein over a 10ns MD simulation. (C) The RMSFs of the 2019-nCoV and SARS-CoV RBD proteins, where the residue numbering is taken from the 2019-nCoV RBD and the data of SARS-CoV are then aligned to those of 2019-nCoV according to the sequence alignment.",
+            "Table 1: The binding free energies calculated from MD simulations for the RBD-ACE2 interactions of 2019-nCoV and SARS-CoV, where \u2206Ggas is the interaction energy change in the gas and \u2206Gsolv is the solvation energy change in the solvent upon binding, respectively. All units are reported in kcal/mol.",
+            "2019-nCoV",
+            "SARS-CoV",
+            "Average Std. Dev. Std. Err. of Mean Average Std. Dev. Std. Err. of Mean",
+            "\u2206Ggas \u2206Gsolv \u2206Gtotal",
+            "-725.4066 674.9721 -50.4345",
+            "1.3997 1.3237 0.2496",
+            "-733.3113 696.5572 -36.7541",
+            "1.5124 1.3146 0.3352",
+            "Table 2: The free energies calculated from MD simulations for the spike proteins of 2019-nCoV and SARS-CoV, where Ggas is the interaction energy in the gas and Gsolv is the solvation energy in the solvent, respectively. All units are reported in kcal/mol.",
+            "Ggas Gsolv Gtotal",
+            "-36405.4424 -30897.8370 -67303.2794",
+            "29.4454 28.3060 17.1987",
+            "-32053.4298 270.8693 -31086.5339 236.9148 -63139.9637 199.4728",
+            "Table 3: The free energies calculated from MD simulations for the RBD proteins of 2019-nCoV and SARS-CoV, where Ggas is the interaction energy in the gas and Gsolv is the solvation energy in the solvent, respectively. All units are reported in kcal/mol.",
+            "-2104.3687 -1985.6759 -4090.0446",
+            "3.2340 2.3005 1.8184",
+            "-1703.6586 -1914.0726 -3617.7312",
+            "3.3970 2.5396 1.7410"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "strains",
+            "number": 6,
+            "context": "Coronaviruses (CoVs) are a group of enveloped positive-stranded RNA viruses that can cause respiratory, intestinal and central nervous system infections in humans and animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. <mark class=\"stats\">Until last year, six strains of coronaviruses that are able to infect humans have been identified [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]</mark>. Among them, four human coronaviruses, including HCoV-OC43, HCoV-229E, HCoV-NL63, and HCoVHKU1, are not highly pathogenic and only cause mild respiratory diseases [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]"
+        },
+        {
+            "participant": "cases",
+            "number": 8000,
+            "context": "Among them, four human coronaviruses, including HCoV-OC43, HCoV-229E, HCoV-NL63, and HCoVHKU1, are not highly pathogenic and only cause mild respiratory diseases [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. <mark class=\"stats\">However, two other coronaviruses, the severe acute respiratory syndrome coronavirus (SARS-CoV) [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>\u2013<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] and the Middle East respiratory syndrome coronavirus (MERS-CoV) [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>], have caused two large-scale pandemics and resulted in more than 8000 cases including nearly 800 related deaths and about 2500 cases including about 860 related deaths, respectively</mark>. The outbreaks of SARS-CoV and MERS-CoV showed that some coronaviruses can be highly-pathogenic viruses when they transmit to humans from animals [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]"
+        },
+        {
+            "participant": "cases",
+            "number": 70000,
+            "context": "Before efficient antiviral drugs or vaccines are developed for SARS-CoV or MERS-CoV, another outbreak of pneumonia caused by a new coronavirus (2019-nCoV) has emerged in Wuhan since December 2019. <mark class=\"stats\">As of February 17, 2020, 2019-nCoV has caused more than 70000 cases in China and nearly 8000 cases around the world with about 1700 related deaths [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>\u2013<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]</mark>. The full-length genome sequence of 2019-nCoV was soon determined by the Zhang group [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]"
+        },
+        {
+            "participant": "proteins",
+            "number": 2,
+            "context": "The complex structure between the 2019-nCoV RBD protein and the human ACE2 molecule was predicted using our hybrid protein-protein docking algorithm, HDOCK [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>\u2013<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. <mark class=\"stats\">Specifically, given the individual structures of the spike RBD protein and the human ACE2 molecule, HDOCK will globally sample all possible binding modes between the two proteins through a fast Fourier transform (FFT) search strategy [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]</mark>. Then, all the sampled binding modes were evaluated by our iterative knowledge-based scoring function [<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>]"
+        },
+        {
+            "participant": "proteins",
+            "number": 2,
+            "context": "The better solubility of the RBD of 2019-nCoV than SARS-CoV may also contribute to part of the higher infectivity of 2019-nCoV than SARS-CoV. <mark class=\"stats\">Protein flexibility is a critical factor in binding as it may not only change the binding interface between two proteins but also be an important contribution to the entropy penalty upon binding</mark>. Therefore, we have investigated the protein flexibility of the RBD domains for 2019-nCoV and SARSCoV by analyzing their coordinate trajectories"
+        },
+        {
+            "participant": "proteins",
+            "number": 2,
+            "context": "That means that 2019-nCoV must overcome much more entropy penalty than SARS-CoV when binding to human ACE2. <mark class=\"stats\">As we know, the binding free energy between two proteins can be expressed as, \u2206G = \u2206E \u2212 T \u2206S, where \u2206E is the interaction energy, \u2206S is the entropy, and T is the temperature of the system</mark>. As \u2206S is negative, the binding free energy will become higher and the binding will become weaker with the increasing temperature"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "root mean square fluctuations",
+        "MERS",
+        "human infection",
+        "disease prevention",
+        "papain-like protease",
+        "severe acute respiratory syndrome",
+        "molecular mechanism",
+        "coronavirus",
+        "spike protein",
+        "Coronaviruses",
+        "SARS",
+        "epidemiology",
+        "SARS-CoV",
+        "MD simulations",
+        "ACE2",
+        "new coronavirus",
+        "protein protein docking",
+        "RNA-dependent RNA polymerase",
+        "high temperature",
+        "molecular dynamics",
+        "novel coronavirus",
+        "2019-nCoV",
+        "host cell",
+        "respiratory syndrome coronavirus",
+        "free energy",
+        "rbd ace2",
+        "receptor binding domain",
+        "pneumonia",
+        "N-terminal domain",
+        "fast Fourier transform",
+        "sars cov.",
+        "dynamics",
+        "pathogenic",
+        "mers cov",
+        "HDOCK"
+    ],
+    "keyword_relevance": {
+        "2019-nCoV": 0.1691842900302115,
+        "SARS": 0.16767371601208458,
+        "SARS-CoV": 0.14350453172205438,
+        "receptor binding domain": 0.11782477341389729,
+        "ACE2": 0.0891238670694864,
+        "coronavirus": 0.05740181268882175,
+        "spike protein": 0.054380664652567974,
+        "free energy": 0.030211480362537766,
+        "molecular dynamics": 0.0256797583081571,
+        "host cell": 0.01661631419939577,
+        "MD simulations": 0.013595166163141994,
+        "novel coronavirus": 0.013595166163141994,
+        "MERS": 0.00906344410876133,
+        "pneumonia": 0.00906344410876133,
+        "HDOCK": 0.00906344410876133,
+        "disease prevention": 0.0075528700906344415,
+        "severe acute respiratory syndrome": 0.0075528700906344415,
+        "root mean square fluctuations": 0.006042296072507553,
+        "human infection": 0.006042296072507553,
+        "Coronaviruses": 0.006042296072507553,
+        "new coronavirus": 0.006042296072507553,
+        "dynamics": 0.006042296072507553,
+        "pathogenic": 0.006042296072507553,
+        "molecular mechanism": 0.004531722054380665,
+        "respiratory syndrome coronavirus": 0.004531722054380665,
+        "papain-like protease": 0.0030211480362537764,
+        "RNA-dependent RNA polymerase": 0.0030211480362537764,
+        "N-terminal domain": 0.0030211480362537764,
+        "fast Fourier transform": 0.0030211480362537764,
+        "epidemiology": 0.0015105740181268882,
+        "protein protein docking": 0.0,
+        "high temperature": 0.0,
+        "rbd ace2": 0.0,
+        "sars cov.": 0.0,
+        "mers cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Coronaviruses (CoVs) are a group of enveloped positive-stranded RNA viruses that can cause respiratory, intestinal and central nervous system infections in humans and animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "Four human coronaviruses, including HCoV-OC43, HCoV-229E, HCoV-NL63, and HCoVHKU1, are not highly pathogenic and only cause mild respiratory diseases [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "The outbreaks of SARS-CoV and MERS-CoV showed that some coronaviruses can be highly-pathogenic viruses when they transmit to humans from animals [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>].",
+        "It is urgent to develop antiviral treatments or vaccines targeting such high-risk coronaviruses like SARS-CoV and MERS-CoV",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors have investigated the RBD-ACE2 complex, spike protein, and free RBD systems of SARS-CoV (GenBank ID: NP 828851.1) and 2019-nCoV (GenBank ID: MN908947.3).",
+        "For SARSCoV, the RBD-ACE2 complex structure was directly downloaded from the Protein Data Bank (PDB entry: 3SCI) [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>].",
+        "The free RBD structure was obtained by removing the ACE2 protein from the RBD-ACE2 complex.",
+        "The structure of the trimeric spike protein of SARS-CoV was downloaded from the PDB (PDB entry: 6ACD) [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>].",
+        "The 3D structure of the trimeric spike protein for 2019-nCoV was constructed based on the structure of the SARS-CoV spike protein using MODELLER",
+        "<h2 style=\"display: inline\">Results:</h2> <strong>RESULTS AND DISCUSSION</strong><br/><br/>3.1 The RBD-ACE2 docking<br/><br/>The RBD proteins of 2019-nCoV and SARS-CoV exhibit a high sequence similarity (89.2%) with a sequence identity of 73.7%.",
+        "It can be seen from the figure that the predicted RBD-ACE2 complex structure for 2019-nCoV is very close to the experimentally determined RBD-ACE2 complex structure for SARS-CoV, and the interface root-mean-square-deviation (RMSD) between the two complexes is 0.473 A , showing that the RBDs of 2019-nCoV and SARS-CoV bind to the same site of the human ACE2 receptor (Figure 1A)",
+        "These results can be understood by comparing the residues at the RBD-ACE2 binding interface for 2019-nCoV and SARS-CoV.",
+        "For the RBD of 2019-nCoV, there are 13 hydrophobic residues at the binding site, which are comparable to 13 hydrophobic residues for that of SARS-CoV (Figure 1B)",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors have extensively studied the RBD-ACE2 complex, spike protein, and free RBD protein systems of 2019-nCoV and SARS-CoV through protein-protein docking and MD simulations.",
+        "Taking the above results together, unlike SARS-CoV that is gone after 2003, 2019-nCoV might survive the high-temperature environment like Summer in which the virus is not active/infectious due to the high flexibility in the RBD, and become infectious when the temperature is low in the Winter",
+        "These findings will have a far-reaching implication for disease prevention and control as well as drug and vaccine development for 2019-nCoV"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Coronaviruses (CoVs) are a group of enveloped positive-stranded RNA viruses that can cause respiratory, intestinal and central nervous system infections in humans and animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "Four human coronaviruses, including HCoV-OC43, HCoV-229E, HCoV-NL63, and HCoVHKU1, are not highly pathogenic and only cause mild respiratory diseases [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "The outbreaks of SARS-CoV and MERS-CoV showed that some coronaviruses can be highly-pathogenic viruses when they transmit to humans from animals [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>].",
+            "It is urgent to develop antiviral treatments or vaccines targeting such high-risk coronaviruses like SARS-CoV and MERS-CoV"
+        ],
+        "Methods": [
+            "The authors have investigated the RBD-ACE2 complex, spike protein, and free RBD systems of SARS-CoV (GenBank ID: NP 828851.1) and 2019-nCoV (GenBank ID: MN908947.3).",
+            "For SARSCoV, the RBD-ACE2 complex structure was directly downloaded from the Protein Data Bank (PDB entry: 3SCI) [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>].",
+            "The free RBD structure was obtained by removing the ACE2 protein from the RBD-ACE2 complex.",
+            "The structure of the trimeric spike protein of SARS-CoV was downloaded from the PDB (PDB entry: 6ACD) [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>].",
+            "The 3D structure of the trimeric spike protein for 2019-nCoV was constructed based on the structure of the SARS-CoV spike protein using MODELLER"
+        ],
+        "Results": [
+            "<strong>RESULTS AND DISCUSSION</strong><br/><br/>3.1 The RBD-ACE2 docking<br/><br/>The RBD proteins of 2019-nCoV and SARS-CoV exhibit a high sequence similarity (89.2%) with a sequence identity of 73.7%.",
+            "It can be seen from the figure that the predicted RBD-ACE2 complex structure for 2019-nCoV is very close to the experimentally determined RBD-ACE2 complex structure for SARS-CoV, and the interface root-mean-square-deviation (RMSD) between the two complexes is 0.473 A , showing that the RBDs of 2019-nCoV and SARS-CoV bind to the same site of the human ACE2 receptor (Figure 1A)",
+            "These results can be understood by comparing the residues at the RBD-ACE2 binding interface for 2019-nCoV and SARS-CoV.",
+            "For the RBD of 2019-nCoV, there are 13 hydrophobic residues at the binding site, which are comparable to 13 hydrophobic residues for that of SARS-CoV (Figure 1B)"
+        ],
+        "Conclusion": [
+            "The authors have extensively studied the RBD-ACE2 complex, spike protein, and free RBD protein systems of 2019-nCoV and SARS-CoV through protein-protein docking and MD simulations.",
+            "Taking the above results together, unlike SARS-CoV that is gone after 2003, 2019-nCoV might survive the high-temperature environment like Summer in which the virus is not active/infectious due to the high flexibility in the RBD, and become infectious when the temperature is low in the Winter",
+            "These findings will have a far-reaching implication for disease prevention and control as well as drug and vaccine development for 2019-nCoV"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Cui_et+al_2019_a",
+            "entry": "(1) Cui J, Li F, Shi ZL. Origin and evolution of pathogenic coronaviruses. Nat Rev Microbiol. 2019 Mar;17(3):181-192.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019-03",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019-03",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cui%2C%20J.%20Li%2C%20F.%20Shi%2C%20Z.L.%20Origin%20and%20evolution%20of%20pathogenic%20coronaviruses%202019-03"
+        },
+        {
+            "id": "2",
+            "alt_id": "Chen_et+al_2020_a",
+            "entry": "(2) Chen Y, Liu Q, Guo D. Emerging coronaviruses: Genome structure, replication, and pathogenesis. J Med Virol. 2020 Jan 22. doi: 10.1002/jmv.25681.",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25681",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25681",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25681"
+        },
+        {
+            "id": "3",
+            "alt_id": "Zhong_2003_a",
+            "entry": "(3) Zhong NS, et al. Epidemiology and cause of severe acute respiratory syndrome (SARS) in Guangdong, People\u2019s Republic of China, in February, 2003. Lancet. 2003 Oct 25;362(9393):1353-8.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhong%2C%20N.S.%20Epidemiology%20and%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003-02-25",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhong%2C%20N.S.%20Epidemiology%20and%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003-02-25",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhong%2C%20N.S.%20Epidemiology%20and%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003-02-25"
+        },
+        {
+            "id": "4",
+            "alt_id": "Ksiazek_et+al_2003_a",
+            "entry": "(4) Ksiazek TG, Erdman D, Goldsmith CS, et al. A novel coronavirus associated with severe acute respiratory syndrome. N Engl J Med 2003; 348:1953-1966.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ksiazek%2C%20T.G.%20Erdman%2C%20D.%20Goldsmith%2C%20C.S.%20A%20novel%20coronavirus%20associated%20with%20severe%20acute%20respiratory%20syndrome%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ksiazek%2C%20T.G.%20Erdman%2C%20D.%20Goldsmith%2C%20C.S.%20A%20novel%20coronavirus%20associated%20with%20severe%20acute%20respiratory%20syndrome%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ksiazek%2C%20T.G.%20Erdman%2C%20D.%20Goldsmith%2C%20C.S.%20A%20novel%20coronavirus%20associated%20with%20severe%20acute%20respiratory%20syndrome%202003"
+        },
+        {
+            "id": "5",
+            "alt_id": "Drosten_et+al_2003_a",
+            "entry": "(5) Drosten C, Gunther S, Preiser W, et al. Identification of a novel coronavirus in patients with severe acute respiratory syndrome. N Engl J Med 2003; 348:1967-1976.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Drosten%2C%20C.%20Gunther%2C%20S.%20Preiser%2C%20W.%20Identification%20of%20a%20novel%20coronavirus%20in%20patients%20with%20severe%20acute%20respiratory%20syndrome%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Drosten%2C%20C.%20Gunther%2C%20S.%20Preiser%2C%20W.%20Identification%20of%20a%20novel%20coronavirus%20in%20patients%20with%20severe%20acute%20respiratory%20syndrome%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Drosten%2C%20C.%20Gunther%2C%20S.%20Preiser%2C%20W.%20Identification%20of%20a%20novel%20coronavirus%20in%20patients%20with%20severe%20acute%20respiratory%20syndrome%202003"
+        },
+        {
+            "id": "6",
+            "alt_id": "Peiris_et+al_2003_a",
+            "entry": "(6) Peiris JS, Lai ST, Poon LL, et al. Coronavirus as a possible cause of severe acute respiratory syndrome. Lancet 2003; 361:1319-1325.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Peiris%2C%20J.S.%20Lai%2C%20S.T.%20Poon%2C%20L.L.%20Coronavirus%20as%20a%20possible%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Peiris%2C%20J.S.%20Lai%2C%20S.T.%20Poon%2C%20L.L.%20Coronavirus%20as%20a%20possible%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Peiris%2C%20J.S.%20Lai%2C%20S.T.%20Poon%2C%20L.L.%20Coronavirus%20as%20a%20possible%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003"
+        },
+        {
+            "id": "7",
+            "alt_id": "Zaki_et+al_2012_a",
+            "entry": "(7) Zaki AM, van Boheemen S, Bestebroer TM, Osterhaus AD, Fouchier RA. Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N Engl J Med. 2012 Nov 8;367(19):1814-20.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zaki%2C%20A.M.%20van%20Boheemen%2C%20S.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012-11",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zaki%2C%20A.M.%20van%20Boheemen%2C%20S.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012-11",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zaki%2C%20A.M.%20van%20Boheemen%2C%20S.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012-11"
+        },
+        {
+            "id": "8",
+            "alt_id": "de_Groot_et+al_2013_a",
+            "entry": "(8) de Groot RJ, Baker SC, Baric RS, et al. Middle East respiratory syndrome coronavirus (MERS-CoV): announcement of the Coronavirus Study Group. J Virol 2013; 87:7790-7792.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=de%20Groot%20RJ%20SC%2C%20Baker%20RS%2C%20Baric%20Middle%20East%20respiratory%20syndrome%20coronavirus%20%28MERS-CoV%29%3A%20announcement%20of%20the%20Coronavirus%20Study%20Group%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=de%20Groot%20RJ%20SC%2C%20Baker%20RS%2C%20Baric%20Middle%20East%20respiratory%20syndrome%20coronavirus%20%28MERS-CoV%29%3A%20announcement%20of%20the%20Coronavirus%20Study%20Group%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=de%20Groot%20RJ%20SC%2C%20Baker%20RS%2C%20Baric%20Middle%20East%20respiratory%20syndrome%20coronavirus%20%28MERS-CoV%29%3A%20announcement%20of%20the%20Coronavirus%20Study%20Group%202013"
+        },
+        {
+            "id": "9",
+            "alt_id": "Lu_et+al_2015_a",
+            "entry": "(9) Lu G, Wang Q, Gao GF. Bat-to-human: spike features determining \u2018host jump\u2019 of coronaviruses SARSCoV, MERS-CoV, and beyond. Trends Microbiol. 2015 Aug; 23(8):468-78.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lu%2C%20G.%20Wang%2C%20Q.%20Gao%2C%20G.F.%20Bat-to-human%3A%20spike%20features%20determining%20%E2%80%98host%20jump%E2%80%99%20of%20coronaviruses%20SARSCoV%2C%20MERS-CoV%2C%20and%20beyond%202015-08",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lu%2C%20G.%20Wang%2C%20Q.%20Gao%2C%20G.F.%20Bat-to-human%3A%20spike%20features%20determining%20%E2%80%98host%20jump%E2%80%99%20of%20coronaviruses%20SARSCoV%2C%20MERS-CoV%2C%20and%20beyond%202015-08",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lu%2C%20G.%20Wang%2C%20Q.%20Gao%2C%20G.F.%20Bat-to-human%3A%20spike%20features%20determining%20%E2%80%98host%20jump%E2%80%99%20of%20coronaviruses%20SARSCoV%2C%20MERS-CoV%2C%20and%20beyond%202015-08"
+        },
+        {
+            "id": "10",
+            "alt_id": "Chan_2020_a",
+            "entry": "(10) Chan JF, et al., A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet. 2020 Jan 24. pii: S01406736(20)30154-9..",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chan%20JF%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20a%20study%20of%20a%20family%20cluster%20Lancet%202020%20Jan%2024%20pii%20S0140673620301549",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chan%20JF%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20a%20study%20of%20a%20family%20cluster%20Lancet%202020%20Jan%2024%20pii%20S0140673620301549",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chan%20JF%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20a%20study%20of%20a%20family%20cluster%20Lancet%202020%20Jan%2024%20pii%20S0140673620301549"
+        },
+        {
+            "id": "11",
+            "alt_id": "Huang_2020_a",
+            "entry": "(11) Huang C, et al., Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020 Jan 24. pii: S0140-6736(20)30183-5..",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%20Jan%2024%20pii%20S0140673620301835",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Huang%20C%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%20Jan%2024%20pii%20S0140673620301835",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Huang%20C%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%20Jan%2024%20pii%20S0140673620301835"
+        },
+        {
+            "id": "12",
+            "alt_id": "Lu_2020_a",
+            "entry": "(12) Lu R, et al., Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet. 2020 Jan 30. pii: S0140-6736(20)30251-8.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lu%20R%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020%20Jan%2030%20pii%20S0140673620302518",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lu%20R%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020%20Jan%2030%20pii%20S0140673620302518",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lu%20R%20et%20al%20Genomic%20characterisation%20and%20epidemiology%20of%202019%20novel%20coronavirus%20implications%20for%20virus%20origins%20and%20receptor%20binding%20Lancet%202020%20Jan%2030%20pii%20S0140673620302518"
+        },
+        {
+            "id": "13",
+            "alt_id": "Chen_2020_b",
+            "entry": "(13) Chen N, et al., Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet. 2020 Jan 30. pii: S0140-6736(20)30211-7.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%20N%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%202020%20Jan%2030%20pii%20S0140673620302117",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%20N%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%202020%20Jan%2030%20pii%20S0140673620302117",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%20N%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20Lancet%202020%20Jan%2030%20pii%20S0140673620302117"
+        },
+        {
+            "id": "14",
+            "alt_id": "Li_2020_a",
+            "entry": "(14) Li Q, et al., Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med. 2020 Jan 29. doi: 10.1056/NEJMoa2001316.",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001316",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001316",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001316"
+        },
+        {
+            "id": "15",
+            "alt_id": "Wu_2020_a",
+            "entry": "(15) Wu F, et al., A new coronavirus associated with human respiratory disease in China. Nature. 2020 Feb 3. doi: 10.1038/s41586-020-2008-3.",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2008-3",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2008-3",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2008-3"
+        },
+        {
+            "id": "16",
+            "alt_id": "Zhou_2020_a",
+            "entry": "(16) Zhou P, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020 Feb 3. doi: 10.1038/s41586-020-2012-7.",
+            "crossref": "https://dx.doi.org/10.1038/s41586-020-2012-7",
+            "scite": "https://scite.ai/reports/10.1038/s41586-020-2012-7",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/s41586-020-2012-7"
+        },
+        {
+            "id": "17",
+            "alt_id": "Liu_et+al_2020_a",
+            "entry": "(17) Liu W, Morse JS, Lalonde T, Xu S. Learning from the Past: Possible Urgent Prevention and Treatment Options for Severe Acute Respiratory Infections Caused by 2019-nCoV. Chembiochem. 2020 Feb 5. doi: 10.1002/cbic.202000047.",
+            "crossref": "https://dx.doi.org/10.1002/cbic.202000047",
+            "scite": "https://scite.ai/reports/10.1002/cbic.202000047",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/cbic.202000047"
+        },
+        {
+            "id": "18",
+            "alt_id": "Xu_et+al_2020_a",
+            "entry": "(18) Xu X, Chen P, Wang J, Feng J, Zhou H, Li X, Zhong W, Hao P. Evolution of the novel coronavirus from the ongoing Wuhan outbreak and modeling of its spike protein for risk of human transmission. Sci China Life Sci. 2020 Jan 21. doi: 10.1007/s11427-020-1637-5.",
+            "crossref": "https://dx.doi.org/10.1007/s11427-020-1637-5",
+            "scite": "https://scite.ai/reports/10.1007/s11427-020-1637-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1007/s11427-020-1637-5"
+        },
+        {
+            "id": "19",
+            "alt_id": "Structure_2016_a",
+            "entry": "(19) Li F. Structure, Function, and Evolution of Coronavirus Spike Proteins. Annu Rev Virol. 2016 Sep 29;3(1):237-261.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Structure%2C%20Li%20F.%20Function%20and%20Evolution%20of%20Coronavirus%20Spike%20Proteins%202016-09-29",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Structure%2C%20Li%20F.%20Function%20and%20Evolution%20of%20Coronavirus%20Spike%20Proteins%202016-09-29",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Structure%2C%20Li%20F.%20Function%20and%20Evolution%20of%20Coronavirus%20Spike%20Proteins%202016-09-29"
+        },
+        {
+            "id": "20",
+            "alt_id": "Song_et+al_2018_a",
+            "entry": "(20) Song W, Gui M, Wang X, Xiang Y. Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2. PLoS Pathog. 2018 Aug 13;14(8):e1007236.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-EM%20structure%20of%20the%20SARS%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ACE2%202018-08-13",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-EM%20structure%20of%20the%20SARS%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ACE2%202018-08-13",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Song%2C%20W.%20Gui%2C%20M.%20Wang%2C%20X.%20Xiang%2C%20Y.%20Cryo-EM%20structure%20of%20the%20SARS%20coronavirus%20spike%20glycoprotein%20in%20complex%20with%20its%20host%20cell%20receptor%20ACE2%202018-08-13"
+        },
+        {
+            "id": "21",
+            "alt_id": "Gui_et+al_2017_a",
+            "entry": "(21) Gui M, Song W, Zhou H, Xu J, Chen S, Xiang Y, Wang X. Cryo-electron microscopy structures of the SARS-CoV spike glycoprotein reveal a prerequisite conformational state for receptor binding. Cell Res. 2017 Jan;27(1):119-129.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gui%2C%20M.%20Song%2C%20W.%20Zhou%2C%20H.%20Xu%2C%20J.%20Cryo-electron%20microscopy%20structures%20of%20the%20SARS-CoV%20spike%20glycoprotein%20reveal%20a%20prerequisite%20conformational%20state%20for%20receptor%20binding%202017-01",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gui%2C%20M.%20Song%2C%20W.%20Zhou%2C%20H.%20Xu%2C%20J.%20Cryo-electron%20microscopy%20structures%20of%20the%20SARS-CoV%20spike%20glycoprotein%20reveal%20a%20prerequisite%20conformational%20state%20for%20receptor%20binding%202017-01",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gui%2C%20M.%20Song%2C%20W.%20Zhou%2C%20H.%20Xu%2C%20J.%20Cryo-electron%20microscopy%20structures%20of%20the%20SARS-CoV%20spike%20glycoprotein%20reveal%20a%20prerequisite%20conformational%20state%20for%20receptor%20binding%202017-01"
+        },
+        {
+            "id": "22",
+            "alt_id": "Wrapp_et+al_Jan_a",
+            "entry": "(22) Wrapp D, Wang N, Corbett KS, Goldsmith JA, Hsieh C-L, Abiona O, Graham BS, McLellan JS. CryoEM Structure of the 2019-nCoV Spike in the Prefusion Conformation, 2020, bioRxiv 2020.02.11.944462; doi: https://doi.org/10.1101/2020.02.11.944462 (23) Burley SK, et al. RCSB Protein Data Bank:biological macromolecular structures enabling research and education in fundamental biology, biomedicine, biotechnology and energy. Nucleic Acids Res.2019 Jan 8;47(D1):D464-D474.",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.11.944462",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.11.944462",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1101/2020.02.11.944462"
+        },
+        {
+            "id": "24",
+            "alt_id": "Webb_2016_a",
+            "entry": "(24) Webb B, Sali A. Comparative Protein Structure Modeling Using MODELLER. Curr Protoc Protein Sci. 2016;86:2.9.1-2.9.37.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Webb%2C%20B.%20Sali%2C%20A.%20Comparative%20Protein%20Structure%20Modeling%20Using%20MODELLER%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Webb%2C%20B.%20Sali%2C%20A.%20Comparative%20Protein%20Structure%20Modeling%20Using%20MODELLER%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Webb%2C%20B.%20Sali%2C%20A.%20Comparative%20Protein%20Structure%20Modeling%20Using%20MODELLER%202016"
+        },
+        {
+            "id": "25",
+            "alt_id": "Larkin_et+al_2007_a",
+            "entry": "(25) Larkin MA, Blackshields G, Brown NP, Chenna R, McGettigan PA, McWilliam H, Valentin F, Wallace IM, Wilm A, Lopez R, Thompson JD, Gibson TJ, Higgins DG. Clustal W and Clustal X version 2.0. Bioinformatics. 2007;23:2947-2948.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Larkin%2C%20M.A.%20Blackshields%2C%20G.%20Brown%2C%20N.P.%20Chenna%2C%20R.%20Clustal%20W%20and%20Clustal%20X%20version%202.0.%20Bioinformatics%202007"
+        },
+        {
+            "id": "26",
+            "alt_id": "Sievers_et+al_2011_a",
+            "entry": "(26) Sievers F, Wilm A, Dineen D, Gibson TJ, Karplus K, Li W, Lopez R, McWilliam H, Remmert M, Soding J, Thompson JD, Higgins DG. Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol Syst Biol. 2011;7:539.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sievers%2C%20F.%20Wilm%2C%20A.%20Dineen%2C%20D.%20Gibson%2C%20T.J.%20Fast%2C%20scalable%20generation%20of%20high-quality%20protein%20multiple%20sequence%20alignments%20using%20Clustal%20Omega%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Sievers%2C%20F.%20Wilm%2C%20A.%20Dineen%2C%20D.%20Gibson%2C%20T.J.%20Fast%2C%20scalable%20generation%20of%20high-quality%20protein%20multiple%20sequence%20alignments%20using%20Clustal%20Omega%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Sievers%2C%20F.%20Wilm%2C%20A.%20Dineen%2C%20D.%20Gibson%2C%20T.J.%20Fast%2C%20scalable%20generation%20of%20high-quality%20protein%20multiple%20sequence%20alignments%20using%20Clustal%20Omega%202011"
+        },
+        {
+            "id": "27",
+            "alt_id": "Yan_et+al_0000_a",
+            "entry": "(27) Yan Y, Tao H, He J, Huang S-Y. The HDOCK server for integrated protein-protein docking, Nat Proc, 2020, (in press).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yan%2C%20Y.%20Tao%2C%20H.%20He%2C%20J.%20Huang%2C%20S.-Y.%20The%20HDOCK%20server%20for%20integrated%20protein-protein%20docking%2C%20Nat"
+        },
+        {
+            "id": "28",
+            "alt_id": "Yan_et+al_2017_a",
+            "entry": "(28) Yan Y, Wen Z, Wang X, Huang S-Y. Addressing recent docking challenges: A hybrid strategy to integrate template-based and free protein-protein docking. Proteins. 2017;85:497-512.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yan%2C%20Y.%20Wen%2C%20Z.%20Wang%2C%20X.%20Huang%2C%20S.-Y.%20Addressing%20recent%20docking%20challenges%3A%20A%20hybrid%20strategy%20to%20integrate%20template-based%20and%20free%20protein-protein%20docking.%20Proteins%202017"
+        },
+        {
+            "id": "29",
+            "alt_id": "Yan_et+al_2017_b",
+            "entry": "(29) Yan Y, Zhang D, Zhou P, Li B, Huang S-Y. HDOCK: a Web Server for Protein-Protein and ProteinDNA/RNA Docking Based on a Hybrid Strategy. Nucleic Acids Res. 2017;45:W365-W373.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yan%2C%20Y.%20Zhang%2C%20D.%20Zhou%2C%20P.%20Li%2C%20B.%20HDOCK%3A%20a%20Web%20Server%20for%20Protein-Protein%20and%20ProteinDNA/RNA%20Docking%20Based%20on%20a%20Hybrid%20Strategy%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yan%2C%20Y.%20Zhang%2C%20D.%20Zhou%2C%20P.%20Li%2C%20B.%20HDOCK%3A%20a%20Web%20Server%20for%20Protein-Protein%20and%20ProteinDNA/RNA%20Docking%20Based%20on%20a%20Hybrid%20Strategy%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yan%2C%20Y.%20Zhang%2C%20D.%20Zhou%2C%20P.%20Li%2C%20B.%20HDOCK%3A%20a%20Web%20Server%20for%20Protein-Protein%20and%20ProteinDNA/RNA%20Docking%20Based%20on%20a%20Hybrid%20Strategy%202017"
+        },
+        {
+            "id": "30",
+            "alt_id": "Yan_2019_a",
+            "entry": "(30) Yan Y, Huang S-Y. Pushing the accuracy limit of shape complementarity for protein-protein docking. BMC Bioinformatics. 2019;20(Suppl 25):696.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yan%2C%20Y.%20Huang%2C%20S.-Y.%20Pushing%20the%20accuracy%20limit%20of%20shape%20complementarity%20for%20protein-protein%20docking%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yan%2C%20Y.%20Huang%2C%20S.-Y.%20Pushing%20the%20accuracy%20limit%20of%20shape%20complementarity%20for%20protein-protein%20docking%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yan%2C%20Y.%20Huang%2C%20S.-Y.%20Pushing%20the%20accuracy%20limit%20of%20shape%20complementarity%20for%20protein-protein%20docking%202019"
+        },
+        {
+            "id": "31",
+            "alt_id": "Huang_2008_a",
+            "entry": "(31) Huang S-Y, Zou X. An iterative knowledge-based scoring function for protein-protein recognition. Proteins. 2008;72:557-579.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%2C%20S.-Y.%20Zou%2C%20X.%20An%20iterative%20knowledge-based%20scoring%20function%20for%20protein-protein%20recognition%202008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Huang%2C%20S.-Y.%20Zou%2C%20X.%20An%20iterative%20knowledge-based%20scoring%20function%20for%20protein-protein%20recognition%202008",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Huang%2C%20S.-Y.%20Zou%2C%20X.%20An%20iterative%20knowledge-based%20scoring%20function%20for%20protein-protein%20recognition%202008"
+        },
+        {
+            "id": "32",
+            "alt_id": "Case_2018_a",
+            "entry": "(32) Case DA, et al. (2018), AMBER 2018, University of California, San Francisco, https://ambermd.org/. (33) Maier JA, Martinez C, Kasavajhala K, Wickstrom L, Hauser KE, Simmerling C.ff14SB: Improving the",
+            "url": "https://ambermd.org/"
+        },
+        {
+            "id": "Accuracy_2015_a",
+            "alt_id": "32",
+            "entry": "Accuracy of Protein Side Chain and Backbone Parameters from ff99SB. J Chem Theory Comput. 2015 Aug 11;11(8):3696-713.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%20J%20Chem%20Theory%20Comput%202015%20Aug%20111183696713",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%20J%20Chem%20Theory%20Comput%202015%20Aug%20111183696713",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%20J%20Chem%20Theory%20Comput%202015%20Aug%20111183696713"
+        },
+        {
+            "id": "34",
+            "alt_id": "Salomon-Ferrer_et+al_2013_a",
+            "entry": "(34) Salomon-Ferrer R, G?tz AW, Poole D, Le Grand S, Walker RC. Routine Microsecond Molecular Dynamics Simulations with AMBER on GPUs. 2. Explicit Solvent Particle Mesh Ewald. J Chem Theory Comput. 2013 Sep 10;9(9):3878-88.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Salomon-Ferrer%2C%20R.%20G%3Ftz%2C%20A.W.%20Poole%2C%20D.%20Le%20Grand%2C%20S.%20Routine%20Microsecond%20Molecular%20Dynamics%20Simulations%20with%20AMBER%20on%20GPUs.%202.%20Explicit%20Solvent%202013-09-10",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Salomon-Ferrer%2C%20R.%20G%3Ftz%2C%20A.W.%20Poole%2C%20D.%20Le%20Grand%2C%20S.%20Routine%20Microsecond%20Molecular%20Dynamics%20Simulations%20with%20AMBER%20on%20GPUs.%202.%20Explicit%20Solvent%202013-09-10",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Salomon-Ferrer%2C%20R.%20G%3Ftz%2C%20A.W.%20Poole%2C%20D.%20Le%20Grand%2C%20S.%20Routine%20Microsecond%20Molecular%20Dynamics%20Simulations%20with%20AMBER%20on%20GPUs.%202.%20Explicit%20Solvent%202013-09-10"
+        },
+        {
+            "id": "35",
+            "alt_id": "Miller_2012_a",
+            "entry": "(35) Miller BR 3rd, McGee TD Jr, Swails JM, Homeyer N, Gohlke H, Roitberg AE. MMPBSA.py: An Efficient Program for End-State Free Energy Calculations. J Chem Theory Comput. 2012 Sep 11;8(9):331421.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Miller%20BR%203rd%20McGee%20TD%20Jr%20Swails%20JM%20Homeyer%20N%20Gohlke%20H%20Roitberg%20AE%20MMPBSApy%20An%20Efficient%20Program%20for%20EndState%20Free%20Energy%20Calculations%20J%20Chem%20Theory%20Comput%202012%20Sep%201189331421",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Miller%20BR%203rd%20McGee%20TD%20Jr%20Swails%20JM%20Homeyer%20N%20Gohlke%20H%20Roitberg%20AE%20MMPBSApy%20An%20Efficient%20Program%20for%20EndState%20Free%20Energy%20Calculations%20J%20Chem%20Theory%20Comput%202012%20Sep%201189331421",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Miller%20BR%203rd%20McGee%20TD%20Jr%20Swails%20JM%20Homeyer%20N%20Gohlke%20H%20Roitberg%20AE%20MMPBSApy%20An%20Efficient%20Program%20for%20EndState%20Free%20Energy%20Calculations%20J%20Chem%20Theory%20Comput%202012%20Sep%201189331421"
+        },
+        {
+            "id": "36",
+            "alt_id": "Roe_2013_a",
+            "entry": "(36) Roe DR, Cheatham TE 3rd. PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular Dynamics Trajectory Data. J Chem Theory Comput. 2013 Jul 9;9(7):3084-95.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Roe%2C%20DR%20Cheatham%20TE%203rd.%20PTRAJ%20and%20CPPTRAJ%3A%20Software%20for%20Processing%20and%20Analysis%20of%20Molecular%202013-07-09",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Roe%2C%20DR%20Cheatham%20TE%203rd.%20PTRAJ%20and%20CPPTRAJ%3A%20Software%20for%20Processing%20and%20Analysis%20of%20Molecular%202013-07-09",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Roe%2C%20DR%20Cheatham%20TE%203rd.%20PTRAJ%20and%20CPPTRAJ%3A%20Software%20for%20Processing%20and%20Analysis%20of%20Molecular%202013-07-09"
+        }
+    ],
+    "facts": [
+        "an outbreak of pneumonia caused by the new coronavirus has hit the city of",
+        "The spike protein on the coronavirus envelope is critical for host cell infection and virus vitality",
+        "which is consistent with the fact",
+        "because SARS-like coronaviruses are thought to have originated in bats",
+        "that are known to have a higher body-temperature than humans",
+        "The present findings are expected to be helpful for the disease prevention and control",
+        "Coronaviruses are a group of enveloped positive-stranded RNA viruses",
+        "MERS-CoV showed that some coronaviruses can be highly-pathogenic viruses",
+        "develop antiviral treatments or vaccines targeting such high-risk coronaviruses like SARS-CoV",
+        "RBD-ACE2 complex structure was directly downloaded from the Protein Data Bank",
+        "the water molecules were removed from the complex structure",
+        "The structure of the trimeric spike protein of SARS-CoV was downloaded from the PDB",
+        "the three dimensional RBD structure was modeled based on the RBD structure of SARS-CoV using the",
+        "The complex structure between the 2019-nCoV RBD protein and human ACE2 was predicted by our protein-protein docking approach",
+        "The high homology resulted in an accurate 3D RBD model",
+        "These results can be understood by comparing the residues at the RBD-ACE2 binding interface",
+        "those hydrophobic residues that are important for proteinprotein interactions are especially conserved",
+        "which are comparable to 13 hydrophobic residues",
+        "as bats have a higher body-temperature than humans",
+        "the temperature is low in the Winter",
+        "develop antiviral treatments or vaccines targeting such high-risk coronaviruses like SARS-CoV and MERS-CoV"
+    ],
+    "claims": [
+        "In this study, we have extensively studied the RBD-ACE2 complex, spike protein, and free RBD systems of 2019-nCoV and SARS-CoV using protein-protein docking and molecular dynamics (MD) simulations",
+        "In this study, we have extensively investigated the spike protein/human ACE2 protein systems of 2019-nCoV and SARSCoV by using protein-protein docking and molecular dynamics (MD) simulations",
+        "We have extensively studied the free energies and dynamics of RBD-ACE2 binding, spike protein, and free RBD systems",
+        "In this study, we have investigated the RBD-ACE2 complex, spike protein, and free RBD systems of SARS-CoV (GenBank ID: NP 828851.1) and 2019-nCoV (GenBank ID: MN908947.3)",
+        "We have investigated the protein flexibility of the RBD domains for 2019-nCoV and SARSCoV by analyzing their coordinate trajectories",
+        "In this study, we have extensively studied the RBD-ACE2 complex, spike protein, and free RBD protein systems of 2019-nCoV and SARS-CoV through protein-protein docking and MD simulations"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "It is urgent to develop antiviral treatments or vaccines targeting such high-risk coronaviruses like SARS-CoV and MERS-CoV",
+        "We have extensively investigated the spike protein/human ACE2 protein systems of 2019-nCoV and SARSCoV by using protein-protein docking and molecular dynamics (MD) simulations",
+        "The high homology resulted in an accurate 3D receptor binding domain model of 2019nCoV with a small RMSD of 0.55 Afrom the experimental SARS-CoV receptor binding domain structure",
+        "For the receptor binding domain of 2019-nCoV, there are 13 hydrophobic residues at the binding site, which are comparable to 13 hydrophobic residues for that of SARS-CoV (Figure 1B)",
+        "We have extensively studied the receptor binding domain-ACE2 complex, spike protein, and free receptor binding domain protein systems of 2019-nCoV and SARS-CoV through protein-protein docking and molecular dynamics simulations",
+        "Taking the above results together, unlike SARS-CoV that is gone after 2003, 2019-nCoV might survive the high-temperature environment like Summer in which the virus is not active/infectious due to the high flexibility in the receptor binding domain, and become infectious when the temperature is low in the Winter"
+    ],
+    "top_statements": [
+        "Coronaviruses (CoVs) are a group of enveloped positive-stranded RNA viruses that can cause respiratory, intestinal and central nervous system infections in humans and animals [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "It is urgent to develop antiviral treatments or vaccines targeting such high-risk coronaviruses like SARS-CoV and MERS-CoV",
+        "The high homology resulted in an accurate 3D receptor binding domain model of 2019nCoV with a small RMSD of 0.55 Afrom the experimental SARS-CoV receptor binding domain structure",
+        "For the receptor binding domain of 2019-nCoV, there are 13 hydrophobic residues at the binding site, which are comparable to 13 hydrophobic residues for that of SARS-CoV (Figure 1B)",
+        "We have extensively studied the receptor binding domain-ACE2 complex, spike protein, and free receptor binding domain protein systems of 2019-nCoV and SARS-CoV through protein-protein docking and molecular dynamics simulations",
+        "Taking the above results together, unlike SARS-CoV that is gone after 2003, 2019-nCoV might survive the high-temperature environment like Summer in which the virus is not active/infectious due to the high flexibility in the receptor binding domain, and become infectious when the temperature is low in the Winter"
+    ],
+    "headline": "We have extensively studied the receptor binding domain-ACE2 complex, spike protein, and free receptor binding domain protein systems of 2019-nCoV and SARS-CoV through protein-protein docking and molecular dynamics simulations",
+    "contexts": [],
+    "abbreviations": {
+        "RBD": "receptor binding domain",
+        "MD": "molecular dynamics",
+        "PLpro": "papain-like protease",
+        "RdRp": "RNA-dependent RNA polymerase",
+        "NTD": "N-terminal domain",
+        "FFT": "fast Fourier transform",
+        "RMSF": "root mean square fluctuations"
+    }
+}

@@ -1,0 +1,599 @@
+{
+    "filename": "2020.02.27.967885.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 155066,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.27.967885",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/27/2020.02.27.967885.full.pdf"
+        },
+        "title": "Prediction of receptorome for human-infecting virome",
+        "author": "Zheng Zhang, Sifan Ye, Aiping Wu, Taijiao Jiang, Yousong Peng",
+        "date": 2020,
+        "affiliations": [
+            "College of Biology, Hunan Provincial Key Laboratory of Medical Virology, Hunan University, Changsha 410082, China",
+            "Center for Systems Medicine, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100005, Suzhou Institute of Systems Medicine, Suzhou, Jiangsu 215123, China;"
+        ],
+        "abstract": "The virus receptor is key for viral infection of host cells. Identification of the virus receptor is still challenging at present. Our previous study has shown that human virus receptor proteins have some unique features including high level of N-glycosylation, high number of interaction partners and high expressions. Here, we built a random-forest model to identify human virus receptorome from human cell membrane proteins with accepted accuracy based on combination of unique features of human virus receptors and protein sequences. A total of 729 human cell membrane proteins were predicted to constitute the receptorome for the human-infecting virome. Combination of the random-forest model with protein-protein interactions between human and viruses predicted in previous studies further predicted receptors for 693 human-infecting viruses, such as the Enterovirus, Norovirus and West Nile virus. Finally, we predicted the candidate alternative receptors for the 2019-nCoV. The study would greatly facilitate identification of receptors for human-infecting virome.",
+        "references": "@article{baranowski2001a,\n  author = {Baranowski, E. and Ruiz-Jarabo, C.M. and Domingo, E.},\n  date = {2001},\n  title = {Evolution of cell recognition by viruses},\n  journal = {Science},\n  volume = {292},\n  pages = {1102\u20131105},\n  language = {}\n}\n@incollection{casasnovas2013a,\n  author = {Casasnovas, J.M.},\n  date = {2013},\n  title = {Virus-receptor interactions and receptor-mediated virus entry into host cells},\n  booktitle = {Structure and Physics of Viruses (Springer)},\n  pages = {441\u2013466},\n  language = {}\n}\n@misc{chen2004a,\n  author = {Chen, C. and Liaw, A. and Breiman, L.},\n  date = {2004},\n  title = {Using random forest to learn imbalanced data},\n  unknown = {University of California, Berkeley 110},\n  pages = {24},\n  language = {}\n}\n@misc{csardi2006a,\n  author = {Csardi, G. and Nepusz, T.},\n  date = {2006},\n  title = {The igraph software package for complex network research. InterJournal, complex systems},\n  pages = {1\u20139},\n  language = {}\n}\n@article{dimitrov2004a,\n  author = {Dimitrov, D.S.},\n  date = {2004},\n  title = {Virus entry: molecular mechanisms and biomedical applications},\n  journal = {Nature Reviews Microbiology},\n  volume = {2},\n  pages = {109\u2013122},\n  language = {}\n}\n@misc{free2009a,\n  author = {Free, R.B. and Hazelwood, L.A. and Sibley, D.R.},\n  date = {2009},\n  title = {Identifying novel protein protein interactions \u2010 using co immunoprecipitation and mass spectroscopy. Current protocols in neuroscience 46},\n  pages = {5\u201328},\n  language = {}\n}\n@article{fu2012a,\n  author = {Fu, L. and Niu, B. and Zhu, Z. and Wu, S. and Li, W.},\n  date = {2012},\n  title = {CD-HIT: accelerated for clustering the next-generation sequencing data},\n  journal = {Bioinformatics},\n  volume = {28},\n  pages = {3150\u20133152},\n  unmatched-author = {Gupta, R., Jung, E., and Brunak, S.},\n  source = {Prediction of N-glycosylation sites in human proteins},\n  language = {}\n}\n@article{hoffmann2020a,\n  author = {Hoffmann, M. and Kleine-Weber, H. and Krueger, N. and Mueller, M.A. and Drosten, C. and P\u00f6hlmann, S.},\n  date = {2020},\n  title = {The novel coronavirus 2019},\n  journal = {Cell},\n  volume = {178},\n  pages = {1516},\n  unmatched-author = {Lasso, G., Mayer, S. V., Winkelmann, E. R., Chu, T., Elliot, O., Patino-Galindo, J. A., Park, K., Rabadan, R., Honig, B., and Shapira, S. D.},\n  source = {uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells},\n  number = {1526-1541},\n  language = {}\n}\n@article{li2015a,\n  author = {Li, F.},\n  date = {2015},\n  title = {Receptor recognition mechanisms of coronaviruses: a decade of structural studies},\n  journal = {Journal of virology},\n  volume = {89},\n  pages = {1954\u20131964},\n  language = {}\n}\n@article{masson2012a,\n  author = {Masson, P. and Hulo, C. and De Castro, E. and Bitter, H. and Gruenbaum, L. and Essioux, L. and Bougueleret, L. and Xenarios, I. and Le Mercier, P.},\n  date = {2012},\n  title = {ViralZone: recent updates to the virus knowledge resource},\n  journal = {Nucleic acids research},\n  volume = {41},\n  pages = {579\u2013583},\n  language = {}\n}\n@article{minor1984a,\n  author = {Minor, P. and Pipkin, P. and Hockley, D. and Schild, G. and Almond, J.},\n  date = {1984},\n  title = {Monoclonal antibodies which block cellular receptors of poliovirus},\n  journal = {Virus research},\n  volume = {1},\n  pages = {203\u2013212},\n  language = {}\n}\n@article{pedregosa2011a,\n  author = {Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V. and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P. and Weiss, R. and Dubourg, V.},\n  date = {2011},\n  title = {Scikit-learn: Machine learning in Python},\n  journal = {Journal of machine learning research},\n  volume = {12},\n  pages = {2825\u20132830},\n  language = {}\n}\n@article{petryszak2016a,\n  author = {Petryszak, R. and Keays, M. and Tang, Y.A. and Fonseca, N.A. and Barrera, E. and Burdett, T. and F\u00fcllgrabe, A. and Fuentes, A.M.-P. and Jupp, S. and Koskinen, S.},\n  date = {2016},\n  title = {Expression Atlas update\u2014an integrated database of gene and protein expression in humans, animals and plants},\n  journal = {Nucleic acids research},\n  volume = {44},\n  pages = {746\u2013752},\n  language = {}\n}\n@misc{qi2020a,\n  author = {Qi, F. and Qian, S. and Zhang, S. and Zhang, Z.},\n  date = {2020},\n  title = {Single cell RNA sequencing of 13 human tissues identify cell types and receptors of human coronaviruses. bioRxiv},\n  language = {}\n}\n@book{ryu2016a,\n  author = {Ryu, W.-S.},\n  date = {2016},\n  title = {Molecular virology of human pathogenic viruses},\n  publisher = {Academic Press},\n  language = {}\n}\n@article{szklarczyk2015a,\n  author = {Szklarczyk, D. and Franceschini, A. and Wyder, S. and Forslund, K. and Heller, D. and Huerta-Cepas, J. and Simonovic, M. and Roth, A. and Santos, A. and Tsafou, K.P.},\n  date = {2015},\n  title = {STRING v10: protein\u2013protein interaction networks, integrated over the tree of life},\n  journal = {Nucleic acids research},\n  volume = {43},\n  pages = {447\u2013452},\n  language = {}\n}\n@article{wang2002a,\n  author = {Wang, J.-h},\n  date = {2002},\n  title = {Protein recognition by cell surface receptors: physiological receptors versus virus interactions},\n  journal = {Trends in biochemical sciences},\n  volume = {27},\n  pages = {122\u2013126},\n  language = {}\n}\n@incollection{wu2020a,\n  author = {Wu, A. and Peng, Y. and Huang, B. and Ding, X. and Wang, X. and Niu, P. and Meng, J. and Zhu, Z. and Zhang, Z. and Wang, J.},\n  date = {2020},\n  title = {Genome Composition and Divergence of the Novel Coronavirus},\n  source = {Originating in China. Cell Host & Microbe},\n  language = {}\n}\n@article{yan2019a,\n  author = {Yan, C. and Duan, G. and Wu, F.-X. and Wang, J.},\n  date = {2019},\n  title = {IILLS: predicting virus-receptor interactions based on similarity and semi-supervised learning},\n  journal = {BMC bioinformatics},\n  volume = {20},\n  pages = {651},\n  language = {}\n}\n@incollection{zhang2020a,\n  author = {Zhang, H. and Kang, Z. and Gong, H. and Xu, D. and Wang, J. and Li, Z. and Cui, X. and Xiao, J. and Meng, T. and Zhou, W.},\n  date = {2020},\n  title = {The digestive system is a potential route of 2019-nCov infection: a bioinformatics analysis based on single-cell transcriptomes},\n  source = {BioRxiv.},\n  language = {}\n}\n@article{zhang2019a,\n  author = {Zhang, Z. and Zhu, Z. and Chen, W. and Cai, Z. and Xu, B. and Tan, Z. and Wu, A. and Ge, X. and Guo, X. and Tan, Z.},\n  date = {2019},\n  title = {Cell membrane proteins with high n-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors},\n  journal = {Bioinformatics},\n  volume = {35},\n  pages = {723\u2013728},\n  language = {}\n}\n@article{zhou2020a,\n  author = {Zhou, P. and Yang, X.-L. and Wang, X.-G. and Hu, B. and Zhang, L. and Zhang, W. and Si, H.-R. and Zhu, Y. and Li, B. and Huang, C.-L.},\n  date = {2020},\n  title = {A pneumonia outbreak associated with a new coronavirus of probable bat origin},\n  journal = {Nature},\n  pages = {1\u20134},\n  language = {}\n}\n",
+        "links": [
+            "http://www.cbs.dtu.dk/services/NetNGlyc/",
+            "http://phipster.org/",
+            "http://www.computationalbiology.cn:5000/viralReceptor"
+        ],
+        "emails": [
+            "pys2013@hnu.edu.cn"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Baranowski, E.\nAU  - Ruiz-Jarabo, C.M.\nAU  - Domingo, E.\nPY  - 2001\nDA  - 2001\nTI  - Evolution of cell recognition by viruses\nT2  - Science\nVL  - 292\nSP  - 1102\nEP  - 1105\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Casasnovas, J.M.\nPY  - 2013\nDA  - 2013\nTI  - Virus-receptor interactions and receptor-mediated virus entry into host cells\nT2  - Structure and Physics of Viruses (Springer)\nSP  - 441\nEP  - 466\nLA  - \nER  - \n\nTY  - GEN\nAU  - Chen, C.\nAU  - Liaw, A.\nAU  - Breiman, L.\nPY  - 2004\nDA  - 2004\nTI  - Using random forest to learn imbalanced data\nC1  - University of California, Berkeley 110\nSP  - 24\nLA  - \nER  - \n\nTY  - GEN\nAU  - Csardi, G.\nAU  - Nepusz, T.\nPY  - 2006\nDA  - 2006\nTI  - The igraph software package for complex network research. InterJournal, complex systems\nSP  - 1\nEP  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Dimitrov, D.S.\nPY  - 2004\nDA  - 2004\nTI  - Virus entry: molecular mechanisms and biomedical applications\nT2  - Nature Reviews Microbiology\nVL  - 2\nSP  - 109\nEP  - 122\nLA  - \nER  - \n\nTY  - GEN\nAU  - Free, R.B.\nAU  - Hazelwood, L.A.\nAU  - Sibley, D.R.\nPY  - 2009\nDA  - 2009\nTI  - Identifying novel protein protein interactions \u2010 using co immunoprecipitation and mass spectroscopy. Current protocols in neuroscience 46\nSP  - 5\nEP  - 28\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fu, L.\nAU  - Niu, B.\nAU  - Zhu, Z.\nAU  - Wu, S.\nAU  - Li, W.\nPY  - 2012\nDA  - 2012\nTI  - CD-HIT: accelerated for clustering the next-generation sequencing data\nT2  - Bioinformatics\nVL  - 28\nSP  - 3150\nEP  - 3152\nC1  - Gupta, R., Jung, E., and Brunak, S.\nT2  - Prediction of N-glycosylation sites in human proteins\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hoffmann, M.\nAU  - Kleine-Weber, H.\nAU  - Krueger, N.\nAU  - Mueller, M.A.\nAU  - Drosten, C.\nAU  - P\u00f6hlmann, S.\nPY  - 2020\nDA  - 2020\nTI  - The novel coronavirus 2019\nT2  - Cell\nVL  - 178\nSP  - 1516\nC1  - Lasso, G., Mayer, S. V., Winkelmann, E. R., Chu, T., Elliot, O., Patino-Galindo, J. A., Park, K., Rabadan, R., Honig, B., and Shapira, S. D.\nT2  - uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells\nIS  - 1526-1541\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, F.\nPY  - 2015\nDA  - 2015\nTI  - Receptor recognition mechanisms of coronaviruses: a decade of structural studies\nT2  - Journal of virology\nVL  - 89\nSP  - 1954\nEP  - 1964\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Masson, P.\nAU  - Hulo, C.\nAU  - De Castro, E.\nAU  - Bitter, H.\nAU  - Gruenbaum, L.\nAU  - Essioux, L.\nAU  - Bougueleret, L.\nAU  - Xenarios, I.\nAU  - Le Mercier, P.\nPY  - 2012\nDA  - 2012\nTI  - ViralZone: recent updates to the virus knowledge resource\nT2  - Nucleic acids research\nVL  - 41\nSP  - 579\nEP  - 583\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Minor, P.\nAU  - Pipkin, P.\nAU  - Hockley, D.\nAU  - Schild, G.\nAU  - Almond, J.\nPY  - 1984\nDA  - 1984\nTI  - Monoclonal antibodies which block cellular receptors of poliovirus\nT2  - Virus research\nVL  - 1\nSP  - 203\nEP  - 212\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pedregosa, F.\nAU  - Varoquaux, G.\nAU  - Gramfort, A.\nAU  - Michel, V.\nAU  - Thirion, B.\nAU  - Grisel, O.\nAU  - Blondel, M.\nAU  - Prettenhofer, P.\nAU  - Weiss, R.\nAU  - Dubourg, V.\nPY  - 2011\nDA  - 2011\nTI  - Scikit-learn: Machine learning in Python\nT2  - Journal of machine learning research\nVL  - 12\nSP  - 2825\nEP  - 2830\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Petryszak, R.\nAU  - Keays, M.\nAU  - Tang, Y.A.\nAU  - Fonseca, N.A.\nAU  - Barrera, E.\nAU  - Burdett, T.\nAU  - F\u00fcllgrabe, A.\nAU  - Fuentes, A.M.-P.\nAU  - Jupp, S.\nAU  - Koskinen, S.\nPY  - 2016\nDA  - 2016\nTI  - Expression Atlas update\u2014an integrated database of gene and protein expression in humans, animals and plants\nT2  - Nucleic acids research\nVL  - 44\nSP  - 746\nEP  - 752\nLA  - \nER  - \n\nTY  - GEN\nAU  - Qi, F.\nAU  - Qian, S.\nAU  - Zhang, S.\nAU  - Zhang, Z.\nPY  - 2020\nDA  - 2020\nTI  - Single cell RNA sequencing of 13 human tissues identify cell types and receptors of human coronaviruses. bioRxiv\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Ryu, W.-S.\nPY  - 2016\nDA  - 2016\nTI  - Molecular virology of human pathogenic viruses\nPB  - Academic Press\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Szklarczyk, D.\nAU  - Franceschini, A.\nAU  - Wyder, S.\nAU  - Forslund, K.\nAU  - Heller, D.\nAU  - Huerta-Cepas, J.\nAU  - Simonovic, M.\nAU  - Roth, A.\nAU  - Santos, A.\nAU  - Tsafou, K.P.\nPY  - 2015\nDA  - 2015\nTI  - STRING v10: protein\u2013protein interaction networks, integrated over the tree of life\nT2  - Nucleic acids research\nVL  - 43\nSP  - 447\nEP  - 452\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.-h\nPY  - 2002\nDA  - 2002\nTI  - Protein recognition by cell surface receptors: physiological receptors versus virus interactions\nT2  - Trends in biochemical sciences\nVL  - 27\nSP  - 122\nEP  - 126\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Wu, A.\nAU  - Peng, Y.\nAU  - Huang, B.\nAU  - Ding, X.\nAU  - Wang, X.\nAU  - Niu, P.\nAU  - Meng, J.\nAU  - Zhu, Z.\nAU  - Zhang, Z.\nAU  - Wang, J.\nPY  - 2020\nDA  - 2020\nTI  - Genome Composition and Divergence of the Novel Coronavirus\nT2  - Originating in China. Cell Host & Microbe\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yan, C.\nAU  - Duan, G.\nAU  - Wu, F.-X.\nAU  - Wang, J.\nPY  - 2019\nDA  - 2019\nTI  - IILLS: predicting virus-receptor interactions based on similarity and semi-supervised learning\nT2  - BMC bioinformatics\nVL  - 20\nSP  - 651\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Zhang, H.\nAU  - Kang, Z.\nAU  - Gong, H.\nAU  - Xu, D.\nAU  - Wang, J.\nAU  - Li, Z.\nAU  - Cui, X.\nAU  - Xiao, J.\nAU  - Meng, T.\nAU  - Zhou, W.\nPY  - 2020\nDA  - 2020\nTI  - The digestive system is a potential route of 2019-nCov infection: a bioinformatics analysis based on single-cell transcriptomes\nT2  - BioRxiv.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, Z.\nAU  - Zhu, Z.\nAU  - Chen, W.\nAU  - Cai, Z.\nAU  - Xu, B.\nAU  - Tan, Z.\nAU  - Wu, A.\nAU  - Ge, X.\nAU  - Guo, X.\nAU  - Tan, Z.\nPY  - 2019\nDA  - 2019\nTI  - Cell membrane proteins with high n-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors\nT2  - Bioinformatics\nVL  - 35\nSP  - 723\nEP  - 728\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhou, P.\nAU  - Yang, X.-L.\nAU  - Wang, X.-G.\nAU  - Hu, B.\nAU  - Zhang, L.\nAU  - Zhang, W.\nAU  - Si, H.-R.\nAU  - Zhu, Y.\nAU  - Li, B.\nAU  - Huang, C.-L.\nPY  - 2020\nDA  - 2020\nTI  - A pneumonia outbreak associated with a new coronavirus of probable bat origin\nT2  - Nature\nSP  - 1\nEP  - 4\nLA  - \nER  - \n\n",
+        "author_conclusions": [
+            "In conclusion, this study for the first time built a computational model for predicting the receptorome of the human-infecting virome. It could facilitate identification of human virus receptors in either computational or experimental studies."
+        ],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "The predictive performances of RF models using different sets of features. N-gly, N-glycosylation; PPI, node degree in human PPI network; Expression, expressions in 32 human tissues. Acc, accuracy; Sen, Sensitivity; Spe, Specificity"
+            },
+            {
+                "id": "2",
+                "caption": "The ranks of real virus receptors among the RBP-interacting human cell membrane proteins by LR and RF score. The median rank percentage of real virus receptors among RBP-interacting human cell membrane proteins, and the number of real virus receptors among top one, three and five ranks were summarized at the bottom. # The number in brackets referred to those when only considering the 12 pairs of viral RBP-receptor interaction with LRs. * No LR was provided in Lasso\u2019s work since there were resolved complex structures between the RBP and the receptor. MACV, Machupo mammarenavirus; HAdV-A, Human mastadenovirus A; HAdV-C, Human mastadenovirus C; HAdV-E, Human mastadenovirus E;HAdV-D, Human"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "The predicted alternative receptors (in the left side) of 2019-nCoV and their expressions in 32 human tissues (in the bottom). The predicted alternative receptors were ranked by the RF score. The expression level was measured by transcripts per million (TPM) and was colored according to the legend in the top right. The white referred to no data available. The lung was highlighted by an arrow. The ACE2 was marked by an asterisk"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.27.967885.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.967885.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.967885.full/img-001.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "Receptor-binding is the first step for viral infection of host cells. Proteins are considered to be better receptors for viruses due to their higher binding affinity and specificity than carbohydrate and lipid (<a class=\"ref-link\" id=\"cBaranowski_et+al_2001_a\" href=\"#rBaranowski_et+al_2001_a\">Baranowski et al, 2001</a>; <a class=\"ref-link\" id=\"cCasasnovas_2013_a\" href=\"#rCasasnovas_2013_a\">Casasnovas, 2013</a>; <a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\"><a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\">Dimitrov, 2004</a></a>; <a class=\"ref-link\" id=\"cLi_2015_a\" href=\"#rLi_2015_a\">Li, 2015</a>; <a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\"><a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\">Wang, 2002</a></a>). Lots of human virus receptors has been identified. The selection of proteins by viruses as receptors is not a random process. Previous studies have shown that proteins that were abundant in the host cell surface or had relatively low affinity for their natural ligands were preferred by viruses as receptors (<a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\"><a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\">Dimitrov, 2004</a></a>; <a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\"><a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\">Wang, 2002</a></a>). Based on a collection of 119 mammalian virus receptors, our recent study further showed that human virus protein receptors have higher level of N-glycosylation, higher number of interaction partners in the human protein-protein interaction (PPI) network and high expressions in 32 common human tissues compared to other cell membrane proteins (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>). These studies could facilitate identification of human virus receptors."
+        ],
+        "methods": [
+            "Human viral receptors, human cell membrane proteins and human membrane proteins A total of 91 human virus protein receptors were obtained from the viralReceptor database (available at http://www.computationalbiology.cn:5000/viralReceptor) developed in our previous study (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>). Human cell membrane proteins and human membrane proteins were obtained from the UniProtKB/Swiss-Prot database on November 24th, 2017. The human proteins with the words of \u201ccell membrane\u201d and \u201ccell surface\u201d in the field of \u201cSubcellular location\u201d were considered to be human cell membrane proteins. The human proteins with the words of \u201cmembrane\u201d in the field of \u201cSubcellular location\u201d were considered to be human membrane proteins. A total of 2,161 human cell membrane proteins and 5,187 human membrane proteins were obtained.<br/><br/>The protein features and protein sequence features"
+        ],
+        "results": [
+            "Development of random-forest models for predicting receptorome of human-infecting virome Our previous studies have shown that human virus protein receptors have high level of N-glycosylation, high number of interaction partners in the human PPI network, and high expressions in 32 common human tissues (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>). To identify the potential receptors of human-infecting virome, we firstly built a RF model to distinguish the human virus receptor proteins from other human membrane proteins based on these protein features. The RF model built based on individual protein feature achieved an AUC ranging from 0.50 to 0.66 in five-fold cross-validations (Table 1). Combination of all three features improved the RF model much, with both the AUC and prediction accuracy equaling to 0.75 (Table 1).<br/><br/>For comparison, we also developed RF models to distinguish the human virus from other human membrane proteins based on protein sequences. The frequencies of k-mers with length of one and two amino acids were used as features in the modeling. The RF model based on combination of 20 amino-acid frequencies achieved an AUC 0.68. When using the frequencies of k-mers with two amino acids as features, only the top N (N=1 to 400) most important features were used in the modeling to reduce over-fitting. Figure S1 showed that the AUC of the RF models increased rapidly as increase of N from 1 to 10. Then, it increased slowly or even decreased when more ten features were used. Therefore, only top ten features were used in the modeling to balance the model performance and complexity. The RF model based on top ten features achieved an AUC of 0.72."
+        ],
+        "discussion": [
+            "Identification of receptors for human-infecting viruses is critical for understanding the interactions between viruses and human. Our previous studies have shown that human virus receptors have some unique features compared to other cell membrane proteins: high level of N-glycosylation, high number of interaction partners and high expressions. This study further built a RF model for identifying human virus receptors from human cell membrane proteins with accepted accuracy. Based on the RF model, the receptorome for human-infecting virome were predicted which included a total of 729 human cell membrane proteins. They could facilitate identification of human virus receptors.<br/><br/>Previous studies by Lasso et al developed computational models for predicting PPIs between human-infecting viruses and humans (Lasso et al, 2019). A variable number of human cell membrane proteins were predicted to interact with viral RBPs. To further select the potential receptors for viruses, both the LR and the RF model could be used to rank the viral RBP-interacting human cell membrane proteins. The RF model was found to rank the real receptors better than the LR in a small validation dataset, suggesting that the RF model may perform better than the LR in selecting the real receptors from the predicted RBP-interacting human cell membrane proteins. Combination of the RF model and the RBP-interacting human cell membrane proteins predicted in Lasso\u2019s work enables prediction of receptors for 693 human-infecting viruses (Table S2). Further efforts are needed to validate these predicted receptors."
+        ],
+        "acknowledgements": [
+            "This work was supported by the National Key Plan for Scientific Research and<br/><br/>Development of China (2016YFD0500300), Hunan Provincial Natural Science Foundation of China (2018JJ3039), and the Chinese Academy of Medical Sciences (2016-I2M-1-005).<br/><br/>The authors have declared that no competing interests exist."
+        ],
+        "funding": [
+            "This work was supported by the National Key Plan for Scientific Research and Development of China (2016YFD0500300), Hunan Provincial Natural Science Foundation of China (2018JJ3039), and the Chinese Academy of Medical Sciences (2016-I2M-1-005). The authors have declared that no competing interests exist"
+        ],
+        "limitations": [
+            "There are some limitations to this study. Firstly, the number of human virus receptor proteins was much less than that of human membrane proteins in the modeling, which may hinder accurate modeling. The under-sampling method was used to deal with the imbalance problem. Secondly, the performance of the RF model was modest in discriminating the human virus receptor proteins from human membrane proteins. More efforts are needed to improve the model. Thirdly, the RF model can not be used to identify receptors for a specific human-infecting virus. Instead, it predicts the receptorome for the human-infecting virome. Combining the RF model with the model of PPI predictions such as Lasso\u2019s work can help identify virus-receptor interactions."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Figure S1",
+                "Table S1",
+                "Table S2"
+            ]
+        }
+    },
+    "structured_content": {
+        "Introduction": [
+            "Receptor-binding is the first step for viral infection of host cells. Proteins are considered to be better receptors for viruses due to their higher binding affinity and specificity than carbohydrate and lipid (<a class=\"ref-link\" id=\"cBaranowski_et+al_2001_a\" href=\"#rBaranowski_et+al_2001_a\">Baranowski et al, 2001</a>; <a class=\"ref-link\" id=\"cCasasnovas_2013_a\" href=\"#rCasasnovas_2013_a\">Casasnovas, 2013</a>; <a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\"><a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\">Dimitrov, 2004</a></a>; <a class=\"ref-link\" id=\"cLi_2015_a\" href=\"#rLi_2015_a\">Li, 2015</a>; <a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\"><a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\">Wang, 2002</a></a>). Lots of human virus receptors has been identified. The selection of proteins by viruses as receptors is not a random process. Previous studies have shown that proteins that were abundant in the host cell surface or had relatively low affinity for their natural ligands were preferred by viruses as receptors (<a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\"><a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\">Dimitrov, 2004</a></a>; <a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\"><a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\">Wang, 2002</a></a>). Based on a collection of 119 mammalian virus receptors, our recent study further showed that human virus protein receptors have higher level of N-glycosylation, higher number of interaction partners in the human protein-protein interaction (PPI) network and high expressions in 32 common human tissues compared to other cell membrane proteins (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>). These studies could facilitate identification of human virus receptors.",
+            "Identifying receptors for viruses is challenging. Currently, several experimental approaches have been developed in identifying virus receptors. The first approach is to select candidate membrane proteins that bind to the virus receptor-binding proteins (RBPs) by affinity purification and mass spectroscopy (<a class=\"ref-link\" id=\"cFree_et+al_2009_a\" href=\"#rFree_et+al_2009_a\">Free et al, 2009</a>; <a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\"><a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\"><a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\">Ryu, 2016</a></a></a>). The second approach is to select candidate membrane proteins to which the monoclonal antibodies specific could block the virus entry (<a class=\"ref-link\" id=\"cMinor_et+al_1984_a\" href=\"#rMinor_et+al_1984_a\">Minor et al, 1984</a>; <a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\"><a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\"><a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\">Ryu, 2016</a></a></a>). The third approach is to identify the virus receptor by functional cloning selection based on the cDNA expression library (<a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\"><a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\"><a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\">Ryu, 2016</a></a></a>). The protein which could enable viral infection of the non-susceptible cell after transfection would be considered as receptor candidate. However, identifying virus receptor is still time-consuming and difficult at present. Besides, limitations on scalability have hampered large-scale identification of viral receptors. The development of computational methods for identifying the human virus receptors is in great need.",
+            "Previous studies have developed computational models for predicting PPIs between viruses and hosts which could help identification of virus receptors (Lasso et al, 2019; <a class=\"ref-link\" id=\"cYan_et+al_2019_a\" href=\"#rYan_et+al_2019_a\">Yan et al, 2019</a>). For example, Lasso et al developed an in silico computational framework (P-HIPSTer) that employs structural information to predict more than 280,000 PPIs between 1,001 human-infecting viruses and humans, and made a series of new findings about human-virus interactions (Lasso et al, 2019). Numerous PPIs between viral RBPs and human cell membrane proteins could be used to identify virus receptors. Here, we developed a computational model to predict the receptorome of the human-infecting virome based on the features of human virus receptors and protein sequences. Combination of the model with Lasso\u2019s work further predicted receptors for 693 human-infecting viruses. The study would greatly facilitate identification of human virus receptors."
+        ],
+        "Materials and Methods": [
+            "Human viral receptors, human cell membrane proteins and human membrane proteins A total of 91 human virus protein receptors were obtained from the viralReceptor database (available at http://www.computationalbiology.cn:5000/viralReceptor) developed in our previous study (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>). Human cell membrane proteins and human membrane proteins were obtained from the UniProtKB/Swiss-Prot database on November 24th, 2017. The human proteins with the words of \u201ccell membrane\u201d and \u201ccell surface\u201d in the field of \u201cSubcellular location\u201d were considered to be human cell membrane proteins. The human proteins with the words of \u201cmembrane\u201d in the field of \u201cSubcellular location\u201d were considered to be human membrane proteins. A total of 2,161 human cell membrane proteins and 5,187 human membrane proteins were obtained.",
+            "N-glycosylation site in the UniprotKB/Swiss-Prot database, the N-glycosylation sites were predicted with",
+            "NetNGlyc (available at http://www.cbs.dtu.dk/services/NetNGlyc/) (Gupta et al, 2004). The level of",
+            "N-glycosylation for a protein was defined as the number of N-glycosylation sites per hundred amino acids.",
+            "To calculate the node degree of human proteins in the human PPI network, firstly, the human PPIs with combined scores greater than 400 were extracted from the STRING database (version 10.5) (<a class=\"ref-link\" id=\"cSzklarczyk_et+al_2015_a\" href=\"#rSzklarczyk_et+al_2015_a\">Szklarczyk et al, 2015</a>) and formed the human PPI network. Then, the node degree was calculated with the functions of degree in the R package igraph (version 1.2.4.2) (<a class=\"ref-link\" id=\"cCsardi_2006_a\" href=\"#rCsardi_2006_a\">Csardi and Nepusz, 2006</a>).",
+            "The expression levels of human genes in 32 common human tissues were obtained from the Expression Atlas database (<a class=\"ref-link\" id=\"cPetryszak_et+al_2016_a\" href=\"#rPetryszak_et+al_2016_a\">Petryszak et al, 2016</a>) on February 6th, 2018. Because there were strong correlations between the expressions of genes in different tissues, the principal component analysis (PCA) method was used to reduce the correlations with the function of PCA in the package scikit-learn (version 0.21.3) (<a class=\"ref-link\" id=\"cPedregosa_et+al_2011_a\" href=\"#rPedregosa_et+al_2011_a\">Pedregosa et al, 2011</a>) in Python (version 3.6.7). Only the first principal component was used to measure the expression level of human genes, which explained 95% of the total variance.",
+            "The frequencies of k-mers with one or two amino acids were calculated for each human protein with a Python script.",
+            "Machine learning modeling To distinguish human virus receptors from other human cell membrane proteins with machine learning models, the human virus receptors were taken as positive samples, and the human membrane proteins were taken as negative samples after excluding the human cell membrane proteins since the human cell membrane proteins possibly contain virus receptors unidentified yet.",
+            "Because not all human proteins were observed in the human PPI network used or had observed expressions in the data used, only the human proteins with all three protein features, i.e., the N-glycosylation level, node degree and expression in common human tissues, were used in the modeling. Besides, the sequence redundancy in both human virus receptor proteins and human membrane proteins were removed using CD-HIT (version 4.8.1) (<a class=\"ref-link\" id=\"cFu_et+al_2012_a\" href=\"#rFu_et+al_2012_a\">Fu et al, 2012</a>) at 70% identity level. Finally, a total of 88 human virus receptors and 1,593 human membrane proteins was used in the machine learning modeling.",
+            "The random-forest (RF) model is an ensemble machine learning technique using multiple decision trees and can handle data with high variance and high bias, while the risk of over-fitting can be significantly reduced by averaging multiple trees. Therefore, we chose the RF model to distinguish human virus receptors from other human cell membrane proteins. Because the number of positive samples, i.e., human viral receptors, was much smaller than that of negative samples, i.e., human membrane proteins, the function of BalanceRandomForest in the package imbalanced-learn (version 0.5.0) (<a class=\"ref-link\" id=\"cChen_et+al_2004_a\" href=\"#rChen_et+al_2004_a\">Chen et al, 2004</a>) in Python was used to deal with the imbalanced positive and negative samples with the parameter of n_estimators set to be 100.",
+            "Five times of five-fold cross-validations were used to evaluate the predictive performances of the RF model with the function of StratifiedKFold in the package scikit-learn in Python. The predictive performances of the RF model were evaluated by the area under receiver operating characteristics curve (AUC), accuracy, sensitivity and specificity.",
+            "Validation of the RF model in ranking receptor candidates The predicted interactions between human-infecting viruses and human proteins were obtained from the database of P-HIPSTer (available at http://phipster.org/) (Lasso et al, 2019) on November 1st, 2019. A total of 9,395 pairs of interactions between viral RBPs and human cell membrane proteins with the likelihood ratio (LR) \u2265100 were extracted for further analysis, which included 718 viral RBPs and 314 human cell membrane proteins. The RBPs of human-infecting viruses were compiled from three sources: the ViralZone database (<a class=\"ref-link\" id=\"cMasson_et+al_2012_a\" href=\"#rMasson_et+al_2012_a\">Masson et al, 2012</a>), the UniprotKB database during which viral proteins annotated with GO terms \u201cviral entry into host cell\u201d or \u201cvirion attachment the host cell\u201d, and the literatures related to viral RBPs. Viruses of the same viral family were supposed to use the same RBP. For example, all coronaviruses were supposed to use the spike protein as RBP.",
+            "To evaluate the ability of the RF model in helping identify virus receptors, 25 pairs of experimentally-validated interactions between viral RBPs and receptors, and the predicted PPIs between these viral RBPs and human cell membrane proteins, were extracted from the P-HIPSTer database. For each viral RBP, the predicted RBP-interacting human cell membrane proteins were ranked by either the LR provided in Lasso\u2019s work, or the predicted score provided by the RF model. Then, the ranks of real receptors were analyzed. The rank percentage of the real receptor was calculated by dividing the rank by the number of RBP-interacting human cell membrane proteins.",
+            "When ranking the RBP-interacting proteins by the RF model, high sequence similarity between the RBP-interacting proteins and human proteins in the modeling (both the positive and negative samples) may over-estimate the ability of the RF model. To reduce such effect, for each pair of viral RBP and receptor, the predicted RBP-interacting human proteins were clustered with human proteins used in the modeling using CD-HIT at 50% identity level. All proteins which were clustered with RBP-interacting proteins were excluded in the modeling."
+        ],
+        "Results": [
+            "Development of random-forest models for predicting receptorome of human-infecting virome Our previous studies have shown that human virus protein receptors have high level of N-glycosylation, high number of interaction partners in the human PPI network, and high expressions in 32 common human tissues (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>). To identify the potential receptors of human-infecting virome, we firstly built a RF model to distinguish the human virus receptor proteins from other human membrane proteins based on these protein features. The RF model built based on individual protein feature achieved an AUC ranging from 0.50 to 0.66 in five-fold cross-validations (Table 1). Combination of all three features improved the RF model much, with both the AUC and prediction accuracy equaling to 0.75 (Table 1).",
+            "For comparison, we also developed RF models to distinguish the human virus from other human membrane proteins based on protein sequences. The frequencies of k-mers with length of one and two amino acids were used as features in the modeling. The RF model based on combination of 20 amino-acid frequencies achieved an AUC 0.68. When using the frequencies of k-mers with two amino acids as features, only the top N (N=1 to 400) most important features were used in the modeling to reduce over-fitting. Figure S1 showed that the AUC of the RF models increased rapidly as increase of N from 1 to 10. Then, it increased slowly or even decreased when more ten features were used. Therefore, only top ten features were used in the modeling to balance the model performance and complexity. The RF model based on top ten features achieved an AUC of 0.72.",
+            "To further improve the model for predicting receptorome of human-infecting virome, we incorporated the protein features and the top ten most important k-mers of two amino acids in the modeling. The RF model achieved an AUC of 0.77. The prediction accuracy, sensitivity and specificity of the model equaled 0.80, 0.73 and 0.80, respectively (Table 1). The model combining both the protein features and k-mers was used for further analysis.",
+            "Based on the RF model, we predicted the receptorome from human cell membrane proteins. A score ranging from 0 to 1 was assigned to each human cell membrane protein. Proteins with high scores are more likely to be virus receptors. A total of 729 proteins with scores greater than 0.5 were considered to constitute the receptorome of human-infecting virome. All human cell membrane proteins and the relevant scores were provided in Table S1.",
+            "Then, we further investigated the prediction of virus-receptor interactions. In previous study, Lasso et al predicted 282,528 pairs of PPIs between human and 1,001 human-infecting viruses (Lasso et al, 2019). Based on their study, 9,395 pairs of PPIs between 718 viral RBPs from 693 human-infecting viruses, and 314 human cell membrane proteins were extracted for further analysis (see Table S2). A viral RBP was predicted to interact with 1 to 65 human cell membrane proteins, with a median of 10. For each viral RBP, the RBP-interacting cell membrane proteins were ranked by the score provided by the RF model to select the most likely receptor (Table S2).",
+            "To validate the ranking by the RF model, 25 pairs of experimentally-validated interactions between viral RBPs and receptors were extracted. For each pair of these interactions, the rank of the real receptor among the predicted RBP-interacting proteins was obtained, and the related rank percentage was calculated (Materials and Methods). Seven real receptors were ranked in top one by the RF model (Table 2). Besides, nearly 70% (17/25) of real receptors were ranked in top three. On average, the real receptors had a rank percentage of 0.21 among all RBP-interacting human cell membrane proteins, suggesting that the real receptors would be ranked in the top 21% of all candidates by the RF model.",
+            "For comparison, we also ranked the RBP-interacting proteins by the LR provided in Lasso\u2019s work. In 12 pairs of viral RBP-receptor interaction with LRs, no real receptors were ranked in top one and only two real receptors were ranked in top three when ranking RBP-interacting human cell membrane proteins by the LR. On average, the median rank percentage of real receptors was 0.43 when ranking by the LR, while that was 0.15 by the RF model (Table 2).",
+            "Previous studies have shown that the ACE2 protein which is the receptor of 2019-nCoV (<a class=\"ref-link\" id=\"cHoffmann_et+al_2020_a\" href=\"#rHoffmann_et+al_2020_a\">Hoffmann et al, 2020</a>; <a class=\"ref-link\" id=\"cZhou_et+al_2020_a\" href=\"#rZhou_et+al_2020_a\">Zhou et al, 2020</a>) had a low level of expression in the lung and the upper respiratory tract (<a class=\"ref-link\" id=\"cQi_et+al_2020_a\" href=\"#rQi_et+al_2020_a\">Qi et al, 2020</a>; <a class=\"ref-link\" id=\"cZhang_et+al_2020_a\" href=\"#rZhang_et+al_2020_a\">Zhang et al, 2020</a>). It is possible that 2019-nCoV has alternative receptors. We investigated the prediction of the alternative receptors for 2019-nCoV. Lasso\u2019s study have predicted PPIs between 28 human cell membrane proteins which were members of receptorome of human-infecting viruses, and the spike protein of two coronaviruses, including Severe Acute Respiratory Syndrome-CoV and Middle East Respiratory Syndrome-CoV. We supposed that the 2019-nCoV is very likely to use these spike-interacting proteins as alternative receptors. These spike-interacting proteins were ranked by the score provided by the RF model (Figure 1). The expression levels of these spike-interacting proteins in 32 common human tissues were shown in Figure 1. Most of them had high expressions than ACE2 in the lung, such as APP, EZR, CD4 and so on."
+        ],
+        "Discussion": [
+            "Identification of receptors for human-infecting viruses is critical for understanding the interactions between viruses and human. Our previous studies have shown that human virus receptors have some unique features compared to other cell membrane proteins: high level of N-glycosylation, high number of interaction partners and high expressions. This study further built a RF model for identifying human virus receptors from human cell membrane proteins with accepted accuracy. Based on the RF model, the receptorome for human-infecting virome were predicted which included a total of 729 human cell membrane proteins. They could facilitate identification of human virus receptors.",
+            "Previous studies by Lasso et al developed computational models for predicting PPIs between human-infecting viruses and humans (Lasso et al, 2019). A variable number of human cell membrane proteins were predicted to interact with viral RBPs. To further select the potential receptors for viruses, both the LR and the RF model could be used to rank the viral RBP-interacting human cell membrane proteins. The RF model was found to rank the real receptors better than the LR in a small validation dataset, suggesting that the RF model may perform better than the LR in selecting the real receptors from the predicted RBP-interacting human cell membrane proteins. Combination of the RF model and the RBP-interacting human cell membrane proteins predicted in Lasso\u2019s work enables prediction of receptors for 693 human-infecting viruses (Table S2). Further efforts are needed to validate these predicted receptors.",
+            "The 2019-nCoV is responsible for the on-going outbreak of COVID-19 (<a class=\"ref-link\" id=\"cWu_et+al_2020_a\" href=\"#rWu_et+al_2020_a\">Wu et al, 2020</a>; <a class=\"ref-link\" id=\"cZhou_et+al_2020_a\" href=\"#rZhou_et+al_2020_a\"><a class=\"ref-link\" id=\"cZhou_et+al_2020_a\" href=\"#rZhou_et+al_2020_a\">Zhou et al, 2020</a></a>). Previous studies have shown that the virus used ACE2 as the receptor (<a class=\"ref-link\" id=\"cHoffmann_et+al_2020_a\" href=\"#rHoffmann_et+al_2020_a\">Hoffmann et al, 2020</a>; <a class=\"ref-link\" id=\"cZhou_et+al_2020_a\" href=\"#rZhou_et+al_2020_a\"><a class=\"ref-link\" id=\"cZhou_et+al_2020_a\" href=\"#rZhou_et+al_2020_a\">Zhou et al, 2020</a></a>). However, several studies have found that ACE2 had low expressions in the lung and the upper respiratory tract (<a class=\"ref-link\" id=\"cQi_et+al_2020_a\" href=\"#rQi_et+al_2020_a\"><a class=\"ref-link\" id=\"cQi_et+al_2020_a\" href=\"#rQi_et+al_2020_a\">Qi et al, 2020</a></a>; <a class=\"ref-link\" id=\"cZhang_et+al_2020_a\" href=\"#rZhang_et+al_2020_a\">Zhang et al, 2020</a>). It is possibly that the 2019-nCoV may use co-receptor or alternative receptors to facilitate its infection. A previous study investigated the candidate co-receptors of 2019-nCoV, such as ANPEP, ENPEP and DPP4 (<a class=\"ref-link\" id=\"cQi_et+al_2020_a\" href=\"#rQi_et+al_2020_a\"><a class=\"ref-link\" id=\"cQi_et+al_2020_a\" href=\"#rQi_et+al_2020_a\">Qi et al, 2020</a></a>). We further supposed that the 2019-nCoV possibly have alternative receptors. Based on the predicted PPIs between coronaviruses and humans in previous work, we predicted several candidate alternative receptors for 2019-nCoV. Most candidate alternative receptors had higher expressions than ACE2 in the lung. Nevertheless, more efforts are needed to validate these candidate alternative receptors.",
+            "There are some limitations to this study. Firstly, the number of human virus receptor proteins was much less than that of human membrane proteins in the modeling, which may hinder accurate modeling. The under-sampling method was used to deal with the imbalance problem. Secondly, the performance of the RF model was modest in discriminating the human virus receptor proteins from human membrane proteins. More efforts are needed to improve the model. Thirdly, the RF model can not be used to identify receptors for a specific human-infecting virus. Instead, it predicts the receptorome for the human-infecting virome. Combining the RF model with the model of PPI predictions such as Lasso\u2019s work can help identify virus-receptor interactions.",
+            "In conclusion, this study for the first time built a computational model for predicting the receptorome of the human-infecting virome. It could facilitate identification of human virus receptors in either computational or experimental studies."
+        ],
+        "Acknowledgements": [
+            "Development of China (2016YFD0500300), Hunan Provincial Natural Science Foundation of China (2018JJ3039), and the Chinese Academy of Medical Sciences (2016-I2M-1-005).",
+            "The authors have declared that no competing interests exist."
+        ],
+        "References": [
+            "Baranowski, E., Ruiz-Jarabo, C.M., and Domingo, E. (2001). Evolution of cell recognition by viruses. Science 292, 1102-1105. <a class=\"ref-link\" id=\"cCasasnovas_2013_a\" href=\"#rCasasnovas_2013_a\">Casasnovas, J.M. (2013</a>). Virus-receptor interactions and receptor-mediated virus entry into host cells. In Structure and Physics of Viruses (Springer), pp. 441-466. Chen, C., Liaw, A., and Breiman, L. (2004). Using random forest to learn imbalanced data. University of California, Berkeley 110, 24. Csardi, G., and Nepusz, T. (2006). The igraph software package for complex network research. InterJournal, complex systems 1695, 1-9. <a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\">Dimitrov, D.S. (2004</a>). Virus entry: molecular mechanisms and biomedical applications. Nature Reviews Microbiology 2, 109-122.",
+            "\u2010 Free, R.B., Hazelwood, L.A., and Sibley, D.R. (2009). Identifying novel protein protein interactions \u2010 using co immunoprecipitation and mass spectroscopy. Current protocols in neuroscience 46, 5.28.",
+            "21-25.28. 14. Fu, L., Niu, B., Zhu, Z., Wu, S., and Li, W. (2012). CD-HIT: accelerated for clustering the next-generation sequencing data. Bioinformatics 28, 3150-3152. Gupta, R., Jung, E., and Brunak, S. (2004). Prediction of N-glycosylation sites in human proteins. Hoffmann, M., Kleine-Weber, H., Krueger, N., Mueller, M.A., Drosten, C., and P\u00f6hlmann, S. (2020). The novel coronavirus 2019 (2019-nCoV) uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells. bioRxiv. Lasso, G., Mayer, S.V., Winkelmann, E.R., Chu, T., Elliot, O., Patino-Galindo, J.A., Park, K., Rabadan, R., Honig, B., and Shapira, S.D. (2019). A structure-informed atlas of human-virus interactions. Cell 178, 1526-1541. e1516. <a class=\"ref-link\" id=\"cLi_2015_a\" href=\"#rLi_2015_a\">Li, F. (2015</a>). Receptor recognition mechanisms of coronaviruses: a decade of structural studies. Journal of virology 89, 1954-1964.",
+            "Masson, P., Hulo, C., De Castro, E., Bitter, H., Gruenbaum, L., Essioux, L., Bougueleret, L., Xenarios, I., and Le Mercier, P. (2012). ViralZone: recent updates to the virus knowledge resource. Nucleic acids research 41, D579-D583.",
+            "Minor, P., Pipkin, P., Hockley, D., Schild, G., and Almond, J. (1984). Monoclonal antibodies which block cellular receptors of poliovirus. Virus research 1, 203-212.",
+            "Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., and Dubourg, V. (2011). Scikit-learn: Machine learning in Python. Journal of machine learning research 12, 2825-2830.",
+            "Petryszak, R., Keays, M., Tang, Y.A., Fonseca, N.A., Barrera, E., Burdett, T., F\u00fcllgrabe, A., Fuentes, A.M.-P., Jupp, S., and Koskinen, S. (2016). Expression Atlas update\u2014an integrated database of gene and protein expression in humans, animals and plants. Nucleic acids research 44, D746-D752.",
+            "Qi, F., Qian, S., <a class=\"ref-link\" id=\"cZhang_et+al_2020_a\" href=\"#rZhang_et+al_2020_a\">Zhang, S., and Zhang, Z. (2020</a>). Single cell RNA sequencing of 13 human tissues identify cell types and receptors of human coronaviruses. bioRxiv.",
+            "<a class=\"ref-link\" id=\"cRyu_2016_a\" href=\"#rRyu_2016_a\">Ryu, W.-S. (2016</a>). Molecular virology of human pathogenic viruses (Academic Press).",
+            "Szklarczyk, D., Franceschini, A., Wyder, S., Forslund, K., Heller, D., Huerta-Cepas, J., Simonovic, M., Roth, A., Santos, A., and Tsafou, K.P. (2015). STRING v10: protein\u2013protein interaction networks, integrated over the tree of life. Nucleic acids research 43, D447-D452.",
+            "<a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\">Wang, J.-h. (2002</a>). Protein recognition by cell surface receptors: physiological receptors versus virus interactions. Trends in biochemical sciences 27, 122-126.",
+            "Wu, A., Peng, Y., Huang, B., Ding, X., Wang, X., Niu, P., Meng, J., Zhu, Z., <a class=\"ref-link\" id=\"cZhang_et+al_2020_a\" href=\"#rZhang_et+al_2020_a\">Zhang, Z., and Wang, J. (2020</a>). Genome Composition and Divergence of the Novel Coronavirus (2019-nCoV) Originating in China. Cell Host & Microbe.",
+            "Yan, C., Duan, G., Wu, F.-X., and Wang, J. (2019). IILLS: predicting virus-receptor interactions based on similarity and semi-supervised learning. BMC bioinformatics 20, 651.",
+            "Zhang, H., Kang, Z., Gong, H., Xu, D., Wang, J., Li, Z., Cui, X., Xiao, J., Meng, T., and Zhou, W. (2020). The digestive system is a potential route of 2019-nCov infection: a bioinformatics analysis based on single-cell transcriptomes. BioRxiv.",
+            "Zhang, Z., Zhu, Z., Chen, W., Cai, Z., Xu, B., Tan, Z., Wu, A., Ge, X., Guo, X., and Tan, Z. (2019). Cell membrane proteins with high n-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors. Bioinformatics 35, 723-728.",
+            "Zhou, P., Yang, X.-L., Wang, X.-G., Hu, B., Zhang, L., Zhang, W., Si, H.-R., Zhu, Y., Li, B., and Huang, C.-L. (2020). A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature, 1-4."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "human cell membrane proteins",
+            "number": 729,
+            "context": "Here, we built a random-forest model to identify human virus receptorome from human cell membrane proteins with accepted accuracy based on combination of unique features of human virus receptors and protein sequences. <mark class=\"stats\">A total of 729 human cell membrane proteins were predicted to constitute the receptorome for the human-infecting virome</mark>. Combination of the random-forest model with protein-protein interactions between human and viruses predicted in previous studies further predicted receptors for 693 human-infecting viruses, such as the Enterovirus, Norovirus and West Nile virus"
+        },
+        {
+            "participant": "human cell membrane proteins",
+            "number": 2161,
+            "context": "The human proteins with the words of \u201cmembrane\u201d in the field of \u201cSubcellular location\u201d were considered to be human membrane proteins. <mark class=\"stats\">A total of 2,161 human cell membrane proteins and 5,187 human membrane proteins were obtained.<br/><br/>The protein features and protein sequence featuresHuman viral receptors, human cell membrane proteins and human membrane proteins A total of 91 human virus protein receptors were obtained from the viralReceptor database (available at http://www.computationalbiology.cn:5000/viralReceptor) developed in our previous study (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>)</mark>. Human cell membrane proteins and human membrane proteins were obtained from the UniProtKB/Swiss-Prot database on November 24th, 2017"
+        },
+        {
+            "participant": "human cell membrane proteins",
+            "number": 2161,
+            "context": "The human proteins with the words of \u201cmembrane\u201d in the field of \u201cSubcellular location\u201d were considered to be human membrane proteins. <mark class=\"stats\">A total of 2,161 human cell membrane proteins and 5,187 human membrane proteins were obtained</mark>. N-glycosylation site in the UniprotKB/Swiss-Prot database, the N-glycosylation sites were predicted with"
+        },
+        {
+            "participant": "human membrane proteins",
+            "number": 1593,
+            "context": "Besides, the sequence redundancy in both human virus receptor proteins and human membrane proteins were removed using CD-HIT (version 4.8.1) (<a class=\"ref-link\" id=\"cFu_et+al_2012_a\" href=\"#rFu_et+al_2012_a\">Fu et al, 2012</a>) at 70% identity level. <mark class=\"stats\">Finally, a total of 88 human virus receptors and 1,593 human membrane proteins was used in the machine learning modeling</mark>. The random-forest (RF) model is an ensemble machine learning technique using multiple decision trees and can handle data with high variance and high bias, while the risk of over-fitting can be significantly reduced by averaging multiple trees"
+        },
+        {
+            "participant": "pairs",
+            "number": 9395,
+            "context": "Validation of the RF model in ranking receptor candidates The predicted interactions between human-infecting viruses and human proteins were obtained from the database of P-HIPSTer (available at http://phipster.org/) (Lasso et al, 2019) on November 1st, 2019. <mark class=\"stats\">A total of 9,395 pairs of interactions between viral RBPs and human cell membrane proteins with the likelihood ratio (LR) \u2265100 were extracted for further analysis, which included 718 viral RBPs and 314 human cell membrane proteins</mark>. The RBPs of human-infecting viruses were compiled from three sources: the ViralZone database (<a class=\"ref-link\" id=\"cMasson_et+al_2012_a\" href=\"#rMasson_et+al_2012_a\">Masson et al, 2012</a>), the UniprotKB database during which viral proteins annotated with GO terms \u201cviral entry into host cell\u201d or \u201cvirion attachment the host cell\u201d, and the literatures related to viral RBPs"
+        },
+        {
+            "participant": "pairs",
+            "number": 25,
+            "context": "For example, all coronaviruses were supposed to use the spike protein as RBP. <mark class=\"stats\">To evaluate the ability of the RF model in helping identify virus receptors, 25 pairs of experimentally-validated interactions between viral RBPs and receptors, and the predicted PPIs between these viral RBPs and human cell membrane proteins, were extracted from the P-HIPSTer database</mark>. For each viral RBP, the predicted RBP-interacting human cell membrane proteins were ranked by either the LR provided in Lasso\u2019s work, or the predicted score provided by the RF model"
+        },
+        {
+            "participant": "human-infecting viruses and humans",
+            "number": 1001,
+            "context": "Previous studies have developed computational models for predicting PPIs between viruses and hosts which could help identification of virus receptors (Lasso et al, 2019; <a class=\"ref-link\" id=\"cYan_et+al_2019_a\" href=\"#rYan_et+al_2019_a\">Yan et al, 2019</a>). <mark class=\"stats\">For example, Lasso et al developed an in silico computational framework (P-HIPSTer) that employs structural information to predict more than 280,000 PPIs between 1,001 human-infecting viruses and humans, and made a series of new findings about human-virus interactions (Lasso et al, 2019)</mark>. Numerous PPIs between viral RBPs and human cell membrane proteins could be used to identify virus receptors"
+        },
+        {
+            "participant": "human cell membrane proteins",
+            "number": 2161,
+            "context": "The human proteins with the words of \u201cmembrane\u201d in the field of \u201cSubcellular location\u201d were considered to be human membrane proteins. <mark class=\"stats\">A total of 2,161 human cell membrane proteins and 5,187 human membrane proteins were obtained</mark>. The protein features and protein sequence features"
+        },
+        {
+            "participant": "human membrane proteins",
+            "number": 1593,
+            "context": "Besides, the sequence redundancy in both human virus receptor proteins and human membrane proteins were removed using CD-HIT (version 4.8.1) (<a class=\"ref-link\" id=\"cFu_et+al_2012_a\" href=\"#rFu_et+al_2012_a\">Fu et al, 2012</a>) at 70% identity level. <mark class=\"stats\">Finally, a total of 88 human virus receptors and 1,593 human membrane proteins was used in the machine learning modeling</mark>. The random-forest (RF) model is an ensemble machine learning technique using multiple decision trees and can handle data with high variance and high bias, while the risk of over-fitting can be significantly reduced by averaging multiple trees"
+        },
+        {
+            "participant": "pairs",
+            "number": 9395,
+            "context": "Validation of the RF model in ranking receptor candidates The predicted interactions between human-infecting viruses and human proteins were obtained from the database of P-HIPSTer (available at http://phipster.org/) (Lasso et al, 2019) on November 1st, 2019. <mark class=\"stats\">A total of 9,395 pairs of interactions between viral RBPs and human cell membrane proteins with the likelihood ratio (LR) \u2265100 were extracted for further analysis, which included 718 viral RBPs and 314 human cell membrane proteins</mark>. The RBPs of human-infecting viruses were compiled from three sources: the ViralZone database (<a class=\"ref-link\" id=\"cMasson_et+al_2012_a\" href=\"#rMasson_et+al_2012_a\">Masson et al, 2012</a>), the UniprotKB database during which viral proteins annotated with GO terms \u201cviral entry into host cell\u201d or \u201cvirion attachment the host cell\u201d, and the literatures related to viral RBPs"
+        },
+        {
+            "participant": "data",
+            "number": 1,
+            "context": "The RF model based on combination of 20 amino-acid frequencies achieved an AUC 0.68. <mark class=\"stats\">When using the frequencies of k-mers with two amino acids as features, only the top N (N=1 to 400) most important features were used in the modeling to reduce over-fitting</mark>. Figure S1 showed that the AUC of the RF models increased rapidly as increase of N from 1 to 10"
+        },
+        {
+            "participant": "proteins with scores greater than 0",
+            "number": 729,
+            "context": "Proteins with high scores are more likely to be virus receptors. <mark class=\"stats\">A total of 729 proteins with scores greater than 0.5 were considered to constitute the receptorome of human-infecting virome</mark>. All human cell membrane proteins and the relevant scores were provided in Table S1"
+        },
+        {
+            "participant": "pairs",
+            "number": 282528,
+            "context": "Then, we further investigated the prediction of virus-receptor interactions. <mark class=\"stats\">In previous study, Lasso et al predicted 282,528 pairs of PPIs between human and 1,001 human-infecting viruses (Lasso et al, 2019)</mark>. Based on their study, 9,395 pairs of PPIs between 718 viral RBPs from 693 human-infecting viruses, and 314 human cell membrane proteins were extracted for further analysis (see Table S2)"
+        },
+        {
+            "participant": "pairs",
+            "number": 9395,
+            "context": "In previous study, Lasso et al predicted 282,528 pairs of PPIs between human and 1,001 human-infecting viruses (Lasso et al, 2019). <mark class=\"stats\">Based on their study, 9,395 pairs of PPIs between 718 viral RBPs from 693 human-infecting viruses, and 314 human cell membrane proteins were extracted for further analysis (see Table S2)</mark>. A viral RBP was predicted to interact with 1 to 65 human cell membrane proteins, with a median of 10"
+        },
+        {
+            "participant": "human cell membrane proteins",
+            "number": 65,
+            "context": "Based on their study, 9,395 pairs of PPIs between 718 viral RBPs from 693 human-infecting viruses, and 314 human cell membrane proteins were extracted for further analysis (see Table S2). <mark class=\"stats\">A viral RBP was predicted to interact with 1 to 65 human cell membrane proteins, with a median of 10</mark>. For each viral RBP, the RBP-interacting cell membrane proteins were ranked by the score provided by the RF model to select the most likely receptor (Table S2)"
+        },
+        {
+            "participant": "pairs",
+            "number": 25,
+            "context": "For each viral RBP, the RBP-interacting cell membrane proteins were ranked by the score provided by the RF model to select the most likely receptor (Table S2). <mark class=\"stats\">To validate the ranking by the RF model, 25 pairs of experimentally-validated interactions between viral RBPs and receptors were extracted</mark>. For each pair of these interactions, the rank of the real receptor among the predicted RBP-interacting proteins was obtained, and the related rank percentage was calculated (Materials and Methods)"
+        },
+        {
+            "participant": "pairs",
+            "number": 12,
+            "context": "For comparison, we also ranked the RBP-interacting proteins by the LR provided in Lasso\u2019s work. <mark class=\"stats\">In 12 pairs of viral RBP-receptor interaction with LRs, no real receptors were ranked in top one and only two real receptors were ranked in top three when ranking RBP-interacting human cell membrane proteins by the LR</mark>. On average, the median rank percentage of real receptors was 0.43 when ranking by the LR, while that was 0.15 by the RF model (Table 2)"
+        },
+        {
+            "participant": "human cell membrane proteins",
+            "number": 28,
+            "context": "We investigated the prediction of the alternative receptors for 2019-nCoV. <mark class=\"stats\">Lasso\u2019s study have predicted PPIs between 28 human cell membrane proteins which were members of receptorome of human-infecting viruses, and the spike protein of two coronaviruses, including Severe Acute Respiratory Syndrome-CoV and Middle East Respiratory Syndrome-CoV</mark>. We supposed that the 2019-nCoV is very likely to use these spike-interacting proteins as alternative receptors"
+        },
+        {
+            "participant": "human cell membrane proteins",
+            "number": 729,
+            "context": "This study further built a RF model for identifying human virus receptors from human cell membrane proteins with accepted accuracy. <mark class=\"stats\">Based on the RF model, the receptorome for human-infecting virome were predicted which included a total of 729 human cell membrane proteins</mark>. They could facilitate identification of human virus receptors"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Because there were strong correlations between the expressions of genes in different tissues, the principal component analysis (PCA) method was used to reduce the correlations with the function of PCA in the package scikit-learn (version 0.21.3) (<a class=\"ref-link\" id=\"cPedregosa_et+al_2011_a\" href=\"#rPedregosa_et+al_2011_a\">Pedregosa et al, 2011</a>) in Python (version 3.6.7)</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    },
+                    {
+                        "test": "PCA",
+                        "value": "0.21"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Because there were strong correlations between the expressions of genes in different tissues, the principal component analysis (PCA) method was used to reduce the correlations with the function of PCA in the package scikit-learn (version 0.21.3) (Pedregosa et al, 2011) in Python (version 3.6.7)</mark>",
+                "tests": [
+                    {
+                        "test": "PCA"
+                    },
+                    {
+                        "test": "PCA",
+                        "value": "0.21"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "protein-protein interaction",
+        "rf model",
+        "human cell membrane protein",
+        "host cell",
+        "high level",
+        "cell membrane protein",
+        "previous study",
+        "likelihood ratio",
+        "protein protein interaction",
+        "interaction partner",
+        "forest model",
+        "high number",
+        "principal component analysis",
+        "coronavirus",
+        "receptor-binding proteins",
+        "unique feature",
+        "human virus receptor",
+        "viral infection",
+        "area under receiver operating characteristics curve",
+        "virus receptor",
+        "random forest",
+        "high expression"
+    ],
+    "keyword_relevance": {
+        "receptor-binding proteins": 0.15294117647058825,
+        "virus receptor": 0.1411764705882353,
+        "cell membrane protein": 0.13333333333333333,
+        "human cell membrane protein": 0.11764705882352941,
+        "protein-protein interaction": 0.09411764705882353,
+        "human virus receptor": 0.0784313725490196,
+        "likelihood ratio": 0.054901960784313725,
+        "area under receiver operating characteristics curve": 0.03529411764705882,
+        "coronavirus": 0.03137254901960784,
+        "host cell": 0.023529411764705882,
+        "high expression": 0.023529411764705882,
+        "interaction partner": 0.0196078431372549,
+        "previous study": 0.01568627450980392,
+        "high level": 0.011764705882352941,
+        "forest model": 0.011764705882352941,
+        "high number": 0.011764705882352941,
+        "principal component analysis": 0.011764705882352941,
+        "unique feature": 0.011764705882352941,
+        "viral infection": 0.011764705882352941,
+        "protein protein interaction": 0.00392156862745098,
+        "random forest": 0.00392156862745098,
+        "rf model": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Receptor-binding is the first step for viral infection of host cells. Proteins are considered to be better receptors for viruses due to their higher binding affinity and specificity than carbohydrate and lipid (<a class=\"ref-link\" id=\"cBaranowski_et+al_2001_a\" href=\"#rBaranowski_et+al_2001_a\">Baranowski et al, 2001</a>; <a class=\"ref-link\" id=\"cCasasnovas_2013_a\" href=\"#rCasasnovas_2013_a\">Casasnovas, 2013</a>; <a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\"><a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\">Dimitrov, 2004</a></a>; <a class=\"ref-link\" id=\"cLi_2015_a\" href=\"#rLi_2015_a\">Li, 2015</a>; <a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\"><a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\">Wang, 2002</a></a>).",
+        "Based on a collection of 119 mammalian virus receptors, the recent study further showed that human virus protein receptors have higher level of N-glycosylation, higher number of interaction partners in the human protein-protein interaction (PPI) network and high expressions in 32 common human tissues compared to other cell membrane proteins (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>).",
+        "<h2 style=\"display: inline\">Methods:</h2> Human cell membrane proteins and human membrane proteins A total of 91 human virus protein receptors were obtained from the viralReceptor database developed in the previous study (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>).",
+        "Human cell membrane proteins and human membrane proteins were obtained from the UniProtKB/Swiss-Prot database on November 24th, 2017.",
+        "The human proteins with the words of \u201ccell membrane\u201d and \u201ccell surface\u201d in the field of \u201cSubcellular location\u201d were considered to be human cell membrane proteins.",
+        "The human proteins with the words of \u201cmembrane\u201d in the field of \u201cSubcellular location\u201d were considered to be human membrane proteins.",
+        "A total of 2,161 human cell membrane proteins and 5,187 human membrane proteins were obtained.",
+        "<h2 style=\"display: inline\">Results:</h2> Development of random-forest models for predicting receptorome of human-infecting virome The authors' previous studies have shown that human virus protein receptors have high level of N-glycosylation, high number of interaction partners in the human PPI network, and high expressions in 32 common human tissues (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>).",
+        "To identify the potential receptors of human-infecting virome, the authors firstly built a RF model to distinguish the human virus receptor proteins from other human membrane proteins based on these protein features.",
+        "The frequencies of k-mers with length of one and two amino acids were used as features in the modeling.",
+        "The RF model based on combination of 20 amino-acid frequencies achieved an AUC 0.68.",
+        "The RF model based on top ten features achieved an AUC of 0.72",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Identification of receptors for human-infecting viruses is critical for understanding the interactions between viruses and human.",
+        "Based on the RF model, the receptorome for human-infecting virome were predicted which included a total of 729 human cell membrane proteins.",
+        "They could facilitate identification of human virus receptors.",
+        "Combination of the RF model and the RBP-interacting human cell membrane proteins predicted in Lasso\u2019s work enables prediction of receptors for 693 human-infecting viruses (Table S2)."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Receptor-binding is the first step for viral infection of host cells. Proteins are considered to be better receptors for viruses due to their higher binding affinity and specificity than carbohydrate and lipid (<a class=\"ref-link\" id=\"cBaranowski_et+al_2001_a\" href=\"#rBaranowski_et+al_2001_a\">Baranowski et al, 2001</a>; <a class=\"ref-link\" id=\"cCasasnovas_2013_a\" href=\"#rCasasnovas_2013_a\">Casasnovas, 2013</a>; <a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\"><a class=\"ref-link\" id=\"cDimitrov_2004_a\" href=\"#rDimitrov_2004_a\">Dimitrov, 2004</a></a>; <a class=\"ref-link\" id=\"cLi_2015_a\" href=\"#rLi_2015_a\">Li, 2015</a>; <a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\"><a class=\"ref-link\" id=\"cWang_2002_a\" href=\"#rWang_2002_a\">Wang, 2002</a></a>).",
+            "Based on a collection of 119 mammalian virus receptors, the recent study further showed that human virus protein receptors have higher level of N-glycosylation, higher number of interaction partners in the human protein-protein interaction (PPI) network and high expressions in 32 common human tissues compared to other cell membrane proteins (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>)."
+        ],
+        "Methods": [
+            "Human cell membrane proteins and human membrane proteins A total of 91 human virus protein receptors were obtained from the viralReceptor database developed in the previous study (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>).",
+            "Human cell membrane proteins and human membrane proteins were obtained from the UniProtKB/Swiss-Prot database on November 24th, 2017.",
+            "The human proteins with the words of \u201ccell membrane\u201d and \u201ccell surface\u201d in the field of \u201cSubcellular location\u201d were considered to be human cell membrane proteins.",
+            "The human proteins with the words of \u201cmembrane\u201d in the field of \u201cSubcellular location\u201d were considered to be human membrane proteins.",
+            "A total of 2,161 human cell membrane proteins and 5,187 human membrane proteins were obtained."
+        ],
+        "Results": [
+            "Development of random-forest models for predicting receptorome of human-infecting virome The authors' previous studies have shown that human virus protein receptors have high level of N-glycosylation, high number of interaction partners in the human PPI network, and high expressions in 32 common human tissues (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>).",
+            "To identify the potential receptors of human-infecting virome, the authors firstly built a RF model to distinguish the human virus receptor proteins from other human membrane proteins based on these protein features.",
+            "The frequencies of k-mers with length of one and two amino acids were used as features in the modeling.",
+            "The RF model based on combination of 20 amino-acid frequencies achieved an AUC 0.68.",
+            "The RF model based on top ten features achieved an AUC of 0.72"
+        ],
+        "Conclusion": [
+            "Identification of receptors for human-infecting viruses is critical for understanding the interactions between viruses and human.",
+            "Based on the RF model, the receptorome for human-infecting virome were predicted which included a total of 729 human cell membrane proteins.",
+            "They could facilitate identification of human virus receptors.",
+            "Combination of the RF model and the RBP-interacting human cell membrane proteins predicted in Lasso\u2019s work enables prediction of receptors for 693 human-infecting viruses (Table S2)."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "Baranowski_et+al_2001_a",
+            "alt_id": "1",
+            "entry": "Baranowski, E., Ruiz-Jarabo, C.M., and Domingo, E. (2001). Evolution of cell recognition by viruses. Science 292, 1102-1105.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Baranowski%2C%20E.%20Ruiz-Jarabo%2C%20C.M.%20Domingo%2C%20E.%20Evolution%20of%20cell%20recognition%20by%20viruses%202001",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Baranowski%2C%20E.%20Ruiz-Jarabo%2C%20C.M.%20Domingo%2C%20E.%20Evolution%20of%20cell%20recognition%20by%20viruses%202001",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Baranowski%2C%20E.%20Ruiz-Jarabo%2C%20C.M.%20Domingo%2C%20E.%20Evolution%20of%20cell%20recognition%20by%20viruses%202001"
+        },
+        {
+            "id": "Casasnovas_2013_a",
+            "alt_id": "2",
+            "entry": "Casasnovas, J.M. (2013). Virus-receptor interactions and receptor-mediated virus entry into host cells. In Structure and Physics of Viruses (Springer), pp. 441-466.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Casasnovas%2C%20J.M.%20Virus-receptor%20interactions%20and%20receptor-mediated%20virus%20entry%20into%20host%20cells%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Casasnovas%2C%20J.M.%20Virus-receptor%20interactions%20and%20receptor-mediated%20virus%20entry%20into%20host%20cells%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Casasnovas%2C%20J.M.%20Virus-receptor%20interactions%20and%20receptor-mediated%20virus%20entry%20into%20host%20cells%202013"
+        },
+        {
+            "id": "Chen_et+al_2004_a",
+            "alt_id": "3",
+            "entry": "Chen, C., Liaw, A., and Breiman, L. (2004). Using random forest to learn imbalanced data. University of California, Berkeley 110, 24.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20C.%20Liaw%2C%20A.%20Breiman%2C%20L.%20Using%20random%20forest%20to%20learn%20imbalanced%20data%202004"
+        },
+        {
+            "id": "Csardi_2006_a",
+            "alt_id": "4",
+            "entry": "Csardi, G., and Nepusz, T. (2006). The igraph software package for complex network research. InterJournal, complex systems 1695, 1-9.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Csardi%2C%20G.%20Nepusz%2C%20T.%20The%20igraph%20software%20package%20for%20complex%20network%20research.%20InterJournal%2C%20complex%20systems%202006"
+        },
+        {
+            "id": "Dimitrov_2004_a",
+            "alt_id": "5",
+            "entry": "Dimitrov, D.S. (2004). Virus entry: molecular mechanisms and biomedical applications. Nature Reviews Microbiology 2, 109-122.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Dimitrov%2C%20D.S.%20Virus%20entry%3A%20molecular%20mechanisms%20and%20biomedical%20applications%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Dimitrov%2C%20D.S.%20Virus%20entry%3A%20molecular%20mechanisms%20and%20biomedical%20applications%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Dimitrov%2C%20D.S.%20Virus%20entry%3A%20molecular%20mechanisms%20and%20biomedical%20applications%202004"
+        },
+        {
+            "id": "Free_et+al_2009_a",
+            "alt_id": "6",
+            "entry": "\u2010 Free, R.B., Hazelwood, L.A., and Sibley, D.R. (2009). Identifying novel protein protein interactions \u2010 using co immunoprecipitation and mass spectroscopy. Current protocols in neuroscience 46, 5.28.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Free%2C%20R.B.%20Hazelwood%2C%20L.A.%20Sibley%2C%20D.R.%20Identifying%20novel%20protein%20protein%20interactions%20%E2%80%90%20using%20co%20immunoprecipitation%20and%20mass%20spectroscopy.%20Current%20protocols%20in%20neuroscience%2046%202009"
+        },
+        {
+            "id": "14",
+            "alt_id": "Fu_et+al_2012_a",
+            "entry": "14. Fu, L., Niu, B., Zhu, Z., Wu, S., and Li, W. (2012). CD-HIT: accelerated for clustering the next-generation sequencing data. Bioinformatics 28, 3150-3152. Gupta, R., Jung, E., and Brunak, S. (2004). Prediction of N-glycosylation sites in human proteins.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fu%2C%20L.%20Niu%2C%20B.%20Zhu%2C%20Z.%20Wu%2C%20S.%20CD-HIT%3A%20accelerated%20for%20clustering%20the%20next-generation%20sequencing%20data%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fu%2C%20L.%20Niu%2C%20B.%20Zhu%2C%20Z.%20Wu%2C%20S.%20CD-HIT%3A%20accelerated%20for%20clustering%20the%20next-generation%20sequencing%20data%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fu%2C%20L.%20Niu%2C%20B.%20Zhu%2C%20Z.%20Wu%2C%20S.%20CD-HIT%3A%20accelerated%20for%20clustering%20the%20next-generation%20sequencing%20data%202012"
+        },
+        {
+            "id": "Hoffmann_et+al_2020_a",
+            "alt_id": "8",
+            "entry": "Hoffmann, M., Kleine-Weber, H., Krueger, N., Mueller, M.A., Drosten, C., and P\u00f6hlmann, S. (2020). The novel coronavirus 2019 (2019-nCoV) uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells. bioRxiv. Lasso, G., Mayer, S.V., Winkelmann, E.R., Chu, T., Elliot, O., Patino-Galindo, J.A., Park, K., Rabadan, R., Honig, B., and Shapira, S.D. (2019). A structure-informed atlas of human-virus interactions. Cell 178, 1526-1541. e1516.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hoffmann%20M%20KleineWeber%20H%20Krueger%20N%20Mueller%20MA%20Drosten%20C%20and%20P%C3%B6hlmann%20S%202020%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%20Lasso%20G%20Mayer%20SV%20Winkelmann%20ER%20Chu%20T%20Elliot%20O%20PatinoGalindo%20JA%20Park%20K%20Rabadan%20R%20Honig%20B%20and%20Shapira%20SD%202019%20A%20structureinformed%20atlas%20of%20humanvirus%20interactions%20Cell%20178%2015261541%20e1516",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hoffmann%20M%20KleineWeber%20H%20Krueger%20N%20Mueller%20MA%20Drosten%20C%20and%20P%C3%B6hlmann%20S%202020%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%20Lasso%20G%20Mayer%20SV%20Winkelmann%20ER%20Chu%20T%20Elliot%20O%20PatinoGalindo%20JA%20Park%20K%20Rabadan%20R%20Honig%20B%20and%20Shapira%20SD%202019%20A%20structureinformed%20atlas%20of%20humanvirus%20interactions%20Cell%20178%2015261541%20e1516",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hoffmann%20M%20KleineWeber%20H%20Krueger%20N%20Mueller%20MA%20Drosten%20C%20and%20P%C3%B6hlmann%20S%202020%20The%20novel%20coronavirus%202019%202019nCoV%20uses%20the%20SARScoronavirus%20receptor%20ACE2%20and%20the%20cellular%20protease%20TMPRSS2%20for%20entry%20into%20target%20cells%20bioRxiv%20Lasso%20G%20Mayer%20SV%20Winkelmann%20ER%20Chu%20T%20Elliot%20O%20PatinoGalindo%20JA%20Park%20K%20Rabadan%20R%20Honig%20B%20and%20Shapira%20SD%202019%20A%20structureinformed%20atlas%20of%20humanvirus%20interactions%20Cell%20178%2015261541%20e1516"
+        },
+        {
+            "id": "Li_2015_a",
+            "alt_id": "9",
+            "entry": "Li, F. (2015). Receptor recognition mechanisms of coronaviruses: a decade of structural studies. Journal of virology 89, 1954-1964.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20F.%20Receptor%20recognition%20mechanisms%20of%20coronaviruses%3A%20a%20decade%20of%20structural%20studies%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20F.%20Receptor%20recognition%20mechanisms%20of%20coronaviruses%3A%20a%20decade%20of%20structural%20studies%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20F.%20Receptor%20recognition%20mechanisms%20of%20coronaviruses%3A%20a%20decade%20of%20structural%20studies%202015"
+        },
+        {
+            "id": "Masson_et+al_2012_a",
+            "alt_id": "10",
+            "entry": "Masson, P., Hulo, C., De Castro, E., Bitter, H., Gruenbaum, L., Essioux, L., Bougueleret, L., Xenarios, I., and Le Mercier, P. (2012). ViralZone: recent updates to the virus knowledge resource. Nucleic acids research 41, D579-D583.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Masson%2C%20P.%20Hulo%2C%20C.%20De%20Castro%2C%20E.%20Bitter%2C%20H.%20ViralZone%3A%20recent%20updates%20to%20the%20virus%20knowledge%20resource%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Masson%2C%20P.%20Hulo%2C%20C.%20De%20Castro%2C%20E.%20Bitter%2C%20H.%20ViralZone%3A%20recent%20updates%20to%20the%20virus%20knowledge%20resource%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Masson%2C%20P.%20Hulo%2C%20C.%20De%20Castro%2C%20E.%20Bitter%2C%20H.%20ViralZone%3A%20recent%20updates%20to%20the%20virus%20knowledge%20resource%202012"
+        },
+        {
+            "id": "Minor_et+al_1984_a",
+            "alt_id": "11",
+            "entry": "Minor, P., Pipkin, P., Hockley, D., Schild, G., and Almond, J. (1984). Monoclonal antibodies which block cellular receptors of poliovirus. Virus research 1, 203-212.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Minor%2C%20P.%20Pipkin%2C%20P.%20Hockley%2C%20D.%20Schild%2C%20G.%20Monoclonal%20antibodies%20which%20block%20cellular%20receptors%20of%20poliovirus%201984",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Minor%2C%20P.%20Pipkin%2C%20P.%20Hockley%2C%20D.%20Schild%2C%20G.%20Monoclonal%20antibodies%20which%20block%20cellular%20receptors%20of%20poliovirus%201984",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Minor%2C%20P.%20Pipkin%2C%20P.%20Hockley%2C%20D.%20Schild%2C%20G.%20Monoclonal%20antibodies%20which%20block%20cellular%20receptors%20of%20poliovirus%201984"
+        },
+        {
+            "id": "Pedregosa_et+al_2011_a",
+            "alt_id": "12",
+            "entry": "Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., and Dubourg, V. (2011). Scikit-learn: Machine learning in Python. Journal of machine learning research 12, 2825-2830.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pedregosa%2C%20F.%20Varoquaux%2C%20G.%20Gramfort%2C%20A.%20Michel%2C%20V.%20Scikit-learn%3A%20Machine%20learning%20in%20Python%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pedregosa%2C%20F.%20Varoquaux%2C%20G.%20Gramfort%2C%20A.%20Michel%2C%20V.%20Scikit-learn%3A%20Machine%20learning%20in%20Python%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pedregosa%2C%20F.%20Varoquaux%2C%20G.%20Gramfort%2C%20A.%20Michel%2C%20V.%20Scikit-learn%3A%20Machine%20learning%20in%20Python%202011"
+        },
+        {
+            "id": "Petryszak_et+al_2016_a",
+            "alt_id": "13",
+            "entry": "Petryszak, R., Keays, M., Tang, Y.A., Fonseca, N.A., Barrera, E., Burdett, T., F\u00fcllgrabe, A., Fuentes, A.M.-P., Jupp, S., and Koskinen, S. (2016). Expression Atlas update\u2014an integrated database of gene and protein expression in humans, animals and plants. Nucleic acids research 44, D746-D752.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Petryszak%2C%20R.%20Keays%2C%20M.%20Tang%2C%20Y.A.%20Fonseca%2C%20N.A.%20Expression%20Atlas%20update%E2%80%94an%20integrated%20database%20of%20gene%20and%20protein%20expression%20in%20humans%2C%20animals%20and%20plants%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Petryszak%2C%20R.%20Keays%2C%20M.%20Tang%2C%20Y.A.%20Fonseca%2C%20N.A.%20Expression%20Atlas%20update%E2%80%94an%20integrated%20database%20of%20gene%20and%20protein%20expression%20in%20humans%2C%20animals%20and%20plants%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Petryszak%2C%20R.%20Keays%2C%20M.%20Tang%2C%20Y.A.%20Fonseca%2C%20N.A.%20Expression%20Atlas%20update%E2%80%94an%20integrated%20database%20of%20gene%20and%20protein%20expression%20in%20humans%2C%20animals%20and%20plants%202016"
+        },
+        {
+            "id": "Qi_et+al_2020_a",
+            "alt_id": "14",
+            "entry": "Qi, F., Qian, S., Zhang, S., and Zhang, Z. (2020). Single cell RNA sequencing of 13 human tissues identify cell types and receptors of human coronaviruses. bioRxiv.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Qi%2C%20F.%20Qian%2C%20S.%20Zhang%2C%20S.%20Zhang%2C%20Z.%20Single%20cell%20RNA%20sequencing%20of%2013%20human%20tissues%20identify%20cell%20types%20and%20receptors%20of%20human%20coronaviruses.%20bioRxiv%202020"
+        },
+        {
+            "id": "Ryu_2016_a",
+            "alt_id": "15",
+            "entry": "Ryu, W.-S. (2016). Molecular virology of human pathogenic viruses (Academic Press).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ryu%2C%20W.-S.%20Molecular%20virology%20of%20human%20pathogenic%20viruses%202016"
+        },
+        {
+            "id": "Szklarczyk_et+al_2015_a",
+            "alt_id": "16",
+            "entry": "Szklarczyk, D., Franceschini, A., Wyder, S., Forslund, K., Heller, D., Huerta-Cepas, J., Simonovic, M., Roth, A., Santos, A., and Tsafou, K.P. (2015). STRING v10: protein\u2013protein interaction networks, integrated over the tree of life. Nucleic acids research 43, D447-D452.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Szklarczyk%2C%20D.%20Franceschini%2C%20A.%20Wyder%2C%20S.%20Forslund%2C%20K.%20STRING%20v10%3A%20protein%E2%80%93protein%20interaction%20networks%2C%20integrated%20over%20the%20tree%20of%20life%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Szklarczyk%2C%20D.%20Franceschini%2C%20A.%20Wyder%2C%20S.%20Forslund%2C%20K.%20STRING%20v10%3A%20protein%E2%80%93protein%20interaction%20networks%2C%20integrated%20over%20the%20tree%20of%20life%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Szklarczyk%2C%20D.%20Franceschini%2C%20A.%20Wyder%2C%20S.%20Forslund%2C%20K.%20STRING%20v10%3A%20protein%E2%80%93protein%20interaction%20networks%2C%20integrated%20over%20the%20tree%20of%20life%202015"
+        },
+        {
+            "id": "Wang_2002_a",
+            "alt_id": "17",
+            "entry": "Wang, J.-h. (2002). Protein recognition by cell surface receptors: physiological receptors versus virus interactions. Trends in biochemical sciences 27, 122-126.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.-h%20Protein%20recognition%20by%20cell%20surface%20receptors%3A%20physiological%20receptors%20versus%20virus%20interactions%202002",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.-h%20Protein%20recognition%20by%20cell%20surface%20receptors%3A%20physiological%20receptors%20versus%20virus%20interactions%202002",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.-h%20Protein%20recognition%20by%20cell%20surface%20receptors%3A%20physiological%20receptors%20versus%20virus%20interactions%202002"
+        },
+        {
+            "id": "Wu_et+al_2020_a",
+            "alt_id": "18",
+            "entry": "Wu, A., Peng, Y., Huang, B., Ding, X., Wang, X., Niu, P., Meng, J., Zhu, Z., Zhang, Z., and Wang, J. (2020). Genome Composition and Divergence of the Novel Coronavirus (2019-nCoV) Originating in China. Cell Host & Microbe.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%2C%20A.%20Peng%2C%20Y.%20Huang%2C%20B.%20Ding%2C%20X.%20Genome%20Composition%20and%20Divergence%20of%20the%20Novel%20Coronavirus%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%2C%20A.%20Peng%2C%20Y.%20Huang%2C%20B.%20Ding%2C%20X.%20Genome%20Composition%20and%20Divergence%20of%20the%20Novel%20Coronavirus%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%2C%20A.%20Peng%2C%20Y.%20Huang%2C%20B.%20Ding%2C%20X.%20Genome%20Composition%20and%20Divergence%20of%20the%20Novel%20Coronavirus%202020"
+        },
+        {
+            "id": "Yan_et+al_2019_a",
+            "alt_id": "19",
+            "entry": "Yan, C., Duan, G., Wu, F.-X., and Wang, J. (2019). IILLS: predicting virus-receptor interactions based on similarity and semi-supervised learning. BMC bioinformatics 20, 651.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yan%2C%20C.%20Duan%2C%20G.%20Wu%2C%20F.-X.%20Wang%2C%20J.%20IILLS%3A%20predicting%20virus-receptor%20interactions%20based%20on%20similarity%20and%20semi-supervised%20learning%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yan%2C%20C.%20Duan%2C%20G.%20Wu%2C%20F.-X.%20Wang%2C%20J.%20IILLS%3A%20predicting%20virus-receptor%20interactions%20based%20on%20similarity%20and%20semi-supervised%20learning%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yan%2C%20C.%20Duan%2C%20G.%20Wu%2C%20F.-X.%20Wang%2C%20J.%20IILLS%3A%20predicting%20virus-receptor%20interactions%20based%20on%20similarity%20and%20semi-supervised%20learning%202019"
+        },
+        {
+            "id": "Zhang_et+al_2020_a",
+            "alt_id": "20",
+            "entry": "Zhang, H., Kang, Z., Gong, H., Xu, D., Wang, J., Li, Z., Cui, X., Xiao, J., Meng, T., and Zhou, W. (2020). The digestive system is a potential route of 2019-nCov infection: a bioinformatics analysis based on single-cell transcriptomes. BioRxiv.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%20H%20Kang%20Z%20Gong%20H%20Xu%20D%20Wang%20J%20Li%20Z%20Cui%20X%20Xiao%20J%20Meng%20T%20and%20Zhou%20W%202020%20The%20digestive%20system%20is%20a%20potential%20route%20of%202019nCov%20infection%20a%20bioinformatics%20analysis%20based%20on%20singlecell%20transcriptomes%20BioRxiv",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%20H%20Kang%20Z%20Gong%20H%20Xu%20D%20Wang%20J%20Li%20Z%20Cui%20X%20Xiao%20J%20Meng%20T%20and%20Zhou%20W%202020%20The%20digestive%20system%20is%20a%20potential%20route%20of%202019nCov%20infection%20a%20bioinformatics%20analysis%20based%20on%20singlecell%20transcriptomes%20BioRxiv",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%20H%20Kang%20Z%20Gong%20H%20Xu%20D%20Wang%20J%20Li%20Z%20Cui%20X%20Xiao%20J%20Meng%20T%20and%20Zhou%20W%202020%20The%20digestive%20system%20is%20a%20potential%20route%20of%202019nCov%20infection%20a%20bioinformatics%20analysis%20based%20on%20singlecell%20transcriptomes%20BioRxiv"
+        },
+        {
+            "id": "Zhang_et+al_2019_a",
+            "alt_id": "21",
+            "entry": "Zhang, Z., Zhu, Z., Chen, W., Cai, Z., Xu, B., Tan, Z., Wu, A., Ge, X., Guo, X., and Tan, Z. (2019). Cell membrane proteins with high n-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors. Bioinformatics 35, 723-728.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%2C%20Z.%20Zhu%2C%20Z.%20Chen%2C%20W.%20Cai%2C%20Z.%20Cell%20membrane%20proteins%20with%20high%20n-glycosylation%2C%20high%20expression%20and%20multiple%20interaction%20partners%20are%20preferred%20by%20mammalian%20viruses%20as%20receptors%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%2C%20Z.%20Zhu%2C%20Z.%20Chen%2C%20W.%20Cai%2C%20Z.%20Cell%20membrane%20proteins%20with%20high%20n-glycosylation%2C%20high%20expression%20and%20multiple%20interaction%20partners%20are%20preferred%20by%20mammalian%20viruses%20as%20receptors%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%2C%20Z.%20Zhu%2C%20Z.%20Chen%2C%20W.%20Cai%2C%20Z.%20Cell%20membrane%20proteins%20with%20high%20n-glycosylation%2C%20high%20expression%20and%20multiple%20interaction%20partners%20are%20preferred%20by%20mammalian%20viruses%20as%20receptors%202019"
+        },
+        {
+            "id": "Zhou_et+al_2020_a",
+            "alt_id": "22",
+            "entry": "Zhou, P., Yang, X.-L., Wang, X.-G., Hu, B., Zhang, L., Zhang, W., Si, H.-R., Zhu, Y., Li, B., and Huang, C.-L. (2020). A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature, 1-4.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhou%2C%20P.%20Yang%2C%20X.-L.%20Wang%2C%20X.-G.%20Hu%2C%20B.%20A%20pneumonia%20outbreak%20associated%20with%20a%20new%20coronavirus%20of%20probable%20bat%20origin%202020"
+        }
+    ],
+    "facts": [
+        "The virus receptor is key for viral infection of host cells",
+        "Identification of the virus receptor is still challenging at present",
+        "Our previous study has shown that human virus receptor proteins have some unique features including high level",
+        "a random-forest model to identify human virus receptorome from human cell membrane proteins with accepted accuracy based on combination of unique features",
+        "A total of 729 human cell membrane proteins were predicted to constitute the receptorome for the human-infecting virome",
+        "Combination of the random-forest model with protein-protein interactions between human and viruses predicted in previous studies further predicted receptors for 693 human-infecting viruses",
+        "Previous studies have shown that proteins",
+        "that were abundant in the host cell surface",
+        "relatively low affinity for their natural ligands were preferred by viruses as receptors",
+        "our recent study further showed that human virus protein receptors have higher level of N-glycosylation",
+        "high expressions in 32 common human tissues compared to other cell membrane proteins",
+        "human membrane proteins A total of 91 human virus protein receptors were obtained from the viralReceptor database developed in our previous study",
+        "human membrane proteins were obtained from the UniProtKB",
+        "Development of random-forest models for predicting receptorome of human-infecting virome Our previous studies have shown that human virus protein receptors have high level of N-glycosylation",
+        "the human virus receptor proteins from other human membrane proteins based on these protein features",
+        "The RF model built based on individual protein feature achieved an AUC ranging from",
+        "developed RF models to distinguish the human virus from other human membrane proteins based on protein sequences",
+        "two amino acids were used as features in the modeling",
+        "The RF model based on combination of 20 amino-acid frequencies achieved an AUC",
+        "the top N most important features were used in the modeling to reduce over-fitting",
+        "Figure S1 showed that the AUC of the RF models increased",
+        "ten features were used in the modeling to balance the model performance",
+        "Identification of receptors for human-infecting viruses is critical for understanding the interactions between viruses and human",
+        "Our previous studies have shown that human virus receptors have some unique features compared to other cell",
+        "which included a total of 729 human cell membrane proteins",
+        "A variable number of human cell membrane proteins were predicted to interact with viral RBPs",
+        "that the RF model may perform better than the LR",
+        "the RBP-interacting human cell membrane proteins predicted in Lasso's work enables prediction of receptors",
+        "a computational model to predict the receptorome of the human-infecting virome based on the features"
+    ],
+    "claims": [
+        "We developed a computational model to predict the receptorome of the human-infecting virome based on the features of human virus receptors and protein sequences",
+        "We also developed RF models to distinguish the human virus from other human membrane proteins based on protein sequences",
+        "We further investigated the prediction of virus-receptor interactions",
+        "We investigated the prediction of the alternative receptors for 2019-nCoV"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "Based on a collection of 119 mammalian virus receptors, our recent study further showed that human virus protein receptors have higher level of N-glycosylation, higher number of interaction partners in the human protein-protein interaction (PPI) network and high expressions in 32 common human tissues compared to other cell membrane proteins (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>)",
+        "Development of random-forest models for predicting receptorome of human-infecting virome Our previous studies have shown that human virus protein receptors have high level of N-glycosylation, high number of interaction partners in the human protein-protein interaction network, and high expressions in 32 common human tissues (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>)",
+        "To identify the potential receptors of human-infecting virome, we firstly built a RF model to distinguish the human virus receptor proteins from other human membrane proteins based on these protein features",
+        "Our previous studies have shown that human virus receptors have some unique features compared to other cell membrane proteins: high level of N-glycosylation, high number of interaction partners and high expressions",
+        "Based on the RF model, the receptorome for human-infecting virome were predicted which included a total of 729 human cell membrane proteins",
+        "A variable number of human cell membrane proteins were predicted to interact with viral receptor-binding proteins",
+        "The RF model was found to rank the real receptors better than the likelihood ratio in a small validation dataset, suggesting that the RF model may perform better than the likelihood ratio in selecting the real receptors from the predicted receptor-binding proteins-interacting human cell membrane proteins"
+    ],
+    "top_statements": [
+        "Receptor-binding is the first step for viral infection of host cells",
+        "Based on a collection of 119 mammalian virus receptors, our recent study further showed that human virus protein receptors have higher level of N-glycosylation, higher number of interaction partners in the human protein-protein interaction (PPI) network and high expressions in 32 common human tissues compared to other cell membrane proteins (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>)",
+        "Development of random-forest models for predicting receptorome of human-infecting virome Our previous studies have shown that human virus protein receptors have high level of N-glycosylation, high number of interaction partners in the human protein-protein interaction network, and high expressions in 32 common human tissues (<a class=\"ref-link\" id=\"cZhang_et+al_2019_a\" href=\"#rZhang_et+al_2019_a\">Zhang et al, 2019</a>)",
+        "Our previous studies have shown that human virus receptors have some unique features compared to other cell membrane proteins: high level of N-glycosylation, high number of interaction partners and high expressions",
+        "Based on the RF model, the receptorome for human-infecting virome were predicted which included a total of 729 human cell membrane proteins",
+        "The RF model was found to rank the real receptors better than the likelihood ratio in a small validation dataset, suggesting that the RF model may perform better than the likelihood ratio in selecting the real receptors from the predicted receptor-binding proteins-interacting human cell membrane proteins"
+    ],
+    "headline": "Our previous studies have shown that human virus receptors have some unique features compared to other cell membrane proteins: high level of N-glycosylation, high number of interaction partners and high expressions",
+    "contexts": [],
+    "abbreviations": {
+        "PPI": "protein-protein interaction",
+        "RBPs": "receptor-binding proteins",
+        "PCA": "principal component analysis",
+        "AUC": "area under receiver operating characteristics curve",
+        "LR": "likelihood ratio"
+    }
+}

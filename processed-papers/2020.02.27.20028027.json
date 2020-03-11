@@ -1,0 +1,584 @@
+{
+    "filename": "2020.02.27.20028027.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1243893,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.27.20028027",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/03/03/2020.02.27.20028027.full.pdf"
+        },
+        "title": "Prediction of criticality in patients with severe Covid-19 infection using three clinical features: a machine learning-based prognostic model with clinical data in Wuhan",
+        "author": "Li Yan, Hai-Tao Zhang, Yang Xiao, Maolin Wang, Chuan Sun, Jing Liang, Shusheng Li, Mingyang Zhang, Yuqi Guo, Ying Xiao, Xiuchuan Tang, Haosen Cao, Xi Tan, Niannian Huang, Bo Jiao, Ailin Luo, Zhiguo Cao, Hui Xu, Ye Yuan",
+        "date": 2020,
+        "affiliations": [
+            "Department of Emergency, Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology",
+            "School of Artificial Intelligence and Automation, Huazhong University of Science and Technology",
+            "School of Mechanical Science and Engineering, Huazhong University of Science and Technology",
+            "Department of Anesthesiology, Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology",
+            "Department of Information Management, Tongji Hospital of Tongji Medical College, Huazhong University of Science and",
+            "Huazhong University of Science and Technology-Wuxi Research Institute",
+            "School of Information Science and Engineering, Wuhan University of Science and Technology",
+            "Tongji Hospital from January 10th to February 18th, 2020. There were 375 discharged patients including 201 survivors. We built a prognostic prediction model based on XGBoost machine learning algorithm and then tested 29 patients (included 3 patients from other hospital) who were cleared after February 19th."
+        ],
+        "abstract": "Abstract: Background: COVID-19 appeared in Wuhan, China in December 2019, and since then it has immediately become a serious public health problem worldwide. No specific medicine against COVID-19 has been found until now. However, mortality risk in patients could potentially be predicted before they transmit to critically ill.",
+        "keywords": [
+            "COVID-19",
+            "Machine Learning",
+            "Clinical Route"
+        ],
+        "references": "@article{huang2020a,\n  author = {Huang, C. and Wang, Y. and Li, X. and Ren, L. and Zhao, J. and Hu, Y. and Zhang, L. and Fan, G. and Xu, J. and Gu, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in wuhan, china},\n  journal = {The Lancet},\n  volume = {395},\n  pages = {497\u2013506},\n  date = {2020},\n  more-authors = {true},\n  number = {10223},\n  language = {}\n}\n@article{chen-a,\n  author = {Chen, N. and Zhou, M. and Dong, X. and Qu, J. and Gong, F. and Han, Y. and Qiu, Y. and Wang, J. and Liu, Y. and Wei, Y.},\n  title = {Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in wuhan, china: a descriptive study},\n  journal = {The Lancet},\n  volume = {2020},\n  pages = {507\u2013513},\n  more-authors = {true},\n  number = {395},\n  language = {}\n}\n@article{yang2020a,\n  author = {Yang*, X. and Yu*, Y. and Xu*, J. and Shu*, H. and Xia*, J.A. and Liu*, H. and Wu, Y. and Zhang, L. and Yu, Z. and Fang, M. and Yu, T. and Wang, Y. and Pan, S. and Zou, X. and Yuan, S. and Shang, Y.},\n  journal = {Lancet Respir Med},\n  date = {2020-02-24},\n  volume = {20},\n  doi = {doi},\n  publisher = {10.1016/S2213-2600(20)30079-5. [Epub ahead of print},\n  number = {30079-5},\n  language = {}\n}\n@misc{unknown-a,\n  title = {Diagnosis and treatment of pneumonia infected by the new novel coronavirus (the trial fifth edition). National Health Commission of the people\u2019s Republic of China, The medical letter from the National Health Office, 2020. Nr.103},\n  language = {}\n}\n@misc{chen2016a,\n  author = {Chen, T. and Guestrin, C.},\n  title = {Xgboost: A scalable tree boosting system. arxiv e-prints},\n  edition = {arXiv preprint arXiv: 1603.02754},\n  date = {2016},\n  language = {}\n}\n@article{wang2020a,\n  author = {Wang, D. and Hu, B. and Hu, C. and Zhu, F. and Liu, X. and Zhang, J. and Wang, B. and Xiang, H. and Cheng, Z. and Xiong, Y.},\n  title = {Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus\u2013infected pneumonia in wuhan, china},\n  journal = {Jama},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{xu2020a,\n  author = {Xu, Z. and Shi, L. and Wang, Y. and Zhang, J. and Huang, L. and Zhang, C. and Liu, S. and Zhao, P. and Liu, H. and Zhu, L.},\n  title = {Pathological findings of covid-19 associated with acute respiratory distress syndrome},\n  journal = {The Lancet. Respiratory medicine},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{liu2020a,\n  author = {Liu, X. and Wang, R.S. and Qu, G.Q.},\n  title = {A general report on the systematic anatomy of COVID-19},\n  journal = {Journal of Forensic Medicine},\n  volume = {36},\n  pages = {1\u20133},\n  date = {2020},\n  more-authors = {true},\n  number = {1},\n  language = {}\n}\n@article{kishaba2014a,\n  author = {Kishaba, T. and Tamaki, H. and Shimaoka, Y. and Fukuyama, H. and Yamashiro, S.},\n  title = {Staging of acute exacerbation in patients with idiopathic pulmonary fibrosis},\n  journal = {Lung},\n  volume = {192},\n  pages = {141\u2013149},\n  date = {2014},\n  number = {1},\n  language = {}\n}\n@article{p2008a,\n  author = {},\n  title = {Rosuvastatin to prevent vascular events in men and women with elevated C-reactive protein},\n  journal = {N Engl J Med},\n  date = {2008},\n  volume = {359},\n  pages = {2195\u2013207},\n  more-authors = {true},\n  language = {}\n}\n@article{surendra2016a,\n  author = {Surendra, K.S. and Anunay, G. and Ashutosh, B.},\n  title = {Aetiology, outcomes & predictors of mortality in acute respiratory distress syndrome from a tertiary care centre in north India},\n  journal = {Indian J Med Res},\n  date = {2016-06},\n  pages = {782\u2013792},\n  more-authors = {true},\n  language = {}\n}\n@article{bajwa2009a,\n  author = {Bajwa, E.K. and Khan, U.A. and Januzzi, J.L. and Gong, M.N.},\n  title = {Plasma C-reactive protein levels are associated with improved outcome in ARDS},\n  journal = {Chest},\n  date = {2009},\n  volume = {136},\n  pages = {471\u201380},\n  more-authors = {true},\n  language = {}\n}\n@article{chan-a,\n  author = {Chan, J.F. and Yuan, S. and Kok, K.H.},\n  title = {A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-toperson transmission: a study of a family cluster},\n  journal = {Lancet},\n  volume = {2020},\n  pages = {514\u201323},\n  more-authors = {true},\n  number = {395},\n  language = {}\n}\n@misc{li2005a,\n  author = {Li, F.},\n  title = {Structure of SARS coronavirus spike receptor-binding domain complexed with receptor},\n  date = {2005},\n  volume = {309},\n  pages = {1864\u20131868},\n  more-authors = {true},\n  number = {5742},\n  language = {}\n}\n@misc{ge2013a,\n  author = {Ge, X.-Y.},\n  title = {Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor},\n  date = {2013},\n  pages = {503\u20137477},\n  more-authors = {true},\n  language = {}\n}\n@misc{liu-a,\n  author = {Liu, Jing and Li, Sumeng and Liu, Jia and Liang, Boyun and Wang, Xiaobei and Wang, Hua and Li, Wei and Tong, Qiaoxia and JianhuaYi, Lei Zhao and Xiong, Lijuan and Guo, Chunxia and Tian, Jin and Luo, Jinzhuo and g Yao, Jinghon and Pang, Ran and Shen, Hui and Peng, Cheng and Liu, Ting and Zhang, Qian and Wu, Jun and Xu, Ling and g Lu, Sihon and Wang, Baoju and Weng, Zhihong and Han, Chunrong and Zhu, Huabing and Zhou, Ruxia and hou, Helong Z. and Chen, Xiliu and Ye, Pian and Zhu, Bin and ShengsongHe, Yongwen He and Jie, Shenghua and i, Ping We and Zhang, Jianao and Lu, Yinping and Wang, Weixian and Zhang, Li and Li, Ling and Zhou, Fengqin},\n  date = {Jun},\n  title = {Wan g, Ulf Dittmer, Mengji Lu, Yu Hu, Dongliang Yang, Xin Zheng. Longitudinal characteri -stics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2infected patients. medRxiv 2020.02. 16.20023671},\n  doi = {Doi},\n  url = {https://doi.org/10.1101/2020.02.16.20023671.},\n  language = {}\n}\n",
+        "emails": [
+            "yye@hust.edu.cn",
+            "sophia_wh@hotmail.com"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nAU  - Ren, L.\nAU  - Zhao, J.\nAU  - Hu, Y.\nAU  - Zhang, L.\nAU  - Fan, G.\nAU  - Xu, J.\nAU  - Gu, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in wuhan, china\nT2  - The Lancet\nVL  - 395\nSP  - 497\nEP  - 506\nPY  - 2020\nDA  - 2020\nC1  - true\nIS  - 10223\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, N.\nAU  - Zhou, M.\nAU  - Dong, X.\nAU  - Qu, J.\nAU  - Gong, F.\nAU  - Han, Y.\nAU  - Qiu, Y.\nAU  - Wang, J.\nAU  - Liu, Y.\nAU  - Wei, Y.\nTI  - Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in wuhan, china: a descriptive study\nT2  - The Lancet\nVL  - 2020\nSP  - 507\nEP  - 513\nC1  - true\nIS  - 395\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yang*, X.\nAU  - Yu*, Y.\nAU  - Xu*, J.\nAU  - Shu*, H.\nAU  - Xia*, J.A.\nAU  - Liu*, H.\nAU  - Wu, Y.\nAU  - Zhang, L.\nAU  - Yu, Z.\nAU  - Fang, M.\nAU  - Yu, T.\nAU  - Wang, Y.\nAU  - Pan, S.\nAU  - Zou, X.\nAU  - Yuan, S.\nAU  - Shang, Y.\nT2  - Lancet Respir Med\nPY  - 2020\nDA  - 2020/02/24\nVL  - 20\nDO  - doi\nPB  - 10.1016/S2213-2600(20)30079-5. [Epub ahead of print\nIS  - 30079-5\nLA  - \nER  - \n\nTY  - GEN\nTI  - Diagnosis and treatment of pneumonia infected by the new novel coronavirus (the trial fifth edition). National Health Commission of the people\u2019s Republic of China, The medical letter from the National Health Office, 2020. Nr.103\nLA  - \nER  - \n\nTY  - GEN\nAU  - Chen, T.\nAU  - Guestrin, C.\nTI  - Xgboost: A scalable tree boosting system. arxiv e-prints\nET  - arXiv preprint arXiv: 1603.02754\nPY  - 2016\nDA  - 2016\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, D.\nAU  - Hu, B.\nAU  - Hu, C.\nAU  - Zhu, F.\nAU  - Liu, X.\nAU  - Zhang, J.\nAU  - Wang, B.\nAU  - Xiang, H.\nAU  - Cheng, Z.\nAU  - Xiong, Y.\nTI  - Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus\u2013infected pneumonia in wuhan, china\nT2  - Jama\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xu, Z.\nAU  - Shi, L.\nAU  - Wang, Y.\nAU  - Zhang, J.\nAU  - Huang, L.\nAU  - Zhang, C.\nAU  - Liu, S.\nAU  - Zhao, P.\nAU  - Liu, H.\nAU  - Zhu, L.\nTI  - Pathological findings of covid-19 associated with acute respiratory distress syndrome\nT2  - The Lancet. Respiratory medicine\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Liu, X.\nAU  - Wang, R.S.\nAU  - Qu, G.Q.\nTI  - A general report on the systematic anatomy of COVID-19\nT2  - Journal of Forensic Medicine\nVL  - 36\nSP  - 1\nEP  - 3\nPY  - 2020\nDA  - 2020\nC1  - true\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kishaba, T.\nAU  - Tamaki, H.\nAU  - Shimaoka, Y.\nAU  - Fukuyama, H.\nAU  - Yamashiro, S.\nTI  - Staging of acute exacerbation in patients with idiopathic pulmonary fibrosis\nT2  - Lung\nVL  - 192\nSP  - 141\nEP  - 149\nPY  - 2014\nDA  - 2014\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Rosuvastatin to prevent vascular events in men and women with elevated C-reactive protein\nT2  - N Engl J Med\nPY  - 2008\nDA  - 2008\nVL  - 359\nSP  - 2195\nEP  - 207\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Surendra, K.S.\nAU  - Anunay, G.\nAU  - Ashutosh, B.\nTI  - Aetiology, outcomes & predictors of mortality in acute respiratory distress syndrome from a tertiary care centre in north India\nT2  - Indian J Med Res\nPY  - 2016\nDA  - 2016/06\nSP  - 782\nEP  - 792\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bajwa, E.K.\nAU  - Khan, U.A.\nAU  - Januzzi, J.L.\nAU  - Gong, M.N.\nTI  - Plasma C-reactive protein levels are associated with improved outcome in ARDS\nT2  - Chest\nPY  - 2009\nDA  - 2009\nVL  - 136\nSP  - 471\nEP  - 80\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chan, J.F.\nAU  - Yuan, S.\nAU  - Kok, K.H.\nTI  - A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-toperson transmission: a study of a family cluster\nT2  - Lancet\nVL  - 2020\nSP  - 514\nEP  - 23\nC1  - true\nIS  - 395\nLA  - \nER  - \n\nTY  - GEN\nAU  - Li, F.\nTI  - Structure of SARS coronavirus spike receptor-binding domain complexed with receptor\nPY  - 2005\nDA  - 2005\nVL  - 309\nSP  - 1864\nEP  - 1868\nC1  - true\nIS  - 5742\nLA  - \nER  - \n\nTY  - GEN\nAU  - Ge, X.-Y.\nTI  - Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor\nPY  - 2013\nDA  - 2013\nSP  - 503\nEP  - 7477\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Liu, Jing\nAU  - Li, Sumeng\nAU  - Liu, Jia\nAU  - Liang, Boyun\nAU  - Wang, Xiaobei\nAU  - Wang, Hua\nAU  - Li, Wei\nAU  - Tong, Qiaoxia\nAU  - JianhuaYi, Lei Zhao\nAU  - Xiong, Lijuan\nAU  - Guo, Chunxia\nAU  - Tian, Jin\nAU  - Luo, Jinzhuo\nAU  - g Yao, Jinghon\nAU  - Pang, Ran\nAU  - Shen, Hui\nAU  - Peng, Cheng\nAU  - Liu, Ting\nAU  - Zhang, Qian\nAU  - Wu, Jun\nAU  - Xu, Ling\nAU  - g Lu, Sihon\nAU  - Wang, Baoju\nAU  - Weng, Zhihong\nAU  - Han, Chunrong\nAU  - Zhu, Huabing\nAU  - Zhou, Ruxia\nAU  - hou, Helong Z.\nAU  - Chen, Xiliu\nAU  - Ye, Pian\nAU  - Zhu, Bin\nAU  - ShengsongHe, Yongwen He\nAU  - Jie, Shenghua\nAU  - i, Ping We\nAU  - Zhang, Jianao\nAU  - Lu, Yinping\nAU  - Wang, Weixian\nAU  - Zhang, Li\nAU  - Li, Ling\nAU  - Zhou, Fengqin\nPY  - Jun\nDA  - Jun\nTI  - Wan g, Ulf Dittmer, Mengji Lu, Yu Hu, Dongliang Yang, Xin Zheng. Longitudinal characteri -stics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2infected patients. medRxiv 2020.02. 16.20023671\nDO  - Doi\nUR  - https://doi.org/10.1101/2020.02.16.20023671.\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [
+            "In summary, in this study, we have identified three indicators (LDH, hs-CRP, and lymphocytes) and even found the early warning thresholds (LDH: 365U/l, hs-CRP: 41.2mg/L, and lymphocytes%: 14.7%) for COVID-19 prognostic prediction and developed an XGBoost machine learning-based prognostic model that can precisely predict the survival rates of severe patients with more than 90% accuracy, enabling the early detection, the early intervention and the reduction of mortality in high-risk patients with COVID-19. From technical point of view, this work helps pave the way for using machine learning method in COVID-19 prediction and diagnosis in the triage of the large scale explosive epidemic COVID-19 cases. Further studies are needed to consider more clinical confounding factors and to increase the sample size for further refining our model."
+        ],
+        "table_captions": [
+            {
+                "id": "Supplementary 1",
+                "caption": "Performance of the Multi-tree XGBoost algorithm on training dataset"
+            },
+            {
+                "id": "Supplementary 3",
+                "caption": "Performance of the proposed algorithm on training dataset for Single-tree XGBoost"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "A flowchart of patient enrollment"
+            },
+            {
+                "id": "2",
+                "caption": "Flowchart of the XGBoost machine learning algorithm. Model Training (Multi-tree XGBoost): Randomly split the selected two-class data into a training set and a validation set, according to the ratio of 7:3. Multi-tree XGBoost was trained with the parameters setting as the max depth with 4, the learning rate was equal 0.2, the tress number of estimators was set to 150, the value of the regularization parameter \u03b1 was set to 1 and the \u2018subsample\u2019 and \u2018colsample_bytree\u2019 both were set to 0.9 to prevent overfitting when there were many features but the sample size was not large[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Feature Selection: Key features were ranked by Multi-tree XGBoost according to their importance (Supplementary Figure 1). Supplementary Algorithm 1 was applied to select three key features"
+            },
+            {
+                "id": "3",
+                "caption": "Establishing a decision rule using three key features. Num represents the number of patients, T represents the number of corrected classified patients while F represents the number of misclassified patients"
+            },
+            {
+                "id": "Supplementary 1",
+                "caption": "Top ten key clinical features that are ranked according to its importance in the XGBoost algorithm"
+            },
+            {
+                "id": "Supplementary 2",
+                "caption": "Illustration of F1 scores using Supplementary Algorithm 1"
+            },
+            {
+                "id": "Supplementary 3",
+                "caption": "Confusion matrix for the testing dataset using multi-tree XGBoost algorithm"
+            },
+            {
+                "id": "Supplementary 4",
+                "caption": "Confusion matrix for the testing dataset using Single-tree XGBoost algorithm"
+            },
+            {
+                "id": "Supplementary 5",
+                "caption": "Single-tree structure"
+            },
+            {
+                "id": "Supplementary 6",
+                "caption": "Visualization of data over three selected features"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.02.27.20028027.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.20028027.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.20028027.full/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.20028027.full/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.20028027.full/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.20028027.full/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.20028027.full/img-014.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.20028027.full/img-016.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.27.20028027.full/img-018.png"
+        ]
+    },
+    "sections": {
+        "methods": [
+            "We screened the electronic records of 2,799 patients admitted in Tongji Hospital from January 10th to February 18th, 2020. There were 375 discharged patients including 201 survivors. We built a prognostic prediction model based on XGBoost machine learning algorithm and then tested 29 patients (included 3 patients from other hospital) who were cleared after February 19th.",
+            "Data resources<br/><br/>For this retrospective, single-center study, we collected the electronic records of 2,779 validated or suspected COVID-19 patients from January 10th to February 18th, 2020 at Tongji Hospital in Wuhan, China. We distilled epidemiological, demographic, clinical, laboratory, drugs, nursing record, and outcome data from electronic medical record. The clinical outcomes were followed up to February 18th.The study was approved by the Tongji Hospital Ethics Committee.<br/><br/>As shown in Figure 1, of the 2,779 individuals retained in our hospital, 2,259 cases were excluded as they were still in treatment before February 19th, 2020. Per the other 520 cases, 375 ones including 201 survivors have complete data materials. Pregnant or breast-feeding women, younger than 18 years old were excluded."
+        ],
+        "results": [
+            "The mean age of the 375 patients was 58.83 years old with 58.7% of males. Fever was the most common initial symptom (49.9%), followed by cough (13.9%), fatigue (3.7%), and dyspnea (2.1%). Our model identified three key clinical features, i.e., lactic dehydrogenase (LDH), lymphocyte and High-sensitivity C-reactive protein (hs-CRP), from a pool of more than 300 features. The clinical route is simple to check and can precisely and quickly assess the risk of death. Therefore, it is of great clinical significance.",
+            "Characteristics of the 375 patients<br/><br/>The mean age of the 375 patients was 58.83\u00b116.46 years old with 58.7% of males. Fever was the most common initial symptom (49.9%), followed by cough (13.9%), fatigue (3.7%), and dyspnea (2.1%). The epidemiological history included Wuhan residents (37.9%), familial cluster (6.4%), and health workers (only 1.9%). Of the 375 patients, 46.1% were critical patients.<br/><br/>Table 1Clinical characteristics of the studied patients.    Items"
+        ],
+        "conclusion": [
+            "The three indices-based prognostic prediction model we built is able to predict the mortality risk, and present a clinical route to the recognition of critical cases from severe cases. It can help doctors with early identification and intervention, thus potentially reducing mortality.<br/><br/>Keywords: COVID-19, Machine Learning, Clinical Route."
+        ],
+        "funding": [
+            "None. Author\u2019s contribution: L. Y. collected data; M. W., C. S., Y. G., X. T., H. Z., Y. X., Z. C., L. Y., H. X., Y. Y. discussed about the research; Y. Y., M. W., Y. G. discovered key features and clinical route; L. Y., H. Z., Y. X., H. X., Y. Y. drafted the manuscript; all authors provided critical review of the manuscript and approved the final draft for publication."
+        ],
+        "disclosures": [
+            "None declared."
+        ],
+        "introduction": [
+            "The outbreaks of COVID-19 epidemic has caused worldwide health concerns since December, 2019. It has been shown in literature [1, Error! Reference source not found.] that 26.1-32.0% of COVID-19 patients would develop to critically ill cases. Moreover, Yang et al [Error! Reference source not found.] reported that the fatal rate of critically ill patients is astonishingly 61.5%. However, it is arduous to identify these patients manually from the infectious crowds. Hence, it is becoming an urgent yet challenging mission to identify the critically ill cases form the infectious crowds using clinical data with the assistance of machine learning approaches. Such a developed prognostic model could offer early treatment to critical patients, thus potentially reducing mortality."
+        ],
+        "ethical_compliance": [
+            "Data collection and analysis of cases and close contacts were approved by the Ethical Committee of Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology."
+        ],
+        "discussion": [
+            "Precision 1.00 0.89    Recall 0.83 1.00<br/><br/>Coronavirus is prevalent in China and all over the world, with high morbidity and high mortality in critically ill patients. According to the recent reports [26], old patients are more prone to be infected by COVID-19, especially for those with underlying diseases. The severity of patients is applying great pressure on the shortage of intensive care resources. Unfortunately, so far, specific clinical features of COVID-19 pneumonia in different critical stages remain still unclear. Under this circumstance, novel approaches based on feature data to help clinicians to identify high-risk patients as early as possible, to improve the prognosis of patients and to reduce the mortality of critically ill patients, are highly demanded and are of clinical significance. In this study, we used XGBoost machine learning method to establish a predictive model for early identification of critically ill patients based on the epidemiological and clinical data of 375 patients with COVID-19 infection in Tongji Hospital of Wuhan. The working mechanism of the XGBoost-based machine learning model is that it is detailed with quantitatively sorting clinical features accordingly to their criticality, then sorting out revealed features, and giving the interpretable clinical route. Inspiringly, with the assistance of such a model, we have extracted merely three key clinical features from all the 300+ features, i.e., LDH, hs-CRP and lymphocyte, which can precisely predict the survival with more than 90% accuracy. These three indexes correspond to the most important factors such as cell injury, cellular immunity and inflammation in the pathophysiological progress of COVID-19."
+        ],
+        "supplementary": [
+            "Information<br/><br/>In the Supplementary Information, we shall illustrate data analysis using a step-bystep procedure below: Step1. Obtain the Top10 features using 375 samples with all features: Supplementary Figure 1: Top ten key clinical features that are ranked according to its importance in the XGBoost algorithm.<br/><br/>XGBoost Trees with 375 samples (all features): XGBoost is trained with the parameters setting as the max depth with 4, the learning rate is equal 0.2, the tress number of estimators is set to 150, the value of the regularization parameter \u03b1 is set to 1, the \u2018subsample\u2019 and \u2018colsample_bytree\u2019 both are set to 0.9 to prevent overfitting when there are many features and the sample size is not large.<br/><br/>Step 2. Reduce the number of features used: Supplementary Algorithm 1: Algorithm 1 Feature selection Input: The training set of {#$%&'( \u2208 *(+\u00d7-, /$%&'( \u2208 [0,1]4+} , the validation set of {#7&8'9&$':( \u2208 *(;\u00d7-, /7&8'9&$':( \u2208 [0,1]4;} ,where <= and <> are the number of samples in the training set and validation set, respectively , m is the number of features, and /$%&'( , /7&8'9&$':( are the true labels of the training set and validation set samples, respectively . The all features name list ?&88 with is sort by the importance of XGBoost model. Output: The selected features name list ?@A8AB$A9C8&@$. Step 1 Initialization 1) i = 0, ?1@B:%AC8&@$ = 0, ?@A8AB$A9 = [], ?@A8AB$A9C8&@$ = [], threshold = 0. Step 2 Feature selection",
+            "Figure 2: Illustration of F1 scores using Supplementary Algorithm 1.<br/><br/>XGBoost Trees with 375 samples (Top-features): XGBoost is trained with the parameters setting as the max depth with 4, the learning rate is equal 0.2, the value of the regularization parameter \u03b1 is set to 1.<br/><br/>Step 3. The results on the Multi-tree XGBoost with Top3 features selected in Step 2 (375 samples).",
+            "Figure 3: Confusion matrix for the testing dataset using multi-tree XGBoost algorithm.",
+            "Table 1. Performance of the Multi-tree XGBoost algorithm on training dataset.    Precision Recall    F1-score    Support    Survival    Death    0.97 accuracy<br/><br/>0.97 macro avg 0.97<br/><br/>0.97 weighted avg 0.97",
+            "Table 2Performance of the Multi-tree XGBoost algorithm on validation dataset.    Precision    Recall<br/><br/>Step 4. Reduce number of tree to 1, which leads to Single-tree XGBoost (Because the samples are missing in some features, there are 24 samples with at least one feature missing in Top3 features. In order to obtain a better decision tree rule, we deleted these samples in the one-tree, so we get the 351 patient-samples.)<br/><br/>XGBoost one-tree with 351 samples (Top3 features): XGBoost is trained with the parameter setting as the tress number of estimators is set to 1, the values of the two regularization parameters \u03b1 and \u03b2 are both set to 0, the subsample and max features both are set to 1.",
+            "Figure 4: Confusion matrix for the testing dataset using Single-tree XGBoost algorithm.",
+            "Table 3. Performance of the proposed algorithm on training dataset for Single-tree XGBoost.    0.99 accuracy    0.99 macro avg<br/><br/>0.99 weighted avg 0.99",
+            "Table 4Performance of the proposed algorithm on validation dataset for Single-tree XGBoost.    0.95 accuracy<br/><br/>0.95 macro avg weighted avg 0.95",
+            "Figure 5: Single-tree structure: Supplementary Figure 6: Visualization of data over three selected features."
+        ],
+        "limitations": [
+            "This study has several notable limitations. First of all, since the proposed machine learning method is purely data driven, its model may vary given a different set of training and validation dataset. Given the limit number of samples in this study, we strike a balance between model complexity and performance. Yet the whole procedure should follow when more data is available. Secondly, this is a single-centered, retrospective study, which provides a preliminary assessment of the clinical course and outcome of severe patients. Although this database covers more than 3,000 patients, most clinical outcomes have not yet been released. As we have a pool of more than 300 clinical measurements, here our modeling principle is a trade-off between the minimal number of features and the capacity of good prediction. Obviously, if a larger number of features are selected, the model may perform better. In this regard, we look forward to subsequent large sample and multicenter studies."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary information"
+            ],
+            "supplementary_figure_references": [
+                "Supplementary Figure 1",
+                "Supplementary Figure 2",
+                "Supplementary Figure 6",
+                "Supplementary Figure 2,",
+                "Supplementary Figure 3",
+                "Supplementary Table 1.",
+                "Supplementary Table 2Performance",
+                "Supplementary Figure 4",
+                "Supplementary Table 3.",
+                "Supplementary Table 4Performance",
+                "Supplementary Figure 5"
+            ]
+        }
+    },
+    "structured_content": {
+        "Methods": [
+            "For this retrospective, single-center study, we collected the electronic records of 2,779 validated or suspected COVID-19 patients from January 10th to February 18th, 2020 at Tongji Hospital in Wuhan, China. We distilled epidemiological, demographic, clinical, laboratory, drugs, nursing record, and outcome data from electronic medical record. The clinical outcomes were followed up to February 18th.The study was approved by the Tongji Hospital Ethics Committee.",
+            "As shown in Figure 1, of the 2,779 individuals retained in our hospital, 2,259 cases were excluded as they were still in treatment before February 19th, 2020. Per the other 520 cases, 375 ones including 201 survivors have complete data materials. Pregnant or breast-feeding women, younger than 18 years old were excluded.",
+            "After February 19th, 2020, there were 26 new cleared severe patients, which were thus picked for the test together with other 3 cleared severe patients from Ying Cheng People\u2019s Hospital for testing. Note that all types of patients were included as samples for the study, whereas only severe patients were selected for testing.",
+            "Case definitions We apply the following diagnostic criteria [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]: 1) Epidemiological history: Traveled or lived in Wuhan within 14 days before onset; Had contact with patients with fever and respiratory symptoms from Wuhan within 14 days before onset; Had contact with COVID-19 patients (positive for COVID-19 nucleic acid) within 14 days before onset; Or part of a familial cluster of onsets; 2) Clinical manifestations: Fever and/or respiratory symptoms; Normal or decreased total white blood cell count or decreased lymphocyte count during early stage of onset; Typical imaging features.",
+            "Subjects that meet any one epidemiological history or meet two clinical manifestations without epidemiological history are defined as suspected cases. Suspected cases with one of the following etiological evidence are defined as validated cases: 1) SARS-CoV-2 nucleic acid is positive in respiratory or blood samples detected by RT-PCR; 2) virus sequence detected in respiratory or blood samples shares high homology with the known sequence of SARS-CoV-2.",
+            "A case with one of the three following conditions is defined as critical case: 1) shock, 2) need mechanical ventilation and 3) admitted into ICU because of MODS. Severe case is defined as those who exhibit RR\u226530bpm or SPO2 \u226493% on rest.",
+            "The valid data after verification using Excel 2016 input was recovered, and double checked through SPSS 26.0 analysis data. The continuity variables of normal distribution were described by mean \u00b1 standard deviation, and the continuity variables of non-normal distribution were described by median and quartile.",
+            "First, the general data was tested for normality. The Kolmogorov-Smirnov test (K-S test for short) was used to examine whether the single sample is from a particular distribution, and then the single sample K-S test was used to test the normality of the general data. The test level \u03b1=0.05, and P <0.05 indicate that the sample does not fit a normal distribution. Because age, total protein, albumin, and calcium content satisfy normal distribution, after testing, mean \u00b1 standard deviation was used to describe their concentration trend. As other continuous variables are non-normal distribution, median was used to describe their concentration trend.",
+            "The performance of the model was first evaluated by assessing its predicted classification accuracy, and equaling the ratio of the test samples predicted correctly. The precision, sensitivity/recall and F1 score of each class are defined as below, in which n \u2208 N represents the class, TP, TN, FP, and FN stand for true positive, true negative, false positive and false negative rates respectively: Precesion+",
+            "-. -./0.",
+            "Modeling and analysis of machine learning algorithm were performed using Python.",
+            "In this study, a supervised XGBoost classifier [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] was chosen as the predictor, due to its superb pattern characterization and feature selection ability. As shown in Figure 2, its step-by-step procedure is detailed as below.",
+            "Data Pre-processing: Imported patients\u2019 data, used all clinical measurements of their last available date as features and set \u2018survival\u2019 and \u2018death\u2019 as labels for two classes. Used \u201c-1\u201d padding method to complement the incomplete clinical measures.",
+            "Model Prediction: The trained model was used to predict sample class on the testing set. The predicted and ground-truth label of test set were used to calculate the standard metrics for prediction performance evaluation."
+        ],
+        "Results": [
+            "The mean age of the 375 patients was 58.83\u00b116.46 years old with 58.7% of males. Fever was the most common initial symptom (49.9%), followed by cough (13.9%), fatigue (3.7%), and dyspnea (2.1%). The epidemiological history included Wuhan residents (37.9%), familial cluster (6.4%), and health workers (only 1.9%). Of the 375 patients, 46.1% were critical patients.",
+            "Table 1Clinical characteristics of the studied patients.",
+            "Chest distress Muscular soreness Outcomes survival death Lab test Lactate dehydrogenaseU/L Lymphocytes High-sensitivity C-reactive proteinmg/L High-sensitivity cardiac troponin Ipg/ml Procalcitonin (ng/ml Ureammol/L Glucosemmol/L Lymphocyte\u00d7109/L Albuming/L NT-proBNP Calcium Monocytes Prothrombin activity Eosinophils Total protein Neutrophils(\u00d7109/L) D-D dimer quantification International Normalized Ratio White Blood Cell Count Neutrophils(%)",
+            "268.50(196.00, 593.25) 14.35(4.13, 27.58) 25.80(1.98, 98.08) 11.50(2.40, 72.70) 0.10(0.03, 0.45) 5.40(3.80, 11.58) 6.54(5.12, 9.99) 0.99(0.52, 1.54)",
+            "5.38(3.10, 11.31) 0.88(0.41, 2.18) 1.10(1.01, 1.31) 7.93 (5.12, 13.25) 77.55(61.58, 91.98)",
+            "Using procedure specified in the Supplementary information, we first discovered that three key features (i.e., LDH, lymphocyte(%), hsCRP), are needed to distinguish critical patients from the two classes (visualization of samples is shown in Supplementary Figure 6). More importantly, the retrained Single-tree XGBoost algorithm outputs a clinical route (a decision tree in machine learning), as shown in Figure 3. It can simply be used to classify all severe patients: To validate the results, we blindly tested the decision rule in Figure 3 with 29 patients, whose outcomes were confirmed after February 19th. The confusion matrix of the testing data is shown in Supplementary Figure 2, showing that still 100% death prediction accuracy and 90% survival prediction accuracy were achieved, respectively. To validate the model\u2019s performance on the testing data, the precision, recall, F1-score and the corresponding support are demonstrated in Table 2. The score for survival and death prediction, accuracy, macro and weighted averages over all the samples are consistently larger than 0.90. It is worth noting that Multi-tree XGBoost and Single-tree XGBoost return the same predictions. The labels of some patients are predicted wrong. Yet, the prognosis of these patients is not optimistic. One of the patients had been admitted to the ICU because of an endangered condition and was recovered after emergency rescue. The other patient was in the cerebrovascular sequelae period with an extremely weak condition. Although this patient is currently alive, the prognosis is extremely poor.",
+            "Table 2Performance of the proposed algorithm on testing dataset."
+        ],
+        "Conclusion": [
+            "The three indices-based prognostic prediction model we built is able to predict the mortality risk, and present a clinical route to the recognition of critical cases from severe cases. It can help doctors with early identification and intervention, thus potentially reducing mortality.",
+            "Keywords: COVID-19, Machine Learning, Clinical Route.",
+            "Funding: None.",
+            "Author\u2019s contribution: L. Y. collected data; M. W., C. S., Y. G., X. T., H. Z., Y. X., Z. C., L. Y., H. X., Y. Y. discussed about the research; Y. Y., M. W., Y. G. discovered key features and clinical route; L. Y., H. Z., Y. X., H. X., Y. Y. drafted the manuscript; all authors provided critical review of the manuscript and approved the final draft for publication.",
+            "Conflict of interest: None declared."
+        ],
+        "Introduction": [
+            "The outbreaks of COVID-19 epidemic has caused worldwide health concerns since December, 2019. It has been shown in literature [1, Error! Reference source not found.] that 26.1-32.0% of COVID-19 patients would develop to critically ill cases. Moreover, Yang et al [Error! Reference source not found.] reported that the fatal rate of critically ill patients is astonishingly 61.5%. However, it is arduous to identify these patients manually from the infectious crowds. Hence, it is becoming an urgent yet challenging mission to identify the critically ill cases form the infectious crowds using clinical data with the assistance of machine learning approaches. Such a developed prognostic model could offer early treatment to critical patients, thus potentially reducing mortality."
+        ],
+        "Ethics Approval": [
+            "Data collection and analysis of cases and close contacts were approved by the Ethical Committee of Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology."
+        ],
+        "Discussion": [
+            "Coronavirus is prevalent in China and all over the world, with high morbidity and high mortality in critically ill patients. According to the recent reports [26], old patients are more prone to be infected by COVID-19, especially for those with underlying diseases. The severity of patients is applying great pressure on the shortage of intensive care resources. Unfortunately, so far, specific clinical features of COVID-19 pneumonia in different critical stages remain still unclear. Under this circumstance, novel approaches based on feature data to help clinicians to identify high-risk patients as early as possible, to improve the prognosis of patients and to reduce the mortality of critically ill patients, are highly demanded and are of clinical significance. In this study, we used XGBoost machine learning method to establish a predictive model for early identification of critically ill patients based on the epidemiological and clinical data of 375 patients with COVID-19 infection in Tongji Hospital of Wuhan. The working mechanism of the XGBoost-based machine learning model is that it is detailed with quantitatively sorting clinical features accordingly to their criticality, then sorting out revealed features, and giving the interpretable clinical route. Inspiringly, with the assistance of such a model, we have extracted merely three key clinical features from all the 300+ features, i.e., LDH, hs-CRP and lymphocyte, which can precisely predict the survival with more than 90% accuracy. These three indexes correspond to the most important factors such as cell injury, cellular immunity and inflammation in the pathophysiological progress of COVID-19.",
+            "The significance of our work is three-fold. First, instead of merely providing the high-risk factors as the earlier published articles, the present study has provided a general operable formula to precisely and quickly quantify the risk of death, representing a significant progress in clinical practice. For example, for patients with SPO2 below 93%, the respiratory support therapy include intranasal catheterization of oxygen, oxygen supply through mask, high flow oxygen supply through nasal catheter, non-invasive ventilation support, invasive ventilation support, and ECMO. However, the routine sequential usage of the oxygen therapy usually leads to unsatisfactory therapeutic effects in severe patients. Significantly, our predictive model is likely to identify high-risk patients before irreversible lesions occur. By using appropriate respiratory support therapy as soon as possible, we may be able to completely improve the prognosis. Second, these three revealed key features can be conveniently collected by any hospital, thus helping bypass large streams of patients crowded in top-tier hospitals. As a result, our model can substantially alleviate the pressure caused by the shortage of medical resources and facilitates the forming of hierarchical medical care system of COVID-19. Third, the millisecond machine learning speed of the present model could improve the efficiency of frontline doctors in term of classifying the severity and predicting the fatal development trend, thereby greatly releasing the heavy work load of doctors.",
+            "The most common fatal complication of COVID-19 is acute respiratory distress syndrome (ARDS). Although the pathological features of COVID-19 are very similar to those by acute respiratory distress syndrome(SARS) and Middle East respiratory distress syndrome (MERS)[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>], it is known from the latest systematic anatomy that pulmonary fibrosis and consolidation by COVID-19 patients are not as serious as those caused by SARS, but the exudative reaction is more severe than that of SARS[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. Histological examination of COVID-19 showed bilateral diffuse alveolar damage with cellular fibro-myxoid Exudates, evident desquamation of pneumocytes and hyaline membrane formation [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] and then interstitial fibrosis.",
+            "The increase of LDH reflects tissue/cell destruction and is regarded as a common sign of tissue/cell damage. Serum LDH has been identified as an important biomarker for the activity and severity of Idiopathic Pulmonary Fibrosis (IPF)[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. In patients with severe pulmonary interstitial disease, the increase of LDH is significant and is one of the most important prognostic markers of lung injury[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. For the critically ill patients with COVID-19, the rise of LDH level indicates an increase of the activity and extent of lung injury.",
+            "Our analysis showed that higher serum hs-CRP could be used to predict the risk of death in severe COVID-19 patients. The increase of hs-CRP, an important marker for poor prognosis in ARDS [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>], reflects the persistent state of inflammation [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. The result of this persistent inflammatory response is large gray-white lesions in the lungs of patients with COVID-19 (what was seen in the autopsy) [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>]. In the tissue section, a large amount of sticky secretion was also seen overflowing from the alveoli [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "Our results also suggested that lymphocytes play vital role in forecasting of progression from mild to critically ill and may serve as a potential therapeutic target. The hypothesis is supported by the results of clinical studies [26]. Moreover, lymphopenia is a common feature in the patients with COVID-19 and might be a critical factor associated with disease severity and mortality[Error! Reference source not found.]. The injured alveolar epithelial cells could induce the infiltration of lymphocytes, leading to a persistent lymphopenia as SARS-CoV and MERS-CoV did, given that they share the similar alveolar penetrating and antigen presenting cells (APC) impairing pathway [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>,<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. A biopsy study has provided strong evidence that the counts of peripheral CD4 and CD8 T cells were substantially reduced, while their status was hyperactivated [Error! Reference source not found.]. Also, Jing and colleagues reported the lymphopenia is mainly related to the decrease of CD4+ and CD8+ T cells [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. Thus, it is likely that lymphocytes play distinct roles in COVID-19, which deserves further investigation.",
+            "Nevertheless, this study has several notable limitations. First of all, since the proposed machine learning method is purely data driven, its model may vary given a different set of training and validation dataset. Given the limit number of samples in this study, we strike a balance between model complexity and performance. Yet the whole procedure should follow when more data is available. Secondly, this is a single-centered, retrospective study, which provides a preliminary assessment of the clinical course and outcome of severe patients. Although this database covers more than 3,000 patients, most clinical outcomes have not yet been released. As we have a pool of more than 300 clinical measurements, here our modeling principle is a trade-off between the minimal number of features and the capacity of good prediction. Obviously, if a larger number of features are selected, the model may perform better. In this regard, we look forward to subsequent large sample and multicenter studies.",
+            "In summary, in this study, we have identified three indicators (LDH, hs-CRP, and lymphocytes) and even found the early warning thresholds (LDH: 365U/l, hs-CRP: 41.2mg/L, and lymphocytes%: 14.7%) for COVID-19 prognostic prediction and developed an XGBoost machine learning-based prognostic model that can precisely predict the survival rates of severe patients with more than 90% accuracy, enabling the early detection, the early intervention and the reduction of mortality in high-risk patients with COVID-19. From technical point of view, this work helps pave the way for using machine learning method in COVID-19 prediction and diagnosis in the triage of the large scale explosive epidemic COVID-19 cases. Further studies are needed to consider more clinical confounding factors and to increase the sample size for further refining our model.",
+            "Reference [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] C. Huang, Y. Wang, X. Li, L. Ren, J. Zhao, Y. Hu, L. Zhang, G. Fan, J. Xu, X. Gu, et al Clinical features of patients infected with 2019 novel coronavirus in wuhan, china. The Lancet, 395(10223):497\u2013506, 2020.",
+            "[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] N. Chen, M. Zhou, X. Dong, J. Qu, F. Gong, Y. Han, Y. Qiu, J. Wang, Y. Liu, Y. Wei, et al Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in wuhan, china: a descriptive study. The Lancet, 2020.395(10223): p. 507-513.",
+            "[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] X. Yang*, Y. Yu*, J. Xu*, H. Shu*, J.A. Xia*, H. Liu*, Y. Wu, L. Zhang, Z. Yu, M. Fang, T. Yu, Y. Wang, S. Pan, X. Zou, S. Yuan, Y. Shang. Lancet Respir Med. 2020 Feb 24. pii: S2213-2600(20)30079-5. doi: 10.1016/S2213-2600(20)30079-5. [Epub ahead of print].",
+            "[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] Diagnosis and treatment of pneumonia infected by the new novel coronavirus (the trial fifth edition). National Health Commission of the people\u2019s Republic of China, The medical letter from the National Health Office, 2020.Nr.103.",
+            "[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] T. Chen and C. Guestrin. Xgboost: A scalable tree boosting system. arxiv e-prints. arXiv preprint arXiv:1603.02754, 2016.",
+            "[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] D. Wang, B. Hu, C. Hu, F. Zhu, X. Liu, J. Zhang, B. Wang, H. Xiang, Z. Cheng, Y. Xiong, et al Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus\u2013infected pneumonia in wuhan, china. Jama, 2020.",
+            "[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] Z. Xu, L. Shi, Y. Wang, J. Zhang, L. Huang, C. Zhang, S. Liu, P. Zhao, H. Liu, L. Zhu, et al Pathological findings of covid-19 associated with acute respiratory distress syndrome. The Lancet. Respiratory medicine, 2020.",
+            "[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] X Liu, RS Wang, GQ Qu et al A general report on the systematic anatomy of COVID-19. Journal of Forensic Medicine, 36(1):1\u20133, 2020.",
+            "[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] T. Kishaba, H. Tamaki, Y. Shimaoka, H. Fukuyama, and S. Yamashiro. Staging of acute exacerbation in patients with idiopathic pulmonary fibrosis. Lung, 192(1):141\u2013149, 2014",
+            "[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] P.M. Ridker, E. Danielson, F.A. Fonseca, J. Genest, A.M. Jr Gotto, J.J. Kastelein et al Rosuvastatin to prevent vascular events in men and women with elevated C-reactive protein. N Engl J Med 2008; 359 : 2195-207.",
+            "[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] K.S. Surendra, G. Anunay, B. Ashutosh et al Aetiology, outcomes & predictors of mortality in acute respiratory distress syndrome from a tertiary care centre in north India. Indian J Med Res 143, June 2016, pp 782-792.",
+            "[<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>] E.K. Bajwa, U.A. Khan, J.L. Januzzi, M.N. Gong, et al Plasma C-reactive protein levels are associated with improved outcome in ARDS. Chest 2009; 136 : 471-80.",
+            "[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] Chan JF, Yuan S, Kok KH, et al A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-toperson transmission: a study of a family cluster. Lancet 2020;395: 514\u201323",
+            "[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] Li, F., et al, Structure of SARS coronavirus spike receptor-binding domain complexed with receptor. 2005. 309(5742): p. 1864-1868.",
+            "[<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] Ge, X.-Y., et al, Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. 2013. 503(7477): p. 535-538.",
+            "[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] Jing Liu, Sumeng Li, Jia Liu, Boyun Liang, Xiaobei Wang, Hua Wang, Wei Li, Qiaoxia Tong, JianhuaYi, Lei Zhao, Lijuan Xiong, Chunxia Guo, Jin Tian, Jinzhuo Luo, Jinghon g Yao, Ran Pang, Hui Shen,Cheng Peng, Ting Liu, Qian Zhang, Jun Wu, Ling Xu, Sihon g Lu, Baoju Wang, Zhihong Weng,Chunrong Han, Huabing Zhu, Ruxia Zhou, Helong Z hou, Xiliu Chen, Pian Ye, Bin Zhu, ShengsongHe, Yongwen He, Shenghua Jie, Ping We i, Jianao Zhang, Yinping Lu, Weixian Wang, Li Zhang,Ling Li, Fengqin Zhou, Jun Wan g, Ulf Dittmer, Mengji Lu, Yu Hu, Dongliang Yang, Xin Zheng. Longitudinal characteri -stics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2infected patients. medRxiv 2020.02. 16.20023671; Doi: https://doi.org/ 10.1101/2020.02.16.20023671."
+        ],
+        "Supplementary": []
+    },
+    "participants": [
+        {
+            "participant": "patients",
+            "number": 2799,
+            "context": "However, mortality risk in patients could potentially be predicted before they transmit to critically ill. <mark class=\"stats\">We screened the electronic records of 2,799 patients admitted in Tongji Hospital from January 10th to February 18th, 2020</mark>. There were 375 discharged patients including 201 survivors"
+        },
+        {
+            "participant": "discharged patients",
+            "number": 375,
+            "context": "We screened the electronic records of 2,799 patients admitted in Tongji Hospital from January 10th to February 18th, 2020. <mark class=\"stats\">There were 375 discharged patients including 201 survivors</mark>. We built a prognostic prediction model based on XGBoost machine learning algorithm and then tested 29 patients (included 3 patients from other hospital) who were cleared after February 19th"
+        },
+        {
+            "participant": "patients",
+            "number": 29,
+            "context": "There were 375 discharged patients including 201 survivors. <mark class=\"stats\">We built a prognostic prediction model based on XGBoost machine learning algorithm and then tested 29 patients (included 3 patients from other hospital) who were cleared after February 19th</mark>. Data resources<br/><br/>For this retrospective, single-center study, we collected the electronic records of 2,779 validated or suspected COVID-19 patients from January 10th to February 18th, 2020 at Tongji Hospital in Wuhan, China"
+        },
+        {
+            "participant": "individuals",
+            "number": 2779,
+            "context": "We distilled epidemiological, demographic, clinical, laboratory, drugs, nursing record, and outcome data from electronic medical record. <mark class=\"stats\">The clinical outcomes were followed up to February 18th.The study was approved by the Tongji Hospital Ethics Committee.<br/><br/>As shown in Figure 1, of the 2,779 individuals retained in our hospital, 2,259 cases were excluded as they were still in treatment before February 19th, 2020</mark>. Per the other 520 cases, 375 ones including 201 survivors have complete data materials"
+        },
+        {
+            "participant": "cases",
+            "number": 520,
+            "context": "The clinical outcomes were followed up to February 18th.The study was approved by the Tongji Hospital Ethics Committee.<br/><br/>As shown in Figure 1, of the 2,779 individuals retained in our hospital, 2,259 cases were excluded as they were still in treatment before February 19th, 2020. <mark class=\"stats\">Per the other 520 cases, 375 ones including 201 survivors have complete data materials</mark>. Pregnant or breast-feeding women, younger than 18 years old were excluded.For this retrospective, single-center study, we collected the electronic records of 2,779 validated or suspected COVID-19 patients from January 10th to February 18th, 2020 at Tongji Hospital in Wuhan, China"
+        },
+        {
+            "participant": "individuals",
+            "number": 2779,
+            "context": "The clinical outcomes were followed up to February 18th.The study was approved by the Tongji Hospital Ethics Committee. <mark class=\"stats\">As shown in Figure 1, of the 2,779 individuals retained in our hospital, 2,259 cases were excluded as they were still in treatment before February 19th, 2020</mark>. Per the other 520 cases, 375 ones including 201 survivors have complete data materials"
+        },
+        {
+            "participant": "cases",
+            "number": 520,
+            "context": "As shown in Figure 1, of the 2,779 individuals retained in our hospital, 2,259 cases were excluded as they were still in treatment before February 19th, 2020. <mark class=\"stats\">Per the other 520 cases, 375 ones including 201 survivors have complete data materials</mark>. Pregnant or breast-feeding women, younger than 18 years old were excluded"
+        },
+        {
+            "participant": "new cleared severe patients",
+            "number": 26,
+            "context": "Pregnant or breast-feeding women, younger than 18 years old were excluded. <mark class=\"stats\">After February 19th, 2020, there were 26 new cleared severe patients, which were thus picked for the test together with other 3 cleared severe patients from Ying Cheng People\u2019s Hospital for testing</mark>. Note that all types of patients were included as samples for the study, whereas only severe patients were selected for testing"
+        },
+        {
+            "participant": "patients",
+            "number": 375,
+            "context": "Data collection and analysis of cases and close contacts were approved by the Ethical Committee of Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology. <mark class=\"stats\">Characteristics of the 375 patients</mark>. The mean age of the 375 patients was 58.83\u00b116.46 years old with 58.7% of males"
+        },
+        {
+            "participant": "patients",
+            "number": 375,
+            "context": "Characteristics of the 375 patients. <mark class=\"stats\">The mean age of the 375 patients was 58.83\u00b116.46 years old with 58.7% of males</mark>. Fever was the most common initial symptom (49.9%), followed by cough (13.9%), fatigue (3.7%), and dyspnea (2.1%)"
+        },
+        {
+            "participant": "patients",
+            "number": 375,
+            "context": "The epidemiological history included Wuhan residents (37.9%), familial cluster (6.4%), and health workers (only 1.9%). <mark class=\"stats\">Of the 375 patients, 46.1% were critical patients</mark>. Table 1Clinical characteristics of the studied patients"
+        },
+        {
+            "participant": "patients",
+            "number": 29,
+            "context": "More importantly, the retrained Single-tree XGBoost algorithm outputs a clinical route (a decision tree in machine learning), as shown in Figure 3. <mark class=\"stats\">It can simply be used to classify all severe patients: To validate the results, we blindly tested the decision rule in Figure 3 with 29 patients, whose outcomes were confirmed after February 19th</mark>. The confusion matrix of the testing data is shown in Supplementary Figure 2, showing that still 100% death prediction accuracy and 90% survival prediction accuracy were achieved, respectively"
+        },
+        {
+            "participant": "patients with COVID-19 infection in Tongji Hospital of Wuhan",
+            "number": 375,
+            "context": "Under this circumstance, novel approaches based on feature data to help clinicians to identify high-risk patients as early as possible, to improve the prognosis of patients and to reduce the mortality of critically ill patients, are highly demanded and are of clinical significance. <mark class=\"stats\">In this study, we used XGBoost machine learning method to establish a predictive model for early identification of critically ill patients based on the epidemiological and clinical data of 375 patients with COVID-19 infection in Tongji Hospital of Wuhan</mark>. The working mechanism of the XGBoost-based machine learning model is that it is detailed with quantitatively sorting clinical features accordingly to their criticality, then sorting out revealed features, and giving the interpretable clinical route"
+        },
+        {
+            "participant": "patients",
+            "number": 3000,
+            "context": "Secondly, this is a single-centered, retrospective study, which provides a preliminary assessment of the clinical course and outcome of severe patients. <mark class=\"stats\">Although this database covers more than 3,000 patients, most clinical outcomes have not yet been released</mark>. As we have a pool of more than 300 clinical measurements, here our modeling principle is a trade-off between the minimal number of features and the capacity of good prediction"
+        }
+    ],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">The Kolmogorov-Smirnov test (K-S test for short) was used to examine whether the single sample is from a particular distribution, and then the single sample K-S test was used to test the normality of the general data</mark>",
+                "tests": [
+                    {
+                        "test": "Kolmogorov-Smirnov test"
+                    }
+                ]
+            }
+        },
+        {
+            "p_value": "P <0.05",
+            "context": "The Kolmogorov-Smirnov test (K-S test for short) was used to examine whether the single sample is from a particular distribution, and then the single sample K-S test was used to test the normality of the general data. <mark class=\"stats\">The test level \u03b1=0.05, and P <0.05 indicate that the sample does not fit a normal distribution</mark>. Because age, total protein, albumin, and calcium content satisfy normal distribution, after testing, mean \u00b1 standard deviation was used to describe their concentration trend"
+        }
+    ],
+    "keywords": [
+        "clinical feature",
+        "national health",
+        "COVID-19",
+        "clinical datum",
+        "machine learning",
+        "ill patient",
+        "infectious crowd",
+        "early identification",
+        "Idiopathic Pulmonary Fibrosis",
+        "coronavirus",
+        "antigen presenting cells",
+        "pneumonia",
+        "acute respiratory distress syndrome",
+        "mortality risk",
+        "novel coronavirus",
+        "Middle East respiratory distress syndrome",
+        "clinical characteristic",
+        "SARS",
+        "reference source",
+        "Clinical Route",
+        "prognostic model",
+        "c reactive protein",
+        "ill case",
+        "lymphocyte"
+    ],
+    "keyword_relevance": {
+        "COVID-19": 0.23893805309734514,
+        "machine learning": 0.10619469026548672,
+        "lymphocyte": 0.08849557522123894,
+        "SARS": 0.07964601769911504,
+        "coronavirus": 0.061946902654867256,
+        "acute respiratory distress syndrome": 0.061946902654867256,
+        "clinical feature": 0.05309734513274336,
+        "ill patient": 0.04424778761061947,
+        "pneumonia": 0.04424778761061947,
+        "novel coronavirus": 0.04424778761061947,
+        "Middle East respiratory distress syndrome": 0.02654867256637168,
+        "prognostic model": 0.02654867256637168,
+        "infectious crowd": 0.017699115044247787,
+        "early identification": 0.017699115044247787,
+        "Idiopathic Pulmonary Fibrosis": 0.017699115044247787,
+        "antigen presenting cells": 0.017699115044247787,
+        "mortality risk": 0.017699115044247787,
+        "ill case": 0.017699115044247787,
+        "clinical characteristic": 0.008849557522123894,
+        "Clinical Route": 0.008849557522123894,
+        "national health": 0.0,
+        "clinical datum": 0.0,
+        "reference source": 0.0,
+        "c reactive protein": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> The outbreaks of COVID-19 epidemic has caused worldwide health concerns since December, 2019",
+        "It has been shown in literature [1, Error!",
+        "It is becoming an urgent yet challenging mission to identify the critically ill cases form the infectious crowds using clinical data with the assistance of machine learning approaches",
+        "Such a developed prognostic model could offer early treatment to critical patients, potentially reducing mortality",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors screened the electronic records of 2,799 patients admitted in Tongji Hospital from January 10th to February 18th, 2020.",
+        "The authors built a prognostic prediction model based on XGBoost machine learning algorithm and tested 29 patients who were cleared after February 19th.",
+        "For this retrospective, single-center study, the authors collected the electronic records of 2,779 validated or suspected COVID-19 patients from January 10th to February 18th, 2020 at Tongji Hospital in Wuhan, China.",
+        "Pregnant or breast-feeding women, younger than 18 years old were excluded",
+        "<h2 style=\"display: inline\">Results:</h2> The mean age of the 375 patients was 58.83 years old with 58.7% of males. Fever was the most common initial symptom (49.9%), followed by cough (13.9%), fatigue (3.7%), and dyspnea (2.1%).",
+        "The clinical route is simple to check and can precisely and quickly assess the risk of death.",
+        "It is of great clinical significance.",
+        "Characteristics of the 375 patients.",
+        "The mean age of the 375 patients was 58.83\u00b116.46 years old with 58.7% of males.",
+        "Table 1Clinical characteristics of the studied patients.",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Precision 1.00 0.89 Recall 0.83 1.00<br/><br/>Coronavirus is prevalent in China and all over the world, with high morbidity and high mortality in critically ill patients.",
+        "With the assistance of such a model, the authors have extracted merely three key clinical features from all the 300+ features, i.e., LDH, hs-CRP and lymphocyte, which can precisely predict the survival with more than 90% accuracy",
+        "These three indexes correspond to the most important factors such as cell injury, cellular immunity and inflammation in the pathophysiological progress of COVID-19.The three indices-based prognostic prediction model the authors built is able to predict the mortality risk, and present a clinical route to the recognition of critical cases from severe cases.",
+        "It can help doctors with early identification and intervention, potentially reducing mortality."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The outbreaks of COVID-19 epidemic has caused worldwide health concerns since December, 2019",
+            "It has been shown in literature [1, Error!",
+            "It is becoming an urgent yet challenging mission to identify the critically ill cases form the infectious crowds using clinical data with the assistance of machine learning approaches",
+            "Such a developed prognostic model could offer early treatment to critical patients, potentially reducing mortality"
+        ],
+        "Methods": [
+            "The authors screened the electronic records of 2,799 patients admitted in Tongji Hospital from January 10th to February 18th, 2020.",
+            "The authors built a prognostic prediction model based on XGBoost machine learning algorithm and tested 29 patients who were cleared after February 19th.",
+            "For this retrospective, single-center study, the authors collected the electronic records of 2,779 validated or suspected COVID-19 patients from January 10th to February 18th, 2020 at Tongji Hospital in Wuhan, China.",
+            "Pregnant or breast-feeding women, younger than 18 years old were excluded"
+        ],
+        "Results": [
+            "The mean age of the 375 patients was 58.83 years old with 58.7% of males. Fever was the most common initial symptom (49.9%), followed by cough (13.9%), fatigue (3.7%), and dyspnea (2.1%).",
+            "The clinical route is simple to check and can precisely and quickly assess the risk of death.",
+            "It is of great clinical significance.",
+            "Characteristics of the 375 patients.",
+            "The mean age of the 375 patients was 58.83\u00b116.46 years old with 58.7% of males.",
+            "Table 1Clinical characteristics of the studied patients."
+        ],
+        "Conclusion": [
+            "Precision 1.00 0.89 Recall 0.83 1.00<br/><br/>Coronavirus is prevalent in China and all over the world, with high morbidity and high mortality in critically ill patients.",
+            "With the assistance of such a model, the authors have extracted merely three key clinical features from all the 300+ features, i.e., LDH, hs-CRP and lymphocyte, which can precisely predict the survival with more than 90% accuracy",
+            "These three indexes correspond to the most important factors such as cell injury, cellular immunity and inflammation in the pathophysiological progress of COVID-19.The three indices-based prognostic prediction model the authors built is able to predict the mortality risk, and present a clinical route to the recognition of critical cases from severe cases.",
+            "It can help doctors with early identification and intervention, potentially reducing mortality."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Huang_et+al_2020_a",
+            "entry": "[1] C. Huang, Y. Wang, X. Li, L. Ren, J. Zhao, Y. Hu, L. Zhang, G. Fan, J. Xu, X. Gu, et al. Clinical features of patients infected with 2019 novel coronavirus in wuhan, china. The Lancet, 395(10223):497\u2013506, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=C%20Huang%20Y%20Wang%20X%20Li%20L%20Ren%20J%20Zhao%20Y%20Hu%20L%20Zhang%20G%20Fan%20J%20Xu%20X%20Gu%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20wuhan%20china%20The%20Lancet%2039510223497506%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=C%20Huang%20Y%20Wang%20X%20Li%20L%20Ren%20J%20Zhao%20Y%20Hu%20L%20Zhang%20G%20Fan%20J%20Xu%20X%20Gu%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20wuhan%20china%20The%20Lancet%2039510223497506%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=C%20Huang%20Y%20Wang%20X%20Li%20L%20Ren%20J%20Zhao%20Y%20Hu%20L%20Zhang%20G%20Fan%20J%20Xu%20X%20Gu%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20wuhan%20china%20The%20Lancet%2039510223497506%202020"
+        },
+        {
+            "id": "2",
+            "alt_id": "Chen_et+al_2019_a",
+            "entry": "[2] N. Chen, M. Zhou, X. Dong, J. Qu, F. Gong, Y. Han, Y. Qiu, J. Wang, Y. Liu, Y. Wei, et al. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in wuhan, china: a descriptive study. The Lancet, 2020.395(10223): p. 507-513.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=N%20Chen%20M%20Zhou%20X%20Dong%20J%20Qu%20F%20Gong%20Y%20Han%20Y%20Qiu%20J%20Wang%20Y%20Liu%20Y%20Wei%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20wuhan%20china%20a%20descriptive%20study%20The%20Lancet%20202039510223%20p%20507513",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=N%20Chen%20M%20Zhou%20X%20Dong%20J%20Qu%20F%20Gong%20Y%20Han%20Y%20Qiu%20J%20Wang%20Y%20Liu%20Y%20Wei%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20wuhan%20china%20a%20descriptive%20study%20The%20Lancet%20202039510223%20p%20507513",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=N%20Chen%20M%20Zhou%20X%20Dong%20J%20Qu%20F%20Gong%20Y%20Han%20Y%20Qiu%20J%20Wang%20Y%20Liu%20Y%20Wei%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20wuhan%20china%20a%20descriptive%20study%20The%20Lancet%20202039510223%20p%20507513"
+        },
+        {
+            "id": "3",
+            "alt_id": "Yang*_et+al_2020_a",
+            "entry": "[3] X. Yang*, Y. Yu*, J. Xu*, H. Shu*, J.A. Xia*, H. Liu*, Y. Wu, L. Zhang, Z. Yu, M. Fang, T. Yu, Y. Wang, S. Pan, X. Zou, S. Yuan, Y. Shang. Lancet Respir Med. 2020 Feb 24. pii: S2213-2600(20)30079-5. doi: 10.1016/S2213-2600(20)30079-5. [Epub ahead of print].",
+            "crossref": "https://dx.doi.org/10.1016/S2213-2600(20)30079-5",
+            "scite": "https://scite.ai/reports/10.1016/S2213-2600(20)30079-5",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S2213-2600%2820%2930079-5"
+        },
+        {
+            "id": "4",
+            "alt_id": "[4]_2020_a",
+            "entry": "[4] Diagnosis and treatment of pneumonia infected by the new novel coronavirus (the trial fifth edition). National Health Commission of the people\u2019s Republic of China, The medical letter from the National Health Office, 2020.Nr.103.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Diagnosis%20and%20treatment%20of%20pneumonia%20infected%20by%20the%20new%20novel%20coronavirus%20the%20trial%20fifth%20edition%20National%20Health%20Commission%20of%20the%20peoples%20Republic%20of%20China%20The%20medical%20letter%20from%20the%20National%20Health%20Office%202020Nr103"
+        },
+        {
+            "id": "5",
+            "alt_id": "Chen_2016_a",
+            "entry": "[5] T. Chen and C. Guestrin. Xgboost: A scalable tree boosting system. arxiv e-prints. arXiv preprint arXiv:1603.02754, 2016.",
+            "arxiv_url": "https://arxiv.org/pdf/1603.02754"
+        },
+        {
+            "id": "6",
+            "alt_id": "Wang_et+al_2020_a",
+            "entry": "[6] D. Wang, B. Hu, C. Hu, F. Zhu, X. Liu, J. Zhang, B. Wang, H. Xiang, Z. Cheng, Y. Xiong, et al. Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus\u2013infected pneumonia in wuhan, china. Jama, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=D%20Wang%20B%20Hu%20C%20Hu%20F%20Zhu%20X%20Liu%20J%20Zhang%20B%20Wang%20H%20Xiang%20Z%20Cheng%20Y%20Xiong%20et%20al%20Clinical%20characteristics%20of%20138%20hospitalized%20patients%20with%202019%20novel%20coronavirusinfected%20pneumonia%20in%20wuhan%20china%20Jama%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=D%20Wang%20B%20Hu%20C%20Hu%20F%20Zhu%20X%20Liu%20J%20Zhang%20B%20Wang%20H%20Xiang%20Z%20Cheng%20Y%20Xiong%20et%20al%20Clinical%20characteristics%20of%20138%20hospitalized%20patients%20with%202019%20novel%20coronavirusinfected%20pneumonia%20in%20wuhan%20china%20Jama%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=D%20Wang%20B%20Hu%20C%20Hu%20F%20Zhu%20X%20Liu%20J%20Zhang%20B%20Wang%20H%20Xiang%20Z%20Cheng%20Y%20Xiong%20et%20al%20Clinical%20characteristics%20of%20138%20hospitalized%20patients%20with%202019%20novel%20coronavirusinfected%20pneumonia%20in%20wuhan%20china%20Jama%202020"
+        },
+        {
+            "id": "7",
+            "alt_id": "Xu_et+al_2020_a",
+            "entry": "[7] Z. Xu, L. Shi, Y. Wang, J. Zhang, L. Huang, C. Zhang, S. Liu, P. Zhao, H. Liu, L. Zhu, et al. Pathological findings of covid-19 associated with acute respiratory distress syndrome. The Lancet. Respiratory medicine, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xu%2C%20Z.%20Shi%2C%20L.%20Wang%2C%20Y.%20Zhang%2C%20J.%20Pathological%20findings%20of%20covid-19%20associated%20with%20acute%20respiratory%20distress%20syndrome%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Xu%2C%20Z.%20Shi%2C%20L.%20Wang%2C%20Y.%20Zhang%2C%20J.%20Pathological%20findings%20of%20covid-19%20associated%20with%20acute%20respiratory%20distress%20syndrome%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Xu%2C%20Z.%20Shi%2C%20L.%20Wang%2C%20Y.%20Zhang%2C%20J.%20Pathological%20findings%20of%20covid-19%20associated%20with%20acute%20respiratory%20distress%20syndrome%202020"
+        },
+        {
+            "id": "8",
+            "alt_id": "Liu_et+al_2020_a",
+            "entry": "[8] X Liu, RS Wang, GQ Qu et al. A general report on the systematic anatomy of COVID-19. Journal of Forensic Medicine, 36(1):1\u20133, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Liu%2C%20X.%20Wang%2C%20R.S.%20Qu%2C%20G.Q.%20A%20general%20report%20on%20the%20systematic%20anatomy%20of%20COVID-19%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Liu%2C%20X.%20Wang%2C%20R.S.%20Qu%2C%20G.Q.%20A%20general%20report%20on%20the%20systematic%20anatomy%20of%20COVID-19%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Liu%2C%20X.%20Wang%2C%20R.S.%20Qu%2C%20G.Q.%20A%20general%20report%20on%20the%20systematic%20anatomy%20of%20COVID-19%202020"
+        },
+        {
+            "id": "9",
+            "alt_id": "Kishaba_et+al_2014_a",
+            "entry": "[9] T. Kishaba, H. Tamaki, Y. Shimaoka, H. Fukuyama, and S. Yamashiro. Staging of acute exacerbation in patients with idiopathic pulmonary fibrosis. Lung, 192(1):141\u2013149, 2014",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kishaba%2C%20T.%20Tamaki%2C%20H.%20Shimaoka%2C%20Y.%20Fukuyama%2C%20H.%20Staging%20of%20acute%20exacerbation%20in%20patients%20with%20idiopathic%20pulmonary%20fibrosis%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kishaba%2C%20T.%20Tamaki%2C%20H.%20Shimaoka%2C%20Y.%20Fukuyama%2C%20H.%20Staging%20of%20acute%20exacerbation%20in%20patients%20with%20idiopathic%20pulmonary%20fibrosis%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kishaba%2C%20T.%20Tamaki%2C%20H.%20Shimaoka%2C%20Y.%20Fukuyama%2C%20H.%20Staging%20of%20acute%20exacerbation%20in%20patients%20with%20idiopathic%20pulmonary%20fibrosis%202014"
+        },
+        {
+            "id": "10",
+            "alt_id": "P_2008_a",
+            "entry": "[10] P.M. Ridker, E. Danielson, F.A. Fonseca, J. Genest, A.M. Jr Gotto, J.J. Kastelein et al. Rosuvastatin to prevent vascular events in men and women with elevated C-reactive protein. N Engl J Med 2008; 359: 2195-207.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=PM%20Ridker%20E%20Danielson%20FA%20Fonseca%20J%20Genest%20AM%20Jr%20Gotto%20JJ%20Kastelein%20et%20al%20Rosuvastatin%20to%20prevent%20vascular%20events%20in%20men%20and%20women%20with%20elevated%20Creactive%20protein%20N%20Engl%20J%20Med%202008%20359%202195207",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=PM%20Ridker%20E%20Danielson%20FA%20Fonseca%20J%20Genest%20AM%20Jr%20Gotto%20JJ%20Kastelein%20et%20al%20Rosuvastatin%20to%20prevent%20vascular%20events%20in%20men%20and%20women%20with%20elevated%20Creactive%20protein%20N%20Engl%20J%20Med%202008%20359%202195207",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=PM%20Ridker%20E%20Danielson%20FA%20Fonseca%20J%20Genest%20AM%20Jr%20Gotto%20JJ%20Kastelein%20et%20al%20Rosuvastatin%20to%20prevent%20vascular%20events%20in%20men%20and%20women%20with%20elevated%20Creactive%20protein%20N%20Engl%20J%20Med%202008%20359%202195207"
+        },
+        {
+            "id": "11",
+            "alt_id": "Surendra_et+al_2016_a",
+            "entry": "[11] K.S. Surendra, G. Anunay, B. Ashutosh et al. Aetiology, outcomes & predictors of mortality in acute respiratory distress syndrome from a tertiary care centre in north India. Indian J Med Res 143, June 2016, pp 782-792.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Surendra%2C%20K.S.%20Anunay%2C%20G.%20Ashutosh%2C%20B.%20Aetiology%2C%20outcomes%20%26%20predictors%20of%20mortality%20in%20acute%20respiratory%20distress%20syndrome%20from%20a%20tertiary%20care%20centre%20in%20north%20India%202016-06",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Surendra%2C%20K.S.%20Anunay%2C%20G.%20Ashutosh%2C%20B.%20Aetiology%2C%20outcomes%20%26%20predictors%20of%20mortality%20in%20acute%20respiratory%20distress%20syndrome%20from%20a%20tertiary%20care%20centre%20in%20north%20India%202016-06",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Surendra%2C%20K.S.%20Anunay%2C%20G.%20Ashutosh%2C%20B.%20Aetiology%2C%20outcomes%20%26%20predictors%20of%20mortality%20in%20acute%20respiratory%20distress%20syndrome%20from%20a%20tertiary%20care%20centre%20in%20north%20India%202016-06"
+        },
+        {
+            "id": "12",
+            "alt_id": "Bajwa_et+al_2009_a",
+            "entry": "[12] E.K. Bajwa, U.A. Khan, J.L. Januzzi, M.N. Gong, et al. Plasma C-reactive protein levels are associated with improved outcome in ARDS. Chest 2009; 136: 471-80.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bajwa%2C%20E.K.%20Khan%2C%20U.A.%20Januzzi%2C%20J.L.%20Gong%2C%20M.N.%20Plasma%20C-reactive%20protein%20levels%20are%20associated%20with%20improved%20outcome%20in%20ARDS%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bajwa%2C%20E.K.%20Khan%2C%20U.A.%20Januzzi%2C%20J.L.%20Gong%2C%20M.N.%20Plasma%20C-reactive%20protein%20levels%20are%20associated%20with%20improved%20outcome%20in%20ARDS%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bajwa%2C%20E.K.%20Khan%2C%20U.A.%20Januzzi%2C%20J.L.%20Gong%2C%20M.N.%20Plasma%20C-reactive%20protein%20levels%20are%20associated%20with%20improved%20outcome%20in%20ARDS%202009"
+        },
+        {
+            "id": "13",
+            "alt_id": "Chan_et+al_2019_a",
+            "entry": "[13] Chan JF, Yuan S, Kok KH, et al. A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-toperson transmission: a study of a family cluster. Lancet 2020;395: 514\u201323",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chan%20JF%20Yuan%20S%20Kok%20KH%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20a%20study%20of%20a%20family%20cluster%20Lancet%202020395%2051423",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chan%20JF%20Yuan%20S%20Kok%20KH%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20a%20study%20of%20a%20family%20cluster%20Lancet%202020395%2051423",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chan%20JF%20Yuan%20S%20Kok%20KH%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20a%20study%20of%20a%20family%20cluster%20Lancet%202020395%2051423"
+        },
+        {
+            "id": "14",
+            "alt_id": "Li_2005_a",
+            "entry": "[14] Li, F., et al., Structure of SARS coronavirus spike receptor-binding domain complexed with receptor. 2005. 309(5742): p. 1864-1868.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20F.%20Structure%20of%20SARS%20coronavirus%20spike%20receptor-binding%20domain%20complexed%20with%20receptor%202005"
+        },
+        {
+            "id": "15",
+            "alt_id": "Ge_2013_a",
+            "entry": "[15] Ge, X.-Y., et al., Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. 2013. 503(7477): p. 535-538.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ge%2C%20X.-Y.%20Isolation%20and%20characterization%20of%20a%20bat%20SARS-like%20coronavirus%20that%20uses%20the%20ACE2%20receptor%202013"
+        },
+        {
+            "id": "16",
+            "alt_id": "Liu_et+al_Jun_a",
+            "entry": "[16] Jing Liu, Sumeng Li, Jia Liu, Boyun Liang, Xiaobei Wang, Hua Wang, Wei Li, Qiaoxia Tong, JianhuaYi, Lei Zhao, Lijuan Xiong, Chunxia Guo, Jin Tian, Jinzhuo Luo, Jinghon g Yao, Ran Pang, Hui Shen,Cheng Peng, Ting Liu, Qian Zhang, Jun Wu, Ling Xu, Sihon g Lu, Baoju Wang, Zhihong Weng,Chunrong Han, Huabing Zhu, Ruxia Zhou, Helong Z hou, Xiliu Chen, Pian Ye, Bin Zhu, ShengsongHe, Yongwen He, Shenghua Jie, Ping We i, Jianao Zhang, Yinping Lu, Weixian Wang, Li Zhang,Ling Li, Fengqin Zhou, Jun Wan g, Ulf Dittmer, Mengji Lu, Yu Hu, Dongliang Yang, Xin Zheng. Longitudinal characteri -stics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2infected patients. medRxiv 2020.02. 16.20023671; Doi: https://doi.org/10.1101/2020.02.16.20023671. ",
+            "crossref": "https://dx.doi.org/10.1101/2020.02.16.20023671",
+            "scite": "https://scite.ai/reports/10.1101/2020.02.16.20023671"
+        }
+    ],
+    "facts": [
+        "COVID-19 appeared in Wuhan",
+        "that 26.1-32.0% of COVID-19 patients would develop to critically ill cases",
+        "the electronic records of 2,799 patients admitted in Tongji Hospital from January 10th",
+        "a prognostic prediction model based on XGBoost machine learning algorithm",
+        "29 patients who were cleared after February 19th",
+        "The study was approved by the Tongji Hospital Ethics Committee",
+        "of the 2,779 individuals retained in our hospital",
+        "Coronavirus is prevalent in China",
+        "prone to be infected by COVID-19",
+        "novel approaches based on feature data to help clinicians to identify high-risk patients",
+        "used XGBoost machine learning method to establish a predictive model for early identification of critically ill patients based on the epidemiological",
+        "Our results suggested that lymphocytes play vital role in forecasting"
+    ],
+    "claims": [
+        "Instead of merely providing the high-risk factors as the earlier published articles, the present study has provided a general operable formula to precisely and quickly quantify the risk of death, representing a significant progress in clinical practice",
+        "Our results also suggested that lymphocytes play vital role in forecasting of progression from mild to critically ill and may serve as a potential therapeutic target",
+        "In this study, we have identified three indicators (LDH, hs-CRP, and lymphocytes) and even found the early warning thresholds (LDH: 365U/l, hs-CRP: 41.2mg/L, and lymphocytes%: 14.7%) for COVID-19 prognostic prediction and developed an XGBoost machine learning-based prognostic model that can precisely predict the survival rates of severe patients with more than 90% accuracy, enabling the early detection, the early intervention and the reduction of mortality in high-risk patients with COVID-19"
+    ],
+    "findings": [
+        "With the assistance of such a model, we have extracted merely three key clinical features from all the 300+ features, i.e., LDH, hs-CRP and lymphocyte, which can precisely predict the survival with more than 90% accuracy",
+        "In this study, we have identified three indicators (LDH, hs-CRP, and lymphocytes) and even found the early warning thresholds (LDH: 365U/l, hs-CRP: 41.2mg/L, and lymphocytes%: 14.7%) for COVID-19 prognostic prediction and developed an XGBoost machine learning-based prognostic model that can precisely predict the survival rates of severe patients with more than 90% accuracy, enabling the early detection, the early intervention and the reduction of mortality in high-risk patients with COVID-19"
+    ],
+    "processes": [],
+    "key_statements": [
+        "The outbreaks of COVID-19 epidemic has caused worldwide health concerns since December, 2019. It has been shown in literature [1, Error! Reference source not found.] that 26.1-32.0% of COVID-19 patients would develop to critically ill cases",
+        "Coronavirus is prevalent in China and all over the world, with high morbidity and high mortality in critically ill patients",
+        "According to the recent reports [26], old patients are more prone to be infected by COVID-19, especially for those with underlying diseases",
+        "Novel approaches based on feature data to help clinicians to identify high-risk patients as early as possible, to improve the prognosis of patients and to reduce the mortality of critically ill patients, are highly demanded and are of clinical significance",
+        "We used XGBoost machine learning method to establish a predictive model for early identification of critically ill patients based on the epidemiological and clinical data of 375 patients with COVID-19 infection in Tongji Hospital of Wuhan",
+        "Our results suggested that lymphocytes play vital role in forecasting of progression from mild to critically ill and may serve as a potential therapeutic target"
+    ],
+    "top_statements": [
+        "The outbreaks of COVID-19 epidemic has caused worldwide health concerns since December, 2019. It has been shown in literature [1, Error! Reference source not found.] that 26.1-32.0% of COVID-19 patients would develop to critically ill cases",
+        "Coronavirus is prevalent in China and all over the world, with high morbidity and high mortality in critically ill patients",
+        "According to the recent reports [26], old patients are more prone to be infected by COVID-19, especially for those with underlying diseases",
+        "Novel approaches based on feature data to help clinicians to identify high-risk patients as early as possible, to improve the prognosis of patients and to reduce the mortality of critically ill patients, are highly demanded and are of clinical significance",
+        "With the assistance of such a model, we have extracted merely three key clinical features from all the 300+ features, i.e., LDH, hs-CRP and lymphocyte, which can precisely predict the survival with more than 90% accuracy",
+        "We used XGBoost machine learning method to establish a predictive model for early identification of critically ill patients based on the epidemiological and clinical data of 375 patients with COVID-19 infection in Tongji Hospital of Wuhan"
+    ],
+    "headline": "We used XGBoost machine learning method to establish a predictive model for early identification of critically ill patients based on the epidemiological and clinical data of 375 patients with COVID-19 infection in Tongji Hospital of Wuhan",
+    "contexts": [],
+    "abbreviations": {
+        "ARDS": "acute respiratory distress syndrome",
+        "MERS": "Middle East respiratory distress syndrome",
+        "IPF": "Idiopathic Pulmonary Fibrosis",
+        "APC": "antigen presenting cells"
+    }
+}

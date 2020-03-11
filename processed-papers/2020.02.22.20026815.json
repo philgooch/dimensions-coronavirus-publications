@@ -1,0 +1,368 @@
+{
+    "filename": "2020.02.22.20026815.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 170895,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.02.22.20026815",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/25/2020.02.22.20026815.full.pdf"
+        },
+        "title": "Applying chemical reaction transition theory to predict the latent transmission dynamics of coronavirus outbreak in China",
+        "author": "Peng Xu",
+        "date": 2020,
+        "affiliations": [
+            "Department of Chemical, Biochemical and Environmental Engineering, University of Maryland"
+        ],
+        "abstract": "The recent outbreak of the Covid-19 suggests a rather long latent phase that precludes public health officials to predict the pandemic transmission on time. Here we apply mass action laws and chemical transition theory to propose a kinetic model that accounts for viral transmission dynamics at the latent phase. This model is useful for authorities to make early preventions and control measurements that stop the spread of a deadly new virus.",
+        "references": "@misc{chen-a,\n  author = {Chen, N.},\n  title = {Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. The Lancet},\n  more-authors = {true},\n  language = {}\n}\n@article{li2020a,\n  author = {Li, Q.},\n  title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia},\n  journal = {New England Journal of Medicine},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@article{chen-b,\n  author = {Chen, T.},\n  title = {A mathematical model for simulating the transmission of Wuhan novel Coronavirus},\n  journal = {bioRxiv},\n  pages = {2020\u20132020},\n  more-authors = {true},\n  language = {}\n}\n@article{read-a,\n  author = {Read, J.M.},\n  title = {Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions},\n  journal = {medRxiv},\n  pages = {2020\u20132020},\n  more-authors = {true},\n  language = {}\n}\n@article{zhang-a,\n  author = {Zhang, C. and Wang, M.},\n  title = {MRCA time and epidemic dynamics of the 2019 novel coronavirus},\n  journal = {bioRxiv},\n  pages = {2020\u20132020},\n  language = {}\n}\n@article{rothe2020a,\n  author = {Rothe, C.},\n  title = {Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany},\n  journal = {New England Journal of Medicine},\n  date = {2020},\n  more-authors = {true},\n  language = {}\n}\n@misc{liu2019a,\n  author = {Liu, T.},\n  title = {Transmission dynamics of 2019 novel coronavirus},\n  date = {2019},\n  volume = {bioRxiv,},\n  pages = {2020\u20132020},\n  more-authors = {true},\n  language = {}\n}\n",
+        "emails": [
+            "pengxu@umbc.edu"
+        ],
+        "references_ris": "TY  - GEN\nAU  - Chen, N.\nTI  - Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. The Lancet\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nTI  - Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia\nT2  - New England Journal of Medicine\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Chen, T.\nTI  - A mathematical model for simulating the transmission of Wuhan novel Coronavirus\nT2  - bioRxiv\nSP  - 2020\nEP  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Read, J.M.\nTI  - Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions\nT2  - medRxiv\nSP  - 2020\nEP  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, C.\nAU  - Wang, M.\nTI  - MRCA time and epidemic dynamics of the 2019 novel coronavirus\nT2  - bioRxiv\nSP  - 2020\nEP  - 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rothe, C.\nTI  - Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany\nT2  - New England Journal of Medicine\nPY  - 2020\nDA  - 2020\nC1  - true\nLA  - \nER  - \n\nTY  - GEN\nAU  - Liu, T.\nTI  - Transmission dynamics of 2019 novel coronavirus\nPY  - 2019\nDA  - 2019\nVL  - bioRxiv,\nSP  - 2020\nEP  - 2020\nC1  - true\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Chemical transition theory to predict the transmission of coronavirus. N: normal health population; S: susceptible population; M: inactive media that may carry virus; M*: active viral source; SM*: exposed population that carry the active virus (Latent state); R: recovered population; D: deceased population"
+            },
+            {
+                "id": "2",
+                "caption": "Representative population dynamics of infected, latent, recovered and deceased states predicted by the proposed model. Active viral carrier describes the number of active viral source released from the infected and latent population"
+            },
+            {
+                "id": "3",
+                "caption": "Prediction of the infected, latent and recovered population as a function of the latency period (1/\u07474). The dashed line represents a latency period of 10 weeks, and the solid line represents a latency period of 0.67 weeks. k4 = 0.1; >> tspan = 0:0.25:40; >> [T,Y]= ode45(@(t,y) coronavirus11(t,y,k4),tspan, [100000 200 10000 10000 500 90000 500 500]/1000); >> plot(T, Y(:,3), 'LineWidth', 2); >> hold on; >> plot(T, Y(:,5), 'LineWidth', 2); >> plot(T, Y(:,7), 'LineWidth', 2); >> hold on; >> k4 = 1.5; >> tspan = 0:0.25:40; >> [T,Y]= ode45(@(t,y) coronavirus11(t,y,k4),tspan,[100000 200 10000 10000 500 90000 500 500]/1000); >> plot(T, Y(:,3), 'LineWidth', 2); >> hold on; >> plot(T, Y(:,5), 'LineWidth', 2); >> plot(T, Y(:,7), 'LineWidth', 2); >> hold on; >> legend('Infected, {\\it k}_4=0.1','Latent, {\\it k}_4=0.1','Recovered, {\\it k}_4=0.1', 'Infected, {\\it k}_4=1.5','Latent, {\\it k}_4=1.5','Recovered, {\\it k}_4=1.5'); >> legend boxoff >> ylim([0,110]); >> grid on; >> xlabel('Time/weeks'); >> ylabel('Relative population/1000'); >> set(gca,'FontSize',18); >> lgd.FontSize = 18"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.22.20026815.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.02.22.20026815.full/img-066.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "Starting at the end of 2019, the outbreak of a new coronavirus has caused hundreds of infections in a central city of Hubei Province in China. The mega city (Wuhan) is designed as a major high-speed railway transportation hub with a population of 15 million civilians. Due to the large migration of people to celebrate the Chinese lunar New year (also called Spring Festival, Jan 25 of 2020), the virus spreads rapidly in Wuhan and neighboring cities. This new coronavirus (2019-nCoV) could cause severe acute respiratory infections (SARIs) with lung damage [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. The early onset of the SARIs was initially characterized as \u2018non-transmissible\u2019 among humans by the local government and health specialist. But later was corrected to \u2018transmissible\u2019 among humans. Public health authorities and expert flew to Wuhan and announced a first-grade infectious disease alarm: major railways, airport and bus stations were locked down to reduce every possible chance of virus transmission. Tens of hundreds of people were suspected to be infected by this virus and require hospitalization and special health care in Wuhan. However, large populations of the local patient could not be hospitalized due to the limited medical resources, worsening the pandemics at the worst possible time of the year (Spring Festival). The entire nation was in panic and worry about the spread of the virus; populations with pneumonia-like symptoms or Wuhan travel history were quarantined, flights and railway transportation were suspended around the nation, and new health centers specialized in infectious disease were constructed to accommodate the daily-increasing patients."
+        ],
+        "methods": [
+            "Matlab R2017b was used as the computational platform and installed on a Windows 7 professional operation system with Intel Core i3-6100 CPU processor at speed of 3.70 GHz. The installed memory (RAM) is 4.0 GHz. Matlab symbolic language package coupled with LaTex makeup language is used to derive and output the symbolic equations (Supplementary files). Numerical solutions for the proposed infection model in Fig. 2 were computed by numerical<br/><br/>ODE45 solver. Matlab code has been compiled into the supplementary file. Parameters (death rate constant of 0.004 people/week is used) were obtained by estimating the confirmed infection, death and recovered population reported by the officials. Our simulation is run with a constant migrate rate alpha = 0.1 people/week and a total population is confined at 120,000. The model can be scaled up to a real city, if accurate estimation of the kinetic parameter is feasible."
+        ],
+        "acknowledgments": [
+            "Dr. Xu would like to acknowledge the Bill and Melinda Gates Foundation (OPP1188443) for financially supporting this project."
+        ],
+        "disclosures": [
+            "None declared."
+        ],
+        "supplementary": [
+            "<strong>Supplementary files</strong><br/><br/>Appendix 1: Matlab code to generate the equations used in this work<br/><br/>>> syms alpha k0 k1 k2 k3 k4 k5 k6 k7 n C_N(t) C_I(t) C_M(t) C_MS(t)<br/><br/>C_S(t) C_SMS(t) C_R(t) C_D(t) C_Mtot C_Ntot<br/><br/>>> eqn1 = diff(C_N,t)<br/><br/>== alpha -k0*C_N;<br/><br/>>> eqn2 = diff(C_S,t)<br/><br/>== k0*C_N-k2*C_S*C_MS+k3*C_SMS;<br/><br/>>> eqn3 = diff(C_I,t)<br/><br/>== k4*C_SMS -k5*C_I-k6*C_I;<br/><br/>>> eqn4 = diff(C_MS,t)<br/><br/>== n*k1*C_I*C_M^n-k2*C_S*C_MS+(k3+k4)*C_SMS"
+        ],
+        "funding": [
+            "Xu would like to acknowledge the Bill and Melinda Gates Foundation (OPP1188443) for financially supporting this project"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary files"
+            ],
+            "supplementary_figure_references": []
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "The recent outbreak of the Covid-19 suggests a rather long latent phase that precludes public health officials to predict the pandemic transmission on time. Here we apply mass action laws and chemical transition theory to propose a kinetic model that accounts for viral transmission dynamics at the latent phase. This model is useful for authorities to make early preventions and control measurements that stop the spread of a deadly new virus."
+        ],
+        "Introduction": [
+            "Starting at the end of 2019, the outbreak of a new coronavirus has caused hundreds of infections in a central city of Hubei Province in China. The mega city (Wuhan) is designed as a major high-speed railway transportation hub with a population of 15 million civilians. Due to the large migration of people to celebrate the Chinese lunar New year (also called Spring Festival, Jan 25 of 2020), the virus spreads rapidly in Wuhan and neighboring cities. This new coronavirus (2019-nCoV) could cause severe acute respiratory infections (SARIs) with lung damage [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. The early onset of the SARIs was initially characterized as \u2018non-transmissible\u2019 among humans by the local government and health specialist. But later was corrected to \u2018transmissible\u2019 among humans. Public health authorities and expert flew to Wuhan and announced a first-grade infectious disease alarm: major railways, airport and bus stations were locked down to reduce every possible chance of virus transmission. Tens of hundreds of people were suspected to be infected by this virus and require hospitalization and special health care in Wuhan. However, large populations of the local patient could not be hospitalized due to the limited medical resources, worsening the pandemics at the worst possible time of the year (Spring Festival). The entire nation was in panic and worry about the spread of the virus; populations with pneumonia-like symptoms or Wuhan travel history were quarantined, flights and railway transportation were suspended around the nation, and new health centers specialized in infectious disease were constructed to accommodate the daily-increasing patients.",
+            "Up to date, epidemiologists and health care professionals have used a number of mathematical models to predict the consequence and infection trajectories of the virus outbreak. Both kinetics [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] and statistics-based [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>, <a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] models have predicted the basic reproduction number ranging from 2.0 to 4.0, which signify an alarming sign to designate this new virus as \u2018highly transmissible and communicable\u2019. In the past few days, the population of the infected people increased dramatically in Wuhan and other cities of China, due to the relative long latent period of this new virus. Latency period is defined as the time between infection with a virus and the appearance of symptoms. The accurate estimation of the latency period determines which kind of control measurement actions the health officials and governments should take. Latency period can also be used to predict the population of the people who is exposed to the virus but not yet converted to diseased state. The dormant virus",
+            "is still active and transmissible, which is a hidden factor that brings about the most unpredictability and uncertainty of the current models.",
+            "Latency period is the transition from \u2018exposed state\u2019 to \u2018diseased state\u2019, which is the rate-limiting step of the disease transmission process. In the fundamental elements of chemical reaction theory, chemical transition state is generally applicable to most of radicals or intermediate complex-associated reactions, including examples of photoactivation reaction or enzyme catalysis. Because of the synergy between the latent period of the \u2018exposed population\u2019 and the chemical transition of complex reactions, we here propose a viral transmission model that mimics the encounter complex state of virus to predict the exposed population, which we termed as SM* (Fig. 1), to describe the \u2018exposed population\u2019 at the latent period. The active virus source M* can be released from both the infected (I) and the exposed population (SM*), but not the deceased population D (assuming complete containment of this category). A simplified 7-step transmission mechanism has been exemplified in Fig. 1. Step 1 describes how fast a normal population could be converted to susceptible population who is at risk of infection. Step 2 describes the virus-releasing kinetics of infected people, with each infected people releasing n virus or virus-contaminated subjects (i.e. aerosols). Step 3 describes the infection kinetics of the susceptible people that is converted to an \u2018exposed population\u2019 at the latent phase. A reversible mechanism is proposed here since some of the exposed population didn\u2019t develop symptoms and could naturally return to the susceptible state. Step 4 describes the infection kinetics of the exposed population that is converted to infectious state. Step 5 and step 6 describe the recovery and death kinetics from the infectious population, respectively.",
+            "Step 7 describes the decay kinetics of the active viral carrier to an inactive viral carrier. With fundamental mass action laws, we have formulated eight differential equations (Eqn1 to Eqn8) to describe the viral transmission kinetics based on the 7-step infectious mechanism. The mass balance of total populations (Ntot) and the total viral transmissible media (Mtot) were conseved by Eqn 9 and Eqn 10, respectively.",
+            "With the recently reported cases of infection, death rate and exposed population, we used a set of parameters to simulate the model and predict the pandemic trajectory. In particular, our model is able to predict the trend of exposed population who is in the latent phase, and the total number of active viral source that remain infectious in the community (Fig. 2). We also introduced a migration rate (alpha = 0.1 people/week, which is unrealistically small in the current model) to describe potential flow of people moving into the system. With about",
+            "0.83 weeks of latency period (\u0ada/\u0747\u0b38, \u202b\u0747 \u0741\u074e\u0744\u0741\u0753\u202c\u0b38 is 1.20/week in Fig. 2), we predict that the peak latent population is about 56,100 cases on Feb. 20th (0.5 week), and peak population of infected people is about 91,000 cases around March. 10th (3.3 weeks). Around March 15th (4 weeks), the number of active virial carrier start declining (Fig. 2) and 57.7% of the infected population will be cured or recovered. A projected deceased population is about 3,750 at a time window of 20 weeks (on June 5th).",
+            "By considering the latency period factor, this model is also useful to predict the dynamic trajectory of the population at the latent phase (Fig. 3). The latent population with a 10-week latency period (88,500 cases) is about 75.2% higher than the latent population (about 50,500 cases) with a 0.67-week latency period; as a result (Fig. 3). With a 10-week latency period, the latent population (88,500 cases) is about 2.1-fold than the infected population (42,000 cases). However, the peak population of the infected people (91,000 cases) is 80.2% higher than the latent population (about 50,500 cases) with a 0.67-week latency period (Fig. 3). This result indicates that a rather long latency period decreases the total number of infected people, and the peak infection population is also postponed (Fig. 3). This prediction suggests that we must have an accurate estimation of the latency period before any coercive or preventative actions be taken. Based on the current report from different regions in China, it appears that some of the exposed people haven\u2019t shown any symptoms up to 2~3 weeks [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], but this latent population will keep spreading the virus and transmitting the disease, a more severe transmission than the SARS pandemic in 2003 [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. This uncertainty of the latency period complicates the infection measurements and may deteriorate the situation where people thought they have taken enough precautions to prevent the next outbreak of the virus.",
+            "This simplified infectious disease transmission model takes into consideration of the latency period. The accurate prediction of the latency period will be critical for public health officials and authorities to make early preventions and take rigorous control measurements that stop the further spread of this deadly new virus."
+        ],
+        "Computational methods": [
+            "Matlab R2017b was used as the computational platform and installed on a Windows 7 professional operation system with Intel Core i3-6100 CPU processor at speed of 3.70 GHz. The installed memory (RAM) is 4.0 GHz. Matlab symbolic language package coupled with LaTex makeup language is used to derive and output the symbolic equations (Supplementary files). Numerical solutions for the proposed infection model in Fig. 2 were computed by numerical",
+            "ODE45 solver. Matlab code has been compiled into the supplementary file. Parameters (death rate constant of 0.004 people/week is used) were obtained by estimating the confirmed infection, death and recovered population reported by the officials. Our simulation is run with a constant migrate rate alpha = 0.1 people/week and a total population is confined at 120,000. The model can be scaled up to a real city, if accurate estimation of the kinetic parameter is feasible."
+        ],
+        "Acknowledgments": [
+            "Dr. Xu would like to acknowledge the Bill and Melinda Gates Foundation (OPP1188443) for financially supporting this project."
+        ],
+        "Conflicts of interests": [
+            "None declared."
+        ],
+        "References": [
+            "1. Chen, N., et al, Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. The Lancet. 2. Li, Q., et al, Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected",
+            "Pneumonia. New England Journal of Medicine, 2020. 3. Chen, T., et al, A mathematical model for simulating the transmission of Wuhan novel",
+            "Coronavirus. bioRxiv, 2020: p. 2020.01.19.911669. 4. Read, J.M., et al, Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv, 2020: p. 2020.01.23.20018549. 5. Zhang, C. and M. Wang, MRCA time and epidemic dynamics of the 2019 novel coronavirus.",
+            "bioRxiv, 2020: p. 2020.01.25.919688. 6. Rothe, C., et al, Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany.",
+            "New England Journal of Medicine, 2020. 7. Liu, T., et al, Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioRxiv, 2020: p.",
+            "Equations used in this study",
+            "Equations",
+            "\u07f2 \u07f2\u202b\u0750\u202c",
+            "\u0730\u123a\u202b\u0750\u202c\u123b",
+            "\u0d4c",
+            "\u07d9",
+            "\u0d46",
+            "\u0747\u0b34\u051c\u0730\u123a\u202b\u0750\u202c\u123b",
+            "\u0735\u123a\u202b\u0750\u202c\u123b",
+            "\u0d45",
+            "\u0747\u0b37\u051c\u0735\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u0747\u0b36",
+            "\u0735\u123a\u202b\u0750\u202c\u123b\u202b\u05db\u072f\u202c",
+            "\u123a\u202b\u0750\u202c\u123b\u051c",
+            "\u202b\u072b\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u0747\u0b38\u051c\u0735\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u123a\u0747\u0b39",
+            "\u0747\u0b3a\u123b",
+            "\u202b\u05db\u072f\u202c",
+            "\u123a\u202b\u0750\u202c\u123b",
+            "\u123a\u0747\u0b37",
+            "\u0747\u0b38\u123b\u0735\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u0747\u0b3b\u051c\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u074a\u0747\u0b35\u051c\u202b\u072b\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u202b\u072f\u202c\u123a\u202b\u0750\u202c\u123b\u0be1",
+            "\u0747\u0b36\u051c\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b\u051c\u0735\u123a\u202b\u0750\u202c\u123b",
+            "\u0735\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u0747\u0b38\u123b\u0735\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b\u051c",
+            "\u202b\u072f\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u074a\u0747\u0b35",
+            "\u051c\u202b\u072b\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u0734\u123a\u202b\u0750\u202c\u123b",
+            "\u0747\u0b39\u051c\u202b\u072b\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u202b\u0726\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u0747\u0b3a\u051c\u202b\u072b\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u202b \u0750\u074b\u0750\u072f\u202c\u0d4c \u202b\u072f\u202c\u123a\u202b\u0750\u202c\u123b \u0d45 \u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b \u0d45 \u0735\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b",
+            "\u0730\u202b \u0750\u074b\u0750\u202c\u0d4c \u202b\u0726\u202c\u123a\u202b\u0750\u202c\u123b \u0d45 \u202b\u072b\u202c\u123a\u202b\u0750\u202c\u123b \u0d45 \u0730\u123a\u202b\u0750\u202c\u123b \u0d45 \u0734\u123a\u202b\u0750\u202c\u123b \u0d45 \u0735\u123a\u202b\u0750\u202c\u123b \u0d45 \u0735\u202b\u05db\u072f\u202c\u123a\u202b\u0750\u202c\u123b",
+            "Equation No 1 2 3 4 5 6 7 8 9 10",
+            "Symbols used in this study \u03b1 migration rate of normal population into the system (people/week)",
+            "\u0747\u0b34 rate constant of normal population converted to susceptible population (1/week) \u0747\u0b35 rate constant of infected population releasing the virus (1/week/infected people)",
+            "\u0747\u0b36 rate constant of active virus infecting the susceptible population (1/week/virus) \u0747\u0b37 rate constant of latent population reverted to the susceptible state (1/week) \u0747\u0b38 rate constant of latent population progressing to the infected state (1/week)",
+            "\u0747\u0b39 rate constant of infected population that is recovered (1/week) \u0747\u0b3a rate constant of infected population that is deceased (1/week) \u0747\u0b3b rate constant of active virus decaying to the inactive virus (1/week)",
+            "n virus reproduction number (virus/week)",
+            "N(t) Population at normal state",
+            "S(t) Population at susceptible state",
+            "I(t) Population at infected state M*(t) Population of active viral carrier SM*(t) Population at latent phase",
+            "M(t) Population of inactive viral carrier",
+            "R(t) Population that was recovered",
+            "D(t) Population that was deceased",
+            "Mtot Total population of virial carrier",
+            "Ntot Total population in the pool"
+        ],
+        "Figures": [],
+        "Supplementary files": [],
+        "Appendix 1: Matlab code to generate the equations used in this work": [
+            "== C_N + C_S + C_I + C_R + C_D +C_SMS; Appendix 2: Mass action equations to describe the population change",
+            "\u202b\u0725\u202cNtot \u0d4c \u202b\u0725\u202c\u0bbd\u123a\u202b\u0750\u202c\u123b \u0d45 \u202b\u0725\u202c\u0bc2\u123a\u202b\u0750\u202c\u123b \u0d45 \u202b\u0725\u202c\u0bc7\u123a\u202b\u0750\u202c\u123b \u0d45 \u202b\u0725\u202c\u0bcb\u123a\u202b\u0750\u202c\u123b \u0d45 \u202b\u0725\u202c\u0bcc\u123a\u202b\u0750\u202c\u123b \u0d45 \u202b\u0725\u202cSMS\u123a\u202b\u0750\u202c\u123b",
+            "function dydt = coronavirus10(t,y) dydt=zeros(8,1); k0=3.2;k1=1.2;k2=6.0;k3=0.06;k4=1.2;k5=0.09;k6=0.004;k7=20000; alpha=0.1; n=2.6; C_N = y(1); C_S = y(2); C_I = y(3); C_MS = y(4); C_SMS = y(5); C_M = y(6); C_R = y(7); C_D =y(8); dydt(1) = alpha -k0*C_N; dydt(2) = k0*C_N-k2*C_S*C_MS+k3*C_SMS; dydt(3) = k4*C_SMS -k5*C_I-k6*C_I; dydt(4) = n*k1*C_I*C_M^n-k2*C_S*C_MS+(k3+k4)*C_SMS -k7*C_MS; dydt(5) = k2*C_S*C_MS -(k3+k4)*C_SMS; dydt(6) = k7*C_MS -n*k1*C_I*C_M^n; dydt(7) = k5*C_I; dydt(8) = k6*C_I; end",
+            "Appendix 4: Matlab code to generate Figure 2.",
+            ">> tspan = 0:0.25:40; >> [T,Y]= ode45(@(t,y) coronavirus10(t,y),tspan, [100000 200 10000 10000 500 90000 500 500]/1000); >> plot(T,Y(:,3), 'LineWidth', 2); >> hold on >> plot(T,Y(:,4), 'LineWidth', 2); >> plot(T,Y(:,5), 'LineWidth', 2); >> plot(T,Y(:,6), 'LineWidth', 2); >> plot(T,Y(:,7), 'LineWidth', 2); >> plot(T,Y(:,8), 'LineWidth', 2); >> legend('Infected', 'Active viral carrier','Latent', 'Inactive viral carrier', 'Recovered','Deceased') >> ylim([0,110]); >> xlabel('Time/weeks'); >> ylabel('Relative population/1000'); >> set(gca,'FontSize',18); >> lgd.FontSize = 18; >> grid on >> legend boxoff",
+            "Appendix 5: Matlab code to generate Figure 3.",
+            ">> k4 = 0.1; >> tspan = 0:0.25:40; >> [T,Y]= ode45(@(t,y) coronavirus11(t,y,k4),tspan, [100000 200 10000 10000 500 90000 500 500]/1000); >> plot(T, Y(:,3), 'LineWidth', 2); >> hold on; >> plot(T, Y(:,5), 'LineWidth', 2); >> plot(T, Y(:,7), 'LineWidth', 2); >> hold on; >> k4 = 1.5; >> tspan = 0:0.25:40; >> [T,Y]= ode45(@(t,y) coronavirus11(t,y,k4),tspan,[100000 200 10000 10000 500 90000 500 500]/1000); >> plot(T, Y(:,3), 'LineWidth', 2); >> hold on; >> plot(T, Y(:,5), 'LineWidth', 2); >> plot(T, Y(:,7), 'LineWidth', 2); >> hold on; >> legend('Infected, {\\it k}_4=0.1','Latent, {\\it k}_4=0.1','Recovered, {\\it k}_4=0.1', 'Infected, {\\it k}_4=1.5','Latent, {\\it k}_4=1.5','Recovered, {\\it k}_4=1.5'); >> legend boxoff >> ylim([0,110]); >> grid on; >> xlabel('Time/weeks'); >> ylabel('Relative population/1000'); >> set(gca,'FontSize',18); >> lgd.FontSize = 18;"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 56100,
+            "context": "With about. <mark class=\"stats\">0.83 weeks of latency period (\u0ada/\u0747\u0b38, \u202b\u0747 \u0741\u074e\u0744\u0741\u0753\u202c\u0b38 is 1.20/week in Fig. 2), we predict that the peak latent population is about 56,100 cases on Feb. 20th (0.5 week), and peak population of infected people is about 91,000 cases around March. 10th (3.3 weeks)</mark>. Around March 15th (4 weeks), the number of active virial carrier start declining (Fig. 2) and 57.7% of the infected population will be cured or recovered"
+        },
+        {
+            "participant": "cases",
+            "number": 88500,
+            "context": "By considering the latency period factor, this model is also useful to predict the dynamic trajectory of the population at the latent phase (Fig. 3). <mark class=\"stats\">The latent population with a 10-week latency period (88,500 cases) is about 75.2% higher than the latent population (about 50,500 cases) with a 0.67-week latency period; as a result (Fig. 3)</mark>. With a 10-week latency period, the latent population (88,500 cases) is about 2.1-fold than the infected population (42,000 cases)"
+        },
+        {
+            "participant": "cases",
+            "number": 88500,
+            "context": "The latent population with a 10-week latency period (88,500 cases) is about 75.2% higher than the latent population (about 50,500 cases) with a 0.67-week latency period; as a result (Fig. 3). <mark class=\"stats\">With a 10-week latency period, the latent population (88,500 cases) is about 2.1-fold than the infected population (42,000 cases)</mark>. However, the peak population of the infected people (91,000 cases) is 80.2% higher than the latent population (about 50,500 cases) with a 0.67-week latency period (Fig. 3)"
+        },
+        {
+            "participant": "cases",
+            "number": 91000,
+            "context": "With a 10-week latency period, the latent population (88,500 cases) is about 2.1-fold than the infected population (42,000 cases). <mark class=\"stats\">However, the peak population of the infected people (91,000 cases) is 80.2% higher than the latent population (about 50,500 cases) with a 0.67-week latency period (Fig. 3)</mark>. This result indicates that a rather long latency period decreases the total number of infected people, and the peak infection population is also postponed (Fig. 3)"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "railway transportation",
+        "latent phase",
+        "coronavirus",
+        "transmission dynamics",
+        "new coronavirus",
+        "public health",
+        "transition theory",
+        "pneumonia",
+        "infectious disease",
+        "SARI",
+        "spring festival",
+        "severe acute respiratory infections",
+        "dynamics",
+        "novel coronavirus"
+    ],
+    "keyword_relevance": {
+        "coronavirus": 0.24489795918367346,
+        "latent phase": 0.12244897959183673,
+        "dynamics": 0.12244897959183673,
+        "transmission dynamics": 0.061224489795918366,
+        "transition theory": 0.061224489795918366,
+        "infectious disease": 0.061224489795918366,
+        "severe acute respiratory infections": 0.061224489795918366,
+        "novel coronavirus": 0.061224489795918366,
+        "railway transportation": 0.04081632653061224,
+        "new coronavirus": 0.04081632653061224,
+        "public health": 0.04081632653061224,
+        "pneumonia": 0.04081632653061224,
+        "SARI": 0.04081632653061224,
+        "spring festival": 0.0
+    },
+    "species": [],
+    "summary": [
+        "Starting at the end of 2019, the outbreak of a new coronavirus has caused hundreds of infections in a central city of Hubei Province in China.",
+        "In the past few days, the population of the infected people increased dramatically in Wuhan and other cities of China, due to the relative long latent period of this new virus.",
+        "Latency period can be used to predict the population of the people who is exposed to the virus but not yet converted to diseased state.",
+        "Because of the synergy between the latent period of the \u2018exposed population\u2019 and the chemical transition of complex reactions, the authors here propose a viral transmission model that mimics the encounter complex state of virus to predict the exposed population, which the authors termed as SM* (Fig. 1), to describe the \u2018exposed population\u2019 at the latent period.",
+        "Step 3 describes the infection kinetics of the susceptible people that is converted to an \u2018exposed population\u2019 at the latent phase.",
+        "Step 4 describes the infection kinetics of the exposed population that is converted to infectious state.",
+        "With the recently reported cases of infection, death rate and exposed population, the authors used a set of parameters to simulate the model and predict the pandemic trajectory.",
+        "The authors' model is able to predict the trend of exposed population who is in the latent phase, and the total number of active viral source that remain infectious in the community (Fig. 2).",
+        "0.83 weeks of latency period (\u0ada/\u0747\u0b38, \u202b\u0747 \u0741\u074e\u0744\u0741\u0753\u202c\u0b38 is 1.20/week in Fig. 2), the authors predict that the peak latent population is about 56,100 cases on Feb. 20th (0.5 week), and peak population of infected people is about 91,000 cases around March.",
+        "By considering the latency period factor, this model is useful to predict the dynamic trajectory of the population at the latent phase (Fig. 3).",
+        "The peak population of the infected people (91,000 cases) is 80.2% higher than the latent population with a 0.67-week latency period (Fig. 3).",
+        "This result indicates that a rather long latency period decreases the total number of infected people, and the peak infection population is postponed (Fig. 3).",
+        "Based on the current report from different regions in China, it appears that some of the exposed people haven\u2019t shown any symptoms up to 2~3 weeks [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], but this latent population will keep spreading the virus and transmitting the disease, a more severe transmission than the SARS pandemic in 2003 [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>].",
+        "The accurate prediction of the latency period will be critical for public health officials and authorities to make early preventions and take rigorous control measurements that stop the further spread of this deadly new virus."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Starting at the end of 2019, the outbreak of a new coronavirus has caused hundreds of infections in a central city of Hubei Province in China.",
+            "In the past few days, the population of the infected people increased dramatically in Wuhan and other cities of China, due to the relative long latent period of this new virus.",
+            "Latency period can be used to predict the population of the people who is exposed to the virus but not yet converted to diseased state."
+        ],
+        "Results": [
+            "Because of the synergy between the latent period of the \u2018exposed population\u2019 and the chemical transition of complex reactions, the authors here propose a viral transmission model that mimics the encounter complex state of virus to predict the exposed population, which the authors termed as SM* (Fig. 1), to describe the \u2018exposed population\u2019 at the latent period.",
+            "Step 3 describes the infection kinetics of the susceptible people that is converted to an \u2018exposed population\u2019 at the latent phase.",
+            "Step 4 describes the infection kinetics of the exposed population that is converted to infectious state.",
+            "With the recently reported cases of infection, death rate and exposed population, the authors used a set of parameters to simulate the model and predict the pandemic trajectory.",
+            "The authors' model is able to predict the trend of exposed population who is in the latent phase, and the total number of active viral source that remain infectious in the community (Fig. 2).",
+            "0.83 weeks of latency period (\u0ada/\u0747\u0b38, \u202b\u0747 \u0741\u074e\u0744\u0741\u0753\u202c\u0b38 is 1.20/week in Fig. 2), the authors predict that the peak latent population is about 56,100 cases on Feb. 20th (0.5 week), and peak population of infected people is about 91,000 cases around March.",
+            "By considering the latency period factor, this model is useful to predict the dynamic trajectory of the population at the latent phase (Fig. 3).",
+            "The peak population of the infected people (91,000 cases) is 80.2% higher than the latent population with a 0.67-week latency period (Fig. 3)."
+        ],
+        "Conclusion": [
+            "This result indicates that a rather long latency period decreases the total number of infected people, and the peak infection population is postponed (Fig. 3).",
+            "Based on the current report from different regions in China, it appears that some of the exposed people haven\u2019t shown any symptoms up to 2~3 weeks [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], but this latent population will keep spreading the virus and transmitting the disease, a more severe transmission than the SARS pandemic in 2003 [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>].",
+            "The accurate prediction of the latency period will be critical for public health officials and authorities to make early preventions and take rigorous control measurements that stop the further spread of this deadly new virus."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Chen_2019_a",
+            "entry": "1. Chen, N., et al., Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. The Lancet.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%20N%20et%20al%20Epidemiological%20and%20clinical%20characteristics%20of%2099%20cases%20of%202019%20novel%20coronavirus%20pneumonia%20in%20Wuhan%20China%20a%20descriptive%20study%20The%20Lancet"
+        },
+        {
+            "id": "2",
+            "alt_id": "Li_2020_a",
+            "entry": "2. Li, Q., et al., Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus\u2013Infected Pneumonia. New England Journal of Medicine, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Early%20Transmission%20Dynamics%20in%20Wuhan%2C%20China%2C%20of%20Novel%20Coronavirus%E2%80%93Infected%20Pneumonia%202020"
+        },
+        {
+            "id": "3",
+            "alt_id": "Chen_0000_b",
+            "entry": "3. Chen, T., et al., A mathematical model for simulating the transmission of Wuhan novel Coronavirus. bioRxiv, 2020: p. 2020.01.19.911669.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20T.%20A%20mathematical%20model%20for%20simulating%20the%20transmission%20of%20Wuhan%20novel%20Coronavirus",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20T.%20A%20mathematical%20model%20for%20simulating%20the%20transmission%20of%20Wuhan%20novel%20Coronavirus",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20T.%20A%20mathematical%20model%20for%20simulating%20the%20transmission%20of%20Wuhan%20novel%20Coronavirus"
+        },
+        {
+            "id": "4",
+            "alt_id": "Read_2019_a",
+            "entry": "4. Read, J.M., et al., Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv, 2020: p. 2020.01.23.20018549.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Read%20JM%20et%20al%20Novel%20coronavirus%202019nCoV%20early%20estimation%20of%20epidemiological%20parameters%20and%20epidemic%20predictions%20medRxiv%202020%20p%202020012320018549",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Read%20JM%20et%20al%20Novel%20coronavirus%202019nCoV%20early%20estimation%20of%20epidemiological%20parameters%20and%20epidemic%20predictions%20medRxiv%202020%20p%202020012320018549",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Read%20JM%20et%20al%20Novel%20coronavirus%202019nCoV%20early%20estimation%20of%20epidemiological%20parameters%20and%20epidemic%20predictions%20medRxiv%202020%20p%202020012320018549"
+        },
+        {
+            "id": "5",
+            "alt_id": "Zhang_2019_a",
+            "entry": "5. Zhang, C. and M. Wang, MRCA time and epidemic dynamics of the 2019 novel coronavirus. bioRxiv, 2020: p. 2020.01.25.919688.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%20C%20and%20M%20Wang%20MRCA%20time%20and%20epidemic%20dynamics%20of%20the%202019%20novel%20coronavirus%20bioRxiv%202020%20p%2020200125919688",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%20C%20and%20M%20Wang%20MRCA%20time%20and%20epidemic%20dynamics%20of%20the%202019%20novel%20coronavirus%20bioRxiv%202020%20p%2020200125919688",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%20C%20and%20M%20Wang%20MRCA%20time%20and%20epidemic%20dynamics%20of%20the%202019%20novel%20coronavirus%20bioRxiv%202020%20p%2020200125919688"
+        },
+        {
+            "id": "6",
+            "alt_id": "Rothe_2020_a",
+            "entry": "6. Rothe, C., et al., Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany. New England Journal of Medicine, 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Rothe%20C%20et%20al%20Transmission%20of%202019nCoV%20Infection%20from%20an%20Asymptomatic%20Contact%20in%20Germany%20New%20England%20Journal%20of%20Medicine%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Rothe%20C%20et%20al%20Transmission%20of%202019nCoV%20Infection%20from%20an%20Asymptomatic%20Contact%20in%20Germany%20New%20England%20Journal%20of%20Medicine%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Rothe%20C%20et%20al%20Transmission%20of%202019nCoV%20Infection%20from%20an%20Asymptomatic%20Contact%20in%20Germany%20New%20England%20Journal%20of%20Medicine%202020"
+        },
+        {
+            "id": "7",
+            "alt_id": "Liu_2019_a",
+            "entry": "7. Liu, T., et al., Transmission dynamics of 2019 novel coronavirus (2019-nCoV). bioRxiv, 2020: p. 2020.01.25.919787.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Liu%20T%20et%20al%20Transmission%20dynamics%20of%202019%20novel%20coronavirus%202019nCoV%20bioRxiv%202020%20p%2020200125919787"
+        }
+    ],
+    "facts": [
+        "precludes public health officials to predict the pandemic transmission on time",
+        "a kinetic model that accounts for viral transmission dynamics at the latent phase",
+        "This model is useful for authorities to make early preventions and control measurements",
+        "that stop the spread of a deadly new virus",
+        "The mega city is designed as a major high-speed railway transportation hub with a population",
+        "Public health authorities and expert flew to Wuhan",
+        "Tens of hundreds of people were suspected to be infected by this virus",
+        "The entire nation was in panic",
+        "flights and railway transportation were suspended around the nation",
+        "new health centers specialized in infectious disease were constructed to accommodate the daily-increasing patients",
+        "Matlab R2017b was used as the computational platform",
+        "Matlab symbolic language package coupled with LaTex makeup language is used to derive",
+        "Matlab code has been compiled into the supplementary file",
+        "recovered population reported by the officials",
+        "Our simulation is run with a constant migrate rate alpha",
+        "Latency period can be used to predict the population of the people who is exposed to the virus",
+        "the infection kinetics of the exposed population that is converted to infectious state",
+        "able to predict the trend of exposed population who is in the latent phase",
+        "the total number of active viral source that remain infectious in the community",
+        "that the peak latent population is about 56,100 cases on Feb. 20th",
+        "useful to predict the dynamic trajectory of the population at the latent phase",
+        "rather long latency period decreases the total number of infected people",
+        "The accurate prediction of the latency period will be critical for public health officials and authorities to make early preventions",
+        "take rigorous control measurements that stop the further spread of this deadly new virus",
+        "a migration rate to describe potential flow of people moving into the system"
+    ],
+    "claims": [
+        "We also introduced a migration rate (alpha = 0.1 people/week, which is unrealistically small in the current model) to describe potential flow of people moving into the system"
+    ],
+    "findings": [
+        "The latent population with a 10-week latency period (88,500 cases) is about 75.2% higher than the latent population (about 50,500 cases) with a 0.67-week latency period; as a result (Fig. 3)",
+        "The peak population of the infected people (91,000 cases) is 80.2% higher than the latent population (about 50,500 cases) with a 0.67-week latency period (Fig. 3)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "Public health authorities and expert flew to Wuhan and announced a first-grade infectious disease alarm: major railways, airport and bus stations were locked down to reduce every possible chance of virus transmission",
+        "The entire nation was in panic and worry about the spread of the virus; populations with pneumonia-like symptoms or Wuhan travel history were quarantined, flights and railway transportation were suspended around the nation, and new health centers specialized in infectious disease were constructed to accommodate the daily-increasing patients",
+        "Our model is able to predict the trend of exposed population who is in the latent phase, and the total number of active viral source that remain infectious in the community (Fig. 2)",
+        "By considering the latency period factor, this model is useful to predict the dynamic trajectory of the population at the latent phase (Fig. 3)",
+        "The accurate prediction of the latency period will be critical for public health officials and authorities to make early preventions and take rigorous control measurements that stop the further spread of this deadly new virus"
+    ],
+    "top_statements": [
+        "Starting at the end of 2019, the outbreak of a new coronavirus has caused hundreds of infections in a central city of Hubei Province in China",
+        "Public health authorities and expert flew to Wuhan and announced a first-grade infectious disease alarm: major railways, airport and bus stations were locked down to reduce every possible chance of virus transmission",
+        "The entire nation was in panic and worry about the spread of the virus; populations with pneumonia-like symptoms or Wuhan travel history were quarantined, flights and railway transportation were suspended around the nation, and new health centers specialized in infectious disease were constructed to accommodate the daily-increasing patients",
+        "Our model is able to predict the trend of exposed population who is in the latent phase, and the total number of active viral source that remain infectious in the community (Fig. 2)",
+        "By considering the latency period factor, this model is useful to predict the dynamic trajectory of the population at the latent phase (Fig. 3)",
+        "The accurate prediction of the latency period will be critical for public health officials and authorities to make early preventions and take rigorous control measurements that stop the further spread of this deadly new virus"
+    ],
+    "headline": "The entire nation was in panic and worry about the spread of the virus; populations with pneumonia-like symptoms or Wuhan travel history were quarantined, flights and railway transportation were suspended around the nation, and new health centers specialized in infectious disease were constructed to accommodate the daily-increasing patients",
+    "contexts": [],
+    "abbreviations": {
+        "SARIs": "severe acute respiratory infections"
+    }
+}

@@ -1,0 +1,449 @@
+{
+    "filename": "jmv.25719.pdf",
+    "content_type": "application/pdf",
+    "file_size": 0,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1002/jmv.25719",
+            "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jmv.25719"
+        },
+        "title": "COVID\u20102019: The role of the nsp2 and nsp3 in its pathogenesis",
+        "keywords": [
+            "epidemiology",
+            "infection",
+            "pandemics",
+            "pathogenesis",
+            "protein\u2010protein interaction analysis",
+            "research and analysis methods"
+        ],
+        "author": "Silvia Angeletti, Domenico Benvenuto, Martina Bianchi, Marta Giovanetti, Stefano Pascarella, Massimo Ciccozzi",
+        "date": 2020,
+        "affiliations": [
+            "Unit of Clinical Laboratory ScienceUniversity Campus Bio\u2010Medico of RomeRome Italy",
+            "Unit of Medical Statistics and Molecular EpidemiologyUniversity Campus Bio\u2010Medico of RomeRome Italy",
+            "Department of Biochemical Sciences \"A. Rossi Fanelli\"University of Rome \u201cLa Sapienza\u201dRome Italy",
+            "Flavivirus LaboratoryOswaldo Cruz Institute, Oswaldo Cruz FoundationRio de Janeiro Brazil",
+            "Department of Biochemical Sciences \"A. Rossi Fanelli\"University of Rome \u201cLa Sapienza\u201dRome Italy",
+            "Unit of Medical Statistics and Molecular EpidemiologyUniversity Campus Bio\u2010Medico of RomeRome Italy"
+        ],
+        "journal": "Journal of Medical Virology",
+        "abstract": "Last December 2019, a new virus, named novel Coronavirus (COVID\u20102019) causing many cases of severe pneumonia was reported in Wuhan, China. The virus knowledge is limited and especially about COVID\u20102019 pathogenesis. The Open Reading Frame 1ab (ORF1ab) of COVID\u20102019 has been analyzed to evidence the presence of mutation caused by selective pressure on the virus. For selective pressure analysis fast\u2010unconstrained Bayesian approximation (FUBAR) was used. Homology modelling has been performed by SwissModel and HHPred servers. The presence of transmembrane helical segments in Coronavirus ORF1ab non structural protein 2 (nsp2) and nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] was tested by TMHMM, MEMSAT, and MEMPACK tools. Three\u2010 dimensional structures have been analyzed and displayed using PyMOL. FUBAR analysis revealed the presence of potential sites under positive selective pressure (P < .05). Position 723 in the COVID\u20102019 has a serine instead a glycine residue, while at aminoacidic position 1010 a proline instead an isoleucine. Significant (P < .05) pervasive negative selection in 2416 sites (55%) was found. The positive selective pressure could account for some clinical features of this virus compared with severe acute respiratory syndrome (SARS) and Bat SARS\u2010like CoV. The stabilizing mutation falling in the endosome\u2010associated\u2010protein\u2010like domain of the nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] protein could account for COVID\u20102019 high ability of contagious, while the destabilizing mutation in nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] proteins could suggest a potential mechanism differentiating COVID\u20102019 from SARS. These data could be helpful for further investigation aimed to identify potential therapeutic targets or vaccine strategy, especially in the actual moment when the epidemic is ongoing and the scientific community is trying to enrich knowledge about this new viral pathogen.",
+        "references": "@article{hui-a,\n  author = {Hui, D.S. and Azhar, I. and E, Madani and T.A.},\n  title = {The continuing 2019\u2010nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China},\n  journal = {Int J Infect Dis},\n  volume = {2020},\n  pages = {264\u2013266},\n  more-authors = {true},\n  number = {91},\n  language = {}\n}\n@article{benvenuto-a,\n  author = {Benvenuto, D. and Giovannetti, M. and Ciccozzi, A. and Spoto, S. and Angeletti, S. and Ciccozzi, M.},\n  title = {The 2019\u2010new coronavirus epidemic: evidence for virus evolution},\n  journal = {J Med Virol},\n  volume = {2020},\n  pages = {455\u2013459},\n  url = {https://doi.org/10.1002/jmv.25688},\n  number = {92},\n  language = {}\n}\n@article{liu-a,\n  author = {Liu, J. and Zheng, X. and Tong, Q.},\n  title = {Overlapping and discrete aspects of the pathology and pathogenesis of the emerging human pathogenic coronaviruses SARS\u2010CoV, MERS\u2010CoV, and 2019\u2010nCoV},\n  journal = {J Med Virol},\n  volume = {2020},\n  url = {https://doi.org/10.1002/jmv.25709},\n  more-authors = {true},\n  language = {}\n}\n@article{katoh2019a,\n  author = {Katoh, K. and Rozewicki, J. and Yamada, K.D.},\n  title = {MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization},\n  journal = {Brief Bioinform},\n  date = {2019},\n  volume = {20},\n  pages = {1160\u20131166},\n  number = {4},\n  language = {}\n}\n@incollection{hall1999a,\n  author = {Hall, T.A.},\n  title = {BioEdit A user\u2010friendly biological sequence alignment},\n  editor = {and},\n  booktitle = {analysis program for Windows 95/98/NT. Nucleic Acids Symp Ser},\n  date = {1999},\n  volume = {41},\n  pages = {95\u201398},\n  language = {}\n}\n@article{murrell2013a,\n  author = {Murrell, B. and Moola, S. and Mabona, A.},\n  title = {FUBAR: a fast, unconstrained bayesian approximation for inferring selection},\n  journal = {Mol Biol Evol},\n  date = {2013},\n  volume = {30},\n  pages = {1196\u20131205},\n  more-authors = {true},\n  number = {5},\n  language = {}\n}\n@article{murrell2012a,\n  author = {Murrell, B. and Wertheim, J.O. and Moola, S. and Weighill, T. and Scheffler, K. and Kosakovsky Pond, S.L.},\n  title = {Detecting individual sites subject to episodic diversifying selection},\n  journal = {PLoS Genet},\n  date = {2012},\n  volume = {8},\n  pages = {1002764},\n  number = {7},\n  language = {}\n}\n@article{waterhouse2018a,\n  author = {Waterhouse, A. and Bertoni, M. and Bienert, S.},\n  title = {SWISS\u2010MODEL: homology modelling of protein structures and complexes},\n  journal = {Nucleic Acids Res},\n  date = {2018},\n  volume = {46},\n  pages = {296\u2013303},\n  more-authors = {true},\n  number = {1},\n  language = {}\n}\n@article{zimmermann2018a,\n  author = {Zimmermann, L. and Stephens, A. and Nam, S.Z.},\n  title = {A completely reimplemented MPI bioinformatics toolkit with a new HHpred server at its core},\n  journal = {J Mol Biol},\n  date = {2018},\n  volume = {430},\n  pages = {2237\u20132243},\n  more-authors = {true},\n  number = {15},\n  language = {}\n}\n@article{yang2015a,\n  author = {Yang, J. and Yan, R. and Roy, A. and Xu, D. and Poisson, J. and Zhang, Y.},\n  title = {The I\u2010TASSER suite: Protein structure and function prediction},\n  journal = {Nature Methods},\n  date = {2015},\n  volume = {12},\n  pages = {7\u20138},\n  number = {1},\n  language = {}\n}\n@article{zhang2004a,\n  author = {Zhang, Y. and Skolnick, J.},\n  title = {Scoring function for automated assessment of protein structure template quality},\n  journal = {Proteins},\n  date = {2004},\n  volume = {57},\n  pages = {702\u2013710},\n  number = {4},\n  language = {}\n}\n@article{lovell2003a,\n  author = {Lovell, S.C.},\n  title = {Structure validation by Calpha geometry: phi, psi, and Cbeta deviation},\n  journal = {Proteins},\n  date = {2003},\n  volume = {50},\n  pages = {437\u2013450},\n  number = {3},\n  language = {}\n}\n@article{moller2001a,\n  author = {Moller, S. and Croning, M.D.R. and Apweiler, R.},\n  title = {Evaluation of methods for the prediction of membrane spanning regions},\n  journal = {Bioinformatics},\n  date = {2001},\n  volume = {17},\n  pages = {646\u2013653},\n  number = {7},\n  language = {}\n}\n@article{nugent2009a,\n  author = {Nugent, T. and Jones, D.T.},\n  title = {Transmembrane protein topology prediction using support vector machines},\n  journal = {BMC Bioinformatics},\n  date = {2009},\n  volume = {10},\n  pages = {159},\n  language = {}\n}\n@article{nugent2011a,\n  author = {Nugent, T. and Ward, S. and Jones, D.T.},\n  title = {The MEMPACK alpha\u2010helical transmembrane protein structure prediction server},\n  journal = {Bioinformatics},\n  date = {2011},\n  volume = {27},\n  pages = {1438\u20131439},\n  number = {10},\n  language = {}\n}\n@misc{schroedinger2015a,\n  author = {Schr\u00f6dinger, L.L.C.},\n  title = {The {PyMOL} Molecular Graphics System. Version 1.80 LLC},\n  date = {2015},\n  language = {},\n  address = {New York, NY}\n}\n@misc{saikatendu2005a,\n  author = {Saikatendu, K.S. and Joseph, J.S. and Subramanian, V.},\n  title = {Structural basis of severe acute respiratory syndrome coronavirus ADP\u2010ribose\u20101''\u2010 phosphate dephosphorylation by a conserved domain of nsP3. Structure},\n  date = {2005},\n  volume = {13},\n  pages = {1665\u20131675},\n  more-authors = {true},\n  number = {11},\n  language = {}\n}\n@article{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  volume = {2020},\n  pages = {497\u2013506},\n  url = {https://doi.org/10.1016/S0140},\n  more-authors = {true},\n  number = {395},\n  language = {}\n}\n@article{zhu-a,\n  author = {Zhu, N. and Zhang, D. and Wang, W.},\n  title = {China novel coronavirus investigating and research team. A novel coronavirus from patients with pneumonia in China, 2019},\n  journal = {N Engl J Med},\n  volume = {2020},\n  pages = {727\u2013733},\n  url = {https://doi.org/10.1056/NEJMoa2001017},\n  more-authors = {true},\n  number = {382},\n  language = {}\n}\n@article{unknown-a,\n  title = {The Lancet. Emerging understandings of 2019\u2010nCoV},\n  journal = {Lancet},\n  volume = {2020},\n  pages = {311},\n  number = {395},\n  language = {}\n}\n@article{giovanetti-a,\n  author = {Giovanetti, M. and Benvenuto, D. and Angeletti, S. and Ciccozzi, M.},\n  title = {The first two cases of 2019\u2010nCoV in Italy: where they come from?},\n  journal = {J Med Virol},\n  volume = {2020},\n  url = {https://doi.org/10.1002/jmv.25699},\n  language = {}\n}\n@article{guarner-a,\n  author = {Guarner, J.},\n  title = {Three emerging coronaviruses in two decades},\n  journal = {Am J Clin Pathol},\n  volume = {2020},\n  url = {https://doi.org/10.1093/ajcp/aqaa029},\n  pages = {1\u20135},\n  unmatched-author = {S, Benvenuto D, Bianchi M, Giovanetti M, Pascarella S, Ciccozzi M.},\n  source = {How to cite this article: Angeletti},\n  unmatched-journal = {J Med},\n  unmatched-volume = {Virol.2020;},\n  number = {29},\n  language = {}\n}\n",
+        "links": [
+            "http://www.datamonkey.org/",
+            "http://www.ncbi.nlm.nih",
+            "http://orcid.org/0000-0002-7393-8732",
+            "http://orcid.org/0000-0003-3833-2927",
+            "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+            "https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/",
+            "https://www.gisaid.org/",
+            "http://orcid.org/0000-0003-3866-9239"
+        ],
+        "emails": [
+            "s.angeletti@unicampus.it"
+        ],
+        "references_ris": "TY  - JOUR\nAU  - Hui, D.S.\nAU  - Azhar, I.\nAU  - E, Madani\nAU  - T.A.\nTI  - The continuing 2019\u2010nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China\nT2  - Int J Infect Dis\nVL  - 2020\nSP  - 264\nEP  - 266\nC1  - true\nIS  - 91\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Benvenuto, D.\nAU  - Giovannetti, M.\nAU  - Ciccozzi, A.\nAU  - Spoto, S.\nAU  - Angeletti, S.\nAU  - Ciccozzi, M.\nTI  - The 2019\u2010new coronavirus epidemic: evidence for virus evolution\nT2  - J Med Virol\nVL  - 2020\nSP  - 455\nEP  - 459\nUR  - https://doi.org/10.1002/jmv.25688\nIS  - 92\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Liu, J.\nAU  - Zheng, X.\nAU  - Tong, Q.\nTI  - Overlapping and discrete aspects of the pathology and pathogenesis of the emerging human pathogenic coronaviruses SARS\u2010CoV, MERS\u2010CoV, and 2019\u2010nCoV\nT2  - J Med Virol\nVL  - 2020\nUR  - https://doi.org/10.1002/jmv.25709\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Katoh, K.\nAU  - Rozewicki, J.\nAU  - Yamada, K.D.\nTI  - MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization\nT2  - Brief Bioinform\nPY  - 2019\nDA  - 2019\nVL  - 20\nSP  - 1160\nEP  - 1166\nIS  - 4\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Hall, T.A.\nTI  - BioEdit A user\u2010friendly biological sequence alignment\nA2  - and\nT2  - analysis program for Windows 95/98/NT. Nucleic Acids Symp Ser\nPY  - 1999\nDA  - 1999\nVL  - 41\nSP  - 95\nEP  - 98\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Murrell, B.\nAU  - Moola, S.\nAU  - Mabona, A.\nTI  - FUBAR: a fast, unconstrained bayesian approximation for inferring selection\nT2  - Mol Biol Evol\nPY  - 2013\nDA  - 2013\nVL  - 30\nSP  - 1196\nEP  - 1205\nC1  - true\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Murrell, B.\nAU  - Wertheim, J.O.\nAU  - Moola, S.\nAU  - Weighill, T.\nAU  - Scheffler, K.\nAU  - Kosakovsky Pond, S.L.\nTI  - Detecting individual sites subject to episodic diversifying selection\nT2  - PLoS Genet\nPY  - 2012\nDA  - 2012\nVL  - 8\nSP  - 1002764\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Waterhouse, A.\nAU  - Bertoni, M.\nAU  - Bienert, S.\nTI  - SWISS\u2010MODEL: homology modelling of protein structures and complexes\nT2  - Nucleic Acids Res\nPY  - 2018\nDA  - 2018\nVL  - 46\nSP  - 296\nEP  - 303\nC1  - true\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zimmermann, L.\nAU  - Stephens, A.\nAU  - Nam, S.Z.\nTI  - A completely reimplemented MPI bioinformatics toolkit with a new HHpred server at its core\nT2  - J Mol Biol\nPY  - 2018\nDA  - 2018\nVL  - 430\nSP  - 2237\nEP  - 2243\nC1  - true\nIS  - 15\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yang, J.\nAU  - Yan, R.\nAU  - Roy, A.\nAU  - Xu, D.\nAU  - Poisson, J.\nAU  - Zhang, Y.\nTI  - The I\u2010TASSER suite: Protein structure and function prediction\nT2  - Nature Methods\nPY  - 2015\nDA  - 2015\nVL  - 12\nSP  - 7\nEP  - 8\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhang, Y.\nAU  - Skolnick, J.\nTI  - Scoring function for automated assessment of protein structure template quality\nT2  - Proteins\nPY  - 2004\nDA  - 2004\nVL  - 57\nSP  - 702\nEP  - 710\nIS  - 4\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lovell, S.C.\nTI  - Structure validation by Calpha geometry: phi, psi, and Cbeta deviation\nT2  - Proteins\nPY  - 2003\nDA  - 2003\nVL  - 50\nSP  - 437\nEP  - 450\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Moller, S.\nAU  - Croning, M.D.R.\nAU  - Apweiler, R.\nTI  - Evaluation of methods for the prediction of membrane spanning regions\nT2  - Bioinformatics\nPY  - 2001\nDA  - 2001\nVL  - 17\nSP  - 646\nEP  - 653\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nugent, T.\nAU  - Jones, D.T.\nTI  - Transmembrane protein topology prediction using support vector machines\nT2  - BMC Bioinformatics\nPY  - 2009\nDA  - 2009\nVL  - 10\nSP  - 159\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nugent, T.\nAU  - Ward, S.\nAU  - Jones, D.T.\nTI  - The MEMPACK alpha\u2010helical transmembrane protein structure prediction server\nT2  - Bioinformatics\nPY  - 2011\nDA  - 2011\nVL  - 27\nSP  - 1438\nEP  - 1439\nIS  - 10\nLA  - \nER  - \n\nTY  - GEN\nAU  - Schr\u00f6dinger, L.L.C.\nTI  - The {PyMOL} Molecular Graphics System. Version 1.80 LLC\nPY  - 2015\nDA  - 2015\nLA  - \nCY  - New York, NY\nER  - \n\nTY  - GEN\nAU  - Saikatendu, K.S.\nAU  - Joseph, J.S.\nAU  - Subramanian, V.\nTI  - Structural basis of severe acute respiratory syndrome coronavirus ADP\u2010ribose\u20101''\u2010 phosphate dephosphorylation by a conserved domain of nsP3. Structure\nPY  - 2005\nDA  - 2005\nVL  - 13\nSP  - 1665\nEP  - 1675\nC1  - true\nIS  - 11\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nVL  - 2020\nSP  - 497\nEP  - 506\nUR  - https://doi.org/10.1016/S0140\nC1  - true\nIS  - 395\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhu, N.\nAU  - Zhang, D.\nAU  - Wang, W.\nTI  - China novel coronavirus investigating and research team. A novel coronavirus from patients with pneumonia in China, 2019\nT2  - N Engl J Med\nVL  - 2020\nSP  - 727\nEP  - 733\nUR  - https://doi.org/10.1056/NEJMoa2001017\nC1  - true\nIS  - 382\nLA  - \nER  - \n\nTY  - JOUR\nTI  - The Lancet. Emerging understandings of 2019\u2010nCoV\nT2  - Lancet\nVL  - 2020\nSP  - 311\nIS  - 395\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Giovanetti, M.\nAU  - Benvenuto, D.\nAU  - Angeletti, S.\nAU  - Ciccozzi, M.\nTI  - The first two cases of 2019\u2010nCoV in Italy: where they come from?\nT2  - J Med Virol\nVL  - 2020\nUR  - https://doi.org/10.1002/jmv.25699\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Guarner, J.\nTI  - Three emerging coronaviruses in two decades\nT2  - Am J Clin Pathol\nVL  - 2020\nUR  - https://doi.org/10.1093/ajcp/aqaa029\nSP  - 1\nEP  - 5\nC1  - S, Benvenuto D, Bianchi M, Giovanetti M, Pascarella S, Ciccozzi M.\nT2  - How to cite this article: Angeletti\nC1  - J Med\nC1  - Virol.2020;\nIS  - 29\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Accession numbers, virus type, and the archive where they have been taken from"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "A, HHpred mapping of the homologous structures onto the ORF1ab sequence shown as a blue line on the top of the panel. Numbering above the line refers to the entire ORF. Red and Blue strips represent the PDB homologous structures and the nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] sequences, respectively. PDB codes are reported within the corresponding red stripes. Numbering below the blue line is relative to each single nsp. Orange lines indicate approximately the positions of the transmembrane helices predicted by MEMSAT. Label refers to panel B. B, diagram of the topology of predicted transmembrane helices. Number refer to the corresponding nsp sequences. nsp, non structural protein; ORF, open reading frame"
+            },
+            {
+                "id": "2",
+                "caption": "I\u2010Tasser model of the COVID\u20102019 nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Residues under positive selective pressure with a P < .05 are shown as sticks and transparent spheres and are marked by the corresponding labels. COVID\u20102019, novel Coronavirus; nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], non structural protein\u20102 pathogenicity. (Figure 2) In the nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] structure model available at the I\u2010Tasser site, this position appears to be exposed to the solvent"
+            },
+            {
+                "id": "3",
+                "caption": "I\u2010Tasser model of the COVID\u20102019 nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. The residue under positive selective pressure with a P < .05 is shown as sticks and transparent spheres and is marked by the corresponding label. COVID\u20102019, novel Coronavirus; nsp, non structural protein human\u2010to\u2010human transmission in China but with evident spreading also in other countries, World Health Organization declared the epidemic a global health emergency.[<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>,<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/jmv.25719.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/jmv.25719/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/jmv.25719/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/jmv.25719/img-004.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "A novel Coronavirus, the COVID\u20102019, first appeared in Wuhan, China, last December 2019, spreading in other provinces/regions of China and in many countries other continents.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] The epidemic originated probably from bat after viral mutation in the spike glycoprotein, as recently suggested,[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] began human\u2010to\u2010human transmission. The rapid spread of epidemic generated fear leading China authorities to restrict people movement to and from Wuhan in China, where the first start of epidemic was reported. As of 12 February<br/><br/>Silvia Angelettie, Domenico Benvenuto, Stefano Pascarella, and Massimo Ciccozzi contributed equally to this work.<br/><br/>J Med Virol. 2020;1\u20135.<br/><br/>wileyonlinelibrary.com/journal/jmv    2|    ANGELETTI ET AL.<br/><br/>2020, 45 206 cases have been documented with 44 687 cases in Mainland China, including 1117 deaths and 5123 recovered https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/ bda7594740fd40299423467b48e9ecf[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. The emergence of such a novel, highly virulent pathogen warrants rapid investigation of its etiology and evolution to control the impact on human health."
+        ],
+        "discussion": [
+            "The COVID\u20102019 ongoing epidemic is worrying worldwide for its high contagiosity. From its first appearance in Wuhan, China, about 1 month ago, the virus infected thousands people with new cases number rapidly growing every day. For this acceleration in<br/><br/>Many questions are open and need an answer, of these the most frequent is how much this virus can be dangerous and how much it differs from SARS virus which epidemic scared all the world some years ago. In this study some interesting findings have been evidenced to support and fill gaps in knowledge about the new COVID\u20102019 that is still causing infection all over the world.[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>,<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]<br/><br/>The positive selective pressure in this protein could justify some clinical features of this virus compared with SARS and Bat SARS\u2010like CoV.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] First which are the probably most common sites undergoing to an aminoacidic change, providing an insight of some important proteins of the COVID\u20102019 that are involved in the mechanism of viral entry and viral replication. This data can contribute for a better understanding of how this virus acts in its pathogenicity. Furthermore, to identify a potential molecular target is fundamental to follow the molecular evolution of the virus suggesting some interesting sites for potential therapy or vaccine."
+        ]
+    },
+    "structured_content": {
+        "1 | INTRODUCTION": [
+            "A novel Coronavirus, the COVID\u20102019, first appeared in Wuhan, China, last December 2019, spreading in other provinces/regions of China and in many countries other continents.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] The epidemic originated probably from bat after viral mutation in the spike glycoprotein, as recently suggested,[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] began human\u2010to\u2010human transmission. The rapid spread of epidemic generated fear leading China authorities to restrict people movement to and from Wuhan in China, where the first start of epidemic was reported. As of 12 February",
+            "Silvia Angelettie, Domenico Benvenuto, Stefano Pascarella, and Massimo Ciccozzi contributed equally to this work.",
+            "J Med Virol. 2020;1\u20135.",
+            "ANGELETTI ET AL.",
+            "2020, 45 206 cases have been documented with 44 687 cases in Mainland China, including 1117 deaths and 5123 recovered https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/ bda7594740fd40299423467b48e9ecf[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. The emergence of such a novel, highly virulent pathogen warrants rapid investigation of its etiology and evolution to control the impact on human health.",
+            "Knowledge about COVID\u20102019 is still incomplete, many questions have raised and many answers are needed first of all regarding its pathogenicity, its ability to change, how many people will get sick from each infected person, the so\u2010called R0 and when infection will be preventable or treatable.[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] In the last period where many researchers are intensively studying the mechanism of COVID\u20102019 replication, pathogenicity, and therapeutic strategies, the present study has been realized. The aim was to provide information about how quickly the virus could potentially increase its genetic variability, with important implications for disease progression and drug or vaccine development. At this aim the Open Reading Frame 1ab (ORF1ab) of COVID\u20102019 has been analyzed to evidence the presence of mutation caused by selective pressure on the virus and their influence on viral ability to infect human host promoting epidemic spread.",
+            "The ORF1ab of 15 COVID\u20102019 sequences have been downloaded from GISAID (https://www.gisaid.org/) and GenBank (http://www.ncbi.nlm.nih. gov/genbank/) databanks. A dataset has been built using the five sequences of the severe acute respiratory syndrome (SARS) virus and five sequences from Bat SARS\u2010like virus sharing the highest sequence similarity to the COVID\u20102019 sequence (Table 1). The pairwise percentage of similarity has been calculated using Basic Local Alignment Search Tool (https://blast.ncbi.nlm.nih.gov/Blast.cgi); duplicated sequences have been removed from the dataset. The 25 sequences have been aligned using a multiple sequence alignment multiple alignment using fast fourier transform online tool[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] and manually edited using Bioedit program v7.0.5.5",
+            "The selective pressure analysis was focused on the polyprotein ORF1ab because it differs from the most similar bat Coronavirus (QHR63299) for only 103 amino acid residues, 64 of them are conservative changes. In particular, non structural protein 2 (nsp2) differs from bat Coronavirus for 11 residues while nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] for 64 residues of which 44 are conservative changes.",
+            "Adaptive Evolution Server (http://www.datamonkey.org/) was used to find eventual sites under of positive or negative selection pressure. At this purpose the following tests has been used: fast\u2010 unconstrained Bayesian approximation (FUBAR).[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] These tests allowed to infer the site\u2010specific pervasive selection, the episodic diversifying selection across the region of interest and to identify episodic selection at individual sites.[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] Statistically significant positive or negative selection was based on P < .05.",
+            "Homology modelling has been attempted with SwissModel[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] and HHPred[<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>] servers. Models for ORF1ab nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] proteins available at the I\u2010Tasser web site (corresponding to codes QHD43415_2 and QHD43415_3)[<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>] have been considered. PDB Proteins structurally close to the target have been evaluated using the TM\u2010score[<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>] while the RAMPAGE12 online tool has been used to assess the folding quality of the model.",
+            "To test for the presence of transmembrane helical segments in Coronavirus ORF1ab nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], TMHMM,[<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>] MEMSAT,[<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] and",
+            "Abbreviations: 2019\u2010nCoV, novel coronavirus; SARS, severe acute respiratory syndrome.",
+            "MEMPACK15 online tools have been used. Three\u2010dimensional structures have been analyzed and displayed using PyMOL.[<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]"
+        ],
+        "3 | RESULTS": [
+            "Regarding the FUBAR analysis performed on the ORF1ab region, the presence of potential sites under positive selective pressure have been found (P < .05), in particular: on the amino acidic position 501 the COVID\u20102019 has a glutamine residue, the Bat SARS\u2010like coronavirus has a threonine residue and the SARS virus has an alanine residue. At position 723 in the COVID\u20102019 there is a serine residue while the Bat SARS\u2010like virus and the SARS virus have a glycine residue. On the aminoacidic position 1010, the COVID\u20102019 has a proline residue, the Bat SARS\u2010like coronavirus has a histidine residue and the SARS virus has an isoleucine residue. Significant (P < .05) pervasive negative selection in 2416 sites (55%) has been evidenced and confirmed by FUBAR analysis.",
+            "To map the structural variability of the ORF1ab region of the virus and its sites under selection pressure, homology modelling has been attempted. Unfortunately, neither SwissModel nor HHPred found suitable templates for the amino acid region containing the sites under selective pressure. For that reason, the corresponding models available on the I\u2010Tasser web site has been used. Moreover, some regions of the nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] proteins structurally homologous to other known viral proteins have been identified through HHpred analysis and have been mapped within the ORF1ab nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] sequences (Figure 1).",
+            "The results of the analysis suggest the presence of a segment within the nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and the nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] regions that has no evident homologous structures. In an attempt to structurally characterize as far as possible these regions, TMHMM, MEMSAT, and MEMPACK analyses have been utilized and have shown the presence of several potential trans\u2010membrane helices (Figure 1). In particular, our transmembrane helices were predicted by MEMSAT in nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] while six helices were predicted by MEMSTA and TMHMM in nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] (Figure 1).",
+            "Referring to the amino acids under positive selective pressure found using the FUBAR analysis: the amino acid in position 501 (position 321 of the nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] protein), the corresponding site in the Bat SARS\u2010like coronavirus has an apolar amino acid while the SARS and COVID\u20102019 has a polar amino acid. It can be speculated, that due to its side chain length, polarity, and potential to form H\u2010bonds the glutamine amino acid may confer higher stability to the protein. The mutations fall within the protein nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] on the region homologous to the endosome\u2010associated protein similar to the avian infectious bronchitis virus (PDB 3ld1) that plays a key\u2010role in the viral",
+            "As for the residue in position 723 (543 in the nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] protein), the COVID\u20102019 sequence displays a Ser replacing for Gly in Bat SARS\u2010 like and SARS coronaviruses. In this case, it may be argued that this substitution could increase local stiffness of the polypeptide chain both for steric effect (at variance with Ser, Gly has no side chain) and for ability of Ser side chain to form H\u2010bonds. Moreover, Ser can act as a nucleophile in determined structural environments, such as those of enzyme active sites. Within the I\u2010Tasser model, this position is predicted to have a low solvent accessibility (Figure 2).",
+            "Regarding the amino acid in position 1010 (corresponding to position 192 of the nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] protein), the homologous region of the Bat SARS\u2010like coronavirus and SARS virus have a polar and an apolar amino acid, respectively, while the COVID\u20102019 has proline. In this case, it may be speculated that due to the steric bulge and stiffness of the proline, the molecular structure of the COVID\u20102019 may undergo a local conformation perturbation compared with the proteins of the other two viruses. In Nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], the mutation falls near the protein similar to a phosphatase present also in the SARS coronavirus (PDB code 2acf) playing a key\u2010role in the replication process of the virus in infected cells[<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>] (Figure 3). In the I\u2010Tasser model, the position is partially accessible to the solvent. It should be emphasized that all these considerations are speculative and they need to be substantiated by the availability of the experimental crystallographic structure of the corresponding proteins."
+        ],
+        "4 | DISCUSSION": [
+            "The COVID\u20102019 ongoing epidemic is worrying worldwide for its high contagiosity. From its first appearance in Wuhan, China, about 1 month ago, the virus infected thousands people with new cases number rapidly growing every day. For this acceleration in",
+            "Many questions are open and need an answer, of these the most frequent is how much this virus can be dangerous and how much it differs from SARS virus which epidemic scared all the world some years ago. In this study some interesting findings have been evidenced to support and fill gaps in knowledge about the new COVID\u20102019 that is still causing infection all over the world.[<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>,<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>]",
+            "The positive selective pressure in this protein could justify some clinical features of this virus compared with SARS and Bat SARS\u2010like CoV.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] First which are the probably most common sites undergoing to an aminoacidic change, providing an insight of some important proteins of the COVID\u20102019 that are involved in the mechanism of viral entry and viral replication. This data can contribute for a better understanding of how this virus acts in its pathogenicity. Furthermore, to identify a potential molecular target is fundamental to follow the molecular evolution of the virus suggesting some interesting sites for potential therapy or vaccine.",
+            "The structural similarity of the region in which falls the positive selective pressure as so as the stabilizing mutation falling in the endosome\u2010associated\u2010protein\u2010like domain of the nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] protein, could explain why this virus is more contagious than SARS. The destabilizing mutation happening near the phosphatase domain of the nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] proteins could suggest a potential mechanism differentiating COVID\u20102019 from SARS.",
+            "The results of this study could fill some gaps about COVID\u20102019 knowledge especially in the actual moment when the epidemic is ongoing and the scientific community is trying to enrich knowledge about this new viral pathogen. During epidemic, all strength has to be done to enforce virus fight. This can be achieved by understanding",
+            "|5 the main drivers for pathogen appearance, spreading, and supremacy on human defense."
+        ],
+        "REFERENCES": [
+            "1. Hui DS, I Azhar E, Madani TA, et al The continuing 2019\u2010nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China. Int J Infect Dis. 2020;91:264\u2010266.",
+            "2. Benvenuto D, Giovannetti M, Ciccozzi A, Spoto S, Angeletti S, Ciccozzi M. The 2019\u2010new coronavirus epidemic: evidence for virus evolution. J Med Virol. 2020;92(4):455\u2010459. https://doi.org/10.1002/jmv.25688",
+            "3. Liu J, Zheng X, Tong Q, et al Overlapping and discrete aspects of the pathology and pathogenesis of the emerging human pathogenic coronaviruses SARS\u2010CoV, MERS\u2010CoV, and 2019\u2010nCoV. J Med Virol. 2020. https://doi.org/10.1002/jmv.25709",
+            "4. Katoh K, Rozewicki J, Yamada KD. MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. Brief Bioinform. 2019;20(4):1160\u20101166.",
+            "5. Hall TA. BioEdit A user\u2010friendly biological sequence alignment editor and analysis program for Windows 95/98/NT. Nucleic Acids Symp Ser. 1999;41:95\u201098.",
+            "6. Murrell B, Moola S, Mabona A, et al FUBAR: a fast, unconstrained bayesian approximation for inferring selection. Mol Biol Evol. 2013; 30(5):1196\u20101205.",
+            "7. Murrell B, Wertheim JO, Moola S, Weighill T, Scheffler K, Kosakovsky Pond SL. Detecting individual sites subject to episodic diversifying selection. PLoS Genet. 2012;8(7):e1002764.",
+            "8. Waterhouse A, Bertoni M, Bienert S, et al SWISS\u2010MODEL: homology modelling of protein structures and complexes. Nucleic Acids Res. 2018;46(W1):W296\u2010W303.",
+            "9. Zimmermann L, Stephens A, Nam SZ, et al A completely reimplemented MPI bioinformatics toolkit with a new HHpred server at its core. J Mol Biol. 2018;430(15):2237\u20102243.",
+            "10. Yang J, Yan R, Roy A, Xu D, Poisson J, Zhang Y. The I\u2010TASSER suite: Protein structure and function prediction. Nature Methods. 2015;12(1):[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>\u2010<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "11. Zhang Y, Skolnick J. Scoring function for automated assessment of protein structure template quality. Proteins. 2004;57(4):[702\u2010710].",
+            "12. Lovell SC. Structure validation by Calpha geometry: phi, psi, and Cbeta deviation. Proteins. 2003;50(3):[437\u2010450].",
+            "13. Moller S, Croning MDR, Apweiler R. Evaluation of methods for the prediction of membrane spanning regions. Bioinformatics. 2001;17(7): 646\u2010653.",
+            "14. Nugent T, Jones DT. Transmembrane protein topology prediction using support vector machines. BMC Bioinformatics. 2009;10:159.",
+            "15. Nugent T, Ward S, Jones DT. The MEMPACK alpha\u2010helical transmembrane protein structure prediction server. Bioinformatics. 2011; 27(10):1438\u20101439.",
+            "16. Schr\u00f6dinger LLC. The {PyMOL} Molecular Graphics System. Version 1.80 LLC, New York, NY. 2015.",
+            "17. Saikatendu KS, Joseph JS, Subramanian V, et al Structural basis of severe acute respiratory syndrome coronavirus ADP\u2010ribose\u20101''\u2010 phosphate dephosphorylation by a conserved domain of nsP3. Structure. 2005;13(11):1665\u20101675.",
+            "18. Huang C, Wang Y, Li X, et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020;395(10223): P497\u2010P506. https://doi.org/10.1016/S0140\u20106736(20)30183\u20105",
+            "19. Zhu N, Zhang D, Wang W, et al China novel coronavirus investigating and research team. A novel coronavirus from patients with pneumonia in China, 2019. N Engl J Med. 2020;382:727\u2010733. https://doi. org/10.1056/NEJMoa2001017",
+            "20. The Lancet. Emerging understandings of 2019\u2010nCoV. Lancet. 2020; 395(10221):[311].",
+            "21. Giovanetti M, Benvenuto D, Angeletti S, Ciccozzi M. The first two cases of 2019\u2010nCoV in Italy: where they come from? J Med Virol. 2020. https://doi.org/10.1002/jmv.25699",
+            "22. Guarner J. Three emerging coronaviruses in two decades. Am J Clin Pathol. 2020:aqaa029. https://doi.org/10.1093/ajcp/aqaa[029]",
+            "How to cite this article: Angeletti S, Benvenuto D, Bianchi M, Giovanetti M, Pascarella S, Ciccozzi M. COVID\u20102019: The role of the nsp[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] and nsp[<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] in its pathogenesis. J Med Virol. 2020;1\u20135. https://doi.org/10.1002/jmv.25719"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 45206,
+            "context": "ANGELETTI ET AL. <mark class=\"stats\">2020, 45 206 cases have been documented with 44 687 cases in Mainland China, including 1117 deaths and 5123 recovered https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/ bda7594740fd40299423467b48e9ecf6</mark>. The emergence of such a novel, highly virulent pathogen warrants rapid investigation of its etiology and evolution to control the impact on human health"
+        }
+    ],
+    "statistics": [
+        {
+            "p_value": "P < .05",
+            "context": "Three\u2010 dimensional structures have been analyzed and displayed using PyMOL. <mark class=\"stats\">FUBAR analysis revealed the presence of potential sites under positive selective pressure (P < .05)</mark>. Position 723 in the COVID\u20102019 has a serine instead a glycine residue, while at aminoacidic position 1010 a proline instead an isoleucine"
+        },
+        {
+            "p_value": "P < .05",
+            "context": "Position 723 in the COVID\u20102019 has a serine instead a glycine residue, while at aminoacidic position 1010 a proline instead an isoleucine. <mark class=\"stats\">Significant (P < .05) pervasive negative selection in 2416 sites (55%) was found</mark>. The positive selective pressure could account for some clinical features of this virus compared with severe acute respiratory syndrome (SARS) and Bat SARS\u2010like CoV"
+        },
+        {
+            "p_value": "P < .05",
+            "context": "These tests allowed to infer the site\u2010specific pervasive selection, the episodic diversifying selection across the region of interest and to identify episodic selection at individual sites.7. <mark class=\"stats\">Statistically significant positive or negative selection was based on P < .05</mark>. 2.3 | Structural modelling"
+        },
+        {
+            "p_value": "P < .05",
+            "context": "3.1 | Selective pressure analysis. <mark class=\"stats\">Regarding the FUBAR analysis performed on the ORF1ab region, the presence of potential sites under positive selective pressure have been found (P < .05), in particular: on the amino acidic position 501 the COVID\u20102019 has a glutamine residue, the Bat SARS\u2010like coronavirus has a threonine residue and the SARS virus has an alanine residue</mark>. At position 723 in the COVID\u20102019 there is a serine residue while the Bat SARS\u2010like virus and the SARS virus have a glycine residue"
+        },
+        {
+            "p_value": "P < .05",
+            "context": "On the aminoacidic position 1010, the COVID\u20102019 has a proline residue, the Bat SARS\u2010like coronavirus has a histidine residue and the SARS virus has an isoleucine residue. <mark class=\"stats\">Significant (P < .05) pervasive negative selection in 2416 sites (55%) has been evidenced and confirmed by FUBAR analysis</mark>. 3.2 | Structural modelling"
+        }
+    ],
+    "keywords": [
+        "fast\u2010unconstrained Bayesian approximation",
+        "clinical feature",
+        "infection",
+        "coronavirus",
+        "hhpred server",
+        "protein\u2010protein interaction analysis",
+        "Open Reading Frame 1ab",
+        "positive selective pressure",
+        "pandemics",
+        "COVID",
+        "homology modelling",
+        "pathogenesis",
+        "pneumonia",
+        "research and analysis methods",
+        "severe acute respiratory syndrome",
+        "selective pressure",
+        "novel coronavirus",
+        "epidemiology",
+        "bayesian approximation"
+    ],
+    "keyword_relevance": {
+        "severe acute respiratory syndrome": 0.23648648648648649,
+        "COVID": 0.20270270270270271,
+        "coronavirus": 0.10810810810810811,
+        "Open Reading Frame 1ab": 0.08783783783783784,
+        "selective pressure": 0.08783783783783784,
+        "fast\u2010unconstrained Bayesian approximation": 0.05405405405405406,
+        "positive selective pressure": 0.05405405405405406,
+        "novel coronavirus": 0.04054054054054054,
+        "pathogenesis": 0.033783783783783786,
+        "infection": 0.02027027027027027,
+        "clinical feature": 0.013513513513513514,
+        "homology modelling": 0.013513513513513514,
+        "pneumonia": 0.013513513513513514,
+        "protein\u2010protein interaction analysis": 0.006756756756756757,
+        "pandemics": 0.006756756756756757,
+        "research and analysis methods": 0.006756756756756757,
+        "epidemiology": 0.006756756756756757,
+        "bayesian approximation": 0.006756756756756757,
+        "hhpred server": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> A novel Coronavirus, the COVID\u20102019, first appeared in Wuhan, China, last December 2019, spreading in other provinces/regions of China and in many countries other continents.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "2020, 45 206 cases have been documented with 44 687 cases in Mainland China, including 1117 deaths and 5123 recovered https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/ bda7594740fd40299423467b48e9ecf[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+        "The emergence of such a novel, highly virulent pathogen warrants rapid investigation of its etiology and evolution to control the impact on human health",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The COVID\u20102019 ongoing epidemic is worrying worldwide for its high contagiosity. From its first appearance in Wuhan, China, about 1 month ago, the virus infected thousands people with new cases number rapidly growing every day.",
+        "The positive selective pressure in this protein could justify some clinical features of this virus compared with SARS and Bat SARS\u2010like CoV.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] First which are the probably most common sites undergoing to an aminoacidic change, providing an insight of some important proteins of the COVID\u20102019 that are involved in the mechanism of viral entry and viral replication",
+        "This data can contribute for a better understanding of how this virus acts in its pathogenicity.",
+        "To identify a potential molecular target is fundamental to follow the molecular evolution of the virus suggesting some interesting sites for potential therapy or vaccine"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A novel Coronavirus, the COVID\u20102019, first appeared in Wuhan, China, last December 2019, spreading in other provinces/regions of China and in many countries other continents.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "2020, 45 206 cases have been documented with 44 687 cases in Mainland China, including 1117 deaths and 5123 recovered https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/ bda7594740fd40299423467b48e9ecf[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+            "The emergence of such a novel, highly virulent pathogen warrants rapid investigation of its etiology and evolution to control the impact on human health"
+        ],
+        "Conclusion": [
+            "The COVID\u20102019 ongoing epidemic is worrying worldwide for its high contagiosity. From its first appearance in Wuhan, China, about 1 month ago, the virus infected thousands people with new cases number rapidly growing every day.",
+            "The positive selective pressure in this protein could justify some clinical features of this virus compared with SARS and Bat SARS\u2010like CoV.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] First which are the probably most common sites undergoing to an aminoacidic change, providing an insight of some important proteins of the COVID\u20102019 that are involved in the mechanism of viral entry and viral replication",
+            "This data can contribute for a better understanding of how this virus acts in its pathogenicity.",
+            "To identify a potential molecular target is fundamental to follow the molecular evolution of the virus suggesting some interesting sites for potential therapy or vaccine"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Hui_et+al_2019_a",
+            "entry": "1. Hui DS, I Azhar E, Madani TA, et al. The continuing 2019\u2010nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China. Int J Infect Dis. 2020;91:264\u2010266.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hui%20DS%20I%20Azhar%20E%20Madani%20TA%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%20202091264266",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hui%20DS%20I%20Azhar%20E%20Madani%20TA%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%20202091264266",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hui%20DS%20I%20Azhar%20E%20Madani%20TA%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%20202091264266"
+        },
+        {
+            "id": "2",
+            "alt_id": "Benvenuto_et+al_2019_a",
+            "entry": "2. Benvenuto D, Giovannetti M, Ciccozzi A, Spoto S, Angeletti S, Ciccozzi M. The 2019\u2010new coronavirus epidemic: evidence for virus evolution. J Med Virol. 2020;92(4):455\u2010459. https://doi.org/10.1002/jmv.25688",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25688",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25688",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25688"
+        },
+        {
+            "id": "3",
+            "alt_id": "Liu_et+al_2019_a",
+            "entry": "3. Liu J, Zheng X, Tong Q, et al. Overlapping and discrete aspects of the pathology and pathogenesis of the emerging human pathogenic coronaviruses SARS\u2010CoV, MERS\u2010CoV, and 2019\u2010nCoV. J Med Virol. 2020. https://doi.org/10.1002/jmv.25709",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25709",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25709",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25709"
+        },
+        {
+            "id": "4",
+            "alt_id": "Katoh_et+al_2019_a",
+            "entry": "4. Katoh K, Rozewicki J, Yamada KD. MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. Brief Bioinform. 2019;20(4):1160\u20101166.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Katoh%2C%20K.%20Rozewicki%2C%20J.%20Yamada%2C%20K.D.%20MAFFT%20online%20service%3A%20multiple%20sequence%20alignment%2C%20interactive%20sequence%20choice%20and%20visualization%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Katoh%2C%20K.%20Rozewicki%2C%20J.%20Yamada%2C%20K.D.%20MAFFT%20online%20service%3A%20multiple%20sequence%20alignment%2C%20interactive%20sequence%20choice%20and%20visualization%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Katoh%2C%20K.%20Rozewicki%2C%20J.%20Yamada%2C%20K.D.%20MAFFT%20online%20service%3A%20multiple%20sequence%20alignment%2C%20interactive%20sequence%20choice%20and%20visualization%202019"
+        },
+        {
+            "id": "5",
+            "alt_id": "Hall_1999_a",
+            "entry": "5. Hall TA. BioEdit A user\u2010friendly biological sequence alignment editor and analysis program for Windows 95/98/NT. Nucleic Acids Symp Ser. 1999;41:95\u201098.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hall%2C%20T.A.%20BioEdit%20A%20user%E2%80%90friendly%20biological%20sequence%20alignment%201999",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hall%2C%20T.A.%20BioEdit%20A%20user%E2%80%90friendly%20biological%20sequence%20alignment%201999",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hall%2C%20T.A.%20BioEdit%20A%20user%E2%80%90friendly%20biological%20sequence%20alignment%201999"
+        },
+        {
+            "id": "6",
+            "alt_id": "Murrell_et+al_2013_a",
+            "entry": "6. Murrell B, Moola S, Mabona A, et al. FUBAR: a fast, unconstrained bayesian approximation for inferring selection. Mol Biol Evol. 2013; 30(5):1196\u20101205.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Murrell%2C%20B.%20Moola%2C%20S.%20Mabona%2C%20A.%20FUBAR%3A%20a%20fast%2C%20unconstrained%20bayesian%20approximation%20for%20inferring%20selection%202013",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Murrell%2C%20B.%20Moola%2C%20S.%20Mabona%2C%20A.%20FUBAR%3A%20a%20fast%2C%20unconstrained%20bayesian%20approximation%20for%20inferring%20selection%202013",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Murrell%2C%20B.%20Moola%2C%20S.%20Mabona%2C%20A.%20FUBAR%3A%20a%20fast%2C%20unconstrained%20bayesian%20approximation%20for%20inferring%20selection%202013"
+        },
+        {
+            "id": "7",
+            "alt_id": "Murrell_et+al_2012_a",
+            "entry": "7. Murrell B, Wertheim JO, Moola S, Weighill T, Scheffler K, Kosakovsky Pond SL. Detecting individual sites subject to episodic diversifying selection. PLoS Genet. 2012;8(7):e1002764.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Murrell%2C%20B.%20Wertheim%2C%20J.O.%20Moola%2C%20S.%20Weighill%2C%20T.%20Detecting%20individual%20sites%20subject%20to%20episodic%20diversifying%20selection%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Murrell%2C%20B.%20Wertheim%2C%20J.O.%20Moola%2C%20S.%20Weighill%2C%20T.%20Detecting%20individual%20sites%20subject%20to%20episodic%20diversifying%20selection%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Murrell%2C%20B.%20Wertheim%2C%20J.O.%20Moola%2C%20S.%20Weighill%2C%20T.%20Detecting%20individual%20sites%20subject%20to%20episodic%20diversifying%20selection%202012"
+        },
+        {
+            "id": "8",
+            "alt_id": "Waterhouse_et+al_2018_a",
+            "entry": "8. Waterhouse A, Bertoni M, Bienert S, et al. SWISS\u2010MODEL: homology modelling of protein structures and complexes. Nucleic Acids Res. 2018;46(W1):W296\u2010W303.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Waterhouse%2C%20A.%20Bertoni%2C%20M.%20Bienert%2C%20S.%20SWISS%E2%80%90MODEL%3A%20homology%20modelling%20of%20protein%20structures%20and%20complexes%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Waterhouse%2C%20A.%20Bertoni%2C%20M.%20Bienert%2C%20S.%20SWISS%E2%80%90MODEL%3A%20homology%20modelling%20of%20protein%20structures%20and%20complexes%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Waterhouse%2C%20A.%20Bertoni%2C%20M.%20Bienert%2C%20S.%20SWISS%E2%80%90MODEL%3A%20homology%20modelling%20of%20protein%20structures%20and%20complexes%202018"
+        },
+        {
+            "id": "9",
+            "alt_id": "Zimmermann_et+al_2018_a",
+            "entry": "9. Zimmermann L, Stephens A, Nam SZ, et al. A completely reimplemented MPI bioinformatics toolkit with a new HHpred server at its core. J Mol Biol. 2018;430(15):2237\u20102243.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zimmermann%2C%20L.%20Stephens%2C%20A.%20Nam%2C%20S.Z.%20A%20completely%20reimplemented%20MPI%20bioinformatics%20toolkit%20with%20a%20new%20HHpred%20server%20at%20its%20core%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zimmermann%2C%20L.%20Stephens%2C%20A.%20Nam%2C%20S.Z.%20A%20completely%20reimplemented%20MPI%20bioinformatics%20toolkit%20with%20a%20new%20HHpred%20server%20at%20its%20core%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zimmermann%2C%20L.%20Stephens%2C%20A.%20Nam%2C%20S.Z.%20A%20completely%20reimplemented%20MPI%20bioinformatics%20toolkit%20with%20a%20new%20HHpred%20server%20at%20its%20core%202018"
+        },
+        {
+            "id": "10",
+            "alt_id": "Yang_et+al_2015_a",
+            "entry": "10. Yang J, Yan R, Roy A, Xu D, Poisson J, Zhang Y. The I\u2010TASSER suite: Protein structure and function prediction. Nature Methods. 2015;12(1):7\u20108.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Yang%2C%20J.%20Yan%2C%20R.%20Roy%2C%20A.%20Xu%2C%20D.%20The%20I%E2%80%90TASSER%20suite%3A%20Protein%20structure%20and%20function%20prediction%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Yang%2C%20J.%20Yan%2C%20R.%20Roy%2C%20A.%20Xu%2C%20D.%20The%20I%E2%80%90TASSER%20suite%3A%20Protein%20structure%20and%20function%20prediction%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Yang%2C%20J.%20Yan%2C%20R.%20Roy%2C%20A.%20Xu%2C%20D.%20The%20I%E2%80%90TASSER%20suite%3A%20Protein%20structure%20and%20function%20prediction%202015"
+        },
+        {
+            "id": "11",
+            "alt_id": "Zhang_2004_a",
+            "entry": "11. Zhang Y, Skolnick J. Scoring function for automated assessment of protein structure template quality. Proteins. 2004;57(4):702\u2010710.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhang%2C%20Y.%20Skolnick%2C%20J.%20Scoring%20function%20for%20automated%20assessment%20of%20protein%20structure%20template%20quality%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhang%2C%20Y.%20Skolnick%2C%20J.%20Scoring%20function%20for%20automated%20assessment%20of%20protein%20structure%20template%20quality%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhang%2C%20Y.%20Skolnick%2C%20J.%20Scoring%20function%20for%20automated%20assessment%20of%20protein%20structure%20template%20quality%202004"
+        },
+        {
+            "id": "12",
+            "alt_id": "Lovell_2003_a",
+            "entry": "12. Lovell SC. Structure validation by Calpha geometry: phi, psi, and Cbeta deviation. Proteins. 2003;50(3):437\u2010450.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lovell%2C%20S.C.%20Structure%20validation%20by%20Calpha%20geometry%3A%20phi%2C%20psi%2C%20and%20Cbeta%20deviation%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lovell%2C%20S.C.%20Structure%20validation%20by%20Calpha%20geometry%3A%20phi%2C%20psi%2C%20and%20Cbeta%20deviation%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lovell%2C%20S.C.%20Structure%20validation%20by%20Calpha%20geometry%3A%20phi%2C%20psi%2C%20and%20Cbeta%20deviation%202003"
+        },
+        {
+            "id": "13",
+            "alt_id": "Moller_et+al_2001_a",
+            "entry": "13. Moller S, Croning MDR, Apweiler R. Evaluation of methods for the prediction of membrane spanning regions. Bioinformatics. 2001;17(7): 646\u2010653.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Moller%2C%20S.%20Croning%2C%20M.D.R.%20Apweiler%2C%20R.%20Evaluation%20of%20methods%20for%20the%20prediction%20of%20membrane%20spanning%20regions%202001",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Moller%2C%20S.%20Croning%2C%20M.D.R.%20Apweiler%2C%20R.%20Evaluation%20of%20methods%20for%20the%20prediction%20of%20membrane%20spanning%20regions%202001",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Moller%2C%20S.%20Croning%2C%20M.D.R.%20Apweiler%2C%20R.%20Evaluation%20of%20methods%20for%20the%20prediction%20of%20membrane%20spanning%20regions%202001"
+        },
+        {
+            "id": "14",
+            "alt_id": "Nugent_2009_a",
+            "entry": "14. Nugent T, Jones DT. Transmembrane protein topology prediction using support vector machines. BMC Bioinformatics. 2009;10:159.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nugent%2C%20T.%20Jones%2C%20D.T.%20Transmembrane%20protein%20topology%20prediction%20using%20support%20vector%20machines%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nugent%2C%20T.%20Jones%2C%20D.T.%20Transmembrane%20protein%20topology%20prediction%20using%20support%20vector%20machines%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nugent%2C%20T.%20Jones%2C%20D.T.%20Transmembrane%20protein%20topology%20prediction%20using%20support%20vector%20machines%202009"
+        },
+        {
+            "id": "15",
+            "alt_id": "Nugent_et+al_2011_a",
+            "entry": "15. Nugent T, Ward S, Jones DT. The MEMPACK alpha\u2010helical transmembrane protein structure prediction server. Bioinformatics. 2011; 27(10):1438\u20101439.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nugent%2C%20T.%20Ward%2C%20S.%20Jones%2C%20D.T.%20The%20MEMPACK%20alpha%E2%80%90helical%20transmembrane%20protein%20structure%20prediction%20server%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nugent%2C%20T.%20Ward%2C%20S.%20Jones%2C%20D.T.%20The%20MEMPACK%20alpha%E2%80%90helical%20transmembrane%20protein%20structure%20prediction%20server%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nugent%2C%20T.%20Ward%2C%20S.%20Jones%2C%20D.T.%20The%20MEMPACK%20alpha%E2%80%90helical%20transmembrane%20protein%20structure%20prediction%20server%202011"
+        },
+        {
+            "id": "16",
+            "alt_id": "Schroedinger_2015_a",
+            "entry": "16. Schr\u00f6dinger LLC. The {PyMOL} Molecular Graphics System. Version 1.80 LLC, New York, NY. 2015.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Schr%C3%B6dinger%2C%20L.L.C.%20The%20%7BPyMOL%7D%20Molecular%20Graphics%20System.%20Version%201.80%20LLC%202015"
+        },
+        {
+            "id": "17",
+            "alt_id": "Saikatendu_et+al_2005_a",
+            "entry": "17. Saikatendu KS, Joseph JS, Subramanian V, et al. Structural basis of severe acute respiratory syndrome coronavirus ADP\u2010ribose\u20101''\u2010 phosphate dephosphorylation by a conserved domain of nsP3. Structure. 2005;13(11):1665\u20101675.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Saikatendu%2C%20K.S.%20Joseph%2C%20J.S.%20Subramanian%2C%20V.%20Structural%20basis%20of%20severe%20acute%20respiratory%20syndrome%20coronavirus%20ADP%E2%80%90ribose%E2%80%901%27%27%E2%80%90%20phosphate%20dephosphorylation%20by%20a%20conserved%20domain%20of%20nsP3.%20Structure%202005"
+        },
+        {
+            "id": "18",
+            "alt_id": "Huang_et+al_2019_a",
+            "entry": "18. Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020;395(10223): P497\u2010P506. https://doi.org/10.1016/S0140\u20106736(20)30183\u20105",
+            "crossref": "https://dx.doi.org/10.1016/S0140\u20106736(20)30183\u20105",
+            "scite": "https://scite.ai/reports/10.1016/S0140\u20106736(20)30183\u20105",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1016/S0140%E2%80%906736%2820%2930183%E2%80%905"
+        },
+        {
+            "id": "19",
+            "alt_id": "Zhu_et+al_2019_a",
+            "entry": "19. Zhu N, Zhang D, Wang W, et al. China novel coronavirus investigating and research team. A novel coronavirus from patients with pneumonia in China, 2019. N Engl J Med. 2020;382:727\u2010733. https://doi.org/10.1056/NEJMoa2001017",
+            "crossref": "https://dx.doi.org/10.1056/NEJMoa2001017",
+            "scite": "https://scite.ai/reports/10.1056/NEJMoa2001017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1056/NEJMoa2001017"
+        },
+        {
+            "id": "20",
+            "alt_id": "20._2019_a",
+            "entry": "20. The Lancet. Emerging understandings of 2019\u2010nCoV. Lancet. 2020; 395(10221):311.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=The%20Lancet%20Emerging%20understandings%20of%202019nCoV%20Lancet%202020%2039510221311",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=The%20Lancet%20Emerging%20understandings%20of%202019nCoV%20Lancet%202020%2039510221311",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=The%20Lancet%20Emerging%20understandings%20of%202019nCoV%20Lancet%202020%2039510221311"
+        },
+        {
+            "id": "21",
+            "alt_id": "Giovanetti_et+al_2019_a",
+            "entry": "21. Giovanetti M, Benvenuto D, Angeletti S, Ciccozzi M. The first two cases of 2019\u2010nCoV in Italy: where they come from? J Med Virol. 2020. https://doi.org/10.1002/jmv.25699",
+            "crossref": "https://dx.doi.org/10.1002/jmv.25699",
+            "scite": "https://scite.ai/reports/10.1002/jmv.25699",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1002/jmv.25699"
+        },
+        {
+            "id": "22",
+            "alt_id": "Guarner_0000_a",
+            "entry": "22. Guarner J. Three emerging coronaviruses in two decades. Am J Clin Pathol. 2020:aqaa029. https://doi.org/10.1093/ajcp/aqaa029 How to cite this article: Angeletti S, Benvenuto D, Bianchi M, Giovanetti M, Pascarella S, Ciccozzi M. COVID\u20102019: The role of the nsp2 and nsp3 in its pathogenesis. J Med Virol. 2020;1\u20135. https://doi.org/10.1002/jmv.25719",
+            "crossref": "https://dx.doi.org/10.1093/ajcp/aqaa029",
+            "scite": "https://scite.ai/reports/10.1093/ajcp/aqaa029",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/ajcp/aqaa029"
+        }
+    ],
+    "facts": [
+        "named novel Coronavirus causing many cases of severe pneumonia was reported in Wuhan",
+        "The Open Reading Frame 1ab of COVID\u20102019 has been analyzed to evidence the presence of mutation caused by selective pressure",
+        "Homology modelling has been performed by SwissModel",
+        "nsp3 was tested by TMHMM",
+        "FUBAR analysis revealed the presence of potential sites under positive selective pressure",
+        "Massimo Ciccozzi contributed to this work",
+        "45 206 cases have been documented with 44 687 cases in Mainland China",
+        "highly virulent pathogen warrants rapid investigation of its etiology and evolution to control the impact on human health",
+        "The positive selective pressure in this protein could justify some clinical features of this virus compared with",
+        "most common sites undergoing to an aminoacidic change",
+        "an insight of some important proteins of the COVID\u20102019 that are involved in the mechanism of viral entry",
+        "This data can contribute for a better understanding",
+        "this virus acts in its pathogenicity",
+        "fundamental to follow the molecular evolution of the virus suggesting some interesting sites for potential therapy"
+    ],
+    "claims": [],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "2020, 45 206 cases have been documented with 44 687 cases in Mainland China, including 1117 deaths and 5123 recovered https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/ bda7594740fd40299423467b48e9ecf[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]",
+        "The emergence of such a novel, highly virulent pathogen warrants rapid investigation of its etiology and evolution to control the impact on human health",
+        "The positive selective pressure in this protein could justify some clinical features of this virus compared with severe acute respiratory syndrome and Bat severe acute respiratory syndrome\u2010like CoV.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]",
+        "First which are the probably most common sites undergoing to an aminoacidic change, providing an insight of some important proteins of the COVID\u20102019 that are involved in the mechanism of viral entry and viral replication",
+        "To identify a potential molecular target is fundamental to follow the molecular evolution of the virus suggesting some interesting sites for potential therapy or vaccine"
+    ],
+    "top_statements": [
+        "A novel Coronavirus, the COVID\u20102019, first appeared in Wuhan, China, last December 2019, spreading in other provinces/regions of China and in many countries other continents.[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "2020, 45 206 cases have been documented with 44 687 cases in Mainland China, including 1117 deaths and 5123 recovered https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/ bda7594740fd40299423467b48e9ecf[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]",
+        "The emergence of such a novel, highly virulent pathogen warrants rapid investigation of its etiology and evolution to control the impact on human health",
+        "The positive selective pressure in this protein could justify some clinical features of this virus compared with severe acute respiratory syndrome and Bat severe acute respiratory syndrome\u2010like CoV.[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]",
+        "First which are the probably most common sites undergoing to an aminoacidic change, providing an insight of some important proteins of the COVID\u20102019 that are involved in the mechanism of viral entry and viral replication",
+        "To identify a potential molecular target is fundamental to follow the molecular evolution of the virus suggesting some interesting sites for potential therapy or vaccine"
+    ],
+    "headline": "The positive selective pressure in this protein could justify some clinical features of this virus compared with severe acute respiratory syndrome and Bat severe acute respiratory syndrome\u2010like CoV.22",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "severe acute respiratory syndrome",
+        "ORF1ab": "Open Reading Frame 1ab",
+        "FUBAR": "fast\u2010unconstrained Bayesian approximation"
+    }
+}

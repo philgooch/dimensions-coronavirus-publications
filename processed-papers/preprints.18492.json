@@ -1,0 +1,240 @@
+{
+    "filename": "preprints.18492.pdf",
+    "content_type": "text/html",
+    "file_size": 16284,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.2196/preprints.18492",
+            "url": "https://dx.doi.org/10.2196/preprints.18492"
+        },
+        "title": "An App for Inspecting the Epidemic Trend of the Confirmed Cases on COVID-19 using the Online Rasch Model and Strength Coefficients(SC): An Observational Study (Preprint)",
+        "date": 2020,
+        "abstract": "BACKGROUND\n                        When a novel coronavirus (e.g., COVID -19) starts to spread, one of the many questions asked is with regards to the trend of new confirmed cases increasing or decreasing during the on-going outbreak epidemic. Finding the turning point of the outbreak spread (i.e., from ascending to declining status) is continuously an urgent concern. Due to different weights (e.g.., an extremely high proportion of confirmed cases in Hubei, China) of the cases confirmed in countries/regions, using either the overall total number or a partially small portion of the infected-case regions to determine the turning point (e.g., the trend to decline) is problematic and unreliable. Rasch analysis used for examining individual performances of school students was thus considered as a tool to inspect the epidemic trend through the pattern of item (e.g., day in epidemic) difficulties over days.\n                \n                                \n                    OBJECTIVE\n                        This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps.\n                \n                                \n                    METHODS\n                        We downloaded the COVID-19 outbreak numbers from January 21 to February 27, 2020, from Github that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions. Item (i.e., day) difficulties based on the recent 20 days were calibrated using the Rasch model. All responses were derived from the ordinal scores by using the logarithm function (i.e.., round(ln(confirmed cases),0) from 0 to 5). The epidemic trend was assessed by the correlation coefficients (CC) computed by the item difficulties along with the time points of days. The recent several CCs were plotted with a line chart. An online algorithm based on the Rasch model was built for displaying the outbreak trend on a daily basis. A strength coefficient(SC) was complemented to examine the outliers for each region in the recent three days. An app was developed to understand the daily epidemic trends on Google Maps.\n                \n                                \n                    RESULTS\n                        The CCs measured by item(i.e., day) difficulties have been monotonously increased from -0.28(start from Feb. 8) to 0.36(till Feb. 27), indicating the epidemic trend has gradually declined. However, the trend out of China is increasing with the CC=-0.88. The SC was taken into consideration in three countries/regions: Italy(=0.87), Iran(0.59), and Shandong(China)(=0.58) on Feb. 21, 2020. A line chart was drawn online using item difficulties calibrated by the Rasch model for examining the epidemic trend. A dashboard was created to present the COVID-19 situation on Google Maps.\n                \n                                \n                    CONCLUSIONS\n                        We created an online Rasch modeling algorithm that can calibrate daily item difficulties and then draw a line chart to analyze the epidemic trend. The SC is complemental to the trend observation. An app developed for displaying the epidemic trend helps us better understand the outbreak situation.\n                \n                                \n                    CLINICALTRIAL\n                        Not available",
+        "author": "Wei-Chih Kan, Jui-Chung John Lin, Tsair-Wei Chien",
+        "references": "",
+        "references_ris": "",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "background": [
+            "When a novel coronavirus (e.g., COVID -19) starts to spread, one of the many questions asked is with regards to the trend of new confirmed cases increasing or decreasing during the on-going outbreak epidemic. Finding the turning point of the outbreak spread (i.e., from ascending to declining status) is continuously an urgent concern. Due to different weights (e.g.., an extremely high proportion of confirmed cases in Hubei, China) of the cases confirmed in countries/regions, using either the overall total number or a partially small portion of the infected-case regions to determine the turning point (e.g., the trend to decline) is problematic and unreliable. Rasch analysis used for examining individual performances of school students was thus considered as a tool to inspect the epidemic trend through the pattern of item (e.g., day in epidemic) difficulties over days."
+        ],
+        "objective": [
+            "This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps."
+        ],
+        "methods": [
+            "We downloaded the COVID-19 outbreak numbers from January 21 to February 27, 2020, from Github that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions. Item (i.e., day) difficulties based on the recent 20 days were calibrated using the Rasch model. All responses were derived from the ordinal scores by using the logarithm function (i.e.., round(ln(confirmed cases),0) from 0 to 5). The epidemic trend was assessed by the correlation coefficients (CC) computed by the item difficulties along with the time points of days. The recent several CCs were plotted with a line chart. An online algorithm based on the Rasch model was built for displaying the outbreak trend on a daily basis. A strength coefficient(SC) was complemented to examine the outliers for each region in the recent three days. An app was developed to understand the daily epidemic trends on Google Maps."
+        ],
+        "results": [
+            "The CCs measured by item(i.e., day) difficulties have been monotonously increased from -0.28(start from Feb. 8) to 0.36(till Feb. 27), indicating the epidemic trend has gradually declined. However, the trend out of China is increasing with the CC=-0.88. The SC was taken into consideration in three countries/regions: Italy(=0.87), Iran(0.59), and Shandong(China)(=0.58) on Feb. 21, 2020. A line chart was drawn online using item difficulties calibrated by the Rasch model for examining the epidemic trend. A dashboard was created to present the COVID-19 situation on Google Maps."
+        ],
+        "conclusions": [
+            "We created an online Rasch modeling algorithm that can calibrate daily item difficulties and then draw a line chart to analyze the epidemic trend. The SC is complemental to the trend observation. An app developed for displaying the epidemic trend helps us better understand the outbreak situation. Clinical Trial: Not available    Citation<br/><br/>Please cite as: Kan W, Lin JJ, Chien T"
+        ]
+    },
+    "structured_content": {
+        "Background": [
+            "When a novel coronavirus (e.g., COVID -19) starts to spread, one of the many questions asked is with regards to the trend of new confirmed cases increasing or decreasing during the on-going outbreak epidemic. Finding the turning point of the outbreak spread (i.e., from ascending to declining status) is continuously an urgent concern. Due to different weights (e.g.., an extremely high proportion of confirmed cases in Hubei, China) of the cases confirmed in countries/regions, using either the overall total number or a partially small portion of the infected-case regions to determine the turning point (e.g., the trend to decline) is problematic and unreliable. Rasch analysis used for examining individual performances of school students was thus considered as a tool to inspect the epidemic trend through the pattern of item (e.g., day in epidemic) difficulties over days.",
+            "Objective: This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps."
+        ],
+        "Methods": [
+            "We downloaded the COVID-19 outbreak numbers from January 21 to February 27, 2020, from Github that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions. Item (i.e., day) difficulties based on the recent 20 days were calibrated using the Rasch model. All responses were derived from the ordinal scores by using the logarithm function (i.e.., round(ln(confirmed cases),0) from 0 to 5). The epidemic trend was assessed by the correlation coefficients (CC) computed by the item difficulties along with the time points of days. The recent several CCs were plotted with a line chart. An online algorithm based on the Rasch model was built for displaying the outbreak trend on a daily basis. A strength coefficient(SC) was complemented to examine the outliers for each region in the recent three days. An app was developed to understand the daily epidemic trends on Google Maps."
+        ],
+        "Results": [
+            "The CCs measured by item(i.e., day) difficulties have been monotonously increased from -0.28(start from Feb. 8) to 0.36(till Feb. 27), indicating the epidemic trend has gradually declined. However, the trend out of China is increasing with the CC=-0.88. The SC was taken into consideration in three countries/regions: Italy(=0.87), Iran(0.59), and Shandong(China)(=0.58) on Feb. 21, 2020. A line chart was drawn online using item difficulties calibrated by the Rasch model for examining the epidemic trend. A dashboard was created to present the COVID-19 situation on Google Maps."
+        ],
+        "Conclusions": [
+            "We created an online Rasch modeling algorithm that can calibrate daily item difficulties and then draw a line chart to analyze the epidemic trend. The SC is complemental to the trend observation. An app developed for displaying the epidemic trend helps us better understand the outbreak situation. Clinical Trial: Not available"
+        ]
+    },
+    "participants": [],
+    "statistics": [
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps</mark>",
+                "tests": [
+                    {
+                        "test": "Rasch model"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Item (i.e., day) difficulties based on the recent 20 days were calibrated using the Rasch model</mark>",
+                "tests": [
+                    {
+                        "test": "Rasch model"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">A line chart was drawn online using item difficulties calibrated by the Rasch model for examining the epidemic trend</mark>",
+                "tests": [
+                    {
+                        "test": "Rasch model"
+                    }
+                ]
+            }
+        },
+        {
+            "tests": {
+                "context": "<mark class=\"stats\">Objective: This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps</mark>",
+                "tests": [
+                    {
+                        "test": "Rasch model"
+                    }
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        "item difficulty",
+        "outbreak spread",
+        "outbreak situation",
+        "online algorithm",
+        "different weight",
+        "rasch analysis",
+        "google maps",
+        "online rasch modeling algorithm",
+        "epidemic trend",
+        "line chart",
+        "daily item difficulty",
+        "COVID-19",
+        "new confirmed case",
+        "outbreak epidemic",
+        "overall total number",
+        "novel coronavirus",
+        "turning point",
+        "urgent concern",
+        "school student",
+        "high proportion",
+        "small portion",
+        "infected case region",
+        "individual performance"
+    ],
+    "keyword_relevance": {
+        "epidemic trend": 0.25,
+        "COVID-19": 0.125,
+        "line chart": 0.09375,
+        "outbreak situation": 0.0625,
+        "online algorithm": 0.0625,
+        "turning point": 0.0625,
+        "outbreak spread": 0.03125,
+        "different weight": 0.03125,
+        "new confirmed case": 0.03125,
+        "outbreak epidemic": 0.03125,
+        "overall total number": 0.03125,
+        "novel coronavirus": 0.03125,
+        "urgent concern": 0.03125,
+        "school student": 0.03125,
+        "high proportion": 0.03125,
+        "small portion": 0.03125,
+        "individual performance": 0.03125,
+        "item difficulty": 0.0,
+        "rasch analysis": 0.0,
+        "google maps": 0.0,
+        "online rasch modeling algorithm": 0.0,
+        "daily item difficulty": 0.0,
+        "infected case region": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> When a novel coronavirus (e.g., COVID -19) starts to spread, one of the many questions asked is with regards to the trend of new confirmed cases increasing or decreasing during the on-going outbreak epidemic.",
+        "Finding the turning point of the outbreak spread is continuously an urgent concern.",
+        "Due to different weights (e.g.., an extremely high proportion of confirmed cases in Hubei, China) of the cases confirmed in countries/regions, using either the overall total number or a partially small portion of the infected-case regions to determine the turning point is problematic and unreliable.",
+        "Rasch analysis used for examining individual performances of school students was considered as a tool to inspect the epidemic trend through the pattern of item difficulties over days",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors downloaded the COVID-19 outbreak numbers from January 21 to February 27, 2020, from Github that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions.",
+        "Item difficulties based on the recent 20 days were calibrated using the Rasch model.",
+        "The epidemic trend was assessed by the correlation coefficients (CC) computed by the item difficulties along with the time points of days.",
+        "An online algorithm based on the Rasch model was built for displaying the outbreak trend on a daily basis.",
+        "A strength coefficient(SC) was complemented to examine the outliers for each region in the recent three days.",
+        "An app was developed to understand the daily epidemic trends on Google Maps",
+        "<h2 style=\"display: inline\">Results:</h2> The CCs measured by item difficulties have been monotonously increased from -0.28 to 0.36, indicating the epidemic trend has gradually declined.",
+        "The trend out of China is increasing with the CC=-0.88.",
+        "The SC was taken into consideration in three countries/regions: Italy(=0.87), Iran(0.59), and Shandong(China)(=0.58) on Feb. 21, 2020.",
+        "A line chart was drawn online using item difficulties calibrated by the Rasch model for examining the epidemic trend.",
+        "A dashboard was created to present the COVID-19 situation on Google Maps",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The authors created an online Rasch modeling algorithm that can calibrate daily item difficulties and draw a line chart to analyze the epidemic trend.",
+        "The SC is complemental to the trend observation.",
+        "An app developed for displaying the epidemic trend helps them better understand the outbreak situation.",
+        "Clinical Trial: Not available Citation.",
+        "Please cite as: Kan W, Lin JJ, Chien T"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "When a novel coronavirus (e.g., COVID -19) starts to spread, one of the many questions asked is with regards to the trend of new confirmed cases increasing or decreasing during the on-going outbreak epidemic.",
+            "Finding the turning point of the outbreak spread is continuously an urgent concern.",
+            "Due to different weights (e.g.., an extremely high proportion of confirmed cases in Hubei, China) of the cases confirmed in countries/regions, using either the overall total number or a partially small portion of the infected-case regions to determine the turning point is problematic and unreliable.",
+            "Rasch analysis used for examining individual performances of school students was considered as a tool to inspect the epidemic trend through the pattern of item difficulties over days"
+        ],
+        "Methods": [
+            "The authors downloaded the COVID-19 outbreak numbers from January 21 to February 27, 2020, from Github that contains information on confirmed cases in more than 30 Chinese locations and other countries/regions.",
+            "Item difficulties based on the recent 20 days were calibrated using the Rasch model.",
+            "The epidemic trend was assessed by the correlation coefficients (CC) computed by the item difficulties along with the time points of days.",
+            "An online algorithm based on the Rasch model was built for displaying the outbreak trend on a daily basis.",
+            "A strength coefficient(SC) was complemented to examine the outliers for each region in the recent three days.",
+            "An app was developed to understand the daily epidemic trends on Google Maps"
+        ],
+        "Results": [
+            "The CCs measured by item difficulties have been monotonously increased from -0.28 to 0.36, indicating the epidemic trend has gradually declined.",
+            "The trend out of China is increasing with the CC=-0.88.",
+            "The SC was taken into consideration in three countries/regions: Italy(=0.87), Iran(0.59), and Shandong(China)(=0.58) on Feb. 21, 2020.",
+            "A line chart was drawn online using item difficulties calibrated by the Rasch model for examining the epidemic trend.",
+            "A dashboard was created to present the COVID-19 situation on Google Maps"
+        ],
+        "Conclusion": [
+            "The authors created an online Rasch modeling algorithm that can calibrate daily item difficulties and draw a line chart to analyze the epidemic trend.",
+            "The SC is complemental to the trend observation.",
+            "An app developed for displaying the epidemic trend helps them better understand the outbreak situation.",
+            "Clinical Trial: Not available Citation.",
+            "Please cite as: Kan W, Lin JJ, Chien T"
+        ]
+    },
+    "reference_links": [],
+    "facts": [
+        "of the many questions asked is with regards to the trend",
+        "to different weights of the cases confirmed in countries",
+        "unreliable. Rasch analysis used for examining individual performances of school students was considered as a tool to inspect the epidemic trend through the pattern",
+        "This study aims to inspect the epidemic trend by performing Rasch model",
+        "All responses were derived from the ordinal scores",
+        "The epidemic trend was assessed by the correlation coefficients computed by the item difficulties",
+        "The recent several CCs were plotted with a line chart",
+        "An online algorithm based on the Rasch model was built for displaying the outbreak trend on a daily basis",
+        "A strength coefficient was complemented to examine the outliers for each region",
+        "The CCs measured by item difficulties have been monotonously increased from -",
+        "of China is increasing with the CC=-0.88",
+        "The SC was taken into consideration in three countries",
+        "online using item difficulties calibrated by the Rasch model",
+        "The SC is complemental to the trend observation",
+        "Rasch analysis used for examining individual performances of school students was considered as a tool to inspect the epidemic trend through the pattern"
+    ],
+    "claims": [
+        "This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps",
+        "Objective: This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "When a novel coronavirus (e.g., COVID -19) starts to spread, one of the many questions asked is with regards to the trend of new confirmed cases increasing or decreasing during the on-going outbreak epidemic",
+        "This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps",
+        "The recent several CCs were plotted with a line chart",
+        "An online algorithm based on the Rasch model was built for displaying the outbreak trend on a daily basis",
+        "A line chart was drawn online using item difficulties calibrated by the Rasch model for examining the epidemic trend"
+    ],
+    "top_statements": [
+        "When a novel coronavirus (e.g., COVID -19) starts to spread, one of the many questions asked is with regards to the trend of new confirmed cases increasing or decreasing during the on-going outbreak epidemic",
+        "This study aims to (1) inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, (2) develop an online algorithm to draw the trend plot, and (3) design an app for a better understanding of the outbreak situation on Google Maps",
+        "The recent several CCs were plotted with a line chart",
+        "An online algorithm based on the Rasch model was built for displaying the outbreak trend on a daily basis",
+        "A line chart was drawn online using item difficulties calibrated by the Rasch model for examining the epidemic trend"
+    ],
+    "headline": "This study aims to inspect the epidemic trend by performing Rasch model and observing the pattern of item difficulties over days, develop an online algorithm to draw the trend plot, and design an app for a better understanding of the outbreak situation on Google Maps",
+    "contexts": [],
+    "abbreviations": {}
+}

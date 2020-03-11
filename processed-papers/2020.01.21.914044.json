@@ -1,0 +1,502 @@
+{
+    "filename": "2020.01.21.914044.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 112348,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.01.21.914044",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/02/02/2020.01.21.914044.full.pdf"
+        },
+        "title": "Host and infectivity prediction of Wuhan 2019 novel coronavirus using deep learning algorithm",
+        "author": "Qian Guo, Mo Li, Chunhui Wang, Peihong Wang, Zhencheng Fang, Jie tan, Shufang Wu, Yonghong Xiao, Huaiqiu Zhu",
+        "date": 2020,
+        "affiliations": [
+            "State Key Laboratory for Turbulence and Complex Systems, Department of Biomedical Engineering, College of Engineering, and Center for Quantitative Biology, and School of life Sciences, Peking University, Beijing 100871, China.",
+            "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, College of Medicine, Zhejiang University, Hangzhou 310058, China",
+            "The authors contributed equally to this paper.",
+            "Correspondence to: hqzhu@pku.edu.cn and xiao-yonghong@163.com.",
+            "Chinese Center for Disease Control and Prevention (China CDC). This virus has now caused a total of 217 confirmed human infections in China and three deaths, reported by Chinese media on 20 January 2020. Yet the virus has trend to spread out of China, since one case in Thailand, one case in Japan and two cases in Korea had been sequentially reported since"
+        ],
+        "abstract": "The recent outbreak of pneumonia in Wuhan, China caused by the 2019 Novel Coronavirus (2019-nCoV) emphasizes the importance of detecting novel viruses and predicting their risks of infecting people. In this report, we introduced the VHP (Virus Host Prediction) to predict the potential hosts of viruses using deep learning algorithm. Our prediction suggests that 2019-nCoV has close infectivity with other human coronaviruses, especially the severe acute respiratory syndrome coronavirus (SARS-CoV), Bat SARS-like Coronaviruses and the Middle East respiratory syndrome coronavirus (MERS-CoV). Based on our prediction, compared to the Coronaviruses infecting other vertebrates, bat coronaviruses are assigned with more similar infectivity patterns with 2019-nCoVs. Furthermore, by comparing the infectivity patterns of all viruses hosted on vertebrates, we found mink viruses show a closer infectivity pattern to 2019-nCov. These consequences of infectivity pattern analysis illustrate that bat and mink may be two candidate reservoirs of 2019-nCov.These results warn us to beware of 2019-nCoV and guide us to further explore the properties and reservoir of it.One Sentence SummaryIt is of great value to identify whether a newly discovered virus has the risk of infecting human. Guo et al. proposed a virus host prediction method based on deep learning to detect what kind of host a virus can infect with DNA sequence as input. Applied to the Wuhan 2019 Novel Coronavirus, our prediction demonstrated that several vertebrate-infectious coronaviruses have strong potential to infect human. This method will be helpful in future viral analysis and early prevention and control of viral pathogens.",
+        "references": "@book{unknown2019a,\n  date = {2019},\n  title = {Novel Coronavirus},\n  publisher = {China (2019},\n  url = {https://www.cdc.gov/coronavirus/2019-nCoV/summary.html.},\n  language = {},\n  address = {Wuhan},\n  organization = {Centers for Disease Control and Prevention}\n}\n@article{cohen2020a,\n  author = {Cohen, J. and Normile, D.},\n  title = {New SARS-like virus in China triggers alarm},\n  journal = {Science},\n  volume = {367},\n  pages = {234\u2013235},\n  date = {2020},\n  language = {}\n}\n@misc{g2019a,\n  author = {G.I.S.A.I.D.},\n  title = {Newly discovered betacoronavirus, Wuhan 2019-2020},\n  date = {2019},\n  url = {https://www.gisaid.org/.},\n  language = {}\n}\n@article{brister2015a,\n  author = {Brister, J.R. and Ako-Adjei, D. and Bao, Y. and Blinkova, O.},\n  title = {NCBI viral genomes resource},\n  journal = {Nucleic Acids Res},\n  volume = {43},\n  pages = {571\u2013577},\n  date = {2015},\n  language = {}\n}\n@article{d2011a,\n  author = {D, Controlprevention C.F.},\n  title = {Swine-origin influenza A (H3N2) virus infection in two children--Indiana and Pennsylvania},\n  journal = {Morb. Mortal. Wkly. Rep},\n  date = {2011},\n  pages = {1213\u20131215},\n  language = {}\n}\n@article{villarroel2016a,\n  author = {Villarroel, J. and Kleinheinz, K.A. and Jurtz, V.I. and Zschach, H. and Lund, O. and Nielsen, M. and Larsen, M.V.},\n  title = {HostPhinder: A Phage Host Prediction Tool},\n  journal = {Viruses},\n  volume = {8},\n  date = {2016},\n  number = {10},\n  language = {}\n}\n@article{galiez2017a,\n  author = {Galiez, C. and Siebert, M. and Enault, F. and Vincent, J. and J.},\n  title = {S\u00f6ding, WIsH: who is the host? Predicting prokaryotic hosts from metagenomic phage contigs},\n  journal = {Bioinformatics},\n  volume = {33},\n  pages = {3113\u20133114},\n  date = {2017},\n  language = {}\n}\n@article{sayers2020a,\n  author = {Sayers, E.W. and Cavanaugh, M. and Clark, K. and Ostell, J. and Pruitt, K.D. and Karsch-Mizrachi, I. and GenBank},\n  journal = {Nucleic Acids Res},\n  volume = {48},\n  pages = {84\u201386},\n  date = {2020}\n}\n@misc{ren2017a,\n  author = {Ren, J. and Ahlgren, N.A. and Lu, Y.Y. and Fuhrman, J.A. and Sun, F.},\n  title = {VirFinder: a novel k-mer based tool for identifying viral sequences from assembled metagenomic data. Microbiome},\n  date = {2017},\n  volume = {69},\n  language = {}\n}\n@incollection{zhong2003a,\n  author = {Zhong, N.S. and Zheng, B.J. and Li, Y.M. and Poon, Z.H.Xie and Chan, K.H. and Li, P.H. and Tan, S.Y. and Chang, Q. and Xie, J.P. and Liu, X.Q. and Xu, J. and Li, D.X. and Yuen, K.Y. and Peiris, Y.Guan},\n  title = {Epidemiology and cause of severe acute respiratory syndrome},\n  booktitle = {(SARS) in Guangdong, People\u2019s Republic of China, in February},\n  date = {2003},\n  volume = {362},\n  pages = {1353\u20131358},\n  language = {}\n}\n@article{zaki2012a,\n  author = {Zaki, A.M. and Boheemen, S.V. and Bestebroer, T.M. and Osterhaus, A.D. and Fouchier, R.A.},\n  title = {Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia},\n  journal = {N. Engl. J. Med},\n  volume = {367},\n  pages = {1814\u20131820},\n  date = {2012},\n  language = {}\n}\n@article{marra2003a,\n  author = {Marra, M.A. and Jones, S.J. and Astell, C.R. and Holt, R.A. and Brooks-Wilson, A. and Butterfield, Y.S. and Khattra, J. and Asano, J.K. and Barber, S.A. and Chan, S.Y. and Cloutier, A. and Coughlin, S.M. and Freeman, D. and Girn, N. and Griffith, O.L. and Leach, S.R. and Mayo, M. and McDonald, H. and Montgomery, S.B. and Pandoh, P.K. and Petrescu, A.S. and Robertson, A.G. and Schein, J.E. and Siddiqui, A. and Smailus, D.E. and Stott, J.M. and Yang, G.S. and Plummer, F. and Andonov, A. and Artsob, H. and Bastien, N. and Bernard, K. and Booth, T.F. and Bowness, D. and Czub, M. and Drebot, M. and Fernando, L. and Flick, R. and Garbutt, M. and Gray, M. and Grolla, A. and Jones, S. and Feldmann, H. and Meyers, A. and Kabani, A. and Li, Y. and Normand, S. and Stroher, U. and Tipples, G.A. and Tyler, S. and Vogrig, R. and Ward, D. and Watson, B. and Brunham, R.C. and Krajden, M. and Petric, M. and Skowronski, D.M. and Upton, C. and Roper, R.L.},\n  title = {The Genome sequence of the SARS-associated coronavirus},\n  journal = {Science},\n  volume = {300},\n  pages = {1399\u20131404},\n  date = {2003},\n  language = {}\n}\n@misc{for-a,\n  author = {for Biotechnology Information, National Center},\n  title = {Search database BtVs-BetaCoV/SC2013, complete genome, GenBank: KX285223.1},\n  url = {https://www.ncbi.nlm.nih.gov/nuccore/KJ473821.1.},\n  language = {}\n}\n@article{hoek2004a,\n  author = {Hoek, L.V.D. and Pyrc, K. and Jebbink, M.F. and Vermeulen-Oost, W. and Berkhout, R.J. and Wolthers, K.C. and Dillen, P.M.W. and Kaandorp, J. and Spaargaren, J. and Berkhout, B.},\n  title = {Identification of a new human coronavirus},\n  journal = {Nat Med},\n  volume = {10},\n  pages = {368\u2013373},\n  date = {2004},\n  language = {}\n}\n@article{buchfink2015a,\n  author = {Buchfink, B. and Xie, C. and Huson, D.H.},\n  title = {Fast and sensitive protein alignment using DIAMOND},\n  journal = {Nat Methods},\n  volume = {12},\n  pages = {59\u201360},\n  date = {2015},\n  language = {}\n}\n@misc{organization2003a,\n  author = {Organization, World Health},\n  title = {Summary of probably SARS cases with onset of illness from 1 November 2002 to},\n  date = {2003-07-31},\n  url = {http://www.who.int/csr/sars/country/table2004_04_21/en/.},\n  language = {}\n}\n@misc{organization-a,\n  author = {Organization, World Health},\n  title = {Middle East Respiratory Syndrome Coronavirus (MERS-CoV), MERS Monthly Summary, November 2019 (2019)},\n  url = {http://www.who.int/emergencies/mers-cov/en/.},\n  language = {}\n}\n@article{fang2019a,\n  author = {Fang, Z. and Tan, J. and Wu, S. and Li, M. and Xu, C. and Xie, Z. and Zhu, H.},\n  title = {PPR-Meta: a tool for identifying phages and plasmids from metagenomic fragments using deep learning},\n  journal = {Gigascience},\n  volume = {8},\n  pages = {066},\n  date = {2019},\n  language = {}\n}\n@article{richter2008a,\n  author = {Richter, D.C. and Ott, F. and Auch, A.F. and Schmid, R. and Huson, D.H.},\n  title = {MetaSim: a sequencing simulator for genomics and metagenomics},\n  journal = {PLoS One},\n  date = {2008},\n  volume = {10},\n  number = {1371},\n  language = {}\n}\n@article{sievers2011a,\n  author = {Sievers, F. and Wilm, A. and Dineen, D. and Gibson, T.J. and Karplus, K. and Li, W. and Lopez, R. and McWilliam, H. and Remmert, M. and S\u00f6ding, J. and Thompson, J.D. and Higgins, D.G. and Fast},\n  title = {scalable generation of high-quality protein multiple sequence alignments using Clustal Omega},\n  journal = {Mol Syst Biol},\n  volume = {7},\n  date = {2011},\n  number = {10},\n  language = {}\n}\n@article{kumar2018a,\n  author = {Kumar, S. and Stecher, G. and Li, M. and Knyaz, C. and Tamura, K.},\n  title = {MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms},\n  journal = {Mol Biol Evol},\n  volume = {35},\n  pages = {1547\u20131549},\n  date = {2018},\n  language = {}\n}\n@article{seemann2014a,\n  author = {Seemann, T.},\n  title = {Prokka: rapid prokaryotic genome annotation},\n  journal = {Bioinformatics},\n  volume = {30},\n  pages = {2068\u20132069},\n  date = {2014},\n  language = {}\n}\n@article{buchfink2015b,\n  author = {Buchfink, B. and Xie, C. and Huson, D.H.},\n  title = {Fast and sensitive protein alignment using DIAMOND},\n  journal = {Nat Methods},\n  volume = {12},\n  pages = {59\u201360},\n  date = {2015},\n  language = {}\n}\n@article{page2015a,\n  author = {Page, A.J. and Cummins, C.A. and Hunt, M. and Wong, V.K. and Reuter, S. and Holden, M.T. and Fookes, M. and Falush, D. and Keane, J.A. and Parkhill, J.},\n  title = {Roary: rapid large-scale prokaryote pan genome analysis},\n  journal = {Bioinformatics},\n  volume = {31},\n  pages = {3691\u20133693},\n  date = {2015},\n  language = {}\n}\n@article{yang1997a,\n  author = {Yang, Z.},\n  title = {PAML: a program package for phylogenetic analysis by maximum likelihood},\n  journal = {Comput Appl Biosci},\n  date = {1997},\n  volume = {10},\n  number = {1093},\n  language = {}\n}\n",
+        "links": [
+            "https://www.gisaid.org/"
+        ],
+        "emails": [
+            "hqzhu@pku.edu.cn",
+            "xiao-yonghong@163.com"
+        ],
+        "cited_by": 4,
+        "references_ris": "TY  - BOOK\nPY  - 2019\nDA  - 2019\nTI  - Novel Coronavirus\nPB  - China (2019\nUR  - https://www.cdc.gov/coronavirus/2019-nCoV/summary.html.\nLA  - \nCY  - Wuhan\nC1  - Centers for Disease Control and Prevention\nER  - \n\nTY  - JOUR\nAU  - Cohen, J.\nAU  - Normile, D.\nTI  - New SARS-like virus in China triggers alarm\nT2  - Science\nVL  - 367\nSP  - 234\nEP  - 235\nPY  - 2020\nDA  - 2020\nLA  - \nER  - \n\nTY  - GEN\nAU  - G.I.S.A.I.D.\nTI  - Newly discovered betacoronavirus, Wuhan 2019-2020\nPY  - 2019\nDA  - 2019\nUR  - https://www.gisaid.org/.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Brister, J.R.\nAU  - Ako-Adjei, D.\nAU  - Bao, Y.\nAU  - Blinkova, O.\nTI  - NCBI viral genomes resource\nT2  - Nucleic Acids Res\nVL  - 43\nSP  - 571\nEP  - 577\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - JOUR\nAU  - D, Controlprevention C.F.\nTI  - Swine-origin influenza A (H3N2) virus infection in two children--Indiana and Pennsylvania\nT2  - Morb. Mortal. Wkly. Rep\nPY  - 2011\nDA  - 2011\nSP  - 1213\nEP  - 1215\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Villarroel, J.\nAU  - Kleinheinz, K.A.\nAU  - Jurtz, V.I.\nAU  - Zschach, H.\nAU  - Lund, O.\nAU  - Nielsen, M.\nAU  - Larsen, M.V.\nTI  - HostPhinder: A Phage Host Prediction Tool\nT2  - Viruses\nVL  - 8\nPY  - 2016\nDA  - 2016\nIS  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Galiez, C.\nAU  - Siebert, M.\nAU  - Enault, F.\nAU  - Vincent, J.\nAU  - J.\nTI  - S\u00f6ding, WIsH: who is the host? Predicting prokaryotic hosts from metagenomic phage contigs\nT2  - Bioinformatics\nVL  - 33\nSP  - 3113\nEP  - 3114\nPY  - 2017\nDA  - 2017\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sayers, E.W.\nAU  - Cavanaugh, M.\nAU  - Clark, K.\nAU  - Ostell, J.\nAU  - Pruitt, K.D.\nAU  - Karsch-Mizrachi, I.\nAU  - GenBank\nT2  - Nucleic Acids Res\nVL  - 48\nSP  - 84\nEP  - 86\nPY  - 2020\nDA  - 2020\nER  - \n\nTY  - GEN\nAU  - Ren, J.\nAU  - Ahlgren, N.A.\nAU  - Lu, Y.Y.\nAU  - Fuhrman, J.A.\nAU  - Sun, F.\nTI  - VirFinder: a novel k-mer based tool for identifying viral sequences from assembled metagenomic data. Microbiome\nPY  - 2017\nDA  - 2017\nVL  - 69\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Zhong, N.S.\nAU  - Zheng, B.J.\nAU  - Li, Y.M.\nAU  - Poon, Z.H.Xie\nAU  - Chan, K.H.\nAU  - Li, P.H.\nAU  - Tan, S.Y.\nAU  - Chang, Q.\nAU  - Xie, J.P.\nAU  - Liu, X.Q.\nAU  - Xu, J.\nAU  - Li, D.X.\nAU  - Yuen, K.Y.\nAU  - Peiris, Y.Guan\nTI  - Epidemiology and cause of severe acute respiratory syndrome\nT2  - (SARS) in Guangdong, People\u2019s Republic of China, in February\nPY  - 2003\nDA  - 2003\nVL  - 362\nSP  - 1353\nEP  - 1358\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zaki, A.M.\nAU  - Boheemen, S.V.\nAU  - Bestebroer, T.M.\nAU  - Osterhaus, A.D.\nAU  - Fouchier, R.A.\nTI  - Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia\nT2  - N. Engl. J. Med\nVL  - 367\nSP  - 1814\nEP  - 1820\nPY  - 2012\nDA  - 2012\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Marra, M.A.\nAU  - Jones, S.J.\nAU  - Astell, C.R.\nAU  - Holt, R.A.\nAU  - Brooks-Wilson, A.\nAU  - Butterfield, Y.S.\nAU  - Khattra, J.\nAU  - Asano, J.K.\nAU  - Barber, S.A.\nAU  - Chan, S.Y.\nAU  - Cloutier, A.\nAU  - Coughlin, S.M.\nAU  - Freeman, D.\nAU  - Girn, N.\nAU  - Griffith, O.L.\nAU  - Leach, S.R.\nAU  - Mayo, M.\nAU  - McDonald, H.\nAU  - Montgomery, S.B.\nAU  - Pandoh, P.K.\nAU  - Petrescu, A.S.\nAU  - Robertson, A.G.\nAU  - Schein, J.E.\nAU  - Siddiqui, A.\nAU  - Smailus, D.E.\nAU  - Stott, J.M.\nAU  - Yang, G.S.\nAU  - Plummer, F.\nAU  - Andonov, A.\nAU  - Artsob, H.\nAU  - Bastien, N.\nAU  - Bernard, K.\nAU  - Booth, T.F.\nAU  - Bowness, D.\nAU  - Czub, M.\nAU  - Drebot, M.\nAU  - Fernando, L.\nAU  - Flick, R.\nAU  - Garbutt, M.\nAU  - Gray, M.\nAU  - Grolla, A.\nAU  - Jones, S.\nAU  - Feldmann, H.\nAU  - Meyers, A.\nAU  - Kabani, A.\nAU  - Li, Y.\nAU  - Normand, S.\nAU  - Stroher, U.\nAU  - Tipples, G.A.\nAU  - Tyler, S.\nAU  - Vogrig, R.\nAU  - Ward, D.\nAU  - Watson, B.\nAU  - Brunham, R.C.\nAU  - Krajden, M.\nAU  - Petric, M.\nAU  - Skowronski, D.M.\nAU  - Upton, C.\nAU  - Roper, R.L.\nTI  - The Genome sequence of the SARS-associated coronavirus\nT2  - Science\nVL  - 300\nSP  - 1399\nEP  - 1404\nPY  - 2003\nDA  - 2003\nLA  - \nER  - \n\nTY  - GEN\nAU  - for Biotechnology Information, National Center\nTI  - Search database BtVs-BetaCoV/SC2013, complete genome, GenBank: KX285223.1\nUR  - https://www.ncbi.nlm.nih.gov/nuccore/KJ473821.1.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hoek, L.V.D.\nAU  - Pyrc, K.\nAU  - Jebbink, M.F.\nAU  - Vermeulen-Oost, W.\nAU  - Berkhout, R.J.\nAU  - Wolthers, K.C.\nAU  - Dillen, P.M.W.\nAU  - Kaandorp, J.\nAU  - Spaargaren, J.\nAU  - Berkhout, B.\nTI  - Identification of a new human coronavirus\nT2  - Nat Med\nVL  - 10\nSP  - 368\nEP  - 373\nPY  - 2004\nDA  - 2004\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Buchfink, B.\nAU  - Xie, C.\nAU  - Huson, D.H.\nTI  - Fast and sensitive protein alignment using DIAMOND\nT2  - Nat Methods\nVL  - 12\nSP  - 59\nEP  - 60\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - GEN\nAU  - Organization, World Health\nTI  - Summary of probably SARS cases with onset of illness from 1 November 2002 to\nPY  - 2003\nDA  - 2003/07/31\nUR  - http://www.who.int/csr/sars/country/table2004_04_21/en/.\nLA  - \nER  - \n\nTY  - GEN\nAU  - Organization, World Health\nTI  - Middle East Respiratory Syndrome Coronavirus (MERS-CoV), MERS Monthly Summary, November 2019 (2019)\nUR  - http://www.who.int/emergencies/mers-cov/en/.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fang, Z.\nAU  - Tan, J.\nAU  - Wu, S.\nAU  - Li, M.\nAU  - Xu, C.\nAU  - Xie, Z.\nAU  - Zhu, H.\nTI  - PPR-Meta: a tool for identifying phages and plasmids from metagenomic fragments using deep learning\nT2  - Gigascience\nVL  - 8\nSP  - 066\nPY  - 2019\nDA  - 2019\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Richter, D.C.\nAU  - Ott, F.\nAU  - Auch, A.F.\nAU  - Schmid, R.\nAU  - Huson, D.H.\nTI  - MetaSim: a sequencing simulator for genomics and metagenomics\nT2  - PLoS One\nPY  - 2008\nDA  - 2008\nVL  - 10\nIS  - 1371\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sievers, F.\nAU  - Wilm, A.\nAU  - Dineen, D.\nAU  - Gibson, T.J.\nAU  - Karplus, K.\nAU  - Li, W.\nAU  - Lopez, R.\nAU  - McWilliam, H.\nAU  - Remmert, M.\nAU  - S\u00f6ding, J.\nAU  - Thompson, J.D.\nAU  - Higgins, D.G.\nAU  - Fast\nTI  - scalable generation of high-quality protein multiple sequence alignments using Clustal Omega\nT2  - Mol Syst Biol\nVL  - 7\nPY  - 2011\nDA  - 2011\nIS  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kumar, S.\nAU  - Stecher, G.\nAU  - Li, M.\nAU  - Knyaz, C.\nAU  - Tamura, K.\nTI  - MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms\nT2  - Mol Biol Evol\nVL  - 35\nSP  - 1547\nEP  - 1549\nPY  - 2018\nDA  - 2018\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Seemann, T.\nTI  - Prokka: rapid prokaryotic genome annotation\nT2  - Bioinformatics\nVL  - 30\nSP  - 2068\nEP  - 2069\nPY  - 2014\nDA  - 2014\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Buchfink, B.\nAU  - Xie, C.\nAU  - Huson, D.H.\nTI  - Fast and sensitive protein alignment using DIAMOND\nT2  - Nat Methods\nVL  - 12\nSP  - 59\nEP  - 60\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Page, A.J.\nAU  - Cummins, C.A.\nAU  - Hunt, M.\nAU  - Wong, V.K.\nAU  - Reuter, S.\nAU  - Holden, M.T.\nAU  - Fookes, M.\nAU  - Falush, D.\nAU  - Keane, J.A.\nAU  - Parkhill, J.\nTI  - Roary: rapid large-scale prokaryote pan genome analysis\nT2  - Bioinformatics\nVL  - 31\nSP  - 3691\nEP  - 3693\nPY  - 2015\nDA  - 2015\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Yang, Z.\nTI  - PAML: a program package for phylogenetic analysis by maximum likelihood\nT2  - Comput Appl Biosci\nPY  - 1997\nDA  - 1997\nVL  - 10\nIS  - 1093\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "P-values of Potential Hosts of 50 Coronaviruses provided by the VHP method (human coronaviruses are colored red, 2019- nCoVs are marked with *)"
+            },
+            {
+                "id": "2",
+                "caption": "Host types and subtypes integrated in them"
+            },
+            {
+                "id": "3",
+                "caption": "Comparison of AUC of blast and VPH"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Phylogenetic tree of 2019-nCoV and 44 Coronaviruses"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/2020.01.21.914044.full.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.01.21.914044.full/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/2020.01.21.914044.full/img-001.png"
+        ]
+    },
+    "sections": {
+        "acknowledgments": [
+            "We acknowledge China CDC; Wuhan Institute of Virology, Chinese Academy of Sciences; Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College for genome sequencing sharing. We also acknowledge GISAID (https://www.gisaid.org/) for facilitating open data sharing. Part of the analysis was performed on the High Performance Computing Platform of the Center for Life Science of Peking University. Funding: The National Key Research and Development Program of China (2017YFC1200205), the National Natural Science Foundation of China (31671366 and 91231119), and the Special Research Project of \u2018Clinical Medicine + X\u2019 by Peking University. Competing interests: The authors declare no competing interests. Data and materials availability: All data is available in the main text or the supplementary materials."
+        ],
+        "funding": [
+            "Funding: The National Key Research and Development Program of China (2017YFC1200205), the National Natural Science Foundation of China (31671366 and 91231119), and the Special Research Project of \u2018Clinical Medicine + X\u2019 by Peking University"
+        ],
+        "disclosures": [
+            "Competing interests: The authors declare no competing interests. Data and materials availability: All data is available in the main text or the supplementary materials."
+        ],
+        "data_availability": [
+            "All data is available in the main text or the supplementary materials"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "supplementary materials"
+            ],
+            "supplementary_figure_references": [
+                "Table S2",
+                "Table S1",
+                "Table S3",
+                "Table S4"
+            ]
+        },
+        "introduction": [
+            "coronaviruses have strong potential to infect human. This method will be helpful in future viral analysis and early prevention and control of viral pathogens.",
+            "Main Text: The recently outbreak of pneumonia in Wuhan, China has brought the 2019 Novel Coronavirus (2019-nCoV) into our sight closely. The first case of unknown cause of pneumonia was found on 12 December 2019, and was later determined as a non-SARS novel coronavirus by Chinese Center for Disease Control and Prevention (China CDC). This virus has now caused a total of 217 confirmed human infections in China and three deaths, reported by Chinese media on 20 January 2020. Yet the virus has trend to spread out of China, since one case in Thailand, one case in Japan and two cases in Korea had been sequentially reported since 15 January 2020 [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. Most of the patients are reported to have some link to seafood and animal market, which indicates the virus may spread from animals [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. And the possibility of human-to-human transmission of the virus is still under investigation. The situation is severe and it is urgent for us to have a better understanding towards this virus for further prevention and control. Meanwhile, the outbreak of pneumonia caused by 2019-nCoV warns us the importance of predicting the risk of novel virus infection of human. At present, six full genomes of 2019-nCoV have been submitted on GISAID [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] by China CDC, etc., and among them one has been released on GenBank [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] (Accession: MN908947)."
+        ]
+    },
+    "structured_content": {
+        "Plant Germ Invertebrate Vertebrate Human": [],
+        "SARS coronavirus": [],
+        "Middle East respiratory syndrome coronavirus": [
+            "\u201cvertebrate\u201d is given the least p-value for 2019-nCoVs predicted by VHP, which illustrates that the reservoir of 2019-nCoV may be vertebrate. Compared to the Coronaviruses infecting other vertebrates, Coronaviruses in bat are assigned with more similar infectivity patterns with 2019-nCoVs by VHP, which illustrates that bat is more likely to be the reservoir of 2019-nCoVs than other known vertebrate hosts of Coronaviruses. To explore other potential reservoirs, we scored all the available vertebrate viruses in GenBank, filtered viruses that have similar infectivity pattern with 2019-nCoV (Table S4). Results show that detailed hosts information of the filtered viruses include Canine, Porcine, Mink, Tortoise and Feline. By comparing the infectivity patterns of all viruses hosted on these vertebrates, we found Mink viruses show a closer infectivity pattern to 2019-nCov and thus we inferred Mink may be another candidate infection source of 2019-nCov.",
+            "To evaluate whether 2019-nCoVs are close to SARS, Bat SARS-like Coronaviruses and MERS genetically, we built a phylogenetic tree with the whole genome sequences of all the Coronaviruses",
+            "utilized above, which showed that 2019-nCoVs have a closer phylogenetic relationship with SARS and Bat SARS-like Coronaviruses than other Coronaviruses (as shown in Fig. 1). In regard to protein level, we predicted the genes of 2019-nCoVs and annotated them and we found that the annotation results of all the six 2019-nCoV genomes are identical, including seven functional proteins (pp1a, E2 glycoprotein precursor, hypothetical protein sars3a, matrix protein, hypothetical protein sars6, hypothetical protein sars7a, nucleocapsid protein) verified in SARS-CoV-like coronavirus [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. All these results illustrate the efficiency of our computational prediction and the high risk of 2019-nCoV and guide us to have a closer look at the similarity and differences of 2019-nCoV and SARS-CoV-like Coronaviruses. To explore the differences of 2019-nCoVs, SARS and SARS-CoV-like Coronavirus, we then analyzed their core genes (more than 95% AAS identity) and nonsynonymous SNPs (single-nucleotide polymorphisms) (Table S3). We found that the six 2019-nCoVs are more similar to two Bat SARS-like Coronaviruses (MG772933 and MG772934) than SARS and other SARS-CoV-like Coronaviruses. In addition, the core gene SNP analysis shows that \u201cBetaCoV/Wuhan/IVDC-HB-04\u201d and \u201cBetaCoV/Wuhan/IVDC-HB-05/2019\u201d are divergent with the other four 2019-nCoVs, which means that there may be some mistakes in sequencing and assembly of these two viruses. By core gene and accessary gene analysis of the left four 2019-nCoVs and the two Bat SARS-like Coronaviruses, we found three core genes: two ORFs and one functional gene ymdB. While the four 2019-nCoVs have no SNPs on the two predicted ORFs, they have two nonsynonymous SNPs on ymdB, which indicates that these 2019-nCoV may derived from one origin. Besides, compared with the two Bat SARS-like Coronaviruses, 2019-nCoVs have 4, ~130, ~220 nonsynonymous SNPs on the three core genes respectively, which shows the differences among 2019-nCoV and SARS-CoV-like Coronaviruses.",
+            "Except for 2019-nCoVs, our predictions for all coronaviruses indicate that Night-heron coronavirus HKU19, which is reported to infect a vertebrate, Night-heron, also has the strong potential to infect human. Coronaviruses are a large family of viruses which usually circulate among animals which will cause fatal diseases, once they mutate and evolve to be able to infect human. For example, severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV) are the most impressive ones. In November 2002, SARS-CoV found its first victim in Foshan, mainland China, and soon spread to all over the country by travelling with potential patients [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Different from other human-derived coronaviruses, SARS-CoV leads to severe acute respiratory syndrome (SARS), with a fatality rate of up to ~10%. By July 2003, SARS-CoV had caused 8069 cases in 27 countries, 774 of them died [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]. Another distinctive coronavirus, known as MERS-CoV, was isolated from a man died of severe pneumonia and organ failure in Saudi Arabia at June 2012 [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. MERS-CoV has infected 2,494 individuals in 27 countries since 2012, 858 of them died [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]. A much higher fatality rate (~35%) has been shown in Middle East respiratory syndrome. Large epidemics of SARS and MERS have finished already, but follow-up studies never stop. High lethality and high human-to-human infectivity shown in these two diseases have raised alarm all over the world. Therefore, it\u2019s urgent for us to seek out a new way and establish defensive lines for public health.",
+            "To sum up, in this report we predicted the potential of infecting human of 2019-nCoV, with implication of the risk of the 2019-nCoV. Aiming to give reliable predicted hosts and potential of infecting human of novel virus, VHP could play an important role in public health service and provide strong assistance for take precautions of novel viruses which have potential to infect human.",
+            "At the end of this report, we provide a brief description of VHP method and the verification of the algorithm. To construct the VHP model, we utilized a Bi-path Convolutional Neural Networks (BiPathCNN) [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], where each viral sequence was represented by one-hot matrix of its base and codon separately. Considering difference in input sequence lengths, two BiPathCNNs (BiPathCNN-A and BiPathCNN-B) were built for predicting hosts of viral sequences from 100 bp to 400 bp and 400 bp to 800 bp respectively. The dataset [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] for training and testing includes genomes of all DNA viruses, coding sequences of all RNA viruses and their host information in"
+        ],
+        "Host type": [
+            "Archaea, bacteria, fungi, protozoa invertebrate invertebrate vertebrate vertebrate human human"
+        ],
+        "Length of reads": [
+            "GenBank. In order to develop a method expert in predicting the potential host types of novel viruses, the viral sequences data released before 2018 were used to build the training set, while those released after 2018 were utilized for testing. We integrated the hosts of viruses into five types, including plant, germ, invertebrate, vertebrate and human. The host subtypes contained in these five types are listed in Table 2 in detail. In the practical application for viral sequences, with the input of viral nucleotide sequence, VHP will output five scores for each host type, reflecting the infectivity within each host type respectively. Furthermore, VHP provides five p-values, statistical measures of how distinct the infections are compared with non-infection events. In order to evaluate the performance of VHP, we compare AUC (Area Under Curve) of both blast and VHP. The comparison result shows that VHP performs with higher AUC in average (shown in Table 3)."
+        ],
+        "Acknowledgments": [
+            "We acknowledge China CDC; Wuhan Institute of Virology, Chinese Academy of Sciences; Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College for genome sequencing sharing. We also acknowledge GISAID (https://www.gisaid.org/) for facilitating open data sharing. Part of the analysis was performed on the High Performance Computing Platform of the Center for Life Science of Peking University. Funding: The National Key Research and Development Program of China (2017YFC1200205), the National Natural Science Foundation of China (31671366 and 91231119), and the Special Research Project of \u2018Clinical Medicine + X\u2019 by Peking University. Competing interests: The authors declare no competing interests. Data and materials availability: All data is available in the main text or the supplementary materials."
+        ],
+        "References": [
+            "1. Centers for Disease Control and Prevention, 2019 Novel Coronavirus (2019-nCoV), Wuhan, China (2019); https://www.cdc.gov/coronavirus/2019-nCoV/summary.html.",
+            "2. J. Cohen, D. Normile, New SARS-like virus in China triggers alarm. Science. 367, 234-235 (2020).",
+            "3. GISAID, Newly discovered betacoronavirus, Wuhan 2019-2020 (2019); https://www.gisaid.org/.",
+            "4. J. R. Brister, D. Ako-Adjei, Y. Bao, O. Blinkova, NCBI viral genomes resource. Nucleic Acids Res. 43, D571\u2013D577 (2015).",
+            "5. Controlprevention C F D, Swine-origin influenza A (H3N2) virus infection in two children--Indiana and Pennsylvania. Morb. Mortal. Wkly. Rep. 2011, 1213-1215 (2011).",
+            "6. J. Villarroel, K. A. Kleinheinz, V. I. Jurtz, H. Zschach, O. Lund, M. Nielsen, M. V. Larsen, HostPhinder: A Phage Host Prediction Tool. Viruses. 8, 10.3390/v8050116 (2016).",
+            "7. C. Galiez, M. Siebert, F. Enault, J. Vincent, J. S\u00f6ding, WIsH: who is the host? Predicting prokaryotic hosts from metagenomic phage contigs. Bioinformatics. 33, 3113-3114 (2017).",
+            "8. E. W. Sayers, M. Cavanaugh, K. Clark, J. Ostell, K. D. Pruitt, I. Karsch-Mizrachi, GenBank. Nucleic Acids Res. 48, D84-86 (2020).",
+            "9. J. Ren, N. A. Ahlgren, Y. Y. Lu, J. A. Fuhrman, F. Sun, VirFinder: a novel k-mer based tool for identifying viral sequences from assembled metagenomic data. Microbiome. 5, 69 (2017).",
+            "10. N. S. Zhong, B. J. Zheng, Y. M. Li, Poon, Z. H. Xie, K. H. Chan, P. H. Li, S. Y. Tan, Q. Chang, J. P. Xie, X. Q. Liu, J. Xu, D. X. Li, K. Y. Yuen, Peiris, Y. Guan, Epidemiology and cause of severe acute respiratory syndrome (SARS) in Guangdong, People\u2019s Republic of China, in February, 2003. Lancet. 362, 1353-1358 (2003).",
+            "11. A. M. Zaki, S. V. Boheemen, T. M. Bestebroer, A. D. Osterhaus, & R. A. Fouchier, Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N. Engl. J. Med. 367, 1814-1820 (2012).",
+            "12. M. A. Marra, S. J. Jones, C. R. Astell, R. A. Holt, A. Brooks-Wilson, Y. S. Butterfield, J. Khattra, J. K. Asano, S. A. Barber, S. Y. Chan, A. Cloutier, S. M. Coughlin, D. Freeman, N. Girn, O. L. Griffith, S. R. Leach, M. Mayo, H. McDonald, S. B. Montgomery, P. K. Pandoh, A. S. Petrescu, A. G. Robertson, J. E. Schein, A. Siddiqui, D. E. Smailus, J. M. Stott, G. S. Yang, F. Plummer, A. Andonov, H. Artsob, N. Bastien, K. Bernard, T. F. Booth, D. Bowness, M. Czub, M. Drebot, L. Fernando, R. Flick, M. Garbutt, M. Gray, A. Grolla, S. Jones, H. Feldmann, A. Meyers, A. Kabani, Y. Li, S. Normand, U. Stroher, G. A. Tipples, S. Tyler, R. Vogrig, D. Ward, B. Watson, R. C. Brunham, M. Krajden, M. Petric, D. M. Skowronski, C. Upton, R. L. Roper, The Genome sequence of the SARS-associated coronavirus. Science. 300, 1399-1404 (2003).",
+            "13. National Center for Biotechnology Information, Search database BtVs-BetaCoV/SC2013, complete genome, GenBank: KX285223.1; https://www.ncbi.nlm.nih.gov/nuccore/KJ473821.1.",
+            "14. L. V. D. Hoek, K. Pyrc, M. F. Jebbink, W. Vermeulen-Oost, R. J. Berkhout, K. C. Wolthers, P. M. W. Dillen, J. Kaandorp, J. Spaargaren, B. Berkhout, Identification of a new human coronavirus. Nat Med. 10, 368-373 (2004).",
+            "15. B. Buchfink, C. Xie, D. H. Huson. Fast and sensitive protein alignment using DIAMOND. Nat Methods. 12, 59-60 (2015).",
+            "16. World Health Organization, Summary of probably SARS cases with onset of illness from 1 November 2002 to 31 July 2003 (2003); http://www.who.int/csr/sars/country/table2004_04_21/en/.",
+            "17. World Health Organization. Middle East Respiratory Syndrome Coronavirus (MERS-CoV), MERS Monthly Summary, November 2019 (2019); http://www.who.int/emergencies/mers-cov/en/.",
+            "18. Z. Fang, J. Tan, S. Wu, M. Li, C. Xu, Z. Xie, H. Zhu, PPR-Meta: a tool for identifying phages and plasmids from metagenomic fragments using deep learning. Gigascience. 8, giz066 (2019).",
+            "19. D. C. Richter, F. Ott, A. F. Auch, R. Schmid, D. H. Huson, MetaSim: a sequencing simulator for genomics and metagenomics. PLoS One. 2008, 10.1371/journal.pone.0003373 (2008).",
+            "20. F. Sievers, A. Wilm, D. Dineen, T. J. Gibson, K. Karplus, W. Li, R. Lopez, H. McWilliam, M. Remmert, J. S\u00f6ding, J. D. Thompson, D. G. Higgins, Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol Syst Biol. 7, 10.1038/msb.2011.75 (2011).",
+            "21. S. Kumar, G. Stecher, M. Li, C. Knyaz, K. Tamura, MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms. Mol Biol Evol. 35, 1547\u20131549 (2018).",
+            "22. T. Seemann, Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30, 2068\u20132069 (2014).",
+            "23. B. Buchfink, C. Xie, D. H. Huson. Fast and sensitive protein alignment using DIAMOND. Nat Methods. 12, 59-60 (2015).",
+            "24. A. J. Page, C. A. Cummins, M. Hunt, V. K. Wong, S. Reuter, M. T. Holden, M. Fookes, D. Falush, J. A. Keane, J. Parkhill, Roary: rapid large-scale prokaryote pan genome analysis. Bioinformatics. 31, 3691\u20133693 (2015).",
+            "25. Z. Yang, PAML: a program package for phylogenetic analysis by maximum likelihood. Comput Appl Biosci. 1997, 10.1093/bioinformatics/13.5.555 (1997)."
+        ]
+    },
+    "participants": [
+        {
+            "participant": "full genomes",
+            "number": 6,
+            "context": "Meanwhile, the outbreak of pneumonia caused by 2019-nCoV warns us the importance of predicting the risk of novel virus infection of human. <mark class=\"stats\">At present, six full genomes of 2019-nCoV have been submitted on GISAID [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] by China CDC, etc., and among them one has been released on GenBank [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] (Accession: MN908947)</mark>. Currently there is urgent need to identify the hosts potentially infected by the 2019-nCoV viruses"
+        },
+        {
+            "participant": "genomes",
+            "number": 6,
+            "context": "With the whole genome sequences released online, we predicted the potential hosts of 2019-nCoV, as well as other 44 Coronaviruses in NCBI refseq [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] and four Bat SARS-like Coronaviruses in GenBank [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. <mark class=\"stats\">It turns out that six genomes of 2019-nCoV all have a high possibility (p-value<0.05) to infect human (as shown in Table 1, and Table S2)</mark>. Besides, most of the reported human-infective Coronaviruses [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] are assigned the lowest p-values predicted by the VHP method (Table S1)"
+        },
+        {
+            "participant": "cases",
+            "number": 8069,
+            "context": "Different from other human-derived coronaviruses, SARS-CoV leads to severe acute respiratory syndrome (SARS), with a fatality rate of up to ~10%. <mark class=\"stats\">By July 2003, SARS-CoV had caused 8069 cases in 27 countries, 774 of them died [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>]</mark>. Another distinctive coronavirus, known as MERS-CoV, was isolated from a man died of severe pneumonia and organ failure in Saudi Arabia at June 2012 [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]"
+        },
+        {
+            "participant": "individuals",
+            "number": 2494,
+            "context": "Another distinctive coronavirus, known as MERS-CoV, was isolated from a man died of severe pneumonia and organ failure in Saudi Arabia at June 2012 [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]. <mark class=\"stats\">MERS-CoV has infected 2,494 individuals in 27 countries since 2012, 858 of them died [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>]</mark>. A much higher fatality rate (~35%) has been shown in Middle East respiratory syndrome"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "severe acute respiratory",
+        "MERS",
+        "virus host prediction",
+        "severe acute respiratory syndrome",
+        "human coronavirus",
+        "respiratory syndrome coronavirus",
+        "host prediction",
+        "deep learning algorithm",
+        "close infectivity",
+        "East Respiratory syndrome",
+        "viral analysis",
+        "coronavirus",
+        "infectivity pattern",
+        "pneumonia",
+        "early prevention",
+        "middle east respiratory",
+        "mers cov",
+        "novel virus",
+        "strong potential",
+        "viral pathogens",
+        "acute respiratory syndrome",
+        "novel coronavirus",
+        "future viral",
+        "virus infection"
+    ],
+    "keyword_relevance": {
+        "severe acute respiratory syndrome": 0.3049645390070922,
+        "coronavirus": 0.20567375886524822,
+        "infectivity pattern": 0.07092198581560284,
+        "novel virus": 0.07092198581560284,
+        "MERS": 0.06382978723404255,
+        "pneumonia": 0.0425531914893617,
+        "respiratory syndrome coronavirus": 0.03546099290780142,
+        "severe acute respiratory": 0.028368794326241134,
+        "acute respiratory syndrome": 0.028368794326241134,
+        "human coronavirus": 0.02127659574468085,
+        "deep learning algorithm": 0.02127659574468085,
+        "strong potential": 0.02127659574468085,
+        "novel coronavirus": 0.02127659574468085,
+        "virus infection": 0.014184397163120567,
+        "virus host prediction": 0.0070921985815602835,
+        "host prediction": 0.0070921985815602835,
+        "close infectivity": 0.0070921985815602835,
+        "viral analysis": 0.0070921985815602835,
+        "early prevention": 0.0070921985815602835,
+        "viral pathogens": 0.0070921985815602835,
+        "future viral": 0.0070921985815602835,
+        "East Respiratory syndrome": 0.0,
+        "middle east respiratory": 0.0,
+        "mers cov": 0.0
+    },
+    "species": [],
+    "summary": [
+        "Coronaviruses have strong potential to infect human. This method will be helpful in future viral analysis and early prevention and control of viral pathogens.",
+        "Abstract: The recent outbreak of pneumonia in Wuhan, China caused by the 2019 Novel Coronavirus (2019-nCoV) emphasizes the importance of detecting novel viruses and predicting their risks of infecting people.",
+        "The authors' prediction suggests that 2019-nCoV has close infectivity with other human coronaviruses, especially the severe acute respiratory syndrome coronavirus (SARS-CoV), Bat SARS-like Coronaviruses and the Middle East respiratory syndrome coronavirus (MERS-CoV).",
+        "The outbreak of pneumonia caused by 2019-nCoV warns them the importance of predicting the risk of novel virus infection of human.",
+        "With the whole genome sequences released online, the authors predicted the potential hosts of 2019-nCoV, as well as other 44 Coronaviruses in NCBI refseq [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] and four Bat SARS-like Coronaviruses in GenBank [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+        "Most of the reported human-infective Coronaviruses [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] are assigned the lowest p-values predicted by the VHP method (Table S1).",
+        "The prediction results warn them that the 2019-nCoV have strong potential of infecting human similar to SARS, Bat SARS-like Coronaviruses and MERS.",
+        "Compared to the Coronaviruses infecting other vertebrates, Coronaviruses in bat are assigned with more similar infectivity patterns with 2019-nCoVs by VHP, which illustrates that bat is more likely to be the reservoir of 2019-nCoVs than other known vertebrate hosts of Coronaviruses.",
+        "To explore other potential reservoirs, the authors scored all the available vertebrate viruses in GenBank, filtered viruses that have similar infectivity pattern with 2019-nCoV (Table S4).",
+        "In regard to protein level, the authors predicted the genes of 2019-nCoVs and annotated them and the authors found that the annotation results of all the six 2019-nCoV genomes are identical, including seven functional proteins verified in SARS-CoV-like coronavirus [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+        "All these results illustrate the efficiency of the computational prediction and the high risk of 2019-nCoV and guide them to have a closer look at the similarity and differences of 2019-nCoV and SARS-CoV-like Coronaviruses.",
+        "Except for 2019-nCoVs, the predictions for all coronaviruses indicate that Night-heron coronavirus HKU19, which is reported to infect a vertebrate, Night-heron, has the strong potential to infect human.",
+        "Aiming to give reliable predicted hosts and potential of infecting human of novel virus, VHP could play an important role in public health service and provide strong assistance for take precautions of novel viruses which have potential to infect human.",
+        "In order to develop a method expert in predicting the potential host types of novel viruses, the viral sequences data released before 2018 were used to build the training set, while those released after 2018 were utilized for testing."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Coronaviruses have strong potential to infect human. This method will be helpful in future viral analysis and early prevention and control of viral pathogens.",
+            "Abstract: The recent outbreak of pneumonia in Wuhan, China caused by the 2019 Novel Coronavirus (2019-nCoV) emphasizes the importance of detecting novel viruses and predicting their risks of infecting people.",
+            "The authors' prediction suggests that 2019-nCoV has close infectivity with other human coronaviruses, especially the severe acute respiratory syndrome coronavirus (SARS-CoV), Bat SARS-like Coronaviruses and the Middle East respiratory syndrome coronavirus (MERS-CoV)."
+        ],
+        "Results": [
+            "The outbreak of pneumonia caused by 2019-nCoV warns them the importance of predicting the risk of novel virus infection of human.",
+            "With the whole genome sequences released online, the authors predicted the potential hosts of 2019-nCoV, as well as other 44 Coronaviruses in NCBI refseq [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>] and four Bat SARS-like Coronaviruses in GenBank [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>].",
+            "Most of the reported human-infective Coronaviruses [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>-<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>] are assigned the lowest p-values predicted by the VHP method (Table S1).",
+            "The prediction results warn them that the 2019-nCoV have strong potential of infecting human similar to SARS, Bat SARS-like Coronaviruses and MERS.",
+            "Compared to the Coronaviruses infecting other vertebrates, Coronaviruses in bat are assigned with more similar infectivity patterns with 2019-nCoVs by VHP, which illustrates that bat is more likely to be the reservoir of 2019-nCoVs than other known vertebrate hosts of Coronaviruses.",
+            "To explore other potential reservoirs, the authors scored all the available vertebrate viruses in GenBank, filtered viruses that have similar infectivity pattern with 2019-nCoV (Table S4).",
+            "In regard to protein level, the authors predicted the genes of 2019-nCoVs and annotated them and the authors found that the annotation results of all the six 2019-nCoV genomes are identical, including seven functional proteins verified in SARS-CoV-like coronavirus [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+            "All these results illustrate the efficiency of the computational prediction and the high risk of 2019-nCoV and guide them to have a closer look at the similarity and differences of 2019-nCoV and SARS-CoV-like Coronaviruses."
+        ],
+        "Conclusion": [
+            "Except for 2019-nCoVs, the predictions for all coronaviruses indicate that Night-heron coronavirus HKU19, which is reported to infect a vertebrate, Night-heron, has the strong potential to infect human.",
+            "Aiming to give reliable predicted hosts and potential of infecting human of novel virus, VHP could play an important role in public health service and provide strong assistance for take precautions of novel viruses which have potential to infect human.",
+            "In order to develop a method expert in predicting the potential host types of novel viruses, the viral sequences data released before 2018 were used to build the training set, while those released after 2018 were utilized for testing."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "1._2019_a",
+            "entry": "1. Centers for Disease Control and Prevention, 2019 Novel Coronavirus (2019-nCoV), Wuhan, China (2019); https://www.cdc.gov/coronavirus/2019-nCoV/summary.html.",
+            "url": "https://www.cdc.gov/coronavirus/2019-nCoV/summary.html"
+        },
+        {
+            "id": "2",
+            "alt_id": "Cohen_2020_a",
+            "entry": "2. J. Cohen, D. Normile, New SARS-like virus in China triggers alarm. Science. 367, 234-235 (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202020"
+        },
+        {
+            "id": "3",
+            "alt_id": "G_2019_a",
+            "entry": "3. GISAID, Newly discovered betacoronavirus, Wuhan 2019-2020 (2019); https://www.gisaid.org/.",
+            "url": "https://www.gisaid.org/"
+        },
+        {
+            "id": "4",
+            "alt_id": "Brister_et+al_2015_a",
+            "entry": "4. J. R. Brister, D. Ako-Adjei, Y. Bao, O. Blinkova, NCBI viral genomes resource. Nucleic Acids Res. 43, D571\u2013D577 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Brister%2C%20J.R.%20Ako-Adjei%2C%20D.%20Bao%2C%20Y.%20Blinkova%2C%20O.%20NCBI%20viral%20genomes%20resource%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Brister%2C%20J.R.%20Ako-Adjei%2C%20D.%20Bao%2C%20Y.%20Blinkova%2C%20O.%20NCBI%20viral%20genomes%20resource%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Brister%2C%20J.R.%20Ako-Adjei%2C%20D.%20Bao%2C%20Y.%20Blinkova%2C%20O.%20NCBI%20viral%20genomes%20resource%202015"
+        },
+        {
+            "id": "5",
+            "alt_id": "Controlprevention_2011_a",
+            "entry": "5. Controlprevention C F D, Swine-origin influenza A (H3N2) virus infection in two children--Indiana and Pennsylvania. Morb. Mortal. Wkly. Rep. 2011, 1213-1215 (2011).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=D%2C%20Controlprevention%20C.F.%20Swine-origin%20influenza%20A%20%28H3N2%29%20virus%20infection%20in%20two%20children--Indiana%20and%20Pennsylvania%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=D%2C%20Controlprevention%20C.F.%20Swine-origin%20influenza%20A%20%28H3N2%29%20virus%20infection%20in%20two%20children--Indiana%20and%20Pennsylvania%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=D%2C%20Controlprevention%20C.F.%20Swine-origin%20influenza%20A%20%28H3N2%29%20virus%20infection%20in%20two%20children--Indiana%20and%20Pennsylvania%202011"
+        },
+        {
+            "id": "6",
+            "alt_id": "Villarroel_et+al_2016_a",
+            "entry": "6. J. Villarroel, K. A. Kleinheinz, V. I. Jurtz, H. Zschach, O. Lund, M. Nielsen, M. V. Larsen, HostPhinder: A Phage Host Prediction Tool. Viruses. 8, 10.3390/v8050116 (2016).",
+            "crossref": "https://dx.doi.org/10.3390/v8050116",
+            "scite": "https://scite.ai/reports/10.3390/v8050116",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.3390/v8050116"
+        },
+        {
+            "id": "7",
+            "alt_id": "Galiez_et+al_2017_a",
+            "entry": "7. C. Galiez, M. Siebert, F. Enault, J. Vincent, J. S\u00f6ding, WIsH: who is the host? Predicting prokaryotic hosts from metagenomic phage contigs. Bioinformatics. 33, 3113-3114 (2017).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Galiez%2C%20C.%20Siebert%2C%20M.%20Enault%2C%20F.%20Vincent%2C%20J.%20S%C3%B6ding%2C%20WIsH%3A%20who%20is%20the%20host%3F%20Predicting%20prokaryotic%20hosts%20from%20metagenomic%20phage%20contigs%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Galiez%2C%20C.%20Siebert%2C%20M.%20Enault%2C%20F.%20Vincent%2C%20J.%20S%C3%B6ding%2C%20WIsH%3A%20who%20is%20the%20host%3F%20Predicting%20prokaryotic%20hosts%20from%20metagenomic%20phage%20contigs%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Galiez%2C%20C.%20Siebert%2C%20M.%20Enault%2C%20F.%20Vincent%2C%20J.%20S%C3%B6ding%2C%20WIsH%3A%20who%20is%20the%20host%3F%20Predicting%20prokaryotic%20hosts%20from%20metagenomic%20phage%20contigs%202017"
+        },
+        {
+            "id": "8",
+            "alt_id": "Sayers_et+al_2020_a",
+            "entry": "8. E. W. Sayers, M. Cavanaugh, K. Clark, J. Ostell, K. D. Pruitt, I. Karsch-Mizrachi, GenBank. Nucleic Acids Res. 48, D84-86 (2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=E%20W%20Sayers%20M%20Cavanaugh%20K%20Clark%20J%20Ostell%20K%20D%20Pruitt%20I%20KarschMizrachi%20GenBank%20Nucleic%20Acids%20Res%2048%20D8486%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=E%20W%20Sayers%20M%20Cavanaugh%20K%20Clark%20J%20Ostell%20K%20D%20Pruitt%20I%20KarschMizrachi%20GenBank%20Nucleic%20Acids%20Res%2048%20D8486%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=E%20W%20Sayers%20M%20Cavanaugh%20K%20Clark%20J%20Ostell%20K%20D%20Pruitt%20I%20KarschMizrachi%20GenBank%20Nucleic%20Acids%20Res%2048%20D8486%202020"
+        },
+        {
+            "id": "9",
+            "alt_id": "Ren_et+al_2017_a",
+            "entry": "9. J. Ren, N. A. Ahlgren, Y. Y. Lu, J. A. Fuhrman, F. Sun, VirFinder: a novel k-mer based tool for identifying viral sequences from assembled metagenomic data. Microbiome. 5, 69 (2017).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ren%2C%20J.%20Ahlgren%2C%20N.A.%20Lu%2C%20Y.Y.%20Fuhrman%2C%20J.A.%20VirFinder%3A%20a%20novel%20k-mer%20based%20tool%20for%20identifying%20viral%20sequences%20from%20assembled%20metagenomic%20data.%20Microbiome%202017"
+        },
+        {
+            "id": "10",
+            "alt_id": "Zhong_et+al_2003_a",
+            "entry": "10. N. S. Zhong, B. J. Zheng, Y. M. Li, Poon, Z. H. Xie, K. H. Chan, P. H. Li, S. Y. Tan, Q. Chang, J. P. Xie, X. Q. Liu, J. Xu, D. X. Li, K. Y. Yuen, Peiris, Y. Guan, Epidemiology and cause of severe acute respiratory syndrome (SARS) in Guangdong, People\u2019s Republic of China, in February, 2003. Lancet. 362, 1353-1358 (2003).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhong%2C%20N.S.%20Zheng%2C%20B.J.%20Li%2C%20Y.M.%20Poon%2C%20Z.H.Xie%20Epidemiology%20and%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhong%2C%20N.S.%20Zheng%2C%20B.J.%20Li%2C%20Y.M.%20Poon%2C%20Z.H.Xie%20Epidemiology%20and%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhong%2C%20N.S.%20Zheng%2C%20B.J.%20Li%2C%20Y.M.%20Poon%2C%20Z.H.Xie%20Epidemiology%20and%20cause%20of%20severe%20acute%20respiratory%20syndrome%202003"
+        },
+        {
+            "id": "11",
+            "alt_id": "Zaki_et+al_2012_a",
+            "entry": "11. A. M. Zaki, S. V. Boheemen, T. M. Bestebroer, A. D. Osterhaus, & R. A. Fouchier, Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N. Engl. J. Med. 367, 1814-1820 (2012).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zaki%2C%20A.M.%20Boheemen%2C%20S.V.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zaki%2C%20A.M.%20Boheemen%2C%20S.V.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zaki%2C%20A.M.%20Boheemen%2C%20S.V.%20Bestebroer%2C%20T.M.%20Osterhaus%2C%20A.D.%20Isolation%20of%20a%20novel%20coronavirus%20from%20a%20man%20with%20pneumonia%20in%20Saudi%20Arabia%202012"
+        },
+        {
+            "id": "12",
+            "alt_id": "Marra_et+al_2003_a",
+            "entry": "12. M. A. Marra, S. J. Jones, C. R. Astell, R. A. Holt, A. Brooks-Wilson, Y. S. Butterfield, J. Khattra, J. K. Asano, S. A. Barber, S. Y. Chan, A. Cloutier, S. M. Coughlin, D. Freeman, N. Girn, O. L. Griffith, S. R. Leach, M. Mayo, H. McDonald, S. B. Montgomery, P. K. Pandoh, A. S. Petrescu, A. G. Robertson, J. E. Schein, A. Siddiqui, D. E. Smailus, J. M. Stott, G. S. Yang, F. Plummer, A. Andonov, H. Artsob, N. Bastien, K. Bernard, T. F. Booth, D. Bowness, M. Czub, M. Drebot, L. Fernando, R. Flick, M. Garbutt, M. Gray, A. Grolla, S. Jones, H. Feldmann, A. Meyers, A. Kabani, Y. Li, S. Normand, U. Stroher, G. A. Tipples, S. Tyler, R. Vogrig, D. Ward, B. Watson, R. C. Brunham, M. Krajden, M. Petric, D. M. Skowronski, C. Upton, R. L. Roper, The Genome sequence of the SARS-associated coronavirus. Science. 300, 1399-1404 (2003).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Marra%2C%20M.A.%20Jones%2C%20S.J.%20Astell%2C%20C.R.%20Holt%2C%20R.A.%20The%20Genome%20sequence%20of%20the%20SARS-associated%20coronavirus%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Marra%2C%20M.A.%20Jones%2C%20S.J.%20Astell%2C%20C.R.%20Holt%2C%20R.A.%20The%20Genome%20sequence%20of%20the%20SARS-associated%20coronavirus%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Marra%2C%20M.A.%20Jones%2C%20S.J.%20Astell%2C%20C.R.%20Holt%2C%20R.A.%20The%20Genome%20sequence%20of%20the%20SARS-associated%20coronavirus%202003"
+        },
+        {
+            "id": "13",
+            "alt_id": "For_0000_a",
+            "entry": "13. National Center for Biotechnology Information, Search database BtVs-BetaCoV/SC2013, complete genome, GenBank: KX285223.1; https://www.ncbi.nlm.nih.gov/nuccore/KJ473821.1.",
+            "url": "https://www.ncbi.nlm.nih.gov/nuccore/KJ473821.1"
+        },
+        {
+            "id": "14",
+            "alt_id": "Hoek_et+al_2004_a",
+            "entry": "14. L. V. D. Hoek, K. Pyrc, M. F. Jebbink, W. Vermeulen-Oost, R. J. Berkhout, K. C. Wolthers, P. M. W. Dillen, J. Kaandorp, J. Spaargaren, B. Berkhout, Identification of a new human coronavirus. Nat Med. 10, 368-373 (2004).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hoek%2C%20L.V.D.%20Pyrc%2C%20K.%20Jebbink%2C%20M.F.%20Vermeulen-Oost%2C%20W.%20Identification%20of%20a%20new%20human%20coronavirus%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hoek%2C%20L.V.D.%20Pyrc%2C%20K.%20Jebbink%2C%20M.F.%20Vermeulen-Oost%2C%20W.%20Identification%20of%20a%20new%20human%20coronavirus%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hoek%2C%20L.V.D.%20Pyrc%2C%20K.%20Jebbink%2C%20M.F.%20Vermeulen-Oost%2C%20W.%20Identification%20of%20a%20new%20human%20coronavirus%202004"
+        },
+        {
+            "id": "15",
+            "alt_id": "Buchfink_et+al_2015_a",
+            "entry": "15. B. Buchfink, C. Xie, D. H. Huson. Fast and sensitive protein alignment using DIAMOND. Nat Methods. 12, 59-60 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Buchfink%2C%20B.%20Xie%2C%20C.%20Huson%2C%20D.H.%20Fast%20and%20sensitive%20protein%20alignment%20using%20DIAMOND%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Buchfink%2C%20B.%20Xie%2C%20C.%20Huson%2C%20D.H.%20Fast%20and%20sensitive%20protein%20alignment%20using%20DIAMOND%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Buchfink%2C%20B.%20Xie%2C%20C.%20Huson%2C%20D.H.%20Fast%20and%20sensitive%20protein%20alignment%20using%20DIAMOND%202015"
+        },
+        {
+            "id": "16",
+            "alt_id": "Organization_2003_a",
+            "entry": "16. World Health Organization, Summary of probably SARS cases with onset of illness from 1 November 2002 to 31 July 2003 (2003); http://www.who.int/csr/sars/country/table2004_04_21/en/.",
+            "url": "http://www.who.int/csr/sars/country/table2004_04_21/en/"
+        },
+        {
+            "id": "17",
+            "alt_id": "Organization_2019_a",
+            "entry": "17. World Health Organization. Middle East Respiratory Syndrome Coronavirus (MERS-CoV), MERS Monthly Summary, November 2019 (2019); http://www.who.int/emergencies/mers-cov/en/.",
+            "url": "http://www.who.int/emergencies/mers-cov/en/"
+        },
+        {
+            "id": "18",
+            "alt_id": "Fang_et+al_2019_a",
+            "entry": "18. Z. Fang, J. Tan, S. Wu, M. Li, C. Xu, Z. Xie, H. Zhu, PPR-Meta: a tool for identifying phages and plasmids from metagenomic fragments using deep learning. Gigascience. 8, giz066 (2019).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fang%2C%20Z.%20Tan%2C%20J.%20Wu%2C%20S.%20Li%2C%20M.%20PPR-Meta%3A%20a%20tool%20for%20identifying%20phages%20and%20plasmids%20from%20metagenomic%20fragments%20using%20deep%20learning%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fang%2C%20Z.%20Tan%2C%20J.%20Wu%2C%20S.%20Li%2C%20M.%20PPR-Meta%3A%20a%20tool%20for%20identifying%20phages%20and%20plasmids%20from%20metagenomic%20fragments%20using%20deep%20learning%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fang%2C%20Z.%20Tan%2C%20J.%20Wu%2C%20S.%20Li%2C%20M.%20PPR-Meta%3A%20a%20tool%20for%20identifying%20phages%20and%20plasmids%20from%20metagenomic%20fragments%20using%20deep%20learning%202019"
+        },
+        {
+            "id": "19",
+            "alt_id": "Richter_et+al_2008_a",
+            "entry": "19. D. C. Richter, F. Ott, A. F. Auch, R. Schmid, D. H. Huson, MetaSim: a sequencing simulator for genomics and metagenomics. PLoS One. 2008, 10.1371/journal.pone.0003373 (2008).",
+            "crossref": "https://dx.doi.org/10.1371/journal.pone.0003373",
+            "scite": "https://scite.ai/reports/10.1371/journal.pone.0003373",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1371/journal.pone.0003373"
+        },
+        {
+            "id": "20",
+            "alt_id": "Sievers_et+al_2011_a",
+            "entry": "20. F. Sievers, A. Wilm, D. Dineen, T. J. Gibson, K. Karplus, W. Li, R. Lopez, H. McWilliam, M. Remmert, J. S\u00f6ding, J. D. Thompson, D. G. Higgins, Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol Syst Biol. 7, 10.1038/msb.2011.75 (2011).",
+            "crossref": "https://dx.doi.org/10.1038/msb.2011.75",
+            "scite": "https://scite.ai/reports/10.1038/msb.2011.75",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1038/msb.2011.75"
+        },
+        {
+            "id": "21",
+            "alt_id": "Kumar_et+al_2018_a",
+            "entry": "21. S. Kumar, G. Stecher, M. Li, C. Knyaz, K. Tamura, MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms. Mol Biol Evol. 35, 1547\u20131549 (2018).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kumar%2C%20S.%20Stecher%2C%20G.%20Li%2C%20M.%20Knyaz%2C%20C.%20MEGA%20X%3A%20Molecular%20Evolutionary%20Genetics%20Analysis%20across%20Computing%20Platforms%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kumar%2C%20S.%20Stecher%2C%20G.%20Li%2C%20M.%20Knyaz%2C%20C.%20MEGA%20X%3A%20Molecular%20Evolutionary%20Genetics%20Analysis%20across%20Computing%20Platforms%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kumar%2C%20S.%20Stecher%2C%20G.%20Li%2C%20M.%20Knyaz%2C%20C.%20MEGA%20X%3A%20Molecular%20Evolutionary%20Genetics%20Analysis%20across%20Computing%20Platforms%202018"
+        },
+        {
+            "id": "22",
+            "alt_id": "Seemann_2014_a",
+            "entry": "22. T. Seemann, Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30, 2068\u20132069 (2014).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Seemann%2C%20T.%20Prokka%3A%20rapid%20prokaryotic%20genome%20annotation%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Seemann%2C%20T.%20Prokka%3A%20rapid%20prokaryotic%20genome%20annotation%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Seemann%2C%20T.%20Prokka%3A%20rapid%20prokaryotic%20genome%20annotation%202014"
+        },
+        {
+            "id": "23",
+            "alt_id": "Buchfink_et+al_2015_b",
+            "entry": "23. B. Buchfink, C. Xie, D. H. Huson. Fast and sensitive protein alignment using DIAMOND. Nat Methods. 12, 59-60 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Buchfink%2C%20B.%20Xie%2C%20C.%20Huson%2C%20D.H.%20Fast%20and%20sensitive%20protein%20alignment%20using%20DIAMOND%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Buchfink%2C%20B.%20Xie%2C%20C.%20Huson%2C%20D.H.%20Fast%20and%20sensitive%20protein%20alignment%20using%20DIAMOND%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Buchfink%2C%20B.%20Xie%2C%20C.%20Huson%2C%20D.H.%20Fast%20and%20sensitive%20protein%20alignment%20using%20DIAMOND%202015"
+        },
+        {
+            "id": "24",
+            "alt_id": "Page_et+al_2015_a",
+            "entry": "24. A. J. Page, C. A. Cummins, M. Hunt, V. K. Wong, S. Reuter, M. T. Holden, M. Fookes, D. Falush, J. A. Keane, J. Parkhill, Roary: rapid large-scale prokaryote pan genome analysis. Bioinformatics. 31, 3691\u20133693 (2015).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Page%2C%20A.J.%20Cummins%2C%20C.A.%20Hunt%2C%20M.%20Wong%2C%20V.K.%20Roary%3A%20rapid%20large-scale%20prokaryote%20pan%20genome%20analysis%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Page%2C%20A.J.%20Cummins%2C%20C.A.%20Hunt%2C%20M.%20Wong%2C%20V.K.%20Roary%3A%20rapid%20large-scale%20prokaryote%20pan%20genome%20analysis%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Page%2C%20A.J.%20Cummins%2C%20C.A.%20Hunt%2C%20M.%20Wong%2C%20V.K.%20Roary%3A%20rapid%20large-scale%20prokaryote%20pan%20genome%20analysis%202015"
+        },
+        {
+            "id": "25",
+            "alt_id": "Yang_1997_a",
+            "entry": "25. Z. Yang, PAML: a program package for phylogenetic analysis by maximum likelihood. Comput Appl Biosci. 1997, 10.1093/bioinformatics/13.5.555 (1997). ",
+            "crossref": "https://dx.doi.org/10.1093/bioinformatics/13.5.555",
+            "scite": "https://scite.ai/reports/10.1093/bioinformatics/13.5.555",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=https%3A//dx.doi.org/10.1093/bioinformatics/13.5.555"
+        }
+    ],
+    "facts": [
+        "China caused by the 2019 Novel Coronavirus emphasizes the importance of detecting novel viruses",
+        "the VHP to predict the potential hosts of viruses using deep learning algorithm",
+        "Our prediction suggests that 2019-nCoV has close infectivity with other human coronaviruses",
+        "bat coronaviruses are assigned with more similar infectivity patterns",
+        "the infectivity patterns of all viruses hosted on vertebrates",
+        "One Sentence SummaryIt is of great value to identify whether a newly discovered virus has the risk of infecting human",
+        "a virus host prediction method based on deep learning to detect what kind of host a virus can infect with DNA sequence",
+        "our prediction demonstrated that several vertebrate-infectious coronaviruses have strong potential to infect human",
+        "This method will be helpful in future viral analysis",
+        "The first case of unknown cause of pneumonia was found on 12 December 2019",
+        "This virus has caused a total of 217 confirmed human infections in China",
+        "two cases in Korea had been sequentially reported since 15 January 2020",
+        "the virus may spread from animals",
+        "the lowest p-values predicted by the VHP method",
+        "Coronaviruses in bat are assigned with more similar infectivity patterns",
+        "which illustrates that bat is more likely to be the reservoir of",
+        "seven functional proteins verified in SARS-CoV-like coronavirus",
+        "these results illustrate the efficiency of our computational prediction",
+        "our predictions for all coronaviruses indicate that Night-heron coronavirus HKU19",
+        "VHP could play an important role in public health service",
+        "the infectivity patterns of all viruses hosted on these vertebrates"
+    ],
+    "claims": [
+        "In this report, we introduced the VHP (Virus Host Prediction) to predict the potential hosts of viruses using deep learning algorithm",
+        "Furthermore, by comparing the infectivity patterns of all viruses hosted on vertebrates, we found mink viruses show a closer infectivity pattern to 2019-nCov",
+        "To this end, we report the prediction results of the host of 2019-nCoV using the method, VHP (Virus Host Prediction), developed based on deep learning algorithm",
+        "Furthermore, we explore the reservoir of 2019-nCoVs with its infectivity pattern",
+        "By comparing the infectivity patterns of all viruses hosted on these vertebrates, we found Mink viruses show a closer infectivity pattern to 2019-nCov and thus we inferred Mink may be another candidate infection source of 2019-nCov",
+        "In regard to protein level, we predicted the genes of 2019-nCoVs and annotated them and we found that the annotation results of all the six 2019-nCoV genomes are identical, including seven functional proteins (pp1a, E2 glycoprotein precursor, hypothetical protein sars3a, matrix protein, hypothetical protein sars6, hypothetical protein sars7a, nucleocapsid protein) verified in SARS-CoV-like coronavirus (15)",
+        "We found that the six 2019-nCoVs are more similar to two Bat SARS-like Coronaviruses (MG772933 and MG772934) than SARS and other SARS-CoV-like Coronaviruses",
+        "By core gene and accessary gene analysis of the left four 2019-nCoVs and the two Bat SARS-like Coronaviruses, we found three core genes: two ORFs and one functional gene ymdB",
+        "At the end of this report, we provide a brief description of VHP method and the verification of the algorithm"
+    ],
+    "findings": [
+        "To explore the differences of 2019-nCoVs, SARS and SARS-CoV-like Coronavirus, we then analyzed their core genes (more than 95% AAS identity) and nonsynonymous SNPs (single-nucleotide polymorphisms) (Table S3)"
+    ],
+    "processes": [],
+    "key_statements": [
+        "We introduced the VHP (Virus Host Prediction) to predict the potential hosts of viruses using deep learning algorithm",
+        "Our prediction suggests that 2019-nCoV has close infectivity with other human coronaviruses, especially the severe acute respiratory syndrome coronavirus (SARS-CoV), Bat severe acute respiratory syndrome-like Coronaviruses and the Middle East respiratory syndrome coronavirus (MERS-CoV)",
+        "Based on our prediction, compared to the Coronaviruses infecting other vertebrates, bat coronaviruses are assigned with more similar infectivity patterns with 2019-nCoVs",
+        "By comparing the infectivity patterns of all viruses hosted on vertebrates, we found mink viruses show a closer infectivity pattern to 2019-nCov",
+        "Guo et al proposed a virus host prediction method based on deep learning to detect what kind of host a virus can infect with DNA sequence as input",
+        "Coronaviruses have strong potential to infect human. This method will be helpful in future viral analysis and early prevention and control of viral pathogens",
+        "The first case of unknown cause of pneumonia was found on 12 December 2019, and was later determined as a non-severe acute respiratory syndrome novel coronavirus by Chinese Center for Disease Control and Prevention (China CDC)",
+        "We report the prediction results of the host of 2019-nCoV using the method, VHP (Virus Host Prediction), developed based on deep learning algorithm",
+        "Compared to the Coronaviruses infecting other vertebrates, Coronaviruses in bat are assigned with more similar infectivity patterns with 2019-nCoVs by VHP, which illustrates that bat is more likely to be the reservoir of 2019-nCoVs than other known vertebrate hosts of Coronaviruses",
+        "By comparing the infectivity patterns of all viruses hosted on these vertebrates, we found Mink viruses show a closer infectivity pattern to 2019-nCov and we inferred Mink may be another candidate infection source of 2019-nCov"
+    ],
+    "top_statements": [
+        "coronaviruses have strong potential to infect human",
+        "We introduced the VHP (Virus Host Prediction) to predict the potential hosts of viruses using deep learning algorithm",
+        "Our prediction suggests that 2019-nCoV has close infectivity with other human coronaviruses, especially the severe acute respiratory syndrome coronavirus (SARS-CoV), Bat severe acute respiratory syndrome-like Coronaviruses and the Middle East respiratory syndrome coronavirus (MERS-CoV)",
+        "By comparing the infectivity patterns of all viruses hosted on vertebrates, we found mink viruses show a closer infectivity pattern to 2019-nCov",
+        "Coronaviruses have strong potential to infect human. This method will be helpful in future viral analysis and early prevention and control of viral pathogens",
+        "Compared to the Coronaviruses infecting other vertebrates, Coronaviruses in bat are assigned with more similar infectivity patterns with 2019-nCoVs by VHP, which illustrates that bat is more likely to be the reservoir of 2019-nCoVs than other known vertebrate hosts of Coronaviruses"
+    ],
+    "headline": "Our prediction suggests that 2019-nCoV has close infectivity with other human coronaviruses, especially the severe acute respiratory syndrome coronavirus, Bat severe acute respiratory syndrome-like Coronaviruses and the Middle East respiratory syndrome coronavirus",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "severe acute respiratory syndrome"
+    }
+}

@@ -1,0 +1,658 @@
+{
+    "filename": "pdf.pdf",
+    "content_type": "application/pdf",
+    "file_size": 3524569,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.3390/jcm9020462",
+            "url": "https://www.mdpi.com/2077-0383/9/2/462/pdf"
+        },
+        "date": 2020,
+        "title": "Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions",
+        "author": "Biao Tang, Xia Wang, Qian Li, Nicola Luigi Bragazzi, Sanyi Tang, Yanni Xiao, Jianhong Wu",
+        "affiliations": [
+            "The Interdisciplinary Research Center for Mathematics and Life Sciences, Xi\u2019an Jiaotong University, Xi\u2019an 710049, China; btang66@yorku.ca (B.T.); yxiao@mail.xjtu.edu.cn (Y.X.)",
+            "Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University, Toronto, ON M3J 1P3, Canada; crystallee@stu.xjtu.edu.cn (Q.L.); robertobragazzi@gmail.com (N.L.B.)",
+            "School of Mathematics and Information Science, Shaanxi Normal University, Xi\u2019an 710119, China; xiawang@snnu.edu.cn (X.W.); sanyitang219@hotmail.com (S.T.)",
+            "School of Mathematics and Statistics, Xi\u2019an Jiaotong University, Xi\u2019an 710049, China",
+            "Fields-CQAM Laboratory of Mathematics for Public Health, York University, Toronto, ON M3J 1P3, Canada",
+            "Correspondence: wujh@yorku.ca"
+        ],
+        "journal": "Journal of Clinical Medicine",
+        "volume": "9",
+        "abstract": "Since the emergence of the first cases in Wuhan, China, the novel coronavirus (2019-nCoV) infection has been quickly spreading out to other provinces and neighboring countries. Estimation of the basic reproduction number by means of mathematical modeling can be helpful for determining the potential and severity of an outbreak and providing critical information for identifying the type of disease interventions and intensity. A deterministic compartmental model was devised based on the clinical progression of the disease, epidemiological status of the individuals, and intervention measures. The estimations based on likelihood and model analysis show that the control reproduction number may be as high as 6.47 (95% CI 5.71\u20137.23). Sensitivity analyses show that interventions, such as intensive contact tracing followed by quarantine and isolation, can effectively reduce the control reproduction number and transmission risk, with the effect of travel restriction adopted by Wuhan on 2019-nCoV infection in Beijing being almost equivalent to increasing quarantine by a 100 thousand baseline value. It is essential to assess how the expensive, resource-intensive measures implemented by the Chinese authorities can contribute to the prevention and control of the 2019-nCoV infection, and how long they should be maintained. Under the most restrictive measures, the outbreak is expected to peak within two weeks (since 23 January 2020) with a significant low peak value. With travel restriction (no imported exposed individuals to Beijing), the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction.",
+        "keywords": [
+            "coronavirus",
+            "infection management and control",
+            "travel restriction",
+            "mathematical model",
+            "SEIR model"
+        ],
+        "references": "@article{chen2020a,\n  author = {Chen, Y. and Liu, Q. and Guo, D.},\n  title = {Coronaviruses: Genome structure, replication, and pathogenesis},\n  journal = {J. Med. Virol},\n  date = {2020},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{kahn2005a,\n  author = {Kahn, J.S. and McIntosh, K.},\n  title = {History and recent advances in coronavirus discovery},\n  journal = {Pediatr. Infect. Dis. J},\n  date = {2005},\n  volume = {24},\n  pages = {223\u2013227},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{hui2019a,\n  author = {Hui, D.S.C. and Zumla, A.},\n  title = {Severe acute respiratory syndrome: Historical, epidemiologic, and clinical features},\n  journal = {Infect. Dis. Clin. North Am},\n  date = {2019},\n  volume = {33},\n  pages = {869\u2013889},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@article{de2016a,\n  author = {de Wit, E. and van Doremalen, N. and Falzarano, D. and Munster, V.J.},\n  title = {SARS and MERS: Recent insights into emerging coronaviruses},\n  journal = {Nat. Rev. Microbiol},\n  date = {2016},\n  volume = {14},\n  pages = {523\u2013534},\n  medium = {CrossRef},\n  language = {}\n}\n@article{killerby-a,\n  author = {Killerby, M.E. and Biggs, H.M. and Midgley, C.M. and Gerber, S.I. and Watson, J.T.},\n  title = {Middle East respiratory syndrome coronavirus transmission},\n  journal = {Emerg. Infect. Dis},\n  volume = {2020},\n  pages = {191\u2013198},\n  medium = {CrossRef},\n  number = {26},\n  language = {}\n}\n@article{kim2017a,\n  author = {Kim, K.H. and Tandi, T.E. and Choi, J.W. and Moon, J.M. and Kim, M.S.},\n  title = {Middle East respiratory syndrome coronavirus (MERS-CoV) outbreak in South Korea, 2015: Epidemiology, characteristics and public health implications},\n  journal = {J. Hosp. Infect},\n  date = {2017},\n  volume = {95},\n  pages = {207\u2013213},\n  medium = {CrossRef},\n  language = {}\n}\n@article{willman2019a,\n  author = {Willman, M. and Kobasa, D. and Kindrachuk, J.},\n  title = {A Comparative analysis of factors influencing two outbreaks of middle eastern respiratory syndrome (MERS) in Saudi Arabia and South Korea},\n  journal = {Viruses},\n  date = {2019},\n  medium = {CrossRef},\n  language = {}\n}\n@article{kwok2019a,\n  author = {Kwok, K.O. and Tang, A. and Wei, V.W.I. and Park, W.H. and Yeoh, E.K. and Riley, S.},\n  title = {Epidemic models of contact tracing: Systematic review of transmission studies of severe acute respiratory syndrome and Middle East respiratory syndrome},\n  journal = {Comput. Struct. Biotechnol. J},\n  date = {2019},\n  volume = {17},\n  pages = {186\u2013194},\n  medium = {CrossRef},\n  language = {}\n}\n@article{cohen2020a,\n  author = {Cohen, J. and Normile, D.},\n  title = {New SARS-like virus in China triggers alarm},\n  journal = {Science},\n  volume = {2020},\n  pages = {234\u2013235},\n  date = {2020},\n  unmatched-author = {Lu, H.; Stratton, C. W.; Tang, Y. W.},\n  source = {Outbreak of pneumonia of unknown etiology in Wuhan China: The mystery and the miracle},\n  unmatched-journal = {J. Med. Virol.},\n  unmatched-volume = {10.},\n  number = {367},\n  language = {}\n}\n@article{parry-a,\n  author = {Parry, J.},\n  title = {China coronavirus: Cases surge as official admits human to human transmission},\n  journal = {BMJ},\n  volume = {2020},\n  pages = {236},\n  publisher = {CrossRef] [PubMed] 12. World Health Organization (WHO). Coronavirus. Available online},\n  url = {https://www.who.int/health-topics/},\n  number = {368},\n  language = {}\n}\n@misc{unknown-a,\n  title = {coronavirus (accessed on 23 January 2020)},\n  language = {}\n}\n@CrossRef{egger2017a,\n  author = {Egger, M. and Johnson, L. and Althaus, C. and Sch\u00f6ni, A. and Salanti, G. and Low, N. and Norris, S.L.},\n  title = {Developing WHO guidelines: Time to formally include evidence from mathematical modelling studies. F1000Research},\n  date = {2017},\n  volume = {6},\n  medium = {CrossRef},\n  unmatched-author = {14. Chen, T.; Rui, J.; Wang, Q.; Zhao, Z.; Cui, J.-A.; Yin, L.},\n  source = {A mathematical model for simulating the transmission of Wuhan novel coronavirus. bioRxiv 2020},\n  language = {},\n  urldate = {[PubMed]}\n}\n@misc{imai-a,\n  author = {Imai, N. and Dorigatti, I. and Cori, A. and Donnelly, C. and Riley, S. and Ferguson, N.M.},\n  title = {Report 2: Estimating the Potential Total Number of Novel Coronavirus Cases in Wuhan City, China},\n  url = {https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoVoutbreak-report-22-01-2020.pdf},\n  unmatched-accessed = {(accessed on 23 January 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@book{unknown-b,\n  title = {World Health Organization (WHO). Novel Coronavirus\u2014China, Disease Outbreak},\n  publisher = {News: Update. Available online},\n  url = {https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/},\n  language = {},\n  urldate = {on 23 January 2020).}\n}\n@techreport{unknown-c,\n  url = {https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200123-sitrep-3-2019-ncov.pdf},\n  unmatched-accessed = {(accessed on 23 January 2020).},\n  urldate = {Available online:},\n  institution = {World Health Organization (WHO). Situation Report}\n}\n@techreport{unknown-d,\n  urldate = {Available online: http://wjw.hubei.gov.cn/bmdt/ztzl/fkxxgzbdgrfyyq/(on 23 January 2020).},\n  institution = {Health Commission of Hubei Province}\n}\n@techreport{unknown-e,\n  title = {the People\u2019s Republic of China},\n  url = {http://www.nhc.gov.cn/xcs/xxgzbd/gzbd_index.shtml},\n  unmatched-accessed = {(accessed on 23 January 2020).},\n  language = {},\n  urldate = {Available online:},\n  institution = {National Health Commission of}\n}\n@article{castillo-chavez2003a,\n  author = {Castillo-Chavez, C. and Castillo-Garsow, C.W. and Yakubu, A.},\n  title = {Mathematical models of isolation and quarantine},\n  journal = {JAMA},\n  date = {2003},\n  volume = {290},\n  pages = \"2876\u20132877.\" # \"e10911.\",\n  medium = {CrossRef},\n  unmatched-author = {21. Tang, S.; Xiao, Y.; Yang, Y.; Zhou, Y.; Wu, J.; Ma, Z.},\n  source = {Community-based measures for mitigating the 2009 H1N1 pandemic in China},\n  unmatched-journal = {PLoS ONE},\n  unmatched-volume = {5,},\n  unmatched-pages = {e10911.},\n  language = {}\n}\n@article{xiao2015a,\n  author = {Xiao, Y. and Tang, S. and Wu, J.},\n  title = {Media impact switching surface during an infectious disease outbreak},\n  journal = {Sci. Rep},\n  date = {2015},\n  volume = {5},\n  pages = {7838},\n  medium = {CrossRef},\n  language = {}\n}\n@article{white2008a,\n  author = {White, L.F. and Pagano, M.},\n  title = {A likelihood-based method for real-time estimation of the serial interval and reproductive number of an epidemic},\n  journal = {Stat. Med},\n  date = {2008},\n  volume = {27},\n  pages = {2999\u20133016},\n  medium = {CrossRef},\n  language = {}\n}\n@techreport{unknown-f,\n  url = {https://www.who.int/news-room/detail/23-012020-statement-on-the-meeting-of-the-international-health-regulations-},\n  unmatched-accessed = {(accessed on 23 January 2020).},\n  urldate = {Available online:},\n  institution = {World Health Organization (WHO}\n}\n@article{bogoch2020a,\n  author = {Bogoch, I.I. and Watts, A. and Thomas-Bachli, A. and Huber, C. and Kraemer, M.U.G. and Khan, K.},\n  title = {Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel},\n  journal = {J. Travel Med},\n  date = {2020},\n  medium = {CrossRef},\n  language = {}\n}\n@article{gumel2004a,\n  author = {Gumel, A.B. and Ruan, S.G. and Day, T. and Watmough, J. and Brauer, F. and van den Driessche, P. and Gabrielson, D. and Bowman, C. and Alexander, M.E. and Ardal, S.},\n  title = {Modelling strategies for controlling SARS outbreaks},\n  journal = {Proc. R. Soc. Lond. B},\n  date = {2004},\n  volume = {271},\n  pages = {2223\u20132232},\n  medium = {CrossRef},\n  more-authors = {true},\n  language = {}\n}\n@incollection{majumder2014a,\n  author = {Majumder, M.S. and Rivers, C. and Lofgren, E. and Fisman, D.},\n  title = {Estimation of MERS-Coronavirus reproductive number and case fatality rate for the Spring 2014 Saudi Arabia outbreak: Insights from publicly available},\n  source = {data. PLoS Curr.},\n  date = {2014},\n  volume = {18},\n  pages = {6},\n  language = {}\n}\n@article{li2020a,\n  author = {Li, Q. and Guan, X. and Wu, P. and Wang, X. and Zhou, L. and Tong, Y. and Ren, R. and Leung, K.S.M. and Lau, E.H.Y. and Wong, J.Y.},\n  title = {Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia},\n  journal = {N. Engl. J. Med},\n  date = {2020},\n  medium = {CrossRef-PubMed},\n  more-authors = {true},\n  language = {}\n}\n@article{zhao2019a,\n  author = {Zhao, S. and Lin, Q. and Ran, J. and Musa, S.S. and Yang, G. and Wang, W. and Lou, Y. and Gao, D. and Yang, L. and He, D.},\n  title = {Preliminary estimation of the basic reproduction number of novel coronavirus},\n  date = {2019},\n  journal = {Int. J. Infect. Dis},\n  medium = {CrossRef-PubMed},\n  more-authors = {true},\n  source = {in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak},\n  language = {}\n}\n@article{guerra2017a,\n  author = {Guerra, F.M. and Bolotin, S. and Lim, G. and Heffernan, J. and Deeks, S.L. and Li, Y. and Crowcroft, N.S.},\n  title = {The basic reproduction number (R0) of measles: A systematic review},\n  journal = {Lancet Infect. Dis},\n  date = {2017},\n  volume = {17},\n  pages = {420\u2013428},\n  medium = {CrossRef},\n  language = {}\n}\n@article{rothe2020a,\n  author = {Rothe, C. and Schunk, M. and Sothmann, P. and Bretzel, G. and Froeschl, G. and Wallrauch, C. and Zimmer, T. and Thiel, V. and Janke, C. and Guggemos, W.},\n  title = {Transmission of 2019-nCoV infection from an asymptomatic contact in Germany},\n  journal = {N. Engl. J. Med},\n  date = {2020},\n  medium = {CrossRef-PubMed},\n  more-authors = {true},\n  language = {}\n}\n@article{hui-a,\n  author = {Hui, D.S. and Azhar, E.E.I. and Madani, T.A. and Ntoumi, F. and Kock, R. and Dar, O. and Ippolito, G. and Mchugh, T.D. and Memish, Z.A. and Drosten, C.},\n  title = {The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan, China},\n  journal = {Int. J. Infect. Dis},\n  volume = {2020},\n  pages = {264\u2013266},\n  medium = {CrossRef},\n  more-authors = {true},\n  number = {91},\n  language = {}\n}\n@article{cheng2020a,\n  author = {Cheng, V.C.C. and Wong, S.C. and To, K.K.W. and Ho, P.L. and Yuen, K.Y.},\n  title = {Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China},\n  journal = {J. Hosp. Infect},\n  date = {2020},\n  medium = {CrossRef},\n  language = {}\n}\n",
+        "links": [
+            "http://www.mdpi.com/journal/jcm"
+        ],
+        "emails": [
+            "robertobragazzi@gmail.com",
+            "btang66@yorku.ca",
+            "sanyitang219@hotmail.com",
+            "wujh@yorku.ca",
+            "crystallee@stu.xjtu.edu.cn",
+            "xiawang@snnu.edu.cn",
+            "yxiao@mail.xjtu.edu.cn"
+        ],
+        "pages": "462",
+        "cited_by": 6,
+        "references_ris": "TY  - JOUR\nAU  - Chen, Y.\nAU  - Liu, Q.\nAU  - Guo, D.\nTI  - Coronaviruses: Genome structure, replication, and pathogenesis\nT2  - J. Med. Virol\nPY  - 2020\nDA  - 2020\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kahn, J.S.\nAU  - McIntosh, K.\nTI  - History and recent advances in coronavirus discovery\nT2  - Pediatr. Infect. Dis. J\nPY  - 2005\nDA  - 2005\nVL  - 24\nSP  - 223\nEP  - 227\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hui, D.S.C.\nAU  - Zumla, A.\nTI  - Severe acute respiratory syndrome: Historical, epidemiologic, and clinical features\nT2  - Infect. Dis. Clin. North Am\nPY  - 2019\nDA  - 2019\nVL  - 33\nSP  - 869\nEP  - 889\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - JOUR\nAU  - de Wit, E.\nAU  - van Doremalen, N.\nAU  - Falzarano, D.\nAU  - Munster, V.J.\nTI  - SARS and MERS: Recent insights into emerging coronaviruses\nT2  - Nat. Rev. Microbiol\nPY  - 2016\nDA  - 2016\nVL  - 14\nSP  - 523\nEP  - 534\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Killerby, M.E.\nAU  - Biggs, H.M.\nAU  - Midgley, C.M.\nAU  - Gerber, S.I.\nAU  - Watson, J.T.\nTI  - Middle East respiratory syndrome coronavirus transmission\nT2  - Emerg. Infect. Dis\nVL  - 2020\nSP  - 191\nEP  - 198\nC1  - CrossRef\nIS  - 26\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kim, K.H.\nAU  - Tandi, T.E.\nAU  - Choi, J.W.\nAU  - Moon, J.M.\nAU  - Kim, M.S.\nTI  - Middle East respiratory syndrome coronavirus (MERS-CoV) outbreak in South Korea, 2015: Epidemiology, characteristics and public health implications\nT2  - J. Hosp. Infect\nPY  - 2017\nDA  - 2017\nVL  - 95\nSP  - 207\nEP  - 213\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Willman, M.\nAU  - Kobasa, D.\nAU  - Kindrachuk, J.\nTI  - A Comparative analysis of factors influencing two outbreaks of middle eastern respiratory syndrome (MERS) in Saudi Arabia and South Korea\nT2  - Viruses\nPY  - 2019\nDA  - 2019\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kwok, K.O.\nAU  - Tang, A.\nAU  - Wei, V.W.I.\nAU  - Park, W.H.\nAU  - Yeoh, E.K.\nAU  - Riley, S.\nTI  - Epidemic models of contact tracing: Systematic review of transmission studies of severe acute respiratory syndrome and Middle East respiratory syndrome\nT2  - Comput. Struct. Biotechnol. J\nPY  - 2019\nDA  - 2019\nVL  - 17\nSP  - 186\nEP  - 194\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cohen, J.\nAU  - Normile, D.\nTI  - New SARS-like virus in China triggers alarm\nT2  - Science\nVL  - 2020\nSP  - 234\nEP  - 235\nPY  - 2020\nDA  - 2020\nC1  - Lu, H.; Stratton, C. W.; Tang, Y. W.\nT2  - Outbreak of pneumonia of unknown etiology in Wuhan China: The mystery and the miracle\nC1  - J. Med. Virol.\nC1  - 10.\nIS  - 367\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Parry, J.\nTI  - China coronavirus: Cases surge as official admits human to human transmission\nT2  - BMJ\nVL  - 2020\nSP  - 236\nPB  - CrossRef] [PubMed] 12. World Health Organization (WHO). Coronavirus. Available online\nUR  - https://www.who.int/health-topics/\nIS  - 368\nLA  - \nER  - \n\nTY  - GEN\nTI  - coronavirus (accessed on 23 January 2020)\nLA  - \nER  - \n\nTY  - GEN\nAU  - Egger, M.\nAU  - Johnson, L.\nAU  - Althaus, C.\nAU  - Sch\u00f6ni, A.\nAU  - Salanti, G.\nAU  - Low, N.\nAU  - Norris, S.L.\nTI  - Developing WHO guidelines: Time to formally include evidence from mathematical modelling studies. F1000Research\nPY  - 2017\nDA  - 2017\nVL  - 6\nC1  - CrossRef\nC1  - 14. Chen, T.; Rui, J.; Wang, Q.; Zhao, Z.; Cui, J.-A.; Yin, L.\nT2  - A mathematical model for simulating the transmission of Wuhan novel coronavirus. bioRxiv 2020\nLA  - \nC1  - [PubMed]\nER  - \n\nTY  - GEN\nAU  - Imai, N.\nAU  - Dorigatti, I.\nAU  - Cori, A.\nAU  - Donnelly, C.\nAU  - Riley, S.\nAU  - Ferguson, N.M.\nTI  - Report 2: Estimating the Potential Total Number of Novel Coronavirus Cases in Wuhan City, China\nUR  - https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoVoutbreak-report-22-01-2020.pdf\nC1  - (accessed on 23 January 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - BOOK\nTI  - World Health Organization (WHO). Novel Coronavirus\u2014China, Disease Outbreak\nPB  - News: Update. Available online\nUR  - https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/\nLA  - \nC1  - on 23 January 2020).\nER  - \n\nTY  - RPRT\nUR  - https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200123-sitrep-3-2019-ncov.pdf\nC1  - (accessed on 23 January 2020).\nC1  - Available online:\nC1  - World Health Organization (WHO). Situation Report\nER  - \n\nTY  - RPRT\nC1  - Available online: http://wjw.hubei.gov.cn/bmdt/ztzl/fkxxgzbdgrfyyq/(on 23 January 2020).\nC1  - Health Commission of Hubei Province\nER  - \n\nTY  - RPRT\nTI  - the People\u2019s Republic of China\nUR  - http://www.nhc.gov.cn/xcs/xxgzbd/gzbd_index.shtml\nC1  - (accessed on 23 January 2020).\nLA  - \nC1  - Available online:\nC1  - National Health Commission of\nER  - \n\nTY  - JOUR\nAU  - Castillo-Chavez, C.\nAU  - Castillo-Garsow, C.W.\nAU  - Yakubu, A.\nTI  - Mathematical models of isolation and quarantine\nT2  - JAMA\nPY  - 2003\nDA  - 2003\nVL  - 290\nSP  - \"2876\nEP  - 2877.\" # \"e10911.\"\nC1  - CrossRef\nC1  - 21. Tang, S.; Xiao, Y.; Yang, Y.; Zhou, Y.; Wu, J.; Ma, Z.\nT2  - Community-based measures for mitigating the 2009 H1N1 pandemic in China\nC1  - PLoS ONE\nC1  - 5,\nC1  - e10911.\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Xiao, Y.\nAU  - Tang, S.\nAU  - Wu, J.\nTI  - Media impact switching surface during an infectious disease outbreak\nT2  - Sci. Rep\nPY  - 2015\nDA  - 2015\nVL  - 5\nSP  - 7838\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - White, L.F.\nAU  - Pagano, M.\nTI  - A likelihood-based method for real-time estimation of the serial interval and reproductive number of an epidemic\nT2  - Stat. Med\nPY  - 2008\nDA  - 2008\nVL  - 27\nSP  - 2999\nEP  - 3016\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - RPRT\nUR  - https://www.who.int/news-room/detail/23-012020-statement-on-the-meeting-of-the-international-health-regulations-\nC1  - (accessed on 23 January 2020).\nC1  - Available online:\nC1  - World Health Organization (WHO\nER  - \n\nTY  - JOUR\nAU  - Bogoch, I.I.\nAU  - Watts, A.\nAU  - Thomas-Bachli, A.\nAU  - Huber, C.\nAU  - Kraemer, M.U.G.\nAU  - Khan, K.\nTI  - Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel\nT2  - J. Travel Med\nPY  - 2020\nDA  - 2020\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Gumel, A.B.\nAU  - Ruan, S.G.\nAU  - Day, T.\nAU  - Watmough, J.\nAU  - Brauer, F.\nAU  - van den Driessche, P.\nAU  - Gabrielson, D.\nAU  - Bowman, C.\nAU  - Alexander, M.E.\nAU  - Ardal, S.\nTI  - Modelling strategies for controlling SARS outbreaks\nT2  - Proc. R. Soc. Lond. B\nPY  - 2004\nDA  - 2004\nVL  - 271\nSP  - 2223\nEP  - 2232\nC1  - CrossRef\nC1  - true\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Majumder, M.S.\nAU  - Rivers, C.\nAU  - Lofgren, E.\nAU  - Fisman, D.\nTI  - Estimation of MERS-Coronavirus reproductive number and case fatality rate for the Spring 2014 Saudi Arabia outbreak: Insights from publicly available\nT2  - data. PLoS Curr.\nPY  - 2014\nDA  - 2014\nVL  - 18\nSP  - 6\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Li, Q.\nAU  - Guan, X.\nAU  - Wu, P.\nAU  - Wang, X.\nAU  - Zhou, L.\nAU  - Tong, Y.\nAU  - Ren, R.\nAU  - Leung, K.S.M.\nAU  - Lau, E.H.Y.\nAU  - Wong, J.Y.\nTI  - Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia\nT2  - N. Engl. J. Med\nPY  - 2020\nDA  - 2020\nC1  - CrossRef-PubMed\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Zhao, S.\nAU  - Lin, Q.\nAU  - Ran, J.\nAU  - Musa, S.S.\nAU  - Yang, G.\nAU  - Wang, W.\nAU  - Lou, Y.\nAU  - Gao, D.\nAU  - Yang, L.\nAU  - He, D.\nTI  - Preliminary estimation of the basic reproduction number of novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Int. J. Infect. Dis\nC1  - CrossRef-PubMed\nC1  - true\nT2  - in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Guerra, F.M.\nAU  - Bolotin, S.\nAU  - Lim, G.\nAU  - Heffernan, J.\nAU  - Deeks, S.L.\nAU  - Li, Y.\nAU  - Crowcroft, N.S.\nTI  - The basic reproduction number (R0) of measles: A systematic review\nT2  - Lancet Infect. Dis\nPY  - 2017\nDA  - 2017\nVL  - 17\nSP  - 420\nEP  - 428\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Rothe, C.\nAU  - Schunk, M.\nAU  - Sothmann, P.\nAU  - Bretzel, G.\nAU  - Froeschl, G.\nAU  - Wallrauch, C.\nAU  - Zimmer, T.\nAU  - Thiel, V.\nAU  - Janke, C.\nAU  - Guggemos, W.\nTI  - Transmission of 2019-nCoV infection from an asymptomatic contact in Germany\nT2  - N. Engl. J. Med\nPY  - 2020\nDA  - 2020\nC1  - CrossRef-PubMed\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hui, D.S.\nAU  - Azhar, E.E.I.\nAU  - Madani, T.A.\nAU  - Ntoumi, F.\nAU  - Kock, R.\nAU  - Dar, O.\nAU  - Ippolito, G.\nAU  - Mchugh, T.D.\nAU  - Memish, Z.A.\nAU  - Drosten, C.\nTI  - The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan, China\nT2  - Int. J. Infect. Dis\nVL  - 2020\nSP  - 264\nEP  - 266\nC1  - CrossRef\nC1  - true\nIS  - 91\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cheng, V.C.C.\nAU  - Wong, S.C.\nAU  - To, K.K.W.\nAU  - Ho, P.L.\nAU  - Yuen, K.Y.\nTI  - Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China\nT2  - J. Hosp. Infect\nPY  - 2020\nDA  - 2020\nC1  - CrossRef\nLA  - \nER  - \n\n",
+        "author_conclusions": [
+            "In conclusion, our simulations show that the appropriate duration of this travel restriction depends on a combination of effective quarantine and reduction of contact within the city."
+        ],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "Parameter estimates for 2019-nCoV in Wuhan, China"
+            },
+            {
+                "id": "2",
+                "caption": "Estimation of the basic reproduction number for 2019-nCoV in Wuhan, China"
+            },
+            {
+                "id": "4",
+                "caption": "Predictions of the confirmed cases"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "5",
+                "caption": "Heat-map showing the spreading of the Coronavirus infection"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/33402c82f7a473f3ec4ebdde213c2e1b.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-013.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/33402c82f7a473f3ec4ebdde213c2e1b/img-014.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "Coronaviruses are enveloped, single-stranded, positive-sense RNA viruses belonging to the family of Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. They cause generally mild respiratory infections, even though they are occasionally lethal. Since their discovery and first characterization in 1965 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], three major, large-scale outbreaks have occurred, caused by emerging, highly pathogenic coronaviruses, namely, the \u201cSevere Acute Respiratory Syndrome\u201d (SARS) outbreak in 2003 in mainland China [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], the \u201cMiddle East Respiratory Syndrome\u201d (MERS) outbreak in 2012 in Saudi Arabia [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>,<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and the MERS outbreak in 2015 in South<br/><br/>J. Clin. Med. 2020, 9, 462; doi:10.3390/jcm9020462 www.mdpi.com/journal/jcm<br/><br/>J. Clin. Med. 2020, 9, 462"
+        ],
+        "results": [
+            "3.1. Likelihood-Based Estimates<br/><br/>Likelihood-based estimation of Rc during the outbreak in Wuhan gives a mean value of 6.39 with mean and variance of generation time of 6 and 2 days on the basis of a revised data series (dataRev1). The reproduction number based on likelihood-based estimation ranges from 1.66 to 10 and it follows from Table 2 that Rc is sensitive to changes in mean generation intervals. Fitting to the other revised data series (dataRev2) gives a mean value of 6.32 with mean and variance of generation time of 6 and 2 days. Note that the estimates of Rc based on the two time series agree well, and consequently, both revised data series can be used to fit the proposed dynamics transmission model. In this study, we chose the estimations based on dataRev1 as the comparison reference to verify and validate our model-based estimation. Thus, in the following sections of the manuscript, we will use the revised dataset (dataRev1) to fit the proposed model."
+        ],
+        "discussion": [
+            "Based on the 2019-nCoV cases\u2019 data until 22 January 2020, we have estimated the basic reproduction numbers using different methods (likelihood-based and model-based approaches). The mean control reproduction number was estimated to be as high as 6.47 (95% CI 5.71\u20137.23), in<br/><br/>Based on the 2019-nCoV cases\u2019 data until 22 January 2020, we have estimated the basic reproduction numbers using different methods (likelihood-based and model-based approaches). The mean control reproduction number was estimated to be as high as 6.47 (95% CI 5.71\u20137.23), in comparison with the values of the SARS epidemics (R0 = 4.91) in Beijing, China, in 2003 [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>], and MERS in Jeddah (R0 = 3.5\u20136.7) and Riyadh (R0 = 2.0\u20132.8), Kingdom of Saudi Arabia, in 2014 [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>].<br/><br/>Our value is higher than other published estimates (for instance, Reference [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>]). Such a high reproduction number is consistent with the opinion that the virus has gone through at least three\u2013four generations of transmission in the period covered by this study [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. Note that our estimation is based on a dataset collected during a period of intensive social contacts. Before the Chinese New Year (25 January 2020), there were lots of annual summing-up meetings and/or parties, with higher than usual close contacts, leading to a higher likelihood of infection transmission than that of the earlier periods covered by other studies. Furthermore, we noted that more recently published studies based on datasets during periods comparable with ours reported similar findings in terms of a high basic reproduction number (for instance, Reference [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>], where authors, using an exponential growth method, computed a basic reproduction number of 6.11 (95% CI 4.51\u20138.16), assuming no changes in reporting rate and with a serial interval of 8.4 \u00b1 3.8 days). Variability in the estimation of the basic reproduction number is also a well-known methodological issue, and standardized methods both for calculating and reporting it are still lacking [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. During the initial phases of an epidemics outbreak, only small datasets/time-points can be used. Some crucial information may be missing, and the quality, accuracy and reliability of data improves over time. In these situations, estimations are highly dependent on the specific datasets utilized and revising/updating such datasets could influence the results. We note that several key clinical parameters could be inferred from relevant clinical data based on sero-epidemiological surveys, and the possibility of spreading the infection from asymptomatic cases was only reported recently [<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>]."
+        ],
+        "conclusions": [
+            "Coronaviruses occasionally lead to major outbreaks, with documented reproduction numbers ranging from 2.0 to 4.9. Currently, a fourth large-scale outbreak is occurring and spreading out from Wuhan, Hubei province, China, to neighboring provinces and other countries. There is a dearth of epidemiological data about the emerging coronavirus, which would be of crucial importance to design and implement timely, ad hoc effective public health interventions, such as contact tracing, quarantine and travel restrictions. In this study, we adopted a deterministic model to shed light on the transmission dynamics of the novel coronavirus and assess the impact of public health interventions on infection. We found that the basic reproduction number could be as high as 6.47 (95% CI 5.71\u20137.23), which seems consistent with the special period prior to the Spring Festival when contacts were higher than usual, and with the opinion that the virus has gone through at least three\u2013four generations. It is worth mentioning that our model made a very good prediction of the confirmed cases from 23 to 29 January 2020, as shown in Table 4. Particularly, the predicted confirmed cases should be 7723 as of 29 January 2020, which is very close to the real number of cases of 7711. Furthermore, according to our model, the outbreak, under the most restrictive measures, is expected to peak within two weeks (since 23 January 2020), with a significant low peak value. Our investigation has major practical implications for public health decision- and policy-makers. The rather high reproduction number suggests that the outbreak may be more serious than what has been reported so far, given the particular season of increasing social contacts, warranting effective, strict public health measures aimed to mitigate the burden generated by the spreading of the new virus."
+        ],
+        "funding": [
+            "This research was funded by the National Natural Science Foundation of China (grant numbers: 11631012 (YX, ST), 61772017 (ST)), and by the Canada Research Chair Program (grant number: 230720 (JW) and the Natural Sciences and Engineering Research Council of Canada (Grant number: 105588-2011 (JW)."
+        ],
+        "disclosures": [
+            "The authors declare no conflict of interest."
+        ]
+    },
+    "structured_content": {
+        "1. Introduction": [
+            "Coronaviruses are enveloped, single-stranded, positive-sense RNA viruses belonging to the family of Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]. They cause generally mild respiratory infections, even though they are occasionally lethal. Since their discovery and first characterization in 1965 [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], three major, large-scale outbreaks have occurred, caused by emerging, highly pathogenic coronaviruses, namely, the \u201cSevere Acute Respiratory Syndrome\u201d (SARS) outbreak in 2003 in mainland China [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>], the \u201cMiddle East Respiratory Syndrome\u201d (MERS) outbreak in 2012 in Saudi Arabia [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>,<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and the MERS outbreak in 2015 in South",
+            "Korea [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>,<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>]. These outbreaks have resulted in more than 8000 and 2200 confirmed SARS and MERS cases, respectively [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "Recently, a fourth coronavirus outbreak has occurred in Wuhan, the capital city of the Hubei province and the seventh largest city of People\u2019s Republic of China [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>\u2013<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>].",
+            "Since 31 December 2019, when the Wuhan Municipal Health Commission reported 27 cases of viral pneumonia, including 7 critically ill cases, the pneumonia outbreak has received considerable global attention. A novel coronavirus was identified as the causative agent by the Chinese authorities on 7 January 2020, and on 10 January 2020, the World Health Organization (WHO) designated the novel coronavirus as 2019-nCoV. On the same day, the WHO released a wide range of interim guidance for all countries on how they can get prepared for coping with this emergency, including how to monitor for potentially infected people, collect and test samples, manage patients, control and mitigate the burden generated by the infection in health centers, maintain the right drug supplies and effectively communicate with the lay public regarding the new virus [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>].",
+            "By the morning of 23 January 2020, more than 571 confirmed cases with 17 deaths had been reported in other parts of mainland China, and in various countries including South Korea, Japan, Thailand, Singapore, the Philippines, Mexico and the United States of America. As of 6 February 2020 (02:45 GMT), 28,276 cases, of which 3863 are in critical condition, and 565 deaths had been reported.",
+            "The transmission potential, often measured in terms of the basic reproduction number, the outbreak peak time and value and duration under current and evolving intervention measures, remain unclear, and warrant further investigation.",
+            "On 20 January 2020, the Chinese government revised the law provisions concerning infectious diseases to add the 2019-nCoV as a class B agent (a pathogen that can cause an epidemic outbreak). On the same day, public health officials announced a further revision to classify the novel virus as a class A agent (a pathogen that can cause an epidemic in a short time). Some non-pharmaceutical interventions (NPIs), including intensive contact tracing followed by quarantine of individuals potentially exposed to the disease, and isolation of infected, symptomatic individuals, were implemented, but their effectiveness during the early stage is questionable.",
+            "Quantifying the effectiveness of these interventions is of crucial importance for Wuhan as well as for other cities in their preparedness and rapid response to the importation of infected cases. With the arrival of the Spring Festival, massive traveling is expected to mobilize a large segment of the population, by which the novel coronavirus may be broadly reseeded.",
+            "Extreme, unprecedented measures have been taken. For example, on 23 January 2020, the Chinese authorities introduced travel restrictions affecting five cities (Wuhan, Huanggang, Ezhou, Chibi and Zhijiang), effectively shutting down the movement of more than 40 million people.",
+            "However, how these expensive and resource-intensive measures can contribute to the prevention and control of the infection in these cities and other parts of the country, and how long these travel restrictions should be maintained, remain to be determined. In the context of a novel coronavirus affecting a na\u00efve population, estimation of the basic reproduction number is important for determining the potential and severity of an outbreak, and providing critical information for designing and implementing disease outbreak responses in terms of the identification of the most appropriate, evidence-based interventions, mitigation measures and the determination of the intensity of such programs in order to achieve the maximal protection of the population with the minimal interruption of social-economic activities [<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>].",
+            "As recognized by the WHO [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], mathematical models, especially those which are timely, play a key role in informing evidence-based decisions by health decision- and policy-makers. To the best of our knowledge, only a few mathematical models have so far been publicly released, including a Bats-Hosts-Reservoir-People transmission network model and a returning traveler study aimed to compute underestimated coronavirus cases [<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>,<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+            "No study has focused on the practical implications of public health interventions and measures. Therefore, the present study was undertaken to fill in this gap of knowledge."
+        ],
+        "2. Experimental Section": [
+            "2. ExWpeeriombetanitnaeldSedcattiaonof laboratory-confirmed 2019-nCoV cases which occurred in mainland China",
+            "2fr.1o.mDtahtae WHO situation report, the National Health Commission of the People\u2019s Republic of China and the Health Commission of Wuhan City and Hubei Province [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>\u2013<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]. Data information includes the cWume uolbattaivineendudmatbaerofolfarbeoproarttoerdy-ccaosnefis,ramsesdho20w1n9-innCFoigVucraes1eAs w, ahnidchthoeccquurareradnitninmedaiannladnrdelCehasineda fproopmutlahteioWn,HaOs sshitouwatnioinn rFeipgourrte, t1hBe.NTahteiodnaatlaHweearltehrCeloemasmedisasniodnaonfatlhyezePdeoapnloen\u2019syRmeopuusblyli.cSoifnCcehitnhae aidnedntthifeicHateioanlthofCtohme m20i1s9si-onnCooVf Wounh1a0nJCanituyaarynd20H2u0,bseoimPreocvainsecse w[1e6r\u2013e19ru].leDdatoauitnafonrdmthateiocnuminuclluatdivese tnhuemcubemruolfarteivpeorntuedmcbaesreosfpreerpdoarytewd acsas4e1s,,farosmsh1o0wtno i1n5 FJaignuuraery1A20, 2a0n.dTtohoebqtauianrathnetirneeldataivnedlyrerleeliaasbelde pdoaptau,lwateiouns,eads tshheoewxnpoinneFnitgiaulregr1oBw. tThhleawdattoa dweedruecreeltehaesnedumanbderaonfarleypzoedrteadnocnasyems opuersldy.aySifnrocemth3e1 iDdeecnetmifibcaerti2o0n1o9fttoh1e02J0a1n9u-narCyo2V02o0n(1ca0llJeadnudaartyaR2e0v220), soormfreomcas1e0stwo 1e5reJarunuleadryou20t 2a0nd(cathlleedcudmatualRaetivv1e) nbuasmedbeornofthreep4o1rcteadsecsaosenstpheart ddaatye,waasss4h1o,wfrnomin1F0igtuor1e51JAan. uary 2020. To obtain the relatively reliable data,Bwyeiunsfeerdritnhge ethxepoenffeencttiiavlegnreosws tohf lainwtetrovednetdiouncemtheeasnuurmesb, eirncolfurdeipnogrtqeudacraasnetsinpeeranddayisfroolamtio3n1 D(Feigceumrebe1rB)2,0w19eteos1ti0mJaatneudarthye20re2q0u(ciraeldledefdfeacttaiRveenve2s)soor ffrtohmese10intote1rv5eJnatniuonarsyin20o2r0d(ecraltloedprdeavteanRtetvh1e) boaustebdreoank.the 41 cases on that date, as shown in Figure 1A.",
+            "Figure 11.. (A) Cumulative diagnoses and revised case data (dataRev1) in mainland China, the bblue curve iiss tthhee bbeesstt fifitttiinngg ccuurrvvee ooff mmooddeell (1(1))totoddataatRaRevev11. . (B) Data iinnffoormation oof ccuummuullaattiive qquuaarraannttiinneedd//rreelleeaasseedd ppooppuullaattiioonn..",
+            "2.2. TBhye Minofedrerl ing the effectiveness of intervention measures, including quarantine and isolation (Figure 1B), we estimated the required effectiveness of these interventions in order to prevent the ouHtebrree,ak.we propose a deterministic \u201cSusceptible-Exposed-Infectious-Recovered\u201d (SEIR) compartmental model based on the clinical progression of the disease, epidemiological status of the 2in.2d.iTvihdeuMalosdaelnd intervention measures (Figure 2). We parameterized the model using data obtained for the confirmed cases of 2019-nCoV in mainland China and estimated the basic reproduction numHbeerroe,f thwe edispearosepotrsaensma isdsieotenr.ministic \u201cSusceptible-Exposed-Infectious-Recovered\u201d (SEIR) compartmental model based on the clinical progression of the disease, epidemiological status of the individuals and intervention measures (Figure 2). We parameterized the model using data obtained for the confirmed cases of 2019-nCoV in mainland China and estimated the basic reproduction number of the disease transmission.",
+            "FFiigguurree 22.. DDiiaaggrraammooffththeemmodoedlealdaodpotpedteidn itnhethsteudstyufdoyr sfiomr usilmatiunlgattihnegntohveenl coovreolncaovriorunsav(2ir0u19s-n(2C0o1V9-) ninCfoecVt)ionin.feIcnttioernv.eInnttieornvsenintciolunds iningcliundteinngsivientceonnstivacet ctroanctiancgt ftorallcoiwngedfoblylowqueadrabnytinqeuaarnadntiisnoelatainodn iasroelaintidoincaatreedi.ndicated.",
+            "IInn mmoorree ddeettaaiill,, wwee iinnvveessttiiggaatteedd aa ggeenneerraall SSEEIIRR--ttyyppee eeppiiddeemmiioollooggiiccaall mmooddeell,, wwhhiicchh iinnccoorrppoorraatteess aapppprroopprriiaattee ccoommppaarrttmmeenntstsrerelelevvaannt ttotoinitnetrevrevnetniotniosnssuscuhcahs qasuaqruaanrtainnet,iniseo, laistoiolantiaonndatnredattmreeantmt. Wenet. sWtreatsitfrieadtifithede pthoepuploaptiuolnastiaosnssuasscesputsicbelpe t(iSb)l,ee(xSp),oesexdpo(sEe)d, in(Efe),ctiinofuesctbiouutsnbout tyentostyymetpstoymmapttiocm(parteics(pyrme-pstyommpattoicm) a(tAic)), (iAnf)e, cintifoeuctsiowuisthwsityhmsypmtopmtosm(Is),(Ih)o, hspoistpailtiazleidze(dH()Ha)nadndrerceocvoevreerded(R(R))ccoommppaarrttmmeennttss,, aaaisnnnodddlaifftWWsuueordriilttttahhhihtneeerfcrdceosocstinnttnretratfaadatecticcfiit(tftIeietqertdd)rdacatc(ohcItiqnmhie)ngepcpg,oopa,amproatupppmlurpaaoelrrtanptioomttopisnor.eotntnriootttisnioo.n,nciq,nl,ucqodl,ufedoiqnefudqiainrvudaiandirvtuaiinnadletusidnaeelsxsdupseoscxuespepsdoctiesbptelodteibt(htSloeeq)(,vtShiisqre)ou,lsvaistiioresudlaqsteuexiadsproaeqsnxuetpadionr(aseEendqdt.)inTa(Eenhdqde). qaTarruheeaeeerqafffufneeatccirttnaiivvenedetlilynyineiinddnfifievencicddtteieuvddaidolosrurcannalosnotct[ea2[in20th0]e,]ei,wtrhwhmehirloiemlveteohtvhetoeeotttoohhtehethrecerporcpmoorpmpoopaprrotatrimrottinmeo,nne1t,n\u22121Et qE\u2013qoq,qrco,orScnoqS,snqid,sstdeisspetopsefneoindfndiidnniingdvgiiodvonuindawuwlsahhleesextthpehxeoerpsreottdhsheeetdyoy teteohffffeteehccvettiiirvvvueeirslluyywsiinhnwfofehecacottreeaeddrmeoormirsssistseatsadyeydfinrionfrcmoocmomtmhptehpaeractorcmtnometnanetcanttcStttSrotartochaitcenhirngewrgawisaneinds.deLm.emLot oevthvteeetthtotreoattthnrhesaemneesxixsmppsoiioossssneeidodpnrccooopbmmraopbpbiaaalrirbtttymimlibeteeynn\u03b2ttb,,eaEEn\u03b2,, dooanntnhccdeee ccmwtthhooioeenmlvltccpaemoocanmttorottrvpamatecahtteertentorbmactteothEeemcneqbotp(cenoEaosrcrqmtotSa(mnpnqo)satretarncaStt.tnqmaT)tEehracaan.tettntaTeaE,hrotraehafatntee\u03b2t,eacqotqohurffae(a\u03b2ot\u03b2rqecracqu(on(a11(ftori\u03b2\u2212\u2013narnec\u03b2( (d1t )i1)cn\u2212.iq\u2212neT)\u03b2dd.qhiT))eivc.nhqiiTddon).hsiufveeTeaichldwitsneou,hdfsiaeofelicsinwatn,edrifhdefeivocininitnaodefdrdetueciqav(tnuoleisoddractruu(aaqaonnnulristnabiuncrfeneaaedcinndntet,efbitednieefce)cti,ddtneeme,dfdtei)oefc,avctimntneeeddfodte,ovtcwahettenheitdlndoel, itshoelnatTTieshhdoeelaattttrreaaadnnrssaammtteaiiss rss a ii ootaennnddddIyycannannaadmmacliiasccnoss aaamlrrseeoovggmeoovvtooeevrrtennhteeeoddctobbhmyye pttchhoaeemrtffmpoolalellroontwwmt RiiennndggtussReyysdstottueermemetcooooffvreeeecqqroyuuv.aaettiriooyn.nss::",
+            "A \u2032 == \u03c3((11\u2212\u2212  ) E  \u2212\u2212\u03b3 A A ,,  S q \u2032 ==((11\u2212\u2212  \u03b2 ))c q S ((I ++\u03b8 A ))\u2212\u2212\u03bb S q ,,",
+            "H \u2032 == \u03b4 I I++ \u03b4 q E q  \u2212\u2212 ((\u03b1  ++ \u03b3 H )) H ,,  R \u2032 == \u03b3 I I++ \u03b3 A A++ \u03b3 H H, , wwhheerree \u2032 isisththeeddeerrivivaatitviveewwitihthrreessppeecctttototitmimee, ,aannddththeeooththeerrppaararammeetetersrsaareresusummmmaarirzizededininTTabalbele1.1.",
+            "Parameter c\u03b2q\u03c3\u03bb \u03b4I \u03b4q \u03b3I \u03b3A \u03b3H \u03b1 Initial Values S(0) E(0) I(0) A(0) Sq(0) Eq(0) H(0) R(0)",
+            "Markov Chain Monte Carlo (MCMC); World Health Organization (WHO)."
+        ],
+        "2.3. Model-Based Method for Estimation": [
+            "Given the model structure with quarantine and isolation (Figure 2), we used the next generation matrix [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>,<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>] to derive a formula for the control reproduction number when control measures are in force, as follows:",
+            "We used the Markov Chain Monte Carlo (MCMC) method to fit the model and adopted an adaptive Metropolis\u2013Hastings (M-H) algorithm to carry out the MCMC procedure. The algorithm is run for 100,000 iterations with a burn-in of the first 70,000 iterations, and the Geweke convergence diagnostic method is employed to assess convergence of chains."
+        ],
+        "2.4. Likelihood-Based Method for Estimation": [
+            "We employed the likelihood-based method or generation interval-informed method of White and Pagano [<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>], using the following formula: L(Rc, p|N)",
+            "where \u03c6t = Rc k j=1 p j Nt\u2212 j , k is the maximum value of the serial interval (chosen as k",
+            "\u0393(x) is the gamma function. N = {N0, N1, . . . , NT}, where Nj denotes the total number of cases on day j and T is the last day of observations. pj is the probability function for the generation interval on day j. We assume that the generation interval follows a gamma distribution with mean E and variance V.",
+            "Since the generation interval of the 2019-nCoV is undetermined, we investigated the sensitivity of Rc to different E values ranging from 2 to 8 days (given in Table 2).",
+            "E: mean value of Gamma distribution, V: Deviation of Gamma distribution dataRev1: [1 2 3 4 6 9 12 20 28 41 45 62 121 198 291 440 571]; dataRev2: [1 2 3 4 6 9 12 20 28 41 41 41 41 41 41 45 62 121 198 291 440 571]."
+        ],
+        "2.5. Simulation": [
+            "The population of Wuhan is around 11,081,000 inhabitants [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], hence, we set S(0) = 11, 081, 000. As of 10 January 2020, two patients had been recovered and were subsequently discharged from the hospital leading to R(0) = 2, and 739 individuals were quarantined leading to Sq(0) = 739. We set H(0) = 1, corresponding to the reported confirmed case on 10 January 2020. The quarantined individuals were isolated for 14 days, thus \u03bb = 1/14. According to the WHO [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>], the incubation period of 2019-nCoV is about 7 days, hence \u03c3 = 1/7."
+        ],
+        "3. Results": [],
+        "3.1. Likelihood-Based Estimates": [
+            "Likelihood-based estimation of Rc during the outbreak in Wuhan gives a mean value of 6.39 with mean and variance of generation time of 6 and 2 days on the basis of a revised data series (dataRev1). The reproduction number based on likelihood-based estimation ranges from 1.66 to 10 and it follows from Table 2 that Rc is sensitive to changes in mean generation intervals. Fitting to the other revised data series (dataRev2) gives a mean value of 6.32 with mean and variance of generation time of 6 and 2 days. Note that the estimates of Rc based on the two time series agree well, and consequently, both revised data series can be used to fit the proposed dynamics transmission model. In this study, we chose the estimations based on dataRev1 as the comparison reference to verify and validate our model-based estimation. Thus, in the following sections of the manuscript, we will use the revised dataset (dataRev1) to fit the proposed model."
+        ],
+        "3.2. Model-Based Estimates": [
+            "By fitting the model without considering asymptomatic infections to the data of hospital notification for the confirmed 2019-nCoV cases (dataRev1), we estimated the mean control reproductive number Rc to be 6.47 (95% CI 5.71\u20137.23), whereas other parameter estimations are reported in Table 1. Note that the mean estimations of Rc based on the likelihood method are within the 95% confidence interval of theJ.mCloind. Mele-db. 2a0s2e0d, 9e, xstFiOmRaPtEeEsR(TRaEbVlIeEW2).",
+            "Using the estimated parameter values, we predicted the trend of the 2019-nCoV infection. Under the current intervenTtaibolne (3b. eTfhoereeff2e2ctJsaonfutraarvyel2r0e2st0r)ic,ttihonesnounmthbeepreoakf itnimfeecatnedd pineadkivviadluuea.ls (I(t)) is expected to peak on arounPda1ra0mMetaerrc h  2020, w  ith a peak s .i z e  of 1.63 \u00d7.  1 05 infect i.o u s indivi d .u a ls.",
+            "To examine tPheeakpToimsseible impa1c9t.3odfaeyns han2c2e.6ddainysterv3e3n.8tidoanyss on6d1i.3sedaasyes infe3c.4tidoanys, we plotted the numberVoafluienofef c teadt pienadkitvimideual1s.6(3I(\u00d7t)1)0a5nd1t.5h\u00d7e 1p0r5edic1te.1d5 \u00d7cu1m05ula6t.i6v8e\u00d7n1u04mb2e.r42o\u00d7f r1e0p3 orted cases with varying quaPraarnamtineteerra te q and contact rat5e c. This an1a0ly sis show1s5 t hat reduc2i0n g the contact rate pFiegrusirsete3natnlydVdTaealcubreleeoPaf3sea.e ksatttihmpeeeapketaimkeval11u.96e3.3b\u00d7dua1ty0ms5 ay31.57e.6i1th\u00d7dea1ry0sd4 ela11.y29.88o\u00d7rdab1y0rsi4ng11f.o13.8r4w\u00d7daa1yr0ds4 th11e.00p.83e\u00d7daak1y0,s4as shown in",
+            "Note that the baseline values are (c, q) = (14.78, 1.88 \u00d7 10\u20137).",
+            "FigFuigreur3e. 3S.eSnesnitsiivtiivtyityanaanlaylsyesseswwitihthrreessppeeccttttooccoonnttaacctt rraattee,, cc ((AA,,BB)),,aannddqquuaararanntitnineerartaet,eq, (qC(,CD,)D, o),notnhethe loglongunmubmebr eorfoinf finecfetectdedinidnidviivdiduualaslsaannddccuummuullaattiivvee rreeppoorrtteedd ccaasseess..",
+            "In more deTtaabill,eo3u.rTahneaelyffseicstsshoof wtrasvtehlarteisntrcircetaiosninsgonquthaerapnetaiknetirmaetea,nqd, bpyea1k0 voarl2u0e.times will bring forward the pPeaarkambyete6r.5cor 9 days,cand lead to 0a.8rceduction o0.f5tche peak v0a.3luce in term0s.1ocf the number of infected inPdeivakidTuimalse by 87% o1r9.933d%ay. sThis22in.6ddicaaytses th3a3.t8 ednahyasncin6g1.3qduaayrasntin3e.4adnadysisolation followinVgacluoentoafcIt atrtapceiankgtaimnde redu1c.6in3g\u00d7t1h0e5 con1t.a5c\u00d7t r1a0t5e can1.s1i5gn\u00d7if1i0c5antly6.6lo8w\u00d7e1r0t4he p2e.4a2k\u00d7a1n0d3 reduce the cumulativPeanraummebteerrqof predicteqd reported c5aqses (Figure140)q.",
+            "Note that the baseline values are (c, q) = (14.78, 1.88 \u00d7 10\u22127).",
+            "In more detail, our analysis shows that increasing quarantine rate, q, by 10 or 20 times will bring forward the peak by 6.5 or 9 days, and lead to a reduction of the peak value in terms of the number of infected individuals by 87% or 93%. This indicates that enhancing quarantine and isolation following contact tracing and reducing the contact rate can significantly lower the peak and reduce the cumulative",
+            "Jn. uClmin.bMeredo. 2f0p2r0e, 9d,ixctFeOdRrPeEpEoRrRteEdVIcEaWses (Figure 4).",
+            "FFiigguurree 44.. CCoonnttoouurrpplloottooffRR__cc,,wwiitthhtthheeppaarraammeetteerrooffbbaasseelliinneettrraannssmmiissssiioonnpprroobbaabbiilliittyy aanndd tthheeccoonnttaacctt rraattee,, cc ((AA)),, oorr tthhee qquuaarraannttiinnee rraattee,, qq ((BB)).. ((BB)) sshhoowwss tthhaatt aa hhiigghheerr ttrraannssmmiissssiioonn pprroobbaabbiilliittyy ooff tthhee vviirruuss wwiillll ssiiggnniiffiiccaannttllyy iinnccrreeaassee tthhee bbaassiicc rreepprroodduuccttiioonn nnuummbbeerr..",
+            "Considering tthheesspprreeaaddininggofofthtehevivruirsu(sFi(gFuigreur5e), 5a)n,danindoirndeorrdtoerextaomeixnaemthineeimthpeacimt opfatchteotrfatvheel trreasvtreilctrieosntroicntitohne oinnfetchteioninifnecotitohnericnitoietshesrucchitiaessBseuijcihnga,swBeeiinjiintiga,llwy ecailnciutilaltleydctahlecudlaaitleydntuhme bdeariloyf nexupmobserdoinf dexivpiodsueadlsinimdipvoidrtueadlsfriommpoWrtuehdafnrotmo BWeiujinhgan, dteonBoetiejdinbgy, dImeneo(te).d by Ime(t).",
+            "According to our model, we get the exposed fraction as of 22 January 2020: approximately",
+            "40,000 persons from Wuhan to Beijing via trains (around 37,000) and flights (around 3000) [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], then, we have: Ime(t) = 40,000 \u00b7 E(t)/N (4)",
+            "with 40 individuals being imported exposed individuals as of 22 January 2020. However, there could potentially exist an ascertainment bias in reported case data, since cases may have been larger than 40 individuals but have not been reported or reported with a delay in time.",
+            "We find that with travel restriction (no imported exposed individuals to Beijing), the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction, while, given no travel restriction, the number of infected individuals in seven days will decrease by 88.84% only if we increase the quarantine rate by 100 thousand times, as shown in Figure 6A. This means that the effect of a travel restriction in Wuhan on the 2019-nCoV infection in Beijing is almost equivalent to increasing quarantine by a 100 thousand baseline value, which is a rate that can hardly be achieved in any public health setting. It follows from Figure 6B that with travel restriction, the number of cumulative individuals in seven days will significantly decrease (by 75.70%) in Beijing, compared with the scenario of no travel restriction.",
+            "rate, c (A), or the quarantine rate, q (B). (B) shows that a higher transmission probability of the virus will significantly increase the basic reproduction number.",
+            "Considering the spreading of the virus (Figure 5), and in order to examine the impact of the travel restriction on the infection in other cities such as Beijing, we initially calculated the daily number of exposed individuals imported from Wuhan to Beijing, denoted by Ime(t).",
+            "According to our model, we get the exposed fraction as of 22 January 2020: approximately 40,000 persons from Wuhan to Beijing via trains (around 37,000) and flights (around 3000) [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], then, we have: Ime(t) = 40,000 \u2219 E(t)/N",
+            "We find that with travel restriction (no imported exposed individuals to Beijing), the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction, while, given no travel restriction, the number of infected individuals in seven days will decrease by 88.84% only if we increase the quarantine rate by 100 thousand times, as shown in Figure 6A. This means that the effect of a travel restriction in Wuhan on the 2019-nCoV infection in Beijing is almost equivalent to increasing quarantine by a 100 thousand baseline value, which is a rate that can hardly be achieved in any public health setting. It follows from Figure 6B that with travel restriction, the number of cumulative individuals in seven days will significantly decrease (by 75.70%) in BeijingF,icgoumrep5a. rHedeawt-mitahpthsheoswcienngatrhioe sopfrneaodtirnagvoefltrheesCtroicrotinoanv.irus infection.",
+            "FFiigguurree 66.. TThhee eeffffeeccttss ooff nnoo ttrraavveell rreessttrriiccttiioonnss ((AA)) vveerrssuuss ttrraavveell rreessttrriiccttiioonn ((BB)) iinn tthhee HHuubbeeii PPrroovviinnccee oonn tthhee CCoorroonnaavviirruussddiisseeaasseeiinnBBeeiijjiinnggcciittyy. ."
+        ],
+        "4. Discussion": [
+            "Based on the 2019-nCoV cases\u2019 data until 22 January 2020, we have estimated the basic reproduction numbers using different methods (likelihood-based and model-based approaches). The mean control reproduction number was estimated to be as high as 6.47 (95% CI 5.71\u20137.23), in",
+            "Based on the 2019-nCoV cases\u2019 data until 22 January 2020, we have estimated the basic reproduction numbers using different methods (likelihood-based and model-based approaches). The mean control reproduction number was estimated to be as high as 6.47 (95% CI 5.71\u20137.23), in comparison with the values of the SARS epidemics (R0 = 4.91) in Beijing, China, in 2003 [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>], and MERS in Jeddah (R0 = 3.5\u20136.7) and Riyadh (R0 = 2.0\u20132.8), Kingdom of Saudi Arabia, in 2014 [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>].",
+            "Our value is higher than other published estimates (for instance, Reference [<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>]). Such a high reproduction number is consistent with the opinion that the virus has gone through at least three\u2013four generations of transmission in the period covered by this study [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>]. Note that our estimation is based on a dataset collected during a period of intensive social contacts. Before the Chinese New Year (25 January 2020), there were lots of annual summing-up meetings and/or parties, with higher than usual close contacts, leading to a higher likelihood of infection transmission than that of the earlier periods covered by other studies. Furthermore, we noted that more recently published studies based on datasets during periods comparable with ours reported similar findings in terms of a high basic reproduction number (for instance, Reference [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>], where authors, using an exponential growth method, computed a basic reproduction number of 6.11 (95% CI 4.51\u20138.16), assuming no changes in reporting rate and with a serial interval of 8.4 \u00b1 3.8 days). Variability in the estimation of the basic reproduction number is also a well-known methodological issue, and standardized methods both for calculating and reporting it are still lacking [<a class=\"ref-link\" id=\"c30\" href=\"#r30\">30</a>]. During the initial phases of an epidemics outbreak, only small datasets/time-points can be used. Some crucial information may be missing, and the quality, accuracy and reliability of data improves over time. In these situations, estimations are highly dependent on the specific datasets utilized and revising/updating such datasets could influence the results. We note that several key clinical parameters could be inferred from relevant clinical data based on sero-epidemiological surveys, and the possibility of spreading the infection from asymptomatic cases was only reported recently [<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>].",
+            "Our finding of a high reproduction number implies the potential of a very serious epidemic unless rather swift public health interventions are implemented [<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>,<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>], during the season when the social contacts is the highest.",
+            "Note that the serial interval is an essential factor affecting the accuracy of the likelihood function estimation. According to the current report, the incubation period of Wuhan patients with coronavirus pneumonia is about 2 to 15 days. We then assume that the serial interval follows the gamma distribution with varying mean and variance, which allows us to examine the influence on the reproduction number. With the distribution of serial interval with mean 6 days and variance 2 days, the likelihood-based estimation of the reproduction number is consistent with the model-based estimation. It shows that longer serial intervals induce greater reproduction numbers, and hence, more new infections, which further confirms that the epidemic may be more serious than what has been reported until now [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+            "Based on the reported data, we have estimated that the number of people who were identified through contact tracing and quarantined was 5897, as of 22 January 2020. In comparison with the total population size of Wuhan, the effort of close contact tracing and quarantine was insufficient and appears to have a limited impact in terms of reducing the number of infected cases and/or slowing down the epidemic. The contour plot of R_c = 1 gives the threshold values of contact rate and quarantine rate for a city to avoid an outbreak. This high threshold rate of quarantine puts an extremely high requirement for the city\u2019s public health infrastructure and its citizens\u2019 adherence to personal protective and public health interventions, including a reduction of transmission-effective contacts, separation and restriction during the quarantine.",
+            "Such a high level of quarantine rate and reduction of contact is possible only when the number of imported cases from the epicenter is minimal, speaking in terms of the value of the travel restriction. A strict travel restriction to the city of Wuhan is expensive and resource-consuming, imposing a substantial challenge to the decision- and policy-makers and the city\u2019s resilience. Moreover, such a measure could only delay the transmission of the infectious disorder.",
+            "In conclusion, our simulations show that the appropriate duration of this travel restriction depends on a combination of effective quarantine and reduction of contact within the city.",
+            "Considering the latest events (the lock-down of Wuhan on 23 January 2020, the adoption of the travel restriction strategy by other regions and provinces, the introduction of new detection technologies, etc.), the present model needs to be revised in that the basic reproduction number estimated here is no longer suitable for predicting future epidemic trends (Table 4). This will be the aim of a forthcoming article."
+        ],
+        "5. Conclusions": [
+            "Coronaviruses occasionally lead to major outbreaks, with documented reproduction numbers ranging from 2.0 to 4.9. Currently, a fourth large-scale outbreak is occurring and spreading out from Wuhan, Hubei province, China, to neighboring provinces and other countries. There is a dearth of epidemiological data about the emerging coronavirus, which would be of crucial importance to design and implement timely, ad hoc effective public health interventions, such as contact tracing, quarantine and travel restrictions. In this study, we adopted a deterministic model to shed light on the transmission dynamics of the novel coronavirus and assess the impact of public health interventions on infection. We found that the basic reproduction number could be as high as 6.47 (95% CI 5.71\u20137.23), which seems consistent with the special period prior to the Spring Festival when contacts were higher than usual, and with the opinion that the virus has gone through at least three\u2013four generations. It is worth mentioning that our model made a very good prediction of the confirmed cases from 23 to 29 January 2020, as shown in Table 4. Particularly, the predicted confirmed cases should be 7723 as of 29 January 2020, which is very close to the real number of cases of 7711. Furthermore, according to our model, the outbreak, under the most restrictive measures, is expected to peak within two weeks (since 23 January 2020), with a significant low peak value. Our investigation has major practical implications for public health decision- and policy-makers. The rather high reproduction number suggests that the outbreak may be more serious than what has been reported so far, given the particular season of increasing social contacts, warranting effective, strict public health measures aimed to mitigate the burden generated by the spreading of the new virus.",
+            "Author Contributions: Conceptualization, S.T., Y.X. and J.W.; methodology, S.T., Y.X. and J.W.; software, B.T., X.W., Q.L. and S.T.; validation, S.T., Y.X. and J.W.; formal analysis, B.T., X.W., Q.L. and S.T.; investigation, S.T., Y.X. and J.W.; resources, B.T., X.W., Q.L. and S.T.; data curation, B.T., X.W., Q.L. and S.T.; writing\u2014original draft preparation, B.T., X.W., Q.L., N.L.B. and S.T.; writing\u2014review and editing, N.L.B., S.T., Y.X. and J.W.; visualization, J.W.; supervision, J.W.; project administration, J.W.; funding acquisition, J.W. All authors have read and agreed to the published version of the manuscript.",
+            "Funding: This research was funded by the National Natural Science Foundation of China (grant numbers: 11631012 (YX, ST), 61772017 (ST)), and by the Canada Research Chair Program (grant number: 230720 (JW) and the Natural Sciences and Engineering Research Council of Canada (Grant number: 105588-2011 (JW).",
+            "Conflicts of Interest: The authors declare no conflict of interest."
+        ],
+        "References": [
+            "1. Chen, Y.; Liu, Q.; Guo, D. Coronaviruses: Genome structure, replication, and pathogenesis. J. Med. Virol. 2020. [CrossRef] [PubMed]",
+            "2. Kahn, J.S.; McIntosh, K. History and recent advances in coronavirus discovery. Pediatr. Infect. Dis. J. 2005, 24, S223\u2013S227. [CrossRef] [PubMed]",
+            "3. Hui, D.S.C.; Zumla, A. Severe acute respiratory syndrome: Historical, epidemiologic, and clinical features. Infect. Dis. Clin. North Am. 2019, 33, 869\u2013889. [CrossRef] [PubMed]",
+            "4. de Wit, E.; van Doremalen, N.; Falzarano, D.; Munster, V.J. SARS and MERS: Recent insights into emerging coronaviruses. Nat. Rev. Microbiol. 2016, 14, 523\u2013534. [CrossRef]",
+            "5. Killerby, M.E.; Biggs, H.M.; Midgley, C.M.; Gerber, S.I.; Watson, J.T. Middle East respiratory syndrome coronavirus transmission. Emerg. Infect. Dis. 2020, 26, 191\u2013198. [CrossRef]",
+            "6. Kim, K.H.; Tandi, T.E.; Choi, J.W.; Moon, J.M.; Kim, M.S. Middle East respiratory syndrome coronavirus (MERS-CoV) outbreak in South Korea, 2015: Epidemiology, characteristics and public health implications. J. Hosp. Infect. 2017, 95, 207\u2013213. [CrossRef]",
+            "7. Willman, M.; Kobasa, D.; Kindrachuk, J. A Comparative analysis of factors influencing two outbreaks of middle eastern respiratory syndrome (MERS) in Saudi Arabia and South Korea. Viruses 2019, 11, 1119. [CrossRef]",
+            "8. Kwok, K.O.; Tang, A.; Wei, V.W.I.; Park, W.H.; Yeoh, E.K.; Riley, S. Epidemic models of contact tracing: Systematic review of transmission studies of severe acute respiratory syndrome and Middle East respiratory syndrome. Comput. Struct. Biotechnol. J. 2019, 17, 186\u2013194. [CrossRef]",
+            "9. Cohen, J.; Normile, D. New SARS-like virus in China triggers alarm. Science 2020, 367, 234\u2013235. [CrossRef] 10. Lu, H.; Stratton, C.W.; Tang, Y.W. Outbreak of pneumonia of unknown etiology in Wuhan China: The mystery and the miracle. J. Med. Virol. 2020. [CrossRef] 11. Parry, J. China coronavirus: Cases surge as official admits human to human transmission. BMJ 2020, 368, m236. [CrossRef] [PubMed] 12. World Health Organization (WHO). Coronavirus. Available online: https://www.who.int/health-topics/",
+            "coronavirus (accessed on 23 January 2020). 13. Egger, M.; Johnson, L.; Althaus, C.; Sch\u00f6ni, A.; Salanti, G.; Low, N.; Norris, S.L. Developing WHO guidelines: Time to formally include evidence from mathematical modelling studies. F1000Research 2017, 6, 1584. [CrossRef] [PubMed] 14. Chen, T.; Rui, J.; Wang, Q.; Zhao, Z.; Cui, J.-A.; Yin, L. A mathematical model for simulating the transmission of Wuhan novel coronavirus. bioRxiv 2020. [CrossRef] 15. Imai, N.; Dorigatti, I.; Cori, A.; Donnelly, C.; Riley, S.; Ferguson, N.M. Report 2: Estimating the Potential Total Number of Novel Coronavirus Cases in Wuhan City, China. Available online: https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoVoutbreak-report-22-01-2020.pdf (accessed on 23 January 2020). 16. World Health Organization (WHO). Novel Coronavirus\u2014China, Disease Outbreak News: Update. Available online: https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/ (accessed on 23 January 2020). 17. World Health Organization (WHO). Situation Report. Available online: https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200123-sitrep-3-2019-ncov.pdf (accessed on 23 January 2020). 18. Health Commission of Hubei Province. Available online: http://wjw.hubei.gov.cn/bmdt/ztzl/fkxxgzbdgrfyyq/ (accessed on 23 January 2020). 19. National Health Commission of the People\u2019s Republic of China. Available online: http://www.nhc.gov.cn/ xcs/xxgzbd/gzbd_index.shtml (accessed on 23 January 2020). 20. Castillo-Chavez, C.; Castillo-Garsow, C.W.; Yakubu, A. Mathematical models of isolation and quarantine. JAMA 2003, 290, 2876\u20132877. [CrossRef] 21. Tang, S.; Xiao, Y.; Yang, Y.; Zhou, Y.; Wu, J.; Ma, Z. Community-based measures for mitigating the 2009 H1N1 pandemic in China. PLoS ONE 2010, 5, e10911. [CrossRef] 22. Xiao, Y.; Tang, S.; Wu, J. Media impact switching surface during an infectious disease outbreak. Sci. Rep. 2015, 5, 7838. [CrossRef]",
+            "23. White, L.F.; Pagano, M. A likelihood-based method for real-time estimation of the serial interval and reproductive number of an epidemic. Stat. Med. 2008, 27, 2999\u20133016. [CrossRef]",
+            "24. World Health Organization (WHO). Available online: https://www.who.int/news-room/detail/23-012020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committeeregarding-the-outbreak-of-novel-coronavirus-(2019-ncov) (accessed on 23 January 2020).",
+            "25. Bogoch, I.I.; Watts, A.; Thomas-Bachli, A.; Huber, C.; Kraemer, M.U.G.; Khan, K. Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel. J. Travel Med. 2020. [CrossRef]",
+            "26. Gumel, A.B.; Ruan, S.G.; Day, T.; Watmough, J.; Brauer, F.; van den Driessche, P.; Gabrielson, D.; Bowman, C.; Alexander, M.E.; Ardal, S.; et al Modelling strategies for controlling SARS outbreaks. Proc. R. Soc. Lond. B. 2004, 271, 2223\u20132232. [CrossRef]",
+            "27. Majumder, M.S.; Rivers, C.; Lofgren, E.; Fisman, D. Estimation of MERS-Coronavirus reproductive number and case fatality rate for the Spring 2014 Saudi Arabia outbreak: Insights from publicly available data. PLoS Curr. 2014, 18, 6.",
+            "28. Li, Q.; Guan, X.; Wu, P.; Wang, X.; Zhou, L.; Tong, Y.; Ren, R.; Leung, K.S.M.; Lau, E.H.Y.; Wong, J.Y.; et al Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia. N. Engl. J. Med. 2020. [CrossRef] [PubMed]",
+            "29. Zhao, S.; Lin, Q.; Ran, J.; Musa, S.S.; Yang, G.; Wang, W.; Lou, Y.; Gao, D.; Yang, L.; He, D.; et al Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. Int. J. Infect. Dis. 2020. [CrossRef] [PubMed]",
+            "30. Guerra, F.M.; Bolotin, S.; Lim, G.; Heffernan, J.; Deeks, S.L.; Li, Y.; Crowcroft, N.S. The basic reproduction number (R0) of measles: A systematic review. Lancet Infect. Dis. 2017, 17, e420\u2013e428. [CrossRef]",
+            "31. Rothe, C.; Schunk, M.; Sothmann, P.; Bretzel, G.; Froeschl, G.; Wallrauch, C.; Zimmer, T.; Thiel, V.; Janke, C.; Guggemos, W.; et al Transmission of 2019-nCoV infection from an asymptomatic contact in Germany. N. Engl. J. Med. 2020. [CrossRef] [PubMed]",
+            "32. Hui, D.S.; Azhar, E.E.I.; Madani, T.A.; Ntoumi, F.; Kock, R.; Dar, O.; Ippolito, G.; Mchugh, T.D.; Memish, Z.A.; Drosten, C.; et al The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan, China. Int. J. Infect. Dis. 2020, 91, 264\u2013266. [CrossRef]",
+            "33. Cheng, V.C.C.; Wong, S.C.; To, K.K.W.; Ho, P.L.; Yuen, K.Y. Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China. J. Hosp. Infect. 2020. [CrossRef]"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 27,
+            "context": "Recently, a fourth coronavirus outbreak has occurred in Wuhan, the capital city of the Hubei province and the seventh largest city of People\u2019s Republic of China [<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>\u2013<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>]. <mark class=\"stats\">Since 31 December 2019, when the Wuhan Municipal Health Commission reported 27 cases of viral pneumonia, including 7 critically ill cases, the pneumonia outbreak has received considerable global attention</mark>. A novel coronavirus was identified as the causative agent by the Chinese authorities on 7 January 2020, and on 10 January 2020, the World Health Organization (WHO) designated the novel coronavirus as 2019-nCoV"
+        },
+        {
+            "participant": "confirmed cases with 17 deaths had been reported in other",
+            "number": 571,
+            "context": "On the same day, the WHO released a wide range of interim guidance for all countries on how they can get prepared for coping with this emergency, including how to monitor for potentially infected people, collect and test samples, manage patients, control and mitigate the burden generated by the infection in health centers, maintain the right drug supplies and effectively communicate with the lay public regarding the new virus [<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. <mark class=\"stats\">By the morning of 23 January 2020, more than 571 confirmed cases with 17 deaths had been reported in other parts of mainland China, and in various countries including South Korea, Japan, Thailand, Singapore, the Philippines, Mexico and the United States of America</mark>. As of 6 February 2020 (02:45 GMT), 28,276 cases, of which 3863 are in critical condition, and 565 deaths had been reported"
+        },
+        {
+            "participant": "cases",
+            "number": 28276,
+            "context": "By the morning of 23 January 2020, more than 571 confirmed cases with 17 deaths had been reported in other parts of mainland China, and in various countries including South Korea, Japan, Thailand, Singapore, the Philippines, Mexico and the United States of America. <mark class=\"stats\">As of 6 February 2020 (02:45 GMT), 28,276 cases, of which 3863 are in critical condition, and 565 deaths had been reported</mark>. The transmission potential, often measured in terms of the basic reproduction number, the outbreak peak time and value and duration under current and evolving intervention measures, remain unclear, and warrant further investigation"
+        },
+        {
+            "participant": "million people",
+            "number": 40,
+            "context": "Extreme, unprecedented measures have been taken. <mark class=\"stats\">For example, on 23 January 2020, the Chinese authorities introduced travel restrictions affecting five cities (Wuhan, Huanggang, Ezhou, Chibi and Zhijiang), effectively shutting down the movement of more than 40 million people</mark>. However, how these expensive and resource-intensive measures can contribute to the prevention and control of the infection in these cities and other parts of the country, and how long these travel restrictions should be maintained, remain to be determined"
+        },
+        {
+            "participant": "cases",
+            "number": 41,
+            "context": "Data information includes the cWume uolbattaivineendudmatbaerofolfarbeoproarttoerdy-ccaosnefis,ramsesdho20w1n9-innCFoigVucraes1eAs w, ahnidchthoeccquurareradnitninmedaiannladnrdelCehasineda fproopmutlahteioWn,HaOs sshitouwatnioinn rFeipgourrte, t1hBe.NTahteiodnaatlaHweearltehrCeloemasmedisasniodnaonfatlhyezePdeoapnloen\u2019syRmeopuusblyli.cSoifnCcehitnhae aidnedntthifeicHateioanlthofCtohme m20i1s9si-onnCooVf Wounh1a0nJCanituyaarynd20H2u0,bseoimPreocvainsecse w[1e6r\u2013e19ru].leDdatoauitnafonrdmthateiocnuminuclluatdivese tnhuemcubemruolfarteivpeorntuedmcbaesreosfpreerpdoarytewd acsas4e1s,,farosmsh1o0wtno i1n5 FJaignuuraery1A20, 2a0n.dTtohoebqtauianrathnetirneeldataivnedlyrerleeliaasbelde pdoaptau,lwateiouns,eads tshheoewxnpoinneFnitgiaulregr1oBw. tThhleawdattoa dweedruecreeltehaesnedumanbderaonfarleypzoedrteadnocnasyems opuersldy.aySifnrocemth3e1 iDdeecnetmifibcaerti2o0n1o9fttoh1e02J0a1n9u-narCyo2V02o0n(1ca0llJeadnudaartyaR2e0v220), soormfreomcas1e0stwo 1e5reJarunuleadryou20t 2a0nd(cathlleedcudmatualRaetivv1e) nbuasmedbeornofthreep4o1rcteadsecsaosenstpheart ddaatye,waasss4h1o,wfrnomin1F0igtuor1e51JAan. uary 2020. <mark class=\"stats\">To obtain the relatively reliable data,Bwyeiunsfeerdritnhge ethxepoenffeencttiiavlegnreosws tohf lainwtetrovednetdiouncemtheeasnuurmesb, eirncolfurdeipnogrtqeudacraasnetsinpeeranddayisfroolamtio3n1 D(Feigceumrebe1rB)2,0w19eteos1ti0mJaatneudarthye20re2q0u(ciraeldledefdfeacttaiRveenve2s)soor ffrtohmese10intote1rv5eJnatniuonarsyin20o2r0d(ecraltloedprdeavteanRtetvh1e) boaustebdreoank.the 41 cases on that date, as shown in Figure 1A</mark>. Figure 11.. (A) Cumulative diagnoses and revised case data (dataRev1) in mainland China, the bblue curve iiss tthhee bbeesstt fifitttiinngg ccuurrvvee ooff mmooddeell (1(1))totoddataatRaRevev11. . (B) Data iinnffoormation oof ccuummuullaattiive qquuaarraannttiinneedd//rreelleeaasseedd ppooppuullaattiioonn"
+        },
+        {
+            "participant": "inhabitants",
+            "number": 11081000,
+            "context": "Simulation. <mark class=\"stats\">The population of Wuhan is around 11,081,000 inhabitants [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], hence, we set S(0) = 11, 081, 000</mark>. As of 10 January 2020, two patients had been recovered and were subsequently discharged from the hospital leading to R(0) = 2, and 739 individuals were quarantined leading to Sq(0) = 739"
+        },
+        {
+            "participant": "patients",
+            "number": 2,
+            "context": "The population of Wuhan is around 11,081,000 inhabitants [<a class=\"ref-link\" id=\"c18\" href=\"#r18\">18</a>], hence, we set S(0) = 11, 081, 000. <mark class=\"stats\">As of 10 January 2020, two patients had been recovered and were subsequently discharged from the hospital leading to R(0) = 2, and 739 individuals were quarantined leading to Sq(0) = 739</mark>. We set H(0) = 1, corresponding to the reported confirmed case on 10 January 2020"
+        },
+        {
+            "participant": "individuals",
+            "number": 40,
+            "context": "40,000 persons from Wuhan to Beijing via trains (around 37,000) and flights (around 3000) [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], then, we have: Ime(t) = 40,000 \u00b7 E(t)/N. <mark class=\"stats\">with 40 individuals being imported exposed individuals as of 22 January 2020</mark>. However, there could potentially exist an ascertainment bias in reported case data, since cases may have been larger than 40 individuals but have not been reported or reported with a delay in time"
+        },
+        {
+            "participant": "individuals",
+            "number": 40,
+            "context": "with 40 individuals being imported exposed individuals as of 22 January 2020. <mark class=\"stats\">However, there could potentially exist an ascertainment bias in reported case data, since cases may have been larger than 40 individuals but have not been reported or reported with a delay in time</mark>. We find that with travel restriction (no imported exposed individuals to Beijing), the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction, while, given no travel restriction, the number of infected individuals in seven days will decrease by 88.84% only if we increase the quarantine rate by 100 thousand times, as shown in Figure 6A"
+        },
+        {
+            "participant": "persons",
+            "number": 40000,
+            "context": "Med. 2020, 9, x FOR PEER REVIEW. <mark class=\"stats\">According to our model, we get the exposed fraction as of 22 January 2020: approximately 40,000 persons from Wuhan to Beijing via trains (around 37,000) and flights (around 3000) [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], then, we have: Ime(t) = 40,000 \u2219 E(t)/N</mark>. with 40 individuals being imported exposed individuals as of 22 January 2020"
+        },
+        {
+            "participant": "individuals",
+            "number": 40,
+            "context": "According to our model, we get the exposed fraction as of 22 January 2020: approximately 40,000 persons from Wuhan to Beijing via trains (around 37,000) and flights (around 3000) [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>], then, we have: Ime(t) = 40,000 \u2219 E(t)/N. <mark class=\"stats\">with 40 individuals being imported exposed individuals as of 22 January 2020</mark>. However, there could potentially exist an ascertainment bias in reported case data, since cases may have been larger than 40 individuals but have not been reported or reported with a delay in time"
+        },
+        {
+            "participant": "individuals",
+            "number": 40,
+            "context": "with 40 individuals being imported exposed individuals as of 22 January 2020. <mark class=\"stats\">However, there could potentially exist an ascertainment bias in reported case data, since cases may have been larger than 40 individuals but have not been reported or reported with a delay in time</mark>. We find that with travel restriction (no imported exposed individuals to Beijing), the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction, while, given no travel restriction, the number of infected individuals in seven days will decrease by 88.84% only if we increase the quarantine rate by 100 thousand times, as shown in Figure 6A"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "World Health Organization",
+        "public health",
+        "coronavirus",
+        "epidemics",
+        "basic reproduction number",
+        "pneumonia",
+        "arabia",
+        "middle east respiratory syndrome",
+        "Markov Chain Monte Carlo",
+        "control reproduction number",
+        "infection management and control",
+        "non-pharmaceutical interventions",
+        "transmission dynamics",
+        "travel restriction",
+        "SEIR model",
+        "Severe Acute Respiratory Syndrome\u201d",
+        "serial interval",
+        "Middle East Respiratory Syndrome\u201d",
+        "reproduction number",
+        "mathematical model"
+    ],
+    "keyword_relevance": {
+        "reproduction number": 0.14659685863874344,
+        "coronavirus": 0.14136125654450263,
+        "travel restriction": 0.12041884816753927,
+        "Markov Chain Monte Carlo": 0.09947643979057591,
+        "World Health Organization": 0.09424083769633508,
+        "basic reproduction number": 0.07853403141361257,
+        "public health": 0.06806282722513089,
+        "Middle East Respiratory Syndrome\u201d": 0.04712041884816754,
+        "Severe Acute Respiratory Syndrome\u201d": 0.03664921465968586,
+        "serial interval": 0.03664921465968586,
+        "pneumonia": 0.031413612565445025,
+        "mathematical model": 0.031413612565445025,
+        "control reproduction number": 0.02617801047120419,
+        "epidemics": 0.010471204188481676,
+        "non-pharmaceutical interventions": 0.010471204188481676,
+        "transmission dynamics": 0.010471204188481676,
+        "infection management and control": 0.005235602094240838,
+        "SEIR model": 0.005235602094240838,
+        "arabia": 0.0,
+        "middle east respiratory syndrome": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Coronaviruses are enveloped, single-stranded, positive-sense RNA viruses belonging to the family of Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+        "They cause generally mild respiratory infections, even though they are occasionally lethal.",
+        "Med. 2020, 9, 462; doi:10.3390/jcm9020462 www.mdpi.com/journal/jcm.",
+        "Med. 2020, 9, 462",
+        "<h2 style=\"display: inline\">Results:</h2> Likelihood-based estimation of Rc during the outbreak in Wuhan gives a mean value of 6.39 with mean and variance of generation time of 6 and 2 days on the basis of a revised data series.",
+        "The reproduction number based on likelihood-based estimation ranges from 1.66 to 10 and it follows from Table 2 that Rc is sensitive to changes in mean generation intervals.",
+        "Fitting to the other revised data series gives a mean value of 6.32 with mean and variance of generation time of 6 and 2 days.",
+        "Of the manuscript, the authors will use the revised dataset to fit the proposed model",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Based on the 2019-nCoV cases\u2019 data until 22 January 2020, the authors have estimated the basic reproduction numbers using different methods.",
+        "The authors' value is higher than other published estimates",
+        "Such a high reproduction number is consistent with the opinion that the virus has gone through at least three\u2013four generations of transmission in the period covered by this study [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>].",
+        "The rather high reproduction number suggests that the outbreak may be more serious than what has been reported so far, given the particular season of increasing social contacts, warranting effective, strict public health measures aimed to mitigate the burden generated by the spreading of the new virus"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Coronaviruses are enveloped, single-stranded, positive-sense RNA viruses belonging to the family of Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>].",
+            "They cause generally mild respiratory infections, even though they are occasionally lethal.",
+            "Med. 2020, 9, 462; doi:10.3390/jcm9020462 www.mdpi.com/journal/jcm.",
+            "Med. 2020, 9, 462"
+        ],
+        "Results": [
+            "Likelihood-based estimation of Rc during the outbreak in Wuhan gives a mean value of 6.39 with mean and variance of generation time of 6 and 2 days on the basis of a revised data series.",
+            "The reproduction number based on likelihood-based estimation ranges from 1.66 to 10 and it follows from Table 2 that Rc is sensitive to changes in mean generation intervals.",
+            "Fitting to the other revised data series gives a mean value of 6.32 with mean and variance of generation time of 6 and 2 days.",
+            "Of the manuscript, the authors will use the revised dataset to fit the proposed model"
+        ],
+        "Conclusion": [
+            "Based on the 2019-nCoV cases\u2019 data until 22 January 2020, the authors have estimated the basic reproduction numbers using different methods.",
+            "The authors' value is higher than other published estimates",
+            "Such a high reproduction number is consistent with the opinion that the virus has gone through at least three\u2013four generations of transmission in the period covered by this study [<a class=\"ref-link\" id=\"c24\" href=\"#r24\">24</a>].",
+            "The rather high reproduction number suggests that the outbreak may be more serious than what has been reported so far, given the particular season of increasing social contacts, warranting effective, strict public health measures aimed to mitigate the burden generated by the spreading of the new virus"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Chen_et+al_2020_a",
+            "entry": "1. Chen, Y.; Liu, Q.; Guo, D. Coronaviruses: Genome structure, replication, and pathogenesis. J. Med. Virol. 2020. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20Y.%20Liu%2C%20Q.%20Guo%2C%20D.%20Coronaviruses%3A%20Genome%20structure%2C%20replication%2C%20and%20pathogenesis%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chen%2C%20Y.%20Liu%2C%20Q.%20Guo%2C%20D.%20Coronaviruses%3A%20Genome%20structure%2C%20replication%2C%20and%20pathogenesis%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chen%2C%20Y.%20Liu%2C%20Q.%20Guo%2C%20D.%20Coronaviruses%3A%20Genome%20structure%2C%20replication%2C%20and%20pathogenesis%202020"
+        },
+        {
+            "id": "2",
+            "alt_id": "Kahn_2005_a",
+            "entry": "2. Kahn, J.S.; McIntosh, K. History and recent advances in coronavirus discovery. Pediatr. Infect. Dis. J. 2005, 24, S223\u2013S227. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kahn%2C%20J.S.%20McIntosh%2C%20K.%20History%20and%20recent%20advances%20in%20coronavirus%20discovery%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kahn%2C%20J.S.%20McIntosh%2C%20K.%20History%20and%20recent%20advances%20in%20coronavirus%20discovery%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kahn%2C%20J.S.%20McIntosh%2C%20K.%20History%20and%20recent%20advances%20in%20coronavirus%20discovery%202005"
+        },
+        {
+            "id": "3",
+            "alt_id": "Hui_2019_a",
+            "entry": "3. Hui, D.S.C.; Zumla, A. Severe acute respiratory syndrome: Historical, epidemiologic, and clinical features. Infect. Dis. Clin. North Am. 2019, 33, 869\u2013889. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hui%2C%20D.S.C.%20Zumla%2C%20A.%20Severe%20acute%20respiratory%20syndrome%3A%20Historical%2C%20epidemiologic%2C%20and%20clinical%20features%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hui%2C%20D.S.C.%20Zumla%2C%20A.%20Severe%20acute%20respiratory%20syndrome%3A%20Historical%2C%20epidemiologic%2C%20and%20clinical%20features%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hui%2C%20D.S.C.%20Zumla%2C%20A.%20Severe%20acute%20respiratory%20syndrome%3A%20Historical%2C%20epidemiologic%2C%20and%20clinical%20features%202019"
+        },
+        {
+            "id": "4",
+            "alt_id": "de_Wit_et+al_2016_a",
+            "entry": "4. de Wit, E.; van Doremalen, N.; Falzarano, D.; Munster, V.J. SARS and MERS: Recent insights into emerging coronaviruses. Nat. Rev. Microbiol. 2016, 14, 523\u2013534. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=de%20Wit%2C%20E.%20van%20Doremalen%2C%20N.%20Falzarano%2C%20D.%20Munster%2C%20V.J.%20SARS%20and%20MERS%3A%20Recent%20insights%20into%20emerging%20coronaviruses%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=de%20Wit%2C%20E.%20van%20Doremalen%2C%20N.%20Falzarano%2C%20D.%20Munster%2C%20V.J.%20SARS%20and%20MERS%3A%20Recent%20insights%20into%20emerging%20coronaviruses%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=de%20Wit%2C%20E.%20van%20Doremalen%2C%20N.%20Falzarano%2C%20D.%20Munster%2C%20V.J.%20SARS%20and%20MERS%3A%20Recent%20insights%20into%20emerging%20coronaviruses%202016"
+        },
+        {
+            "id": "5",
+            "alt_id": "Killerby_et+al_0000_a",
+            "entry": "5. Killerby, M.E.; Biggs, H.M.; Midgley, C.M.; Gerber, S.I.; Watson, J.T. Middle East respiratory syndrome coronavirus transmission. Emerg. Infect. Dis. 2020, 26, 191\u2013198. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Killerby%2C%20M.E.%20Biggs%2C%20H.M.%20Midgley%2C%20C.M.%20Gerber%2C%20S.I.%20Middle%20East%20respiratory%20syndrome%20coronavirus%20transmission",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Killerby%2C%20M.E.%20Biggs%2C%20H.M.%20Midgley%2C%20C.M.%20Gerber%2C%20S.I.%20Middle%20East%20respiratory%20syndrome%20coronavirus%20transmission",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Killerby%2C%20M.E.%20Biggs%2C%20H.M.%20Midgley%2C%20C.M.%20Gerber%2C%20S.I.%20Middle%20East%20respiratory%20syndrome%20coronavirus%20transmission"
+        },
+        {
+            "id": "6",
+            "alt_id": "Kim_et+al_2017_a",
+            "entry": "6. Kim, K.H.; Tandi, T.E.; Choi, J.W.; Moon, J.M.; Kim, M.S. Middle East respiratory syndrome coronavirus (MERS-CoV) outbreak in South Korea, 2015: Epidemiology, characteristics and public health implications. J. Hosp. Infect. 2017, 95, 207\u2013213. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kim%20KH%20Tandi%20TE%20Choi%20JW%20Moon%20JM%20Kim%20MS%20Middle%20East%20respiratory%20syndrome%20coronavirus%20MERSCoV%20outbreak%20in%20South%20Korea%202015%20Epidemiology%20characteristics%20and%20public%20health%20implications%20J%20Hosp%20Infect%202017%2095%20207213%20CrossRef",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kim%20KH%20Tandi%20TE%20Choi%20JW%20Moon%20JM%20Kim%20MS%20Middle%20East%20respiratory%20syndrome%20coronavirus%20MERSCoV%20outbreak%20in%20South%20Korea%202015%20Epidemiology%20characteristics%20and%20public%20health%20implications%20J%20Hosp%20Infect%202017%2095%20207213%20CrossRef",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kim%20KH%20Tandi%20TE%20Choi%20JW%20Moon%20JM%20Kim%20MS%20Middle%20East%20respiratory%20syndrome%20coronavirus%20MERSCoV%20outbreak%20in%20South%20Korea%202015%20Epidemiology%20characteristics%20and%20public%20health%20implications%20J%20Hosp%20Infect%202017%2095%20207213%20CrossRef"
+        },
+        {
+            "id": "7",
+            "alt_id": "Willman_et+al_2019_a",
+            "entry": "7. Willman, M.; Kobasa, D.; Kindrachuk, J. A Comparative analysis of factors influencing two outbreaks of middle eastern respiratory syndrome (MERS) in Saudi Arabia and South Korea. Viruses 2019, 11, 1119. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Willman%2C%20M.%20Kobasa%2C%20D.%20Kindrachuk%2C%20J.%20A%20Comparative%20analysis%20of%20factors%20influencing%20two%20outbreaks%20of%20middle%20eastern%20respiratory%20syndrome%20%28MERS%29%20in%20Saudi%20Arabia%20and%20South%20Korea%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Willman%2C%20M.%20Kobasa%2C%20D.%20Kindrachuk%2C%20J.%20A%20Comparative%20analysis%20of%20factors%20influencing%20two%20outbreaks%20of%20middle%20eastern%20respiratory%20syndrome%20%28MERS%29%20in%20Saudi%20Arabia%20and%20South%20Korea%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Willman%2C%20M.%20Kobasa%2C%20D.%20Kindrachuk%2C%20J.%20A%20Comparative%20analysis%20of%20factors%20influencing%20two%20outbreaks%20of%20middle%20eastern%20respiratory%20syndrome%20%28MERS%29%20in%20Saudi%20Arabia%20and%20South%20Korea%202019"
+        },
+        {
+            "id": "8",
+            "alt_id": "Kwok_et+al_2019_a",
+            "entry": "8. Kwok, K.O.; Tang, A.; Wei, V.W.I.; Park, W.H.; Yeoh, E.K.; Riley, S. Epidemic models of contact tracing: Systematic review of transmission studies of severe acute respiratory syndrome and Middle East respiratory syndrome. Comput. Struct. Biotechnol. J. 2019, 17, 186\u2013194. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kwok%2C%20K.O.%20Tang%2C%20A.%20Wei%2C%20V.W.I.%20Park%2C%20W.H.%20Epidemic%20models%20of%20contact%20tracing%3A%20Systematic%20review%20of%20transmission%20studies%20of%20severe%20acute%20respiratory%20syndrome%20and%20Middle%20East%20respiratory%20syndrome%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kwok%2C%20K.O.%20Tang%2C%20A.%20Wei%2C%20V.W.I.%20Park%2C%20W.H.%20Epidemic%20models%20of%20contact%20tracing%3A%20Systematic%20review%20of%20transmission%20studies%20of%20severe%20acute%20respiratory%20syndrome%20and%20Middle%20East%20respiratory%20syndrome%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kwok%2C%20K.O.%20Tang%2C%20A.%20Wei%2C%20V.W.I.%20Park%2C%20W.H.%20Epidemic%20models%20of%20contact%20tracing%3A%20Systematic%20review%20of%20transmission%20studies%20of%20severe%20acute%20respiratory%20syndrome%20and%20Middle%20East%20respiratory%20syndrome%202019"
+        },
+        {
+            "id": "9",
+            "alt_id": "Cohen_2020_a",
+            "entry": "9. Cohen, J.; Normile, D. New SARS-like virus in China triggers alarm. Science 2020, 367, 234\u2013235. [CrossRef] 10. Lu, H.; Stratton, C.W.; Tang, Y.W. Outbreak of pneumonia of unknown etiology in Wuhan China: The mystery and the miracle. J. Med. Virol. 2020. [CrossRef] 11.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202020"
+        },
+        {
+            "id": "Parry_0000_a",
+            "alt_id": "10",
+            "entry": "Parry, J. China coronavirus: Cases surge as official admits human to human transmission. BMJ 2020, 368, m236. [CrossRef] [PubMed] 12. World Health Organization (WHO). Coronavirus. Available online: https://www.who.int/health-topics/",
+            "url": "https://www.who.int/health-topics/",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Parry%2C%20J.%20China%20coronavirus%3A%20Cases%20surge%20as%20official%20admits%20human%20to%20human%20transmission",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Parry%2C%20J.%20China%20coronavirus%3A%20Cases%20surge%20as%20official%20admits%20human%20to%20human%20transmission"
+        },
+        {
+            "id": "coronavirus_2020_a",
+            "alt_id": "11",
+            "entry": "coronavirus (accessed on 23 January 2020).",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=coronavirus%20accessed%20on%2023%20January%202020"
+        },
+        {
+            "id": "13",
+            "alt_id": "Egger_et+al_2017_a",
+            "entry": "13. Egger, M.; Johnson, L.; Althaus, C.; Sch\u00f6ni, A.; Salanti, G.; Low, N.; Norris, S.L. Developing WHO guidelines: Time to formally include evidence from mathematical modelling studies. F1000Research 2017, 6, 1584. [CrossRef] [PubMed] 14. Chen, T.; Rui, J.; Wang, Q.; Zhao, Z.; Cui, J.-A.; Yin, L. A mathematical model for simulating the transmission of Wuhan novel coronavirus. bioRxiv 2020. [CrossRef] 15.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Egger%2C%20M.%20Johnson%2C%20L.%20Althaus%2C%20C.%20Sch%C3%B6ni%2C%20A.%20Developing%20WHO%20guidelines%3A%20Time%20to%20formally%20include%20evidence%20from%20mathematical%20modelling%20studies.%20F1000Research%202017"
+        },
+        {
+            "id": "Imai_et+al_0000_a",
+            "alt_id": "13",
+            "entry": "Imai, N.; Dorigatti, I.; Cori, A.; Donnelly, C.; Riley, S.; Ferguson, N.M. Report 2: Estimating the Potential Total Number of Novel Coronavirus Cases in Wuhan City, China. Available online: https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoVoutbreak-report-22-01-2020.pdf (accessed on 23 January 2020).",
+            "url": "https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoVoutbreak-report-22-01-2020.pdf"
+        },
+        {
+            "id": "16",
+            "alt_id": "16._0000_b",
+            "entry": "16. World Health Organization (WHO). Novel Coronavirus\u2014China, Disease Outbreak News: Update. Available online: https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/ (accessed on 23 January 2020).",
+            "url": "https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/"
+        },
+        {
+            "id": "17",
+            "alt_id": "17._0000_c",
+            "entry": "17. World Health Organization (WHO). Situation Report. Available online: https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200123-sitrep-3-2019-ncov.pdf (accessed on 23 January 2020).",
+            "url": "https://www.who.int/docs/defaultsource/coronaviruse/situation-reports/20200123-sitrep-3-2019-ncov.pdf"
+        },
+        {
+            "id": "18",
+            "alt_id": "18._0000_d",
+            "entry": "18. Health Commission of Hubei Province. Available online: http://wjw.hubei.gov.cn/bmdt/ztzl/fkxxgzbdgrfyyq/ (accessed on 23 January 2020).",
+            "url": "http://wjw.hubei.gov.cn/bmdt/ztzl/fkxxgzbdgrfyyq/"
+        },
+        {
+            "id": "19",
+            "alt_id": "19._0000_e",
+            "entry": "19. National Health Commission of the People\u2019s Republic of China. Available online: http://www.nhc.gov.cn/xcs/xxgzbd/gzbd_index.shtml (accessed on 23 January 2020).",
+            "url": "http://www.nhc.gov.cn/xcs/xxgzbd/gzbd_index.shtml"
+        },
+        {
+            "id": "20",
+            "alt_id": "Castillo-Chavez_et+al_2003_a",
+            "entry": "20. Castillo-Chavez, C.; Castillo-Garsow, C.W.; Yakubu, A. Mathematical models of isolation and quarantine. JAMA 2003, 290, 2876\u20132877. [CrossRef] 21. Tang, S.; Xiao, Y.; Yang, Y.; Zhou, Y.; Wu, J.; Ma, Z. Community-based measures for mitigating the 2009 H1N1 pandemic in China. PLoS ONE 2010, 5, e10911. [CrossRef] 22.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Castillo-Chavez%2C%20C.%20Castillo-Garsow%2C%20C.W.%20Yakubu%2C%20A.%20Mathematical%20models%20of%20isolation%20and%20quarantine%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Castillo-Chavez%2C%20C.%20Castillo-Garsow%2C%20C.W.%20Yakubu%2C%20A.%20Mathematical%20models%20of%20isolation%20and%20quarantine%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Castillo-Chavez%2C%20C.%20Castillo-Garsow%2C%20C.W.%20Yakubu%2C%20A.%20Mathematical%20models%20of%20isolation%20and%20quarantine%202003"
+        },
+        {
+            "id": "Xiao_et+al_2015_a",
+            "alt_id": "19",
+            "entry": "Xiao, Y.; Tang, S.; Wu, J. Media impact switching surface during an infectious disease outbreak. Sci. Rep. 2015, 5, 7838. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xiao%2C%20Y.%20Tang%2C%20S.%20Wu%2C%20J.%20Media%20impact%20switching%20surface%20during%20an%20infectious%20disease%20outbreak%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Xiao%2C%20Y.%20Tang%2C%20S.%20Wu%2C%20J.%20Media%20impact%20switching%20surface%20during%20an%20infectious%20disease%20outbreak%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Xiao%2C%20Y.%20Tang%2C%20S.%20Wu%2C%20J.%20Media%20impact%20switching%20surface%20during%20an%20infectious%20disease%20outbreak%202015"
+        },
+        {
+            "id": "23",
+            "alt_id": "White_2008_a",
+            "entry": "23. White, L.F.; Pagano, M. A likelihood-based method for real-time estimation of the serial interval and reproductive number of an epidemic. Stat. Med. 2008, 27, 2999\u20133016. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=White%2C%20L.F.%20Pagano%2C%20M.%20A%20likelihood-based%20method%20for%20real-time%20estimation%20of%20the%20serial%20interval%20and%20reproductive%20number%20of%20an%20epidemic%202008",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=White%2C%20L.F.%20Pagano%2C%20M.%20A%20likelihood-based%20method%20for%20real-time%20estimation%20of%20the%20serial%20interval%20and%20reproductive%20number%20of%20an%20epidemic%202008",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=White%2C%20L.F.%20Pagano%2C%20M.%20A%20likelihood-based%20method%20for%20real-time%20estimation%20of%20the%20serial%20interval%20and%20reproductive%20number%20of%20an%20epidemic%202008"
+        },
+        {
+            "id": "24",
+            "alt_id": "24._0000_f",
+            "entry": "24. World Health Organization (WHO). Available online: https://www.who.int/news-room/detail/23-012020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committeeregarding-the-outbreak-of-novel-coronavirus-(2019-ncov) (accessed on 23 January 2020).",
+            "url": "https://www.who.int/news-room/detail/23-012020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committeeregarding-the-outbreak-of-novel-coronavirus-(2019-ncov"
+        },
+        {
+            "id": "25",
+            "alt_id": "Bogoch_et+al_2020_a",
+            "entry": "25. Bogoch, I.I.; Watts, A.; Thomas-Bachli, A.; Huber, C.; Kraemer, M.U.G.; Khan, K. Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel. J. Travel Med. 2020. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%202020"
+        },
+        {
+            "id": "26",
+            "alt_id": "Gumel_et+al_2004_a",
+            "entry": "26. Gumel, A.B.; Ruan, S.G.; Day, T.; Watmough, J.; Brauer, F.; van den Driessche, P.; Gabrielson, D.; Bowman, C.; Alexander, M.E.; Ardal, S.; et al. Modelling strategies for controlling SARS outbreaks. Proc. R. Soc. Lond. B. 2004, 271, 2223\u20132232. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Gumel%2C%20A.B.%20Ruan%2C%20S.G.%20Day%2C%20T.%20Watmough%2C%20J.%20Modelling%20strategies%20for%20controlling%20SARS%20outbreaks%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Gumel%2C%20A.B.%20Ruan%2C%20S.G.%20Day%2C%20T.%20Watmough%2C%20J.%20Modelling%20strategies%20for%20controlling%20SARS%20outbreaks%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Gumel%2C%20A.B.%20Ruan%2C%20S.G.%20Day%2C%20T.%20Watmough%2C%20J.%20Modelling%20strategies%20for%20controlling%20SARS%20outbreaks%202004"
+        },
+        {
+            "id": "27",
+            "alt_id": "Majumder_et+al_2014_a",
+            "entry": "27. Majumder, M.S.; Rivers, C.; Lofgren, E.; Fisman, D. Estimation of MERS-Coronavirus reproductive number and case fatality rate for the Spring 2014 Saudi Arabia outbreak: Insights from publicly available data. PLoS Curr. 2014, 18, 6.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Majumder%20MS%20Rivers%20C%20Lofgren%20E%20Fisman%20D%20Estimation%20of%20MERSCoronavirus%20reproductive%20number%20and%20case%20fatality%20rate%20for%20the%20Spring%202014%20Saudi%20Arabia%20outbreak%20Insights%20from%20publicly%20available%20data%20PLoS%20Curr%202014%2018%206",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Majumder%20MS%20Rivers%20C%20Lofgren%20E%20Fisman%20D%20Estimation%20of%20MERSCoronavirus%20reproductive%20number%20and%20case%20fatality%20rate%20for%20the%20Spring%202014%20Saudi%20Arabia%20outbreak%20Insights%20from%20publicly%20available%20data%20PLoS%20Curr%202014%2018%206",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Majumder%20MS%20Rivers%20C%20Lofgren%20E%20Fisman%20D%20Estimation%20of%20MERSCoronavirus%20reproductive%20number%20and%20case%20fatality%20rate%20for%20the%20Spring%202014%20Saudi%20Arabia%20outbreak%20Insights%20from%20publicly%20available%20data%20PLoS%20Curr%202014%2018%206"
+        },
+        {
+            "id": "28",
+            "alt_id": "Li_et+al_2020_a",
+            "entry": "28. Li, Q.; Guan, X.; Wu, P.; Wang, X.; Zhou, L.; Tong, Y.; Ren, R.; Leung, K.S.M.; Lau, E.H.Y.; Wong, J.Y.; et al. Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia. N. Engl. J. Med. 2020. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20transmission%20dynamics%20in%20Wuhan%2C%20China%2C%20of%20novel%20coronavirus-infected%20pneumonia%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20transmission%20dynamics%20in%20Wuhan%2C%20China%2C%20of%20novel%20coronavirus-infected%20pneumonia%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Li%2C%20Q.%20Guan%2C%20X.%20Wu%2C%20P.%20Wang%2C%20X.%20Early%20transmission%20dynamics%20in%20Wuhan%2C%20China%2C%20of%20novel%20coronavirus-infected%20pneumonia%202020"
+        },
+        {
+            "id": "29",
+            "alt_id": "Zhao_et+al_2019_a",
+            "entry": "29. Zhao, S.; Lin, Q.; Ran, J.; Musa, S.S.; Yang, G.; Wang, W.; Lou, Y.; Gao, D.; Yang, L.; He, D.; et al. Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak. Int. J. Infect. Dis. 2020. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Zhao%2C%20S.%20Lin%2C%20Q.%20Ran%2C%20J.%20Musa%2C%20S.S.%20Preliminary%20estimation%20of%20the%20basic%20reproduction%20number%20of%20novel%20coronavirus%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Zhao%2C%20S.%20Lin%2C%20Q.%20Ran%2C%20J.%20Musa%2C%20S.S.%20Preliminary%20estimation%20of%20the%20basic%20reproduction%20number%20of%20novel%20coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Zhao%2C%20S.%20Lin%2C%20Q.%20Ran%2C%20J.%20Musa%2C%20S.S.%20Preliminary%20estimation%20of%20the%20basic%20reproduction%20number%20of%20novel%20coronavirus%202019"
+        },
+        {
+            "id": "30",
+            "alt_id": "Guerra_et+al_2017_a",
+            "entry": "30. Guerra, F.M.; Bolotin, S.; Lim, G.; Heffernan, J.; Deeks, S.L.; Li, Y.; Crowcroft, N.S. The basic reproduction number (R0) of measles: A systematic review. Lancet Infect. Dis. 2017, 17, e420\u2013e428. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Guerra%2C%20F.M.%20Bolotin%2C%20S.%20Lim%2C%20G.%20Heffernan%2C%20J.%20The%20basic%20reproduction%20number%20%28R0%29%20of%20measles%3A%20A%20systematic%20review%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Guerra%2C%20F.M.%20Bolotin%2C%20S.%20Lim%2C%20G.%20Heffernan%2C%20J.%20The%20basic%20reproduction%20number%20%28R0%29%20of%20measles%3A%20A%20systematic%20review%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Guerra%2C%20F.M.%20Bolotin%2C%20S.%20Lim%2C%20G.%20Heffernan%2C%20J.%20The%20basic%20reproduction%20number%20%28R0%29%20of%20measles%3A%20A%20systematic%20review%202017"
+        },
+        {
+            "id": "31",
+            "alt_id": "Rothe_et+al_2020_a",
+            "entry": "31. Rothe, C.; Schunk, M.; Sothmann, P.; Bretzel, G.; Froeschl, G.; Wallrauch, C.; Zimmer, T.; Thiel, V.; Janke, C.; Guggemos, W.; et al. Transmission of 2019-nCoV infection from an asymptomatic contact in Germany. N. Engl. J. Med. 2020. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Rothe%20C%20Schunk%20M%20Sothmann%20P%20Bretzel%20G%20Froeschl%20G%20Wallrauch%20C%20Zimmer%20T%20Thiel%20V%20Janke%20C%20Guggemos%20W%20et%20al%20Transmission%20of%202019nCoV%20infection%20from%20an%20asymptomatic%20contact%20in%20Germany%20N%20Engl%20J%20Med%202020%20CrossRef%20PubMed",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Rothe%20C%20Schunk%20M%20Sothmann%20P%20Bretzel%20G%20Froeschl%20G%20Wallrauch%20C%20Zimmer%20T%20Thiel%20V%20Janke%20C%20Guggemos%20W%20et%20al%20Transmission%20of%202019nCoV%20infection%20from%20an%20asymptomatic%20contact%20in%20Germany%20N%20Engl%20J%20Med%202020%20CrossRef%20PubMed",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Rothe%20C%20Schunk%20M%20Sothmann%20P%20Bretzel%20G%20Froeschl%20G%20Wallrauch%20C%20Zimmer%20T%20Thiel%20V%20Janke%20C%20Guggemos%20W%20et%20al%20Transmission%20of%202019nCoV%20infection%20from%20an%20asymptomatic%20contact%20in%20Germany%20N%20Engl%20J%20Med%202020%20CrossRef%20PubMed"
+        },
+        {
+            "id": "32",
+            "alt_id": "Hui_et+al_2019_a",
+            "entry": "32. Hui, D.S.; Azhar, E.E.I.; Madani, T.A.; Ntoumi, F.; Kock, R.; Dar, O.; Ippolito, G.; Mchugh, T.D.; Memish, Z.A.; Drosten, C.; et al. The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan, China. Int. J. Infect. Dis. 2020, 91, 264\u2013266. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hui%20DS%20Azhar%20EEI%20Madani%20TA%20Ntoumi%20F%20Kock%20R%20Dar%20O%20Ippolito%20G%20Mchugh%20TD%20Memish%20ZA%20Drosten%20C%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%202020%2091%20264266%20CrossRef",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hui%20DS%20Azhar%20EEI%20Madani%20TA%20Ntoumi%20F%20Kock%20R%20Dar%20O%20Ippolito%20G%20Mchugh%20TD%20Memish%20ZA%20Drosten%20C%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%202020%2091%20264266%20CrossRef",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hui%20DS%20Azhar%20EEI%20Madani%20TA%20Ntoumi%20F%20Kock%20R%20Dar%20O%20Ippolito%20G%20Mchugh%20TD%20Memish%20ZA%20Drosten%20C%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%202020%2091%20264266%20CrossRef"
+        },
+        {
+            "id": "33",
+            "alt_id": "Cheng_et+al_2020_a",
+            "entry": "33. Cheng, V.C.C.; Wong, S.C.; To, K.K.W.; Ho, P.L.; Yuen, K.Y. Preparedness and proactive infection control measures against the emerging Wuhan coronavirus pneumonia in China. J. Hosp. Infect. 2020. [CrossRef] ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cheng%2C%20V.C.C.%20Wong%2C%20S.C.%20To%2C%20K.K.W.%20Ho%2C%20P.L.%20Preparedness%20and%20proactive%20infection%20control%20measures%20against%20the%20emerging%20Wuhan%20coronavirus%20pneumonia%20in%20China%202020",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cheng%2C%20V.C.C.%20Wong%2C%20S.C.%20To%2C%20K.K.W.%20Ho%2C%20P.L.%20Preparedness%20and%20proactive%20infection%20control%20measures%20against%20the%20emerging%20Wuhan%20coronavirus%20pneumonia%20in%20China%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cheng%2C%20V.C.C.%20Wong%2C%20S.C.%20To%2C%20K.K.W.%20Ho%2C%20P.L.%20Preparedness%20and%20proactive%20infection%20control%20measures%20against%20the%20emerging%20Wuhan%20coronavirus%20pneumonia%20in%20China%202020"
+        }
+    ],
+    "facts": [
+        "A deterministic compartmental model was devised based on the clinical progression of the disease",
+        "The estimations based on likelihood and model analysis show that the control reproduction number may be as high as",
+        "Sensitivity analyses show that interventions",
+        "such as intensive contact tracing followed by quarantine and isolation",
+        "with the effect of travel restriction adopted by Wuhan on 2019-nCoV infection",
+        "in Beijing being almost equivalent to increasing quarantine by a 100 thousand baseline value",
+        "the expensive, resource-intensive measures implemented by the Chinese authorities can contribute to the prevention",
+        "the outbreak is expected to peak within two weeks with a significant low peak value",
+        "the number of infected individuals in seven days will decrease by 91.14% in Beijing",
+        "single-stranded, positive-sense RNA viruses belonging to the family of Coronaviridae",
+        "The reproduction number based on likelihood-based estimation ranges from",
+        "from Table 2 that Rc is sensitive to changes in mean generation intervals",
+        "that the estimates of Rc based on the two time series agree",
+        "the estimations based on dataRev1 as the comparison reference to verify",
+        "a high reproduction number is consistent with the opinion that the virus has gone",
+        "four generations of transmission in the period covered by this study",
+        "that our estimation is based on a dataset collected during a period",
+        "that of the earlier periods covered by other studies",
+        "recently published studies based on datasets during periods",
+        "accuracy and reliability of data improves over time",
+        "estimations are highly dependent on the specific datasets utilized",
+        "that several key clinical parameters could be inferred from relevant clinical data based on sero-epidemiological surveys",
+        "Coronaviruses occasionally lead to major outbreaks",
+        "which would be of crucial importance to design",
+        "which seems consistent with the special period",
+        "worth mentioning that our model made a",
+        "which is very close to the real number of cases",
+        "rather high reproduction number suggests that the outbreak may be more serious than what has been reported",
+        "the burden generated by the spreading of the new virus",
+        "TBhye Minofedrerl ing the effectiveness of intervention measures",
+        "compartmental model based on the clinical progression of the disease",
+        "the number of infected individuals in seven days will decrease by 88.84%"
+    ],
+    "claims": [
+        "TBhye Minofedrerl ing the effectiveness of intervention measures, including quarantine and isolation (Figure 1B), we estimated the required effectiveness of these interventions in order to prevent the ouHtebrree,ak.we propose a deterministic \u201cSusceptible-Exposed-Infectious-Recovered\u201d (SEIR) compartmental model based on the clinical progression of the disease, epidemiological status of the 2in.2d.iTvihdeuMalosdaelnd intervention measures (Figure 2)",
+        "Since the generation interval of the 2019-nCoV is undetermined, we investigated the sensitivity of Rc to different E values ranging from 2 to 8 days (given in Table 2)",
+        "We find that with travel restriction (no imported exposed individuals to Beijing), the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction, while, given no travel restriction, the number of infected individuals in seven days will decrease by 88.84% only if we increase the quarantine rate by 100 thousand times, as shown in Figure 6A",
+        "We find that with travel restriction (no imported exposed individuals to Beijing), the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction, while, given no travel restriction, the number of infected individuals in seven days will decrease by 88.84% only if we increase the quarantine rate by 100 thousand times, as shown in Figure 6A",
+        "We found that the basic reproduction number could be as high as 6.47 (95% CI 5.71\u20137.23), which seems consistent with the special period prior to the Spring Festival when contacts were higher than usual, and with the opinion that the virus has gone through at least three\u2013four generations"
+    ],
+    "findings": [
+        "The estimations based on likelihood and model analysis show that the control reproduction number may be as high as 6.47 (95% CI 5.71\u20137.23)",
+        "By fitting the model without considering asymptomatic infections to the data of hospital notification for the confirmed 2019-nCoV cases (dataRev1), we estimated the mean control reproductive number Rc to be 6.47 (95% CI 5.71\u20137.23), whereas other parameter estimations are reported in Table 1",
+        "The mean control reproduction number was estimated to be as high as 6.47 (95% CI 5.71\u20137.23), in",
+        "The mean control reproduction number was estimated to be as high as 6.47 (95% CI 5.71\u20137.23), in comparison with the values of the SARS epidemics (R0 = 4.91) in Beijing, China, in 2003 [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>], and MERS in Jeddah (R0 = 3.5\u20136.7) and Riyadh (R0 = 2.0\u20132.8), Kingdom of Saudi Arabia, in 2014 [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]",
+        "Furthermore, we noted that more recently published studies based on datasets during periods comparable with ours reported similar findings in terms of a high basic reproduction number (for instance, Reference [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>], where authors, using an exponential growth method, computed a basic reproduction number of 6.11 (95% CI 4.51\u20138.16), assuming no changes in reporting rate and with a serial interval of 8.4 \u00b1 3.8 days)",
+        "We found that the basic reproduction number could be as high as 6.47 (95% CI 5.71\u20137.23), which seems consistent with the special period prior to the Spring Festival when contacts were higher than usual, and with the opinion that the virus has gone through at least three\u2013four generations"
+    ],
+    "processes": [],
+    "key_statements": [
+        "The reproduction number based on likelihood-based estimation ranges from 1.66 to 10 and it follows from Table 2 that Rc is sensitive to changes in mean generation intervals",
+        "We find that with travel restriction, the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction, while, given no travel restriction, the number of infected individuals in seven days will decrease by 88.84% only if we increase the quarantine rate by 100 thousand times, as shown in Figure 6A",
+        "The mean control reproduction number was estimated to be as high as 6.47 (95% CI 5.71\u20137.23), in comparison with the values of the Severe Acute Respiratory Syndrome\u201d epidemics (R0 = 4.91) in Beijing, China, in 2003 [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>], and Middle East Respiratory Syndrome\u201d in Jeddah (R0 = 3.5\u20136.7) and Riyadh (R0 = 2.0\u20132.8), Kingdom of Saudi Arabia, in 2014 [<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]",
+        "We noted that more recently published studies based on datasets during periods comparable with ours reported similar findings in terms of a high basic reproduction number (for instance, Reference [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>], where authors, using an exponential growth method, computed a basic reproduction number of 6.11 (95% CI 4.51\u20138.16), assuming no changes in reporting rate and with a serial interval of 8.4 \u00b1 3.8 days)",
+        "Coronaviruses occasionally lead to major outbreaks, with documented reproduction numbers ranging from 2.0 to 4.9",
+        "There is a dearth of epidemiological data about the emerging coronavirus, which would be of crucial importance to design and implement timely, ad hoc effective public health interventions, such as contact tracing, quarantine and travel restrictions",
+        "We found that the basic reproduction number could be as high as 6.47 (95% CI 5.71\u20137.23), which seems consistent with the special period prior to the Spring Festival when contacts were higher than usual, and with the opinion that the virus has gone through at least three\u2013four generations",
+        "It is worth mentioning that our model made a very good prediction of the confirmed cases from 23 to 29 January 2020, as shown in Table 4",
+        "The predicted confirmed cases should be 7723 as of 29 January 2020, which is very close to the real number of cases of 7711",
+        "The rather high reproduction number suggests that the outbreak may be more serious than what has been reported so far, given the particular season of increasing social contacts, warranting effective, strict public health measures aimed to mitigate the burden generated by the spreading of the new virus"
+    ],
+    "top_statements": [
+        "Coronaviruses are enveloped, single-stranded, positive-sense RNA viruses belonging to the family of Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>]",
+        "We find that with travel restriction, the number of infected individuals in seven days will decrease by 91.14% in Beijing, compared with the scenario of no travel restriction, while, given no travel restriction, the number of infected individuals in seven days will decrease by 88.84% only if we increase the quarantine rate by 100 thousand times, as shown in Figure 6A",
+        "Coronaviruses occasionally lead to major outbreaks, with documented reproduction numbers ranging from 2.0 to 4.9",
+        "There is a dearth of epidemiological data about the emerging coronavirus, which would be of crucial importance to design and implement timely, ad hoc effective public health interventions, such as contact tracing, quarantine and travel restrictions",
+        "We found that the basic reproduction number could be as high as 6.47 (95% CI 5.71\u20137.23), which seems consistent with the special period prior to the Spring Festival when contacts were higher than usual, and with the opinion that the virus has gone through at least three\u2013four generations",
+        "The rather high reproduction number suggests that the outbreak may be more serious than what has been reported so far, given the particular season of increasing social contacts, warranting effective, strict public health measures aimed to mitigate the burden generated by the spreading of the new virus"
+    ],
+    "headline": "We found that the basic reproduction number could be as high as 6.47, which seems consistent with the special period prior to the Spring Festival when contacts were higher than usual, and with the opinion that the virus has gone through at least three\u2013four generations",
+    "contexts": [],
+    "abbreviations": {
+        "SARS": "Severe Acute Respiratory Syndrome\u201d",
+        "MERS": "Middle East Respiratory Syndrome\u201d",
+        "WHO": "World Health Organization",
+        "NPIs": "non-pharmaceutical interventions",
+        "MCMC": "Markov Chain Monte Carlo"
+    }
+}

@@ -1,0 +1,241 @@
+{
+    "filename": "2020.01.30.20019828.full.pdf",
+    "content_type": "application/pdf",
+    "file_size": 258812,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.1101/2020.01.30.20019828",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/06/2020.01.30.20019828.full.pdf"
+        },
+        "title": "Modelling the epidemic trend of the 2019-nCOV outbreak in Hubei Province, China",
+        "author": "Lizhe Ai",
+        "date": 2020,
+        "abstract": "As of 8am 30th January (Beijing Time) 2020, Approximate 8000 cases across the world have been confirmed. It's necessary to simulate epidemic trend of the 2019-nCOV outbreak in Hubei Province, the hardest-hit area. By SEIR simulation, the predicted epidemic peak in Hubei will be within 28th January 2020 to 7th February 2020, up to 7000-9000 infectious cases in total. The estimate above was based on some assumptions and limitations exited.",
+        "references": "@incollection{organization2019a,\n  author = {Organization, World Health},\n  title = {Novel coronavirus},\n  date = {2019},\n  source = {Situation report 3. 237 2020},\n  language = {}\n}\n@misc{eurosurveillance2020a,\n  author = {Eurosurveillance},\n  date = {2020},\n  volume = {25},\n  pages = {2000044}\n}\n@techreport{unknown-a,\n  title = {the People\u2019s Republic of China. Outbreak notification},\n  url = {http://www.nhc.gov.cn/xcs/yqtb/202001/5d19a4f6d3154b9fae328918ed2e3c8a.shtml},\n  language = {},\n  institution = {National Health Commission of}\n}\n@misc{organization-a,\n  author = {Organization, World Health},\n  title = {Clinical management of severe acute respiratory infection when novel coronavirus (nCOV) infection is suspected: Interim guidance},\n  language = {}\n}\n@Internet{imai2019a,\n  author = {Imai, N. and Dorigatti, I. and Cori, A. and Riley, S. and Ferguson, N.M.},\n  title = {Report 1: Estimating the potential total number of novel Coronavirus},\n  date = {2019},\n  medium = {Internet},\n  url = {https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan242},\n  source = {cases in Wuhan City, China},\n  language = {},\n  urldate = {2020 [cited 23 Available:}\n}\n@misc{shen-a,\n  author = {Shen, Mingwang and Peng, Zhihang and Xiao, Yanni and Zhang, Lei},\n  title = {Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020.01.23.916726 7. Bjnews. Baidu map data shows that Wuhan's population recently moved out of cities mostly in Hubei Province},\n  url = {http://www.bjnews.com.cn/finance/2020/01/23/678407.html},\n  language = {}\n}\n",
+        "emails": [
+            "ailizhe1987@163.com"
+        ],
+        "references_ris": "TY  - CHAP\nAU  - Organization, World Health\nTI  - Novel coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Situation report 3. 237 2020\nLA  - \nER  - \n\nTY  - GEN\nAU  - Eurosurveillance\nPY  - 2020\nDA  - 2020\nVL  - 25\nSP  - 2000044\nER  - \n\nTY  - RPRT\nTI  - the People\u2019s Republic of China. Outbreak notification\nUR  - http://www.nhc.gov.cn/xcs/yqtb/202001/5d19a4f6d3154b9fae328918ed2e3c8a.shtml\nLA  - \nC1  - National Health Commission of\nER  - \n\nTY  - GEN\nAU  - Organization, World Health\nTI  - Clinical management of severe acute respiratory infection when novel coronavirus (nCOV) infection is suspected: Interim guidance\nLA  - \nER  - \n\nTY  - GEN\nAU  - Imai, N.\nAU  - Dorigatti, I.\nAU  - Cori, A.\nAU  - Riley, S.\nAU  - Ferguson, N.M.\nTI  - Report 1: Estimating the potential total number of novel Coronavirus\nPY  - 2019\nDA  - 2019\nC1  - Internet\nUR  - https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan242\nT2  - cases in Wuhan City, China\nLA  - \nC1  - 2020 [cited 23 Available:\nER  - \n\nTY  - GEN\nAU  - Shen, Mingwang\nAU  - Peng, Zhihang\nAU  - Xiao, Yanni\nAU  - Zhang, Lei\nTI  - Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020.01.23.916726 7. Bjnews. Baidu map data shows that Wuhan's population recently moved out of cities mostly in Hubei Province\nUR  - http://www.bjnews.com.cn/finance/2020/01/23/678407.html\nLA  - \nER  - \n\n",
+        "links": [],
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": []
+    },
+    "sections": {
+        "background": [
+            "<strong>Background and current epidemic situation</strong><br/><br/>In December, 2019, a series of pneumonia cases infected by a novel 2019-nCOV coronavirus emerged in Wuhan, Hubei Province, China. 2019-nCOV has demonstrated comparable transmissibility with infamous SARS and MERS, all belonging to the family Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Surging with worrisome speed. As of 8am 30th January (Beijing Time) 2020, Approximate 8000 cases across the world have been confirmed, of which 2261 cases confirmed in Wuhan City and 2325 cases confirmed in other cities in Hubei Province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. There was a mean 3-7day incubation period. And the most common symptoms of illness were fever, cough, and myalgia or fatigue [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Articles on modelling epidemic trend of 2019-nCOV have been published [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. The predicted epidemic peak will be in late February 2020. Effective interventions implemented by Chinese Government, the epidemic will gradually die off in late March 2020."
+        ],
+        "discussion": [
+            "Compared with SARS in2003, the emergency response capabilities of Chinese government have been improved. Interventions or relevant policies, such as free treatment for 2019-nCOV infectious patients, wildlife trade ban during the plague, traffic control, have been implemented rapidly. All models are wrong, but some are useful! The estimate above was based on some assumptions and limitations exited. Affected by Spring Festival travel, the epidemic has spread rapidly and trend is difficult to simulate. And further investigations on potential spatiotemporal transmission pattern are warranted.    Model and Method"
+        ]
+    },
+    "structured_content": {
+        "Abstract": [
+            "As of 8am 30th January (Beijing Time) 2020, Approximate 8000 cases across the world have been confirmed. It\u2019s necessary to simulate epidemic trend of the 2019-nCOV outbreak in Hubei Province, the hardest-hit area. By SEIR simulation, the predicted epidemic peak in Hubei will be within 28th January 2020 to 7th February 2020, up to 7000-9000 infectious cases in total. The estimate above was based on some assumptions and limitations exited."
+        ],
+        "Background and current epidemic situation": [
+            "In December, 2019, a series of pneumonia cases infected by a novel 2019-nCOV coronavirus emerged in Wuhan, Hubei Province, China. 2019-nCOV has demonstrated comparable transmissibility with infamous SARS and MERS, all belonging to the family Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. Surging with worrisome speed. As of 8am 30th January (Beijing Time) 2020, Approximate 8000 cases across the world have been confirmed, of which 2261 cases confirmed in Wuhan City and 2325 cases confirmed in other cities in Hubei Province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]. There was a mean 3-7day incubation period. And the most common symptoms of illness were fever, cough, and myalgia or fatigue [<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>]. Articles on modelling epidemic trend of 2019-nCOV have been published [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. The predicted epidemic peak will be in late February 2020. Effective interventions implemented by Chinese Government, the epidemic will gradually die off in late March 2020.",
+            "Due to Spring Festival, nearly 5 million people left off Wuhan before the traffic blockade January 10th-22th, 2020. Fortunately, most of travelers above moved around in Hubei Province [7]. As the intense intervention implemented, the outbreak in provinces other than Hubei has been effectively under control (Figure1). The epidemic trend focused on Hubei Province was simulated by a SEIR model. We estimated a total of approximate 5000 cases of 2019-nCOV in Hubei Province (mainly distributed in Wuhan",
+            "\u07da City) by 22th January 2020. The transmission rate in Hubei was calculated as 0.8 from 12th",
+            "December 2019 (the first 2019-nCOV case tracked) until 22th January 2020 (traffic blockade started). Under the intense intervention, we assumed the transmission rate \u07da decreased to",
+            "0.005-0.1. With the assumption of no resurges resulted by virus mutation or unknown source of infection, the epidemic peak in Hubei will be within 28th January 2020 to 7th February 2020, up to 7000-9000 infectious cases in total."
+        ],
+        "Discussion": [
+            "Compared with SARS in2003, the emergency response capabilities of Chinese government have been improved. Interventions or relevant policies, such as free treatment for 2019-nCOV infectious patients, wildlife trade ban during the plague, traffic control, have been implemented rapidly. All models are wrong, but some are useful! The estimate above was based on some assumptions and limitations exited. Affected by Spring Festival travel, the epidemic has spread rapidly and trend is difficult to simulate. And further investigations on potential spatiotemporal transmission pattern are warranted.",
+            "The total number of cases in Hubei Province by 22th January 2020 is given by [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]:",
+            "\u202b\u071b\u0709\u070d\u071b\u071a\u070d\u071e\u0717 \u070c\u070d\u071c\u070b\u070d\u071c\u070d\u070c \u071b\u070d\u071b\u0709\u070b \u070e\u0717 \u071a\u070d\u070a\u0715\u071d\u0716\u202c \u202b\u071b\u0709\u070d\u071b\u071a\u070d\u071e\u0717 \u070c\u070d\u071c\u070b\u070d\u071c\u070d\u070c \u070d\u070a \u0714\u0714\u0711\u071f \u070d\u071b\u0709\u070b \u070d\u0716\u0717 \u0721\u0716\u0709 \u0721\u071c\u0711\u0714\u0711\u070a\u0709\u070a\u0717\u071a\u0718\u202c",
+            "Where the probability any one case will be detected overseas (\u202b )\u074c\u202cis given by: \u202b \u0718\u202c\u0d4c \u202b \u0714\u070d\u071e\u0709\u071a\u071c \u0714\u0709\u0716\u0717\u0711\u071c\u0709\u0716\u071a\u070d\u071c\u0716\u0711 \u070e\u0717 \u0721\u071c\u0711\u0714\u0711\u070a\u0709\u070a\u0717\u071a\u0718 \u0721\u0714\u0711\u0709\u070c\u202c\u0d48 \u202b\u070d\u071b\u0709\u070b \u0709 \u070e\u0717 \u0716\u0717\u0711\u071c\u070b\u070d\u071c\u070d\u070c \u0717\u071c \u070d\u0715\u0711\u071c \u0716\u0709\u070d\u0715\u202c",
+            "The daily probability of travel is calculated by:",
+            "\u0748\u0740\u073d\u0745\u202b\u0751\u0739 \u0749\u074b\u074e\u0742 \u074f\u074e\u0748\u0748\u0741\u0741\u0752\u073d\u074e\u0750 \u0748\u073d\u074a\u074b\u0745\u0750\u073d\u074a\u074e\u0741\u0750\u074a\u0745 \u0740\u074a\u0751\u074b\u073e\u0750\u0751\u074b \u0755\u0748\u0745\u073d\u0740 = \u0748\u0741\u0752\u073d\u074e\u0750 \u0748\u073d\u074a\u074b\u0745\u0750\u073d\u074a\u074e\u0741\u0750\u074a\u0745 \u0742\u074b \u0755\u0750\u0748\u073e\u073e\u0745\u0745\u073d\u074b\u074e\u074c \u0755\u202ch\u073d\u074a \u073f\u073d\u202b\u073f\u0750\u202ch\u0741\u0749\u0741\u074a\u202b\u0751\u0739 \u0742\u074b \u074a\u074b\u0745\u0750\u0748\u073d\u0751\u074c\u074b\u074c \u0750\u202ch\u073d\u074a \u073d\u0745\u202b\u0750\u074e\u074b\u074c\u074e\u202c",
+            "The mean time to detection can be approximated by: mean time to detection \u0d4c incubation period \u0d45 mean time from onset of symptoms to detection",
+            "Daily international passengers travelling out of Wuhan International Airport = 3301",
+            "Ignoring sporadic cases in cities other than Wuhan, we estimated 5000 cases of 2019-nCOV in Hubei Province by",
+            "22th January 2020.",
+            "We proposed a SEIR model to simulate the transmission and trend of 2019-nCov in Hubei Province [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]. The population was divided into four compartments: susceptible individuals (S), asymptomatic individuals during the incubation period (E), confirmed infectious individuals (I), and recovered individuals (R). \u07da denoted the mean person-to-person transmission rate per day in the absence of control interventions. Individuals in the incubation period progressed to the infectious compartment at a rate k. Infectious individuals recovered and died at the rate",
+            "\u07db.",
+            "We set parameters and initial values as follows: Average incubation time (k) =7; Average illness duration (\u202b= )\u074e\u202c10; Population (N) =19million; Susceptible individuals (S) =19million minus 1; Symptomatic individuals during the incubation period (E) =0; Confirmed infectious individuals (I) =1; Recovered individuals (R) =0; By simulation, when \u07da 22th January 2020. approximate 0.8, the total number of case would be up to 5000 by",
+            "Meanwhile, there were 10000 exposed people (E) and 1800 recovery people (R).",
+            "Susceptible individuals (S) =59.17 million minus (E+I+R) Symptomatic individuals during the incubation period (E) =10000 Confirmed infectious individuals (I) =5000 Recovered individuals (R) =1800 By simulation, the epidemic peak in Hubei will be within 28th January 2020 to 7th February 2020, up to",
+            "7000-9000 infectious cases in total (Figure 2)."
+        ],
+        "References": [
+            "1. World Health Organization. Novel coronavirus (2019-nCoV). Situation report 3. 237 2020.",
+            "2.Wu P, Hao X, Lau EHY, Wong JY, Leung, K S M, Wu JT, et al Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January",
+            "2020. Eurosurveillance. 2020; 25: 2000044.",
+            "3. National Health Commission of the People\u2019s Republic of China. Outbreak notification.",
+            "http://www.nhc.gov.cn/xcs/yqtb/202001/5d19a4f6d3154b9fae328918ed2e3c8a.shtml",
+            "4. World Health Organization. Clinical management of severe acute respiratory infection when novel coronavirus (nCOV) infection is suspected: Interim guidance",
+            "5. Imai N, Dorigatti I, Cori A, Riley S, Ferguson NM. Report 1: Estimating the potential total number of novel Coronavirus (2019-nCoV) cases in Wuhan City, China [Internet]. 2020 [cited 23",
+            "Jan",
+            "2020].",
+            "Available: https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan242 coronavirus",
+            "6. Mingwang Shen, Zhihang Peng, Yanni Xiao, Lei Zhang. Modelling the epidemic trend of the",
+            "2019 novel coronavirus outbreak in China. bioRxiv 2020.01.23.916726 7. Bjnews. Baidu map data shows that Wuhan's population recently moved out of cities mostly in Hubei Province. http://www.bjnews.com.cn/finance/2020/01/23/678407.html"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "cases",
+            "number": 8000,
+            "context": ". <mark class=\"stats\">As of 8am 30th January (Beijing Time) 2020, Approximate 8000 cases across the world have been confirmed</mark>. It's necessary to simulate epidemic trend of the 2019-nCOV outbreak in Hubei Province, the hardest-hit area"
+        },
+        {
+            "participant": "cases",
+            "number": 8000,
+            "context": "Surging with worrisome speed. <mark class=\"stats\">As of 8am 30th January (Beijing Time) 2020, Approximate 8000 cases across the world have been confirmed, of which 2261 cases confirmed in Wuhan City and 2325 cases confirmed in other cities in Hubei Province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]</mark>. There was a mean 3-7day incubation period"
+        },
+        {
+            "participant": "people",
+            "number": 5000000,
+            "context": "Effective interventions implemented by Chinese Government, the epidemic will gradually die off in late March 2020. <mark class=\"stats\">Due to Spring Festival, nearly 5 million people left off Wuhan before the traffic blockade January 10th-22th, 2020</mark>. Fortunately, most of travelers above moved around in Hubei Province [7]"
+        },
+        {
+            "participant": "cases",
+            "number": 5000,
+            "context": "The epidemic trend focused on Hubei Province was simulated by a SEIR model. <mark class=\"stats\">We estimated a total of approximate 5000 cases of 2019-nCOV in Hubei Province (mainly distributed in Wuhan</mark>. \u07da City) by 22th January 2020"
+        },
+        {
+            "participant": "cases",
+            "number": 5000,
+            "context": "The Exported number of confirmed cases by 22th January 2020 = 9. <mark class=\"stats\">Ignoring sporadic cases in cities other than Wuhan, we estimated 5000 cases of 2019-nCOV in Hubei Province by</mark>. 22th January 2020"
+        },
+        {
+            "participant": "exposed people",
+            "number": 10000,
+            "context": "We set parameters and initial values as follows: Average incubation time (k) =7; Average illness duration (\u202b= )\u074e\u202c10; Population (N) =19million; Susceptible individuals (S) =19million minus 1; Symptomatic individuals during the incubation period (E) =0; Confirmed infectious individuals (I) =1; Recovered individuals (R) =0; By simulation, when \u07da 22th January 2020. approximate 0.8, the total number of case would be up to 5000 by. <mark class=\"stats\">Meanwhile, there were 10000 exposed people (E) and 1800 recovery people (R)</mark>. We set parameters and initial values as follows Average incubation time (k) =7"
+        },
+        {
+            "participant": "Confirmed infectious individuals",
+            "number": 10000,
+            "context": "Population (N) =59.17million; \u07da Transmission rate ( ) =0.005 to 0.1 by 0.005. <mark class=\"stats\">Susceptible individuals (S) =59.17 million minus (E+I+R) Symptomatic individuals during the incubation period (E) =10000 Confirmed infectious individuals (I) =5000 Recovered individuals (R) =1800 By simulation, the epidemic peak in Hubei will be within 28th January 2020 to 7th February 2020, up to</mark>. 7000-9000 infectious cases in total (Figure 2)"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "nCOV",
+        "coronavirus",
+        "30th january",
+        "ncov outbreak",
+        "chinese government",
+        "beijing time",
+        "epidemic peak",
+        "hubei province",
+        "SARS",
+        "epidemic trend"
+    ],
+    "keyword_relevance": {
+        "nCOV": 0.37037037037037035,
+        "coronavirus": 0.2222222222222222,
+        "epidemic trend": 0.18518518518518517,
+        "epidemic peak": 0.14814814814814814,
+        "SARS": 0.07407407407407407,
+        "30th january": 0.0,
+        "ncov outbreak": 0.0,
+        "chinese government": 0.0,
+        "beijing time": 0.0,
+        "hubei province": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> <strong>Background and current epidemic situation</strong><br/><br/>In December, 2019, a series of pneumonia cases infected by a novel 2019-nCOV coronavirus emerged in Wuhan, Hubei Province, China. 2019-nCOV has demonstrated comparable transmissibility with infamous SARS and MERS, all belonging to the family Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+        "In December, 2019, a series of pneumonia cases infected by a novel 2019-nCOV coronavirus emerged in Wuhan, Hubei Province, China.",
+        "Articles on modelling epidemic trend of 2019-nCOV have been published [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+        "The predicted epidemic peak will be in late February 2020.",
+        "Effective interventions implemented by Chinese Government, the epidemic will gradually die off in late March 2020",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Compared with SARS in2003, the emergency response capabilities of Chinese government have been improved.",
+        "Interventions or relevant policies, such as free treatment for 2019-nCOV infectious patients, wildlife trade ban during the plague, traffic control, have been implemented rapidly.",
+        "But some are useful!",
+        "The estimate above was based on some assumptions and limitations exited.",
+        "Affected by Spring Festival travel, the epidemic has spread rapidly and trend is difficult to simulate.",
+        "Model and Method"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "<strong>Background and current epidemic situation</strong><br/><br/>In December, 2019, a series of pneumonia cases infected by a novel 2019-nCOV coronavirus emerged in Wuhan, Hubei Province, China. 2019-nCOV has demonstrated comparable transmissibility with infamous SARS and MERS, all belonging to the family Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>].",
+            "In December, 2019, a series of pneumonia cases infected by a novel 2019-nCOV coronavirus emerged in Wuhan, Hubei Province, China.",
+            "Articles on modelling epidemic trend of 2019-nCOV have been published [<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>].",
+            "The predicted epidemic peak will be in late February 2020.",
+            "Effective interventions implemented by Chinese Government, the epidemic will gradually die off in late March 2020"
+        ],
+        "Conclusion": [
+            "Compared with SARS in2003, the emergency response capabilities of Chinese government have been improved.",
+            "Interventions or relevant policies, such as free treatment for 2019-nCOV infectious patients, wildlife trade ban during the plague, traffic control, have been implemented rapidly.",
+            "But some are useful!",
+            "The estimate above was based on some assumptions and limitations exited.",
+            "Affected by Spring Festival travel, the epidemic has spread rapidly and trend is difficult to simulate.",
+            "Model and Method"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Organization_2019_a",
+            "entry": "1. World Health Organization. Novel coronavirus (2019-nCoV). Situation report 3. 237 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Organization%2C%20World%20Health%20Novel%20coronavirus%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Organization%2C%20World%20Health%20Novel%20coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Organization%2C%20World%20Health%20Novel%20coronavirus%202019"
+        },
+        {
+            "id": "Eurosurveillance_2020_a",
+            "alt_id": "2",
+            "entry": "2020. Eurosurveillance. 2020; 25: 2000044.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Eurosurveillance%202020%2025%202000044"
+        },
+        {
+            "id": "3",
+            "alt_id": "3._0000_a",
+            "entry": "3. National Health Commission of the People\u2019s Republic of China. Outbreak notification. http://www.nhc.gov.cn/xcs/yqtb/202001/5d19a4f6d3154b9fae328918ed2e3c8a.shtml",
+            "url": "http://www.nhc.gov.cn/xcs/yqtb/202001/5d19a4f6d3154b9fae328918ed2e3c8a.shtml"
+        },
+        {
+            "id": "4",
+            "alt_id": "Organization_0000_a",
+            "entry": "4. World Health Organization. Clinical management of severe acute respiratory infection when novel coronavirus (nCOV) infection is suspected: Interim guidance",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Organization%2C%20World%20Health%20Clinical%20management%20of%20severe%20acute%20respiratory%20infection%20when%20novel%20coronavirus%20%28nCOV%29%20infection%20is%20suspected%3A%20Interim%20guidance"
+        },
+        {
+            "id": "5",
+            "alt_id": "Imai_et+al_2019_a",
+            "entry": "5. Imai N, Dorigatti I, Cori A, Riley S, Ferguson NM. Report 1: Estimating the potential total number of novel Coronavirus (2019-nCoV) cases in Wuhan City, China [Internet]. 2020 [cited 23 Available: https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan242 coronavirus",
+            "url": "https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan242"
+        },
+        {
+            "id": "6",
+            "alt_id": "Shen_et+al_2019_a",
+            "entry": "6. Mingwang Shen, Zhihang Peng, Yanni Xiao, Lei Zhang. Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China. bioRxiv 2020.01.23.916726 7. Bjnews. Baidu map data shows that Wuhan's population recently moved out of cities mostly in Hubei Province. http://www.bjnews.com.cn/finance/2020/01/23/678407.html",
+            "url": "http://www.bjnews.com.cn/finance/2020/01/23/678407.html"
+        }
+    ],
+    "facts": [
+        "the predicted epidemic peak in Hubei will be within 28th January 2020 to 7th February 2020",
+        "The estimate above was based on some assumptions and limitations exited",
+        "2019-nCOV coronavirus emerged in Wuhan",
+        "2261 cases confirmed in Wuhan City",
+        "2325 cases confirmed in other cities in Hubei Province",
+        "The predicted epidemic peak will be in late February 2020",
+        "Effective interventions implemented by Chinese Government"
+    ],
+    "claims": [
+        "We proposed a SEIR model to simulate the transmission and trend of 2019-nCov in Hubei Province [6]"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "Background and current epidemic situation In December, 2019, a series of pneumonia cases infected by a novel 2019-nCOV coronavirus emerged in Wuhan, Hubei Province, China. 2019-nCOV has demonstrated comparable transmissibility with infamous SARS and MERS, all belonging to the family Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "As of 8am 30th January (Beijing Time) 2020, Approximate 8000 cases across the world have been confirmed, of which 2261 cases confirmed in Wuhan City and 2325 cases confirmed in other cities in Hubei Province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "The predicted epidemic peak will be in late February 2020",
+        "Effective interventions implemented by Chinese Government, the epidemic will gradually die off in late March 2020",
+        "But some are useful! The estimate above was based on some assumptions and limitations exited",
+        "We proposed a SEIR model to simulate the transmission and trend of 2019-nCov in Hubei Province [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>]"
+    ],
+    "top_statements": [
+        "Background and current epidemic situation In December, 2019, a series of pneumonia cases infected by a novel 2019-nCOV coronavirus emerged in Wuhan, Hubei Province, China. 2019-nCOV has demonstrated comparable transmissibility with infamous SARS and MERS, all belonging to the family Coronaviridae [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>,<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]",
+        "As of 8am 30th January (Beijing Time) 2020, Approximate 8000 cases across the world have been confirmed, of which 2261 cases confirmed in Wuhan City and 2325 cases confirmed in other cities in Hubei Province [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "The predicted epidemic peak will be in late February 2020",
+        "Effective interventions implemented by Chinese Government, the epidemic will gradually die off in late March 2020",
+        "But some are useful! The estimate above was based on some assumptions and limitations exited"
+    ],
+    "headline": "As of 8am 30th January 2020, Approximate 8000 cases across the world have been confirmed, of which 2261 cases confirmed in Wuhan City and 2325 cases confirmed in other cities in Hubei Province",
+    "contexts": [],
+    "abbreviations": {}
+}

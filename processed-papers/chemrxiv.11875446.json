@@ -1,0 +1,795 @@
+{
+    "filename": "21769632.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1375240,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.26434/chemrxiv.11875446",
+            "url": "https://chemrxiv.org/articles/Fast_Identification_of_Possible_Drug_Treatment_of_Coronavirus_Disease_-19_COVID-19_Through_Computational_Drug_Repurposing_Study/11875446/files/21769632.pdf"
+        },
+        "author": "Junmei Wang",
+        "date": 2020,
+        "title": "Fast Identification of Possible Drug Treatment of Coronavirus Disease -19 (COVID-19) Through Computational Drug Repurposing Study",
+        "affiliations": [
+            "Department of Pharmaceutical Sciences and Computational Chemical Genomics Screening Center, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA."
+        ],
+        "abstract": "&lt;p&gt;The recent outbreak of novel coronavirus disease -19 (COVID-19) calls for and welcomes possible treatment strategies using drugs on the market. It is very efficient to apply computer-aided drug design techniques to quickly identify promising drug repurposing candidates, especially after the detailed 3D-structures of key virous proteins are resolved. Taking the advantage of a recently released crystal structure of COVID-19 protease in complex with a covalently-bonded inhibitor, N3,&lt;sup&gt;1&lt;/sup&gt; I conducted virtual docking screening of approved drugs and drug candidates in clinical trials. For the top docking hits, I then performed molecular dynamics simulations followed by binding free energy calculations using an endpoint method called MM-PBSA-WSAS.&lt;sup&gt;2-4&lt;/sup&gt; Several promising known drugs stand out as potential inhibitors of COVID-19 protease, including Carfilzomib, Eravacycline, Valrubicin, Lopinavir and Elbasvir. Carfilzomib, an approved anti-cancer drug acting as a proteasome inhibitor, has the best MM-PBSA-WSAS binding free energy, -13.82 kcal/mol. Streptomycin, an antibiotic and a charged molecule, also demonstrates some inhibitory effect, even though the predicted binding free energy of the charged form (-3.82 kcal/mol) is not nearly as low as that of the neutral form (-7.92 kcal/mol). One bioactive, PubChem 23727975, has a binding free energy of -12.86 kcal/mol. Detailed receptor-ligand interactions were analyzed and hot spots for the receptor-ligand binding were identified. I found that one hotspot residue HIS41, is a conserved residue across many viruses including COVID-19, SARS, MERS, and HCV. The findings of this study can facilitate rational drug design targeting the COVID-19 protease.&lt;/p&gt;&lt;p&gt;\n\n&lt;/p&gt;",
+        "references": "@misc{liu-a,\n  author = {Liu, X. and Zhang, B. and Jin, Z. and Yang, H. and Rao, Z.},\n  title = {The crystal structure of COVID-19 main protease in complex with an inhibitor N3. 2020},\n  language = {}\n}\n@article{wang-a,\n  author = {Wang, E. and Sun, H. and Wang, J. and Wang, Z. and Liu, H. and Zhang, J.Z.H. and Hou, T.},\n  title = {End-Point Binding Free Energy Calculation with MM/PBSA and MM/GBSA: Strategies and},\n  journal = {Applications in Drug Design. Chem Rev 2019},\n  volume = {119},\n  pages = {9478\u20139508},\n  number = {16},\n  language = {}\n}\n@misc{wang2006a,\n  author = {Wang, J.M. and Hou, T.J. and Xu, X.J.},\n  title = {Recent Advances in Free Energy Calculations with a Combination of Molecular Mechanics and Continuum Models. Curr Comput-Aid Drug},\n  date = {2006},\n  volume = {2},\n  pages = {287\u2013306},\n  number = {3},\n  language = {}\n}\n@article{wang2012a,\n  author = {Wang, J. and Hou, T.},\n  title = {Develop and test a solvent accessible surface area-based model in conformational entropy calculations},\n  journal = {Journal of chemical information and modeling},\n  date = {2012},\n  volume = {52},\n  pages = {1199\u2013212},\n  number = {5},\n  language = {}\n}\n@incollection{law2014a,\n  author = {Law, V. and Knox, C. and Djoumbou, Y. and Jewison, T. and Guo, A.C. and Liu, Y. and Maciejewski, A. and Arndt, D. and Wilson, M. and Neveu, V. and Tang, A. and Gabriel, G. and Ly, C. and Adamjee, S. and Dame, Z.T. and Han, B. and Zhou, Y. and Wishart, D.S.},\n  title = {DrugBank 4.0: shedding new light on drug metabolism},\n  source = {Nucleic acids research},\n  date = {2014},\n  note = {Database issue},\n  pages = {1091\u20137},\n  language = {}\n}\n@article{wang2019a,\n  author = {Wang, J. and Ge, Y. and Xie, X.Q.},\n  title = {Development and Testing of Druglike Screening Libraries},\n  journal = {Journal of chemical information and modeling},\n  date = {2019},\n  volume = {59},\n  pages = {53\u201365},\n  number = {1},\n  language = {}\n}\n@article{friesner2004a,\n  author = {Friesner, R.A. and Banks, J.L. and Murphy, R.B. and Halgren, T.A. and Klicic, J.J. and Mainz, D.T. and Repasky, M.P. and Knoll, E.H. and Shelley, M. and Perry, J.K. and Shaw, D.E. and Francis, P. and Shenkin, P.S.},\n  title = {Glide: a new approach for rapid, accurate docking and scoring. 1. Method and assessment of docking accuracy},\n  journal = {Journal of medicinal chemistry},\n  date = {2004},\n  volume = {47},\n  pages = {1739\u201349},\n  number = {7},\n  language = {}\n}\n@article{wang2001a,\n  author = {Wang, J. and Morin, P. and Wang, W. and Kollman, P.A.},\n  title = {Use of MM-PBSA in reproducing the binding free energies to HIV-1 RT of TIBO derivatives and predicting the binding mode to HIV-1 RT of efavirenz by docking and},\n  journal = {MM-PBSA. J Am Chem Soc},\n  date = {2001},\n  volume = {123},\n  pages = {5221\u20135230},\n  number = {22},\n  language = {}\n}\n@article{swanson2004a,\n  author = {Swanson, J.M. and Henchman, R.H. and McCammon, J.A.},\n  title = {Revisiting free energy calculations: a theoretical connection to MM/PBSA and direct calculation of the association free energy},\n  journal = {Biophys J},\n  date = {2004},\n  volume = {86},\n  pages = {67\u201374},\n  unmatched-volume = {Pt 1),},\n  language = {}\n}\n@article{kuhn2005a,\n  author = {Kuhn, B. and Gerber, P. and Schulz-Gasch, T. and Stahl, M.},\n  title = {Validation and use of the MM-PBSA approach for drug discovery},\n  journal = {Journal of medicinal chemistry},\n  date = {2005},\n  volume = {48},\n  pages = {4040\u20134048},\n  number = {12},\n  language = {}\n}\n@misc{hou-a,\n  author = {Hou, T. and Wang, J. and Li, Y. and Wang, W.},\n  title = {Assessing the performance of the MM/PBSA and MM/GBSA methods},\n  language = {}\n}\n@article{unknown2011a,\n  title = {The accuracy of binding free energy calculations based on molecular dynamics simulations},\n  journal = {Journal of chemical information and modeling},\n  date = {2011},\n  volume = {51},\n  pages = {69\u201382},\n  number = {1},\n  language = {}\n}\n@misc{xu-a,\n  author = {Xu, L. and Sun, H. and Li, Y. and Wang, J. and Hou, T.},\n  title = {Assessing the performance of MM/PBSA and MM/GBSA methods},\n  language = {}\n}\n@article{unknown-a,\n  title = {The impact of force fields and ligand charge models},\n  journal = {J Phys Chem B 2013},\n  volume = {117},\n  pages = {8408\u201321},\n  number = {28},\n  language = {}\n}\n@article{sun2014a,\n  author = {Sun, H. and Li, Y. and Shen, M. and Tian, S. and Xu, L. and Pan, P. and Guan, Y. and Hou, T.},\n  title = {Assessing the performance of MM/PBSA and MM/GBSA methods. 5. Improved docking performance using high solute dielectric constant MM/GBSA and},\n  journal = {MM/PBSA rescoring. Phys Chem Chem Phys},\n  date = {2014},\n  volume = {16},\n  pages = {22035\u201345},\n  number = {40},\n  language = {}\n}\n@misc{sun-a,\n  author = {Sun, H. and Li, Y. and Tian, S. and Xu, L. and Hou, T.},\n  title = {Assessing the performance of MM/PBSA and MM/GBSA methods},\n  language = {}\n}\n@article{unknown2014a,\n  title = {Accuracies of MM/PBSA and MM/GBSA methodologies evaluated by various simulation protocols using PDBbind data set},\n  journal = {Phys Chem Chem Phys},\n  date = {2014},\n  volume = {16},\n  pages = {16719\u201329},\n  number = {31},\n  language = {}\n}\n@misc{chen-a,\n  author = {Chen, F. and Liu, H. and Sun, H. and Pan, P. and Li, Y. and Li, D. and Hou, T.},\n  title = {Assessing the performance of the MM/PBSA and MM/GBSA methods},\n  language = {}\n}\n@article{unknown-b,\n  title = {Capability to predict protein-protein binding free energies and re-rank binding poses generated by protein-protein docking},\n  journal = {Phys Chem Chem Phys 2016},\n  volume = {18},\n  pages = {22129\u201339},\n  number = {32},\n  language = {}\n}\n@article{karami2017a,\n  author = {Karami, M. and Jalali, C. and Mirzaie, S.},\n  title = {Combined virtual screening, MMPBSA, molecular docking and dynamics studies against deadly anthrax: An in silico effort to inhibit Bacillus anthracis nucleoside hydrolase},\n  journal = {J Theor Biol},\n  date = {2017},\n  volume = {420},\n  pages = {180\u2013189},\n  language = {}\n}\n@misc{chen-b,\n  author = {Chen, F. and Sun, H. and Wang, J. and Zhu, F. and Liu, H. and Wang, Z. and Lei, T. and Li, Y. and Hou, T.},\n  title = {Assessing the performance of MM/PBSA and MM/GBSA methods},\n  language = {}\n}\n@article{unknown2018a,\n  title = {Predicting binding free energies and poses of protein-RNA complexes},\n  journal = {RNA},\n  date = {2018},\n  volume = {24},\n  pages = {1183\u20131194},\n  number = {9},\n  language = {}\n}\n@article{mishra-a,\n  author = {Mishra, S.K. and Koca, J.},\n  title = {Assessing the Performance of MM/PBSA, MM/GBSA, and QM-MM/GBSA Approaches on Protein/Carbohydrate Complexes: Effect of Implicit Solvent Models, QM},\n  journal = {Methods, and Entropic Contributions. J Phys Chem B 2018},\n  volume = {122},\n  pages = {8113\u20138121},\n  number = {34},\n  language = {}\n}\n@misc{sun-b,\n  author = {Sun, H. and Duan, L. and Chen, F. and Liu, H. and Wang, Z. and Pan, P. and Zhu, F. and Zhang, J.Z.H. and Hou, T.},\n  title = {Assessing the performance of MM/PBSA and MM/GBSA methods},\n  language = {}\n}\n@article{unknown2018b,\n  title = {Entropy effects on the performance of endpoint binding free energy calculation approaches},\n  journal = {Phys Chem Chem Phys},\n  date = {2018},\n  volume = {20},\n  pages = {1445014460},\n  number = {21},\n  language = {}\n}\n@article{wang2019b,\n  author = {Wang, E. and Weng, G. and Sun, H. and Du, H. and Zhu, F. and Chen, F. and Wang, Z. and Hou, T.},\n  title = {Assessing the performance of the MM/PBSA and MM/GBSA methods. 10. Impacts of enhanced sampling and variable dielectric model on protein-protein Interactions},\n  journal = {Phys Chem Chem Phys},\n  date = {2019},\n  volume = {21},\n  pages = {18958\u201318969},\n  number = {35},\n  language = {}\n}\n@misc{weng-a,\n  author = {Weng, G. and Wang, E. and Chen, F. and Sun, H. and Wang, Z. and Hou, T.},\n  title = {Assessing the performance of MM/PBSA and MM/GBSA methods},\n  language = {}\n}\n@article{unknown2019a,\n  title = {Prediction reliability of binding affinities and binding poses for proteinpeptide complexes},\n  journal = {Phys Chem Chem Phys},\n  date = {2019},\n  volume = {21},\n  pages = {10135\u201310145},\n  language = {}\n}\n@article{lee2017a,\n  author = {Lee, T.S. and Hu, Y. and Sherborne, B. and Guo, Z. and York, D.M.},\n  title = {Toward Fast and Accurate Binding Affinity Prediction with pmemdGTI: An Efficient Implementation of GPU-Accelerated},\n  journal = {Thermodynamic Integration. J Chem Theory Comput},\n  date = {2017},\n  volume = {13},\n  pages = {3077\u20133084},\n  number = {7},\n  language = {}\n}\n@article{wang2015a,\n  author = {Wang, L. and Wu, Y. and Deng, Y. and Kim, B. and Pierce, L. and Krilov, G. and Lupyan, D. and Robinson, S. and Dahlgren, M.K. and Greenwood, J. and Romero, D.L. and Masse, C. and Knight, J.L. and Steinbrecher, T. and Beuming, T. and Damm, W. and Harder, E. and Sherman, W. and Brewer, M. and Wester, R. and Murcko, M. and Frye, L. and Farid, R. and Lin, T. and Mobley, D.L. and Jorgensen, W.L. and Berne, B.J. and Friesner, R.A. and Abel, R.},\n  title = {Accurate and reliable prediction of relative ligand binding potency in prospective drug discovery by way of a modern freeenergy calculation protocol and force field},\n  journal = {J Am Chem Soc},\n  date = {2015},\n  volume = {137},\n  pages = {2695\u20132703},\n  number = {7},\n  language = {}\n}\n@article{wang2005a,\n  author = {Wang, J. and Kang, X. and Kuntz, I.D. and Kollman, P.A.},\n  title = {Hierarchical database screenings for HIV-1 reverse transcriptase using a pharmacophore model, rigid docking, solvation docking, and MM-PB/SA},\n  journal = {Journal of medicinal chemistry},\n  date = {2005},\n  volume = {48},\n  pages = {2432\u201344},\n  number = {7},\n  language = {}\n}\n@article{capparelli2005a,\n  author = {Capparelli, E.V. and Holland, D. and Okamoto, C. and Gragg, B. and Durelle, J. and Marquie-Beck, J. and van den Brande, G. and Ellis, R. and Letendre, S. and Group, H.},\n  title = {Lopinavir concentrations in cerebrospinal fluid exceed the 50% inhibitory concentration for HIV},\n  journal = {AIDS},\n  date = {2005},\n  volume = {19},\n  pages = {949\u201352},\n  number = {9},\n  language = {}\n}\n@article{jorgensen1983a,\n  author = {Jorgensen, W.L. and Chandrasekhar, J. and Madura, J.D. and Impey, R.W. and Klein, M.L.},\n  title = {Comparison of simple potential functions for simulating liquid water},\n  journal = {The Journal of Chemical Physics},\n  date = {1983},\n  volume = {79},\n  pages = {926},\n  number = {2},\n  language = {}\n}\n@article{bayly1993a,\n  author = {Bayly, C.I. and Cieplak, P. and Cornell, W.D. and Kollman, P.A.},\n  title = {A well-behaved electrostatic potential based method using charge restraints for deriving atomic charges-},\n  journal = {the RESP model. J Phys Chem},\n  date = {1993},\n  volume = {97},\n  pages = {10269\u201310280},\n  number = {40},\n  language = {}\n}\n@article{wang2004a,\n  author = {Wang, J.M. and Wolf, R.M. and Caldwell, J.W. and Kollman, P.A. and Case, D.A.},\n  title = {Development and testing of a general amber force field},\n  journal = {Journal of Computational Chemistry},\n  date = {2004},\n  volume = {25},\n  pages = {1157\u20131174},\n  number = {9},\n  language = {}\n}\n@article{maier2015a,\n  author = {Maier, J.A. and Martinez, C. and Kasavajhala, K. and Wickstrom, L. and Hauser, K.E. and Simmerling, C.},\n  title = {ff14SB: Improving the Accuracy of Protein Side Chain and Backbone Parameters from ff99SB},\n  journal = {J Chem Theory Comput},\n  date = {2015},\n  volume = {11},\n  pages = {3696\u2013713},\n  number = {8},\n  language = {}\n}\n@article{wang2006b,\n  author = {Wang, J. and Wang, W. and Kollman, P.A. and Case, D.A.},\n  title = {Automatic atom type and bond type perception in molecular mechanical calculations},\n  journal = {J Mol Graph Model},\n  date = {2006},\n  volume = {25},\n  pages = {247\u2013260},\n  number = {2},\n  language = {}\n}\n@article{larini2007a,\n  author = {Larini, L. and Mannella, R. and Leporini, D.},\n  title = {Langevin stabilization of molecular-dynamics simulations of polymers by means of quasisymplectic algorithms},\n  journal = {J Chem Phys},\n  date = {2007},\n  volume = {126},\n  pages = {104101},\n  number = {10},\n  language = {}\n}\n@article{darden1999a,\n  author = {Darden, T. and Perera, L. and Li, L. and Pedersen, L.},\n  title = {New tricks for modelers from the crystallography toolkit: the particle mesh Ewald algorithm and its use in nucleic acid simulations},\n  journal = {Structure},\n  date = {1999},\n  volume = {7},\n  pages = {5560},\n  number = {3},\n  language = {}\n}\n@article{miyamoto1992a,\n  author = {Miyamoto, S. and Kollman, P.A.},\n  title = {Settle - an analytical version of the Shake and Rattle algorithm for rigid water models},\n  journal = {Journal of Computational Chemistry},\n  date = {1992},\n  volume = {13},\n  pages = {952\u2013962},\n  number = {8},\n  language = {}\n}\n@book{case2018a,\n  author = {Case, D.A. and Ben-Shalom, I.Y. and Brozell, S.R. and Cerutti, D.S. and Cheatham, I. and E., T. and Cruzeiro, V.W.D. and Darden, T.A. and Duke, R.E. and Ghoreishi, D. and Gilson, M.K. and Gohlke, H. and Goetz, A.W. and Greene, D. and Harris, R. and Homeyer, N. and Izadi, S. and Kovalenko, A. and Kurtzman, T. and Lee, T.S. and LeGrand, S. and Li, P. and Lin, C. and Liu, J. and Luchko, T. and Luo, R. and Mermelstein, D.J. and Merz, K.M. and Miao, Y. and Monard, G. and Nguyen, C. and Nguyen, H. and Omelyan, I. and Onufriev, A. and Pan, F. and Qi, R. and Roe, D.R. and Roitberg, A. and Sagui, C. and SchottVerdugo, S. and Shen, J. and Simmerling, C.L. and Smith, J. and Salomon-Ferrer, R. and Swails, J. and Walker, R.C. and Wang, J. and Wei, H. and Wolf, R.M. and Wu, X. and Xiao, L. and M., D. and Y., Kollman and A, P.},\n  title = {AMBER 2018},\n  publisher = {University of},\n  date = {2018},\n  unmatched-publisher = {Francisco},\n  language = {},\n  address = {California, San}\n}\n@article{page2006a,\n  author = {Page, C.S. and Bates, P.A.},\n  title = {Can MM-PBSA calculations predict the specificities of protein kinase inhibitors?},\n  journal = {Journal of Computational Chemistry},\n  date = {2006},\n  volume = {27},\n  pages = {1990\u20132007},\n  number = {16},\n  language = {}\n}\n@article{kongsted2009a,\n  author = {Kongsted, J. and Ryde, U.},\n  title = {An improved method to predict the entropy term with the MM/PBSA approach},\n  journal = {J Comput Aided Mol Des},\n  date = {2009},\n  volume = {23},\n  pages = {63\u201371},\n  number = {2},\n  language = {}\n}\n@article{hou2011a,\n  author = {Hou, T. and Wang, J. and Li, Y. and Wang, W.},\n  title = {Assessing the performance of the molecular mechanics/Poisson Boltzmann surface area and molecular mechanics/generalized Born surface area methods. II. The accuracy of ranking poses generated from docking},\n  journal = {J Comput Chem},\n  date = {2011},\n  volume = {32},\n  pages = {866\u201377},\n  number = {5},\n  language = {}\n}\n@article{sitkoff1994a,\n  author = {Sitkoff, D. and Sharp, K.A. and Honig, B.},\n  title = {Accurate Calculation of Hydration Free Energies Using Macroscopic Solvent Models},\n  journal = {J Phys Chem-Us},\n  date = {1994},\n  volume = {98},\n  pages = {1978\u20131988},\n  number = {7},\n  language = {}\n}\n@article{onufriev2004a,\n  author = {Onufriev, A. and Bashford, D. and Case, D.A.},\n  title = {Exploring protein native states and large-scale conformational changes with a modified generalized born model},\n  journal = {Proteins},\n  date = {2004},\n  volume = {55},\n  pages = {383\u201394},\n  number = {2},\n  language = {}\n}\n@article{pei2007a,\n  author = {Pei, J. and Grishin, N.V.},\n  title = {PROMALS: towards accurate multiple sequence alignments of distantly related proteins},\n  journal = {Bioinformatics},\n  date = {2007},\n  volume = {23},\n  pages = {802\u20138},\n  number = {7},\n  language = {}\n}\n@article{hilgenfeld2014a,\n  author = {Hilgenfeld, R.},\n  title = {From SARS to MERS: crystallographic studies on coronaviral proteases enable antiviral drug design},\n  journal = {FEBS J},\n  date = {2014},\n  volume = {281},\n  pages = {4085\u201396},\n  number = {18},\n  language = {}\n}\n@article{galasiti2018a,\n  author = {Galasiti Kankanamalage, A.C. and Kim, Y. and Damalanka, V.C. and Rathnayake, A.D. and Fehr, A.R. and Mehzabeen, N. and Battaile, K.P. and Lovell, S. and Lushington, G.H. and Perlman, S. and Chang, K.O. and Groutas, W.C.},\n  title = {Structure-guided design of potent and permeable inhibitors of MERS coronavirus 3CL protease that utilize a piperidine moiety as a novel design element},\n  journal = {Eur J Med Chem},\n  date = {2018},\n  volume = {150},\n  pages = {334\u2013346},\n  language = {}\n}\n@incollection{romano2010a,\n  author = {Romano, K.P. and Ali, A. and Royer, W.E. and Schiffer, C.A.},\n  title = {Drug resistance against HCV NS3/4A inhibitors is defined by the balance of substrate recognition},\n  booktitle = {versus inhibitor binding. Proc Natl Acad Sci},\n  publisher = {U S A},\n  date = {2010},\n  volume = {107},\n  pages = {20986\u201391},\n  number = {49},\n  language = {}\n}\n@article{webb2016a,\n  author = {Webb, B. and Sali, A.},\n  title = {Comparative Protein Structure Modeling Using MODELLER},\n  journal = {Curr Protoc Protein Sci},\n  date = {2016},\n  volume = {86},\n  pages = {5\u20136},\n  language = {}\n}\n",
+        "links": [
+            "http://compbio.clemson.edu/delphi",
+            "http://www.rcsb.org"
+        ],
+        "emails": [
+            "juw79@pitt.edu",
+            "junmei.wang@pitt.edu"
+        ],
+        "references_ris": "TY  - GEN\nAU  - Liu, X.\nAU  - Zhang, B.\nAU  - Jin, Z.\nAU  - Yang, H.\nAU  - Rao, Z.\nTI  - The crystal structure of COVID-19 main protease in complex with an inhibitor N3. 2020\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, E.\nAU  - Sun, H.\nAU  - Wang, J.\nAU  - Wang, Z.\nAU  - Liu, H.\nAU  - Zhang, J.Z.H.\nAU  - Hou, T.\nTI  - End-Point Binding Free Energy Calculation with MM/PBSA and MM/GBSA: Strategies and\nT2  - Applications in Drug Design. Chem Rev 2019\nVL  - 119\nSP  - 9478\nEP  - 9508\nIS  - 16\nLA  - \nER  - \n\nTY  - GEN\nAU  - Wang, J.M.\nAU  - Hou, T.J.\nAU  - Xu, X.J.\nTI  - Recent Advances in Free Energy Calculations with a Combination of Molecular Mechanics and Continuum Models. Curr Comput-Aid Drug\nPY  - 2006\nDA  - 2006\nVL  - 2\nSP  - 287\nEP  - 306\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.\nAU  - Hou, T.\nTI  - Develop and test a solvent accessible surface area-based model in conformational entropy calculations\nT2  - Journal of chemical information and modeling\nPY  - 2012\nDA  - 2012\nVL  - 52\nSP  - 1199\nEP  - 212\nIS  - 5\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Law, V.\nAU  - Knox, C.\nAU  - Djoumbou, Y.\nAU  - Jewison, T.\nAU  - Guo, A.C.\nAU  - Liu, Y.\nAU  - Maciejewski, A.\nAU  - Arndt, D.\nAU  - Wilson, M.\nAU  - Neveu, V.\nAU  - Tang, A.\nAU  - Gabriel, G.\nAU  - Ly, C.\nAU  - Adamjee, S.\nAU  - Dame, Z.T.\nAU  - Han, B.\nAU  - Zhou, Y.\nAU  - Wishart, D.S.\nTI  - DrugBank 4.0: shedding new light on drug metabolism\nT2  - Nucleic acids research\nPY  - 2014\nDA  - 2014\nN1  - Database issue\nSP  - 1091\nEP  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.\nAU  - Ge, Y.\nAU  - Xie, X.Q.\nTI  - Development and Testing of Druglike Screening Libraries\nT2  - Journal of chemical information and modeling\nPY  - 2019\nDA  - 2019\nVL  - 59\nSP  - 53\nEP  - 65\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Friesner, R.A.\nAU  - Banks, J.L.\nAU  - Murphy, R.B.\nAU  - Halgren, T.A.\nAU  - Klicic, J.J.\nAU  - Mainz, D.T.\nAU  - Repasky, M.P.\nAU  - Knoll, E.H.\nAU  - Shelley, M.\nAU  - Perry, J.K.\nAU  - Shaw, D.E.\nAU  - Francis, P.\nAU  - Shenkin, P.S.\nTI  - Glide: a new approach for rapid, accurate docking and scoring. 1. Method and assessment of docking accuracy\nT2  - Journal of medicinal chemistry\nPY  - 2004\nDA  - 2004\nVL  - 47\nSP  - 1739\nEP  - 49\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.\nAU  - Morin, P.\nAU  - Wang, W.\nAU  - Kollman, P.A.\nTI  - Use of MM-PBSA in reproducing the binding free energies to HIV-1 RT of TIBO derivatives and predicting the binding mode to HIV-1 RT of efavirenz by docking and\nT2  - MM-PBSA. J Am Chem Soc\nPY  - 2001\nDA  - 2001\nVL  - 123\nSP  - 5221\nEP  - 5230\nIS  - 22\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Swanson, J.M.\nAU  - Henchman, R.H.\nAU  - McCammon, J.A.\nTI  - Revisiting free energy calculations: a theoretical connection to MM/PBSA and direct calculation of the association free energy\nT2  - Biophys J\nPY  - 2004\nDA  - 2004\nVL  - 86\nSP  - 67\nEP  - 74\nC1  - Pt 1),\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kuhn, B.\nAU  - Gerber, P.\nAU  - Schulz-Gasch, T.\nAU  - Stahl, M.\nTI  - Validation and use of the MM-PBSA approach for drug discovery\nT2  - Journal of medicinal chemistry\nPY  - 2005\nDA  - 2005\nVL  - 48\nSP  - 4040\nEP  - 4048\nIS  - 12\nLA  - \nER  - \n\nTY  - GEN\nAU  - Hou, T.\nAU  - Wang, J.\nAU  - Li, Y.\nAU  - Wang, W.\nTI  - Assessing the performance of the MM/PBSA and MM/GBSA methods\nLA  - \nER  - \n\nTY  - JOUR\nTI  - The accuracy of binding free energy calculations based on molecular dynamics simulations\nT2  - Journal of chemical information and modeling\nPY  - 2011\nDA  - 2011\nVL  - 51\nSP  - 69\nEP  - 82\nIS  - 1\nLA  - \nER  - \n\nTY  - GEN\nAU  - Xu, L.\nAU  - Sun, H.\nAU  - Li, Y.\nAU  - Wang, J.\nAU  - Hou, T.\nTI  - Assessing the performance of MM/PBSA and MM/GBSA methods\nLA  - \nER  - \n\nTY  - JOUR\nTI  - The impact of force fields and ligand charge models\nT2  - J Phys Chem B 2013\nVL  - 117\nSP  - 8408\nEP  - 21\nIS  - 28\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sun, H.\nAU  - Li, Y.\nAU  - Shen, M.\nAU  - Tian, S.\nAU  - Xu, L.\nAU  - Pan, P.\nAU  - Guan, Y.\nAU  - Hou, T.\nTI  - Assessing the performance of MM/PBSA and MM/GBSA methods. 5. Improved docking performance using high solute dielectric constant MM/GBSA and\nT2  - MM/PBSA rescoring. Phys Chem Chem Phys\nPY  - 2014\nDA  - 2014\nVL  - 16\nSP  - 22035\nEP  - 45\nIS  - 40\nLA  - \nER  - \n\nTY  - GEN\nAU  - Sun, H.\nAU  - Li, Y.\nAU  - Tian, S.\nAU  - Xu, L.\nAU  - Hou, T.\nTI  - Assessing the performance of MM/PBSA and MM/GBSA methods\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Accuracies of MM/PBSA and MM/GBSA methodologies evaluated by various simulation protocols using PDBbind data set\nT2  - Phys Chem Chem Phys\nPY  - 2014\nDA  - 2014\nVL  - 16\nSP  - 16719\nEP  - 29\nIS  - 31\nLA  - \nER  - \n\nTY  - GEN\nAU  - Chen, F.\nAU  - Liu, H.\nAU  - Sun, H.\nAU  - Pan, P.\nAU  - Li, Y.\nAU  - Li, D.\nAU  - Hou, T.\nTI  - Assessing the performance of the MM/PBSA and MM/GBSA methods\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Capability to predict protein-protein binding free energies and re-rank binding poses generated by protein-protein docking\nT2  - Phys Chem Chem Phys 2016\nVL  - 18\nSP  - 22129\nEP  - 39\nIS  - 32\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Karami, M.\nAU  - Jalali, C.\nAU  - Mirzaie, S.\nTI  - Combined virtual screening, MMPBSA, molecular docking and dynamics studies against deadly anthrax: An in silico effort to inhibit Bacillus anthracis nucleoside hydrolase\nT2  - J Theor Biol\nPY  - 2017\nDA  - 2017\nVL  - 420\nSP  - 180\nEP  - 189\nLA  - \nER  - \n\nTY  - GEN\nAU  - Chen, F.\nAU  - Sun, H.\nAU  - Wang, J.\nAU  - Zhu, F.\nAU  - Liu, H.\nAU  - Wang, Z.\nAU  - Lei, T.\nAU  - Li, Y.\nAU  - Hou, T.\nTI  - Assessing the performance of MM/PBSA and MM/GBSA methods\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Predicting binding free energies and poses of protein-RNA complexes\nT2  - RNA\nPY  - 2018\nDA  - 2018\nVL  - 24\nSP  - 1183\nEP  - 1194\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Mishra, S.K.\nAU  - Koca, J.\nTI  - Assessing the Performance of MM/PBSA, MM/GBSA, and QM-MM/GBSA Approaches on Protein/Carbohydrate Complexes: Effect of Implicit Solvent Models, QM\nT2  - Methods, and Entropic Contributions. J Phys Chem B 2018\nVL  - 122\nSP  - 8113\nEP  - 8121\nIS  - 34\nLA  - \nER  - \n\nTY  - GEN\nAU  - Sun, H.\nAU  - Duan, L.\nAU  - Chen, F.\nAU  - Liu, H.\nAU  - Wang, Z.\nAU  - Pan, P.\nAU  - Zhu, F.\nAU  - Zhang, J.Z.H.\nAU  - Hou, T.\nTI  - Assessing the performance of MM/PBSA and MM/GBSA methods\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Entropy effects on the performance of endpoint binding free energy calculation approaches\nT2  - Phys Chem Chem Phys\nPY  - 2018\nDA  - 2018\nVL  - 20\nSP  - 1445014460\nIS  - 21\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, E.\nAU  - Weng, G.\nAU  - Sun, H.\nAU  - Du, H.\nAU  - Zhu, F.\nAU  - Chen, F.\nAU  - Wang, Z.\nAU  - Hou, T.\nTI  - Assessing the performance of the MM/PBSA and MM/GBSA methods. 10. Impacts of enhanced sampling and variable dielectric model on protein-protein Interactions\nT2  - Phys Chem Chem Phys\nPY  - 2019\nDA  - 2019\nVL  - 21\nSP  - 18958\nEP  - 18969\nIS  - 35\nLA  - \nER  - \n\nTY  - GEN\nAU  - Weng, G.\nAU  - Wang, E.\nAU  - Chen, F.\nAU  - Sun, H.\nAU  - Wang, Z.\nAU  - Hou, T.\nTI  - Assessing the performance of MM/PBSA and MM/GBSA methods\nLA  - \nER  - \n\nTY  - JOUR\nTI  - Prediction reliability of binding affinities and binding poses for proteinpeptide complexes\nT2  - Phys Chem Chem Phys\nPY  - 2019\nDA  - 2019\nVL  - 21\nSP  - 10135\nEP  - 10145\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lee, T.S.\nAU  - Hu, Y.\nAU  - Sherborne, B.\nAU  - Guo, Z.\nAU  - York, D.M.\nTI  - Toward Fast and Accurate Binding Affinity Prediction with pmemdGTI: An Efficient Implementation of GPU-Accelerated\nT2  - Thermodynamic Integration. J Chem Theory Comput\nPY  - 2017\nDA  - 2017\nVL  - 13\nSP  - 3077\nEP  - 3084\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, L.\nAU  - Wu, Y.\nAU  - Deng, Y.\nAU  - Kim, B.\nAU  - Pierce, L.\nAU  - Krilov, G.\nAU  - Lupyan, D.\nAU  - Robinson, S.\nAU  - Dahlgren, M.K.\nAU  - Greenwood, J.\nAU  - Romero, D.L.\nAU  - Masse, C.\nAU  - Knight, J.L.\nAU  - Steinbrecher, T.\nAU  - Beuming, T.\nAU  - Damm, W.\nAU  - Harder, E.\nAU  - Sherman, W.\nAU  - Brewer, M.\nAU  - Wester, R.\nAU  - Murcko, M.\nAU  - Frye, L.\nAU  - Farid, R.\nAU  - Lin, T.\nAU  - Mobley, D.L.\nAU  - Jorgensen, W.L.\nAU  - Berne, B.J.\nAU  - Friesner, R.A.\nAU  - Abel, R.\nTI  - Accurate and reliable prediction of relative ligand binding potency in prospective drug discovery by way of a modern freeenergy calculation protocol and force field\nT2  - J Am Chem Soc\nPY  - 2015\nDA  - 2015\nVL  - 137\nSP  - 2695\nEP  - 2703\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.\nAU  - Kang, X.\nAU  - Kuntz, I.D.\nAU  - Kollman, P.A.\nTI  - Hierarchical database screenings for HIV-1 reverse transcriptase using a pharmacophore model, rigid docking, solvation docking, and MM-PB/SA\nT2  - Journal of medicinal chemistry\nPY  - 2005\nDA  - 2005\nVL  - 48\nSP  - 2432\nEP  - 44\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Capparelli, E.V.\nAU  - Holland, D.\nAU  - Okamoto, C.\nAU  - Gragg, B.\nAU  - Durelle, J.\nAU  - Marquie-Beck, J.\nAU  - van den Brande, G.\nAU  - Ellis, R.\nAU  - Letendre, S.\nAU  - Group, H.\nTI  - Lopinavir concentrations in cerebrospinal fluid exceed the 50% inhibitory concentration for HIV\nT2  - AIDS\nPY  - 2005\nDA  - 2005\nVL  - 19\nSP  - 949\nEP  - 52\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Jorgensen, W.L.\nAU  - Chandrasekhar, J.\nAU  - Madura, J.D.\nAU  - Impey, R.W.\nAU  - Klein, M.L.\nTI  - Comparison of simple potential functions for simulating liquid water\nT2  - The Journal of Chemical Physics\nPY  - 1983\nDA  - 1983\nVL  - 79\nSP  - 926\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bayly, C.I.\nAU  - Cieplak, P.\nAU  - Cornell, W.D.\nAU  - Kollman, P.A.\nTI  - A well-behaved electrostatic potential based method using charge restraints for deriving atomic charges-\nT2  - the RESP model. J Phys Chem\nPY  - 1993\nDA  - 1993\nVL  - 97\nSP  - 10269\nEP  - 10280\nIS  - 40\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.M.\nAU  - Wolf, R.M.\nAU  - Caldwell, J.W.\nAU  - Kollman, P.A.\nAU  - Case, D.A.\nTI  - Development and testing of a general amber force field\nT2  - Journal of Computational Chemistry\nPY  - 2004\nDA  - 2004\nVL  - 25\nSP  - 1157\nEP  - 1174\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Maier, J.A.\nAU  - Martinez, C.\nAU  - Kasavajhala, K.\nAU  - Wickstrom, L.\nAU  - Hauser, K.E.\nAU  - Simmerling, C.\nTI  - ff14SB: Improving the Accuracy of Protein Side Chain and Backbone Parameters from ff99SB\nT2  - J Chem Theory Comput\nPY  - 2015\nDA  - 2015\nVL  - 11\nSP  - 3696\nEP  - 713\nIS  - 8\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wang, J.\nAU  - Wang, W.\nAU  - Kollman, P.A.\nAU  - Case, D.A.\nTI  - Automatic atom type and bond type perception in molecular mechanical calculations\nT2  - J Mol Graph Model\nPY  - 2006\nDA  - 2006\nVL  - 25\nSP  - 247\nEP  - 260\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Larini, L.\nAU  - Mannella, R.\nAU  - Leporini, D.\nTI  - Langevin stabilization of molecular-dynamics simulations of polymers by means of quasisymplectic algorithms\nT2  - J Chem Phys\nPY  - 2007\nDA  - 2007\nVL  - 126\nSP  - 104101\nIS  - 10\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Darden, T.\nAU  - Perera, L.\nAU  - Li, L.\nAU  - Pedersen, L.\nTI  - New tricks for modelers from the crystallography toolkit: the particle mesh Ewald algorithm and its use in nucleic acid simulations\nT2  - Structure\nPY  - 1999\nDA  - 1999\nVL  - 7\nSP  - 5560\nIS  - 3\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Miyamoto, S.\nAU  - Kollman, P.A.\nTI  - Settle - an analytical version of the Shake and Rattle algorithm for rigid water models\nT2  - Journal of Computational Chemistry\nPY  - 1992\nDA  - 1992\nVL  - 13\nSP  - 952\nEP  - 962\nIS  - 8\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Case, D.A.\nAU  - Ben-Shalom, I.Y.\nAU  - Brozell, S.R.\nAU  - Cerutti, D.S.\nAU  - Cheatham, I.\nAU  - E., T.\nAU  - Cruzeiro, V.W.D.\nAU  - Darden, T.A.\nAU  - Duke, R.E.\nAU  - Ghoreishi, D.\nAU  - Gilson, M.K.\nAU  - Gohlke, H.\nAU  - Goetz, A.W.\nAU  - Greene, D.\nAU  - Harris, R.\nAU  - Homeyer, N.\nAU  - Izadi, S.\nAU  - Kovalenko, A.\nAU  - Kurtzman, T.\nAU  - Lee, T.S.\nAU  - LeGrand, S.\nAU  - Li, P.\nAU  - Lin, C.\nAU  - Liu, J.\nAU  - Luchko, T.\nAU  - Luo, R.\nAU  - Mermelstein, D.J.\nAU  - Merz, K.M.\nAU  - Miao, Y.\nAU  - Monard, G.\nAU  - Nguyen, C.\nAU  - Nguyen, H.\nAU  - Omelyan, I.\nAU  - Onufriev, A.\nAU  - Pan, F.\nAU  - Qi, R.\nAU  - Roe, D.R.\nAU  - Roitberg, A.\nAU  - Sagui, C.\nAU  - SchottVerdugo, S.\nAU  - Shen, J.\nAU  - Simmerling, C.L.\nAU  - Smith, J.\nAU  - Salomon-Ferrer, R.\nAU  - Swails, J.\nAU  - Walker, R.C.\nAU  - Wang, J.\nAU  - Wei, H.\nAU  - Wolf, R.M.\nAU  - Wu, X.\nAU  - Xiao, L.\nAU  - M., D.\nAU  - Y., Kollman\nAU  - A, P.\nTI  - AMBER 2018\nPB  - University of\nPY  - 2018\nDA  - 2018\nC1  - Francisco\nLA  - \nCY  - California, San\nER  - \n\nTY  - JOUR\nAU  - Page, C.S.\nAU  - Bates, P.A.\nTI  - Can MM-PBSA calculations predict the specificities of protein kinase inhibitors?\nT2  - Journal of Computational Chemistry\nPY  - 2006\nDA  - 2006\nVL  - 27\nSP  - 1990\nEP  - 2007\nIS  - 16\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Kongsted, J.\nAU  - Ryde, U.\nTI  - An improved method to predict the entropy term with the MM/PBSA approach\nT2  - J Comput Aided Mol Des\nPY  - 2009\nDA  - 2009\nVL  - 23\nSP  - 63\nEP  - 71\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hou, T.\nAU  - Wang, J.\nAU  - Li, Y.\nAU  - Wang, W.\nTI  - Assessing the performance of the molecular mechanics/Poisson Boltzmann surface area and molecular mechanics/generalized Born surface area methods. II. The accuracy of ranking poses generated from docking\nT2  - J Comput Chem\nPY  - 2011\nDA  - 2011\nVL  - 32\nSP  - 866\nEP  - 77\nIS  - 5\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Sitkoff, D.\nAU  - Sharp, K.A.\nAU  - Honig, B.\nTI  - Accurate Calculation of Hydration Free Energies Using Macroscopic Solvent Models\nT2  - J Phys Chem-Us\nPY  - 1994\nDA  - 1994\nVL  - 98\nSP  - 1978\nEP  - 1988\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Onufriev, A.\nAU  - Bashford, D.\nAU  - Case, D.A.\nTI  - Exploring protein native states and large-scale conformational changes with a modified generalized born model\nT2  - Proteins\nPY  - 2004\nDA  - 2004\nVL  - 55\nSP  - 383\nEP  - 94\nIS  - 2\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Pei, J.\nAU  - Grishin, N.V.\nTI  - PROMALS: towards accurate multiple sequence alignments of distantly related proteins\nT2  - Bioinformatics\nPY  - 2007\nDA  - 2007\nVL  - 23\nSP  - 802\nEP  - 8\nIS  - 7\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Hilgenfeld, R.\nTI  - From SARS to MERS: crystallographic studies on coronaviral proteases enable antiviral drug design\nT2  - FEBS J\nPY  - 2014\nDA  - 2014\nVL  - 281\nSP  - 4085\nEP  - 96\nIS  - 18\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Galasiti Kankanamalage, A.C.\nAU  - Kim, Y.\nAU  - Damalanka, V.C.\nAU  - Rathnayake, A.D.\nAU  - Fehr, A.R.\nAU  - Mehzabeen, N.\nAU  - Battaile, K.P.\nAU  - Lovell, S.\nAU  - Lushington, G.H.\nAU  - Perlman, S.\nAU  - Chang, K.O.\nAU  - Groutas, W.C.\nTI  - Structure-guided design of potent and permeable inhibitors of MERS coronavirus 3CL protease that utilize a piperidine moiety as a novel design element\nT2  - Eur J Med Chem\nPY  - 2018\nDA  - 2018\nVL  - 150\nSP  - 334\nEP  - 346\nLA  - \nER  - \n\nTY  - CHAP\nAU  - Romano, K.P.\nAU  - Ali, A.\nAU  - Royer, W.E.\nAU  - Schiffer, C.A.\nTI  - Drug resistance against HCV NS3/4A inhibitors is defined by the balance of substrate recognition\nT2  - versus inhibitor binding. Proc Natl Acad Sci\nPB  - U S A\nPY  - 2010\nDA  - 2010\nVL  - 107\nSP  - 20986\nEP  - 91\nIS  - 49\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Webb, B.\nAU  - Sali, A.\nTI  - Comparative Protein Structure Modeling Using MODELLER\nT2  - Curr Protoc Protein Sci\nPY  - 2016\nDA  - 2016\nVL  - 86\nSP  - 5\nEP  - 6\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [
+            {
+                "id": "1",
+                "caption": "List of Glide docking scores and MM-PBSA-WSAS binding free energies for potential inhibitors binding to COVID-19 protease (in kcal/mol). PubChem IDs are listed for the two bio-actives. The entropic contribution was estimated using T of 298.15 K"
+            },
+            {
+                "id": "2",
+                "caption": "Ligand-residue MM-GBSA interaction energies (kcal/mol). PubChem IDs are listed for the two bio-actives. The common hotspots for all the ligands are: HIS41, MET49, ASN142, HIS164, MET165, GLU166, and GLN189"
+            },
+            {
+                "id": "3",
+                "caption": "Sequence comparison around hotspot residues for proteases of four types of viruses"
+            },
+            {
+                "id": "S1",
+                "caption": "List of Glide docking scores and MM-PBSA-WSAS binding free energies for potential inhibitors binding to COVID-19 protease (in kcal/mol). The net charge (NC) of charged molecules is shown in the parentheses"
+            }
+        ],
+        "figure_captions": [
+            {
+                "id": "4",
+                "caption": "Plots of Root-mean-square deviations of receptor main chain atoms and ligand heavy atoms along the MD simulation time for (A) co-crystal ligand N3, (B) DB08889, (C) DB12329, (D) DB00385, (E) DB01601 and (F) DB11574"
+            },
+            {
+                "id": "5",
+                "caption": "Structural comparison between the crystal structure and a representative MD structureof COVID-19 protease bound to the known ligand, N3 . The crystal structure is shown as blue cartoon with the co-crystal ligand shown as brown sticks, while the representative MD structure is shown in grey cartoon and the ligand as green sticks (Panel A). The hotspot residues ( GLig-Res < -3.0 kcal/mol) revealed by MM-GBSA analysis are shown in Panel B; the more bluish a residue is colored, the stronger the interaction between the residue and the ligand"
+            },
+            {
+                "id": "6",
+                "caption": "Structural comparison between the crystal structure and a representative MD structure of COVID-19 protease bound to three neutral ligands DB08889, DB12329, and DB00385. The crystal structure is shown as blue cartoon with the docked ligand shown as brown sticks, while the representative MD structure is shown in grey cartoon and the ligand as green sticks. A: DB08889,"
+            },
+            {
+                "id": "7",
+                "caption": "Structural comparison between the crystal and a representative MD structure of COVID19 protease bound to two neutral ligands DB01601 and DB11574. The crystal structure is shown as blue cartoon with the docked ligand shown as brown sticks, while the representative MD structure is shown in grey cartoon and the ligand as green sticks. A: DB01601 and B: DB11574. The detailed ligand-receptor interactions are shown in the bottom panel (C-D). All the hotspot residues ( GLig-Res < -3.0) revealed by MM-GBSA analyses are labeled and colored by a blue to red spectrum, the more bluish a residue is colored, the stronger interaction between the residue and the ligand. C: DB01601 and D: DB11574"
+            },
+            {
+                "id": "8",
+                "caption": "Structural comparison between the crystal structure and a representative MD structure of COVID-19 protease bound to three charged ligands DB01082, DB03147, and DB11184. The crystal structure is shown as blue cartoon with the docked ligand shown as brown sticks, while the representative MD structure is shown in grey cartoon and the ligand as green sticks. A: DB01082, B: DB03147, and C: DB11184. The detailed ligand-receptor interactions are shown in the bottom panel (D-F). All the hotspot residues ( GLig-Res < -3.0) revealed by MM-GBSA analyses are labeled and colored by a blue to red spectrum, the more bluish a residue is colored, the stronger the interaction between the residue and the ligand. D: DB01082, E: DB03147, and F: DB11184"
+            },
+            {
+                "id": "9",
+                "caption": "Structural comparison of proteases among three coronavirus viruses (COVID-19, SARS and MERS) (A), and between COVID-19 and hepatitis C NS3/4A proteases (B). The COVID-19 protease is colored in grey and its ligands are shown as green sticks. The following are the color codes for the other proteases: SARS protease and its co-crystal ligand \u2013 brown, MERS protease and its co-crystal ligand \u2013 blue, HCV NS3/4A \u2013 blue, co-crystal ligand of HCV NS3/4A \u2013 brown. Backbone RMSD between SARS and COVID-19 is 0.4711 \u00c5, with 284 residues participating in the least-square fitting and 22 omitted, and the backbone RMSD between MERS and COVID-19 is 0.41 \u00c5, but with 195 residues participating in the least-square fitting and 104 omitted. In contrast, the backbone RMSD between COVID-19 protease and HCV NS3/4A is 2.2632 \u00c5, with 108 residues participating in the least-square fitting and 43 omitted"
+            }
+        ],
+        "tables_url": "https://scholarcy.nyc3.digitaloceanspaces.com/tables/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904.xlsx",
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-005.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-007.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/88f213c23ab3e4d6799f8f6eaf3cb904/img-008.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "A great application of drug repurposing is to identify drugs which were developed for treating other diseases to treat a new disease. Drug repurposing can be achieved by conducting systematic drug-drug target interaction (DTI) and drug-drug interaction (DDI) analyses. We have conducted a survey on DTIs collected by the DrugBank database[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and found that on average each drug has 3 drug targets and each drug target has 4.7 drugs.[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] The analysis demonstrates that polypharmacology is a common phenomenon. It is important to identify potential DTIs for both approved drugs and drug candidates, which serves as the basis of repurposing drugs and selection of drug targets without DTIs that may cause side-effects. Polypharmacology opens novel avenues to rationally design next generation of more effective but less toxic therapeutic agents. Computer-aided drug design (CADD) has been playing essential roles in modern drug discovery and development. To balance the computational efficiency and accuracy, a hieratical strategy employing different types of scoring functions are applied in both the drug lead identification and optimization phases. A docking scoring function, such as the one employed by the Glide docking program,[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] is very efficient and thus can be utilized to screen a large library, but it is not very accurate. On the other hand, the molecular mechanical force field (MMFF)-based scoring functions, are physical and more accurate, but much less efficient. With the ever increasing computer power, MMFF-based free energy calculation methods, such as the endpoint MM-PB/GBSA (molecular mechanicsPoisson Boltzmann/ Generalized Born Surface Area) methods[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>-<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] and the alchemical thermodynamic integration (TI) and free energy perturbation (FEP) methods,[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>, <a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>] have been extensively applied in structure-based drug discovery projects. Recently we\u2019ve developed a hierarchical virtual screening (HVS)to balance the efficiency and accuracy and improve the success rate of rational drug design.8, 24The newly released crystal structure of COVID-191 provides a solid structural basis for identification of drugs that might interact with this protein target. In this work, I applied multiscale modeling techniques to identify drugs that may be repurposed to target COVID-19 protease Flexible docking and MM-PBSA-WSAS were applied as the 1st and 2nd filters, respectively, to improve the efficiency and accuracy of HVS to identify inhibitors of COVID-19. Compared to the experimental means, CADD-based approaches are more efficient in providing possible treatment solutions for epidemic disease outbreaks like COVID-19. The detailed ligand-residue interaction profile as well as the decomposition of binding free energy into different components provide insight into rationally designing potent and selective inhibitors targeting COVID-19 protease."
+        ],
+        "results": [
+            "In this work, I have performed two-step hierarchical virtual screenings to identify repurposing drugs targeting COVID-19 protease.<br/><br/>3.1 Docking Screenings. After downloading the crystal structure of COVID-19, I performed Glide docking screenings for a set of datasets (approved drugs, investigational drugs, and experimental drugs) downloaded from DrugBank.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] I first evaluated the docking power of Glide for the co-crystal ligand of COVID-19, N3. The ligand RMSD of the best docking pose based on docking score (-9.398), 3.32 \u00c5, was acceptable for a big ligand of about 100 atoms in flexible docking. I then applied the docking setting to conduct docking screenings. All the drug molecules that had docking scores better than"
+        ],
+        "discussion": [
+            "The outbreak of highly infectious diseases such as COVID-19 demands to work out multiple treatment plans as soon as possible. Computational drug repurposing study can provide treatment options in a short period of time. For this study, amounts of computational time used for individual tasks are as follows. Docking screenings of all the 2201 approved drugs with a single CPU core (Intel Xeon CPU E5-2683) took 11 hours. For each docking hit, we need to perform ab initio calculations to derive point charges. The ab initio calculations using wB97XD/6-31G*//HF/631G* consumed about 1 day using four CPU cores; then it took us about 1.2 days to sample 120 nanoseconds using one GTX-1080 ti GPU; the following MM-PBSA-WSAS calculation consumed one day. Therefore, equipped with sufficient numbers of CPUs and GPUs and the current hardware, we can finish the drug repurposing screenings within four to five days using a reliable HVS strategy. Given that the inhibitors of COVID-19 protease have relatively large sizes, the screening time can be even shorter for other drug targets with smaller ligands."
+        ],
+        "conclusion": [
+            "In this study, I took advantage of the recently released crystal structure of COVID-19 protease and conducted multiscale drug repurposing screenings. Five neutral drugs, namely, Carfilzomib, Eravacycline, Valrubicin, Lopinavir and Elbasvir, are identified to have inhibitory activities against COVID-19 protease. Streptomycin, a charged molecule may also be an inhibitor of this COVID-19 protease. Our study suggests that computational drug repurposing screening is very efficient and it can provide potential repurposing drug candidates in less than five days. A set of hotspot residues which make substantial contributions to the protein-ligand binding are also identified, which can facilitate us to rationally design novel selective inhibitors targeting COVID19.<br/><br/>ASSOCIATED CONTENT"
+        ],
+        "notes": [
+            "The author declares no competing financial interest."
+        ],
+        "acknowledgment": [
+            "The author gratefully acknowledges the funding support from the National Institutes of Health (NIH) to J.W. (R01GM079383 and R21GM097617). The author also thanks for the computing resources provided by the Center for Research Computing (CRC) at University of Pittsburgh. The author is grateful to Dr. Xiang Liu at Nankai University who kindly provided the PDB file of 6LU7 to me prior its release at www.rcsb.org.<br/><br/>SUPPORTING INFORMATION Table S1. List of Glide docking scores and MM-PBSA-WSAS binding free energies for potential inhibitors binding to COVID-19 protease (in kcal/mol). The net charge (NC) of charged molecules is shown in the parentheses."
+        ],
+        "method": [
+            "<strong>Method and assessment of docking accuracy</strong><br/><br/>Journal of medicinal chemistry 2004, 47 (7), 1739-49.<br/><br/>8. Wang, J.; Morin, P.; Wang, W.; Kollman, P. A., Use of MM-PBSA in reproducing the binding free energies to HIV-1 RT of TIBO derivatives and predicting the binding mode to HIV-1 RT of efavirenz by docking and MM-PBSA. J Am Chem Soc 2001, 123 (22), 5221-5230.<br/><br/>9. Swanson, J. M.; Henchman, R. H.; McCammon, J. A., Revisiting free energy calculations: a theoretical connection to MM/PBSA and direct calculation of the association free energy. Biophys J 2004, 86 (1 Pt 1), 67-74."
+        ],
+        "funding": [
+            "The author gratefully acknowledges the funding support from the National Institutes of Health (NIH) to J.W. (R01GM079383 and R21GM097617)"
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [],
+            "supplementary_figure_references": [
+                "Table S1"
+            ]
+        }
+    },
+    "structured_content": {
+        "Abstract": [
+            "The recent outbreak of novel coronavirus disease -19 (COVID-19) calls for and welcomes possible treatment strategies using drugs on the market. It is very efficient to apply computer-aided drug design techniques to quickly identify promising drug repurposing candidates, especially after the detailed 3D-structures of key virous proteins are resolved. Taking the advantage of a recently released crystal structure of COVID-19 protease in complex with a covalently-bonded inhibitor, N3,1 I conducted virtual docking screening of approved drugs and drug candidates in clinical trials. For the top docking hits, I then performed molecular dynamics simulations followed by binding free energy calculations using an endpoint method called MM-PBSA-WSAS.[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>-<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] Several promising known drugs stand out as potential inhibitors of COVID-19 protease, including Carfilzomib, Eravacycline, Valrubicin, Lopinavir and Elbasvir. Carfilzomib, an approved anti-cancer drug acting as a proteasome inhibitor, has the best MM-PBSA-WSAS binding free energy, -13.82 kcal/mol. Streptomycin, an antibiotic and a charged molecule, also demonstrates some inhibitory effect, even though the predicted binding free energy of the charged form (-3.82 kcal/mol) is not nearly as low as that of the neutral form (-7.92 kcal/mol). One bioactive, PubChem 23727975, has a binding free energy of -12.86 kcal/mol. Detailed receptor-ligand interactions were analyzed and hot spots for the receptor-ligand binding were identified. I found that one hotspot residue HIS41, is a conserved residue across many viruses including COVID-19, SARS, MERS, and HCV. The findings of this study can facilitate rational drug design targeting the COVID-19 protease."
+        ],
+        "1. Introduction": [
+            "A great application of drug repurposing is to identify drugs which were developed for treating other diseases to treat a new disease. Drug repurposing can be achieved by conducting systematic drug-drug target interaction (DTI) and drug-drug interaction (DDI) analyses. We have conducted a survey on DTIs collected by the DrugBank database[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and found that on average each drug has 3 drug targets and each drug target has 4.7 drugs.[<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>] The analysis demonstrates that polypharmacology is a common phenomenon. It is important to identify potential DTIs for both approved drugs and drug candidates, which serves as the basis of repurposing drugs and selection of drug targets without DTIs that may cause side-effects. Polypharmacology opens novel avenues to rationally design next generation of more effective but less toxic therapeutic agents. Computer-aided drug design (CADD) has been playing essential roles in modern drug discovery and development. To balance the computational efficiency and accuracy, a hieratical strategy employing different types of scoring functions are applied in both the drug lead identification and optimization phases. A docking scoring function, such as the one employed by the Glide docking program,[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] is very efficient and thus can be utilized to screen a large library, but it is not very accurate. On the other hand, the molecular mechanical force field (MMFF)-based scoring functions, are physical and more accurate, but much less efficient. With the ever increasing computer power, MMFF-based free energy calculation methods, such as the endpoint MM-PB/GBSA (molecular mechanicsPoisson Boltzmann/ Generalized Born Surface Area) methods[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>, <a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>-<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] and the alchemical thermodynamic integration (TI) and free energy perturbation (FEP) methods,[<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>, <a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>] have been extensively applied in structure-based drug discovery projects. Recently we\u2019ve developed a hierarchical virtual screening (HVS)to balance the efficiency and accuracy and improve the success rate of rational drug design.8, 24The newly released crystal structure of COVID-191 provides a solid structural basis for identification of drugs that might interact with this protein target. In this work, I applied multiscale modeling techniques to identify drugs that may be repurposed to target COVID-19 protease Flexible docking and MM-PBSA-WSAS were applied as the 1st and 2nd filters, respectively, to improve the efficiency and accuracy of HVS to identify inhibitors of COVID-19. Compared to the experimental means, CADD-based approaches are more efficient in providing possible treatment solutions for epidemic disease outbreaks like COVID-19. The detailed ligand-residue interaction profile as well as the decomposition of binding free energy into different components provide insight into rationally designing potent and selective inhibitors targeting COVID-19 protease.",
+            "2. Methodologies. I conducted a hierarchical virtual screening (HVS) using the newly resolved crystal structure of COVID-19 protease (Resolution 2.16\u00c5).[<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>] Two types of HVS filters were employed: Glide[<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>] flexible docking followed by MM-PBSA-WSAS.[<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>, <a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] Detailed computational methods are described below.",
+            "2.1 Docking Screening The crystal structure was first treated using the protein structure preparation wizard provided by the Schrodinger software, followed by docking grid generation. Glide flexible docking was performed using the default settings except that the formation of intramolecular hydrogen bonds was rewarded and the enhancement of planarity of conjugated pi groups was turned on. The cocrystal ligand, N3, was covalently bonded to CYS145. I generated a new version of N3, N3\u2019 by breaking the covalent bond and filling in open valence. I then evaluated whether Glide flexible docking can reproduce the native binding pose. In addition, dataset of approved drugs was prepared using DrugBank,[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] and a set of PubChem compounds which are structurally similar to Lopinavir were enriched for docking screenings. Lopinavir, a potent inhibitor of HIV-1 protease,[<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] was found effective in treating COVID-19 patients. Top hits from the docking screenings were advanced to the next HVS filter \u2013 MM-PBSA-WSAS.",
+            "2.2 System setup for molecular dynamics (MD) simulation and free energy calculation MD simulations were first performed for a docking hit for two purposes: (1) studying the relative stability of the ligand residing in the binding pocket; (2) sampling a set of conformations for MM-PBSA-WSAS binding free energy calculations and MM-GBSA residue-ligand binding free energy decomposition analysis. A MD system consisted of one copy of COVID-19 protease, one copy of docked ligand, 17597 TIP3P26 water molecules, about 50 Na+ and Cl- ions depending on the charge state of the ligand. The whole system was neutralized. For the force field parameters, the partial atomic charges of ligands were derived using the RESP27 program to fit the HF/6-31G* electrostatic potentials generated using the GAUSSIAN 16 software package[<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>]. The other force field parameters were derived from GAFF29 and the AMBER FF14SB30 force field to model proteins. The residue topologies for ligands were prepared using the Antechamber module.[<a class=\"ref-link\" id=\"c31\" href=\"#r31\">31</a>] For the covalently-bonded N3 ligand, I applied the residuegen program to generate non-standard amino acid residue topology.",
+            "2.3 MD Simulation Protocols. For a protein-ligand complex, the MD system was first relaxed through a series of minimization procedures. The mainchain atoms of the receptor and the bound ligand were restrained using a harmonic potential and its force constant decreased from 20 to 10, 5, 1 and 0 kcal/mol/\u00c52, progressively in five 10,000-step minimizations. Note that the last step applied no restraint at all as the force constant is 0. The system was further relaxed by a set of 100-picosecond atomistic MD simulations with the same restrain setting of minimizations.",
+            "There were three phases for a MD simulation: the relaxation phase, the equilibrium phase, and the sampling phase. In the relaxation phase, the simulation system was heated up progressively from 50 K to 250 K at steps of 50 K. At each temperature, a 1-nanosecond MD simulation was performed without any restraints or constraints. In the next equilibrium phase, the system was equilibrated at 298 K, 1 bar for 20 ns. Finally, a 100-nanosecond MD simulation was performed at 298 K, 1 bar to produce NTP (constant temperature and pressure) ensembles. In total, 10,000 snapshots were recorded from the last simulation. 200 snapshots were evenly selected for the MMPBSA-WSAS binding free energy calculation and 5000 were selected for the MM-GBSA ligandprotein binding free energy decomposition analysis. Additional settings for constant pressure MD simulations performed in this work are listed as follows: temperature was regulated using Langevin dynamics[<a class=\"ref-link\" id=\"c32\" href=\"#r32\">32</a>] with a collision frequency of 5 ps-1; pressure was regulated using the isotropic position scaling algorithm with the pressure relaxation time set to 1.0 ps; integration of the equations of motion was conducted at a time step of 1 fs for the two relaxation phases and 2 fs for the equilibrium and sampling phases. The Particle Mesh Ewald (PME) method[<a class=\"ref-link\" id=\"c33\" href=\"#r33\">33</a>] was used to calculate the full electrostatic energy of a unit cell in a macroscopic lattice of repeating images. All bonds were constrained using the SHAKE algorithm[<a class=\"ref-link\" id=\"c34\" href=\"#r34\">34</a>] in both the minimization and MD simulation stages. All MD simulations were performed using the pmemd program in AMBER 18.35"
+        ],
+        "2.4 MM-PBSA-WSAS Binding Free Energy Calculation": [
+            "200 MD snapshots were evenly selected for the binding free energy calculations. For each selected MD snapshot, the molecular mechanical (MM) energy (EMM) and the MM-PBSA solvation free energy were calculated without further minimization.[<a class=\"ref-link\" id=\"c8\" href=\"#r8\">8</a>, <a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>, <a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>, <a class=\"ref-link\" id=\"c36\" href=\"#r36\">36</a>-<a class=\"ref-link\" id=\"c38\" href=\"#r38\">38</a>] Key parameters controlling the MM-PBSA-WSAS analyses are listed as follows: external dielectric constant: 80; internal dielectric constant: 4; and the surface tension for estimating the nonpolar solvation energy by using solvent assessible surface area: 0.054. The Parse radii[<a class=\"ref-link\" id=\"c39\" href=\"#r39\">39</a>] were used in the MM-PBSA solvation calculation using the Delphi package (http://compbio.clemson.edu/delphi). The entropic term was estimated using a method coined WSAS (weighted solvent accessible surface area) described elsewhere.[<a class=\"ref-link\" id=\"c4\" href=\"#r4\">4</a>] It is noted that the entropic contribution cannot be neglected for this protein target as most ligands are large and have many rotatable bonds.",
+            "2.5 MM-GBSA Ligand-Residue Free Energy Decomposition Analysis I conducted ligand-residue free energy decomposition analysis for 5000 snapshots evenly selected from the sampled snapshots. Besides the electrostatic and van der Waals interactions, the solvation effect was taken into account using a Generalized GB model developed by Onufriev et al.[<a class=\"ref-link\" id=\"c40\" href=\"#r40\">40</a>] The ligand-residue MM-GBSA interaction energies were calculated using the Sander program in AMBER18.35 Data analysis was performed using an internal program developed by us. A hotspot residue is recognized when its ligand-residue MM-GBSA interaction is stronger than -1.0 kcal/mol."
+        ],
+        "3. Results": [
+            "In this work, I have performed two-step hierarchical virtual screenings to identify repurposing drugs targeting COVID-19 protease.",
+            "3.1 Docking Screenings. After downloading the crystal structure of COVID-19, I performed Glide docking screenings for a set of datasets (approved drugs, investigational drugs, and experimental drugs) downloaded from DrugBank.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] I first evaluated the docking power of Glide for the co-crystal ligand of COVID-19, N3. The ligand RMSD of the best docking pose based on docking score (-9.398), 3.32 \u00c5, was acceptable for a big ligand of about 100 atoms in flexible docking. I then applied the docking setting to conduct docking screenings. All the drug molecules that had docking scores better than",
+            "-8.5 kcal/mol, which accounted for about 1% of total screening compounds, were selected as hits and advanced to the next filter \u2013 MM-PBSA-WSAS. 3.2 MD Simulations For the promising docking hits, I conducted molecular dynamics (MD) simulations using the AMBER software package.[<a class=\"ref-link\" id=\"c35\" href=\"#r35\">35</a>] In total 39 ligands including the co-crystal N3 ligand, were studied in the second phase of HVS. The Top 5 approved neutral drugs that have excellent MM-PBSAWSAS binding free energies ( Gbind <=-5.0 kcal/mol) are shown in Figure 1. The 2D structures of charged drugs with at least one form achieved  Gbind <=-5.0 kcal/mol are shown in Figure 2. I also found two bio-actives (Figure 3), which are structurally similar to Lopinavir, have excellent binding free energies (Section 3.3). It is noted that Lopinavir was observed to be effective in treating COVID-19.",
+            "Figure 1. 2D-Structures of promising repurpose drugs. All five approved drugs are in neural form under physiological conditions.",
+            "Figure 2. 2D-Structures of promising repurposing drugs. All three approved drugs are in charged form under physiological conditions.",
+            "Figure 3. 2D-Structures of promising bio-actives which are structurally similar to Lopinavir. PubChem 88143175, although studied in neutral form, bears -3 charges under physiological conditions.",
+            "I explored the MD stability of each MD system. Figure 4 showed the RMSD fluctuations along the MD simulation time. It is shown that the mainchain atoms of the receptor (black curves) and the secondary structures (red curves) reached equilibrium after 20 nanoseconds. The least-square (LS) fitted RMSDs of the ligands (green curves) are around 2 \u00c5, which is reasonable for large ligands like COVID-19 protease inhibitors. A ligand\u2019s No-Fit RMSD was calculated by first performing LS-fitting for the main chain atoms of the receptor and the resulting translation-rotation matrix was applied to the ligand, and then the RMSD was calculated directly. Evidently, the ligand No-Fit RMSDs measures not only the conformational changes, but also its translational and rotational movements inside the binding pocket. The ligand No-Fit RMSDs (blue curves) are larger than the LS-Fit values, however, those values around 3-4 \u00c5 are still acceptable for large ligands. In summary, the RMSD fluctuation analysis suggests that the MD trajectories are overall stable during the sampling phase for all the studied MD systems.",
+            "I first generated the average structure of the collected snapshots, and then the MD snapshot that had the smallest main chain atom RMSD against the average structure was chosen as the representative conformation. The comparisons between the crystal structure and the representative MD conformations are shown in Figure 5 for the native ligand N3, and Figures 6-8 for the other ligands. As shown in Figure 5, the benzene motif located in the dashed red cycle was inserted between two hotspot residues (HIS41 and MET49) for the MD structure, which is quite distinct from the crystal structure, which shows that the benzene motif has no direct interactions with HIS4 and MET49. I believe that under physiological conditions, the benzene motif becomes less solvent exposed and has more favorable interactions with HIS4 and MET49 by inserting itself between the side chains of the two residues. As shown below, both HIS4 and MET49 were hotspot residues in our MM-GBSA free energy decomposition analysis.",
+            "3.3 MM-PBSA-WSAS Binding Free Energy Calculations I measured the ligand binding affinity using the endpoint MM-PBSA method. Considering the ligands of COVID-19 protease are flexible molecules with large sizes, the contribution from conformational entropy cannot be neglected. Instead of applying normal mode analysis to estimate the entropic effect, I applied an efficient method called WSAS4 to calculate this energy term. This scoring function is therefore called MM-PBSA-WSAS. The calculated binding free energies and the Glide docking scores are summarized in Table 1. The calculated entropic term, T S, is quite different for different ligands as shown in Table 1, suggesting the necessity of including this term in binding free energy calculations. The structures of the promising drug repurposing candidates, which have both excellent docking scores and MM-PBSA-WSAS binding affinities are shown in Figures 1-3. All the known drugs shown in Figure 1 are neutral and have a better MM-PBSAWSAS affinity than -5.0 kcal/mol. It should be noted that the cocrystal ligand, N3 is covalently bonded to the receptor, therefore its binding free energy is not directly comparable to those noncovalent ligands. The individual terms of MM-PBSA-WSAS binding free energies of other less potent ligands were summarized in Table S1.",
+            "The values of each energy term, van der Waals ( EVDW), electrostatics ( EVDW +  GPB), nonpolar solvation term ( GSA), and entropy (T S), vary significantly from one system to another (Table 1 and Table S1), suggesting there is no single energy term that dominates the protein-ligand interaction.",
+            "For the charged drug molecules, caution should be taken in result interpretation. For example, the neural form of Streptomycin (DB01082) has a MM-PBSA-WSAS binding free energy of -7.92 kcal/mol, much better than the charged form (-3.82 kcal/mol). However, the latter is dominant under physiological conditions. We therefore should use the result of the charged form or take the penalty of protonation into consideration when using the result of the neutral form.",
+            "Co-crystal ligand covalently bonds to sulfur of CYS145 Co-crystal ligand (no covalent bond formed)",
+            "3.4 MM-GBSA Free Energy Decomposition. I performed MM-GBSA binding free energy decomposition to identify the hotspot residues which make substantial contributions to the protein-ligand binding. The identified hotspots could enable us to rationally design potent and selective inhibitors of this drug target. To obtain statistically meaningful results, I studied 5000 MD snapshots for each system, and both the average ligand-residue interaction energies ( Glig-res) and their RMSD values were calculated.",
+            "A hotspot residue is defined as a residue with  Glig-res equal to or smaller than -1.0 kcal/mol. The identified hotspots of each ligand are summarized in Table 2. The most significant hotspot residues ( Glig-res<-3.0) are illustrated in Figures 5-8. The common significant hotspot residues for most ligands (in bold in Table 2) are as follows: HIS41, MET49, ASN142, HIS164, MET165, GLU166, and GLN189.",
+            "46 SER -0.91 -1.79 -1.54 -0.62 -4.26 49 MET -4.39 -2.37 -3.14 -2.14 -5.57 52 PRO -0.76 -0.06 -0.08 -0.08 -0.03 54 TYR -0.65 -0.12 -0.45 -0.22 -0.14 119 ASN -0.16 -0.02 -0.07 -0.09 -0.02 PHE -0.19 -0.98 -0.04 -0.09 -0.02 LEU -0.28 -1.16 -0.10 -0.23 -0.03 ASN -3.50 -4.39 -3.46 -3.66 -0.59 GLY -2.23 -0.75 -0.96 -0.36 -0.37 SER -13.05 -1.42 -0.12 -0.17 -0.10 CYS -66.34 -3.22 -0.71 -1.53 -1.59 GLY -10.20 -0.02 -0.01 -0.03 -0.03 SER -0.64 -0.05 -0.01 -0.02 -0.01 HIS -3.88 -1.65 -0.13 -0.38 -0.14 HIS -3.92 -4.89 -1.41 -3.65 -1.80 MET -5.49 -7.83 -4.16 -4.63 -3.46 GLU -7.31 -6.67 -6.05 -6.76 -0.82 LEU -1.67 -1.36 -1.26 -2.11 -0.63 PRO -2.73 -1.17 -1.11 -2.50 -1.26 170 GLY -0.05 -0.08 -0.01 -0.03 -0.02 172 HIS -0.17 -1.15 -0.09 -0.18 -0.07 VAL -0.31 -0.61 -0.28 -0.18 -0.33 ASP -1.49 -1.29 -2.24 -1.36 -3.74 ARG -1.60 -2.04 -1.94 -1.74 -1.68 GLN -5.25 -13.79 -5.90 -11.52 -8.10 THR -1.42 -1.56 -3.94 -2.43 -1.55 ALA -1.65 -2.48 -0.23 -0.68 -1.52 GLN -2.24 -3.48 -3.96 -2.28 -1.13"
+        ],
+        "4. Discussion": [
+            "The outbreak of highly infectious diseases such as COVID-19 demands to work out multiple treatment plans as soon as possible. Computational drug repurposing study can provide treatment options in a short period of time. For this study, amounts of computational time used for individual tasks are as follows. Docking screenings of all the 2201 approved drugs with a single CPU core (Intel Xeon CPU E5-2683) took 11 hours. For each docking hit, we need to perform ab initio calculations to derive point charges. The ab initio calculations using wB97XD/6-31G*//HF/631G* consumed about 1 day using four CPU cores; then it took us about 1.2 days to sample 120 nanoseconds using one GTX-1080 ti GPU; the following MM-PBSA-WSAS calculation consumed one day. Therefore, equipped with sufficient numbers of CPUs and GPUs and the current hardware, we can finish the drug repurposing screenings within four to five days using a reliable HVS strategy. Given that the inhibitors of COVID-19 protease have relatively large sizes, the screening time can be even shorter for other drug targets with smaller ligands.",
+            "Another consideration is the availability of high-quality drug target structures. Luckily, a highresolution crystal structure of COVID-19 protease in complex with a ligand was resolved timely, allowing us to conduct this drug repurpose screening. If no high-quality structure is available, one can rely on homology modeling technique, probably with a reduced success rate of identifying repurposing drugs. Take COVID-19 protease as an example, I performed structural alignments using an internal program which takes a multiple-sequence-alignment (MSA) as an input. The MSA was generated by using the Promals3D web server.[<a class=\"ref-link\" id=\"c41\" href=\"#r41\">41</a>] The structure of COVID-19 protease is found to be most similar to those of SARS protease (PDB Code 3TNT42) and less similar to MERS protease (PDB Code 5WKK43) (Figure 9A). In comparison, the structure of HCV NS3/4A (PDB Code 3M5L44) is quite different: the RMSD of 2.26 \u00c5 between HCV and COVID-19 is much larger and with only 108 residues participating the least-square fitting (Figure 9B). I also compared the sequences of the four proteases around the seven hotspot residues, which are colored in red in Table 3. It is shown that COVID-19 and SARS share all the seven hotspot residues. MERS and COVID-19 have four of the seven common hotspot residues, while HCV NS3/4A and COVID19 have only one common hotspot residue (H41). Even though the sequence identity is low between COVID-19 and HCV NS3/4A, as shown in Figure 9B, the co-crystal ligands, N3 (green sticks) for COVID-19 and ITMN-191 (brown sticks) for HCV NS3/4A, largely overlap. This suggests that homology models can be constructed using Modeller[<a class=\"ref-link\" id=\"c45\" href=\"#r45\">45</a>] with SARS, MERS and even HCV NS3/4A as templates.",
+            "COVID-19 6LU7 ...CPRHVIC...SEDMLNP...FLNGSC...CYMHHMELP...VDRQTAQ...",
+            "HCV NS3/4A 3M5L ...TVYHGAG...-------...YLKGSA...VGIFRAAVS...-------..."
+        ],
+        "5. Conclusion": [
+            "In this study, I took advantage of the recently released crystal structure of COVID-19 protease and conducted multiscale drug repurposing screenings. Five neutral drugs, namely, Carfilzomib, Eravacycline, Valrubicin, Lopinavir and Elbasvir, are identified to have inhibitory activities against COVID-19 protease. Streptomycin, a charged molecule may also be an inhibitor of this COVID-19 protease. Our study suggests that computational drug repurposing screening is very efficient and it can provide potential repurposing drug candidates in less than five days. A set of hotspot residues which make substantial contributions to the protein-ligand binding are also identified, which can facilitate us to rationally design novel selective inhibitors targeting COVID19.",
+            "Supporting Information.",
+            "The MM-PBSA-WSAS binding free energies for other less promising docking hits ( Glig-res worse than -5.0 kcal/mol) are listed in Table S1.",
+            "Notes The author declares no competing financial interest."
+        ],
+        "ACKNOWLEDGMENT": [
+            "The author gratefully acknowledges the funding support from the National Institutes of Health (NIH) to J.W. (R01GM079383 and R21GM097617). The author also thanks for the computing resources provided by the Center for Research Computing (CRC) at University of Pittsburgh. The author is grateful to Dr. Xiang Liu at Nankai University who kindly provided the PDB file of 6LU7 to me prior its release at www.rcsb.org.",
+            "SUPPORTING INFORMATION Table S1. List of Glide docking scores and MM-PBSA-WSAS binding free energies for potential inhibitors binding to COVID-19 protease (in kcal/mol). The net charge (NC) of charged molecules is shown in the parentheses.",
+            "DB01204 DB01232 DB01264 DB01282 DB01328 (NC = 0) DB01328 (NC = -2) DB01698 DB03141 (NC = 0) DB03247 (NC = -2) DB03310 (NC = 0) DB03310 (NC = -2) DB06441 (NC = -4) DB06717 (NC = -2) DB08818 (NC = 0) DB08818 (NC = -2) DB09059 DB09065 DB11602 DB13074"
+        ],
+        "REFERENCES": [
+            "1. Liu, X.; Zhang, B.; Jin, Z.; Yang, H.; Rao, Z., The crystal structure of COVID-19 main protease in complex with an inhibitor N3. 2020.",
+            "2. Wang, E.; Sun, H.; Wang, J.; Wang, Z.; Liu, H.; Zhang, J. Z. H.; Hou, T., End-Point Binding Free Energy Calculation with MM/PBSA and MM/GBSA: Strategies and Applications in Drug Design. Chem Rev 2019, 119 (16), 9478-9508.",
+            "3. Wang, J. M.; Hou, T. J.; Xu, X. J., Recent Advances in Free Energy Calculations with a Combination of Molecular Mechanics and Continuum Models. Curr Comput-Aid Drug 2006, 2 (3), 287-306.",
+            "4. Wang, J.; Hou, T., Develop and test a solvent accessible surface area-based model in conformational entropy calculations. Journal of chemical information and modeling 2012, 52 (5), 1199-212.",
+            "5. Law, V.; Knox, C.; Djoumbou, Y.; Jewison, T.; Guo, A. C.; Liu, Y.; Maciejewski, A.; Arndt, D.; Wilson, M.; Neveu, V.; Tang, A.; Gabriel, G.; Ly, C.; Adamjee, S.; Dame, Z. T.; Han, B.; Zhou, Y.; Wishart, D. S., DrugBank 4.0: shedding new light on drug metabolism. Nucleic acids research 2014, 42 (Database issue), D1091-7.",
+            "6. Wang, J.; Ge, Y.; Xie, X. Q., Development and Testing of Druglike Screening Libraries. Journal of chemical information and modeling 2019, 59 (1), 53-65.",
+            "7. Friesner, R. A.; Banks, J. L.; Murphy, R. B.; Halgren, T. A.; Klicic, J. J.; Mainz, D. T.; Repasky, M. P.; Knoll, E. H.; Shelley, M.; Perry, J. K.; Shaw, D. E.; Francis, P.; Shenkin, P. S., Glide: a new approach for rapid, accurate docking and scoring.",
+            "1. Method and assessment of docking accuracy. Journal of medicinal chemistry 2004, 47 (7), 1739-49.",
+            "8. Wang, J.; Morin, P.; Wang, W.; Kollman, P. A., Use of MM-PBSA in reproducing the binding free energies to HIV-1 RT of TIBO derivatives and predicting the binding mode to HIV-1 RT of efavirenz by docking and MM-PBSA. J Am Chem Soc 2001, 123 (22), 5221-5230.",
+            "9. Swanson, J. M.; Henchman, R. H.; McCammon, J. A., Revisiting free energy calculations: a theoretical connection to MM/PBSA and direct calculation of the association free energy. Biophys J 2004, 86 (1 Pt 1), 67-74.",
+            "10. Kuhn, B.; Gerber, P.; Schulz-Gasch, T.; Stahl, M., Validation and use of the MM-PBSA approach for drug discovery. Journal of medicinal chemistry 2005, 48 (12), 4040-4048.",
+            "11. Hou, T.; Wang, J.; Li, Y.; Wang, W., Assessing the performance of the MM/PBSA and MM/GBSA methods.",
+            "1. The accuracy of binding free energy calculations based on molecular dynamics simulations. Journal of chemical information and modeling 2011, 51 (1), 69-82.",
+            "12. Xu, L.; Sun, H.; Li, Y.; Wang, J.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "3. The impact of force fields and ligand charge models. J Phys Chem B 2013, 117 (28), 8408-21.",
+            "13. Sun, H.; Li, Y.; Shen, M.; Tian, S.; Xu, L.; Pan, P.; Guan, Y.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "5. Improved docking performance using high solute dielectric constant MM/GBSA and MM/PBSA rescoring. Phys Chem Chem Phys 2014, 16 (40), 22035-45.",
+            "14. Sun, H.; Li, Y.; Tian, S.; Xu, L.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "4. Accuracies of MM/PBSA and MM/GBSA methodologies evaluated by various simulation protocols using PDBbind data set. Phys Chem Chem Phys 2014, 16 (31), 16719-29.",
+            "15. Chen, F.; Liu, H.; Sun, H.; Pan, P.; Li, Y.; Li, D.; Hou, T., Assessing the performance of the MM/PBSA and MM/GBSA methods.",
+            "6. Capability to predict protein-protein binding free energies and re-rank binding poses generated by protein-protein docking. Phys Chem Chem Phys 2016, 18 (32), 22129-39.",
+            "16. Karami, M.; Jalali, C.; Mirzaie, S., Combined virtual screening, MMPBSA, molecular docking and dynamics studies against deadly anthrax: An in silico effort to inhibit Bacillus anthracis nucleoside hydrolase. J Theor Biol 2017, 420, 180-189.",
+            "17. Chen, F.; Sun, H.; Wang, J.; Zhu, F.; Liu, H.; Wang, Z.; Lei, T.; Li, Y.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "8. Predicting binding free energies and poses of protein-RNA complexes. RNA 2018, 24 (9), 1183-1194.",
+            "18. Mishra, S. K.; Koca, J., Assessing the Performance of MM/PBSA, MM/GBSA, and QM-MM/GBSA Approaches on Protein/Carbohydrate Complexes: Effect of Implicit Solvent Models, QM Methods, and Entropic Contributions. J Phys Chem B 2018, 122 (34), 8113-8121.",
+            "19. Sun, H.; Duan, L.; Chen, F.; Liu, H.; Wang, Z.; Pan, P.; Zhu, F.; Zhang, J. Z. H.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "7. Entropy effects on the performance of endpoint binding free energy calculation approaches. Phys Chem Chem Phys 2018, 20 (21), 1445014460.",
+            "20. Wang, E.; Weng, G.; Sun, H.; Du, H.; Zhu, F.; Chen, F.; Wang, Z.; Hou, T., Assessing the performance of the MM/PBSA and MM/GBSA methods.",
+            "10. Impacts of enhanced sampling and variable dielectric model on protein-protein Interactions. Phys Chem Chem Phys 2019, 21 (35), 18958-18969.",
+            "21. Weng, G.; Wang, E.; Chen, F.; Sun, H.; Wang, Z.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "9. Prediction reliability of binding affinities and binding poses for proteinpeptide complexes. Phys Chem Chem Phys 2019, 21 (19), 10135-10145.",
+            "22. Lee, T. S.; Hu, Y.; Sherborne, B.; Guo, Z.; York, D. M., Toward Fast and Accurate Binding Affinity Prediction with pmemdGTI: An Efficient Implementation of GPU-Accelerated Thermodynamic Integration. J Chem Theory Comput 2017, 13 (7), 3077-3084.",
+            "23. Wang, L.; Wu, Y.; Deng, Y.; Kim, B.; Pierce, L.; Krilov, G.; Lupyan, D.; Robinson, S.; Dahlgren, M. K.; Greenwood, J.; Romero, D. L.; Masse, C.; Knight, J. L.; Steinbrecher, T.; Beuming, T.; Damm, W.; Harder, E.; Sherman, W.; Brewer, M.; Wester, R.; Murcko, M.; Frye, L.; Farid, R.; Lin, T.; Mobley, D. L.; Jorgensen, W. L.; Berne, B. J.; Friesner, R. A.; Abel, R., Accurate and reliable prediction of relative ligand binding potency in prospective drug discovery by way of a modern freeenergy calculation protocol and force field. J Am Chem Soc 2015, 137 (7), 2695-2703.",
+            "24. Wang, J.; Kang, X.; Kuntz, I. D.; Kollman, P. A., Hierarchical database screenings for HIV-1 reverse transcriptase using a pharmacophore model, rigid docking, solvation docking, and MM-PB/SA. Journal of medicinal chemistry 2005, 48 (7), 2432-44.",
+            "25. Capparelli, E. V.; Holland, D.; Okamoto, C.; Gragg, B.; Durelle, J.; Marquie-Beck, J.; van den Brande, G.; Ellis, R.; Letendre, S.; Group, H., Lopinavir concentrations in cerebrospinal fluid exceed the 50% inhibitory concentration for HIV. AIDS 2005, 19 (9), 949-52.",
+            "26. Jorgensen, W. L.; Chandrasekhar, J.; Madura, J. D.; Impey, R. W.; Klein, M. L., Comparison of simple potential functions for simulating liquid water. The Journal of Chemical Physics 1983, 79 (2), 926.",
+            "27. Bayly, C. I.; Cieplak, P.; Cornell, W. D.; Kollman, P. A., A well-behaved electrostatic potential based method using charge restraints for deriving atomic charges- the RESP model. J Phys Chem 1993, 97 (40), 10269-10280.",
+            "28. Frisch, M. J. T., G. W.; Schlegel, H. B.; Scuseria, G. E.; Robb, M. A.; Cheeseman, J. R.; Scalmani, G.; Barone, V.; Petersson, G. A.; Nakatsuji, H.; Li, X.; Caricato, M.; Marenich, A. V.; Bloino, J.; Janesko, B. G.; Gomperts, R.; Mennucci, B.; Hratchian, H. P.; Ortiz, J. V.; Izmaylov, A. F.; Sonnenberg, J. L.; Williams-Young, D.; Ding, F.; Lipparini, F.; Egidi, F.; Goings, J.; Peng, B.; Petrone, A.; Henderson, T.; Ranasinghe, D.; Zakrzewski, V. G.; Gao, J.; Rega, N.; Zheng, G.; Liang, W.; Hada, M.; Ehara, M.; Toyota, K.; Fukuda, R.; Hasegawa, J.; Ishida, M.; Nakajima, T.; Honda, Y.; Kitao, O.; Nakai, H.; Vreven, T.; Throssell, K.; Montgomery, J. A., Jr.; Peralta, J. E.; Ogliaro, F.; Bearpark, M. J.; Heyd, J. J.; Brothers, E. N.; Kudin, K. N.; Staroverov, V. N.; Keith, T. A.; Kobayashi, R.; Normand, J.; Raghavachari, K.; Rendell, A. P.; Burant, J. C.; Iyengar, S. S.; Tomasi, J.; Cossi, M.; Millam, J. M.; Klene, M.; Adamo, C.; Cammi, R.; Ochterski, J. W.; Martin, R. L.; Morokuma, K.; Farkas, O.; Foresman, J. B.; Fox, D. J., Gaussian 16, Revision B.01. Gaussian, Inc., Wallingford CT 2016.",
+            "29. Wang, J. M.; Wolf, R. M.; Caldwell, J. W.; Kollman, P. A.; Case, D. A., Development and testing of a general amber force field. Journal of Computational Chemistry 2004, 25 (9), 1157-1174.",
+            "30. Maier, J. A.; Martinez, C.; Kasavajhala, K.; Wickstrom, L.; Hauser, K. E.; Simmerling, C., ff14SB: Improving the Accuracy of Protein Side Chain and Backbone Parameters from ff99SB. J Chem Theory Comput 2015, 11 (8), 3696-713.",
+            "31. Wang, J.; Wang, W.; Kollman, P. A.; Case, D. A., Automatic atom type and bond type perception in molecular mechanical calculations. J Mol Graph Model 2006, 25 (2), 247-260.",
+            "32. Larini, L.; Mannella, R.; Leporini, D., Langevin stabilization of molecular-dynamics simulations of polymers by means of quasisymplectic algorithms. J Chem Phys 2007, 126 (10), 104101.",
+            "33. Darden, T.; Perera, L.; Li, L.; Pedersen, L., New tricks for modelers from the crystallography toolkit: the particle mesh Ewald algorithm and its use in nucleic acid simulations. Structure 1999, 7 (3), R5560.",
+            "34. Miyamoto, S.; Kollman, P. A., Settle - an analytical version of the Shake and Rattle algorithm for rigid water models. Journal of Computational Chemistry 1992, 13 (8), 952-962.",
+            "35. Case, D. A.; Ben-Shalom, I. Y.; Brozell, S. R.; Cerutti, D. S.; Cheatham, I., T.E. ; Cruzeiro, V. W. D.; Darden, T. A.; Duke, R. E.; Ghoreishi, D.; Gilson, M. K.; Gohlke, H.; Goetz, A. W.; Greene, D.; Harris, R.; Homeyer, N.; Izadi, S.; Kovalenko, A.; Kurtzman, T.; Lee, T. S.; LeGrand, S.; Li, P.; Lin, C.; Liu, J.; Luchko, T.; Luo, R.; Mermelstein, D. J.; Merz, K. M.; Miao, Y.; Monard, G.; Nguyen, C.; Nguyen, H.; Omelyan, I.; Onufriev, A.; Pan, F.; Qi, R.; Roe, D. R.; Roitberg, A.; Sagui, C.; SchottVerdugo, S.; Shen, J.; Simmerling, C. L.; Smith, J.; Salomon-Ferrer, R.; Swails, J.; Walker, R. C.; Wang, J.; Wei, H.; Wolf, R. M.; Wu, X.; Xiao, L.; D.M., Y.; Kollman, P. A., AMBER 2018. University of California, San Francisco 2018.",
+            "36. Page, C. S.; Bates, P. A., Can MM-PBSA calculations predict the specificities of protein kinase inhibitors? Journal of Computational Chemistry 2006, 27 (16), 1990-2007.",
+            "37. Kongsted, J.; Ryde, U., An improved method to predict the entropy term with the MM/PBSA approach. J Comput Aided Mol Des 2009, 23 (2), 63-71.",
+            "38. Hou, T.; Wang, J.; Li, Y.; Wang, W., Assessing the performance of the molecular mechanics/Poisson Boltzmann surface area and molecular mechanics/generalized Born surface area methods. II. The accuracy of ranking poses generated from docking. J Comput Chem 2011, 32 (5), 866-77.",
+            "39. Sitkoff, D.; Sharp, K. A.; Honig, B., Accurate Calculation of Hydration Free Energies Using Macroscopic Solvent Models. J Phys Chem-Us 1994, 98 (7), 1978-1988.",
+            "40. Onufriev, A.; Bashford, D.; Case, D. A., Exploring protein native states and large-scale conformational changes with a modified generalized born model. Proteins 2004, 55 (2), 383-94.",
+            "41. Pei, J.; Grishin, N. V., PROMALS: towards accurate multiple sequence alignments of distantly related proteins. Bioinformatics 2007, 23 (7), 802-8.",
+            "42. Hilgenfeld, R., From SARS to MERS: crystallographic studies on coronaviral proteases enable antiviral drug design. FEBS J 2014, 281 (18), 4085-96.",
+            "43. Galasiti Kankanamalage, A. C.; Kim, Y.; Damalanka, V. C.; Rathnayake, A. D.; Fehr, A. R.; Mehzabeen, N.; Battaile, K. P.; Lovell, S.; Lushington, G. H.; Perlman, S.; Chang, K. O.; Groutas, W. C., Structure-guided design of potent and permeable inhibitors of MERS coronavirus 3CL protease that utilize a piperidine moiety as a novel design element. Eur J Med Chem 2018, 150, 334-346.",
+            "44. Romano, K. P.; Ali, A.; Royer, W. E.; Schiffer, C. A., Drug resistance against HCV NS3/4A inhibitors is defined by the balance of substrate recognition versus inhibitor binding. Proc Natl Acad Sci U S A 2010, 107 (49), 20986-91.",
+            "45. Webb, B.; Sali, A., Comparative Protein Structure Modeling Using MODELLER. Curr Protoc Protein Sci 2016, 86, 5.6.1-5.6.37."
+        ]
+    },
+    "participants": [],
+    "statistics": [],
+    "keywords": [
+        "National Institutes of Health",
+        "mm pbsa wsas",
+        "dynamics",
+        "Bacillus anthracis",
+        "mechanics",
+        "crystal structure",
+        "net charge",
+        "drug-drug interaction",
+        "MM-PBSA",
+        "lopinavir",
+        "Center for Research Computing",
+        "drug target",
+        "scoring function",
+        "MERS",
+        "hierarchical virtual screening",
+        "drug candidate",
+        "Coronavirus disease",
+        "drug repurposing",
+        "elbasvir",
+        "drug target interaction",
+        "computational drug",
+        "thermodynamic integration",
+        "HIV-1",
+        "free energy perturbation",
+        "molecular mechanical",
+        "coronavirus",
+        "COVID-19",
+        "free energy calculation",
+        "WSAS",
+        "Computer-aided drug design",
+        "GBSA",
+        "molecular mechanics",
+        "molecular dynamics",
+        "PBSA",
+        "molecular mechanical force field",
+        "Particle Mesh Ewald",
+        "drug design"
+    ],
+    "keyword_relevance": {
+        "molecular mechanical": 0.1839080459770115,
+        "COVID-19": 0.10574712643678161,
+        "PBSA": 0.10114942528735632,
+        "molecular dynamics": 0.0896551724137931,
+        "GBSA": 0.06436781609195402,
+        "MM-PBSA": 0.06206896551724138,
+        "WSAS": 0.052873563218390804,
+        "net charge": 0.04597701149425287,
+        "crystal structure": 0.03908045977011494,
+        "thermodynamic integration": 0.027586206896551724,
+        "MERS": 0.022988505747126436,
+        "hierarchical virtual screening": 0.022988505747126436,
+        "free energy calculation": 0.022988505747126436,
+        "dynamics": 0.016091954022988506,
+        "drug target": 0.016091954022988506,
+        "drug repurposing": 0.016091954022988506,
+        "drug target interaction": 0.011494252873563218,
+        "drug design": 0.011494252873563218,
+        "scoring function": 0.009195402298850575,
+        "HIV-1": 0.009195402298850575,
+        "mechanics": 0.006896551724137931,
+        "drug candidate": 0.006896551724137931,
+        "coronavirus": 0.006896551724137931,
+        "Computer-aided drug design": 0.006896551724137931,
+        "molecular mechanics": 0.006896551724137931,
+        "molecular mechanical force field": 0.006896551724137931,
+        "National Institutes of Health": 0.004597701149425287,
+        "drug-drug interaction": 0.004597701149425287,
+        "Center for Research Computing": 0.004597701149425287,
+        "free energy perturbation": 0.004597701149425287,
+        "Particle Mesh Ewald": 0.004597701149425287,
+        "Bacillus anthracis": 0.0022988505747126436,
+        "computational drug": 0.0022988505747126436,
+        "mm pbsa wsas": 0.0,
+        "lopinavir": 0.0,
+        "Coronavirus disease": 0.0,
+        "elbasvir": 0.0
+    },
+    "species": [
+        "Bacillus anthracis"
+    ],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> A great application of drug repurposing is to identify drugs which were developed for treating other diseases to treat a new disease.",
+        "To balance the computational efficiency and accuracy, a hieratical strategy employing different types of scoring functions are applied in both the drug lead identification and optimization phases.",
+        "The authors have developed a hierarchical virtual screening (HVS)to balance the efficiency and accuracy and improve the success rate of rational drug design.8, 24The newly released crystal structure of COVID-191 provides a solid structural basis for identification of drugs that might interact with this protein target.",
+        "The detailed ligand-residue interaction profile as well as the decomposition of binding free energy into different components provide insight into rationally designing potent and selective inhibitors targeting COVID-19 protease",
+        "<h2 style=\"display: inline\">Methods:</h2> <strong>Method and assessment of docking accuracy</strong><br/><br/>Journal of medicinal chemistry 2004, 47 (7), 1739-49.<br/><br/>8.",
+        "<h2 style=\"display: inline\">Results:</h2> The author has performed two-step hierarchical virtual screenings to identify repurposing drugs targeting COVID-19 protease.<br/><br/>3.1 Docking Screenings.",
+        "The author has performed two-step hierarchical virtual screenings to identify repurposing drugs targeting COVID-19 protease.",
+        "3.1 Docking Screenings.",
+        "After downloading the crystal structure of COVID-19, the author performed Glide docking screenings for a set of datasets downloaded from DrugBank.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] the author firsts evaluated the docking power of Glide for the co-crystal ligand of COVID-19, N3.",
+        "The author applied the docking setting to conduct docking screenings.",
+        "All the drug molecules that had docking scores better than",
+        "<h2 style=\"display: inline\">Conclusion:</h2> The outbreak of highly infectious diseases such as COVID-19 demands to work out multiple treatment plans as soon as possible.",
+        "Computational drug repurposing study can provide treatment options in a short period of time.",
+        "Given that the inhibitors of COVID-19 protease have relatively large sizes, the screening time can be even shorter for other drug targets with smaller ligands.In this study, the author tooks advantage of the recently released crystal structure of COVID-19 protease and conducted multiscale drug repurposing screenings.",
+        "The authors' study suggests that computational drug repurposing screening is very efficient and it can provide potential repurposing drug candidates in less than five days.",
+        "A set of hotspot residues which make substantial contributions to the protein-ligand binding are identified, which can facilitate them to rationally design novel selective inhibitors targeting COVID19."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "A great application of drug repurposing is to identify drugs which were developed for treating other diseases to treat a new disease.",
+            "To balance the computational efficiency and accuracy, a hieratical strategy employing different types of scoring functions are applied in both the drug lead identification and optimization phases.",
+            "The authors have developed a hierarchical virtual screening (HVS)to balance the efficiency and accuracy and improve the success rate of rational drug design.8, 24The newly released crystal structure of COVID-191 provides a solid structural basis for identification of drugs that might interact with this protein target.",
+            "The detailed ligand-residue interaction profile as well as the decomposition of binding free energy into different components provide insight into rationally designing potent and selective inhibitors targeting COVID-19 protease"
+        ],
+        "Methods": [
+            "<strong>Method and assessment of docking accuracy</strong><br/><br/>Journal of medicinal chemistry 2004, 47 (7), 1739-49.<br/><br/>8."
+        ],
+        "Results": [
+            "The author has performed two-step hierarchical virtual screenings to identify repurposing drugs targeting COVID-19 protease.<br/><br/>3.1 Docking Screenings.",
+            "The author has performed two-step hierarchical virtual screenings to identify repurposing drugs targeting COVID-19 protease.",
+            "3.1 Docking Screenings.",
+            "After downloading the crystal structure of COVID-19, the author performed Glide docking screenings for a set of datasets downloaded from DrugBank.[<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>] the author firsts evaluated the docking power of Glide for the co-crystal ligand of COVID-19, N3.",
+            "The author applied the docking setting to conduct docking screenings.",
+            "All the drug molecules that had docking scores better than"
+        ],
+        "Conclusion": [
+            "The outbreak of highly infectious diseases such as COVID-19 demands to work out multiple treatment plans as soon as possible.",
+            "Computational drug repurposing study can provide treatment options in a short period of time.",
+            "Given that the inhibitors of COVID-19 protease have relatively large sizes, the screening time can be even shorter for other drug targets with smaller ligands.In this study, the author tooks advantage of the recently released crystal structure of COVID-19 protease and conducted multiscale drug repurposing screenings.",
+            "The authors' study suggests that computational drug repurposing screening is very efficient and it can provide potential repurposing drug candidates in less than five days.",
+            "A set of hotspot residues which make substantial contributions to the protein-ligand binding are identified, which can facilitate them to rationally design novel selective inhibitors targeting COVID19."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Liu_et+al_2020_a",
+            "entry": "1. Liu, X.; Zhang, B.; Jin, Z.; Yang, H.; Rao, Z., The crystal structure of COVID-19 main protease in complex with an inhibitor N3. 2020.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Liu%20X%20Zhang%20B%20Jin%20Z%20Yang%20H%20Rao%20Z%20The%20crystal%20structure%20of%20COVID19%20main%20protease%20in%20complex%20with%20an%20inhibitor%20N3%202020"
+        },
+        {
+            "id": "2",
+            "alt_id": "Wang_et+al_0000_a",
+            "entry": "2. Wang, E.; Sun, H.; Wang, J.; Wang, Z.; Liu, H.; Zhang, J. Z. H.; Hou, T., End-Point Binding Free Energy Calculation with MM/PBSA and MM/GBSA: Strategies and Applications in Drug Design. Chem Rev 2019, 119 (16), 9478-9508.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20E.%20Sun%2C%20H.%20Wang%2C%20J.%20Wang%2C%20Z.%20End-Point%20Binding%20Free%20Energy%20Calculation%20with%20MM/PBSA%20and%20MM/GBSA%3A%20Strategies%20and",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20E.%20Sun%2C%20H.%20Wang%2C%20J.%20Wang%2C%20Z.%20End-Point%20Binding%20Free%20Energy%20Calculation%20with%20MM/PBSA%20and%20MM/GBSA%3A%20Strategies%20and",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20E.%20Sun%2C%20H.%20Wang%2C%20J.%20Wang%2C%20Z.%20End-Point%20Binding%20Free%20Energy%20Calculation%20with%20MM/PBSA%20and%20MM/GBSA%3A%20Strategies%20and"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wang_et+al_2006_a",
+            "entry": "3. Wang, J. M.; Hou, T. J.; Xu, X. J., Recent Advances in Free Energy Calculations with a Combination of Molecular Mechanics and Continuum Models. Curr Comput-Aid Drug 2006, 2 (3), 287-306.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.M.%20Hou%2C%20T.J.%20Xu%2C%20X.J.%20Recent%20Advances%20in%20Free%20Energy%20Calculations%20with%20a%20Combination%20of%20Molecular%20Mechanics%20and%20Continuum%20Models.%20Curr%20Comput-Aid%20Drug%202006"
+        },
+        {
+            "id": "4",
+            "alt_id": "Wang_2012_a",
+            "entry": "4. Wang, J.; Hou, T., Develop and test a solvent accessible surface area-based model in conformational entropy calculations. Journal of chemical information and modeling 2012, 52 (5), 1199-212.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.%20Hou%2C%20T.%20Develop%20and%20test%20a%20solvent%20accessible%20surface%20area-based%20model%20in%20conformational%20entropy%20calculations%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.%20Hou%2C%20T.%20Develop%20and%20test%20a%20solvent%20accessible%20surface%20area-based%20model%20in%20conformational%20entropy%20calculations%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.%20Hou%2C%20T.%20Develop%20and%20test%20a%20solvent%20accessible%20surface%20area-based%20model%20in%20conformational%20entropy%20calculations%202012"
+        },
+        {
+            "id": "5",
+            "alt_id": "Law_et+al_2014_a",
+            "entry": "5. Law, V.; Knox, C.; Djoumbou, Y.; Jewison, T.; Guo, A. C.; Liu, Y.; Maciejewski, A.; Arndt, D.; Wilson, M.; Neveu, V.; Tang, A.; Gabriel, G.; Ly, C.; Adamjee, S.; Dame, Z. T.; Han, B.; Zhou, Y.; Wishart, D. S., DrugBank 4.0: shedding new light on drug metabolism. Nucleic acids research 2014, 42 (Database issue), D1091-7.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Law%2C%20V.%20Knox%2C%20C.%20Djoumbou%2C%20Y.%20Jewison%2C%20T.%20DrugBank%204.0%3A%20shedding%20new%20light%20on%20drug%20metabolism%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Law%2C%20V.%20Knox%2C%20C.%20Djoumbou%2C%20Y.%20Jewison%2C%20T.%20DrugBank%204.0%3A%20shedding%20new%20light%20on%20drug%20metabolism%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Law%2C%20V.%20Knox%2C%20C.%20Djoumbou%2C%20Y.%20Jewison%2C%20T.%20DrugBank%204.0%3A%20shedding%20new%20light%20on%20drug%20metabolism%202014"
+        },
+        {
+            "id": "6",
+            "alt_id": "Wang_et+al_2019_a",
+            "entry": "6. Wang, J.; Ge, Y.; Xie, X. Q., Development and Testing of Druglike Screening Libraries. Journal of chemical information and modeling 2019, 59 (1), 53-65.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.%20Ge%2C%20Y.%20Xie%2C%20X.Q.%20Development%20and%20Testing%20of%20Druglike%20Screening%20Libraries%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.%20Ge%2C%20Y.%20Xie%2C%20X.Q.%20Development%20and%20Testing%20of%20Druglike%20Screening%20Libraries%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.%20Ge%2C%20Y.%20Xie%2C%20X.Q.%20Development%20and%20Testing%20of%20Druglike%20Screening%20Libraries%202019"
+        },
+        {
+            "id": "7",
+            "alt_id": "Friesner_et+al_2004_a",
+            "entry": "7. Friesner, R. A.; Banks, J. L.; Murphy, R. B.; Halgren, T. A.; Klicic, J. J.; Mainz, D. T.; Repasky, M. P.; Knoll, E. H.; Shelley, M.; Perry, J. K.; Shaw, D. E.; Francis, P.; Shenkin, P. S., Glide: a new approach for rapid, accurate docking and scoring. 1. Method and assessment of docking accuracy. Journal of medicinal chemistry 2004, 47 (7), 1739-49.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Friesner%2C%20R.A.%20Banks%2C%20J.L.%20Murphy%2C%20R.B.%20Halgren%2C%20T.A.%20Glide%3A%20a%20new%20approach%20for%20rapid%2C%20accurate%20docking%20and%20scoring.%201.%20Method%20and%20assessment%20of%20docking%20accuracy%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Friesner%2C%20R.A.%20Banks%2C%20J.L.%20Murphy%2C%20R.B.%20Halgren%2C%20T.A.%20Glide%3A%20a%20new%20approach%20for%20rapid%2C%20accurate%20docking%20and%20scoring.%201.%20Method%20and%20assessment%20of%20docking%20accuracy%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Friesner%2C%20R.A.%20Banks%2C%20J.L.%20Murphy%2C%20R.B.%20Halgren%2C%20T.A.%20Glide%3A%20a%20new%20approach%20for%20rapid%2C%20accurate%20docking%20and%20scoring.%201.%20Method%20and%20assessment%20of%20docking%20accuracy%202004"
+        },
+        {
+            "id": "8",
+            "alt_id": "Wang_et+al_2001_a",
+            "entry": "8. Wang, J.; Morin, P.; Wang, W.; Kollman, P. A., Use of MM-PBSA in reproducing the binding free energies to HIV-1 RT of TIBO derivatives and predicting the binding mode to HIV-1 RT of efavirenz by docking and MM-PBSA. J Am Chem Soc 2001, 123 (22), 5221-5230.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.%20Morin%2C%20P.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Use%20of%20MM-PBSA%20in%20reproducing%20the%20binding%20free%20energies%20to%20HIV-1%20RT%20of%20TIBO%20derivatives%20and%20predicting%20the%20binding%20mode%20to%20HIV-1%20RT%20of%20efavirenz%20by%20docking%20and%202001",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.%20Morin%2C%20P.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Use%20of%20MM-PBSA%20in%20reproducing%20the%20binding%20free%20energies%20to%20HIV-1%20RT%20of%20TIBO%20derivatives%20and%20predicting%20the%20binding%20mode%20to%20HIV-1%20RT%20of%20efavirenz%20by%20docking%20and%202001",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.%20Morin%2C%20P.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Use%20of%20MM-PBSA%20in%20reproducing%20the%20binding%20free%20energies%20to%20HIV-1%20RT%20of%20TIBO%20derivatives%20and%20predicting%20the%20binding%20mode%20to%20HIV-1%20RT%20of%20efavirenz%20by%20docking%20and%202001"
+        },
+        {
+            "id": "9",
+            "alt_id": "Swanson_et+al_2004_a",
+            "entry": "9. Swanson, J. M.; Henchman, R. H.; McCammon, J. A., Revisiting free energy calculations: a theoretical connection to MM/PBSA and direct calculation of the association free energy. Biophys J 2004, 86 (1 Pt 1), 67-74.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Swanson%2C%20J.M.%20Henchman%2C%20R.H.%20McCammon%2C%20J.A.%20Revisiting%20free%20energy%20calculations%3A%20a%20theoretical%20connection%20to%20MM/PBSA%20and%20direct%20calculation%20of%20the%20association%20free%20energy%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Swanson%2C%20J.M.%20Henchman%2C%20R.H.%20McCammon%2C%20J.A.%20Revisiting%20free%20energy%20calculations%3A%20a%20theoretical%20connection%20to%20MM/PBSA%20and%20direct%20calculation%20of%20the%20association%20free%20energy%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Swanson%2C%20J.M.%20Henchman%2C%20R.H.%20McCammon%2C%20J.A.%20Revisiting%20free%20energy%20calculations%3A%20a%20theoretical%20connection%20to%20MM/PBSA%20and%20direct%20calculation%20of%20the%20association%20free%20energy%202004"
+        },
+        {
+            "id": "10",
+            "alt_id": "Kuhn_et+al_2005_a",
+            "entry": "10. Kuhn, B.; Gerber, P.; Schulz-Gasch, T.; Stahl, M., Validation and use of the MM-PBSA approach for drug discovery. Journal of medicinal chemistry 2005, 48 (12), 4040-4048.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kuhn%2C%20B.%20Gerber%2C%20P.%20Schulz-Gasch%2C%20T.%20Stahl%2C%20M.%20Validation%20and%20use%20of%20the%20MM-PBSA%20approach%20for%20drug%20discovery%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kuhn%2C%20B.%20Gerber%2C%20P.%20Schulz-Gasch%2C%20T.%20Stahl%2C%20M.%20Validation%20and%20use%20of%20the%20MM-PBSA%20approach%20for%20drug%20discovery%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kuhn%2C%20B.%20Gerber%2C%20P.%20Schulz-Gasch%2C%20T.%20Stahl%2C%20M.%20Validation%20and%20use%20of%20the%20MM-PBSA%20approach%20for%20drug%20discovery%202005"
+        },
+        {
+            "id": "11",
+            "alt_id": "Hou_et+al_0000_a",
+            "entry": "11. Hou, T.; Wang, J.; Li, Y.; Wang, W., Assessing the performance of the MM/PBSA and MM/GBSA methods.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hou%2C%20T.%20Wang%2C%20J.%20Li%2C%20Y.%20Wang%2C%20W.%20Assessing%20the%20performance%20of%20the%20MM/PBSA%20and%20MM/GBSA%20methods"
+        },
+        {
+            "id": "1",
+            "alt_id": "1._2011_a",
+            "entry": "1. The accuracy of binding free energy calculations based on molecular dynamics simulations. Journal of chemical information and modeling 2011, 51 (1), 69-82.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=The%20accuracy%20of%20binding%20free%20energy%20calculations%20based%20on%20molecular%20dynamics%20simulations%20Journal%20of%20chemical%20information%20and%20modeling%202011%2051%201%206982",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=The%20accuracy%20of%20binding%20free%20energy%20calculations%20based%20on%20molecular%20dynamics%20simulations%20Journal%20of%20chemical%20information%20and%20modeling%202011%2051%201%206982",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=The%20accuracy%20of%20binding%20free%20energy%20calculations%20based%20on%20molecular%20dynamics%20simulations%20Journal%20of%20chemical%20information%20and%20modeling%202011%2051%201%206982"
+        },
+        {
+            "id": "12",
+            "alt_id": "Xu_et+al_0000_a",
+            "entry": "12. Xu, L.; Sun, H.; Li, Y.; Wang, J.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Xu%2C%20L.%20Sun%2C%20H.%20Li%2C%20Y.%20Wang%2C%20J.%20Assessing%20the%20performance%20of%20MM/PBSA%20and%20MM/GBSA%20methods"
+        },
+        {
+            "id": "3",
+            "alt_id": "3._0000_a",
+            "entry": "3. The impact of force fields and ligand charge models. J Phys Chem B 2013, 117 (28), 8408-21.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=The%20impact%20of%20force%20fields%20and%20ligand%20charge%20models%20J%20Phys%20Chem%20B%202013%20117%2028%20840821",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=The%20impact%20of%20force%20fields%20and%20ligand%20charge%20models%20J%20Phys%20Chem%20B%202013%20117%2028%20840821",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=The%20impact%20of%20force%20fields%20and%20ligand%20charge%20models%20J%20Phys%20Chem%20B%202013%20117%2028%20840821"
+        },
+        {
+            "id": "13",
+            "alt_id": "Sun_et+al_2014_a",
+            "entry": "13. Sun, H.; Li, Y.; Shen, M.; Tian, S.; Xu, L.; Pan, P.; Guan, Y.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods. 5. Improved docking performance using high solute dielectric constant MM/GBSA and MM/PBSA rescoring. Phys Chem Chem Phys 2014, 16 (40), 22035-45.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sun%2C%20H.%20Li%2C%20Y.%20Shen%2C%20M.%20Tian%2C%20S.%20Assessing%20the%20performance%20of%20MM/PBSA%20and%20MM/GBSA%20methods.%205.%20Improved%20docking%20performance%20using%20high%20solute%20dielectric%20constant%20MM/GBSA%20and%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Sun%2C%20H.%20Li%2C%20Y.%20Shen%2C%20M.%20Tian%2C%20S.%20Assessing%20the%20performance%20of%20MM/PBSA%20and%20MM/GBSA%20methods.%205.%20Improved%20docking%20performance%20using%20high%20solute%20dielectric%20constant%20MM/GBSA%20and%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Sun%2C%20H.%20Li%2C%20Y.%20Shen%2C%20M.%20Tian%2C%20S.%20Assessing%20the%20performance%20of%20MM/PBSA%20and%20MM/GBSA%20methods.%205.%20Improved%20docking%20performance%20using%20high%20solute%20dielectric%20constant%20MM/GBSA%20and%202014"
+        },
+        {
+            "id": "14",
+            "alt_id": "Sun_et+al_0000_a",
+            "entry": "14. Sun, H.; Li, Y.; Tian, S.; Xu, L.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sun%2C%20H.%20Li%2C%20Y.%20Tian%2C%20S.%20Xu%2C%20L.%20Assessing%20the%20performance%20of%20MM/PBSA%20and%20MM/GBSA%20methods"
+        },
+        {
+            "id": "4",
+            "alt_id": "4._2014_a",
+            "entry": "4. Accuracies of MM/PBSA and MM/GBSA methodologies evaluated by various simulation protocols using PDBbind data set. Phys Chem Chem Phys 2014, 16 (31), 16719-29.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Accuracies%20of%20MMPBSA%20and%20MMGBSA%20methodologies%20evaluated%20by%20various%20simulation%20protocols%20using%20PDBbind%20data%20set%20Phys%20Chem%20Chem%20Phys%202014%2016%2031%201671929",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Accuracies%20of%20MMPBSA%20and%20MMGBSA%20methodologies%20evaluated%20by%20various%20simulation%20protocols%20using%20PDBbind%20data%20set%20Phys%20Chem%20Chem%20Phys%202014%2016%2031%201671929",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Accuracies%20of%20MMPBSA%20and%20MMGBSA%20methodologies%20evaluated%20by%20various%20simulation%20protocols%20using%20PDBbind%20data%20set%20Phys%20Chem%20Chem%20Phys%202014%2016%2031%201671929"
+        },
+        {
+            "id": "15",
+            "alt_id": "Chen_et+al_0000_a",
+            "entry": "15. Chen, F.; Liu, H.; Sun, H.; Pan, P.; Li, Y.; Li, D.; Hou, T., Assessing the performance of the MM/PBSA and MM/GBSA methods.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20F.%20Liu%2C%20H.%20Sun%2C%20H.%20Pan%2C%20P.%20Assessing%20the%20performance%20of%20the%20MM/PBSA%20and%20MM/GBSA%20methods"
+        },
+        {
+            "id": "6",
+            "alt_id": "6._0000_b",
+            "entry": "6. Capability to predict protein-protein binding free energies and re-rank binding poses generated by protein-protein docking. Phys Chem Chem Phys 2016, 18 (32), 22129-39.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Capability%20to%20predict%20proteinprotein%20binding%20free%20energies%20and%20rerank%20binding%20poses%20generated%20by%20proteinprotein%20docking%20Phys%20Chem%20Chem%20Phys%202016%2018%2032%202212939",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Capability%20to%20predict%20proteinprotein%20binding%20free%20energies%20and%20rerank%20binding%20poses%20generated%20by%20proteinprotein%20docking%20Phys%20Chem%20Chem%20Phys%202016%2018%2032%202212939",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Capability%20to%20predict%20proteinprotein%20binding%20free%20energies%20and%20rerank%20binding%20poses%20generated%20by%20proteinprotein%20docking%20Phys%20Chem%20Chem%20Phys%202016%2018%2032%202212939"
+        },
+        {
+            "id": "16",
+            "alt_id": "Karami_et+al_2017_a",
+            "entry": "16. Karami, M.; Jalali, C.; Mirzaie, S., Combined virtual screening, MMPBSA, molecular docking and dynamics studies against deadly anthrax: An in silico effort to inhibit Bacillus anthracis nucleoside hydrolase. J Theor Biol 2017, 420, 180-189.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Karami%2C%20M.%20Jalali%2C%20C.%20Mirzaie%2C%20S.%20Combined%20virtual%20screening%2C%20MMPBSA%2C%20molecular%20docking%20and%20dynamics%20studies%20against%20deadly%20anthrax%3A%20An%20in%20silico%20effort%20to%20inhibit%20Bacillus%20anthracis%20nucleoside%20hydrolase%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Karami%2C%20M.%20Jalali%2C%20C.%20Mirzaie%2C%20S.%20Combined%20virtual%20screening%2C%20MMPBSA%2C%20molecular%20docking%20and%20dynamics%20studies%20against%20deadly%20anthrax%3A%20An%20in%20silico%20effort%20to%20inhibit%20Bacillus%20anthracis%20nucleoside%20hydrolase%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Karami%2C%20M.%20Jalali%2C%20C.%20Mirzaie%2C%20S.%20Combined%20virtual%20screening%2C%20MMPBSA%2C%20molecular%20docking%20and%20dynamics%20studies%20against%20deadly%20anthrax%3A%20An%20in%20silico%20effort%20to%20inhibit%20Bacillus%20anthracis%20nucleoside%20hydrolase%202017"
+        },
+        {
+            "id": "17",
+            "alt_id": "Chen_et+al_0000_b",
+            "entry": "17. Chen, F.; Sun, H.; Wang, J.; Zhu, F.; Liu, H.; Wang, Z.; Lei, T.; Li, Y.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chen%2C%20F.%20Sun%2C%20H.%20Wang%2C%20J.%20Zhu%2C%20F.%20Assessing%20the%20performance%20of%20MM/PBSA%20and%20MM/GBSA%20methods"
+        },
+        {
+            "id": "8",
+            "alt_id": "8._2018_a",
+            "entry": "8. Predicting binding free energies and poses of protein-RNA complexes. RNA 2018, 24 (9), 1183-1194.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Predicting%20binding%20free%20energies%20and%20poses%20of%20proteinRNA%20complexes%20RNA%202018%2024%209%2011831194",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Predicting%20binding%20free%20energies%20and%20poses%20of%20proteinRNA%20complexes%20RNA%202018%2024%209%2011831194",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Predicting%20binding%20free%20energies%20and%20poses%20of%20proteinRNA%20complexes%20RNA%202018%2024%209%2011831194"
+        },
+        {
+            "id": "18",
+            "alt_id": "Mishra_0000_a",
+            "entry": "18. Mishra, S. K.; Koca, J., Assessing the Performance of MM/PBSA, MM/GBSA, and QM-MM/GBSA Approaches on Protein/Carbohydrate Complexes: Effect of Implicit Solvent Models, QM Methods, and Entropic Contributions. J Phys Chem B 2018, 122 (34), 8113-8121.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Mishra%2C%20S.K.%20Koca%2C%20J.%20Assessing%20the%20Performance%20of%20MM/PBSA%2C%20MM/GBSA%2C%20and%20QM-MM/GBSA%20Approaches%20on%20Protein/Carbohydrate%20Complexes%3A%20Effect%20of%20Implicit%20Solvent%20Models%2C%20QM",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Mishra%2C%20S.K.%20Koca%2C%20J.%20Assessing%20the%20Performance%20of%20MM/PBSA%2C%20MM/GBSA%2C%20and%20QM-MM/GBSA%20Approaches%20on%20Protein/Carbohydrate%20Complexes%3A%20Effect%20of%20Implicit%20Solvent%20Models%2C%20QM",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Mishra%2C%20S.K.%20Koca%2C%20J.%20Assessing%20the%20Performance%20of%20MM/PBSA%2C%20MM/GBSA%2C%20and%20QM-MM/GBSA%20Approaches%20on%20Protein/Carbohydrate%20Complexes%3A%20Effect%20of%20Implicit%20Solvent%20Models%2C%20QM"
+        },
+        {
+            "id": "19",
+            "alt_id": "Sun_et+al_0000_b",
+            "entry": "19. Sun, H.; Duan, L.; Chen, F.; Liu, H.; Wang, Z.; Pan, P.; Zhu, F.; Zhang, J. Z. H.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sun%2C%20H.%20Duan%2C%20L.%20Chen%2C%20F.%20Liu%2C%20H.%20Assessing%20the%20performance%20of%20MM/PBSA%20and%20MM/GBSA%20methods"
+        },
+        {
+            "id": "7",
+            "alt_id": "7._2018_b",
+            "entry": "7. Entropy effects on the performance of endpoint binding free energy calculation approaches. Phys Chem Chem Phys 2018, 20 (21), 1445014460.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Entropy%20effects%20on%20the%20performance%20of%20endpoint%20binding%20free%20energy%20calculation%20approaches%20Phys%20Chem%20Chem%20Phys%202018%2020%2021%201445014460",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Entropy%20effects%20on%20the%20performance%20of%20endpoint%20binding%20free%20energy%20calculation%20approaches%20Phys%20Chem%20Chem%20Phys%202018%2020%2021%201445014460",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Entropy%20effects%20on%20the%20performance%20of%20endpoint%20binding%20free%20energy%20calculation%20approaches%20Phys%20Chem%20Chem%20Phys%202018%2020%2021%201445014460"
+        },
+        {
+            "id": "20",
+            "alt_id": "Wang_et+al_2019_b",
+            "entry": "20. Wang, E.; Weng, G.; Sun, H.; Du, H.; Zhu, F.; Chen, F.; Wang, Z.; Hou, T., Assessing the performance of the MM/PBSA and MM/GBSA methods. 10. Impacts of enhanced sampling and variable dielectric model on protein-protein Interactions. Phys Chem Chem Phys 2019, 21 (35), 18958-18969.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20E.%20Weng%2C%20G.%20Sun%2C%20H.%20Du%2C%20H.%20Assessing%20the%20performance%20of%20the%20MM/PBSA%20and%20MM/GBSA%20methods.%2010.%20Impacts%20of%20enhanced%20sampling%20and%20variable%20dielectric%20model%20on%20protein-protein%20Interactions%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20E.%20Weng%2C%20G.%20Sun%2C%20H.%20Du%2C%20H.%20Assessing%20the%20performance%20of%20the%20MM/PBSA%20and%20MM/GBSA%20methods.%2010.%20Impacts%20of%20enhanced%20sampling%20and%20variable%20dielectric%20model%20on%20protein-protein%20Interactions%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20E.%20Weng%2C%20G.%20Sun%2C%20H.%20Du%2C%20H.%20Assessing%20the%20performance%20of%20the%20MM/PBSA%20and%20MM/GBSA%20methods.%2010.%20Impacts%20of%20enhanced%20sampling%20and%20variable%20dielectric%20model%20on%20protein-protein%20Interactions%202019"
+        },
+        {
+            "id": "21",
+            "alt_id": "Weng_et+al_0000_a",
+            "entry": "21. Weng, G.; Wang, E.; Chen, F.; Sun, H.; Wang, Z.; Hou, T., Assessing the performance of MM/PBSA and MM/GBSA methods.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Weng%2C%20G.%20Wang%2C%20E.%20Chen%2C%20F.%20Sun%2C%20H.%20Assessing%20the%20performance%20of%20MM/PBSA%20and%20MM/GBSA%20methods"
+        },
+        {
+            "id": "9",
+            "alt_id": "9._2019_a",
+            "entry": "9. Prediction reliability of binding affinities and binding poses for proteinpeptide complexes. Phys Chem Chem Phys 2019, 21 (19), 10135-10145.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Prediction%20reliability%20of%20binding%20affinities%20and%20binding%20poses%20for%20proteinpeptide%20complexes%20Phys%20Chem%20Chem%20Phys%202019%2021%2019%201013510145",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Prediction%20reliability%20of%20binding%20affinities%20and%20binding%20poses%20for%20proteinpeptide%20complexes%20Phys%20Chem%20Chem%20Phys%202019%2021%2019%201013510145",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Prediction%20reliability%20of%20binding%20affinities%20and%20binding%20poses%20for%20proteinpeptide%20complexes%20Phys%20Chem%20Chem%20Phys%202019%2021%2019%201013510145"
+        },
+        {
+            "id": "22",
+            "alt_id": "Lee_et+al_2017_a",
+            "entry": "22. Lee, T. S.; Hu, Y.; Sherborne, B.; Guo, Z.; York, D. M., Toward Fast and Accurate Binding Affinity Prediction with pmemdGTI: An Efficient Implementation of GPU-Accelerated Thermodynamic Integration. J Chem Theory Comput 2017, 13 (7), 3077-3084.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lee%2C%20T.S.%20Hu%2C%20Y.%20Sherborne%2C%20B.%20Guo%2C%20Z.%20Toward%20Fast%20and%20Accurate%20Binding%20Affinity%20Prediction%20with%20pmemdGTI%3A%20An%20Efficient%20Implementation%20of%20GPU-Accelerated%202017",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lee%2C%20T.S.%20Hu%2C%20Y.%20Sherborne%2C%20B.%20Guo%2C%20Z.%20Toward%20Fast%20and%20Accurate%20Binding%20Affinity%20Prediction%20with%20pmemdGTI%3A%20An%20Efficient%20Implementation%20of%20GPU-Accelerated%202017",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lee%2C%20T.S.%20Hu%2C%20Y.%20Sherborne%2C%20B.%20Guo%2C%20Z.%20Toward%20Fast%20and%20Accurate%20Binding%20Affinity%20Prediction%20with%20pmemdGTI%3A%20An%20Efficient%20Implementation%20of%20GPU-Accelerated%202017"
+        },
+        {
+            "id": "23",
+            "alt_id": "Wang_et+al_2015_a",
+            "entry": "23. Wang, L.; Wu, Y.; Deng, Y.; Kim, B.; Pierce, L.; Krilov, G.; Lupyan, D.; Robinson, S.; Dahlgren, M. K.; Greenwood, J.; Romero, D. L.; Masse, C.; Knight, J. L.; Steinbrecher, T.; Beuming, T.; Damm, W.; Harder, E.; Sherman, W.; Brewer, M.; Wester, R.; Murcko, M.; Frye, L.; Farid, R.; Lin, T.; Mobley, D. L.; Jorgensen, W. L.; Berne, B. J.; Friesner, R. A.; Abel, R., Accurate and reliable prediction of relative ligand binding potency in prospective drug discovery by way of a modern freeenergy calculation protocol and force field. J Am Chem Soc 2015, 137 (7), 2695-2703.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20L.%20Wu%2C%20Y.%20Deng%2C%20Y.%20Kim%2C%20B.%20Accurate%20and%20reliable%20prediction%20of%20relative%20ligand%20binding%20potency%20in%20prospective%20drug%20discovery%20by%20way%20of%20a%20modern%20freeenergy%20calculation%20protocol%20and%20force%20field%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20L.%20Wu%2C%20Y.%20Deng%2C%20Y.%20Kim%2C%20B.%20Accurate%20and%20reliable%20prediction%20of%20relative%20ligand%20binding%20potency%20in%20prospective%20drug%20discovery%20by%20way%20of%20a%20modern%20freeenergy%20calculation%20protocol%20and%20force%20field%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20L.%20Wu%2C%20Y.%20Deng%2C%20Y.%20Kim%2C%20B.%20Accurate%20and%20reliable%20prediction%20of%20relative%20ligand%20binding%20potency%20in%20prospective%20drug%20discovery%20by%20way%20of%20a%20modern%20freeenergy%20calculation%20protocol%20and%20force%20field%202015"
+        },
+        {
+            "id": "24",
+            "alt_id": "Wang_et+al_2005_a",
+            "entry": "24. Wang, J.; Kang, X.; Kuntz, I. D.; Kollman, P. A., Hierarchical database screenings for HIV-1 reverse transcriptase using a pharmacophore model, rigid docking, solvation docking, and MM-PB/SA. Journal of medicinal chemistry 2005, 48 (7), 2432-44.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.%20Kang%2C%20X.%20Kuntz%2C%20I.D.%20Kollman%2C%20P.A.%20Hierarchical%20database%20screenings%20for%20HIV-1%20reverse%20transcriptase%20using%20a%20pharmacophore%20model%2C%20rigid%20docking%2C%20solvation%20docking%2C%20and%20MM-PB/SA%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.%20Kang%2C%20X.%20Kuntz%2C%20I.D.%20Kollman%2C%20P.A.%20Hierarchical%20database%20screenings%20for%20HIV-1%20reverse%20transcriptase%20using%20a%20pharmacophore%20model%2C%20rigid%20docking%2C%20solvation%20docking%2C%20and%20MM-PB/SA%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.%20Kang%2C%20X.%20Kuntz%2C%20I.D.%20Kollman%2C%20P.A.%20Hierarchical%20database%20screenings%20for%20HIV-1%20reverse%20transcriptase%20using%20a%20pharmacophore%20model%2C%20rigid%20docking%2C%20solvation%20docking%2C%20and%20MM-PB/SA%202005"
+        },
+        {
+            "id": "25",
+            "alt_id": "Capparelli_et+al_2005_a",
+            "entry": "25. Capparelli, E. V.; Holland, D.; Okamoto, C.; Gragg, B.; Durelle, J.; Marquie-Beck, J.; van den Brande, G.; Ellis, R.; Letendre, S.; Group, H., Lopinavir concentrations in cerebrospinal fluid exceed the 50% inhibitory concentration for HIV. AIDS 2005, 19 (9), 949-52.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Capparelli%2C%20E.V.%20Holland%2C%20D.%20Okamoto%2C%20C.%20Gragg%2C%20B.%20Lopinavir%20concentrations%20in%20cerebrospinal%20fluid%20exceed%20the%2050%25%20inhibitory%20concentration%20for%20HIV%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Capparelli%2C%20E.V.%20Holland%2C%20D.%20Okamoto%2C%20C.%20Gragg%2C%20B.%20Lopinavir%20concentrations%20in%20cerebrospinal%20fluid%20exceed%20the%2050%25%20inhibitory%20concentration%20for%20HIV%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Capparelli%2C%20E.V.%20Holland%2C%20D.%20Okamoto%2C%20C.%20Gragg%2C%20B.%20Lopinavir%20concentrations%20in%20cerebrospinal%20fluid%20exceed%20the%2050%25%20inhibitory%20concentration%20for%20HIV%202005"
+        },
+        {
+            "id": "26",
+            "alt_id": "Jorgensen_et+al_1983_a",
+            "entry": "26. Jorgensen, W. L.; Chandrasekhar, J.; Madura, J. D.; Impey, R. W.; Klein, M. L., Comparison of simple potential functions for simulating liquid water. The Journal of Chemical Physics 1983, 79 (2), 926.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Jorgensen%2C%20W.L.%20Chandrasekhar%2C%20J.%20Madura%2C%20J.D.%20Impey%2C%20R.W.%20Comparison%20of%20simple%20potential%20functions%20for%20simulating%20liquid%20water%201983",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Jorgensen%2C%20W.L.%20Chandrasekhar%2C%20J.%20Madura%2C%20J.D.%20Impey%2C%20R.W.%20Comparison%20of%20simple%20potential%20functions%20for%20simulating%20liquid%20water%201983",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Jorgensen%2C%20W.L.%20Chandrasekhar%2C%20J.%20Madura%2C%20J.D.%20Impey%2C%20R.W.%20Comparison%20of%20simple%20potential%20functions%20for%20simulating%20liquid%20water%201983"
+        },
+        {
+            "id": "27",
+            "alt_id": "Bayly_et+al_1993_a",
+            "entry": "27. Bayly, C. I.; Cieplak, P.; Cornell, W. D.; Kollman, P. A., A well-behaved electrostatic potential based method using charge restraints for deriving atomic charges- the RESP model. J Phys Chem 1993, 97 (40), 10269-10280.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bayly%2C%20C.I.%20Cieplak%2C%20P.%20Cornell%2C%20W.D.%20Kollman%2C%20P.A.%20A%20well-behaved%20electrostatic%20potential%20based%20method%20using%20charge%20restraints%20for%20deriving%20atomic%20charges-%201993",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bayly%2C%20C.I.%20Cieplak%2C%20P.%20Cornell%2C%20W.D.%20Kollman%2C%20P.A.%20A%20well-behaved%20electrostatic%20potential%20based%20method%20using%20charge%20restraints%20for%20deriving%20atomic%20charges-%201993",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bayly%2C%20C.I.%20Cieplak%2C%20P.%20Cornell%2C%20W.D.%20Kollman%2C%20P.A.%20A%20well-behaved%20electrostatic%20potential%20based%20method%20using%20charge%20restraints%20for%20deriving%20atomic%20charges-%201993"
+        },
+        {
+            "id": "29",
+            "alt_id": "Wang_et+al_2004_a",
+            "entry": "29. Wang, J. M.; Wolf, R. M.; Caldwell, J. W.; Kollman, P. A.; Case, D. A., Development and testing of a general amber force field. Journal of Computational Chemistry 2004, 25 (9), 1157-1174.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.M.%20Wolf%2C%20R.M.%20Caldwell%2C%20J.W.%20Kollman%2C%20P.A.%20Development%20and%20testing%20of%20a%20general%20amber%20force%20field%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.M.%20Wolf%2C%20R.M.%20Caldwell%2C%20J.W.%20Kollman%2C%20P.A.%20Development%20and%20testing%20of%20a%20general%20amber%20force%20field%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.M.%20Wolf%2C%20R.M.%20Caldwell%2C%20J.W.%20Kollman%2C%20P.A.%20Development%20and%20testing%20of%20a%20general%20amber%20force%20field%202004"
+        },
+        {
+            "id": "30",
+            "alt_id": "Maier_et+al_2015_a",
+            "entry": "30. Maier, J. A.; Martinez, C.; Kasavajhala, K.; Wickstrom, L.; Hauser, K. E.; Simmerling, C., ff14SB: Improving the Accuracy of Protein Side Chain and Backbone Parameters from ff99SB. J Chem Theory Comput 2015, 11 (8), 3696-713.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Maier%2C%20J.A.%20Martinez%2C%20C.%20Kasavajhala%2C%20K.%20Wickstrom%2C%20L.%20ff14SB%3A%20Improving%20the%20Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Maier%2C%20J.A.%20Martinez%2C%20C.%20Kasavajhala%2C%20K.%20Wickstrom%2C%20L.%20ff14SB%3A%20Improving%20the%20Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Maier%2C%20J.A.%20Martinez%2C%20C.%20Kasavajhala%2C%20K.%20Wickstrom%2C%20L.%20ff14SB%3A%20Improving%20the%20Accuracy%20of%20Protein%20Side%20Chain%20and%20Backbone%20Parameters%20from%20ff99SB%202015"
+        },
+        {
+            "id": "31",
+            "alt_id": "Wang_et+al_2006_b",
+            "entry": "31. Wang, J.; Wang, W.; Kollman, P. A.; Case, D. A., Automatic atom type and bond type perception in molecular mechanical calculations. J Mol Graph Model 2006, 25 (2), 247-260.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wang%2C%20J.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Case%2C%20D.A.%20Automatic%20atom%20type%20and%20bond%20type%20perception%20in%20molecular%20mechanical%20calculations%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wang%2C%20J.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Case%2C%20D.A.%20Automatic%20atom%20type%20and%20bond%20type%20perception%20in%20molecular%20mechanical%20calculations%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wang%2C%20J.%20Wang%2C%20W.%20Kollman%2C%20P.A.%20Case%2C%20D.A.%20Automatic%20atom%20type%20and%20bond%20type%20perception%20in%20molecular%20mechanical%20calculations%202006"
+        },
+        {
+            "id": "32",
+            "alt_id": "Larini_et+al_2007_a",
+            "entry": "32. Larini, L.; Mannella, R.; Leporini, D., Langevin stabilization of molecular-dynamics simulations of polymers by means of quasisymplectic algorithms. J Chem Phys 2007, 126 (10), 104101.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Larini%2C%20L.%20Mannella%2C%20R.%20Leporini%2C%20D.%20Langevin%20stabilization%20of%20molecular-dynamics%20simulations%20of%20polymers%20by%20means%20of%20quasisymplectic%20algorithms%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Larini%2C%20L.%20Mannella%2C%20R.%20Leporini%2C%20D.%20Langevin%20stabilization%20of%20molecular-dynamics%20simulations%20of%20polymers%20by%20means%20of%20quasisymplectic%20algorithms%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Larini%2C%20L.%20Mannella%2C%20R.%20Leporini%2C%20D.%20Langevin%20stabilization%20of%20molecular-dynamics%20simulations%20of%20polymers%20by%20means%20of%20quasisymplectic%20algorithms%202007"
+        },
+        {
+            "id": "33",
+            "alt_id": "Darden_et+al_1999_a",
+            "entry": "33. Darden, T.; Perera, L.; Li, L.; Pedersen, L., New tricks for modelers from the crystallography toolkit: the particle mesh Ewald algorithm and its use in nucleic acid simulations. Structure 1999, 7 (3), R5560.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Darden%2C%20T.%20Perera%2C%20L.%20Li%2C%20L.%20Pedersen%2C%20L.%20New%20tricks%20for%20modelers%20from%20the%20crystallography%20toolkit%3A%20the%20particle%20mesh%20Ewald%20algorithm%20and%20its%20use%20in%20nucleic%20acid%20simulations%201999",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Darden%2C%20T.%20Perera%2C%20L.%20Li%2C%20L.%20Pedersen%2C%20L.%20New%20tricks%20for%20modelers%20from%20the%20crystallography%20toolkit%3A%20the%20particle%20mesh%20Ewald%20algorithm%20and%20its%20use%20in%20nucleic%20acid%20simulations%201999",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Darden%2C%20T.%20Perera%2C%20L.%20Li%2C%20L.%20Pedersen%2C%20L.%20New%20tricks%20for%20modelers%20from%20the%20crystallography%20toolkit%3A%20the%20particle%20mesh%20Ewald%20algorithm%20and%20its%20use%20in%20nucleic%20acid%20simulations%201999"
+        },
+        {
+            "id": "34",
+            "alt_id": "Miyamoto_1992_a",
+            "entry": "34. Miyamoto, S.; Kollman, P. A., Settle - an analytical version of the Shake and Rattle algorithm for rigid water models. Journal of Computational Chemistry 1992, 13 (8), 952-962.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Miyamoto%2C%20S.%20Kollman%2C%20P.A.%20Settle%20-%20an%20analytical%20version%20of%20the%20Shake%20and%20Rattle%20algorithm%20for%20rigid%20water%20models%201992",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Miyamoto%2C%20S.%20Kollman%2C%20P.A.%20Settle%20-%20an%20analytical%20version%20of%20the%20Shake%20and%20Rattle%20algorithm%20for%20rigid%20water%20models%201992",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Miyamoto%2C%20S.%20Kollman%2C%20P.A.%20Settle%20-%20an%20analytical%20version%20of%20the%20Shake%20and%20Rattle%20algorithm%20for%20rigid%20water%20models%201992"
+        },
+        {
+            "id": "35",
+            "alt_id": "Case_et+al_2018_a",
+            "entry": "35. Case, D. A.; Ben-Shalom, I. Y.; Brozell, S. R.; Cerutti, D. S.; Cheatham, I., T.E.; Cruzeiro, V. W. D.; Darden, T. A.; Duke, R. E.; Ghoreishi, D.; Gilson, M. K.; Gohlke, H.; Goetz, A. W.; Greene, D.; Harris, R.; Homeyer, N.; Izadi, S.; Kovalenko, A.; Kurtzman, T.; Lee, T. S.; LeGrand, S.; Li, P.; Lin, C.; Liu, J.; Luchko, T.; Luo, R.; Mermelstein, D. J.; Merz, K. M.; Miao, Y.; Monard, G.; Nguyen, C.; Nguyen, H.; Omelyan, I.; Onufriev, A.; Pan, F.; Qi, R.; Roe, D. R.; Roitberg, A.; Sagui, C.; SchottVerdugo, S.; Shen, J.; Simmerling, C. L.; Smith, J.; Salomon-Ferrer, R.; Swails, J.; Walker, R. C.; Wang, J.; Wei, H.; Wolf, R. M.; Wu, X.; Xiao, L.; D.M., Y.; Kollman, P. A., AMBER 2018. University of California, San Francisco 2018.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Case%20D%20A%20BenShalom%20I%20Y%20Brozell%20S%20R%20Cerutti%20D%20S%20Cheatham%20I%20TE%20Cruzeiro%20V%20W%20D%20Darden%20T%20A%20Duke%20R%20E%20Ghoreishi%20D%20Gilson%20M%20K%20Gohlke%20H%20Goetz%20A%20W%20Greene%20D%20Harris%20R%20Homeyer%20N%20Izadi%20S%20Kovalenko%20A%20Kurtzman%20T%20Lee%20T%20S%20LeGrand%20S%20Li%20P%20Lin%20C%20Liu%20J%20Luchko%20T%20Luo%20R%20Mermelstein%20D%20J%20Merz%20K%20M%20Miao%20Y%20Monard%20G%20Nguyen%20C%20Nguyen%20H%20Omelyan%20I%20Onufriev%20A%20Pan%20F%20Qi%20R%20Roe%20D%20R%20Roitberg%20A%20Sagui%20C%20SchottVerdugo%20S%20Shen%20J%20Simmerling%20C%20L%20Smith%20J%20SalomonFerrer%20R%20Swails%20J%20Walker%20R%20C%20Wang%20J%20Wei%20H%20Wolf%20R%20M%20Wu%20X%20Xiao%20L%20DM%20Y%20Kollman%20P%20A%20AMBER%202018%20University%20of%20California%20San%20Francisco%202018"
+        },
+        {
+            "id": "36",
+            "alt_id": "Page_2006_a",
+            "entry": "36. Page, C. S.; Bates, P. A., Can MM-PBSA calculations predict the specificities of protein kinase inhibitors? Journal of Computational Chemistry 2006, 27 (16), 1990-2007.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Page%2C%20C.S.%20Bates%2C%20P.A.%20Can%20MM-PBSA%20calculations%20predict%20the%20specificities%20of%20protein%20kinase%20inhibitors%3F%202006",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Page%2C%20C.S.%20Bates%2C%20P.A.%20Can%20MM-PBSA%20calculations%20predict%20the%20specificities%20of%20protein%20kinase%20inhibitors%3F%202006",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Page%2C%20C.S.%20Bates%2C%20P.A.%20Can%20MM-PBSA%20calculations%20predict%20the%20specificities%20of%20protein%20kinase%20inhibitors%3F%202006"
+        },
+        {
+            "id": "37",
+            "alt_id": "Kongsted_2009_a",
+            "entry": "37. Kongsted, J.; Ryde, U., An improved method to predict the entropy term with the MM/PBSA approach. J Comput Aided Mol Des 2009, 23 (2), 63-71.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Kongsted%2C%20J.%20Ryde%2C%20U.%20An%20improved%20method%20to%20predict%20the%20entropy%20term%20with%20the%20MM/PBSA%20approach%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Kongsted%2C%20J.%20Ryde%2C%20U.%20An%20improved%20method%20to%20predict%20the%20entropy%20term%20with%20the%20MM/PBSA%20approach%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Kongsted%2C%20J.%20Ryde%2C%20U.%20An%20improved%20method%20to%20predict%20the%20entropy%20term%20with%20the%20MM/PBSA%20approach%202009"
+        },
+        {
+            "id": "38",
+            "alt_id": "Hou_et+al_2011_a",
+            "entry": "38. Hou, T.; Wang, J.; Li, Y.; Wang, W., Assessing the performance of the molecular mechanics/Poisson Boltzmann surface area and molecular mechanics/generalized Born surface area methods. II. The accuracy of ranking poses generated from docking. J Comput Chem 2011, 32 (5), 866-77.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hou%2C%20T.%20Wang%2C%20J.%20Li%2C%20Y.%20Wang%2C%20W.%20Assessing%20the%20performance%20of%20the%20molecular%20mechanics/Poisson%20Boltzmann%20surface%20area%20and%20molecular%20mechanics/generalized%20Born%20surface%20area%20methods.%20II.%20The%20accuracy%20of%20ranking%20poses%20generated%20from%20docking%202011",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hou%2C%20T.%20Wang%2C%20J.%20Li%2C%20Y.%20Wang%2C%20W.%20Assessing%20the%20performance%20of%20the%20molecular%20mechanics/Poisson%20Boltzmann%20surface%20area%20and%20molecular%20mechanics/generalized%20Born%20surface%20area%20methods.%20II.%20The%20accuracy%20of%20ranking%20poses%20generated%20from%20docking%202011",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hou%2C%20T.%20Wang%2C%20J.%20Li%2C%20Y.%20Wang%2C%20W.%20Assessing%20the%20performance%20of%20the%20molecular%20mechanics/Poisson%20Boltzmann%20surface%20area%20and%20molecular%20mechanics/generalized%20Born%20surface%20area%20methods.%20II.%20The%20accuracy%20of%20ranking%20poses%20generated%20from%20docking%202011"
+        },
+        {
+            "id": "39",
+            "alt_id": "Sitkoff_et+al_1994_a",
+            "entry": "39. Sitkoff, D.; Sharp, K. A.; Honig, B., Accurate Calculation of Hydration Free Energies Using Macroscopic Solvent Models. J Phys Chem-Us 1994, 98 (7), 1978-1988.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Sitkoff%2C%20D.%20Sharp%2C%20K.A.%20Honig%2C%20B.%20Accurate%20Calculation%20of%20Hydration%20Free%20Energies%20Using%20Macroscopic%20Solvent%20Models%201994",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Sitkoff%2C%20D.%20Sharp%2C%20K.A.%20Honig%2C%20B.%20Accurate%20Calculation%20of%20Hydration%20Free%20Energies%20Using%20Macroscopic%20Solvent%20Models%201994",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Sitkoff%2C%20D.%20Sharp%2C%20K.A.%20Honig%2C%20B.%20Accurate%20Calculation%20of%20Hydration%20Free%20Energies%20Using%20Macroscopic%20Solvent%20Models%201994"
+        },
+        {
+            "id": "40",
+            "alt_id": "Onufriev_et+al_2004_a",
+            "entry": "40. Onufriev, A.; Bashford, D.; Case, D. A., Exploring protein native states and large-scale conformational changes with a modified generalized born model. Proteins 2004, 55 (2), 383-94.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Onufriev%2C%20A.%20Bashford%2C%20D.%20Case%2C%20D.A.%20Exploring%20protein%20native%20states%20and%20large-scale%20conformational%20changes%20with%20a%20modified%20generalized%20born%20model%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Onufriev%2C%20A.%20Bashford%2C%20D.%20Case%2C%20D.A.%20Exploring%20protein%20native%20states%20and%20large-scale%20conformational%20changes%20with%20a%20modified%20generalized%20born%20model%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Onufriev%2C%20A.%20Bashford%2C%20D.%20Case%2C%20D.A.%20Exploring%20protein%20native%20states%20and%20large-scale%20conformational%20changes%20with%20a%20modified%20generalized%20born%20model%202004"
+        },
+        {
+            "id": "41",
+            "alt_id": "Pei_2007_a",
+            "entry": "41. Pei, J.; Grishin, N. V., PROMALS: towards accurate multiple sequence alignments of distantly related proteins. Bioinformatics 2007, 23 (7), 802-8.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Pei%2C%20J.%20Grishin%2C%20N.V.%20PROMALS%3A%20towards%20accurate%20multiple%20sequence%20alignments%20of%20distantly%20related%20proteins%202007",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Pei%2C%20J.%20Grishin%2C%20N.V.%20PROMALS%3A%20towards%20accurate%20multiple%20sequence%20alignments%20of%20distantly%20related%20proteins%202007",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Pei%2C%20J.%20Grishin%2C%20N.V.%20PROMALS%3A%20towards%20accurate%20multiple%20sequence%20alignments%20of%20distantly%20related%20proteins%202007"
+        },
+        {
+            "id": "42",
+            "alt_id": "Hilgenfeld_2014_a",
+            "entry": "42. Hilgenfeld, R., From SARS to MERS: crystallographic studies on coronaviral proteases enable antiviral drug design. FEBS J 2014, 281 (18), 4085-96.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hilgenfeld%2C%20R.%20From%20SARS%20to%20MERS%3A%20crystallographic%20studies%20on%20coronaviral%20proteases%20enable%20antiviral%20drug%20design%202014",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hilgenfeld%2C%20R.%20From%20SARS%20to%20MERS%3A%20crystallographic%20studies%20on%20coronaviral%20proteases%20enable%20antiviral%20drug%20design%202014",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hilgenfeld%2C%20R.%20From%20SARS%20to%20MERS%3A%20crystallographic%20studies%20on%20coronaviral%20proteases%20enable%20antiviral%20drug%20design%202014"
+        },
+        {
+            "id": "43",
+            "alt_id": "Galasiti_et+al_2018_a",
+            "entry": "43. Galasiti Kankanamalage, A. C.; Kim, Y.; Damalanka, V. C.; Rathnayake, A. D.; Fehr, A. R.; Mehzabeen, N.; Battaile, K. P.; Lovell, S.; Lushington, G. H.; Perlman, S.; Chang, K. O.; Groutas, W. C., Structure-guided design of potent and permeable inhibitors of MERS coronavirus 3CL protease that utilize a piperidine moiety as a novel design element. Eur J Med Chem 2018, 150, 334-346.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Galasiti%20Kankanamalage%2C%20A.C.%20Kim%2C%20Y.%20Damalanka%2C%20V.C.%20Rathnayake%2C%20A.D.%20Structure-guided%20design%20of%20potent%20and%20permeable%20inhibitors%20of%20MERS%20coronavirus%203CL%20protease%20that%20utilize%20a%20piperidine%20moiety%20as%20a%20novel%20design%20element%202018",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Galasiti%20Kankanamalage%2C%20A.C.%20Kim%2C%20Y.%20Damalanka%2C%20V.C.%20Rathnayake%2C%20A.D.%20Structure-guided%20design%20of%20potent%20and%20permeable%20inhibitors%20of%20MERS%20coronavirus%203CL%20protease%20that%20utilize%20a%20piperidine%20moiety%20as%20a%20novel%20design%20element%202018",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Galasiti%20Kankanamalage%2C%20A.C.%20Kim%2C%20Y.%20Damalanka%2C%20V.C.%20Rathnayake%2C%20A.D.%20Structure-guided%20design%20of%20potent%20and%20permeable%20inhibitors%20of%20MERS%20coronavirus%203CL%20protease%20that%20utilize%20a%20piperidine%20moiety%20as%20a%20novel%20design%20element%202018"
+        },
+        {
+            "id": "44",
+            "alt_id": "Romano_et+al_2010_a",
+            "entry": "44. Romano, K. P.; Ali, A.; Royer, W. E.; Schiffer, C. A., Drug resistance against HCV NS3/4A inhibitors is defined by the balance of substrate recognition versus inhibitor binding. Proc Natl Acad Sci U S A 2010, 107 (49), 20986-91.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Romano%2C%20K.P.%20Ali%2C%20A.%20Royer%2C%20W.E.%20Schiffer%2C%20C.A.%20Drug%20resistance%20against%20HCV%20NS3/4A%20inhibitors%20is%20defined%20by%20the%20balance%20of%20substrate%20recognition%202010",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Romano%2C%20K.P.%20Ali%2C%20A.%20Royer%2C%20W.E.%20Schiffer%2C%20C.A.%20Drug%20resistance%20against%20HCV%20NS3/4A%20inhibitors%20is%20defined%20by%20the%20balance%20of%20substrate%20recognition%202010",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Romano%2C%20K.P.%20Ali%2C%20A.%20Royer%2C%20W.E.%20Schiffer%2C%20C.A.%20Drug%20resistance%20against%20HCV%20NS3/4A%20inhibitors%20is%20defined%20by%20the%20balance%20of%20substrate%20recognition%202010"
+        },
+        {
+            "id": "45",
+            "alt_id": "Webb_2016_a",
+            "entry": "45. Webb, B.; Sali, A., Comparative Protein Structure Modeling Using MODELLER. Curr Protoc Protein Sci 2016, 86, 5.6.1-5.6.37. ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Webb%2C%20B.%20Sali%2C%20A.%20Comparative%20Protein%20Structure%20Modeling%20Using%20MODELLER%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Webb%2C%20B.%20Sali%2C%20A.%20Comparative%20Protein%20Structure%20Modeling%20Using%20MODELLER%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Webb%2C%20B.%20Sali%2C%20A.%20Comparative%20Protein%20Structure%20Modeling%20Using%20MODELLER%202016"
+        }
+    ],
+    "facts": [
+        "performed molecular dynamics simulations followed by binding free energy calculations using an endpoint method called",
+        "an approved anti-cancer drug acting as a proteasome inhibitor",
+        "identify drugs which were developed for treating other diseases to treat a new disease",
+        "Drug repurposing can be achieved by conducting systematic drug-drug target interaction and drug-drug interaction analyses",
+        "a survey on DTIs collected by the DrugBank database[5",
+        "The analysis demonstrates that polypharmacology is a common phenomenon",
+        "which serves as the basis of repurposing drugs and selection",
+        "such as the one employed by the Glide docking program,[7",
+        "a solid structural basis for identification of drugs that might interact with this protein target",
+        "CADD-based approaches are more efficient in providing possible treatment solutions for epidemic disease outbreaks",
+        "performed Glide docking screenings for a set of datasets downloaded from DrugBank.[5",
+        "The ligand RMSD of the best docking pose based on docking score",
+        "of computational time used for individual tasks are as follows",
+        "the screening time can be even shorter for other drug targets with smaller ligands",
+        "a charged molecule may be an inhibitor of this COVID-19 protease",
+        "Our study suggests that computational drug repurposing screening is very efficient"
+    ],
+    "claims": [],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "It is important to identify potential drug target interaction for both approved drugs and drug candidates, which serves as the basis of repurposing drugs and selection of drug targets without drug target interaction that may cause side-effects",
+        "We\u2019ve developed a hierarchical virtual screening (HVS)to balance the efficiency and accuracy and improve the success rate of rational drug design.8, 24The newly released crystal structure of COVID-191 provides a solid structural basis for identification of drugs that might interact with this protein target",
+        "Compared to the experimental means, Computer-aided drug design-based approaches are more efficient in providing possible treatment solutions for epidemic disease outbreaks like COVID-19",
+        "Given that the inhibitors of COVID-19 protease have relatively large sizes, the screening time can be even shorter for other drug targets with smaller ligands",
+        "Our study suggests that computational drug repurposing screening is very efficient and it can provide potential repurposing drug candidates in less than five days"
+    ],
+    "top_statements": [
+        "A great application of drug repurposing is to identify drugs which were developed for treating other diseases to treat a new disease",
+        "It is important to identify potential drug target interaction for both approved drugs and drug candidates, which serves as the basis of repurposing drugs and selection of drug targets without drug target interaction that may cause side-effects",
+        "We\u2019ve developed a hierarchical virtual screening (HVS)to balance the efficiency and accuracy and improve the success rate of rational drug design.8, 24The newly released crystal structure of COVID-191 provides a solid structural basis for identification of drugs that might interact with this protein target",
+        "Compared to the experimental means, Computer-aided drug design-based approaches are more efficient in providing possible treatment solutions for epidemic disease outbreaks like COVID-19",
+        "Given that the inhibitors of COVID-19 protease have relatively large sizes, the screening time can be even shorter for other drug targets with smaller ligands",
+        "Our study suggests that computational drug repurposing screening is very efficient and it can provide potential repurposing drug candidates in less than five days"
+    ],
+    "headline": "Our study suggests that computational drug repurposing screening is very efficient and it can provide potential repurposing drug candidates in less than five days",
+    "contexts": [],
+    "abbreviations": {
+        "DTI": "drug target interaction",
+        "DDI": "drug-drug interaction",
+        "CADD": "Computer-aided drug design",
+        "MMFF": "molecular mechanical force field",
+        "TI": "thermodynamic integration",
+        "FEP": "free energy perturbation",
+        "HVS": "hierarchical virtual screening",
+        "MD": "molecular dynamics",
+        "PME": "Particle Mesh Ewald",
+        "MM": "molecular mechanical",
+        "NIH": "National Institutes of Health",
+        "CRC": "Center for Research Computing",
+        "NC": "net charge"
+    }
+}

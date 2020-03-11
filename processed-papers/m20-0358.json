@@ -1,0 +1,254 @@
+{
+    "filename": "aime202004210-m200358.pdf",
+    "content_type": "application/pdf",
+    "file_size": 143227,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.7326/m20-0358",
+            "url": "https://annals.org/acp/content_public/journal/aim/0/aime202004210-m200358.pdf"
+        },
+        "title": "Reporting, Epidemic Growth, and Reproduction Numbers for the 2019 Novel Coronavirus (2019-nCoV) Epidemic",
+        "author": "Ashleigh R. Tuite, David N. Fisman",
+        "date": 2020,
+        "affiliations": [
+            "Dalla Lana School of Public Health, University of Toronto, Toronto, Ontario, Canada (A.R.T., D.N.F.)",
+            "Dalla Lana School of Public Health, University of Toronto, Toronto, Ontario, Canada (A.R.T., D.N.F.)"
+        ],
+        "journal": "Annals of Internal Medicine",
+        "abstract": "Background: Virologically confirmed cases of 2019 novel coronavirus (2019-nCoV) in China and other countries have increased sharply [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], leading to concerns regarding its pandemic potential. Viral epidemiology has been characterized sufficiently to permit construction of transmission models that predict the future course of this epidemic [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+        "references": "@techreport{unknown2020a,\n  title = {Tracking coronavirus: map, data and timeline. 2 February 2020},\n  url = {https://bnonews.com/index.php/2020/02/the-latest-coronavirus},\n  note = {cases on},\n  date = {2020-02-03},\n  language = {},\n  urldate = {},\n  institution = {BNO News}\n}\n@misc{unknown2020b,\n  title = {China Centers for Disease Control. Distribution of pneumonia in a new coronavirus infection. 2020},\n  url = {http://2019ncov.chinacdc.cn/2019-nCoV},\n  note = {on 3},\n  date = {2020-02},\n  language = {},\n  urldate = {}\n}\n@incollection{wu2019a,\n  author = {Wu, J.T. and Leung, K. and Leung, G.M.},\n  title = {Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet. 2020},\n  doi = {PMID: 32014114] doi},\n  volume = {1016},\n  editor = {Imai, N. and Cori, A. and Dorigatti, I.},\n  booktitle = {Report 3: transmissibility of},\n  date = {2019},\n  url = {www.imperial.ac.uk/mrc-global-infectious-disease},\n  source = {analysis/news--wuhan-coronavirus on 25 January 2020},\n  number = {0140-6736},\n  more-editors = {true},\n  language = {},\n  urldate = {January 2020. }\n}\n@misc{unknown-a,\n  title = {Annals of Internal Medicine Downloaded from https://annals.org by guest on 03/11/2020},\n  language = {}\n}\n",
+        "links": [
+            "http://www.acponline.org/authors/icmje/ConflictOfInterestForms",
+            "https://art-bd.shinyapps.io/nCov",
+            "https://docs.google.com/spreadsheets/d",
+            "https://art-bd.shinyapps.io/nCov_control",
+            "https://annals.org"
+        ],
+        "emails": [
+            "fisman@utoronto.ca"
+        ],
+        "cited_by": 2,
+        "references_ris": "TY  - RPRT\nTI  - Tracking coronavirus: map, data and timeline. 2 February 2020\nUR  - https://bnonews.com/index.php/2020/02/the-latest-coronavirus\nN1  - cases on\nPY  - 2020\nDA  - 2020/02/03\nLA  - \nC1  - \nC1  - BNO News\nER  - \n\nTY  - GEN\nTI  - China Centers for Disease Control. Distribution of pneumonia in a new coronavirus infection. 2020\nUR  - http://2019ncov.chinacdc.cn/2019-nCoV\nN1  - on 3\nPY  - 2020\nDA  - 2020/02\nLA  - \nC1  - \nER  - \n\nTY  - CHAP\nAU  - Wu, J.T.\nAU  - Leung, K.\nAU  - Leung, G.M.\nTI  - Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet. 2020\nDO  - PMID: 32014114] doi\nVL  - 1016\nA2  - Imai, N.\nA2  - Cori, A.\nA2  - Dorigatti, I.\nT2  - Report 3: transmissibility of\nPY  - 2019\nDA  - 2019\nUR  - www.imperial.ac.uk/mrc-global-infectious-disease\nT2  - analysis/news--wuhan-coronavirus on 25 January 2020\nIS  - 0140-6736\nC1  - true\nLA  - \nC1  - January 2020. \nER  - \n\nTY  - GEN\nTI  - Annals of Internal Medicine Downloaded from https://annals.org by guest on 03/11/2020\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "Estimation of cumulative cases with and without implementation of control measures"
+            },
+            {
+                "id": "2",
+                "caption": "Simulated epidemic trajectories and reported cumulative case counts for 2019-nCoV"
+            }
+        ],
+        "figure_urls": []
+    },
+    "sections": {
+        "background": [
+            "Virologically confirmed cases of 2019 novel coronavirus (2019-nCoV) in China and other countries have increased sharply [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], leading to concerns regarding its pandemic potential. Viral epidemiology has been characterized sufficiently to permit construction of transmission models that predict the future course of this epidemic [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]."
+        ],
+        "objective": [
+            "To provide insight into the changing nature of case findings and epidemic growth."
+        ],
+        "methods": [
+            "We developed a simple disease-transmission model in which the 2019-nCoV epidemic was modeled as a branching process starting in mid-November 2019, with a serial interval of 7 days (time between cases) and a basic reproduction number (R0) of 2.3 (new cases from each old case), based on available data and assuming no intervention (Figure 1). The epidemic start date aligned our modeled case counts to point estimates from international case exportation data [4]. The model estimated plausible values of the effective reproduction number (Re; reproduction number in the presence of control efforts) after implementation of a quarantine in Wuhan and surrounding areas of China on 24 January 2020 [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] (Figure 1).<br/><br/>Re values after intervention can be plotted as epidemic curves in a series of \u201ccontours,\u201d similar to altitude values on a map. Because many combinations of model parameters cre-<br/><br/>Cumulative Cases, Nt<br/><br/>No control, number of new cases described by R0: t<br/><br/>With control, R0 reduced to Re:    6 6 tc t\u2013tc<br/><br/>Nt = R0i + Itc Rei i=0 i=1<br/><br/>Control introduced at tc No control tc Generation, t<br/><br/>Serial interval is the average time between cases in a chain of transmission and is used to calculate the number of generations in an epidemic (time since epidemic start \u00f7 serial interval duration). In the absence of control measures, the total number of cases after t serial intervals depends on R0 (the number of new cases created by an index case in a completely susceptible population in the absence of intervention) and the number of epidemic generations (left-hand equation). Introduction of control is assumed to reduce the reproduction number to Re. The last generation with uncontrolled growth is indicated by tc, with an incident case count of Itc, and we can use the right-hand equation to calculate case numbers in the presence of control. The difference between the 2 curves shows the effect of introducing control measures vs. continued epidemic growth without control. R0 = basic reproduction number; Re = effective reproduction number."
+        ],
+        "findings": [
+            "Comparison of cumulative case numbers versus model-generated counts shows that reported case numbers remain lower than modeled estimates, but ascertainment is increasingly complete over time (Figure 2). Based on previously published model estimates [4], the fraction of cases reported increased from 2.4% on 12 January 2020 to 11% on 18 January 2020 [4]. Our model suggests that (assuming Re remained close to 2.3 after the quarantine on 24 January 2020) reported cases increased to 59% by 31 January 2020 (9930 reported cases vs. 16 860 modeled cases) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The fraction of cases reported would be even higher if the reproduction number were lower because of control efforts.<br/><br/>Figure 2 shows a narrowing (horizontal distance) between case counts generated by the model and those reported by public health authorities over time. This suggests decreasing reporting times (from >10 days on 27 January 2020 to approximately 4 days by 3 February 2020). Contours generated by the model with intervention give us information about which (average) reproduction numbers may be plausible and which are implausible (Figure 2). If Re had fallen to 1.0 after 24 January 2020, the model predicts fewer cases than are currently being reported (as of 3 February 2020), making this level of control implausible. By contrast, reduction to an Re of 1.5 is plausible on the basis of reported cases and model estimates up to 3 February 2020, but it would also imply complete reporting."
+        ],
+        "discussion": [
+            "Using a simple model of epidemic growth that includes the representation of control efforts can provide helpful insights into the growth of the 2019-nCoV epidemic that are not directly observable in publicly reported data. Comparison of modeled and reported case counts suggests that reporting lags are decreasing and case ascertainment increasing over time. The narrowing gap between modeled and confirmed cases shows that the massive public health effort under way in China is increasing ascertainment of 2019-nCoV cases. Large leaps in reported case counts represent both disease activity and a surveillance effort that is \u201ccatching up\u201d with an epidemic.<br/><br/>Contour plots can be used to indirectly estimate Re after introduction of control efforts, because case counts exceeding a given contour suggest that an Re value is implausible. Potential limitations of this model include underrepresentation of mild infections and its focus on an epidemic currently centered in China. If this epidemic becomes a pandemic, epidemiology in individual countries may diverge. Nonetheless, the tool may help policymakers by allowing inferences about likely underlying dynamics of the epidemic, even when available disease data are delayed or incomplete."
+        ],
+        "disclosures": [
+            "Authors have disclosed no conflicts of interest. Forms can be viewed at www.acponline.org/authors/icmje/ConflictOfInterestForms .do?msNum=M20-0358"
+        ]
+    },
+    "structured_content": {
+        "Background": [
+            "Virologically confirmed cases of 2019 novel coronavirus (2019-nCoV) in China and other countries have increased sharply [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], leading to concerns regarding its pandemic potential. Viral epidemiology has been characterized sufficiently to permit construction of transmission models that predict the future course of this epidemic [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>].",
+            "Objective: To provide insight into the changing nature of case findings and epidemic growth."
+        ],
+        "Methods": [
+            "We developed a simple disease-transmission model in which the 2019-nCoV epidemic was modeled as a branching process starting in mid-November 2019, with a serial interval of 7 days (time between cases) and a basic reproduction number (R0) of 2.3 (new cases from each old case), based on available data and assuming no intervention (Figure 1). The epidemic start date aligned our modeled case counts to point estimates from international case exportation data [4]. The model estimated plausible values of the effective reproduction number (Re; reproduction number in the presence of control efforts) after implementation of a quarantine in Wuhan and surrounding areas of China on 24 January 2020 [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>] (Figure 1).",
+            "Re values after intervention can be plotted as epidemic curves in a series of \u201ccontours,\u201d similar to altitude values on a map. Because many combinations of model parameters cre-",
+            "With control, R0 reduced to Re:",
+            "Serial interval is the average time between cases in a chain of transmission and is used to calculate the number of generations in an epidemic (time since epidemic start \u00f7 serial interval duration). In the absence of control measures, the total number of cases after t serial intervals depends on R0 (the number of new cases created by an index case in a completely susceptible population in the absence of intervention) and the number of epidemic generations (left-hand equation). Introduction of control is assumed to reduce the reproduction number to Re. The last generation with uncontrolled growth is indicated by tc, with an incident case count of Itc, and we can use the right-hand equation to calculate case numbers in the presence of control. The difference between the 2 curves shows the effect of introducing control measures vs. continued epidemic growth without control. R0 = basic reproduction number; Re = effective reproduction number.",
+            "This article was published at Annals.org on 5 February 2020.",
+            "LETTERS ate plausible epidemic trajectories, we have created an interactive tool that produces models with and without control efforts (https://art-bd.shinyapps.io/nCov_control).",
+            "Findings: Comparison of cumulative case numbers versus model-generated counts shows that reported case numbers remain lower than modeled estimates, but ascertainment is increasingly complete over time (Figure 2). Based on previously published model estimates [4], the fraction of cases reported increased from 2.4% on 12 January 2020 to 11% on 18 January 2020 [4]. Our model suggests that (assuming Re remained close to 2.3 after the quarantine on 24 January 2020) reported cases increased to 59% by 31 January 2020 (9930 reported cases vs. 16 860 modeled cases) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. The fraction of cases reported would be even higher if the reproduction number were lower because of control efforts.",
+            "Figure 2 shows a narrowing (horizontal distance) between case counts generated by the model and those reported by public health authorities over time. This suggests decreasing reporting times (from >10 days on 27 January 2020 to approximately 4 days by 3 February 2020). Contours generated by the model with intervention give us information about which (average) reproduction numbers may be plausible and which are implausible (Figure 2). If Re had fallen to 1.0 after 24 January 2020, the model predicts fewer cases than are currently being reported (as of 3 February 2020), making this level of control implausible. By contrast, reduction to an Re of 1.5 is plausible on the basis of reported cases and model estimates up to 3 February 2020, but it would also imply complete reporting."
+        ],
+        "Discussion": [
+            "Using a simple model of epidemic growth that includes the representation of control efforts can provide helpful insights into the growth of the 2019-nCoV epidemic that are not directly observable in publicly reported data. Comparison of modeled and reported case counts suggests that reporting lags are decreasing and case ascertainment increasing over time. The narrowing gap between modeled and confirmed cases shows that the massive public health effort under way in China is increasing ascertainment of 2019-nCoV cases. Large leaps in reported case counts represent both disease activity and a surveillance effort that is \u201ccatching up\u201d with an epidemic.",
+            "Contour plots can be used to indirectly estimate Re after introduction of control efforts, because case counts exceeding a given contour suggest that an Re value is implausible. Potential limitations of this model include underrepresentation of mild infections and its focus on an epidemic currently centered in China. If this epidemic becomes a pandemic, epidemiology in individual countries may diverge. Nonetheless, the tool may help policymakers by allowing inferences about likely underlying dynamics of the epidemic, even when available disease data are delayed or incomplete.",
+            "We will continue to plot case counts against such projections moving forward (with updated counts incorporated into our online tool). If cumulative case counts flatten and intersect with contour lines horizontally, either control is improving and the mean reproduction number is decreasing or (a pessimistic interpretation) case ascertainment efforts are flagging because of limited laboratory or human resources. Conversely, if",
+            "The initial growth of the epidemic is based on introduction of the pathogen in mid-November 2019, with R0 = 2.3 and a serial interval of 7 d. The model reproduces estimates of case counts based on volume of internationally exported cases (green squares) [4]. Daily cumulative counts of virologically confirmed cases are based on publicly available reports [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>] (blue circles). Case counts reported on 3 February 2020 are not compatible with reduction of Re to 1 but could be compatible with reduction to 1.5. If control is achieved, reported case counts will intersect horizontally with the contour lines on this graph. When reported cases move beyond contours vertically, the reproduction numbers represented by those contours become implausible. 2019nCoV = 2019 novel coronavirus; R0 = basic reproduction number; Re = effective reproduction number.",
+            "reported case counts cross the contour lines above them, that would imply an ever higher minimum value for Re.",
+            "Ashleigh R. Tuite, PhD, MPH David N. Fisman, MD, MPH Dalla Lana School of Public Health, University of Toronto Toronto, Ontario, Canada",
+            "Disclosures: Authors have disclosed no conflicts of interest. Forms can be viewed at www.acponline.org/authors/icmje/ConflictOfInterestForms .do?msNum=M20-0358.",
+            "Reproducible Research Statement: Study protocol and statistical code: Described in Methods. Data set: Derived from reference 1 and available at https://docs.google.com/spreadsheets/d /19qC9EK2ydaSoKDMkmbbarXBo8Ism_1_6zeMrJh5kZ9Y/edit?usp= sharing."
+        ],
+        "References": [
+            "1. BNO News. Tracking coronavirus: map, data and timeline. 2 February 2020. Accessed at https://bnonews.com/index.php/2020/02/the-latest-coronavirus -cases on 3 February 2020. 2. China Centers for Disease Control. Distribution of pneumonia in a new coronavirus infection. 2020. Accessed at http://2019ncov.chinacdc.cn/2019-nCoV on 3 February 2020. 3. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet. 2020. [PMID: 32014114] doi:10.1016 /S0140-6736[20]30260-9 4. Imai N, Cori A, Dorigatti I, et al Report 3: transmissibility of 2019-nCoV. 25 January 2020. Accessed at www.imperial.ac.uk/mrc-global-infectious-disease -analysis/news--wuhan-coronavirus on 25 January 2020.",
+            "2 Annals of Internal Medicine Downloaded from https://annals.org by guest on 03/11/2020"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "reported cases",
+            "number": 9930,
+            "context": "Based on previously published model estimates [4], the fraction of cases reported increased from 2.4% on 12 January 2020 to 11% on 18 January 2020 [4]. <mark class=\"stats\">Our model suggests that (assuming Re remained close to 2.3 after the quarantine on 24 January 2020) reported cases increased to 59% by 31 January 2020 (9930 reported cases vs. 16 860 modeled cases) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]</mark>. The fraction of cases reported would be even higher if the reproduction number were lower because of control efforts"
+        },
+        {
+            "participant": "reported cases",
+            "number": 9930,
+            "context": "Based on previously published model estimates [4], the fraction of cases reported increased from 2.4% on 12 January 2020 to 11% on 18 January 2020 [4]. <mark class=\"stats\">Our model suggests that (assuming Re remained close to 2.3 after the quarantine on 24 January 2020) reported cases increased to 59% by 31 January 2020 (9930 reported cases vs. 16 860 modeled cases) [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]</mark>. The fraction of cases reported would be even higher if the reproduction number were lower because of control efforts"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "coronavirus",
+        "transmission model",
+        "viral epidemiology",
+        "epidemic growth",
+        "future course",
+        "simple model",
+        "control effort",
+        "pandemic potential",
+        "reproduction number",
+        "novel coronavirus",
+        "epidemiology"
+    ],
+    "keyword_relevance": {
+        "reproduction number": 0.5964912280701754,
+        "coronavirus": 0.10526315789473684,
+        "control effort": 0.08771929824561403,
+        "epidemic growth": 0.05263157894736842,
+        "transmission model": 0.03508771929824561,
+        "novel coronavirus": 0.03508771929824561,
+        "epidemiology": 0.03508771929824561,
+        "future course": 0.017543859649122806,
+        "simple model": 0.017543859649122806,
+        "pandemic potential": 0.017543859649122806,
+        "viral epidemiology": 0.0
+    },
+    "species": [],
+    "summary": [
+        "<h2 style=\"display: inline\">Introduction:</h2> Confirmed cases of 2019 novel coronavirus (2019-nCoV) in China and other countries have increased sharply [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], leading to concerns regarding its pandemic potential.",
+        "Viral epidemiology has been characterized sufficiently to permit construction of transmission models that predict the future course of this epidemic [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]",
+        "<h2 style=\"display: inline\">Methods:</h2> The authors developed a simple disease-transmission model in which the 2019-nCoV epidemic was modeled as a branching process starting in mid-November 2019, with a serial interval of 7 days and a basic reproduction number (R0) of 2.3, based on available data and assuming no intervention (Figure 1).",
+        "In the absence of control measures, the total number of cases after t serial intervals depends on R0 and the number of epidemic generations.",
+        "Introduction of control is assumed to reduce the reproduction number to Re. The last generation with uncontrolled growth is indicated by tc, with an incident case count of Itc, and the authors can use the right-hand equation to calculate case numbers in the presence of control.",
+        "<h2 style=\"display: inline\">Results:</h2> Comparison of cumulative case numbers versus model-generated counts shows that reported case numbers remain lower than modeled estimates, but ascertainment is increasingly complete over time (Figure 2).",
+        "The fraction of cases reported would be even higher if the reproduction number were lower because of control efforts.",
+        "Figure 2 shows a narrowing between case counts generated by the model and those reported by public health authorities over time.",
+        "This suggests decreasing reporting times.",
+        "If Re had fallen to 1.0 after 24 January 2020, the model predicts fewer cases than are currently being reported, making this level of control implausible.",
+        "Reduction to an Re of 1.5 is plausible on the basis of reported cases and model estimates up to 3 February 2020, but it would imply complete reporting",
+        "<h2 style=\"display: inline\">Conclusion:</h2> Using a simple model of epidemic growth that includes the representation of control efforts can provide helpful insights into the growth of the 2019-nCoV epidemic that are not directly observable in publicly reported data.",
+        "Contour plots can be used to indirectly estimate Re after introduction of control efforts, because case counts exceeding a given contour suggest that an Re value is implausible.",
+        "Potential limitations of this model include underrepresentation of mild infections and its focus on an epidemic currently centered in China.",
+        "The tool may help policymakers by allowing inferences about likely underlying dynamics of the epidemic, even when available disease data are delayed or incomplete"
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "Confirmed cases of 2019 novel coronavirus (2019-nCoV) in China and other countries have increased sharply [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], leading to concerns regarding its pandemic potential.",
+            "Viral epidemiology has been characterized sufficiently to permit construction of transmission models that predict the future course of this epidemic [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>]"
+        ],
+        "Methods": [
+            "The authors developed a simple disease-transmission model in which the 2019-nCoV epidemic was modeled as a branching process starting in mid-November 2019, with a serial interval of 7 days and a basic reproduction number (R0) of 2.3, based on available data and assuming no intervention (Figure 1).",
+            "In the absence of control measures, the total number of cases after t serial intervals depends on R0 and the number of epidemic generations.",
+            "Introduction of control is assumed to reduce the reproduction number to Re. The last generation with uncontrolled growth is indicated by tc, with an incident case count of Itc, and the authors can use the right-hand equation to calculate case numbers in the presence of control."
+        ],
+        "Results": [
+            "Comparison of cumulative case numbers versus model-generated counts shows that reported case numbers remain lower than modeled estimates, but ascertainment is increasingly complete over time (Figure 2).",
+            "The fraction of cases reported would be even higher if the reproduction number were lower because of control efforts.",
+            "Figure 2 shows a narrowing between case counts generated by the model and those reported by public health authorities over time.",
+            "This suggests decreasing reporting times.",
+            "If Re had fallen to 1.0 after 24 January 2020, the model predicts fewer cases than are currently being reported, making this level of control implausible.",
+            "Reduction to an Re of 1.5 is plausible on the basis of reported cases and model estimates up to 3 February 2020, but it would imply complete reporting"
+        ],
+        "Conclusion": [
+            "Using a simple model of epidemic growth that includes the representation of control efforts can provide helpful insights into the growth of the 2019-nCoV epidemic that are not directly observable in publicly reported data.",
+            "Contour plots can be used to indirectly estimate Re after introduction of control efforts, because case counts exceeding a given contour suggest that an Re value is implausible.",
+            "Potential limitations of this model include underrepresentation of mild infections and its focus on an epidemic currently centered in China.",
+            "The tool may help policymakers by allowing inferences about likely underlying dynamics of the epidemic, even when available disease data are delayed or incomplete"
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "1._2020_a",
+            "entry": "1. BNO News. Tracking coronavirus: map, data and timeline. 2 February 2020. Accessed at https://bnonews.com/index.php/2020/02/the-latest-coronavirus -cases on 3 February 2020.",
+            "url": "https://bnonews.com/index.php/2020/02/the-latest-coronavirus"
+        },
+        {
+            "id": "2",
+            "alt_id": "2._2020_b",
+            "entry": "2. China Centers for Disease Control. Distribution of pneumonia in a new coronavirus infection. 2020. Accessed at http://2019ncov.chinacdc.cn/2019-nCoV on 3 February 2020.",
+            "url": "http://2019ncov.chinacdc.cn/2019-nCoV"
+        },
+        {
+            "id": "3",
+            "alt_id": "Wu_et+al_2019_a",
+            "entry": "3. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. Lancet. 2020. [PMID: 32014114] doi:10.1016 /S0140-6736(20)30260-9 4. Imai N, Cori A, Dorigatti I, et al. Report 3: transmissibility of 2019-nCoV. 25 January 2020. Accessed at www.imperial.ac.uk/mrc-global-infectious-disease -analysis/news--wuhan-coronavirus on 25 January 2020.",
+            "url": "http://www.imperial.ac.uk/mrc-global-infectious-disease",
+            "pubmed_url": "https://www.ncbi.nlm.nih.gov/pubmed/32014114",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%20JT%20Leung%20K%20Leung%20GM%20Nowcasting%20and%20forecasting%20the%20potential%20domestic%20and%20international%20spread%20of%20the%202019nCoV%20outbreak%20originating%20in%20Wuhan%20China%20a%20modelling%20study%20Lancet%202020%20PMID%2032014114%20doi101016%20S0140673620302609%204%20Imai%20N%20Cori%20A%20Dorigatti%20I%20et%20al%20Report%203%20transmissibility%20of%202019nCoV%2025%20January%202020%20Accessed%20at%20wwwimperialacukmrcglobalinfectiousdisease%20analysisnewswuhancoronavirus%20on%2025%20January%202020",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%20JT%20Leung%20K%20Leung%20GM%20Nowcasting%20and%20forecasting%20the%20potential%20domestic%20and%20international%20spread%20of%20the%202019nCoV%20outbreak%20originating%20in%20Wuhan%20China%20a%20modelling%20study%20Lancet%202020%20PMID%2032014114%20doi101016%20S0140673620302609%204%20Imai%20N%20Cori%20A%20Dorigatti%20I%20et%20al%20Report%203%20transmissibility%20of%202019nCoV%2025%20January%202020%20Accessed%20at%20wwwimperialacukmrcglobalinfectiousdisease%20analysisnewswuhancoronavirus%20on%2025%20January%202020"
+        },
+        {
+            "id": "2",
+            "alt_id": "2_0000_a",
+            "entry": "2 Annals of Internal Medicine Downloaded from https://annals.org by guest on 03/11/2020",
+            "url": "https://annals.org"
+        }
+    ],
+    "facts": [
+        "permit construction of transmission models that predict the future course of this epidemic",
+        "the 2019-nCoV epidemic was modeled as a branching process starting in mid-November",
+        "Re values after intervention can be plotted as epidemic curves in a series",
+        "number of new cases described by R0",
+        "Serial interval is the average time between cases in a chain",
+        "the total number of cases after t serial intervals depends on R0",
+        "The difference between the 2 curves shows the effect of introducing control measures vs. continued epidemic growth",
+        "Comparison of cumulative case numbers versus model-generated counts shows that reported case numbers remain lower than modeled estimates",
+        "ascertainment is increasingly complete over time",
+        "the fraction of cases reported increased from 2.4% on 12 January 2020",
+        "Our model suggests that reported cases increased to",
+        "The fraction of cases reported would be even higher if the reproduction number were lower because",
+        "Figure 2 shows a narrowing between case counts generated by the model",
+        "Contours generated by the model with intervention give",
+        "a simple model of epidemic growth that includes the representation of control efforts can provide helpful insights into the growth",
+        "reported case counts suggests that reporting lags are decreasing",
+        "case ascertainment increasing over time",
+        "confirmed cases shows that the massive public health effort under way",
+        "its focus on an epidemic currently centered in China"
+    ],
+    "claims": [
+        "Methods: We developed a simple disease-transmission model in which the 2019-nCoV epidemic was modeled as a branching process starting in mid-November 2019, with a serial interval of 7 days (time between cases) and a basic reproduction number (R0) of 2.3 (new cases from each old case), based on available data and assuming no intervention (Figure 1)"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "We developed a simple disease-transmission model in which the 2019-nCoV epidemic was modeled as a branching process starting in mid-November 2019, with a serial interval of 7 days and a basic reproduction number (R0) of 2.3, based on available data and assuming no intervention (Figure 1)",
+        "Findings: Comparison of cumulative case numbers versus model-generated counts shows that reported case numbers remain lower than modeled estimates, but ascertainment is increasingly complete over time (Figure 2)",
+        "The fraction of cases reported would be even higher if the reproduction number were lower because of control efforts",
+        "Contours generated by the model with intervention give us information about which reproduction numbers may be plausible and which are implausible (Figure 2)",
+        "Using a simple model of epidemic growth that includes the representation of control efforts can provide helpful insights into the growth of the 2019-nCoV epidemic that are not directly observable in publicly reported data",
+        "Comparison of modeled and reported case counts suggests that reporting lags are decreasing and case ascertainment increasing over time"
+    ],
+    "top_statements": [
+        "Virologically confirmed cases of 2019 novel coronavirus (2019-nCoV) in China and other countries have increased sharply [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>, <a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>], leading to concerns regarding its pandemic potential",
+        "We developed a simple disease-transmission model in which the 2019-nCoV epidemic was modeled as a branching process starting in mid-November 2019, with a serial interval of 7 days and a basic reproduction number (R0) of 2.3, based on available data and assuming no intervention (Figure 1)",
+        "Findings: Comparison of cumulative case numbers versus model-generated counts shows that reported case numbers remain lower than modeled estimates, but ascertainment is increasingly complete over time (Figure 2)",
+        "The fraction of cases reported would be even higher if the reproduction number were lower because of control efforts",
+        "Using a simple model of epidemic growth that includes the representation of control efforts can provide helpful insights into the growth of the 2019-nCoV epidemic that are not directly observable in publicly reported data",
+        "Comparison of modeled and reported case counts suggests that reporting lags are decreasing and case ascertainment increasing over time"
+    ],
+    "headline": "Using a simple model of epidemic growth that includes the representation of control efforts can provide helpful insights into the growth of the 2019-nCoV epidemic that are not directly observable in publicly reported data",
+    "contexts": [],
+    "abbreviations": {
+        "Re": "reproduction number"
+    }
+}

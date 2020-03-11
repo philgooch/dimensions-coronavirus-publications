@@ -1,0 +1,565 @@
+{
+    "filename": "pdf.pdf",
+    "content_type": "application/pdf",
+    "file_size": 710490,
+    "metadata": {
+        "identifiers": {
+            "doi": "10.3390/jcm9020498",
+            "url": "https://www.mdpi.com/2077-0383/9/2/498/pdf"
+        },
+        "date": 2020,
+        "title": "Novel Coronavirus Outbreak in Wuhan, China, 2020: Intense Surveillance Is Vital for Preventing Sustained Transmission in New Locations",
+        "author": "Robin N. Thompson",
+        "affiliations": [
+            "Mathematical Institute, University of Oxford, Woodstock Road, Oxford OX2 6GG, UK; robin.thompson@chch.ox.ac.uk",
+            "Christ Church, University of Oxford, St Aldates, Oxford OX1 1DP, UK"
+        ],
+        "journal": "Journal of Clinical Medicine",
+        "volume": "9",
+        "abstract": "The outbreak of pneumonia originating in Wuhan, China, has generated 24,500 confirmed cases, including 492 deaths, as of 5 February 2020. The virus (2019-nCoV) has spread elsewhere in China and to 24 countries, including South Korea, Thailand, Japan and USA. Fortunately, there has only been limited human-to-human transmission outside of China. Here, we assess the risk of sustained transmission whenever the coronavirus arrives in other countries. Data describing the times from symptom onset to hospitalisation for 47 patients infected early in the current outbreak are used to generate an estimate for the probability that an imported case is followed by sustained human-to-human transmission. Under the assumptions that the imported case is representative of the patients in China, and that the 2019-nCoV is similarly transmissible to the SARS coronavirus, the probability that an imported case is followed by sustained human-to-human transmission is 0.41 (credible interval [0.27, 0.55]). However, if the mean time from symptom onset to hospitalisation can be halved by intense surveillance, then the probability that an imported case leads to sustained transmission is only 0.012 (credible interval [0, 0.099]). This emphasises the importance of current surveillance efforts in countries around the world, to ensure that the ongoing outbreak will not become a global pandemic.",
+        "keywords": [
+            "2019-nCoV",
+            "mathematical modelling",
+            "infectious disease epidemiology",
+            "major outbreak",
+            "forecasting",
+            "coronavirus",
+            "Wuhan",
+            "SARS"
+        ],
+        "references": "@article{hui-a,\n  author = {Hui, D.S. and Azhar, E.I. and Madani, T.A. and Ntoumi, F. and Kock, R. and Dar, O. and Ippolito, G. and Mchugh, T.D. and Memish, Z.A. and Drosten, C.},\n  title = {The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China},\n  journal = {Int. J. Infect. Dis},\n  volume = {2020},\n  pages = {264\u2013266},\n  medium = {CrossRef-PubMed},\n  more-authors = {true},\n  number = {91},\n  language = {}\n}\n@misc{organization-a,\n  author = {Organization, World Health},\n  title = {Novel Coronavirus (2019-nCoV); Situation Report 3; 2020},\n  url = {https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports},\n  unmatched-accessed = {(accessed on 25 January 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@incollection{imai2019a,\n  author = {Imai, N. and Dorigatti, I. and Cori, A. and Riley, S. and Ferguson, N.M.},\n  title = {Report 1: Estimating the Potential Total Number of Novel Coronavirus},\n  date = {2019},\n  source = {Cases in Wuhan City, China},\n  language = {},\n  urldate = {2020. Available online: https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/(on 23 January 2020).}\n}\n@article{chan-a,\n  author = {Chan, J.F.W. and Yuan, S. and Kok, K.H. and To, K.K.W. and Chu, H. and Yang, J. and Xing, F. and Liu, J. and Chik-Yan Yip, C. and Wing-Shan Poon, R.},\n  title = {A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: A study of a family cluster},\n  journal = {Lancet},\n  volume = {2020},\n  pages = {1\u201310},\n  medium = {CrossRef},\n  more-authors = {true},\n  number = {6736},\n  language = {}\n}\n@article{nishiura-a,\n  author = {Nishiura, H. and Jung, S.M. and Linton, N.M. and Kinoshita, R. and Yang, Y. and Hayashi, K. and Kobayashi, T. and Yuan, B. and Akhmetzhanov, A.R.},\n  title = {The extent of transmission of novel coronavirus in Wuhan, China, 2020},\n  journal = {J. Clin. Med},\n  volume = {2020},\n  pages = {330},\n  medium = {CrossRef},\n  number = {9},\n  language = {}\n}\n@article{wu2000a,\n  author = {Wu, P. and Hao, X. and Lau, E.H.Y. and Wong, J.Y. and Leung, K.S.M. and Wu, J.T. and Cowling, B.J. and Leung, G.M.},\n  title = {Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020},\n  journal = {Eurosurveillance},\n  volume = {2020},\n  date = {2000},\n  medium = {CrossRef},\n  number = {25},\n  language = {}\n}\n@misc{imai-a,\n  author = {Imai, N. and Cori, A. and Dorigatti, I. and Baguelin, M. and Donnelly, C.A. and Riley, S. and Ferguson, N.M.},\n  title = {Report 3: Transmissibility},\n  url = {https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf},\n  unmatched-accessed = {(accessed on 26 January 2020).},\n  language = {},\n  urldate = {of 2019-nCoV. 2020. Available online:}\n}\n@article{lipsitch2015a,\n  author = {Lipsitch, M. and Donnelly, C.A. and Fraser, C. and Blake, I.M. and Cori, A. and Dorigatti, I. and Ferguson, N.M. and Garske, T. and Mills, H.L. and Riley, S.},\n  title = {Potential Biases in estimating absolute and relative case-fatality risks during outbreaks},\n  journal = {PLoS Negl. Trop. Dis},\n  date = {2015},\n  volume = {16},\n  pages = {0003846},\n  medium = {CrossRef},\n  more-authors = {true},\n  language = {}\n}\n@article{ghani2005a,\n  author = {Ghani, A.C. and Donnelly, C.A. and Cox, D.R. and Griffin, J.T. and Fraser, C. and Lam, T.H. and Ho, L.M. and Chan, W.S. and Anderson, R.M. and Hedley, A.J.},\n  title = {Methods for estimating the case fatality ratio for a novel, emerging infectious disease},\n  journal = {Am. J. Epidemiol},\n  date = {2005},\n  volume = {162},\n  pages = {479\u2013486},\n  medium = {CrossRef},\n  more-authors = {true},\n  language = {}\n}\n@techreport{unknown-a,\n  title = {China Coronavirus: UK Tracing up to 2000 Wuhan Visitors},\n  url = {https://www.bbc.co.uk/news/uk-51232163},\n  unmatched-accessed = {(accessed on 24 January 2020).},\n  language = {},\n  urldate = {2020. Available online:},\n  institution = {BBC}\n}\n@article{tatem2006a,\n  author = {Tatem, A.J. and Rogers, D.J. and Hay, S.I.},\n  journal = {Global Transport Networks and Infectious Disease Spread. Adv. Parasitol},\n  date = {2006},\n  volume = {62},\n  pages = {293\u2013343}\n}\n@article{thompson2019a,\n  author = {Thompson, R.N. and Thompson, C. and Pelerman, O. and Gupta, S. and Obolski, U.},\n  title = {Increased frequency of travel in the presence of cross-immunity may act to decrease the chance of a global pandemic},\n  journal = {Philos. Trans. R. Soc. B},\n  date = {2019},\n  volume = {374},\n  medium = {CrossRef},\n  language = {}\n}\n@article{cohen2003a,\n  author = {Cohen, J. and Normile, D.},\n  title = {New SARS-like virus in China triggers alarm},\n  journal = {Science},\n  volume = {2020},\n  pages = \"234\u2013235.\" # \"897.\",\n  medium = {CrossRef},\n  date = {2003},\n  unmatched-author = {14. Parry, J.},\n  source = {SARS virus identified, but the disease is still spreading},\n  unmatched-journal = {Br. Med. J.},\n  unmatched-volume = {326,},\n  number = {367},\n  unmatched-pages = {897.},\n  language = {}\n}\n@book{kraemer-a,\n  author = {Kraemer, M. and Pigott, D. and Xu, B. and Hill, S. and Gutierrez, B. and Pybus, O.},\n  title = {Epidemiological Data from the nCoV-2019 Outbreak},\n  publisher = {Early Descriptions from Publicly Available Data. 2020. Available online},\n  url = {http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-early-descriptions-frompublicly-available-data/},\n  language = {},\n  urldate = {on 23 January 2020).}\n}\n@article{thompson2019b,\n  author = {Thompson, R.N. and Stockwin, J.E. and Gaalen, R.D. and Van Polonsky, J.A. and Kamvar, Z.N. and Demarsh, P.A. and Dahlqwist, E. and Li, S. and Miguel, E. and Jombart, T.},\n  title = {Improved inference of time-varying reproduction numbers during infectious disease outbreaks},\n  journal = {Epidemics},\n  date = {2019},\n  volume = {19},\n  pages = {851\u2013863},\n  medium = {CrossRef},\n  unmatched-author = {Lloyd, A. L.; Zhang, J.; Root, A. M.},\n  more-authors = {true},\n  source = {Stochasticity and heterogeneity in host-vector models},\n  unmatched-journal = {J. R. Soc. Interface},\n  unmatched-volume = {4,},\n  language = {},\n  urldate = {[PubMed] 18.}\n}\n@article{allen2012a,\n  author = {Allen, L.J.S. and Lahodny, G.E.},\n  title = {Extinction thresholds in deterministic and stochastic epidemic models},\n  journal = {J. Biol. Dyn},\n  date = {2012},\n  volume = {6},\n  pages = {590\u2013611},\n  language = {}\n}\n@article{thompson2016a,\n  author = {Thompson, R.N. and Gilligan, C.A. and Cunniffe, N.J.},\n  title = {Detecting presymptomatic infection is necessary to forecast major epidemics in the earliest stages of infectious disease outbreaks},\n  journal = {PLoS Comput. Biol},\n  date = {2016},\n  volume = {12},\n  pages = {1004836},\n  language = {}\n}\n@article{thompson2019c,\n  author = {Thompson, R.N. and Jalava, K. and Obolski, U.},\n  title = {Sustained transmission of Ebola in new locations: More likely than previously thought},\n  journal = {Lancet Infect. Dis},\n  date = {2019},\n  volume = {19},\n  pages = {1058\u20131059},\n  language = {}\n}\n@article{wallinga2004a,\n  author = {Wallinga, J. and Teunis, P.},\n  title = {Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures},\n  journal = {Am. J. Epidemiol},\n  date = {2004},\n  volume = {160},\n  pages = {509\u2013516},\n  language = {}\n}\n@article{feng2009a,\n  author = {Feng, D. and Jia, N. and Fang, L.Q. and Richardus, J.H. and Han, X.N. and Cao, W.C. and De Vlas, S.J.},\n  title = {Duration of symptom onset to hospital admission and admission to discharge or death in SARS in mainland China: A descriptive study},\n  journal = {Trop. Med. Int. Heal},\n  date = {2009},\n  volume = {14},\n  pages = {28\u201335},\n  language = {}\n}\n@article{bogoch-a,\n  author = {Bogoch, I.I. and Watts, A. and Thomas-Bachli, A. and Huber, C. and Kraemer, M.U.G. and Khan, K.},\n  title = {Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel},\n  journal = {J. Travel Med},\n  volume = {2020},\n  pages = {008},\n  date = {[CrossRef] 24.},\n  number = {1},\n  language = {}\n}\n@article{huang-a,\n  author = {Huang, C. and Wang, Y. and Li, X. and Ren, L. and Zhao, J. and Hu, Y. and Zhang, L. and Fan, G. and Xu, J. and Gu, X.},\n  title = {Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China},\n  journal = {Lancet},\n  volume = {2020},\n  pages = {1\u201310},\n  note = {CrossRef] 25},\n  more-authors = {true},\n  number = {6736},\n  language = {}\n}\n@article{thompson3006a,\n  author = {Thompson, R.N.},\n  title = {Pandemic potential of 2019-nCoV. Lancet Infect},\n  journal = {Dis},\n  volume = {2020},\n  date = {3006},\n  number = {20},\n  language = {}\n}\n@article{fraser2004a,\n  author = {Fraser, C. and Riley, S. and Anderson, R.M. and Ferguson, N.M.},\n  title = {Factors that make an infectious disease outbreak controllable},\n  journal = {Proc. Natl. Acad. Sci. USA},\n  date = {2004},\n  volume = {101},\n  pages = {6146\u20136151},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n@misc{kupferschmidt-a,\n  author = {Kupferschmidt, K.},\n  title = {Study Claiming New Coronavirus Can be Transmitted by People without Symptoms Was Flawed},\n  url = {https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patienttransmitting-coronavirus-wrong},\n  unmatched-accessed = {(accessed on 4 February 2020).},\n  language = {},\n  urldate = {Available online:}\n}\n@article{donnelly2003a,\n  author = {Donnelly, C.A. and Ghani, A.C. and Leung, G.M. and Hedley, A.J. and Fraser, C. and Riley, S. and Abu-Raddad, L.J. and Ho, L.M. and Thach, T.Q. and Chau, P.},\n  title = {Epidemiological determinants of spread of causal agent of severe acute respiratory syndrome in Hong Kong},\n  journal = {Lancet},\n  date = {2003},\n  volume = {361},\n  pages = {1761\u20131766},\n  medium = {CrossRef},\n  more-authors = {true},\n  language = {}\n}\n@article{lloyd-smith2005a,\n  author = {Lloyd-Smith, J.O. and Schreiber, S.J. and Kopp, P.E. and Getz, W.M.},\n  title = {Superspreading and the effect of individual variation on disease emergence},\n  journal = {Nature},\n  date = {2005},\n  volume = {438},\n  pages = {355\u2013359},\n  medium = {CrossRef-PubMed},\n  language = {}\n}\n",
+        "links": [
+            "http://www.mdpi.com/journal/jcm",
+            "http://www.mdpi.com/2077-0383/9/2/498/s1",
+            "http://www.mdpi.com/2077-0383/9/2/498/s1"
+        ],
+        "emails": [
+            "robin.thompson@chch.ox.ac.uk"
+        ],
+        "pages": "498",
+        "cited_by": 2,
+        "references_ris": "TY  - JOUR\nAU  - Hui, D.S.\nAU  - Azhar, E.I.\nAU  - Madani, T.A.\nAU  - Ntoumi, F.\nAU  - Kock, R.\nAU  - Dar, O.\nAU  - Ippolito, G.\nAU  - Mchugh, T.D.\nAU  - Memish, Z.A.\nAU  - Drosten, C.\nTI  - The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China\nT2  - Int. J. Infect. Dis\nVL  - 2020\nSP  - 264\nEP  - 266\nC1  - CrossRef-PubMed\nC1  - true\nIS  - 91\nLA  - \nER  - \n\nTY  - GEN\nAU  - Organization, World Health\nTI  - Novel Coronavirus (2019-nCoV); Situation Report 3; 2020\nUR  - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports\nC1  - (accessed on 25 January 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - CHAP\nAU  - Imai, N.\nAU  - Dorigatti, I.\nAU  - Cori, A.\nAU  - Riley, S.\nAU  - Ferguson, N.M.\nTI  - Report 1: Estimating the Potential Total Number of Novel Coronavirus\nPY  - 2019\nDA  - 2019\nT2  - Cases in Wuhan City, China\nLA  - \nC1  - 2020. Available online: https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/(on 23 January 2020).\nER  - \n\nTY  - JOUR\nAU  - Chan, J.F.W.\nAU  - Yuan, S.\nAU  - Kok, K.H.\nAU  - To, K.K.W.\nAU  - Chu, H.\nAU  - Yang, J.\nAU  - Xing, F.\nAU  - Liu, J.\nAU  - Chik-Yan Yip, C.\nAU  - Wing-Shan Poon, R.\nTI  - A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: A study of a family cluster\nT2  - Lancet\nVL  - 2020\nSP  - 1\nEP  - 10\nC1  - CrossRef\nC1  - true\nIS  - 6736\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Nishiura, H.\nAU  - Jung, S.M.\nAU  - Linton, N.M.\nAU  - Kinoshita, R.\nAU  - Yang, Y.\nAU  - Hayashi, K.\nAU  - Kobayashi, T.\nAU  - Yuan, B.\nAU  - Akhmetzhanov, A.R.\nTI  - The extent of transmission of novel coronavirus in Wuhan, China, 2020\nT2  - J. Clin. Med\nVL  - 2020\nSP  - 330\nC1  - CrossRef\nIS  - 9\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wu, P.\nAU  - Hao, X.\nAU  - Lau, E.H.Y.\nAU  - Wong, J.Y.\nAU  - Leung, K.S.M.\nAU  - Wu, J.T.\nAU  - Cowling, B.J.\nAU  - Leung, G.M.\nTI  - Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020\nT2  - Eurosurveillance\nVL  - 2020\nPY  - 2000\nDA  - 2000\nC1  - CrossRef\nIS  - 25\nLA  - \nER  - \n\nTY  - GEN\nAU  - Imai, N.\nAU  - Cori, A.\nAU  - Dorigatti, I.\nAU  - Baguelin, M.\nAU  - Donnelly, C.A.\nAU  - Riley, S.\nAU  - Ferguson, N.M.\nTI  - Report 3: Transmissibility\nUR  - https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf\nC1  - (accessed on 26 January 2020).\nLA  - \nC1  - of 2019-nCoV. 2020. Available online:\nER  - \n\nTY  - JOUR\nAU  - Lipsitch, M.\nAU  - Donnelly, C.A.\nAU  - Fraser, C.\nAU  - Blake, I.M.\nAU  - Cori, A.\nAU  - Dorigatti, I.\nAU  - Ferguson, N.M.\nAU  - Garske, T.\nAU  - Mills, H.L.\nAU  - Riley, S.\nTI  - Potential Biases in estimating absolute and relative case-fatality risks during outbreaks\nT2  - PLoS Negl. Trop. Dis\nPY  - 2015\nDA  - 2015\nVL  - 16\nSP  - 0003846\nC1  - CrossRef\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Ghani, A.C.\nAU  - Donnelly, C.A.\nAU  - Cox, D.R.\nAU  - Griffin, J.T.\nAU  - Fraser, C.\nAU  - Lam, T.H.\nAU  - Ho, L.M.\nAU  - Chan, W.S.\nAU  - Anderson, R.M.\nAU  - Hedley, A.J.\nTI  - Methods for estimating the case fatality ratio for a novel, emerging infectious disease\nT2  - Am. J. Epidemiol\nPY  - 2005\nDA  - 2005\nVL  - 162\nSP  - 479\nEP  - 486\nC1  - CrossRef\nC1  - true\nLA  - \nER  - \n\nTY  - RPRT\nTI  - China Coronavirus: UK Tracing up to 2000 Wuhan Visitors\nUR  - https://www.bbc.co.uk/news/uk-51232163\nC1  - (accessed on 24 January 2020).\nLA  - \nC1  - 2020. Available online:\nC1  - BBC\nER  - \n\nTY  - JOUR\nAU  - Tatem, A.J.\nAU  - Rogers, D.J.\nAU  - Hay, S.I.\nT2  - Global Transport Networks and Infectious Disease Spread. Adv. Parasitol\nPY  - 2006\nDA  - 2006\nVL  - 62\nSP  - 293\nEP  - 343\nER  - \n\nTY  - JOUR\nAU  - Thompson, R.N.\nAU  - Thompson, C.\nAU  - Pelerman, O.\nAU  - Gupta, S.\nAU  - Obolski, U.\nTI  - Increased frequency of travel in the presence of cross-immunity may act to decrease the chance of a global pandemic\nT2  - Philos. Trans. R. Soc. B\nPY  - 2019\nDA  - 2019\nVL  - 374\nC1  - CrossRef\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Cohen, J.\nAU  - Normile, D.\nTI  - New SARS-like virus in China triggers alarm\nT2  - Science\nVL  - 2020\nSP  - \"234\nEP  - 235.\" # \"897.\"\nC1  - CrossRef\nPY  - 2003\nDA  - 2003\nC1  - 14. Parry, J.\nT2  - SARS virus identified, but the disease is still spreading\nC1  - Br. Med. J.\nC1  - 326,\nIS  - 367\nC1  - 897.\nLA  - \nER  - \n\nTY  - BOOK\nAU  - Kraemer, M.\nAU  - Pigott, D.\nAU  - Xu, B.\nAU  - Hill, S.\nAU  - Gutierrez, B.\nAU  - Pybus, O.\nTI  - Epidemiological Data from the nCoV-2019 Outbreak\nPB  - Early Descriptions from Publicly Available Data. 2020. Available online\nUR  - http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-early-descriptions-frompublicly-available-data/\nLA  - \nC1  - on 23 January 2020).\nER  - \n\nTY  - JOUR\nAU  - Thompson, R.N.\nAU  - Stockwin, J.E.\nAU  - Gaalen, R.D.\nAU  - Van Polonsky, J.A.\nAU  - Kamvar, Z.N.\nAU  - Demarsh, P.A.\nAU  - Dahlqwist, E.\nAU  - Li, S.\nAU  - Miguel, E.\nAU  - Jombart, T.\nTI  - Improved inference of time-varying reproduction numbers during infectious disease outbreaks\nT2  - Epidemics\nPY  - 2019\nDA  - 2019\nVL  - 19\nSP  - 851\nEP  - 863\nC1  - CrossRef\nC1  - Lloyd, A. L.; Zhang, J.; Root, A. M.\nC1  - true\nT2  - Stochasticity and heterogeneity in host-vector models\nC1  - J. R. Soc. Interface\nC1  - 4,\nLA  - \nC1  - [PubMed] 18.\nER  - \n\nTY  - JOUR\nAU  - Allen, L.J.S.\nAU  - Lahodny, G.E.\nTI  - Extinction thresholds in deterministic and stochastic epidemic models\nT2  - J. Biol. Dyn\nPY  - 2012\nDA  - 2012\nVL  - 6\nSP  - 590\nEP  - 611\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thompson, R.N.\nAU  - Gilligan, C.A.\nAU  - Cunniffe, N.J.\nTI  - Detecting presymptomatic infection is necessary to forecast major epidemics in the earliest stages of infectious disease outbreaks\nT2  - PLoS Comput. Biol\nPY  - 2016\nDA  - 2016\nVL  - 12\nSP  - 1004836\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thompson, R.N.\nAU  - Jalava, K.\nAU  - Obolski, U.\nTI  - Sustained transmission of Ebola in new locations: More likely than previously thought\nT2  - Lancet Infect. Dis\nPY  - 2019\nDA  - 2019\nVL  - 19\nSP  - 1058\nEP  - 1059\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Wallinga, J.\nAU  - Teunis, P.\nTI  - Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures\nT2  - Am. J. Epidemiol\nPY  - 2004\nDA  - 2004\nVL  - 160\nSP  - 509\nEP  - 516\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Feng, D.\nAU  - Jia, N.\nAU  - Fang, L.Q.\nAU  - Richardus, J.H.\nAU  - Han, X.N.\nAU  - Cao, W.C.\nAU  - De Vlas, S.J.\nTI  - Duration of symptom onset to hospital admission and admission to discharge or death in SARS in mainland China: A descriptive study\nT2  - Trop. Med. Int. Heal\nPY  - 2009\nDA  - 2009\nVL  - 14\nSP  - 28\nEP  - 35\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Bogoch, I.I.\nAU  - Watts, A.\nAU  - Thomas-Bachli, A.\nAU  - Huber, C.\nAU  - Kraemer, M.U.G.\nAU  - Khan, K.\nTI  - Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel\nT2  - J. Travel Med\nVL  - 2020\nSP  - 008\nPY  - [CrossRef] 24.\nDA  - [CrossRef] 24.\nIS  - 1\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Huang, C.\nAU  - Wang, Y.\nAU  - Li, X.\nAU  - Ren, L.\nAU  - Zhao, J.\nAU  - Hu, Y.\nAU  - Zhang, L.\nAU  - Fan, G.\nAU  - Xu, J.\nAU  - Gu, X.\nTI  - Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China\nT2  - Lancet\nVL  - 2020\nSP  - 1\nEP  - 10\nN1  - CrossRef] 25\nC1  - true\nIS  - 6736\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Thompson, R.N.\nTI  - Pandemic potential of 2019-nCoV. Lancet Infect\nT2  - Dis\nVL  - 2020\nPY  - 3006\nDA  - 3006\nIS  - 20\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Fraser, C.\nAU  - Riley, S.\nAU  - Anderson, R.M.\nAU  - Ferguson, N.M.\nTI  - Factors that make an infectious disease outbreak controllable\nT2  - Proc. Natl. Acad. Sci. USA\nPY  - 2004\nDA  - 2004\nVL  - 101\nSP  - 6146\nEP  - 6151\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\nTY  - GEN\nAU  - Kupferschmidt, K.\nTI  - Study Claiming New Coronavirus Can be Transmitted by People without Symptoms Was Flawed\nUR  - https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patienttransmitting-coronavirus-wrong\nC1  - (accessed on 4 February 2020).\nLA  - \nC1  - Available online:\nER  - \n\nTY  - JOUR\nAU  - Donnelly, C.A.\nAU  - Ghani, A.C.\nAU  - Leung, G.M.\nAU  - Hedley, A.J.\nAU  - Fraser, C.\nAU  - Riley, S.\nAU  - Abu-Raddad, L.J.\nAU  - Ho, L.M.\nAU  - Thach, T.Q.\nAU  - Chau, P.\nTI  - Epidemiological determinants of spread of causal agent of severe acute respiratory syndrome in Hong Kong\nT2  - Lancet\nPY  - 2003\nDA  - 2003\nVL  - 361\nSP  - 1761\nEP  - 1766\nC1  - CrossRef\nC1  - true\nLA  - \nER  - \n\nTY  - JOUR\nAU  - Lloyd-Smith, J.O.\nAU  - Schreiber, S.J.\nAU  - Kopp, P.E.\nAU  - Getz, W.M.\nTI  - Superspreading and the effect of individual variation on disease emergence\nT2  - Nature\nPY  - 2005\nDA  - 2005\nVL  - 438\nSP  - 355\nEP  - 359\nC1  - CrossRef-PubMed\nLA  - \nER  - \n\n",
+        "author_conclusions": [],
+        "table_captions": [],
+        "figure_captions": [
+            {
+                "id": "1",
+                "caption": "The probability of a self-sustaining outbreak driven by human-to-human transmission arising following the importation of one infected individual. (A) Data describing the number of days between symptom onset and hospitalisation for 47 patients in the ongoing outbreak [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. (B) The estimated distribution of times between symptom onset and hospitalisation, obtained by fitting to the data shown in panel A. Blue lines show a range of equally possible distributions (see Methods; 50 distributions are shown here, selected at random from the n = 100,000 distributions considered), and the red line shows the average of the n = 100,000 distributions. (C) The probability of sustained transmission for each possible distribution of times from symptom onset to hospitalisation (Equation (1); blue histogram) and the probability of sustained transmission obtained by integrating over the possible distributions (Equation (2); red line). (D) The probability that a single imported case leads to sustained transmission in a new location, for different surveillance levels. The red line shows the mean estimates (obtained using Equation (2) but extended to account for intensified surveillance), and the blue dotted lines show the 5th and 95th percentile estimates (obtained when Equation (1) is applied, but extended to account for intensified surveillance)"
+            },
+            {
+                "id": "2",
+                "caption": "The probability of a self-sustaining outbreak driven by human-to-human transmission arising Figfurorem2m. uTlhtiepleprinodbeapbeilnitdyenotfcaasesselifm-spuosrttaeidnitnoga noeuwtblroecaaktiodnr,ivuenndebrydihffuermenatns-utorv-heiullmanacne ltervaenlssm. (iAss)ion arisNinoginftreonmsifimcautilotinpolef siunrdveepilelanndceen(t\u03c1c=as0e)s. (iBm)pMoertdeidumtoleavenleowf sulorcvaetililoann,ceuinndteenrsdifiicffaetrioennt(\u03c1su=rv0e.2i5lla).nce lev(eCls). H(Aig)hNleovienltoefnsuifrivcaetiilloanncoef isnutrevnesifillcaantcioen( ( \u03c1==00).5(B).) TMhedgiruemy bleavrselanodf sruedrvdeoiltlsanshceowinthene smifeicaantion (  =est0im.25at)e.s(C(o)btHaiingehdluesvinelgoEfqsuuartivoenil(l4a)n),caendinttheenesrifriocrabtiaorns in( d  i=cat0e.5th).eT5htheagnrdey95btharpseracnendtirledesdtiomtastsehs ow"
+            }
+        ],
+        "figure_urls": [
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-000.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-001.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-002.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-003.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-004.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-006.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-008.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-010.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-012.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-013.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-014.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-015.png",
+            "https://scholarcy.nyc3.digitaloceanspaces.com/images/docker-test/1efb49deae386cdb905eeca5e88fc222/img-016.png"
+        ]
+    },
+    "sections": {
+        "introduction": [
+            "The infectious agent driving the ongoing pneumonia outbreak (the 2019-nCoV) appears to have transitioned from animals into humans, with the Huanan seafood wholesale market in Wuhan, China, representing the most likely source [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Since then, cases have been recorded in other countries, and initial estimates suggest a hospital fatality risk of around 14% [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], although estimates of disease severity early in an outbreak are often imprecise [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>\u2013<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Even countries without confirmed cases have been on high alert. For example, even prior to the two cases in the United Kingdom on 31 January 2020, officials were reported to be attempting to trace as many as 2000 visitors that had travelled to that country from Wuhan [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>].<br/><br/>The most devastating infectious disease outbreaks are those that have a wide geographical range, as opposed to being confined to a small region [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>,<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. The previously known virus that is most similar to the 2019-nCoV is the SARS coronavirus [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], which generated cases in 37 countries in 2002\u20132003 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>,<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. Since the 2019-nCoV is clearly capable of being transmitted by infected hosts to countries around the world, an important question for policy makers is whether or not these imported cases have the potential to generate sustained human-to-human transmission in new locations."
+        ],
+        "methods": [
+            "2.1. Time from Symptom Onset to Hospitalisation<br/><br/>The distribution of times from symptom onset to hospitalisation was estimated using patient data from the ongoing outbreak [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] (data are shown in Figure 1A). Since the precise times of symptom onset and hospitalisation on the dates concerned were unknown, we converted the times from symptom onset to hospitalisation to intervals describing possible time periods (see the Supplementary Data). For example, for a case showing symptoms on 9 January 2020, and then being hospitalised on 14 January 2020, the time between symptom onset and hospitalisation lies between four and six days (see e.g., Supplementary Material of [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] for a similar calculation). This is because the minimum possible period involves symptom onset at the end of 9 January and hospitalisation at the start of 14 January, whereas the maximum possible period involves symptom onset early on 9 January and hospitalisation late on 14 January.<br/><br/>We then fitted the rate parameter (\u03b3) of an exponential distribution to these interval-censored data using Markov chain Monte Carlo (MCMC). A chain of length 10,000,000 in addition to a burn-in of 100,000 was used. The chain was then sampled with a thinning interval of 100 steps, giving rise n = 100,000 equally possible distributions for the times from symptom onset to hospitalisation, each characterised by a parameter estimate \u03b3i (i = 1, 2, . . . , n). For further details of the MCMC algorithm used, see the Supplementary Text."
+        ],
+        "results": [
+            "As described in Methods, the distribution of times between symptom onset and hospitalisation was estimated using Markov chain Monte Carlo (Figure 1B and Figure S1) from the patient data in Figure 1A. This gave rise to a range of equally plausible distributions describing these time periods (blue lines in Figure 1B). The average of these distributions is shown by the red line in Figure 1B, however we used the full range of distributions in our calculations of the probability of sustained transmission occurring from each imported case.<br/><br/>Each of the range of plausible distributions corresponded to an estimate for the probability of a self-sustaining outbreak (Equation (1) and histogram in Figure 1C). A single estimate for the probability of sustained transmission can be obtained by summing over the range of distributions using Equation (2). The resulting probability of sustained transmission is 0.41 (red line in Figure 1C), with credible interval (CrI) [0.27, 0.55], where the CrI reflects the 5th and 95th percentile estimates."
+        ],
+        "supplementary": [
+            "Materials: The following are available online at http://www.mdpi.com/2077-0383/9/2/498/s1."
+        ],
+        "funding": [
+            "This research was funded by Christ Church, Oxford, via a Junior Research Fellowship."
+        ],
+        "acknowledgments": [
+            "Thank you to Sebastian Funk, Christophe Fraser, Uri Obolski, David Steinsaltz and the anonymous reviewers for helpful comments about the original version of this manuscript."
+        ],
+        "disclosures": [
+            "The author declares no conflict of interest."
+        ],
+        "supplementary_references": {
+            "supplementary_data_references": [
+                "Supplementary Data",
+                "Supplementary Material"
+            ],
+            "supplementary_figure_references": [
+                "Figure S1"
+            ]
+        }
+    },
+    "structured_content": {
+        "1. Introduction": [
+            "The infectious agent driving the ongoing pneumonia outbreak (the 2019-nCoV) appears to have transitioned from animals into humans, with the Huanan seafood wholesale market in Wuhan, China, representing the most likely source [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]. Since then, cases have been recorded in other countries, and initial estimates suggest a hospital fatality risk of around 14% [<a class=\"ref-link\" id=\"c6\" href=\"#r6\">6</a>], although estimates of disease severity early in an outbreak are often imprecise [<a class=\"ref-link\" id=\"c7\" href=\"#r7\">7</a>\u2013<a class=\"ref-link\" id=\"c9\" href=\"#r9\">9</a>]. Even countries without confirmed cases have been on high alert. For example, even prior to the two cases in the United Kingdom on 31 January 2020, officials were reported to be attempting to trace as many as 2000 visitors that had travelled to that country from Wuhan [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>].",
+            "The most devastating infectious disease outbreaks are those that have a wide geographical range, as opposed to being confined to a small region [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>,<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]. The previously known virus that is most similar to the 2019-nCoV is the SARS coronavirus [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>], which generated cases in 37 countries in 2002\u20132003 [<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>,<a class=\"ref-link\" id=\"c14\" href=\"#r14\">14</a>]. Since the 2019-nCoV is clearly capable of being transmitted by infected hosts to countries around the world, an important question for policy makers is whether or not these imported cases have the potential to generate sustained human-to-human transmission in new locations.",
+            "Here, we present data describing the times from symptom onset to hospitalisation for 47 patients from the current outbreak, obtained from publicly available line lists [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. We fit an exponential distribution to these data, accounting for uncertainty due to the limited numbers of patients from whom data were available. Assuming that this distribution characterises the time spent by infected hosts generating new transmissions in the community, it is then possible to infer the probability that a case arriving in a new location is followed by an outbreak driven by sustained human-to-human transmission. We estimate this probability under the assumption that the transmissibility of the 2019-nCoV is similar to that of the SARS coronavirus, and then go on to consider the effect of shortening the mean time from symptom onset to hospitalisation. This provides an estimate of the risk that imported cases generate sustained outbreaks in new locations under different surveillance levels."
+        ],
+        "2. Methods": [],
+        "2.1. Time from Symptom Onset to Hospitalisation": [
+            "The distribution of times from symptom onset to hospitalisation was estimated using patient data from the ongoing outbreak [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>] (data are shown in Figure 1A). Since the precise times of symptom onset and hospitalisation on the dates concerned were unknown, we converted the times from symptom onset to hospitalisation to intervals describing possible time periods (see the Supplementary Data). For example, for a case showing symptoms on 9 January 2020, and then being hospitalised on 14 January 2020, the time between symptom onset and hospitalisation lies between four and six days (see e.g., Supplementary Material of [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>] for a similar calculation). This is because the minimum possible period involves symptom onset at the end of 9 January and hospitalisation at the start of 14 January, whereas the maximum possible period involves symptom onset early on 9 January and hospitalisation late on 14 January.",
+            "We then fitted the rate parameter (\u03b3) of an exponential distribution to these interval-censored data using Markov chain Monte Carlo (MCMC). A chain of length 10,000,000 in addition to a burn-in of 100,000 was used. The chain was then sampled with a thinning interval of 100 steps, giving rise n = 100,000 equally possible distributions for the times from symptom onset to hospitalisation, each characterised by a parameter estimate \u03b3i (i = 1, 2, . . . , n). For further details of the MCMC algorithm used, see the Supplementary Text.",
+            "C.",
+            "D."
+        ],
+        "2.2. Estimating the Probability of Sustained Transmission": [
+            "The distributions of times from symptom onset to hospitalisation were used to estimate the probability that an imported case will lead to sustained transmission, by assuming that infections occur according to a branching process (e.g., [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>\u2013<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]). In this branching process, the effective reproduction number (accounting for control interventions, other than intensified surveillance which we model explicitly) of the 2019-nCoV when the virus arrives in a new location is denoted by R = \u03b2/\u03b3, where the parameter \u03b2 represents pathogen transmissibility [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]. We assumed that the transmissibility of the virus is similar to that of the SARS coronavirus, i.e., \u03b2 = RSARS\u03b3SARS, where RSARS = 3 [<a class=\"ref-link\" id=\"c21\" href=\"#r21\">21</a>] and the mean infection duration for SARS is 1/\u03b3SARS = 3.8 days [<a class=\"ref-link\" id=\"c22\" href=\"#r22\">22</a>]. However, we adjusted the infectious period to account for the data describing the times between symptom onset and hospitalisation in the current outbreak. In doing this, we assumed that the time between an individual first displaying symptoms and being hospitalised was the period in which that individual was potentially transmitting the virus in the community.",
+            "The probability of a sustained transmission chain [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] starting from a single index case can be estimated for each of the equally possible distributions for the time from symptom onset to hospitalisation, Prob(sustained transmission",
+            "In this expression, it is assumed that \u03b2/\u03b3i > 1 (otherwise the probability of sustained transmission takes the value zero). If required, this can then be combined into a single estimate for the probability that an imported case leads to sustained transmission, p, given by p",
+            "To include intensified surveillance in these estimates, we simply replaced the mean time from symptom onset to hospitalisation for each of the equally plausible distributions, 1/\u03b3i, by the modified expression (1 \u2212 \u03c1)/\u03b3i. In this approximation, the parameter \u03c1 represents the proportional reduction in the mean infectious period due to intensified surveillance."
+        ],
+        "2.3. Multiple Imported Cases": [
+            "The risk of sustained transmission given multiple imported cases was calculated by considering the possibility that none of those cases led to sustained transmission. Consequently, Prob(sustained transmission | m imported cases, \u03b3i) = 1 \u2212",
+            "In this expression, it is assumed that \u03b2(1 \u2212 \u03c1)/\u03b3i > 1 (otherwise the probability of sustained transmission takes the value zero). Again, if required, this can be combined into a single estimate for the probability of sustained transmission starting from m imported cases, pm, given by pm"
+        ],
+        "3. Results": [
+            "As described in Methods, the distribution of times between symptom onset and hospitalisation was estimated using Markov chain Monte Carlo (Figure 1B and Figure S1) from the patient data in Figure 1A. This gave rise to a range of equally plausible distributions describing these time periods (blue lines in Figure 1B). The average of these distributions is shown by the red line in Figure 1B, however we used the full range of distributions in our calculations of the probability of sustained transmission occurring from each imported case.",
+            "Each of the range of plausible distributions corresponded to an estimate for the probability of a self-sustaining outbreak (Equation (1) and histogram in Figure 1C). A single estimate for the probability of sustained transmission can be obtained by summing over the range of distributions using Equation (2). The resulting probability of sustained transmission is 0.41 (red line in Figure 1C), with credible interval (CrI) [0.27, 0.55], where the CrI reflects the 5th and 95th percentile estimates.",
+            "We then considered the reduction in the probability that an imported case leads to sustained transmission if surveillance is more intense. Specifically, we assumed that intensified surveillance led to a reduction in the mean period from symptom onset to hospitalisation, governed by the parameter \u03c1 (where \u03c1 = 0 corresponds to no intensification of surveillance, and \u03c1 = 1 corresponds to an implausible scenario in which infectious cases are hospitalised immediately). We found that, if surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only 0.012 (CrI [0, 0.099]; Figure 1D).",
+            "0.012 (CrI [0, 0.099]; Figure 1D).",
+            "Finally, we considered the combined effect if multiple cases arrive in a new location. In that scenarioF,inianltley,nwsee csounrvsiediellraendcethehcaosmtbhienepdoetffeencttiailf mtoultriepdleucceasetshearrriivsek inofa nsuewstalionceadtiontr.anInsmthiastsion signsciefincaarniotl,yincteonmsepsaurrevdeitlolanwceeahkasstuhrevpeoitlelannticael.toFroerdu ce=th0e.5r,istkheofpsurostbaainbeildittyratnhsamt iassnioynosfig1n0ifiicmanptolyrted casceosmgpeanreerdatteo wa esaukbssutravnetiilalal nocue.tbFroera\u03c1k=is0.o5,ntlhye 0p.r1o2ba(bCirliIty[0th, a0t.6an5]y; oFfi1g0uirme p2oCrt)e. dTchaisseshgigehnleirgahtetsa the impsuobrtsatanncteiaolforuigtborreoauksissounrvlyei0l.l1a2n(cCer, Ip[a0r,t0ic.6u5l]a; rFliyguinrelo2cCa)t.iTohniss whihgehrliegihntsfetchteedimhpoosrttsanacree omf orisgtolrikouelsy to travsuelr.veillance, particularly in locations where infected hosts are most likely to travel.",
+            "Prob(sustained transmission) Prob(sustained transmission) Prob(sustained transmission)",
+            "4.pDericsecnutsisleioenstimates obtained when Equation (3) is applied.",
+            "There are concerns that the ongoing outbreak driven by the 2019-nCoV could spread globally [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>,<a class=\"ref-link\" id=\"c23\" href=\"#r23\">23</a>\u2013<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>] with sustained transmission in countries around the world. Periods of high travel rates, such as the recent Chinese New Year holiday, present a significant challenge since they pose an elevated risk of importations of the virus to new locations [<a class=\"ref-link\" id=\"c3\" href=\"#r3\">3</a>,<a class=\"ref-link\" id=\"c13\" href=\"#r13\">13</a>]. In an effort to prevent a surge in travel, the Chinese government extended the national New Year holiday in January 2020.",
+            "Here, we have estimated the potential for cases arriving in new locations to lead to sustained transmission. According to the basic model that we have constructed, if surveillance levels are similar to those in China at the beginning of the current outbreak, and if this virus is similarly transmissible to the SARS coronavirus that spread globally in 2002\u20132003, then the probability that each imported infected case generates an outbreak due to sustained transmission is approximately 0.41 (CrI [0.27, 0.55]; Figure 1C). However, under a higher level of surveillance, the risk of sustained outbreaks is substantially lower (Figure 1D). This result is particularly striking when multiple independent cases travel to a new location, either simultaneously or in sequence (Figure 2). In that scenario, intensified surveillance is particularly important.",
+            "Our study involves the simplest possible model that permits the risk of sustained transmission to be estimated from the very limited data that have been collected in this outbreak until now. As additional information becomes available, it will be possible to estimate the risk of outbreaks in new locations with more precision. We made the assumption that symptom appearance coincides with the onset of infectiousness. One of the features of the SARS outbreak in 2002\u20132003 that allowed it to eventually be brought under control was the low proportion of onward transmissions occurring either prior to symptoms or from asymptomatic infectious hosts [<a class=\"ref-link\" id=\"c26\" href=\"#r26\">26</a>]. It might be hoped that infections due to the 2019-nCoV share this characteristic. Some reports have suggested that this may not be the case, although the extent of presymptomatic transmission is disputed [<a class=\"ref-link\" id=\"c25\" href=\"#r25\">25</a>,<a class=\"ref-link\" id=\"c27\" href=\"#r27\">27</a>]. We are working on an updated version of our analyses that includes the possibility of transmission from presymptomatic or mildly symptomatic hosts (based on the \u201cSEAIR\u201d compartmental model [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]).",
+            "Since our results were obtained using patient data from early in the ongoing outbreak, surveillance systems may not have been fully established when these data were collected, and patients may not have been primed to respond quickly to early symptoms. Our results might therefore be viewed as an upper bound on the risk posed by the 2019-nCoV. As the outbreak continues, it might be expected that the time from symptom onset to hospitalisation or isolation will decrease, leading to lower risks of sustained transmission, as has been observed for outbreaks of other diseases (e.g., the ongoing outbreak of Ebola virus disease in the Democratic Republic of the Congo). Initial indications suggest that such a decrease is occurring in China for this outbreak. In contrast, there may be some individuals that developed symptoms, but had not yet reported their infection by the time our analysis was conducted. \u201cRight censoring\u201d in this way favours lower reporting times, and so falsely reduces estimates of the time between symptom onset and hospitalisation [<a class=\"ref-link\" id=\"c16\" href=\"#r16\">16</a>,<a class=\"ref-link\" id=\"c28\" href=\"#r28\">28</a>].",
+            "Going forwards, it will be possible to include additional realism in the model. One example might be to consider spatial variation in host population densities and surveillance levels, leading to spatially inhomogeneous outbreak risks. Another possibility might be to account more explicitly for heterogeneities between different infectors, either by incorporating \u201csuperspreaders\u201d [<a class=\"ref-link\" id=\"c29\" href=\"#r29\">29</a>] in the model or by differentiating between individuals that report disease at different rates. Such heterogeneity might be expected to reduce the risk of sustained transmission (for a preliminary analysis, in which individuals can either be \u201cfast reporters\u201d or \u201cslow reporters\u201d, see the Supplementary Text). It would also be possible to differentiate between mild and severe cases in the model. On the one hand, a mild case might be more likely to go unnoticed than a severe case, potentially leading to a higher outbreak risk. On the other hand, mild infections may generate fewer secondary cases than severe infections, thereby decreasing the outbreak risk. Complex interactions may therefore affect the risk of sustained transmission in an unpredictable fashion.",
+            "Despite the necessary simplifications made in this study, our analyses are sufficient to demonstrate the key principle that rigorous surveillance is important to minimise the risk of the 2019-nCoV generating large outbreaks in countries worldwide. We therefore support the ongoing work of the World Health Organization and policy makers from around the world, who are working with researchers and public health experts to manage this outbreak [<a class=\"ref-link\" id=\"c2\" href=\"#r2\">2</a>]. We also appreciate efforts to make data publicly available [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. Careful analysis of the outbreak, as well as minimisation of transmission risk as much as possible, is of clear public health importance."
+        ],
+        "Supplementary": [
+            "Materials: The following are available online at http://www.mdpi.com/2077-0383/9/2/498/s1.",
+            "Funding: This research was funded by Christ Church, Oxford, via a Junior Research Fellowship."
+        ],
+        "Acknowledgments": [
+            "Thank you to Sebastian Funk, Christophe Fraser, Uri Obolski, David Steinsaltz and the anonymous reviewers for helpful comments about the original version of this manuscript.",
+            "Conflicts of Interest: The author declares no conflict of interest."
+        ],
+        "References": [
+            "1. Hui, D.S.; Azhar, E.I.; Madani, T.A.; Ntoumi, F.; Kock, R.; Dar, O.; Ippolito, G.; Mchugh, T.D.; Memish, Z.A.; Drosten, C.; et al The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China. Int. J. Infect. Dis. 2020, 91, 264\u2013266. [CrossRef] [PubMed]",
+            "2. World Health Organization. Novel Coronavirus (2019-nCoV); Situation Report 3; 2020. Available online: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports (accessed on 25 January 2020).",
+            "3. Imai, N.; Dorigatti, I.; Cori, A.; Riley, S.; Ferguson, N.M. Report 1: Estimating the Potential Total Number of Novel Coronavirus (2019-nCoV) Cases in Wuhan City, China. 2020. Available online: https://www.imperial. ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/ (accessed on 23 January 2020).",
+            "4. Chan, J.F.W.; Yuan, S.; Kok, K.H.; To, K.K.W.; Chu, H.; Yang, J.; Xing, F.; Liu, J.; Chik-Yan Yip, C.; Wing-Shan Poon, R.; et al A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: A study of a family cluster. Lancet 2020, 6736, 1\u201310. [CrossRef]",
+            "5. Nishiura, H.; Jung, S.M.; Linton, N.M.; Kinoshita, R.; Yang, Y.; Hayashi, K.; Kobayashi, T.; Yuan, B.; Akhmetzhanov, A.R. The extent of transmission of novel coronavirus in Wuhan, China, 2020. J. Clin. Med. 2020, 9, 330. [CrossRef]",
+            "6. Wu, P.; Hao, X.; Lau, E.H.Y.; Wong, J.Y.; Leung, K.S.M.; Wu, J.T.; Cowling, B.J.; Leung, G.M. Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. Eurosurveillance 2020, 25, 2000044. [CrossRef]",
+            "7. Imai, N.; Cori, A.; Dorigatti, I.; Baguelin, M.; Donnelly, C.A.; Riley, S.; Ferguson, N.M. Report 3: Transmissibility of 2019-nCoV. 2020. Available online: https://www.imperial.ac.uk/media/imperial-college/ medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf (accessed on 26 January 2020).",
+            "8. Lipsitch, M.; Donnelly, C.A.; Fraser, C.; Blake, I.M.; Cori, A.; Dorigatti, I.; Ferguson, N.M.; Garske, T.; Mills, H.L.; Riley, S.; et al Potential Biases in estimating absolute and relative case-fatality risks during outbreaks. PLoS Negl. Trop. Dis. 2015, 16, e0003846. [CrossRef]",
+            "9. Ghani, A.C.; Donnelly, C.A.; Cox, D.R.; Griffin, J.T.; Fraser, C.; Lam, T.H.; Ho, L.M.; Chan, W.S.; Anderson, R.M.; Hedley, A.J.; et al Methods for estimating the case fatality ratio for a novel, emerging infectious disease. Am. J. Epidemiol. 2005, 162, 479\u2013486. [CrossRef]",
+            "10. BBC. China Coronavirus: UK Tracing up to 2000 Wuhan Visitors. 2020. Available online: https://www.bbc. co.uk/news/uk-51232163 (accessed on 24 January 2020).",
+            "11. Tatem, A.J.; Rogers, D.J.; Hay, S.I. Global Transport Networks and Infectious Disease Spread. Adv. Parasitol. 2006, 62, 293\u2013343.",
+            "12. Thompson, R.N.; Thompson, C.; Pelerman, O.; Gupta, S.; Obolski, U. Increased frequency of travel in the presence of cross-immunity may act to decrease the chance of a global pandemic. Philos. Trans. R. Soc. B 2019, 374, 20180274. [CrossRef]",
+            "13. Cohen, J.; Normile, D. New SARS-like virus in China triggers alarm. Science 2020, 367, 234\u2013235. [CrossRef] 14. Parry, J. SARS virus identified, but the disease is still spreading. Br. Med. J. 2003, 326, 897. [CrossRef] 15. Kraemer, M.; Pigott, D.; Xu, B.; Hill, S.; Gutierrez, B.; Pybus, O. Epidemiological Data from the nCoV-2019 Outbreak: Early Descriptions from Publicly Available Data. 2020. Available online: http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-early-descriptions-frompublicly-available-data/ (accessed on 23 January 2020). 16. Thompson, R.N.; Stockwin, J.E.; Gaalen, R.D.; Van Polonsky, J.A.; Kamvar, Z.N.; Demarsh, P.A.; Dahlqwist, E.; Li, S.; Miguel, E.; Jombart, T.; et al Improved inference of time-varying reproduction numbers during infectious disease outbreaks. Epidemics 2019, 19, 100356. [CrossRef] [PubMed] 17. Lloyd, A.L.; Zhang, J.; Root, A.M. Stochasticity and heterogeneity in host-vector models. J. R. Soc. Interface 2007, 4, 851\u2013863. [CrossRef] [PubMed] 18. Allen, L.J.S.; Lahodny, G.E. Extinction thresholds in deterministic and stochastic epidemic models. J. Biol. Dyn. 2012, 6, 590\u2013611. [CrossRef] [PubMed] 19. Thompson, R.N.; Gilligan, C.A.; Cunniffe, N.J. Detecting presymptomatic infection is necessary to forecast major epidemics in the earliest stages of infectious disease outbreaks. PLoS Comput. Biol. 2016, 12, e1004836. [CrossRef] [PubMed] 20. Thompson, R.N.; Jalava, K.; Obolski, U. Sustained transmission of Ebola in new locations: More likely than previously thought. Lancet Infect. Dis. 2019, 19, 1058\u20131059. [CrossRef] 21. Wallinga, J.; Teunis, P. Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures. Am. J. Epidemiol. 2004, 160, 509\u2013516. [CrossRef] 22. Feng, D.; Jia, N.; Fang, L.Q.; Richardus, J.H.; Han, X.N.; Cao, W.C.; De Vlas, S.J. Duration of symptom onset to hospital admission and admission to discharge or death in SARS in mainland China: A descriptive study. Trop. Med. Int. Heal. 2009, 14, 28\u201335. [CrossRef] 23. Bogoch, I.I.; Watts, A.; Thomas-Bachli, A.; Huber, C.; Kraemer, M.U.G.; Khan, K. Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel. J. Travel Med. 2020, 1, taaa008. [CrossRef] 24. Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X.; et al Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020, 6736, 1\u201310. [CrossRef] 25. Thompson, R.N. Pandemic potential of 2019-nCoV. Lancet Infect. Dis. 2020, 20, 30068. [CrossRef] 26. Fraser, C.; Riley, S.; Anderson, R.M.; Ferguson, N.M. Factors that make an infectious disease outbreak controllable. Proc. Natl. Acad. Sci. USA 2004, 101, 6146\u20136151. [CrossRef] [PubMed]",
+            "27. Kupferschmidt, K. Study Claiming New Coronavirus Can be Transmitted by People without Symptoms Was Flawed. Available online: https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patienttransmitting-coronavirus-wrong (accessed on 4 February 2020).",
+            "28. Donnelly, C.A.; Ghani, A.C.; Leung, G.M.; Hedley, A.J.; Fraser, C.; Riley, S.; Abu-Raddad, L.J.; Ho, L.M.; Thach, T.Q.; Chau, P.; et al Epidemiological determinants of spread of causal agent of severe acute respiratory syndrome in Hong Kong. Lancet 2003, 361, 1761\u20131766. [CrossRef]",
+            "29. Lloyd-Smith, J.O.; Schreiber, S.J.; Kopp, P.E.; Getz, W.M. Superspreading and the effect of individual variation on disease emergence. Nature 2005, 438, 355\u2013359. [CrossRef] [PubMed]"
+        ]
+    },
+    "participants": [
+        {
+            "participant": "confirmed cases",
+            "number": 24500,
+            "context": ". <mark class=\"stats\">The outbreak of pneumonia originating in Wuhan, China, has generated 24,500 confirmed cases, including 492 deaths, as of 5 February 2020</mark>. The virus (2019-nCoV) has spread elsewhere in China and to 24 countries, including South Korea, Thailand, Japan and USA"
+        },
+        {
+            "participant": "patients",
+            "number": 47,
+            "context": "Here, we assess the risk of sustained transmission whenever the coronavirus arrives in other countries. <mark class=\"stats\">Data describing the times from symptom onset to hospitalisation for 47 patients infected early in the current outbreak are used to generate an estimate for the probability that an imported case is followed by sustained human-to-human transmission</mark>. Under the assumptions that the imported case is representative of the patients in China, and that the 2019-nCoV is similarly transmissible to the SARS coronavirus, the probability that an imported case is followed by sustained human-to-human transmission is 0.41 (credible interval [0.27, 0.55])"
+        },
+        {
+            "participant": "cases",
+            "number": 2,
+            "context": "Even countries without confirmed cases have been on high alert. <mark class=\"stats\">For example, even prior to the two cases in the United Kingdom on 31 January 2020, officials were reported to be attempting to trace as many as 2000 visitors that had travelled to that country from Wuhan [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]</mark>. The most devastating infectious disease outbreaks are those that have a wide geographical range, as opposed to being confined to a small region [<a class=\"ref-link\" id=\"c11\" href=\"#r11\">11</a>,<a class=\"ref-link\" id=\"c12\" href=\"#r12\">12</a>]"
+        },
+        {
+            "participant": "patients",
+            "number": 47,
+            "context": "Med. 2020, 9, 498. <mark class=\"stats\">Here, we present data describing the times from symptom onset to hospitalisation for 47 patients from the current outbreak, obtained from publicly available line lists [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]</mark>. We fit an exponential distribution to these data, accounting for uncertainty due to the limited numbers of patients from whom data were available"
+        },
+        {
+            "participant": "Number of imported cases",
+            "number": 10,
+            "context": "Prob(sustained transmission) Prob(sustained transmission) Prob(sustained transmission). <mark class=\"stats\">0 0 1 2 3 4 5 6 7 8 9 10 Number of imported cases</mark>. 0 0 1 2 3 4 5 6 7 8 9 10 Number of imported cases"
+        },
+        {
+            "participant": "Number of imported cases",
+            "number": 10,
+            "context": "0 0 1 2 3 4 5 6 7 8 9 10 Number of imported cases. <mark class=\"stats\">0 0 1 2 3 4 5 6 7 8 9 10 Number of imported cases</mark>. 0 0 1 2 3 4 5 6 7 8 9 10 Number of imported cases"
+        },
+        {
+            "participant": "Number of imported cases",
+            "number": 10,
+            "context": "0 0 1 2 3 4 5 6 7 8 9 10 Number of imported cases. <mark class=\"stats\">0 0 1 2 3 4 5 6 7 8 9 10 Number of imported cases</mark>. 4.pDericsecnutsisleioenstimates obtained when Equation (3) is applied"
+        },
+        {
+            "participant": "patients",
+            "number": 47,
+            "context": ". <mark class=\"stats\">The probability of a self-sustaining outbreak driven by human-to-human transmission arising following the importation of one infected individual. (A) Data describing the number of days between symptom onset and hospitalisation for 47 patients in the ongoing outbreak [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>]. (B) The estimated distribution of times between symptom onset and hospitalisation, obtained by fitting to the data shown in panel A. Blue lines show a range of equally possible distributions (see Methods; 50 distributions are shown here, selected at random from the n = 100,000 distributions considered), and the red line shows the average of the n = 100,000 distributions. (C) The probability of sustained transmission for each possible distribution of times from symptom onset to hospitalisation (Equation (1); blue histogram) and the probability of sustained transmission obtained by integrating over the possible distributions (Equation (2); red line). (D) The probability that a single imported case leads to sustained transmission in a new location, for different surveillance levels. The red line shows the mean estimates (obtained using Equation (2) but extended to account for intensified surveillance), and the blue dotted lines show the 5th and 95th percentile estimates (obtained when Equation (1) is applied, but extended to account for intensified surveillance)</mark>. The probability of a self-sustaining outbreak driven by human-to-human transmission arising Figfurorem2m. uTlhtiepleprinodbeapbeilnitdyenotfcaasesselifm-spuosrttaeidnitnoga noeuwtblroecaaktiodnr,ivuenndebrydihffuermenatns-utorv-heiullmanacne ltervaenlssm. (iAss)ion arisNinoginftreonmsifimcautilotinpolef siunrdveepilelanndceen(t\u03c1c=as0e)s. (iBm)pMoertdeidumtoleavenleowf sulorcvaetililoann,ceuinndteenrsdifiicffaetrioennt(\u03c1su=rv0e.2i5lla).nce lev(eCls). H(Aig)hNleovienltoefnsuifrivcaetiilloanncoef isnutrevnesifillcaantcioen( ( \u03c1==00).5(B).) TMhedgiruemy bleavrselanodf sruedrvdeoiltlsanshceowinthene smifeicaantion (  =est0im.25at)e.s(C(o)btHaiingehdluesvinelgoEfqsuuartivoenil(l4a)n),caendinttheenesrifriocrabtiaorns in( d  i=cat0e.5th).eT5htheagnrdey95btharpseracnendtirledesdtiomtastsehs ow"
+        }
+    ],
+    "statistics": [],
+    "keywords": [
+        "Markov chain Monte Carlo",
+        "2019-nCoV",
+        "sars coronavirus",
+        "sustained transmission",
+        "major outbreak",
+        "severe acute respiratory syndrome",
+        "fatality risk",
+        "sustained human",
+        "credible interval",
+        "mathematical modelling",
+        "infectious disease outbreak",
+        "human transmission",
+        "Infectious disease",
+        "coronavirus",
+        "pneumonia",
+        "symptom onset",
+        "Wuhan",
+        "SARS",
+        "intense surveillance",
+        "global pandemic",
+        "forecasting",
+        "infectious disease epidemiology",
+        "novel coronavirus outbreak"
+    ],
+    "keyword_relevance": {
+        "sustained transmission": 0.21341463414634146,
+        "symptom onset": 0.15853658536585366,
+        "2019-nCoV": 0.10975609756097561,
+        "coronavirus": 0.0975609756097561,
+        "SARS": 0.09146341463414634,
+        "Wuhan": 0.07317073170731707,
+        "credible interval": 0.04878048780487805,
+        "human transmission": 0.042682926829268296,
+        "Markov chain Monte Carlo": 0.024390243902439025,
+        "sustained human": 0.024390243902439025,
+        "infectious disease outbreak": 0.024390243902439025,
+        "pneumonia": 0.018292682926829267,
+        "severe acute respiratory syndrome": 0.012195121951219513,
+        "fatality risk": 0.012195121951219513,
+        "global pandemic": 0.012195121951219513,
+        "major outbreak": 0.006097560975609756,
+        "mathematical modelling": 0.006097560975609756,
+        "intense surveillance": 0.006097560975609756,
+        "forecasting": 0.006097560975609756,
+        "infectious disease epidemiology": 0.006097560975609756,
+        "novel coronavirus outbreak": 0.006097560975609756,
+        "sars coronavirus": 0.0,
+        "Infectious disease": 0.0
+    },
+    "species": [],
+    "summary": [
+        "The infectious agent driving the ongoing pneumonia outbreak appears to have transitioned from animals into humans, with the Huanan seafood wholesale market in Wuhan, China, representing the most likely source [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+        "Assuming that this distribution characterises the time spent by infected hosts generating new transmissions in the community, it is possible to infer the probability that a case arriving in a new location is followed by an outbreak driven by sustained human-to-human transmission.",
+        "The authors estimate this probability under the assumption that the transmissibility of the 2019-nCoV is similar to that of the SARS coronavirus, and go on to consider the effect of shortening the mean time from symptom onset to hospitalisation.",
+        "This provides an estimate of the risk that imported cases generate sustained outbreaks in new locations under different surveillance levels.",
+        "The distribution of times from symptom onset to hospitalisation was estimated using patient data from the ongoing outbreak [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+        "The distributions of times from symptom onset to hospitalisation were used to estimate the probability that an imported case will lead to sustained transmission, by assuming that infections occur according to a branching process (e.g., [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>\u2013<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]).",
+        "The probability of a sustained transmission chain [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] starting from a single index case can be estimated for each of the possible distributions for the time from symptom onset to hospitalisation, Prob(sustained transmission",
+        "To include intensified surveillance in these estimates, the authors replaced the mean time from symptom onset to hospitalisation for each of the plausible distributions, 1/\u03b3i, by the modified expression (1 \u2212 \u03c1)/\u03b3i.",
+        "If surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only 0.012 (CrI [0, 0.099]; Figure 1D).",
+        "If surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only",
+        "According to the basic model that the authors have constructed, if surveillance levels are similar to those in China at the beginning of the current outbreak, and if this virus is transmissible to the SARS coronavirus that spread globally in 2002\u20132003, the probability that each imported infected case generates an outbreak due to sustained transmission is approximately 0.41 (CrI [0.27, 0.55]; Figure 1C).",
+        "It might be expected that the time from symptom onset to hospitalisation or isolation will decrease, leading to lower risks of sustained transmission, as has been observed for outbreaks of other diseases."
+    ],
+    "structured_summary": {
+        "Introduction": [
+            "The infectious agent driving the ongoing pneumonia outbreak appears to have transitioned from animals into humans, with the Huanan seafood wholesale market in Wuhan, China, representing the most likely source [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>].",
+            "Assuming that this distribution characterises the time spent by infected hosts generating new transmissions in the community, it is possible to infer the probability that a case arriving in a new location is followed by an outbreak driven by sustained human-to-human transmission."
+        ],
+        "Results": [
+            "The authors estimate this probability under the assumption that the transmissibility of the 2019-nCoV is similar to that of the SARS coronavirus, and go on to consider the effect of shortening the mean time from symptom onset to hospitalisation.",
+            "This provides an estimate of the risk that imported cases generate sustained outbreaks in new locations under different surveillance levels.",
+            "The distribution of times from symptom onset to hospitalisation was estimated using patient data from the ongoing outbreak [<a class=\"ref-link\" id=\"c15\" href=\"#r15\">15</a>].",
+            "The distributions of times from symptom onset to hospitalisation were used to estimate the probability that an imported case will lead to sustained transmission, by assuming that infections occur according to a branching process (e.g., [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>\u2013<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>]).",
+            "The probability of a sustained transmission chain [<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>,<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>] starting from a single index case can be estimated for each of the possible distributions for the time from symptom onset to hospitalisation, Prob(sustained transmission",
+            "To include intensified surveillance in these estimates, the authors replaced the mean time from symptom onset to hospitalisation for each of the plausible distributions, 1/\u03b3i, by the modified expression (1 \u2212 \u03c1)/\u03b3i.",
+            "If surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only 0.012 (CrI [0, 0.099]; Figure 1D).",
+            "If surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only"
+        ],
+        "Conclusion": [
+            "According to the basic model that the authors have constructed, if surveillance levels are similar to those in China at the beginning of the current outbreak, and if this virus is transmissible to the SARS coronavirus that spread globally in 2002\u20132003, the probability that each imported infected case generates an outbreak due to sustained transmission is approximately 0.41 (CrI [0.27, 0.55]; Figure 1C).",
+            "It might be expected that the time from symptom onset to hospitalisation or isolation will decrease, leading to lower risks of sustained transmission, as has been observed for outbreaks of other diseases."
+        ]
+    },
+    "reference_links": [
+        {
+            "id": "1",
+            "alt_id": "Hui_et+al_2019_a",
+            "entry": "1. Hui, D.S.; Azhar, E.I.; Madani, T.A.; Ntoumi, F.; Kock, R.; Dar, O.; Ippolito, G.; Mchugh, T.D.; Memish, Z.A.; Drosten, C.; et al. The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health\u2014The latest 2019 novel coronavirus outbreak in Wuhan, China. Int. J. Infect. Dis. 2020, 91, 264\u2013266. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Hui%20DS%20Azhar%20EI%20Madani%20TA%20Ntoumi%20F%20Kock%20R%20Dar%20O%20Ippolito%20G%20Mchugh%20TD%20Memish%20ZA%20Drosten%20C%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%202020%2091%20264266%20CrossRef%20PubMed",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Hui%20DS%20Azhar%20EI%20Madani%20TA%20Ntoumi%20F%20Kock%20R%20Dar%20O%20Ippolito%20G%20Mchugh%20TD%20Memish%20ZA%20Drosten%20C%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%202020%2091%20264266%20CrossRef%20PubMed",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Hui%20DS%20Azhar%20EI%20Madani%20TA%20Ntoumi%20F%20Kock%20R%20Dar%20O%20Ippolito%20G%20Mchugh%20TD%20Memish%20ZA%20Drosten%20C%20et%20al%20The%20continuing%202019nCoV%20epidemic%20threat%20of%20novel%20coronaviruses%20to%20global%20healthThe%20latest%202019%20novel%20coronavirus%20outbreak%20in%20Wuhan%20China%20Int%20J%20Infect%20Dis%202020%2091%20264266%20CrossRef%20PubMed"
+        },
+        {
+            "id": "2",
+            "alt_id": "Organization_2019_a",
+            "entry": "2. World Health Organization. Novel Coronavirus (2019-nCoV); Situation Report 3; 2020. Available online: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports (accessed on 25 January 2020).",
+            "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports"
+        },
+        {
+            "id": "3",
+            "alt_id": "Imai_et+al_2019_a",
+            "entry": "3. Imai, N.; Dorigatti, I.; Cori, A.; Riley, S.; Ferguson, N.M. Report 1: Estimating the Potential Total Number of Novel Coronavirus (2019-nCoV) Cases in Wuhan City, China. 2020. Available online: https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/ (accessed on 23 January 2020).",
+            "url": "https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Imai%2C%20N.%20Dorigatti%2C%20I.%20Cori%2C%20A.%20Riley%2C%20S.%20Report%201%3A%20Estimating%20the%20Potential%20Total%20Number%20of%20Novel%20Coronavirus%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Imai%2C%20N.%20Dorigatti%2C%20I.%20Cori%2C%20A.%20Riley%2C%20S.%20Report%201%3A%20Estimating%20the%20Potential%20Total%20Number%20of%20Novel%20Coronavirus%202019"
+        },
+        {
+            "id": "4",
+            "alt_id": "Chan_et+al_2019_a",
+            "entry": "4. Chan, J.F.W.; Yuan, S.; Kok, K.H.; To, K.K.W.; Chu, H.; Yang, J.; Xing, F.; Liu, J.; Chik-Yan Yip, C.; Wing-Shan Poon, R.; et al. A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: A study of a family cluster. Lancet 2020, 6736, 1\u201310. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Chan%20JFW%20Yuan%20S%20Kok%20KH%20To%20KKW%20Chu%20H%20Yang%20J%20Xing%20F%20Liu%20J%20ChikYan%20Yip%20C%20WingShan%20Poon%20R%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20A%20study%20of%20a%20family%20cluster%20Lancet%202020%206736%20110%20CrossRef",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Chan%20JFW%20Yuan%20S%20Kok%20KH%20To%20KKW%20Chu%20H%20Yang%20J%20Xing%20F%20Liu%20J%20ChikYan%20Yip%20C%20WingShan%20Poon%20R%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20A%20study%20of%20a%20family%20cluster%20Lancet%202020%206736%20110%20CrossRef",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Chan%20JFW%20Yuan%20S%20Kok%20KH%20To%20KKW%20Chu%20H%20Yang%20J%20Xing%20F%20Liu%20J%20ChikYan%20Yip%20C%20WingShan%20Poon%20R%20et%20al%20A%20familial%20cluster%20of%20pneumonia%20associated%20with%20the%202019%20novel%20coronavirus%20indicating%20persontoperson%20transmission%20A%20study%20of%20a%20family%20cluster%20Lancet%202020%206736%20110%20CrossRef"
+        },
+        {
+            "id": "5",
+            "alt_id": "Nishiura_et+al_2020_a",
+            "entry": "5. Nishiura, H.; Jung, S.M.; Linton, N.M.; Kinoshita, R.; Yang, Y.; Hayashi, K.; Kobayashi, T.; Yuan, B.; Akhmetzhanov, A.R. The extent of transmission of novel coronavirus in Wuhan, China, 2020. J. Clin. Med. 2020, 9, 330. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Nishiura%20H%20Jung%20SM%20Linton%20NM%20Kinoshita%20R%20Yang%20Y%20Hayashi%20K%20Kobayashi%20T%20Yuan%20B%20Akhmetzhanov%20AR%20The%20extent%20of%20transmission%20of%20novel%20coronavirus%20in%20Wuhan%20China%202020%20J%20Clin%20Med%202020%209%20330%20CrossRef",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Nishiura%20H%20Jung%20SM%20Linton%20NM%20Kinoshita%20R%20Yang%20Y%20Hayashi%20K%20Kobayashi%20T%20Yuan%20B%20Akhmetzhanov%20AR%20The%20extent%20of%20transmission%20of%20novel%20coronavirus%20in%20Wuhan%20China%202020%20J%20Clin%20Med%202020%209%20330%20CrossRef",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Nishiura%20H%20Jung%20SM%20Linton%20NM%20Kinoshita%20R%20Yang%20Y%20Hayashi%20K%20Kobayashi%20T%20Yuan%20B%20Akhmetzhanov%20AR%20The%20extent%20of%20transmission%20of%20novel%20coronavirus%20in%20Wuhan%20China%202020%20J%20Clin%20Med%202020%209%20330%20CrossRef"
+        },
+        {
+            "id": "6",
+            "alt_id": "Wu_et+al_2000_a",
+            "entry": "6. Wu, P.; Hao, X.; Lau, E.H.Y.; Wong, J.Y.; Leung, K.S.M.; Wu, J.T.; Cowling, B.J.; Leung, G.M. Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. Eurosurveillance 2020, 25, 2000044. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wu%20P%20Hao%20X%20Lau%20EHY%20Wong%20JY%20Leung%20KSM%20Wu%20JT%20Cowling%20BJ%20Leung%20GM%20Realtime%20tentative%20assessment%20of%20the%20epidemiological%20characteristics%20of%20novel%20coronavirus%20infections%20in%20Wuhan%20China%20as%20at%2022%20January%202020%20Eurosurveillance%202020%2025%202000044%20CrossRef",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wu%20P%20Hao%20X%20Lau%20EHY%20Wong%20JY%20Leung%20KSM%20Wu%20JT%20Cowling%20BJ%20Leung%20GM%20Realtime%20tentative%20assessment%20of%20the%20epidemiological%20characteristics%20of%20novel%20coronavirus%20infections%20in%20Wuhan%20China%20as%20at%2022%20January%202020%20Eurosurveillance%202020%2025%202000044%20CrossRef",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wu%20P%20Hao%20X%20Lau%20EHY%20Wong%20JY%20Leung%20KSM%20Wu%20JT%20Cowling%20BJ%20Leung%20GM%20Realtime%20tentative%20assessment%20of%20the%20epidemiological%20characteristics%20of%20novel%20coronavirus%20infections%20in%20Wuhan%20China%20as%20at%2022%20January%202020%20Eurosurveillance%202020%2025%202000044%20CrossRef"
+        },
+        {
+            "id": "7",
+            "alt_id": "Imai_et+al_0000_a",
+            "entry": "7. Imai, N.; Cori, A.; Dorigatti, I.; Baguelin, M.; Donnelly, C.A.; Riley, S.; Ferguson, N.M. Report 3: Transmissibility of 2019-nCoV. 2020. Available online: https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf (accessed on 26 January 2020).",
+            "url": "https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf"
+        },
+        {
+            "id": "8",
+            "alt_id": "Lipsitch_et+al_2015_a",
+            "entry": "8. Lipsitch, M.; Donnelly, C.A.; Fraser, C.; Blake, I.M.; Cori, A.; Dorigatti, I.; Ferguson, N.M.; Garske, T.; Mills, H.L.; Riley, S.; et al. Potential Biases in estimating absolute and relative case-fatality risks during outbreaks. PLoS Negl. Trop. Dis. 2015, 16, e0003846. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lipsitch%2C%20M.%20Donnelly%2C%20C.A.%20Fraser%2C%20C.%20Blake%2C%20I.M.%20Potential%20Biases%20in%20estimating%20absolute%20and%20relative%20case-fatality%20risks%20during%20outbreaks%202015",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lipsitch%2C%20M.%20Donnelly%2C%20C.A.%20Fraser%2C%20C.%20Blake%2C%20I.M.%20Potential%20Biases%20in%20estimating%20absolute%20and%20relative%20case-fatality%20risks%20during%20outbreaks%202015",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lipsitch%2C%20M.%20Donnelly%2C%20C.A.%20Fraser%2C%20C.%20Blake%2C%20I.M.%20Potential%20Biases%20in%20estimating%20absolute%20and%20relative%20case-fatality%20risks%20during%20outbreaks%202015"
+        },
+        {
+            "id": "9",
+            "alt_id": "Ghani_et+al_2005_a",
+            "entry": "9. Ghani, A.C.; Donnelly, C.A.; Cox, D.R.; Griffin, J.T.; Fraser, C.; Lam, T.H.; Ho, L.M.; Chan, W.S.; Anderson, R.M.; Hedley, A.J.; et al. Methods for estimating the case fatality ratio for a novel, emerging infectious disease. Am. J. Epidemiol. 2005, 162, 479\u2013486. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Ghani%2C%20A.C.%20Donnelly%2C%20C.A.%20Cox%2C%20D.R.%20Griffin%2C%20J.T.%20Methods%20for%20estimating%20the%20case%20fatality%20ratio%20for%20a%20novel%2C%20emerging%20infectious%20disease%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Ghani%2C%20A.C.%20Donnelly%2C%20C.A.%20Cox%2C%20D.R.%20Griffin%2C%20J.T.%20Methods%20for%20estimating%20the%20case%20fatality%20ratio%20for%20a%20novel%2C%20emerging%20infectious%20disease%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Ghani%2C%20A.C.%20Donnelly%2C%20C.A.%20Cox%2C%20D.R.%20Griffin%2C%20J.T.%20Methods%20for%20estimating%20the%20case%20fatality%20ratio%20for%20a%20novel%2C%20emerging%20infectious%20disease%202005"
+        },
+        {
+            "id": "10",
+            "alt_id": "10._2000_a",
+            "entry": "10. BBC. China Coronavirus: UK Tracing up to 2000 Wuhan Visitors. 2020. Available online: https://www.bbc.co.uk/news/uk-51232163 (accessed on 24 January 2020).",
+            "url": "https://www.bbc.co.uk/news/uk-51232163"
+        },
+        {
+            "id": "11",
+            "alt_id": "Tatem_et+al_2006_a",
+            "entry": "11. Tatem, A.J.; Rogers, D.J.; Hay, S.I. Global Transport Networks and Infectious Disease Spread. Adv. Parasitol. 2006, 62, 293\u2013343.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Tatem%20AJ%20Rogers%20DJ%20Hay%20SI%20Global%20Transport%20Networks%20and%20Infectious%20Disease%20Spread%20Adv%20Parasitol%202006%2062%20293343",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Tatem%20AJ%20Rogers%20DJ%20Hay%20SI%20Global%20Transport%20Networks%20and%20Infectious%20Disease%20Spread%20Adv%20Parasitol%202006%2062%20293343",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Tatem%20AJ%20Rogers%20DJ%20Hay%20SI%20Global%20Transport%20Networks%20and%20Infectious%20Disease%20Spread%20Adv%20Parasitol%202006%2062%20293343"
+        },
+        {
+            "id": "12",
+            "alt_id": "Thompson_et+al_2019_a",
+            "entry": "12. Thompson, R.N.; Thompson, C.; Pelerman, O.; Gupta, S.; Obolski, U. Increased frequency of travel in the presence of cross-immunity may act to decrease the chance of a global pandemic. Philos. Trans. R. Soc. B 2019, 374, 20180274. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thompson%2C%20R.N.%20Thompson%2C%20C.%20Pelerman%2C%20O.%20Gupta%2C%20S.%20Increased%20frequency%20of%20travel%20in%20the%20presence%20of%20cross-immunity%20may%20act%20to%20decrease%20the%20chance%20of%20a%20global%20pandemic%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thompson%2C%20R.N.%20Thompson%2C%20C.%20Pelerman%2C%20O.%20Gupta%2C%20S.%20Increased%20frequency%20of%20travel%20in%20the%20presence%20of%20cross-immunity%20may%20act%20to%20decrease%20the%20chance%20of%20a%20global%20pandemic%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thompson%2C%20R.N.%20Thompson%2C%20C.%20Pelerman%2C%20O.%20Gupta%2C%20S.%20Increased%20frequency%20of%20travel%20in%20the%20presence%20of%20cross-immunity%20may%20act%20to%20decrease%20the%20chance%20of%20a%20global%20pandemic%202019"
+        },
+        {
+            "id": "13",
+            "alt_id": "Cohen_2003_a",
+            "entry": "13. Cohen, J.; Normile, D. New SARS-like virus in China triggers alarm. Science 2020, 367, 234\u2013235. [CrossRef] 14. Parry, J. SARS virus identified, but the disease is still spreading. Br. Med. J. 2003, 326, 897. [CrossRef] 15.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Cohen%2C%20J.%20Normile%2C%20D.%20New%20SARS-like%20virus%20in%20China%20triggers%20alarm%202003"
+        },
+        {
+            "id": "Kraemer_et+al_0000_a",
+            "alt_id": "14",
+            "entry": "Kraemer, M.; Pigott, D.; Xu, B.; Hill, S.; Gutierrez, B.; Pybus, O. Epidemiological Data from the nCoV-2019 Outbreak: Early Descriptions from Publicly Available Data. 2020. Available online: http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-early-descriptions-frompublicly-available-data/ (accessed on 23 January 2020).",
+            "url": "http://virological.org/t/epidemiological-data-from-the-ncov-2019-outbreak-early-descriptions-frompublicly-available-data/"
+        },
+        {
+            "id": "16",
+            "alt_id": "Thompson_et+al_2019_b",
+            "entry": "16. Thompson, R.N.; Stockwin, J.E.; Gaalen, R.D.; Van Polonsky, J.A.; Kamvar, Z.N.; Demarsh, P.A.; Dahlqwist, E.; Li, S.; Miguel, E.; Jombart, T.; et al. Improved inference of time-varying reproduction numbers during infectious disease outbreaks. Epidemics 2019, 19, 100356. [CrossRef] [PubMed] 17. Lloyd, A.L.; Zhang, J.; Root, A.M. Stochasticity and heterogeneity in host-vector models. J. R. Soc. Interface 2007, 4, 851\u2013863. [CrossRef] [PubMed] 18.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thompson%2C%20R.N.%20Stockwin%2C%20J.E.%20Gaalen%2C%20R.D.%20Van%20Polonsky%2C%20J.A.%20Improved%20inference%20of%20time-varying%20reproduction%20numbers%20during%20infectious%20disease%20outbreaks%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thompson%2C%20R.N.%20Stockwin%2C%20J.E.%20Gaalen%2C%20R.D.%20Van%20Polonsky%2C%20J.A.%20Improved%20inference%20of%20time-varying%20reproduction%20numbers%20during%20infectious%20disease%20outbreaks%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thompson%2C%20R.N.%20Stockwin%2C%20J.E.%20Gaalen%2C%20R.D.%20Van%20Polonsky%2C%20J.A.%20Improved%20inference%20of%20time-varying%20reproduction%20numbers%20during%20infectious%20disease%20outbreaks%202019"
+        },
+        {
+            "id": "Allen_2012_a",
+            "alt_id": "16",
+            "entry": "Allen, L.J.S.; Lahodny, G.E. Extinction thresholds in deterministic and stochastic epidemic models. J. Biol. Dyn. 2012, 6, 590\u2013611. [CrossRef] [PubMed] 19.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Allen%2C%20L.J.S.%20Lahodny%2C%20G.E.%20Extinction%20thresholds%20in%20deterministic%20and%20stochastic%20epidemic%20models%202012",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Allen%2C%20L.J.S.%20Lahodny%2C%20G.E.%20Extinction%20thresholds%20in%20deterministic%20and%20stochastic%20epidemic%20models%202012",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Allen%2C%20L.J.S.%20Lahodny%2C%20G.E.%20Extinction%20thresholds%20in%20deterministic%20and%20stochastic%20epidemic%20models%202012"
+        },
+        {
+            "id": "Thompson_et+al_2016_a",
+            "alt_id": "17",
+            "entry": "Thompson, R.N.; Gilligan, C.A.; Cunniffe, N.J. Detecting presymptomatic infection is necessary to forecast major epidemics in the earliest stages of infectious disease outbreaks. PLoS Comput. Biol. 2016, 12, e1004836. [CrossRef] [PubMed] 20.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thompson%2C%20R.N.%20Gilligan%2C%20C.A.%20Cunniffe%2C%20N.J.%20Detecting%20presymptomatic%20infection%20is%20necessary%20to%20forecast%20major%20epidemics%20in%20the%20earliest%20stages%20of%20infectious%20disease%20outbreaks%202016",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thompson%2C%20R.N.%20Gilligan%2C%20C.A.%20Cunniffe%2C%20N.J.%20Detecting%20presymptomatic%20infection%20is%20necessary%20to%20forecast%20major%20epidemics%20in%20the%20earliest%20stages%20of%20infectious%20disease%20outbreaks%202016",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thompson%2C%20R.N.%20Gilligan%2C%20C.A.%20Cunniffe%2C%20N.J.%20Detecting%20presymptomatic%20infection%20is%20necessary%20to%20forecast%20major%20epidemics%20in%20the%20earliest%20stages%20of%20infectious%20disease%20outbreaks%202016"
+        },
+        {
+            "id": "Thompson_et+al_2019_c",
+            "alt_id": "18",
+            "entry": "Thompson, R.N.; Jalava, K.; Obolski, U. Sustained transmission of Ebola in new locations: More likely than previously thought. Lancet Infect. Dis. 2019, 19, 1058\u20131059. [CrossRef] 21.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thompson%2C%20R.N.%20Jalava%2C%20K.%20Obolski%2C%20U.%20Sustained%20transmission%20of%20Ebola%20in%20new%20locations%3A%20More%20likely%20than%20previously%20thought%202019",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thompson%2C%20R.N.%20Jalava%2C%20K.%20Obolski%2C%20U.%20Sustained%20transmission%20of%20Ebola%20in%20new%20locations%3A%20More%20likely%20than%20previously%20thought%202019",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thompson%2C%20R.N.%20Jalava%2C%20K.%20Obolski%2C%20U.%20Sustained%20transmission%20of%20Ebola%20in%20new%20locations%3A%20More%20likely%20than%20previously%20thought%202019"
+        },
+        {
+            "id": "Wallinga_2004_a",
+            "alt_id": "19",
+            "entry": "Wallinga, J.; Teunis, P. Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures. Am. J. Epidemiol. 2004, 160, 509\u2013516. [CrossRef] 22.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Wallinga%2C%20J.%20Teunis%2C%20P.%20Different%20epidemic%20curves%20for%20severe%20acute%20respiratory%20syndrome%20reveal%20similar%20impacts%20of%20control%20measures%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Wallinga%2C%20J.%20Teunis%2C%20P.%20Different%20epidemic%20curves%20for%20severe%20acute%20respiratory%20syndrome%20reveal%20similar%20impacts%20of%20control%20measures%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Wallinga%2C%20J.%20Teunis%2C%20P.%20Different%20epidemic%20curves%20for%20severe%20acute%20respiratory%20syndrome%20reveal%20similar%20impacts%20of%20control%20measures%202004"
+        },
+        {
+            "id": "Feng_et+al_2009_a",
+            "alt_id": "20",
+            "entry": "Feng, D.; Jia, N.; Fang, L.Q.; Richardus, J.H.; Han, X.N.; Cao, W.C.; De Vlas, S.J. Duration of symptom onset to hospital admission and admission to discharge or death in SARS in mainland China: A descriptive study. Trop. Med. Int. Heal. 2009, 14, 28\u201335. [CrossRef] 23.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Feng%2C%20D.%20Jia%2C%20N.%20Fang%2C%20L.Q.%20Richardus%2C%20J.H.%20Duration%20of%20symptom%20onset%20to%20hospital%20admission%20and%20admission%20to%20discharge%20or%20death%20in%20SARS%20in%20mainland%20China%3A%20A%20descriptive%20study%202009",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Feng%2C%20D.%20Jia%2C%20N.%20Fang%2C%20L.Q.%20Richardus%2C%20J.H.%20Duration%20of%20symptom%20onset%20to%20hospital%20admission%20and%20admission%20to%20discharge%20or%20death%20in%20SARS%20in%20mainland%20China%3A%20A%20descriptive%20study%202009",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Feng%2C%20D.%20Jia%2C%20N.%20Fang%2C%20L.Q.%20Richardus%2C%20J.H.%20Duration%20of%20symptom%20onset%20to%20hospital%20admission%20and%20admission%20to%20discharge%20or%20death%20in%20SARS%20in%20mainland%20China%3A%20A%20descriptive%20study%202009"
+        },
+        {
+            "id": "Bogoch_et+al_[CrossRef] 24._a",
+            "alt_id": "21",
+            "entry": "Bogoch, I.I.; Watts, A.; Thomas-Bachli, A.; Huber, C.; Kraemer, M.U.G.; Khan, K. Pneumonia of unknown etiology in Wuhan, China: Potential for international spread via commercial air travel. J. Travel Med. 2020, 1, taaa008. [CrossRef] 24.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%20%5BCrossRef%5D%2024.",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%20%5BCrossRef%5D%2024.",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Bogoch%2C%20I.I.%20Watts%2C%20A.%20Thomas-Bachli%2C%20A.%20Huber%2C%20C.%20Pneumonia%20of%20unknown%20etiology%20in%20Wuhan%2C%20China%3A%20Potential%20for%20international%20spread%20via%20commercial%20air%20travel%20%5BCrossRef%5D%2024."
+        },
+        {
+            "id": "Huang_et+al_2019_a",
+            "alt_id": "22",
+            "entry": "Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X.; et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020, 6736, 1\u201310. [CrossRef] 25.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Huang%20C%20Wang%20Y%20Li%20X%20Ren%20L%20Zhao%20J%20Hu%20Y%20Zhang%20L%20Fan%20G%20Xu%20J%20Gu%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%206736%20110%20CrossRef%2025",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Huang%20C%20Wang%20Y%20Li%20X%20Ren%20L%20Zhao%20J%20Hu%20Y%20Zhang%20L%20Fan%20G%20Xu%20J%20Gu%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%206736%20110%20CrossRef%2025",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Huang%20C%20Wang%20Y%20Li%20X%20Ren%20L%20Zhao%20J%20Hu%20Y%20Zhang%20L%20Fan%20G%20Xu%20J%20Gu%20X%20et%20al%20Clinical%20features%20of%20patients%20infected%20with%202019%20novel%20coronavirus%20in%20Wuhan%20China%20Lancet%202020%206736%20110%20CrossRef%2025"
+        },
+        {
+            "id": "Thompson_3006_a",
+            "alt_id": "23",
+            "entry": "Thompson, R.N. Pandemic potential of 2019-nCoV. Lancet Infect. Dis. 2020, 20, 30068. [CrossRef] 26.",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Thompson%20RN%20Pandemic%20potential%20of%202019nCoV%20Lancet%20Infect%20Dis%202020%2020%2030068%20CrossRef%2026",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Thompson%20RN%20Pandemic%20potential%20of%202019nCoV%20Lancet%20Infect%20Dis%202020%2020%2030068%20CrossRef%2026",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Thompson%20RN%20Pandemic%20potential%20of%202019nCoV%20Lancet%20Infect%20Dis%202020%2020%2030068%20CrossRef%2026"
+        },
+        {
+            "id": "Fraser_et+al_2004_a",
+            "alt_id": "24",
+            "entry": "Fraser, C.; Riley, S.; Anderson, R.M.; Ferguson, N.M. Factors that make an infectious disease outbreak controllable. Proc. Natl. Acad. Sci. USA 2004, 101, 6146\u20136151. [CrossRef] [PubMed]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Fraser%2C%20C.%20Riley%2C%20S.%20Anderson%2C%20R.M.%20Ferguson%2C%20N.M.%20Factors%20that%20make%20an%20infectious%20disease%20outbreak%20controllable%202004",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Fraser%2C%20C.%20Riley%2C%20S.%20Anderson%2C%20R.M.%20Ferguson%2C%20N.M.%20Factors%20that%20make%20an%20infectious%20disease%20outbreak%20controllable%202004",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Fraser%2C%20C.%20Riley%2C%20S.%20Anderson%2C%20R.M.%20Ferguson%2C%20N.M.%20Factors%20that%20make%20an%20infectious%20disease%20outbreak%20controllable%202004"
+        },
+        {
+            "id": "27",
+            "alt_id": "Kupferschmidt_0000_a",
+            "entry": "27. Kupferschmidt, K. Study Claiming New Coronavirus Can be Transmitted by People without Symptoms Was Flawed. Available online: https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patienttransmitting-coronavirus-wrong (accessed on 4 February 2020).",
+            "url": "https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patienttransmitting-coronavirus-wrong"
+        },
+        {
+            "id": "28",
+            "alt_id": "Donnelly_et+al_2003_a",
+            "entry": "28. Donnelly, C.A.; Ghani, A.C.; Leung, G.M.; Hedley, A.J.; Fraser, C.; Riley, S.; Abu-Raddad, L.J.; Ho, L.M.; Thach, T.Q.; Chau, P.; et al. Epidemiological determinants of spread of causal agent of severe acute respiratory syndrome in Hong Kong. Lancet 2003, 361, 1761\u20131766. [CrossRef]",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Donnelly%2C%20C.A.%20Ghani%2C%20A.C.%20Leung%2C%20G.M.%20Hedley%2C%20A.J.%20Epidemiological%20determinants%20of%20spread%20of%20causal%20agent%20of%20severe%20acute%20respiratory%20syndrome%20in%20Hong%20Kong%202003",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Donnelly%2C%20C.A.%20Ghani%2C%20A.C.%20Leung%2C%20G.M.%20Hedley%2C%20A.J.%20Epidemiological%20determinants%20of%20spread%20of%20causal%20agent%20of%20severe%20acute%20respiratory%20syndrome%20in%20Hong%20Kong%202003",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Donnelly%2C%20C.A.%20Ghani%2C%20A.C.%20Leung%2C%20G.M.%20Hedley%2C%20A.J.%20Epidemiological%20determinants%20of%20spread%20of%20causal%20agent%20of%20severe%20acute%20respiratory%20syndrome%20in%20Hong%20Kong%202003"
+        },
+        {
+            "id": "29",
+            "alt_id": "Lloyd-Smith_et+al_2005_a",
+            "entry": "29. Lloyd-Smith, J.O.; Schreiber, S.J.; Kopp, P.E.; Getz, W.M. Superspreading and the effect of individual variation on disease emergence. Nature 2005, 438, 355\u2013359. [CrossRef] [PubMed] ",
+            "scholar_url": "https://scholar.google.co.uk/scholar?q=Lloyd-Smith%2C%20J.O.%20Schreiber%2C%20S.J.%20Kopp%2C%20P.E.%20Getz%2C%20W.M.%20Superspreading%20and%20the%20effect%20of%20individual%20variation%20on%20disease%20emergence%202005",
+            "oa_query": "https://sandbox-api.scholarcy.com/oa_version?query=Lloyd-Smith%2C%20J.O.%20Schreiber%2C%20S.J.%20Kopp%2C%20P.E.%20Getz%2C%20W.M.%20Superspreading%20and%20the%20effect%20of%20individual%20variation%20on%20disease%20emergence%202005",
+            "scite": "https://sandbox-api.scholarcy.com/scite_url?query=Lloyd-Smith%2C%20J.O.%20Schreiber%2C%20S.J.%20Kopp%2C%20P.E.%20Getz%2C%20W.M.%20Superspreading%20and%20the%20effect%20of%20individual%20variation%20on%20disease%20emergence%202005"
+        }
+    ],
+    "facts": [
+        "The outbreak of pneumonia originating in Wuhan",
+        "the coronavirus arrives in other countries",
+        "Data describing the times from symptom onset to hospitalisation",
+        "early in the current outbreak are used to generate an estimate for the probability that an imported case is followed by sustained human-to-human transmission",
+        "the probability that an imported case is followed by sustained human-to-human transmission is",
+        "if the mean time from symptom onset to hospitalisation can be halved by intense surveillance",
+        "the probability that an imported case leads to sustained transmission is",
+        "the ongoing pneumonia outbreak appears to have transitioned from animals into humans",
+        "Since cases have been recorded in other countries",
+        "Even countries without confirmed cases have been on high alert",
+        "officials were reported to be attempting to trace as many as 2000 visitors",
+        "that had travelled to that country from Wuhan",
+        "The chain was sampled with a thinning interval of 100 steps",
+        "The average of these distributions is shown by the red line in Figure 1B",
+        "the full range of distributions in our calculations of the probability of sustained transmission occurring from each imported case",
+        "Each of the range of plausible distributions corresponded to an estimate for the probability",
+        "A single estimate for the probability of sustained transmission can be obtained by summing over the range of distributions using Equation",
+        "the time spent by infected hosts generating new transmissions in the community",
+        "possible to infer the probability that a case arriving in a new location is followed by an outbreak driven by sustained human-to-human transmission",
+        "The distributions of times from symptom onset to hospitalisation were used to estimate the probability that an imported case will lead to sustained transmission",
+        "that infections occur according to a branching process",
+        "the probability that each imported case leads to sustained transmission is reduced to",
+        "if this virus is transmissible to the SARS coronavirus",
+        "present data describing the times from symptom onset to hospitalisation",
+        "the virus arrives in a new location is denoted by R",
+        "the reduction in the probability that an imported case leads to sustained transmission if surveillance is more intense",
+        "the combined effect if multiple cases arrive in a new location"
+    ],
+    "claims": [
+        "We present data describing the times from symptom onset to hospitalisation for 47 patients from the current outbreak, obtained from publicly available line lists [15]",
+        "In this branching process, the effective reproduction number (accounting for control interventions, other than intensified surveillance which we model explicitly) of the 2019-nCoV when the virus arrives in a new location is denoted by R = \u03b2/\u03b3, where the parameter \u03b2 represents pathogen transmissibility [20]",
+        "We then considered the reduction in the probability that an imported case leads to sustained transmission if surveillance is more intense",
+        "We found that, if surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only 0.012 (CrI [0, 0.099]; Figure 1D)",
+        "We found that, if surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only",
+        "We considered the combined effect if multiple cases arrive in a new location"
+    ],
+    "findings": [],
+    "processes": [],
+    "key_statements": [
+        "Even prior to the two cases in the United Kingdom on 31 January 2020, officials were reported to be attempting to trace as many as 2000 visitors that had travelled to that country from Wuhan [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]",
+        "We fit an exponential distribution to these data, accounting for uncertainty due to the limited numbers of patients from whom data were available. Assuming that this distribution characterises the time spent by infected hosts generating new transmissions in the community, it is possible to infer the probability that a case arriving in a new location is followed by an outbreak driven by sustained human-to-human transmission",
+        "The distributions of times from symptom onset to hospitalisation were used to estimate the probability that an imported case will lead to sustained transmission, by assuming that infections occur according to a branching process (e.g., [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>\u2013<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>])",
+        "The effective reproduction number of the 2019-nCoV when the virus arrives in a new location is denoted by R = \u03b2/\u03b3, where the parameter \u03b2 represents pathogen transmissibility [<a class=\"ref-link\" id=\"c20\" href=\"#r20\">20</a>]",
+        "As described in Methods, the distribution of times between symptom onset and hospitalisation was estimated using Markov chain Monte Carlo (Figure 1B and Figure S1) from the patient data in Figure 1A. This gave rise to a range of plausible distributions describing these time periods. The average of these distributions is shown by the red line in Figure 1B, we used the full range of distributions in our calculations of the probability of sustained transmission occurring from each imported case",
+        "If surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only 0.012 (CrI [0, 0.099]; Figure 1D)",
+        "If surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only"
+    ],
+    "top_statements": [
+        "The infectious agent driving the ongoing pneumonia outbreak appears to have transitioned from animals into humans, with the Huanan seafood wholesale market in Wuhan, China, representing the most likely source [<a class=\"ref-link\" id=\"c1\" href=\"#r1\">1</a>\u2013<a class=\"ref-link\" id=\"c5\" href=\"#r5\">5</a>]",
+        "Even prior to the two cases in the United Kingdom on 31 January 2020, officials were reported to be attempting to trace as many as 2000 visitors that had travelled to that country from Wuhan [<a class=\"ref-link\" id=\"c10\" href=\"#r10\">10</a>]",
+        "We fit an exponential distribution to these data, accounting for uncertainty due to the limited numbers of patients from whom data were available. Assuming that this distribution characterises the time spent by infected hosts generating new transmissions in the community, it is possible to infer the probability that a case arriving in a new location is followed by an outbreak driven by sustained human-to-human transmission",
+        "The distributions of times from symptom onset to hospitalisation were used to estimate the probability that an imported case will lead to sustained transmission, by assuming that infections occur according to a branching process (e.g., [<a class=\"ref-link\" id=\"c17\" href=\"#r17\">17</a>\u2013<a class=\"ref-link\" id=\"c19\" href=\"#r19\">19</a>])",
+        "As described in Methods, the distribution of times between symptom onset and hospitalisation was estimated using Markov chain Monte Carlo (Figure 1B and Figure S1) from the patient data in Figure 1A. This gave rise to a range of plausible distributions describing these time periods. The average of these distributions is shown by the red line in Figure 1B, we used the full range of distributions in our calculations of the probability of sustained transmission occurring from each imported case",
+        "If surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only 0.012 (CrI [0, 0.099]; Figure 1D)"
+    ],
+    "headline": "If surveillance is intensified so that the mean time from symptom onset to hospitalisation is halved, the probability that each imported case leads to sustained transmission is reduced to only 0.012",
+    "contexts": [],
+    "abbreviations": {
+        "MCMC": "Markov chain Monte Carlo",
+        "CrI": "credible interval"
+    }
+}
