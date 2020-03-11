@@ -3,7 +3,7 @@ Dimensions, from Digital Science, are maintaing a spreadsheet of all COVID-19 re
 
 https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=1470772867
 
-This repository contains the JSON output from processing each DOI in this spreadsheet through the [Scholarcy API](https://sandbox-api.scholarcy.com/api/). Each DOI resolves either in a PDF (if open access), an abstract, a paywalled log-in page or a cookie notice! I have no way to determine which will be the case in advance, so the data is presented in its raw form. 
+This repository contains the JSON output from processing each DOI in this spreadsheet through the [Scholarcy API](https://sandbox-api.scholarcy.com/api/). Each DOI resolves either in a PDF (if open access), an abstract, a paywalled log-in page or a cookie notice! I have no way to determine which will be the case in advance, so the data is presented in its raw form. However, I have removed files below 1K in size, as these are stubs that typically identify unprocessable files.
 
 The JSON data structure is described in the table below:
 
